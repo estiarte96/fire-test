@@ -308,13 +308,16 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
           </button>
         </div>
 
-        {mode === 'exam' && (
+        {mode !== 'review-failed' && (
           <div style={{ marginBottom: 24 }}>
-            <label style={{ display: 'block', marginBottom: 8, color: 'var(--text-muted)', fontSize: 14 }}>Preguntes:</label>
+            <label style={{ display: 'block', marginBottom: 8, color: 'var(--text-muted)', fontSize: 14 }}>
+              {mode === 'exam' ? 'Nombre de preguntes de l\'examen:' : 'Nombre de preguntes a estudiar:'}
+            </label>
             <select value={examLength} onChange={e => setExamLength(e.target.value)}>
-              <option value="15">15 Preguntes curtes</option>
-              <option value="25">25 Preguntes mitjanes</option>
-              <option value="30">30 Preguntes llargues</option>
+              <option value="15">15 Preguntes (Sessió curta)</option>
+              <option value="25">25 Preguntes (Sessió mitjana)</option>
+              <option value="50">50 Preguntes (Sessió llarga)</option>
+              <option value="9999">Totes les preguntes</option>
             </select>
           </div>
         )}
@@ -373,6 +376,10 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({}); // For exam mode
   const [studyState, setStudyState] = useState(null); // 'correct', 'wrong', null
+  const [selectedOpt, setSelectedOpt] = useState(null);
+  const [studySummary, setStudySummary] = useState({ correct: 0, wrong: 0, isFinished: false });
+
+  const isExam = config.mode === 'exam';
 
   // Init
   useEffect(() => {
@@ -387,15 +394,64 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     
     if (config.mode === 'exam') {
       setQueue(pool.slice(0, config.length));
+    } else if (config.length && config.length > 0) {
+      setQueue(pool.slice(0, config.length));
     } else {
       setQueue(pool);
     }
   }, []);
 
-  if (!queue.length) return <div className="flex-center" style={{ height: '100vh' }}>Carregant...</div>;
+  if (!queue.length) {
+    return (
+      <div className="flex-center" style={{ height: '70vh', flexDirection: 'column', gap: 16 }}>
+        <p style={{ color: 'var(--text-muted)' }}>Carregant preguntes...</p>
+        <button onClick={onExit} style={{ padding: '10px 20px', borderRadius: 10, background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', cursor: 'pointer' }}>
+          Tornar a l'inici
+        </button>
+      </div>
+    );
+  }
+
+  // Study session completed screen
+  if (!isExam && studySummary.isFinished) {
+    return (
+      <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} style={{ textAlign: 'center', padding: '40px 20px' }}>
+        <div className="glass" style={{ padding: 32, maxWidth: 500, margin: '0 auto' }}>
+          <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Sessió d'Estudi Completada! 🎉</h2>
+          <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Has repassat totes les preguntes d'aquesta sessió.</p>
+          
+          <div style={{ display: 'flex', gap: 16, marginBottom: 24 }}>
+            <div style={{ flex: 1, background: 'rgba(0,0,0,0.2)', padding: 16, borderRadius: 12 }}>
+              <span style={{ display: 'block', fontSize: 24, fontWeight: 700, color: 'var(--success)' }}>{studySummary.correct}</span>
+              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Encerts</span>
+            </div>
+            <div style={{ flex: 1, background: 'rgba(0,0,0,0.2)', padding: 16, borderRadius: 12 }}>
+              <span style={{ display: 'block', fontSize: 24, fontWeight: 700, color: 'var(--error)' }}>{studySummary.wrong}</span>
+              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Errors</span>
+            </div>
+          </div>
+
+          <button 
+            onClick={onExit}
+            style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}
+          >
+            Tornar a l'Inici
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
 
   const q = queue[currentIndex];
-  const isExam = config.mode === 'exam';
+  if (!q) {
+    return (
+      <div className="flex-center" style={{ height: '70vh' }}>
+        <button onClick={onExit} style={{ padding: '12px 24px', borderRadius: 12, background: 'var(--primary)', border: 'none', color: 'white', cursor: 'pointer' }}>
+          Tornar a l'inici
+        </button>
+      </div>
+    );
+  }
 
   // Handling clicks
   const handleOptionClick = (opt) => {
@@ -404,6 +460,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     } else {
       if (studyState) return; // already answered
       
+      setSelectedOpt(opt);
       const theme = q.theme || 'Sense_Tema';
       const statsCopy = { ...userStats };
       if (!statsCopy[theme]) statsCopy[theme] = { correct: 0, wrong: 0 };
@@ -411,24 +468,17 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
 
       if (opt === q.correct) {
         setStudyState('correct');
+        setStudySummary(prev => ({ ...prev, correct: prev.correct + 1 }));
         statsCopy[theme].correct++;
         // Remove from failed list if correct
         statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== q.id);
       } else {
         setStudyState('wrong');
+        setStudySummary(prev => ({ ...prev, wrong: prev.wrong + 1 }));
         statsCopy[theme].wrong++;
         // Add to failed list if wrong
         if (!statsCopy._failedIds.includes(q.id)) {
           statsCopy._failedIds.push(q.id);
-        }
-        
-        // push to back soon (only if not strictly in review mode where we might just want to move on)
-        if (config.mode !== 'review-failed') {
-          const newQueue = [...queue];
-          const failed = newQueue.shift();
-          newQueue.splice(Math.min(3, newQueue.length), 0, failed);
-          setQueue(newQueue);
-          setCurrentIndex(currentIndex - 1); // offset shift
         }
       }
       onSaveStats(statsCopy);
@@ -436,8 +486,13 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
   };
 
   const nextStudy = () => {
-    setStudyState(null);
-    setCurrentIndex(prev => prev + 1);
+    if (currentIndex + 1 < queue.length) {
+      setStudyState(null);
+      setSelectedOpt(null);
+      setCurrentIndex(prev => prev + 1);
+    } else {
+      setStudySummary(prev => ({ ...prev, isFinished: true }));
+    }
   };
 
   const finishExam = () => {
@@ -445,23 +500,21 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     const statsCopy = { ...userStats };
     if (!statsCopy._failedIds) statsCopy._failedIds = [];
 
-    queue.forEach(q => {
-      const t = q.theme || 'Sense_Tema';
+    queue.forEach(item => {
+      const t = item.theme || 'Sense_Tema';
       if (!statsCopy[t]) statsCopy[t] = { correct: 0, wrong: 0 };
       
-      const a = answers[q.id];
+      const a = answers[item.id];
       if (!a) blank++;
-      else if (a === q.correct) { 
+      else if (a === item.correct) { 
         correct++; 
         statsCopy[t].correct++;
-        // Remove from failed if it was there
-        statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== q.id);
+        statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== item.id);
       }
       else { 
         wrong++; 
         statsCopy[t].wrong++;
-        // Add to failed
-        if (!statsCopy._failedIds.includes(q.id)) statsCopy._failedIds.push(q.id);
+        if (!statsCopy._failedIds.includes(item.id)) statsCopy._failedIds.push(item.id);
       }
     });
 
@@ -479,30 +532,31 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
           <X size={20} />
         </button>
         <div style={{ flex: 1, height: 8, background: 'rgba(255,255,255,0.1)', borderRadius: 4, overflow: 'hidden' }}>
-          <div style={{ height: '100%', background: 'var(--primary)', width: `${(currentIndex / queue.length) * 100}%`, transition: 'width 0.3s' }} />
+          <div style={{ height: '100%', background: 'var(--primary)', width: `${((currentIndex + (studyState ? 1 : 0)) / queue.length) * 100}%`, transition: 'width 0.3s' }} />
         </div>
         <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-muted)' }}>
-          {isExam ? `${currentIndex + 1}/${queue.length}` : 'Estudi'}
+          {currentIndex + 1} / {queue.length}
         </span>
       </header>
 
       <div className="glass" style={{ padding: 24, marginBottom: 16 }}>
+        <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 600, marginBottom: 8, textTransform: 'uppercase', letterSpacing: 0.5 }}>
+          {q.theme}
+        </div>
         <h3 style={{ fontSize: 18, lineHeight: 1.5, marginBottom: 24, fontWeight: 500 }}>
           {q.statement}
         </h3>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
           {['A', 'B', 'C', 'D'].map(opt => {
-            if (!q.options[opt]) return null;
+            if (!q.options || !q.options[opt]) return null;
             
             let btnClass = "option-btn";
-            if (isExam && answers[q.id] === opt) btnClass += " selected";
-            
-            if (!isExam && studyState) {
+            if (isExam) {
+              if (answers[q.id] === opt) btnClass += " selected";
+            } else if (studyState) {
               if (opt === q.correct) btnClass += " correct";
-              else if (studyState === 'wrong' && answers[q.id] === opt) btnClass += " incorrect"; // oops we don't save answer id for study. We'll just show correct and let wrong be if they clicked it.
-              // Wait, to show red on the one they clicked, we should save it.
-              // I'll skip red styling if studyState unless I track the exact click. For simplicity, just highlight correct in green.
+              else if (opt === selectedOpt) btnClass += " incorrect";
             }
 
             return (
@@ -510,7 +564,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
                 <span className="option-letter">{opt}</span>
                 <span style={{ flex: 1 }}>{q.options[opt]}</span>
               </button>
-            )
+            );
           })}
         </div>
       </div>
@@ -522,9 +576,9 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
             {studyState === 'correct' ? <Check size={20} /> : <X size={20} />}
             <span style={{ fontWeight: 600 }}>{studyState === 'correct' ? 'Correcte!' : 'Incorrecte'}</span>
           </div>
-          <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16 }}>{q.explanation || 'Sense explicació.'}</p>
+          <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.5 }}>{q.explanation || 'Sense explicació addicional.'}</p>
           <button onClick={nextStudy} style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>
-            Continuar
+            {currentIndex + 1 === queue.length ? 'Finalitzar Sessió' : 'Següent Pregunta'}
           </button>
         </motion.div>
       )}
