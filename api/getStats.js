@@ -18,7 +18,7 @@ export default async function handler(request, response) {
     const stats = await db.get(`stats_${user}`);
     return response.status(200).json(stats || {});
   } catch (error) {
-    // If KV is not configured, it will throw. Return empty object as fallback.
-    return response.status(200).json({});
+    console.error('Database connection error:', error);
+    return response.status(500).json({ error: error.message });
   }
 }

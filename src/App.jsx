@@ -31,33 +31,48 @@ export default function App() {
       setSyncStatus('syncing');
       // Intentar carregar des del núvol primer
       fetch(`/api/getStats?user=${encodeURIComponent(user)}`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error('Error al connectar amb el núvol');
+          return res.json();
+        })
         .then(data => {
-          if (Object.keys(data).length > 0 && !data.error) {
-            if (!data._failedIds) data._failedIds = [];
-            setStats(data);
-            localStorage.setItem(`stats_${user}`, JSON.stringify(data));
+          if (data && !data.error) {
+            if (Object.keys(data).length > 0) {
+              if (!data._failedIds) data._failedIds = [];
+              setStats(data);
+              localStorage.setItem(`stats_${user}`, JSON.stringify(data));
+            } else {
+              // Connexió al núvol correcta, però sense dades prèvies
+              const saved = localStorage.getItem(`stats_${user}`);
+              if (saved) {
+                try {
+                  const parsed = JSON.parse(saved);
+                  if (!parsed._failedIds) parsed._failedIds = [];
+                  setStats(parsed);
+                  fetch('/api/saveStats', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user, stats: parsed })
+                  }).catch(() => {});
+                } catch (e) {}
+              }
+            }
             setSyncStatus('synced');
           } else {
-            // Fallback local
-            const saved = localStorage.getItem(`stats_${user}`);
-            if (saved) {
+            throw new Error(data?.error || 'Error desconegut');
+          }
+        })
+        .catch(err => {
+          console.warn('Fallback local per error de connexió:', err);
+          const saved = localStorage.getItem(`stats_${user}`);
+          if (saved) {
+            try {
               const parsed = JSON.parse(saved);
               if (!parsed._failedIds) parsed._failedIds = [];
               setStats(parsed);
-            }
-            setSyncStatus('offline');
+            } catch (e) {}
           }
-        })
-        .catch(() => {
-          // Fallback local per errors de xarxa o dev
-          const saved = localStorage.getItem(`stats_${user}`);
-          if (saved) {
-            const parsed = JSON.parse(saved);
-            if (!parsed._failedIds) parsed._failedIds = [];
-            setStats(parsed);
-          }
-          setSyncStatus('error');
+          setSyncStatus('offline');
         });
     }
   }, [user]);
