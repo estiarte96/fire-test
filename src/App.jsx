@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw } from 'lucide-react';
+import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw } from 'lucide-react';
 import './index.css';
 
 // Anim variants
@@ -145,6 +145,7 @@ export default function App() {
             onStart={(config) => setScreen({ name: 'quiz', config })} 
             onViewFailed={() => setScreen('failed')}
             onViewFavorites={() => setScreen('favorites')}
+            onViewSimulacre={() => setScreen('simulacre')}
           />
         )}
         {screen?.name === 'quiz' && (
@@ -187,6 +188,13 @@ export default function App() {
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
             onStartFavoritesQuiz={(config) => setScreen({ name: 'quiz', config })}
+            onHome={() => setScreen('home')}
+          />
+        )}
+        {screen === 'simulacre' && (
+          <SimulacreScreen 
+            key="simulacre"
+            questions={questions}
             onHome={() => setScreen('home')}
           />
         )}
@@ -251,36 +259,12 @@ function LoginScreen({ onLogin }) {
     </motion.div>
   );
 }
-        
-        <input 
-          type="text" 
-          placeholder="Introdueix el teu nom" 
-          value={name} 
-          onChange={e => { setName(e.target.value); setError(''); }}
-          onKeyDown={e => e.key === 'Enter' && handleLogin()}
-          style={{ marginBottom: 16, border: error ? '1px solid var(--error)' : '1px solid rgba(255,255,255,0.1)' }}
-        />
-        
-        {error && <p style={{ color: 'var(--error)', fontSize: 13, marginBottom: 16, fontWeight: 500 }}>{error}</p>}
-
-        <button 
-          onClick={handleLogin}
-          style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
-          onMouseOver={e => e.currentTarget.style.background = 'var(--primary-hover)'}
-          onMouseOut={e => e.currentTarget.style.background = 'var(--primary)'}
-        >
-          Accedir
-        </button>
-      </div>
-    </motion.div>
-  );
-}
 
 // ----------------------------------------------------------------------
 // ----------------------------------------------------------------------
 // HOME SCREEN
 // ----------------------------------------------------------------------
-function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onViewFailed, onViewFavorites }) {
+function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onViewFailed, onViewFavorites, onViewSimulacre }) {
   const themes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
   const [selectedThemes, setSelectedThemes] = useState([]);
   const [mode, setMode] = useState('exam');
@@ -419,7 +403,7 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
           </button>
         </div>
 
-        <div style={{ display: 'flex', gap: 12 }}>
+        <div style={{ display: 'flex', gap: 12, marginBottom: 12 }}>
           <button 
             onClick={onViewFailed}
             style={{ flex: 1, padding: 14, borderRadius: 12, background: 'rgba(239, 68, 68, 0.15)', color: 'var(--error)', fontWeight: 600, fontSize: 14, border: '1px solid rgba(239, 68, 68, 0.2)', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
@@ -436,6 +420,16 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
             Preferits ({favoriteIds.length})
           </button>
         </div>
+
+        <button 
+          onClick={onViewSimulacre}
+          style={{ width: '100%', padding: 14, borderRadius: 12, background: 'rgba(59, 130, 246, 0.15)', color: 'var(--primary)', fontWeight: 600, fontSize: 14, border: '1px solid rgba(59, 130, 246, 0.3)', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8, transition: 'all 0.2s' }}
+          onMouseOver={e => e.currentTarget.style.background = 'rgba(59, 130, 246, 0.25)'}
+          onMouseOut={e => e.currentTarget.style.background = 'rgba(59, 130, 246, 0.15)'}
+        >
+          <FileText size={18} />
+          Genera un Simulacre (PDF)
+        </button>
       </div>
     </motion.div>
   );
@@ -1105,6 +1099,277 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
             </div>
           ))
         )}
+      </div>
+    </motion.div>
+  );
+}
+
+// ----------------------------------------------------------------------
+// SIMULACRE SCREEN (NEW)
+// ----------------------------------------------------------------------
+function SimulacreScreen({ questions, onHome }) {
+  const [count, setCount] = useState(40);
+  const [selectedQuestions, setSelectedQuestions] = useState([]);
+  const [themeStats, setThemeStats] = useState({});
+
+  const generateSimulacre = (targetCount) => {
+    const allThemes = [...new Set(questions.map(q => q.theme))].filter(Boolean);
+    if (!allThemes.length || !questions.length) {
+      setSelectedQuestions([]);
+      return;
+    }
+
+    // Pool questions grouped by theme, shuffled
+    const pools = {};
+    allThemes.forEach(t => {
+      pools[t] = [...questions.filter(q => q.theme === t)].sort(() => Math.random() - 0.5);
+    });
+
+    const validThemes = allThemes.filter(t => (pools[t] || []).length > 0);
+    const chosen = [];
+    const shuffledThemes = [...validThemes].sort(() => Math.random() - 0.5);
+
+    // Round-robin distribution across themes
+    while (chosen.length < targetCount) {
+      let addedInRound = false;
+      for (let i = 0; i < shuffledThemes.length && chosen.length < targetCount; i++) {
+        const theme = shuffledThemes[i];
+        if (pools[theme] && pools[theme].length > 0) {
+          chosen.push(pools[theme].pop());
+          addedInRound = true;
+        }
+      }
+      if (!addedInRound) break; // Exhausted available pool
+    }
+
+    // Shuffle the final list so questions from different themes are mixed
+    const finalized = [...chosen].sort(() => Math.random() - 0.5);
+    setSelectedQuestions(finalized);
+
+    // Calculate theme distribution for UI info
+    const dist = {};
+    finalized.forEach(q => {
+      dist[q.theme] = (dist[q.theme] || 0) + 1;
+    });
+    setThemeStats(dist);
+  };
+
+  useEffect(() => {
+    if (questions.length > 0) {
+      generateSimulacre(count);
+    }
+  }, [count, questions]);
+
+  const handlePrint = () => {
+    window.print();
+  };
+
+  return (
+    <motion.div 
+      variants={pageVariants} 
+      initial="initial" 
+      animate="in" 
+      exit="out" 
+      transition={pageTransition}
+      style={{ paddingTop: 30, paddingBottom: 60 }}
+    >
+      {/* Control Bar (Hidden when printing) */}
+      <div className="glass print-hide" style={{ padding: 24, marginBottom: 30 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <div style={{ background: 'rgba(59, 130, 246, 0.2)', padding: 10, borderRadius: 12 }}>
+              <FileText size={26} color="var(--primary)" />
+            </div>
+            <div>
+              <h2 style={{ fontSize: 20, fontWeight: 700 }}>Generador de Simulacre</h2>
+              <p style={{ color: 'var(--text-muted)', fontSize: 13 }}>Repartiment equitatiu per temes amb solucionari al final</p>
+            </div>
+          </div>
+          <button 
+            onClick={onHome} 
+            style={{ padding: '10px 18px', borderRadius: 10, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8 }}
+          >
+            <ArrowLeft size={16} />
+            Tornar al menú
+          </button>
+        </div>
+
+        {/* Count selector & Actions */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <span style={{ fontSize: 14, color: 'var(--text-muted)' }}>Número de preguntes:</span>
+            {[20, 40, 60].map(n => (
+              <button
+                key={n}
+                onClick={() => setCount(n)}
+                style={{
+                  padding: '8px 18px',
+                  borderRadius: 10,
+                  fontWeight: 700,
+                  fontSize: 14,
+                  cursor: 'pointer',
+                  border: count === n ? '1px solid var(--primary)' : '1px solid rgba(255,255,255,0.1)',
+                  background: count === n ? 'var(--primary)' : 'rgba(255,255,255,0.05)',
+                  color: 'white',
+                  transition: 'all 0.2s'
+                }}
+              >
+                {n} preguntes
+              </button>
+            ))}
+          </div>
+
+          <div style={{ display: 'flex', gap: 10 }}>
+            <button
+              onClick={() => generateSimulacre(count)}
+              style={{
+                padding: '10px 18px',
+                borderRadius: 10,
+                background: 'rgba(255,255,255,0.1)',
+                color: 'white',
+                fontWeight: 600,
+                border: 'none',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 8
+              }}
+            >
+              <RefreshCw size={16} />
+              Regenerar
+            </button>
+            <button
+              onClick={handlePrint}
+              style={{
+                padding: '10px 24px',
+                borderRadius: 10,
+                background: 'var(--primary)',
+                color: 'white',
+                fontWeight: 700,
+                border: 'none',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 8,
+                boxShadow: '0 4px 14px rgba(59, 130, 246, 0.4)'
+              }}
+            >
+              <Printer size={18} />
+              Imprimir / Guardar PDF
+            </button>
+          </div>
+        </div>
+
+        {/* Distribution info */}
+        <div style={{ marginTop: 16, padding: 12, background: 'rgba(0,0,0,0.2)', borderRadius: 8, fontSize: 12, color: 'var(--text-muted)', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8 }}>
+          <span>Total preguntes seleccionades: <b>{selectedQuestions.length}</b></span>
+          <span>Temes representats: <b>{Object.keys(themeStats).length}</b> temes (~{(selectedQuestions.length / Math.max(Object.keys(themeStats).length, 1)).toFixed(1)} preg/tema)</span>
+        </div>
+      </div>
+
+      {/* PRINTABLE EXAM PAPER */}
+      <div className="simulacre-paper" style={{ width: '100%' }}>
+        {/* Exam Header */}
+        <div className="glass" style={{ padding: '24px 30px', marginBottom: 24, borderBottom: '2px solid rgba(255,255,255,0.1)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 16, marginBottom: 16 }}>
+            <div>
+              <h1 style={{ fontSize: 22, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 4 }}>
+                Simulacre d'Examen - Bombers
+              </h1>
+              <p style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                Test oficial de preparació d'oposicions • Repartiment equitatiu de temari
+              </p>
+            </div>
+            <div style={{ textAlign: 'right', fontSize: 12, color: 'var(--text-muted)' }}>
+              <div><b>Total:</b> {selectedQuestions.length} preguntes</div>
+              <div><b>Temps recomanat:</b> {Math.round(selectedQuestions.length * 1.2)} minuts</div>
+            </div>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, fontSize: 13 }}>
+            <div><b>Nom i Cognoms:</b> ________________________________________________</div>
+            <div><b>Data de realització:</b> ________________________</div>
+          </div>
+        </div>
+
+        {/* Questions List (No solutions shown) */}
+        <div className="questions-section">
+          {selectedQuestions.map((q, idx) => (
+            <div key={q.id || idx} className="glass simulacre-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10 }}>
+                <span style={{ fontWeight: 700, fontSize: 15 }}>
+                  {idx + 1}. {q.statement}
+                </span>
+              </div>
+              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 12 }}>
+                Tema: {q.theme}
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                {['A', 'B', 'C', 'D'].map(opt => {
+                  if (!q.options || !q.options[opt]) return null;
+                  return (
+                    <div key={opt} className="simulacre-option">
+                      <span style={{ fontWeight: 600, minWidth: 28 }}>[ &nbsp; ] {opt})</span>
+                      <span>{q.options[opt]}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* SOLUTIONS SECTION (Starts strictly on a new page) */}
+        <div className="page-break" style={{ marginTop: 40, paddingTop: 20 }}>
+          <div className="glass" style={{ padding: '24px 30px', marginBottom: 24, borderBottom: '2px solid rgba(255,255,255,0.1)' }}>
+            <h2 style={{ fontSize: 22, fontWeight: 800, textTransform: 'uppercase', marginBottom: 6 }}>
+              Plantilla de Respostes i Solucionari
+            </h2>
+            <p style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+              Comprova i avalua el teu simulacre un cop hagis finalitzat totes les preguntes.
+            </p>
+          </div>
+
+          {/* Quick Answers Grid Table */}
+          <div className="glass" style={{ padding: 20, marginBottom: 24 }}>
+            <h3 style={{ fontSize: 15, fontWeight: 700, marginBottom: 14 }}>Resum Ràpid de Solucions</h3>
+            <div className="solution-grid">
+              {selectedQuestions.map((q, idx) => (
+                <div key={idx} className="solution-cell">
+                  <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>Pregunta {idx + 1}</div>
+                  <div style={{ fontSize: 18, fontWeight: 800, color: 'var(--primary)', marginTop: 2 }}>{q.correct}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Detailed Solutions & Explanations */}
+          <div className="glass" style={{ padding: 20 }}>
+            <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>Solucions Detallades i Justificació</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {selectedQuestions.map((q, idx) => (
+                <div key={idx} style={{ padding: 16, background: 'rgba(0,0,0,0.2)', borderRadius: 10, borderLeft: '4px solid var(--primary)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, fontSize: 13 }}>
+                    <span style={{ fontWeight: 700 }}>Pregunta {idx + 1}</span>
+                    <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Tema: {q.theme}</span>
+                  </div>
+                  <p style={{ fontSize: 13, marginBottom: 10, fontWeight: 500 }}>{q.statement}</p>
+                  
+                  <div style={{ fontSize: 13, marginBottom: 8, color: 'var(--success)', fontWeight: 600 }}>
+                    ✓ Resposta correcta: {q.correct}) {q.options ? q.options[q.correct] : ''}
+                  </div>
+
+                  {q.explanation && (
+                    <div style={{ fontSize: 12, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: 10, borderRadius: 6, marginTop: 6 }}>
+                      <b>Explicació:</b> {q.explanation}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );

@@ -150,6 +150,36 @@ input[type="text"]:focus, select:focus {
   min-height: 100vh;
 }
 
+/* Simulacre Styles */
+.simulacre-card {
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.simulacre-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.solution-cell {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 13px;
+}
+
 /* Print Styles */
 @media print {
   body {
@@ -157,6 +187,7 @@ input[type="text"]:focus, select:focus {
     color: black !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+    font-size: 13px !important;
   }
   .container {
     max-width: 100% !important;
@@ -176,29 +207,39 @@ input[type="text"]:focus, select:focus {
     color: black !important;
     border: none !important;
   }
-  .review-item {
-    border: none !important;
-    padding: 0 !important;
-    margin-bottom: 24px !important;
-    break-inside: avoid;
-  }
-  .review-option {
+  .review-item, .simulacre-card {
     border: none !important;
     background: transparent !important;
-    padding: 4px 0 !important;
-    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    color: black !important;
   }
-  /* Els textos normals passen a ser negres quan s'imprimeix, els de color es mantenen per les respostes */
-  .review-option span {
+  .review-option, .simulacre-option {
+    border: none !important;
+    background: transparent !important;
+    padding: 3px 0 !important;
+    margin: 0 !important;
+    color: black !important;
+  }
+  .solution-cell {
+    background: #f8fafc !important;
+    border: 1px solid #cbd5e1 !important;
+    color: black !important;
+  }
+  .review-option span, .simulacre-option span {
     color: black !important;
   }
   .review-option.print-correct span {
     color: #10b981 !important;
+    font-weight: bold;
   }
   .review-option.print-error span {
     color: #ef4444 !important;
   }
   .page-break {
     break-before: page;
+    page-break-before: always;
   }
 }
