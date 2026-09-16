@@ -3,1143 +3,1417 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>T07 - Política lingüística - Repàs de Preguntes</title>
+  <title>T07 - Política lingüística - Repàs</title>
   <style>
+    
   :root {
-    --bg: #0f172a;
-    --card: #1e293b;
-    --card-border: rgba(255, 255, 255, 0.08);
-    --text: #f8fafc;
-    --text-muted: #94a3b8;
-    --primary: #3b82f6;
-    --primary-hover: #2563eb;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
     --success: #10b981;
     --error: #ef4444;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
   .container { max-width: 960px; margin: 0 auto; }
-  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
-  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
-  .header p { color: var(--text-muted); font-size: 14px; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
   .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
-  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
   .btn-primary { background: var(--primary); color: white; }
   .btn-primary:hover { background: var(--primary-hover); }
-  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
-  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
-  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
-  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
-  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
-  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
-  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
-  .option:hover { background: rgba(255,255,255,0.07); }
-  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
-  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
-  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
-  .solution-box.visible { display: block; }
-  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
-  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
   
-  @media print {
-    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
-    .header, .controls, .print-hide { display: none !important; }
-    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
-    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
-    .option.correct { color: #047857 !important; font-weight: bold !important; }
-    .option.wrong { color: #b91c1c !important; }
-    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
-    .explanation-text { color: #334155 !important; }
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
   }
-</style>
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>T07 - Política lingüística</h1>
-      <p>Total de preguntes: <b>30</b> • Clica a qualsevol opció per comprovar-la directament</p>
-      <div class="controls print-hide">
-        <a class="btn btn-secondary" href="../index.html">← Menú Principal</a>
-        <a class="btn btn-secondary" href="../anki_csv/T07_-_Politica_linguistica.csv" download>📦 Descarregar Anki CSV</a>
-        <button class="btn btn-secondary" onclick="toggleAllSolutions()">Mostra/Amaga Solucions</button>
-        <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T07 - Política lingüística</h1>
+      </div>
+      <p>30 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
       </div>
     </div>
-    <div id="questions-container">
-      
-      <div class="q-card" id="q-1" data-correct="D">
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-19547" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 1 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(1)">Solució</button>
+          <span>Pregunta 1 de 30 • ID: 19547</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19547)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">1. Segons l’article 8 del capítol primer, qui fa la versió oficial castellana de les lleis del Parlament de Catalunya?</div>
+        <div class="q-statement">❓ 1. Segons l’article 8 del capítol primer, qui fa la versió oficial castellana de les lleis del Parlament de Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>L’Administració de l’Estat.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19547, 'A')">
+            <b>A)</b> <span>L’Administració de l’Estat.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>El Govern de la Generalitat.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19547, 'B')">
+            <b>B)</b> <span>El Govern de la Generalitat.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>El Diari Oficial de la Generalitat de Catalunya.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19547, 'C')">
+            <b>C)</b> <span>El Diari Oficial de la Generalitat de Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>El Parlament de Catalunya.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19547, 'D')">
+            <b>D)</b> <span>El Parlament de Catalunya.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-1">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El Parlament de Catalunya.</div>
-          <div class="explanation-text"><b>Explicació:</b> La responsabilitat correspon al mateix Parlament que aprova la llei, no a l’òrgan encarregat de publicar-la.</div>
+        <div class="solution-box" id="sol-19547">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) El Parlament de Catalunya.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La responsabilitat correspon al mateix Parlament que aprova la llei, no a l’òrgan encarregat de publicar-la.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-2" data-correct="B">
+      <div class="q-card" id="q-19561" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 2 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(2)">Solució</button>
+          <span>Pregunta 2 de 30 • ID: 19561</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19561)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">2. Segons l’article 15 del capítol primer, en quina llengua s’han de redactar els contractes d’adhesió o amb condicions generals?</div>
+        <div class="q-statement">❓ 2. Segons l’article 15 del capítol primer, en quina llengua s’han de redactar els contractes d’adhesió o amb condicions generals?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En la llengua oficial habitual de l’empresa.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19561, 'A')">
+            <b>A)</b> <span>En la llengua oficial habitual de l’empresa.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En la llengua escollida pel consumidor, amb exemplars separats disponibles en català i castellà.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19561, 'B')">
+            <b>B)</b> <span>En la llengua escollida pel consumidor, amb exemplars separats disponibles en català i castellà.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En català, llevat que l’Administració autoritzi una altra llengua.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19561, 'C')">
+            <b>C)</b> <span>En català, llevat que l’Administració autoritzi una altra llengua.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En català i castellà dins un únic document bilingüe.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19561, 'D')">
+            <b>D)</b> <span>En català i castellà dins un únic document bilingüe.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-2">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En la llengua escollida pel consumidor, amb exemplars separats disponibles en català i castellà.</div>
-          <div class="explanation-text"><b>Explicació:</b> La regla reforça la posició del consumidor i obliga a disposar immediatament de versions separades en les dues llengües oficials.</div>
+        <div class="solution-box" id="sol-19561">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En la llengua escollida pel consumidor, amb exemplars separats disponibles en català i castellà.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La regla reforça la posició del consumidor i obliga a disposar immediatament de versions separades en les dues llengües oficials.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-3" data-correct="B">
+      <div class="q-card" id="q-19550" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 3 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(3)">Solució</button>
+          <span>Pregunta 3 de 30 • ID: 19550</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19550)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">3. Segons l’article 10 del capítol primer, quina llengua s’ha d’emprar en els procediments administratius de les administracions de Catalunya?</div>
+        <div class="q-statement">❓ 3. Segons l’article 10 del capítol primer, quina llengua s’ha d’emprar en els procediments administratius de les administracions de Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>El castellà quan hi participa una persona jurídica.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19550, 'A')">
+            <b>A)</b> <span>El castellà quan hi participa una persona jurídica.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>El català, sens perjudici dels drets lingüístics dels ciutadans.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19550, 'B')">
+            <b>B)</b> <span>El català, sens perjudici dels drets lingüístics dels ciutadans.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>La llengua oficial escollida per l’òrgan instructor.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19550, 'C')">
+            <b>C)</b> <span>La llengua oficial escollida per l’òrgan instructor.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Les dues llengües oficials en totes les actuacions.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19550, 'D')">
+            <b>D)</b> <span>Les dues llengües oficials en totes les actuacions.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-3">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) El català, sens perjudici dels drets lingüístics dels ciutadans.</div>
-          <div class="explanation-text"><b>Explicació:</b> El català és la llengua ordinària del procediment, però els interessats poden presentar documents, manifestar-se i demanar notificacions en castellà.</div>
+        <div class="solution-box" id="sol-19550">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El català, sens perjudici dels drets lingüístics dels ciutadans.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El català és la llengua ordinària del procediment, però els interessats poden presentar documents, manifestar-se i demanar notificacions en castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-4" data-correct="D">
+      <div class="q-card" id="q-19558" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 4 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(4)">Solució</button>
+          <span>Pregunta 4 de 30 • ID: 19558</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19558)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">4. Segons l’article 14 del capítol primer, en quina llengua s’ha de redactar un document públic amb diversos atorgants?</div>
+        <div class="q-statement">❓ 4. Segons l’article 14 del capítol primer, en quina llengua s’ha de redactar un document públic amb diversos atorgants?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En castellà quan algun atorgant no resideix a Catalunya.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19558, 'A')">
+            <b>A)</b> <span>En castellà quan algun atorgant no resideix a Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En català, amb independència de l’acord entre els atorgants.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19558, 'B')">
+            <b>B)</b> <span>En català, amb independència de l’acord entre els atorgants.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En totes dues llengües encara que hi hagi acord.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19558, 'C')">
+            <b>C)</b> <span>En totes dues llengües encara que hi hagi acord.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En la llengua oficial que acordin els atorgants.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19558, 'D')">
+            <b>D)</b> <span>En la llengua oficial que acordin els atorgants.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-4">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) En la llengua oficial que acordin els atorgants.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’acord dels atorgants determina la llengua; la redacció bilingüe és la solució prevista quan no arriben a cap acord.</div>
+        <div class="solution-box" id="sol-19558">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) En la llengua oficial que acordin els atorgants.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’acord dels atorgants determina la llengua; la redacció bilingüe és la solució prevista quan no arriben a cap acord.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-5" data-correct="D">
+      <div class="q-card" id="q-19549" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 5 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(5)">Solució</button>
+          <span>Pregunta 5 de 30 • ID: 19549</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19549)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">5. Segons l’article 9 del capítol primer, quin dret conserva una persona resident en l’àmbit lingüístic català respecte de les comunicacions administratives?</div>
+        <div class="q-statement">❓ 5. Segons l’article 9 del capítol primer, quin dret conserva una persona resident en l’àmbit lingüístic català respecte de les comunicacions administratives?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Escollir que totes les actuacions internes es tramitin en castellà.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19549, 'A')">
+            <b>A)</b> <span>Escollir que totes les actuacions internes es tramitin en castellà.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Exigir que la documentació es redacti simultàniament en les dues llengües.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19549, 'B')">
+            <b>B)</b> <span>Exigir que la documentació es redacti simultàniament en les dues llengües.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Rebre les comunicacions en català i una traducció jurada al castellà.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19549, 'C')">
+            <b>C)</b> <span>Rebre les comunicacions en català i una traducció jurada al castellà.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Rebre les comunicacions i notificacions en castellà, si ho demana.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19549, 'D')">
+            <b>D)</b> <span>Rebre les comunicacions i notificacions en castellà, si ho demana.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-5">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Rebre les comunicacions i notificacions en castellà, si ho demana.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’ús normal del català per l’Administració és compatible amb el dret individual a sol·licitar les comunicacions en castellà.</div>
+        <div class="solution-box" id="sol-19549">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Rebre les comunicacions i notificacions en castellà, si ho demana.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’ús normal del català per l’Administració és compatible amb el dret individual a sol·licitar les comunicacions en castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-6" data-correct="D">
+      <div class="q-card" id="q-19551" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 6 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(6)">Solució</button>
+          <span>Pregunta 6 de 30 • ID: 19551</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19551)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">6. Segons l’article 10 del capítol primer, quins efectes pot tenir una sol·licitud de traducció sobre el procediment?</div>
+        <div class="q-statement">❓ 6. Segons l’article 10 del capítol primer, quins efectes pot tenir una sol·licitud de traducció sobre el procediment?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Pot comportar una taxa quan la documentació sigui extensa.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19551, 'A')">
+            <b>A)</b> <span>Pot comportar una taxa quan la documentació sigui extensa.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Pot suspendre els terminis fins que es lliuri la traducció.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19551, 'B')">
+            <b>B)</b> <span>Pot suspendre els terminis fins que es lliuri la traducció.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Pot ajornar la resolució si la traducció afecta documents essencials.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19551, 'C')">
+            <b>C)</b> <span>Pot ajornar la resolució si la traducció afecta documents essencials.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>No pot causar despesa, perjudici, retard ni suspensió de la tramitació.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19551, 'D')">
+            <b>D)</b> <span>No pot causar despesa, perjudici, retard ni suspensió de la tramitació.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-6">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) No pot causar despesa, perjudici, retard ni suspensió de la tramitació.</div>
-          <div class="explanation-text"><b>Explicació:</b> El dret a rebre una testimoniança traduïda s’ha d’exercir sense conseqüències negatives per a la persona interessada ni per al calendari del procediment.</div>
+        <div class="solution-box" id="sol-19551">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) No pot causar despesa, perjudici, retard ni suspensió de la tramitació.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El dret a rebre una testimoniança traduïda s’ha d’exercir sense conseqüències negatives per a la persona interessada ni per al calendari del procediment.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-7" data-correct="C">
+      <div class="q-card" id="q-19540" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 7 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(7)">Solució</button>
+          <span>Pregunta 7 de 30 • ID: 19540</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19540)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">7. Segons l’article 4 del capítol preliminar, quin dret lingüístic té tothom a Catalunya?</div>
+        <div class="q-statement">❓ 7. Segons l’article 4 del capítol preliminar, quin dret lingüístic té tothom a Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Rebre qualsevol servei públic exclusivament en català.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19540, 'A')">
+            <b>A)</b> <span>Rebre qualsevol servei públic exclusivament en català.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Exigir la traducció al català de qualsevol document privat.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19540, 'B')">
+            <b>B)</b> <span>Exigir la traducció al català de qualsevol document privat.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Expressar-se en qualsevol de les dues llengües oficials en les relacions i els actes públics i privats.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19540, 'C')">
+            <b>C)</b> <span>Expressar-se en qualsevol de les dues llengües oficials en les relacions i els actes públics i privats.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Escollir la llengua de treball de qualsevol empresa privada.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19540, 'D')">
+            <b>D)</b> <span>Escollir la llengua de treball de qualsevol empresa privada.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-7">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Expressar-se en qualsevol de les dues llengües oficials en les relacions i els actes públics i privats.</div>
-          <div class="explanation-text"><b>Explicació:</b> El dret d’expressió lingüística abasta tant les relacions públiques com les privades i pot exercir-se oralment o per escrit.</div>
+        <div class="solution-box" id="sol-19540">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Expressar-se en qualsevol de les dues llengües oficials en les relacions i els actes públics i privats.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El dret d’expressió lingüística abasta tant les relacions públiques com les privades i pot exercir-se oralment o per escrit.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-8" data-correct="B">
+      <div class="q-card" id="q-19559" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 8 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(8)">Solució</button>
+          <span>Pregunta 8 de 30 • ID: 19559</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19559)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">8. Segons l’article 14 del capítol primer, en quina llengua es redacta un document públic si no s’escull expressament cap llengua?</div>
+        <div class="q-statement">❓ 8. Segons l’article 14 del capítol primer, en quina llengua es redacta un document públic si no s’escull expressament cap llengua?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En totes dues llengües oficials.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19559, 'A')">
+            <b>A)</b> <span>En totes dues llengües oficials.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En català.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19559, 'B')">
+            <b>B)</b> <span>En català.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En la llengua habitual del fedatari públic.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19559, 'C')">
+            <b>C)</b> <span>En la llengua habitual del fedatari públic.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En castellà.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19559, 'D')">
+            <b>D)</b> <span>En castellà.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-8">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En català.</div>
-          <div class="explanation-text"><b>Explicació:</b> La norma exigeix preguntar prèviament als atorgants, però estableix el català com a llengua de redacció supletòria si no hi ha elecció expressa.</div>
+        <div class="solution-box" id="sol-19559">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En català.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La norma exigeix preguntar prèviament als atorgants, però estableix el català com a llengua de redacció supletòria si no hi ha elecció expressa.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-9" data-correct="B">
+      <div class="q-card" id="q-19554" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 9 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(9)">Solució</button>
+          <span>Pregunta 9 de 30 • ID: 19554</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19554)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">9. Segons l’article 12 del capítol primer, quina validesa tenen a Catalunya les actuacions de l’Administració de l’Estat fetes en qualsevol llengua oficial?</div>
+        <div class="q-statement">❓ 9. Segons l’article 12 del capítol primer, quina validesa tenen a Catalunya les actuacions de l’Administració de l’Estat fetes en qualsevol llengua oficial?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Són vàlides únicament si s’han fet per escrit.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19554, 'A')">
+            <b>A)</b> <span>Són vàlides únicament si s’han fet per escrit.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Són vàlides sense necessitat de traducció.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19554, 'B')">
+            <b>B)</b> <span>Són vàlides sense necessitat de traducció.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Són vàlides si la persona interessada accepta la llengua emprada.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19554, 'C')">
+            <b>C)</b> <span>Són vàlides si la persona interessada accepta la llengua emprada.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Són vàlides després de publicar-ne una versió bilingüe.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19554, 'D')">
+            <b>D)</b> <span>Són vàlides després de publicar-ne una versió bilingüe.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-9">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Són vàlides sense necessitat de traducció.</div>
-          <div class="explanation-text"><b>Explicació:</b> La validesa comprèn tant les actuacions orals com les escrites i no depèn de l’aportació d’una traducció.</div>
+        <div class="solution-box" id="sol-19554">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Són vàlides sense necessitat de traducció.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La validesa comprèn tant les actuacions orals com les escrites i no depèn de l’aportació d’una traducció.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-10" data-correct="A">
+      <div class="q-card" id="q-19539" data-correct="A">
         <div class="q-meta">
-          <span>Pregunta 10 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(10)">Solució</button>
+          <span>Pregunta 10 de 30 • ID: 19539</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19539)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">10. Segons l’article 3 del capítol preliminar, quina validesa tenen els actes jurídics fets en qualsevol de les dues llengües oficials?</div>
+        <div class="q-statement">❓ 10. Segons l’article 3 del capítol preliminar, quina validesa tenen els actes jurídics fets en qualsevol de les dues llengües oficials?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Tenen plena validesa i eficàcia pel que fa a la llengua.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19539, 'A')">
+            <b>A)</b> <span>Tenen plena validesa i eficàcia pel que fa a la llengua.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Tenen eficàcia provisional fins que se’n comprova la versió catalana.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19539, 'B')">
+            <b>B)</b> <span>Tenen eficàcia provisional fins que se’n comprova la versió catalana.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Són vàlids en l’àmbit privat, però no en l’administratiu.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19539, 'C')">
+            <b>C)</b> <span>Són vàlids en l’àmbit privat, però no en l’administratiu.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Són vàlids després d’obtenir una traducció oficial.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19539, 'D')">
+            <b>D)</b> <span>Són vàlids després d’obtenir una traducció oficial.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-10">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Tenen plena validesa i eficàcia pel que fa a la llengua.</div>
-          <div class="explanation-text"><b>Explicació:</b> La llengua oficial escollida no altera els efectes de l’acte jurídic; no es pot condicionar la seva validesa a l’ús d’una de les dues llengües.</div>
+        <div class="solution-box" id="sol-19539">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Tenen plena validesa i eficàcia pel que fa a la llengua.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La llengua oficial escollida no altera els efectes de l’acte jurídic; no es pot condicionar la seva validesa a l’ús d’una de les dues llengües.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-11" data-correct="C">
+      <div class="q-card" id="q-19562" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 11 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(11)">Solució</button>
+          <span>Pregunta 11 de 30 • ID: 19562</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19562)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">11. Segons l’article 16 del capítol primer, com s’han de redactar els convenis col·lectius si les parts no acorden una llengua?</div>
+        <div class="q-statement">❓ 11. Segons l’article 16 del capítol primer, com s’han de redactar els convenis col·lectius si les parts no acorden una llengua?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En castellà, perquè produeixen efectes laborals generals.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19562, 'A')">
+            <b>A)</b> <span>En castellà, perquè produeixen efectes laborals generals.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En la llengua emprada per la majoria de representants.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19562, 'B')">
+            <b>B)</b> <span>En la llengua emprada per la majoria de representants.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En les dues llengües oficials i en exemplars separats.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19562, 'C')">
+            <b>C)</b> <span>En les dues llengües oficials i en exemplars separats.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En català, amb una traducció informativa al castellà.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19562, 'D')">
+            <b>D)</b> <span>En català, amb una traducció informativa al castellà.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-11">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) En les dues llengües oficials i en exemplars separats.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’acord entre les parts preval; a manca d’acord, la norma exigeix versions separades en català i castellà.</div>
+        <div class="solution-box" id="sol-19562">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) En les dues llengües oficials i en exemplars separats.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’acord entre les parts preval; a manca d’acord, la norma exigeix versions separades en català i castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-12" data-correct="B">
+      <div class="q-card" id="q-19552" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 12 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(12)">Solució</button>
+          <span>Pregunta 12 de 30 • ID: 19552</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19552)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">12. Segons l’article 11 del capítol primer, quin coneixement lingüístic ha de tenir el personal de les administracions públiques de Catalunya?</div>
+        <div class="q-statement">❓ 12. Segons l’article 11 del capítol primer, quin coneixement lingüístic ha de tenir el personal de les administracions públiques de Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Un coneixement escrit de la llengua utilitzada habitualment pel servei.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19552, 'A')">
+            <b>A)</b> <span>Un coneixement escrit de la llengua utilitzada habitualment pel servei.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Un nivell adequat i suficient de les dues llengües oficials, oralment i per escrit.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19552, 'B')">
+            <b>B)</b> <span>Un nivell adequat i suficient de les dues llengües oficials, oralment i per escrit.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Un coneixement oral suficient del català.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19552, 'C')">
+            <b>C)</b> <span>Un coneixement oral suficient del català.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Un coneixement del català condicionat al lloc de residència.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19552, 'D')">
+            <b>D)</b> <span>Un coneixement del català condicionat al lloc de residència.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-12">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Un nivell adequat i suficient de les dues llengües oficials, oralment i per escrit.</div>
-          <div class="explanation-text"><b>Explicació:</b> La capacitació ha de permetre desenvolupar les funcions pròpies del lloc tant oralment com per escrit en català i castellà.</div>
+        <div class="solution-box" id="sol-19552">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Un nivell adequat i suficient de les dues llengües oficials, oralment i per escrit.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La capacitació ha de permetre desenvolupar les funcions pròpies del lloc tant oralment com per escrit en català i castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-13" data-correct="C">
+      <div class="q-card" id="q-19556" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 13 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(13)">Solució</button>
+          <span>Pregunta 13 de 30 • ID: 19556</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19556)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">13. Segons l’article 13 del capítol primer, quina validesa tenen les actuacions judicials fetes en qualsevol de les dues llengües oficials?</div>
+        <div class="q-statement">❓ 13. Segons l’article 13 del capítol primer, quina validesa tenen les actuacions judicials fetes en qualsevol de les dues llengües oficials?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Són vàlides només en els procediments civils i administratius.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19556, 'A')">
+            <b>A)</b> <span>Són vàlides només en els procediments civils i administratius.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Són vàlides únicament si les parts utilitzen la mateixa llengua.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19556, 'B')">
+            <b>B)</b> <span>Són vàlides únicament si les parts utilitzen la mateixa llengua.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Són vàlides sense necessitat de traducció.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19556, 'C')">
+            <b>C)</b> <span>Són vàlides sense necessitat de traducció.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Són vàlides després de la traducció efectuada pel jutjat.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19556, 'D')">
+            <b>D)</b> <span>Són vàlides després de la traducció efectuada pel jutjat.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-13">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Són vàlides sense necessitat de traducció.</div>
-          <div class="explanation-text"><b>Explicació:</b> La regla abasta les actuacions orals i escrites i evita que la llengua oficial emprada n’afecti la validesa.</div>
+        <div class="solution-box" id="sol-19556">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Són vàlides sense necessitat de traducció.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La regla abasta les actuacions orals i escrites i evita que la llengua oficial emprada n’afecti la validesa.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-14" data-correct="C">
+      <div class="q-card" id="q-19545" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 14 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(14)">Solució</button>
+          <span>Pregunta 14 de 30 • ID: 19545</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19545)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">14. Segons l’article 6 del capítol preliminar, a quina institució correspon l’autoritat lingüística del català?</div>
+        <div class="q-statement">❓ 14. Segons l’article 6 del capítol preliminar, a quina institució correspon l’autoritat lingüística del català?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Al Parlament de Catalunya.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19545, 'A')">
+            <b>A)</b> <span>Al Parlament de Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Al Consell de l’Audiovisual de Catalunya.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19545, 'B')">
+            <b>B)</b> <span>Al Consell de l’Audiovisual de Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>A l’Institut d’Estudis Catalans.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19545, 'C')">
+            <b>C)</b> <span>A l’Institut d’Estudis Catalans.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Al Departament competent en política lingüística.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19545, 'D')">
+            <b>D)</b> <span>Al Departament competent en política lingüística.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-14">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) A l’Institut d’Estudis Catalans.</div>
-          <div class="explanation-text"><b>Explicació:</b> La Generalitat promou i protegeix la llengua, però l’autoritat lingüística correspon legalment a l’Institut d’Estudis Catalans.</div>
+        <div class="solution-box" id="sol-19545">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) A l’Institut d’Estudis Catalans.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La Generalitat promou i protegeix la llengua, però l’autoritat lingüística correspon legalment a l’Institut d’Estudis Catalans.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-15" data-correct="D">
+      <div class="q-card" id="q-19534" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 15 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(15)">Solució</button>
+          <span>Pregunta 15 de 30 • ID: 19534</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19534)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">15. Segons l’article 1 del capítol preliminar, quin és l’objecte general de la Llei?</div>
+        <div class="q-statement">❓ 15. Segons l’article 1 del capítol preliminar, quin és l’objecte general de la Llei?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Establir un règim lingüístic limitat a l’ensenyament i als mitjans de comunicació.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19534, 'A')">
+            <b>A)</b> <span>Establir un règim lingüístic limitat a l’ensenyament i als mitjans de comunicació.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Regular únicament l’ús del català dins l’Administració de la Generalitat.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19534, 'B')">
+            <b>B)</b> <span>Regular únicament l’ús del català dins l’Administració de la Generalitat.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Substituir progressivament el castellà en les activitats públiques de Catalunya.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19534, 'C')">
+            <b>C)</b> <span>Substituir progressivament el castellà en les activitats públiques de Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Emparar, fomentar i normalitzar l’ús del català i garantir l’ús normal i oficial del català i del castellà.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19534, 'D')">
+            <b>D)</b> <span>Emparar, fomentar i normalitzar l’ús del català i garantir l’ús normal i oficial del català i del castellà.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-15">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Emparar, fomentar i normalitzar l’ús del català i garantir l’ús normal i oficial del català i del castellà.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article 1 desplega l’article 3 de l’Estatut i projecta la normalització lingüística sobre tots els àmbits, sense excloure l’oficialitat del castellà.</div>
+        <div class="solution-box" id="sol-19534">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Emparar, fomentar i normalitzar l’ús del català i garantir l’ús normal i oficial del català i del castellà.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article 1 desplega l’article 3 de l’Estatut i projecta la normalització lingüística sobre tots els àmbits, sense excloure l’oficialitat del castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-16" data-correct="A">
+      <div class="q-card" id="q-19542" data-correct="A">
         <div class="q-meta">
-          <span>Pregunta 16 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(16)">Solució</button>
+          <span>Pregunta 16 de 30 • ID: 19542</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19542)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">16. Segons l’article 5 del capítol preliminar, què ha de garantir la Generalitat en matèria lingüística?</div>
+        <div class="q-statement">❓ 16. Segons l’article 5 del capítol preliminar, què ha de garantir la Generalitat en matèria lingüística?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Els drets lingüístics, l’ús normal i oficial de les dues llengües i la igualtat plena en drets i deures lingüístics.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19542, 'A')">
+            <b>A)</b> <span>Els drets lingüístics, l’ús normal i oficial de les dues llengües i la igualtat plena en drets i deures lingüístics.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>La traducció obligatòria al català de qualsevol document redactat en castellà.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19542, 'B')">
+            <b>B)</b> <span>La traducció obligatòria al català de qualsevol document redactat en castellà.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>La utilització exclusiva del català en totes les activitats públiques i privades.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19542, 'C')">
+            <b>C)</b> <span>La utilització exclusiva del català en totes les activitats públiques i privades.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>La preferència del català en qualsevol relació entre particulars.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19542, 'D')">
+            <b>D)</b> <span>La preferència del català en qualsevol relació entre particulars.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-16">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Els drets lingüístics, l’ús normal i oficial de les dues llengües i la igualtat plena en drets i deures lingüístics.</div>
-          <div class="explanation-text"><b>Explicació:</b> La Generalitat ha de combinar la garantia dels drets lingüístics amb l’ensenyament, la capacitació del personal públic i la igualtat entre ciutadans.</div>
+        <div class="solution-box" id="sol-19542">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Els drets lingüístics, l’ús normal i oficial de les dues llengües i la igualtat plena en drets i deures lingüístics.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La Generalitat ha de combinar la garantia dels drets lingüístics amb l’ensenyament, la capacitació del personal públic i la igualtat entre ciutadans.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-17" data-correct="A">
+      <div class="q-card" id="q-19555" data-correct="A">
         <div class="q-meta">
-          <span>Pregunta 17 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(17)">Solució</button>
+          <span>Pregunta 17 de 30 • ID: 19555</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19555)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">17. Segons l’article 12 del capítol primer, quin dret té tothom davant l’Administració de l’Estat a Catalunya?</div>
+        <div class="q-statement">❓ 17. Segons l’article 12 del capítol primer, quin dret té tothom davant l’Administració de l’Estat a Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Relacionar-s’hi en la llengua oficial que esculli i no haver d’aportar cap traducció.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19555, 'A')">
+            <b>A)</b> <span>Relacionar-s’hi en la llengua oficial que esculli i no haver d’aportar cap traducció.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Escollir la llengua interna de tramitació de l’expedient.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19555, 'B')">
+            <b>B)</b> <span>Escollir la llengua interna de tramitació de l’expedient.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Ser atès en català, però presentar els escrits en castellà.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19555, 'C')">
+            <b>C)</b> <span>Ser atès en català, però presentar els escrits en castellà.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Rebre automàticament totes les comunicacions en les dues llengües.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19555, 'D')">
+            <b>D)</b> <span>Rebre automàticament totes les comunicacions en les dues llengües.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-17">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Relacionar-s’hi en la llengua oficial que esculli i no haver d’aportar cap traducció.</div>
-          <div class="explanation-text"><b>Explicació:</b> La persona pot escollir català o castellà tant en les comunicacions orals com escrites, sense càrregues de traducció.</div>
+        <div class="solution-box" id="sol-19555">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Relacionar-s’hi en la llengua oficial que esculli i no haver d’aportar cap traducció.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La persona pot escollir català o castellà tant en les comunicacions orals com escrites, sense càrregues de traducció.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-18" data-correct="D">
+      <div class="q-card" id="q-19543" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 18 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(18)">Solució</button>
+          <span>Pregunta 18 de 30 • ID: 19543</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19543)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">18. Segons l’article 5 del capítol preliminar, com ha de fomentar la Generalitat l’ús del català?</div>
+        <div class="q-statement">❓ 18. Segons l’article 5 del capítol preliminar, com ha de fomentar la Generalitat l’ús del català?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Mitjançant la limitació de l’ús del castellà en els àmbits no oficials.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19543, 'A')">
+            <b>A)</b> <span>Mitjançant la limitació de l’ús del castellà en els àmbits no oficials.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Mitjançant convenis voluntaris limitats als mitjans de comunicació públics.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19543, 'B')">
+            <b>B)</b> <span>Mitjançant convenis voluntaris limitats als mitjans de comunicació públics.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Mitjançant actuacions d’emparament, protecció, promoció i foment, amb mesures i recursos suficients.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19543, 'C')">
+            <b>C)</b> <span>Mitjançant actuacions d’emparament, protecció, promoció i foment, amb mesures i recursos suficients.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Mitjançant recomanacions generals sense dotació de recursos específics.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19543, 'D')">
+            <b>D)</b> <span>Mitjançant recomanacions generals sense dotació de recursos específics.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-18">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Mitjançant recomanacions generals sense dotació de recursos específics.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’actuació pública no es limita a una declaració programàtica: exigeix mesures efectives i una assignació suficient de recursos.</div>
+        <div class="solution-box" id="sol-19543">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Mitjançant recomanacions generals sense dotació de recursos específics.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’actuació pública no es limita a una declaració programàtica: exigeix mesures efectives i una assignació suficient de recursos.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-19" data-correct="C">
+      <div class="q-card" id="q-19544" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 19 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(19)">Solució</button>
+          <span>Pregunta 19 de 30 • ID: 19544</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19544)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">19. Segons l’article 6 del capítol preliminar, com es considera la llengua catalana en relació amb altres territoris?</div>
+        <div class="q-statement">❓ 19. Segons l’article 6 del capítol preliminar, com es considera la llengua catalana en relació amb altres territoris?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Com una llengua oficial vinculada exclusivament a les administracions catalanes.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19544, 'A')">
+            <b>A)</b> <span>Com una llengua oficial vinculada exclusivament a les administracions catalanes.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Com una llengua pròpia limitada institucionalment a Catalunya.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19544, 'B')">
+            <b>B)</b> <span>Com una llengua pròpia limitada institucionalment a Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Com un patrimoni compartit amb altres territoris que formen una mateixa comunitat lingüística.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19544, 'C')">
+            <b>C)</b> <span>Com un patrimoni compartit amb altres territoris que formen una mateixa comunitat lingüística.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Com una llengua comuna sotmesa a autoritats lingüístiques territorials independents.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19544, 'D')">
+            <b>D)</b> <span>Com una llengua comuna sotmesa a autoritats lingüístiques territorials independents.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-19">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Com un patrimoni compartit amb altres territoris que formen una mateixa comunitat lingüística.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article 6 presenta el català com un patrimoni compartit i obliga a protegir-ne la unitat, la projecció exterior i la comunicació entre territoris.</div>
+        <div class="solution-box" id="sol-19544">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Com un patrimoni compartit amb altres territoris que formen una mateixa comunitat lingüística.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article 6 presenta el català com un patrimoni compartit i obliga a protegir-ne la unitat, la projecció exterior i la comunicació entre territoris.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-20" data-correct="C">
+      <div class="q-card" id="q-19557" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 20 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(20)">Solució</button>
+          <span>Pregunta 20 de 30 • ID: 19557</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19557)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">20. Segons l’article 13 del capítol primer, a quins altres tribunals s’apliquen els drets lingüístics previstos per a les actuacions judicials?</div>
+        <div class="q-statement">❓ 20. Segons l’article 13 del capítol primer, a quins altres tribunals s’apliquen els drets lingüístics previstos per a les actuacions judicials?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Als tribunals internacionals amb seu a Catalunya.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19557, 'A')">
+            <b>A)</b> <span>Als tribunals internacionals amb seu a Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Als tribunals administratius i als de comptes.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19557, 'B')">
+            <b>B)</b> <span>Als tribunals administratius i als de comptes.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Als tribunals eclesiàstics i als arbitrals.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19557, 'C')">
+            <b>C)</b> <span>Als tribunals eclesiàstics i als arbitrals.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Als tribunals militars i als consulars.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19557, 'D')">
+            <b>D)</b> <span>Als tribunals militars i als consulars.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-20">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Als tribunals eclesiàstics i als arbitrals.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article amplia expressament l’aplicació dels apartats relatius a validesa, atenció i testimoniances als tribunals eclesiàstics i arbitrals.</div>
+        <div class="solution-box" id="sol-19557">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Als tribunals eclesiàstics i als arbitrals.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article amplia expressament l’aplicació dels apartats relatius a validesa, atenció i testimoniances als tribunals eclesiàstics i arbitrals.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-21" data-correct="B">
+      <div class="q-card" id="q-19546" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 21 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(21)">Solució</button>
+          <span>Pregunta 21 de 30 • ID: 19546</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19546)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">21. Segons l’article 8 del capítol primer, com es publiquen les lleis aprovades pel Parlament de Catalunya?</div>
+        <div class="q-statement">❓ 21. Segons l’article 8 del capítol primer, com es publiquen les lleis aprovades pel Parlament de Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Primer en català i posteriorment en castellà, quan se n’aprova la traducció.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19546, 'A')">
+            <b>A)</b> <span>Primer en català i posteriorment en castellà, quan se n’aprova la traducció.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En edicions simultànies en català i en castellà al Diari Oficial de la Generalitat de Catalunya.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19546, 'B')">
+            <b>B)</b> <span>En edicions simultànies en català i en castellà al Diari Oficial de la Generalitat de Catalunya.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En la llengua escollida per la Mesa del Parlament per a cada llei.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19546, 'C')">
+            <b>C)</b> <span>En la llengua escollida per la Mesa del Parlament per a cada llei.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En català al Diari Oficial i en castellà al Butlletí Oficial de l’Estat.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19546, 'D')">
+            <b>D)</b> <span>En català al Diari Oficial i en castellà al Butlletí Oficial de l’Estat.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-21">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En edicions simultànies en català i en castellà al Diari Oficial de la Generalitat de Catalunya.</div>
-          <div class="explanation-text"><b>Explicació:</b> La publicació simultània garanteix que les dues versions oficials siguin accessibles al mateix temps en el diari oficial català.</div>
+        <div class="solution-box" id="sol-19546">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En edicions simultànies en català i en castellà al Diari Oficial de la Generalitat de Catalunya.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La publicació simultània garanteix que les dues versions oficials siguin accessibles al mateix temps en el diari oficial català.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-22" data-correct="B">
+      <div class="q-card" id="q-19541" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 22 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(22)">Solució</button>
+          <span>Pregunta 22 de 30 • ID: 19541</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19541)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">22. Segons l’article 4 del capítol preliminar, a qui es pot demanar una actuació específica per garantir els drets lingüístics?</div>
+        <div class="q-statement">❓ 22. Segons l’article 4 del capítol preliminar, a qui es pot demanar una actuació específica per garantir els drets lingüístics?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Als jutjats i exclusivament als tribunals superiors.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19541, 'A')">
+            <b>A)</b> <span>Als jutjats i exclusivament als tribunals superiors.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>A l’Administració de la Generalitat i al Síndic de Greuges, dins llurs competències.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19541, 'B')">
+            <b>B)</b> <span>A l’Administració de la Generalitat i al Síndic de Greuges, dins llurs competències.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Al Parlament de Catalunya i al Consell de Garanties Estatutàries.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19541, 'C')">
+            <b>C)</b> <span>Al Parlament de Catalunya i al Consell de Garanties Estatutàries.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>A les administracions locals i a les entitats financeres.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19541, 'D')">
+            <b>D)</b> <span>A les administracions locals i a les entitats financeres.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-22">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) A l’Administració de la Generalitat i al Síndic de Greuges, dins llurs competències.</div>
-          <div class="explanation-text"><b>Explicació:</b> A més de la tutela judicial, l’article 4 habilita vies institucionals específiques davant la Generalitat i el Síndic de Greuges.</div>
+        <div class="solution-box" id="sol-19541">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) A l’Administració de la Generalitat i al Síndic de Greuges, dins llurs competències.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> A més de la tutela judicial, l’article 4 habilita vies institucionals específiques davant la Generalitat i el Síndic de Greuges.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-23" data-correct="D">
+      <div class="q-card" id="q-19538" data-correct="D">
         <div class="q-meta">
-          <span>Pregunta 23 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(23)">Solució</button>
+          <span>Pregunta 23 de 30 • ID: 19538</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19538)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">23. Segons l’article 3 del capítol preliminar, quines són les llengües oficials de Catalunya?</div>
+        <div class="q-statement">❓ 23. Segons l’article 3 del capítol preliminar, quines són les llengües oficials de Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>El català com a llengua oficial i el castellà com a llengua d’ús administratiu.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19538, 'A')">
+            <b>A)</b> <span>El català com a llengua oficial i el castellà com a llengua d’ús administratiu.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>El català, el castellà i l’aranès en tot el territori.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19538, 'B')">
+            <b>B)</b> <span>El català, el castellà i l’aranès en tot el territori.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>El català com a llengua pròpia i el castellà com a llengua preferent.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19538, 'C')">
+            <b>C)</b> <span>El català com a llengua pròpia i el castellà com a llengua preferent.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>El català i el castellà.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19538, 'D')">
+            <b>D)</b> <span>El català i el castellà.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-23">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El català i el castellà.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article 3 reconeix expressament l’oficialitat del català i del castellà, que poden ser utilitzats pels ciutadans en condicions de validesa jurídica.</div>
+        <div class="solution-box" id="sol-19538">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) El català i el castellà.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article 3 reconeix expressament l’oficialitat del català i del castellà, que poden ser utilitzats pels ciutadans en condicions de validesa jurídica.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-24" data-correct="B">
+      <div class="q-card" id="q-19548" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 24 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(24)">Solució</button>
+          <span>Pregunta 24 de 30 • ID: 19548</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19548)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">24. Segons l’article 9 del capítol primer, quina llengua han d’emprar les administracions de Catalunya en les actuacions internes?</div>
+        <div class="q-statement">❓ 24. Segons l’article 9 del capítol primer, quina llengua han d’emprar les administracions de Catalunya en les actuacions internes?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>El català o el castellà en funció del destinatari.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19548, 'A')">
+            <b>A)</b> <span>El català o el castellà en funció del destinatari.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>El català.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19548, 'B')">
+            <b>B)</b> <span>El català.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>El castellà quan intervenen diverses administracions.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19548, 'C')">
+            <b>C)</b> <span>El castellà quan intervenen diverses administracions.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>La llengua escollida per cada unitat administrativa.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19548, 'D')">
+            <b>D)</b> <span>La llengua escollida per cada unitat administrativa.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-24">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) El català.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article 9 estableix el català com a llengua d’ús intern i de relació entre les administracions i entitats públiques de Catalunya.</div>
+        <div class="solution-box" id="sol-19548">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El català.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article 9 estableix el català com a llengua d’ús intern i de relació entre les administracions i entitats públiques de Catalunya.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-25" data-correct="C">
+      <div class="q-card" id="q-19563" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 25 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(25)">Solució</button>
+          <span>Pregunta 25 de 30 • ID: 19563</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19563)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">25. Segons l’article 17 del capítol primer, en quina llengua han de lliurar els registradors les certificacions?</div>
+        <div class="q-statement">❓ 25. Segons l’article 17 del capítol primer, en quina llengua han de lliurar els registradors les certificacions?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En totes dues llengües oficials en un mateix document.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19563, 'A')">
+            <b>A)</b> <span>En totes dues llengües oficials en un mateix document.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En català, amb independència de la llengua sol·licitada.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19563, 'B')">
+            <b>B)</b> <span>En català, amb independència de la llengua sol·licitada.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En la llengua oficial emprada en la petició.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19563, 'C')">
+            <b>C)</b> <span>En la llengua oficial emprada en la petició.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En la llengua en què es va redactar el document inscrit.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19563, 'D')">
+            <b>D)</b> <span>En la llengua en què es va redactar el document inscrit.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-25">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) En la llengua oficial emprada en la petició.</div>
-          <div class="explanation-text"><b>Explicació:</b> La llengua de la certificació respon a l’elecció de la persona que la demana, mentre que els assentaments segueixen les regles pròpies de l’article.</div>
+        <div class="solution-box" id="sol-19563">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) En la llengua oficial emprada en la petició.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La llengua de la certificació respon a l’elecció de la persona que la demana, mentre que els assentaments segueixen les regles pròpies de l’article.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-26" data-correct="A">
+      <div class="q-card" id="q-19537" data-correct="A">
         <div class="q-meta">
-          <span>Pregunta 26 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(26)">Solució</button>
+          <span>Pregunta 26 de 30 • ID: 19537</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19537)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">26. Segons l’article 2 del capítol preliminar, què implica per a les institucions la condició del català com a llengua pròpia?</div>
+        <div class="q-statement">❓ 26. Segons l’article 2 del capítol preliminar, què implica per a les institucions la condició del català com a llengua pròpia?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Un compromís especial de promocionar-ne el coneixement i fomentar-ne l’ús.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19537, 'A')">
+            <b>A)</b> <span>Un compromís especial de promocionar-ne el coneixement i fomentar-ne l’ús.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>L’obligació d’emprar-lo exclusivament en qualsevol comunicació oficial.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19537, 'B')">
+            <b>B)</b> <span>L’obligació d’emprar-lo exclusivament en qualsevol comunicació oficial.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>La substitució immediata de qualsevol altra llengua en l’activitat institucional.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19537, 'C')">
+            <b>C)</b> <span>La substitució immediata de qualsevol altra llengua en l’activitat institucional.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>La prohibició d’utilitzar el castellà en els serveis adreçats al públic.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19537, 'D')">
+            <b>D)</b> <span>La prohibició d’utilitzar el castellà en els serveis adreçats al públic.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-26">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un compromís especial de promocionar-ne el coneixement i fomentar-ne l’ús.</div>
-          <div class="explanation-text"><b>Explicació:</b> La condició de llengua pròpia genera un deure reforçat de promoció, però no elimina el caràcter oficial ni els drets vinculats al castellà.</div>
+        <div class="solution-box" id="sol-19537">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Un compromís especial de promocionar-ne el coneixement i fomentar-ne l’ús.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La condició de llengua pròpia genera un deure reforçat de promoció, però no elimina el caràcter oficial ni els drets vinculats al castellà.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-27" data-correct="C">
+      <div class="q-card" id="q-19553" data-correct="C">
         <div class="q-meta">
-          <span>Pregunta 27 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(27)">Solució</button>
+          <span>Pregunta 27 de 30 • ID: 19553</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19553)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">27. Segons l’article 11 del capítol primer, què s’ha d’acreditar en els processos de selecció de personal públic?</div>
+        <div class="q-statement">❓ 27. Segons l’article 11 del capítol primer, què s’ha d’acreditar en els processos de selecció de personal públic?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>La possessió d’un certificat lingüístic emès per l’Institut d’Estudis Catalans.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19553, 'A')">
+            <b>A)</b> <span>La possessió d’un certificat lingüístic emès per l’Institut d’Estudis Catalans.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>El coneixement oral del català en qualsevol nivell.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19553, 'B')">
+            <b>B)</b> <span>El coneixement oral del català en qualsevol nivell.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>El coneixement oral i escrit del català en el grau adequat a les funcions de la plaça.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19553, 'C')">
+            <b>C)</b> <span>El coneixement oral i escrit del català en el grau adequat a les funcions de la plaça.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>El coneixement de les dues llengües oficials amb el mateix nivell.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19553, 'D')">
+            <b>D)</b> <span>El coneixement de les dues llengües oficials amb el mateix nivell.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-27">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) El coneixement oral i escrit del català en el grau adequat a les funcions de la plaça.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’exigència lingüística s’ha d’ajustar al contingut funcional de cada plaça i s’aplica també al personal laboral inclòs en els processos indicats.</div>
+        <div class="solution-box" id="sol-19553">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El coneixement oral i escrit del català en el grau adequat a les funcions de la plaça.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’exigència lingüística s’ha d’ajustar al contingut funcional de cada plaça i s’aplica també al personal laboral inclòs en els processos indicats.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-28" data-correct="B">
+      <div class="q-card" id="q-19535" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 28 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(28)">Solució</button>
+          <span>Pregunta 28 de 30 • ID: 19535</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19535)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">28. Segons l’article 1 del capítol preliminar, en quins àmbits s’ha de normalitzar i fomentar l’ús del català?</div>
+        <div class="q-statement">❓ 28. Segons l’article 1 del capítol preliminar, en quins àmbits s’ha de normalitzar i fomentar l’ús del català?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>En les institucions polítiques, els registres públics i els documents notarials.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19535, 'A')">
+            <b>A)</b> <span>En les institucions polítiques, els registres públics i els documents notarials.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>En l’Administració, l’ensenyament, els mitjans de comunicació, les indústries culturals i el món socioeconòmic.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19535, 'B')">
+            <b>B)</b> <span>En l’Administració, l’ensenyament, els mitjans de comunicació, les indústries culturals i el món socioeconòmic.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>En l’ensenyament, les empreses públiques i les activitats esportives.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19535, 'C')">
+            <b>C)</b> <span>En l’ensenyament, les empreses públiques i les activitats esportives.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>En l’Administració, la justícia, la sanitat i les relacions internacionals.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19535, 'D')">
+            <b>D)</b> <span>En l’Administració, la justícia, la sanitat i les relacions internacionals.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-28">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En l’Administració, l’ensenyament, els mitjans de comunicació, les indústries culturals i el món socioeconòmic.</div>
-          <div class="explanation-text"><b>Explicació:</b> La norma identifica expressament cinc grans àmbits d’actuació, que combinen el sector públic, l’educació, la comunicació, la cultura i l’activitat socioeconòmica.</div>
+        <div class="solution-box" id="sol-19535">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En l’Administració, l’ensenyament, els mitjans de comunicació, les indústries culturals i el món socioeconòmic.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La norma identifica expressament cinc grans àmbits d’actuació, que combinen el sector públic, l’educació, la comunicació, la cultura i l’activitat socioeconòmica.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-29" data-correct="B">
+      <div class="q-card" id="q-19560" data-correct="B">
         <div class="q-meta">
-          <span>Pregunta 29 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(29)">Solució</button>
+          <span>Pregunta 29 de 30 • ID: 19560</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19560)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">29. Segons l’article 15 del capítol primer, quina validesa tenen els documents privats redactats en qualsevol idioma?</div>
+        <div class="q-statement">❓ 29. Segons l’article 15 del capítol primer, quina validesa tenen els documents privats redactats en qualsevol idioma?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>Són vàlids exclusivament en les relacions extrajudicials.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19560, 'A')">
+            <b>A)</b> <span>Són vàlids exclusivament en les relacions extrajudicials.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>Són vàlids, sens perjudici de les traduccions exigibles per executar-los.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19560, 'B')">
+            <b>B)</b> <span>Són vàlids, sens perjudici de les traduccions exigibles per executar-los.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>Són vàlids si les parts els ratifiquen davant un fedatari.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19560, 'C')">
+            <b>C)</b> <span>Són vàlids si les parts els ratifiquen davant un fedatari.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>Són vàlids únicament quan l’idioma és oficial a Catalunya.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19560, 'D')">
+            <b>D)</b> <span>Són vàlids únicament quan l’idioma és oficial a Catalunya.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-29">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Són vàlids, sens perjudici de les traduccions exigibles per executar-los.</div>
-          <div class="explanation-text"><b>Explicació:</b> La llengua no és un requisit formal dels documents privats, tot i que es pot exigir traducció per fer-los efectius quan l’idioma no és oficial.</div>
+        <div class="solution-box" id="sol-19560">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Són vàlids, sens perjudici de les traduccions exigibles per executar-los.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La llengua no és un requisit formal dels documents privats, tot i que es pot exigir traducció per fer-los efectius quan l’idioma no és oficial.</div>
         </div>
       </div>
     
-      <div class="q-card" id="q-30" data-correct="A">
+      <div class="q-card" id="q-19536" data-correct="A">
         <div class="q-meta">
-          <span>Pregunta 30 de 30</span>
-          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(30)">Solució</button>
+          <span>Pregunta 30 de 30 • ID: 19536</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(19536)">💡 Veure Solució</button>
         </div>
-        <div class="q-statement">30. Segons l’article 2 del capítol preliminar, quina consideració té el català a Catalunya?</div>
+        <div class="q-statement">❓ 30. Segons l’article 2 del capítol preliminar, quina consideració té el català a Catalunya?</div>
         <div class="options-list">
           
-          <div class="option" data-opt="A" onclick="selectOption(this)">
-            <b>A)</b>
-            <span>És la llengua pròpia de Catalunya i la singularitza com a poble.</span>
+          <div class="option" data-opt="A" onclick="selectOption(19536, 'A')">
+            <b>A)</b> <span>És la llengua pròpia de Catalunya i la singularitza com a poble.</span>
           </div>
         
-          <div class="option" data-opt="B" onclick="selectOption(this)">
-            <b>B)</b>
-            <span>És la llengua exclusiva de les institucions de la Generalitat.</span>
+          <div class="option" data-opt="B" onclick="selectOption(19536, 'B')">
+            <b>B)</b> <span>És la llengua exclusiva de les institucions de la Generalitat.</span>
           </div>
         
-          <div class="option" data-opt="C" onclick="selectOption(this)">
-            <b>C)</b>
-            <span>És una llengua d’ús preferent en determinats serveis públics.</span>
+          <div class="option" data-opt="C" onclick="selectOption(19536, 'C')">
+            <b>C)</b> <span>És una llengua d’ús preferent en determinats serveis públics.</span>
           </div>
         
-          <div class="option" data-opt="D" onclick="selectOption(this)">
-            <b>D)</b>
-            <span>És una llengua oficial compartida sense cap altra consideració.</span>
+          <div class="option" data-opt="D" onclick="selectOption(19536, 'D')">
+            <b>D)</b> <span>És una llengua oficial compartida sense cap altra consideració.</span>
           </div>
         
         </div>
-        <div class="solution-box" id="sol-30">
-          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) És la llengua pròpia de Catalunya i la singularitza com a poble.</div>
-          <div class="explanation-text"><b>Explicació:</b> L’article 2 vincula la condició de llengua pròpia amb la identitat col·lectiva de Catalunya, més enllà de la seva oficialitat.</div>
+        <div class="solution-box" id="sol-19536">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) És la llengua pròpia de Catalunya i la singularitza com a poble.</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’article 2 vincula la condició de llengua pròpia amb la identitat col·lectiva de Catalunya, més enllà de la seva oficialitat.</div>
         </div>
       </div>
     
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T07 - Política lingüística (30 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 15</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 16</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 17</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 18</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 19</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 20</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 21</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 22</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 23</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 24</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 25</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 26</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 27</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 28</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 29</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 30</span>
+        <b>A</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Segons l’article 8 del capítol primer, qui fa la versió oficial castellana de les lleis del Parlament de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> El Parlament de Catalunya.<br>&bull; <b>Explicació:</b> La responsabilitat correspon al mateix Parlament que aprova la llei, no a l’òrgan encarregat de publicar-la.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Segons l’article 15 del capítol primer, en quina llengua s’han de redactar els contractes d’adhesió o amb condicions generals?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En la llengua escollida pel consumidor, amb exemplars separats disponibles en català i castellà.<br>&bull; <b>Explicació:</b> La regla reforça la posició del consumidor i obliga a disposar immediatament de versions separades en les dues llengües oficials.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Segons l’article 10 del capítol primer, quina llengua s’ha d’emprar en els procediments administratius de les administracions de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El català, sens perjudici dels drets lingüístics dels ciutadans.<br>&bull; <b>Explicació:</b> El català és la llengua ordinària del procediment, però els interessats poden presentar documents, manifestar-se i demanar notificacions en castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Segons l’article 14 del capítol primer, en quina llengua s’ha de redactar un document públic amb diversos atorgants?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> En la llengua oficial que acordin els atorgants.<br>&bull; <b>Explicació:</b> L’acord dels atorgants determina la llengua; la redacció bilingüe és la solució prevista quan no arriben a cap acord.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Segons l’article 9 del capítol primer, quin dret conserva una persona resident en l’àmbit lingüístic català respecte de les comunicacions administratives?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Rebre les comunicacions i notificacions en castellà, si ho demana.<br>&bull; <b>Explicació:</b> L’ús normal del català per l’Administració és compatible amb el dret individual a sol·licitar les comunicacions en castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Segons l’article 10 del capítol primer, quins efectes pot tenir una sol·licitud de traducció sobre el procediment?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> No pot causar despesa, perjudici, retard ni suspensió de la tramitació.<br>&bull; <b>Explicació:</b> El dret a rebre una testimoniança traduïda s’ha d’exercir sense conseqüències negatives per a la persona interessada ni per al calendari del procediment.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Segons l’article 4 del capítol preliminar, quin dret lingüístic té tothom a Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Expressar-se en qualsevol de les dues llengües oficials en les relacions i els actes públics i privats.<br>&bull; <b>Explicació:</b> El dret d’expressió lingüística abasta tant les relacions públiques com les privades i pot exercir-se oralment o per escrit.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. Segons l’article 14 del capítol primer, en quina llengua es redacta un document públic si no s’escull expressament cap llengua?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En català.<br>&bull; <b>Explicació:</b> La norma exigeix preguntar prèviament als atorgants, però estableix el català com a llengua de redacció supletòria si no hi ha elecció expressa.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Segons l’article 12 del capítol primer, quina validesa tenen a Catalunya les actuacions de l’Administració de l’Estat fetes en qualsevol llengua oficial?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Són vàlides sense necessitat de traducció.<br>&bull; <b>Explicació:</b> La validesa comprèn tant les actuacions orals com les escrites i no depèn de l’aportació d’una traducció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Segons l’article 3 del capítol preliminar, quina validesa tenen els actes jurídics fets en qualsevol de les dues llengües oficials?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Tenen plena validesa i eficàcia pel que fa a la llengua.<br>&bull; <b>Explicació:</b> La llengua oficial escollida no altera els efectes de l’acte jurídic; no es pot condicionar la seva validesa a l’ús d’una de les dues llengües.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. Segons l’article 16 del capítol primer, com s’han de redactar els convenis col·lectius si les parts no acorden una llengua?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> En les dues llengües oficials i en exemplars separats.<br>&bull; <b>Explicació:</b> L’acord entre les parts preval; a manca d’acord, la norma exigeix versions separades en català i castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. Segons l’article 11 del capítol primer, quin coneixement lingüístic ha de tenir el personal de les administracions públiques de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Un nivell adequat i suficient de les dues llengües oficials, oralment i per escrit.<br>&bull; <b>Explicació:</b> La capacitació ha de permetre desenvolupar les funcions pròpies del lloc tant oralment com per escrit en català i castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. Segons l’article 13 del capítol primer, quina validesa tenen les actuacions judicials fetes en qualsevol de les dues llengües oficials?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Són vàlides sense necessitat de traducció.<br>&bull; <b>Explicació:</b> La regla abasta les actuacions orals i escrites i evita que la llengua oficial emprada n’afecti la validesa.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Segons l’article 6 del capítol preliminar, a quina institució correspon l’autoritat lingüística del català?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> A l’Institut d’Estudis Catalans.<br>&bull; <b>Explicació:</b> La Generalitat promou i protegeix la llengua, però l’autoritat lingüística correspon legalment a l’Institut d’Estudis Catalans.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 15. Segons l’article 1 del capítol preliminar, quin és l’objecte general de la Llei?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Emparar, fomentar i normalitzar l’ús del català i garantir l’ús normal i oficial del català i del castellà.<br>&bull; <b>Explicació:</b> L’article 1 desplega l’article 3 de l’Estatut i projecta la normalització lingüística sobre tots els àmbits, sense excloure l’oficialitat del castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 16. Segons l’article 5 del capítol preliminar, què ha de garantir la Generalitat en matèria lingüística?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Els drets lingüístics, l’ús normal i oficial de les dues llengües i la igualtat plena en drets i deures lingüístics.<br>&bull; <b>Explicació:</b> La Generalitat ha de combinar la garantia dels drets lingüístics amb l’ensenyament, la capacitació del personal públic i la igualtat entre ciutadans.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 17. Segons l’article 12 del capítol primer, quin dret té tothom davant l’Administració de l’Estat a Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Relacionar-s’hi en la llengua oficial que esculli i no haver d’aportar cap traducció.<br>&bull; <b>Explicació:</b> La persona pot escollir català o castellà tant en les comunicacions orals com escrites, sense càrregues de traducció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 18. Segons l’article 5 del capítol preliminar, com ha de fomentar la Generalitat l’ús del català?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Mitjançant recomanacions generals sense dotació de recursos específics.<br>&bull; <b>Explicació:</b> L’actuació pública no es limita a una declaració programàtica: exigeix mesures efectives i una assignació suficient de recursos.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 19. Segons l’article 6 del capítol preliminar, com es considera la llengua catalana en relació amb altres territoris?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Com un patrimoni compartit amb altres territoris que formen una mateixa comunitat lingüística.<br>&bull; <b>Explicació:</b> L’article 6 presenta el català com un patrimoni compartit i obliga a protegir-ne la unitat, la projecció exterior i la comunicació entre territoris.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 20. Segons l’article 13 del capítol primer, a quins altres tribunals s’apliquen els drets lingüístics previstos per a les actuacions judicials?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Als tribunals eclesiàstics i als arbitrals.<br>&bull; <b>Explicació:</b> L’article amplia expressament l’aplicació dels apartats relatius a validesa, atenció i testimoniances als tribunals eclesiàstics i arbitrals.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 21. Segons l’article 8 del capítol primer, com es publiquen les lleis aprovades pel Parlament de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En edicions simultànies en català i en castellà al Diari Oficial de la Generalitat de Catalunya.<br>&bull; <b>Explicació:</b> La publicació simultània garanteix que les dues versions oficials siguin accessibles al mateix temps en el diari oficial català.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 22. Segons l’article 4 del capítol preliminar, a qui es pot demanar una actuació específica per garantir els drets lingüístics?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> A l’Administració de la Generalitat i al Síndic de Greuges, dins llurs competències.<br>&bull; <b>Explicació:</b> A més de la tutela judicial, l’article 4 habilita vies institucionals específiques davant la Generalitat i el Síndic de Greuges.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 23. Segons l’article 3 del capítol preliminar, quines són les llengües oficials de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> El català i el castellà.<br>&bull; <b>Explicació:</b> L’article 3 reconeix expressament l’oficialitat del català i del castellà, que poden ser utilitzats pels ciutadans en condicions de validesa jurídica.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 24. Segons l’article 9 del capítol primer, quina llengua han d’emprar les administracions de Catalunya en les actuacions internes?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El català.<br>&bull; <b>Explicació:</b> L’article 9 estableix el català com a llengua d’ús intern i de relació entre les administracions i entitats públiques de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 25. Segons l’article 17 del capítol primer, en quina llengua han de lliurar els registradors les certificacions?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> En la llengua oficial emprada en la petició.<br>&bull; <b>Explicació:</b> La llengua de la certificació respon a l’elecció de la persona que la demana, mentre que els assentaments segueixen les regles pròpies de l’article.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 26. Segons l’article 2 del capítol preliminar, què implica per a les institucions la condició del català com a llengua pròpia?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Un compromís especial de promocionar-ne el coneixement i fomentar-ne l’ús.<br>&bull; <b>Explicació:</b> La condició de llengua pròpia genera un deure reforçat de promoció, però no elimina el caràcter oficial ni els drets vinculats al castellà.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 27. Segons l’article 11 del capítol primer, què s’ha d’acreditar en els processos de selecció de personal públic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El coneixement oral i escrit del català en el grau adequat a les funcions de la plaça.<br>&bull; <b>Explicació:</b> L’exigència lingüística s’ha d’ajustar al contingut funcional de cada plaça i s’aplica també al personal laboral inclòs en els processos indicats.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 28. Segons l’article 1 del capítol preliminar, en quins àmbits s’ha de normalitzar i fomentar l’ús del català?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En l’Administració, l’ensenyament, els mitjans de comunicació, les indústries culturals i el món socioeconòmic.<br>&bull; <b>Explicació:</b> La norma identifica expressament cinc grans àmbits d’actuació, que combinen el sector públic, l’educació, la comunicació, la cultura i l’activitat socioeconòmica.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 29. Segons l’article 15 del capítol primer, quina validesa tenen els documents privats redactats en qualsevol idioma?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Són vàlids, sens perjudici de les traduccions exigibles per executar-los.<br>&bull; <b>Explicació:</b> La llengua no és un requisit formal dels documents privats, tot i que es pot exigir traducció per fer-los efectius quan l’idioma no és oficial.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 30. Segons l’article 2 del capítol preliminar, quina consideració té el català a Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> És la llengua pròpia de Catalunya i la singularitza com a poble.<br>&bull; <b>Explicació:</b> L’article 2 vincula la condició de llengua pròpia amb la identitat col·lectiva de Catalunya, més enllà de la seva oficialitat.</div>
+      </div>
+    
+      </div>
     </div>
   </div>
+
   <script>
     let allVisible = false;
 
-    function selectOption(el) {
-      const card = el.closest('.q-card');
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
       const correct = card.getAttribute('data-correct');
-      const chosen = el.getAttribute('data-opt');
+      const box = document.getElementById('sol-' + id);
       
-      // Clear previous states
-      card.querySelectorAll('.option').forEach(o => o.classList.remove('wrong'));
-      
-      if (chosen === correct) {
-        el.classList.add('correct');
-      } else {
-        el.classList.add('wrong');
-        const correctEl = card.querySelector('.option[data-opt="' + correct + '"]');
-        if (correctEl) correctEl.classList.add('correct');
-      }
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
 
-      // Show solution box
-      const box = card.querySelector('.solution-box');
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
       box.classList.add('visible');
     }
 
@@ -1169,6 +1443,12 @@
           else opt.classList.remove('correct');
         }
       });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
     }
   </script>
 </body>

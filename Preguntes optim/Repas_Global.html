@@ -7,50 +7,120 @@
   <style>
     
   :root {
-    --bg: #0f172a;
-    --card: #1e293b;
-    --card-border: rgba(255, 255, 255, 0.08);
-    --text: #f8fafc;
-    --text-muted: #94a3b8;
-    --primary: #3b82f6;
-    --primary-hover: #2563eb;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
     --success: #10b981;
     --error: #ef4444;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
   .container { max-width: 960px; margin: 0 auto; }
-  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
-  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
-  .header p { color: var(--text-muted); font-size: 14px; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
   .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
-  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
   .btn-primary { background: var(--primary); color: white; }
   .btn-primary:hover { background: var(--primary-hover); }
-  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
-  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
-  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
-  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
-  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
-  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
-  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
-  .option:hover { background: rgba(255,255,255,0.07); }
-  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
-  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
-  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
-  .solution-box.visible { display: block; }
-  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
-  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
   
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
   @media print {
-    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
-    .header, .controls, .print-hide { display: none !important; }
-    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
-    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
-    .option.correct { color: #047857 !important; font-weight: bold !important; }
-    .option.wrong { color: #b91c1c !important; }
-    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
-    .explanation-text { color: #334155 !important; }
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
   }
 
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
@@ -59,28 +129,28 @@
 <body>
   <div class="container" style="max-width: 1100px;">
     <div class="header">
-      <h1 style="font-size: 28px;">🔥 Preguntes Òptim - Oposicions Bombers</h1>
-      <p style="font-size: 15px; margin-top: 6px;">Total de <b>7205</b> preguntes distribuïdes en <b>34</b> temes oficials.</p>
+      <h1>🔥 Preguntes Òptim - Oposicions Bombers</h1>
+      <p>Total de <b>9025</b> preguntes distribuïdes en els <b>34</b> temes oficials.</p>
       
       <div class="controls" style="margin-top: 20px;">
-        <a href="anki_csv/00_TOTES_LES_PREGUNTES_ANKI.csv" download class="btn btn-primary" style="font-size: 14px; padding: 12px 20px;">
-          📥 Descarregar TOTES per a Anki (Master CSV - 7205 preguntes)
+        <a href="anki_csv/00_TOTES_LES_PREGUNTES_ANKI.csv" download class="btn btn-accent" style="font-size: 13px; padding: 12px 20px;">
+          📥 Descarregar TOTES per a Anki (Master CSV - 9025 preguntes)
         </a>
       </div>
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
-      <h2 style="font-size: 20px;">Temari Oficial (34 Temes)</h2>
-      <input type="text" id="filterInput" placeholder="Cercar tema..." onkeyup="filterThemes()" style="padding: 10px 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--card-border); color: white; font-size: 14px; width: 260px; outline: none;">
+      <h2 style="font-size: 18px; color: var(--primary);">Temari Oficial (34 Temes)</h2>
+      <input type="text" id="filterInput" placeholder="Cercar tema..." onkeyup="filterThemes()" style="padding: 10px 16px; border-radius: 8px; background: var(--card); border: 1px solid var(--card-border); color: #222; font-size: 14px; width: 260px; outline: none;">
     </div>
 
     <div class="grid" id="themesGrid">
       
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T01 - CE i EAC</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">299 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T01 - CE i EAC</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">382 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T01_-_CE_i_EAC.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -88,11 +158,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T02 - Funció pública</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">81 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T02 - Funció pública</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">127 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T02_-_Funcio_publica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -100,11 +170,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T03 - Llei bombers i protecció civil</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">140 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T03 - Llei bombers i protecció civil</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">193 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T03_-_Llei_bombers_i_proteccio_civil.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -112,11 +182,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T04 - Organització del cos de Bombers</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">128 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T04 - Organització del cos de Bombers</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">181 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T04_-_Organitzacio_del_cos_de_Bombers.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -124,11 +194,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T05 - Prevenció de riscos laborals</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">90 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T05 - Prevenció de riscos laborals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">162 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T05_-_Prevencio_de_riscos_laborals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -136,11 +206,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T06 - Igualtat de tracte i de gènere</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">183 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T06 - Igualtat de tracte i de gènere</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">247 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T06_-_Igualtat_de_tracte_i_de_genere.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -148,10 +218,10 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T07 - Política lingüística</h3>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T07 - Política lingüística</h3>
         <p style="font-size: 13px; color: var(--text-muted);">30 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
@@ -160,11 +230,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T08 - Teoria del foc i agents extintors</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">292 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T08 - Teoria del foc i agents extintors</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">330 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T08_-_Teoria_del_foc_i_agents_extintors.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -172,11 +242,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T09 - Física</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">165 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T09 - Física</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">229 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T09_-_Fisica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -184,11 +254,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T10 - Química</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">283 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T10 - Química</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">314 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T10_-_Quimica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -196,11 +266,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T11 - Electricitat</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">368 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T11 - Electricitat</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">406 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T11_-_Electricitat.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -208,11 +278,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T12 - Instal·lacions</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">609 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T12 - Instal·lacions</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">651 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T12_-_Installacions.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -220,11 +290,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T13 - Hidràulica</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">330 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T13 - Hidràulica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">374 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T13_-_Hidraulica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -232,11 +302,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T14 - Cartografia</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">238 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T14 - Cartografia</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">263 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T14_-_Cartografia.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -244,11 +314,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T15 - Construcció</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">200 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T15 - Construcció</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">237 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T15_-_Construccio.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -256,10 +326,10 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T16 - Assistències tècniques</h3>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T16 - Assistències tècniques</h3>
         <p style="font-size: 13px; color: var(--text-muted);">139 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
@@ -268,11 +338,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T17 - Ràdio</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">335 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T17 - Ràdio</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">362 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T17_-_Radio.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -280,11 +350,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T18 - Vehicles d&#039;intervenció mecànica</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">184 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T18 - Vehicles d&#039;intervenció mecànica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">258 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T18_-_Vehicles_d_intervencio_mecanica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -292,11 +362,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T19 - Conducció i mecànica</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">189 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T19 - Conducció i mecànica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">262 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T19_-_Conduccio_i_mecanica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -304,11 +374,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T20 - Equips de protecció individual (EPI)</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">195 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T20 - Equips de protecció individual (EPI)</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">271 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T20_-_Equips_de_proteccio_individual_EPI.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -316,11 +386,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T21 - Gestió d&#039;emergències i protecció civil</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">152 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T21 - Gestió d&#039;emergències i protecció civil</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">219 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T21_-_Gestio_d_emergencies_i_proteccio_civil.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -328,11 +398,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T22 - Sistema de comandament</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">62 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T22 - Sistema de comandament</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">134 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T22_-_Sistema_de_comandament.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -340,11 +410,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T23 - Prevenció bàsica d&#039;incendis</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">186 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T23 - Prevenció bàsica d&#039;incendis</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">260 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T23_-_Prevencio_basica_d_incendis.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -352,11 +422,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T24 - Intervenció bàsica en incendis estructurals</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">228 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T24 - Intervenció bàsica en incendis estructurals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">306 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T24_-_Intervencio_basica_en_incendis_estructurals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -364,11 +434,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T25 - Intervenció bàsica en incendis forestals</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">339 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T25 - Intervenció bàsica en incendis forestals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">367 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T25_-_Intervencio_basica_en_incendis_forestals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -376,11 +446,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T26 - Intervenció bàsica en incendis varis</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">111 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T26 - Intervenció bàsica en incendis varis</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">196 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T26_-_Intervencio_basica_en_incendis_varis.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -388,11 +458,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T27 - Intervenció bàsica en riscos NRBQ</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">248 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T27 - Intervenció bàsica en riscos NRBQ</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">332 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T27_-_Intervencio_basica_en_riscos_NRBQ.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -400,11 +470,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T28 - Assistència sanitària</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">219 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T28 - Assistència sanitària</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">301 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T28_-_Assistencia_sanitaria.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -412,11 +482,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T29 - Incidents de múltiples víctimes</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">186 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T29 - Incidents de múltiples víctimes</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">254 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T29_-_Incidents_de_multiples_victimes.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -424,11 +494,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T30 - Estructures col·lapsades</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">245 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T30 - Estructures col·lapsades</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">315 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T30_-_Estructures_collapsades.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -436,11 +506,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T31 - Salvaments medi natural terrestre</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">172 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T31 - Salvaments medi natural terrestre</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">243 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T31_-_Salvaments_medi_natural_terrestre.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -448,11 +518,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T32 - Accidents de mobilitat viària</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">180 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T32 - Accidents de mobilitat viària</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">204 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T32_-_Accidents_de_mobilitat_viaria.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
@@ -460,10 +530,10 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T33 - Intervenció bàsica en rescat urbà</h3>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T33 - Intervenció bàsica en rescat urbà</h3>
         <p style="font-size: 13px; color: var(--text-muted);">144 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
@@ -472,11 +542,11 @@
       </div>
     </div>
   
-    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
       <div>
-        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
-        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T34 - Intervenció bàsica en inundacions</h3>
-        <p style="font-size: 13px; color: var(--text-muted);">255 preguntes</p>
+        <div style="font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3; color: var(--primary);">T34 - Intervenció bàsica en inundacions</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">332 preguntes</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
         <a href="html_repas/T34_-_Intervencio_basica_en_inundacions.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>

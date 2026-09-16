@@ -243,3 +243,35 @@ input[type="text"]:focus, select:focus {
     page-break-before: always;
   }
 }
+
+/* Theme List Mode Custom Styles */
+.theme-q-card {
+  transition: all 0.25s ease;
+  scroll-margin-top: 100px;
+}
+.theme-q-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.filter-chip {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.filter-chip:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.filter-chip.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
