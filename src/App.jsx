@@ -240,11 +240,13 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
     }
   });
 
-  const failedCount = (stats._failedIds || []).length;
+  const activeThemes = selectedThemes.length ? selectedThemes : themes;
+  const failedIds = stats._failedIds || [];
+  const failedInActiveThemes = questions.filter(q => failedIds.includes(q.id) && activeThemes.includes(q.theme)).length;
 
   const handleStart = () => {
     onStart({
-      themes: selectedThemes.length ? selectedThemes : themes,
+      themes: activeThemes,
       mode,
       length: parseInt(examLength)
     });
@@ -300,11 +302,11 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
           </button>
           <button 
             onClick={() => setMode('review-failed')}
-            style={{ flex: 1, padding: 12, borderRadius: 12, border: '1px solid rgba(255,255,255,0.1)', background: mode === 'review-failed' ? 'rgba(239, 68, 68, 0.2)' : 'transparent', color: mode === 'review-failed' ? 'var(--error)' : 'white', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, transition: 'all 0.2s', opacity: failedCount === 0 ? 0.5 : 1 }}
-            disabled={failedCount === 0}
+            style={{ flex: 1, padding: 12, borderRadius: 12, border: '1px solid rgba(255,255,255,0.1)', background: mode === 'review-failed' ? 'rgba(239, 68, 68, 0.2)' : 'transparent', color: mode === 'review-failed' ? 'var(--error)' : 'white', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, transition: 'all 0.2s', opacity: failedInActiveThemes === 0 ? 0.5 : 1 }}
+            disabled={failedInActiveThemes === 0}
           >
             <AlertTriangle size={24} />
-            <span style={{ fontWeight: 600, fontSize: 14 }}>Repàs ({failedCount})</span>
+            <span style={{ fontWeight: 600, fontSize: 14 }}>Repàs ({failedInActiveThemes})</span>
           </button>
         </div>
 
@@ -383,17 +385,20 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
 
   // Init
   useEffect(() => {
-    let pool = questions.filter(q => config.themes.includes(q.theme));
-    
+    let pool = [];
     if (config.mode === 'review-failed') {
       const failedIds = userStats._failedIds || [];
-      pool = questions.filter(q => failedIds.includes(q.id));
+      pool = questions.filter(q => failedIds.includes(q.id) && config.themes.includes(q.theme));
+    } else {
+      pool = questions.filter(q => config.themes.includes(q.theme));
     }
 
     pool = pool.sort(() => Math.random() - 0.5); // shuffle
     
     if (config.mode === 'exam') {
       setQueue(pool.slice(0, config.length));
+    } else if (config.mode === 'review-failed') {
+      setQueue(pool);
     } else if (config.length && config.length > 0) {
       setQueue(pool.slice(0, config.length));
     } else {
@@ -744,14 +749,17 @@ function ResultsScreen({ results, onHome }) {
   );
 }
 
-// ----------------------------------------------------------------------
-// FAILED SCREEN
-// ----------------------------------------------------------------------
 function FailedScreen({ questions, userStats, onSaveStats, onHome }) {
+  const [filterTheme, setFilterTheme] = useState('ALL');
   const handlePrint = () => window.print();
   
   const failedIds = userStats._failedIds || [];
-  const failedQuestions = questions.filter(q => failedIds.includes(q.id));
+  const allFailedQuestions = questions.filter(q => failedIds.includes(q.id));
+  const errorThemes = [...new Set(allFailedQuestions.map(q => q.theme))].sort();
+
+  const failedQuestions = filterTheme === 'ALL'
+    ? allFailedQuestions
+    : allFailedQuestions.filter(q => q.theme === filterTheme);
 
   const clearFailed = () => {
     if (confirm('Estàs segur que vols esborrar tot el registre de preguntes fallades?')) {
@@ -764,9 +772,22 @@ function FailedScreen({ questions, userStats, onSaveStats, onHome }) {
     <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} className="flex-center" style={{ minHeight: '80vh', flexDirection: 'column', paddingTop: 40, paddingBottom: 40 }}>
       <div className="glass text-center print-hide" style={{ padding: 40, width: '100%', marginBottom: 24 }}>
         <h2 style={{ fontSize: 24, marginBottom: 16 }}>Llista d'Errors</h2>
-        <p style={{ color: 'var(--text-muted)', marginBottom: 32 }}>
-          Tens <b>{failedQuestions.length}</b> preguntes pendents de consolidar.
+        <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
+          Tens <b>{failedQuestions.length}</b> preguntes pendents {filterTheme !== 'ALL' ? `del tema ${filterTheme}` : 'en total'}.
         </p>
+
+        {errorThemes.length > 1 && (
+          <div style={{ marginBottom: 24, textAlign: 'left', maxWidth: 400, margin: '0 auto 24px' }}>
+            <label style={{ display: 'block', marginBottom: 8, color: 'var(--text-muted)', fontSize: 13 }}>Filtrar per Tema:</label>
+            <select value={filterTheme} onChange={e => setFilterTheme(e.target.value)}>
+              <option value="ALL">Tots els temes ({allFailedQuestions.length})</option>
+              {errorThemes.map(t => {
+                const count = allFailedQuestions.filter(q => q.theme === t).length;
+                return <option key={t} value={t}>{t} ({count})</option>;
+              })}
+            </select>
+          </div>
+        )}
 
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <button onClick={onHome} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
