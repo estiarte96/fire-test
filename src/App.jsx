@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle } from 'lucide-react';
+import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw } from 'lucide-react';
 import './index.css';
 
 // Anim variants
@@ -39,6 +39,7 @@ export default function App() {
           if (data && !data.error) {
             if (Object.keys(data).length > 0) {
               if (!data._failedIds) data._failedIds = [];
+              if (!data._favoriteIds) data._favoriteIds = [];
               setStats(data);
               localStorage.setItem(`stats_${user}`, JSON.stringify(data));
             } else {
@@ -48,6 +49,7 @@ export default function App() {
                 try {
                   const parsed = JSON.parse(saved);
                   if (!parsed._failedIds) parsed._failedIds = [];
+                  if (!parsed._favoriteIds) parsed._favoriteIds = [];
                   setStats(parsed);
                   fetch('/api/saveStats', {
                     method: 'POST',
@@ -69,6 +71,7 @@ export default function App() {
             try {
               const parsed = JSON.parse(saved);
               if (!parsed._failedIds) parsed._failedIds = [];
+              if (!parsed._favoriteIds) parsed._favoriteIds = [];
               setStats(parsed);
             } catch (e) {}
           }
@@ -79,6 +82,7 @@ export default function App() {
 
   const saveStats = (newStats) => {
     if (!newStats._failedIds) newStats._failedIds = [];
+    if (!newStats._favoriteIds) newStats._favoriteIds = [];
     setStats(newStats);
     localStorage.setItem(`stats_${user}`, JSON.stringify(newStats));
     
@@ -98,6 +102,17 @@ export default function App() {
         console.log('Sincronització al núvol fallida o inactiva en local', e);
         setSyncStatus('error');
       });
+  };
+
+  const toggleFavorite = (questionId) => {
+    const statsCopy = { ...stats };
+    if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
+    if (statsCopy._favoriteIds.includes(questionId)) {
+      statsCopy._favoriteIds = statsCopy._favoriteIds.filter(id => id !== questionId);
+    } else {
+      statsCopy._favoriteIds.push(questionId);
+    }
+    saveStats(statsCopy);
   };
 
   const login = (username) => {
@@ -129,6 +144,7 @@ export default function App() {
             onLogout={logout} 
             onStart={(config) => setScreen({ name: 'quiz', config })} 
             onViewFailed={() => setScreen('failed')}
+            onViewFavorites={() => setScreen('favorites')}
           />
         )}
         {screen?.name === 'quiz' && (
@@ -138,6 +154,7 @@ export default function App() {
             questions={questions}
             userStats={stats}
             onSaveStats={saveStats}
+            onToggleFavorite={toggleFavorite}
             onFinish={(results) => setScreen({ name: 'results', results })}
             onExit={() => setScreen('home')}
           />
@@ -146,6 +163,9 @@ export default function App() {
           <ResultsScreen 
             key="results"
             results={screen.results}
+            userStats={stats}
+            onToggleFavorite={toggleFavorite}
+            onStartQuiz={(config) => setScreen({ name: 'quiz', config })}
             onHome={() => setScreen('home')}
           />
         )}
@@ -155,6 +175,18 @@ export default function App() {
             questions={questions}
             userStats={stats}
             onSaveStats={saveStats}
+            onToggleFavorite={toggleFavorite}
+            onHome={() => setScreen('home')}
+          />
+        )}
+        {screen === 'favorites' && (
+          <FavoritesScreen 
+            key="favorites"
+            questions={questions}
+            userStats={stats}
+            onSaveStats={saveStats}
+            onToggleFavorite={toggleFavorite}
+            onStartFavoritesQuiz={(config) => setScreen({ name: 'quiz', config })}
             onHome={() => setScreen('home')}
           />
         )}
@@ -175,8 +207,6 @@ function LoginScreen({ onLogin }) {
     const allowedUsers = ['pepe', 'marta'];
 
     if (allowedUsers.includes(cleanName)) {
-      // Pass the correctly capitalized version based on what they matched, or just the original they typed
-      // Let's pass the cleanName or a capitalized version for consistency
       const finalName = cleanName.charAt(0).toUpperCase() + cleanName.slice(1);
       onLogin(finalName);
     } else {
@@ -221,11 +251,36 @@ function LoginScreen({ onLogin }) {
     </motion.div>
   );
 }
+        
+        <input 
+          type="text" 
+          placeholder="Introdueix el teu nom" 
+          value={name} 
+          onChange={e => { setName(e.target.value); setError(''); }}
+          onKeyDown={e => e.key === 'Enter' && handleLogin()}
+          style={{ marginBottom: 16, border: error ? '1px solid var(--error)' : '1px solid rgba(255,255,255,0.1)' }}
+        />
+        
+        {error && <p style={{ color: 'var(--error)', fontSize: 13, marginBottom: 16, fontWeight: 500 }}>{error}</p>}
 
+        <button 
+          onClick={handleLogin}
+          style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
+          onMouseOver={e => e.currentTarget.style.background = 'var(--primary-hover)'}
+          onMouseOut={e => e.currentTarget.style.background = 'var(--primary)'}
+        >
+          Accedir
+        </button>
+      </div>
+    </motion.div>
+  );
+}
+
+// ----------------------------------------------------------------------
 // ----------------------------------------------------------------------
 // HOME SCREEN
 // ----------------------------------------------------------------------
-function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onViewFailed }) {
+function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onViewFailed, onViewFavorites }) {
   const themes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
   const [selectedThemes, setSelectedThemes] = useState([]);
   const [mode, setMode] = useState('exam');
@@ -234,7 +289,7 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
   // Stats calc
   let totalOk = 0, totalKo = 0;
   Object.keys(stats).forEach(k => {
-    if (k !== '_failedIds' && stats[k]) {
+    if (k !== '_failedIds' && k !== '_favoriteIds' && stats[k]) {
       totalOk += stats[k].correct || 0;
       totalKo += stats[k].wrong || 0;
     }
@@ -242,7 +297,10 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
 
   const activeThemes = selectedThemes.length ? selectedThemes : themes;
   const failedIds = stats._failedIds || [];
+  const favoriteIds = stats._favoriteIds || [];
+
   const failedInActiveThemes = questions.filter(q => failedIds.includes(q.id) && activeThemes.includes(q.theme)).length;
+  const favoritesInActiveThemes = questions.filter(q => favoriteIds.includes(q.id) && activeThemes.includes(q.theme)).length;
 
   const handleStart = () => {
     onStart({
@@ -349,20 +407,33 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: 12 }}>
+        <div style={{ display: 'flex', gap: 12, marginBottom: 12 }}>
           <button 
             onClick={handleStart}
-            style={{ flex: 3, padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 700, fontSize: 16, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
+            style={{ width: '100%', padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 700, fontSize: 16, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8, transition: 'all 0.2s' }}
+            onMouseOver={e => e.currentTarget.style.background = 'var(--primary-hover)'}
+            onMouseOut={e => e.currentTarget.style.background = 'var(--primary)'}
           >
             <Play size={20} fill="currentColor" />
             COMENÇAR TEST
           </button>
-          
+        </div>
+
+        <div style={{ display: 'flex', gap: 12 }}>
           <button 
             onClick={onViewFailed}
-            style={{ flex: 1, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, fontSize: 14, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
+            style={{ flex: 1, padding: 14, borderRadius: 12, background: 'rgba(239, 68, 68, 0.15)', color: 'var(--error)', fontWeight: 600, fontSize: 14, border: '1px solid rgba(239, 68, 68, 0.2)', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
           >
-            Llista Errors
+            <AlertTriangle size={18} />
+            Llista Errors ({failedIds.length})
+          </button>
+
+          <button 
+            onClick={onViewFavorites}
+            style={{ flex: 1, padding: 14, borderRadius: 12, background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b', fontWeight: 600, fontSize: 14, border: '1px solid rgba(245, 158, 11, 0.2)', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
+          >
+            <Star size={18} fill="#f59e0b" color="#f59e0b" />
+            Preferits ({favoriteIds.length})
           </button>
         </div>
       </div>
@@ -373,13 +444,12 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onStart, onV
 // ----------------------------------------------------------------------
 // QUIZ SCREEN
 // ----------------------------------------------------------------------
-function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExit }) {
+function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorite, onFinish, onExit }) {
   const [queue, setQueue] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState({}); // For exam mode
+  const [answers, setAnswers] = useState({});
   const [studyState, setStudyState] = useState(null); // 'correct', 'wrong', null
   const [selectedOpt, setSelectedOpt] = useState(null);
-  const [studySummary, setStudySummary] = useState({ correct: 0, wrong: 0, isFinished: false });
 
   const isExam = config.mode === 'exam';
 
@@ -389,6 +459,9 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     if (config.mode === 'review-failed') {
       const failedIds = userStats._failedIds || [];
       pool = questions.filter(q => failedIds.includes(q.id) && config.themes.includes(q.theme));
+    } else if (config.mode === 'favorites') {
+      const favIds = userStats._favoriteIds || [];
+      pool = questions.filter(q => favIds.includes(q.id) && config.themes.includes(q.theme));
     } else {
       pool = questions.filter(q => config.themes.includes(q.theme));
     }
@@ -397,7 +470,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     
     if (config.mode === 'exam') {
       setQueue(pool.slice(0, config.length));
-    } else if (config.mode === 'review-failed') {
+    } else if (config.mode === 'review-failed' || config.mode === 'favorites') {
       setQueue(pool);
     } else if (config.length && config.length > 0) {
       setQueue(pool.slice(0, config.length));
@@ -408,42 +481,12 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
 
   if (!queue.length) {
     return (
-      <div className="flex-center" style={{ height: '70vh', flexDirection: 'column', gap: 16 }}>
-        <p style={{ color: 'var(--text-muted)' }}>Carregant preguntes...</p>
-        <button onClick={onExit} style={{ padding: '10px 20px', borderRadius: 10, background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', cursor: 'pointer' }}>
+      <div className="flex-center" style={{ height: '70vh', flexDirection: 'column', gap: 16, textAlign: 'center', padding: 20 }}>
+        <p style={{ color: 'var(--text-muted)' }}>No s'han trobat preguntes per als temes seleccionats.</p>
+        <button onClick={onExit} style={{ padding: '12px 24px', borderRadius: 12, background: 'var(--primary)', border: 'none', color: 'white', cursor: 'pointer', fontWeight: 600 }}>
           Tornar a l'inici
         </button>
       </div>
-    );
-  }
-
-  // Study session completed screen
-  if (!isExam && studySummary.isFinished) {
-    return (
-      <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} style={{ textAlign: 'center', padding: '40px 20px' }}>
-        <div className="glass" style={{ padding: 32, maxWidth: 500, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Sessió d'Estudi Completada! 🎉</h2>
-          <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Has repassat totes les preguntes d'aquesta sessió.</p>
-          
-          <div style={{ display: 'flex', gap: 16, marginBottom: 24 }}>
-            <div style={{ flex: 1, background: 'rgba(0,0,0,0.2)', padding: 16, borderRadius: 12 }}>
-              <span style={{ display: 'block', fontSize: 24, fontWeight: 700, color: 'var(--success)' }}>{studySummary.correct}</span>
-              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Encerts</span>
-            </div>
-            <div style={{ flex: 1, background: 'rgba(0,0,0,0.2)', padding: 16, borderRadius: 12 }}>
-              <span style={{ display: 'block', fontSize: 24, fontWeight: 700, color: 'var(--error)' }}>{studySummary.wrong}</span>
-              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Errors</span>
-            </div>
-          </div>
-
-          <button 
-            onClick={onExit}
-            style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}
-          >
-            Tornar a l'Inici
-          </button>
-        </div>
-      </motion.div>
     );
   }
 
@@ -458,6 +501,8 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     );
   }
 
+  const isFav = (userStats._favoriteIds || []).includes(q.id);
+
   // Handling clicks
   const handleOptionClick = (opt) => {
     if (isExam) {
@@ -466,22 +511,21 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
       if (studyState) return; // already answered
       
       setSelectedOpt(opt);
+      setAnswers(prev => ({ ...prev, [q.id]: opt }));
+
       const theme = q.theme || 'Sense_Tema';
       const statsCopy = { ...userStats };
       if (!statsCopy[theme]) statsCopy[theme] = { correct: 0, wrong: 0 };
       if (!statsCopy._failedIds) statsCopy._failedIds = [];
+      if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
 
       if (opt === q.correct) {
         setStudyState('correct');
-        setStudySummary(prev => ({ ...prev, correct: prev.correct + 1 }));
         statsCopy[theme].correct++;
-        // Remove from failed list if correct
         statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== q.id);
       } else {
         setStudyState('wrong');
-        setStudySummary(prev => ({ ...prev, wrong: prev.wrong + 1 }));
         statsCopy[theme].wrong++;
-        // Add to failed list if wrong
         if (!statsCopy._failedIds.includes(q.id)) {
           statsCopy._failedIds.push(q.id);
         }
@@ -490,44 +534,58 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
     }
   };
 
-  const nextStudy = () => {
-    if (currentIndex + 1 < queue.length) {
-      setStudyState(null);
-      setSelectedOpt(null);
-      setCurrentIndex(prev => prev + 1);
-    } else {
-      setStudySummary(prev => ({ ...prev, isFinished: true }));
-    }
-  };
-
-  const finishExam = () => {
+  const handleFinishQuiz = () => {
     let correct = 0, wrong = 0, blank = 0;
     const statsCopy = { ...userStats };
     if (!statsCopy._failedIds) statsCopy._failedIds = [];
+    if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
 
     queue.forEach(item => {
       const t = item.theme || 'Sense_Tema';
       if (!statsCopy[t]) statsCopy[t] = { correct: 0, wrong: 0 };
       
       const a = answers[item.id];
-      if (!a) blank++;
-      else if (a === item.correct) { 
+      if (!a) {
+        blank++;
+      } else if (a === item.correct) { 
         correct++; 
-        statsCopy[t].correct++;
+        if (isExam) statsCopy[t].correct++;
         statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== item.id);
-      }
-      else { 
+      } else { 
         wrong++; 
-        statsCopy[t].wrong++;
+        if (isExam) statsCopy[t].wrong++;
         if (!statsCopy._failedIds.includes(item.id)) statsCopy._failedIds.push(item.id);
       }
     });
 
-    onSaveStats(statsCopy);
+    if (isExam) {
+      onSaveStats(statsCopy);
+    }
+
     const score = Math.max(0, correct - (wrong * 0.25));
     const grade = (score / queue.length) * 10;
 
-    onFinish({ correct, wrong, blank, score: grade, total: queue.length, queue, answers });
+    onFinish({ 
+      correct, 
+      wrong, 
+      blank, 
+      score: grade, 
+      total: queue.length, 
+      queue, 
+      answers,
+      mode: config.mode,
+      themes: config.themes
+    });
+  };
+
+  const nextStudy = () => {
+    if (currentIndex + 1 < queue.length) {
+      setStudyState(null);
+      setSelectedOpt(null);
+      setCurrentIndex(prev => prev + 1);
+    } else {
+      handleFinishQuiz();
+    }
   };
 
   return (
@@ -544,10 +602,20 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
         </span>
       </header>
 
-      <div className="glass" style={{ padding: 24, marginBottom: 16 }}>
-        <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 600, marginBottom: 8, textTransform: 'uppercase', letterSpacing: 0.5 }}>
-          {q.theme}
+      <div className="glass" style={{ padding: 24, marginBottom: 16, position: 'relative' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 12 }}>
+          <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, maxWidth: '80%' }}>
+            {q.theme}
+          </div>
+          <button 
+            onClick={() => onToggleFavorite(q.id)}
+            style={{ background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', transition: 'all 0.2s' }}
+            title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+          >
+            <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+          </button>
         </div>
+
         <h3 style={{ fontSize: 18, lineHeight: 1.5, marginBottom: 24, fontWeight: 500 }}>
           {q.statement}
         </h3>
@@ -582,9 +650,16 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
             <span style={{ fontWeight: 600 }}>{studyState === 'correct' ? 'Correcte!' : 'Incorrecte'}</span>
           </div>
           <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.5 }}>{q.explanation || 'Sense explicació addicional.'}</p>
-          <button onClick={nextStudy} style={{ width: '100%', padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>
-            {currentIndex + 1 === queue.length ? 'Finalitzar Sessió' : 'Següent Pregunta'}
-          </button>
+          <div style={{ display: 'flex', gap: 12 }}>
+            <button onClick={nextStudy} style={{ flex: 2, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>
+              {currentIndex + 1 === queue.length ? 'Veure Resultats i Nota' : 'Següent Pregunta'}
+            </button>
+            {currentIndex + 1 < queue.length && (
+              <button onClick={handleFinishQuiz} style={{ flex: 1, padding: 16, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>
+                Finalitzar
+              </button>
+            )}
+          </div>
         </motion.div>
       )}
 
@@ -600,8 +675,8 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
           </button>
           
           {currentIndex === queue.length - 1 ? (
-            <button onClick={finishExam} style={{ flex: 1, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', border: 'none', fontWeight: 600, cursor: 'pointer' }}>
-              Finalitzar
+            <button onClick={handleFinishQuiz} style={{ flex: 1, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', border: 'none', fontWeight: 600, cursor: 'pointer' }}>
+              Finalitzar Examen
             </button>
           ) : (
             <button onClick={() => setCurrentIndex(c => c + 1)} style={{ flex: 1, padding: 16, borderRadius: 12, background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', fontWeight: 600, cursor: 'pointer' }}>
@@ -617,7 +692,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onFinish, onExi
 // ----------------------------------------------------------------------
 // RESULTS SCREEN
 // ----------------------------------------------------------------------
-function ResultsScreen({ results, onHome }) {
+function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHome }) {
   const handlePrint = () => {
     window.print();
   };
@@ -639,13 +714,26 @@ function ResultsScreen({ results, onHome }) {
     const uAns = results.answers[q.id];
     const isCorrect = uAns === q.correct;
     const isBlank = !uAns;
+    const isFav = (userStats._favoriteIds || []).includes(q.id);
     
     let borderColor = 'rgba(255,255,255,0.1)';
     if (isCorrect) borderColor = 'var(--success)';
     else if (!isBlank) borderColor = 'var(--error)';
 
     return (
-      <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid ${borderColor}`, textAlign: 'left' }}>
+      <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid ${borderColor}`, textAlign: 'left', position: 'relative' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+          <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+          <button 
+            onClick={() => onToggleFavorite(q.id)}
+            style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+            className="print-hide"
+            title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+          >
+            <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+          </button>
+        </div>
+
         <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{q.statement}</p>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -689,11 +777,16 @@ function ResultsScreen({ results, onHome }) {
   return (
     <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} className="flex-center" style={{ minHeight: '80vh', flexDirection: 'column', paddingTop: 40, paddingBottom: 40 }}>
       <div className="glass text-center print-hide" style={{ padding: 40, width: '100%', marginBottom: 24 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 32 }}>Resultats</h2>
+        <h2 style={{ fontSize: 24, marginBottom: 8 }}>
+          {results.mode === 'study' ? 'Resultats de la Sessió d\'Estudi' : 'Resultats de l\'Examen'}
+        </h2>
+        <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
+          {results.score >= 5 ? 'Felicitats! Has superat la prova.' : 'Ànims! Continua practicant per consolidar els conceptes.'}
+        </p>
         
         <div style={{ position: 'relative', width: 160, height: 160, margin: '0 auto 32px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%', border: `8px solid ${results.score >= 5 ? 'var(--success)' : 'var(--error)'}`, background: 'rgba(0,0,0,0.2)' }}>
           <div>
-            <span style={{ fontSize: 48, fontWeight: 800 }}>{results.score.toFixed(1)}</span>
+            <span style={{ fontSize: 48, fontWeight: 800 }}>{results.score.toFixed(2)}</span>
             <span style={{ fontSize: 16, color: 'var(--text-muted)' }}>/10</span>
           </div>
         </div>
@@ -713,11 +806,23 @@ function ResultsScreen({ results, onHome }) {
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: 12 }}>
-          <button onClick={onHome} style={{ flex: 1, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 700, border: 'none', cursor: 'pointer' }}>
+        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+          <button onClick={onHome} style={{ flex: 1, minWidth: 140, padding: 16, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 700, border: 'none', cursor: 'pointer' }}>
             Tornar a l'Inici
           </button>
-          <button onClick={handlePrint} style={{ flex: 1, padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 700, border: 'none', cursor: 'pointer' }}>
+          
+          {wrongQuestions.length > 0 && (
+            <button 
+              onClick={() => onStartQuiz({ themes: results.themes || [], mode: 'review-failed' })} 
+              style={{ flex: 1, minWidth: 140, padding: 16, borderRadius: 12, background: 'rgba(239, 68, 68, 0.2)', color: 'var(--error)', border: '1px solid rgba(239, 68, 68, 0.3)', fontWeight: 700, cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
+            >
+              <RotateCcw size={18} />
+              Repassar Fallades ({wrongQuestions.length})
+            </button>
+          )}
+
+          <button onClick={handlePrint} style={{ flex: 1, minWidth: 140, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 700, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
+            <Printer size={18} />
             Imprimir PDF
           </button>
         </div>
@@ -726,7 +831,7 @@ function ResultsScreen({ results, onHome }) {
       <div className="review-container" style={{ width: '100%' }}>
         {wrongQuestions.length > 0 && (
           <div className="page-break">
-            <h3 style={{ color: 'var(--error)', marginBottom: 20, fontSize: 22, marginTop: 40, borderBottom: '2px solid var(--error)', paddingBottom: 10 }}>Preguntes Fallades ({wrongQuestions.length})</h3>
+            <h3 style={{ color: 'var(--error)', marginBottom: 20, fontSize: 22, marginTop: 20, borderBottom: '2px solid var(--error)', paddingBottom: 10 }}>Preguntes Fallades ({wrongQuestions.length})</h3>
             {wrongQuestions.map(renderQuestion)}
           </div>
         )}
@@ -749,7 +854,10 @@ function ResultsScreen({ results, onHome }) {
   );
 }
 
-function FailedScreen({ questions, userStats, onSaveStats, onHome }) {
+// ----------------------------------------------------------------------
+// FAILED SCREEN
+// ----------------------------------------------------------------------
+function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onHome }) {
   const [filterTheme, setFilterTheme] = useState('ALL');
   const handlePrint = () => window.print();
   
@@ -815,9 +923,154 @@ function FailedScreen({ questions, userStats, onSaveStats, onHome }) {
             <p style={{ color: 'var(--text-muted)' }}>No tens cap pregunta fallada pendent. Segueix així!</p>
           </div>
         ) : (
-          failedQuestions.map((q, idx) => (
-            <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid var(--error)`, textAlign: 'left' }}>
-              <span style={{ fontSize: 12, color: 'var(--text-muted)', display: 'block', marginBottom: 8 }}>Tema: {q.theme}</span>
+          failedQuestions.map((q, idx) => {
+            const isFav = (userStats._favoriteIds || []).includes(q.id);
+            return (
+              <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid var(--error)`, textAlign: 'left', position: 'relative' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                  <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+                  <button 
+                    onClick={() => onToggleFavorite(q.id)}
+                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+                    className="print-hide"
+                    title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+                  >
+                    <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+                  </button>
+                </div>
+
+                <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {['A', 'B', 'C', 'D'].map(opt => {
+                    if (!q.options[opt]) return null;
+                    
+                    let bg = 'rgba(255,255,255,0.03)';
+                    let color = 'var(--text)';
+                    let border = '1px solid rgba(255,255,255,0.05)';
+                    let printClass = '';
+                    
+                    if (opt === q.correct) {
+                      bg = 'rgba(16, 185, 129, 0.15)';
+                      border = '1px solid var(--success)';
+                      color = 'var(--success)';
+                      printClass = 'print-correct';
+                    }
+        
+                    return (
+                      <div key={opt} className={`review-option ${printClass}`} style={{ padding: 12, borderRadius: 8, background: bg, border, display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                        <span style={{ fontWeight: 'bold', color }}>{opt})</span>
+                        <span style={{ color }}>{q.options[opt]}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+                
+                <div style={{ marginTop: 16, padding: 12, background: 'rgba(0,0,0,0.2)', borderRadius: 8, fontSize: 14 }}>
+                  <span style={{ color: 'var(--text-muted)', display: 'block', marginBottom: 4 }}>Explicació:</span>
+                  {q.explanation || 'Sense explicació.'}
+                </div>
+              </div>
+            );
+          })
+        )}
+      </div>
+    </motion.div>
+  );
+}
+
+// ----------------------------------------------------------------------
+// FAVORITES SCREEN (NEW)
+// ----------------------------------------------------------------------
+function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, onStartFavoritesQuiz, onHome }) {
+  const [filterTheme, setFilterTheme] = useState('ALL');
+  const handlePrint = () => window.print();
+
+  const favIds = userStats._favoriteIds || [];
+  const allFavQuestions = questions.filter(q => favIds.includes(q.id));
+  const favThemes = [...new Set(allFavQuestions.map(q => q.theme))].sort();
+
+  const favQuestions = filterTheme === 'ALL'
+    ? allFavQuestions
+    : allFavQuestions.filter(q => q.theme === filterTheme);
+
+  const startFavTest = () => {
+    const selectedThemes = filterTheme === 'ALL' ? favThemes : [filterTheme];
+    onStartFavoritesQuiz({
+      themes: selectedThemes,
+      mode: 'favorites',
+      length: favQuestions.length
+    });
+  };
+
+  return (
+    <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} className="flex-center" style={{ minHeight: '80vh', flexDirection: 'column', paddingTop: 40, paddingBottom: 40 }}>
+      <div className="glass text-center print-hide" style={{ padding: 40, width: '100%', marginBottom: 24 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
+          <div style={{ background: 'rgba(245, 158, 11, 0.2)', padding: 12, borderRadius: '50%' }}>
+            <Star size={32} color="#f59e0b" fill="#f59e0b" />
+          </div>
+        </div>
+        <h2 style={{ fontSize: 24, marginBottom: 8 }}>Preguntes Preferides</h2>
+        <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
+          Tens <b>{favQuestions.length}</b> preguntes marcades com a preferides {filterTheme !== 'ALL' ? `del tema ${filterTheme}` : 'en total'}.
+        </p>
+
+        {favThemes.length > 1 && (
+          <div style={{ marginBottom: 24, textAlign: 'left', maxWidth: 400, margin: '0 auto 24px' }}>
+            <label style={{ display: 'block', marginBottom: 8, color: 'var(--text-muted)', fontSize: 13 }}>Filtrar per Tema:</label>
+            <select value={filterTheme} onChange={e => setFilterTheme(e.target.value)}>
+              <option value="ALL">Tots els temes ({allFavQuestions.length})</option>
+              {favThemes.map(t => {
+                const count = allFavQuestions.filter(q => q.theme === t).length;
+                return <option key={t} value={t}>{t} ({count})</option>;
+              })}
+            </select>
+          </div>
+        )}
+
+        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+          <button onClick={onHome} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
+            <ArrowLeft size={18} />
+            Tornar
+          </button>
+
+          {favQuestions.length > 0 && (
+            <button onClick={startFavTest} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'rgba(245, 158, 11, 0.25)', color: '#f59e0b', border: '1px solid rgba(245, 158, 11, 0.3)', fontWeight: 600, cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
+              <Play size={18} fill="#f59e0b" />
+              Fer Test ({favQuestions.length})
+            </button>
+          )}
+
+          <button onClick={handlePrint} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
+            <Printer size={18} />
+            Imprimir PDF
+          </button>
+        </div>
+      </div>
+
+      <div className="review-container" style={{ width: '100%' }}>
+        {favQuestions.length === 0 ? (
+          <div className="glass" style={{ padding: 40, textAlign: 'center' }}>
+            <Star size={48} color="var(--text-muted)" style={{ margin: '0 auto 16px', opacity: 0.5 }} />
+            <h3 style={{ fontSize: 20, marginBottom: 8 }}>Sense Preferits</h3>
+            <p style={{ color: 'var(--text-muted)' }}>Pots prémer la icona de l'estrella ⭐ en qualsevol pregunta per guardar-la aquí.</p>
+          </div>
+        ) : (
+          favQuestions.map((q, idx) => (
+            <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid #f59e0b`, textAlign: 'left', position: 'relative' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+                <button 
+                  onClick={() => onToggleFavorite(q.id)}
+                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+                  className="print-hide"
+                  title="Treure de preferits"
+                >
+                  <Star size={18} color="#f59e0b" fill="#f59e0b" />
+                </button>
+              </div>
+
               <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
