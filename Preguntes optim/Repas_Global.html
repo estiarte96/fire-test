@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntes Òptim - Oposicions Bombers</title>
+  <style>
+    
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
+  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
+  .header p { color: var(--text-muted); font-size: 14px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: rgba(255,255,255,0.07); }
+  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  
+  @media print {
+    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
+    .header, .controls, .print-hide { display: none !important; }
+    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
+    .option.correct { color: #047857 !important; font-weight: bold !important; }
+    .option.wrong { color: #b91c1c !important; }
+    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
+    .explanation-text { color: #334155 !important; }
+  }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <div class="container" style="max-width: 1100px;">
+    <div class="header">
+      <h1 style="font-size: 28px;">🔥 Preguntes Òptim - Oposicions Bombers</h1>
+      <p style="font-size: 15px; margin-top: 6px;">Total de <b>7205</b> preguntes distribuïdes en <b>34</b> temes oficials.</p>
+      
+      <div class="controls" style="margin-top: 20px;">
+        <a href="anki_csv/00_TOTES_LES_PREGUNTES_ANKI.csv" download class="btn btn-primary" style="font-size: 14px; padding: 12px 20px;">
+          📥 Descarregar TOTES per a Anki (Master CSV - 7205 preguntes)
+        </a>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
+      <h2 style="font-size: 20px;">Temari Oficial (34 Temes)</h2>
+      <input type="text" id="filterInput" placeholder="Cercar tema..." onkeyup="filterThemes()" style="padding: 10px 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--card-border); color: white; font-size: 14px; width: 260px; outline: none;">
+    </div>
+
+    <div class="grid" id="themesGrid">
+      
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T01 - CE i EAC</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">299 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T01_-_CE_i_EAC.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T01_-_CE_i_EAC.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T02 - Funció pública</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">81 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T02_-_Funcio_publica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T02_-_Funcio_publica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T03 - Llei bombers i protecció civil</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">140 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T03_-_Llei_bombers_i_proteccio_civil.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T03_-_Llei_bombers_i_proteccio_civil.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T04 - Organització del cos de Bombers</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">128 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T04_-_Organitzacio_del_cos_de_Bombers.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T04_-_Organitzacio_del_cos_de_Bombers.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T05 - Prevenció de riscos laborals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">90 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T05_-_Prevencio_de_riscos_laborals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T05_-_Prevencio_de_riscos_laborals.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T06 - Igualtat de tracte i de gènere</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">183 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T06_-_Igualtat_de_tracte_i_de_genere.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T06_-_Igualtat_de_tracte_i_de_genere.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T07 - Política lingüística</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">30 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T07_-_Politica_linguistica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T07_-_Politica_linguistica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T08 - Teoria del foc i agents extintors</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">292 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T08_-_Teoria_del_foc_i_agents_extintors.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T08_-_Teoria_del_foc_i_agents_extintors.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T09 - Física</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">165 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T09_-_Fisica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T09_-_Fisica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T10 - Química</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">283 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T10_-_Quimica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T10_-_Quimica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T11 - Electricitat</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">368 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T11_-_Electricitat.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T11_-_Electricitat.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T12 - Instal·lacions</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">609 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T12_-_Installacions.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T12_-_Installacions.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T13 - Hidràulica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">330 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T13_-_Hidraulica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T13_-_Hidraulica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T14 - Cartografia</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">238 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T14_-_Cartografia.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T14_-_Cartografia.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T15 - Construcció</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">200 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T15_-_Construccio.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T15_-_Construccio.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T16 - Assistències tècniques</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">139 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T16_-_Assistencies_tecniques.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T16_-_Assistencies_tecniques.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T17 - Ràdio</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">335 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T17_-_Radio.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T17_-_Radio.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T18 - Vehicles d&#039;intervenció mecànica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">184 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T18_-_Vehicles_d_intervencio_mecanica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T18_-_Vehicles_d_intervencio_mecanica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T19 - Conducció i mecànica</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">189 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T19_-_Conduccio_i_mecanica.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T19_-_Conduccio_i_mecanica.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T20 - Equips de protecció individual (EPI)</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">195 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T20_-_Equips_de_proteccio_individual_EPI.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T20_-_Equips_de_proteccio_individual_EPI.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T21 - Gestió d&#039;emergències i protecció civil</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">152 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T21_-_Gestio_d_emergencies_i_proteccio_civil.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T21_-_Gestio_d_emergencies_i_proteccio_civil.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T22 - Sistema de comandament</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">62 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T22_-_Sistema_de_comandament.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T22_-_Sistema_de_comandament.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T23 - Prevenció bàsica d&#039;incendis</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">186 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T23_-_Prevencio_basica_d_incendis.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T23_-_Prevencio_basica_d_incendis.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T24 - Intervenció bàsica en incendis estructurals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">228 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T24_-_Intervencio_basica_en_incendis_estructurals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T24_-_Intervencio_basica_en_incendis_estructurals.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T25 - Intervenció bàsica en incendis forestals</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">339 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T25_-_Intervencio_basica_en_incendis_forestals.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T25_-_Intervencio_basica_en_incendis_forestals.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T26 - Intervenció bàsica en incendis varis</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">111 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T26_-_Intervencio_basica_en_incendis_varis.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T26_-_Intervencio_basica_en_incendis_varis.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T27 - Intervenció bàsica en riscos NRBQ</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">248 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T27_-_Intervencio_basica_en_riscos_NRBQ.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T27_-_Intervencio_basica_en_riscos_NRBQ.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T28 - Assistència sanitària</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">219 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T28_-_Assistencia_sanitaria.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T28_-_Assistencia_sanitaria.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T29 - Incidents de múltiples víctimes</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">186 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T29_-_Incidents_de_multiples_victimes.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T29_-_Incidents_de_multiples_victimes.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T30 - Estructures col·lapsades</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">245 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T30_-_Estructures_collapsades.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T30_-_Estructures_collapsades.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T31 - Salvaments medi natural terrestre</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">172 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T31_-_Salvaments_medi_natural_terrestre.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T31_-_Salvaments_medi_natural_terrestre.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T32 - Accidents de mobilitat viària</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">180 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T32_-_Accidents_de_mobilitat_viaria.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T32_-_Accidents_de_mobilitat_viaria.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T33 - Intervenció bàsica en rescat urbà</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">144 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T33_-_Intervencio_basica_en_rescat_urba.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T33_-_Intervencio_basica_en_rescat_urba.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    <div class="theme-nav-card" style="background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;">
+      <div>
+        <div style="font-size: 11px; color: var(--primary); font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Tema Oficial</div>
+        <h3 style="font-size: 16px; margin-bottom: 6px; line-height: 1.3;">T34 - Intervenció bàsica en inundacions</h3>
+        <p style="font-size: 13px; color: var(--text-muted);">255 preguntes</p>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="html_repas/T34_-_Intervencio_basica_en_inundacions.html" class="btn btn-primary" style="flex: 1; justify-content: center; font-size: 12px; padding: 8px 12px;">Repassar HTML</a>
+        <a href="anki_csv/T34_-_Intervencio_basica_en_inundacions.csv" download class="btn btn-secondary" style="font-size: 12px; padding: 8px 12px;" title="Descarregar CSV per a Anki">📦 Anki</a>
+      </div>
+    </div>
+  
+    </div>
+  </div>
+
+  <script>
+    function filterThemes() {
+      const q = document.getElementById('filterInput').value.toLowerCase();
+      document.querySelectorAll('.theme-nav-card').forEach(card => {
+        const text = card.innerText.toLowerCase();
+        card.style.display = text.includes(q) ? 'flex' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>

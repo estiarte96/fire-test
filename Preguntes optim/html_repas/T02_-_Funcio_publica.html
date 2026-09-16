@@ -1,0 +1,2960 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T02 - Funció pública - Repàs de Preguntes</title>
+  <style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
+  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
+  .header p { color: var(--text-muted); font-size: 14px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: rgba(255,255,255,0.07); }
+  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  
+  @media print {
+    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
+    .header, .controls, .print-hide { display: none !important; }
+    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
+    .option.correct { color: #047857 !important; font-weight: bold !important; }
+    .option.wrong { color: #b91c1c !important; }
+    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
+    .explanation-text { color: #334155 !important; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>T02 - Funció pública</h1>
+      <p>Total de preguntes: <b>81</b> • Clica a qualsevol opció per comprovar-la directament</p>
+      <div class="controls print-hide">
+        <a class="btn btn-secondary" href="../index.html">← Menú Principal</a>
+        <a class="btn btn-secondary" href="../anki_csv/T02_-_Funcio_publica.csv" download>📦 Descarregar Anki CSV</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">Mostra/Amaga Solucions</button>
+        <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+      </div>
+    </div>
+    <div id="questions-container">
+      
+      <div class="q-card" id="q-1" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 1 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(1)">Solució</button>
+        </div>
+        <div class="q-statement">1. En quina situació queda un funcionari autoritzat a col·laborar més de sis mesos amb una organització internacional?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En serveis especials.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En expectativa de destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En servei actiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En excedència per incompatibilitats.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-1">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) En serveis especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La col·laboració internacional autoritzada per un període superior a sis mesos és un dels supòsits de serveis especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-2" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 2 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(2)">Solució</button>
+        </div>
+        <div class="q-statement">2. Quines funcions exerceix el personal eventual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Funcions ordinàries de substitució temporal de funcionaris.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Funcions de confiança o assessorament especial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Funcions instrumentals sotmeses a contracte laboral fix.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Funcions reservades a l’exercici de potestats públiques.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-2">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Funcions de confiança o assessorament especial.</div>
+          <div class="explanation-text"><b>Explicació:</b> La raó de ser del personal eventual és prestar suport de confiança o assessorament especial a les autoritats que el nomenen.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-3" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(3)">Solució</button>
+        </div>
+        <div class="q-statement">3. Quin termini hi ha per sol·licitar la compatibilitat d’un nou lloc que pot ser compatible?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Deu dies des de la presa de possessió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cinc dies des del nomenament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un mes des de l’inici de l’activitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quinze dies des de la publicació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-3">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Deu dies des de la presa de possessió.</div>
+          <div class="explanation-text"><b>Explicació:</b> La sol·licitud s’ha de presentar en un termini breu de deu dies comptats des de la presa de possessió del nou lloc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-4" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 4 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(4)">Solució</button>
+        </div>
+        <div class="q-statement">4. Quin càrrec comporta el pas a serveis especials quan és incompatible amb la funció pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una adscripció provisional a un lloc vacant.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un lloc obtingut per concurs dins el mateix departament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un càrrec electe o polític.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una comissió de serveis de caràcter temporal.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-4">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Un càrrec electe o polític.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els càrrecs electes o polítics incompatibles amb l’exercici ordinari de la funció pública justifiquen aquesta situació administrativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-5" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 5 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(5)">Solució</button>
+        </div>
+        <div class="q-statement">5. Quin efecte té la renúncia a la condició de funcionari de la Generalitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>No inhabilita per tornar a ingressar a la funció pública.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comporta la separació definitiva del servei per sanció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Conserva automàticament el lloc de treball anterior.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Impedeix participar en processos selectius durant cinc anys.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-5">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) No inhabilita per tornar a ingressar a la funció pública.</div>
+          <div class="explanation-text"><b>Explicació:</b> La renúncia extingeix la relació vigent, però no és una sanció i no impedeix un nou accés mitjançant el procediment corresponent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-6" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(6)">Solució</button>
+        </div>
+        <div class="q-statement">6. Durant quin període impedeix la compatibilitat haver intervingut en un assumpte per raó del lloc públic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Durant els cinc darrers anys.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Durant els sis darrers mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Durant els tres darrers anys.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Durant els dos darrers anys.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-6">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Durant els dos darrers anys.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prohibició s’estén als assumptes en què la persona intervé, ha intervingut en els dos anys anteriors o haurà d’intervenir.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-7" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 7 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(7)">Solució</button>
+        </div>
+        <div class="q-statement">7. Què ha de fer un empleat públic davant un assumpte en què té un interès personal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Delegar-ne la signatura però mantenir-ne la decisió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Continuar la tramitació si no rep una ordre contrària.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Abstenir-se d’intervenir-hi.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Informar-ne després d’haver resolt el procediment.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-7">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Abstenir-se d’intervenir-hi.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’abstenció evita conflictes entre l’interès personal i les responsabilitats inherents al lloc públic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-8" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 8 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(8)">Solució</button>
+        </div>
+        <div class="q-statement">8. Quina norma regula les incompatibilitats del personal al servei de l’Administració de la Generalitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El Reial decret legislatiu 5/2015, de 30 d’octubre.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El Decret 243/1995, de 27 de juny.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La Llei 21/1987, de 26 de novembre.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El Decret 123/1997, de 13 de maig.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-8">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) La Llei 21/1987, de 26 de novembre.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Llei 21/1987 estableix el règim català d’incompatibilitats i les condicions per autoritzar activitats públiques o privades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-9" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 9 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(9)">Solució</button>
+        </div>
+        <div class="q-statement">9. Quin dret reconeix el Decret legislatiu 1/1997 respecte de l’expedient personal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Restringir-ne l’accés als representants sindicals.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Modificar-ne directament les anotacions administratives.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Eliminar-ne els antecedents disciplinaris sense resolució.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Conèixer l’expedient individual i accedir-hi lliurement.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-9">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Conèixer l’expedient individual i accedir-hi lliurement.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’accés a l’expedient permet al funcionari conèixer la informació administrativa que afecta la seva relació de servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-10" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 10 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(10)">Solució</button>
+        </div>
+        <div class="q-statement">10. Quina consideració té el personal directiu professional en el desplegament del TREBEP?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Es troba fora dels considerats empleats públics.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Es classifica com a personal laboral temporal.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Forma part dels funcionaris de carrera.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>S’integra en el personal eventual.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-10">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Es troba fora dels considerats empleats públics.</div>
+          <div class="explanation-text"><b>Explicació:</b> El temari el situa fora de les classes d’empleats públics, tot i que presta funcions directives professionals a les administracions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-11" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 11 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(11)">Solució</button>
+        </div>
+        <div class="q-statement">11. Quines funcions es reserven als funcionaris de carrera?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Les activitats instrumentals sotmeses a contracte laboral temporal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les tasques de confiança i assessorament especial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Les funcions directives sotmeses a una relació d’alta direcció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La participació en potestats públiques o la salvaguarda dels interessos generals.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-11">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La participació en potestats públiques o la salvaguarda dels interessos generals.</div>
+          <div class="explanation-text"><b>Explicació:</b> La intervenció directa o indirecta en les potestats públiques i la protecció dels interessos generals justifiquen la naturalesa funcionarial d’aquests llocs.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-12" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 12 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(12)">Solució</button>
+        </div>
+        <div class="q-statement">12. Quins principis ordenen la funció pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mèrit, capacitat, celeritat, especialització i confiança.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Legalitat, objectivitat, economia, eficàcia i eficiència.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Igualtat, publicitat, concurrència, jerarquia i mobilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Transparència, imparcialitat, antiguitat, carrera i coordinació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-12">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Legalitat, objectivitat, economia, eficàcia i eficiència.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquests cinc principis orienten l’organització i el funcionament de la funció pública com a instrument de l’Administració.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-13" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 13 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(13)">Solució</button>
+        </div>
+        <div class="q-statement">13. Quins llocs pot ocupar el personal laboral?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Llocs reservats a l’exercici de potestats públiques.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Llocs no permanents, periòdics o instrumentals i activitats pròpies d’oficis.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Càrrecs de confiança i assessorament especial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Llocs de comandament proveïts per lliure designació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-13">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Llocs no permanents, periòdics o instrumentals i activitats pròpies d’oficis.</div>
+          <div class="explanation-text"><b>Explicació:</b> El temari vincula el personal laboral a necessitats no permanents o discontínues i a funcions d’ofici o de caràcter instrumental.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-14" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 14 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(14)">Solució</button>
+        </div>
+        <div class="q-statement">14. Quin límit de jornada permet reconèixer la compatibilitat entre una activitat pública i una de privada?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Que les dues jornades tinguin exactament la mateixa durada.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Que la suma no superi la jornada ordinària incrementada en un 25%.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Que la suma no superi la jornada ordinària incrementada en un 50%.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Que l’activitat privada no superi una tercera part de la jornada pública.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-14">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Que la suma no superi la jornada ordinària incrementada en un 50%.</div>
+          <div class="explanation-text"><b>Explicació:</b> El límit global evita que la segona activitat impedeixi el compliment adequat de la jornada i de les responsabilitats públiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-15" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 15 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(15)">Solució</button>
+        </div>
+        <div class="q-statement">15. Quin requisit exigeix l’excedència voluntària per interès particular?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Haver prestat cinc anys de servei actiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Haver participat en l’últim concurs de trasllats.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Tenir un grau personal consolidat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Haver ocupat dos anys el mateix lloc definitiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-15">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Haver prestat cinc anys de servei actiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta excedència requereix una antiguitat prèvia de cinc anys i la seva concessió depèn de les necessitats del servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-16" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 16 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(16)">Solució</button>
+        </div>
+        <div class="q-statement">16. Quin règim de drets i responsabilitats té el funcionari en servei actiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Queda sotmès al règim laboral de l’organisme on presta serveis.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Perd els drets de carrera fins a obtenir una nova destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Manté tots els drets, deures i responsabilitats funcionarials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Conserva els drets econòmics però queda exempt de deures.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-16">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Manté tots els drets, deures i responsabilitats funcionarials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La situació de servei actiu implica l’exercici ple de la relació estatutària, tant en drets com en obligacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-17" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 17 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(17)">Solució</button>
+        </div>
+        <div class="q-statement">17. Quines retribucions percep un funcionari en expectativa de destinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El sou base sense triennis ni complements.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les bàsiques i la totalitat del complement específic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Les bàsiques, el complement de destinació del grau personal i el 50% del complement específic.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les mateixes retribucions íntegres del lloc suprimit.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-17">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Les bàsiques, el complement de destinació del grau personal i el 50% del complement específic.</div>
+          <div class="explanation-text"><b>Explicació:</b> El règim econòmic manté una part rellevant de les retribucions, però redueix a la meitat el complement específic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-18" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 18 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(18)">Solució</button>
+        </div>
+        <div class="q-statement">18. A quin personal s’aplica el Reglament disciplinari aprovat pel Decret 243/1995?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Als càrrecs electes i als membres del Parlament de Catalunya.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Al personal funcionari, aspirant, interí, eventual i amb contracte administratiu dels departaments.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Al personal de qualsevol administració estatal o europea.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Al personal laboral de totes les empreses privades contractistes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-18">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Al personal funcionari, aspirant, interí, eventual i amb contracte administratiu dels departaments.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’àmbit del reglament se centra en el personal vinculat als departaments de la Generalitat mitjançant les relacions indicades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-19" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 19 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(19)">Solució</button>
+        </div>
+        <div class="q-statement">19. Quina relació mantenen els funcionaris amb l’Administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una relació estatutària regulada pel dret de la funció pública.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una relació mercantil regulada pels contractes de serveis.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una relació representativa regulada pels òrgans sindicals.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una relació laboral ordinària regulada principalment per conveni col·lectiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-19">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Una relació estatutària regulada pel dret de la funció pública.</div>
+          <div class="explanation-text"><b>Explicació:</b> La relació estatutària diferencia els funcionaris del personal sotmès a contracte laboral i determina els seus drets i obligacions mitjançant normes administratives.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-20" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 20 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(20)">Solució</button>
+        </div>
+        <div class="q-statement">20. Quins principis regeixen el procediment disciplinari del Decret legislatiu 1/1997?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Legalitat, contradicció, audiència, presumpció d’innocència i proporcionalitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Igualtat, mèrit, capacitat, publicitat i celeritat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Confiança, idoneïtat, concurrència, mobilitat i carrera.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Eficàcia, eficiència, economia, jerarquia i coordinació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-20">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Legalitat, contradicció, audiència, presumpció d’innocència i proporcionalitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquests principis protegeixen les garanties de l’inculpat i exigeixen que la resposta disciplinària sigui legal i proporcionada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-21" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 21 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(21)">Solució</button>
+        </div>
+        <div class="q-statement">21. Què regula el Decret 123/1997, de 13 de maig?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Les bases estatals del règim estatutari dels empleats públics.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La provisió de llocs de treball i la promoció professional dels funcionaris de la Generalitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Les incompatibilitats del personal de les administracions catalanes.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El règim disciplinari de la funció pública de la Generalitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-21">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La provisió de llocs de treball i la promoció professional dels funcionaris de la Generalitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquest decret desplega els procediments de provisió de llocs i promoció professional dins l’Administració de la Generalitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-22" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 22 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(22)">Solució</button>
+        </div>
+        <div class="q-statement">22. Quin efecte té un canvi de lloc públic sobre un reconeixement de compatibilitat vigent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El reconeixement queda automàticament sense efecte.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Es manté fins que finalitza l’any pressupostari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Es transforma en una autorització provisional.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Es prorroga durant sis mesos per adaptar els horaris.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-22">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El reconeixement queda automàticament sense efecte.</div>
+          <div class="explanation-text"><b>Explicació:</b> La compatibilitat s’atorga en funció d’unes condicions concretes; si canvia el lloc o les seves condicions, cal una nova valoració.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-23" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 23 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(23)">Solució</button>
+        </div>
+        <div class="q-statement">23. Quina consideració té el trasllat per raó de violència de gènere?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mobilitat voluntària entre administracions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comissió de serveis ordinària.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Adscripció provisional per concurs.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Trasllat forçós.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-23">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Trasllat forçós.</div>
+          <div class="explanation-text"><b>Explicació:</b> Tot i respondre a una necessitat de protecció de la interessada, jurídicament rep la consideració de trasllat forçós i exigeix protegir-ne la intimitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-24" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 24 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(24)">Solució</button>
+        </div>
+        <div class="q-statement">24. Quin règim estatutari s’aplica al funcionari destinat en una altra administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El règim laboral comú aplicable al personal temporal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El règim especial del personal eventual.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El règim del departament d’origen durant tota la destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El règim vigent a l’administració on presta els serveis.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-24">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El règim vigent a l’administració on presta els serveis.</div>
+          <div class="explanation-text"><b>Explicació:</b> Durant la prestació de serveis, les condicions estatutàries es regeixen per la normativa de l’administració de destinació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-25" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 25 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(25)">Solució</button>
+        </div>
+        <div class="q-statement">25. Quan es poden superar excepcionalment els límits retributius anuals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Amb acord exprés de l’òrgan competent i per especial interès del servei.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan el segon lloc és de durada inferior a un any.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan la persona renuncia als complements del lloc principal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan les dues activitats es desenvolupen a temps parcial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-25">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Amb acord exprés de l’òrgan competent i per especial interès del servei.</div>
+          <div class="explanation-text"><b>Explicació:</b> La superació necessita una decisió expressa del Consell Executiu o del ple local i una justificació reforçada d’interès del servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-26" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 26 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(26)">Solució</button>
+        </div>
+        <div class="q-statement">26. Quin criteri s’ha de prioritzar quan la mobilitat implica un canvi de residència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La lliure designació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La voluntarietat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La rotació obligatòria.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’antiguitat en el cos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-26">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La voluntarietat.</div>
+          <div class="explanation-text"><b>Explicació:</b> El canvi de residència té un impacte personal especial i, per això, el temari indica que s’ha de prioritzar la voluntat del funcionari.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-27" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 27 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(27)">Solució</button>
+        </div>
+        <div class="q-statement">27. Quin efecte té haver prestat serveis com a personal eventual en l’accés a la funció pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Consolida un grau personal inicial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>No constitueix mèrit per accedir-hi.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Permet l’accés directe a una escala funcionarial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Eximeix de la fase d’oposició.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-27">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) No constitueix mèrit per accedir-hi.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’experiència eventual no pot convertir-se en una via privilegiada d’accés, que continua subjecta als principis d’igualtat, mèrit i capacitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-28" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 28 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(28)">Solució</button>
+        </div>
+        <div class="q-statement">28. Quina competència té la Generalitat sobre el personal laboral de les administracions públiques catalanes?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Competència exclusiva.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Competència executiva subordinada als ens locals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Competència compartida amb les diputacions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Competència consultiva sense capacitat normativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-28">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Competència exclusiva.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Estatut atribueix a la Generalitat competència exclusiva en matèria de personal laboral al servei de les administracions públiques catalanes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-29" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 29 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(29)">Solució</button>
+        </div>
+        <div class="q-statement">29. Quin lloc docent pot compatibilitzar-se amb un lloc públic principal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Professor universitari associat a temps parcial i de durada determinada.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Catedràtic universitari a temps complet i indefinit.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Director d’un centre docent amb dedicació exclusiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Professor titular a jornada completa en dos centres públics.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-29">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Professor universitari associat a temps parcial i de durada determinada.</div>
+          <div class="explanation-text"><b>Explicació:</b> La dedicació parcial i la durada determinada permeten compatibilitzar la docència universitària associada amb l’activitat principal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-30" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 30 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(30)">Solució</button>
+        </div>
+        <div class="q-statement">30. En quin percentatge es pot incrementar com a màxim la retribució principal del grup C o equivalent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En un 40%.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En un 30%.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En un 50%.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En un 35%.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-30">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) En un 40%.</div>
+          <div class="explanation-text"><b>Explicació:</b> La taula fixa límits progressius per grup: el grup C o equivalent té un increment màxim del 40%.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-31" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 31 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(31)">Solució</button>
+        </div>
+        <div class="q-statement">31. Quin termini màxim té el nomenament interí per cobrir una plaça que no pot ocupar un funcionari de carrera?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Dotze mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cinc anys.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Tres anys.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Nou mesos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-31">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Tres anys.</div>
+          <div class="explanation-text"><b>Explicació:</b> La cobertura interina d’una plaça vacant es limita a tres anys quan no és possible proveir-la amb personal funcionari de carrera.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-32" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 32 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(32)">Solució</button>
+        </div>
+        <div class="q-statement">32. Quins principis regeixen la provisió de llocs de treball?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Jerarquia, economia, eficàcia i mobilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Igualtat, mèrit, capacitat i publicitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Confiança, responsabilitat, antiguitat i celeritat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Idoneïtat, concurrència, permanència i carrera.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-32">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Igualtat, mèrit, capacitat i publicitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquests principis garanteixen que la provisió ordinària sigui oberta i basada en les aptituds i els mèrits acreditats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-33" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 33 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(33)">Solució</button>
+        </div>
+        <div class="q-statement">33. Qui pot quedar en situació d’expectativa de destinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El funcionari amb el lloc suprimit que encara no ha obtingut una nova destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El funcionari que sol·licita una excedència per interès particular.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El funcionari que presta serveis en una altra administració.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El funcionari elegit per a un càrrec polític incompatible.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-33">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El funcionari amb el lloc suprimit que encara no ha obtingut una nova destinació.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta situació protegeix temporalment el personal afectat per una redistribució d’efectius o una racionalització organitzativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-34" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 34 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(34)">Solució</button>
+        </div>
+        <div class="q-statement">34. Quin dels drets següents és un dret individual exercit col·lectivament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El respecte a la intimitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La defensa jurídica.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La formació contínua.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La negociació col·lectiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-34">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La negociació col·lectiva.</div>
+          <div class="explanation-text"><b>Explicació:</b> La negociació col·lectiva s’exerceix mitjançant representants i organitzacions sindicals per determinar condicions de treball.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-35" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 35 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(35)">Solució</button>
+        </div>
+        <div class="q-statement">35. Quina activitat privada no es pot autoritzar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una creació literària independent de qualsevol relació de serveis.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una participació ocasional en un col·loqui professional.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una activitat directament relacionada amb les funcions del lloc públic.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’administració ordinària del patrimoni familiar.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-35">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Una activitat directament relacionada amb les funcions del lloc públic.</div>
+          <div class="explanation-text"><b>Explicació:</b> La relació directa entre l’activitat privada i les funcions públiques pot comprometre la imparcialitat i genera incompatibilitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-36" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 36 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(36)">Solució</button>
+        </div>
+        <div class="q-statement">36. Quina situació administrativa correspon a un funcionari elegit membre del Parlament Europeu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Serveis especials.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Servei en altres administracions públiques.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Excedència voluntària per interès particular.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Suspensió de funcions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-36">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Serveis especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’exercici d’un mandat al Parlament Europeu és incompatible amb el servei ordinari i determina el pas a serveis especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-37" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 37 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(37)">Solució</button>
+        </div>
+        <div class="q-statement">37. Quina naturalesa té la suspensió de funcions dins la relació de servei?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>És un sistema ordinari de provisió de llocs.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>És una situació administrativa del funcionari sancionat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>És un permís retribuït vinculat a la conciliació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>És una modalitat de promoció professional.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-37">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) És una situació administrativa del funcionari sancionat.</div>
+          <div class="explanation-text"><b>Explicació:</b> La suspensió altera temporalment la situació administrativa a conseqüència d’un procediment disciplinari o judicial.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-38" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 38 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(38)">Solució</button>
+        </div>
+        <div class="q-statement">38. Quina finalitat té el Decret legislatiu 1/1997, de 31 d’octubre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Refondre en un text únic determinats preceptes vigents en matèria de funció pública.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Aprovar el reglament general de provisió de llocs de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Establir el règim disciplinari del personal dels departaments.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regular les incompatibilitats del personal de la Generalitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-38">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Refondre en un text únic determinats preceptes vigents en matèria de funció pública.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Decret legislatiu 1/1997 reuneix en un text únic diversos preceptes legals catalans vigents sobre funció pública.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-39" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 39 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(39)">Solució</button>
+        </div>
+        <div class="q-statement">39. Quins són els sistemes ordinaris de provisió de llocs de treball?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’adscripció provisional i la reassignació d’efectius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La comissió de serveis i l’encàrrec de funcions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La permuta i la mobilitat interdepartamental.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El concurs i la lliure designació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-39">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El concurs i la lliure designació.</div>
+          <div class="explanation-text"><b>Explicació:</b> El concurs i la lliure designació són els mecanismes ordinaris; la resta són instruments extraordinaris o de mobilitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-40" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 40 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(40)">Solució</button>
+        </div>
+        <div class="q-statement">40. Quina matèria comparteix la Generalitat amb l’Estat en l’àmbit de la funció pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La gestió ordinària del personal laboral de les administracions catalanes.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’adquisició i la pèrdua de la condició de funcionari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>L’organització interna dels departaments de la Generalitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La denominació dels cossos i les escales pròpies de Catalunya.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-40">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) L’adquisició i la pèrdua de la condició de funcionari.</div>
+          <div class="explanation-text"><b>Explicació:</b> El temari inclou l’adquisició i la pèrdua de la condició de funcionari entre els principis ordenadors en què la competència és compartida amb l’Estat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-41" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 41 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(41)">Solució</button>
+        </div>
+        <div class="q-statement">41. Quins principis constitucionals regeixen l’accés a l’ocupació pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Igualtat, mèrit i capacitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Objectivitat, carrera i lliure designació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Jerarquia, confiança i antiguitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Eficàcia, economia i mobilitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-41">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Igualtat, mèrit i capacitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquests principis garanteixen que l’accés es basi en condicions comunes i en l’aptitud acreditada de les persones candidates.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-42" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 42 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(42)">Solució</button>
+        </div>
+        <div class="q-statement">42. Quina durada màxima té l’expectativa de destinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un any.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sis mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Dos anys.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Tres anys.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-42">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un any.</div>
+          <div class="explanation-text"><b>Explicació:</b> Transcorregut el termini màxim d’un any sense nova destinació, el funcionari passa a excedència forçosa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-43" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 43 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(43)">Solució</button>
+        </div>
+        <div class="q-statement">43. Quin ordre segueix l’adquisició de la condició de funcionari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Nomenament, procés selectiu, presa de possessió i acatament.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Procés selectiu, nomenament, acatament de l’ordenament i presa de possessió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Acatament, nomenament, procés selectiu i presa de possessió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Procés selectiu, presa de possessió, nomenament i acatament.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-43">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Procés selectiu, nomenament, acatament de l’ordenament i presa de possessió.</div>
+          <div class="explanation-text"><b>Explicació:</b> La condició funcionarial culmina amb la presa de possessió després de superar el procés, ser nomenat i acatar el marc jurídic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-44" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 44 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(44)">Solució</button>
+        </div>
+        <div class="q-statement">44. Com han d’exercir les tasques assignades els empleats públics?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Amb diligència i vetllant pels interessos generals.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Amb discrecionalitat i prioritzant els interessos particulars.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Amb autonomia respecte de l’ordenament jurídic.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Amb preferència pels objectius del seu col·lectiu professional.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-44">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Amb diligència i vetllant pels interessos generals.</div>
+          <div class="explanation-text"><b>Explicació:</b> El codi de conducta vincula l’exercici diligent de les funcions amb el servei objectiu als interessos generals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-45" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 45 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(45)">Solució</button>
+        </div>
+        <div class="q-statement">45. Quin límit absolut no poden superar les remuneracions de les activitats compatibles?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La remuneració mitjana dels funcionaris del mateix grup.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El doble de les retribucions bàsiques del lloc principal.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La retribució del conseller del departament corresponent.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La remuneració màxima prevista per al càrrec de director general.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-45">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La remuneració màxima prevista per al càrrec de director general.</div>
+          <div class="explanation-text"><b>Explicació:</b> La suma de remuneracions queda subjecta a un topall general vinculat al càrrec de director general en els pressupostos aplicables.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 46 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(46)">Solució</button>
+        </div>
+        <div class="q-statement">46. Quins llocs es poden proveir mitjançant concurs específic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Subdirectors generals i secretaris d’alts càrrecs.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Personal eventual de confiança i assessorament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Caps de negociat, secció o servei i llocs singulars amb responsabilitats especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Places temporals cobertes per acumulació de tasques.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-46">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Caps de negociat, secció o servei i llocs singulars amb responsabilitats especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> El concurs específic s’utilitza per a llocs de comandament o singulars que exigeixen tècniques, responsabilitats o condicions pròpies.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-47" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 47 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(47)">Solució</button>
+        </div>
+        <div class="q-statement">47. Quin efecte tenen les baixes, els permisos i les llicències sobre el servei actiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Suspenen la condició de funcionari mentre duren.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>No interrompen la situació de servei actiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Comporten el pas temporal a serveis especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Generen una excedència voluntària automàtica.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-47">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) No interrompen la situació de servei actiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquestes absències estan previstes dins la relació ordinària de servei i no alteren la situació administrativa del funcionari.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-48" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 48 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(48)">Solució</button>
+        </div>
+        <div class="q-statement">48. Quina activitat queda fora del règim d’incompatibilitats?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’administració del patrimoni personal o familiar.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un segon lloc públic sense declaració d’interès del servei.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una participació superior al 10% en una empresa vinculada al sector públic.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una activitat privada relacionada amb les funcions del lloc públic.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-48">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) L’administració del patrimoni personal o familiar.</div>
+          <div class="explanation-text"><b>Explicació:</b> La gestió ordinària del patrimoni propi o familiar no es considera una segona activitat professional incompatible.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-49" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 49 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(49)">Solució</button>
+        </div>
+        <div class="q-statement">49. Quina funció compleix la funció pública dins l’Administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>És el sistema de control jurisdiccional dels actes administratius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>És el mecanisme de representació sindical del personal públic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>És el règim centrat en la regulació de la contractació laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>És un instrument per gestionar i realitzar els interessos públics encomanats.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-49">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) És un instrument per gestionar i realitzar els interessos públics encomanats.</div>
+          <div class="explanation-text"><b>Explicació:</b> La funció pública posa els recursos humans de l’Administració al servei de la gestió dels interessos generals que aquesta té encomanats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-50" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 50 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(50)">Solució</button>
+        </div>
+        <div class="q-statement">50. Què ha de fer qui accedeix a un nou lloc incompatible abans de prendre possessió?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Esperar la resolució d’un concurs de provisió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sol·licitar una excedència de cinc anys.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Optar per un dels dos llocs.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Renunciar a totes les retribucions complementàries.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-50">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Optar per un dels dos llocs.</div>
+          <div class="explanation-text"><b>Explicació:</b> La incompatibilitat impedeix mantenir els dos llocs; si no hi ha opció expressa, s’entén escollit el nou lloc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-51" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 51 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(51)">Solució</button>
+        </div>
+        <div class="q-statement">51. Quina durada màxima té un programa temporal cobert per funcionaris interins abans d’una possible ampliació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cinc anys, sense possibilitat d’ampliació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Tres anys, ampliables fins a dotze mesos més.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un any, ampliable fins a sis mesos més.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Dos anys, ampliables fins a nou mesos més.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-51">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Tres anys, ampliables fins a dotze mesos més.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els programes temporals poden justificar personal interí durant tres anys i admeten una ampliació màxima de dotze mesos.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-52" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 52 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(52)">Solució</button>
+        </div>
+        <div class="q-statement">52. Quina reserva manté el funcionari de la Generalitat que presta serveis en una altra administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Reserva la plaça i la destinació durant tres anys.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>No manté reserva de plaça ni de destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Reserva el complement específic del lloc d’origen.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Reserva el lloc fins que finalitzi el primer concurs.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-52">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) No manté reserva de plaça ni de destinació.</div>
+          <div class="explanation-text"><b>Explicació:</b> La situació conserva la condició funcionarial, però no garanteix el retorn al mateix lloc ni a la mateixa destinació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-53" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 53 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(53)">Solució</button>
+        </div>
+        <div class="q-statement">53. Quins criteris regeixen la designació del personal directiu professional?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Confiança política, antiguitat i lliure cessament.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Jerarquia, mobilitat i especialització territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mèrit, capacitat i idoneïtat, amb publicitat i concurrència.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Igualtat, celeritat i adscripció provisional.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-53">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Mèrit, capacitat i idoneïtat, amb publicitat i concurrència.</div>
+          <div class="explanation-text"><b>Explicació:</b> La designació ha de combinar l’avaluació de la idoneïtat amb procediments oberts que garanteixin publicitat i concurrència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-54" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 54 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(54)">Solució</button>
+        </div>
+        <div class="q-statement">54. Quina competència reserva la Constitució a l’Estat en matèria de funcionaris públics?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Dictar les bases del règim estatutari dels funcionaris públics.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Organitzar els cossos i les escales de la Generalitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Gestionar les relacions de llocs de treball de les comunitats autònomes.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regular tota la selecció del personal de les administracions catalanes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-54">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Dictar les bases del règim estatutari dels funcionaris públics.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’article 149.1.18 de la Constitució atribueix a l’Estat la legislació bàsica del règim estatutari, sobre la qual les comunitats autònomes poden desenvolupar les seves competències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-55" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 55 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(55)">Solució</button>
+        </div>
+        <div class="q-statement">55. Quin termini té l’inculpat per contestar el plec de càrrecs i aportar documents?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cinc dies.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un mes.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quinze dies.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Deu dies.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-55">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Deu dies.</div>
+          <div class="explanation-text"><b>Explicació:</b> El termini de deu dies permet preparar la resposta i aportar els documents necessaris per exercir el dret de defensa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-56" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 56 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(56)">Solució</button>
+        </div>
+        <div class="q-statement">56. Quan es pot autoritzar un segon lloc o activitat en el sector públic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan les dues activitats pertanyen a administracions diferents.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan el funcionari té més de cinc anys d’antiguitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan el segon lloc té una retribució inferior al principal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan ho exigeix l’interès del mateix servei públic.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-56">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Quan ho exigeix l’interès del mateix servei públic.</div>
+          <div class="explanation-text"><b>Explicació:</b> La compatibilitat pública és excepcional i necessita una justificació vinculada a l’interès del servei, no a les preferències personals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-57" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 57 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(57)">Solució</button>
+        </div>
+        <div class="q-statement">57. Quan és compatible la producció literària, artística, científica o tècnica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan implica una participació estable en una empresa pública.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan es realitza dins l’horari ordinari del lloc públic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan està directament relacionada amb els expedients gestionats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan no deriva d’una relació de treball o de prestació de serveis.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-57">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Quan no deriva d’una relació de treball o de prestació de serveis.</div>
+          <div class="explanation-text"><b>Explicació:</b> La creació intel·lectual queda fora del règim d’incompatibilitats quan és autònoma i no neix d’una altra relació professional.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-58" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 58 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(58)">Solució</button>
+        </div>
+        <div class="q-statement">58. Quina activitat docent es considera d’interès públic a efectes de compatibilitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La formació, selecció o perfeccionament habitual del personal en centres de funcionaris.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La direcció d’una empresa de formació contractista de l’Administració.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La docència privada desvinculada de les funcions públiques.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La preparació ocasional d’oposicions en una acadèmia privada.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-58">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) La formació, selecció o perfeccionament habitual del personal en centres de funcionaris.</div>
+          <div class="explanation-text"><b>Explicació:</b> La formació del personal públic pot justificar una segona activitat perquè contribueix directament a la qualitat del servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-59" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 59 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(59)">Solució</button>
+        </div>
+        <div class="q-statement">59. Quines modalitats pot tenir el contracte del personal laboral segons la seva durada?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Permanent, interí o eventual.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Estatutari, provisional o especial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Fix, per temps indefinit o temporal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De carrera, en pràctiques o de confiança.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-59">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Fix, per temps indefinit o temporal.</div>
+          <div class="explanation-text"><b>Explicació:</b> La classificació del personal laboral depèn de la durada contractual i no de la integració en cossos o escales funcionarials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-60" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 60 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(60)">Solució</button>
+        </div>
+        <div class="q-statement">60. Quin acte incorpora una persona a la relació jurídica estatutària després del procés selectiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La declaració de compatibilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El nomenament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La contractació laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’adscripció provisional.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-60">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) El nomenament.</div>
+          <div class="explanation-text"><b>Explicació:</b> El nomenament és l’acte formal que situa la persona seleccionada dins la relació estatutària, abans de la presa de possessió corresponent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-61" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 61 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(61)">Solució</button>
+        </div>
+        <div class="q-statement">61. A quins criteris se sotmet l’avaluació del personal directiu professional?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Eficàcia, eficiència, responsabilitat de gestió i control de resultats i objectius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Antiguitat, permanència, inamovibilitat i carrera horitzontal.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Confiança, discrecionalitat, representació i negociació col·lectiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Publicitat, celeritat, mobilitat i provisió per concurs.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-61">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Eficàcia, eficiència, responsabilitat de gestió i control de resultats i objectius.</div>
+          <div class="explanation-text"><b>Explicació:</b> La direcció professional es valora pels resultats de la gestió i pel compliment d’objectius, no per l’estabilitat pròpia de la carrera funcionarial.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-62" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 62 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(62)">Solució</button>
+        </div>
+        <div class="q-statement">62. Quina circumstància pot originar la suspensió de funcions d’un funcionari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La participació en un concurs de provisió de llocs.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La sol·licitud d’una excedència per interès particular.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una sanció derivada d’un expedient disciplinari o d’un procediment judicial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El nomenament per a un càrrec de confiança.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-62">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Una sanció derivada d’un expedient disciplinari o d’un procediment judicial.</div>
+          <div class="explanation-text"><b>Explicació:</b> La suspensió s’associa a una resposta disciplinària o judicial i no a un mecanisme ordinari de mobilitat o provisió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-63" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 63 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(63)">Solució</button>
+        </div>
+        <div class="q-statement">63. Quin òrgan resol les compatibilitats en l’àmbit de les corporacions locals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El ple de la corporació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El conseller de Sanitat i Seguretat Social.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El rector de la universitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El conseller d’Ensenyament.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-63">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El ple de la corporació.</div>
+          <div class="explanation-text"><b>Explicació:</b> En l’àmbit local, la decisió correspon al ple de la corporació i no a un òrgan de l’Administració de la Generalitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-64" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 64 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(64)">Solució</button>
+        </div>
+        <div class="q-statement">64. Quina durada màxima té un expedient disciplinari amb caràcter general?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Deu mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Dotze mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sis mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Vuit mesos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-64">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Vuit mesos.</div>
+          <div class="explanation-text"><b>Explicació:</b> El termini general és de vuit mesos, encara que pot superar-se si l’Administració justifica una pròrroga o hi ha conducta dilatòria de l’inculpat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-65" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 65 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(65)">Solució</button>
+        </div>
+        <div class="q-statement">65. Com es formalitza la relació del personal laboral amb l’Administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mitjançant una designació lliure de caràcter eventual.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Mitjançant un nomenament estatutari publicat al diari oficial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mitjançant una adscripció administrativa provisional.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mitjançant un contracte laboral per escrit.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-65">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Mitjançant un contracte laboral per escrit.</div>
+          <div class="explanation-text"><b>Explicació:</b> El personal laboral queda sotmès al dret laboral a partir d’un contracte escrit, complementat per les normes i els convenis aplicables.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-66" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 66 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(66)">Solució</button>
+        </div>
+        <div class="q-statement">66. Quina protecció econòmica inicial té l’excedència per violència de gènere o sexual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El cinquanta per cent de les retribucions durant un any.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Retribucions íntegres durant els dos primers mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Retribucions bàsiques durant els sis primers mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap retribució des del primer dia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-66">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Retribucions íntegres durant els dos primers mesos.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta excedència incorpora una protecció reforçada, amb dos mesos de retribucions íntegres i reserva inicial del lloc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-67" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 67 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(67)">Solució</button>
+        </div>
+        <div class="q-statement">67. Què ha de respectar un trasllat motivat per necessitats de servei o funcionals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La conservació de totes les funcions del lloc d’origen.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La lliure elecció del nou lloc pel funcionari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La reserva indefinida del lloc de treball anterior.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les retribucions i les condicions essencials de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-67">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Les retribucions i les condicions essencials de treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> La mobilitat per necessitats administratives ha d’estar motivada i no pot alterar els elements essencials de la relació de servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-68" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 68 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(68)">Solució</button>
+        </div>
+        <div class="q-statement">68. Com són el nomenament i el cessament del personal eventual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Reglats i vinculats a un concurs de mèrits.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Temporals però sotmesos a una borsa d’interins.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Definitius després de superar una oposició.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Lliures i de caràcter no permanent.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-68">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Lliures i de caràcter no permanent.</div>
+          <div class="explanation-text"><b>Explicació:</b> La confiança que fonamenta aquest personal explica que el nomenament i el cessament siguin lliures i no generin estabilitat permanent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-69" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 69 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(69)">Solució</button>
+        </div>
+        <div class="q-statement">69. Com classifica el Decret 243/1995 les faltes disciplinàries?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En definitives, provisionals i cautelars.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En molt greus, greus i lleus.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En principals, accessòries i complementàries.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En administratives, laborals i judicials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-69">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En molt greus, greus i lleus.</div>
+          <div class="explanation-text"><b>Explicació:</b> La gravetat de la conducta determina la classificació de la falta i condiciona les sancions que es poden imposar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-70" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 70 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(70)">Solució</button>
+        </div>
+        <div class="q-statement">70. Quan es troba un funcionari en situació de servei actiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan ocupa un càrrec polític incompatible amb la funció pública.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan el seu lloc ha estat suprimit i encara no ha obtingut destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan presta serveis com a funcionari públic i no li correspon cap altra situació administrativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan presta serveis en una altra administració sense reserva de destinació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-70">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Quan presta serveis com a funcionari públic i no li correspon cap altra situació administrativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> El servei actiu és la situació ordinària del funcionari que exerceix efectivament les seves funcions sense encaixar en una situació especial.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-71" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 71 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(71)">Solució</button>
+        </div>
+        <div class="q-statement">71. Quina durada màxima té l’excedència per tenir cura de cada fill?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Tres anys.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un any.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Dos anys.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cinc anys.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-71">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Tres anys.</div>
+          <div class="explanation-text"><b>Explicació:</b> El període es vincula a cada fill, tant per naixement com per adopció, i computa a efectes de triennis i grau personal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-72" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 72 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(72)">Solució</button>
+        </div>
+        <div class="q-statement">72. Qui resol la compatibilitat del personal de l’àmbit universitari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El rector de la universitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El conseller competent en funció pública.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El ple de la corporació local.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El conseller d’Ensenyament.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-72">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El rector de la universitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’àmbit universitari disposa d’una autoritat pròpia per resoldre aquestes declaracions: el rector de la universitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-73" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 73 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(73)">Solució</button>
+        </div>
+        <div class="q-statement">73. A qui s’ha d’informar dels expedients disciplinaris?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Als consells d’administració de les empreses públiques.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Als tribunals de selecció de personal.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Als òrgans de representació col·lectiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Als òrgans de provisió per concurs.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-73">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Als òrgans de representació col·lectiva.</div>
+          <div class="explanation-text"><b>Explicació:</b> La informació als òrgans representatius incorpora una garantia col·lectiva de seguiment del procediment disciplinari.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-74" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 74 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(74)">Solució</button>
+        </div>
+        <div class="q-statement">74. Qui resol la compatibilitat d’un segon lloc respecte del personal sanitari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El ple de la corporació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El conseller de Sanitat i Seguretat Social.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El rector de la universitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El conseller competent en funció pública.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-74">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) El conseller de Sanitat i Seguretat Social.</div>
+          <div class="explanation-text"><b>Explicació:</b> La taula atribueix al conseller de Sanitat i Seguretat Social l’autorització o denegació relativa al personal sanitari.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-75" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 75 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(75)">Solució</button>
+        </div>
+        <div class="q-statement">75. Quins principis regeixen la selecció dels funcionaris interins?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Igualtat, mèrit, capacitat, publicitat i celeritat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Confiança, idoneïtat, concurrència, eficàcia i antiguitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Objectivitat, economia, jerarquia, estabilitat i carrera.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Professionalitat, especialització, discrecionalitat, mobilitat i permanència.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-75">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Igualtat, mèrit, capacitat, publicitat i celeritat.</div>
+          <div class="explanation-text"><b>Explicació:</b> La temporalitat del nomenament no elimina les garanties d’accés; s’hi afegeix la celeritat per respondre a la necessitat urgent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-76" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 76 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(76)">Solució</button>
+        </div>
+        <div class="q-statement">76. Quin dret individual correspon específicament als funcionaris de carrera?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El dret a la llibertat sindical.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El dret a la negociació col·lectiva.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El dret de reunió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La inamovibilitat en la condició de funcionari de carrera.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-76">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La inamovibilitat en la condició de funcionari de carrera.</div>
+          <div class="explanation-text"><b>Explicació:</b> La inamovibilitat protegeix l’estabilitat de la condició funcionarial; els altres drets indicats tenen caràcter col·lectiu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-77" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 77 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(77)">Solució</button>
+        </div>
+        <div class="q-statement">77. Quan pot un empleat públic desobeir una ordre professional d’un superior?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan l’ordre constitueix una infracció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan l’ordre exigeix complir l’horari establert.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan l’ordre modifica la distribució de tasques.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan discrepa del criteri tècnic aplicat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-77">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Quan l’ordre constitueix una infracció.</div>
+          <div class="explanation-text"><b>Explicació:</b> El deure d’obediència no empara ordres contràries a la legalitat; la discrepància ordinària no justifica la desobediència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-78" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 78 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(78)">Solució</button>
+        </div>
+        <div class="q-statement">78. Quina condició conserva un funcionari que presta serveis en una altra administració pública?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La condició de personal laboral de l’administració de destinació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La reserva automàtica del càrrec polític d’origen.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La consideració de personal eventual de la nova administració.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La condició de funcionari de la Generalitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-78">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La condició de funcionari de la Generalitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> El canvi d’administració no extingeix el vincle funcionarial d’origen, encara que el règim aplicable passi a ser el de la destinació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-79" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 79 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(79)">Solució</button>
+        </div>
+        <div class="q-statement">79. Quin efecte principal té la suspensió de funcions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La privació temporal de l’exercici de les funcions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El canvi automàtic a una altra administració.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La reserva temporal d’un segon lloc de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La pèrdua definitiva de la condició de funcionari.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-79">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) La privació temporal de l’exercici de les funcions.</div>
+          <div class="explanation-text"><b>Explicació:</b> La suspensió impedeix exercir temporalment les funcions, però no equival necessàriament a la separació definitiva del servei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-80" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 80 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(80)">Solució</button>
+        </div>
+        <div class="q-statement">80. Quin caràcter té la relació dels funcionaris de carrera amb l’Administració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Administratiu i eventual.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Estatutari i permanent.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Laboral i temporal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mercantil i indefinit.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-80">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Estatutari i permanent.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els funcionaris de carrera s’incorporen a l’Administració mitjançant una relació estatutària de caràcter permanent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-81" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 81 de 81</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(81)">Solució</button>
+        </div>
+        <div class="q-statement">81. Quin límit anual s’aplica a la participació no habitual en cursos de formació de funcionaris?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cent hores.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cinquanta hores.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cent cinquanta hores.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Setanta-cinc hores.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-81">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Setanta-cinc hores.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’activitat formativa queda exempta d’incompatibilitat si no és permanent ni habitual i no supera les 75 hores anuals.</div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <script>
+    let allVisible = false;
+
+    function selectOption(el) {
+      const card = el.closest('.q-card');
+      const correct = card.getAttribute('data-correct');
+      const chosen = el.getAttribute('data-opt');
+      
+      // Clear previous states
+      card.querySelectorAll('.option').forEach(o => o.classList.remove('wrong'));
+      
+      if (chosen === correct) {
+        el.classList.add('correct');
+      } else {
+        el.classList.add('wrong');
+        const correctEl = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctEl) correctEl.classList.add('correct');
+      }
+
+      // Show solution box
+      const box = card.querySelector('.solution-box');
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

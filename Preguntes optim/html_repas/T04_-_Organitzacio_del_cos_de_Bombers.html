@@ -1,0 +1,4606 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T04 - Organització del cos de Bombers - Repàs de Preguntes</title>
+  <style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
+  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
+  .header p { color: var(--text-muted); font-size: 14px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: rgba(255,255,255,0.07); }
+  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  
+  @media print {
+    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
+    .header, .controls, .print-hide { display: none !important; }
+    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
+    .option.correct { color: #047857 !important; font-weight: bold !important; }
+    .option.wrong { color: #b91c1c !important; }
+    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
+    .explanation-text { color: #334155 !important; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>T04 - Organització del cos de Bombers</h1>
+      <p>Total de preguntes: <b>128</b> • Clica a qualsevol opció per comprovar-la directament</p>
+      <div class="controls print-hide">
+        <a class="btn btn-secondary" href="../index.html">← Menú Principal</a>
+        <a class="btn btn-secondary" href="../anki_csv/T04_-_Organitzacio_del_cos_de_Bombers.csv" download>📦 Descarregar Anki CSV</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">Mostra/Amaga Solucions</button>
+        <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+      </div>
+    </div>
+    <div id="questions-container">
+      
+      <div class="q-card" id="q-1" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 1 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(1)">Solució</button>
+        </div>
+        <div class="q-statement">1. A que fa referència la definició: Continuïtat al servei i transmet la responsabilitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Concepte de relleu de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Concepte de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Concepte de centre de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Concepte de posició de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-1">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Concepte de relleu de guàrdia.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-2" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 2 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(2)">Solució</button>
+        </div>
+        <div class="q-statement">2. Què és el relleu de la guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els buits que queden entre el torn entrant i el torn sortint.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La mobilització selectiva dels recursos disponibles durant la guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La continuïtat al servei amb transmissió de la responsabilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’exercici de les funcions corresponents a la posició de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-2">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) La continuïtat al servei amb transmissió de la responsabilitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> El relleu de la guàrdia garanteix la continuïtat del servei i implica transmetre la responsabilitat entre els comandaments.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-3" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 3 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(3)">Solució</button>
+        </div>
+        <div class="q-statement">3. A qui correspon la funció de comunicar a la SCT incidències que afectin?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-3">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-4" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 4 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(4)">Solució</button>
+        </div>
+        <div class="q-statement">4. De quina subdirecció general depèn l’Àrea de Tecnologia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-4">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Subdirecció General Tècnica.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Tecnologia està integrada dins la Subdirecció General Tècnica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-5" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 5 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(5)">Solució</button>
+        </div>
+        <div class="q-statement">5. De quina àrea depèn la Unitat Aquàtica i d’Incidents Marítims?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea del Grup d’Actuacions Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea del Grup d’Actuació Forestal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Emergències Meteorològiques i Climàtiques.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-5">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De l’Àrea del Grup d’Actuacions Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat Aquàtica i d’Incidents Marítims depèn de l’Àrea del Grup d’Actuacions Especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-6" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 6 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(6)">Solució</button>
+        </div>
+        <div class="q-statement">6. Quines categories poden fer la funció de cap de coordinació territorial?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Oficial i sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Només inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El cap de regió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-6">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Sotsinspector i inspector.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-7" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 7 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(7)">Solució</button>
+        </div>
+        <div class="q-statement">7. Quin és el centre de la guàrdia de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-7">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) SCT.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-8" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 8 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(8)">Solució</button>
+        </div>
+        <div class="q-statement">8. Quin supervisa l&#039;elaboració de la TRI</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>SCT.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-8">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap de coordinació SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-9" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 9 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(9)">Solució</button>
+        </div>
+        <div class="q-statement">9. De quina àrea depèn la Unitat de Vestuari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Tecnologia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea d’Equipaments Operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Mobilitat Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Infraestructures i Sostenibilitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-9">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De l’Àrea d’Equipaments Operatius.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Vestuari depèn de l’Àrea d’Equipaments Operatius.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-10" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 10 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(10)">Solució</button>
+        </div>
+        <div class="q-statement">10. Quin organ fa la supervisió i execució directa de les tasques dels bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Les regions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les divisions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els grups.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els parcs.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-10">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Els grups.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-11" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 11 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(11)">Solució</button>
+        </div>
+        <div class="q-statement">11. De quina subdirecció general depèn la Divisió de Planificació i Gestió?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-11">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Subdirecció General Operativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Divisió de Planificació i Gestió s’integra dins la Subdirecció General Operativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-12" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 12 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(12)">Solució</button>
+        </div>
+        <div class="q-statement">12. De quina subdirecció general depèn la Divisió d’Emergències Climàtiques i Grups Operatius Especials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-12">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Subdirecció General Operativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta divisió forma part de l’estructura de la Subdirecció General Operativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 13 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(13)">Solució</button>
+        </div>
+        <div class="q-statement">13. Quin conjunt recull totes les subdireccions generals que depenen de la DGPEIS?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Subdirecció General de Contractació i Pressupost, Subdirecció General d’Assumptes Jurídics i Institucionals, Subdirecció General Operativa, Subdirecció General Tècnica i Subdirecció de Comunicació i Premsa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Subdirecció General de Contractació i Pressupost, Subdirecció de Comunicació i Premsa, Subdirecció General Operativa, Subdirecció General Tècnica i Subdirecció de mitjans aeris.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Subdirecció General de Contractació i Pressupost, Subdirecció General d’Assumptes Jurídics i Institucionals, Subdirecció General Operativa, Subdirecció General Tècnica i Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Subdirecció General de Contractació i Pressupost, Subdirecció General d’Assumptes Jurídics i Institucionals, Subdirecció General Operativa, Subdirecció de Coordinació d’Emergències i Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-13">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Subdirecció General de Contractació i Pressupost, Subdirecció General d’Assumptes Jurídics i Institucionals, Subdirecció General Operativa, Subdirecció General Tècnica i Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> De la DGPEIS depenen cinc subdireccions generals: Contractació i Pressupost; Assumptes Jurídics i Institucionals; Operativa; Tècnica; i Persones i Organització. L’Àrea de Comunicació i Premsa també depèn de la DGPEIS, però no és una subdirecció general.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-14" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 14 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(14)">Solució</button>
+        </div>
+        <div class="q-statement">14. De quina divisió depèn l’Àrea d’Innovació i Desenvolupament Operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-14">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Divisió d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea d’Innovació i Desenvolupament Operatiu forma part de la Divisió d’Operacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-15" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 15 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(15)">Solució</button>
+        </div>
+        <div class="q-statement">15. Quin centre disposa del CCB?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els parcs.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Els parcs i les SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cada regió té el seu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-15">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 16 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(16)">Solució</button>
+        </div>
+        <div class="q-statement">16. A que fa referència la definició: Espai físic on els comandaments exerceixen la posició de guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Concepte de posició de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Concepte de centre de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Concepte de relleu de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Concepte de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-16">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Concepte de centre de guàrdia.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-17" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 17 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(17)">Solució</button>
+        </div>
+        <div class="q-statement">17. De quina divisió depèn l’Àrea d’Emergències Meteorològiques i Climàtiques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-17">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta àrea depèn de la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-18" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 18 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(18)">Solució</button>
+        </div>
+        <div class="q-statement">18. Quines són les posicions de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de guàrdia, cap territorial i cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de torn, cap de coordinació territorial i cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de parc, cap de coordinació territorial i cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de coordinació territorial i Cap de coordinació SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-18">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap de torn, cap de coordinació territorial i cap de coordinació SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-19" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 19 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(19)">Solució</button>
+        </div>
+        <div class="q-statement">19. De quina divisió depèn l’Àrea de Planificació de Recursos?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-19">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Divisió de Planificació i Gestió.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Planificació de Recursos depèn de la Divisió de Planificació i Gestió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-20" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 20 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(20)">Solució</button>
+        </div>
+        <div class="q-statement">20. A qui correspon la funció de vetllar per la seguretat del personal i instal·lacions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-20">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-21" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 21 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(21)">Solució</button>
+        </div>
+        <div class="q-statement">21. Quines regions comparteixen la sala de coordinació territorial?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La REC amb REG i la REMS amb la REMN.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La REMS amb la REMN i la REC amb la REL.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La REL amb la REP i la REMS amb la REMN.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La RETE amb la RET i la REL amb la REP.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-21">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La RETE amb la RET i la REL amb la REP.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-22" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 22 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(22)">Solució</button>
+        </div>
+        <div class="q-statement">22. De quina subdirecció general depèn l’Àrea d’Infraestructures i sostenibilitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-22">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De la Subdirecció General Tècnica.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea d’Infraestructures i sostenibilitat s’integra dins la Subdirecció General Tècnica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-23" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 23 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(23)">Solució</button>
+        </div>
+        <div class="q-statement">23. Quantes àrees d&#039;operacions hi ha al cos de Bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una per la zona est i dues per l&#039;oest.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una per cada unitat territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una per cada regió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Dues per cada regió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-23">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Una per cada regió.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-24" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 24 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(24)">Solució</button>
+        </div>
+        <div class="q-statement">24. Quine posicions de l&#039;àmbit operatiu han d&#039;assumir en el territori el comandament, d’acord amb el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap territorial i sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sotscap territorial, cap territorial o cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de sortida i soscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Totes les posicions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-24">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Sotscap territorial, cap territorial o cap operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-25" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 25 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(25)">Solució</button>
+        </div>
+        <div class="q-statement">25. De quina àrea depèn la Unitat de Col·lapses Estructurals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Prevenció i Inspecció d’Incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea d’Innovació i Desenvolupament Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-25">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De l’Àrea Tècnica d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Col·lapses Estructurals és una de les unitats de l’Àrea Tècnica d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-26" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 26 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(26)">Solució</button>
+        </div>
+        <div class="q-statement">26. De quina àrea depèn la Unitat de Desenvolupament Operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Planificació de Recursos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Innovació i Desenvolupament Operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-26">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De l’Àrea d’Innovació i Desenvolupament Operatiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Desenvolupament Operatiu depèn de l’Àrea d’Innovació i Desenvolupament Operatiu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-27" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 27 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(27)">Solució</button>
+        </div>
+        <div class="q-statement">27. De quina divisió depèn l’Àrea del Grup d’Actuacions Especials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-27">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea del Grup d’Actuacions Especials s’integra dins aquesta divisió especialitzada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-28" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 28 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(28)">Solució</button>
+        </div>
+        <div class="q-statement">28. De quina àrea depèn la Unitat d’Incendis Estructurals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea d’Equipaments Operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Prevenció i Inspecció d’Incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-28">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De l’Àrea Tècnica d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat d’Incendis Estructurals depèn de l’Àrea Tècnica d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-29" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 29 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(29)">Solució</button>
+        </div>
+        <div class="q-statement">29. Com es caracteritza l&#039;organització segons el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Organització estable i modular.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Organització escalable i rígida.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Oragnització escalable i modular.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Organització flexible i modular.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-29">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Oragnització escalable i modular.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-30" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 30 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(30)">Solució</button>
+        </div>
+        <div class="q-statement">30. Quin nivell de SISCOM li correspon al sotscap territorial</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>2.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>3.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>1.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>4.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-30">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) 2.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-31" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 31 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(31)">Solució</button>
+        </div>
+        <div class="q-statement">31. De quina subdirecció general depenen els Serveis d’Administració de les regions d’emergències?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-31">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els Serveis d’Administració de les regions d’emergències formen part de la Subdirecció General de Persones i Organització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-32" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 32 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(32)">Solució</button>
+        </div>
+        <div class="q-statement">32. De quina subdirecció general depèn la Divisió d’Operacions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-32">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General Operativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Divisió d’Operacions depèn de la Subdirecció General Operativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-33" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 33 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(33)">Solució</button>
+        </div>
+        <div class="q-statement">33. De quin òrgan depèn directament el Centre d’Atenció i Gestió de Trucades 112?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Secretaria General del Departament d’Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Direcció General d’Administració de Seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Del Departament d’Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Direcció General de Protecció Civil.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-33">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Del Departament d’Interior.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Centre d’Atenció i Gestió de Trucades 112 figura com a organisme dependent directament del Departament d’Interior.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-34" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 34 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(34)">Solució</button>
+        </div>
+        <div class="q-statement">34. Quina és la característica principal de la disponibilitat immediata (DI)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Comporta presència física en el lloc de treball segons un règim establert.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Implica incorporar-se presencialment en el temps i lloc establerts.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>No disponibilitat en presència física ni mobilització obligatòria.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Es reserva als comandaments responsables de garantir el comandament únic.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-34">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Comporta presència física en el lloc de treball segons un règim establert.</div>
+          <div class="explanation-text"><b>Explicació:</b> La disponibilitat immediata comporta presència física en el lloc de treball, d’acord amb un règim horari o una freqüència establerts.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-35" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 35 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(35)">Solució</button>
+        </div>
+        <div class="q-statement">35. De quina divisió depèn l’Àrea de Gestió dels Grups Operatius Especials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-35">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Gestió dels Grups Operatius Especials s’integra en la divisió homònima d’emergències climàtiques i grups especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-36" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 36 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(36)">Solució</button>
+        </div>
+        <div class="q-statement">36. Quin centre és la unitat territorial bàsica de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Regió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Parc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-36">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Parc.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-37" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 37 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(37)">Solució</button>
+        </div>
+        <div class="q-statement">37. De quina subdirecció general depèn l’Àrea de Mobilitat Operativa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-37">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Subdirecció General Tècnica.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Mobilitat Operativa depèn de la Subdirecció General Tècnica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-38" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 38 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(38)">Solució</button>
+        </div>
+        <div class="q-statement">38. El comandament operatiu intermedi quines categories el poden dur a terme?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sergent, oficial i sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Oficial i sotsinspector.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-38">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Sergent, oficial i sotsinspector.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-39" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 39 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(39)">Solució</button>
+        </div>
+        <div class="q-statement">39. De quina àrea d’una regió d’emergència depèn la Unitat de sala control regió?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de la Sala Central de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Mitjans Aeris.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-39">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De l’Àrea d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de sala control regió s’integra sota l’Àrea d’Operacions de la regió d’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-40" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 40 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(40)">Solució</button>
+        </div>
+        <div class="q-statement">40. De quina subdirecció general depèn el Servei d’Organització i Dades?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-40">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Servei d’Organització i Dades s’integra dins la Subdirecció General de Persones i Organització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-41" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 41 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(41)">Solució</button>
+        </div>
+        <div class="q-statement">41. Qui és el màxim comandament operatiu en una intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>SGO.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-41">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) SGO.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-42" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 42 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(42)">Solució</button>
+        </div>
+        <div class="q-statement">42. Quina posició de l&#039;àmbit operatiu ha de recollir les dades de les actuacions operatives realitzades?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-42">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Cap de sortida.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-43" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 43 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(43)">Solució</button>
+        </div>
+        <div class="q-statement">43. Quines àrees d&#039;operacions tenen 2 unitats territorials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>REP, REG, REMN, REMS.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>REMS, REMN, REG, REC, REL.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>REL, REC, RET, RETE, REP.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>REL, REMN, REMS, RETE, REG.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-43">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) REL, REC, RET, RETE, REP.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-44" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 44 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(44)">Solució</button>
+        </div>
+        <div class="q-statement">44. Quines categories poden fer la funció de cap de torn?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Oficial i sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Bomber de 1a, caporal i sergent.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Caporal, sergent i oficial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-44">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Bomber de 1a, caporal i sergent.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-45" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 45 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(45)">Solució</button>
+        </div>
+        <div class="q-statement">45. Quina característica correspon a la disponibilitat de localització i mobilització immediata (DLMI)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Incorporació presencial quan es determina, en el temps i lloc establerts.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Presència física permanent al lloc de treball durant tota la guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Exercici de funcions de guàrdia exclusivament durant un règim horari fix.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mobilització dels recursos humans i materials sense obligació d’incorporació presencial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-45">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Incorporació presencial quan es determina, en el temps i lloc establerts.</div>
+          <div class="explanation-text"><b>Explicació:</b> La DLMI és permanent i comporta l’obligació d’incorporar-se presencialment quan es determini, en el temps i lloc establerts.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 46 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(46)">Solució</button>
+        </div>
+        <div class="q-statement">46. Quin és centre superior de coordinació de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Regió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>SCT.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-46">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-47" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 47 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(47)">Solució</button>
+        </div>
+        <div class="q-statement">47. Quina de les segëunts funcions és comuna amb totes les posicions de l&#039;àmbit operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Elaborar els informes de les actuacions operatives en què hagi intervingut.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Garantir aplicació del Pla d’Actuació del Grup d’Intervenció (PAGI).</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Participar i col·laborar als brífings diaris de la SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Disposar de la informació necessària del dispositiu i incidències rellevants.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-47">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Elaborar els informes de les actuacions operatives en què hagi intervingut.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-48" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 48 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(48)">Solució</button>
+        </div>
+        <div class="q-statement">48. De quin òrgan depèn directament la Direcció General de Prevenció, Extinció d’Incendis i Salvaments?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Direcció General d’Administració de Seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Del Departament d’Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Direcció General de Protecció Civil.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Secretaria General del Departament d’Interior.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-48">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Del Departament d’Interior.</div>
+          <div class="explanation-text"><b>Explicació:</b> La DGPEIS és una de les direccions generals que depenen directament del Departament d’Interior.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-49" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 49 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(49)">Solució</button>
+        </div>
+        <div class="q-statement">49. L&#039;alt comandament operatiu quines categories el poden dur a terme?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Caporal, sergent i oficial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Oficial, sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Inspector.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-49">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Sotsinspector i inspector.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-50" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 50 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(50)">Solució</button>
+        </div>
+        <div class="q-statement">50. De quina àrea depèn la Unitat de Planificació i Gestió de Vehicles i Materials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Logística.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Mobilitat Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea d’Equipaments Operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Planificació de Recursos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-50">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De l’Àrea de Planificació de Recursos.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta unitat depèn de l’Àrea de Planificació de Recursos.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-51" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 51 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(51)">Solució</button>
+        </div>
+        <div class="q-statement">51. De quina àrea d’una regió d’emergència depenen els parcs de bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Planificació de Recursos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Gestió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-51">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De l’Àrea d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els parcs de bombers apareixen integrats sota l’Àrea d’Operacions de la regió d’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-52" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 52 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(52)">Solució</button>
+        </div>
+        <div class="q-statement">52. Quines posicions de l&#039;àmbit operatiu han de participar i col·laborar als brífings diaris de la SCB?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Totes les posicions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap territorial i cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotscap territorial, cap territorial o cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de sortida i soscap territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-52">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap territorial i cap operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-53" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 53 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(53)">Solució</button>
+        </div>
+        <div class="q-statement">53. A qui correspon la funció d&#039;organitzar i vetllar les activitats diàries: revisió, manteniment i neteja de vehicles?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-53">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-54" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 54 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(54)">Solució</button>
+        </div>
+        <div class="q-statement">54. Quin nivell de SISCOM li correspon al cap operatiu</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>1.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>3.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>2.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>4.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-54">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) 4.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-55" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 55 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(55)">Solució</button>
+        </div>
+        <div class="q-statement">55. Quins són els organs territorials del cos de Bombers de la Generalitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Regió, Àrea regional, Grup, Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Regió, Àrea regional, Unitat regional, Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Regió, Grup, Unitat regional, Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Àrea regional, Unitat regional, Grup, Divisió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-55">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Regió, Àrea regional, Unitat regional, Parc.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-56" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 56 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(56)">Solució</button>
+        </div>
+        <div class="q-statement">56. De quina subdirecció general depèn l’Àrea de Prevenció i Inspecció d’Incendis?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-56">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General Tècnica.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Prevenció i Inspecció d’Incendis forma part de la Subdirecció General Tècnica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-57" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 57 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(57)">Solució</button>
+        </div>
+        <div class="q-statement">57. De quina àrea depenen les unitats territorials de prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea d’Equipaments Operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Tecnologia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Prevenció i Inspecció d’Incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Infraestructures i Sostenibilitat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-57">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De l’Àrea de Prevenció i Inspecció d’Incendis.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les unitats territorials de prevenció estan vinculades a l’Àrea de Prevenció i Inspecció d’Incendis.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-58" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 58 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(58)">Solució</button>
+        </div>
+        <div class="q-statement">58. Quines àrees d&#039;operacions tenen 3 unitats territorials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>REL, REC, REG.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>REC, REL RETE.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>RET, REP RETE.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>REMS, REMN, REG.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-58">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) REMS, REMN, REG.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-59" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 59 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(59)">Solució</button>
+        </div>
+        <div class="q-statement">59. De quin òrgan depèn directament el Servei Català de Trànsit?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Direcció General de Protecció Civil.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Secretaria General del Departament d’Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Direcció General d’Administració de Seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Del Departament d’Interior.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-59">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Del Departament d’Interior.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Servei Català de Trànsit figura com un organisme dependent directament del Departament d’Interior.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-60" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 60 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(60)">Solució</button>
+        </div>
+        <div class="q-statement">60. Quins organs del cos de Bombers fan direcció tàctica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Àrea central i Àrea regional.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Regió i Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Unitat central i Regió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Area regional i Unitat regional.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-60">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Àrea central i Àrea regional.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-61" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 61 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(61)">Solució</button>
+        </div>
+        <div class="q-statement">61. Qui facilita la informació pública a través dels mitjans?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Parcs.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-61">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-62" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 62 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(62)">Solució</button>
+        </div>
+        <div class="q-statement">62. De quina àrea depèn la Unitat de Prevenció Tècnica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea d’Infraestructures i sostenibilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Prevenció i Inspecció d’Incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Mobilitat Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Tecnologia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-62">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De l’Àrea de Prevenció i Inspecció d’Incendis.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Prevenció Tècnica forma part de l’Àrea de Prevenció i Inspecció d’Incendis.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-63" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 63 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(63)">Solució</button>
+        </div>
+        <div class="q-statement">63. Qui elabora la Taulad de Recursos d&#039;Intervenció (TRI)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-63">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-64" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 64 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(64)">Solució</button>
+        </div>
+        <div class="q-statement">64. A quin àmbit de la guàrdia fa referència: Anàlisi i suport tècnic
+i logístic als altres 2 àmbits?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Coordinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Planificació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Suport.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-64">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Suport.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-65" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 65 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(65)">Solució</button>
+        </div>
+        <div class="q-statement">65. Quina posició de l&#039;àmbit operatiu ha de garantir la recollida de dades de les actuacions operatives realitzades?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-65">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Sotscap territorial.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-66" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 66 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(66)">Solució</button>
+        </div>
+        <div class="q-statement">66. Quins organs del cos de Bombers fan direcció estratègica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Divisió i Regió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Regió i Àrea regional.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Grup i Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Unitat central i Àrea central.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-66">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Divisió i Regió.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-67" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 67 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(67)">Solució</button>
+        </div>
+        <div class="q-statement">67. Qui és el màxim responsable de la guàrdia al parc de bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El cap de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El cap de sortida.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-67">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) El cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-68" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 68 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(68)">Solució</button>
+        </div>
+        <div class="q-statement">68. De quina subdirecció general depèn el Servei d’Administració Central?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-68">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De la Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Servei d’Administració Central està adscrit a la Subdirecció General de Persones i Organització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-69" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 69 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(69)">Solució</button>
+        </div>
+        <div class="q-statement">69. De quina divisió depèn l’Àrea de Bombers Voluntaris?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-69">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Divisió de Planificació i Gestió.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Bombers Voluntaris forma part de la Divisió de Planificació i Gestió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-70" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 70 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(70)">Solució</button>
+        </div>
+        <div class="q-statement">70. Quina posició de l&#039;àmbit operatiu ha de supervisar la recollida de dades de les actuacions operatives realitzades?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-70">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap territorial.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-71" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 71 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(71)">Solució</button>
+        </div>
+        <div class="q-statement">71. Quines categories poden fer la funció de cap de coordinació SCB?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Oficial, sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El SGO.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-71">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Inspector.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-72" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 72 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(72)">Solució</button>
+        </div>
+        <div class="q-statement">72. A qui li correspon el comandament i direcció superior del com de Bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Director/a general.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Conseller/a d&#039;interior.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Subdirector/a general operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-72">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Conseller/a d&#039;interior.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-73" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 73 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(73)">Solució</button>
+        </div>
+        <div class="q-statement">73. A qui correspon la funció d&#039;assegurar el relleu i la continuïtat de la guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-73">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-74" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 74 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(74)">Solució</button>
+        </div>
+        <div class="q-statement">74. A que fa referència la definició: Situació de disponibilitat permanent sota comandament únic i organitzada en torns successius i ininterromputs, garanteix la resposta urgent i coordinada?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Concepte de posició de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Concepte de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Concepte de centre de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Concepte de relleu de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-74">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Concepte de guàrdia.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-75" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 75 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(75)">Solució</button>
+        </div>
+        <div class="q-statement">75. Quina de les segëunts funcions és comuna amb totes les posicions de l&#039;àmbit operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Reportar la informació rellevant de la intervenció en temps real a l’àmbit de coordinació corresponent.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Disposar de la informació necessària del dispositiu i incidències rellevants.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Participar i col·laborar als brífings diaris de la SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Garantir aplicació del Pla d’Actuació del Grup d’Intervenció (PAGI).</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-75">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Reportar la informació rellevant de la intervenció en temps real a l’àmbit de coordinació corresponent.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-76" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 76 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(76)">Solució</button>
+        </div>
+        <div class="q-statement">76. De quina subdirecció general depèn l’Àrea d’Equipaments Operatius?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-76">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Subdirecció General Tècnica.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea d’Equipaments Operatius forma part de la Subdirecció General Tècnica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-77" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 77 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(77)">Solució</button>
+        </div>
+        <div class="q-statement">77. A quin àmbit de la guàrdia fa referència: Planificació i gestió dels recursos materials i humans desplegats al territori?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Planificació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Suport.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Coordinació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-77">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Coordinació.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-78" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 78 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(78)">Solució</button>
+        </div>
+        <div class="q-statement">78. Qui és el cap dels bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El Director/a General de la DGPEIS.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El Subdirector General Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El conseller/a d&#039;Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El cap de coordinació de la SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-78">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) El Subdirector General Operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-79" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 79 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(79)">Solució</button>
+        </div>
+        <div class="q-statement">79. De quina àrea depèn la Unitat d’Equips i Materials Operatius?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea d’Infraestructures i sostenibilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea d’Equipaments Operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Logística.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Mobilitat Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-79">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De l’Àrea d’Equipaments Operatius.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat d’Equips i Materials Operatius depèn de l’Àrea d’Equipaments Operatius.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-80" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 80 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(80)">Solució</button>
+        </div>
+        <div class="q-statement">80. De quina divisió depèn l’Àrea del Grup d’Actuació Forestal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-80">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea del Grup d’Actuació Forestal forma part de la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-81" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 81 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(81)">Solució</button>
+        </div>
+        <div class="q-statement">81. De quina subdirecció general depèn el Servei de Convocatòries?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-81">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Servei de Convocatòries s’integra dins la Subdirecció General de Persones i Organització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-82" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 82 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(82)">Solució</button>
+        </div>
+        <div class="q-statement">82. De quina divisió depèn la Unitat del Grup d’Emergències Mèdiques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-82">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat del Grup d’Emergències Mèdiques s’integra dins la divisió que agrupa emergències climàtiques i grups operatius especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-83" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 83 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(83)">Solució</button>
+        </div>
+        <div class="q-statement">83. Quina posició és el màxim comandament operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-83">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-84" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 84 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(84)">Solució</button>
+        </div>
+        <div class="q-statement">84. Dins la DGPEIS, de quina estructura depèn l’Àrea d’Operacions de les regions d’emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De les Regions d’Emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-84">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De les Regions d’Emergència.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea d’Operacions és una de les àrees pròpies de l’estructura de les Regions d’Emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-85" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 85 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(85)">Solució</button>
+        </div>
+        <div class="q-statement">85. De quina àrea d’una regió d’emergència depenen les unitats territorials?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Mitjans Aeris.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Planificació de Recursos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-85">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) De l’Àrea d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les unitats territorials apareixen adscrites a l’Àrea d’Operacions de la regió d’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-86" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 86 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(86)">Solució</button>
+        </div>
+        <div class="q-statement">86. El comandament operatiu bàsic quines categories el poden dur a terme?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Bomber de 1a i caporal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Caportal, sergent i oficial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Bomber de 1a, caporal i sergent.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Caporal i sergent.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-86">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Bomber de 1a, caporal i sergent.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-87" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 87 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(87)">Solució</button>
+        </div>
+        <div class="q-statement">87. De quina subdirecció general depenen les Regions d’Emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-87">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General Operativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les Regions d’Emergència apareixen integrades dins la Subdirecció General Operativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-88" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 88 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(88)">Solució</button>
+        </div>
+        <div class="q-statement">88. Quina posició és el comandament operatiu intermedi?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-88">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Sotscap territorial.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-89" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 89 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(89)">Solució</button>
+        </div>
+        <div class="q-statement">89. De quina divisió depèn l’Àrea Tècnica d’Emergències?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-89">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea Tècnica d’Emergències forma part de la Divisió d’Operacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-90" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 90 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(90)">Solució</button>
+        </div>
+        <div class="q-statement">90. De quina àrea depèn la Unitat de Relacions i Desplegaments en Emergències Exteriors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea d’Innovació i Desenvolupament Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Emergències Meteorològiques i Climàtiques.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-90">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De l’Àrea d’Innovació i Desenvolupament Operatiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquesta unitat està integrada dins l’Àrea d’Innovació i Desenvolupament Operatiu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-91" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 91 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(91)">Solució</button>
+        </div>
+        <div class="q-statement">91. A qui li correspon el comandament del cos de Bombers de la Generalitat i la direcció, coordinació i inspecció dels serveis de SPEIS i les seves instal·lacions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Director/a general.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Conseller/a d&#039;interior.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Subdirector/a general operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-91">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Director/a general.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-92" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 92 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(92)">Solució</button>
+        </div>
+        <div class="q-statement">92. Quins dels segünts són principis del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Estructura jeràrquica i rígida.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Estructura jeràrquica i comandament únic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Estructura horitzontal i modular.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Comandament compartit i estructura modular.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-92">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Estructura jeràrquica i comandament únic.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-93" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 93 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(93)">Solució</button>
+        </div>
+        <div class="q-statement">93. Quin nivell de SISCOM li correspon al cap de sortida</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>2.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>4.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>3.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>1.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-93">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) 1.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-94" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 94 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(94)">Solució</button>
+        </div>
+        <div class="q-statement">94. A qui correspon la funció de dirigir a l’inici de la guàrdia la reunió informativa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-94">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-95" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 95 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(95)">Solució</button>
+        </div>
+        <div class="q-statement">95. De quina àrea depèn la Unitat de Riscos Tecnològics?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Tecnologia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Prevenció i Inspecció d’Incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-95">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De l’Àrea Tècnica d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Riscos Tecnològics forma part de l’Àrea Tècnica d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-96" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 96 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(96)">Solució</button>
+        </div>
+        <div class="q-statement">96. Dins la DGPEIS, de quina estructura depèn l’Àrea de Gestió de les regions d’emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De les Regions d’Emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-96">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De les Regions d’Emergència.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Gestió s’integra dins l’estructura de les Regions d’Emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-97" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 97 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(97)">Solució</button>
+        </div>
+        <div class="q-statement">97. Quin nivell de SISCOM li correspon al SGO</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>3.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>5.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>2.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>4.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-97">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) 5.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-98" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 98 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(98)">Solució</button>
+        </div>
+        <div class="q-statement">98. Quina posició és el comandament operatiu bàsic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-98">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap de sortida.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-99" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 99 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(99)">Solució</button>
+        </div>
+        <div class="q-statement">99. De quina divisió depèn l’Àrea de Mitjans Aeris?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-99">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió de Coordinació d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Mitjans Aeris s’integra dins la Divisió de Coordinació d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-100" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 100 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(100)">Solució</button>
+        </div>
+        <div class="q-statement">100. Quin conjunt recull totes les direccions generals del Departament d’Interior?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Direcció General de la Policia, Direcció General de Prevenció, Extinció d’Incendis i Salvaments, Direcció General de Protecció Civil, Direcció General d’Administració de Seguretat, Direcció General de Coordinació de les Policies Locals i Direcció General dels Agents Rurals.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Direcció General de la Policia, Direcció General de Prevenció, Extinció d’Incendis i Salvaments, Institut de Seguretat Pública de Catalunya, Direcció General d’Administració de Seguretat, Direcció General de Coordinació de les Policies Locals i Direcció General dels Agents Rurals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Direcció General de la Policia, Direcció General de Prevenció, Extinció d’Incendis i Salvaments, Direcció General de Protecció Civil, Direcció General d’Administració de Seguretat, Servei Català de Trànsit i Direcció General dels Agents Rurals.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Direcció General de la Policia, Direcció General de Prevenció, Extinció d’Incendis i Salvaments, Direcció General de Protecció Civil, Direcció General d’Administració de Seguretat, Direcció General de Coordinació de les Policies Locals i Secretaria General d’Interior.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-100">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Direcció General de la Policia, Direcció General de Prevenció, Extinció d’Incendis i Salvaments, Direcció General de Protecció Civil, Direcció General d’Administració de Seguretat, Direcció General de Coordinació de les Policies Locals i Direcció General dels Agents Rurals.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les sis direccions generals són la DGP, la DGPEIS, la DGPC, la DGAS, la DGCPL i la DGAR; la Secretaria General, el Servei Català de Trànsit i l’ISPC no són direccions generals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-101" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 101 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(101)">Solució</button>
+        </div>
+        <div class="q-statement">101. Quin nivell de SISCOM li correspon al cap territorial</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>2.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>3.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>1.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>4.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-101">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) 3.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-102" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 102 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(102)">Solució</button>
+        </div>
+        <div class="q-statement">102. Quins són els centres de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els parcs, les SCT i la SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les regions i la SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els parcs i les SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les SCT i la SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-102">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Els parcs, les SCT i la SCB.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-103" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 103 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(103)">Solució</button>
+        </div>
+        <div class="q-statement">103. A qui correspon la funció de supervisar l’elaboració dels informes d’actuació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-103">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-104" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 104 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(104)">Solució</button>
+        </div>
+        <div class="q-statement">104. Quina de les segëunts funcions és comuna amb totes les posicions de l&#039;àmbit operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Col·laborar en la investigació dels sinistres.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Elaborar els informes de les actuacions operatives en què hagi intervingut.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Disposar de la informació necessària del dispositiu i incidències rellevants.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Participar i col·laborar als brífings diaris de la SCB.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-104">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Col·laborar en la investigació dels sinistres.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-105" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 105 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(105)">Solució</button>
+        </div>
+        <div class="q-statement">105. De quina divisió depèn l’Àrea de la Sala Central de Coordinació d’Emergències?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-105">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió de Coordinació d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de la Sala Central de Coordinació d’Emergències depèn de la Divisió de Coordinació d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-106" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 106 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(106)">Solució</button>
+        </div>
+        <div class="q-statement">106. De quina divisió depèn la Unitat de Prevenció Operativa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-106">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Divisió d’Operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Prevenció Operativa està integrada dins la Divisió d’Operacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-107" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 107 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(107)">Solució</button>
+        </div>
+        <div class="q-statement">107. De quina subdirecció general depèn el Servei de Persones, Curs i Talent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General de Contractació i Pressupost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-107">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General de Persones i Organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Servei de Persones, Curs i Talent depèn de la Subdirecció General de Persones i Organització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-108" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 108 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(108)">Solució</button>
+        </div>
+        <div class="q-statement">108. A qui correspon la funció d&#039;emplenar els documents de la gestió i organització ordinària de la guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de coordinació SCT.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap de coordinació SCB.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap de torn.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-108">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Cap de torn.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-109" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 109 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(109)">Solució</button>
+        </div>
+        <div class="q-statement">109. De quin àmbit de la guàrdia formen part els GRAF, GRAE i GROS?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Suport.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Coordinació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Planificació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-109">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Suport.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-110" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 110 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(110)">Solució</button>
+        </div>
+        <div class="q-statement">110. Quines són les posicions de l&#039;àmbit operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap operatiu, cap regional, cap de parc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de guàrdia, cap operatiu, cap de parc, cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap operatiu, cap territorial, sotscap territorial, cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap operatiu, cap territorial, cap de torn, cap de sortida.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-110">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cap operatiu, cap territorial, sotscap territorial, cap de sortida.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-111" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 111 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(111)">Solució</button>
+        </div>
+        <div class="q-statement">111. A petició de qui pot variar el nivell de SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap de guàrdia i cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de parc i cap de coordinació territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cap operatiu i cap d&#039;intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap d&#039;intervenció i cap de coordinació territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-111">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Cap d&#039;intervenció i cap de coordinació territorial.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-112" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 112 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(112)">Solució</button>
+        </div>
+        <div class="q-statement">112. A quin àmbit de la guàrdia fa referència: Comandament en el territori, amb mitjans humans i materials adequats?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Planificació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Suport.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Coordinació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-112">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-113" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 113 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(113)">Solució</button>
+        </div>
+        <div class="q-statement">113. Qui és màxim comandament operatiu en l’àmbit territorial</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Director/a general.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Subdirector/a general operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Conseller/a d&#039;interior.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-113">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Cap operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-114" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 114 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(114)">Solució</button>
+        </div>
+        <div class="q-statement">114. De quina àrea depèn la Unitat de Recerques i de Rescat de Muntanya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea del Grup d’Actuació Forestal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea de Gestió dels Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea del Grup d’Actuacions Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea d’Emergències Meteorològiques i Climàtiques.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-114">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De l’Àrea del Grup d’Actuacions Especials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Recerques i de Rescat de Muntanya depèn de l’Àrea del Grup d’Actuacions Especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-115" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 115 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(115)">Solució</button>
+        </div>
+        <div class="q-statement">115. Quins organs del cos de Bombers fan direcció operativa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Àrea central i Àrea regional.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Divisió i Regió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Unitat regional i unitat central.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Grup i Parc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-115">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Unitat regional i unitat central.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-116" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 116 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(116)">Solució</button>
+        </div>
+        <div class="q-statement">116. Quins són els organs centrals del cos de Bombers de la Generalitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Àrea central, Unitat central, Divisió central, Grup central.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Divisió, Grup, Regió, Parc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Divisió, Àrea central, Unitat central, Grup.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Regió, Unitat central, Parc, Grup.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-116">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Divisió, Àrea central, Unitat central, Grup.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-117" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 117 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(117)">Solució</button>
+        </div>
+        <div class="q-statement">117. Qui es el màxim responsable de la guàrdia i garanteix el comandament únic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El Subdirector General Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El cap de coordinació territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El cap de torn.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El cap de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-117">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El Subdirector General Operatiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> El SGO és el màxim responsable de la guàrdia i garanteix el comandament únic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-118" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 118 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(118)">Solució</button>
+        </div>
+        <div class="q-statement">118. Quantes unitats sala territorial de coordinació d&#039;emergències hi ha al cos de Bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una per cada regió amb 3 excepcions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una per cada agrupació amb dues excepcions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una per cada regió amb dues excepcions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una per cada àrea d&#039;operacions amb una excepció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-118">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Una per cada regió amb dues excepcions.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-119" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 119 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(119)">Solució</button>
+        </div>
+        <div class="q-statement">119. El màxim comandament operatiu quines categories el poden dur a terme?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Oficial, sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sotsinspector i inspector.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sergent, oficial i sotsinspector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Inspector.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-119">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Inspector.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-120" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 120 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(120)">Solució</button>
+        </div>
+        <div class="q-statement">120. De quina divisió depèn la Unitat de Suport Operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-120">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De la Divisió de Coordinació d’Emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Suport Operatiu forma part de la Divisió de Coordinació d’Emergències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-121" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 121 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(121)">Solució</button>
+        </div>
+        <div class="q-statement">121. De quina divisió depèn l’Àrea de Logística?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Divisió de Coordinació d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Divisió d’Emergències Climàtiques i Grups Operatius Especials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Divisió de Planificació i Gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Divisió d’Operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-121">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) De la Divisió de Planificació i Gestió.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’Àrea de Logística està integrada dins la Divisió de Planificació i Gestió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-122" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 122 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(122)">Solució</button>
+        </div>
+        <div class="q-statement">122. De quin òrgan depèn directament l’Institut de Seguretat Pública de Catalunya (ISPC)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Del Departament d’Interior.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Direcció General d’Administració de Seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Direcció General de la Policia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Secretaria General del Departament d’Interior.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-122">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Del Departament d’Interior.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’ISPC apareix vinculat directament al Departament d’Interior.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-123" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 123 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(123)">Solució</button>
+        </div>
+        <div class="q-statement">123. De quina àrea depèn la Unitat de Planificació i Gestió de Personal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De l’Àrea de Planificació de Recursos.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De l’Àrea Tècnica d’Emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De l’Àrea de Bombers Voluntaris.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De l’Àrea de Logística.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-123">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De l’Àrea de Planificació de Recursos.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Unitat de Planificació i Gestió de Personal està adscrita a l’Àrea de Planificació de Recursos.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-124" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 124 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(124)">Solució</button>
+        </div>
+        <div class="q-statement">124. Quina modalitat de guàrdia tenen totes les posicions de l&#039;àmbit de coordinació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>DI.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L&#039;àmbit de coordinació no fa guàdies.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>DMLI - DI.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>DMLI.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-124">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) DI.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-125" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 125 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(125)">Solució</button>
+        </div>
+        <div class="q-statement">125. Quins són els àmbits de la guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Coodinació, Planificació i Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Suport, Efectiu i Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Suport, Coordinació i Operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Planificació, Efectiu i Operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-125">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Suport, Coordinació i Operatiu.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-126" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 126 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(126)">Solució</button>
+        </div>
+        <div class="q-statement">126. Quina posició és l&#039;alt comandament operatiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cap operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cap de sortida.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sotscap territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cap territorial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-126">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Cap territorial.</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-127" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 127 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(127)">Solució</button>
+        </div>
+        <div class="q-statement">127. De quina subdirecció general depèn la Divisió de Coordinació d’Emergències?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De la Subdirecció General Tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>De la Subdirecció General d’Assumptes Jurídics i Institucionals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De la Subdirecció General de Persones i Organització.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De la Subdirecció General Operativa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-127">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De la Subdirecció General Operativa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Divisió de Coordinació d’Emergències està adscrita a la Subdirecció General Operativa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-128" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 128 de 128</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(128)">Solució</button>
+        </div>
+        <div class="q-statement">128. A que fa referència la definició: Exercici de funcions de guàrdia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Concepte de relleu de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Concepte de centre de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Concepte de posició de guàrdia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Concepte de guàrdia.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-128">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Concepte de posició de guàrdia.</div>
+          
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <script>
+    let allVisible = false;
+
+    function selectOption(el) {
+      const card = el.closest('.q-card');
+      const correct = card.getAttribute('data-correct');
+      const chosen = el.getAttribute('data-opt');
+      
+      // Clear previous states
+      card.querySelectorAll('.option').forEach(o => o.classList.remove('wrong'));
+      
+      if (chosen === correct) {
+        el.classList.add('correct');
+      } else {
+        el.classList.add('wrong');
+        const correctEl = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctEl) correctEl.classList.add('correct');
+      }
+
+      // Show solution box
+      const box = card.querySelector('.solution-box');
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

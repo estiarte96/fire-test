@@ -1,0 +1,3275 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T05 - Prevenció de riscos laborals - Repàs de Preguntes</title>
+  <style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
+  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
+  .header p { color: var(--text-muted); font-size: 14px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: rgba(255,255,255,0.07); }
+  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  
+  @media print {
+    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
+    .header, .controls, .print-hide { display: none !important; }
+    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
+    .option.correct { color: #047857 !important; font-weight: bold !important; }
+    .option.wrong { color: #b91c1c !important; }
+    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
+    .explanation-text { color: #334155 !important; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>T05 - Prevenció de riscos laborals</h1>
+      <p>Total de preguntes: <b>90</b> • Clica a qualsevol opció per comprovar-la directament</p>
+      <div class="controls print-hide">
+        <a class="btn btn-secondary" href="../index.html">← Menú Principal</a>
+        <a class="btn btn-secondary" href="../anki_csv/T05_-_Prevencio_de_riscos_laborals.csv" download>📦 Descarregar Anki CSV</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">Mostra/Amaga Solucions</button>
+        <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+      </div>
+    </div>
+    <div id="questions-container">
+      
+      <div class="q-card" id="q-1" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 1 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(1)">Solució</button>
+        </div>
+        <div class="q-statement">1. Com contribueixen tècnicament els EPI a controlar el risc?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Disminuint algun dels components factorials del risc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Transformant tots els riscos en incidents sense conseqüències.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Eliminant la necessitat d’avaluar la probabilitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Substituint la planificació i les mesures de protecció col·lectiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-1">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Disminuint algun dels components factorials del risc.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’EPI pot reduir l’exposició o la gravetat del dany, però no elimina l’obligació d’actuar sobre l’origen del risc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-2" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 2 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(2)">Solució</button>
+        </div>
+        <div class="q-statement">2. Quin principi general vincula la Llei 31/1995 amb la reducció dels riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’eliminació o disminució dels riscos derivats del treball.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La compensació econòmica dels danys derivats del treball.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La limitació de la consulta als representants sindicals.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La substitució de la formació per instruccions escrites.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-2">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) L’eliminació o disminució dels riscos derivats del treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prevenció actua abans del dany i prioritza eliminar el risc o reduir-lo fins a nivells controlables.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-3" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 3 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(3)">Solució</button>
+        </div>
+        <div class="q-statement">3. Quins dos instruments són essencials per gestionar el pla de prevenció si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La negociació col·lectiva i el règim disciplinari.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’avaluació de riscos i la planificació de l’activitat preventiva.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La classificació professional i la mobilitat funcional.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La vigilància de la salut i el registre salarial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-3">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) L’avaluació de riscos i la planificació de l’activitat preventiva.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’avaluació identifica i valora els riscos; la planificació concreta responsables, recursos, terminis i mesures per controlar-los.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-4" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 4 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(4)">Solució</button>
+        </div>
+        <div class="q-statement">4. Quina obligació té l’empresari respecte del cost dels EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Descomptar-los de les retribucions si són d’ús personal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Finançar els equips de categoria III i repartir la resta del cost.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Proporcionar-los gratuïtament als treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Compartir-ne el cost amb el treballador segons la categoria.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-4">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Proporcionar-los gratuïtament als treballadors.</div>
+          <div class="explanation-text"><b>Explicació:</b> La protecció laboral no pot comportar una despesa per al treballador que necessita l’equip.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-5" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 5 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(5)">Solució</button>
+        </div>
+        <div class="q-statement">5. Com es pot adaptar la participació preventiva dins les administracions públiques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mitjançant la substitució dels delegats per comandaments jeràrquics.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Mitjançant un únic òrgan central sense representació territorial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mitjançant àmbits sectorials i descentralitzats segons activitats, efectius i centres.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mitjançant consultes reservades al personal funcionari de carrera.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-5">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Mitjançant àmbits sectorials i descentralitzats segons activitats, efectius i centres.</div>
+          <div class="explanation-text"><b>Explicació:</b> La diversitat organitzativa de les administracions permet estructures de participació adaptades a sectors i centres diferents.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-6" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 6 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(6)">Solució</button>
+        </div>
+        <div class="q-statement">6. Què ha de fer el treballador si detecta una situació que comporta un risc?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Informar immediatament el superior i els responsables preventius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comunicar-ho al servei mèdic sense informar els responsables preventius.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Corregir-la pel seu compte encara que no estigui capacitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Esperar que el risc produeixi una incidència verificable.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-6">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Informar immediatament el superior i els responsables preventius.</div>
+          <div class="explanation-text"><b>Explicació:</b> La comunicació immediata permet activar les mesures correctores sense exposar el treballador a intervencions per a les quals no està preparat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-7" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 7 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(7)">Solució</button>
+        </div>
+        <div class="q-statement">7. Quina garantia tenen els treballadors designats davant una extinció de contractes per causes tecnològiques o econòmiques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Conversió obligatòria del contracte en indefinit.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Prioritat de permanència a l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Trasllat preferent a qualsevol centre de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Reserva automàtica del lloc durant cinc anys.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-7">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Prioritat de permanència a l’empresa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prioritat de permanència protegeix l’exercici independent de les funcions preventives davant decisions extintives col·lectives.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-8" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 8 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(8)">Solució</button>
+        </div>
+        <div class="q-statement">8. A partir de quants treballadors s’ha de constituir el comitè de seguretat i salut?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>A partir de sis treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>A partir de trenta treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>A partir de cent treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>A partir de cinquanta treballadors.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-8">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) A partir de cinquanta treballadors.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comitè és l’òrgan paritari de consulta regular en empreses o centres que arriben als cinquanta treballadors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-9" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 9 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(9)">Solució</button>
+        </div>
+        <div class="q-statement">9. Amb quina periodicitat ordinària es reuneix el comitè de seguretat i salut en l&#039;àmbit de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Trimestralment.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Anualment.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mensualment.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Semestralment.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-9">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Trimestralment.</div>
+          <div class="explanation-text"><b>Explicació:</b> A més de les reunions trimestrals, el comitè es pot reunir quan ho sol·licita alguna de les parts.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-10" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 10 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(10)">Solució</button>
+        </div>
+        <div class="q-statement">10. Qui pot actuar com a recurs preventiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un treballador designat o un membre del servei de prevenció propi o aliè.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un treballador eventual escollit per sorteig.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un delegat sindical sense formació preventiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Un representant comercial del fabricant dels equips.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-10">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un treballador designat o un membre del servei de prevenció propi o aliè.</div>
+          <div class="explanation-text"><b>Explicació:</b> La condició de recurs preventiu exigeix vinculació amb l’organització preventiva i capacitat per vigilar les activitats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-11" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 11 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(11)">Solució</button>
+        </div>
+        <div class="q-statement">11. Quina característica organitzativa ha de tenir el servei de prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Ha de limitar-se a elaborar documentació sense intervenir en l’activitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Ha de dependre del servei mèdic de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Ha d’estar format per personal intern de la plantilla.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Ha de ser interdisciplinari, adequat i suficient.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-11">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Ha de ser interdisciplinari, adequat i suficient.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prevenció combina disciplines i recursos diversos segons la mida de l’empresa, els riscos i la seva distribució.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-12" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 12 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(12)">Solució</button>
+        </div>
+        <div class="q-statement">12. Quin risc exigeix un EPI de categoria III?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una atmosfera amb falta d’oxigen.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un contacte superficial amb una superfície tèbia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una lesió ocular causada per llum solar ordinària.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una condició atmosfèrica que no sigui extrema.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-12">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Una atmosfera amb falta d’oxigen.</div>
+          <div class="explanation-text"><b>Explicació:</b> La categoria III protegeix davant riscos que poden causar mort o danys irreversibles, com asfíxia, caigudes o electricitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 13 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(13)">Solució</button>
+        </div>
+        <div class="q-statement">13. A qui ha de comunicar l’inspector de prevenció de riscos laborals la seva visita preventiva al centre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Al servei de prevenció aliè, sense informar altres òrgans.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Als comandaments del centre i al fabricant dels equips.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>A l’empresari, al comitè i als delegats o representants, si la comunicació no perjudica la visita.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>A l’autoritat sanitària i als serveis mèdics del centre.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-13">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) A l’empresari, al comitè i als delegats o representants, si la comunicació no perjudica la visita.</div>
+          <div class="explanation-text"><b>Explicació:</b> La comunicació facilita la participació dels subjectes preventius, excepte quan podria comprometre l’eficàcia de la inspecció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-14" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 14 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(14)">Solució</button>
+        </div>
+        <div class="q-statement">14. Quina funció té el marcatge específic d’un EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Identificar el treballador autoritzat per utilitzar-lo.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Indicar mitjançant pictogrames les proteccions que ofereix.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Substituir la declaració de conformitat CE.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Determinar la periodicitat de la vigilància mèdica.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-14">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Indicar mitjançant pictogrames les proteccions que ofereix.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els pictogrames permeten reconèixer de manera visual els riscos davant els quals l’equip ha estat dissenyat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-15" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 15 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(15)">Solució</button>
+        </div>
+        <div class="q-statement">15. Quan és necessària la presència de recursos preventius?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan la plantilla rep formació fora de la jornada laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan el centre disposa de menys de sis treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan els EPI utilitzats pertanyen a la categoria I.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan els riscos s’agreugen, hi ha processos perillosos o ho requereix la Inspecció de Treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-15">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Quan els riscos s’agreugen, hi ha processos perillosos o ho requereix la Inspecció de Treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> La presència reforçada s’exigeix en situacions que necessiten vigilància directa del compliment de les mesures preventives.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 16 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(16)">Solució</button>
+        </div>
+        <div class="q-statement">16. Quina conseqüència s’ha de considerar en l’avaluació dels riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La mobilitat funcional.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La fatiga física o mental.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La promoció professional.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La classificació salarial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-16">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La fatiga física o mental.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’avaluació inclou accidents, incidents, malalties professionals i efectes com la fatiga o la insatisfacció laboral.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-17" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 17 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(17)">Solució</button>
+        </div>
+        <div class="q-statement">17. Quines condicions han de reunir els treballadors designats per a la prevenció si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mobilitat, disponibilitat horària i autorització administrativa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Antiguitat, càrrec de comandament i dedicació exclusiva.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Capacitat, temps, mitjans i nombre suficients.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Representació sindical, titulació jurídica i lliure designació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-17">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Capacitat, temps, mitjans i nombre suficients.</div>
+          <div class="explanation-text"><b>Explicació:</b> La suficiència dels recursos designats depèn de les dimensions de l’empresa, la distribució de la plantilla i els riscos existents.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-18" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 18 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(18)">Solució</button>
+        </div>
+        <div class="q-statement">18. Quin caràcter tenen les disposicions laborals de la Llei 31/1995?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Dret necessari mínim indisponible, millorable per conveni col·lectiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Dret supletori substituïble íntegrament per conveni col·lectiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Condicions màximes que els convenis no poden millorar.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Recomanacions tècniques sense efectes jurídics obligatoris.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-18">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Dret necessari mínim indisponible, millorable per conveni col·lectiu.</div>
+          <div class="explanation-text"><b>Explicació:</b> La llei fixa un sòl obligatori de protecció; la negociació col·lectiva pot ampliar-lo, però no rebaixar-lo.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-19" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 19 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(19)">Solució</button>
+        </div>
+        <div class="q-statement">19. Quina diferència bàsica hi ha entre consulta i participació preventiva?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La consulta s’aplica als accidents i la participació a les retribucions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La consulta és individual i la participació correspon a la direcció de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La consulta substitueix la informació i la participació elimina la representació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La consulta demana opinió prèvia sobre decisions i la participació integra els treballadors en les qüestions de PRL.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-19">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La consulta demana opinió prèvia sobre decisions i la participació integra els treballadors en les qüestions de PRL.</div>
+          <div class="explanation-text"><b>Explicació:</b> La consulta opera abans d’adoptar determinades decisions, mentre que la participació és un dret més ampli d’intervenció continuada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-20" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 20 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(20)">Solució</button>
+        </div>
+        <div class="q-statement">20. Com s’identifica la informació normalitzada d’un EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mitjançant el llibre de visites de la inspecció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Mitjançant el registre de personal de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mitjançant l’acta de lliurament del lloc de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mitjançant l’etiquetatge de l’equip.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-20">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Mitjançant l’etiquetatge de l’equip.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’etiquetatge permet reconèixer instruccions i dades rellevants sobre ús, emmagatzematge, neteja i manteniment.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-21" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 21 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(21)">Solució</button>
+        </div>
+        <div class="q-statement">21. Quants delegats de prevenció corresponen a una empresa de 101 a 500 treballadors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Dos delegats.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quatre delegats.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Tres delegats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cinc delegats.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-21">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Tres delegats.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’escala de representació assigna tres delegats de prevenció als centres o empreses d’entre 101 i 500 treballadors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-22" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 22 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(22)">Solució</button>
+        </div>
+        <div class="q-statement">22. Quina norma regula a Espanya l’elecció, la utilització i el manteniment dels EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El Reial decret 773/1997, de 30 de maig.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El Reglament (UE) 2016/425, de 9 de març.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El Reial decret 1215/1997, de 18 de juliol.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La Llei 31/1995, en el seu article 35.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-22">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El Reial decret 773/1997, de 30 de maig.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Reial decret 773/1997 estableix les disposicions mínimes aplicables a l’ús d’EPI pels treballadors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-23" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 23 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(23)">Solució</button>
+        </div>
+        <div class="q-statement">23. Com es compon el comitè de seguretat i salut en l&#039;àmbit dels ricos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Amb el mateix nombre de delegats de prevenció i representants de l’empresari.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Amb una majoria de representants de l’empresari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Amb tots els treballadors i els responsables de prevenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Amb tècnics externs i inspectors a parts iguals.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-23">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Amb el mateix nombre de delegats de prevenció i representants de l’empresari.</div>
+          <div class="explanation-text"><b>Explicació:</b> La composició paritària equilibra la representació empresarial i la dels treballadors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-24" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 24 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(24)">Solució</button>
+        </div>
+        <div class="q-statement">24. Quin document ha d’emplenar el fabricant d’un EPI de categoria I?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La declaració de conformitat CE.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’informe anual del servei de prevenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El certificat d’examen UE de tipus emès per la Inspecció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’autorització d’ús del comitè de seguretat i salut.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-24">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) La declaració de conformitat CE.</div>
+          <div class="explanation-text"><b>Explicació:</b> En els EPI de disseny senzill, el fabricant declara que el producte compleix els requisits essencials aplicables.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-25" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 25 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(25)">Solució</button>
+        </div>
+        <div class="q-statement">25. Què són els delegats de prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Representants dels treballadors amb funcions específiques en prevenció de riscos laborals.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Inspectors encarregats de controlar els serveis de prevenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Tècnics de l’empresa amb competències sancionadores.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Membres del servei mèdic elegits per l’empresari.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-25">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Representants dels treballadors amb funcions específiques en prevenció de riscos laborals.</div>
+          <div class="explanation-text"><b>Explicació:</b> La seva funció representativa se centra en la consulta, vigilància i proposta en matèria preventiva.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-26" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 26 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(26)">Solució</button>
+        </div>
+        <div class="q-statement">26. Quins riscos inclou la categoria II d’EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els que no estan inclosos en les categories I ni III.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Els riscos derivats de temperatures extremes, al marge d’altres factors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els riscos amb conseqüències mortals o irreversibles.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els riscos mínims que l’usuari pot identificar fàcilment.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-26">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Els que no estan inclosos en les categories I ni III.</div>
+          <div class="explanation-text"><b>Explicació:</b> La categoria II actua com a grup intermedi entre els riscos mínims i els riscos de conseqüències molt greus.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-27" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 27 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(27)">Solució</button>
+        </div>
+        <div class="q-statement">27. Qui defensa els interessos dels treballadors en matèria de prevenció dins els òrgans de representació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els serveis mèdics, tècnics de manteniment i comandaments operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Els comitès d’empresa, delegats de personal i representants sindicals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els fabricants d’EPI, auditors i organismes notificats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els inspectors, empresaris i responsables de contractació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-27">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Els comitès d’empresa, delegats de personal i representants sindicals.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els òrgans representatius generals també intervenen en la defensa dels interessos preventius de la plantilla.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-28" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 28 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(28)">Solució</button>
+        </div>
+        <div class="q-statement">28. Quina dada acompanya el marcatge CE d’un EPI de categoria III?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El número d’identificació de l’organisme notificat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El número de treballadors de l’empresa usuària.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El codi del comitè de seguretat i salut.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El nivell retributiu del lloc protegit.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-28">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El número d’identificació de l’organisme notificat.</div>
+          <div class="explanation-text"><b>Explicació:</b> La categoria III requereix control notificat de la producció, i el seu número identifica l’organisme que hi intervé.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-29" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 29 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(29)">Solució</button>
+        </div>
+        <div class="q-statement">29. Quin àmbit queda fora de l’aplicació directa de la Llei 31/1995 però s’ha d’inspirar en els seus principis?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els serveis operatius de protecció civil en situacions de greu risc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les relacions laborals regulades pel TREBEP.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El personal funcionari de les administracions públiques.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les cooperatives amb socis que presten treball personal.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-29">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Els serveis operatius de protecció civil en situacions de greu risc.</div>
+          <div class="explanation-text"><b>Explicació:</b> En determinades activitats operatives d’emergència la llei no s’aplica directament, però els seus principis han d’orientar la protecció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-30" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 30 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(30)">Solució</button>
+        </div>
+        <div class="q-statement">30. Quin termini tenen els delegats de prevenció per emetre els informes sol·licitats, si no hi ha un risc imminent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quinze dies.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cinc dies.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Tres mesos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Un mes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-30">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Quinze dies.</div>
+          <div class="explanation-text"><b>Explicació:</b> El termini ordinari és de quinze dies; davant riscos imminents s’ha d’actuar en el temps imprescindible.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-31" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 31 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(31)">Solució</button>
+        </div>
+        <div class="q-statement">31. Quins articles desenvolupen l’objecte, l’àmbit d’aplicació i les definicions de la Llei 31/1995?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els articles 33, 34 i 35.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Els articles 14, 15 i 16.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els articles 2, 3 i 4.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els articles 30, 31 i 32.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-31">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Els articles 2, 3 i 4.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els articles 2, 3 i 4 regulen successivament l’objecte, l’àmbit d’aplicació i les definicions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-32" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 32 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(32)">Solució</button>
+        </div>
+        <div class="q-statement">32. Què defineix un equip de protecció individual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un equip portat o subjectat pel treballador per protegir-lo d’un o diversos riscos.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un equip de treball destinat a produir o transformar materials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un dispositiu col·lectiu instal·lat de manera permanent al centre.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Un sistema de senyalització que informa de l’existència d’un risc.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-32">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un equip portat o subjectat pel treballador per protegir-lo d’un o diversos riscos.</div>
+          <div class="explanation-text"><b>Explicació:</b> La definició també inclou complements o accessoris destinats a la mateixa finalitat protectora.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-33" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 33 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(33)">Solució</button>
+        </div>
+        <div class="q-statement">33. Qui ha de garantir que l’empresa disposi d’una modalitat preventiva adequada si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La Inspecció de Treball, com a autoritat de control.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El comitè de seguretat i salut, com a òrgan consultiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>L’empresari, com a responsable de l’organització preventiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els delegats de prevenció, com a representants laborals.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-33">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) L’empresari, com a responsable de l’organització preventiva.</div>
+          <div class="explanation-text"><b>Explicació:</b> La responsabilitat d’organitzar els recursos preventius correspon a l’empresari, encara que les funcions es deleguin o concertin.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-34" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 34 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(34)">Solució</button>
+        </div>
+        <div class="q-statement">34. Quina obligació té el fabricant a més d’etiquetar l’EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Determinar la jornada dels treballadors exposats.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Designar els delegats de prevenció del centre.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mantenir un control de la producció adequat a la categoria.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Aprovar el pla de prevenció de l’empresa usuària.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-34">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Mantenir un control de la producció adequat a la categoria.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els procediments de control i conformitat augmenten amb el nivell de risc de la categoria I, II o III.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-35" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 35 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(35)">Solució</button>
+        </div>
+        <div class="q-statement">35. Quina designació s’ha de consultar als treballadors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La dels membres de l’òrgan de contractació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La dels treballadors encarregats de les mesures d’emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La dels responsables de la política salarial.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La dels representants de l’empresa davant els clients.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-35">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La dels treballadors encarregats de les mesures d’emergència.</div>
+          <div class="explanation-text"><b>Explicació:</b> La consulta inclou les persones que assumiran funcions preventives o d’emergència perquè aquestes decisions afecten directament la protecció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-36" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 36 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(36)">Solució</button>
+        </div>
+        <div class="q-statement">36. Què és un servei de prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El conjunt de mitjans humans i materials necessaris per desenvolupar les activitats preventives.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’òrgan paritari que consulta periòdicament les decisions empresarials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El grup de treballadors que representa la plantilla en la negociació col·lectiva.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La unitat administrativa que imposa sancions per incompliments preventius.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-36">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El conjunt de mitjans humans i materials necessaris per desenvolupar les activitats preventives.</div>
+          <div class="explanation-text"><b>Explicació:</b> El servei de prevenció aporta assessorament i assistència tècnica per garantir una protecció adequada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-37" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 37 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(37)">Solució</button>
+        </div>
+        <div class="q-statement">37. Quin risc correspon a un EPI de categoria I?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Caigudes d’altura.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Descàrregues elèctriques en treballs en tensió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Lesions mecàniques superficials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Atmosferes amb falta d’oxigen.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-37">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Lesions mecàniques superficials.</div>
+          <div class="explanation-text"><b>Explicació:</b> La categoria I cobreix riscos mínims, com lesions superficials, determinats contactes lleus o condicions atmosfèriques no extremes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-38" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 38 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(38)">Solució</button>
+        </div>
+        <div class="q-statement">38. Quin requisit ergonòmic ha de complir un EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Ha de mantenir la mateixa configuració per a tots els usuaris.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Ha de limitar els moviments per assegurar-ne la fixació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>S’ha de poder adequar al treballador amb els ajustos necessaris.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Ha de tenir una talla única per facilitar-ne la distribució.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-38">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) S’ha de poder adequar al treballador amb els ajustos necessaris.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’ajust correcte permet protegir sense crear molèsties innecessàries ni reduir l’eficàcia de l’equip.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-39" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 39 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(39)">Solució</button>
+        </div>
+        <div class="q-statement">39. Quina parella correspon a proteccions representades amb marcatge específic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mobilitat funcional i classificació professional.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Negociació col·lectiva i participació institucional.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Formació preventiva i vigilància de la salut.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Riscos bacteriològics i radiacions ionitzants.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-39">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Riscos bacteriològics i radiacions ionitzants.</div>
+          <div class="explanation-text"><b>Explicació:</b> El marcatge específic inclou pictogrames de riscos físics, químics i biològics, entre altres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-40" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 40 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(40)">Solució</button>
+        </div>
+        <div class="q-statement">40. Quan s’ha de sotmetre el sistema preventiu a una auditoria externa si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan l’empresa no concerta la prevenció amb una entitat especialitzada i utilitza recursos propis.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan l’empresa disposa d’un servei de prevenció aliè per a totes les especialitats.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan el comitè de seguretat i salut es reuneix amb caràcter extraordinari.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan els treballadors designats pertanyen a més d’un centre de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-40">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Quan l’empresa no concerta la prevenció amb una entitat especialitzada i utilitza recursos propis.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’auditoria verifica l’eficàcia del sistema assumit amb recursos propis quan no està cobert per una entitat especialitzada aliena.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-41" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 41 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(41)">Solució</button>
+        </div>
+        <div class="q-statement">41. On es poden consultar els aspectes tècnics complementaris dels diferents EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>A l’acta de constitució del comitè de seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>A la informació complementària vinculada al codi QR.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Al llibre de visites de la Inspecció de Treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>A la declaració salarial del lloc de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-41">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) A la informació complementària vinculada al codi QR.</div>
+          <div class="explanation-text"><b>Explicació:</b> El document remet a una carpeta d’informació complementària amb fitxes i criteris per a cada tipus de protecció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-42" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 42 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(42)">Solució</button>
+        </div>
+        <div class="q-statement">42. Mitjançant quin instrument comunica la Inspecció les observacions de la visita de l&#039;inspector de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mitjançant la declaració CE dels equips.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Mitjançant el llibre de visites del centre.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mitjançant el registre salarial de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mitjançant l’acta del comitè d’empresa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-42">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Mitjançant el llibre de visites del centre.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Inspecció deixa constància de les seves actuacions i les trasllada a l’empresa i als delegats de prevenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-43" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 43 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(43)">Solució</button>
+        </div>
+        <div class="q-statement">43. Quins tres drets col·lectius agrupa aquest bloc preventiu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Informació, consulta i participació dels treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Formació, promoció i negociació col·lectiva.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Vigilància, inspecció i règim disciplinari.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Emergència, evacuació i primers auxilis.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-43">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Informació, consulta i participació dels treballadors.</div>
+          <div class="explanation-text"><b>Explicació:</b> La implicació dels treballadors requereix conèixer els riscos, ser consultats abans de les decisions i participar en el sistema preventiu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-44" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 44 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(44)">Solució</button>
+        </div>
+        <div class="q-statement">44. Quins dos sistemes de marcatge pot portar un EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El marcatge laboral i el marcatge salarial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El marcatge preventiu i el marcatge disciplinari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El marcatge intern i el marcatge sindical.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El marcatge CE i el marcatge específic mitjançant pictogrames.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-44">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El marcatge CE i el marcatge específic mitjançant pictogrames.</div>
+          <div class="explanation-text"><b>Explicació:</b> El CE acredita la conformitat reglamentària i els pictogrames indiquen els riscos o proteccions específiques de l’equip.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-45" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 45 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(45)">Solució</button>
+        </div>
+        <div class="q-statement">45. Quines opcions pot adoptar l’empresari per organitzar la prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Designar treballadors, constituir un servei propi o concertar un servei aliè.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Nomenar delegats sindicals, fer una auditoria o contractar personal sanitari.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Crear un comitè disciplinari, contractar una mútua o delegar en la plantilla.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Substituir l’avaluació, externalitzar la formació o ampliar la jornada.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-45">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Designar treballadors, constituir un servei propi o concertar un servei aliè.</div>
+          <div class="explanation-text"><b>Explicació:</b> La Llei preveu diferents modalitats organitzatives segons la dimensió, els riscos i els recursos de l’empresa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-46" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 46 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(46)">Solució</button>
+        </div>
+        <div class="q-statement">46. Quina condició general han de complir els EPI utilitzats al lloc de treball?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Han de ser fabricats per la mateixa empresa que els utilitza.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Han d’estar certificats i respondre a les condicions del lloc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Han de tenir una vida útil indefinida sense manteniment.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Han de substituir qualsevol mesura de protecció col·lectiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-46">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Han d’estar certificats i respondre a les condicions del lloc.</div>
+          <div class="explanation-text"><b>Explicació:</b> La certificació acredita la conformitat, però l’elecció també ha d’ajustar-se als riscos i a les condicions reals del treball.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-47" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 47 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(47)">Solució</button>
+        </div>
+        <div class="q-statement">47. Quina responsabilitat preventiva bàsica té cada treballador?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Aprovar els procediments de vigilància de la salut.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Vetllar per la seva seguretat i per la de les persones que pugui afectar.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Seleccionar el servei de prevenció aliè de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Definir el pressupost anual de l’activitat preventiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-47">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Vetllar per la seva seguretat i per la de les persones que pugui afectar.</div>
+          <div class="explanation-text"><b>Explicació:</b> La conducta individual ha de protegir tant el mateix treballador com terceres persones afectades per la seva activitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-48" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 48 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(48)">Solució</button>
+        </div>
+        <div class="q-statement">48. A partir de quants treballadors es canalitza la participació preventiva mitjançant representants?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>A partir de trenta treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>A partir de deu treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>A partir de cinquanta treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>A partir de sis treballadors.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-48">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) A partir de sis treballadors.</div>
+          <div class="explanation-text"><b>Explicació:</b> En empreses o centres amb sis treballadors o més, la participació es vehicula a través dels representants corresponents.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-49" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 49 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(49)">Solució</button>
+        </div>
+        <div class="q-statement">49. Quan pot l’empresari assumir personalment les funcions preventives en l&#039;àmbit de la prevenció de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Fins a 10 treballadors, o fins a 25 si hi ha un únic centre, amb presència habitual i capacitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Fins a 100 treballadors quan l’activitat no inclogui treball nocturn.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En qualsevol empresa si delega la vigilància de la salut als treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Fins a 50 treballadors amb comitè de seguretat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-49">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Fins a 10 treballadors, o fins a 25 si hi ha un únic centre, amb presència habitual i capacitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’assumpció personal està limitada a empreses petites i exigeix que l’empresari treballi habitualment al centre i tingui la formació necessària.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-50" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 50 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(50)">Solució</button>
+        </div>
+        <div class="q-statement">50. Quin dret té un treballador davant un risc greu i imminent per a la seva vida o salut?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Substituir les mesures preventives per una compensació econòmica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Esperar l’autorització escrita de l’autoritat laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Interrompre l’activitat i abandonar el lloc de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Continuar la tasca fins que es reuneixi el comitè de seguretat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-50">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Interrompre l’activitat i abandonar el lloc de treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> La protecció immediata permet aturar l’activitat sense esperar tràmits quan la continuïtat pot materialitzar un dany greu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-51" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 51 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(51)">Solució</button>
+        </div>
+        <div class="q-statement">51. Quina protecció té prioritat en l’acció preventiva pel que fa als riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La vigilància sanitària respecte de l’eliminació del risc.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La compensació retributiva respecte de la protecció tècnica.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La protecció individual respecte de l’organitzativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La protecció col·lectiva respecte de la individual.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-51">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La protecció col·lectiva respecte de la individual.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les mesures col·lectives protegeixen simultàniament diverses persones i s’han d’aplicar abans de recórrer als EPI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-52" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 52 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(52)">Solució</button>
+        </div>
+        <div class="q-statement">52. Com es classifiquen els EPI segons la superfície corporal protegida?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En protecció ordinària o extraordinària.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En protecció pròpia o aliena.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En protecció preventiva o correctora.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En protecció parcial o integral.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-52">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) En protecció parcial o integral.</div>
+          <div class="explanation-text"><b>Explicació:</b> La protecció parcial cobreix zones concretes del cos, mentre que la integral protegeix el conjunt corporal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-53" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 53 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(53)">Solució</button>
+        </div>
+        <div class="q-statement">53. Durant quant de temps ha de romandre el recurs preventiu al centre de treball?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Fins que es presenti la documentació davant l’autoritat laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Fins a la finalització de la jornada del representant dels treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mentre es mantingui la situació que n’ha determinat la presència.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Durant un mínim fix de dues hores en cada intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-53">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Mentre es mantingui la situació que n’ha determinat la presència.</div>
+          <div class="explanation-text"><b>Explicació:</b> La durada depèn de la persistència del risc o de l’activitat que justifica la vigilància preventiva.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-54" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 54 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(54)">Solució</button>
+        </div>
+        <div class="q-statement">54. Quin element no es considera EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La roba de treball corrent sense funció protectora específica.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Uns guants contra agents químics.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un filtre intercanviable d’una màscara.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Un arnès de protecció contra caigudes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-54">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) La roba de treball corrent sense funció protectora específica.</div>
+          <div class="explanation-text"><b>Explicació:</b> La roba ordinària queda fora de la definició quan no està concebuda per protegir la salut o la integritat física.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-55" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 55 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(55)">Solució</button>
+        </div>
+        <div class="q-statement">55. Quina finalitat principal té la Llei 31/1995?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Promoure la seguretat i la salut dels treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Regular la classificació professional dels treballadors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Ordenar la representació sindical de les empreses.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Establir el règim retributiu del personal laboral.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-55">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Promoure la seguretat i la salut dels treballadors.</div>
+          <div class="explanation-text"><b>Explicació:</b> La llei busca protegir la seguretat i la salut mitjançant mesures i activitats preventives davant els riscos laborals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-56" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 56 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(56)">Solució</button>
+        </div>
+        <div class="q-statement">56. Quin capítol de la Llei 31/1995 regula els drets i les obligacions preventives?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El capítol IV.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El capítol II.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El capítol I.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El capítol III.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-56">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El capítol III.</div>
+          <div class="explanation-text"><b>Explicació:</b> El capítol III desenvolupa el dret de protecció i les obligacions empresarials i dels treballadors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-57" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 57 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(57)">Solució</button>
+        </div>
+        <div class="q-statement">57. Quins factors determinen la gravetat d’un risc laboral?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La durada del contracte i l’antiguitat del treballador.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La probabilitat que es produeixi el dany i la seva severitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La freqüència de la formació i el nombre de representants.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La categoria professional i el cost de l’equip de protecció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-57">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La probabilitat que es produeixi el dany i la seva severitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> La valoració del risc combina la possibilitat que el dany es materialitzi amb la magnitud de les seves conseqüències.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-58" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 58 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(58)">Solució</button>
+        </div>
+        <div class="q-statement">58. Quan poden els treballadors recórrer a la Inspecció de Treball i Seguretat Social?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan volen substituir el comitè de seguretat i salut.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan consideren insuficients les mesures preventives de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan discrepen de la classificació professional del lloc.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan necessiten autoritzar la compra d’un EPI.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-58">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Quan consideren insuficients les mesures preventives de l’empresa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La intervenció inspectora pot sol·licitar-se davant una protecció que els treballadors o representants consideren inadequada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-59" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 59 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(59)">Solució</button>
+        </div>
+        <div class="q-statement">59. Què ha de fer l’empresari davant un risc que no es pot evitar si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Transferir el risc al treballador afectat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Compensar econòmicament l’exposició al risc.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Ajornar-ne l’anàlisi fins que es produeixi un dany.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Avaluar el risc abans de decidir les mesures.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-59">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Avaluar el risc abans de decidir les mesures.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’acció preventiva prioritza evitar els riscos i, quan això no és possible, avaluar-los per decidir les mesures adequades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-60" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 60 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(60)">Solució</button>
+        </div>
+        <div class="q-statement">60. Qui pot utilitzar un equip de treball que presenta un risc específic en la prevenció de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els treballadors encarregats de la seva utilització.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El personal extern que accedeixi ocasionalment al centre.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Qualsevol treballador que hagi rebut informació general.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els representants dels treballadors durant les inspeccions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-60">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Els treballadors encarregats de la seva utilització.</div>
+          <div class="explanation-text"><b>Explicació:</b> Quan l’equip comporta un risc específic, el seu ús s’ha de reservar a les persones encarregades i capacitades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-61" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 61 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(61)">Solució</button>
+        </div>
+        <div class="q-statement">61. Quina norma europea regula el disseny i la fabricació dels EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El Reglament (UE) 2016/425.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La norma UNE-EN 943-1.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La Directiva 89/391/CEE.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El Reial decret 1076/2021.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-61">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El Reglament (UE) 2016/425.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Reglament 2016/425 fixa els requisits de comercialització, disseny, fabricació i avaluació de conformitat dels EPI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-62" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 62 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(62)">Solució</button>
+        </div>
+        <div class="q-statement">62. Quina informació ha d’incloure la fitxa tècnica d’un EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els resultats de l’avaluació global de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Instruccions d’ús, neteja, manteniment, revisió i desinfecció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La composició del comitè de seguretat i salut.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La categoria professional i el salari dels usuaris.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-62">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Instruccions d’ús, neteja, manteniment, revisió i desinfecció.</div>
+          <div class="explanation-text"><b>Explicació:</b> La fitxa tècnica permet conservar les prestacions protectores i utilitzar l’equip d’acord amb les indicacions del fabricant.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-63" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 63 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(63)">Solució</button>
+        </div>
+        <div class="q-statement">63. Què ha de fer el treballador si detecta un defecte que redueix l’eficàcia de l’EPI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Continuar utilitzant-lo fins a la revisió anual.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Guardar-lo sense comunicar la incidència.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Modificar-lo per restablir-ne personalment la protecció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Informar-ne el superior jeràrquic.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-63">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Informar-ne el superior jeràrquic.</div>
+          <div class="explanation-text"><b>Explicació:</b> La comunicació immediata permet retirar, reparar o substituir l’equip abans que deixi el treballador sense protecció efectiva.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-64" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 64 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(64)">Solució</button>
+        </div>
+        <div class="q-statement">64. En quin capítol de la Llei 31/1995 s’agrupen l’objecte, l’àmbit d’aplicació i les definicions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En el capítol III.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En el capítol II.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En el capítol IV.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En el capítol I.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-64">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) En el capítol I.</div>
+          <div class="explanation-text"><b>Explicació:</b> El capítol I reuneix les disposicions generals que permeten interpretar i aplicar la resta de la llei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-65" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 65 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(65)">Solució</button>
+        </div>
+        <div class="q-statement">65. Quan ha de recórrer l’empresari a un servei de prevenció propi o aliè?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan la designació de treballadors és insuficient per la dimensió o els riscos de l’empresa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan els delegats de prevenció no aproven el pla anual.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan l’empresa té menys de sis treballadors sense representants.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan la formació preventiva es fa dins la jornada laboral.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-65">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Quan la designació de treballadors és insuficient per la dimensió o els riscos de l’empresa.</div>
+          <div class="explanation-text"><b>Explicació:</b> La insuficiència dels recursos designats obliga a reforçar l’organització amb un servei dotat de mitjans especialitzats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-66" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 66 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(66)">Solució</button>
+        </div>
+        <div class="q-statement">66. Quants nivells de protecció tenen els guants de protecció mecànica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Vuit nivells.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Tres nivells.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cinc nivells.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Sis nivells.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-66">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cinc nivells.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els guants mecànics s’ordenen de l’1 al 5, de menor a major nivell de protecció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-67" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 67 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(67)">Solució</button>
+        </div>
+        <div class="q-statement">67. Quina finalitat té informar els treballadors sobre prevenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Traslladar-los la responsabilitat d’aprovar el pla preventiu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Permetre que coneguin els riscos i les mesures aplicables.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Substituir la formació pràctica per comunicacions escrites.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Limitar la intervenció dels representants a les emergències.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-67">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Permetre que coneguin els riscos i les mesures aplicables.</div>
+          <div class="explanation-text"><b>Explicació:</b> La informació és necessària perquè cada persona comprengui els riscos generals i específics del seu lloc i actuï correctament.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-68" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 68 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(68)">Solució</button>
+        </div>
+        <div class="q-statement">68. Quina protecció ha d’oferir un EPI correctament seleccionat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Protecció orientativa dependent de l’experiència de l’usuari.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Protecció eficaç sense generar riscos addicionals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Protecció suficient encara que impedeixi desenvolupar la tasca.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Protecció parcial encara que no cobreixi el risc identificat.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-68">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Protecció eficaç sense generar riscos addicionals.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’EPI ha de controlar el risc que motiva el seu ús sense introduir nous perills ni interferències desproporcionades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-69" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 69 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(69)">Solució</button>
+        </div>
+        <div class="q-statement">69. Quins continguts integra el primer bloc de la Llei 31/1995?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Els equips de treball, els EPI i la coordinació empresarial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’objecte, l’àmbit d’aplicació i les definicions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La vigilància de la salut, la formació i les emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els serveis de prevenció, les sancions i les auditories.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-69">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) L’objecte, l’àmbit d’aplicació i les definicions.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquest bloc inicial delimita la finalitat de la norma, a qui s’aplica i el significat dels conceptes preventius bàsics.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-70" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 70 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(70)">Solució</button>
+        </div>
+        <div class="q-statement">70. Quin canvi va introduir el Reial decret llei 16/2022 respecte del treball a la llar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Va limitar la normativa preventiva als accidents amb baixa.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Va incorporar una protecció eficaç en seguretat i salut, especialment davant la violència masclista.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Va limitar la prevenció a les persones contractades per empreses de serveis.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Va excloure definitivament el treball domèstic de tota normativa preventiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-70">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Va incorporar una protecció eficaç en seguretat i salut, especialment davant la violència masclista.</div>
+          <div class="explanation-text"><b>Explicació:</b> La reforma va suprimir l’exclusió general del treball a la llar i va afegir una protecció preventiva específica.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-71" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 71 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(71)">Solució</button>
+        </div>
+        <div class="q-statement">71. Quan ha de rebre formació preventiva un treballador si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan ho sol·liciti la representació sindical en una negociació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En contractar-lo i quan canviïn les funcions, les tecnologies o els equips.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Després del primer accident amb baixa al centre de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En acabar la relació laboral per acreditar l’experiència adquirida.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-71">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) En contractar-lo i quan canviïn les funcions, les tecnologies o els equips.</div>
+          <div class="explanation-text"><b>Explicació:</b> La formació s’ha d’actualitzar quan apareixen canvis que poden modificar els riscos o la manera segura de treballar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-72" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 72 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(72)">Solució</button>
+        </div>
+        <div class="q-statement">72. Qui ha de fer la reparació o el manteniment d’un equip de treball amb risc específic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Usuaris habituals de l’equip sense formació addicional.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Treballadors designats com a delegats de prevenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Treballadors específicament capacitats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Representants sindicals del centre de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-72">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Treballadors específicament capacitats.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les intervencions tècniques sobre equips amb risc requereixen una capacitació específica per evitar nous perills.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-73" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 73 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(73)">Solució</button>
+        </div>
+        <div class="q-statement">73. Quan s’ha de recórrer a la protecció individual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan encara no s’ha fet l’avaluació del lloc de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan el risc no s’ha pogut evitar ni limitar prou amb protecció col·lectiva o organització.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan l’empresa vol reduir el temps dedicat al manteniment.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan l’EPI és més fàcil d’adquirir que una mesura col·lectiva.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-73">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Quan el risc no s’ha pogut evitar ni limitar prou amb protecció col·lectiva o organització.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’EPI s’utilitza després de prioritzar mesures que actuen sobre l’origen del risc i protegeixen el conjunt de la plantilla.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-74" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 74 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(74)">Solució</button>
+        </div>
+        <div class="q-statement">74. Com s’han de fer les consultes preventives en una empresa amb representants dels treballadors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mitjançant una votació de tota la plantilla.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Directament amb l’autoritat laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mitjançant aquests representants.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Amb el servei de prevenció aliè, sense intervenció dels representants.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-74">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Mitjançant aquests representants.</div>
+          <div class="explanation-text"><b>Explicació:</b> La representació canalitza formalment la consulta, sense excloure la informació que ha d’arribar als treballadors afectats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-75" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 75 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(75)">Solució</button>
+        </div>
+        <div class="q-statement">75. Quines actuacions bàsiques han d’incloure les mesures d’emergència en la prevenció de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Primers auxilis, lluita contra incendis i evacuació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Negociació col·lectiva, informació salarial i consulta.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Vigilància mèdica, selecció de personal i inspecció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Manteniment preventiu, auditoria i coordinació empresarial.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-75">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Primers auxilis, lluita contra incendis i evacuació.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’empresari ha de preveure una resposta ràpida i eficaç davant lesions, incendis i necessitat d’evacuació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-76" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 76 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(76)">Solució</button>
+        </div>
+        <div class="q-statement">76. Quin deure empresarial deriva del dret dels treballadors a una protecció eficaç?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Delegar-los íntegrament l’organització preventiva.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Protegir-los davant els riscos laborals.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Substituir l’avaluació per reconeixements mèdics.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Compensar-los automàticament per qualsevol exposició.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-76">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Protegir-los davant els riscos laborals.</div>
+          <div class="explanation-text"><b>Explicació:</b> El dret de protecció genera una obligació activa de l’empresari i de les administracions públiques com a ocupadores.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-77" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 77 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(77)">Solució</button>
+        </div>
+        <div class="q-statement">77. Quan s’han d’utilitzar equips de protecció individual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan el treballador prefereix substituir les mesures tècniques per un EPI.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan encara no s’ha identificat el risc ni s’han definit les condicions d’ús.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan la protecció col·lectiva és suficient però resulta més costosa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan el risc no es pot evitar ni limitar prou amb protecció col·lectiva o mesures organitzatives.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-77">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Quan el risc no es pot evitar ni limitar prou amb protecció col·lectiva o mesures organitzatives.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’EPI és una mesura complementària o subsidiària i no substitueix les solucions col·lectives que controlen adequadament el risc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-78" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 78 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(78)">Solució</button>
+        </div>
+        <div class="q-statement">78. Quin risc identifica el pictograma específic del floc de neu?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La protecció davant la contaminació radioactiva.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La protecció davant el mal temps.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La protecció davant peces mòbils.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La protecció davant el fred.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-78">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) La protecció davant el fred.</div>
+          <div class="explanation-text"><b>Explicació:</b> El símbol del floc de neu està associat a la protecció contra baixes temperatures.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-79" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 79 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(79)">Solució</button>
+        </div>
+        <div class="q-statement">79. Què és la prevenció de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La vigilància mèdica aplicada després d’un accident laboral.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La reparació econòmica dels danys produïts durant la jornada.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El conjunt d’activitats o mesures destinades a evitar o disminuir els riscos del treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La relació d’equips obligatoris prevista per a cada professió.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-79">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) El conjunt d’activitats o mesures destinades a evitar o disminuir els riscos del treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prevenció comprèn actuacions previstes o adoptades en totes les fases de l’activitat empresarial abans que es produeixi el dany.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-80" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 80 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(80)">Solució</button>
+        </div>
+        <div class="q-statement">80. Sobre quina decisió tecnològica s’ha de consultar prèviament els treballadors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La modificació de la imatge corporativa del centre.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La introducció de noves tecnologies amb efectes sobre la seguretat i la salut.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La compra de material d’oficina sense relació amb els riscos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La renovació dels contractes comercials de l’empresa.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-80">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La introducció de noves tecnologies amb efectes sobre la seguretat i la salut.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els canvis tecnològics poden alterar riscos, mètodes i càrregues de treball, i exigeixen consulta amb prou antelació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-81" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 81 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(81)">Solució</button>
+        </div>
+        <div class="q-statement">81. Quin procediment han de superar els EPI de categories II i III abans del marcatge CE?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un examen UE de tipus amb intervenció d’un organisme notificat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una consulta vinculant als delegats de prevenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una auditoria laboral del centre on s’utilitzaran.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una inspecció sanitària individual de cada usuari.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-81">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un examen UE de tipus amb intervenció d’un organisme notificat.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’organisme notificat verifica el tipus d’EPI i emet el certificat corresponent abans de la comercialització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-82" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 82 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(82)">Solució</button>
+        </div>
+        <div class="q-statement">82. Quin organisme ofereix informació tècnica per tipus de protecció individual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La Inspecció Provincial d’Equips Industrials.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’Institut Nacional de Seguretat i Salut en el Treball.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>L’Organisme Notificat del fabricant.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El Comitè de Seguretat i Salut Europeu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-82">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) L’Institut Nacional de Seguretat i Salut en el Treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’INSST agrupa informació específica per famílies d’EPI i facilita criteris tècnics per a la seva selecció i ús.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-83" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 83 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(83)">Solució</button>
+        </div>
+        <div class="q-statement">83. Quin comportament previsible del treballador ha de considerar l’empresari en planificar la prevenció si parlem de riscos laborals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Les desobediències deliberades constitutives de falta disciplinària.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les distraccions i imprudències no temeràries.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Les actuacions doloses dirigides a provocar un accident.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les decisions personals alienes a qualsevol activitat laboral.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-83">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Les distraccions i imprudències no temeràries.</div>
+          <div class="explanation-text"><b>Explicació:</b> La prevenció s’ha de dissenyar tenint en compte errors humans previsibles, sense assimilar-los a conductes temeràries o intencionades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-84" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 84 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(84)">Solució</button>
+        </div>
+        <div class="q-statement">84. Quina classificació utilitzen els cascos de bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Tres tipus identificats com F1, F2 i F3.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sis tipus identificats de l’1 al 6.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cinc nivells identificats de l’1 al 5.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Tres categories identificades com A, B i C.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-84">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Tres tipus identificats com F1, F2 i F3.</div>
+          <div class="explanation-text"><b>Explicació:</b> La nomenclatura F1, F2 i F3 diferencia els tres tipus de casc previstos per a bombers.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-85" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 85 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(85)">Solució</button>
+        </div>
+        <div class="q-statement">85. Quin conjunt està format íntegrament per tipus de protecció individual?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Protecció respiratòria, ocular i facial, auditiva i contra caigudes.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Inspecció, auditoria, manteniment i coordinació empresarial.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Prevenció mèdica, formació, consulta i vigilància.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Protecció col·lectiva, evacuació, senyalització i primers auxilis.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-85">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Protecció respiratòria, ocular i facial, auditiva i contra caigudes.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les famílies d’EPI es classifiquen segons la part protegida o el risc: vies respiratòries, ulls i cara, oïda, caigudes i altres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-86" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 86 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(86)">Solució</button>
+        </div>
+        <div class="q-statement">86. Com ha d’utilitzar el treballador les màquines i els equips de protecció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Durant les inspeccions o controls preventius.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Segons el seu criteri personal quan tingui experiència.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Amb les modificacions que consideri més còmodes.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>De manera adequada i d’acord amb les instruccions rebudes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-86">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) De manera adequada i d’acord amb les instruccions rebudes.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’ús correcte dels equips evita que una protecció deficient o una manipulació incorrecta generin riscos addicionals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-87" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 87 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(87)">Solució</button>
+        </div>
+        <div class="q-statement">87. Què caracteritza una condició de treball?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Qualsevol canvi contractual sense efectes sobre la seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Qualsevol instrucció dictada després de produir-se un accident.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Qualsevol característica que influeixi significativament en la generació de riscos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Qualsevol compensació econòmica vinculada a un lloc perillós.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-87">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Qualsevol característica que influeixi significativament en la generació de riscos.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les condicions de treball inclouen locals, equips, agents, procediments i l’organització que poden modificar el nivell de risc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-88" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 88 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(88)">Solució</button>
+        </div>
+        <div class="q-statement">88. Per què els equips dels serveis de salvament i socorrisme no es classifiquen com a EPI en aquest règim?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Perquè són equips de protecció col·lectiva instal·lats al centre.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Perquè estan exempts de qualsevol requisit de seguretat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Perquè no poden incorporar components o accessoris protectors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Perquè el Reial decret 773/1997 els exclou expressament de la seva definició.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-88">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Perquè el Reial decret 773/1997 els exclou expressament de la seva definició.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’exclusió del règim d’EPI laboral no significa absència de protecció, sinó que aquests equips es regulen per normes específiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-89" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 89 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(89)">Solució</button>
+        </div>
+        <div class="q-statement">89. Quins factors formen el nivell de risc en l’avaluació tècnica?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Freqüència, antiguitat i formació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Perillositat, retribució i jornada.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Categoria, manteniment i certificació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Conseqüències, probabilitat i exposició.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-89">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Conseqüències, probabilitat i exposició.</div>
+          <div class="explanation-text"><b>Explicació:</b> El nivell de risc resulta de combinar la gravetat de les conseqüències, la probabilitat i el grau d’exposició.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-90" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 90 de 90</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(90)">Solució</button>
+        </div>
+        <div class="q-statement">90. A quin personal s’aplica la Llei 31/1995 dins les administracions públiques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>A les activitats sense règim específic.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Als serveis operatius de protecció civil en catàstrofes, amb aplicació ordinària.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Al personal funcionari i laboral al seu servei.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Al personal militar en activitats operatives, sense particularitats.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-90">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Al personal funcionari i laboral al seu servei.</div>
+          <div class="explanation-text"><b>Explicació:</b> La norma inclou les relacions administratives o estatutàries del personal públic, amb les particularitats i exclusions previstes.</div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <script>
+    let allVisible = false;
+
+    function selectOption(el) {
+      const card = el.closest('.q-card');
+      const correct = card.getAttribute('data-correct');
+      const chosen = el.getAttribute('data-opt');
+      
+      // Clear previous states
+      card.querySelectorAll('.option').forEach(o => o.classList.remove('wrong'));
+      
+      if (chosen === correct) {
+        el.classList.add('correct');
+      } else {
+        el.classList.add('wrong');
+        const correctEl = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctEl) correctEl.classList.add('correct');
+      }
+
+      // Show solution box
+      const box = card.querySelector('.solution-box');
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

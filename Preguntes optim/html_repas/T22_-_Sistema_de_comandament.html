@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T22 - Sistema de comandament - Repàs de Preguntes</title>
+  <style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 16px; border: 1px solid var(--card-border); }
+  .header h1 { font-size: 24px; margin-bottom: 8px; color: #fff; }
+  .header p { color: var(--text-muted); font-size: 14px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 10px 18px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid var(--card-border); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+  .q-card { background: var(--card); border-radius: 14px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); transition: border 0.2s ease; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: 600; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); font-size: 14px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: rgba(255,255,255,0.07); }
+  .option.correct { background: rgba(16, 185, 129, 0.18) !important; border-color: var(--success) !important; color: #34d399 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.18) !important; border-color: var(--error) !important; color: #f87171 !important; }
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.25); border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: rgba(59, 130, 246, 0.15); color: var(--primary); border: 1px solid rgba(59, 130, 246, 0.3); font-size: 12px; font-weight: 600; cursor: pointer; }
+  
+  @media print {
+    body { background: white !important; color: black !important; padding: 0 !important; font-size: 12px !important; }
+    .header, .controls, .print-hide { display: none !important; }
+    .q-card { border: none !important; background: transparent !important; page-break-inside: avoid; margin-bottom: 16px !important; padding: 0 !important; color: black !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; color: black !important; }
+    .option.correct { color: #047857 !important; font-weight: bold !important; }
+    .option.wrong { color: #b91c1c !important; }
+    .solution-box { display: block !important; background: #f8fafc !important; border-left: 3px solid #047857 !important; color: black !important; }
+    .explanation-text { color: #334155 !important; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>T22 - Sistema de comandament</h1>
+      <p>Total de preguntes: <b>62</b> • Clica a qualsevol opció per comprovar-la directament</p>
+      <div class="controls print-hide">
+        <a class="btn btn-secondary" href="../index.html">← Menú Principal</a>
+        <a class="btn btn-secondary" href="../anki_csv/T22_-_Sistema_de_comandament.csv" download>📦 Descarregar Anki CSV</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">Mostra/Amaga Solucions</button>
+        <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+      </div>
+    </div>
+    <div id="questions-container">
+      
+      <div class="q-card" id="q-1" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 1 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(1)">Solució</button>
+        </div>
+        <div class="q-statement">1. Com ha de ser el comandament al lloc de l’incident des de l’inici de la intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Compartit i rotatori entre els responsables dels grups actuants.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Progressiu i condicionat a la incorporació de tots els recursos previstos.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Centralitzat fora del lloc de l’incident i comunicat mitjançant els sectors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Directe i visible.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-1">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Directe i visible.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament únic comporta establir una figura de comandament directa i visible al lloc de l’incident des de l’inici.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-2" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 2 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(2)">Solució</button>
+        </div>
+        <div class="q-statement">2. Què permet el comandament integrat a les agències amb autoritats i responsabilitats diferents?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Treballar juntes de manera eficaç sense afectar l’autoritat, la responsabilitat ni la rendició de comptes de cada agència.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Transferir temporalment les seves responsabilitats funcionals a l’agència que dirigeix el Pla d’Acció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Unificar les seves competències legals sota l’autoritat del comandament responsable durant tota la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Repartir les seves funcions segons els recursos disponibles, independentment de les competències pròpies de cada agència.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-2">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Treballar juntes de manera eficaç sense afectar l’autoritat, la responsabilitat ni la rendició de comptes de cada agència.</div>
+          <div class="explanation-text"><b>Explicació:</b> La coordinació conjunta no elimina ni modifica les competències pròpies: cada agència conserva la seva autoritat, responsabilitat i rendició de comptes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-3" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 3 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(3)">Solució</button>
+        </div>
+        <div class="q-statement">3. Quan en un incident no hi ha una terminologia comuna establerta, com s’ha de comunicar el personal intervinent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mantenint les sigles pròpies de cada agència i aclarint-ne el significat quan apareguin dubtes.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Utilitzant vocabulari tècnic especialitzat perquè cada missatge contingui el màxim nivell de detall possible.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Evitant les sigles i emprant un vocabulari senzill que defineixi correctament els conceptes.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Creant abreviatures específiques durant l’incident i aplicant-les progressivament a tots els grups.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-3">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Evitant les sigles i emprant un vocabulari senzill que defineixi correctament els conceptes.</div>
+          <div class="explanation-text"><b>Explicació:</b> Quan no hi ha una terminologia comuna establerta, cal evitar les sigles i utilitzar paraules senzilles i precises que no generin interpretacions diferents.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-4" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 4 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(4)">Solució</button>
+        </div>
+        <div class="q-statement">4. Què és un equip dins de l’organització dels recursos del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un conjunt coordinat d’accions tàctiques específiques dissenyades per assolir objectius tàctics.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’entitat més bàsica, referida a un sol recurs, com ara un binomi o un vehicle.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una entitat organitzativa que agrupa diversos sectors dins d’una àrea funcional més àmplia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una subdivisió de l’incident creada per gestionar una àrea geogràfica o una funció especialitzada.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-4">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) L’entitat més bàsica, referida a un sol recurs, com ara un binomi o un vehicle.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’equip és la unitat organitzativa més elemental i correspon a un únic recurs al qual s’assignen tasques concretes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-5" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 5 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(5)">Solució</button>
+        </div>
+        <div class="q-statement">5. Quina afirmació descriu correctament l’assignació de funcions en una estructura modular?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cada comandament ha d’exercir una única funció, encara que hi hagi posicions que no s’hagin desplegat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les funcions no desplegades queden suspeses fins que s’hi assigni un comandament específic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un mateix comandament pot assumir diferents funcions dins l’estructura.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les funcions poden agrupar-se, però han de ser assumides conjuntament per diversos comandaments.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-5">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Un mateix comandament pot assumir diferents funcions dins l’estructura.</div>
+          <div class="explanation-text"><b>Explicació:</b> La modularitat permet que un mateix comandament acumuli diverses funcions quan l’estructura desplegada no requereix responsables diferenciats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-6" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(6)">Solució</button>
+        </div>
+        <div class="q-statement">6. Quina posició ocupa el Comandament de la Intervenció dins de l’estructura del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>És una agrupació de diversos equips formada per executar una maniobra determinada.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>És una subdivisió territorial de l’incident responsable de gestionar una àrea geogràfica concreta.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>És l’organització que agrupa les funcions principals d’operacions, planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>És l’entitat més alta de l’estructura i assumeix les decisions estratègiques i la gestió global de l’emergència.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-6">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) És l’entitat més alta de l’estructura i assumeix les decisions estratègiques i la gestió global de l’emergència.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Comandament de la Intervenció ocupa el nivell superior del SISCOM i és responsable de l’orientació estratègica i de la gestió global de l’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-7" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 7 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(7)">Solució</button>
+        </div>
+        <div class="q-statement">7. Quines àrees queden integrades dins de la funció de suport segons l’organigrama?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Operacions i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Operacions i planificació.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Comandament i planificació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-7">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Planificació i logística.</div>
+          <div class="explanation-text"><b>Explicació:</b> Dins de suport s’integren les àrees de planificació i logística, tal com mostra l’esquema.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-8" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 8 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(8)">Solució</button>
+        </div>
+        <div class="q-statement">8. Què és una zona dins de l’organització del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’entitat més bàsica de l’organització, constituïda per un sol recurs al qual s’assignen tasques.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un conjunt coordinat d’accions tàctiques específiques dissenyades per assolir els objectius tàctics.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una entitat organitzativa destinada a gestionar operacions dins d’una àrea funcional més àmplia i que inclou diversos sectors.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una subdivisió de l’incident destinada a gestionar una àrea geogràfica o una funció especialitzada.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-8">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Una entitat organitzativa destinada a gestionar operacions dins d’una àrea funcional més àmplia i que inclou diversos sectors.</div>
+          <div class="explanation-text"><b>Explicació:</b> La zona agrupa diversos sectors per gestionar operacions dins d’un àmbit funcional més ampli.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-9" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 9 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(9)">Solució</button>
+        </div>
+        <div class="q-statement">9. Quin requisit s’estableix respecte de les funcions desplegades dins l’estructura de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cada funció ha de ser compartida pels comandaments de les unitats que hi participen.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les funcions s’assignen col·lectivament a cada nivell jeràrquic sense identificar un responsable concret.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cada funció ha de tenir un responsable clarament assignat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les funcions operatives poden quedar sense responsable mentre depenguin directament del cap d’intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-9">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cada funció ha de tenir un responsable clarament assignat.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’assignació d’un responsable a cada funció permet delimitar l’autoritat, la supervisió i la rendició de comptes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-10" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 10 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(10)">Solució</button>
+        </div>
+        <div class="q-statement">10. Com s’ha d’ajustar el tram de control segons l’evolució de l’incident?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>S’ha d’ampliar en incidents ràpids o complexos i reduir quan la situació esdevé estable.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>S’ha de mantenir constant durant tota la intervenció per conservar la mateixa estructura de supervisió.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>S’ha de reduir al mínim en incidents ràpids o complexos amb una càrrega de treball elevada, i es pot ampliar en situacions més estables.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>S’ha de reduir quan disminueix el nombre de recursos, independentment de la complexitat i la intensitat de l’incident.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-10">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) S’ha de reduir al mínim en incidents ràpids o complexos amb una càrrega de treball elevada, i es pot ampliar en situacions més estables.</div>
+          <div class="explanation-text"><b>Explicació:</b> Una situació intensa o complexa exigeix una supervisió més pròxima i menys línies directes per comandament; quan l’incident s’estabilitza, el tram es pot ampliar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-11" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 11 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(11)">Solució</button>
+        </div>
+        <div class="q-statement">11. Quina opció defineix correctament el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un protocol d’activació que ordena l’entrada dels mitjans, però no estableix una estructura comuna de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Un model operatiu que distribueix els recursos entre comandaments independents segons la tipologia de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Un sistema logístic que centralitza les instal·lacions i els equipaments, però manté separats el personal i els procediments.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Un model organitzatiu dels recursos de resposta integrats en una estructura jeràrquica i comuna, que inclou personal, procediments, instal·lacions i equipaments.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-11">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Un model organitzatiu dels recursos de resposta integrats en una estructura jeràrquica i comuna, que inclou personal, procediments, instal·lacions i equipaments.</div>
+          <div class="explanation-text"><b>Explicació:</b> El SISCOM integra tots els recursos de resposta dins una mateixa estructura jeràrquica i comuna, no només els mitjans materials o el personal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-12" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 12 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(12)">Solució</button>
+        </div>
+        <div class="q-statement">12. Quina combinació inclou únicament principis del comandament de la intervenció que han de seguir els intervinents en el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Relleu del comandament, gestió centralitzada de recursos i tram de control.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cadena i línia de comandament, coordinació interagencial i comandament unificat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Comandament únic, sectorització operativa i planificació d’objectius.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Relleu del comandament, planificació d’objectius i tram de control.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-12">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Relleu del comandament, planificació d’objectius i tram de control.</div>
+          <div class="explanation-text"><b>Explicació:</b> El relleu del comandament, la planificació d’objectius i el tram de control són tres dels principis referents al comandament de la intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-13" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 13 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(13)">Solució</button>
+        </div>
+        <div class="q-statement">13. Quina responsabilitat correspon al cap d’intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Definir el Pla d’Acció de la Intervenció i establir els objectius que s’han d’assolir.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Distribuir la responsabilitat màxima entre els responsables dels diferents grups actuants.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Determinar els objectius generals i deixar la definició del Pla d’Acció als responsables de sector.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Definir plans d’acció independents per a cada servei i coordinar-los durant l’operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-13">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Definir el Pla d’Acció de la Intervenció i establir els objectius que s’han d’assolir.</div>
+          <div class="explanation-text"><b>Explicació:</b> El cap d’intervenció defineix el Pla d’Acció de la Intervenció i fixa els objectius operatius que cal assolir.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-14" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 14 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(14)">Solució</button>
+        </div>
+        <div class="q-statement">14. Quina relació es crea entre els diferents nivells de l’organització mitjançant la línia de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una dependència jeràrquica que permet integrar els nivells en un esquema coordinat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una relació de coordinació horitzontal sense subordinació entre els diferents comandaments.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una dependència temporal limitada als moments en què es transmeten ordres operatives.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una relació funcional variable que depèn de les necessitats de cada fase de la intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-14">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Una dependència jeràrquica que permet integrar els nivells en un esquema coordinat.</div>
+          <div class="explanation-text"><b>Explicació:</b> La línia de comandament estableix una dependència jeràrquica clara entre nivells i facilita que l’organització actuï de manera coordinada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-15" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 15 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(15)">Solució</button>
+        </div>
+        <div class="q-statement">15. Quina funció correspon al comandament dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Recopilar, avaluar i difondre la informació operativa, mantenir actualitzat l’estat de la situació i dels recursos, i preparar i documentar el PAI.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Atendre les necessitats vinculades a l’incident i preveure els requeriments futurs d’instal·lacions, avituallament, transport, subministraments i comunicacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Dirigir i supervisar les operacions, desenvolupar l’organització sobre el terreny i conduir els recursos operatius per controlar la situació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Establir l’estratègia, els objectius tàctics i les prioritats, i assumir la responsabilitat general de la gestió de l’emergència.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-15">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Establir l’estratègia, els objectius tàctics i les prioritats, i assumir la responsabilitat general de la gestió de l’emergència.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament defineix l’orientació general de la intervenció i assumeix la responsabilitat global de la gestió de l’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 16 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(16)">Solució</button>
+        </div>
+        <div class="q-statement">16. Què signifiquen les sigles ICS en l’àmbit de la gestió d’emergències?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sistema de coordinació d’intervencions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sistema de comandament d’incidents.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Sistema de control d’intervencions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Sistema de coordinació d’incidents.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-16">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Sistema de comandament d’incidents.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les sigles ICS corresponen a Incident Command System, denominat en català sistema de comandament d’incidents.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-17" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 17 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(17)">Solució</button>
+        </div>
+        <div class="q-statement">17. Quina finalitat té garantir la continuïtat de la figura del cap d’intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Permetre que cada servei mantingui temporalment una direcció operativa independent.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Evitar que es generin buits de comandament al llarg de la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Evitar que els responsables dels grups actuants hagin de comunicar-se durant els canvis de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mantenir la mateixa persona al comandament fins que finalitzi completament l’actuació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-17">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Evitar que es generin buits de comandament al llarg de la intervenció.</div>
+          <div class="explanation-text"><b>Explicació:</b> La continuïtat de la figura del cap d’intervenció assegura que la direcció de l’actuació no quedi interrompuda, encara que canviï la persona que exerceix el comandament.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-18" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 18 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(18)">Solució</button>
+        </div>
+        <div class="q-statement">18. Quina opció conté únicament exemples d’instal·lacions mòbils del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Sales de control i unitats de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sales de control i parcs de bombers.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Parcs de bombers i àrees de treball.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Unitats de comandament i àrees de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-18">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Unitats de comandament i àrees de treball.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les unitats de comandament i les àrees de treball són instal·lacions mòbils que es poden desplegar segons les necessitats de la intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-19" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 19 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(19)">Solució</button>
+        </div>
+        <div class="q-statement">19. Què és un sector dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una agrupació de diversos equips constituïda al voltant d’una maniobra concreta.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’organització superior de les funcions principals d’operacions, planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una entitat organitzativa que inclou diversos sectors i gestiona una àrea funcional més àmplia.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una subdivisió de l’incident creada per gestionar una àrea geogràfica o una funció especialitzada, amb comandament i comunicacions pròpies.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-19">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Una subdivisió de l’incident creada per gestionar una àrea geogràfica o una funció especialitzada, amb comandament i comunicacions pròpies.</div>
+          <div class="explanation-text"><b>Explicació:</b> El sector divideix l’incident per territori o especialitat i disposa d’un comandament propi i de comunicacions específiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-20" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 20 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(20)">Solució</button>
+        </div>
+        <div class="q-statement">20. Què ha de fer el comandament quan no pot controlar de manera immediata totes les accions de la seva àrea de responsabilitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Mantenir totes les decisions sota el seu control i limitar l’actuació autònoma de les unitats subordinades.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Transferir íntegrament la responsabilitat de la intervenció a un comandament subordinat fins que disminueixi la complexitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Delegar autoritat als comandaments subordinats mitjançant l’assignació d’objectius.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Crear una estructura paral·lela de comandament perquè les diferents unitats actuïn amb objectius independents.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-20">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Delegar autoritat als comandaments subordinats mitjançant l’assignació d’objectius.</div>
+          <div class="explanation-text"><b>Explicació:</b> La delegació d’autoritat permet ampliar la capacitat de control del comandament, assignant objectius clars als nivells subordinats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-21" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 21 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(21)">Solució</button>
+        </div>
+        <div class="q-statement">21. Què és una maniobra dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Un conjunt coordinat d’accions tàctiques específiques dissenyades per assolir els objectius tàctics establerts.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’organització superior de les funcions principals d’operacions, planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una agrupació de diversos equips organitzada al voltant d’una mateixa actuació operativa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>L’entitat més alta de l’estructura, responsable de les decisions estratègiques i de la gestió global de l’emergència.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-21">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Un conjunt coordinat d’accions tàctiques específiques dissenyades per assolir els objectius tàctics establerts.</div>
+          <div class="explanation-text"><b>Explicació:</b> La maniobra integra accions tàctiques coordinades orientades a aconseguir un objectiu tàctic concret.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-22" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 22 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(22)">Solució</button>
+        </div>
+        <div class="q-statement">22. Quins tipus d’instal·lacions requereix el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Instal·lacions de comandament i instal·lacions operatives.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Instal·lacions permanents i instal·lacions sectorials.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Instal·lacions logístiques i instal·lacions territorials.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Instal·lacions fixes i instal·lacions mòbils.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-22">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Instal·lacions fixes i instal·lacions mòbils.</div>
+          <div class="explanation-text"><b>Explicació:</b> El SISCOM necessita instal·lacions fixes i mòbils per liderar les intervencions i donar suport al comandament.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-23" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 23 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(23)">Solució</button>
+        </div>
+        <div class="q-statement">23. Com afecta la cadena de comandament a la comunicació directa entre el personal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Obliga a transmetre qualsevol informació a través del superior jeràrquic abans de comunicar-la a una altra persona.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Limita la comunicació directa als membres que depenen del mateix comandament i treballen en una mateixa unitat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Reserva la comunicació directa per a les situacions en què no es pugui contactar amb el comandament corresponent.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Permet la comunicació directa per demanar o compartir informació, sense eliminar les relacions jeràrquiques establertes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-23">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Permet la comunicació directa per demanar o compartir informació, sense eliminar les relacions jeràrquiques establertes.</div>
+          <div class="explanation-text"><b>Explicació:</b> La cadena de comandament ordena l’autoritat, però no impedeix que el personal es comuniqui directament per sol·licitar o compartir informació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-24" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 24 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(24)">Solució</button>
+        </div>
+        <div class="q-statement">24. Quan s’ha d’establir i identificar clarament el cap d’intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Després d’haver definit el Pla d’Acció de la Intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan s’hagin incorporat tots els serveis previstos a l’operatiu.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Des de l’inici de la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan la complexitat de l’incident obligui a ampliar l’estructura.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-24">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Des de l’inici de la intervenció.</div>
+          <div class="explanation-text"><b>Explicació:</b> El cap d’intervenció s’ha d’establir i identificar clarament des del començament de l’actuació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-25" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 25 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(25)">Solució</button>
+        </div>
+        <div class="q-statement">25. Qui determina l’estructura de comandament que cal desplegar en un incident?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El cap d’intervenció, d’acord amb els objectius de l’incident i els recursos necessaris.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El comandament de rang més alt, atenent únicament la complexitat inicial de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Els comandaments subordinats, mitjançant l’acord conjunt sobre les posicions que cal activar.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Els responsables de cada funció, en funció de les necessitats particulars de la seva àrea.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-25">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El cap d’intervenció, d’acord amb els objectius de l’incident i els recursos necessaris.</div>
+          <div class="explanation-text"><b>Explicació:</b> El cap d’intervenció defineix l’estructura necessària tenint en compte els objectius de la intervenció i els recursos requerits.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-26" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 26 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(26)">Solució</button>
+        </div>
+        <div class="q-statement">26. Quina funció correspon a planificació dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Assumir l’anàlisi i el suport tècnic o logístic de la intervenció, assessorar el comandament i integrar les funcions de planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Atendre les necessitats vinculades a l’incident i preveure els requeriments futurs d’instal·lacions, avituallament, transport, subministraments i comunicacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Establir l’estratègia, els objectius tàctics i les prioritats, i assumir la responsabilitat general de la gestió de l’emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Recopilar, avaluar i difondre la informació operativa, mantenir actualitzat l’estat de la situació i dels recursos, i preparar i documentar el PAI.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-26">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Recopilar, avaluar i difondre la informació operativa, mantenir actualitzat l’estat de la situació i dels recursos, i preparar i documentar el PAI.</div>
+          <div class="explanation-text"><b>Explicació:</b> Planificació gestiona la informació operativa de l’incident, manté actualitzada la situació i els recursos, i prepara i documenta el PAI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-27" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 27 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(27)">Solució</button>
+        </div>
+        <div class="q-statement">27. Què és el Pla d’Acció de la Intervenció (PAI)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’informe que es redacta després de la intervenció per valorar els resultats obtinguts i proposar millores operatives.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>L’estructura jeràrquica que determina les relacions de comandament i supervisió entre les unitats desplegades.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El document que elabora cada grup actuant per definir les seves tasques de manera independent de la resta de recursos.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El pla que elabora el cap d’intervenció per resoldre totalment o parcialment l’incident amb el mínim risc possible i orientar els esforços dels recursos actuants.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-27">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El pla que elabora el cap d’intervenció per resoldre totalment o parcialment l’incident amb el mínim risc possible i orientar els esforços dels recursos actuants.</div>
+          <div class="explanation-text"><b>Explicació:</b> El PAI és l’instrument bàsic amb què el cap d’intervenció integra i orienta els esforços dels recursos actuants cap a la resolució de l’incident.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-28" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 28 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(28)">Solució</button>
+        </div>
+        <div class="q-statement">28. Quina funció correspon a logística dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Dirigir i supervisar les operacions, desenvolupar l’organització sobre el terreny i conduir els recursos operatius per controlar la situació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Assumir l’anàlisi i el suport tècnic o logístic de la intervenció, assessorar el comandament i integrar les funcions de planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Atendre les necessitats vinculades a l’incident i preveure els requeriments futurs d’instal·lacions, avituallament, transport, subministraments i comunicacions.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Recopilar, avaluar i difondre la informació operativa, mantenir actualitzat l’estat de la situació i dels recursos, i preparar i documentar el PAI.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-28">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Atendre les necessitats vinculades a l’incident i preveure els requeriments futurs d’instal·lacions, avituallament, transport, subministraments i comunicacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> Logística sosté la intervenció aportant els recursos, serveis i infraestructures necessaris i anticipant-ne les necessitats futures.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-29" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 29 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(29)">Solució</button>
+        </div>
+        <div class="q-statement">29. Com treballen les diferents agències dins d’un comandament unificat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cedeixen la seva autoritat a l’agència amb més responsabilitat territorial durant tota la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comparteixen els recursos disponibles, però cada agència conserva objectius operatius diferents.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Mantenen autoritats separades i elaboren estratègies pròpies que es coordinen al final de cada fase.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Comparteixen l’autoritat i treballen conjuntament per establir un conjunt comú d’estratègies i objectius.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-29">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Comparteixen l’autoritat i treballen conjuntament per establir un conjunt comú d’estratègies i objectius.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament unificat permet que les agències comparteixin l’autoritat i acordin estratègies i objectius comuns.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-30" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 30 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(30)">Solució</button>
+        </div>
+        <div class="q-statement">30. Quin criteri se segueix per desplegar les posicions de l’estructura de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>S’activen les mateixes posicions en tots els incidents per mantenir una estructura homogènia.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Es despleguen únicament les posicions necessàries, i el cap d’intervenció assumeix les funcions no desplegades.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Es despleguen les posicions de comandament i es deixen sense assignar les funcions operatives restants.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>S’activen totes les posicions previstes i es desactiven posteriorment les que no siguin necessàries.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-30">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Es despleguen únicament les posicions necessàries, i el cap d’intervenció assumeix les funcions no desplegades.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’estructura només incorpora les posicions que requereix l’incident; les funcions encara no desplegades són assumides pel cap d’intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-31" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 31 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(31)">Solució</button>
+        </div>
+        <div class="q-statement">31. A quins incidents permet donar resposta el SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Als incidents senzills i repetitius, mentre les emergències de gran escala es gestionen amb un sistema específic diferent.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Als incidents complexos que requereixen una estructura de comandament diferent de l’emprada en actuacions ordinàries.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Als incidents d’una mateixa tipologia, encara que presentin nivells de complexitat diferents.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Als incidents de qualsevol tipologia i grau de complexitat, des dels més senzills fins als més complexos.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-31">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Als incidents de qualsevol tipologia i grau de complexitat, des dels més senzills fins als més complexos.</div>
+          <div class="explanation-text"><b>Explicació:</b> El SISCOM és aplicable a qualsevol tipus d’incident, independentment de la seva tipologia o complexitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-32" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 32 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(32)">Solució</button>
+        </div>
+        <div class="q-statement">32. Davant de qui respon cada equip, maniobra, grup, sector o zona d’acord amb el principi de la línia de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Davant d’un únic comandament, del qual rep ordres i al qual informa de l’evolució de la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Davant del comandament superior de l’organització, independentment del nivell jeràrquic.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Davant del responsable que hagi assignat l’última tasca, encara que no sigui el seu comandament directe.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Davant dels comandaments de les unitats amb què comparteix l’objectiu operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-32">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Davant d’un únic comandament, del qual rep ordres i al qual informa de l’evolució de la intervenció.</div>
+          <div class="explanation-text"><b>Explicació:</b> Cada unitat ha de tenir un únic comandament de referència, del qual rep directrius i al qual reporta l’evolució i els progressos de la intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-33" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 33 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(33)">Solució</button>
+        </div>
+        <div class="q-statement">33. Amb quina finalitat es va crear el sistema de comandament d’incidents (ICS)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Per millorar la coordinació i la gestió de les emergències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Per establir un registre comú dels danys materials i personals produïts en cada emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Per substituir els diferents serveis actuants per una única organització d’intervenció permanent.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Per atribuir les conseqüències dels incidents exclusivament a la manca de recursos disponibles.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-33">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Per millorar la coordinació i la gestió de les emergències.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’ICS es va crear per corregir els problemes de gestió i coordinació detectats en intervencions d’emergència complexes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-34" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 34 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(34)">Solució</button>
+        </div>
+        <div class="q-statement">34. En una emergència, quin mètode és essencial per assegurar la capacitat de comunicació entre els intervinents?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Utilitzar codis abreujats diferenciats segons les funcions operatives de cada servei.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Utilitzar una terminologia comuna compartida per a tots els intervenents.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Emprar la terminologia pròpia de cada agència durant la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Centralitzar totes les comunicacions en un únic operador que tradueixi el vocabulari de cada grup.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-34">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Utilitzar una terminologia comuna compartida per a tots els intervenents.</div>
+          <div class="explanation-text"><b>Explicació:</b> Una terminologia compartida facilita que totes les persones i agències interpretin els missatges de la mateixa manera durant la intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-35" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 35 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(35)">Solució</button>
+        </div>
+        <div class="q-statement">35. Quina opció conté únicament exemples d’instal·lacions fixes del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Àrees de treball i parcs de bombers.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Sales de control i parcs de bombers.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Unitats de comandament i sales de control.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Unitats de comandament i àrees de treball.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-35">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Sales de control i parcs de bombers.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les sales de control i els parcs de bombers són instal·lacions fixes; les unitats de comandament i les àrees de treball són instal·lacions mòbils.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-36" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 36 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(36)">Solució</button>
+        </div>
+        <div class="q-statement">36. Com es defineix un grup dins de l’organització dels recursos?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Com una subdivisió de l’incident configurada per gestionar una àrea geogràfica o una funció especialitzada.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Com una entitat organitzativa que gestiona les operacions dins d’una àrea funcional àmplia i inclou diversos sectors.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Com una agrupació organitzada al voltant d’una maniobra i formada per diversos equips que executen funcions o tasques específiques.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Com un únic recurs operatiu, com ara un binomi o un vehicle, al qual s’assignen tasques concretes.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-36">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Com una agrupació organitzada al voltant d’una maniobra i formada per diversos equips que executen funcions o tasques específiques.</div>
+          <div class="explanation-text"><b>Explicació:</b> El grup reuneix diversos equips que treballen al voltant d’una mateixa maniobra i desenvolupen tasques específiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-37" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 37 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(37)">Solució</button>
+        </div>
+        <div class="q-statement">37. Quin criteri aplica el comandament únic al Pla d’Acció de la Intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Es defineixen diversos plans successius segons el nombre de comandaments desplegats.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El Pla d’Acció es limita als recursos dependents directament del cap d’intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Es defineix un únic Pla d’Acció per a tot l’operatiu, que orienta i coordina els esforços dels intervinents.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cada grup actuant defineix el seu propi pla i els diferents plans es coordinen durant l’operatiu.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-37">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Es defineix un únic Pla d’Acció per a tot l’operatiu, que orienta i coordina els esforços dels intervinents.</div>
+          <div class="explanation-text"><b>Explicació:</b> Un únic Pla d’Acció permet que tots els intervinents treballin coordinadament cap als mateixos objectius.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-38" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 38 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(38)">Solució</button>
+        </div>
+        <div class="q-statement">38. Com es desenvolupa l’organització del comandament d’un incident?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>De manera modular, per adaptar-se a la dimensió i la complexitat de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Mitjançant una distribució autònoma de funcions entre les unitats, sense una estructura comuna de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>De manera progressiva, exclusivament en funció del nombre de recursos que arriben a l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Mitjançant una estructura completa definida a l’inici i mantinguda sense canvis durant tota la intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-38">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) De manera modular, per adaptar-se a la dimensió i la complexitat de l’incident.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’organització del comandament s’adapta modularment a les necessitats reals derivades de la dimensió i la complexitat de l’incident.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-39" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 39 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(39)">Solució</button>
+        </div>
+        <div class="q-statement">39. Què ha de garantir el comandament integrat respecte del Pla d’Acció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Que el Pla d’Acció sigui elaborat pel servei amb més recursos i comunicat posteriorment a la resta d’agències.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Que tots els actuants comparteixin un únic Pla d’Acció orientat al control i la resolució de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Que cada agència defineixi un Pla d’Acció propi i que el comandament responsable resolgui les possibles incompatibilitats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Que els objectius generals siguin comuns, encara que cada agència actuï mitjançant un Pla d’Acció diferent.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-39">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Que tots els actuants comparteixin un únic Pla d’Acció orientat al control i la resolució de l’incident.</div>
+          <div class="explanation-text"><b>Explicació:</b> Compartir un mateix Pla d’Acció permet que les diferents agències orientin els seus esforços cap als mateixos objectius operatius.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-40" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 40 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(40)">Solució</button>
+        </div>
+        <div class="q-statement">40. Des d’on gestionen la resposta els comandaments de les diferents agències quan s’estableix un comandament integrat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Des dels centres de coordinació propis de cada agència, connectats mitjançant una xarxa comuna.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Des d’un únic lloc de comandament denominat Centre de Comandament Avançat.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Des de diversos punts de comandament sectorials coordinats pel cap d’intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Des del lloc de comandament de l’agència amb més responsabilitats legals en l’incident.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-40">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Des d’un únic lloc de comandament denominat Centre de Comandament Avançat.</div>
+          <div class="explanation-text"><b>Explicació:</b> En un comandament integrat, els comandaments de les agències gestionen conjuntament la resposta des del Centre de Comandament Avançat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-41" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 41 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(41)">Solució</button>
+        </div>
+        <div class="q-statement">41. Quina circumstància va impulsar el desenvolupament del sistema de comandament d’incidents (ICS)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La necessitat d’unificar els recursos materials de tots els serveis d’emergència en una única organització estatal.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>La constatació que una gestió i una coordinació inadequades havien contribuït a agreujar els resultats dels incidents.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>La decisió de concentrar la investigació de les causes dels desastres en els serveis d’extinció d’incendis.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>La conclusió que els danys dels incidents eren causats principalment per la manca de tecnologia d’intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-41">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) La constatació que una gestió i una coordinació inadequades havien contribuït a agreujar els resultats dels incidents.</div>
+          <div class="explanation-text"><b>Explicació:</b> Els estudis van concloure que els resultats no es podien atribuir únicament a la manca de recursos o a l’atzar, sinó també a una gestió i una coordinació inadequades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-42" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 42 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(42)">Solució</button>
+        </div>
+        <div class="q-statement">42. Quins factors influeixen en el tram de control assignat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La quantitat de comunicacions emeses, el nombre de torns operatius, la sectorització territorial i l’antiguitat dels recursos.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El nivell jeràrquic del comandament, el nombre d’agències actuants, els objectius del PAI i la ubicació del centre de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El tipus d’incident, el nombre total de vehicles, el temps d’arribada dels recursos i la durada prevista de l’actuació.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El tipus d’incident, les característiques del risc, els factors de seguretat i el perill associat, i la distància de desplegament de les unitats o sectors.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-42">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El tipus d’incident, les característiques del risc, els factors de seguretat i el perill associat, i la distància de desplegament de les unitats o sectors.</div>
+          <div class="explanation-text"><b>Explicació:</b> El tram de control s’ajusta a les característiques de l’incident, als riscos i factors de seguretat, i a la separació física de les unitats o sectors supervisats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-43" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 43 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(43)">Solució</button>
+        </div>
+        <div class="q-statement">43. En quin context s’aplica el comandament integrat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Quan diferents agències operen conjuntament en un mateix incident i treballen en equip sota la direcció del comandament responsable.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Quan els serveis actuants mantenen comandaments independents i coordinen únicament l’assignació dels recursos compartits.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Quan la complexitat de l’incident exigeix substituir els comandaments de les agències per una direcció externa comuna.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Quan una única agència assumeix tota la intervenció i distribueix internament les funcions entre els seus comandaments.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-43">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Quan diferents agències operen conjuntament en un mateix incident i treballen en equip sota la direcció del comandament responsable.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament integrat s’utilitza quan diverses agències intervenen en un mateix incident i coordinen el seu treball sota la direcció del comandament que té assignada la responsabilitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-44" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 44 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(44)">Solució</button>
+        </div>
+        <div class="q-statement">44. Com s’ordenen els recursos d’una intervenció dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Jeràrquicament i de manera modular, per facilitar una gestió eficient de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Per àrees funcionals independents, sense una relació jeràrquica comuna.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Per sectors territorials fixos, amb una distribució estable que no varia amb la complexitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Per ordre d’arribada a l’incident, mantenint la mateixa estructura durant tota la intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-44">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Jeràrquicament i de manera modular, per facilitar una gestió eficient de l’incident.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’organització jeràrquica i modular permet adaptar l’estructura dels recursos a les necessitats i a la complexitat de cada incident.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-45" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 45 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(45)">Solució</button>
+        </div>
+        <div class="q-statement">45. Què representen les àrees funcionals dins de l’estructura del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El nivell organitzatiu superior de les funcions principals d’operacions, planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Les entitats formades per diversos sectors per gestionar una àrea operativa més àmplia.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Les subdivisions territorials o especialitzades de l’incident que disposen de comandament propi.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Les agrupacions de diversos equips constituïdes per executar una mateixa maniobra.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-45">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) El nivell organitzatiu superior de les funcions principals d’operacions, planificació i logística.</div>
+          <div class="explanation-text"><b>Explicació:</b> Les àrees funcionals constitueixen l’organització superior de les funcions principals del SISCOM: operacions, planificació i logística.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 46 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(46)">Solució</button>
+        </div>
+        <div class="q-statement">46. En quin tipus de situació es pot instaurar un comandament unificat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En incidents localitzats en un únic territori, quan una agència necessita suport material d’altres serveis.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En intervencions ordinàries en què els diferents serveis mantenen objectius independents sota un únic cap d’intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En grans emergències que afecten territoris limítrofs i requereixen compartir responsabilitats i decisions estratègiques entre diferents agències.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En emergències en què una agència transfereix temporalment totes les seves competències a l’organisme coordinador.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-46">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) En grans emergències que afecten territoris limítrofs i requereixen compartir responsabilitats i decisions estratègiques entre diferents agències.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament unificat s’aplica en grans emergències amb afectació de territoris limítrofs quan diverses agències han de compartir responsabilitats i decisions estratègiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-47" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 47 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(47)">Solució</button>
+        </div>
+        <div class="q-statement">47. Com poden actuar els comandaments en situacions de baixa complexitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Supervisant l’operatiu des del lloc de comandament sense participar directament en missions o tasques.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Dirigint personalment les unitats i participant directament en missions o tasques.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Limitant-se a establir els objectius i delegant des de l’inici la direcció directa de totes les unitats.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Distribuint la responsabilitat de la intervenció entre els comandaments subordinats sense mantenir-ne el control.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-47">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Dirigint personalment les unitats i participant directament en missions o tasques.</div>
+          <div class="explanation-text"><b>Explicació:</b> Quan la complexitat és baixa, els comandaments poden dirigir directament les unitats i participar personalment en les actuacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-48" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 48 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(48)">Solució</button>
+        </div>
+        <div class="q-statement">48. Segons l’organigrama del SISCOM de Bombers de la Generalitat, quines funcions depenen directament del cap d’intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Operacions i planificació.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comandament i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Suport i operacions.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-48">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Suport i operacions.</div>
+          <div class="explanation-text"><b>Explicació:</b> A l’organigrama, del cap d’intervenció en pengen directament dues grans funcions: suport i operacions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-49" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 49 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(49)">Solució</button>
+        </div>
+        <div class="q-statement">49. En incidents quotidians de poca complexitat i fàcils de solucionar, qui assumeix funcions del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>El responsable de suport, perquè engloba les funcions de planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El responsable de planificació, perquè prepara i documenta el Pla d’Acció de la Intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El cap d’intervenció, que pot concentrar totes les funcions en una sola persona.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El responsable d’operacions, perquè dirigeix els recursos desplegats sobre el terreny.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-49">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) El cap d’intervenció, que pot concentrar totes les funcions en una sola persona.</div>
+          <div class="explanation-text"><b>Explicació:</b> En els incidents senzills, l’estructura no necessita desplegar responsables diferenciats i el cap d’intervenció pot assumir totes les funcions.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-50" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 50 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(50)">Solució</button>
+        </div>
+        <div class="q-statement">50. En què es basa la planificació per objectius?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>En limitar les decisions operatives del comandament per atorgar autonomia a les unitats.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>En distribuir els recursos entre les diferents funcions sense definir objectius comuns d’intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>En assignar tasques concretes als recursos abans de determinar els resultats que es volen assolir.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>En establir objectius específics i dirigir els esforços per aconseguir-los.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-50">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) En establir objectius específics i dirigir els esforços per aconseguir-los.</div>
+          <div class="explanation-text"><b>Explicació:</b> La planificació per objectius defineix resultats concrets i orienta els esforços dels intervinents perquè treballin per assolir-los.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-51" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 51 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(51)">Solució</button>
+        </div>
+        <div class="q-statement">51. Quina relació de comandament representa el concepte «+1/-1»?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Cada comandament rep ordres de diversos nivells superiors i les distribueix entre totes les unitats disponibles.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Cada unitat informa directament el nivell màxim de comandament i supervisa les unitats del seu mateix rang.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Cada comandament reporta a un únic superior jeràrquic i controla el personal que es troba sota la seva supervisió directa.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Cada unitat es coordina amb una unitat del mateix nivell i comparteix la direcció amb un comandament adjacent.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-51">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Cada comandament reporta a un únic superior jeràrquic i controla el personal que es troba sota la seva supervisió directa.</div>
+          <div class="explanation-text"><b>Explicació:</b> El concepte «+1/-1» resumeix la relació vertical: cada comandament té un superior definit a qui reporta i personal subordinat directe al qual dona ordres i supervisa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-52" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 52 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(52)">Solució</button>
+        </div>
+        <div class="q-statement">52. Quina funció correspon a suport dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Establir l’estratègia, els objectius tàctics i les prioritats, i assumir la responsabilitat general de la gestió de l’emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Assumir l’anàlisi i el suport tècnic o logístic de la intervenció, assessorar el comandament i integrar les funcions de planificació i logística.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Recopilar, avaluar i difondre la informació operativa, mantenir actualitzat l’estat de la situació i dels recursos, i preparar i documentar el PAI.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Dirigir i supervisar les operacions, desenvolupar l’organització sobre el terreny i conduir els recursos operatius per controlar la situació.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-52">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) Assumir l’anàlisi i el suport tècnic o logístic de la intervenció, assessorar el comandament i integrar les funcions de planificació i logística.</div>
+          <div class="explanation-text"><b>Explicació:</b> Suport aporta assessorament, anàlisi i suport tècnic o logístic al comandament, i engloba les funcions de planificació i logística.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-53" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 53 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(53)">Solució</button>
+        </div>
+        <div class="q-statement">53. Quina funció exerceix el Centre de Comandament Unificat en una gran emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Garantir la coordinació general i canalitzar una petició unificada de mitjans estatals.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Distribuir els mitjans estatals directament entre els territoris afectats sense intervenció dels comandaments operatius.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Substituir els centres de comandament de les diferents agències i assumir-ne les responsabilitats legals.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Gestionar exclusivament les comunicacions entre els serveis estatals desplegats sobre el terreny.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-53">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Garantir la coordinació general i canalitzar una petició unificada de mitjans estatals.</div>
+          <div class="explanation-text"><b>Explicació:</b> El Centre de Comandament Unificat garanteix la coordinació general i permet formular de manera conjunta la petició de mitjans estatals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-54" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 54 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(54)">Solució</button>
+        </div>
+        <div class="q-statement">54. Què ha de fer el cap d’intervenció en intervencions complexes per mantenir el tram de control?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Assumir directament totes les funcions operatives i transmetre instruccions individuals a cada unitat.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Traspassar la responsabilitat global de la intervenció al comandament subordinat de més rang.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Delegar funcions per mantenir el tram de control de la intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Distribuir les tasques entre els recursos sense crear noves posicions de comandament.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-54">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Delegar funcions per mantenir el tram de control de la intervenció</div>
+          <div class="explanation-text"><b>Explicació:</b> La delegació de funcions permet que el cap d’intervenció mantingui un tram de control adequat quan augmenta la complexitat de l’actuació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-55" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 55 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(55)">Solució</button>
+        </div>
+        <div class="q-statement">55. Quina estructura ha de generar el cap d’intervenció quan delega funcions?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Una estructura de funcions i posicions de comandament per sota seu.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Una estructura independent per a cada servei, sense una línia comuna de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Una estructura horitzontal en què tots els comandaments depenen directament entre si.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Una estructura formada exclusivament per unitats operatives sense comandaments intermedis.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-55">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Una estructura de funcions i posicions de comandament per sota seu.</div>
+          <div class="explanation-text"><b>Explicació:</b> La delegació es concreta en la creació de funcions i posicions de comandament subordinades al cap d’intervenció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-56" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 56 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(56)">Solució</button>
+        </div>
+        <div class="q-statement">56. Com varia l’estructura de comandament durant l’evolució d’un incident?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Es contrau quan disminueix la complexitat, però no pot ampliar-se després del desplegament inicial.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>S’expandeix i es contrau de manera flexible segons l’evolució de l’incident.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Es manté estable i només modifica la distribució interna de les tasques assignades.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>S’expandeix quan augmenten els recursos i es manté desplegada fins al final de la intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-56">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: B) S’expandeix i es contrau de manera flexible segons l’evolució de l’incident.</div>
+          <div class="explanation-text"><b>Explicació:</b> L’estructura és escalable: pot créixer o reduir-se en funció de com evolucionen les necessitats de l’incident.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-57" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 57 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(57)">Solució</button>
+        </div>
+        <div class="q-statement">57. Quin grup està format íntegrament per principis del comandament de la intervenció aplicables a la instauració correcta del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Comandament integrat, Pla d’Acció de la Intervenció (PAI) i estructura modular i escalable.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Comandament integrat, coordinació operativa permanent i estructura modular i escalable.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Planificació d’objectius, sectorització territorial i cadena i línia de comandament.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Comandament unificat, assignació funcional de recursos i Pla d’Acció de la Intervenció (PAI).</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-57">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Comandament integrat, Pla d’Acció de la Intervenció (PAI) i estructura modular i escalable.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament integrat, el Pla d’Acció de la Intervenció i l’estructura modular i escalable formen part dels principis establerts per implantar correctament el SISCOM.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-58" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 58 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(58)">Solució</button>
+        </div>
+        <div class="q-statement">58. Què ha d’incloure un relleu del comandament perquè es faci correctament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>L’actualització de l’estructura de comandament sense traspassar les decisions preses anteriorment.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Canvi en el Pla d&#039;Acció de la Intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Nou lloc físic des d&#039;on dirigir la intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El traspàs de tota la informació rellevant per dirigir la intervenció.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-58">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) El traspàs de tota la informació rellevant per dirigir la intervenció.</div>
+          <div class="explanation-text"><b>Explicació:</b> El comandament entrant necessita conèixer tota la informació rellevant de l’actuació per assumir-ne la direcció amb continuïtat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-59" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 59 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(59)">Solució</button>
+        </div>
+        <div class="q-statement">59. Quina funció correspon al responsable d&#039;operacions en una intervenció dins del SISCOM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Establir l’estratègia, els objectius tàctics i les prioritats, i assumir la responsabilitat general de la gestió de l’emergència.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Atendre les necessitats vinculades a l’incident i preveure els requeriments futurs d’instal·lacions, avituallament, transport, subministraments i comunicacions.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Dirigir i supervisar les operacions, desenvolupar l’organització sobre el terreny i conduir els recursos operatius per controlar la situació i restaurar la normalitat.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Assumir l’anàlisi i el suport tècnic o logístic de la intervenció, donar assessorament al comandament i integrar les funcions de planificació i logística.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-59">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) Dirigir i supervisar les operacions, desenvolupar l’organització sobre el terreny i conduir els recursos operatius per controlar la situació i restaurar la normalitat.</div>
+          <div class="explanation-text"><b>Explicació:</b> Operacions executa el PAI i dirigeix els recursos operatius sobre el terreny per controlar l’incident i recuperar les condicions de normalitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-60" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 60 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(60)">Solució</button>
+        </div>
+        <div class="q-statement">60. Què són les instal·lacions de suport al comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Recursos físics específics que es despleguen sobre el terreny, a petició del cap d’intervenció, per complir les funcions del SISCOM i liderar les intervencions.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Unitats mòbils, com els vehicles de comandament i les àrees de treball, definides únicament pel seu caràcter transportable.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Espais fixos, com les sales de control i els parcs de bombers, destinats a acollir permanentment els recursos del servei.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Posicions de l’estructura jeràrquica creades per distribuir les funcions de comandament entre els responsables operatius.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-60">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: A) Recursos físics específics que es despleguen sobre el terreny, a petició del cap d’intervenció, per complir les funcions del SISCOM i liderar les intervencions.</div>
+          <div class="explanation-text"><b>Explicació:</b> Aquestes instal·lacions són recursos físics desplegats al lloc de la intervenció per facilitar les funcions de comandament previstes en el SISCOM.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-61" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 61 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(61)">Solució</button>
+        </div>
+        <div class="q-statement">61. A que ens referim amb tram de control en una emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>La distribució territorial dels recursos i sectors establerts dins l’àrea de la intervenció.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>El nombre de nivells jeràrquics existents entre el cap d’intervenció i les unitats desplegades.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>El nombre de línies de comunicació i supervisió que reporten a cada persona amb responsabilitat de gestió.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>El nombre total d’unitats operatives disponibles per intervenir, encara que depenguin de comandaments diferents.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-61">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: C) El nombre de línies de comunicació i supervisió que reporten a cada persona amb responsabilitat de gestió.</div>
+          <div class="explanation-text"><b>Explicació:</b> El tram de control indica quantes línies directes de comunicació i supervisió depenen d’una mateixa persona amb responsabilitat de gestió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-62" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 62 de 62</span>
+          <button class="toggle-sol-btn print-hide" onclick="toggleSolution(62)">Solució</button>
+        </div>
+        <div class="q-statement">62. Quina afirmació descriu el principi de la cadena de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(this)">
+            <b>A)</b>
+            <span>Estableix una xarxa horitzontal de coordinació en què els comandaments comparteixen la direcció de totes les unitats desplegades.</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(this)">
+            <b>B)</b>
+            <span>Permet que cada unitat rebi ordres de diferents comandaments segons la tasca que desenvolupi en cada moment.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(this)">
+            <b>C)</b>
+            <span>Concentra totes les decisions operatives en el comandament superior, que dirigeix directament cada actuació del personal.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(this)">
+            <b>D)</b>
+            <span>Estableix una línia ordenada d’autoritat i fa que cada comandament dirigeixi i supervisi el personal i les unitats que té assignats.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-62">
+          <div style="font-weight: 700; color: #10b981; margin-bottom: 4px;">✓ Resposta Correcta: D) Estableix una línia ordenada d’autoritat i fa que cada comandament dirigeixi i supervisi el personal i les unitats que té assignats.</div>
+          <div class="explanation-text"><b>Explicació:</b> La cadena de comandament ordena l’autoritat dins l’organització i delimita el personal i les unitats que queden sota la direcció i supervisió de cada comandament.</div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <script>
+    let allVisible = false;
+
+    function selectOption(el) {
+      const card = el.closest('.q-card');
+      const correct = card.getAttribute('data-correct');
+      const chosen = el.getAttribute('data-opt');
+      
+      // Clear previous states
+      card.querySelectorAll('.option').forEach(o => o.classList.remove('wrong'));
+      
+      if (chosen === correct) {
+        el.classList.add('correct');
+      } else {
+        el.classList.add('wrong');
+        const correctEl = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctEl) correctEl.classList.add('correct');
+      }
+
+      // Show solution box
+      const box = card.querySelector('.solution-box');
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
