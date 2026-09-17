@@ -75,7 +75,11 @@ export default function App() {
   }, []);
 
   // Filtered questions based on active academies
-  const filteredQuestions = questions.filter(q => selectedAcademies.includes(q.academy || 'oficial'));
+  const isAcademySelected = (qAcad) => {
+    const norm = (qAcad === 'oficial' || !qAcad) ? 'optima' : qAcad;
+    return selectedAcademies.includes(norm) || (norm === 'optima' && selectedAcademies.includes('oficial'));
+  };
+  const filteredQuestions = questions.filter(q => isAcademySelected(q.academy));
 
   // Load stats
   useEffect(() => {
@@ -746,41 +750,44 @@ function HomeScreen({
 // QUIZ SCREEN
 // ----------------------------------------------------------------------
 function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorite, onFinish, onExit }) {
-  const [queue, setQueue] = useState([]);
+  const [queue, setQueue] = useState(() => {
+    let pool = [];
+    if (config.mode === 'review-failed') {
+      const failedIds = userStats._failedIds || [];
+      pool = questions.filter(q => failedIds.includes(q.id) && (config.themes || []).includes(q.theme));
+    } else if (config.mode === 'favorites') {
+      const favIds = userStats._favoriteIds || [];
+      pool = questions.filter(q => favIds.includes(q.id) && (config.themes || []).includes(q.theme));
+    } else {
+      pool = questions.filter(q => (config.themes || []).includes(q.theme));
+    }
+
+    pool = [...pool].sort(() => Math.random() - 0.5); // shuffle
+    
+    if (config.mode === 'exam') {
+      return pool.slice(0, config.length);
+    } else if (config.mode === 'review-failed' || config.mode === 'favorites') {
+      return pool;
+    } else if (config.length && config.length > 0) {
+      return pool.slice(0, config.length);
+    } else {
+      return pool;
+    }
+  });
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [studyState, setStudyState] = useState(null); // 'correct', 'wrong', null
   const [selectedOpt, setSelectedOpt] = useState(null);
+  const [maxIndexReached, setMaxIndexReached] = useState(0);
+
+  useEffect(() => {
+    setMaxIndexReached(prev => Math.max(prev, currentIndex));
+  }, [currentIndex]);
 
   const isExam = config.mode === 'exam';
 
-  // Init
-  useEffect(() => {
-    let pool = [];
-    if (config.mode === 'review-failed') {
-      const failedIds = userStats._failedIds || [];
-      pool = questions.filter(q => failedIds.includes(q.id) && config.themes.includes(q.theme));
-    } else if (config.mode === 'favorites') {
-      const favIds = userStats._favoriteIds || [];
-      pool = questions.filter(q => favIds.includes(q.id) && config.themes.includes(q.theme));
-    } else {
-      pool = questions.filter(q => config.themes.includes(q.theme));
-    }
-
-    pool = pool.sort(() => Math.random() - 0.5); // shuffle
-    
-    if (config.mode === 'exam') {
-      setQueue(pool.slice(0, config.length));
-    } else if (config.mode === 'review-failed' || config.mode === 'favorites') {
-      setQueue(pool);
-    } else if (config.length && config.length > 0) {
-      setQueue(pool.slice(0, config.length));
-    } else {
-      setQueue(pool);
-    }
-  }, []);
-
-  if (!queue.length) {
+  if (!queue || !queue.length) {
     return (
       <div className="flex-center" style={{ height: '70vh', flexDirection: 'column', gap: 16, textAlign: 'center', padding: 20 }}>
         <p style={{ color: 'var(--text-muted)' }}>No s'han trobat preguntes per als temes i acadèmies seleccionats.</p>
@@ -835,12 +842,6 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       onSaveStats(statsCopy);
     }
   };
-
-  const [maxIndexReached, setMaxIndexReached] = useState(0);
-
-  useEffect(() => {
-    setMaxIndexReached(prev => Math.max(prev, currentIndex));
-  }, [currentIndex]);
 
   const handleFinishQuiz = () => {
     let maxIdx = Math.max(maxIndexReached, currentIndex);
