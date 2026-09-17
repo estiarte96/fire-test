@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "racord_6ed6788e-fc11-4633-a7a1-d9147d4fc945",
+    "statement": "Què indica l’angle d’atac frontal d'un vehicle?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.6. Angles d’atac\n\nAngle d’atac (frontal): és l’angle màxim que es pot formar entre el terra i la part frontal del vehicle abans que el para-xocs o altres elements toquin l’obstacle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La capacitat de superar una cresta sense tocar el xassís",
+      "B": "La capacitat de superar un obstacle sense tocar la part frontal",
+      "C": "La capacitat de superar un obstacle sense tocar la part posterior",
+      "D": "La inclinació màxima admissible en una corba"
+    }
+  },
+  {
+    "id": "racord_dbd8adf6-cf9c-4ce0-95d0-e8b243d823a8",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la conducció amb neu i gel:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.4. Conducció amb neu i gel\n\nCal evitar les frenades brusques, es recomana utilitzar marxes llargues, col·locar cadenes correctament (al darrere en vehicles pesants) i conduir sobre les roderes deixades per altres vehicles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les cadenes s’han de muntar davant en vehicles pesants",
+      "B": "Cal utilitzar marxes curtes i frenades brusques",
+      "C": "Cal evitar circular sobre les roderes existents",
+      "D": "Cal evitar frenades brusques i utilitzar marxes llargues"
+    }
+  },
+  {
+    "id": "racord_4286c856-5987-47b2-8573-5ce886252c88",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els cinturons de seguretat:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEl seu ancoratge en tres punts manté els ocupants dins del vehicle i redueix la projecció del cos en un xoc o bolcada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’ancoratge de dos punts és el sistema fonamental descrit",
+      "B": "L’ancoratge de tres punts manté els ocupants dins del vehicle",
+      "C": "Redueixen la projecció del cos en una bolcada",
+      "D": "Redueixen la projecció del cos en un xoc"
+    }
+  },
+  {
+    "id": "racord_ff502cf1-25ed-4691-9003-b7657c1efaea",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els protectors d’oïda del conductor:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nEl conductor no pot utilitzar taps ni protectors d’oïda que redueixin la seva capacitat auditiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No pot usar-ne si redueixen la capacitat auditiva",
+      "B": "Només estan prohibits en els trajectes de retorn",
+      "C": "Ha d’usar-ne sempre durant els serveis prioritaris",
+      "D": "Pot usar-ne si manté activada la sirena"
+    }
+  },
+  {
+    "id": "racord_b9a141f4-abb3-4aaa-84fd-fb0b7cc3a28c",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’aproximació a una possible conducta d’autòlisi:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.2. Ús de sirenes i llums\n\nAquesta pràctica ha d’estar subordinada a l’avaluació de riscos del moment, i només s’aplicarà quan la visibilitat, el trànsit i les condicions de la via ho permetin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal valorar la visibilitat i el trànsit",
+      "B": "Els senyals s’han de desactivar sempre, encara que augmenti el risc viari",
+      "C": "La decisió depèn de l’avaluació de riscos",
+      "D": "La seguretat de l’equip s’ha de mantenir en tot moment"
+    }
+  },
+  {
+    "id": "racord_bfd3f069-b259-4bbe-b2d7-1fa273e7bee2",
+    "statement": "A quina velocitat màxima es pot bloquejar el diferencial posterior en moviment?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5.2. Bloquejadors de diferencial\n\nEl posterior es pot bloquejar fins a 5 km/h i en línia recta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 km/h",
+      "B": "5 km/h",
+      "C": "20 km/h",
+      "D": "40 km/h"
+    }
+  },
+  {
+    "id": "racord_05dcedd6-7ef2-4a15-b428-ca7523c47be2",
+    "statement": "Quina funció té el control d’estabilitat ESP?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEvita derrapatges i pèrdua de control actuant automàticament sobre els frens de rodes concretes i, si cal, reduint la potència del motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar el bloqueig de totes les rodes durant la frenada",
+      "B": "Evitar derrapatges i corregir la trajectòria",
+      "C": "Activar una trucada automàtica al servei 112",
+      "D": "Impedir la projecció dels ocupants en una bolcada"
+    }
+  },
+  {
+    "id": "racord_3b331cc8-79e5-4e31-8bc8-cfd590bf6122",
+    "statement": "Quan poden instal·lar-se dispositius lluminosos prioritaris a la part posterior del vehicle de bombers?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nAquests llums s’han de situar a la part superior i davantera del vehicle, i opcionalment, també a la part posterior si no és visible el frontal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan la part davantera disposa de llums llargs",
+      "B": "Quan el vehicle presta un servei no prioritari",
+      "C": "Quan des del darrere no és visible la senyalització frontal",
+      "D": "Quan el vehicle circula sense senyalització acústica"
+    }
+  },
+  {
+    "id": "racord_9994080e-c96f-4d57-8086-946aa50716aa",
+    "statement": "Quan actua un vehicle de bombers com a vehicle prioritari?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.1. Definició i finalitat\n\nDurant serveis que requereixen una resposta ràpida i immediata per protegir vides, béns o el medi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan transporta persones ferides",
+      "B": "Exclusivament en incendis forestals",
+      "C": "En qualsevol desplaçament ordinari",
+      "D": "Quan cal una resposta ràpida per protegir vides, béns o el medi"
+    }
+  },
+  {
+    "id": "racord_4c27dbca-85f3-4a7d-9bc7-b88da25304ae",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre les barres estabilitzadores:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nLa barra estabilitzadora reparteix aquesta força entre ambdues rodes, reduint la inclinació. Milloren l’estabilitat en corbes i eviten balancejos excessius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmenten la inclinació del vehicle en les corbes",
+      "B": "Redueixen els balancejos excessius",
+      "C": "Reparteixen el balanceig entre les rodes del mateix eix",
+      "D": "Milloren l’estabilitat en corbes"
+    }
+  },
+  {
+    "id": "racord_350f9785-5d2d-44b0-88d6-7e7f956184cd",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la seguretat activa:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nLa seguretat activa inclou tots aquells elements del vehicle que ajuden a prevenir un accident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actua exclusivament després de l’impacte",
+      "B": "Només protegeix els ocupants de la projecció",
+      "C": "Només inclou elements mecànics, sense electrònica",
+      "D": "Actua principalment per prevenir l’accident"
+    }
+  },
+  {
+    "id": "racord_6fdff319-5a7e-44dc-88a6-dcc654580ba6",
+    "statement": "Quina capacitat conserva el vehicle gràcies a l’ABS durant una frenada forta?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEvita que les rodes es bloquegin durant una frenada forta, cosa que permet mantenir la direcció del vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La capacitat d’acceleració",
+      "B": "La capacitat de direcció",
+      "C": "La tracció permanent",
+      "D": "La rigidesa de la cabina"
+    }
+  },
+  {
+    "id": "racord_37fb3684-831e-4e1c-827c-a2adad43b6c2",
+    "statement": "Quina actuació correspon al conductor davant una possible avaria?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.8. Manteniment mínim i detecció d’avaries\n\nUn bon conductor no ha de solucionar l’avaria —això és tasca del taller— però sí ha de saber-la detectar, descriure i actuar de manera segura, aturant el vehicle si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reparar-la sempre abans d’avisar el taller",
+      "B": "Esborrar l’alerta i reprendre el servei",
+      "C": "Detectar-la, descriure-la i actuar amb seguretat",
+      "D": "Continuar circulant fins que el vehicle s’aturi"
+    }
+  },
+  {
+    "id": "racord_d37cb3de-f27b-4fa8-a2f1-9a2208058897",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’activació de la reductora:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.1. Adaptació del vehicle\n\nPer activar la reductora cal aturar completament el vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal accelerar abans de connectar-la",
+      "B": "Cal mantenir-lo en moviment i en línia recta",
+      "C": "Cal aturar completament el vehicle",
+      "D": "Només cal reduir la velocitat"
+    }
+  },
+  {
+    "id": "racord_ae0c2b5f-14d6-413b-9453-5aff0bd11c2c",
+    "statement": "Quin criteri general ha de governar l’ús de sirenes i llums?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.2. Ús de sirenes i llums\n\nL’ús de la senyalització ha d’estar sempre subordinat a l’objectiu de garantir la seguretat, i no ha de convertir-se en una rutina mecànica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La comoditat del conductor",
+      "B": "La reducció del temps de trajecte a qualsevol preu",
+      "C": "La seguretat i la necessitat operativa",
+      "D": "L’activació automàtica en qualsevol desplaçament"
+    }
+  },
+  {
+    "id": "racord_61ecc625-020d-4c34-8738-a369eae1b3dd",
+    "statement": "Quin color d’alerta obliga a aturar el vehicle immediatament?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.8. Manteniment mínim i detecció d’avaries\n\nLes alertes de color vermell obliguen a aturar el vehicle immediatament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vermell",
+      "B": "Taronja",
+      "C": "Verd",
+      "D": "Blau"
+    }
+  },
+  {
+    "id": "racord_aef976d4-6ede-44ed-9a46-f97089ff351b",
+    "statement": "Quina característica defineix els vidres laminats?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEstan formats per dues capes de vidre unides amb una làmina adhesiva. En cas d’impacte no es trenquen en trossos tallants, sinó que es mantenen enganxats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dues capes separades sense làmina adhesiva",
+      "B": "Una capa rígida que absorbeix tota l’energia de l’impacte",
+      "C": "Una sola capa que es fragmenta en trossos petits",
+      "D": "Dues capes unides que es mantenen enganxades"
+    }
+  },
+  {
+    "id": "racord_ad2a11b8-1fec-4075-8213-5db034c1d7a8",
+    "statement": "Què requereix la conducció operativa com a habilitat tècnica?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n1.2. La conducció en el marc operatiu del Cos de Bombers\n\nLa conducció operativa s’ha de considerar una habilitat tècnica que requereix formació, pràctica i actualització constant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament coneixements mecànics",
+      "B": "Formació, pràctica i actualització constant",
+      "C": "Només experiència de conducció particular",
+      "D": "Únicament autorització del comandament"
+    }
+  },
+  {
+    "id": "racord_d487d84a-e16d-4f15-b77d-61b166959aeb",
+    "statement": "Quina és la finalitat de la seguretat passiva?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nLa seguretat passiva inclou els dispositius destinats a protegir els ocupants un cop l’accident és inevitable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir els ocupants quan l’accident és inevitable",
+      "B": "Evitar que les rodes patinin durant l’acceleració",
+      "C": "Corregir la trajectòria abans que es produeixi l’accident",
+      "D": "Reduir la distància de frenada abans de l’impacte"
+    }
+  },
+  {
+    "id": "racord_aa50e9d1-54ec-4e4d-80c8-f2391cbbd32f",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el sistema eCall:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nMitjançant GPS i una targeta SIM integrada, envia una trucada immediata al servei 112 amb la posició exacta i les dades del vehicle. També permet al conductor activar-lo manualment si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitza GPS i una targeta SIM integrada",
+      "B": "Transmet la posició i dades del vehicle",
+      "C": "Pot enviar una trucada immediata al 112",
+      "D": "Només pot activar-se manualment pel conductor"
+    }
+  },
+  {
+    "id": "racord_bacbfb2e-2d54-4154-b170-665011fc750e",
+    "statement": "Quina posició de les mans es recomana al volant?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nEl conductor ha de mantenir una postura còmoda i segura, amb les mans situades a les posicions de les “9 i les 3” del volant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A les 8 i les 4",
+      "B": "A les 12 i les 6",
+      "C": "A les 9 i les 3",
+      "D": "A les 10 i les 2"
+    }
+  },
+  {
+    "id": "racord_6be7e701-3c92-4a29-8508-b46b608419df",
+    "statement": "Què indica l’angle de sortida d'un vehicle?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.6. Angles d’atac\n\nAngle de sortida (posterior): indica la facilitat amb què el vehicle pot baixar d’un pendent o superar un obstacle sense que toqui la part posterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La capacitat de superar una cresta sense tocar el xassís",
+      "B": "La capacitat de superar un obstacle sense tocar la part posterior",
+      "C": "La capacitat de superar un obstacle sense tocar la part frontal",
+      "D": "La inclinació lateral màxima del vehicle"
+    }
+  },
+  {
+    "id": "racord_0d827a27-a122-423c-a8d0-ff29dadfed3a",
+    "statement": "Què indica l’angle ventral o de panxa d'un vehicle?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.6. Angles d’atac\n\nAngle ventral o de panxa: és l’angle màxim que permet al vehicle superar un obstacle central sense que la part inferior del xassís toqui el terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La capacitat de superar un obstacle central sense tocar el xassís",
+      "B": "La capacitat de superar un obstacle sense tocar el para-xocs frontal",
+      "C": "La capacitat de girar sense perdre adherència",
+      "D": "La capacitat de baixar sense tocar la part posterior"
+    }
+  },
+  {
+    "id": "racord_d268e233-4ea0-4ce1-8958-bf5f20c1c235",
+    "statement": "A quin vehicle s’ha d’adaptar la velocitat d’un comboi?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.4. Circulació en comboi i coordinació entre vehicles\n\nAdaptar la velocitat al vehicle més lent o al més condicionat per la via.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al vehicle que circula en primera posició",
+      "B": "Al vehicle més lent o més condicionat per la via",
+      "C": "Al vehicle amb més potència",
+      "D": "Al vehicle amb menys personal"
+    }
+  },
+  {
+    "id": "racord_fb38dfa3-6838-4d8e-a22a-bf8086372c24",
+    "statement": "Quina actuació és adequada en pendents molt pronunciades?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.5. Zones amb risc\n\nPendents molt pronunciades: utilitzar reductora i bloquejadors si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzar reductora i bloquejadors si cal",
+      "B": "Desactivar la tracció total",
+      "C": "Circular en punt mort",
+      "D": "Utilitzar sempre marxes llargues"
+    }
+  },
+  {
+    "id": "racord_b5161284-6dc4-4b53-bafc-b0807a1f5f1d",
+    "statement": "Quin tipus de moll proporciona una conducció més suau i còmoda?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nEls molls helicoïdals proporcionen una conducció més suau i còmoda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Paliers",
+      "B": "Diferencials",
+      "C": "Helicoïdals",
+      "D": "Ballestes"
+    }
+  },
+  {
+    "id": "racord_201dd685-bd55-4ec3-8b8a-f2ff8b5f3c5d",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la tracció total:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.2. Sistemes de tracció i transmissió\n\nTracció total (4x4 o AWD): el moviment es reparteix a totes quatre rodes. Essencial en vehicles tot terreny o en escenaris com fang, neu o camins forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reparteix el moviment a les quatre rodes",
+      "B": "Transmet el moviment només a les rodes posteriors",
+      "C": "És menys adequada en fang que la tracció davantera",
+      "D": "S’utilitza exclusivament en asfalt sec"
+    }
+  },
+  {
+    "id": "racord_6aea7839-34f1-4f1a-8cd5-a36614d39c5c",
+    "statement": "Quin color correspon a la senyalització visual prioritària dels vehicles d’emergència?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nLa senyalització visual dels vehicles d’emergència es basa principalment en dispositius lluminosos de color blau, segons estableix la normativa estatal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ambre",
+      "B": "Vermell",
+      "C": "Blau",
+      "D": "Blanc"
+    }
+  },
+  {
+    "id": "racord_3b23f873-3ccc-4f0a-8969-2291f6dafc61",
+    "statement": "Com ha de ser la conducció en camins forestals?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.4. Tècnica de conducció recomanada\n\nLa conducció en camins forestals ha de ser sempre suau, progressiva i anticipada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Brusca, progressiva i anticipada",
+      "B": "Suau, ràpida i reactiva",
+      "C": "Lenta, irregular i improvisada",
+      "D": "Suau, progressiva i anticipada"
+    }
+  },
+  {
+    "id": "racord_86cfa3c0-ded0-448e-9279-8d1eb9591f13",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la detecció d’avaries en un vehicle:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.8. Manteniment mínim i detecció d’avaries\n\nEntre els símptomes més habituals hi ha sons estranys, vibracions, fum de color anòmal, pèrdua sobtada de potència, temperatura del motor més alta del normal o olor de cremat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una temperatura elevada del motor requereix atenció",
+      "B": "La pèrdua sobtada de potència és un símptoma rellevant",
+      "C": "El fum de color anòmal no és un indici d’avaria",
+      "D": "Una olor de cremat pot indicar una avaria"
+    }
+  },
+  {
+    "id": "racord_77d82a75-c912-403d-98bc-8392d25e6608",
+    "statement": "Quines mesures són prioritàries davant vent fort?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.5. Conducció amb vent fort\n\nÉs fonamental reduir la velocitat, anticipar els cops de vent segons la morfologia del terreny i mantenir una presa ferma del volant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Circular prop del voral per evitar el vent lateral",
+      "B": "Mantenir la velocitat i afluixar la presa del volant",
+      "C": "Reduir la velocitat, anticipar el vent i subjectar fermament el volant",
+      "D": "Augmentar la velocitat i corregir el volant bruscament"
+    }
+  },
+  {
+    "id": "racord_438dad83-4472-4cac-9f51-d2ca21f8244c",
+    "statement": "Quina tècnica permet aprofitar la inèrcia en un camí forestal?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.4. Tècnica de conducció recomanada\n\nMantenir una marxa llarga amb revolucions baixes per aprofitar la inèrcia del vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Circular en punt mort",
+      "B": "Mantenir una marxa curta i revolucions altes",
+      "C": "Mantenir una marxa llarga i revolucions baixes",
+      "D": "Accelerar bruscament abans de cada obstacle"
+    }
+  },
+  {
+    "id": "racord_1a732382-f416-43e5-8b55-f5e851ecbbca",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la càrrega dels vehicles de bombers:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.2. Particularitats de conducció dels vehicles de bombers\n\nPorten dipòsits plens d’aigua, eines pesants, personal d’intervenció i, sovint, accessoris en posicions elevades. Això genera inèrcies importants i comporta un risc més alt de bolcada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les eines pesants generen inèrcies importants",
+      "B": "Els accessoris elevats poden augmentar el risc de bolcada",
+      "C": "La càrrega elevada redueix la inèrcia i el risc de bolcada",
+      "D": "Els dipòsits d’aigua influeixen en el comportament del vehicle"
+    }
+  },
+  {
+    "id": "racord_7ac8d1d0-40f5-4fd1-adb4-a7604a65e0cf",
+    "statement": "Què ha de saber interpretar el conductor durant el desplaçament?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.3. Reptes i responsabilitats del conductor\n\nAixò implica dominar tant l’ús del vehicle com la lectura del territori, saber interpretar el trànsit i adaptar la velocitat a cada situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament la velocitat dels altres vehicles",
+      "B": "Només l’estat del combustible",
+      "C": "El territori, el trànsit i les condicions de circulació",
+      "D": "Només les indicacions del navegador"
+    }
+  },
+  {
+    "id": "racord_7cf8787c-4336-49b4-80f7-3dd091f9b6bc",
+    "statement": "Quin efecte té la neu sobre la conducció?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.4. Conducció amb neu i gel\n\nLa neu redueix el control sobre el vehicle i empitjora la visibilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Redueix la visibilitat però millora l’adherència",
+      "B": "Només afecta la il·luminació",
+      "C": "Augmenta el control i empitjora la visibilitat",
+      "D": "Redueix el control i empitjora la visibilitat"
+    }
+  },
+  {
+    "id": "racord_82104921-c130-4d9d-a4c7-fc53963cbe24",
+    "statement": "Quin efecte pot produir un ús excessiu o inadequat de la sirena d'un vehicle en emergència?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.1. Senyalització acústica: tipologies, normativa i ús recomanat\n\nL’ús excessiu o inadequat de la sirena pot resultar contraproduent: pot generar confusió, reaccions inesperades o estrès en altres conductors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una prioritat de pas automàtica i sense riscos",
+      "B": "Una reducció garantida del temps de trajecte",
+      "C": "Més previsibilitat i menys tensió en tots els conductors",
+      "D": "Confusió, reaccions inesperades o estrès"
+    }
+  },
+  {
+    "id": "racord_2c206e98-a112-4077-a221-069f3be8419f",
+    "statement": "Quines característiques diferencien els vehicles de bombers dels turismes convencionals?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.2. Particularitats de conducció dels vehicles de bombers\n\nSón molt més pesats, voluminosos i amb un centre de gravetat elevat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només una major longitud",
+      "B": "Més velocitat i menys inèrcia",
+      "C": "Menys pes i un centre de gravetat baix",
+      "D": "Més pes, més volum i un centre de gravetat elevat"
+    }
+  },
+  {
+    "id": "racord_481ccfbc-5c9a-4c73-8c2f-16920bbeaafc",
+    "statement": "Quina mesura ajuda a prevenir l’aquaplaning?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nControlar l’estat i la pressió dels pneumàtics, ja que en condicions de pluja un mal estat pot accentuar l’hidroplanatge o aquaplaning.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Frenar bruscament en zones amb aigua",
+      "B": "Controlar l’estat i la pressió dels pneumàtics",
+      "C": "Circular amb els pneumàtics destensats",
+      "D": "Augmentar la pressió sense comprovar-la"
+    }
+  },
+  {
+    "id": "racord_304fde80-44c6-4c30-9225-4a1d49a74b14",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els bloquejadors de diferencial:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.3. Ús dels bloquejadors de diferencials\n\nMai no s’han de bloquejar diferencials en asfalt o terreny amb bona adherència, ja que això pot generar desgast prematur, sobreescalfament o fins i tot la ruptura de paliers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden arribar a trencar paliers",
+      "B": "Poden provocar desgast prematur",
+      "C": "S’han d’utilitzar habitualment en asfalt amb bona adherència",
+      "D": "Poden generar sobreescalfament"
+    }
+  },
+  {
+    "id": "racord_496cc2f4-a45e-45e2-8599-7bd324915ad9",
+    "statement": "Quin sistema s’ha de prioritzar en baixades prolongades?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.4. Tècnica de conducció recomanada\n\nUtilitzar sempre que sigui possible el fre motor en baixades prolongades per prevenir el sobreescalfament dels frens.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El fre de servei de manera continuada",
+      "B": "El fre motor",
+      "C": "La circulació en punt mort",
+      "D": "El fre d’estacionament"
+    }
+  },
+  {
+    "id": "racord_0f3b0d68-e346-466e-8947-1ab0a94016ad",
+    "statement": "Què passa en un diferencial no bloquejable quan una roda perd adherència?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5.1. Tipus de diferencials\n\nQuan una roda de l’eix motriu perd adherència, tota la força es transmet a aquesta roda i el vehicle queda aturat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La força va a la roda sense adherència i el vehicle s’atura",
+      "B": "Les dues rodes queden frenades automàticament",
+      "C": "El diferencial es bloqueja automàticament",
+      "D": "La força va a la roda amb més adherència i el vehicle avança"
+    }
+  },
+  {
+    "id": "racord_68c2c4a3-9db9-47f0-9bc8-014d03e5287d",
+    "statement": "Quina funció general compleix la suspensió d'un vehcicle?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nLa suspensió manté l’estabilitat del vehicle, evita vibracions excessives i permet una millor adherència de les rodes al terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir l’estabilitat i l’adherència",
+      "B": "Generar el parell motor",
+      "C": "Connectar el motor amb la transmissió",
+      "D": "Adaptar les revolucions del motor"
+    }
+  },
+  {
+    "id": "racord_050eefc2-3487-4141-b187-5fc86dcbd055",
+    "statement": "Quina és la funció principal dels dispositius acústics d’un vehicle d’emergència?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.1. Senyalització acústica: tipologies, normativa i ús recomanat\n\nEls dispositius acústics —com les sirenes— són eines essencials per alertar els altres usuaris de la via de la presència d’un vehicle d’emergència en servei prioritari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Advertir únicament els vianants de la proximitat del vehicle",
+      "B": "Indicar que el vehicle circula fora de servei",
+      "C": "Confirmar als usuaris que el vehicle té pas lliure garantit",
+      "D": "Alertar els usuaris de la presència d’un vehicle prioritari"
+    }
+  },
+  {
+    "id": "racord_4f0295e8-4627-4027-9a17-eb149cc4e08b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els talussos amb poca consistència:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.5. Zones amb risc\n\nEls camins estrets amb talussos, sobretot els que tenen terra sobreposada, poden no tenir la resistència esperada, i es pot córrer el risc de bolcada en cas de fallada del terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La fallada del terreny pot provocar una bolcada",
+      "B": "La resistència del terreny pot ser inferior a l’esperada",
+      "C": "La terra sobreposada garanteix una resistència superior del talús",
+      "D": "Els camins estrets amb talussos poden ser inestables"
+    }
+  },
+  {
+    "id": "racord_1a8d6905-37f5-4ae2-883c-51eeb387aac5",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la distància de seguretat amb pluja:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nMantenir una distància de seguretat molt més gran que en condicions normals. La massa del camió requereix molta més distància per aturar-se en paviment mullat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La massa del camió condiciona la frenada",
+      "B": "Cal augmentar la distància de seguretat",
+      "C": "La distància pot reduir-se perquè el camió pesa més",
+      "D": "El paviment mullat allarga la distància d’aturada"
+    }
+  },
+  {
+    "id": "racord_424f7e07-b352-4c2a-a3fd-821b8352f576",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la seqüència de bloqueig:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5.2. Bloquejadors de diferencial\n\nPer utilitzar-los correctament cal seguir una seqüència lògica: primer es bloqueja el diferencial central (o longitudinal), després el posterior i finalment l’anterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Central, anterior i posterior",
+      "B": "Posterior, anterior i central",
+      "C": "Central, posterior i anterior",
+      "D": "Anterior, posterior i central"
+    }
+  },
+  {
+    "id": "racord_38242192-b627-4a94-84fe-a6c297e2c503",
+    "statement": "Quin component genera l’energia que impulsa el vehicle?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nMotor: genera l’energia mitjançant combustió interna o mitjançant electricitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor",
+      "B": "Palier",
+      "C": "Embragatge",
+      "D": "Diferencial"
+    }
+  },
+  {
+    "id": "racord_2b291c5b-1673-4675-9e5b-dce0f927de22",
+    "statement": "Quan s’ha d’activar la tracció 4x4 opcional?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.1. Adaptació del vehicle\n\nEn el cas dels vehicles amb tracció 4x4 opcional, és responsabilitat del conductor activar-la abans d’entrar en camins on hi hagi baixa adherència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Després d’haver superat la zona complicada",
+      "B": "Només en asfalt mullat",
+      "C": "Abans d’entrar en una zona de baixa adherència",
+      "D": "Quan el vehicle queda immobilitzat sense poder continuar"
+    }
+  },
+  {
+    "id": "racord_6e5e73e4-5f69-4242-8f3e-aabaaca665c7",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els avantatges legals d’un vehicle prioritari:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.3. Reptes i responsabilitats del conductor\n\nEl conductor ha d’utilitzar amb criteri els avantatges que la llei li atorga i, alhora, evitar posar en perill tercers o els propis companys.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’utilitzar amb criteri i sense posar ningú en perill",
+      "B": "Només s’apliquen en vies interurbanes",
+      "C": "Eliminen la responsabilitat del conductor",
+      "D": "Permeten assumir qualsevol conducta de risc"
+    }
+  },
+  {
+    "id": "racord_60189a29-2f30-4c98-a6d8-afc21a8e2bb0",
+    "statement": "Què evita principalment el control de tracció ASR?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEvita que les rodes patinin en acceleracions fortes, especialment sobre superfícies lliscants com el gel.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que les rodes patinin en acceleracions fortes",
+      "B": "Que els ocupants es projectin en una bolcada",
+      "C": "Que les rodes es bloquegin en frenades fortes",
+      "D": "Que la carrosseria es deformi en un impacte"
+    }
+  },
+  {
+    "id": "racord_c2e2937a-063d-428c-bcb7-58f68f141e3c",
+    "statement": "Què és la circulació en comboi?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.4. Circulació en comboi i coordinació entre vehicles\n\nUna formació organitzada que permet desplaçar més d’un vehicle d’emergència de forma coordinada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sistema exclusiu per a vehicles forestals",
+      "B": "El desplaçament coordinat de diversos vehicles d’emergència",
+      "C": "La circulació independent de cada vehicle",
+      "D": "Un avançament simultani de diverses dotacions"
+    }
+  },
+  {
+    "id": "racord_b7addfa9-a722-467e-a0e4-a450d244aa3f",
+    "statement": "En un vehicle 4x4 opcional, com es pot passar de 2H a 4H?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.4. Reductora\n\nEn 4×4 opcional, per passar de 2H a 4H es pot fer en marxa a menys de 40 km/h i amb el vehicle en línia recta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En marxa, a menys de 40 km/h i en línia recta",
+      "B": "Només després d’activar el bloqueig anterior",
+      "C": "Aturat, amb una roda girada i sense punt mort",
+      "D": "En marxa, a qualsevol velocitat i en una corba"
+    }
+  },
+  {
+    "id": "racord_f8648be7-af4d-46d4-a6da-aea8dde9cfdf",
+    "statement": "Quina alternativa es recomana a la frenada brusca amb pluja?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nUtilitzar el fre motor i la retenció mecànica en comptes de frenar bruscament amb el pedal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La desconnexió de la transmissió",
+      "B": "La frenada brusca repetida",
+      "C": "El fre motor i la retenció mecànica",
+      "D": "El fre d’estacionament"
+    }
+  },
+  {
+    "id": "racord_13259c3a-3f99-469f-b51a-d30c3a6e978f",
+    "statement": "Quin color d’alerta permet continuar amb precaució i revisar aviat?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.8. Manteniment mínim i detecció d’avaries\n\nLes alertes de color taronja indiquen que cal continuar amb precaució i revisar el problema aviat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Taronja",
+      "B": "Verd",
+      "C": "Vermell",
+      "D": "Blau"
+    }
+  },
+  {
+    "id": "racord_3181523b-d1bc-4f75-bf42-463d0b171f68",
+    "statement": "On s’han de situar principalment els dispositius lluminosos prioritaris d'un vehicle de bombers?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nAquests llums s’han de situar a la part superior i davantera del vehicle, i opcionalment, també a la part posterior si no és visible el frontal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només a la part posterior del vehicle",
+      "B": "A la part superior i davantera del vehicle",
+      "C": "A la part inferior i lateral del vehicle",
+      "D": "Exclusivament a l’interior de la cabina"
+    }
+  },
+  {
+    "id": "racord_0a068b0f-bbe5-4c0a-bfe6-fe6aedbf2bfa",
+    "statement": "Quan es poden utilitzar els dispositius acústics d’un vehicle d’emergència?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.1. Senyalització acústica: tipologies, normativa i ús recomanat\n\nLa normativa actual estableix que només poden utilitzar-se durant la prestació de serveis d’urgència, i sempre de forma simultània amb la senyalització lluminosa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En serveis prioritaris encara que els llums estiguin desactivats",
+      "B": "Durant qualsevol servei si la circulació és densa",
+      "C": "Durant serveis d’urgència i amb senyalització lluminosa simultània",
+      "D": "Sempre que el conductor consideri útil advertir la seva presència"
+    }
+  },
+  {
+    "id": "racord_59b219a3-0275-4fae-b844-3952b63357ac",
+    "statement": "Què s’entén per conducció d’emergència?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.1. Definició i finalitat\n\nLa conducció d’emergència fa referència al desplaçament d’un vehicle de bombers quan actua com a vehicle prioritari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Qualsevol desplaçament entre el parc i el taller",
+      "B": "La conducció exclusiva per camins forestals",
+      "C": "El desplaçament d’un vehicle de bombers com a vehicle prioritari",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_a143f29c-59d4-4469-be7a-2ac4f6a4c4d1",
+    "statement": "Quin tipus de moll és especialment adequat per a camions pesants i de càrrega?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nEls molls de fulla (ballestes) es caracteritzen per ser molt resistents i duradors, fet que els converteix en la millor opció per a camions pesants i de càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pneumàtics",
+      "B": "Estabilitzadors",
+      "C": "Helicoïdals",
+      "D": "Ballestes"
+    }
+  },
+  {
+    "id": "racord_b2667520-2bf1-4380-87f1-21415a4a63b5",
+    "statement": "Quins factors propis dels vehicles de bombers condicionen la conducció?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n1.2. La conducció en el marc operatiu del Cos de Bombers\n\nEls vehicles de bombers tenen característiques específiques —pes, dimensions, càrrega, sistemes especials— que condicionen la seva conducció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pes, les dimensions, la càrrega i els sistemes especials",
+      "B": "Exclusivament la potència del motor",
+      "C": "Només el color i l’antiguitat",
+      "D": "La potència del motor i el nombre d'ocupants"
+    }
+  },
+  {
+    "id": "racord_3db5720a-937e-48e7-875b-b474b3f35dc7",
+    "statement": "Quina finalitat té la conducció operativa dins del servei de Bombers?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n1.2. La conducció en el marc operatiu del Cos de Bombers\n\nLa conducció d’un vehicle d’emergència no és només un desplaçament entre el parc i el lloc d’intervenció: és una part essencial del servei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Formar part essencial del dispositiu d’actuació",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Substituir la coordinació operativa",
+      "D": "Limitar-se al trasllat del vehicle"
+    }
+  },
+  {
+    "id": "racord_b3210dd5-243d-4a78-a8bf-9d178684874b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la seguretat en la conducció:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n1.3. Importància de la seguretat i del coneixement tècnic\n\nLa velocitat, l’estat del vehicle, les condicions meteorològiques i la fatiga poden jugar un paper clau en un accident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La fatiga no influeix en el risc d’accident",
+      "B": "La meteorologia pot augmentar el risc",
+      "C": "La velocitat pot influir en un accident",
+      "D": "L’estat del vehicle és un factor rellevant"
+    }
+  },
+  {
+    "id": "racord_d297412b-1bf7-4f80-b97a-06c045d9aa59",
+    "statement": "Quin component connecta o desconnecta el motor de la transmissió?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nEmbragatge: permet connectar o desconnectar el motor de la resta de la transmissió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Embragatge",
+      "B": "Amortidor",
+      "C": "Retardador",
+      "D": "Diferencial"
+    }
+  },
+  {
+    "id": "racord_776bf763-c0c7-485d-af64-f1d1a6fa851f",
+    "statement": "Quina doble responsabilitat assumeix el conductor d’un vehicle de bombers?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.3. Reptes i responsabilitats del conductor\n\nEl conductor d’un vehicle de bombers assumeix una doble responsabilitat: la seguretat de tot l’equip i la correcta arribada al lloc del servei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El manteniment del parc i la coordinació sanitària",
+      "B": "Cap de les anteriors és correcta",
+      "C": "La gestió del personal i del material del magatzem",
+      "D": "La seguretat de l’equip i la correcta arribada al servei"
+    }
+  },
+  {
+    "id": "racord_0813b0fc-292f-4ddc-b05f-141cc32f185d",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’ordre dins la cabina:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nEstà prohibit descordar-se el cinturó durant la marxa per posar-se guants, emissora o altres elements. Tot el material dins la cabina ha d’estar ben assegurat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es permet descordar-se breument per ajustar l’equip",
+      "B": "No s’ha de descordar el cinturó durant la marxa",
+      "C": "Els ajustaments no han de comprometre la posició asseguda",
+      "D": "El material de la cabina ha d’estar ben assegurat"
+    }
+  },
+  {
+    "id": "racord_32431978-1dd4-4127-a5ad-5dc9ad5fbc1a",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la reductora:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.1. Adaptació del vehicle\n\nLa reductora mai no s’ha de connectar amb el vehicle en moviment, ja que podria provocar avaries greus a la transmissió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal aturar completament el vehicle",
+      "B": "Els engranatges han d’encaixar correctament",
+      "C": "Pot provocar avaries greus a la transmissió",
+      "D": "Es pot connectar amb el vehicle en moviment si circula lentament"
+    }
+  },
+  {
+    "id": "racord_099f056a-a84b-4b7a-b24c-ed8471297642",
+    "statement": "Com s’ha d’adaptar la velocitat quan plou?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nReduir la velocitat molt per sota dels límits habituals, especialment en corbes, rampes i baixades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir-la al límit màxim de la via",
+      "B": "Reduir-la només en trams rectes",
+      "C": "Augmentar-la per evitar l’aquaplaning",
+      "D": "Reduir-la molt, especialment en corbes, rampes i baixades"
+    }
+  },
+  {
+    "id": "racord_0cd23990-0f61-412d-959d-604e8d7748b2",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els molls pneumàtics:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nEls molls pneumàtics funcionen amb bosses d’aire comprimit. Aquest sistema permet ajustar tant l’altura del vehicle com la duresa de la suspensió segons la càrrega i el tipus de terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són més simples que els molls tradicionals",
+      "B": "Funcionen mitjançant làmines metàl·liques superposades",
+      "C": "Permeten ajustar l’altura i la duresa de la suspensió",
+      "D": "No permeten adaptar-se a la càrrega del vehicle"
+    }
+  },
+  {
+    "id": "racord_709a6781-531d-45ab-b5c4-7afb827e218f",
+    "statement": "Quin és el factor més important de seguretat en un vehicle?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nTot i això, el factor més important de seguretat continua sent la conducció del propi conductor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El control de tracció",
+      "B": "La direcció assistida",
+      "C": "La carrosseria deformable",
+      "D": "La conducció del conductor"
+    }
+  },
+  {
+    "id": "racord_d345a082-35fa-403a-a7d8-af4ad5f52f69",
+    "statement": "Quina característica s’associa a la tracció posterior en vehicles pesants?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.2. Sistemes de tracció i transmissió\n\nÉs habitual en vehicles pesants i ofereix millor estabilitat amb càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofereix menys estabilitat amb càrrega",
+      "B": "Transmet la força a les rodes davanteres",
+      "C": "Ofereix millor estabilitat amb càrrega",
+      "D": "És exclusiva dels vehicles lleugers"
+    }
+  },
+  {
+    "id": "racord_e907e693-069a-41dc-b578-74c068af09bc",
+    "statement": "Quin sistema evita el bloqueig de les rodes en una frenada brusca?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.1. Frenada\n\nSovint incorpora l’ABS, que evita el bloqueig de les rodes en frenades brusques mantenint la capacitat de direcció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ABS",
+      "B": "AWD",
+      "C": "ASR",
+      "D": "PTO"
+    }
+  },
+  {
+    "id": "racord_5ee889bd-165f-41b2-9fa1-f0134d1b11b6",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els dispositius lluminosos prioritaris.",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nEls vehicles de bombers poden incorporar balises giratòries, llums estroboscòpics o sistemes LED, que han de garantir la màxima visibilitat des de diferents angles i distàncies.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han de garantir visibilitat des de diferents angles i distàncies",
+      "B": "Només són necessaris en condicions nocturnes",
+      "C": "Només han de ser visibles des de la part davantera",
+      "D": "Han de substituir completament la senyalització acústica"
+    }
+  },
+  {
+    "id": "racord_bd60c9fc-48e8-47a9-89bd-6aea9d3a46da",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la responsabilitat del conductor:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n1.2. La conducció en el marc operatiu del Cos de Bombers\n\nEl conductor no només assumeix la responsabilitat de portar el vehicle, sinó també de garantir la seguretat del personal i dels altres usuaris de la via.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva responsabilitat acaba en sortir del parc",
+      "B": "Només és responsable de l’estat mecànic",
+      "C": "La seguretat de l’equip correspon exclusivament al comandament",
+      "D": "Ha de garantir la seguretat de l’equip i dels altres usuaris"
+    }
+  },
+  {
+    "id": "racord_41dadd2a-566a-434b-8fd8-b76d894ca0f8",
+    "statement": "On se situa habitualment la reductora d'un vehicle?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.4. Reductora\n\nA l’interior de la caixa de transferència hi sol haver la reductora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al sistema de suspensió",
+      "B": "A l’interior del pont diferencial",
+      "C": "A la caixa de transferència",
+      "D": "A la bomba de frenada"
+    }
+  },
+  {
+    "id": "racord_d8eb8c3d-f401-46a9-a6de-d23ec8450d74",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la cadena cinemàtica:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nPont diferencial: reparteix la força entre les dues rodes motrius i permet que girin a velocitats diferents. Rodes: són el punt final, on es transforma l’energia en moviment lineal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pont diferencial genera l’energia del vehicle",
+      "B": "Les rodes transformen l’energia en moviment lineal",
+      "C": "El diferencial reparteix la força entre rodes motrius",
+      "D": "Les rodes són el punt final de la cadena cinemàtica"
+    }
+  },
+  {
+    "id": "racord_266c8c1c-79ba-4b37-8a76-3fd4cc305535",
+    "statement": "Quins efectes principals provoca la pluja en la conducció?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nProvoca una disminució considerable de l’adherència dels pneumàtics, allarga la distància de frenada i redueix notablement la visibilitat del conductor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Menys adherència, menys distància de frenada i més visibilitat",
+      "B": "Menys adherència, més distància de frenada i menys visibilitat",
+      "C": "Més adherència, menys distància de frenada i més visibilitat",
+      "D": "Més adherència, més distància de frenada i menys visibilitat"
+    }
+  },
+  {
+    "id": "racord_dc00190c-2a36-47db-8a1a-d84fd37ac582",
+    "statement": "Quina funció tenen els pretensors del cinturó?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nS’activen automàticament en detectar una frenada brusca, tensant el cinturó i augmentant la protecció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir el reposacaps a l’alçada correcta",
+      "B": "Inflar una bossa d’aire davant de l’ocupant",
+      "C": "Tensar el cinturó en detectar una frenada brusca",
+      "D": "Destensar el cinturó abans d’un impacte"
+    }
+  },
+  {
+    "id": "racord_acf3b09f-3450-42bb-8b32-ce0eb0b0adb6",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre el control de tracció:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nRedueix el parell motor, talla la injecció de combustible o aplica fre selectiu a la roda que ha perdut adherència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actua únicament sobre els cinturons de seguretat",
+      "B": "Manté sempre el parell motor encara que les rodes patinin",
+      "C": "Pot reduir el parell motor o aplicar fre selectiu",
+      "D": "Només funciona quan el vehicle està aturat"
+    }
+  },
+  {
+    "id": "racord_debb92c2-c7b4-4928-85fb-841479484172",
+    "statement": "Quina funció té la presa de força?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.7. Presa de força\n\nLa presa de força és un mecanisme que aprofita l’energia de la cadena cinemàtica per moure elements auxiliars del camió, com la bomba d’aigua o els sistemes hidràulics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Moure elements auxiliars amb l’energia de la cadena cinemàtica",
+      "B": "Bloquejar automàticament els diferencials",
+      "C": "Adaptar les revolucions del motor a cada marxa",
+      "D": "Reduir el balanceig del vehicle en corbes"
+    }
+  },
+  {
+    "id": "racord_30f03cd2-2877-4a9a-9d18-3979bde60193",
+    "statement": "Quin sistema de tracció és imprescindible per circular fora d’asfalt?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.1. Adaptació del vehicle\n\nPer circular fora d’asfalt és imprescindible utilitzar vehicles amb tracció total (4x4), que poden ser opcionals o permanents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La tracció posterior 4x2",
+      "B": "La tracció simple amb reductora",
+      "C": "La tracció davantera 4x2",
+      "D": "La tracció total 4x4"
+    }
+  },
+  {
+    "id": "racord_0e3609d3-a906-415d-a001-bde036aee33b",
+    "statement": "Quan s’han d’activar els bloquejadors de diferencial?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.3. Ús dels bloquejadors de diferencials\n\nSempre s’han de bloquejar abans d’entrar en una zona complicada i mai quan el vehicle ja està encallat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan es torna a un terreny adherent",
+      "B": "Després d’haver superat l’obstacle",
+      "C": "Quan el vehicle ja està encallat",
+      "D": "Abans d’entrar en la zona complicada"
+    }
+  },
+  {
+    "id": "racord_a4f9e0cb-23df-408a-9ae6-504723adf3b0",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la conducció d’emergència:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.1. Definició i finalitat\n\nS’autoritza l’ús de senyals acústiques i lluminoses per facilitar la circulació i es poden aplicar excepcions a la normativa general del trànsit —sempre amb criteri i responsabilitat—.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les excepcions de trànsit s’han d’aplicar amb criteri i responsabilitat",
+      "B": "Els senyals prioritaris permeten assumir qualsevol risc",
+      "C": "La responsabilitat correspon als altres usuaris de la via",
+      "D": "Les normes de trànsit deixen d’aplicar-se completament"
+    }
+  },
+  {
+    "id": "racord_4b484916-843f-47d0-87d0-7d1be148075f",
+    "statement": "Quina és la finalitat principal de la conducció d’emergència?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.1. Definició i finalitat\n\nL’objectiu de la conducció d’emergència no és només arribar ràpid, sinó fer-ho de manera segura i operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Arribar en el mínim temps a qualsevol preu",
+      "B": "Reduir únicament el temps de trajecte",
+      "C": "Circular sempre a la velocitat màxima",
+      "D": "Arribar de manera segura i operativa"
+    }
+  },
+  {
+    "id": "racord_17dee045-2453-4813-bf0e-5a2bb4ad0698",
+    "statement": "Qui valora si cal portar tot l’EPI abans del trajecte?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nEl cap de sortida és qui valora si cal portar tot l’EPI abans del trajecte o es pot completar un cop arribats al lloc d’intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap de sortida",
+      "B": "El responsable del taller",
+      "C": "El conductor",
+      "D": "El membre m��s antic"
+    }
+  },
+  {
+    "id": "racord_ffad8636-bc49-497d-8bd4-a2ff4b12a949",
+    "statement": "Quina funció tenen els bloquejadors de diferencial en baixa adherència?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.3. Ús dels bloquejadors de diferencials\n\nPermeten repartir de manera equilibrada la força del motor a les rodes, evitant que només girin les que tenen menys adherència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la velocitat de totes les rodes",
+      "B": "Enviar tota la força a la roda que patina",
+      "C": "Desconnectar les rodes amb més adherència",
+      "D": "Repartir la força i evitar que girin només les rodes sense adherència"
+    }
+  },
+  {
+    "id": "racord_18f57d59-67fa-4020-a516-f0b9a6a4697e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la conducció amb boira:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.3. Conducció amb boira\n\nLa boira redueix dràsticament el camp de visió i exigeix una concentració visual molt elevada per part del conductor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La boira redueix dràsticament el camp de visió",
+      "B": "La boira amplia el camp de visió i redueix la concentració necessària",
+      "C": "La boira augmenta el risc en avançaments i incorporacions",
+      "D": "La boira exigeix una concentració visual elevada"
+    }
+  },
+  {
+    "id": "racord_6a32b1db-5967-46ee-8066-1ce0a8509d5c",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre una possible avaria de frenada:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.1. Frenada\n\nEl conductor ha de saber reconèixer possibles problemes de frenada, com un pedal excessivament tou o dur, la pèrdua de resposta, sorolls anormals en frenar o la desviació del vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un pedal amb resposta normal indica necessàriament una avaria",
+      "B": "Un pedal excessivament tou pot indicar una avaria",
+      "C": "La desviació del vehicle pot indicar pressions desiguals",
+      "D": "Els sorolls anormals en frenar poden indicar desgast"
+    }
+  },
+  {
+    "id": "racord_629359ef-0182-438f-bba1-6b71feb7a679",
+    "statement": "Què es pretén minimitzar amb una conducció d’emergència adequada?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.1. Definició i finalitat\n\nLa finalitat no és escurçar el temps a qualsevol preu, sinó reduir els riscos en el trajecte i minimitzar el temps global de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només el consum de combustible",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Els riscos del trajecte i el temps global de la intervenció",
+      "D": "Exclusivament el temps de sortida del parc"
+    }
+  },
+  {
+    "id": "racord_127f6000-4e59-492e-b810-72ebb5084159",
+    "statement": "Quina funció té la reductora en una situació de conducció exigent?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.1. Adaptació del vehicle\n\nEs pot fer ús de la reductora per augmentar la força del vehicle sacrificant velocitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la velocitat sacrificant força",
+      "B": "Desconnectar la transmissió dels eixos",
+      "C": "Augmentar la força sacrificant velocitat",
+      "D": "Reduir la tracció sense variar la velocitat"
+    }
+  },
+  {
+    "id": "racord_dcbbb570-b86f-4c3a-b452-08b75ad31678",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’ABS:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEvita que les rodes es bloquegin durant una frenada forta, cosa que permet mantenir la direcció del vehicle i reduir la distància de frenada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actua aplicant i alliberant pressió als frens",
+      "B": "És un sistema de seguretat activa",
+      "C": "Bloqueja les rodes per reduir la distància de frenada",
+      "D": "Permet mantenir la direcció durant una frenada forta"
+    }
+  },
+  {
+    "id": "racord_4d01d5bf-34fc-4898-bad9-4031b664f60c",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els sistemes de tracció:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.2. Sistemes de tracció i transmissió\n\nTracció davantera: és eficient però menys estable en pendents i amb càrrega. Tracció total: essencial en vehicles tot terreny o en escenaris com fang, neu o camins forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La tracció davantera és habitual en vehicles lleugers",
+      "B": "La tracció total és útil en camins forestals",
+      "C": "La tracció total és adequada per al fang",
+      "D": "La tracció davantera és la més estable amb càrrega i en pendents"
+    }
+  },
+  {
+    "id": "racord_2b840a7c-9534-4025-8f8b-c860c6035130",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’arribada al parc:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nA l’arribada, s’han de restaurar les condicions d’operativitat del vehicle i material per garantir la disponibilitat immediata per a un nou servei. I si n’hi ha, comunicar qualsevol incidència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’ha de restaurar l’operativitat del material",
+      "B": "S’ha de restaurar l’operativitat del vehicle",
+      "C": "Les incidències poden deixar-se sense comunicar fins a la revisió mensual",
+      "D": "Cal garantir la disponibilitat per a un nou servei"
+    }
+  },
+  {
+    "id": "racord_fb3888fd-0ea0-41ed-a913-8ee103ebf44c",
+    "statement": "Què cal fer en un vehicle per passar de 4H a 4L?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.4. Reductora\n\nPer passar de 4H a 4L o de 4L a 4H, cal aturar-se completament i passar per punt mort.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejar primer el diferencial anterior",
+      "B": "Aturar-se completament i passar per punt mort",
+      "C": "Accelerar suaument sense passar per punt mort",
+      "D": "Circular a menys de 40 km/h i girar el volant"
+    }
+  },
+  {
+    "id": "racord_91235f50-b813-4437-9b1b-01e071ceb5fa",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre les prioritats fora d’asfalt:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.6. Consideracions finals\n\nLa prevenció de riscos, l’anticipació i la protecció del vehicle han de ser sempre prioritàries en qualsevol desplaçament fora de l’asfalt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La prevenció només és necessària en pendents",
+      "B": "Cal prioritzar la velocitat per damunt de la protecció",
+      "C": "Cal prioritzar la prevenció, l’anticipació i la protecció del vehicle",
+      "D": "L’anticipació és secundària en vehicles 4x4"
+    }
+  },
+  {
+    "id": "racord_8c8425e3-8cd1-4b1c-a602-951159e6d053",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la prioritat de pas en conducció d'emergència:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nLa prioritat de pas només és efectiva quan el vehicle circula amb els senyals lluminosos i acústics activats simultàniament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Depèn únicament de la velocitat del vehicle",
+      "B": "Requereix només els senyals acústics",
+      "C": "Requereix senyals lluminosos i acústics activats simultàniament",
+      "D": "Requereix només els senyals lluminosos"
+    }
+  },
+  {
+    "id": "racord_57f48ef9-55bf-4359-8868-4a048f191469",
+    "statement": "Per què s’ha d’evitar aturar-se a mitja pujada?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.4. Tècnica de conducció recomanada\n\nProcurar no aturar-se a mitja pujada, ja que podria resultar complicat reprendre la marxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè es desconnecta automàticament el 4x4",
+      "B": "Perqu�� augmenta el radi de gir",
+      "C": "Perquè pot ser difícil reprendre la marxa",
+      "D": "Perquè s’activa la reductora"
+    }
+  },
+  {
+    "id": "racord_555577e4-2b8d-4074-bec3-106768ba34af",
+    "statement": "Què engloba la seguretat activa d’un vehicle?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nLa seguretat activa engloba tots els elements que ajuden a prevenir i evitar l’accident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els elements que mantenen rígid l’habitacle durant l’impacte",
+      "B": "Els elements que ajuden a prevenir l’accident",
+      "C": "Els dispositius que avisen els serveis d’emergència després del xoc",
+      "D": "Els elements que redueixen les lesions després de l’accident"
+    }
+  },
+  {
+    "id": "racord_c1481335-2b7b-4fd8-8930-bb7c002d5250",
+    "statement": "Durant quant de temps han de portar el cinturó els ocupants?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nTots els ocupants han de portar el cinturó de seguretat cordat durant tot el trajecte, sense excepció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només en vies interurbanes",
+      "B": "Només durant la sortida urgent",
+      "C": "Durant tot el trajecte",
+      "D": "Fins que el vehicle abandona el parc"
+    }
+  },
+  {
+    "id": "racord_321d8463-eb5e-40c2-bd6a-227e17eaa174",
+    "statement": "Quins factors són essencials per interpretar correctament un camí forestal?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.2. Coneixements del terreny\n\nPer aquest motiu, la lectura del terreny i l’experiència prèvia són essencials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nivell de combustible i la càrrega",
+      "B": "La senyalització i l’amplada de la via",
+      "C": "La lectura del terreny i l’experiència prèvia",
+      "D": "La velocitat i la potència del vehicle"
+    }
+  },
+  {
+    "id": "racord_5b0196c0-851a-4597-8c65-a932fb0b4dda",
+    "statement": "Quina funció té la caixa de canvis?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nCaixa de canvis (transmissió): adapta les revolucions del motor per obtenir més força o més velocitat segons la marxa escollida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Adaptar les revolucions per obtenir força o velocitat",
+      "B": "Absorbir els impactes produïts pel terreny",
+      "C": "Generar l’energia que impulsa directament les rodes",
+      "D": "Repartir la força entre les dues rodes motrius"
+    }
+  },
+  {
+    "id": "racord_3cdedccc-e67a-438d-ba61-56df392ce612",
+    "statement": "Quines mesures bàsiques exigeix la conducció amb boira?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.3. Conducció amb boira\n\nCal utilitzar la il·luminació adequada, evitar els llums llargs, reduir molt considerablement la velocitat, i ampliar la distància de seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Il·luminació adequada, menys velocitat i més distància",
+      "B": "Llums llargs, més velocitat i menys distància",
+      "C": "Antiboira posterior i distància habitual",
+      "D": "Només llums de posició i velocitat constant"
+    }
+  },
+  {
+    "id": "racord_c895213e-c061-48fe-af6f-516385652b07",
+    "statement": "Quina funció compleixen el palier i l’arbre de transmissió?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nPalier i arbre de transmissió: transmeten el moviment de la caixa de canvis cap als eixos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Adaptar les revolucions del motor a cada marxa",
+      "B": "Permetre que les rodes frenin a velocitats diferents",
+      "C": "Transmetre el moviment dels eixos cap a la caixa",
+      "D": "Transmetre el moviment de la caixa cap als eixos"
+    }
+  },
+  {
+    "id": "racord_3dc4818e-398b-4a37-a54b-01c5e834cbf5",
+    "statement": "Quin sistema és especialment útil en baixades per no sobrecarregar els frens?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.1. Frenada\n\nTambé és habitual l’ús del fre motor, especialment útil en baixades per reduir la velocitat sense sobrecarregar el sistema de frens.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fre motor",
+      "B": "Embragatge",
+      "C": "Fre de mà",
+      "D": "Diferencial"
+    }
+  },
+  {
+    "id": "racord_8d4b4924-d84c-4d6c-b465-abfde5f4e27f",
+    "statement": "Com actua l’ABS sobre els frens?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nFunciona alliberant i aplicant pressió als frens moltes vegades per segon.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenint una pressió constant fins a l’aturada",
+      "B": "Tallant la injecció de combustible",
+      "C": "Frenant només les rodes posteriors",
+      "D": "Alliberant i aplicant pressió repetidament"
+    }
+  },
+  {
+    "id": "racord_1647c2a2-c362-4575-a5c8-4380efc6334d",
+    "statement": "Quina il·luminació s’ha d’utilitzar amb pluja intensa?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.2. Conducció amb pluja\n\nFer ús correcte de la il·luminació activant els llums curts i, si cal, els llums antiboira posteriors, però evitar els llums llargs si hi ha pluja intensa que pugui reflectir-se.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només llums de posició",
+      "B": "Llums curts i, si cal, antiboira posteriors",
+      "C": "Cap llum si és de dia",
+      "D": "Llums llargs i antiboira davanters sempre"
+    }
+  },
+  {
+    "id": "racord_62ca380a-0480-4547-bde3-f977e91dfb4e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el bloqueig de diferencials.",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5.2. Bloquejadors de diferencial\n\nÉs molt important no circular amb diferencials bloquejats en terrenys adherents (com asfalt), ja que pot provocar trencaments de paliers o desgast excessiu de les rodes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En carreteres normals no s’han de bloquejar",
+      "B": "En asfalt sec millora la maniobrabilitat i redueix el radi de gir",
+      "C": "Pot augmentar el radi de gir",
+      "D": "En terreny adherent pot provocar trencaments de paliers"
+    }
+  },
+  {
+    "id": "racord_780a86a7-8f6c-4c3e-9845-01cb857764d8",
+    "statement": "Quin element controla el moviment dels molls d'un vehicle?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.2. Suspensió\n\nEls amortidors treballen amb oli o gas comprimit, i s’encarreguen de controlar el moviment dels molls.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Paliers",
+      "B": "Amortidors",
+      "C": "Diferencials",
+      "D": "Retardadors"
+    }
+  },
+  {
+    "id": "racord_7cc169d7-012e-4889-8abc-61dc6b98b46f",
+    "statement": "En la tracció posterior d'un vehicle, quines rodes reben la força?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.2. Sistemes de tracció i transmissió\n\nTracció posterior (propulsió): la força es transmet a les rodes del darrere.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Davanteres",
+      "B": "Laterals",
+      "C": "Directrius",
+      "D": "Posteriors"
+    }
+  },
+  {
+    "id": "racord_83b03d57-04d7-4fea-9a44-8de85db284fe",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’ús de la sirena d'un vehicle en emergència:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.1. Senyalització acústica: tipologies, normativa i ús recomanat\n\nExisteixen diferents tipus de senyal acústic (com el so intermitent, altern o modulable), i és fonamental que el conductor conegui quin és més adequat segons la situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El mateix tipus de senyal és adequat en qualsevol entorn",
+      "B": "El tipus de senyal s’ha d’adaptar a la situació de circulació",
+      "C": "El so intermitent substitueix la senyalització lluminosa",
+      "D": "El so modulable només es pot utilitzar en vies interurbanes"
+    }
+  },
+  {
+    "id": "racord_a98be885-3fd1-4881-911b-9e9bf3d95a23",
+    "statement": "Quina actuació correspon als trams de fang, gel o sorra?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.5. Zones amb risc\n\nTrams de fang, gel o sorra: augmentar la distància de seguretat i actuar amb suavitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desactivar la tracció total",
+      "B": "Reduir la distància i accelerar",
+      "C": "Augmentar la distància i actuar amb suavitat",
+      "D": "Frenar bruscament abans de cada obstacle"
+    }
+  },
+  {
+    "id": "racord_7d097ed0-d04c-48b2-9649-ea82d2b41d61",
+    "statement": "Quina característica defineix un diferencial autoblocant?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5.1. Tipus de diferencials\n\nEls diferencials autoblocants es bloquegen automàticament quan detecten pèrdua de tracció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No disposa de cap mecanisme de bloqueig",
+      "B": "Es bloqueja automàticament en detectar pèrdua de tracció",
+      "C": "Només es bloqueja manualment amb el vehicle aturat",
+      "D": "Es bloqueja sempre que es circula per asfalt"
+    }
+  },
+  {
+    "id": "racord_bb93f259-6996-4ca5-8522-a5f2782c7784",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la prioritat de pas en conducció d'emergència:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.2. Senyalització visual: tipus de llums, ubicació i visibilitat\n\nLa prioritat de pas només és efectiva quan el vehicle circula amb els senyals lluminosos i acústics activats simultàniament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els llums prioritaris activats sense sirena garanteixen la prioritat",
+      "B": "La prioritat exigeix senyalització visual activa",
+      "C": "La prioritat exigeix senyalització acústica activa",
+      "D": "Els dos tipus de senyalització han d’actuar alhora"
+    }
+  },
+  {
+    "id": "racord_1eb0730a-c827-4aba-b721-d30a75227145",
+    "statement": "Què s’ha de verificar abans de travessar un gual o torrent?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.1.5. Zones amb risc\n\nTravessa de guals o torrents: verificar prèviament la profunditat i la força de l’aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la temperatura de l’aigua",
+      "B": "La profunditat i la força de l’aigua",
+      "C": "La velocitat màxima de la via",
+      "D": "Només l’amplada del gual"
+    }
+  },
+  {
+    "id": "racord_e2ac06fd-3053-41a9-9fdd-bb845bc0c643",
+    "statement": "Quin criteri s’ha de mantenir durant el retorn al parc?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.2. Criteris generals de seguretat\n\nEl nivell de concentració no pot disminuir durant el retorn al parc. Cal mantenir la conducció preventiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prioritzar la rapidesa per recuperar l’operativitat",
+      "B": "Mantenir la concentració i la conducció preventiva",
+      "C": "Desactivar els sistemes de seguretat activa",
+      "D": "Reduir la concentració perquè el servei ha finalitzat"
+    }
+  },
+  {
+    "id": "racord_4e628543-e0d3-4150-8fde-ebdc0e7c6ab4",
+    "statement": "Quin avantatge proporciona l’ABS durant una frenada brusca?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.3.1. Frenada\n\nL’ABS evita el bloqueig de les rodes en frenades brusques mantenint la capacitat de direcció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Manté la capacitat de direcció",
+      "B": "Activa el fre d’estacionament",
+      "C": "Augmenta el bloqueig de les rodes",
+      "D": "Desconnecta la direcció assistida"
+    }
+  },
+  {
+    "id": "racord_cb082dc0-bb5a-4e29-a072-ea404998c987",
+    "statement": "Quin dels elements següents forma part de la seguretat activa?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nA més, els vehicles actuals incorporen cada vegada més ajudes a la conducció que formen part de la seguretat activa, com: avisador de canvi involuntari de carril, detecció de circulació en sentit contrari, detecció d’angle mort, fars adaptatius i assistència a la frenada d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vidre laminat",
+      "B": "Detecció d’angle mort",
+      "C": "Carrosseria deformable",
+      "D": "Cinturó de tres punts"
+    }
+  },
+  {
+    "id": "racord_b3a06bc3-106e-4539-b982-665e5420db08",
+    "statement": "Quins aspectes de la conducció es veuen especialment afectats pel pes i el centre de gravetat elevat?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.2. Particularitats de conducció dels vehicles de bombers\n\nAfecta greument la maniobrabilitat, el fre i l’estabilitat, sobretot en corbes, rotondes i situacions de frenada sobtada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només el consum de combustible",
+      "B": "Exclusivament la visibilitat posterior",
+      "C": "La maniobrabilitat, la frenada i l’estabilitat",
+      "D": "La comunicació entre vehicles"
+    }
+  },
+  {
+    "id": "racord_e983966e-6378-46ec-be96-c915a216af98",
+    "statement": "Què és la cadena cinemàtica?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.1. Cadena cinemàtica\n\nLa cadena cinemàtica és el conjunt de components que transmeten la força generada pel motor fins a les rodes, transformant l’energia mecànica en moviment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El mecanisme que distribueix el pes entre els eixos",
+      "B": "El sistema que uneix exclusivament la frenada i la suspensió",
+      "C": "El conjunt que transmet la força del motor a les rodes",
+      "D": "El conjunt que transmet la força de les rodes al motor"
+    }
+  },
+  {
+    "id": "racord_662f1687-311d-4a8b-b160-17af07373959",
+    "statement": "Com ha de ser la conducció d’un vehicle de bombers?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.2. Particularitats de conducció dels vehicles de bombers\n\nTot plegat exigeix una conducció tècnica, anticipada i precisa, adaptada a les condicions del vehicle, meteorològiques i del terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ràpida, brusca i centrada només en el temps",
+      "B": "Basada únicament en l’experiència personal",
+      "C": "Tècnica, anticipada, precisa i adaptada a les condicions",
+      "D": "Idèntica a la d’un turisme convencional"
+    }
+  },
+  {
+    "id": "racord_5419cfd6-de2e-447a-bbd3-3e08e311b5fa",
+    "statement": "Quin mecanisme permet que les rodes motrius girin a velocitats diferents?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.5. Diferencials\n\nCal un mecanisme que permeti girs independents però que simultàniament permeti transmetre el parell motor. Aquest mecanisme s’anomena diferencial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Embragatge",
+      "B": "Amortidor",
+      "C": "Reductora",
+      "D": "Diferencial"
+    }
+  },
+  {
+    "id": "racord_0938d865-95b8-4455-a0eb-2626117651a6",
+    "statement": "Quina funció principal té el sistema ABS?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEvita que les rodes es bloquegin durant una frenada forta, cosa que permet mantenir la direcció del vehicle i reduir la distància de frenada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar el bloqueig de les rodes en una frenada forta",
+      "B": "Corregir la trajectòria actuant sobre rodes concretes",
+      "C": "Tensar automàticament el cinturó en una frenada brusca",
+      "D": "Evitar que les rodes patinin durant una acceleració forta"
+    }
+  },
+  {
+    "id": "racord_4dcf3630-7c98-465f-90bb-290bb360ccaa",
+    "statement": "En una intervenció relacionada amb una possible conducta d’autòlisi, quan es poden desactivar els senyals prioritaris?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.2. Ús de sirenes i llums\n\nEn la fase final del desplaçament i sempre que no comprometi la seguretat viària, els vehicles desactivin les sirenes i els llums prioritaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només després d’arribar al lloc de la intervenció",
+      "B": "En l’aproximació final, si la seguretat viària ho permet",
+      "C": "Des de la sortida del parc, independentment del trànsit",
+      "D": "Sempre que el servei sigui nocturn"
+    }
+  },
+  {
+    "id": "racord_7570fb52-84b8-40ed-9af6-3f08ba420365",
+    "statement": "Com protegeix la carrosseria deformable els ocupants?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nEstà dissenyada amb zones d’absorció programada d’energia, que es deformen progressivament en cas d’impacte. Aquest efecte redueix la força que arriba a l’habitacle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentant la força que arriba a la cabina",
+      "B": "Absorbint energia i reduint la força que arriba a l’habitacle",
+      "C": "Mantenint tota la carrosseria completament rígida",
+      "D": "Activant automàticament el sistema eCall"
+    }
+  },
+  {
+    "id": "racord_52f04a6b-de9d-457f-ab63-85fea58fade5",
+    "statement": "Quin mecanisme permet obtenir màxima tracció sacrificant velocitat?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n5.4. Reductora\n\nLa reductora és un conjunt d’engranatges que disminueixen la velocitat de gir de les rodes en relació amb el motor. Això permet obtenir màxima tracció sacrificant velocitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Diferencial",
+      "B": "Amortidor",
+      "C": "Embragatge",
+      "D": "Reductora"
+    }
+  },
+  {
+    "id": "racord_2aa9e1e5-cbc1-4b5f-adc2-f255de778b2c",
+    "statement": "Quina actuació pot efectuar l’ESP per corregir la trajectòria?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n6.1. Elements de seguretat activa i passiva\n\nActua automàticament sobre els frens de rodes concretes i, si cal, reduint la potència del motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejar simultàniament les quatre rodes",
+      "B": "Frenar rodes concretes i reduir la potència",
+      "C": "Tensar els cinturons i activar els airbags",
+      "D": "Augmentar el parell motor a la roda que patina"
+    }
+  },
+  {
+    "id": "racord_450e2345-2fa7-496c-bbba-96493694baab",
+    "statement": "Quina velocitat no s’hauria de superar amb les cadenes de neu instal·lades?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n4.4. Conducció amb neu i gel\n\nAmb les cadenes posades cal evitar superar els 40 o 50 km/h.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El límit màxim de la via",
+      "B": "Aproximadament 80 o 90 km/h",
+      "C": "Aproximadament 60 o 70 km/h",
+      "D": "Aproximadament 40 o 50 km/h"
+    }
+  },
+  {
+    "id": "racord_ede7681b-b51b-454e-a353-d1326108d21b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la circulació en comboi.",
+    "correct": "D",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n2.4. Circulació en comboi i coordinació entre vehicles\n\nCircular en comboi exigeix una disciplina operativa estricta: no fer avançaments innecessaris, mantenir la línia de visió entre vehicles, facilitar la incorporació a vies ràpides i no bloquejar cruïlles o interseccions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’ha de facilitar la incorporació a vies ràpides",
+      "B": "Cal mantenir la línia de visió entre vehicles",
+      "C": "S’han d’evitar els avançaments innecessaris",
+      "D": "Cal bloquejar les interseccions per evitar que el comboi se separi"
+    }
+  },
+  {
+    "id": "racord_31044d3b-4769-4db2-9b93-783696ece998",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la senyalització acústica en conducció d'emergència:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.1.1. Senyalització acústica: tipologies, normativa i ús recomanat\n\nLa normativa actual estableix que només poden utilitzar-se durant la prestació de serveis d’urgència, i sempre de forma simultània amb la senyalització lluminosa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La sirena pot utilitzar-se sola per obtenir prioritat de pas",
+      "B": "El seu ús ha de respondre a criteris operatius",
+      "C": "La sirena s’utilitza en serveis d’urgència",
+      "D": "La senyalització acústica acompanya la lluminosa"
+    }
+  },
+  {
+    "id": "racord_c99bd4ec-78ad-47e5-9084-212a68a2db64",
+    "statement": "Quan es recomana reduir l’ús de la senyalització prioritària?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.002 V1.2026\n\n3.2. Ús de sirenes i llums\n\nReduir-ne l’ús en zones escolars o durant la nit, quan pot generar alarma innecessària o confusió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "T19 Conducció i mecànica de vehicles d'emergència",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En totes les vies interurbanes",
+      "B": "En zones escolars o durant la nit",
+      "C": "En qualsevol aproximació a una intersecció",
+      "D": "En autopistes amb trànsit fluid"
+    }
+  }
+]

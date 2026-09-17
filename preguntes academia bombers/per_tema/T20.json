@@ -1,0 +1,122 @@
+[
+  {
+    "id": "academia_sim92_q85",
+    "simulacre": "Simulacre 92",
+    "num_pregunta": 85,
+    "statement": "Com es realitza la prova de continuïtat en un circuit elèctric amb l'ajuda d'un polímetre?",
+    "correct": "B",
+    "explanation": "Per efectuar una comprovació de continuïtat, s'han de seguir els passos següents:\n\n1.Assegurar la desconnexió del circuit: Si el tram del circuit o el component a verificar està muntat en un sistema, cal\ndesconnectar almenys un dels seus extrems. A més, cal assegurar-se que elcircuit no està connectat a l'alimentació\nelèctrica, ja que això podria generar una lectura errònia.\n\n2.Connectar les puntes de prova alpolímetre: La punta de prova negra s'ha de connectar al born COM, mentre que la\npunta vermella es connecta al born VΩHz.\n\n3.Ajustar laconfiguració del polímetre: Girar el selector de funcions finsa la posició indicada pels símbols d'una nota\nmusical i un díode.\n\n4.Realitzar la medició: Col·locar les puntes de prova als dos extrems del circuito component a verificar. Si la resistència\nentre aquests extrems és inferior a 50Ω, el polímetre emetrà un senyal acústic, indicant que hi ha continuïtat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 92",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Col·locar el selector de funcions en l'escala de 200m de lazona d'escales itocar amb les puntes de prova entre els dos extrems del circuito component on volem comprovar lacontinuïtat",
+      "B": "Desconnectar almenys un dels extrems iassegurar-se que elcircuit està desconnectat de l'alimentació elèctrica. Connectar lapunta de prova negra al born COM ila punta de prova vermella al born VΩHz",
+      "C": "Obrir el circuitpel tram per on es vol mesurar deixant accessibles els dos extrems iconnectar el circuita l'alimentació per realitzarla lectura",
+      "D": "Totes les respostes són incorrectes"
+    }
+  },
+  {
+    "id": "academia_sim125_q27",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 27,
+    "statement": "Quina de les següents correspon a un EPI de categoria II?",
+    "correct": "B",
+    "explanation": "Categoria III– Protegeix davant de riscos greus per la salut o mortals, susceptibles de provocar danys irreversibles pel\ntreballador. Inclou, entre d’altres:\n\n− Exposició a atmosferes tòxiques o nocives: equips de respiració autònoma (ERA), mascaretes autofiltrants.\n\n− Agressions químiques o radiacions ionitzants: vestits de protecció química\n\n− Exposició a temperatures extremes (superiors a 100 °C o inferiors a –50 °C): jaquetó isobrepantalons d’intervenció,\nguants de protecció criogènica\n\n− Caigudes en alçada: arnesos anticaigudes, dissipadors d’energia\n\n− Contacte amb tensió elèctrica: guants dielèctrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Folre polar",
+      "B": "Calçat de seguretat",
+      "C": "Mascaretes autofiltrants",
+      "D": "Sobrepantalons d’intervenció"
+    }
+  },
+  {
+    "id": "academia_sim125_q69",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 69,
+    "statement": "En context de col·lapses estructurals, quin senyal acústic indica que s'ha d'evacuar immediatament la zona per un perill imminent?",
+    "correct": "C",
+    "explanation": "Senyals acústics:\n\nEVACUAR www.academiabombers.com\n\nPatró acústic: 3 tocs curts (1 segon).\nSignificat: Evacuació immediata de lazona per perill imminent.\n\nATURAR OPERACIONS /SILENCI\n\nPatró acústic: 1 toc llarg (3 segons).\nSignificat: Aturada de totes les operacions, mantenint les posicions.\n\nCONTINUAR OPERACIONS\n\n\n\n\n\n 24\nAcadèmia Bombers Simulacre 125\n\n\n\nPatró acústic: 1 toc llarg (3 segons) i 1 toc curt.\nSignificat: Reprendre les operacions perquè la situació està estabilitzada.\n\nS.O.S.\n\nPatró acústic: Tocs curts repetitius.\nSignificat: Senyal de socors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 toc llarg(3 segons)",
+      "B": "1 toc llarg(3 segons) i1 toc curt (1 segon)",
+      "C": "3 tocs curts (1 segon) www.academiabombers.com",
+      "D": "2 tocs llargs (3segons) i2 tocs curts (1 segon)"
+    }
+  },
+  {
+    "id": "academia_sim126_q42",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 42,
+    "statement": "Quin vestit d'intervenció usarem preferentment els bombers per intervencions en incendis forestals?",
+    "correct": "C",
+    "explanation": "Vestit d’intervenció pesant:\n\nÚs principal: intervencions en incendis estructurals iurbans, amb exposició directa a flames, altes temperatures icalor\nradiant intensa.\n\nVestit d’intervenció lleuger:\n\nÚs principal: intervencions en incendis forestals, assistències tècniques i rescat en exteriors, on és prioritariel confort ila\nmobilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vestit d’intervenció pesant",
+      "B": "És indiferent, mentre siguin de Categoria III",
+      "C": "Vestit d’intervenció lleuger",
+      "D": "És indiferent, mentre siguin de Categoria I"
+    }
+  },
+  {
+    "id": "academia_sim127_q3",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 3,
+    "statement": "Durant el trossejament prolongat de troncs secs es genera una quantitat important de pols de fusta. Quina protecció respiratòria cal emprar?",
+    "correct": "D",
+    "explanation": "Davant l'exposició a pols de fusta lamesura prevista és l'ús d'una màscara filtranttipus FFP3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Màscara autofiltranttipus FFP1",
+      "B": "Màscara autofiltranttipus FFP2",
+      "C": "Mascareta quirúrgica d'un sol ús",
+      "D": "Màscara filtranttipusFFP3"
+    }
+  },
+  {
+    "id": "academia_sim128_q65",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 65,
+    "statement": "En un pàrquing amb fum dens, un bomber col·loca una caputxa de rescat a una persona sense protecció respiratòria. Quina afirmació és INCORRECTA?",
+    "correct": "C",
+    "explanation": "La caputxa de rescat no filtral'aireambient: rep aire respirable mitjançant la connexió a l'ERA del bomber, per la qual\ncosa el subministrament es comparteix il'autonomia disponible per a l'evacuació disminueix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'aireque respira lapersona prové de la connexió a l'ERA del bomber",
+      "B": "El temps disponible per a l'evacuació es redueix en compartir el subministrament",
+      "C": "La caputxa incorpora un filtrepropi que depura el fum de l'atmosfera de l'entorn",
+      "D": "No està pensada per a un ús prolongat, sinó per a situacions d'emergència"
+    }
+  }
+]

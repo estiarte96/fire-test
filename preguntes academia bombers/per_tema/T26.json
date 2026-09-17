@@ -1,0 +1,82 @@
+[
+  {
+    "id": "academia_sim3_q29",
+    "simulacre": "Simulacre 3",
+    "num_pregunta": 29,
+    "statement": "La cisterna ISO es coneix també com a:",
+    "correct": "D",
+    "explanation": "És un tipus de contenidor ja preparat per serestibat. Dins hi conté una cisterna de mésde 450L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis diversos",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "GRG",
+      "B": "CGEM",
+      "C": "Cisterna fixa",
+      "D": "Contenidor cisterna"
+    }
+  },
+  {
+    "id": "academia_sim37_q71",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 71,
+    "statement": "Quindelssegüentstipusdecisternadisposad'unamajorcapacitat,d'acordambl'ADR?",
+    "correct": "A",
+    "explanation": "Cisterna fixa: superior a1.000 L.\nCisterna desmuntable: superior a450 L.\nCisterna ISO (=contenidor cisterna): superior a450 L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis diversos",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La cisterna fixa",
+      "B": "La cisterna ISO",
+      "C": "El contenidor cisterna",
+      "D": "La cisterna desmuntable"
+    }
+  },
+  {
+    "id": "academia_sim47_q60",
+    "simulacre": "Simulacre 47",
+    "num_pregunta": 60,
+    "statement": "Com es designarà un contenidor cisterna de 4.000 litres de capacitat amb matèries amb un punt\nd'inflamació de 17°C?",
+    "correct": "A",
+    "explanation": "ADR9.1.1.2,\"definicions\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis diversos",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TipusFL",
+      "B": "TipusAT",
+      "C": "TipusEX/II",
+      "D": "TipusEX/III"
+    }
+  },
+  {
+    "id": "academia_sim102_q52",
+    "simulacre": "Simulacre 102",
+    "num_pregunta": 52,
+    "statement": "La línia de ferrocarril Lleida - La Pobla de Segur travessa amb un túnel de 3,5 km:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis diversos",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La serra de Pàndols",
+      "B": "La serra de Cavalls",
+      "C": "La serra de Mont-roig",
+      "D": "La serra de Prades"
+    }
+  }
+]

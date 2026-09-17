@@ -1,7 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle } from 'lucide-react';
+import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle, Zap, Shield } from 'lucide-react';
+import FlashcardScreen from './components/FlashcardScreen';
 import './index.css';
+
+// Academies metadata
+export const ACADEMIES_CONFIG = [
+  { id: 'optima', label: 'Òptim Bombers', shortLabel: 'Òptim', icon: '🎯', color: '#3b82f6', badgeClass: 'badge-academy-optima' },
+  { id: 'racord', label: 'Ràcord Girona', shortLabel: 'Ràcord', icon: '🚒', color: '#ef4444', badgeClass: 'badge-academy-racord' },
+  { id: 'academia', label: 'Acadèmia Bombers', shortLabel: 'Acadèmia', icon: '📚', color: '#10b981', badgeClass: 'badge-academy-academia' }
+];
+
+
+export function getAcademyInfo(academyId) {
+  if (academyId === 'oficial') academyId = 'optima';
+  return ACADEMIES_CONFIG.find(a => a.id === academyId) || ACADEMIES_CONFIG[0];
+}
 
 // Anim variants
 const pageVariants = {
@@ -18,6 +32,41 @@ export default function App() {
   const [syncStatus, setSyncStatus] = useState('offline'); // 'synced', 'syncing', 'error', 'offline'
   const [screen, setScreen] = useState(user ? 'home' : 'login');
 
+  // Active academies state
+  const [selectedAcademies, setSelectedAcademies] = useState(() => {
+    const saved = localStorage.getItem('fireTestAcademies');
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed.map(p => p === 'oficial' ? 'optima' : p);
+        }
+      } catch (e) {}
+    }
+    return ['optima', 'racord', 'academia'];
+  });
+
+  const toggleAcademy = (academyId) => {
+    setSelectedAcademies(prev => {
+      let next;
+      if (prev.includes(academyId)) {
+        if (prev.length === 1) return prev; // Mantén almenys una acadèmia activa
+        next = prev.filter(a => a !== academyId);
+      } else {
+        next = [...prev, academyId];
+      }
+      localStorage.setItem('fireTestAcademies', JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const setAllAcademies = (all = true) => {
+    const next = all ? ['optima', 'racord', 'academia'] : ['optima'];
+    setSelectedAcademies(next);
+    localStorage.setItem('fireTestAcademies', JSON.stringify(next));
+  };
+
+
   // Load questions
   useEffect(() => {
     fetch('/preguntes.json')
@@ -25,11 +74,13 @@ export default function App() {
       .then(data => setQuestions(data));
   }, []);
 
+  // Filtered questions based on active academies
+  const filteredQuestions = questions.filter(q => selectedAcademies.includes(q.academy || 'oficial'));
+
   // Load stats
   useEffect(() => {
     if (user) {
       setSyncStatus('syncing');
-      // Intentar carregar des del núvol primer
       fetch(`/api/getStats?user=${encodeURIComponent(user)}`)
         .then(res => {
           if (!res.ok) throw new Error('Error al connectar amb el núvol');
@@ -44,7 +95,6 @@ export default function App() {
               setStats(data);
               localStorage.setItem(`stats_${user}`, JSON.stringify(data));
             } else {
-              // Connexió al núvol correcta, però sense dades prèvies
               const saved = localStorage.getItem(`stats_${user}`);
               if (saved) {
                 try {
@@ -91,7 +141,6 @@ export default function App() {
     localStorage.setItem(`stats_${user}`, JSON.stringify(newStats));
     
     setSyncStatus('syncing');
-    // Intentar desar al núvol de fons
     fetch('/api/saveStats', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -145,6 +194,10 @@ export default function App() {
             stats={stats}
             syncStatus={syncStatus}
             questions={questions}
+            filteredQuestions={filteredQuestions}
+            selectedAcademies={selectedAcademies}
+            onToggleAcademy={toggleAcademy}
+            onSetAllAcademies={setAllAcademies}
             onLogout={logout} 
             onSaveStats={saveStats}
             onStart={(config) => setScreen({ name: 'quiz', config })} 
@@ -152,12 +205,25 @@ export default function App() {
             onViewFavorites={() => setScreen('favorites')}
             onViewSimulacre={() => setScreen('simulacre')}
             onViewThemeSelector={() => setScreen('theme-selector')}
+            onViewFlashcards={() => setScreen('flashcards')}
+          />
+        )}
+        {screen === 'flashcards' && (
+          <FlashcardScreen 
+            key="flashcards"
+            userStats={stats}
+            onSaveStats={saveStats}
+            onHome={() => setScreen('home')}
           />
         )}
         {screen === 'theme-selector' && (
           <ThemeSelectorScreen 
             key="theme-selector"
             questions={questions}
+            filteredQuestions={filteredQuestions}
+            selectedAcademies={selectedAcademies}
+            onToggleAcademy={toggleAcademy}
+            onSetAllAcademies={setAllAcademies}
             userStats={stats}
             onSaveStats={saveStats}
             onSelectTheme={(theme) => setScreen({ name: 'theme-list', theme })}
@@ -169,6 +235,7 @@ export default function App() {
             key={`theme-list-${screen.theme}`}
             theme={screen.theme}
             questions={questions}
+            selectedAcademies={selectedAcademies}
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
@@ -180,7 +247,7 @@ export default function App() {
           <QuizScreen 
             key="quiz"
             config={screen.config}
-            questions={questions}
+            questions={filteredQuestions}
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
@@ -222,7 +289,10 @@ export default function App() {
         {screen === 'simulacre' && (
           <SimulacreScreen 
             key="simulacre"
-            questions={questions}
+            questions={filteredQuestions}
+            allQuestions={questions}
+            selectedAcademies={selectedAcademies}
+            onToggleAcademy={toggleAcademy}
             onHome={() => setScreen('home')}
           />
         )}
@@ -262,7 +332,7 @@ function LoginScreen({ onLogin }) {
           </div>
         </div>
         <h1 style={{ fontSize: 32, fontWeight: 800, marginBottom: 8 }}>FireTest</h1>
-        <p style={{ color: 'var(--text-muted)', marginBottom: 32 }}>Preparació Oposicions</p>
+        <p style={{ color: 'var(--text-muted)', marginBottom: 32 }}>Preparació Oposicions Bombers</p>
         
         <input 
           type="text" 
@@ -289,11 +359,27 @@ function LoginScreen({ onLogin }) {
 }
 
 // ----------------------------------------------------------------------
-// ----------------------------------------------------------------------
 // HOME SCREEN
 // ----------------------------------------------------------------------
-function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats, onStart, onViewFailed, onViewFavorites, onViewSimulacre, onViewThemeSelector }) {
-  const themes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
+function HomeScreen({ 
+  user, 
+  stats, 
+  syncStatus, 
+  questions, 
+  filteredQuestions, 
+  selectedAcademies, 
+  onToggleAcademy, 
+  onSetAllAcademies, 
+  onLogout, 
+  onSaveStats, 
+  onStart, 
+  onViewFailed, 
+  onViewFavorites, 
+  onViewSimulacre, 
+  onViewThemeSelector, 
+  onViewFlashcards 
+}) {
+  const themes = [...new Set(filteredQuestions.map(q => q.theme))].filter(Boolean).sort();
   const [selectedThemes, setSelectedThemes] = useState([]);
   const [mode, setMode] = useState('exam');
   const [examLength, setExamLength] = useState('15');
@@ -311,8 +397,8 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats,
   const failedIds = stats._failedIds || [];
   const favoriteIds = stats._favoriteIds || [];
 
-  const failedInActiveThemes = questions.filter(q => failedIds.includes(q.id) && activeThemes.includes(q.theme)).length;
-  const favoritesInActiveThemes = questions.filter(q => favoriteIds.includes(q.id) && activeThemes.includes(q.theme)).length;
+  const failedInActiveThemes = filteredQuestions.filter(q => failedIds.includes(q.id) && activeThemes.includes(q.theme)).length;
+  const favoritesInActiveThemes = filteredQuestions.filter(q => favoriteIds.includes(q.id) && activeThemes.includes(q.theme)).length;
 
   const handleStart = () => {
     onStart({
@@ -390,6 +476,117 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats,
         </div>
       </div>
 
+      {/* Selector d'Acadèmies / Bancs de Preguntes */}
+      <div className="glass" style={{ padding: 20, marginBottom: 20 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14, flexWrap: 'wrap', gap: 8 }}>
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ fontSize: 15, fontWeight: 700 }}>Bancs de Preguntes</span>
+              <span style={{ fontSize: 12, fontWeight: 800, background: 'rgba(59, 130, 246, 0.2)', color: 'var(--primary)', padding: '2px 8px', borderRadius: 8 }}>
+                {filteredQuestions.length.toLocaleString()} actives
+              </span>
+            </div>
+            <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>Activa o desactiva les preguntes de cada acadèmia per als teus tests</p>
+          </div>
+          <div style={{ display: 'flex', gap: 6 }}>
+            <button 
+              onClick={() => onSetAllAcademies(true)} 
+              style={{ background: 'rgba(255,255,255,0.08)', border: 'none', color: 'var(--primary)', padding: '5px 10px', borderRadius: 8, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}
+            >
+              Totes
+            </button>
+          </div>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 10 }}>
+          {ACADEMIES_CONFIG.map(acad => {
+            const count = questions.filter(q => (q.academy || 'oficial') === acad.id).length;
+            const isSelected = selectedAcademies.includes(acad.id);
+            return (
+              <div 
+                key={acad.id}
+                onClick={() => onToggleAcademy(acad.id)}
+                className={`academy-pill ${isSelected ? `active-${acad.id}` : ''}`}
+                style={{
+                  padding: '12px 14px',
+                  borderRadius: 14,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  gap: 4,
+                  cursor: 'pointer',
+                  border: isSelected ? `1px solid ${acad.color}` : '1px solid rgba(255,255,255,0.08)',
+                  background: isSelected ? `${acad.color}22` : 'rgba(255,255,255,0.02)',
+                  transition: 'all 0.2s',
+                  position: 'relative'
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+                  <span style={{ fontSize: 20 }}>{acad.icon}</span>
+                  <span style={{ 
+                    width: 20, 
+                    height: 20, 
+                    borderRadius: '50%', 
+                    background: isSelected ? acad.color : 'rgba(255,255,255,0.1)', 
+                    color: 'white', 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center', 
+                    fontSize: 12, 
+                    fontWeight: 800 
+                  }}>
+                    {isSelected ? '✓' : ''}
+                  </span>
+                </div>
+                <span style={{ fontWeight: 700, fontSize: 13, color: isSelected ? 'white' : 'var(--text-muted)', marginTop: 4 }}>
+                  {acad.label}
+                </span>
+                <span style={{ fontSize: 11, color: isSelected ? acad.color : 'var(--text-muted)', fontWeight: 600 }}>
+                  {count.toLocaleString()} preguntes
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Featured Banner: Targetes de Memòria & Anki (Tema 20) */}
+      <div 
+        onClick={onViewFlashcards}
+        className="glass" 
+        style={{ 
+          padding: 18, 
+          marginBottom: 14, 
+          cursor: 'pointer',
+          border: '1px solid rgba(236, 72, 153, 0.45)', 
+          background: 'linear-gradient(135deg, rgba(236, 72, 153, 0.18) 0%, rgba(139, 92, 246, 0.25) 100%)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 14,
+          transition: 'all 0.2s',
+          boxShadow: '0 4px 20px rgba(236, 72, 153, 0.2)'
+        }}
+        onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.borderColor = 'rgba(236, 72, 153, 0.8)'; }}
+        onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.borderColor = 'rgba(236, 72, 153, 0.45)'; }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          <div style={{ background: 'linear-gradient(135deg, #ec4899, #8b5cf6)', padding: 12, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 12px rgba(236, 72, 153, 0.35)' }}>
+            <Zap size={26} color="white" />
+          </div>
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ fontWeight: 700, fontSize: 16, color: 'white' }}>Targetes de Memòria & Anki</span>
+              <span style={{ fontSize: 10, fontWeight: 800, background: '#ec4899', color: 'white', padding: '2px 7px', borderRadius: 6 }}>NOU • ANKI</span>
+            </div>
+            <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 3, lineHeight: 1.3 }}>
+              Estudi actiu per temes: comença el joc de memorització o consulta el catàleg de targetes.
+            </p>
+          </div>
+        </div>
+        <ArrowRight size={22} color="#f472b6" style={{ flexShrink: 0 }} />
+      </div>
+
       {/* Featured Banner: Repàs en Llista per Temes */}
       <div 
         onClick={onViewThemeSelector}
@@ -420,7 +617,7 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats,
               <span style={{ fontSize: 10, fontWeight: 800, background: 'var(--primary)', color: 'white', padding: '2px 7px', borderRadius: 6 }}>PROGRÉS DESAT</span>
             </div>
             <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 3, lineHeight: 1.3 }}>
-              Fes totes les preguntes d'un tema en llista (com els HTML) i reprèn-ho quan vulguis.
+              Fes totes les preguntes d'un tema en llista contínua ({filteredQuestions.length.toLocaleString()} preguntes).
             </p>
           </div>
         </div>
@@ -479,19 +676,25 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats,
             </div>
           </div>
           <div style={{ maxHeight: 200, overflowY: 'auto', background: 'rgba(0,0,0,0.2)', borderRadius: 12, padding: 8 }}>
-            {themes.map(t => (
-              <label key={t} className="checkbox-label">
-                <input 
-                  type="checkbox" 
-                  checked={selectedThemes.includes(t)}
-                  onChange={(e) => {
-                    if (e.target.checked) setSelectedThemes([...selectedThemes, t]);
-                    else setSelectedThemes(selectedThemes.filter(x => x !== t));
-                  }}
-                />
-                <span style={{ fontSize: 14 }}>{t}</span>
-              </label>
-            ))}
+            {themes.map(t => {
+              const countInTheme = filteredQuestions.filter(q => q.theme === t).length;
+              return (
+                <label key={t} className="checkbox-label" style={{ justifyContent: 'space-between' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                    <input 
+                      type="checkbox" 
+                      checked={selectedThemes.includes(t)}
+                      onChange={(e) => {
+                        if (e.target.checked) setSelectedThemes([...selectedThemes, t]);
+                        else setSelectedThemes(selectedThemes.filter(x => x !== t));
+                      }}
+                    />
+                    <span style={{ fontSize: 14 }}>{t}</span>
+                  </div>
+                  <span style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600 }}>{countInTheme} preg.</span>
+                </label>
+              );
+            })}
           </div>
         </div>
 
@@ -539,7 +742,6 @@ function HomeScreen({ user, stats, syncStatus, questions, onLogout, onSaveStats,
   );
 }
 
-
 // ----------------------------------------------------------------------
 // QUIZ SCREEN
 // ----------------------------------------------------------------------
@@ -581,7 +783,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
   if (!queue.length) {
     return (
       <div className="flex-center" style={{ height: '70vh', flexDirection: 'column', gap: 16, textAlign: 'center', padding: 20 }}>
-        <p style={{ color: 'var(--text-muted)' }}>No s'han trobat preguntes per als temes seleccionats.</p>
+        <p style={{ color: 'var(--text-muted)' }}>No s'han trobat preguntes per als temes i acadèmies seleccionats.</p>
         <button onClick={onExit} style={{ padding: '12px 24px', borderRadius: 12, background: 'var(--primary)', border: 'none', color: 'white', cursor: 'pointer', fontWeight: 600 }}>
           Tornar a l'inici
         </button>
@@ -601,6 +803,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
   }
 
   const isFav = (userStats._favoriteIds || []).includes(q.id);
+  const acadInfo = getAcademyInfo(q.academy || 'oficial');
 
   // Handling clicks
   const handleOptionClick = (opt) => {
@@ -640,14 +843,13 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
   }, [currentIndex]);
 
   const handleFinishQuiz = () => {
-    // Determinar quines preguntes s'han vist o respost realment
     let maxIdx = Math.max(maxIndexReached, currentIndex);
     if (!isExam && studyState) {
       maxIdx = Math.max(maxIdx, currentIndex);
     }
     
     Object.keys(answers).forEach(id => {
-      const idx = queue.findIndex(item => item.id === parseInt(id));
+      const idx = queue.findIndex(item => String(item.id) === String(id));
       if (idx !== -1) maxIdx = Math.max(maxIdx, idx);
     });
 
@@ -731,9 +933,17 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       </header>
 
       <div className="glass" style={{ padding: 24, marginBottom: 16, position: 'relative' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 12 }}>
-          <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, maxWidth: '80%' }}>
-            {q.theme}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 12, flexWrap: 'wrap', gap: 8 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+            <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 0.5 }}>
+              {q.theme}
+            </div>
+            <span className={`badge-academy ${acadInfo.badgeClass}`}>
+              {acadInfo.icon} {acadInfo.shortLabel}
+            </span>
+            {q.section && q.section !== q.theme && (
+              <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>• {q.section}</span>
+            )}
           </div>
           <button 
             onClick={() => onToggleFavorite(q.id)}
@@ -777,7 +987,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
             {studyState === 'correct' ? <Check size={20} /> : <X size={20} />}
             <span style={{ fontWeight: 600 }}>{studyState === 'correct' ? 'Correcte!' : 'Incorrecte'}</span>
           </div>
-          <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.5 }}>{q.explanation || 'Sense explicació addicional.'}</p>
+          <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.5, whiteSpace: 'pre-line' }}>{q.explanation || 'Sense explicació addicional.'}</p>
           <div style={{ display: 'flex', gap: 12 }}>
             <button onClick={nextStudy} style={{ flex: 2, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>
               {currentIndex + 1 === queue.length ? 'Veure Resultats i Nota' : 'Següent Pregunta'}
@@ -801,17 +1011,14 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
           >
             Anterior
           </button>
-          
           <button 
-            onClick={() => setCurrentIndex(c => c + 1)} 
-            disabled={currentIndex + 1 >= queue.length}
-            style={{ flex: 1, padding: 16, borderRadius: 12, background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', fontWeight: 600, cursor: 'pointer' }}
+            onClick={() => {
+              if (currentIndex + 1 < queue.length) setCurrentIndex(c => c + 1);
+              else handleFinishQuiz();
+            }}
+            style={{ flex: 2, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}
           >
-            Següent
-          </button>
-
-          <button onClick={handleFinishQuiz} style={{ flex: 1.2, padding: 16, borderRadius: 12, background: 'var(--primary)', color: 'white', border: 'none', fontWeight: 600, cursor: 'pointer' }}>
-            Finalitzar Examen
+            {currentIndex + 1 === queue.length ? 'Finalitzar Examen' : 'Següent'}
           </button>
         </div>
       )}
@@ -823,13 +1030,11 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
 // RESULTS SCREEN
 // ----------------------------------------------------------------------
 function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHome }) {
-  const handlePrint = () => {
-    window.print();
-  };
+  const handlePrint = () => window.print();
 
-  const correctQuestions = [];
   const wrongQuestions = [];
   const blankQuestions = [];
+  const correctQuestions = [];
 
   if (results.queue) {
     results.queue.forEach(q => {
@@ -845,6 +1050,7 @@ function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHo
     const isCorrect = uAns === q.correct;
     const isBlank = !uAns;
     const isFav = (userStats._favoriteIds || []).includes(q.id);
+    const acadInfo = getAcademyInfo(q.academy || 'oficial');
     
     let borderColor = 'rgba(255,255,255,0.1)';
     if (isCorrect) borderColor = 'var(--success)';
@@ -852,8 +1058,13 @@ function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHo
 
     return (
       <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid ${borderColor}`, textAlign: 'left', position: 'relative' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-          <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, flexWrap: 'wrap', gap: 6 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+            <span className={`badge-academy ${acadInfo.badgeClass}`}>
+              {acadInfo.icon} {acadInfo.shortLabel}
+            </span>
+          </div>
           <button 
             onClick={() => onToggleFavorite(q.id)}
             style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
@@ -1055,10 +1266,16 @@ function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onH
         ) : (
           failedQuestions.map((q, idx) => {
             const isFav = (userStats._favoriteIds || []).includes(q.id);
+            const acadInfo = getAcademyInfo(q.academy || 'oficial');
             return (
               <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid var(--error)`, textAlign: 'left', position: 'relative' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                  <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, flexWrap: 'wrap', gap: 6 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                    <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+                    <span className={`badge-academy ${acadInfo.badgeClass}`}>
+                      {acadInfo.icon} {acadInfo.shortLabel}
+                    </span>
+                  </div>
                   <button 
                     onClick={() => onToggleFavorite(q.id)}
                     style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
@@ -1110,7 +1327,7 @@ function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onH
 }
 
 // ----------------------------------------------------------------------
-// FAVORITES SCREEN (NEW)
+// FAVORITES SCREEN
 // ----------------------------------------------------------------------
 function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, onStartFavoritesQuiz, onHome }) {
   const [filterTheme, setFilterTheme] = useState('ALL');
@@ -1187,53 +1404,61 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
             <p style={{ color: 'var(--text-muted)' }}>Pots prémer la icona de l'estrella ⭐ en qualsevol pregunta per guardar-la aquí.</p>
           </div>
         ) : (
-          favQuestions.map((q, idx) => (
-            <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid #f59e0b`, textAlign: 'left', position: 'relative' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
-                <button 
-                  onClick={() => onToggleFavorite(q.id)}
-                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
-                  className="print-hide"
-                  title="Treure de preferits"
-                >
-                  <Star size={18} color="#f59e0b" fill="#f59e0b" />
-                </button>
-              </div>
+          favQuestions.map((q, idx) => {
+            const acadInfo = getAcademyInfo(q.academy || 'oficial');
+            return (
+              <div key={q.id} className="glass review-item" style={{ padding: 20, marginBottom: 16, borderLeft: `6px solid #f59e0b`, textAlign: 'left', position: 'relative' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, flexWrap: 'wrap', gap: 6 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                    <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Tema: {q.theme}</span>
+                    <span className={`badge-academy ${acadInfo.badgeClass}`}>
+                      {acadInfo.icon} {acadInfo.shortLabel}
+                    </span>
+                  </div>
+                  <button 
+                    onClick={() => onToggleFavorite(q.id)}
+                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+                    className="print-hide"
+                    title="Treure de preferits"
+                  >
+                    <Star size={18} color="#f59e0b" fill="#f59e0b" />
+                  </button>
+                </div>
 
-              <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
-              
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {['A', 'B', 'C', 'D'].map(opt => {
-                  if (!q.options[opt]) return null;
-                  
-                  let bg = 'rgba(255,255,255,0.03)';
-                  let color = 'var(--text)';
-                  let border = '1px solid rgba(255,255,255,0.05)';
-                  let printClass = '';
-                  
-                  if (opt === q.correct) {
-                    bg = 'rgba(16, 185, 129, 0.15)';
-                    border = '1px solid var(--success)';
-                    color = 'var(--success)';
-                    printClass = 'print-correct';
-                  }
-      
-                  return (
-                    <div key={opt} className={`review-option ${printClass}`} style={{ padding: 12, borderRadius: 8, background: bg, border, display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                      <span style={{ fontWeight: 'bold', color }}>{opt})</span>
-                      <span style={{ color }}>{q.options[opt]}</span>
-                    </div>
-                  );
-                })}
+                <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {['A', 'B', 'C', 'D'].map(opt => {
+                    if (!q.options[opt]) return null;
+                    
+                    let bg = 'rgba(255,255,255,0.03)';
+                    let color = 'var(--text)';
+                    let border = '1px solid rgba(255,255,255,0.05)';
+                    let printClass = '';
+                    
+                    if (opt === q.correct) {
+                      bg = 'rgba(16, 185, 129, 0.15)';
+                      border = '1px solid var(--success)';
+                      color = 'var(--success)';
+                      printClass = 'print-correct';
+                    }
+        
+                    return (
+                      <div key={opt} className={`review-option ${printClass}`} style={{ padding: 12, borderRadius: 8, background: bg, border, display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                        <span style={{ fontWeight: 'bold', color }}>{opt})</span>
+                        <span style={{ color }}>{q.options[opt]}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+                
+                <div style={{ marginTop: 16, padding: 12, background: 'rgba(0,0,0,0.2)', borderRadius: 8, fontSize: 14 }}>
+                  <span style={{ color: 'var(--text-muted)', display: 'block', marginBottom: 4 }}>Explicació:</span>
+                  {q.explanation || 'Sense explicació.'}
+                </div>
               </div>
-              
-              <div style={{ marginTop: 16, padding: 12, background: 'rgba(0,0,0,0.2)', borderRadius: 8, fontSize: 14 }}>
-                <span style={{ color: 'var(--text-muted)', display: 'block', marginBottom: 4 }}>Explicació:</span>
-                {q.explanation || 'Sense explicació.'}
-              </div>
-            </div>
-          ))
+            );
+          })
         )}
       </div>
     </motion.div>
@@ -1241,21 +1466,20 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
 }
 
 // ----------------------------------------------------------------------
-// SIMULACRE SCREEN (NEW)
+// SIMULACRE SCREEN (GENERADOR DE TEST EN PAPER I PDF)
 // ----------------------------------------------------------------------
-function SimulacreScreen({ questions, onHome }) {
+function SimulacreScreen({ questions, allQuestions, selectedAcademies, onToggleAcademy, onHome }) {
   const [count, setCount] = useState(40);
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [themeStats, setThemeStats] = useState({});
 
   const generateSimulacre = (targetCount) => {
-    const allThemes = [...new Set(questions.map(q => q.theme))].filter(Boolean);
+    const allThemes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
     if (!allThemes.length || !questions.length) {
       setSelectedQuestions([]);
       return;
     }
 
-    // Pool questions grouped by theme, shuffled
     const pools = {};
     allThemes.forEach(t => {
       pools[t] = [...questions.filter(q => q.theme === t)].sort(() => Math.random() - 0.5);
@@ -1265,7 +1489,6 @@ function SimulacreScreen({ questions, onHome }) {
     const chosen = [];
     const shuffledThemes = [...validThemes].sort(() => Math.random() - 0.5);
 
-    // Round-robin distribution across themes
     while (chosen.length < targetCount) {
       let addedInRound = false;
       for (let i = 0; i < shuffledThemes.length && chosen.length < targetCount; i++) {
@@ -1275,14 +1498,12 @@ function SimulacreScreen({ questions, onHome }) {
           addedInRound = true;
         }
       }
-      if (!addedInRound) break; // Exhausted available pool
+      if (!addedInRound) break;
     }
 
-    // Shuffle the final list so questions from different themes are mixed
     const finalized = [...chosen].sort(() => Math.random() - 0.5);
     setSelectedQuestions(finalized);
 
-    // Calculate theme distribution for UI info
     const dist = {};
     finalized.forEach(q => {
       dist[q.theme] = (dist[q.theme] || 0) + 1;
@@ -1430,30 +1651,34 @@ function SimulacreScreen({ questions, onHome }) {
 
         {/* Questions List (No solutions shown) */}
         <div className="questions-section">
-          {selectedQuestions.map((q, idx) => (
-            <div key={q.id || idx} className="glass simulacre-card">
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10 }}>
-                <span style={{ fontWeight: 700, fontSize: 15 }}>
-                  {idx + 1}. {q.statement}
-                </span>
-              </div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 12 }}>
-                Tema: {q.theme}
-              </div>
+          {selectedQuestions.map((q, idx) => {
+            const acadInfo = getAcademyInfo(q.academy || 'oficial');
+            return (
+              <div key={q.id || idx} className="glass simulacre-card">
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10 }}>
+                  <span style={{ fontWeight: 700, fontSize: 15 }}>
+                    {idx + 1}. {q.statement}
+                  </span>
+                </div>
+                <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 12, display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <span>Tema: {q.theme}</span>
+                  <span>• {acadInfo.label}</span>
+                </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                {['A', 'B', 'C', 'D'].map(opt => {
-                  if (!q.options || !q.options[opt]) return null;
-                  return (
-                    <div key={opt} className="simulacre-option">
-                      <span style={{ fontWeight: 600, minWidth: 28 }}>[ &nbsp; ] {opt})</span>
-                      <span>{q.options[opt]}</span>
-                    </div>
-                  );
-                })}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {['A', 'B', 'C', 'D'].map(opt => {
+                    if (!q.options || !q.options[opt]) return null;
+                    return (
+                      <div key={opt} className="simulacre-option">
+                        <span style={{ fontWeight: 600, minWidth: 28 }}>[ &nbsp; ] {opt})</span>
+                        <span>{q.options[opt]}</span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* SOLUTIONS SECTION (Starts strictly on a new page) */}
@@ -1484,25 +1709,31 @@ function SimulacreScreen({ questions, onHome }) {
           <div className="glass" style={{ padding: 20 }}>
             <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16 }}>Solucions Detallades i Justificació</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-              {selectedQuestions.map((q, idx) => (
-                <div key={idx} style={{ padding: 16, background: 'rgba(0,0,0,0.2)', borderRadius: 10, borderLeft: '4px solid var(--primary)' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, fontSize: 13 }}>
-                    <span style={{ fontWeight: 700 }}>Pregunta {idx + 1}</span>
-                    <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Tema: {q.theme}</span>
-                  </div>
-                  <p style={{ fontSize: 13, marginBottom: 10, fontWeight: 500 }}>{q.statement}</p>
-                  
-                  <div style={{ fontSize: 13, marginBottom: 8, color: 'var(--success)', fontWeight: 600 }}>
-                    ✓ Resposta correcta: {q.correct}) {q.options ? q.options[q.correct] : ''}
-                  </div>
-
-                  {q.explanation && (
-                    <div style={{ fontSize: 12, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: 10, borderRadius: 6, marginTop: 6 }}>
-                      <b>Explicació:</b> {q.explanation}
+              {selectedQuestions.map((q, idx) => {
+                const acadInfo = getAcademyInfo(q.academy || 'oficial');
+                return (
+                  <div key={idx} style={{ padding: 16, background: 'rgba(0,0,0,0.2)', borderRadius: 10, borderLeft: '4px solid var(--primary)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, fontSize: 13, flexWrap: 'wrap', gap: 6 }}>
+                      <span style={{ fontWeight: 700 }}>Pregunta {idx + 1}</span>
+                      <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+                        <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Tema: {q.theme}</span>
+                        <span className={`badge-academy ${acadInfo.badgeClass}`}>{acadInfo.shortLabel}</span>
+                      </div>
                     </div>
-                  )}
-                </div>
-              ))}
+                    <p style={{ fontSize: 13, marginBottom: 10, fontWeight: 500 }}>{q.statement}</p>
+                    
+                    <div style={{ fontSize: 13, marginBottom: 8, color: 'var(--success)', fontWeight: 600 }}>
+                      ✓ Resposta correcta: {q.correct}) {q.options ? q.options[q.correct] : ''}
+                    </div>
+
+                    {q.explanation && (
+                      <div style={{ fontSize: 12, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: 10, borderRadius: 6, marginTop: 6, whiteSpace: 'pre-line' }}>
+                        <b>Explicació:</b> {q.explanation}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -1514,13 +1745,23 @@ function SimulacreScreen({ questions, onHome }) {
 // ----------------------------------------------------------------------
 // THEME SELECTOR SCREEN (MODE LLISTA PER TEMES)
 // ----------------------------------------------------------------------
-function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme, onHome }) {
+function ThemeSelectorScreen({ 
+  questions, 
+  filteredQuestions, 
+  selectedAcademies, 
+  onToggleAcademy, 
+  onSetAllAcademies, 
+  userStats, 
+  onSaveStats, 
+  onSelectTheme, 
+  onHome 
+}) {
   const [searchTerm, setSearchTerm] = useState('');
   
-  const allThemes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
+  const allThemes = [...new Set(filteredQuestions.map(q => q.theme))].filter(Boolean).sort();
   const themeProgress = userStats._themeProgress || {};
 
-  let totalQuestionsCount = questions.length;
+  let totalQuestionsCount = filteredQuestions.length;
   let totalAnsweredCount = 0;
   let totalCorrectCount = 0;
   let totalWrongCount = 0;
@@ -1568,6 +1809,33 @@ function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme,
         </div>
       </header>
 
+      {/* Academy Filter Bar */}
+      <div className="glass" style={{ padding: '14px 18px', marginBottom: 16 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+          <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--text-muted)' }}>Filtrar Bancs de Preguntes:</span>
+          <button onClick={() => onSetAllAcademies(true)} style={{ background: 'transparent', border: 'none', color: 'var(--primary)', cursor: 'pointer', fontSize: 12, fontWeight: 600 }}>
+            Totes ({questions.length.toLocaleString()})
+          </button>
+        </div>
+        <div style={{ display: 'flex', gap: 8, overflowX: 'auto', paddingBottom: 2 }}>
+          {ACADEMIES_CONFIG.map(acad => {
+            const isSelected = selectedAcademies.includes(acad.id);
+            const count = questions.filter(q => (q.academy || 'oficial') === acad.id).length;
+            return (
+              <button
+                key={acad.id}
+                onClick={() => onToggleAcademy(acad.id)}
+                className={`academy-pill ${isSelected ? `active-${acad.id}` : ''}`}
+                style={{ padding: '7px 12px', fontSize: 12 }}
+              >
+                <span>{acad.icon} {acad.shortLabel}</span>
+                <span style={{ opacity: 0.8, fontSize: 11 }}>({count.toLocaleString()})</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Global Progress Overview */}
       <div className="glass" style={{ padding: 20, marginBottom: 20 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
@@ -1578,7 +1846,7 @@ function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme,
           <div style={{ height: '100%', background: 'linear-gradient(90deg, var(--primary), var(--success))', width: `${totalPercent}%`, transition: 'width 0.4s ease' }} />
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: 'var(--text-muted)' }}>
-          <span><b>{totalAnsweredCount}</b> de <b>{totalQuestionsCount}</b> preguntes contestades</span>
+          <span><b>{totalAnsweredCount}</b> de <b>{totalQuestionsCount.toLocaleString()}</b> preguntes contestades</span>
           <span><b style={{ color: 'var(--success)' }}>{totalCorrectCount}</b> encerts • <b style={{ color: 'var(--error)' }}>{totalWrongCount}</b> errors</span>
         </div>
       </div>
@@ -1587,7 +1855,7 @@ function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme,
       <div style={{ marginBottom: 16, position: 'relative' }}>
         <input 
           type="text"
-          placeholder="Cerca un tema (ex: T33, rescat, foc...)"
+          placeholder="Cerca un tema (ex: T33, rescat, foc, física...)"
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)}
           style={{ paddingLeft: 42 }}
@@ -1606,7 +1874,7 @@ function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme,
       {/* Themes List */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
         {filteredThemes.map(theme => {
-          const themeQuestions = questions.filter(q => q.theme === theme);
+          const themeQuestions = filteredQuestions.filter(q => q.theme === theme);
           const totalQ = themeQuestions.length;
           const prog = themeProgress[theme] || {};
           const answeredKeys = Object.keys(prog);
@@ -1691,16 +1959,26 @@ function ThemeSelectorScreen({ questions, userStats, onSaveStats, onSelectTheme,
 // ----------------------------------------------------------------------
 // THEME LIST SCREEN (CONTESTAR EN LLISTA CONTÍNUA AMB PROGRÉS DESAT)
 // ----------------------------------------------------------------------
-function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFavorite, onBackToThemes, onHome }) {
+function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSaveStats, onToggleFavorite, onBackToThemes, onHome }) {
   const [filter, setFilter] = useState('all'); // 'all', 'pending', 'answered', 'wrong', 'favorites'
+  const [academyFilter, setAcademyFilter] = useState('all'); // 'all', 'oficial', 'racord', 'academia'
   const [searchTerm, setSearchTerm] = useState('');
 
-  const themeQuestions = questions.filter(q => q.theme === theme);
+  // All questions of this theme
+  const allThemeQuestions = questions.filter(q => q.theme === theme);
   const themeProgress = (userStats._themeProgress && userStats._themeProgress[theme]) || {};
   const favoriteIds = userStats._favoriteIds || [];
 
+  // Theme questions filtered by active academy filter
+  const themeQuestions = allThemeQuestions.filter(q => {
+    if (academyFilter !== 'all') {
+      return (q.academy || 'oficial') === academyFilter;
+    }
+    return true;
+  });
+
   const totalCount = themeQuestions.length;
-  const answeredKeys = Object.keys(themeProgress);
+  const answeredKeys = Object.keys(themeProgress).filter(id => themeQuestions.some(q => String(q.id) === String(id)));
   const answeredCount = answeredKeys.length;
   const correctCount = answeredKeys.filter(k => themeProgress[k]?.isCorrect).length;
   const wrongCount = answeredKeys.filter(k => !themeProgress[k]?.isCorrect).length;
@@ -1745,7 +2023,7 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
   };
 
   const handleResetThisTheme = () => {
-    if (window.confirm(`Estàs segur que vols reiniciar tot el progrés de les ${totalCount} preguntes d'aquest tema?`)) {
+    if (window.confirm(`Estàs segur que vols reiniciar tot el progrés de les preguntes d'aquest tema?`)) {
       const newProgress = { ...(userStats._themeProgress || {}) };
       delete newProgress[theme];
       const statsCopy = { ...userStats, _themeProgress: newProgress };
@@ -1841,6 +2119,29 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
           </div>
         </div>
 
+        {/* Academy Filter Buttons */}
+        <div style={{ display: 'flex', gap: 6, overflowX: 'auto', paddingBottom: 6, marginBottom: 8 }}>
+          <button 
+            className={`filter-chip ${academyFilter === 'all' ? 'active' : ''}`} 
+            onClick={() => setAcademyFilter('all')}
+          >
+            Tots els bancs ({allThemeQuestions.length})
+          </button>
+          {ACADEMIES_CONFIG.map(acad => {
+            const count = allThemeQuestions.filter(q => (q.academy || 'oficial') === acad.id).length;
+            if (count === 0) return null;
+            return (
+              <button
+                key={acad.id}
+                className={`filter-chip ${academyFilter === acad.id ? 'active' : ''}`}
+                onClick={() => setAcademyFilter(acad.id)}
+              >
+                {acad.icon} {acad.shortLabel} ({count})
+              </button>
+            );
+          })}
+        </div>
+
         {/* Action Controls & Filters */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 10 }}>
           <div style={{ display: 'flex', gap: 6, overflowX: 'auto', paddingBottom: 4, maxWidth: '100%' }}>
@@ -1905,6 +2206,7 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
             const userAns = prog?.answer;
             const isFav = favoriteIds.includes(q.id);
             const originalIndex = themeQuestions.findIndex(item => item.id === q.id);
+            const acadInfo = getAcademyInfo(q.academy || 'oficial');
 
             let cardBorder = '1px solid rgba(255, 255, 255, 0.06)';
             if (isAnswered) {
@@ -1924,11 +2226,17 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
                 }}
               >
                 {/* Header of Question */}
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12, flexWrap: 'wrap', gap: 6 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
                     <span style={{ fontSize: 12, fontWeight: 700, background: 'rgba(255,255,255,0.08)', padding: '3px 8px', borderRadius: 6, color: 'white' }}>
                       #{originalIndex + 1}
                     </span>
+                    <span className={`badge-academy ${acadInfo.badgeClass}`}>
+                      {acadInfo.icon} {acadInfo.label}
+                    </span>
+                    {q.section && q.section !== q.theme && (
+                      <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>• {q.section}</span>
+                    )}
                     {isAnswered ? (
                       isCorrect ? (
                         <span style={{ fontSize: 12, color: 'var(--success)', display: 'flex', alignItems: 'center', gap: 4, fontWeight: 600 }}>
@@ -2081,7 +2389,7 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
                       {isCorrect ? <Check size={16} /> : <X size={16} />}
                       {isCorrect ? 'Correcte!' : `Incorrecte — La resposta correcta és la ${q.correct}`}
                     </div>
-                    <div style={{ color: 'var(--text-muted)' }}>
+                    <div style={{ color: 'var(--text-muted)', whiteSpace: 'pre-line' }}>
                       <b>Explicació:</b> {q.explanation || 'Sense explicació addicional.'}
                     </div>
                   </motion.div>
@@ -2094,4 +2402,3 @@ function ThemeListScreen({ theme, questions, userStats, onSaveStats, onToggleFav
     </motion.div>
   );
 }
-

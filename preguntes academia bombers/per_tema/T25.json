@@ -1,0 +1,162 @@
+[
+  {
+    "id": "academia_sim9_q73",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 73,
+    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útilgeneralment?",
+    "correct": "B",
+    "explanation": "L'espessant incrementa la viscositatdel'aigua,fet que facilitaràque aquesta s'adhereixi a les branques ibranquillons de\nlescapçades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un catalitzador",
+      "B": "Un espessant",
+      "C": "Un humectant",
+      "D": "Un anticongelant G11 o G12"
+    }
+  },
+  {
+    "id": "academia_sim20_q90",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 90,
+    "statement": "En un incendi forestal que es desenvolupés en una situació atmosfèrica d'inversió tèrmica, què passaria si aquest fenomen desaparegués?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que els corrents de convecció creatsper l'incenditindrienmés dificultatsper ascendir",
+      "B": "Que l'incendis'acceleraria",
+      "C": "Que el vent canviariabruscament de direcció,iconseqüentment l'avançde l'incendi",
+      "D": "Que l'incendipassaria a avançar més lentament"
+    }
+  },
+  {
+    "id": "academia_sim21_q22",
+    "simulacre": "Simulacre 21",
+    "num_pregunta": 22,
+    "statement": "Quin d'aquests termes no acadèmiafareferènciaaunapart d'un incendi forestal?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Front",
+      "B": "Bossa",
+      "C": "Llengua o dit",
+      "D": "Totes fan referènciaa parts d'un incendi forestal"
+    }
+  },
+  {
+    "id": "academia_sim26_q26",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 26,
+    "statement": "Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "45°",
+      "B": "90°",
+      "C": "60°",
+      "D": "0°"
+    }
+  },
+  {
+    "id": "academia_sim80_q54",
+    "simulacre": "Simulacre 80",
+    "num_pregunta": 54,
+    "statement": "Del llistat d'espècies vegetals en relació amb elrisc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
+    "correct": "C",
+    "explanation": "La resta d'opcions són espècies molt recomanades.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 80",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'auró (Acer opalus)",
+      "B": "Elboix (Buxus sempervirens)",
+      "C": "La mimosa (Acacia dealbata)",
+      "D": "Elbedoll (Betula pendula)"
+    }
+  },
+  {
+    "id": "academia_sim83_q21",
+    "simulacre": "Simulacre 83",
+    "num_pregunta": 21,
+    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útil generalment?",
+    "correct": "B",
+    "explanation": "L'espessant incrementa la viscositat de l'aigua, fetque facilitaràque aquesta s'adhereixi a les branques i branquillons de\nles capçades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 83",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un catalitzador",
+      "B": "Un espessant",
+      "C": "Un humectant",
+      "D": "Un anticongelant G11 o G12"
+    }
+  },
+  {
+    "id": "academia_sim111_q81",
+    "simulacre": "Simulacre 111",
+    "num_pregunta": 81,
+    "statement": "Del llistat d'espècies vegetals en relació amb el risc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
+    "correct": "C",
+    "explanation": "La resta d'opcions són espècies molt recomanades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'auró (Acer opalus)",
+      "B": "El boix (Buxus sempervirens)",
+      "C": "La mimosa (Acacia dealbata)",
+      "D": "El bedoll (Betula pendula)"
+    }
+  },
+  {
+    "id": "academia_sim125_q79",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 79,
+    "statement": "Quina afirmació descriu correctament els flancs d'un incendi forestal?",
+    "correct": "C",
+    "explanation": "Els flancs són les parts laterals de l'incendi que s'estenen des del punt d'inicifins al cap. Normalment es diferencien en\nflanc dret iflanc esquerre mirant des del darrere de l’incendi cap al cap, tot ique també es poden anomenar segons la\nseva posició (flanc nord, flanc sud).\n\n− Els flancs són zones on el foc avança a velocitats moderades.\n\n− Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són les zones menys actives de l'incendi,però on el foc es propaga amb més rapidesa",
+      "B": "Són les zones més actives de l'incendi, on es concentra la màxima radiació",
+      "C": "Són les parts laterals de l'incendi on el foc avança a velocitats moderades",
+      "D": "Són les àrees que apareixen davant del cap com a conseqüència de la formació de focus secundaris continus"
+    }
+  }
+]

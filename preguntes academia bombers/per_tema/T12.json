@@ -1,0 +1,3802 @@
+[
+  {
+    "id": "academia_sim1_q41",
+    "simulacre": "Simulacre 1",
+    "num_pregunta": 41,
+    "statement": "Quina distància mínima de seguretat exterior haurà de guardar un Centre d'emmagatzematge i distribució d'envasos de GLP de 2ª categoria?",
+    "correct": "C",
+    "explanation": "RD 919/2006, de 28 de juliol-ITC ICG 02 - art.3.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2 metres",
+      "B": "6 metres",
+      "C": "15 metres",
+      "D": "20 metres"
+    }
+  },
+  {
+    "id": "academia_sim1_q43",
+    "simulacre": "Simulacre 1",
+    "num_pregunta": 43,
+    "statement": "Als Centres d'emmagatzematge i distribució d'envasos de gasos liquats del petroli (GLP), com es disposaran els envasos plens?",
+    "correct": "A",
+    "explanation": "RD 919/2006, de 28 de juliol-ITC ICG 02 - art.3.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En posició vertical,allotjatsen gàbies en cas d'emmagatzemar-se a més d'una altura",
+      "B": "En posició horitzontal, allotjatsen gàbies en totcas",
+      "C": "En posició horitzontal, allotjatsen gàbies en cas d'emmagatzemar-se a més d'una altura",
+      "D": "En posició vertical,allotjatsen gàbies en totcas"
+    }
+  },
+  {
+    "id": "academia_sim1_q94",
+    "simulacre": "Simulacre 1",
+    "num_pregunta": 94,
+    "statement": "Quin material no es podrà usar per les canonades iaccessoris de les instal·lacions receptores?",
+    "correct": "D",
+    "explanation": "UNE 60670-3 (art.3).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Polietilè",
+      "B": "Acer inoxidable",
+      "C": "Cobre",
+      "D": "Totes tres opcions són vàlides per lautilització"
+    }
+  },
+  {
+    "id": "academia_sim2_q90",
+    "simulacre": "Simulacre 2",
+    "num_pregunta": 90,
+    "statement": "En instal·lacions de GLP amb envasos de capacitat unitària no superior a 15 kg, la capacitat total d'emmagatzematge, obtinguda com a suma de les capacitats unitàries de tots els envasos (inclosos els envasos buits) no haurà de superar els:",
+    "correct": "D",
+    "explanation": "RD 919/2006, de 28 dejuliol(art.2.1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 kg",
+      "B": "200 kg",
+      "C": "50 kg",
+      "D": "300 kg"
+    }
+  },
+  {
+    "id": "academia_sim4_q20",
+    "simulacre": "Simulacre 4",
+    "num_pregunta": 20,
+    "statement": "En quin dels següents supòsits no s'aplicarà la norma UNE 60250, sobre les instal·lacions d'emmagatzematge de gasos liquatsacadèmiadelpetroli(GLP)en dipòsits fixos per al consum en instal·lacions receptores?",
+    "correct": "C",
+    "explanation": "\"Les plantes d'emmagatzematge destinades a la distribucióa granel de GLP queden excloses del camp d'aplicació\nd'aquesta norma\".\n\n21.- acadèmia\nRIPCI 9.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un dipòsitenterrat de subministrament de GLP de 0,9 m³",
+      "B": "En un dipòsitde superfíciede subministrament de GLP de 2.000 m³",
+      "C": "En una planta d'emmagatzematge destinada a ladistribucióa granel de GLP",
+      "D": "En totstres casos s'hiaplicarà la norma bombers"
+    }
+  },
+  {
+    "id": "academia_sim4_q36",
+    "simulacre": "Simulacre 4",
+    "num_pregunta": 36,
+    "statement": "Les instal·lacions de subministrament de GLP en dipòsits fixes es classifiquen en funció de la suma dels volums geomètrics nominals de tots elsseus dipòsits. La categoria A-35 fa referència a:",
+    "correct": "B",
+    "explanation": "Dipòsits de superfície = dipòsits aeris.\nUNE 60250 - 4. Classificació. acadèmia",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un dipòsitdestinatala distribucióagranelde 35 m³ de volum",
+      "B": "Un dipòsitdesuperfíciesuperior a 13 m³ iinferioroiguala 35 m³",
+      "C": "Un dipòsitenterratde 35 m³",
+      "D": "Un dipòsitaerisuperiora 25 m³ iinferioroiguala 35 m³"
+    }
+  },
+  {
+    "id": "academia_sim4_q81",
+    "simulacre": "Simulacre 4",
+    "num_pregunta": 81,
+    "statement": "La norma UNE 60250 estableix els requisits de lesinstal·lacions d'emmagatzematge de GLP de dipòsits fixos, amb una capacitat conjunta d'emmagatzematge inferioro igual a:",
+    "correct": "C",
+    "explanation": "Dipòsits aeris:finsa 2.000 m³.\nDipòsits enterrats:finsa 500 m³.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "500 m³",
+      "B": "5.000 m³",
+      "C": "2.000 m³",
+      "D": "50.000 m³"
+    }
+  },
+  {
+    "id": "academia_sim5_q91",
+    "simulacre": "Simulacre 5",
+    "num_pregunta": 91,
+    "statement": "Es consideren dipòsits d'emmagatzematge de GLP enterrats aquells situats en laseva totalitatper sota del nivell del sòl, de forma que la zona més altade la generatriu o paret superior del dipòsit es trobi:",
+    "correct": "C",
+    "explanation": "UNE 60250 -4.Classificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 60 i75 cm del nivelldelsòl",
+      "B": "Per sota del nivelldelsòl,indiferentmentde laprofunditat",
+      "C": "Entre 30 i50 cm del nivelldelsòl",
+      "D": "Entre 0,5 i1,5 metres del nivelldelsòl"
+    }
+  },
+  {
+    "id": "academia_sim6_q23",
+    "simulacre": "Simulacre 6",
+    "num_pregunta": 23,
+    "statement": "Les normes generalsbomberssobredissenyiconstrucció de centres d'emmagatzematge idistribució d'envasos de gasos liquats del petroli (GLP) s'apliquen en tots els centres a excepció dels:",
+    "correct": "C",
+    "explanation": "Recordem que elscentres de 5ª categoria ofereixen una capacitat nominal de contingut totalde finsa 500 kg.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 4ªcategoria www.academiabombers.com",
+      "B": "Subterranis",
+      "C": "De 5ªcategoria",
+      "D": "Aeris"
+    }
+  },
+  {
+    "id": "academia_sim6_q31",
+    "simulacre": "Simulacre 6",
+    "num_pregunta": 31,
+    "statement": "La ITC-ICG 03, sobre Instal·lacions d'emmagatzematge de gasos liquats del petroli (GLP) en dipòsits fixes, fa referència a les instal·lacions amb capacitats geomètriques totals màximes d'emmagatzematge de:",
+    "correct": "A",
+    "explanation": "ITC-ICG 03 - Camp d'aplicació.\n\n\n\n 19\nAcadèmia Bombers Simulacre 6",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2.000 i500 m³, respectivament,bomberssegonsensreferimadipòsitsde superfícieo enterrats",
+      "B": "1.600 m³ o,en cas de dipòsitsenterrats,500 m³",
+      "C": "2.500 i500 m³, respectivament, segonswww.academiabombers.comesrealitziendipòsitsdesuperfícieoenterrats",
+      "D": "Valors compresos entre els500 m³ i2.500 m³. Els dipòsitsenterrats poden disposar d'una contingència del 15%"
+    }
+  },
+  {
+    "id": "academia_sim7_q43",
+    "simulacre": "Simulacre 7",
+    "num_pregunta": 43,
+    "statement": "Segons l'instrucció ITC-ICG 02, quina fórmula determinarà el càlcul de la capacitat nominal de contingut total de GLP d'un determinat tipus d'envàs en un centre?",
+    "correct": "B",
+    "explanation": "On:\nC(n) = capacitat nominal de l'envàs.\nN = nombre d'envasos del mateix tipus (tantbuits com plens).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C(t) = Q × n²× 0,22",
+      "B": "C(t) = C(n) × N × 0,65",
+      "C": "C (t)= (N × n) /k",
+      "D": "T = N × n"
+    }
+  },
+  {
+    "id": "academia_sim7_q59",
+    "simulacre": "Simulacre 7",
+    "num_pregunta": 59,
+    "statement": "Un centre d'emmagatzematge idistribució d'envasos de GLP amb una capacitat nominal de contingut total de 14.000 kg, s'inclourà en:",
+    "correct": "B",
+    "explanation": "RD 919/2006 - ITC-ICG 02 -art.2\n1ªcat: capacitat nominal 25.001bomberskga250.000kg.\n2ªcat: capacitat nominal 12.501 kg a 25.000 kg.\n3ªcat: capacitat nominal 1.001 a 12.500 kg.\n4ªcat: capacitat nominal 501 kg a 1.000 kg.\n5ªcat: capacitat nominal totalfins a 500www.academiabombers.comkg,enemmagatzematgeenestacionsdeserveioenemmagatzematgeen locals\ncomercials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La 1ª categoria",
+      "B": "La 2ª categoria",
+      "C": "La 3ª categoria",
+      "D": "La 4ª categoria"
+    }
+  },
+  {
+    "id": "academia_sim8_q4",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 4,
+    "statement": "Respecte el gas natural, podem dir que:",
+    "correct": "D",
+    "explanation": "Es composa de metà en un 90% aproximadament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es composa principalment per metà",
+      "B": "És considerat com una fontd'energia no renovable",
+      "C": "És insípidiincolor",
+      "D": "Totes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim8_q19",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 19,
+    "statement": "Hi haurà d'haver el suficient nombre de columnes seques per tal de garantir que n'hi haurà almenys una en...",
+    "correct": "A",
+    "explanation": "La canonada serà d'acer galvanitzat de DN80. La columna seca està pensada generalment per edificisamb una altura\nd'evacuació superior a 24 metres (15 m en cas d'ús hospitalari).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60 metres de recorregut",
+      "B": "50 metres de recorregut",
+      "C": "120 metres de recorregut",
+      "D": "50 metres des de cada sortida de planta"
+    }
+  },
+  {
+    "id": "academia_sim9_q29",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 29,
+    "statement": "En la composició dels gasosliquats del petroli (GLP) hi destaca:",
+    "correct": "B",
+    "explanation": "ElGLP s'obtéde destil·larpetroli.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El propà il'età",
+      "B": "El butà ielpropà",
+      "C": "El metà iel butà",
+      "D": "L'età ielmetà"
+    }
+  },
+  {
+    "id": "academia_sim9_q82",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 82,
+    "statement": "Segons el RD 919/2006, de 28 de juliol,quin nombre mínim de BIE's han d'oferir els centres d'emmagatzematge idistribució d'envasos de GLP de 1ª categoria?",
+    "correct": "D",
+    "explanation": "ITC-ICG 02. Per centres de 2ª i3ª categoria,elnombre mínim de BIE's és 2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dos",
+      "B": "Quatre, sempre que lainstal·laciódisposid'unsistema auxiliarocomplementari de prevenció",
+      "C": "Cinc",
+      "D": "Sis"
+    }
+  },
+  {
+    "id": "academia_sim10_q7",
+    "simulacre": "Simulacre 10",
+    "num_pregunta": 7,
+    "statement": "El gas natural es compon principalment de:",
+    "correct": "C",
+    "explanation": "El5% restant és una barreja de gasos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Propà, en un 80-85%",
+      "B": "Metà, entre un 60 iun 70%bombers",
+      "C": "Metà, en un 95% aproximadament",
+      "D": "Età,en la seva totalitat www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim10_q19",
+    "simulacre": "Simulacre 10",
+    "num_pregunta": 19,
+    "statement": "Un centre d'emmagatzematge idistribució d'envasos de GLP amb una capacitat nominal de contingut total de 35.000 kg, s'inclourà en:",
+    "correct": "A",
+    "explanation": "RD 919/2006 -ITC-ICG 02 -art.2\n1ªcat: capacitat nominal 25.001 kg a 250.000 kg.\n2ªcat: capacitat nominal 12.501 kg a 25.000 kg.\n3ªcat: capacitat nominal 1.001 a 12.500 kg.\n4ªcat: capacitat nominal 501 kg a 1.000 kg.\n5ªcat: capacitat nominal totalfinsa 500 kg,en emmagatzematge en estacions de servei o en emmagatzematge en locals\ncomercials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La 1ª categoria",
+      "B": "La 2ª categoria",
+      "C": "La 3ª categoria",
+      "D": "La 4ª categoria"
+    }
+  },
+  {
+    "id": "academia_sim11_q6",
+    "simulacre": "Simulacre 11",
+    "num_pregunta": 6,
+    "statement": "Segons l'ITC-ICG 03, del RD 919/2006, de 28 de juliol,es considerarà una modificació o ampliació de lainstal·lació d'emmagatzematgeacadèmiade GLP:",
+    "correct": "A",
+    "explanation": "Article2del reglament, present alpunt 2.\"Camp d'aplicació\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aquella que comporti un canvi de categoria",
+      "B": "Aquella que afectia més del 50% de lainstal·lació",
+      "C": "Qualsevol modificació que obiligui,de forma inherent a laseva naturalesa, a ajustar la formació sobre riscos laborals delsseus treballadors",
+      "D": "Aquella que afectia més del 30% de lainstal·lació"
+    }
+  },
+  {
+    "id": "academia_sim11_q40",
+    "simulacre": "Simulacre 11",
+    "num_pregunta": 40,
+    "statement": "Quina de les següents claus d'una instal·lació de gas es trobarà més propera a la clau d'escomesa?",
+    "correct": "D",
+    "explanation": "De més propera a més llunyana:\nClau d'abonat > Clau de comptador > Clau d'habitatge > Clau d'aparell",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La clau d'aparell",
+      "B": "La clau de comptador",
+      "C": "La claud'habitatge",
+      "D": "La claud'abonat o d'usuari 21 Acadèmia Bombers Simulacre 11"
+    }
+  },
+  {
+    "id": "academia_sim11_q76",
+    "simulacre": "Simulacre 11",
+    "num_pregunta": 76,
+    "statement": "Quin dels següents gasos composts està format per butà ipropà?",
+    "correct": "A",
+    "explanation": "ElGNC es metà.\nTipus de GNV (gas natural per vehicles):\n-GNL (Gas natural liquat)\n-GNC (Gas naturalcomprimit)\nElGLP és un gas liquat delpetroli.No és un tipus de GNV, ja que no prové del gas natural.Es composa de butà ipropà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El GLP",
+      "B": "El GNC",
+      "C": "ElGNL",
+      "D": "ElGNV"
+    }
+  },
+  {
+    "id": "academia_sim12_q42",
+    "simulacre": "Simulacre 12",
+    "num_pregunta": 42,
+    "statement": "La normativa sobre instal·lacions d'emmagatzematge de GLP en dipòsits fixos aplica al conjunt d'equips imaterials...",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Compresos entre laboca de càrrega iles vàlvulesde sortida (excloses)",
+      "B": "Compresos entre laboca de càrrega ilaclau d'aparell",
+      "C": "Compresos entre laboca de càrrega iles vàlvulesde sortida (incloses)",
+      "D": "Compresos entre l'escomesa ilaclau d'aparell"
+    }
+  },
+  {
+    "id": "academia_sim12_q75",
+    "simulacre": "Simulacre 12",
+    "num_pregunta": 75,
+    "statement": "Segons la norma UNE 60670-4:2005, els conjunts de regulació hauran d'oferir:",
+    "correct": "B",
+    "explanation": "Clau d'escomesa: grau d'accessibilitat1 o 2 des de zona pública.\nClau d'edifici:grau d'accessibilitat2o 3 per la empresa distribuïdora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un grau d'accessibilitat1",
+      "B": "Un grau d'accessibilitat2",
+      "C": "Un grau d'accessibilitat3",
+      "D": "Un grau d'accessibilitatde 2 o de 3"
+    }
+  },
+  {
+    "id": "academia_sim13_q14",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 14,
+    "statement": "Tenim una canonada que ofereix 300 l/min amb unes pèrdues de càrrega de 8 bars. Si ens decidim per doblar elcabal, les pèrdues de càrrega seran de:",
+    "correct": "C",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de la relacióde cabals (8 × 2² = 32 bars).\n\n\n 20\nAcadèmia Bombers Simulacre 13",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "16 bars acadèmia",
+      "B": "24 bars",
+      "C": "32 bars",
+      "D": "64 bars"
+    }
+  },
+  {
+    "id": "academia_sim13_q62",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 62,
+    "statement": "Segons lanorma UNE 60670-4:2005, la clau d'habitatge o de local privat:",
+    "correct": "A",
+    "explanation": "S'haurà d'instal·laral'exteriorde l'habitatgeo local d'ús no domèstic alque subministra, però podent seraccessible des\nde l'interior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurà d'oferirunaaccessibilitatdegrau 1 per a l'usuari",
+      "B": "Haurà d'oferirunaaccessibilitatdegrau 2 per lacompanyia o l'equipde manteniment",
+      "C": "Haurà d'oferirunaaccessibilitatdeacadèmiagrau3perlacompanyiaol'equipdemanteniment",
+      "D": "Haurà d'oferirunaaccessibilitatdegrau 2 o de grau 3"
+    }
+  },
+  {
+    "id": "academia_sim14_q86",
+    "simulacre": "Simulacre 14",
+    "num_pregunta": 86,
+    "statement": "Quin tipus d'aparell no es podrà instal·laren un bany?",
+    "correct": "D",
+    "explanation": "També en dormitoris.\nUNE 60670 - Part 6",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aparell de tipusA",
+      "B": "Aparell de tipusB",
+      "C": "Aparell de tipusC",
+      "D": "Ni els aparellsde tipus A niels deacadèmiatipusB"
+    }
+  },
+  {
+    "id": "academia_sim15_q66",
+    "simulacre": "Simulacre 15",
+    "num_pregunta": 66,
+    "statement": "Segons la norma UNE 60670-4:2014, on haurà d'estar ubicada la clau de connexió d'aparell?",
+    "correct": "B",
+    "explanation": "6.5.3.\nLa clau de connexió d'aparell s'haurà d'instal·larper cada aparell de gas. La seva accessibilitat haurà de ser de grau 1\nper l'usuari. acadèmia",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dins una forquillade 20 a 40 cm de l'aparell,perfacilitarlamaniobrabilitat",
+      "B": "El més aprop possible de l'aparellien elmateix recinte",
+      "C": "En un recinte independent idiferenciatde l'aparell",
+      "D": "A l'exteriordel'habitatgeo locald'ús no domèstic on s'hitrobil'aparell"
+    }
+  },
+  {
+    "id": "academia_sim16_q95",
+    "simulacre": "Simulacre 16",
+    "num_pregunta": 95,
+    "statement": "La norma UNE 60670 ladefineix com el dispositiu de tallmés proper o en el límitde la propietat:",
+    "correct": "D",
+    "explanation": "La claud'edificiseriaeldispositiudetallmés pròxim a l'edifici.\n \n\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escomesa",
+      "B": "La clau d'edifici bombers",
+      "C": "La claud'habitatge o localprivat",
+      "D": "La claud'escomesa www.academiabombers.com 21"
+    }
+  },
+  {
+    "id": "academia_sim17_q69",
+    "simulacre": "Simulacre 17",
+    "num_pregunta": 69,
+    "statement": "Segons la norma UNE 60670-2:2014, es considera un aparell popular:",
+    "correct": "D",
+    "explanation": "Punt 3.12.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un aparell de gas fixo mòbil que ofereixi,encondicions normals de pressió, una càrrega nominal inferioro igual a 5 kg,ique el seu ús es limitiexclusivament a activitatsde naturalesa popular",
+      "B": "Un aparell de gas mòbil de càrrega unitàriainferioro igual a 15 kg, connectat per canonada flexible",
+      "C": "Tot aparellque precedeixi la clau d'aparellen una instal·lacióreceptora de combustibles gasosos",
+      "D": "Un aparell que només es pot connectar a un envàs de GLP de càrrega unitària inferioro iguala 3 kg"
+    }
+  },
+  {
+    "id": "academia_sim18_q40",
+    "simulacre": "Simulacre 18",
+    "num_pregunta": 40,
+    "statement": "La norma UNE 60670-6:2014 els considera d'evacuació no conduïda. Parlem de:",
+    "correct": "A",
+    "explanation": "Aparells de tipus B: aparells d'evacuació conduïda.\nAparells de tipus C: aparells de circuitestanc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els aparellsde tipus A",
+      "B": "Els aparellsde tipus B",
+      "C": "Els aparellsde tipus C",
+      "D": "Els aparellsde tipus B iC 21 Acadèmia Bombers Simulacre 18"
+    }
+  },
+  {
+    "id": "academia_sim18_q94",
+    "simulacre": "Simulacre 18",
+    "num_pregunta": 94,
+    "statement": "La norma UNE 60670-5:2014 contempla diferents casos en els que el comptador es pot arribar a situar a l'interior de l'habitatge. En aquest cas, què s'haura de tenir en compte?",
+    "correct": "D",
+    "explanation": "Punt 6.2.\nA més a més, recorda que en els casos d'instal·laciódelcomptador a l'interiordel'habitatgeo locald'ús no domèstic, no\nés necessari que elcomptador estigui allotjatenun armari o nínxol.\n\n95.- \nDues xifresa lapart numèrica: xarxa bàsica.\nTres xifresa la partnumèrica: xarxa comarcal.\nQuatre xifres a lapart numèrica: xarxa local.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que el comptador s'hauràbombersdesituarelmésaproppossibledel punt de penetració de lacanonada en l'habitatge",
+      "B": "Que no es podrà instal·larelcomptador a menys de 20 cm (mesurats lateralment) de mecanismes elèctrics",
+      "C": "Que no es podrà instal·larelcomptador en un dormitori",
+      "D": "Totes són correctes www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim19_q11",
+    "simulacre": "Simulacre 19",
+    "num_pregunta": 11,
+    "statement": "Davant d'un accidentat, quina serà la seqüència d'actuació correcta?",
+    "correct": "A",
+    "explanation": "Primer de tot:Protegir, Avisar iSocórrer (PAS).\nDesprés procedirem a l'avaluació de consciència: Alerta, estímul Verbal, estímul Dolorós, No respon a cap estímul\n(AVDN).\nSeguirem amb la valoració primària ifinalment amb lasecundària (ABC+DE): via Aèria, ventilació(Breathing), Circulació\n+ Disfunció iExploració. ",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "PAS, AVDN, ABC, DE",
+      "B": "PAS, ABC, DE, AVDN",
+      "C": "PAS, ABC, AVDN, DE",
+      "D": "AVDN, ABC, DE, PAS"
+    }
+  },
+  {
+    "id": "academia_sim19_q60",
+    "simulacre": "Simulacre 19",
+    "num_pregunta": 60,
+    "statement": "Segons el DB-SI, l'accés a un ascensor d'emergència des del recinte d'una escala especialment protegida:",
+    "correct": "C",
+    "explanation": "Una de lescaracterístiques d'un ascensor d'emergència serà que:\nA cada planta, tindrà accés des delrecinte d'una escala protegida o des delvestíbul d'independència d'una escala\nespecialment protegida a través d'una portaE30. Si l'accéses produeix des del recinte d'una escala especialment\nprotegida, no serà necessari disposar d'aquesta porta E30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurà dedisposar d'una portaEI60",
+      "B": "Haurà dedisposar d'una portaEI30",
+      "C": "No lifaràfaltadisposard'unaportaE30",
+      "D": "Haurà de disposard'una portaE30"
+    }
+  },
+  {
+    "id": "academia_sim20_q38",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 38,
+    "statement": "Segons lanorma UNE 60670-3:2014, a què fan referència les \"VIS mín.\"?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A reguladors de pressió",
+      "B": "A dispositiusde sortida de GLP en fase líquida",
+      "C": "A vàlvulesde seguretat acadèmia",
+      "D": "A sistemes de drenatge"
+    }
+  },
+  {
+    "id": "academia_sim20_q50",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 50,
+    "statement": "La norma UNE 60670-4 parla sobre la ubicació dels conjunts de regulació. En quin dels següents emplaçaments no s'hi podran instal·lar?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'interiord'armarisadossatsen paretsexteriors de l'edificació",
+      "B": "A l'interiorderecintesde centralitzacióde comptadors",
+      "C": "A l'interiordesalesde màquines, quan siguiper alsubministrament de gas a lesmateixes",
+      "D": "En totstres casos s'hipodrà instal·lar"
+    }
+  },
+  {
+    "id": "academia_sim21_q42",
+    "simulacre": "Simulacre 21",
+    "num_pregunta": 42,
+    "statement": "Segons la norma UNE 60670-4, en quin cas es podrà prescindir de clau d'escomesa?",
+    "correct": "D",
+    "explanation": "Punt 6.1:(...)s'had'instal·laren totselscasos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En cas que existeixiuna clau de Robinet instal·ladaprèviament, que pugui exercirlafunció de clau d'escomesa ique acompleixi amb elsrequisitsd'homologació indicats a lanorma",
+      "B": "En casos on la clau d'edificiestrobia més de 25 metres de la façana en canonades visteso a més de 4 metres per canonades enterrades",
+      "C": "En qualsevol cas, laclau d'edificipotferla seva funció",
+      "D": "En cap cas"
+    }
+  },
+  {
+    "id": "academia_sim21_q57",
+    "simulacre": "Simulacre 21",
+    "num_pregunta": 57,
+    "statement": "La norma UNE 60670-6:2014 diu, respecte els aparells del Tipus C:",
+    "correct": "A",
+    "explanation": "Elsaparells del Tipus B també podran ser de tirnatural o de tirforçat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que podran ser de tirnaturalo forçat",
+      "B": "Que únicament podran ser de tirnatural",
+      "C": "Que la seva instal·lacióestàprohibida a l'actualitat",
+      "D": "Que només admeten el tirforçat"
+    }
+  },
+  {
+    "id": "academia_sim22_q55",
+    "simulacre": "Simulacre 22",
+    "num_pregunta": 55,
+    "statement": "Segons el DB-SI, per norma general, serà obligatòria lainstal·lació d'un ascensor d'emergència en lesplantes que tinguin una alçada d'evacuació:",
+    "correct": "A",
+    "explanation": "DB-SI, Taula 1.1.\nEn zones d'hospitalitzacióide tractaments intensius,a partirde 15 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Superior a 28 metres",
+      "B": "Superior a 24 metres acadèmia",
+      "C": "Superior a 15 metres",
+      "D": "Superior a 35 metres"
+    }
+  },
+  {
+    "id": "academia_sim23_q48",
+    "simulacre": "Simulacre 23",
+    "num_pregunta": 48,
+    "statement": "Una canonada té una secció d'entrada de 2 m² d'àrea i lavelocitat del fluid és de 1 m/s. Si la secció de sortida téuna àrea d'0,5 m²,acadèmiaquinaéslavelocitatdelfluid en aquesta secció? (considereu el fluid incompressible iel flux uniform)",
+    "correct": "D",
+    "explanation": "A1 × V1 = A2 × V2; 2m² × 1m/s = 0,5m² × V2; V2 = 4 m/s.\nQ = V/t",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "v = 2 m/s",
+      "B": "v = 1,0 m/s",
+      "C": "v = 2 m³/s",
+      "D": "v = 4 m/s bombers"
+    }
+  },
+  {
+    "id": "academia_sim25_q80",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 80,
+    "statement": "Segons la norma UNE 60670-4:2014, en quin dels següents supòsits s'haurà d'instal·lar una clau d'edifici?",
+    "correct": "D",
+    "explanation": "Punt 6.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En elcas en què l'escomesa subministriun sol edifici",
+      "B": "Si l'escomesa interiorésde canonades vistes ilaseva longitud,mesurada entre la claud'escomesa ilafaçana de l'edifici,ésde21 metres",
+      "C": "Sil'escomesa interiorés de canonades enterrades ilaseva longitud,mesurada entrela clau d'escomesa ila façana de l'edifici,ésde3 metres",
+      "D": "No s'haurà d'instal·larencap dels tressupòsits"
+    }
+  },
+  {
+    "id": "academia_sim25_q82",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 82,
+    "statement": "On indica la norma UNE 60670-4:2014que s'haurà d'instal·lar la clau de connexió d'una aparell de gas?",
+    "correct": "B",
+    "explanation": "La seva accessibilitatha de ser de grau 1 per l'usuari.\nPunt 6.5.3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El més a prop possible de laclau de comptador, en un recintediferenciat",
+      "B": "El més a prop possible de l'aparelldegas ien elmateix recinte",
+      "C": "Elmés a prop possible de l'aparellde gas, en un recintediferenciat",
+      "D": "La norma UNE 60670-4:2014 no especificala seva ubicació"
+    }
+  },
+  {
+    "id": "academia_sim26_q81",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 81,
+    "statement": "Segons la norma UNE 60670-4, quin grau d'accessibilitat haurà d'oferir un conjunt de regulació?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Grau d'accessibilitat1",
+      "B": "Grau d'accessibilitat2",
+      "C": "Grau d'accessibilitat2o3",
+      "D": "Grau d'accessibilitat3"
+    }
+  },
+  {
+    "id": "academia_sim27_q52",
+    "simulacre": "Simulacre 27",
+    "num_pregunta": 52,
+    "statement": "Quins aparells de gas tenen permesa la seva instal·lació en dormitoris, banys i dutxes?",
+    "correct": "C",
+    "explanation": "Tampoc necessitaran reixetes de ventilació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els aparells de tipusA",
+      "B": "Els aparells de tipusB",
+      "C": "Els aparells de tipusC",
+      "D": "Els aparells de tipusB iC"
+    }
+  },
+  {
+    "id": "academia_sim27_q68",
+    "simulacre": "Simulacre 27",
+    "num_pregunta": 68,
+    "statement": "Segons la norma UNE 60670-4:2014, les canonades que condueixen gas es classifiquen, segons la seva ubicació, en:",
+    "correct": "B",
+    "explanation": "4.1.Classificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vistes ienterrades",
+      "B": "Vistes, allotjadesen beines o conductes, enterrades iencastades",
+      "C": "Vistes,allotjadesen beines o conductes ienterrades",
+      "D": "Vistes,allotjadesen beines o conductes iencastades"
+    }
+  },
+  {
+    "id": "academia_sim29_q3",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 3,
+    "statement": "Quin nom rep l'aparell que només es pot connectar a un envàs de GLP de càrrega unitària inferior o igual a 3 kg, segons la norma UNE 60670-2:2014?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aparell portàtil",
+      "B": "Aparell popular",
+      "C": "Aparelldomèstic",
+      "D": "Aparellde logística"
+    }
+  },
+  {
+    "id": "academia_sim29_q62",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 62,
+    "statement": "D'acord amb la norma UNE 60670, on trobarem laclau de muntant col·lectiu en una instal·lació receptora de gas?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre la clau d'edificilaclaude regulador",
+      "B": "Entre la clau d'escomesa ila clauacadèmiad'edifici",
+      "C": "Entre laclau d'abonat ilaclau de compador",
+      "D": "Entre laclau de regulador ila claud'abonat"
+    }
+  },
+  {
+    "id": "academia_sim30_q27",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 27,
+    "statement": "A quina distància per sota del nivell del terra s'haurà de trobar lapart superior d'un dipòsit d'emmagatzematge de GLP enterrat?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 30 i50 cm del nivelldelterra",
+      "B": "A 20 cm del nivelldelterra",
+      "C": "Entre 50 i80 cm del nivelldelterra",
+      "D": "A qualsevol distànciadel nivelldelterramentre es trobicompletament enfonsada"
+    }
+  },
+  {
+    "id": "academia_sim30_q37",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 37,
+    "statement": "Quin dels següents guixos ofereixuna major qualitat en els acabats?",
+    "correct": "A",
+    "explanation": "Guix negre: obtingut de forma tradicional, s'usa per obres no vistes.\nGuix blanc: major puresa imés ben molt que l'anterior.\nEscaiola: guix de major qualitat.bombers\n\n38.- www.academiabombers.com\nLes obertures de ventilació poden ser per orificioper conducte.\nUNE 60670-5:2014",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escaiola",
+      "B": "El guix negre",
+      "C": "Elguix blanc",
+      "D": "Elguix alleugerit"
+    }
+  },
+  {
+    "id": "academia_sim30_q38",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 38,
+    "statement": "Per a la seva adequada ventilació, els locals tècnics, armaris exteriors o interiors i conductes tècnics de centralització de comptadors:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han de disposar d'una obertura deacadèmiaventilaciósituadaalasevapartsuperior,únicament",
+      "B": "Han de disposar d'una obertura de ventilaciósituada a laseva partinferioriuna altrasituada en la seva partsuperior",
+      "C": "Han de disposar d'una obertura de ventilació situada a laseva partcentral",
+      "D": "Han de disposar d'una obertura de ventilació situada a laseva partinferior,únicament"
+    }
+  },
+  {
+    "id": "academia_sim31_q36",
+    "simulacre": "Simulacre 31",
+    "num_pregunta": 36,
+    "statement": "Quines tres parts podem diferenciar de les instal·lacions receptores de gas?",
+    "correct": "A",
+    "explanation": "UNE 60670-1 (art.3).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escomesa interior,lainstal·laciócomuna ila instal·lacióindividual",
+      "B": "L'escomesa exterior,laclau de regulador, laxarxa i l'escomesa exterior",
+      "C": "La clau general, laxarxa de distribucióila instal·lacióindividual",
+      "D": "L'escomesa interior,lainstal·laciócomuna i l'escomesa exterior"
+    }
+  },
+  {
+    "id": "academia_sim31_q38",
+    "simulacre": "Simulacre 31",
+    "num_pregunta": 38,
+    "statement": "El consum calorífic, entès com la quantitat d'energia consumida per un aparell de gas en una unitat de temps:",
+    "correct": "B",
+    "explanation": "UNE 60670-2, punt 3.32.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'expressa en Newtons ies representaacadèmiaambelsímbol\"Qc\"",
+      "B": "S'expressa en kW ies representa amb el símbol \"Q\"",
+      "C": "S'expressa en kW/h ies representa amb el símbol \"Cq\"",
+      "D": "S'expressa en W ies representa amb el símbol \"C\""
+    }
+  },
+  {
+    "id": "academia_sim32_q49",
+    "simulacre": "Simulacre 32",
+    "num_pregunta": 49,
+    "statement": "En funció de la forma de subministrament del gas a una instal·lació receptora, quantes classes es distingeixen?",
+    "correct": "A",
+    "explanation": "UNE 60670-1\nLes tresclasses són les següents:bombers\n-Subministrades des d'una xarxa de distribució(canalitzades)\n-Subministrades des de dipòsits de GLP fixes (granel) oenvasos de càrrega unitàriasuperior a 15 kg.\n-Subministrades des d'envasos de GLPwww.academiabombers.comdecàrregaunitàriainferiora15kg.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tres",
+      "B": "Cinc",
+      "C": "Nou",
+      "D": "Set"
+    }
+  },
+  {
+    "id": "academia_sim32_q54",
+    "simulacre": "Simulacre 32",
+    "num_pregunta": 54,
+    "statement": "Per una canonada hi passen 100 litresd'aigua per minut ité unes pèrdues de càrrega de 3 bar. Si en comptes de 100 hipassessinacadèmia600litresperminut, quines pèrdues de càrrega tindrà?",
+    "correct": "D",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de larelació de cabals.\nSipassem de 100 a 600, la relacióés de 6.6² = 36.\n3bar × 36 = 108 bar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "36 bar",
+      "B": "180 bar",
+      "C": "18 bar",
+      "D": "108 bar"
+    }
+  },
+  {
+    "id": "academia_sim33_q44",
+    "simulacre": "Simulacre 33",
+    "num_pregunta": 44,
+    "statement": "De quin dels següents elements haurà de disposar un local tècnic?",
+    "correct": "D",
+    "explanation": "UNE 60670-5:2014 - 5.2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un fusiblede seguretat",
+      "B": "D'un manòmetre de membrana o càpsula",
+      "C": "D'una turbina",
+      "D": "D'una presa de corrent elèctrica"
+    }
+  },
+  {
+    "id": "academia_sim33_q56",
+    "simulacre": "Simulacre 33",
+    "num_pregunta": 56,
+    "statement": "A efectes de lanorma UNE 60670, es consideraran instal·lacions receptores de gas aquelles en les que:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'utilitziqualsevolcombustible gasós",
+      "B": "La pressió màxima d'operació (MOP) siguiinferioro igual a 5 bar",
+      "C": "La pressió màxima d'operació (MOP) siguisuperior o iguala 10 bar",
+      "D": "La pressió màxima d'operació (MOP) siguisuperior o iguala 5 bar 20 Acadèmia Bombers Simulacre 33"
+    }
+  },
+  {
+    "id": "academia_sim34_q13",
+    "simulacre": "Simulacre 34",
+    "num_pregunta": 13,
+    "statement": "Quina capacitat mínima de càrregahaurà d'oferir un ascensor d'emergència, d'acord amb el DB-SI?",
+    "correct": "B",
+    "explanation": "Annex A - Terminologia.\nTindrà com a mínim una capacitat de càrrega de 630 kg, unes dimensions de cabina de 1,10 m x 1,40 m, una amplada\nde pas d'1,00 mi una velocitattalque permeti realitzartotel seu recorregut en menys de 60 s.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "820 kg",
+      "B": "630 kg",
+      "C": "770 kg",
+      "D": "1.000 kg"
+    }
+  },
+  {
+    "id": "academia_sim34_q83",
+    "simulacre": "Simulacre 34",
+    "num_pregunta": 83,
+    "statement": "D'acord amb la norma UNE 60670, les instal·lacions receptores poden comptar generalment amb tres parts. Indica quina resposta no fareferència a cap d'aquestes parts:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escomesa interior",
+      "B": "L'instal·lacióindividual",
+      "C": "L'instal·laciócomú",
+      "D": "L'escomesa exterior"
+    }
+  },
+  {
+    "id": "academia_sim35_q31",
+    "simulacre": "Simulacre 35",
+    "num_pregunta": 31,
+    "statement": "Un aparell de gas de circuit obert:",
+    "correct": "C",
+    "explanation": "UNE 60670-2, punt 3.8",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serà de tipusB",
+      "B": "Serà de tipusA bombers",
+      "C": "Podrà ser de tipusA o B",
+      "D": "Serà de tipusC www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim35_q82",
+    "simulacre": "Simulacre 35",
+    "num_pregunta": 82,
+    "statement": "En el cas de recintes de centralització dissenyats per més de dos comptadors, en un lloc visible de l'interior del recinte s'haurà de situar un cartell informatiu que contindrà, entre d'altres inscripcions:",
+    "correct": "B",
+    "explanation": "La inscripciócorrecta seria:\n-No obriruna clau sense assegurar-se que lesde laresta de la instal·laciócorresponent estan TANCADES.\nL'inscripció\"Comptadors de gas\" latrobarem a l'EXTERIOR de la porta del recinte ino a l'interior.\nUNE 60670-5:2014 - 5.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "\"No obriruna clau sense assegurar-se que lesde laresta de lainstal·laciócorresponent també estan obertes\"",
+      "B": "\"En elcas de tancar una clauequivocadament, no la tornia obrirsense comprovar que laresta de les claus de la instal·laciócorresponent estan tancades\"",
+      "C": "\"Comptadors de gas\"",
+      "D": "Totes lesinscripcions són correctes"
+    }
+  },
+  {
+    "id": "academia_sim36_q56",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 56,
+    "statement": "A l'exterior de la porta d'un recinte de centralització de comptadors dissenyats per més de dos comptadors s'haurà de situar un cartell informatiu que contingui la següent inscripció:",
+    "correct": "A",
+    "explanation": "La resta d'inscripcions se situaran en un llocvisible de l'INTERIOR del recinte.\nUNE 60670-5:2014 -5.1.\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 36",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "\"Comptadors de gas\"",
+      "B": "\"Assegureu-vos que laclau de maniobra és lacorresponent\"",
+      "C": "\"Prohibitfumar oencendre foc\"",
+      "D": "Totes lesrespostes són correctes 22 Acadèmia Bombers Simulacre 36"
+    }
+  },
+  {
+    "id": "academia_sim36_q72",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 72,
+    "statement": "La Norma UNE 60002:1995 classificawww.academiabombers.comelsgasoscombustiblessegonsunparàmetreanomenat Índex de Wobbe, segons el qual el gas natural pertanyerà:",
+    "correct": "C",
+    "explanation": "La quarta família no existeix.\nPrimera família:Índex de Wobbe comprès entre 5.700 y 7.500 Kcal/m³(n). Pertany a aquesta famíliael gas manufacturat.\nSegona família:Índex de Wobbe comprès entre 9.680 y 13.850 Kcal/m³(n). Pertanyen a aquesta famíliael gas natural i\nl'airepropanat.\nTercera família:Índex de Wobbe comprès entre 18.500 y 22.070 Kcal/m³(n). Pertanyen a aquesta família elsGLP o\ngasos liquatsdel petroli(propà ibutà).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la primera família",
+      "B": "A la tercerafamília",
+      "C": "A lasegona família",
+      "D": "A laquarta família 22 Acadèmia Bombers Simulacre 36"
+    }
+  },
+  {
+    "id": "academia_sim37_q64",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 64,
+    "statement": "Els locals tècnics o armaris, d'acord amb la norma UNE 60670-5:2014:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden ser prefabricatso construir-seamb obra de fàbrica iarrebossats interiorment",
+      "B": "Poden centralitzarcomptadors de manera totalo parcial",
+      "C": "Hauran de construir-se amb obra de fàbrica,en totcas",
+      "D": "Les respostes a) ib)són correctes 22 Acadèmia Bombers Simulacre 37"
+    }
+  },
+  {
+    "id": "academia_sim37_q72",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 72,
+    "statement": "En quin cas els comptadors podrien arribar a instal·lar-se a l'interior dels habitatges o locals privats?",
+    "correct": "B",
+    "explanation": "Article4.2 - Si lainstal·lació de comptadors en edificisja construïts no es pot fer d'acord amb l'apartat 4.1, es poden\ninstal·lara l'interiordelshabitatges o locals privats. En els casos en què els comptadors s'ubiquin a l'interiordels\nhabitatges o locals privats, s'han d'instal·larel més a prop possible del punt de penetració de la canonada a l'habitatge,\npreferentment a la galeria oberta, cuina o local on s'instal·linels aparells de gas.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En construccions de baix pressupost",
+      "B": "En cas d'edificisja construïts",
+      "C": "En el cas d'instal·lacionson les canonades transcorrin al límitde l'habitatgeo local privat",
+      "D": "En cap cas 22 Acadèmia Bombers Simulacre 37"
+    }
+  },
+  {
+    "id": "academia_sim37_q84",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 84,
+    "statement": "Segons lanorma UNE 60670-5:2014, de què hauran de disposar els locals tècnics?",
+    "correct": "C",
+    "explanation": "Article5.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un generador de corrent auxiliar",
+      "B": "D'un alternador de 24V",
+      "C": "D'una presa de corrent elèctrica",
+      "D": "D'un lectordigital"
+    }
+  },
+  {
+    "id": "academia_sim38_q5",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 5,
+    "statement": "El gas natural es compon: ",
+    "correct": "C",
+    "explanation": "Elsegon element majoritari en la seva composició és l'età(2-6%).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De metà, en un 45-50%",
+      "B": "De propà, en un 40-45%",
+      "C": "De metà, en un 90-95%",
+      "D": "Les respostes a) ib) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim38_q18",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 18,
+    "statement": "És una característica dels ascensors d'emergència:",
+    "correct": "B",
+    "explanation": "Tindrà com a mínim una capacitat de càrrega de 630 kg.\nSil'accés es produeix des del recinte d'una escala especialment protegida, no caldrà disposar aquesta porta E30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Necessitarà disposar de porta E60 si l'accés es produeix des del recinte d'una escala especialment protegida",
+      "B": "A cada planta, tindràaccés des del recinte d'una escala protegida o des del vestíbul de independència d´una escala especialment protegida a través d'una porta E30",
+      "C": "Tindrà com a mínim una capacitat de càrrega de 320 kg",
+      "D": "Totes les respostes proposades són correctes"
+    }
+  },
+  {
+    "id": "academia_sim38_q46",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 46,
+    "statement": "Sobre la connexió d'aparell, és fals que:",
+    "correct": "D",
+    "explanation": "UNE 60670-2:2014 -punt 3.30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Inclou el conjunt de conduccions iaccessoris compresos entre laclau de connexió d'aparell,exclosa aquesta, iel mateix aparell,exclòs aquest",
+      "B": "Pot ser flexibleorígida",
+      "C": "En instal·lacionssubministrades des d'un únic envàs de GLP de contingut inferiora 15 kg, acoblat directament a un solaparell d'utilitzaciómòbil,laconnexióacadèmiad'aparellestàformadapelreguladoracoblat a l'envàs, inclòs aquest, ila canonada flexibleconnectada al mateix aparell",
+      "D": "Cap de lestres afirmacions és falsa"
+    }
+  },
+  {
+    "id": "academia_sim38_q74",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 74,
+    "statement": "En un dormitori, segons lanorma UNE 60670-6:",
+    "correct": "C",
+    "explanation": "Article3.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es permet lainstal·laciód'aparellsdetipusA",
+      "B": "Es permet lainstal·laciód'aparellsdetipusB",
+      "C": "Es permet lainstal·laciód'aparellsdetipusC",
+      "D": "Les respostes b)ic) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim38_q85",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 85,
+    "statement": "Quin material no podrà ser empraten la construcció de les instal·lacions receptores de gas, d'acord amb la norma UNE 60670-3:2014?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El polietilè",
+      "B": "El coure",
+      "C": "L'acer inoxidable",
+      "D": "El plom"
+    }
+  },
+  {
+    "id": "academia_sim39_q28",
+    "simulacre": "Simulacre 39",
+    "num_pregunta": 28,
+    "statement": "D'acord amb la classificació dels aparells de gas de la norma UNE 60670-6, és fals que:",
+    "correct": "B",
+    "explanation": "Elsaparells de tipusB són aparells d'evacuació conduïda.\nElsaparells de tipusC són aparells de circuitestancat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els aparells de tipus B poden serde tirnaturalo forçat",
+      "B": "Els aparells de tipus C són aparells d'evacuació conduïda",
+      "C": "Elsaparells de tipus A inclouen els aparellsd'evacuació no conduïda",
+      "D": "Eltipus d'aparelldetermina lescaracterístiques de ventilaciódel localon ha de ser ubicat,aixícom els requisitsper a l'evacuaciódels productes de lacombustió"
+    }
+  },
+  {
+    "id": "academia_sim39_q76",
+    "simulacre": "Simulacre 39",
+    "num_pregunta": 76,
+    "statement": "Els comptadors de gas poden ser de diferents tipus, però en tot cas hauran d'estar dimensionats per tal que el cabal màxim en condicions de línia estigui, com a màxim:",
+    "correct": "B",
+    "explanation": "Norma UNE 60670-5:2014 - 7.1. Comptadors.\n\n77.- \nAltaRibagorça: 3 municipis.\nAran: 9 municipis.\nUrgell:20 municipis.\nOsona: 50 miunicipis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alvoltant del 20% del cabal nominal del comptador",
+      "B": "Alvoltant del 60% del cabal nominal del comptador",
+      "C": "Alvoltant del 40% del cabal nominal del comptador",
+      "D": "Alvoltant del 85% del cabal nominal del comptador"
+    }
+  },
+  {
+    "id": "academia_sim40_q51",
+    "simulacre": "Simulacre 40",
+    "num_pregunta": 51,
+    "statement": "D'acord amb lanorma UNE 60670-4:2014, en quin dels següents casos estarà prohibida la instal·lació de conjunts de regulació?",
+    "correct": "C",
+    "explanation": "Punt 5.1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'interiord'armarisonínxols exclusiusper a aquest ús situatsa l'interiordel'edificació,ambalmenys una de les paretsconfrontant amb l'exterior",
+      "B": "A l'interiordesalesde màquines, quan siguiper alsubministrament de gas a lesmateixes",
+      "C": "A l'interiord'unlocaltècnic,situatenun primer soterrani,on laporta dellocal ha de serestanca",
+      "D": "A l'interiord'armarisadossats oencastats a parets exteriorsde l'edificació"
+    }
+  },
+  {
+    "id": "academia_sim40_q74",
+    "simulacre": "Simulacre 40",
+    "num_pregunta": 74,
+    "statement": "D'acord amb la norma UNE 60670-4:2014, la clau de connexió d'aparell:",
+    "correct": "C",
+    "explanation": "Oferirà un grau d'accessibilitat 1 per l'usuari.\nEn el cas d'aparells de cocció, la clau d'aparell es pot instal·lar,per facilitar-ne l'operativitat,en un recinte contigu del\nmateix habitatge o local privat,sempre que estiguin comunicats mitjançant una porta.\n bombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Oferirà un grau d'accessibilitat1 o 2 per l'usuari",
+      "B": "En el cas específic d'aparells de cocció, la clau d'aparell no es podrà instal·laren un recinte contigu del mateix habitatge o local privat",
+      "C": "No serà necessària quan elsubministrament a un únic aparell de consum es faci des d'un envàs de GLP de capacitat inferioroigual a 15 kg situatal mateix local,on laclau de regulador faria a lavegada lesfuncions de clau d'aparell",
+      "D": "Les respostes b) ic) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim41_q7",
+    "simulacre": "Simulacre 41",
+    "num_pregunta": 7,
+    "statement": "Quin grau d'accessibilitat hauràwww.academiabombers.comd'oferirunaclaudemuntantcol·lectiu?",
+    "correct": "A",
+    "explanation": "UNE 60670-4:2014 -punt 6.3.\n\n8.- bombers\nTambé anomenat morter mixt, és una barreja de ciment, calç, sorra i aigua. És un producte que té els avantatges i\ninconvenients dels dos conglomerants utilitzats.\n www.academiabombers.com",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Grau d'acessibilitat2 o 3 per a l'empresa distribuidorades de zona comuna o pública",
+      "B": "Grau d'acessibilitat1 o 2 per a l'usuarides de zona comuna o pública",
+      "C": "Grau d'acessibilitat1o 2 per a l'empresa distribuidorades de zona comuna o pública",
+      "D": "Grau d'acessibilitat3per a l'usuarides de zona comuna o pública"
+    }
+  },
+  {
+    "id": "academia_sim41_q33",
+    "simulacre": "Simulacre 41",
+    "num_pregunta": 33,
+    "statement": "Per quants municipis està formada Catalunya?",
+    "correct": "B",
+    "explanation": "Agrupats en 42 comarques.\n\n34.- bombers\nUNE 60670-5:2014 - punt 5.4.\nQuan el local tècnic o armari de centralització de comptadors estigui situat en un primer soterrani, la porta del local o\narmari ha de ser estanca. A més, lasuperfíciewww.academiabombers.comdelesoberturesoconductesdeventilaciós'had'incrementarenun\n50% sobre les indicades a la taula 1.Aquestes obertures s'han de col·locar de manera que s'afavoreixi la renovació de\nairedel recinte, ino cal utilitzarlaventilació indirecta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "479",
+      "B": "947",
+      "C": "794",
+      "D": "974"
+    }
+  },
+  {
+    "id": "academia_sim42_q8",
+    "simulacre": "Simulacre 42",
+    "num_pregunta": 8,
+    "statement": "El motor de gasolina:",
+    "correct": "D",
+    "explanation": "Elmotor de gasolina aspira labombersmesclad’aireigasolina(injeccióindirecta)o aspira només aire (injecciódirecta).\nElmotor dièsel aspira només aire.\nElmotor de gasolina comprimeix la mescla en una relacióentre 8/1 i11/1.\nEls combustibles que utilitzasón: Gasolina, Gas natural (GNC-GNL), GLP...\n www.academiabombers.com",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aspira només aire,a diferència del motor dièsel, que aspira una mescla d’aireigasolina",
+      "B": "Comprimeix l'airea una relació d'entre13/1 i23/1",
+      "C": "També podrà acceptar biodièselo fueloilcom a combustible",
+      "D": "Durant la fase de combustió, lamescla explota a causa de la guspira de la bugia 22 Acadèmia Bombers Simulacre 42"
+    }
+  },
+  {
+    "id": "academia_sim42_q72",
+    "simulacre": "Simulacre 42",
+    "num_pregunta": 72,
+    "statement": "Quin requisit ha de complir un dipòsit fixd'emmagatzematge de GLP si és subterrani (enterrat)?",
+    "correct": "B",
+    "explanation": "Haurà de formar partd'una de les siscategories de dipòsit enterrat que contempla lallei,essent E-500 la màxima\ncategoria. En cas de dipòsits de superfície hihaurà un total de vuitcategories, essent A-2.000 la categoria de major\nvolum nominal.\n ",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurà de formar part d'una de les vuitcategories de dipòsitenterrat que contempla la llei,essentE-2.000 la màxima categoria",
+      "B": "Tenir la zona més altade la generatriu o la paret superior deldipòsit entre 30 i50 cm del nivelldel terra",
+      "C": "Haurà de tenirun volum nominal superior a 500 m³, en qualsevol cas",
+      "D": "Tenir lazona més baixa de la generatriu o laparet inferiordel dipòsitentre 60 i80 cm del nivelldelterra 22 Acadèmia Bombers Simulacre 42"
+    }
+  },
+  {
+    "id": "academia_sim43_q27",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 27,
+    "statement": "Sobre un motor de gas que combini el gasoil amb GLP, és fals que:",
+    "correct": "A",
+    "explanation": "Elsdipòsitsde GLP estaran sotmesos a menors pressions que si fosde GNC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dipòsitsde GLP estaran sotmesos a majors pressions que sifos de GNC",
+      "B": "L'arrancada es faràamb el gasoil",
+      "C": "ElGLP es compondrà d'una barreja de butà ipropà",
+      "D": "Totes lesrespostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim43_q32",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 32,
+    "statement": "Amb quina altra clau coincideix la clau d'usuari en instal·lacions individuals subministrades des de dipòsits fixes o envasos de GLP?",
+    "correct": "D",
+    "explanation": "UNE 60670-2:2014\n3.Termes, símbols idefinicions-3.72.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb laclau de comptador",
+      "B": "Amb laclau de regulador",
+      "C": "Amb laclau d'habitatge",
+      "D": "Amb laclau d'escomesa 21 Acadèmia Bombers Simulacre 43"
+    }
+  },
+  {
+    "id": "academia_sim43_q52",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 52,
+    "statement": "D'acord amb la norma UNE 60670-5:2014, hauran de disposar d'una presa de corrent:",
+    "correct": "A",
+    "explanation": "Punt 5.2:\nTant els locals tècnics com els armaris de centralització de comptadors, han de tenirles dimensions suficients per allotjar\nels comptadors iels elements iaccessoris associats, i permetre efectuar-ne amb normalitat la lectura i els treballs de\nmanteniment, conservació o substitució dels mateixos.\nAls locals tècnics cal disposar d'una presa de corrent elèctric.\nEls armaris ilocals tècnics de centralització de comptadors han de ser accessibles des de zones comunitàries de la\nedificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els locals tècnics",
+      "B": "Els armaris de centralitzacióde comptadors",
+      "C": "Elsconductes tècnics",
+      "D": "Tant elsarmaris de centralitzacióde comptadors com elslocals tècnics"
+    }
+  },
+  {
+    "id": "academia_sim43_q54",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 54,
+    "statement": "Davant d'una canonada de polietilè de color negre amb una línia blava:",
+    "correct": "A",
+    "explanation": "Per ús agrícola lacanonada serà totanegra o amb una línia negra de color verd.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Deduirem que es tractad'una canonada que transportaaigua potable",
+      "B": "Conclourem que estàdestinada alacadèmiatransportdegasabaixapressió",
+      "C": "Sospitarem que lacanonada transporta aigua no potable, probablement destinada alreg o a l'úsagrícola",
+      "D": "Aquest tipus de canonades es troben en desús"
+    }
+  },
+  {
+    "id": "academia_sim43_q71",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 71,
+    "statement": "Quina de les següentsbombersinscripcionss'haurà de situar a l'exterior de la porta d'un recinte de centralització dissenyat per dos o més comptadors?",
+    "correct": "C",
+    "explanation": "21\nAcadèmia Bombers Simulacre 43\n\n\n\nUNE 60670-5:2024 - 5.1.\nEn elcas de recintes de centralitzaciódissenyats per a més de dos comptadors, en un llocvisiblede l'INTERIOR del\nrecintes'ha de situarun cartellinformatiuque contingui, com a mínim, lesinscripcionssegüents:\n–Prohibit fumar o encendre foc.\n–Assegureu-vos que la claude maniobra és la que correspon.\n–No obriruna clau sense assegurar-se que lesde la restade la instal·laciócorresponent estan tancades.\n–En cas de tancar una clau equivocadament, no latorneu a obrirsense comprovar que la restade les claus de la\ninstal·laciócorresponentestan tancades.\nA més, a l'EXTERIOR de laporta del recintes'ha de situarun cartellinformatiuque continguila inscripciósegüent:\n–Comptadors de gas.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assegureu-vos que la claude maniobrawww.academiabombers.coméslaquecorrespon",
+      "B": "Prohibit fumar o encendre foc",
+      "C": "Comptadors de gas",
+      "D": "En cas de tancar una clau equivocadament, no latorneu a obrir sense comprovar que laresta de les claus de la instal·laciócorresponent estan tancades"
+    }
+  },
+  {
+    "id": "academia_sim43_q92",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 92,
+    "statement": "Quin requisit hauran de complir les instal·lacions receptores de gas, a efectes de la norma UNE 60670?",
+    "correct": "B",
+    "explanation": "UNE 60670-1:2014 - Generalitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Oferiruna pressió màxima d'operació (MOP) inferioro iguala 10 bar",
+      "B": "Que lapressió màxima d'operació (MOP) sigui inferioro iguala 5 bar",
+      "C": "Garantir una pressió màxima d'operació (MOP) superior o iguala 5 bar",
+      "D": "Que lapressió màxima d'operació (MOP) sigui superior o igual a 18 bar"
+    }
+  },
+  {
+    "id": "academia_sim44_q6",
+    "simulacre": "Simulacre 44",
+    "num_pregunta": 6,
+    "statement": "Atenent a laforma de subministrament del gas a una instal·lació receptora, quina classe no existeix?",
+    "correct": "C",
+    "explanation": "UNE 60670-1:2014 - Generalitats. ",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subministrades des de dipòsitsde GLP fixoso envasos de càrrega superiora 15 kg",
+      "B": "Subministrades des d'una xarxa de distribució",
+      "C": "Subministrades des de recipientsacadèmiadeGLPdecàrregavariable",
+      "D": "Subministrades des d'envasos de GLP de càrrega unitàriainferiora15 kg"
+    }
+  },
+  {
+    "id": "academia_sim44_q71",
+    "simulacre": "Simulacre 44",
+    "num_pregunta": 71,
+    "statement": "Són aparells de circuit obert i d'evacuació conduïda:",
+    "correct": "C",
+    "explanation": "UNE 60670-6:2014\nAparells de circuitobert: aparells de tipus A (evacuació no conduïda) iaparells de tipus B (evacuació conduïda, poden\nser de tirnatural o forçat)\nAparells de circuitestanc: aparells de tipusC (poden ser de tirnatural o forçat).\n\n72.- \nLes cèl·lules fotovoltaiques de siliciesfabriquen a partir d'un procés de purificació del silici.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aparells de tipusA",
+      "B": "Aparells de tipusC",
+      "C": "Aparells de tipusB bombers",
+      "D": "Aparells de tipusE"
+    }
+  },
+  {
+    "id": "academia_sim44_q81",
+    "simulacre": "Simulacre 44",
+    "num_pregunta": 81,
+    "statement": "Quin grau d'accessibilitat haurà d'oferir una clau d'escomesa?",
+    "correct": "B",
+    "explanation": "(...)tantperlaempresa distribuïdoracom pels serveis públics(bombers, policia,etc.).\nUNE 60670-4:2014 -Article6.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De grau 3 des d'un recinteprivat",
+      "B": "De grau 1 o 2 des de zona pública",
+      "C": "De grau 2 o 3 des d'un recinteprivat",
+      "D": "De grau 1 des de zona pública"
+    }
+  },
+  {
+    "id": "academia_sim45_q79",
+    "simulacre": "Simulacre 45",
+    "num_pregunta": 79,
+    "statement": "Quina categoria rebrà un dipòsit d'emmagatzematge de GLP enterrat si la suma dels seus volums geomètrics nominals és de 16 m³? bombers",
+    "correct": "B",
+    "explanation": "La categoria E-60 comprèn dels 13 als60 m³.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "E-13",
+      "B": "E-60 www.academiabombers.com",
+      "C": "A-5",
+      "D": "E-35"
+    }
+  },
+  {
+    "id": "academia_sim45_q86",
+    "simulacre": "Simulacre 45",
+    "num_pregunta": 86,
+    "statement": "Podran ser de tir natural o de tirforçat, d'acord amb lanorma UNE 60670-6:2014:",
+    "correct": "D",
+    "explanation": "Aparellsde circuitobert:aparellsde tipus A (evacuació no conduïda) iaparells de tipusB (evacuació conduïda, poden\nserde tirnatural o forçat)\nAparellsde circuitestanc:aparells de tipusC (poden serde tirnaturalo forçat).\n acadèmia",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els aparells de tipusB",
+      "B": "Els aparells de tipusA",
+      "C": "Els aparells de tipusC acadèmia",
+      "D": "Les respostes a) ic)són correctes"
+    }
+  },
+  {
+    "id": "academia_sim45_q92",
+    "simulacre": "Simulacre 45",
+    "num_pregunta": 92,
+    "statement": "Quin dels següents elements forma part del sistema de columna seca?",
+    "correct": "D",
+    "explanation": "Elsistema de columna seca ha d’estarcompost per:\na)Presa d’aigua en façana o en zona fàcilment accessible alservei contra incendis, amb la indicaciód’«ÚS EXCLUSIU\nBOMBERS», proveïda de vàlvula antiretorn,connexió siamesa, amb claus incorporades i ràcords de 70mm, amb tapa i\nclaude purga de 25mm.\nb)Columna de canonada d’acer galvanitzat DN80.\n ",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una presa d’aigua en façana amb claus incorporades iràcords de 45mm",
+      "B": "Una presa d’aigua en façana o en zona fàcilmentaccessible al serveicontra incendis, amb una connexió siamesa situadacom a màxim a1,50 metres sobre el nivelldelsòl",
+      "C": "Una columna de canonada d’acer galvanitzatDN70",
+      "D": "Una presa d’aigua en façana o en zonafàcilment accessible alservei contra incendis,amb tapa iclau de purga de 25mm"
+    }
+  },
+  {
+    "id": "academia_sim46_q10",
+    "simulacre": "Simulacre 46",
+    "num_pregunta": 10,
+    "statement": "Quin dels següents comptadors per a mesurar iregistrar el volum consumit pels aparells connectats a una instal·lació de gas no estarà homologat per cap norma UNE?",
+    "correct": "B",
+    "explanation": "Elscomptadors de gas utilitzatspermesurar i registrarel volum consumit pels aparells connectats a una instal·lacióde\ngas, han de ser conformes amb les Normes UNE-EN 1359 i UNE 60510 (comptadors de parets deformables), UNE-EN\n12261 (comptadors de turbina) iUNE-EN 12480 (comptadors de pistons),segons correspongui.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els comptadors de turbina",
+      "B": "Els comptadors de teclat",
+      "C": "Els comptadors de parets deformables",
+      "D": "Els comptadors de pistons"
+    }
+  },
+  {
+    "id": "academia_sim46_q34",
+    "simulacre": "Simulacre 46",
+    "num_pregunta": 34,
+    "statement": "On ens convindrà situar la ventilació en una sala que hi operen aparells que s'alimenten de butà i d'altres que s'alimenten amb metà?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb situaruna ventilacióa lapart inferiorde lasala ens serà suficient",
+      "B": "No farà faltasituarcap tipus de ventilació,no són gasos perillosos",
+      "C": "Amb situaruna ventilacióa lapart superior de la salaens serà suficient",
+      "D": "Haurem de situarventilaciótant a lapart inferiorcom a la partsuperior de lasala"
+    }
+  },
+  {
+    "id": "academia_sim46_q45",
+    "simulacre": "Simulacre 46",
+    "num_pregunta": 45,
+    "statement": "Aquest tipus de vehicles reben el nom de \"vehicles bifuel\":",
+    "correct": "D",
+    "explanation": "Tant els vehicles GNC com els GLP són vehicles bifuel,és a dir,combinen un dipòsit de gas amb un de dièsel o de\nbenzina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els vehiclesGNC",
+      "B": "Els vehicleselèctrics ",
+      "C": "Els vehiclesGLP",
+      "D": "Les respostes a) ic) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim47_q5",
+    "simulacre": "Simulacre 47",
+    "num_pregunta": 5,
+    "statement": "Quin requisit hauran de complir les instal·lacions receptores de gas, a efectes de la norma UNE 60670? ",
+    "correct": "B",
+    "explanation": "UNE 60670-1:2014 -Generalitats.\n6.- \n\nEn el cas dels cables de coure elmínim serà de 10 mm².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Oferir una pressió màxima d'operació (MOP) inferioroigual a 10 bar",
+      "B": "Que la pressiómàxima d'operació (MOP) siguiinferioroigual a5 bar",
+      "C": "Garantir una pressió màxima d'operació (MOP) màxima de 3 bar",
+      "D": "Que la pressiómàxima d'operació (MOP) siguisuperior o iguala 18 bar"
+    }
+  },
+  {
+    "id": "academia_sim48_q54",
+    "simulacre": "Simulacre 48",
+    "num_pregunta": 54,
+    "statement": "A què fan olor el butà iel propà?",
+    "correct": "D",
+    "explanation": "En el seu estat pur, tantel butàbomberscomelpropàsóninodors; no obstant això, per fer-losmés fàcilment detectable en elcas\nde fuites,se'lsafegeix un compost odoritzador (sulfurde mercaptà) que els faperceptibles abans que labarreja GLP-aire\npugui ser explosiva.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 48",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A avellana cuita ia samfaina, respectivament",
+      "B": "No fan olor,és per això que se'lsacadèmiaafegeixtelorurd'amoni",
+      "C": "Amdós fanolor avellana cuita",
+      "D": "No fan olor,per això se'ls afegeix sulfurde mercaptà"
+    }
+  },
+  {
+    "id": "academia_sim48_q86",
+    "simulacre": "Simulacre 48",
+    "num_pregunta": 86,
+    "statement": "Quin dels següents materialsacadèmiapodràserutilitzaten les canonades de les xarxes de distribució i recepció de gas natural?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El poliuretà",
+      "B": "El polietilè",
+      "C": "Elpoliestirè",
+      "D": "Elplom bombers"
+    }
+  },
+  {
+    "id": "academia_sim49_q51",
+    "simulacre": "Simulacre 49",
+    "num_pregunta": 51,
+    "statement": "Quin volum nominal mínim tindrà el dipòsit de GLP de superfície \"A-35\"?",
+    "correct": "C",
+    "explanation": "Volum nominal de lacategoria A-35: 13-35 m³.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "35 m³",
+      "B": "21 m³",
+      "C": "13 m³",
+      "D": "60 m³"
+    }
+  },
+  {
+    "id": "academia_sim50_q45",
+    "simulacre": "Simulacre 50",
+    "num_pregunta": 45,
+    "statement": "Quin gas compon el gas natural, majoritàriament?",
+    "correct": "B",
+    "explanation": "En un 95% aproximadament. En menor quantitat es compon d'età.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El gas butà",
+      "B": "El gas metà ",
+      "C": "Elgas propà",
+      "D": "Elgas pentà"
+    }
+  },
+  {
+    "id": "academia_sim50_q61",
+    "simulacre": "Simulacre 50",
+    "num_pregunta": 61,
+    "statement": "Quin tipus de tub rígid de coure es pot usar tant per a transportar aigua freda o calenta, com per transportar gas natural o GLP?",
+    "correct": "C",
+    "explanation": "Aplicacions tub rígidtipus L:\n-Sistemes contra incendis \n-Calefacció solar\n-Combustible/oli\n-Gas natural iGLP\n-HVAC",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El tub rígidtipus M",
+      "B": "El tub rígidtipus K",
+      "C": "Eltub rígidtipus L",
+      "D": "Qualsevol dels tres acadèmia"
+    }
+  },
+  {
+    "id": "academia_sim51_q14",
+    "simulacre": "Simulacre 51",
+    "num_pregunta": 14,
+    "statement": "Quan es subministra a un sol usuari, lainstal·lació individual d'una instal·lació de gas és el conjunt de conduccions iaccessoris compresos:",
+    "correct": "B",
+    "explanation": "Quan existeixi instal·laciócomú, la instal·lacióindividual comprendrà entre laclau de l'usuariiles claus de l'aparell\n(incloses).\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 51",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre laclau d'escomesa ila clau de l'usuari,inclosa",
+      "B": "Entre laclau d'escomesa iles clausacadèmiad'aparell,incloses",
+      "C": "Entre laclau de l'usuariilesclaus d'aparell,incloses",
+      "D": "Entre laclau d'escomesa, exclosa, ila clau o claus de l'edifici,incloses"
+    }
+  },
+  {
+    "id": "academia_sim51_q21",
+    "simulacre": "Simulacre 51",
+    "num_pregunta": 21,
+    "statement": "Com es classifiquen les canonades d'acord amb la seva ubicació?",
+    "correct": "D",
+    "explanation": "UNE 60670-4, 4.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En canonades enterrades ide superfície",
+      "B": "En vistes,allotjades en beines o conductesi encastades",
+      "C": "En vistes ienterrades",
+      "D": "En vistes,allotjades en beines o conductes, enterrades iencastades"
+    }
+  },
+  {
+    "id": "academia_sim51_q93",
+    "simulacre": "Simulacre 51",
+    "num_pregunta": 93,
+    "statement": "Quina de les següents categories referents a dipòsits fixos de GLP enterrats oferirà una major capacitat? ",
+    "correct": "C",
+    "explanation": "Com major sigui la categoria, major el volum nominal (m³) que ofereixen.\n\n\n 21\nAcadèmiaBombers Simulacre51",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La categoria E-13",
+      "B": "La categoria E-1",
+      "C": "La categoriaE-60",
+      "D": "La categoriaE-5"
+    }
+  },
+  {
+    "id": "academia_sim52_q86",
+    "simulacre": "Simulacre 52",
+    "num_pregunta": 86,
+    "statement": "De quin tipus serà un aparell de gas de circuit obert?",
+    "correct": "C",
+    "explanation": "UNE 60670-2, punt 3.8",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De tipusB",
+      "B": "De tipusA",
+      "C": "De tipusA o B",
+      "D": "De tipusC"
+    }
+  },
+  {
+    "id": "academia_sim53_q91",
+    "simulacre": "Simulacre 53",
+    "num_pregunta": 91,
+    "statement": "Quin és el punt d'inflamació aproximat del GLP?",
+    "correct": "D",
+    "explanation": "Elsgasos, adiferènciadelslíquidsielssòlids,no tenen puntd'inflamaciónid'ignició.Perentrarencombustió\nnecessitaranestardins elrangd'inflamabilitatcombustible-comburent(%).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "-30°C",
+      "B": "43 °C",
+      "C": "Depèn de laproporció de gasos que presenti",
+      "D": "L'enunciatés incorrecte, elsgasos no tenen punt d'inflamació"
+    }
+  },
+  {
+    "id": "academia_sim54_q2",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 2,
+    "statement": "Per quin cabal màxim han d'estar dimensionats els compadors de gas?",
+    "correct": "A",
+    "explanation": "UNE 60670-5:2014 - 7.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al voltantdel 60% delcabal nominal (Qn) delcompador",
+      "B": "Sobre el30%",
+      "C": "Al voltantdel 80% delcabal nominal (Qn) delcompador",
+      "D": "Sobre el40%"
+    }
+  },
+  {
+    "id": "academia_sim54_q51",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 51,
+    "statement": "Les pèrdues de càrrega d'un líquid que circula per una canonada:",
+    "correct": "D",
+    "explanation": "Aquestes pèrdues de càrrega depenen de:\n-La viscositat del fluid.\n-Tipus de canonada (rugositat, estrangulament, etc.)\n-La quantitat iqualitat de colzes, vàlvules, ràcords ialtres elements que pertorbin lacirculació del fluid.\n-Diàmetre de lacanonada.\n-La llargada de lacanonada a la qual són directament proporcionals.\nIsegueixen les lleissegüents:\n-Són directament proporcionals al quadrat de la relació de cabal.\n-Decreixen quan augmenta la secció de la canonada.\n-Són independents de lapressió.\n-Són directament proporcionals a la longitud de la canonada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No tenen res a veure amb laviscositatdel fluid",
+      "B": "Són proporcionals a lalongitud de lacanonada iinversament proporcionals a larelació delcabal",
+      "C": "Dependran de lapressió si lacanonada és rígida",
+      "D": "Són proporcionals a lalongitud de lacanonada ial quadrat de la relaciódel cabal"
+    }
+  },
+  {
+    "id": "academia_sim54_q60",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 60,
+    "statement": "Dels següents materials, quin podrà ser utilitzat en les canonades de les xarxes de distribució i recepció de gas natural?",
+    "correct": "B",
+    "explanation": "Els materials que es poden utilitzaren les canonades de les xarxes de distribució irecepció de gas natural segons la\nnormativa UNE són l'acer,el polietilèi elcoure.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El poliuretà",
+      "B": "L'acer",
+      "C": "Elpoliestirè",
+      "D": "Elplom"
+    }
+  },
+  {
+    "id": "academia_sim54_q84",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 84,
+    "statement": "Quina tipologia poden oferir les obertures de ventilació dels recintes de centralització de comptadors de gas?",
+    "correct": "D",
+    "explanation": "UNE 60670-6:2014 - art.5.4: per a la seva adequada ventilació, els locals tècnics, armaris exteriors o interiors i\nconductes tècnics de centralització de comptadors, han de disposar d'una obertura de ventilació situada a lapart inferiori\nuna altra situada a part superior. Les obertures de ventilació poden ser per orificioper conducte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per orifici",
+      "B": "Per reixeta",
+      "C": "Per conducte",
+      "D": "Les respostes a) ic) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim55_q3",
+    "simulacre": "Simulacre 55",
+    "num_pregunta": 3,
+    "statement": "Quin material no es podrà usar per les canonades i accessoris de les instal·lacions receptores de gas?",
+    "correct": "D",
+    "explanation": "UNE 60670-3 (art.3).\nElporexpan o suro blanc és un tipus de poliestirè.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Polietilè",
+      "B": "Acer inoxidable",
+      "C": "Cobre",
+      "D": "Poliestirè"
+    }
+  },
+  {
+    "id": "academia_sim55_q61",
+    "simulacre": "Simulacre 55",
+    "num_pregunta": 61,
+    "statement": "En instal·lacions receptoresde combustibles gasosos i d'acord amb la terminologia de la norma UNE 60670-2:2014, què és un \"shunt\"?",
+    "correct": "C",
+    "explanation": "3 -Termes, símbols idefinicions - 3.104.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un element de transicióo connexió que facilitaeltrànsitde lapart enterrada a la partaèria de la instal·lacióreceptora, oviceversa.",
+      "B": "Una vàlvula dissenyada per obrir-sequan rep energia itancar-se automàticament en absència de la mateixa, el rearmament de laqual ha de ser manual",
+      "C": "Un conducte d'evacuació verticalespecialment dissenyat per a l'evacuació dels productes de lacombustió dels aparellsde gas de tipus B connectatsacadèmiaaaquest,operevacuarl'aireinteriord'unlocal",
+      "D": "Elcremador de petitconsum laflama del qual està destinada a encendre un cremador principal"
+    }
+  },
+  {
+    "id": "academia_sim56_q78",
+    "simulacre": "Simulacre 56",
+    "num_pregunta": 78,
+    "statement": "Quina serà la instal·lació individual en una instal·lació subministrada des d'un dipòsit mòbil de GLP de càrrega unitària de 12 kg?",
+    "correct": "A",
+    "explanation": "UNE 60670 - punt 3.57. acadèmia\nEn instal·lacions subministrades des d'envasos de GLP de càrrega unitària inferiora 15 kg, és el conjunt de conduccions\niaccessoris compresos entre el regulador o reguladors acoblats als envasos, inclosos aquests, i les claus de connexió\nd'aparell,incloses aquestes.\nNo té la consideració d'instal·lació individual el conjunt format per un envàs de GLP de càrrega unitària inferior a 15 kg i\nun aparell també mòbil.\n bombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elconjunt de conduccions iaccessorisacadèmiacompresosentreelsreguladorsacoblats als envasos o ampolles (inclosos) i lesclaus de connexió de l'aparell(incloses)",
+      "B": "Elconjunt de conduccions iaccessoris compresos entre els reguladors acoblats als envasos o ampolles (exclosos) i el punt d'evacuació dels productes de la combustió",
+      "C": "En aquest cas no existiràinstal·lacióindividual",
+      "D": "Elconjunt de conduccions iaccessoris compresos entre els reguladors acoblats als envasos o ampolles (exclosos) i lesclaus de connexió de l'aparellbombers(excloses)"
+    }
+  },
+  {
+    "id": "academia_sim57_q83",
+    "simulacre": "Simulacre 57",
+    "num_pregunta": 83,
+    "statement": "Quina característica general hauran de complir els recintes de centralizació de comptadors?",
+    "correct": "B",
+    "explanation": "UNE 60670-2014 - 5.1.\nEls comptadors es poden centralitzar de manera totalen un local tècnic o armari, o bé de forma parcial en locals tècnics,\narmaris o conductes tècnics en replà.\nA l'INTERIOR del recinte s'ha de col·locar un cartellinformatiu que contengui, entre d'altres,la inscripció de \"Prohibit\nfumar o encendre foc\".\nLa porta d'accés al recinte,sigui local tècnic o armari de centralització total o parcial,o armari o nínxol per a més d'un\ncomptador, ha d'obrircap a fora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es poden centralitzarde forma totalen conductes tècnics",
+      "B": "Al costat de cada clau de comptador hiha d'haver una placa que portigravada laindicació de l'habitatge(pis iporta) o locala què subministra",
+      "C": "A l'exteriordelrecintes'ha de col·locar un cartellinformatiu que contengui, entre d'altres,lainscripcióde \"Prohibit fumar o encendre foc\"",
+      "D": "La porta d'accés al recinteha d'obrircap a dins"
+    }
+  },
+  {
+    "id": "academia_sim58_q52",
+    "simulacre": "Simulacre 58",
+    "num_pregunta": 52,
+    "statement": "L'article 3.2.1.1 de la norma UNE 60670-6 indica que als locals que estiguin situats a un nivell inferior a un primer soterrani no s'han d'instal·lar aparells de gas, ique quan el gas subministrat sigui més dens que l'aire,en cap cas no s'han d'instal·lar aparells de gas en un primer soterrani. En quins casos aquesta norma no és aplicable?",
+    "correct": "A",
+    "explanation": "Als locals que estiguin situatsa un nivellinferiora un primer soterrani no s'han d'instal·laraparells de gas. Quan el gas\nsubministrat sigui més dens que l'aire,en cap cas no s'han d'instal·laraparells de gas en un primer soterrani.\nElque indica el paràgraf anterior no és aplicable a les sales de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En sales de màquines",
+      "B": "En aparcaments, cotxeres o garatges",
+      "C": "En locals que no continguin transformadorselèctrics de potència nirecipients de combustible líquid",
+      "D": "En locals específicament homologats"
+    }
+  },
+  {
+    "id": "academia_sim59_q21",
+    "simulacre": "Simulacre 59",
+    "num_pregunta": 21,
+    "statement": "Quina de les següents característiques dels ascensors d'emergència és CERTA?",
+    "correct": "D",
+    "explanation": "Tindrà com a mínim una capacitat de càrrega de 630 kg.\nSil'accés es produeix des del recinte d'una escala especialment protegida, no caldrà disposar aquesta porta E30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si l'accés es produeix des del recinte d'una escala especialment protegida, caldrà disposar d'una porta E30 ode la meitat de laresistència del recinte",
+      "B": "A cada planta, tindrà accés des delrecinted'una escala protegida o des del vestíbulde independència d´una escala especialment protegida a través d'una porta E60",
+      "C": "Tindrà com a mínim una capacitat de càrrega de 320 kg",
+      "D": "Totes les respostes proposades són incorrectes"
+    }
+  },
+  {
+    "id": "academia_sim59_q24",
+    "simulacre": "Simulacre 59",
+    "num_pregunta": 24,
+    "statement": "La Norma UNE 60002:1995 classificawww.academiabombers.comelsgasoscombustiblessegonsunparàmetreanomenat Índex de Wobbe, segons el qual el GLP o els gasos liquats del petroli pertanyeran:",
+    "correct": "B",
+    "explanation": "La quarta família no existeix.\nPrimera família: Índex de Wobbe comprès entre 5.700 y 7.500 Kcal/m³(n). Pertany aaquesta famíliael gas manufacturat.\nSegona família: Índex de Wobbe comprès entre 9.680 y 13.850 Kcal/m³(n). Pertanyen a aquesta família el gas natural i\nl'airepropanat.\nTercera família: Índex de Wobbe comprès entre 18.500 y 22.070 Kcal/m³(n). Pertanyen a aquesta famíliaels GLP o\ngasos liquats del petroli(propà i butà).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A laprimera família",
+      "B": "A latercera família",
+      "C": "A lasegona família",
+      "D": "A laquarta família 3 Acadèmia Bombers Simulacre 59"
+    }
+  },
+  {
+    "id": "academia_sim59_q69",
+    "simulacre": "Simulacre 59",
+    "num_pregunta": 69,
+    "statement": "A quina altura del terra s'ha de situar el totalitzador d'un comptador de gas, per norma general i segons la norma UNE 60670-5?",
+    "correct": "A",
+    "explanation": "Eltotalitzador del comptador s'ha de situar a una alçada inferior a 2 m del terra. En elcas de mòduls prefabricats,\naquesta altura pot ser de fins a 2,40 m, sempre que s'habilitiel recinte amb una escala o útilsimilar que facilitialtècnic\ncorresponent efectuar la lectura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A 2 metres",
+      "B": "A 2,2 metres ",
+      "C": "A 1,8 metres",
+      "D": "A 2,4 metres"
+    }
+  },
+  {
+    "id": "academia_sim60_q9",
+    "simulacre": "Simulacre 60",
+    "num_pregunta": 9,
+    "statement": "De quina forma s'han de dimensionar els comptadors de gas, segons lanorma UNE 60670-5?",
+    "correct": "C",
+    "explanation": "En tots elscasos han d'estar dimensionats de manera que el cabal màxim en condicions de línia(no de referència)\nestiguial voltant del60% del cabal nominal delcomptador.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 60",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De manera que elcabal màxim en condicions de líniaestiguialvoltantdel 70% del cabal nominal del comptador",
+      "B": "De manera que elcabal màxim en condicions de referènciaassoleixi el100% del cabal nominal delcomptador",
+      "C": "De manera que elcabal màxim en condicions de líniaestiguialvoltantdel 60% del cabal nominal del comptador",
+      "D": "De manera que elcabal màxim en condicions de referència estiguialvoltantdel 40% del cabal nominal del comptador"
+    }
+  },
+  {
+    "id": "academia_sim60_q27",
+    "simulacre": "Simulacre 60",
+    "num_pregunta": 27,
+    "statement": "D'acord amb la normabombersUNE60670-4, quina ventilació directa a l'exterior han de tenir els conjunts de regulació en armaris o nínxols?",
+    "correct": "A",
+    "explanation": "5.1.1 Ubicació dels conjunts de regulació.www.academiabombers.com",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 10 cm², com a màxim www.academiabombers.com",
+      "B": "De 6 cm², com a mínim",
+      "C": "De 2cm², com a mínim",
+      "D": "De 5 cm², com a mínim"
+    }
+  },
+  {
+    "id": "academia_sim60_q64",
+    "simulacre": "Simulacre 60",
+    "num_pregunta": 64,
+    "statement": "Quin propòsit principal tenen els sistemes de control de fums i calor per ventilació horitzontal?",
+    "correct": "C",
+    "explanation": "RIPCI 13-1c)\nEls sistemes de control de fums icalor per ventilació horitzontal són sistemes concebuts per limitarlapropagació del fum\ndes d’un espai a un altredins d’un edificiamb esveltesa reduïda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evacuar els fums i gasos calents de lacombustió d’un incendi, per obertures d’admissió d’airenet o ventiladors mecànics d’aportació d’aire net i,sis’escau, per barreres de control de fum",
+      "B": "Limitarla propagació de fum d’un espai a un altre,dins d’un edifici,através d’escletxes entre lesbarreres físiques",
+      "C": "Limitarla propagació del fum des d’un espai a un altredins d’un edificiamb esveltesa reduïda",
+      "D": "Extreure el fum generat durant un incendi, funcionant durant l’incendii/odesprés d’aquest"
+    }
+  },
+  {
+    "id": "academia_sim61_q24",
+    "simulacre": "Simulacre 61",
+    "num_pregunta": 24,
+    "statement": "Per quina de les aplicacions següents NO estarà permès l'úsde tubs de polietilè?",
+    "correct": "C",
+    "explanation": "UNE 60670-4 - 4.3.\nPer a lescanonades vistesno es potutilitzartubde polietilè.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per canonades enterrades",
+      "B": "Per canonades que subministrena armarisencastats de regulaciói/odecomptadors",
+      "C": "Per canonades vistes",
+      "D": "Per canonades allotjadesenveines"
+    }
+  },
+  {
+    "id": "academia_sim61_q77",
+    "simulacre": "Simulacre 61",
+    "num_pregunta": 77,
+    "statement": "D'acord amb la norma UNE 60670-5, de quines formes poden ser les obertures de ventilació dels recintes de centralització de comptadors?",
+    "correct": "A",
+    "explanation": "UNE 60670-5:2014 -5.4.\nLes obertures de ventilació poden ser per orificioper conducte. Preferentment han de ser directes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per orificioper conducte bombers",
+      "B": "Per canalització o pervàlvula de pressió diferencial",
+      "C": "Per vàlvulao per clau de pas www.academiabombers.com",
+      "D": "Per clautotalo per clau parcial 11 Acadèmia Bombers Simulacre 61"
+    }
+  },
+  {
+    "id": "academia_sim62_q16",
+    "simulacre": "Simulacre 62",
+    "num_pregunta": 16,
+    "statement": "Quin material NO es podrà usar per les canonades iaccessoris de les instal·lacions receptores de gas?",
+    "correct": "D",
+    "explanation": "UNE 60670-3 (art.3).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Polietilè",
+      "B": "Acer inoxidable",
+      "C": "Cobre",
+      "D": "Poliestirè"
+    }
+  },
+  {
+    "id": "academia_sim62_q79",
+    "simulacre": "Simulacre 62",
+    "num_pregunta": 79,
+    "statement": "D'acord amb la norma UNE 60670-5, el comptador de gas, si no disposen de pantalla protectora:",
+    "correct": "B",
+    "explanation": "UNE 60670-5:2014 -6.2.\nNo s'ha d'instal·larelcomptador a menys de 20 cm mesurats lateralment de mecanismes elèctricso d'aparells de\nproducció d'aigua calenta sanitària icalefacció.\nQuan aquestes distàncies no es puguin respectar, cal intercalaruna pantalla protectora que cobreixitotalment la\nprojecciólateraldel comptador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No s'ha d'instal·laramenys de 10 cm mesurats lateralment de mecanismes elèctricso a 20 cm d'aparellsde producció d'aiguacalenta sanitàriaicalefacció",
+      "B": "No s'ha d'instal·laramenys de 20 cm mesurats lateralment de mecanismes elèctricso d'aparellsde producció d'aigua calenta sanitàriaicalefacció",
+      "C": "No s'ha d'instal·laramenys de 2 cm mesurats lateralment de mecanismes elèctricso a 4 cm d'aparells de producció d'aiguacalenta sanitàriaicalefacció",
+      "D": "No s'ha d'instal·laramenys de 20 cm mesurats lateralment de mecanismes elèctricso a 40 cm d'aparellsde producció d'aigua calenta sanitàriai calefacció"
+    }
+  },
+  {
+    "id": "academia_sim63_q75",
+    "simulacre": "Simulacre 63",
+    "num_pregunta": 75,
+    "statement": "En instal·lacions receptores de gas, quin és eldispositiu de tallmés proper o en el límit de la propietat? ",
+    "correct": "D",
+    "explanation": "La clau d'edificiseria el dispositiu de tallmés pròxim a l'edifici.\nNorma UNE 60670.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La clau d'aparell",
+      "B": "La clau d'edifici",
+      "C": "La clau d'habitatge o localprivat",
+      "D": "La clau d'escomesa"
+    }
+  },
+  {
+    "id": "academia_sim63_q83",
+    "simulacre": "Simulacre 63",
+    "num_pregunta": 83,
+    "statement": "D'acord amb la norma UNE 60670-4, quin grau d'accessibilitat han d'oferir els conjunts de regulació? acadèmia",
+    "correct": "B",
+    "explanation": "Clau d'escomesa: grau d'accessibilitat 1 o 2 des de zona pública.\nClau d'edifici:grau d'accessibilitat 2 o 3 per la empresa distribuïdora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "2o 3"
+    }
+  },
+  {
+    "id": "academia_sim64_q41",
+    "simulacre": "Simulacre 64",
+    "num_pregunta": 41,
+    "statement": "D'acord amb la norma UNE 60670-4:2014 on s'haurà d'instal·lar la clau de connexió d'un aparell de gas?",
+    "correct": "B",
+    "explanation": "La seva accessibilitat ha de ser de grauwww.academiabombers.com1perl'usuari.\nPunt 6.5.3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El més a prop possible de laclau de comptador, en un recinte diferenciat",
+      "B": "El més a prop possible de l'aparellde gas ien el mateix recinte",
+      "C": "Elmés a prop possible de l'aparellde gas, en un recinte diferenciat",
+      "D": "La norma UNE 60670-4:2014 no especifica laseva ubicació"
+    }
+  },
+  {
+    "id": "academia_sim66_q77",
+    "simulacre": "Simulacre 66",
+    "num_pregunta": 77,
+    "statement": "Segons la norma UNE 60670-4,www.academiabombers.comperonhandediscórrerlescanonadesde gas pertanyents a la instal·lació comuna?",
+    "correct": "D",
+    "explanation": "UNE 60670-4 -4.2. \nLes canonades pertanyents a lainstal·lació comuna han de discórrer per zones comunitàries de l'edifici(façana, façana\nventilada, terrat, patis,vestíbuls, caixa d'escala, etc.). Les canonades de la instal·lació individual han de discórrer per\nzones comunitàries de l'edifici,oper l'interiorde l'habitatge o local d'ús no domèstic alque subministren.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per l'interiordelshabitatges o locals d'ús no domèstic",
+      "B": "Per l'exteriorde l'edifici",
+      "C": "Han de discórrer de manera que delineïn el mateix recorregut que les canonades d'aigua",
+      "D": "Per zones comunitàries de l'edifici 11 Acadèmia Bombers Simulacre 66"
+    }
+  },
+  {
+    "id": "academia_sim66_q91",
+    "simulacre": "Simulacre 66",
+    "num_pregunta": 91,
+    "statement": "Quin considera la norma UNE 60670 que és el dispositiu de talldel subministrament de gas més proper a l'edifici?",
+    "correct": "B",
+    "explanation": "UNE 60670-2 - 3.69\nLa clau d'edificiés eldispositiu de tallmés proper a l'edificiosituat al mur de tancament de l'edifici,accionable des del\nexterior,que pot interrompre elpas del gas a la instal·lacióque subministra. A les instal·lacions que disposin d'estació de\nregulació i/o mesura, les funcions de clau d'edificiles poden exercir eldispositiu de tallsituatel més proper possible a\nl'entrada d'aquesta estació, accionable des de l'exteriordel recinte que delimita l'estació,ique pot interrompre elpas del\ngas a l'esmentada estació de regulació i/o mesura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La clau d'escomesa bombers",
+      "B": "La clau d'edifici",
+      "C": "La clau d'usuari www.academiabombers.com",
+      "D": "La clau de muntant col·lectiu 13 Acadèmia Bombers Simulacre 66"
+    }
+  },
+  {
+    "id": "academia_sim67_q16",
+    "simulacre": "Simulacre 67",
+    "num_pregunta": 16,
+    "statement": "D'acord amb la norma UNE 60670, un aparell de gas de tipus A:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un aparell que només es pot connectar a un envàs de GLP de càrrega unitària inferioro iguala 3 kg",
+      "B": "És un aparell destinat a connectar-se a un conducte d'evacuació dels productes de la combustió cap al'exteriordel localon està instal·latl'aparell,estantl'airecomburent pres directament d'aquest local",
+      "C": "És un aparell no destinat a connectar-se a un conducte o a un dispositiu d'evacuació dels productes de la combustió cap a l'exteriordellocal on està instal·lat,estantl'airecomburent pres directament d'aquest local",
+      "D": "És un aparell en què elcircuitde combustió no té cap comunicació amb l'atmosfera dellocal on es troba instal·lat"
+    }
+  },
+  {
+    "id": "academia_sim67_q20",
+    "simulacre": "Simulacre 67",
+    "num_pregunta": 20,
+    "statement": "Quina disposició ens oferiràacadèmiaunamajoreficiència en el rendiment si tenim dos ventiladors?",
+    "correct": "C",
+    "explanation": "Ventilació en sèrie: 15% de rendiment afegit (aprox).\nVentilació en V: 35% de rendiment afegit (aprox).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ventilacióen sèrie",
+      "B": "Ventilacióen paral·lel",
+      "C": "Ventilació en V",
+      "D": "Contraposats"
+    }
+  },
+  {
+    "id": "academia_sim67_q49",
+    "simulacre": "Simulacre 67",
+    "num_pregunta": 49,
+    "statement": "D'acord amb lanorma UNE 60670-4:2005, quin grau d'accessibilitat hauran d'oferirels conjunts de regulació?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Grau d'accessibilitat1 bombers",
+      "B": "Grau d'accessibilitat2",
+      "C": "Grau d'accessibilitat3 www.academiabombers.com",
+      "D": "Grau d'accessibilitatde2o de 3 7 Acadèmia Bombers Simulacre 67"
+    }
+  },
+  {
+    "id": "academia_sim69_q87",
+    "simulacre": "Simulacre 69",
+    "num_pregunta": 87,
+    "statement": "Quin material no es podràbombersusarperles canonades iaccessoris de les instal·lacions receptores de gas?",
+    "correct": "D",
+    "explanation": "UNE 60670-3 (art.3).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Polietilè www.academiabombers.com",
+      "B": "Acer inoxidable",
+      "C": "Coure",
+      "D": "Plom"
+    }
+  },
+  {
+    "id": "academia_sim69_q90",
+    "simulacre": "Simulacre 69",
+    "num_pregunta": 90,
+    "statement": "En una instal·lació ascendent de columna seca, quina de les següents opcions és CORRECTA d'acord amb el que s'estableix alRIPCI?",
+    "correct": "B",
+    "explanation": "Elssistemes de columna seca ascendents han de constar de sortides a lesplantes parellsfins a lavuitena ia totes a\npartird’aquesta, proveïdes de connexió siamesa, amb claus incorporades iràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·laruna vàlvula de seccionament, per damunt de la sortida de planta corresponent.\nElsistema de columna seca ha d’estar compost per una columna de canonada d’acer galvanitzat DN80.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hauran de teniruna vàlvula de sortidaa cada plantaamb clau de seccionament a lapart inferior",
+      "B": "Hauran d'estarproveïdes de connexió siamesa, amb claus incorporades iràcords de 45 mm amb tapa",
+      "C": "Hauran de teniruna vàlvula de sortidaa cada planta amb clau de seccionament a lapart superior",
+      "D": "El sistema de columna seca ha d’estarcompost per una columna de canonada d’acer galvanitzatDN70"
+    }
+  },
+  {
+    "id": "academia_sim70_q14",
+    "simulacre": "Simulacre 70",
+    "num_pregunta": 14,
+    "statement": "Quin dels següents materials podrà ser utilitzaten les canonades de les xarxes de distribució i recepció de gas natural?bombers",
+    "correct": "D",
+    "explanation": "Els materials que es poden utilitzaren les canonades de les xarxes de distribució irecepció de gas natural segons la\nnormativa UNE són l'acer, el polietilèiel coure.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El poliuretà",
+      "B": "L'alumini www.academiabombers.com",
+      "C": "El poliestirè",
+      "D": "El polietilè 2 Acadèmia Bombers Simulacre 70"
+    }
+  },
+  {
+    "id": "academia_sim73_q22",
+    "simulacre": "Simulacre 73",
+    "num_pregunta": 22,
+    "statement": "D'acord amb la norma UNE 60670-3:2014, quina de les següents afirmacions és FALSA en relació amb l'ús del polietilè per les canonades i accessoris?",
+    "correct": "D",
+    "explanation": "3.1 Polietilè.\n\nPer a les canonades vistes no es pot utilitzartub de polietilè.\nEltub iels accessoris de polietilèutilitzatshande ser de qualitat PE 80 o PE 100, i han de ser conformes a la Norma de\nsistema UNE-EN 1555. L'ús del polietilèqueda limitata canonades soterrades ia trams allotjatsen beines encastades\nque discorrin per murs exteriors o soterrades que subministren a armaris de regulació i/ocomptadors de les edificacions.\nAquests armaris han de teniralmenys una de les parets confrontant amb l'exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les unions de lescanonades iaccessorisacadèmiadepolietilès'handeferpreferentmentmitjançantsoldadura",
+      "B": "Es potusar el polietilèperacanonades soterrades",
+      "C": "Les canonades iels accessoris de polietilèutilitzatshandeser de qualitatPE 80 oPE 100",
+      "D": "Es potusar el polietilèpera canonades vistes"
+    }
+  },
+  {
+    "id": "academia_sim73_q84",
+    "simulacre": "Simulacre 73",
+    "num_pregunta": 84,
+    "statement": "A efectes de lanorma UNE 60670-2:2014, a què es refereix la instal·lació comú?",
+    "correct": "D",
+    "explanation": "Article3.55.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al conjunt de conduccions iaccessoris compresos entre laclau de connexió de servei,exclosa aquesta, i laclau o clausd'edifici,inclosesaquestes, en el cas d'instal·lacionsreceptoressubministrades des de xarxes de distribució",
+      "B": "Al conjunt de conduccions iaccessoris compresos entre laclau d'escomesa, exclosa, ilesclaus d'usuari,incloses",
+      "C": "Al conjunt de conduccions iaccessoris compresos entre laclau d'usuari,inclosa,iles claus d'aparell,incloses",
+      "D": "Al conjunt de conduccions iaccessoris compresos entre laclau d'edifici,olaclau de connexió de servei siaquesta existeix,excloses,iles claus d'usuari,incloses"
+    }
+  },
+  {
+    "id": "academia_sim74_q28",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 28,
+    "statement": "Segons la norma UNE 60250, on podrà estar situada una instal·lació A-5 de GLP?",
+    "correct": "D",
+    "explanation": "5.3.Instal·lacions de subministrament de GLP en cobertes.\nNomés s'admeten en cobertes instal·lacionsclassificades finsa A-5 (inclosa), havent de complir certes característiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'interiord'unaedificació",
+      "B": "A qualsevol pati",
+      "C": "A sota d'una edificació",
+      "D": "A lacoberta d'una edificació"
+    }
+  },
+  {
+    "id": "academia_sim74_q64",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 64,
+    "statement": "Els sistemes d’extinció automàtica d'acció prèvia:",
+    "correct": "C",
+    "explanation": "Sistemes de ruixadors automàtics d’aigua:\n-De canonada mullada.\n-De canonada seca.\n-D’acció prèvia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són sistemes d’extinció per agents gasosos",
+      "B": "Són sistemes d’extinció per pols",
+      "C": "Són sistemes de ruixadors automàtics d’aigua",
+      "D": "Poden funcionar amb aigua, pols o agents gasosos 8 Acadèmia Bombers Simulacre 74"
+    }
+  },
+  {
+    "id": "academia_sim74_q90",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 90,
+    "statement": "Segons la norma UNE 60250, en absència de nivell màxim d'emplenament d'un dipòsit fix:",
+    "correct": "B",
+    "explanation": "UNE 60250 - Instal·lacions d'emmagatzematge de gasos liquats del petroli(GLP) en dipòsits fixos per alseu consum en\ninstal·lacionsreceptores.\n3.Termes idefinicions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurà de considerar-se el 60% de la capacitat geomètrica del dipòsita 23ºC",
+      "B": "Haurà de considerar-se el 85% de la capacitat geomètrica del dipòsita 20ºC",
+      "C": "Haurà de considerar-se el 50% de lacapacitat geomètrica del dipòsita 16ºC",
+      "D": "Haurà de considerar-se el 65% de lacapacitat geomètrica del dipòsita 21ºC"
+    }
+  },
+  {
+    "id": "academia_sim75_q93",
+    "simulacre": "Simulacre 75",
+    "num_pregunta": 93,
+    "statement": "A efectes de lanorma UNE 60250, es consideren dipòsits fixos:",
+    "correct": "C",
+    "explanation": "Dipòsitfix:dipòsit que disposa d'una boca de càrrega per al seu emplenat \"insitu\",sense necessitat del seu trasllata una\nplanta d'emplenament i posteriorretorn a l'emplaçament originalde lainstal·lacióde GLP. No tenen laconsideració de\nfixosels instal·latsen autocaravanes o altresvehicles de motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dipòsitsque pelseu omplimentrequereixen un trasllatauna planta d'emplenament iposterior retorna l'emplaçament originalde la instal·laciódeGLP",
+      "B": "Els dipòsitsinstal·latsen autocaravanes",
+      "C": "Els dipòsitsque disposen d'una boca de càrrega per alseu emplenat \"insitu\"",
+      "D": "Les respostes b) ic)són certes"
+    }
+  },
+  {
+    "id": "academia_sim76_q27",
+    "simulacre": "Simulacre 76",
+    "num_pregunta": 27,
+    "statement": "Quines pressions de disseny contempla la norma UNE 60250 per als dipòsits destinats a l'emmagatzematge de GLP?",
+    "correct": "A",
+    "explanation": "Pressiódedisseny dispòsitsaerisambun volum menor de 7 m³:20 bar.\nPressiódedisseny dispòsitsaerisambun volum majorde 7 m³:19 bar.\n\nPressiódedisseny dipòsitsenterrats:17bar.\n \n\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 76",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20, 19 i 17 bar",
+      "B": "12, 13 i 14 bar",
+      "C": "20,19 i18 bar",
+      "D": "20,19, 18 i17 bar"
+    }
+  },
+  {
+    "id": "academia_sim77_q16",
+    "simulacre": "Simulacre 77",
+    "num_pregunta": 16,
+    "statement": "De quines formes es pot realitzar l'emmagatzematge de GLP en dipòsits fixos?",
+    "correct": "B",
+    "explanation": "UNE 60250 - 4. Classificació:bombers\n\nL'emmagatzematge de GLP en dipòsits fixosúnicament es pot realitzaren dipòsitsde superfície o enterrats.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 15\nAcadèmia Bombers Simulacre 77",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En dipòsitsde superfície,únicament",
+      "B": "En dipòsitsde superfície o enterrats",
+      "C": "En dipòsitsde superfície,enterrats o semienterrats",
+      "D": "En dipòsitsde superfície o semienterrats 2 Acadèmia Bombers Simulacre 77"
+    }
+  },
+  {
+    "id": "academia_sim77_q90",
+    "simulacre": "Simulacre 77",
+    "num_pregunta": 90,
+    "statement": "En una instal·lació ascendent de columna seca, quina de les següents opcions és CORRECTA d'acord amb elque s'estableix al RIPCI?",
+    "correct": "B",
+    "explanation": "Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena ia totes a\npartird’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·laruna vàlvula de seccionament, per damunt de lasortida de planta corresponent.\n\nElsistema de columna seca ha d’estar compost per una columna de canonada d’acer galvanitzat DN80.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hauran de teniruna vàlvulade sortidaa cada plantaamb clau de seccionament a lapart inferior",
+      "B": "Hauran d'estarproveïdes de connexió siamesa, amb clausincorporades iràcords de 45 mm amb tapa",
+      "C": "Hauran de teniruna vàlvulade sortidaa cada plantaamb clau de seccionament a lapart superior",
+      "D": "El sistema de columna seca ha d’estarcompost per una columna de canonada d’acer galvanitzatDN70"
+    }
+  },
+  {
+    "id": "academia_sim78_q79",
+    "simulacre": "Simulacre 78",
+    "num_pregunta": 79,
+    "statement": "Segons la norma UNE 60670-5:2014, de què hauran de disposar els locals tècnics?",
+    "correct": "C",
+    "explanation": "Article5.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un generador de corrent auxiliar",
+      "B": "D'un alternador de més de 12 V",
+      "C": "D'una presa de corrent elèctrica",
+      "D": "D'un lector analògic"
+    }
+  },
+  {
+    "id": "academia_sim79_q77",
+    "simulacre": "Simulacre 79",
+    "num_pregunta": 77,
+    "statement": "Als efectes del Document Bàsic SI Seguretat en cas d'incendi, en la definició d'ascensor d'emergència s'indica que:",
+    "correct": "C",
+    "explanation": "Annex SI A -Terminologia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tindrà com a mínim una capacitat de càrrega de 650 kg, unes dimensions de cabina de 1,10 m x 1,40 m, una amplada de pas de 1,10 m i una velocitat talque permeti realitzar totel recorregut en menys de 70 s",
+      "B": "Tindrà com a mínim una capacitat de càrrega de 650 kg, unes dimensions de cabina de 1,20 m x 1,40 m, una amplada de pas de 1,00 m i una velocitatwww.academiabombers.comtalquepermetirealitzartotelrecorregutenmenysde60s",
+      "C": "Tindrà com a mínim una capacitat de càrrega de 630 kg, unes dimensions de cabina de 1,10 m x 1,40 m, una amplada de pas de 1,00 m i una velocitat talque permeti realitzar totel recorregut en menys de 60 s",
+      "D": "Tindrà com a mínim una capacitat de càrrega de 630 kg, unes dimensions de cabina de 1,30 m x 1,40 m, una amplada de pas de 1,10 m i una velocitat talque permeti realitzar totel recorregut en menys de 70 s 11 Acadèmia Bombers Simulacre 79"
+    }
+  },
+  {
+    "id": "academia_sim80_q65",
+    "simulacre": "Simulacre 80",
+    "num_pregunta": 65,
+    "statement": "Hi haurà d'haver el suficient nombre de columnes seques per tal de garantir que n'hi haurà almenys una en:",
+    "correct": "A",
+    "explanation": "La canonada serà d'acer galvanitzat de DN80. La columna seca està pensada generalment per edificis amb una altura\nd'evacuació superior a 24 metres (15 m en cas d'ús hospitalari).\n\n\n\n\n\n\n 20\nAcadèmia Bombers Simulacre 80",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60 metres de recorregut",
+      "B": "50 metres de recorregut",
+      "C": "120 metres de recorregut",
+      "D": "50 metres des de cada sortida de planta 8 Acadèmia Bombers Simulacre 80"
+    }
+  },
+  {
+    "id": "academia_sim81_q24",
+    "simulacre": "Simulacre 81",
+    "num_pregunta": 24,
+    "statement": "Quin dels següents elements que componen el sistema de columna seca serà de 25mm?",
+    "correct": "C",
+    "explanation": "1.El sistema de columna seca ha d’estar compost per:\n\na) Presa d’aigua en façana o en zona fàcilment accessible alservei contra incendis, amb laindicació d’«ÚS EXCLUSIU\nBOMBERS», proveïda de vàlvula antiretorn, connexió siamesa, amb claus incorporades iràcords de 70mm, amb tapa i\nclau de purga de 25mm.\n\nb) Columna de canonada d’acer galvanitzat DN80.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La columna de canonada d’acer galvanitzatwww.academiabombers.com",
+      "B": "Els ràcords",
+      "C": "La clau de purga",
+      "D": "La vàlvula antiretorn"
+    }
+  },
+  {
+    "id": "academia_sim81_q46",
+    "simulacre": "Simulacre 81",
+    "num_pregunta": 46,
+    "statement": "La norma UNE 60670-6:2014 diu, respecte els aparells del Tipus B:",
+    "correct": "A",
+    "explanation": "Els aparells del Tipus C també podran ser de tirnatural o de tirforçat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que podran ser de tirnatural o forçat",
+      "B": "Que únicament podran ser de tirnatural",
+      "C": "Que la seva instal·lacióestà prohibida a l'actualitat",
+      "D": "Que només admeten el tirforçat www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim81_q75",
+    "simulacre": "Simulacre 81",
+    "num_pregunta": 75,
+    "statement": "Què indica l'Índex de Wobbe?",
+    "correct": "B",
+    "explanation": "També és un indicador de la capacitat d'intercanviabilitat entre combustibles com el gas natural, gas licuat del petroli, gas\nciutat,gasolina igasoil, sovint especificat en les normatives de subministrament itransport dels combustibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La quantitat d'energia que, com a màxim, pot generar un combustible o un residu usat com a combustible en cremar-se, a pressió constant",
+      "B": "Relaciona el poder caloríficamb l'arrelquadrada de la densitat relativa del combustible",
+      "C": "La quantitat d'energia que, com a mínim, pot generar un combustible o un residu usat com a combustible en cremar-se",
+      "D": "Relaciona ladensitat d'un combustible gasós amb laseva inflamabilitat"
+    }
+  },
+  {
+    "id": "academia_sim81_q77",
+    "simulacre": "Simulacre 81",
+    "num_pregunta": 77,
+    "statement": "Els conjunts de regulació, als efectes de la norma UNE 60670:",
+    "correct": "D",
+    "explanation": "UNE 60670-4. 5.1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han de ser de grau d'accessibilitat2",
+      "B": "Es poden instal·lara l'interiorde recintes de centralització de comptadors",
+      "C": "En cas que s'instal·lina l'interiord'armaris o nínxols exclusius per a aquest ús situats a l'interiorde l'edificació,però amb almenys una de les seves parets adjacent a l'exterior,l'armario nínxol ha de disposar d'una ventilació directa a l'exteriord'almenys 5 cm²",
+      "D": "En cas que s'instal·lina l'interiord'armaris adossats o encastats en parets exteriors de l'edificació,el conducte de la vàlvula d'alleujament ha de disposar de ventilació directa a l'exterior"
+    }
+  },
+  {
+    "id": "academia_sim81_q87",
+    "simulacre": "Simulacre 81",
+    "num_pregunta": 87,
+    "statement": "Quina influència tenen les molècules de carboni (C) en la temperatura crítica dels GLP?",
+    "correct": "A",
+    "explanation": "Butà (C4H10) = 152,0 °C\nPropà (C3H8) = 96,7 °C\nEtà (C2H6) = 32,3 °C\nMetà (CH4) = -82,3 °C",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A major nombre de molècules de C, més altaés latemperatura crítica",
+      "B": "A menor nombre de molècules de C, més altaés la temperatura crítica",
+      "C": "Els GLP tenen tots lamateixa temperatura crítica",
+      "D": "El nombre de molècules de C no té cap correlació amb la temperatura crítica"
+    }
+  },
+  {
+    "id": "academia_sim82_q56",
+    "simulacre": "Simulacre 82",
+    "num_pregunta": 56,
+    "statement": "Als efectes de la norma UNE 60670-5,www.academiabombers.comenquincasespodraninstal·larelscomptadors de gas a l'interior d'un habitatge o local privat?",
+    "correct": "A",
+    "explanation": "4.2 Instal·lació dels comptadors en un edificija construït\n\nSi lainstal·lació de comptadors en edificis ja construïts no es pot realitzar d'acord amb l'apartat 4.1, es poden instal·lar a\nl'interiordels habitatges o locals privats. No obstant això, les claus d'usuari de les instal·lacions individuals s'han de situar\nde manera que siguin fàcilment accessibles per a l'empresa distribuïdora des d'una zona comunitària, amb accessibilitat\nde grau\n\n2. En elsupòsit que això tampoc no sigui possible, llavors és necessari recaptar l'autorització expressa de l'empresa\ndistribuïdora, en elqual cas aquesta pot exigir la instal·lació d'un obturador de tancament.\n\nEn els casos en què els comptadors es www.academiabombers.comtrobinal'interiordelshabitatgesolocalsprivats,s'hand'instal·lartanapropcom\nsigui possible del punt de penetració de la canonada a l'habitatge, preferentment a la galeria oberta, cuina o local on\ns'instal·len els aparells de gas, id'acord amb l'apartat 6.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 20\nAcadèmia Bombers Simulacre 82",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un edificijaconstruït",
+      "B": "En cap cas",
+      "C": "En finques unifamiliars o locals destinats a usos no domèstics",
+      "D": "En finques plurifamiliarsde nova construcció, d'acord amb l'empresa distribuïdora 7 Acadèmia Bombers Simulacre 82"
+    }
+  },
+  {
+    "id": "academia_sim84_q30",
+    "simulacre": "Simulacre 84",
+    "num_pregunta": 30,
+    "statement": "El gas natural es compon:",
+    "correct": "C",
+    "explanation": "El segon element majoritari en la seva composició és l'età(2-6%).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De metà, en un 45-50%",
+      "B": "De propà, en un 40-45%",
+      "C": "De metà, en un 90-95%",
+      "D": "Les respostes a) ib) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim85_q8",
+    "simulacre": "Simulacre 85",
+    "num_pregunta": 8,
+    "statement": "En instal·lacions receptores de combustibles gasosos id'acord amb la terminologia de la norma UNE 60670-2:2014, què és un \"shunt\"?",
+    "correct": "C",
+    "explanation": "3 -Termes, símbols idefinicions - 3.104.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 85",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un element de transició o connexió que facilitaeltrànsit de la part enterrada a lapart aèria de lainstal·lació receptora, o viceversa.",
+      "B": "Una vàlvula dissenyada per obrir-se quan rep energia i tancar-se automàticament en absència de lamateixa, el rearmament de laqual ha de ser manual",
+      "C": "Un conducte d'evacuació verticalespecialment dissenyat per a l'evacuació dels productes de la combustió dels aparells de gas de tipus B connectats a aquest, o per evacuar l'aireinteriord'un local",
+      "D": "El cremador de petitconsum laflama del qual està destinada a encendre un cremador principal 1 Acadèmia Bombers Simulacre 85"
+    }
+  },
+  {
+    "id": "academia_sim86_q54",
+    "simulacre": "Simulacre 86",
+    "num_pregunta": 54,
+    "statement": "Als efectes de la Norma UNE 60670-4, quina consideració tenen aquelles canonades que discorren cobertes per registres practicables en tot el recorregut i ventilats?",
+    "correct": "D",
+    "explanation": "UNE 60670-4. Instalaciones receptoras de gas suministradas a una presiónmáxima de operación (MOP) inferior o igual a\n5 bar.\n\n4.1 Classificació.\n\nSegons la seva ubicació, les canonades que condueixen gas es classifiquen en:\n\nVistes: Quan el trajecte és visible en tot elseu recorregut. Es consideren vistes aquelles que discorren cobertes per\nregistres practicables en tot elrecorregut i ventilats.\n\nAllotjades en vaines o conductes: Quan discorren per l’interiord’una vaina o conducte.\n\nEnterrades: Quan estan allotjades directament al subsòl idiscorren per l’exteriorde l’edificació.\n\nEmpotrades: Quan estan allotjades directament a l’interiord’un mur o paret.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 86",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cobertes enterrades",
+      "B": "Cobertes empotrades",
+      "C": "Cobertes allotjades en vaines o conductes",
+      "D": "Cobertes vistes"
+    }
+  },
+  {
+    "id": "academia_sim88_q41",
+    "simulacre": "Simulacre 88",
+    "num_pregunta": 41,
+    "statement": "L'article 3.2.1.1 de la norma UNE 60670-6 indica que als locals que estiguin situats a un nivell inferior a un primer soterrani no s'han d'instal·lar aparells de gas, ique quan el gas subministrat sigui més dens que l'aire, en cap cas no s'han d'instal·lar aparells de gas en un primer soterrani. En quins casos aquesta norma NO és aplicable?",
+    "correct": "A",
+    "explanation": "Als locals que estiguin situats a un nivell inferiora un primer soterrani no s'han d'instal·lar aparells de gas. Quan elgas\nsubministrat sigui més dens que l'aire,en cap cas no s'han d'instal·lar aparells de gas en un primer soterrani.\n\nEl que indica el paràgraf anterior no és aplicable a les sales de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 88",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En sales de màquines",
+      "B": "En aparcaments, cotxeres o garatgeswww.academiabombers.com",
+      "C": "En locals que no continguin transformadors elèctrics de potència ni recipients de combustible líquid",
+      "D": "En locals específicament homologats"
+    }
+  },
+  {
+    "id": "academia_sim91_q88",
+    "simulacre": "Simulacre 91",
+    "num_pregunta": 88,
+    "statement": "Atenent a la forma de subministrament del gas a una instal·lació receptora, quina classe NO existeix?",
+    "correct": "C",
+    "explanation": "UNE 60670-1:2014 - Generalitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subministrades des de dipòsits de GLP fixos o envasos de càrrega superior a 15 kg",
+      "B": "Subministrades des d'una xarxa de distribució",
+      "C": "Subministrades des de recipients de GLP de càrrega variable",
+      "D": "Subministrades des d'envasos de GLP de càrrega unitària inferiora 15 kg"
+    }
+  },
+  {
+    "id": "academia_sim93_q39",
+    "simulacre": "Simulacre 93",
+    "num_pregunta": 39,
+    "statement": "Els envans realitzats per sobre del sostre pla del darrer pis d’un edifici, fets habitualment amb maó de quart buit o similar, que serveixen per sustentar la teulada ique són perpendiculars al pendent d’aquesta, i que poden presentar forats que faciliten la ventilació sota coberta, s’anomenen:",
+    "correct": "B",
+    "explanation": "Els envans de sostremort són estructures de maó de quart buit (o materials similars) situades per sobre del sostre pla de\nl’últimpis.\n\nLa seva funció principal és la de sustentar la teulada idistribuir-ne lacàrrega.\n\nServeix de suport als elements de coberta (teules, ràfecs, etc.) iels forats de ventilació eviten condensacions sota la\ncoberta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 93",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Careners",
+      "B": "Envanets de sostremort",
+      "C": "Encavallada",
+      "D": "Solera de plaques encadellades"
+    }
+  },
+  {
+    "id": "academia_sim94_q45",
+    "simulacre": "Simulacre 94",
+    "num_pregunta": 45,
+    "statement": "De quina forma s'han de dimensionar els comptadors de gas, segons la norma UNE 60670-5?",
+    "correct": "C",
+    "explanation": "En tots els casos han d'estar dimensionats de manera que el cabal màxim en condicions de línia (no de referència)\nestigui al voltant del 60% del cabal nominalwww.academiabombers.comdelcomptador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De manera que elcabal màxim en condicions de líniaestigui al voltantdel 70% del cabal nominal del comptador",
+      "B": "De manera que elcabal màxim en condicions de referència assoleixi el100% del cabal nominal del comptador",
+      "C": "De manera que el cabal màxim en condicions de línia estiguial voltant del60% del cabal nominal del comptador",
+      "D": "De manera que el cabal màxim en condicions de referència estigui alvoltant del 40% del cabal nominal del comptador"
+    }
+  },
+  {
+    "id": "academia_sim95_q26",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 26,
+    "statement": "D'acord amb la norma UNE 60670-4, quin grau d'accessibilitat han d'oferir els conjunts de regulació?",
+    "correct": "B",
+    "explanation": "Clau d'escomesa: grau d'accessibilitat 1 o 2 des de zona pública.\n\nClau d'edifici:grau d'accessibilitat 2 o 3 per la empresa distribuïdora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "2 o 3"
+    }
+  },
+  {
+    "id": "academia_sim95_q65",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 65,
+    "statement": "En instal·lacions receptores de gas, quin és el dispositiu de tall més proper o en el límit de la propietat?",
+    "correct": "D",
+    "explanation": "La clau d'edificiseria el dispositiu de tallmés pròxim a l'edifici.\n\nNorma UNE 60670.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La clau d'aparell",
+      "B": "La clau d'edifici",
+      "C": "La clau d'habitatge o local privat",
+      "D": "La clau d'escomesa"
+    }
+  },
+  {
+    "id": "academia_sim96_q63",
+    "simulacre": "Simulacre 96",
+    "num_pregunta": 63,
+    "statement": "Segons la norma UNE 60670-4, per on han de discórrer les canonades de gas pertanyents a la instal·lació comuna?",
+    "correct": "D",
+    "explanation": "UNE 60670-4 - 4.2.\n\nLes canonades pertanyents a la instal·lació comuna han de discórrer per zones comunitàries de l'edifici(façana, façana\nventilada, terrat,patis, vestíbuls, caixa d'escala, etc.). Les canonades de la instal·lació individual han de discórrer per\nzones comunitàries de l'edifici,o per l'interiorde l'habitatge o local d'ús no domèstic al que subministren.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per l'interiordelshabitatges o locals d'ús no domèstic",
+      "B": "Per l'exteriorde l'edifici",
+      "C": "Han de discórrer de manera que delineïn elmateix recorregut que les canonades d'aigua",
+      "D": "Per zones comunitàries de l'edifici"
+    }
+  },
+  {
+    "id": "academia_sim97_q12",
+    "simulacre": "Simulacre 97",
+    "num_pregunta": 12,
+    "statement": "Els recintes de centralització dissenyats per a més de dos comptadors de gas han d'incorporar un cartell informatiu al seu interior amb inscripcions. Quina de les següents inscripcions és ERRÒNIA?",
+    "correct": "D",
+    "explanation": "UNE 60670-5 - 5 Instal·lació centralitzada de comptadors.\n\nEn el cas de recintes de centralització dissenyats per a més de dos comptadors, en un llocvisible de l'interiordel recinte\ns'ha de situar un cartell informatiu que contingui, com a mínim, les inscripcions següents:\n\n– Prohibit fumar o encendre foc.\n\n– Assegureu-vos que la clau de maniobra és la que correspon.\n\n– No obrir una clau sense assegurar-se que les de la resta de la instal·lació corresponent estan tancades.\n\n– En cas de tancar una clau equivocadament, no la torneu a obrir sense comprovar que la resta de les claus de la\ninstal·lació corresponent estan tancades.\n\nA més, a l'exteriorde la porta del recinte s'ha de situar un cartell informatiu que contingui la inscripció següent:\n\n– Comptadors de gas.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 97",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 97",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En cas de tancar una clau equivocadament, no la torneu a obrirsense comprovar que laresta de les claus de la instal·laciócorresponent estan tancades",
+      "B": "Prohibit fumar o encendre foc",
+      "C": "No obriruna clau sense assegurar-se que les de la resta de la instal·laciócorresponent estan tancades",
+      "D": "Totes les inscripcions són correctes"
+    }
+  },
+  {
+    "id": "academia_sim98_q5",
+    "simulacre": "Simulacre 98",
+    "num_pregunta": 5,
+    "statement": "Quan es subministra a un sol usuari, la instal·lació individual d'una instal·lació de gas és el conjunt de conduccions i accessoris compresos:",
+    "correct": "B",
+    "explanation": "Quan existeixi instal·lació comú, la instal·lació individual comprendrà entre la clau de l'usuari i les claus de l'aparell\n(incloses).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre laclau d'escomesa, exclosa, ila clau de l'usuari,inclosa",
+      "B": "Entre laclau d'escomesa o d'edifici,exclosa, iles claus d'aparell,incloses",
+      "C": "Entre la clau de l'usuari,inclosa, iles claus d'aparell,incloses",
+      "D": "Entre la clau d'escomesa, inclosa, ilaclau o claus de l'edifici,incloses"
+    }
+  },
+  {
+    "id": "academia_sim99_q54",
+    "simulacre": "Simulacre 99",
+    "num_pregunta": 54,
+    "statement": "En una instal·lació ascendent de columna seca, quina de les següents opcions és CORRECTA d'acord amb el que s'estableix al RIPCI?",
+    "correct": "B",
+    "explanation": "Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena ia totes a\npartird’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.\n\nEl sistema de columna seca ha d’estar compost per una columna de canonada d’acer galvanitzat DN80.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hauran de teniruna vàlvula de sortida a cada planta amb clau de seccionament a la part inferior",
+      "B": "Hauran d'estar proveïdes de connexió siamesa, amb claus incorporades iràcords de 45 mm amb tapa",
+      "C": "Hauran de teniruna vàlvula de sortida a cada planta amb clau de seccionament a la part superior",
+      "D": "El sistema de columna seca ha d’estar compost per una columna de canonada d’acer galvanitzat DN70"
+    }
+  },
+  {
+    "id": "academia_sim100_q75",
+    "simulacre": "Simulacre 100",
+    "num_pregunta": 75,
+    "statement": "Quina disposició ens oferirà una major eficiència en el rendiment si tenim dos ventiladors?",
+    "correct": "C",
+    "explanation": "Ventilació en sèrie: 15% de rendiment afegit (aprox).\nVentilació en V: 35% de rendiment afegit (aprox).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ventilació en sèrie",
+      "B": "Ventilació en paral·lel",
+      "C": "Ventilació en V",
+      "D": "Contraposats"
+    }
+  },
+  {
+    "id": "academia_sim100_q89",
+    "simulacre": "Simulacre 100",
+    "num_pregunta": 89,
+    "statement": "En instal·lacions de gas, respecte a les canonades de gas natural, quina és la resposta INCORRECTA?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les canonades de gas de polietilèadmeten pressions de finsa 10 bars, toti que normalment treballen a 5 bars",
+      "B": "Les canonades d’acer les podem trobar a qualsevol tipus de pressió (baixa, mitjana o alta)",
+      "C": "La màxima pressió d’operació del coure és de 0,5 bars",
+      "D": "La màxima pressió d’operació del coure és de 5 bars"
+    }
+  },
+  {
+    "id": "academia_sim102_q24",
+    "simulacre": "Simulacre 102",
+    "num_pregunta": 24,
+    "statement": "Quin material NO podrà ser empratwww.academiabombers.comenlaconstrucciódelesinstal·lacionsreceptores de gas, d'acord amb la norma UNE 60670-3:2014?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El polietilè",
+      "B": "El coure",
+      "C": "L'acer inoxidable",
+      "D": "El plom"
+    }
+  },
+  {
+    "id": "academia_sim103_q51",
+    "simulacre": "Simulacre 103",
+    "num_pregunta": 51,
+    "statement": "Als efectes de la norma UNE 60670-6, quin dels següents requisits dels locals on s'ubiquen aparells de gas és INCORRECTE?",
+    "correct": "B",
+    "explanation": "4.1 Requisits generals.\n\n4.1.1. En els locals situats a un nivell inferior a un primer soterrani no s'han d'instal·lar aparells de gas. Quan el gas\nsubministrat sigui més dens que l'aire,tampoc s'han d'instal·laraparells de gas en un primer soterrani.\n\nPer a gasos menys densos que l'aire,es poden realitzar instal·lacions de gas per a calefacció iaigua calenta sanitària\nper sota del primer soterrani, únicament per a sales de calderes existents, sempre que es compleixin tots els requisits\nestablerts a la Norma UNE 60601.\n\n4.1.2. Els locals destinats a dormitori iels locals de bany, dutxa o servei, no han de contenir aparells de gas de circuit\nobert.\n\nEn aquest tipus de locals només es pot instal·lar aparells de gas de circuitestanc, havent de complir la reglamentació\nvigent en allò referent a locals humits, en elcas de banys, dutxes o serveis.\n\n4.1.3. No s'han d'ubicar aparells de circuitobert conduïts de tirnatural en un local o galeria tancada que comuniqui amb\nun dormitori, local de bany o de dutxa, quan l'única possibilitat d'accés d'aquests últims sigui a través d'una porta que\ncomuniqui amb el local o galeria on està l'aparell.\n\n4.1.4. En edificis de nova construcció, els aparells de gas de circuit obert conduïts s'haurien d'instal·lar preferentment en\ngaleries o terrasses, o en recintes o locals exclusius per a aquests aparells, o en altres locals d'ús restringit (lavadors,\ngaratges individuals, etc.).\n\n4.1.5. Dos locals es consideren com un de sol, a efectes de condicions d'instal·lació d'aparells de gas idisseny de\nventilacions, si es comuniquen entre si mitjançant una o diverses obertures permanents, la superfície lliure totalde les\nquals sigui com a mínim de 1,5 m².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dos locals es consideren com un de sol, a efectes de condicions d'instal·laciód'aparells de gas idisseny de ventilacions, si es comuniquen entre si mitjançant una o diverses obertures permanents, la superfície lliuretotal de les quals sigui com a mínim de 1,5 m²",
+      "B": "En locals comercials, els aparells de gas de circuitobert poden instal·lar-se a menys de 2 metres de banys de dutxa col·lectius sies manté una distància de seguretat amb mampara de separació",
+      "C": "En edificisde nova construcció, els aparells de gas de circuitobert conduïts s'haurien d'instal·larpreferentment en galeries o terrasses, o en recintes o locals exclusius per a aquests aparells, o en altres locals d'ús restringit",
+      "D": "En els locals situats a un nivellinferior a un primer soterrani no s'han d'instal·lar aparells de gas"
+    }
+  },
+  {
+    "id": "academia_sim105_q51",
+    "simulacre": "Simulacre 105",
+    "num_pregunta": 51,
+    "statement": "Quina és lacomposició del gas natural?",
+    "correct": "C",
+    "explanation": "El segon element majoritari en laseva composició és l'età (2-6%).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 105",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Età,en un 45-50%",
+      "B": "Propà, en un 40-45%",
+      "C": "Metà, en un 90-95%",
+      "D": "Butà, en un 60-70%"
+    }
+  },
+  {
+    "id": "academia_sim106_q79",
+    "simulacre": "Simulacre 106",
+    "num_pregunta": 79,
+    "statement": "La Norma UNE 60002:1995 classifica els gasos combustibles segons un paràmetre anomenat Índex de Wobbe, segons el qual el GLP o els gasos liquats del petroli pertanyeran:",
+    "correct": "B",
+    "explanation": "La quarta família no existeix.\n\nPrimera família: Índex de Wobbe comprès entre 5.700 y 7.500 Kcal/m³(n). Pertany a aquesta família elgas manufacturat.\nSegona família: Índex de Wobbe comprès entre 9.680 y 13.850 Kcal/m³(n). Pertanyen a aquesta família el gas natural i\nl'airepropanat.\nTercera família: Índex de Wobbe comprès entre 18.500 y 22.070 Kcal/m³(n). Pertanyen a aquesta família els GLP o\ngasos liquats del petroli (propà ibutà).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la primera família",
+      "B": "A la tercera família",
+      "C": "A la segona família",
+      "D": "A la quarta família"
+    }
+  },
+  {
+    "id": "academia_sim109_q27",
+    "simulacre": "Simulacre 109",
+    "num_pregunta": 27,
+    "statement": "A efectes de la norma UNE 60250, es consideren dipòsits fixos:",
+    "correct": "C",
+    "explanation": "Dipòsit fix:dipòsit que disposa d'una boca de càrrega per alseu emplenat \"in situ\",sense necessitat del seu trasllat a una\nplanta d'emplenament iposterior retorn a l'emplaçament original de la instal·lació de GLP. No tenen la consideració de\nfixos els instal·latsen autocaravanes o altres vehicles de motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 109",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dipòsits que pel seu ompliment requereixen un trasllatauna planta d'emplenament iposterior retorn a l'emplaçament originalde lainstal·lacióde GLP",
+      "B": "Els dipòsits instal·latsen autocaravanes",
+      "C": "Els dipòsits que disposen d'una boca de càrrega per alseu emplenat \"insitu\"",
+      "D": "Les respostes b)i c)són certes"
+    }
+  },
+  {
+    "id": "academia_sim110_q49",
+    "simulacre": "Simulacre 110",
+    "num_pregunta": 49,
+    "statement": "Quin tipus de gas s'emmagatzemawww.academiabombers.comaunapressiómésaltaquans'utilitza com a combustible o font d'energia motriu en vehicles?",
+    "correct": "C",
+    "explanation": "El GNC (Gas Natural Comprimit) s'emmagatzema a pressions molt més altes, típicament entre 200 i 250 bars\n(aproximadament 20-25 MPa), en comparació amb el GLP (Gas Liquat del Petroli) iel propà.\n\nEl gas liquat de petroli per a automoció rep els noms d'AutoGas, Gasauto o simplement GLP, mentre que a nivell\ninternacional es coneix com a LPG.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 110",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ElGLP",
+      "B": "Elpropà",
+      "C": "El GNC",
+      "D": "L'autogas"
+    }
+  },
+  {
+    "id": "academia_sim111_q71",
+    "simulacre": "Simulacre 111",
+    "num_pregunta": 71,
+    "statement": "Quin dels següents elements que componen el sistema de columna seca serà de 25 mm?",
+    "correct": "C",
+    "explanation": "1.El sistema de columna seca ha d’estar compost per:\n\na) Presa d’aigua en façana o en zona fàcilment accessible al servei contra incendis, amb laindicació d’«ÚS EXCLUSIU\nBOMBERS», proveïda de vàlvula antiretorn, connexió siamesa, amb claus incorporades iràcords de 70mm, amb tapa i\nclau de purga de 25mm.\n\nb) Columna de canonada d’acer galvanitzat DN80.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La columna de canonada d’acer galvanitzat",
+      "B": "Els ràcords",
+      "C": "La clau de purga",
+      "D": "La vàlvula antiretorn"
+    }
+  },
+  {
+    "id": "academia_sim113_q84",
+    "simulacre": "Simulacre 113",
+    "num_pregunta": 84,
+    "statement": "D'acord amb la norma UNE 60670-3:2014, quina de les següents afirmacions és FALSA en relació amb l'ús del polietilè per les canonades iaccessoris?",
+    "correct": "D",
+    "explanation": "3.1 Polietilè.\n\nPer a les canonades vistes no es pot utilitzartub de polietilè.\n\nEl tub iels accessoris de polietilè utilitzats han de ser de qualitat PE 80 o PE 100, i han de ser conformes a la Norma de\nsistema UNE-EN 1555. L'ús del polietilè queda limitat a canonades soterrades i a trams allotjats en beines encastades\nque discorrin per murs exteriors o soterrades que subministren a armaris de regulació i/o comptadors de les edificacions.\nAquests armaris han de tenir almenys una de les parets confrontant amb l'exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 113",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les unions de lescanonades iaccessoris de polietilès'han de ferpreferentment mitjançant soldadura",
+      "B": "Es pot usar elpolietilèper a canonades soterrades",
+      "C": "Les canonades iels accessoris de polietilèutilitzatshan de ser de qualitatPE 80 o PE 100",
+      "D": "Es pot usar elpolietilèper a canonades vistes"
+    }
+  },
+  {
+    "id": "academia_sim115_q69",
+    "simulacre": "Simulacre 115",
+    "num_pregunta": 69,
+    "statement": "Per quina de les aplicacions següents NO estarà permès l'ús de tubs de polietilè?",
+    "correct": "C",
+    "explanation": "UNE 60670-4 - 4.3.\n\nPer a les canonades vistes no es pot utilitzartub de polietilè.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 115",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per canonades enterrades",
+      "B": "Per canonades que subministren a armaris encastats de regulació i/ode comptadors",
+      "C": "Per canonades vistes",
+      "D": "Per canonades allotjades en veines"
+    }
+  },
+  {
+    "id": "academia_sim116_q76",
+    "simulacre": "Simulacre 116",
+    "num_pregunta": 76,
+    "statement": "Quina de les següents afirmacions descriu correctament l’efecte Venturi en una canonada amb variació de secció?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 116",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En disminuir lasecció de lacanonada, augmenta la velocitatdel fluidi també la pressió estàtica, facilitantla succió de fluidextern",
+      "B": "En disminuir lasecció de lacanonada, augmenta la velocitatdel fluidi disminueixen tant lapressió estàtica com la dinàmica, evitant lasucció de fluid extern",
+      "C": "En disminuir la secció de lacanonada, disminueix lavelocitat del fluidi augmenta la pressió estàtica, impedint qualsevol intercanvi amb l’exterior",
+      "D": "En disminuir la secció de lacanonada, augmenta la velocitatdel fluid,augmenta la pressió dinàmica idisminueix la pressió estàtica, permetent lasucció de fluid extern"
+    }
+  },
+  {
+    "id": "academia_sim118_q54",
+    "simulacre": "Simulacre 118",
+    "num_pregunta": 54,
+    "statement": "En instal·lacions receptores de combustibles gasosos i d'acord amb la terminologia de la norma UNE 60670-2:2014, què és un \"shunt\"?",
+    "correct": "C",
+    "explanation": "3 -Termes, símbols idefinicions - 3.104.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 118",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un element de transició o connexió que facilitael trànsitde la part enterrada a la part aèria de la instal·lacióreceptora, o viceversa.",
+      "B": "Una vàlvula dissenyada per obrir-se quan rep energia itancar-se automàticament en absència de la mateixa, el rearmament de laqual ha de ser manual",
+      "C": "Un conducte d'evacuació verticalespecialment dissenyat per a l'evacuació dels productes de la combustió dels aparells de gas de tipus B connectats a aquest, o per evacuar l'aireinteriord'un local",
+      "D": "El cremador de petitconsum laflama del qual està destinada a encendre un cremador principal"
+    }
+  },
+  {
+    "id": "academia_sim118_q61",
+    "simulacre": "Simulacre 118",
+    "num_pregunta": 61,
+    "statement": "Quin dels següents materials podrà ser utilitzat en les canonades de les xarxes de distribució i recepció de gas natural?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 118",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El poliuretà",
+      "B": "L'alumini",
+      "C": "El poliestirè",
+      "D": "El polietilè"
+    }
+  },
+  {
+    "id": "academia_sim119_q49",
+    "simulacre": "Simulacre 119",
+    "num_pregunta": 49,
+    "statement": "Quins aparells de gas tenen permesa la seva instal·lació en dormitoris, banys idutxes?",
+    "correct": "C",
+    "explanation": "Tampoc necessitaran reixetes de ventilació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elsaparells de tipusA",
+      "B": "Elsaparells de tipusB",
+      "C": "Els aparellsde tipusC",
+      "D": "Els aparellsde tipusB iC www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim119_q54",
+    "simulacre": "Simulacre 119",
+    "num_pregunta": 54,
+    "statement": "L'article 3.2.1.1 de la norma UNE 60670-6 indica que als locals que estiguin situats a un nivell inferior a un primer soterrani no s'han d'instal·lar aparells de gas, i que quan el gas subministrat sigui més dens que l'aire, en cap cas no s'han d'instal·lar aparells de gas en un primer soterrani. En quins casos aquesta norma NO és aplicable?",
+    "correct": "A",
+    "explanation": "Als locals que estiguin situats a un nivell inferiora un primer soterrani no s'han d'instal·laraparells de gas.\n\n\n\n\n 18\nAcadèmia Bombers Simulacre 119\n\n\n\nQuan el gas subministrat sigui més dens que l'aire,en cap cas no s'han d'instal·lar aparells de gas en un primer\nsoterrani.\nEl que indica el paràgraf anterior no és aplicable a les sales de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En sales de màquines",
+      "B": "En aparcaments, cotxeres o garatges",
+      "C": "En locals que no continguin transformadors elèctrics de potència nirecipients de combustible líquid",
+      "D": "En locals específicament homologats"
+    }
+  },
+  {
+    "id": "academia_sim122_q89",
+    "simulacre": "Simulacre 122",
+    "num_pregunta": 89,
+    "statement": "Als efectes de la norma UNE 60670-5, en quin cas es podran instal·lar els comptadors de gas a l'interior d'un habitatge o local privat?",
+    "correct": "A",
+    "explanation": "4.2 Instal·lació dels comptadors en un edifici jaconstruït\nSi lainstal·lació de comptadors en edificis jaconstruïts no es pot realitzar d'acord amb l'apartat 4.1, es poden instal·lar a\nl'interiordels habitatges o locals privats. No obstant això, les claus d'usuari de les instal·lacions\n\n\n\n\n\n\n\n\n 24\nAcadèmia Bombers Simulacre 122\n\n\n\nindividuals s'han de situar de manera que siguin fàcilment accessibles per a l'empresa distribuïdora des d'una zona\ncomunitària, amb accessibilitat de grau\n2.En el supòsit que això tampoc no sigui possible, llavors és necessari recaptar l'autorització expressa de l'empresa\ndistribuïdora, en el qual cas aquesta pot exigir lainstal·lació d'un obturador de tancament.\nEn els casos en què els comptadors es trobin a l'interiordels habitatges o locals privats, s'han d'instal·lar tan a prop com\nsigui possible del punt de penetració de la canonada a l'habitatge, preferentment a lagaleria oberta, cuina o local on\ns'instal·len els aparells de gas, i d'acord amb l'apartat 6.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un edificija construït",
+      "B": "En cap cas",
+      "C": "En finques unifamiliars o locals destinats a usos no domèstics",
+      "D": "En finques plurifamiliars de nova construcció, d'acord amb l'empresa distribuïdora"
+    }
+  },
+  {
+    "id": "academia_sim123_q72",
+    "simulacre": "Simulacre 123",
+    "num_pregunta": 72,
+    "statement": "A efectes de la norma UNE 60670-2:2014, a què es refereix la instal·lació comú?",
+    "correct": "D",
+    "explanation": "Article 3.55.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alconjunt de conduccions i accessoris compresos entre la clau de connexió de servei, exclosa aquesta, ila clau o claus d'edifici,incloses aquestes, en el cas d'instal·lacions receptores subministrades des de xarxes de distribució",
+      "B": "Alconjunt de conduccions i accessoris compresos entre la clau d'escomesa, exclosa, iles claus d'usuari, incloses",
+      "C": "Al conjunt de conduccions iaccessoris compresos entre laclau d'usuari, inclosa, iles claus d'aparell, incloses",
+      "D": "Al conjunt de conduccions iaccessoris compresos entre laclau d'edifici,o laclau de connexió de servei siaquesta existeix,excloses, iles claus d'usuari, incloses"
+    }
+  },
+  {
+    "id": "academia_sim124_q32",
+    "simulacre": "Simulacre 124",
+    "num_pregunta": 32,
+    "statement": "En un ascensor funicular inclinat, per transitar per les escales interiors cal assegurar-se que s’ha desconnectat el subministrament elèctric a motor amb una o diverses de les següents maniobres. Marca l'opció INCORRECTA:",
+    "correct": "D",
+    "explanation": "Treure fusibles no és un procediment previst ni segur com a maniobra d'assegurament. Els fusibles són un element de\nprotecció, no un element de maniobra o seccionament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 124",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desactivant l’interruptorprincipal www.academiabombers.com",
+      "B": "Activant el polsador elèctricd’emergència",
+      "C": "Obrint contactes de porta d’accés",
+      "D": "Extraient els fusibles del quadre de protecció 4 Acadèmia Bombers Simulacre 124"
+    }
+  },
+  {
+    "id": "academia_sim125_q68",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 68,
+    "statement": "En quin tipus de vehicle l'incendi comporta un risc especialment elevat quan es produeix en espais poc ventilats?",
+    "correct": "A",
+    "explanation": "Riscos principals del GNL (Gas natural liquat):\n\n-Risc criogènic (fred extrem).\n-Evaporació sobtada amb formació de núvol inflamable.\n-Perill en espais poc ventilats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicle de gas natural liquat",
+      "B": "Vehicle d'hidrogen",
+      "C": "Vehicle de gas natural comprimit",
+      "D": "Vehicle de gas liquatdel petroli"
+    }
+  },
+  {
+    "id": "academia_sim126_q57",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 57,
+    "statement": "Durant un sanejament cal identificar la funció d'una biga del sostre. Quina és la seva funció estructural?",
+    "correct": "B",
+    "explanation": "La biga és un element horitzontal lineal que recull les càrregues del forjat iles transmet als elements verticals (pilars o\nmurs). Repartir les càrregues alterreny correspon als fonaments, iés la jàssera la que agrupa càrregues de bigues\nsecundàries, no a l'inrevés.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reparteix les càrregues del pilarcap al terreny de suport",
+      "B": "Recull les càrregues del forjati lestransmet a pilars o murs",
+      "C": "Reté les terres del soterrani iresisteix empentes horitzontals",
+      "D": "Agrupa lescàrregues de diverses jàsseres de la mateixa planta"
+    }
+  },
+  {
+    "id": "academia_sim126_q59",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 59,
+    "statement": "A l'hora d'identificar el combustible dels vehicles accidentats hem de tenir en compte que:",
+    "correct": "B",
+    "explanation": "Gasolina:\n\n·Boca de càrrega més estreta.\n·Etiqueta a l’interiorde latapa del dipòsit: E5, E10, E85, “unleaded”.\n·Tub/s d’escapament de gasos.\n\nDièsel:\n\n·Boca de càrrega més ampla.\n·Etiqueta a l’interiorde latapa del dipòsit: B7, B10, XTL, “diesel”.\n·Tub/s d’escapament de gasos.\n\nGLP (gas liquat del petroli) /GNC (Gas natural comprimit) / GNL (Gas natural liquat):\n\n·Doble boca de càrrega de combustible, una de benzina iuna de gas.\n·Etiqueta a l’interiorde latapa del dipòsit de gas: LPG, CNG, LNG.\n·Tub d’escapament de gasos.\n·Adhesiu visible a la part posterior del vehicle.\n\nHíbrid o elèctric:\n\n·Inscripció “Hybrid”, “EV”, “Plug-in”.\n·Absència de tub d’escapament de gasos (elèctrics).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els vehicles de gasolina tenen la boca de càrrega més ampla que els dièsel",
+      "B": "Una etiqueta a l’interiorde latapa del dipòsit E5 o E10 correspon a vehicles de gasolina",
+      "C": "L'absència de tub d’escapament de gasos pot correspondre a vehicles de GNC",
+      "D": "L'utilitzaciód'un detector de gasos per comprovar possibles fuites és una maniobra de caràcter preceptiu 8 Acadèmia Bombers Simulacre 126"
+    }
+  },
+  {
+    "id": "academia_sim127_q2",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 2,
+    "statement": "Quina afirmació relativa a les parts més importants d'un ascensor electromecànic d’adherència és INCORRECTA?",
+    "correct": "C",
+    "explanation": "Els cables d'acer són els elements que transmeten el moviment des de la politjafins a la cabina i elcontrapès. No\narrosseguen per tracció directa, sinó per adherència a lapolitja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El frede seguretat només actuarà sobre el moviment de lacabina quan no s’estiguisubministrant energia o en cas d’avaria",
+      "B": "La cambra de màquines està situada habitualment a la part superior de l’edifici",
+      "C": "Els cables d'acer arrosseguen per tracció directa",
+      "D": "El motor elèctricpodrà ser amb reductor (geared) o sense reductor (gearless)"
+    }
+  },
+  {
+    "id": "academia_sim128_q15",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 15,
+    "statement": "En la ventilació forçada dels aparcaments, com es realitza la ventilació i com pot ser l'admissió d'aire?",
+    "correct": "D",
+    "explanation": "En els aparcaments amb ventilació forçada la renovació es fa amb ventiladors d'extracció treballant per depressió, i l'aire\nd'admissió pot entrar de forma natural o mecànica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per sobrepressió, il'admissió d'aire ha de ser sempre mecànica",
+      "B": "Per sobrepressió, il'admissió d'aire pot ser natural o mecànica",
+      "C": "Per depressió, i l'admissió d'aire ha de ser sempre mecànica",
+      "D": "Per depressió, i l'admissió d'aire pot ser natural o mecànica 2 Acadèmia Bombers Simulacre 128"
+    }
+  },
+  {
+    "id": "academia_sim128_q17",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 17,
+    "statement": "En un sanejament s'ha de reomplir una junta d'una paret d'obra amb una mescla de ciment, aigua i sorra. Quin material s'està emprant?",
+    "correct": "A",
+    "explanation": "El morter és conglomerant més aigua i sorra; la pasta només porta conglomerant i aigua, iel formigó s'obté amb àrids en\nllocde sorra.\n\n\n\n\n\n\n\n\n\n 13\nAcadèmia Bombers Simulacre 128",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un morter",
+      "B": "Una pasta",
+      "C": "Un formigó",
+      "D": "Un revestiment de guix"
+    }
+  },
+  {
+    "id": "academia_sim128_q56",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 56,
+    "statement": "Els bombers són requerits per un atrapament en un ascensor inclinat (funicular) situat a l'exterior. A quina tipologia pertany i quina n'és la singularitat?",
+    "correct": "A",
+    "explanation": "Els ascensors inclinats o funiculars es classifiquen com una variant dels ascensors electromecànics d'adherència,\njuntament amb els verticals, ila seva singularitat és que tant lacabina com elcontrapès es desplacen en un pla inclinat i\nno vertical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T12 - Instal·lacions",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als electromecànics d'adherència",
+      "B": "Als hidràulics",
+      "C": "Als sense cambra de màquines",
+      "D": "A una quarta tipologia pròpia, de gran capacitat, exterior isense contrapès"
+    }
+  }
+]

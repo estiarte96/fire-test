@@ -1,0 +1,162 @@
+[
+  {
+    "id": "academia_sim4_q13",
+    "simulacre": "Simulacre 4",
+    "num_pregunta": 13,
+    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir la funció de cap d'intervenció per a un nivell de comandament 1?",
+    "correct": "A",
+    "explanation": "Nivellde comandament 1: cap de sortida\nNivellde comandament 2: sotscap territorial\nNivellde comandament 3: capbombersterritorial\nNivellde comandament 4: cap operatiu\nNivellde comandament 5: subdirector general competent en l'àmbitoperatiu\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23\nAcadèmia Bombers Simulacre 4",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al cap de sortida",
+      "B": "Al sotscap territorial",
+      "C": "Al cap territorial acadèmia",
+      "D": "Al cap operatiu"
+    }
+  },
+  {
+    "id": "academia_sim13_q86",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 86,
+    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir la funció de cap d'intervenció per a un nivell de comandament 5?",
+    "correct": "B",
+    "explanation": "Nivellde comandament 1: cap de sortida\nNivellde comandament 2: sotscap territorial\nNivellde comandament 3: cap territorial\nNivellde comandament 4: cap operatiu\nNivellde comandament 5: subdirector general operatiu",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al cap de sortida acadèmia",
+      "B": "Al subdirectorgeneral operatiu",
+      "C": "Al cap operatiu",
+      "D": "Aquest nivellde comandament no existeix"
+    }
+  },
+  {
+    "id": "academia_sim28_q16",
+    "simulacre": "Simulacre 28",
+    "num_pregunta": 16,
+    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir lafunció de cap d'intervenció per a un nivell de comandament 3?",
+    "correct": "A",
+    "explanation": "Nivellde comandament 1:cap de sortida\nNivellde comandament 2:sotscap territorial\nNivellde comandament 3:cap territorial\nNivellde comandament 4:cap operatiu\nNivellde comandament 5:subdirector general operatiu",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al cap territorial",
+      "B": "Al subdirector general operatiu",
+      "C": "Alcap operatiu",
+      "D": "Aquest nivellde comandament no existeix"
+    }
+  },
+  {
+    "id": "academia_sim48_q11",
+    "simulacre": "Simulacre 48",
+    "num_pregunta": 11,
+    "statement": "A qui correspon l'activació de les posicions de l'àmbit de suport?",
+    "correct": "D",
+    "explanation": "L'activació de les posicions de l'àmbit de suport correspon a laSala Central de Bombers (SCB), a petició de:\n-Cap d'intervenció\n-Cap de coordinació de la SCT\n-Cap de coordinació de la SCB",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A lespertinents Sales de Control Territorial(SCT)",
+      "B": "Al cap de coordinació de la SCT",
+      "C": "Alcap d'intervenció",
+      "D": "A laSala Central de Bombers (SCB)"
+    }
+  },
+  {
+    "id": "academia_sim50_q28",
+    "simulacre": "Simulacre 50",
+    "num_pregunta": 28,
+    "statement": "Tots els serveis en situacions d'emergència han d'estar comandats per:",
+    "correct": "B",
+    "explanation": "La funció de cap d'intervenció ha de ser assumida per les següents posicions de comandament de l'àmbit operatiu de la\nguàrdia segons els nivellsque de més baix a més alt s'indiquen a continuació:\n a) Nivell de comandament 1: cap de sortida.\nb)Nivell de comandament 2: sotscap territorial.\nc)Nivell de comandament 3:cap territorial.\nd)Nivell de comandament 4: cap operatiu.\ne)Nivell de comandament 5: subdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un cap de torn",
+      "B": "Un cap d'intervenció",
+      "C": "El/LaSubdirector/a General Operatiu/va",
+      "D": "Un cap operatiu"
+    }
+  },
+  {
+    "id": "academia_sim62_q8",
+    "simulacre": "Simulacre 62",
+    "num_pregunta": 8,
+    "statement": "Quina d'aquestes respostes és INCORRECTA en relació amb la modificació del nivell de comandament?",
+    "correct": "D",
+    "explanation": "Article22: Determinació del nivellde comandament.\nElnivell de comandament d'un servei davant d'una situació d'emergència el determina el cap de coordinació territorial\ncorresponent, en funció de lainformació rebuda i de l'escenari de la situació d'emergència i,si escau, d'acord amb les\ninstruccions establertes. El nivellde comandament pot variar a petició del cap d'intervenció, del cap de coordinació\nterritorial,oper decisió del subdirector general competent en l'àmbit operatiu, a través del cap de coordinació de laSala\nCentral de Bombers.\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 62",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es potmodificar a peticiódel cap d'intervenció",
+      "B": "Es potmodificar a peticiódel cap de coordinació territorial",
+      "C": "Es pot modificarper decisió del subdirectorgeneral operatiu,a través delcap de coordinació de la salacentral de Bombers",
+      "D": "Es pot modificara peticiódel cap de laguàrdia de suport"
+    }
+  },
+  {
+    "id": "academia_sim72_q4",
+    "simulacre": "Simulacre 72",
+    "num_pregunta": 4,
+    "statement": "El sistema de comandament s'estructura en cinc nivells de comandament en funció de les necessitats d'organització. Si el cap d’intervenció és un cap territorial,aquin nivell de comandament correspon aquesta actuació?",
+    "correct": "C",
+    "explanation": "Nivellde comandament 1:cap de sortida.\nNivellde comandament 2:sotscap territorial.\nNivellde comandament 3:cap territorial.\nNivellde comandament 4:cap operatiu.\nNivellde comandament 5:subdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nivellde comandament 1",
+      "B": "Nivellde comandament 2",
+      "C": "Nivellde comandament 3",
+      "D": "Nivellde comandament 4"
+    }
+  },
+  {
+    "id": "academia_sim127_q28",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 28,
+    "statement": "Què és l'Incident Command System o sistema de comandament d’incidents (ICS)?",
+    "correct": "C",
+    "explanation": "L'incident Command System o sistema de comandament d’incidents (ICS) va ser desenvolupat a la dècada del 1970 als\nEstats Units després d'un seguit d'incendis catastròfics a la interfícieurbana de Califòrnia. Els danys materials van ser\nmolt elevats, imoltes persones van morir o van resultar ferides. El personal assignat per determinar les causes d'aquests\nfets va concloure que no es podia atribuir aquests danys a la manca de recursos o al fracàs de la tàctica.\n www.academiabombers.com\nSorprenentment, els estudis van trobar que els fets es devien a una gestió i una coordinació inadequada. Per millorar\naquesta coordinació igestió de l’emergència, es va crear l'ICS.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Sistema de comandament",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un model de coordinació orientat a centralitzar lesdecisions tàctiques dels diferents serveis d’emergències per garantir una actuació uniforme davant de situacions d’especial gravetat o complexitat",
+      "B": "És un sistema d’actuació creat per reforçar la capacitat dels cossos d’emergències mitjançant l’increment de personal, equipaments imitjans disponibles durant elsincidents",
+      "C": "És un sistema de gestió d’emergències creat per millorar lacoordinació ila gestió dels recursos iles actuacions durant un incident",
+      "D": "És un sistema de comandament destinat principalment a establirles funcions dels serveis d’emergències i determinar lescauses dels incidents produïts durant lesintervencions"
+    }
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "academia_sim2_q49",
+    "simulacre": "Simulacre 2",
+    "num_pregunta": 49,
+    "statement": "Com s'anomena una depressió allargada irelativament ampla, definida per laconvergència de dos vessants iha estat recorreguda per un corrent d'aigua o una glacera?",
+    "correct": "A",
+    "explanation": "Tàlveg: líniaque uneix els punts més profunds d'una vall,que correspon a lalínia natural de drenatge d'un corrent\nd'aigua. \nCarena: líniadivisòriadels dos vessants d'una muntanya o d'una serralada.\nCongost: vallestreta iprofunda entre muntanyes, de vores abruptes, excavada per l'aigua d'un riu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vall",
+      "B": "Carena",
+      "C": "Tàlveg",
+      "D": "Congost"
+    }
+  },
+  {
+    "id": "academia_sim6_q69",
+    "simulacre": "Simulacre 6",
+    "num_pregunta": 69,
+    "statement": "Quina de les següents afirmacionssobre l'estatge montà és falsa?",
+    "correct": "B",
+    "explanation": "L'estatge basal o terra baixa es comprèn entre els 0 i els 600-900 metres ihi trobem majoritàriament alzinars.\nL'estatge montà o muntanya mitjana arriba fins els 1.600 metres ihi predomina una vegetació típicament euro-siberiana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "També es coneix com a muntanya mitjana",
+      "B": "És una altraforma de referir-sea l'estatgebasal",
+      "C": "Segons les condicions d'humitat hipodem trobardiversos tipusde fageda",
+      "D": "Es comprèn entre els 600-900 metres fins els1.600 aproximadament"
+    }
+  },
+  {
+    "id": "academia_sim8_q52",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 52,
+    "statement": "Què és l'orografia?",
+    "correct": "C",
+    "explanation": "La pluja orogràfica és la produïda per l'ascens de l'airehumit en topar-se amb un obstacle orogràfic, com podria ser una\nmuntanya. En el seu ascens l'airees refreda finsa arribaral punt de saturació del vapor d'aigua (iuna humitat relativadel\n100%), que provoca lapluja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És laciència que estudia les lleisque regeixen els fenomens que tenen lloca l’atmosfera",
+      "B": "És laciència que estudia larepresentació d'alguna idea,pauta de distribucióo teoria sobre el territori",
+      "C": "És lapart de la geografia físicaque tractade ladescripció dels relleus ide llurestructuració,més omenys regular, en una regió determinada",
+      "D": "És laciència que estudia les lleisque regeixen elsfenòmens que tenen llocexclusivament a latroposfera"
+    }
+  },
+  {
+    "id": "academia_sim12_q91",
+    "simulacre": "Simulacre 12",
+    "num_pregunta": 91,
+    "statement": "El modelat del Pirineu és d'origen:",
+    "correct": "B",
+    "explanation": "Relleu càrstic:relleupropi de lesregions de massissos o altiplans calcaris,on s'ha desenvolupat un carst (congostos,\ndolines,avencs, coves, cavernes...).\nRelleu modelat glacial:són aquelles formacions que deriven del desplaçament de grans masses de gel.\nElsdeserts són zones on abunda elmodelat eólic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Càrstic",
+      "B": "Glacial",
+      "C": "Erosiu eòlic",
+      "D": "Sedimentari"
+    }
+  },
+  {
+    "id": "academia_sim14_q30",
+    "simulacre": "Simulacre 14",
+    "num_pregunta": 30,
+    "statement": "Amb quin altre nom es coneixen els ecosistemes d'alta muntanya?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ecosistemes altius",
+      "B": "Ecosistemes boreals acadèmia",
+      "C": "Ecosistemes altitudinals",
+      "D": "Ecosistemes culminals"
+    }
+  },
+  {
+    "id": "academia_sim16_q94",
+    "simulacre": "Simulacre 16",
+    "num_pregunta": 94,
+    "statement": "És una altra forma de referir-se a una carena:",
+    "correct": "C",
+    "explanation": "La carena o divisòriad'aiguesés lapart més altadel llom d'una muntanya, que separa vessants de diferentorientació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un tàlveg",
+      "B": "Una vessant",
+      "C": "Una divisòriad'aigues acadèmia",
+      "D": "Una vall"
+    }
+  },
+  {
+    "id": "academia_sim17_q8",
+    "simulacre": "Simulacre 17",
+    "num_pregunta": 8,
+    "statement": "A quina comarca trobem l'estació de muntanya de Rasos de Peguera?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Berguedà",
+      "B": "Al Solsonès",
+      "C": "A laCerdanya",
+      "D": "A l'AltUrgell 20 Acadèmia Bombers Simulacre 17"
+    }
+  },
+  {
+    "id": "academia_sim22_q87",
+    "simulacre": "Simulacre 22",
+    "num_pregunta": 87,
+    "statement": "La part més alta d'un turó o muntanya rep el nom de:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Coll",
+      "B": "Cim",
+      "C": "Fons",
+      "D": "Vessant"
+    }
+  },
+  {
+    "id": "academia_sim30_q30",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 30,
+    "statement": "Sovint ens podem referir a un port de muntanya com:",
+    "correct": "D",
+    "explanation": "Un port de muntanya, també denominat pas de muntanya, és la ruta o pas establert a través d'un collo collada per a\ncreuar una cadena muntanyenca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un planell",
+      "B": "Una vessant",
+      "C": "Una carena odivisòriad'aigues acadèmia",
+      "D": "Un collo collada"
+    }
+  },
+  {
+    "id": "academia_sim30_q70",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 70,
+    "statement": "Quin estatge climàtic va seguit per l'estatge subalpí (en ordre inferior-superior)?",
+    "correct": "B",
+    "explanation": "Existeix laregió eurosiberiana, no l'estatge eurosiberià.\nMuntanya alta = Estatge Nival + Alpí + Subalpí.\nMuntanya mitja = Estatge Montà.\nMuntanya baixa = Estatge Basal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estatge de muntanya alta",
+      "B": "Estatge montà acadèmia",
+      "C": "Estatge basal",
+      "D": "Estatge eurosiberià"
+    }
+  },
+  {
+    "id": "academia_sim45_q24",
+    "simulacre": "Simulacre 45",
+    "num_pregunta": 24,
+    "statement": "Els Aiguamolls de l’Empordà, laZona Volcànica de laGarrotxa o elDelta de l’Ebre són exemples de:",
+    "correct": "C",
+    "explanation": "Actualment a Catalunya hi ha els següents parcs: Alt Pirineu,Aiguamolls de l’Empordà, Cadí-Moixeró, Cap de Creus,\nCapçaleres del Ter idel Freser, Collserola, Delta de l’Ebre,Els Ports, Montgrí lesMedes iel Baix Ter, Montseny,\nMuntanya de Montserrat, Sant Llorenç delMunt iSerra de l’Obac, la Serra del Montsant i laZona Volcànica de la\nGarrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Paratges naturals d'interèsnacional",
+      "B": "Reserves naturals",
+      "C": "Parcs naturals",
+      "D": "Parcs nacionals 22 Acadèmia Bombers Simulacre 45"
+    }
+  },
+  {
+    "id": "academia_sim48_q15",
+    "simulacre": "Simulacre 48",
+    "num_pregunta": 15,
+    "statement": "Quin és elvent dominant a Catalunya, com en general a la resta d'Europa?",
+    "correct": "B",
+    "explanation": "Elvent dominant a Catalunya, com en general a laresta d'Europa, és el de ponent (de l'oest).Tanmateix tant al nord com\nalsud del país hidominen vents de component nord: la tramuntana (que bufa del nord) especialment a l'AltEmpordà iel\nmestral (delnordoest) al sud de Catalunya.Les velocitats mitjanes anuals del vent (mesurades a 10 m del terra) es\ntroben entre 1 m/s a Viella (protegida per les muntanyes que l'envolten) i10 m/s de Portbou (observatori daltd'una\nmuntanya).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El de tramuntana (nord) bombers",
+      "B": "El de ponent (de l'oest)",
+      "C": "Elde mestral (nord-oest)",
+      "D": "Elde llevant (de l'est) www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim55_q34",
+    "simulacre": "Simulacre 55",
+    "num_pregunta": 34,
+    "statement": "Què és una carena?",
+    "correct": "B",
+    "explanation": "La carena o divisòriad'aigues és la part més alta del llom d'una muntanya, que separa vessants de diferent orientació.\nEntre dos fons de vallsempre hiha una carena o divisòria, que fa que les aigües es parteixin prenent direccions\ndiferents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una petita plana en el vessant d'una muntanya degut a un canvi o trencament del pendent",
+      "B": "La partmés alta del llomd'una muntanya, que separa vessants de diferentorientació",
+      "C": "Aquella part més baixa del terreny,per on es canalitza l'aigua de lapluja formant xaragalls, barrancs, torrents,rieres i rius",
+      "D": "Elsector del terreny que discorre inclinatdes de lapart més altadel turó o muntanya finsa lapart més baixa"
+    }
+  },
+  {
+    "id": "academia_sim70_q55",
+    "simulacre": "Simulacre 70",
+    "num_pregunta": 55,
+    "statement": "A Catalunya hi ha declarades 52 reserves naturals parcials, gairebé la meitat de les quals s'inclouen a: acadèmia",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 52 reserves naturals parcials: 25 incloses alParc Natural de laZona Volcànica de la\nGarrotxa, dues al Parc Natural del Cap de Creus, dues alParc Natural del Delta de l’Ebre, dues alParc Natural de l’Alt\nPirineu,una al Parc Natural dels Ports, una al Parc Natural dels Aiguamolls de l’Empordà, una al Parc Natural de la\nMuntanya de Montserrat i18 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Parc Natural delDelta de l’Ebre",
+      "B": "El Parc Natural de l’AltPirineu",
+      "C": "ElParc Natural de laMuntanya de Montserrat",
+      "D": "ElParc Natural de laZona Volcànica de laGarrotxa"
+    }
+  },
+  {
+    "id": "academia_sim73_q17",
+    "simulacre": "Simulacre 73",
+    "num_pregunta": 17,
+    "statement": "Com s'anomena el port de muntanya que provoca l'efecte Foehn en vents que bufen des de Vielha cap a Sort?",
+    "correct": "D",
+    "explanation": "Elvent del nord arriba fred imolt humit al vessant atlàntic dels Pirineus, de manera que deixa una temperatura molt baixa\na Vielha. Aquest vent, en ser perpendicular a la serralada pirinenca, es troba amb aquesta barrera de muntanyes que ha\nde travessar d’alguna manera. Així doncs, ascendeix pel port de la Bonaigua ies refreda a raó de 0,6 ºC cada 100\nmetres (jaque les lleisde l’atmosfera sense inversió tèrmica ens diuen que l’airesaturat es refreda a mesura que guanya\naltituda aquest ritme). En refredar-se, el vapor d’aigua es condensa i es formen núvols al vessant nord del Pirineu.\n\nA partird’aquí, el vent del nord ja ha travessat l’obstacle muntanyós iara litoca baixar, però canvia totalment les\ncaracterístiques d’origen i provoca un canvi meteorològic microlocal molt important. A mesura que va baixant, va perdent\nhumitat i es va escalfant, de talmanera que arriba a Sort ressec ireescalfat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Port de Cabús",
+      "B": "Coll de Conflent",
+      "C": "Port del Cantó",
+      "D": "Port de la Bonaigua"
+    }
+  },
+  {
+    "id": "academia_sim78_q43",
+    "simulacre": "Simulacre 78",
+    "num_pregunta": 43,
+    "statement": "Quin dels següents espais naturals de protecció especial té la consideració de parc natural?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 14 parcs naturals:\n\n-Aiguamolls de l’Empordà.\n-Alt Pirineu.\n-Cadí-Moixeró.\n-Cap de Creus.\n-Capçaleres del Ter idel Freser.\n-Delta de l’Ebre.\n-Els Ports.\n-Massís del Montseny.\n-Montgrí, les Illes Medes iel Baix Ter.\n-Muntanya de Montserrat.\n-Sant Llorenç del Munt il’Obac.\n-Serra de Collserola.\n-Serra de Montsant.\n-Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Muntanya de Montserrat",
+      "B": "ElCap de Norfeu",
+      "C": "La Serra de Rodes",
+      "D": "La Vall delmonestir de Poblet"
+    }
+  },
+  {
+    "id": "academia_sim82_q47",
+    "simulacre": "Simulacre 82",
+    "num_pregunta": 47,
+    "statement": "Indica en quina comarca es troba el Balandrau.",
+    "correct": "B",
+    "explanation": "El Balandrau és una muntanya situada al Pirineu Oriental, concretament a la comarca del Ripollès. Aquesta muntanya té\nuna altitudde 2.585 metres ies troba entre els municipis de Pardines iQueralbs, prop del Vall de Núria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A laGarrotxa",
+      "B": "AlRipollès www.academiabombers.com",
+      "C": "A la Cerdanya",
+      "D": "Al Pallars Sobirà"
+    }
+  },
+  {
+    "id": "academia_sim82_q85",
+    "simulacre": "Simulacre 82",
+    "num_pregunta": 85,
+    "statement": "La punta de Montmaneu és un cim de la comarca de:",
+    "correct": "D",
+    "explanation": "La Punta de Montmaneu, també coneguda com a Montmeneu, és una muntanya de 495 metres d'altitud situada al\nmunicipi de Seròs, a la comarca del Segrià, a prop de l'aiguabarreig dels rius Segre iEbre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Pallars Sobirà",
+      "B": "El Pallars Jussà",
+      "C": "La Noguera",
+      "D": "ElSegrià"
+    }
+  },
+  {
+    "id": "academia_sim84_q22",
+    "simulacre": "Simulacre 84",
+    "num_pregunta": 22,
+    "statement": "Quin és el vent dominant a Catalunya, com en general a la resta d'Europa?",
+    "correct": "B",
+    "explanation": "El vent dominant a Catalunya, com en general a la resta d'Europa, és el de ponent (de l'oest). Tanmateix tant al nord com\nalsud del país hi dominen vents de component nord: latramuntana (que bufa del nord) especialment a l'AltEmpordà iel\nmestral (del nordoest) alsud de Catalunya. Les velocitats mitjanes anuals del vent (mesurades a 10 m del terra) es\ntroben entre 1 m/s a Viella (protegida per les muntanyes que l'envolten) i10 m/s de Portbou (observatori dalt d'una\nmuntanya).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El de tramuntana (nord)",
+      "B": "El de ponent (de l'oest)",
+      "C": "El de mestral (nord-oest)",
+      "D": "El de llevant (de l'est)"
+    }
+  },
+  {
+    "id": "academia_sim94_q40",
+    "simulacre": "Simulacre 94",
+    "num_pregunta": 40,
+    "statement": "Quin dels següents NO és un parc natural?",
+    "correct": "D",
+    "explanation": "El Massís de l’Albera és un paratge natural d’interès nacional.\n\nA Catalunya hi ha 14 parcs naturals:\n\n-Aiguamolls de l’Empordà.\n-Alt Pirineu.\n-Cadí-Moixeró.\n-Cap de Creus.\n-Capçaleres del Ter i del Freser.\n-Delta de l’Ebre.\n-Els Ports.\n-Massís del Montseny.\n-Montgrí, les IllesMedes iel Baix Ter.\n-Muntanya de Montserrat.\n-Sant Llorenç del Munt il’Obac.\n-Serra de Collserola.\n-Serra de Montsant.\n-Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Collserola",
+      "B": "Delta de l'Ebre",
+      "C": "Serra de Montsant",
+      "D": "Massís de l’Albera"
+    }
+  },
+  {
+    "id": "academia_sim95_q51",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 51,
+    "statement": "A Catalunya hi ha declarades 59 reserves naturals parcials, la majoria de les quals es troben a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 59 reserves naturals parcials:\n\n·27 al Parc Natural de la Zona Volcànica de la Garrotxa.\n·2 al Parc Natural del Cap de Creus.\n·2 al Parc Natural del Delta de l’Ebre.\n·2 al Parc Natural de l’AltPirineu.\n·2 al Parc Natural del Montgrí, les IllesMedes iel Baix Ter\n·2 al Parc Natural de Collserola.\n·2 al Paratge Natural d'Interès Nacional de l'Albera.\n·1 al Parc Natural dels Ports.\n·1 al Parc Natural dels Aiguamolls de l’Empordà.\n·1 al Parc Natural de la Muntanya de Montserrat.\n·17 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Albera",
+      "B": "La Zona Volcànica de la Garrotxa",
+      "C": "L’AltPirineu",
+      "D": "El Delta de l’Ebre"
+    }
+  },
+  {
+    "id": "academia_sim95_q63",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 63,
+    "statement": "Sovint ens podem referir a unwww.academiabombers.comportdemuntanyacom:",
+    "correct": "D",
+    "explanation": "Un port de muntanya, també denominat pas de muntanya, és la ruta o pas establert a través d'un coll o collada per a\ncreuar una cadena muntanyenca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un planell",
+      "B": "Una vessant",
+      "C": "Una carena o divisòriad'aigues",
+      "D": "Un coll o collada 8 Acadèmia Bombers Simulacre 95"
+    }
+  },
+  {
+    "id": "academia_sim98_q83",
+    "simulacre": "Simulacre 98",
+    "num_pregunta": 83,
+    "statement": "Té la consideració de Parc Natural iés l'espai natural protegit més extens de Catalunya, amb una superfície de gairebé 80.000 ha:",
+    "correct": "A",
+    "explanation": "A Catalunya hiha 14 parcs naturals:\n\n-Aiguamolls de l’Empordà.\n-Alt Pirineu.\n-Cadí-Moixeró.\n-Cap de Creus.\n-Capçaleres del Ter idel Freser.\n-Delta de l’Ebre.\n-Els Ports.\n-Massís del Montseny.\n-Montgrí, les IllesMedes iel Baix Ter.\n-Muntanya de Montserrat.\n-Sant Llorenç del Munt i l’Obac.\n-Serra de Collserola.\n-Serra de Montsant.\n-Zona Volcànica de laGarrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Massís de l’Albera",
+      "B": "La Serra de Rodes",
+      "C": "Pinya de Rosa",
+      "D": "L'AltPirineu"
+    }
+  },
+  {
+    "id": "academia_sim99_q60",
+    "simulacre": "Simulacre 99",
+    "num_pregunta": 60,
+    "statement": "Quina de les afirmacions següents referents a l'orografia catalana és FALSA?",
+    "correct": "C",
+    "explanation": "El Monteixo és una muntanya que es troba íntegrament a lacomarca del Pallars Sobirà.\n\nÉs un dels cims més emblemàtics de la Vall Ferrera, situat a prop de la Pica d'Estats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del Balandrau podrem tenir unes àmplies vistes de les Muntanyes de Núria ila Serra Cavallera",
+      "B": "El Besiberri Nord és una muntanya situada en el límitdel Parc Nacional d'Aigüestortes i Estany de Sant Maurici ila seva zona perifèrica",
+      "C": "El massís del Monteixo constitueix ladivisòria orogràfica entre lesdemarcacions comarcals de la Cerdanya iel Ripollès",
+      "D": "La Creu de Santos és elcim més alt de la Serra de Cardó"
+    }
+  },
+  {
+    "id": "academia_sim100_q82",
+    "simulacre": "Simulacre 100",
+    "num_pregunta": 82,
+    "statement": "Quin riu transcorre pels municipis de Moltblanc, la Pobla de Mafumet iTarragona?",
+    "correct": "B",
+    "explanation": "Hom considera que neix a la font Major de l’Espluga de Francolí (Conca de Barberà), a la confluència del riu de Milans\namb el barranc del Tillar,travessa la Serralada Prelitoral per l’estretde la Riba i,després de passar pel Camp de\nTarragona, desemboca a ponent del port tarragoní. Té 85 km de llargària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ElFluvià",
+      "B": "ElFrancolí",
+      "C": "El Foix",
+      "D": "El Segre"
+    }
+  },
+  {
+    "id": "academia_sim102_q69",
+    "simulacre": "Simulacre 102",
+    "num_pregunta": 69,
+    "statement": "A Catalunya hi ha declarades 52 reserves naturals parcials, gairebé la meitat de les quals s'inclouen a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 52 reserves naturals parcials: 25 incloses al Parc Natural de la Zona Volcànica de la\nGarrotxa, dues al Parc Natural del Cap de Creus, dues alParc Natural del Delta de l’Ebre, dues alParc Natural de l’Alt\nPirineu, una al Parc Natural dels Ports, una al Parc Natural dels Aiguamolls de l’Empordà, una al Parc Natural de la\nMuntanya de Montserrat i 18 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ElParc Natural del Delta de l’Ebre",
+      "B": "ElParc Natural de l’AltPirineu",
+      "C": "El Parc Natural de la Muntanya de Montserrat",
+      "D": "El Parc Natural de la Zona Volcànica de laGarrotxa"
+    }
+  },
+  {
+    "id": "academia_sim107_q51",
+    "simulacre": "Simulacre 107",
+    "num_pregunta": 51,
+    "statement": "Quin és el bosc més comú de l'estatge subalpí?",
+    "correct": "C",
+    "explanation": "És l’espècie que millor suporta elfred intens, les nevades il’ambient sec iventós d’alta muntanya.\n\nForma boscos extensos entre aproximadament 1.600 i2.300 metres.\n\nSovint apareix acompanyat de neret (Rhododendron ferrugineum) en el sotabosc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 107",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Piroig",
+      "B": "Avetosa",
+      "C": "Pi negre",
+      "D": "Roureda"
+    }
+  },
+  {
+    "id": "academia_sim112_q30",
+    "simulacre": "Simulacre 112",
+    "num_pregunta": 30,
+    "statement": "Quina espècie és típica de boscos humits de muntanya mitjana a Catalunya?",
+    "correct": "C",
+    "explanation": "El faig és típic dels boscos humits de muntanyawww.academiabombers.commitjanaaCatalunya,sobretot:\n\n·Zones amb precipitació elevada.\n\n·Temperatures moderades.\n\n·Orientacions ombrívoles (obagues).\n\n·Altituds aproximades entre 800 i 1.600 m.\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 112",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’alzina",
+      "B": "Elpi blanc",
+      "C": "Elfaig",
+      "D": "Elgarric"
+    }
+  },
+  {
+    "id": "academia_sim112_q37",
+    "simulacre": "Simulacre 112",
+    "num_pregunta": 37,
+    "statement": "Indica en quina comarca es troba el Balandrau:",
+    "correct": "B",
+    "explanation": "El Balandrau és una muntanya situada al Pirineu Oriental, concretament a lacomarca del Ripollès. Aquesta muntanya té\nuna altitudde 2.585 metres ies troba entre els municipis de Pardines iQueralbs, prop del Vall de Núria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Garrotxa",
+      "B": "Al Ripollès",
+      "C": "A la Cerdanya",
+      "D": "Al Pallars Sobirà"
+    }
+  },
+  {
+    "id": "academia_sim119_q95",
+    "simulacre": "Simulacre 119",
+    "num_pregunta": 95,
+    "statement": "Quina afirmació relativa a les reserves naturals a Catalunya és CORRECTA?",
+    "correct": "C",
+    "explanation": "Són els espais naturals d'extensió reduïda i de considerable interès científic que són objecte d'aquesta declaració per\naconseguir preservar íntegrament elconjunt d'ecosistemes naturals que contenen o alguna de les seves parts. La\ndeclaració de reserves naturals es fa per lleiquan és reserva integral i per decret del Consell Executiu quan és reserva\nparcial.\n\nA Catalunya hi ha declarades 59 reserves naturals parcials:\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 119\n\n\n\n·27 alParc Natural de laZona Volcànica de la Garrotxa.\n·2 al Parc Natural del Cap de Creus.\n·2 al Parc Natural del Delta de l’Ebre.\n·2 al Parc Natural de l’AltPirineu.\n·2 al Parc Natural del Montgrí, les IllesMedes i elBaix Ter\n·2 al Parc Natural de Collserola.\n·2 al Paratge Natural d'Interès Nacional de l'Albera.\n·1 al Parc Natural dels Ports.\n·1 al Parc Natural dels Aiguamolls de l’Empordà.\n·1 al Parc Natural de la Muntanya de Montserrat.\n·17 isolades.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les reserves naturals són espais naturals d’extensió considerable i gran interès científic,declarats amb l’objectiu de limitarl’activitathumana ipreservar els ecosistemes.",
+      "B": "A Catalunya hiha declarades 67 reserves naturals parcials",
+      "C": "El Parc Natural de laZona Volcànica de la Garrotxa és l’espainatural amb més reserves naturals parcials del territori català",
+      "D": "La declaració de reserves naturals es faper decret quan és reserva integrali per lleiquan és reserva parcial www.academiabombers.com 12"
+    }
+  },
+  {
+    "id": "academia_sim125_q5",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 5,
+    "statement": "Davant d’un avís per accident o emergència a la muntanya, el dispositiu s’organitza de forma esglaonada iadaptada al tipus d’incident, que s'estructura de la següent manera:",
+    "correct": "D",
+    "explanation": "Davant d’un avís per accident o emergència a lamuntanya, el dispositiu s’organitza de forma esglaonada iadaptada al\ntipus d’incident. L’esquema habitual inclou:\n\n− Sales de Coordinació: La Sala de control territorial(SCT) rep l’avís, activa els recursos territorials ifa la demanda de\nrecursos especials a la Sala Central de Bombers (SCB).\n\n− Comandament: Bombers assumeix elcomandament operatiu al llocdels fets.\n\n\n\n 15\nAcadèmia Bombers Simulacre 125\n\n\n\n− Equips d’intervenció: Habitualment formats per membres del Grup d'Actuacions Especials (GRAE) que s'encarrega del\nrescat de muntanya conjuntament amb elGEM (Grup d’Emergències Mèdiques) que es fa càrrec de lamedicalització de\nl'assistència, reforçats, sical, per efectius de parcs propers, helicòpter o altres serveis.\n\n− Altres suports: drons, unitats canines, logística de comunicacions o avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Sala Central de Bombers (SCB) rep l'avís,activa directament els recursos territorialsiespecials, mentre que la Sala de Control Territorial(SCT) assumeix lacoordinació operativa un cop els equips ja són allloc dels fets. El comandament recau habitualment en el GRAE, amb elsuport del SEM per a les tasques assistencials sanitàries.",
+      "B": "La Sala Central de Bombers (SCB) rep l'avísi activa la Sala de Control Territorial(SCT) corresponent, que mobilitza elsrecursos territorialsnecessaris. Si la situació ho requereix, la SCB també activa els recursos especials. Un cop allloc dels fets,Bombers assumeix el comandament operatiu de la intervenció, que habitualment és executada pel GRAE, responsable del rescat de muntanya, amb el suport del GEM.",
+      "C": "La Sala Central de Bombers (SCB) rep l'avís,activa directament els recursos territorialsiespecials, mentre que la Sala de Control Territorial(SCT) assumeix lacoordinació operativa un cop els equips ja són allloc dels fets. El comandament recau habitualment en el SEM, amb el suport del GRAE per a les tasques de rescat.",
+      "D": "La Sala de Control Territorial (SCT) rep l'avís,activa els recursos territorialsi,si és necessari, demana recursos especials a laSala Central de Bombers (SCB). Un cop al llocdels fets,Bombers assumeix el comandament operatiu de laintervenció, que habitualment és executada pel GRAE, responsable del rescat de muntanya, amb elsuport del GEM."
+    }
+  },
+  {
+    "id": "academia_sim127_q59",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 59,
+    "statement": "Quin tipus de rescats requereixen formació específica en espeleorescat?",
+    "correct": "A",
+    "explanation": "Rescat en coves.\n\nEl medi subterrani té una logística específica icomplexa:\n\n− Absència de llum natural iorientació limitada.www.academiabombers.com\n\n− Temperatura constant baixa ialta humitat.\n\n− Estretors, pous verticals iinundacions puntuals.\n\n− Requereix formació específica en espeleorescat, comunicacions alternatives ipaciència operativa.\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 127",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rescat en coves",
+      "B": "Recat en barrancs irius de muntanya",
+      "C": "Rescat en condicions hivernals (neu igel)",
+      "D": "Rescats en parets, cingleres izones de difícilaccés 8 Acadèmia Bombers Simulacre 127"
+    }
+  }
+]

@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "racord_d2f1430b-9725-4081-be9c-852a79a41a2c",
+    "statement": "El darrer lloc confirmat d’una persona desapareguda és una cruïlla. Quin tractament operatiu ha de rebre aquest punt?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.1. Establir i protegir l’Últim Punt d’Albirament (UPA)\n\nL’UPA és el darrer lloc on hi ha constància visual o confirmada de la persona desapareguda i s’ha de protegir per evitar contaminació del rastre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El lloc on es troba el Centre de Comandament",
+      "B": "El sector amb més efectius desplegats",
+      "C": "El darrer lloc amb constància visual o confirmada, que s’ha de protegir",
+      "D": "El punt final previst de l’evacuació"
+    }
+  },
+  {
+    "id": "racord_c37144fd-5a5d-4bfe-918b-711e59e131d8",
+    "statement": "Quin recurs pot arribar primer en un entorn de molt difícil accés?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEn zones de difícil accés, l’helicòpter de Bombers pot ser el primer recurs en arribar i avaluar la situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un equip logístic sense capacitat aèria",
+      "B": "Un vehicle urbà lleuger",
+      "C": "Una unitat canina per terra",
+      "D": "L’helicòpter de Bombers"
+    }
+  },
+  {
+    "id": "racord_78db7e70-afdf-4c42-ac19-bb29276b5efa",
+    "statement": "En el marc legal català del salvament de muntanya, quina norma regula els serveis de prevenció, extinció d’incendis i salvaments?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nLa Llei 5/1994 regula els serveis de prevenció, extinció d’incendis i salvaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Llei 4/1997",
+      "B": "La Llei 5/1994",
+      "C": "La Llei 1/1998",
+      "D": "La Llei 9/2003"
+    }
+  },
+  {
+    "id": "racord_6563e1ee-be00-4e9b-9593-2982300b7fac",
+    "statement": "Quin objectiu té la recerca intensiva per línies naturals?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.1. Recerca intensiva per línies naturals\n\nExplora minuciosament vorals i zones fosques de carreteres, pistes, camins, corriols, rieres i barrancs, pensant en una persona estàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als vorals, marges i zones fosques dels recorreguts transitables",
+      "B": "En punts aleatoris sense relació amb camins",
+      "C": "Fora de qualsevol eix natural de mobilitat",
+      "D": "Al centre de grans sectors sense referències"
+    }
+  },
+  {
+    "id": "racord_0bcd07f3-0fde-4e64-9b32-453ff93f7eb1",
+    "statement": "En arribar els diferents serveis a una emergència de muntanya, qui assumeix el comandament operatiu de la intervenció?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nBombers assumeix el comandament operatiu al lloc dels fets.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Agents Rurals",
+      "B": "Bombers",
+      "C": "Policia local",
+      "D": "SEM"
+    }
+  },
+  {
+    "id": "racord_6d96824e-3ef1-4112-b70a-950460f7c6b8",
+    "statement": "Una víctima i un rescatador es troben al fons d’un pou sense possibilitat de grimpar. Quina maniobra facilita la sortida vertical?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.4. Ascens per corda fixa\n\nÉs una maniobra habitual per sortir d’una zona fonda on no es pot grimpar o escalar amb seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En parets, pous o zones escarpades sense progressió segura",
+      "B": "En una evacuació autònoma a peu",
+      "C": "En una pista accessible amb vehicle",
+      "D": "En terreny pla i transitable"
+    }
+  },
+  {
+    "id": "racord_bb785ab7-4bb0-407b-9d88-0c46fdb2032a",
+    "statement": "Un rescatador ha de baixar per una paret fins a la víctima. Quina tècnica permet controlar la velocitat de descens amb un dispositiu de frenada?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.2. Descens per corda (ràpel)\n\nEl ràpel permet un descens controlat per terreny vertical o inclinat mitjançant una corda i un dispositiu de frenada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un transport horitzontal amb tirolina",
+      "B": "Una tracció amb polispast",
+      "C": "Un ascens per corda fixa amb bloquejadors",
+      "D": "Un descens controlat per corda amb dispositiu de frenada"
+    }
+  },
+  {
+    "id": "racord_577a62fa-6c4c-4eee-965a-df7582f2071b",
+    "statement": "Com s’han de gestionar les cordes de treball i de seguretat durant una maniobra de rescat?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.1. Principis bàsics de seguretat\n\nLes cordes de treball i les de seguretat s’han de mantenir separades i s’ha de comprovar que no presentin nusos, talls ni abrasions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenint-les separades i comprovant que no tinguin nusos, talls ni abrasions",
+      "B": "Utilitzant la corda de treball com a línia de seguretat quan sigui necessari",
+      "C": "Agrupant-les en una mateixa línia per simplificar la maniobra",
+      "D": "Connectant-les al mateix dispositiu de frenada"
+    }
+  },
+  {
+    "id": "racord_eff69681-3edc-4c02-900b-7a389aee843b",
+    "statement": "Quins són els fonaments de la seguretat operativa en intervencions al medi natural?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.1. Principis bàsics de seguretat\n\nEls fonaments de la seguretat operativa es basen en la previsió, la formació i l’autoprotecció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Orientació, progressió i transport",
+      "B": "Sectorització, evacuació i medicalització",
+      "C": "Rapidesa, autonomia i improvisació",
+      "D": "Previsió, formació i autoprotecció"
+    }
+  },
+  {
+    "id": "racord_09011cea-10d9-4146-905f-1a31262410ae",
+    "statement": "Quin material pot ser útil per progressar sobre neu i glaç?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa neu i el glaç dificulten la mobilitat i augmenten el risc de caigudes; es pot valorar l’ús de grampons, piolets o esquís.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Botes urbanes i armilles reflectants",
+      "B": "Extintors, mànega i escuma",
+      "C": "Aletes, neoprè i tub respirador",
+      "D": "Grampons, piolets o esquís"
+    }
+  },
+  {
+    "id": "racord_7d88a8ec-930d-4c19-a300-4e85ee7bb97a",
+    "statement": "Durant una tempesta d’estiu comença una pedregada forta. Quins riscos cal considerar?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLes pedregades poden malmetre equips, reduir visibilitat, causar lesions i generar pànic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reducció del risc de caigudes",
+      "B": "Estabilització del terreny",
+      "C": "Millora de la comunicació i del vol",
+      "D": "Danys als equips, menys visibilitat, lesions i pànic"
+    }
+  },
+  {
+    "id": "racord_44b84eb2-363d-4c60-a11a-78610867bff8",
+    "statement": "Un rescatador ha de sortir d’un pou per una corda ja instal·lada. Quin sistema és adequat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.4. Ascens per corda fixa\n\nL’ascens per corda fixa utilitza una corda prèviament instal·lada i un sistema de bloquejadors, pedal i arnès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Piolets i grampons sense corda",
+      "B": "Politja de tirolina i línia horitzontal",
+      "C": "Dispositiu de frenada de ràpel sense bloquejadors",
+      "D": "Bloquejadors, pedal i arnès sobre corda fixa"
+    }
+  },
+  {
+    "id": "racord_24eb87d8-5372-4b51-a506-e13227e881b6",
+    "statement": "Quin objectiu té la recerca per contenció?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.4. Recerca per contenció\n\nLa recerca per contenció tanca progressivament una àrea per evitar que una persona en moviment en surti.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer una batuda exhaustiva sense controlar el perímetre",
+      "B": "Tancar progressivament l’àrea de recerca",
+      "C": "Revisar una pista principal a gran velocitat",
+      "D": "Buscar punts probables sense desplegar equips al límit"
+    }
+  },
+  {
+    "id": "racord_6100b157-f458-4d1b-ba47-9a52f54419e6",
+    "statement": "La ruta prevista es torna perillosa per un canvi de temps. Quina resposta operativa és adequada?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.3. Anticipació i avaluació de riscos\n\nL’avaluació pot portar a reforçar equipament, adaptar tàctica, reduir personal exposat o suspendre temporalment; cal una ruta alternativa per accés i evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Continuar sense reavaluar les condicions",
+      "B": "Adaptar la tàctica, reduir exposició, suspendre si cal i utilitzar un pla alternatiu",
+      "C": "Eliminar els punts de comunicació per simplificar l’operació",
+      "D": "Mantenir la mateixa ruta i augmentar el personal exposat"
+    }
+  },
+  {
+    "id": "racord_42e4ef0d-b75c-4d25-9b99-9c96ba16cf44",
+    "statement": "Si les condicions meteorològiques empitjoren sobtadament durant una maniobra de rescat, quin criteri s’ha d’aplicar?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.3. Control de la fatiga i condicions ambientals\n\nLes condicions ambientals poden afectar greument la seguretat; cal actualitzar la valoració de riscos i estar preparats per modificar o interrompre la maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Esperar que finalitzi la maniobra abans de valorar els canvis meteorològics",
+      "B": "Actualitzar la valoració de riscos i modificar o interrompre la maniobra si cal",
+      "C": "Mantenir el pla inicial per evitar canvis durant l’operació",
+      "D": "Accelerar la maniobra encara que augmenti l’exposició"
+    }
+  },
+  {
+    "id": "racord_08431f7b-e0af-409d-ac26-4b94a88074fd",
+    "statement": "En una recerca cal revisar un sector gran per descartar que no hi hagi la possible persona desapareguda. Quina modalitat és més coherent per executar la recerca?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nAquesta modalitat requereix molt personal, té baixa velocitat i un grau de minuciositat molt alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poc personal, gran cobertura i alta velocitat",
+      "B": "Poc personal i revisió de punts concrets",
+      "C": "Molt personal, baixa velocitat i alta minuciositat",
+      "D": "Gran velocitat amb mitjans aeris"
+    }
+  },
+  {
+    "id": "racord_fd8345ba-c3b0-4baf-8f3f-f5c81946ef2c",
+    "statement": "Quin equip caracteritza l’ascens per corda fixa?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.4. Ascens per corda fixa\n\nL’ascens per corda fixa utilitza una corda prèviament instal·lada i un sistema de bloquejadors, pedal i arnès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejadors, pedal i arnès sobre corda fixa",
+      "B": "Piolets i grampons sense corda",
+      "C": "Politja de tirolina i línia horitzontal",
+      "D": "Dispositiu de frenada de ràpel sense bloquejadors"
+    }
+  },
+  {
+    "id": "racord_1e6e8c37-1923-44d8-9c1b-20c72e9fa50e",
+    "statement": "Quins són els quatre grans tipus d’intervenció al medi natural?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2. Tipologia d’intervencions\n\nLes intervencions es classifiquen en rescats, evacuacions, guiatges i acompanyaments, i recerques de persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salvament marítim, busseig, port i platja",
+      "B": "Rescats, evacuacions, guiatges i acompanyaments, i recerques",
+      "C": "Explosions, esfondraments, fuites i vent",
+      "D": "Incendis, inundacions, trànsit i assistències"
+    }
+  },
+  {
+    "id": "racord_91304cf3-c1e7-4f00-bed2-a19cf95e885d",
+    "statement": "En el primer contacte amb una persona accidentada, quines funcions vitals i lesions immediates s’han de valorar?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.3.1. Valoració primària i immobilització\n\nLa valoració primària revisa consciència, via aèria, respiració, circulació i hemorràgies i pot requerir collaret, fèrules o matalàs de buit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consciència, via aèria, respiració, circulació i hemorràgies",
+      "B": "Orientació geogràfica, cobertura i meteorologia",
+      "C": "Color de la roba, material i motxilla",
+      "D": "Temps d’accés, relleus i avituallament"
+    }
+  },
+  {
+    "id": "racord_90c86521-8913-4723-8a86-cee2f3a2eb7f",
+    "statement": "Com es pot assegurar una víctima durant una evacuació tècnica?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.6. Assegurament de la víctima\n\nLa víctima es pot connectar amb cordes, arnesos i unions segures a un punt d’assegurament, llitera o rescatador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb una línia sense ancoratge",
+      "B": "Amb material solt sense connexió",
+      "C": "Amb contacte manual sense cap sistema",
+      "D": "Amb cordes, arnès i sistemes d’unió segurs"
+    }
+  },
+  {
+    "id": "racord_3c1362aa-4854-47e3-aa07-baa57e886be8",
+    "statement": "En una recerca amb gossos després d’una esllavissada, quina descripció del GRCR és correcta?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.5. El GRCR del Cos de Bombers\n\nEl GRCR va néixer el 2007 i el 2022 es va consolidar amb dues seus fixes, Lleida i Vic; actua en grans àrees, estructures col·lapsades, allaus i esllavissades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Va néixer el 1994 i se centra en salvament aquàtic",
+      "B": "Va néixer el 2007 i té seus fixes a Lleida i Vic des de 2022",
+      "C": "Va néixer el 2022 i treballa des de Cerdanyola i la Seu d’Urgell",
+      "D": "Va néixer el 1997 i té seus fixes a Olot i Valls"
+    }
+  },
+  {
+    "id": "racord_31c6f897-146b-4df5-909d-ac147b465f68",
+    "statement": "Abans de muntar un sistema de descens, quin criteri s’ha d’exigir al punt d’ancoratge?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.1. Instal·lació d’ancoratges\n\nL’ancoratge fixa amb seguretat els sistemes de corda i ha de ser robust, fiable i adequat a la maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Situat sempre en un únic arbre petit",
+      "B": "Flexible, mòbil i sense verificació",
+      "C": "Independent del tipus de maniobra",
+      "D": "Robust, fiable i adequat a la maniobra"
+    }
+  },
+  {
+    "id": "racord_f854c7c7-2673-467d-b212-e4c856a5e9bd",
+    "statement": "Una tempesta impedeix continuar amb seguretat la ruta prevista. Quina resposta és adequada?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nSi el temps empitjora significativament cal estar preparat per una retirada tàctica o canvi de pla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retirada tàctica o canvi de pla",
+      "B": "Descartar qualsevol ruta alternativa",
+      "C": "Mantenir la maniobra sense canvis",
+      "D": "Augmentar el personal exposat"
+    }
+  },
+  {
+    "id": "racord_ce3fec11-a339-4a85-8fba-53eaab38fff4",
+    "statement": "En una aproximació prolongada amb forta insolació, quin risc afecta equips i víctimes?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa calor extrema i la radiació solar augmenten el risc de cop de calor i deshidratació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Allaus de neu humida",
+      "B": "Cop de calor i deshidratació",
+      "C": "Electrocució per alta tensió",
+      "D": "Hipotèrmia i congelació"
+    }
+  },
+  {
+    "id": "racord_99641416-e92f-4d52-a96f-aad41451e57f",
+    "statement": "En un rescat al medi natural, quins factors s’han d’avaluar de manera contínua abans i durant la intervenció?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.3. Anticipació i avaluació de riscos\n\nCal valorar terreny, meteorologia, exposició, durada, llum solar disponible, fatiga i condicions físiques dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nombre de trucades i antiguitat del refugi",
+      "B": "Terreny, meteorologia, exposició, temps, llum i fatiga",
+      "C": "Color del material, matrícula i marca dels vehicles",
+      "D": "Tipus de documentació personal dels intervinents"
+    }
+  },
+  {
+    "id": "racord_641dd1a6-a741-4578-a5a8-cdb8ff742e1a",
+    "statement": "Quines dificultats són pròpies d’un rescat en cova?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats en coves comporten absència de llum, orientació limitada, baixa temperatura, humitat, estretors i pous.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Foc estructural i propagació per façana",
+      "B": "Absència de llum, orientació limitada, humitat i espais estrets",
+      "C": "Trànsit dens, atropellaments i soroll urbà",
+      "D": "Onatge, corrents i marees"
+    }
+  },
+  {
+    "id": "racord_4eab001c-4776-47bc-8195-6a330ddf3030",
+    "statement": "Quina funció tenen els mitjans aeris en una recerca?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.5. Recerca amb mitjans aeris\n\nEls mitjans aeris donen suport amb observació, detecció visual o tèrmica i accés ràpid a punts inaccessibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garantir eficàcia independentment de la visibilitat",
+      "B": "Observació, detecció visual o tèrmica i accés ràpid",
+      "C": "Evitar la necessitat de planificar sectors",
+      "D": "Substituir tota la recerca terrestre en qualsevol condició"
+    }
+  },
+  {
+    "id": "racord_34f6557c-6475-4cfe-a9d7-93f12e789b6f",
+    "statement": "Una cinglera impedeix arribar directament a la víctima. Quina resposta d’accés és coherent?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nCingleres, barrancs i crestes poden impedir l’accés directe i obligar a buscar rutes alternatives o aproximacions aèries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Esperar que la víctima es desplaci fins a una pista",
+      "B": "Mantenir la ruta directa encara que sigui impracticable",
+      "C": "Buscar rutes alternatives o aproximacions aèries",
+      "D": "Descartar la intervenció terrestre sense valorar alternatives"
+    }
+  },
+  {
+    "id": "racord_4056a9d1-4441-471d-ae99-8bd1b9a03310",
+    "statement": "La informació sobre la persona desapareguda evoluciona durant la intervenció. Com ha de comportar-se la delimitació de l’àrea?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.3. Definir l’àrea de la recerca\n\nL’àrea es defineix a partir de l’UPA, perfil de la persona, condicions ambientals i possibles direccions de desplaçament, i ha de ser flexible i revisable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir del Centre de Comandament sense valorar la persona",
+      "B": "A partir de l’UPA i altres factors, de manera flexible i revisable",
+      "C": "Com una àrea fixa que no es modifica",
+      "D": "Amb sectors aleatoris sense relació amb mobilitat ni orografia"
+    }
+  },
+  {
+    "id": "racord_a08b2c42-6197-49c0-ad1b-63b4837dba22",
+    "statement": "En un rescat al medi natural terrestre, en quines fases s’ha d’integrar la seguretat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7. Seguretat\n\nLa seguretat s’ha d’integrar en totes les fases de l’actuació, des de la valoració inicial fins al tancament de l’operació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Durant l’evacuació de la víctima i el retorn dels equips",
+      "B": "Quan les condicions meteorològiques esdevenen adverses",
+      "C": "A partir del moment en què s’inicien les maniobres amb cordes",
+      "D": "En totes les fases, des de la valoració inicial fins al tancament"
+    }
+  },
+  {
+    "id": "racord_66543e85-cc87-491b-8f65-1d9143ee3230",
+    "statement": "Quin és l’objectiu d’una tirolina en un rescat?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.5. Tirolina\n\nLa tirolina facilita transport horitzontal o amb pendent entre punts separats per rius, barrancs o pendents pronunciats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ascendir per una corda fixa",
+      "B": "Transportar entre dos punts separats per un obstacle",
+      "C": "Descendir verticalment amb dispositiu de frenada",
+      "D": "Immobilitzar una víctima sobre terreny pla"
+    }
+  },
+  {
+    "id": "racord_bd0ad04e-3d48-4d0b-8257-e06e9ba540f3",
+    "statement": "Bombers, policia, sanitaris i voluntariat treballen en una recerca. Quina organització evita duplicitats i permet seguiment global?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.5-6.6. Coordinació multidisciplinària i registre\n\nCal definir rols, llenguatge comú i protocols; els recorreguts, sectors, horaris, incidències i decisions s’han de registrar i centralitzar al Centre de Comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equips independents sense compartir informació",
+      "B": "Canals diferents sense protocols compartits",
+      "C": "Absència de registre per simplificar la gestió",
+      "D": "Rols clars, comunicació comuna i registre centralitzat de les actuacions"
+    }
+  },
+  {
+    "id": "racord_da85ea77-5551-4761-87bd-e3fc0fd6cab9",
+    "statement": "Quines característiques té la recerca intensiva per sectors?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nAquesta modalitat requereix molt personal, té baixa velocitat i un grau de minuciositat molt alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gran velocitat amb mitjans aeris",
+      "B": "Poc personal, gran cobertura i alta velocitat",
+      "C": "Molt personal, baixa velocitat i alta minuciositat",
+      "D": "Poc personal i revisió de punts concrets"
+    }
+  },
+  {
+    "id": "racord_c192ce9a-3854-4469-97bb-9bf5d10c09be",
+    "statement": "Com es pot accedir a una zona sense accés per vehicle terrestre?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEn zones sense accés amb vehicle terrestre cal planificar l’entrada a peu o amb mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Esperant l’obertura d’una nova pista",
+      "B": "Amb transport ferroviari",
+      "C": "A peu o amb mitjans aeris",
+      "D": "Amb qualsevol turisme convencional"
+    }
+  },
+  {
+    "id": "racord_5564c48c-f267-46af-a25e-504da4d2ab74",
+    "statement": "Quins efectes té la boira densa sobre un rescat al medi natural?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa boira densa redueix la visibilitat i dificulta orientació, localització de víctimes i ús de mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gestió d’incendis estructurals",
+      "B": "Estabilització de vehicles i trànsit",
+      "C": "Treball subaquàtic i busseig",
+      "D": "Orientació, localització i ús de mitjans aeris"
+    }
+  },
+  {
+    "id": "racord_02110449-bf6f-46f5-9da5-5a9e1f9e948b",
+    "statement": "Quines dades caracteritzen el Grup caní de recerca del Cos de Bombers?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.5. El GRCR del Cos de Bombers\n\nEl GRCR va néixer el 2007 i el 2022 es va consolidar amb dues seus fixes, Lleida i Vic; actua en grans àrees, estructures col·lapsades, allaus i esllavissades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Va néixer el 1997 i té seus fixes a Olot i Valls",
+      "B": "Va néixer el 2022 i treballa des de Cerdanyola i la Seu d’Urgell",
+      "C": "Va néixer el 1994 i se centra en salvament aquàtic",
+      "D": "Va néixer el 2007 i té seus fixes a Lleida i Vic des de 2022"
+    }
+  },
+  {
+    "id": "racord_9fee1ee8-111a-4714-9dfd-59bca41f8374",
+    "statement": "Davant una emergència de muntanya a Catalunya, quin cos assumeix la responsabilitat del rescat i salvament?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nA Catalunya, la responsabilitat del rescat i salvament de muntanya correspon al Cos de Bombers de la Generalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Cos de Bombers de la Generalitat",
+      "B": "Al Sistema d’Emergències Mèdiques",
+      "C": "A les policies locals",
+      "D": "Als Agents Rurals"
+    }
+  },
+  {
+    "id": "racord_a16aba47-41d3-4b1f-9f89-711ece932a20",
+    "statement": "Quines mesures col·lectives contribueixen a la seguretat d’un equip durant un rescat en terreny difícil?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.2. Mesures col·lectives i individuals\n\nLes mesures col·lectives inclouen planificació, zonificació, protocols de comunicació i ús de línies de vida, passamans i ancoratges redundants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Revisió individual de l’EPI i control de la hidratació",
+      "B": "Planificació, zonificació, comunicació i sistemes col·lectius d’assegurament",
+      "C": "Reducció dels relleus i concentració del personal a la zona exposada",
+      "D": "Ús d’arnès, casc, guants i calçat adequat"
+    }
+  },
+  {
+    "id": "racord_262e2c43-1664-4317-a80b-c38708408f08",
+    "statement": "En un rescat al medi natural, quins recursos poden utilitzar-se en el reconeixement inicial del terreny?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.2. Reconeixement i valoració inicial\n\nEl reconeixement dinàmic pot incloure observació des de punts elevats o aire, mapes, GPS, cartografia digital i persones coneixedores del terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Observació, mapes, GPS, cartografia i coneixedors del terreny",
+      "B": "Cartes nàutiques i predicció de marees",
+      "C": "Fitxes de vehicles i bases de dades industrials",
+      "D": "Plans d’edificació i instal·lacions urbanes"
+    }
+  },
+  {
+    "id": "racord_a64cc723-21e2-467d-a317-4637f3ba47d6",
+    "statement": "Davant un avís al medi natural, quina classificació general pot utilitzar-se per identificar el tipus d’actuació?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2. Tipologia d’intervencions\n\nLes intervencions es classifiquen en rescats, evacuacions, guiatges i acompanyaments, i recerques de persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incendis, inundacions, trànsit i assistències",
+      "B": "Rescats, evacuacions, guiatges i acompanyaments, i recerques",
+      "C": "Salvament marítim, busseig, port i platja",
+      "D": "Explosions, esfondraments, fuites i vent"
+    }
+  },
+  {
+    "id": "racord_149327f6-028a-460d-8f8c-c1ca44bec218",
+    "statement": "Quina informació és clau en rebre un avís al medi natural?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.1. Recepció de l’avís i recollida d’informació\n\nCal obtenir ubicació aproximada, nombre i estat de víctimes, mecanisme, comunicació disponible, meteorologia, horari i accessibilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ubicació, víctimes, mecanisme, comunicació, meteorologia i accessibilitat",
+      "B": "Nombre de refugis de tota la comarca",
+      "C": "Marca del material de la víctima i color de la roba",
+      "D": "Historial complet del grup excursionista"
+    }
+  },
+  {
+    "id": "racord_00e9f59f-bf9c-4330-bdc6-e1e95e450a2d",
+    "statement": "Una víctima està en una posició exposada abans de l’extracció. Per què s’ha d’assegurar?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.6. Assegurament de la víctima\n\nL’assegurament protegeix la víctima de caigudes o desplaçaments incontrolats durant estabilització, extracció o evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Facilitar que es mogui lliurement",
+      "B": "Eliminar la necessitat d’arnès",
+      "C": "Substituir la immobilització sanitària",
+      "D": "Evitar caigudes o desplaçaments incontrolats"
+    }
+  },
+  {
+    "id": "racord_3221411d-ba01-4f2a-8350-76e1c72ce470",
+    "statement": "Una persona està desorientada i lesionada en una zona remota. Quina seqüència d’objectius ha de guiar la intervenció?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nL’objectiu és localitzar, atendre, estabilitzar i evacuar les persones afectades reduint el risc per als intervinents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aïllar, extingir, ventilar i desmobilitzar",
+      "B": "Localitzar, atendre, estabilitzar i evacuar la persona afectada",
+      "C": "Accedir, identificar, interrogar i traslladar",
+      "D": "Senyalitzar, confinar, ventilar i revisar"
+    }
+  },
+  {
+    "id": "racord_743b0aa7-b158-41bd-8644-94ab0e64f8f1",
+    "statement": "S’ha delimitat una zona petita on es creu que la persona està immòbil. Quina modalitat permet una cobertura exhaustiva?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nLa recerca intensiva per sectors explora exhaustivament la totalitat d’una àrea definida assumint que la persona està estàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Explorar de manera exhaustiva tot el sector",
+      "B": "Recórrer pistes ràpidament amb vehicle",
+      "C": "Tancar un perímetre i avançar sense alineació",
+      "D": "Revisar punts probables dispersos"
+    }
+  },
+  {
+    "id": "racord_90e761dc-4e1f-4b44-882c-5f63506ef600",
+    "statement": "Una intervenció s’allargarà diverses hores en una zona remota. Quins elements de planificació depenen directament de l’accés?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nLa logística d’accés i evacuació condiciona temps d’arribada, material transportable, evacuació, relleus i avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Color dels vehicles i uniformes",
+      "B": "Temps, material, evacuació, relleus i avituallament",
+      "C": "Tipus de documentació personal de la víctima",
+      "D": "Nombre de trucades rebudes a la sala"
+    }
+  },
+  {
+    "id": "racord_4accd73d-981c-4572-88f1-0032a1bf741d",
+    "statement": "Arriba un avís d’accident en una cinglera. Quines actuacions corresponen a la SCT en l’activació inicial?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nLa SCT rep l’avís, activa els recursos territorials i demana recursos especials a la SCB.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rebre l’avís, activar recursos territorials i demanar recursos especials a la SCB",
+      "B": "Executar directament les maniobres verticals",
+      "C": "Assumir l’atenció sanitària de la víctima",
+      "D": "Coordinar el trànsit i evacuar la població"
+    }
+  },
+  {
+    "id": "racord_9aeba7dc-78e5-4d8a-8754-b2e36f80e0f8",
+    "statement": "Què és el ràpel en una operació de rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.2. Descens per corda (ràpel)\n\nEl ràpel permet un descens controlat per terreny vertical o inclinat mitjançant una corda i un dispositiu de frenada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un transport horitzontal amb tirolina",
+      "B": "Una tracció amb polispast",
+      "C": "Un ascens per corda fixa amb bloquejadors",
+      "D": "Un descens controlat per corda amb dispositiu de frenada"
+    }
+  },
+  {
+    "id": "racord_03ab7064-28f6-4ece-8c73-d0c70c00a3bd",
+    "statement": "Quines característiques té la recerca extensiva?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.1. Recerca extensiva\n\nLa recerca extensiva cobreix grans distàncies, principalment a peu o amb vehicle, amb baixa necessitat de personal i gran velocitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cobertura reduïda, molta minuciositat i molt personal",
+      "B": "Perímetre tancat amb gran volum de personal",
+      "C": "Avanç en línia paral·lela per tot un sector",
+      "D": "Gran cobertura, velocitat alta i baixa necessitat de personal"
+    }
+  },
+  {
+    "id": "racord_200854c6-d9c7-4a8f-8ce3-7d387b63703f",
+    "statement": "En una actuació amb accés difícil i víctima ferida, quina combinació de capacitats és especialment necessària?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nAquestes intervencions combinen progressió en terreny difícil amb primers auxilis, orientació, comunicació i treball en equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Conducció urbana, ventilació i hidràulica",
+      "B": "Navegació marítima, busseig i salvament portuari",
+      "C": "Progressió, primers auxilis, orientació, comunicació i treball en equip",
+      "D": "Investigació, inspecció i gestió administrativa"
+    }
+  },
+  {
+    "id": "racord_65160dc3-99ac-4fa3-9c88-191efc9c20a7",
+    "statement": "La pista acaba lluny de la víctima i no hi ha continuïtat per a vehicles. Quines opcions d’accés cal valorar?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEn zones sense accés amb vehicle terrestre cal planificar l’entrada a peu o amb mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A peu o amb mitjans aeris",
+      "B": "Amb qualsevol turisme convencional",
+      "C": "Esperant l’obertura d’una nova pista",
+      "D": "Amb transport ferroviari"
+    }
+  },
+  {
+    "id": "racord_38303b90-8f9f-4654-b481-20b95015c374",
+    "statement": "En un recorregut llarg sense pista apta per a 4x4, quins recursos alternatius es poden valorar?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nMitjans com quad, moto de neu o animals de càrrega poden optimitzar transport de material o accés ràpid en determinats entorns.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quad, moto de neu o animals de càrrega",
+      "B": "Autobús urbà, turisme i remolc",
+      "C": "Locomotora, vagó i draisina",
+      "D": "Embarcació, moto aquàtica i patí"
+    }
+  },
+  {
+    "id": "racord_9dd7586e-6b2f-4da5-a049-4bdef4483e1c",
+    "statement": "Quines actuacions formen part del salvament en el medi natural terrestre?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nInclou recerca, salvament, assistència i evacuació de persones en perill, ferides o en dificultat fora de l’àmbit urbà i del medi aquàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Extinció, ventilació, confinament i revisió",
+      "B": "Intervenció aquàtica, portuària i marítima",
+      "C": "Assistència urbana, trànsit i logística",
+      "D": "Recerca, salvament, assistència i evacuació"
+    }
+  },
+  {
+    "id": "racord_5e0682f8-3553-43e3-b753-30f74868362a",
+    "statement": "Com s’organitza una batuda intensiva per sectors?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nL’equip avança en paral·lel, alineat i amb separació regular; els sectors s’han de solapar per evitar zones fosques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb cada membre seguint una ruta independent",
+      "B": "En fila índia per la pista principal",
+      "C": "Des del centre cap a fora sense coordinació",
+      "D": "En paral·lel, alineat, amb separació regular i solapament"
+    }
+  },
+  {
+    "id": "racord_51195538-6e89-42e4-8805-5f547fa87591",
+    "statement": "Durant una travessa lateral, com s’ha de connectar cada intervinent al sistema?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.8. Passamans\n\nEls passamans són cordes entre punts fixos i cada membre s’hi assegura amb mosquetons i bagues d’ancoratge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb mosquetons i bagues d’ancoratge a una corda fixada",
+      "B": "Agafant la corda amb les mans sense connexió",
+      "C": "Amb una politja de polispast",
+      "D": "Amb un descensor de ràpel sense baga"
+    }
+  },
+  {
+    "id": "racord_9ae5d649-82fa-4d16-8245-834ec232bd2e",
+    "statement": "Quin és l’objectiu de la recerca intensiva per sectors?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nLa recerca intensiva per sectors explora exhaustivament la totalitat d’una àrea definida assumint que la persona està estàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tancar un perímetre i avançar sense alineació",
+      "B": "Explorar de manera exhaustiva tot el sector",
+      "C": "Recórrer pistes ràpidament amb vehicle",
+      "D": "Revisar punts probables dispersos"
+    }
+  },
+  {
+    "id": "racord_e86c9c78-755f-40ad-a658-95815d6cf2ca",
+    "statement": "En una tartera amb roca solta i vegetació densa, quins perills s’han de preveure?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEl terreny rocós, descompost o amb vegetació densa incrementa el risc de caigudes, esllavissades o despreniments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Electrocució, intoxicació i explosió",
+      "B": "Caigudes, esllavissades i despreniments",
+      "C": "Atropellament i col·lisió amb trànsit",
+      "D": "Ofegament en aigües profundes"
+    }
+  },
+  {
+    "id": "racord_12b4a14a-c4e1-47b8-a065-acd1fb508cc0",
+    "statement": "Quins recursos poden actuar com a suport en un dispositiu de rescat al medi natural?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEntre els suports poden haver-hi drons, unitats canines, logística de comunicacions i avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bombes urbanes, escales mecàniques i ventiladors",
+      "B": "Equips de busseig i embarcacions marítimes",
+      "C": "Drons, unitats canines, comunicacions i avituallament",
+      "D": "Unitats de trànsit i grues de carretera"
+    }
+  },
+  {
+    "id": "racord_38dc20e1-5dbc-4981-acf0-850d8fe8d023",
+    "statement": "Quin és l’objectiu operatiu del salvament en el medi natural?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nL’objectiu és localitzar, atendre, estabilitzar i evacuar les persones afectades reduint el risc per als intervinents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aïllar, extingir, ventilar i desmobilitzar",
+      "B": "Localitzar, atendre, estabilitzar i evacuar la persona afectada",
+      "C": "Accedir, identificar, interrogar i traslladar",
+      "D": "Senyalitzar, confinar, ventilar i revisar"
+    }
+  },
+  {
+    "id": "racord_40b88623-248a-4270-b1da-08538ee6eee0",
+    "statement": "Per què es formulen hipòtesis de treball en una recerca?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5. Maniobres en recerques\n\nLa manca d’informació inicial pot obligar a formular hipòtesis de treball i ordenar objectius segons la probabilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per definir escenaris probables i ordenar objectius tàctics",
+      "B": "Per eliminar la necessitat de comandament",
+      "C": "Per evitar recollir informació nova",
+      "D": "Per descartar la sectorització"
+    }
+  },
+  {
+    "id": "racord_3877661f-cdd4-48e8-bd93-6d92b343bcda",
+    "statement": "Una pista ja s’ha recorregut de forma extensiva però es pensa que la persona està aturada a prop. Què convé fer?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.1. Recerca intensiva per línies naturals\n\nEs fa a peu, revisant zones ja explorades amb més precisió; requereix més personal i és efectiva de nit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Revisar-la a peu amb més precisió i atenció als marges",
+      "B": "Abandonar els eixos de mobilitat",
+      "C": "Passar directament a una recerca aèria sense valorar visibilitat",
+      "D": "Repetir el mateix recorregut a més velocitat amb vehicle"
+    }
+  },
+  {
+    "id": "racord_fec2e17e-d7e9-47e7-a9bd-d98540c7db05",
+    "statement": "Un rescat es fa en una cresta amb ratxes fortes. Quines dificultats poden aparèixer?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nEl vent fort interfereix en la comunicació, pot fer caure branques i limitar les operacions amb helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augment de la cobertura de dades",
+      "B": "Millora de la comunicació i de l’estabilitat",
+      "C": "Eliminació del risc en zones exposades",
+      "D": "Problemes de comunicació, caiguda de branques i limitació del vol"
+    }
+  },
+  {
+    "id": "racord_40839fb1-ac17-447e-882f-fb503b1e0841",
+    "statement": "Una víctima estabilitzada ha de ser traslladada fins al punt on la rebrà el dispositiu sanitari. Quin objectiu guia aquesta fase?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.3. Assistència i evacuació de víctimes\n\nL’assistència i evacuació busca garantir atenció i mobilització segura fins a un punt de transferència mèdica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir-la al lloc independentment del risc",
+      "B": "Prioritzar el material per sobre de la víctima",
+      "C": "Atendre i mobilitzar amb seguretat fins al punt de transferència mèdica",
+      "D": "Traslladar-la sense valoració ni assegurament"
+    }
+  },
+  {
+    "id": "racord_e4db87e2-0025-43dd-a50d-e19a8cc7ddbe",
+    "statement": "A qui correspon la responsabilitat del rescat i salvament de muntanya a Catalunya?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nA Catalunya, la responsabilitat del rescat i salvament de muntanya correspon al Cos de Bombers de la Generalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als Agents Rurals",
+      "B": "A les policies locals",
+      "C": "Al Cos de Bombers de la Generalitat",
+      "D": "Al Sistema d’Emergències Mèdiques"
+    }
+  },
+  {
+    "id": "racord_d50c4ce3-4c71-487c-b813-c3e4a8ff252e",
+    "statement": "Quins riscos augmenten amb pluja intensa a muntanya?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa pluja intensa augmenta relliscades, esllavissades i despreniments i pot convertir camins en torrents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Millora de l’adherència i de l’accés",
+      "B": "Reducció del risc de despreniments",
+      "C": "Relliscades, esllavissades i dificultat de progressió",
+      "D": "Augment de la visibilitat aèria"
+    }
+  },
+  {
+    "id": "racord_cf2044c6-15a4-4823-93d5-3d007fc74edb",
+    "statement": "Quina informació ha de rebre cada equip de recerca abans de desplegar-se?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.4. Assignar recursos i constituir equips de recerca\n\nEls recursos es distribueixen segons prioritat dels sectors, terreny i capacitats; cada equip rep sector, metodologia, marcatge, canals i retorn d’informació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sector, metodologia, marcatge, comunicacions i retorn d’informació",
+      "B": "El llistat complet de tots els equips sense tasca pròpia",
+      "C": "Una consigna genèrica sense sector ni canal",
+      "D": "Una ruta improvisada sense sistema de marcatge"
+    }
+  },
+  {
+    "id": "racord_c11414d5-8656-464b-9335-7057bf79b0d3",
+    "statement": "Quines tècniques poden requerir els rescats en parets i cingleres?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats en parets i cingleres poden requerir escalada, cordes, assegurament, politges i coordinació amb helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Escuma, extintors i ventilació",
+      "B": "Armilles reflectants i cons de trànsit",
+      "C": "Escalada, cordes, assegurament, politges i helicòpter",
+      "D": "Busseig autònom i embarcacions"
+    }
+  },
+  {
+    "id": "racord_35c5a277-af2e-4b1c-ba5e-29dbf4fa2752",
+    "statement": "Es rep un avís imprecís d’una persona accidentada a muntanya. Quines dades s’han d’intentar obtenir abans de mobilitzar recursos?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.1. Recepció de l’avís i recollida d’informació\n\nCal obtenir ubicació aproximada, nombre i estat de víctimes, mecanisme, comunicació disponible, meteorologia, horari i accessibilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ubicació, víctimes, mecanisme, comunicació, meteorologia i accessibilitat",
+      "B": "Nombre de refugis de tota la comarca",
+      "C": "Historial complet del grup excursionista",
+      "D": "Marca del material de la víctima i color de la roba"
+    }
+  },
+  {
+    "id": "racord_995af7c3-cc42-4976-8bf7-f258610081ed",
+    "statement": "Quines dificultats poden presentar les pistes forestals en un rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nLes pistes forestals poden tenir pendents, fang, pedres soltes o vegetació que dificulten el pas dels vehicles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Catenària, andanes i túnels",
+      "B": "Onatge, corrents i marees",
+      "C": "Semàfors, trànsit i passos de vianants",
+      "D": "Pendents, fang, pedres soltes i vegetació densa"
+    }
+  },
+  {
+    "id": "racord_e8e1c911-2f67-4323-80ba-9af208035eb9",
+    "statement": "Una intervenció està condicionada per una nevada intensa i risc d’allaus. Quins plans especials poden ser rellevants?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nEls plans NEUCAT i ALLAUCAT són plans especials aplicables a nevades i allaus quan afecten zones de muntanya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TRANSCAT i PLASEQCAT",
+      "B": "INFOCAT i INUNCAT",
+      "C": "PROCICAT i CAMCAT",
+      "D": "NEUCAT i ALLAUCAT"
+    }
+  },
+  {
+    "id": "racord_e9596cfd-259f-49fd-bd44-727fec42c230",
+    "statement": "Amb molts efectius disponibles, com s’ha d’organitzar el tancament d’una àrea de recerca?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.4. Recerca per contenció\n\nEls equips es posicionen al perímetre i avancen cap a l’interior de forma coordinada i sincronitzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Seguint un camí únic en fila",
+      "B": "Des del perímetre cap a l’interior amb avanç coordinat",
+      "C": "Amb equips dispersos sense delimitació",
+      "D": "Des del centre cap a fora sense comunicació"
+    }
+  },
+  {
+    "id": "racord_9cc3cbb5-3dc8-4dd3-9d68-868ff77996e6",
+    "statement": "De nit es volen revisar diversos refugis amb recursos limitats. Quina modalitat pot ser eficient?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.3. Recerca de punts probables\n\nLa recerca de punts probables necessita poc personal, té velocitat mitjana i alta efectivitat nocturna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Molt personal, baixa velocitat i poca precisió",
+      "B": "Baixa necessitat de personal, velocitat mitjana i bona efectivitat nocturna",
+      "C": "Gran volum de personal amb tancament sincronitzat",
+      "D": "Recorregut exclusiu amb helicòpter"
+    }
+  },
+  {
+    "id": "racord_6f46e99f-400c-435e-9a55-d877baa9a09b",
+    "statement": "Què poden obligar a fer les cingleres, barrancs i crestes?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nCingleres, barrancs i crestes poden impedir l’accés directe i obligar a buscar rutes alternatives o aproximacions aèries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descartar la intervenció terrestre sense valorar alternatives",
+      "B": "Mantenir la ruta directa encara que sigui impracticable",
+      "C": "Buscar rutes alternatives o aproximacions aèries",
+      "D": "Esperar que la víctima es desplaci fins a una pista"
+    }
+  },
+  {
+    "id": "racord_1315b6de-4fcf-4f04-8e26-049928971577",
+    "statement": "Quina funció té la Sala de Control Territorial davant un avís de muntanya?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nLa SCT rep l’avís, activa els recursos territorials i demana recursos especials a la SCB.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rebre l’avís, activar recursos territorials i demanar recursos especials a la SCB",
+      "B": "Coordinar el trànsit i evacuar la població",
+      "C": "Assumir l’atenció sanitària de la víctima",
+      "D": "Executar directament les maniobres verticals"
+    }
+  },
+  {
+    "id": "racord_1baadb48-30eb-420e-8719-cce344a7399a",
+    "statement": "Després d’una tempesta, un camí forestal s’ha convertit en un torrent. Quina conseqüència operativa és coherent?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa pluja intensa augmenta relliscades, esllavissades i despreniments i pot convertir camins en torrents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Millora de l’adherència i de l’accés",
+      "B": "Augment de la visibilitat aèria",
+      "C": "Relliscades, esllavissades i dificultat de progressió",
+      "D": "Reducció del risc de despreniments"
+    }
+  },
+  {
+    "id": "racord_9a09e556-76b9-43c9-bc26-c7c29f81f320",
+    "statement": "Un equip ha de travessar una cornisa exposada. Quina instal·lació facilita un desplaçament assegurat?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.8. Passamans\n\nEls passamans asseguren el desplaçament horitzontal o lleugerament inclinat en zones exposades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descendir en ràpel",
+      "B": "Elevar una càrrega verticalment",
+      "C": "Assegurar el desplaçament horitzontal o poc inclinat",
+      "D": "Evacuar per helicòpter"
+    }
+  },
+  {
+    "id": "racord_42f7941c-bbbd-4aff-b79d-1b4bc62dfaf0",
+    "statement": "Es creu que la persona ha deixat de moure’s prop d’un camí. On s’ha de concentrar una recerca intensiva per línies naturals?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.1. Recerca intensiva per línies naturals\n\nExplora minuciosament vorals i zones fosques de carreteres, pistes, camins, corriols, rieres i barrancs, pensant en una persona estàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En punts aleatoris sense relació amb camins",
+      "B": "Als vorals, marges i zones fosques dels recorreguts transitables",
+      "C": "Fora de qualsevol eix natural de mobilitat",
+      "D": "Al centre de grans sectors sense referències"
+    }
+  },
+  {
+    "id": "racord_bb7ab093-4270-4b48-b5de-6fee1df0b9ed",
+    "statement": "Una víctima es troba en un barranc amb aigua en moviment i parets relliscoses. Quins riscos i coneixements destaquen?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls barrancs i rius de muntanya combinen dificultats orogràfiques amb aigua en moviment, hipotèrmia, zones relliscoses i necessitat de barranquisme.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Atropellament, trànsit i senyalització viària",
+      "B": "Gasos tòxics i confinament industrial",
+      "C": "Arrossegament, hipotèrmia i tècniques de barranquisme",
+      "D": "Fum, temperatura i ventilació"
+    }
+  },
+  {
+    "id": "racord_493d8e8a-5c88-46d1-8855-bcf03e8e911c",
+    "statement": "En una extracció pendent amunt, quina característica del polispast facilita la recuperació de la víctima?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.7. Sistemes de politges (polispast)\n\nEls sistemes de politges multipliquen la força aplicada i combinen cordes, politges, frens i ancoratges.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzant una corda sense politges",
+      "B": "Multiplicant la força aplicada amb cordes, politges, frens i ancoratges",
+      "C": "Reduint el nombre de punts d’ancoratge a zero",
+      "D": "Transformant la tracció en un descens lliure"
+    }
+  },
+  {
+    "id": "racord_a67a9694-cff7-4aff-92e9-601ab6afaf2d",
+    "statement": "Què s’ha de valorar en una aproximació a peu?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nL’aproximació a peu obliga a carregar material i valorar dificultat, temps d’anada i tornada i condició física de l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Color de les motxilles i marca del calçat",
+      "B": "Dificultat del terreny, temps i condició física de l’equip",
+      "C": "Capacitat del vehicle que queda al punt de partida",
+      "D": "Nombre de carreteres asfaltades properes"
+    }
+  },
+  {
+    "id": "racord_62de311e-2e08-4e8d-b796-07b635ace9cb",
+    "statement": "Cal cobrir molta distància en les primeres hores amb pocs recursos. Quina modalitat s’ajusta millor?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.1. Recerca extensiva\n\nLa recerca extensiva cobreix grans distàncies, principalment a peu o amb vehicle, amb baixa necessitat de personal i gran velocitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gran cobertura, velocitat alta i baixa necessitat de personal",
+      "B": "Perímetre tancat amb gran volum de personal",
+      "C": "Avanç en línia paral·lela per tot un sector",
+      "D": "Cobertura reduïda, molta minuciositat i molt personal"
+    }
+  },
+  {
+    "id": "racord_388d2ab8-ac9e-411d-983c-ad313b6da932",
+    "statement": "Cal traslladar material i víctima d’un costat a l’altre d’un barranc. Quina maniobra és adequada?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.5. Tirolina\n\nLa tirolina facilita transport horitzontal o amb pendent entre punts separats per rius, barrancs o pendents pronunciats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descendir verticalment amb dispositiu de frenada",
+      "B": "Ascendir per una corda fixa",
+      "C": "Transportar entre dos punts separats per un obstacle",
+      "D": "Immobilitzar una víctima sobre terreny pla"
+    }
+  },
+  {
+    "id": "racord_99d00af9-4f49-4c09-ad70-a7584354889d",
+    "statement": "Quan és útil l’ascens tipus escalada?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.3. Ascens tipus escalada\n\nL’ascens tipus escalada permet progressar per terreny vertical o mixt amb tècniques d’escalada assegurada quan no es pot instal·lar una corda des de dalt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan cal travessar horitzontalment un barranc",
+      "B": "Quan cal pujar assegurat i no es pot instal·lar corda des de dalt",
+      "C": "Quan hi ha una corda fixa ja instal·lada",
+      "D": "Quan es vol reduir l’esforç de tracció amb politges"
+    }
+  },
+  {
+    "id": "racord_1cb2710b-36b0-4e96-902e-c0df97bdd1f5",
+    "statement": "Abans d’iniciar una maniobra amb cordes en una zona exposada, quin criteri de seguretat s’ha d’aplicar als ancoratges?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.1. Principis bàsics de seguretat\n\nEls punts d’ancoratge han de ser sòlids, redundants i verificats abans de ser utilitzats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han de concentrar tota la càrrega en un únic punt principal",
+      "B": "Han de muntar-se després que el primer rescatador hagi iniciat la progressió",
+      "C": "Han de ser sòlids, redundants i verificats abans de l’ús",
+      "D": "Han de permetre moviment per absorbir millor la càrrega"
+    }
+  },
+  {
+    "id": "racord_20e45975-9dc4-4d26-a779-27ce17fc2771",
+    "statement": "Quins riscos provoca la calor extrema durant un accés llarg?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa calor extrema i la radiació solar augmenten el risc de cop de calor i deshidratació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Allaus de neu humida",
+      "B": "Hipotèrmia i congelació",
+      "C": "Cop de calor i deshidratació",
+      "D": "Electrocució per alta tensió"
+    }
+  },
+  {
+    "id": "racord_c2c5ba6b-7c12-41be-a595-743e290b886e",
+    "statement": "En una recerca en una zona de bosc, camins forestals i terreny rocallós, quin àmbit operatiu és coherent amb l’escenari?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nEls entorns poden incloure muntanyes, cingleres, tarteres, barrancs, coves, zones nevades, boscos, espais rurals, agrícoles i camins forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Edificis industrials i aparcaments subterranis",
+      "B": "Muntanyes, barrancs, coves, boscos i zones rurals",
+      "C": "Carrers urbans, ports i platges",
+      "D": "Xarxes ferroviàries i túnels metropolitans"
+    }
+  },
+  {
+    "id": "racord_3c8a8ef9-4da0-4423-99a6-153d6c04f312",
+    "statement": "Quins tipus d’ancoratges es poden utilitzar en rescat de muntanya?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.1. Instal·lació d’ancoratges\n\nEls ancoratges poden ser naturals, com arbres o blocs, o artificials, com pitons, parabolts, espits, friends o tascons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Naturals o artificials",
+      "B": "Primaris o secundaris",
+      "C": "Mecànics o sanitaris",
+      "D": "Tèrmics o hidràulics"
+    }
+  },
+  {
+    "id": "racord_222e5a1d-9624-491b-9908-1a1183125253",
+    "statement": "Com es diferencia la recerca intensiva per línies naturals de l’extensiva?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.1. Recerca intensiva per línies naturals\n\nEs fa a peu, revisant zones ja explorades amb més precisió; requereix més personal i és efectiva de nit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Revisar-la a peu amb més precisió i atenció als marges",
+      "B": "Passar directament a una recerca aèria sense valorar visibilitat",
+      "C": "Abandonar els eixos de mobilitat",
+      "D": "Repetir el mateix recorregut a més velocitat amb vehicle"
+    }
+  },
+  {
+    "id": "racord_e1f49f37-866c-4efe-aa92-ed1dca8a20cb",
+    "statement": "Quins elements pot incloure un sistema de ràpel?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.2. Descens per corda (ràpel)\n\nEl sistema de ràpel inclou ancoratges sòlids, línia principal i, si escau, línia de seguretat o anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una tirolina sense dispositiu de frenada",
+      "B": "Una politja sense corda ni ancoratge",
+      "C": "Ancoratges sòlids, línia principal i línia de seguretat si cal",
+      "D": "Una línia única sense punt de connexió"
+    }
+  },
+  {
+    "id": "racord_a96933f1-d225-400e-9ad4-4c9922faac87",
+    "statement": "Quin efecte poden tenir els pendents inestables en un rescat de muntanya?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEls desnivells pronunciats i els pendents inestables dificulten la progressió a peu o amb vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garantir una evacuació ràpida",
+      "B": "Facilitar l’accés directe amb qualsevol vehicle",
+      "C": "Dificultar la progressió a peu o amb vehicle",
+      "D": "Eliminar el risc de caigudes"
+    }
+  },
+  {
+    "id": "racord_dff601e2-0d18-4e10-bc6f-d8be5873d1e4",
+    "statement": "La previsió és estable a l’inici, però hi ha possibilitat de tempesta a la tarda. Quin seguiment és adequat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nEls equips han de consultar i monitoritzar la previsió meteorològica abans i durant l’actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan ja s’ha iniciat el retorn",
+      "B": "Després d’evacuar la víctima",
+      "C": "Al final del servei",
+      "D": "Abans i durant l’actuació"
+    }
+  },
+  {
+    "id": "racord_6fcf3ef0-c83e-40df-8e7d-bcf6637a1d90",
+    "statement": "Quins recursos poden ser necessaris en un rescat hivernal?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEn neu i gel cal valorar mantell nival, grampons, piolets, esquís i recursos de localització com DVA, sondes, pales i gossos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "DVA, sondes, pales, gossos, grampons i piolets",
+      "B": "Cisalles, separadors i coixins pneumàtics",
+      "C": "Mànegues, escuma i extintors",
+      "D": "Radars de trànsit i balises viàries"
+    }
+  },
+  {
+    "id": "racord_87178cca-7c4b-4ffb-b95d-89d209f272be",
+    "statement": "No es pot accedir a la part superior d'una roca per instal·lar una corda. Quina maniobra permet progressar assegurat des del peu de via o reunions?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.3. Ascens tipus escalada\n\nL’ascens tipus escalada permet progressar per terreny vertical o mixt amb tècniques d’escalada assegurada quan no es pot instal·lar una corda des de dalt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descens tipus rapel",
+      "B": "Ascens amb cordes semiestàtiques",
+      "C": "Totes les anteriors són correctes",
+      "D": "Ascens tipus escalada"
+    }
+  },
+  {
+    "id": "racord_88ea3573-16ec-447f-abda-8f5d451259f4",
+    "statement": "Quan s’ha de controlar la previsió meteorològica en un rescat?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nEls equips han de consultar i monitoritzar la previsió meteorològica abans i durant l’actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Després d’evacuar la víctima",
+      "B": "Quan ja s’ha iniciat el retorn",
+      "C": "Abans i durant l’actuació",
+      "D": "Al final del servei"
+    }
+  },
+  {
+    "id": "racord_a7366c98-56f9-464b-ab51-180506baeaf5",
+    "statement": "Un grup ha d’escombrar un sector complet. Com ha d’avançar per reduir zones sense revisar?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.2.2. Recerca intensiva per sectors\n\nL’equip avança en paral·lel, alineat i amb separació regular; els sectors s’han de solapar per evitar zones fosques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del centre cap a fora sense coordinació",
+      "B": "En fila índia per la pista principal",
+      "C": "En paral·lel, alineat, amb separació regular i solapament",
+      "D": "Amb cada membre seguint una ruta independent"
+    }
+  },
+  {
+    "id": "racord_4abac3bc-2f19-4fec-b64f-6a3246b5e727",
+    "statement": "Quins riscos augmenten en terreny rocós o descompost?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEl terreny rocós, descompost o amb vegetació densa incrementa el risc de caigudes, esllavissades o despreniments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Caigudes, esllavissades i despreniments",
+      "B": "Electrocució, intoxicació i explosió",
+      "C": "Ofegament en aigües profundes",
+      "D": "Atropellament i col·lisió amb trànsit"
+    }
+  },
+  {
+    "id": "racord_e534448f-f09a-4680-80d2-8af0c8799f8b",
+    "statement": "Una persona ferida es troba en una zona forestal no urbanitzada. Quin tipus d’intervenció pot correspondre al salvament en el medi natural terrestre?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nInclou recerca, salvament, assistència i evacuació de persones en perill, ferides o en dificultat fora de l’àmbit urbà i del medi aquàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assistència urbana, trànsit i logística",
+      "B": "Intervenció aquàtica, portuària i marítima",
+      "C": "Extinció, ventilació, confinament i revisió",
+      "D": "Recerca, salvament, assistència i evacuació"
+    }
+  },
+  {
+    "id": "racord_7ad8b50b-76b5-4552-b37d-7556f398956c",
+    "statement": "Un equip és assignat a un sector prioritari. Quines instruccions han d’acompanyar l’assignació?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.4. Assignar recursos i constituir equips de recerca\n\nEls recursos es distribueixen segons prioritat dels sectors, terreny i capacitats; cada equip rep sector, metodologia, marcatge, canals i retorn d’informació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una consigna genèrica sense sector ni canal",
+      "B": "Sector, metodologia, marcatge, comunicacions i retorn d’informació",
+      "C": "El llistat complet de tots els equips sense tasca pròpia",
+      "D": "Una ruta improvisada sense sistema de marcatge"
+    }
+  },
+  {
+    "id": "racord_c899abab-b256-4771-8a81-69844908b9e2",
+    "statement": "Quan pot considerar-se accessible un rescat a peu o amb vehicle?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats accessibles a peu o vehicle es poden assumir amb unitats bàsiques quan la persona està localitzada i l’accés i evacuació són possibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una recerca intensiva per sectors",
+      "B": "Un rescat accessible a peu o amb vehicle",
+      "C": "Un rescat en cova profunda",
+      "D": "Un rescat en paret vertical"
+    }
+  },
+  {
+    "id": "racord_fa0f5c5e-407c-4a0b-9cf5-89f9f69f9aea",
+    "statement": "Es vol seguir el recorregut concret d’una persona desapareguda. Quina preparació és necessària?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.6. Recerca amb el Grup caní de recerca\n\nEn rastreig el gos segueix el recorregut individual a partir d’una mostra d’olor i cal preservar l’últim punt d’albirament de contaminacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una batuda aèria sense informació olfactiva",
+      "B": "Una càmera tèrmica com a únic recurs",
+      "C": "Una mostra d’olor i un UPA preservat de contaminacions",
+      "D": "Una zona plena de persones per estimular el gos"
+    }
+  },
+  {
+    "id": "racord_7ab92a37-3544-4677-926f-15a09a787501",
+    "statement": "Davant l'avís d'un rescat al medi natural, quines mesures pot justificar una avaluació de riscos desfavorable?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.3. Anticipació i avaluació de riscos\n\nL’avaluació pot portar a reforçar equipament, adaptar tàctica, reduir personal exposat o suspendre temporalment; cal una ruta alternativa per accés i evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Continuar sense reavaluar les condicions",
+      "B": "Adaptar la tàctica, reduir exposició, suspendre si cal i utilitzar un pla alternatiu",
+      "C": "Mantenir la mateixa ruta i augmentar el personal exposat",
+      "D": "Eliminar els punts de comunicació per simplificar l’operació"
+    }
+  },
+  {
+    "id": "racord_cffe0229-35aa-4794-a45d-dbad349266a9",
+    "statement": "Què és una recerca de punts probables?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.3. Recerca de punts probables\n\nRevisa llocs concrets on la persona podria dirigir-se o romandre per antecedents, experiència o històrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recórrer pistes sense prioritzar cap lloc",
+      "B": "Tancar una àrea amb equips al perímetre",
+      "C": "Revisar ubicacions concretes amb probabilitat de presència",
+      "D": "Explorar exhaustivament tot el territori"
+    }
+  },
+  {
+    "id": "racord_a346d309-ad7b-4202-a742-0e0c0b5e6eef",
+    "statement": "En un barranc profund es perd cobertura. Quins sistemes poden veure’s afectats?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEn zones de baixa cobertura poden quedar limitades les comunicacions TETRA, telefòniques i de dades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Xarxa d’aigua, gas i electricitat",
+      "B": "TETRA, telefonia i dades",
+      "C": "Ràdio marítima i radar portuari",
+      "D": "Semàfors i senyalització urbana"
+    }
+  },
+  {
+    "id": "racord_f89c6e5c-ad64-458a-a811-66d4d790a6e1",
+    "statement": "Es busca un nen petit que podria continuar desplaçant-se dins d’una àrea limitada. Quina estratègia pot evitar que en surti?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.4. Recerca per contenció\n\nLa recerca per contenció tanca progressivament una àrea per evitar que una persona en moviment en surti.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tancar progressivament l’àrea de recerca",
+      "B": "Revisar una pista principal a gran velocitat",
+      "C": "Buscar punts probables sense desplegar equips al límit",
+      "D": "Fer una batuda exhaustiva sense controlar el perímetre"
+    }
+  },
+  {
+    "id": "racord_5b97f671-a400-46d2-9a94-a31ccac2bc71",
+    "statement": "Quins elements són clau per coordinar i documentar una recerca multidisciplinària?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.5-6.6. Coordinació multidisciplinària i registre\n\nCal definir rols, llenguatge comú i protocols; els recorreguts, sectors, horaris, incidències i decisions s’han de registrar i centralitzar al Centre de Comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Canals diferents sense protocols compartits",
+      "B": "Equips independents sense compartir informació",
+      "C": "Absència de registre per simplificar la gestió",
+      "D": "Rols clars, comunicació comuna i registre centralitzat de les actuacions"
+    }
+  },
+  {
+    "id": "racord_d1c8b493-ccd9-4ec3-939d-6c05c925c7e7",
+    "statement": "Quines eines són útils per planificar l’accés inicial?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nEn planificació inicial cal consultar cartografia, ortofotomapes i eines de geolocalització.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cartografia, ortofotomapes i geolocalització",
+      "B": "Plànols d’edificació i fitxes de risc industrial",
+      "C": "Cartes nàutiques i taules de marees",
+      "D": "Esquemes ferroviaris i horaris de trens"
+    }
+  },
+  {
+    "id": "racord_e7d3f1a5-af6e-4377-937c-22c9ed344124",
+    "statement": "Com aconsegueix avantatge mecànic un sistema de politges?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.7. Sistemes de politges (polispast)\n\nEls sistemes de politges multipliquen la força aplicada i combinen cordes, politges, frens i ancoratges.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transformant la tracció en un descens lliure",
+      "B": "Multiplicant la força aplicada amb cordes, politges, frens i ancoratges",
+      "C": "Utilitzant una corda sense politges",
+      "D": "Reduint el nombre de punts d’ancoratge a zero"
+    }
+  },
+  {
+    "id": "racord_2168f7ad-1d1a-46ab-846a-452b84c52e13",
+    "statement": "Una recerca s’allarga i necessita observació, suport olfactiu i reforç logístic. Quins recursos poden incorporar-se?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEntre els suports poden haver-hi drons, unitats canines, logística de comunicacions i avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unitats de trànsit i grues de carretera",
+      "B": "Equips de busseig i embarcacions marítimes",
+      "C": "Drons, unitats canines, comunicacions i avituallament",
+      "D": "Bombes urbanes, escales mecàniques i ventiladors"
+    }
+  },
+  {
+    "id": "racord_bf9cf08a-d203-45b7-956d-2c94dc597029",
+    "statement": "Quines tècniques i ajudes poden formar part de la progressió en terreny difícil?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.1. Progressió en terreny difícil\n\nPot incloure marxa segura en pendents, flanquejos sobre roca, travesses de neu i gel i ús de bastons, grampons, raquetes o esquís.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cisalles, separadors i pistons",
+      "B": "Marxa segura, flanquejos, grampons, raquetes, bastons o esquís",
+      "C": "Aletes, ampolla i regulador",
+      "D": "Escuma, extintors i mànegues"
+    }
+  },
+  {
+    "id": "racord_414a55e8-b3ab-4a60-b62b-33569ad57e0f",
+    "statement": "Quin és l’objectiu d’un passamà en un rescat?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.8. Passamans\n\nEls passamans asseguren el desplaçament horitzontal o lleugerament inclinat en zones exposades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descendir en ràpel",
+      "B": "Elevar una càrrega verticalment",
+      "C": "Assegurar el desplaçament horitzontal o poc inclinat",
+      "D": "Evacuar per helicòpter"
+    }
+  },
+  {
+    "id": "racord_80a8a686-ad90-4278-a19d-ee1f6e3018f2",
+    "statement": "Abans d’enviar equips a una zona desconeguda, quins recursos d’informació territorial són adequats?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nEn planificació inicial cal consultar cartografia, ortofotomapes i eines de geolocalització.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Plànols d’edificació i fitxes de risc industrial",
+      "B": "Cartografia, ortofotomapes i geolocalització",
+      "C": "Cartes nàutiques i taules de marees",
+      "D": "Esquemes ferroviaris i horaris de trens"
+    }
+  },
+  {
+    "id": "racord_d5692f27-ea75-4585-9e82-b18e49844c2a",
+    "statement": "Quins mitjans especialitzats poden facilitar l’accés en senders estrets o llargs recorreguts?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nMitjans com quad, moto de neu o animals de càrrega poden optimitzar transport de material o accés ràpid en determinats entorns.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Autobús urbà, turisme i remolc",
+      "B": "Quad, moto de neu o animals de càrrega",
+      "C": "Locomotora, vagó i draisina",
+      "D": "Embarcació, moto aquàtica i patí"
+    }
+  },
+  {
+    "id": "racord_a689ec33-f17b-410d-ad89-847d5d5b81d2",
+    "statement": "Quin objectiu té assegurar la víctima en un rescat vertical?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.6. Assegurament de la víctima\n\nL’assegurament protegeix la víctima de caigudes o desplaçaments incontrolats durant estabilització, extracció o evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar caigudes o desplaçaments incontrolats",
+      "B": "Facilitar que es mogui lliurement",
+      "C": "Eliminar la necessitat d’arnès",
+      "D": "Substituir la immobilització sanitària"
+    }
+  },
+  {
+    "id": "racord_a76d9307-18f0-43de-bf2a-67a28392f004",
+    "statement": "En una paret hi ha arbres sòlids i també ancoratges instal·lats. Com es classifiquen aquests punts?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.1. Instal·lació d’ancoratges\n\nEls ancoratges poden ser naturals, com arbres o blocs, o artificials, com pitons, parabolts, espits, friends o tascons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Primaris o secundaris",
+      "B": "Mecànics o sanitaris",
+      "C": "Naturals o artificials",
+      "D": "Tèrmics o hidràulics"
+    }
+  },
+  {
+    "id": "racord_f15b9139-d631-425e-9a30-2cc1cecad831",
+    "statement": "Quines comunicacions poden quedar limitades en zones de baixa cobertura?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEn zones de baixa cobertura poden quedar limitades les comunicacions TETRA, telefòniques i de dades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Xarxa d’aigua, gas i electricitat",
+      "B": "TETRA, telefonia i dades",
+      "C": "Semàfors i senyalització urbana",
+      "D": "Ràdio marítima i radar portuari"
+    }
+  },
+  {
+    "id": "racord_df416f99-48c7-4fa0-8aac-15f7f19d351b",
+    "statement": "Es coneixen refugis i masies on persones perdudes acostumen a dirigir-se. Quina estratègia és adequada?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.3. Recerca de punts probables\n\nRevisa llocs concrets on la persona podria dirigir-se o romandre per antecedents, experiència o històrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recórrer pistes sense prioritzar cap lloc",
+      "B": "Revisar ubicacions concretes amb probabilitat de presència",
+      "C": "Tancar una àrea amb equips al perímetre",
+      "D": "Explorar exhaustivament tot el territori"
+    }
+  },
+  {
+    "id": "racord_97f33a71-9379-41c3-b608-1e8543c6d270",
+    "statement": "L’accés a la víctima passa per una pala gelada. Quin equip pot ajudar a progressar amb seguretat?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa neu i el glaç dificulten la mobilitat i augmenten el risc de caigudes; es pot valorar l’ús de grampons, piolets o esquís.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aletes, neoprè i tub respirador",
+      "B": "Botes urbanes i armilles reflectants",
+      "C": "Grampons, piolets o esquís",
+      "D": "Extintors, mànega i escuma"
+    }
+  },
+  {
+    "id": "racord_924acd25-b6fc-4517-b8bf-a5e4df5622ec",
+    "statement": "Durant l’accés hi ha pendent, roca i neu dura. Quins recursos poden ajudar a progressar?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.1. Progressió en terreny difícil\n\nPot incloure marxa segura en pendents, flanquejos sobre roca, travesses de neu i gel i ús de bastons, grampons, raquetes o esquís.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Marxa segura, flanquejos, grampons, raquetes, bastons o esquís",
+      "B": "Cisalles, separadors i pistons",
+      "C": "Aletes, ampolla i regulador",
+      "D": "Escuma, extintors i mànegues"
+    }
+  },
+  {
+    "id": "racord_86434d82-db9a-47ce-a8a3-7f89d103c565",
+    "statement": "Quines qualitats ha de tenir un ancoratge de rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.1. Instal·lació d’ancoratges\n\nL’ancoratge fixa amb seguretat els sistemes de corda i ha de ser robust, fiable i adequat a la maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Situat sempre en un únic arbre petit",
+      "B": "Flexible, mòbil i sense verificació",
+      "C": "Independent del tipus de maniobra",
+      "D": "Robust, fiable i adequat a la maniobra"
+    }
+  },
+  {
+    "id": "racord_1fb7bdd2-9304-420a-9538-2df4e54053f9",
+    "statement": "Cal elevar una llitera per un pendent fort reduint l’esforç de tracció. Quin sistema és útil?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.7. Sistemes de politges (polispast)\n\nEls polispasts redueixen l’esforç necessari per moure persones, material o lliteres en terreny vertical o accidentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reduir l’esforç per moure càrregues",
+      "B": "Servir com a línia de vida horitzontal",
+      "C": "Controlar la velocitat d’un ràpel",
+      "D": "Augmentar la força necessària per traccionar"
+    }
+  },
+  {
+    "id": "racord_38af42d1-1821-4297-a0e5-45bed0470f5b",
+    "statement": "Quines característiques té la recerca de punts probables?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.3. Recerca de punts probables\n\nLa recerca de punts probables necessita poc personal, té velocitat mitjana i alta efectivitat nocturna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Baixa necessitat de personal, velocitat mitjana i bona efectivitat nocturna",
+      "B": "Recorregut exclusiu amb helicòpter",
+      "C": "Gran volum de personal amb tancament sincronitzat",
+      "D": "Molt personal, baixa velocitat i poca precisió"
+    }
+  },
+  {
+    "id": "racord_a6b64ce4-bd13-4b10-a6ed-132e844f36fd",
+    "statement": "Quins aspectes condiciona la logística d’accés i evacuació?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nLa logística d’accés i evacuació condiciona temps d’arribada, material transportable, evacuació, relleus i avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nombre de trucades rebudes a la sala",
+      "B": "Color dels vehicles i uniformes",
+      "C": "Tipus de documentació personal de la víctima",
+      "D": "Temps, material, evacuació, relleus i avituallament"
+    }
+  },
+  {
+    "id": "racord_e02f25a9-ed26-485d-b97d-7e608d819bae",
+    "statement": "Un bomber treballa en una posició exposada dins d’un sistema de corda. Quin criteri d’autoprotecció ha de complir?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.2. Mesures col·lectives i individuals\n\nTot intervinent ha d’estar ancorat quan es troba en una posició exposada o dins d’un sistema de corda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha de mantenir-se assegurat pel contacte visual amb un company",
+      "B": "Ha de desconnectar-se de l’ancoratge per facilitar la mobilitat",
+      "C": "Ha de treballar sense línia d’assegurament si coneix bé la maniobra",
+      "D": "Ha d’estar ancorat"
+    }
+  },
+  {
+    "id": "racord_d06b493a-8565-4cc1-84de-b5caa91c4fa0",
+    "statement": "En un pas aeri, quin sistema permet lliscar una càrrega per cordes tensionades?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.5. Tirolina\n\nUna tirolina utilitza una o més cordes fortament tensionades i una politja que transporta persones, materials o víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un passamà sense politja ni tensió",
+      "B": "Cordes tensionades amb una politja de transport",
+      "C": "Una corda fluixa amb descensor",
+      "D": "Un polispast vertical sense línia de transport"
+    }
+  },
+  {
+    "id": "racord_379ec0a1-e310-4585-96c5-b42cd0cd88a0",
+    "statement": "Què és l’Últim Punt d’Albirament en una recerca?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.1. Establir i protegir l’Últim Punt d’Albirament (UPA)\n\nL’UPA és el darrer lloc on hi ha constància visual o confirmada de la persona desapareguda i s’ha de protegir per evitar contaminació del rastre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El darrer lloc amb constància visual o confirmada, que s’ha de protegir",
+      "B": "El punt final previst de l’evacuació",
+      "C": "El lloc on es troba el Centre de Comandament",
+      "D": "El sector amb més efectius desplegats"
+    }
+  },
+  {
+    "id": "racord_8774a801-0aea-4d5a-96fc-f0bb3ce4a1ab",
+    "statement": "Quina funció té un polispast en rescat?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.7. Sistemes de politges (polispast)\n\nEls polispasts redueixen l’esforç necessari per moure persones, material o lliteres en terreny vertical o accidentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Servir com a línia de vida horitzontal",
+      "B": "Augmentar la força necessària per traccionar",
+      "C": "Reduir l’esforç per moure càrregues",
+      "D": "Controlar la velocitat d’un ràpel"
+    }
+  },
+  {
+    "id": "racord_ad5d3571-5f1b-44b8-ad18-300d894744ed",
+    "statement": "Quins plans especials s’associen a nevades i allaus en zones de muntanya?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nEls plans NEUCAT i ALLAUCAT són plans especials aplicables a nevades i allaus quan afecten zones de muntanya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TRANSCAT i PLASEQCAT",
+      "B": "INFOCAT i INUNCAT",
+      "C": "NEUCAT i ALLAUCAT",
+      "D": "PROCICAT i CAMCAT"
+    }
+  },
+  {
+    "id": "racord_237f1408-fdb0-4b87-a2e4-7100d5fe57c2",
+    "statement": "Un 4x4 accedeix per una pista amb fang i pedra solta. Quina limitació cal valorar?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nLes pistes forestals poden tenir pendents, fang, pedres soltes o vegetació que dificulten el pas dels vehicles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pendents, fang, pedres soltes i vegetació densa",
+      "B": "Semàfors, trànsit i passos de vianants",
+      "C": "Onatge, corrents i marees",
+      "D": "Catenària, andanes i túnels"
+    }
+  },
+  {
+    "id": "racord_19b68ff8-d86a-4f09-93b9-2f731b6c93c6",
+    "statement": "En una zona sense accés terrestre ràpid, quin recurs pot efectuar una primera arribada i valoració de la situació?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEn zones de difícil accés, l’helicòpter de Bombers pot ser el primer recurs en arribar i avaluar la situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una unitat canina per terra",
+      "B": "L’helicòpter de Bombers",
+      "C": "Un equip logístic sense capacitat aèria",
+      "D": "Un vehicle urbà lleuger"
+    }
+  },
+  {
+    "id": "racord_fdc0e7e5-3eed-4bf5-b34c-b0aa4e70e2b7",
+    "statement": "Per a què serveix la informació recollida en la recepció d'un avís?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.1. Recepció de l’avís i recollida d’informació\n\nLa informació inicial ha de permetre activar els recursos més adequats, com dotacions terrestres o especialistes GRAE en helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tancar la intervenció abans de mobilitzar",
+      "B": "Activar els recursos més adequats",
+      "C": "Determinar la causa definitiva de l’accident",
+      "D": "Descartar la necessitat de valorar la meteorologia"
+    }
+  },
+  {
+    "id": "racord_d09e2672-6a42-4f0e-9bfa-ed307ecd7122",
+    "statement": "Es prepara un descens vertical de rescat. Quina configuració és coherent?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.2. Descens per corda (ràpel)\n\nEl sistema de ràpel inclou ancoratges sòlids, línia principal i, si escau, línia de seguretat o anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una tirolina sense dispositiu de frenada",
+      "B": "Una línia única sense punt de connexió",
+      "C": "Una politja sense corda ni ancoratge",
+      "D": "Ancoratges sòlids, línia principal i línia de seguretat si cal"
+    }
+  },
+  {
+    "id": "racord_112cf985-c035-4bbb-ae12-ac84bba37f62",
+    "statement": "Quina llei es relaciona amb els serveis de prevenció, extinció d’incendis i salvaments?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.2. Marc legal a Catalunya\n\nLa Llei 5/1994 regula els serveis de prevenció, extinció d’incendis i salvaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Llei 4/1997",
+      "B": "La Llei 5/1994",
+      "C": "La Llei 1/1998",
+      "D": "La Llei 9/2003"
+    }
+  },
+  {
+    "id": "racord_8e7b8f96-41ae-44d5-b1e4-0693ecb11847",
+    "statement": "Qui assumeix el comandament operatiu al lloc dels fets en un rescat de muntanya?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nBombers assumeix el comandament operatiu al lloc dels fets.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bombers",
+      "B": "SEM",
+      "C": "Agents Rurals",
+      "D": "Policia local"
+    }
+  },
+  {
+    "id": "racord_123f1d6b-e14e-4dd0-b488-20f1dba58c32",
+    "statement": "Quina relació funcional hi ha entre GRAE i GEM en un rescat de muntanya?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEl GRAE s’encarrega del rescat de muntanya i el GEM de la medicalització de l’assistència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "GRAE: rescat; GEM: medicalització de l’assistència",
+      "B": "GRAE: comandament policial; GEM: logística",
+      "C": "GRAE: evacuació administrativa; GEM: cartografia",
+      "D": "GRAE: trànsit; GEM: recerca canina"
+    }
+  },
+  {
+    "id": "racord_6bfea1b7-d11f-4809-abe3-5a4dc9a9ab69",
+    "statement": "Abans d’una extracció vertical, com es pot protegir la víctima davant una possible caiguda?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.6. Assegurament de la víctima\n\nLa víctima es pot connectar amb cordes, arnesos i unions segures a un punt d’assegurament, llitera o rescatador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb contacte manual sense cap sistema",
+      "B": "Amb material solt sense connexió",
+      "C": "Amb una línia sense ancoratge",
+      "D": "Amb cordes, arnès i sistemes d’unió segurs"
+    }
+  },
+  {
+    "id": "racord_af0b08f7-8b49-4dbd-ad57-56367974e043",
+    "statement": "Amb les dades de l’incident confirmades, quina decisió operativa inicial es pot prendre?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.1. Recepció de l’avís i recollida d’informació\n\nLa informació inicial ha de permetre activar els recursos més adequats, com dotacions terrestres o especialistes GRAE en helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Determinar la causa definitiva de l’accident",
+      "B": "Activar els recursos més adequats",
+      "C": "Tancar la intervenció abans de mobilitzar",
+      "D": "Descartar la necessitat de valorar la meteorologia"
+    }
+  },
+  {
+    "id": "racord_d21a391c-93d6-4a5e-8288-89272e6a1342",
+    "statement": "En quin escenari és especialment útil l’ascens per corda fixa?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.4. Ascens per corda fixa\n\nÉs una maniobra habitual per sortir d’una zona fonda on no es pot grimpar o escalar amb seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una pista accessible amb vehicle",
+      "B": "En terreny pla i transitable",
+      "C": "En una evacuació autònoma a peu",
+      "D": "En parets, pous o zones escarpades sense progressió segura"
+    }
+  },
+  {
+    "id": "racord_791b1591-d8a8-4971-ba8d-98d7c97e11e4",
+    "statement": "Quins elements formen part de l’EPI bàsic d’un intervinent en salvaments al medi natural?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.2. Mesures col·lectives i individuals\n\nL’EPI inclou casc, arnès complet, guants, botes adequades, roba de protecció i, segons la situació, ulleres, frontal i ràdio personal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Casc, arnès, guants, botes adequades i roba de protecció",
+      "B": "Casc, f��rules, matalàs de buit i emissora portàtil",
+      "C": "Arnès, vestit químic, guants dielèctrics i equip respiratori",
+      "D": "Casc, armilla d’alta visibilitat, màscara filtrant i botes d’aigua"
+    }
+  },
+  {
+    "id": "racord_7713fa92-fd29-4c80-9730-48f0d0b04e11",
+    "statement": "Una zona és inaccessible per terra i es vol ampliar la capacitat d’observació. Què poden aportar helicòpters o drons?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.5. Recerca amb mitjans aeris\n\nEls mitjans aeris donen suport amb observació, detecció visual o tèrmica i accés ràpid a punts inaccessibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir tota la recerca terrestre en qualsevol condició",
+      "B": "Evitar la necessitat de planificar sectors",
+      "C": "Observació, detecció visual o tèrmica i accés ràpid",
+      "D": "Garantir eficàcia independentment de la visibilitat"
+    }
+  },
+  {
+    "id": "racord_cb4121aa-65a0-439a-a022-b8643cf3eae3",
+    "statement": "Quin és l’objectiu de l’assistència i evacuació de víctimes?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.3. Assistència i evacuació de víctimes\n\nL’assistència i evacuació busca garantir atenció i mobilització segura fins a un punt de transferència mèdica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prioritzar el material per sobre de la víctima",
+      "B": "Atendre i mobilitzar amb seguretat fins al punt de transferència mèdica",
+      "C": "Traslladar-la sense valoració ni assegurament",
+      "D": "Mantenir-la al lloc independentment del risc"
+    }
+  },
+  {
+    "id": "racord_d426ea48-91a9-42f0-9840-a7ed2eaaca82",
+    "statement": "Quins coneixements es combinen habitualment en el salvament al medi natural?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nAquestes intervencions combinen progressió en terreny difícil amb primers auxilis, orientació, comunicació i treball en equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Conducció urbana, ventilació i hidràulica",
+      "B": "Progressió, primers auxilis, orientació, comunicació i treball en equip",
+      "C": "Investigació, inspecció i gestió administrativa",
+      "D": "Navegació marítima, busseig i salvament portuari"
+    }
+  },
+  {
+    "id": "racord_312d40d8-e2e9-4eed-ad0d-c24f2095ceb8",
+    "statement": "Quins entorns poden formar part d’un salvament terrestre al medi natural?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nEls entorns poden incloure muntanyes, cingleres, tarteres, barrancs, coves, zones nevades, boscos, espais rurals, agrícoles i camins forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Muntanyes, barrancs, coves, boscos i zones rurals",
+      "B": "Carrers urbans, ports i platges",
+      "C": "Edificis industrials i aparcaments subterranis",
+      "D": "Xarxes ferroviàries i túnels metropolitans"
+    }
+  },
+  {
+    "id": "racord_d2f92671-4457-4765-b6d9-fa79843e484c",
+    "statement": "Quins efectes pot tenir una pedregada intensa en un rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLes pedregades poden malmetre equips, reduir visibilitat, causar lesions i generar pànic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estabilització del terreny",
+      "B": "Millora de la comunicació i del vol",
+      "C": "Reducció del risc de caigudes",
+      "D": "Danys als equips, menys visibilitat, lesions i pànic"
+    }
+  },
+  {
+    "id": "racord_359f597c-d56e-4781-8538-e0287b8313f0",
+    "statement": "Quin és l’objectiu de la progressió en terreny difícil?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.1. Progressió en terreny difícil\n\nLa progressió en terreny difícil busca permetre el desplaçament segur del personal per zones de difícil accés.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desplaçar el personal amb seguretat per zones de difícil accés",
+      "B": "Augmentar la velocitat sense considerar el risc",
+      "C": "Eliminar la necessitat d’orientació",
+      "D": "Evacuar la víctima per aire en qualsevol cas"
+    }
+  },
+  {
+    "id": "racord_7a521a8d-216a-408a-b00a-9467441ee8c6",
+    "statement": "Un membre de l’equip resulta ferit en una zona de difícil accés. Quins elements ha de preveure el protocol d’evacuació d’emergència del propi equip?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.4. Protocol d’evacuació d’emergència del propi equip\n\nEl protocol ha de preveure punts segurs i rutes d’escapament, comunicació immediata amb el comandament o centre de coordinació, material per a evacuació assistida i coneixements de primers auxilis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una ruta principal sense alternatives i la retirada del material tècnic",
+      "B": "L’evacuació immediata sense informar el comandament",
+      "C": "Punts segurs i rutes d’escapament, comunicació, material d’evacuació i primers auxilis",
+      "D": "La suspensi�� de les comunicacions per concentrar l’equip en el trasllat"
+    }
+  },
+  {
+    "id": "racord_e4527302-ac2b-4282-a597-1b210faaad81",
+    "statement": "Com s’ha de definir l’àrea d’una recerca?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.3. Definir l’àrea de la recerca\n\nL’àrea es defineix a partir de l’UPA, perfil de la persona, condicions ambientals i possibles direccions de desplaçament, i ha de ser flexible i revisable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir del Centre de Comandament sense valorar la persona",
+      "B": "Amb sectors aleatoris sense relació amb mobilitat ni orografia",
+      "C": "A partir de l’UPA i altres factors, de manera flexible i revisable",
+      "D": "Com una àrea fixa que no es modifica"
+    }
+  },
+  {
+    "id": "racord_04b45ac1-6cf6-4cf2-ac7b-779bb2ac4dbb",
+    "statement": "Durant un rescat hi ha boira, risc de caiguda i un accés terrestre llarg. Quina valoració és coherent?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nLes actuacions poden desenvolupar-se amb mal temps, poca visibilitat, risc de caigudes, accessos llargs i escassetat de mitjans.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Excés de vies d’accés i abundància de recursos",
+      "B": "Mal temps, poca visibilitat, risc de caigudes i accessos llargs",
+      "C": "Temperatures estables i cobertura total de comunicacions",
+      "D": "Trànsit urbà dens i risc d’atropellament"
+    }
+  },
+  {
+    "id": "racord_1175641c-612f-4842-a748-f7f272ff714b",
+    "statement": "Davant un avís de rescat al medi natural, la informació inicial és dubtosa i la zona és extensa. Quines fonts poden ajudar a confirmar-la?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.2. Reconeixement i valoració inicial\n\nEl reconeixement dinàmic pot incloure observació des de punts elevats o aire, mapes, GPS, cartografia digital i persones coneixedores del terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fitxes de vehicles i bases de dades industrials",
+      "B": "Observació, mapes, GPS, cartografia i coneixedors del terreny",
+      "C": "Plans d’edificació i instal·lacions urbanes",
+      "D": "Cartes nàutiques i predicció de marees"
+    }
+  },
+  {
+    "id": "racord_4b027295-53c6-4ab0-8601-dc2a63343774",
+    "statement": "Quan es va crear el GRAE i de quins grups provenia?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.4. El GRAE al Cos de Bombers\n\nEl GRAE va néixer el 1997 de la fusió del Grup de Rescat de Muntanya i del Grup de Rescat i Salvaments Subaquàtics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’any 2007, de la fusió del GRCR i el GEM",
+      "B": "L’any 1994, de la fusió del SEM i els GRAE",
+      "C": "L’any 1997, de la fusió del GRM i el GRS",
+      "D": "L’any 2022, de la fusió de les seus de Lleida i Vic"
+    }
+  },
+  {
+    "id": "racord_d6c7830a-d7db-421a-90d4-9e7b1e94580e",
+    "statement": "En una recerca amb poca informació inicial, quins factors han de condicionar l’estratègia general?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5. Maniobres en recerques\n\nLa vulnerabilitat de la víctima, l’escenari i la meteorologia defineixen les característiques de la recerca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Color de la roba dels equips i vehicles",
+      "B": "Marca del material de navegació",
+      "C": "Vulnerabilitat de la víctima, escenari i meteorologia",
+      "D": "Nombre de trucades rebudes a la sala"
+    }
+  },
+  {
+    "id": "racord_5dff7f20-0db0-4eb3-8155-9c2c784ecb07",
+    "statement": "L’últim tram fins a la víctima s’ha de fer caminant amb material de rescat. Quins factors s’han d’avaluar?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nL’aproximació a peu obliga a carregar material i valorar dificultat, temps d’anada i tornada i condició física de l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Capacitat del vehicle que queda al punt de partida",
+      "B": "Nombre de carreteres asfaltades properes",
+      "C": "Dificultat del terreny, temps i condició física de l’equip",
+      "D": "Color de les motxilles i marca del calçat"
+    }
+  },
+  {
+    "id": "racord_d3fd8fc8-f769-4dce-b89d-03bf27b099be",
+    "statement": "Una víctima està localitzada prop d’una pista i pot evacuar-se per terra. Quin tipus de rescat encaixa millor?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats accessibles a peu o vehicle es poden assumir amb unitats bàsiques quan la persona està localitzada i l’accés i evacuació són possibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una recerca intensiva per sectors",
+      "B": "Un rescat en paret vertical",
+      "C": "Un rescat en cova profunda",
+      "D": "Un rescat accessible a peu o amb vehicle"
+    }
+  },
+  {
+    "id": "racord_c1ed0836-83d4-4215-ad2c-6d47b85957bc",
+    "statement": "En una recerca extensa, on convé situar el Centre de Comandament respecte de l’UPA i quina funció ha de complir?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.2. Establir el Centre de Comandament\n\nEl Centre de Comandament se situa prop de la zona de recerca però allunyat de l’UPA i centralitza coordinació, informació i planificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prop de la recerca però allunyat de l’UPA, centralitzant coordinació i informació",
+      "B": "Dins de l’UPA per controlar directament el rastre",
+      "C": "En el sector més perillós per dirigir els equips des de primera línia",
+      "D": "Lluny de tota cobertura de comunicacions"
+    }
+  },
+  {
+    "id": "racord_b51e10a7-2c4e-4b39-a21e-18d5db0feb89",
+    "statement": "Una operació s’allargarà fins al vespre en terreny exposat. Quins factors han d’entrar en la valoració de riscos?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n3.3. Anticipació i avaluació de riscos\n\nCal valorar terreny, meteorologia, exposició, durada, llum solar disponible, fatiga i condicions físiques dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nombre de trucades i antiguitat del refugi",
+      "B": "Color del material, matrícula i marca dels vehicles",
+      "C": "Tipus de documentació personal dels intervinents",
+      "D": "Terreny, meteorologia, exposició, temps, llum i fatiga"
+    }
+  },
+  {
+    "id": "racord_edbd4991-bb72-404d-b651-01be0ad62a48",
+    "statement": "Per a què serveixen les maniobres amb cordes en rescats de muntanya?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2. Maniobres bàsiques amb cordes\n\nLes maniobres amb cordes permeten accedir, assegurar i extreure víctimes de forma controlada en entorns verticals o difícils.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Accedir, assegurar i extreure de manera controlada",
+      "B": "Substituir l’atenció sanitària",
+      "C": "Evitar qualsevol valoració de riscos",
+      "D": "Eliminar la necessitat d’ancoratges"
+    }
+  },
+  {
+    "id": "racord_38c31774-b164-4e33-84b4-8ae0d765f7e8",
+    "statement": "En una allau amb víctima desapareguda, quina combinació de recursos és coherent?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEn neu i gel cal valorar mantell nival, grampons, piolets, esquís i recursos de localització com DVA, sondes, pales i gossos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "DVA, sondes, pales, gossos, grampons i piolets",
+      "B": "Cisalles, separadors i coixins pneumàtics",
+      "C": "Radars de trànsit i balises viàries",
+      "D": "Mànegues, escuma i extintors"
+    }
+  },
+  {
+    "id": "racord_8a81f51a-d291-4b33-a74a-da63c39ac047",
+    "statement": "En una recerca d'una persona desapareguda la informació disponible és escassa. Com es pot ajustar l’estratègia i prioritzar objectius?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5. Maniobres en recerques\n\nLa manca d’informació inicial pot obligar a formular hipòtesis de treball i ordenar objectius segons la probabilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per definir escenaris probables i ordenar objectius tàctics",
+      "B": "Per evitar recollir informació nova",
+      "C": "Per descartar la sectorització",
+      "D": "Per eliminar la necessitat de comandament"
+    }
+  },
+  {
+    "id": "racord_e89a5325-62e8-48a1-bd86-236746ddd327",
+    "statement": "Quins factors defineixen les característiques d’una recerca al medi natural?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5. Maniobres en recerques\n\nLa vulnerabilitat de la víctima, l’escenari i la meteorologia defineixen les característiques de la recerca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vulnerabilitat de la víctima, escenari i meteorologia",
+      "B": "Nombre de trucades rebudes a la sala",
+      "C": "Marca del material de navegació",
+      "D": "Color de la roba dels equips i vehicles"
+    }
+  },
+  {
+    "id": "racord_17ccf8e9-8922-4a74-9c0a-2bb8e3440ef3",
+    "statement": "Una persona pot continuar caminant i hi ha una xarxa extensa de pistes. Quina modalitat és adequada per iniciar la recerca?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.1. Recerca extensiva\n\nLa recerca extensiva és una primera batuda ràpida i àmplia per vies transitables per localitzar persones que podrien estar en moviment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer treball caní per rastre individual",
+      "B": "Fer una batuda ràpida i àmplia per vies transitables",
+      "C": "Tancar un perímetre i avançar cap al centre",
+      "D": "Explorar exhaustivament cada metre d’un sector"
+    }
+  },
+  {
+    "id": "racord_67d0aeab-c3e4-4a01-85af-ddd35c8e46c1",
+    "statement": "Quina dada històrica descriu correctament l’origen del GRAE?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.4. El GRAE al Cos de Bombers\n\nEl GRAE va néixer el 1997 de la fusió del Grup de Rescat de Muntanya i del Grup de Rescat i Salvaments Subaquàtics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’any 1997, de la fusió del GRM i el GRS",
+      "B": "L’any 2007, de la fusió del GRCR i el GEM",
+      "C": "L’any 1994, de la fusió del SEM i els GRAE",
+      "D": "L’any 2022, de la fusió de les seus de Lleida i Vic"
+    }
+  },
+  {
+    "id": "racord_8104335a-b56b-4895-9c0d-692113d159e0",
+    "statement": "Quins riscos caracteritzen un rescat en barranc o riu de muntanya?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls barrancs i rius de muntanya combinen dificultats orogràfiques amb aigua en moviment, hipotèrmia, zones relliscoses i necessitat de barranquisme.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fum, temperatura i ventilació",
+      "B": "Gasos tòxics i confinament industrial",
+      "C": "Atropellament, trànsit i senyalització viària",
+      "D": "Arrossegament, hipotèrmia i tècniques de barranquisme"
+    }
+  },
+  {
+    "id": "racord_69783ece-cf41-4f26-a02a-55c42c736ce8",
+    "statement": "Una víctima està atrapada en una paret vertical. Quins recursos tècnics poden ser necessaris?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats en parets i cingleres poden requerir escalada, cordes, assegurament, politges i coordinació amb helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Armilles reflectants i cons de trànsit",
+      "B": "Escuma, extintors i ventilació",
+      "C": "Busseig autònom i embarcacions",
+      "D": "Escalada, cordes, assegurament, politges i helicòpter"
+    }
+  },
+  {
+    "id": "racord_2f1502e4-56d7-4d07-ab2c-26129799ce1f",
+    "statement": "Una boira sobtada cobreix una zona de recerca. Quines capacitats operatives poden quedar afectades?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nLa boira densa redueix la visibilitat i dificulta orientació, localització de víctimes i ús de mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treball subaquàtic i busseig",
+      "B": "Orientació, localització i ús de mitjans aeris",
+      "C": "Estabilització de vehicles i trànsit",
+      "D": "Gestió d’incendis estructurals"
+    }
+  },
+  {
+    "id": "racord_ba5461ab-4d71-4a17-a7d0-488342ea274c",
+    "statement": "Un equip ha d’arribar a una víctima per una vessant amb fort pendent i terreny inestable. Quin problema operatiu és previsible?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.1. Orografia\n\nEls desnivells pronunciats i els pendents inestables dificulten la progressió a peu o amb vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Facilitar l’accés directe amb qualsevol vehicle",
+      "B": "Garantir una evacuació ràpida",
+      "C": "Dificultar la progressió a peu o amb vehicle",
+      "D": "Eliminar el risc de caigudes"
+    }
+  },
+  {
+    "id": "racord_6dcfcfc1-adae-4117-a8af-2706e9bcc385",
+    "statement": "Es planteja una aproximació aèria a una zona remota. Quins condicionants poden determinar-ne la viabilitat?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nL’accés amb helicòpter depèn de meteorologia, disponibilitat, orto o ocàs, visibilitat i zona segura de vol estacionari o aterratge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nombre de camins asfaltats de la zona",
+      "B": "Meteorologia, visibilitat, disponibilitat i zona segura de vol",
+      "C": "Nombre d’edificis urbans propers",
+      "D": "Tipus de vegetació ornamental"
+    }
+  },
+  {
+    "id": "racord_931ab431-edbe-41b9-a1e6-d6421a4270af",
+    "statement": "Una víctima és en una zona vertical inaccessible a peu. Què permeten els sistemes de corda?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2. Maniobres bàsiques amb cordes\n\nLes maniobres amb cordes permeten accedir, assegurar i extreure víctimes de forma controlada en entorns verticals o difícils.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir l’atenció sanitària",
+      "B": "Evitar qualsevol valoració de riscos",
+      "C": "Eliminar la necessitat d’ancoratges",
+      "D": "Accedir, assegurar i extreure de manera controlada"
+    }
+  },
+  {
+    "id": "racord_3885723c-c7b3-4935-a1f0-a5c58bb81bbf",
+    "statement": "Com s’utilitza un passamà en terreny exposat?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.8. Passamans\n\nEls passamans són cordes entre punts fixos i cada membre s’hi assegura amb mosquetons i bagues d’ancoratge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb mosquetons i bagues d’ancoratge a una corda fixada",
+      "B": "Amb una politja de polispast",
+      "C": "Amb un descensor de ràpel sense baga",
+      "D": "Agafant la corda amb les mans sense connexió"
+    }
+  },
+  {
+    "id": "racord_e08daf16-4e1b-499c-b43e-d6a3c5889196",
+    "statement": "Com pot afectar el vent fort una intervenció de muntanya?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nEl vent fort interfereix en la comunicació, pot fer caure branques i limitar les operacions amb helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Millora de la comunicació i de l’estabilitat",
+      "B": "Eliminació del risc en zones exposades",
+      "C": "Augment de la cobertura de dades",
+      "D": "Problemes de comunicació, caiguda de branques i limitació del vol"
+    }
+  },
+  {
+    "id": "racord_68a43774-31e5-4351-91c2-7f3357cf3cf8",
+    "statement": "Quines condicions poden augmentar la complexitat d’un salvament de muntanya?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.1. Què és el salvament de muntanya en el medi natural terrestre?\n\nLes actuacions poden desenvolupar-se amb mal temps, poca visibilitat, risc de caigudes, accessos llargs i escassetat de mitjans.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Excés de vies d’accés i abundància de recursos",
+      "B": "Mal temps, poca visibilitat, risc de caigudes i accessos llargs",
+      "C": "Temperatures estables i cobertura total de comunicacions",
+      "D": "Trànsit urbà dens i risc d’atropellament"
+    }
+  },
+  {
+    "id": "racord_27fe1569-765f-41bb-8a93-61786ecf0fb7",
+    "statement": "Com funciona una tirolina de rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.2.5. Tirolina\n\nUna tirolina utilitza una o més cordes fortament tensionades i una politja que transporta persones, materials o víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un polispast vertical sense línia de transport",
+      "B": "Un passamà sense politja ni tensió",
+      "C": "Una corda fluixa amb descensor",
+      "D": "Cordes tensionades amb una politja de transport"
+    }
+  },
+  {
+    "id": "racord_19e7eda4-c607-42e7-9aac-9328ffca3aac",
+    "statement": "Com s’executa una recerca per contenció?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.4. Recerca per contenció\n\nEls equips es posicionen al perímetre i avancen cap a l’interior de forma coordinada i sincronitzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb equips dispersos sense delimitació",
+      "B": "Des del perímetre cap a l’interior amb avanç coordinat",
+      "C": "Seguint un camí únic en fila",
+      "D": "Des del centre cap a fora sense comunicació"
+    }
+  },
+  {
+    "id": "racord_87911e85-22e8-44e7-98d1-612d16972d6e",
+    "statement": "Quin és l’objectiu d’una recerca extensiva?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.1. Recerca extensiva\n\nLa recerca extensiva és una primera batuda ràpida i àmplia per vies transitables per localitzar persones que podrien estar en moviment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer treball caní per rastre individual",
+      "B": "Tancar un perímetre i avançar cap al centre",
+      "C": "Fer una batuda ràpida i àmplia per vies transitables",
+      "D": "Explorar exhaustivament cada metre d’un sector"
+    }
+  },
+  {
+    "id": "racord_d608c178-9bd8-4c91-9012-f0c7bed0aadb",
+    "statement": "Què s’ha de preveure si la meteorologia empitjora de forma significativa?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.2. Meteorologia\n\nSi el temps empitjora significativament cal estar preparat per una retirada tàctica o canvi de pla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Descartar qualsevol ruta alternativa",
+      "B": "Mantenir la maniobra sense canvis",
+      "C": "Retirada tàctica o canvi de pla",
+      "D": "Augmentar el personal exposat"
+    }
+  },
+  {
+    "id": "racord_488188bf-d361-4ba2-813d-abd787341c42",
+    "statement": "Què necessita una recerca canina per rastreig?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n5.6. Recerca amb el Grup caní de recerca\n\nEn rastreig el gos segueix el recorregut individual a partir d’una mostra d’olor i cal preservar l’últim punt d’albirament de contaminacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una càmera tèrmica com a únic recurs",
+      "B": "Una batuda aèria sense informació olfactiva",
+      "C": "Una mostra d’olor i un UPA preservat de contaminacions",
+      "D": "Una zona plena de persones per estimular el gos"
+    }
+  },
+  {
+    "id": "racord_0fc4cda6-ac29-4839-b86f-ed1b0a6bec36",
+    "statement": "Un equip ha de travessar una zona de roca, pendent i neu per arribar a una víctima. Quin objectiu guia les tècniques de progressió?",
+    "correct": "B",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.1. Progressió en terreny difícil\n\nLa progressió en terreny difícil busca permetre el desplaçament segur del personal per zones de difícil accés.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la velocitat sense considerar el risc",
+      "B": "Desplaçar el personal amb seguretat per zones de difícil accés",
+      "C": "Evacuar la víctima per aire en qualsevol cas",
+      "D": "Eliminar la necessitat d’orientació"
+    }
+  },
+  {
+    "id": "racord_ad5f669c-a6ca-43cf-a213-627626248709",
+    "statement": "Quins aspectes inclou la valoració primària d’una víctima al medi natural?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n4.3.1. Valoració primària i immobilització\n\nLa valoració primària revisa consciència, via aèria, respiració, circulació i hemorràgies i pot requerir collaret, fèrules o matalàs de buit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Orientació geogràfica, cobertura i meteorologia",
+      "B": "Temps d’accés, relleus i avituallament",
+      "C": "Color de la roba, material i motxilla",
+      "D": "Consciència, via aèria, respiració, circulació i hemorràgies"
+    }
+  },
+  {
+    "id": "racord_42360ea1-0f3c-4776-9c02-f4867c6c5b45",
+    "statement": "En una cavitat subterrània amb pous i estretors, quines condicions operatives són previsibles?",
+    "correct": "D",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.2.1. Rescats\n\nEls rescats en coves comporten absència de llum, orientació limitada, baixa temperatura, humitat, estretors i pous.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Foc estructural i propagació per façana",
+      "B": "Onatge, corrents i marees",
+      "C": "Trànsit dens, atropellaments i soroll urbà",
+      "D": "Absència de llum, orientació limitada, humitat i espais estrets"
+    }
+  },
+  {
+    "id": "racord_99fad38e-9dc3-4a26-9e7f-5e27b3a0e3bf",
+    "statement": "Durant una intervenció prolongada en muntanya apareixen signes de cansament en diversos membres de l’equip. Quina resposta és adequada?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n7.3. Control de la fatiga i condicions ambientals\n\nPer prevenir accidents per esgotament cal gestionar els torns de treball, promoure pauses, garantir hidratació i alimentació i vigilar els signes de cansament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gestionar torns i pauses i garantir hidratació i alimentació",
+      "B": "Augmentar el ritme de treball per escurçar la durada del servei",
+      "C": "Mantenir els mateixos intervinents fins que finalitzi la maniobra",
+      "D": "Reduir les pauses per evitar perdre continuïtat operativa"
+    }
+  },
+  {
+    "id": "racord_1ed51bfe-b208-4435-a431-e28c98c0d0f9",
+    "statement": "En un rescat tècnic amb víctima ferida, quin repartiment de funcions entre GRAE i GEM és correcte?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEl GRAE s’encarrega del rescat de muntanya i el GEM de la medicalització de l’assistència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "GRAE: trànsit; GEM: recerca canina",
+      "B": "GRAE: comandament policial; GEM: logística",
+      "C": "GRAE: rescat; GEM: medicalització de l’assistència",
+      "D": "GRAE: evacuació administrativa; GEM: cartografia"
+    }
+  },
+  {
+    "id": "racord_333357fd-3453-49d7-9ec0-f1d1e19df2f8",
+    "statement": "On s’ha de situar i què centralitza el Centre de Comandament?",
+    "correct": "A",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n6.2. Establir el Centre de Comandament\n\nEl Centre de Comandament se situa prop de la zona de recerca però allunyat de l’UPA i centralitza coordinació, informació i planificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prop de la recerca però allunyat de l’UPA, centralitzant coordinació i informació",
+      "B": "En el sector més perillós per dirigir els equips des de primera línia",
+      "C": "Dins de l’UPA per controlar directament el rastre",
+      "D": "Lluny de tota cobertura de comunicacions"
+    }
+  },
+  {
+    "id": "racord_f7478c9b-081d-4b31-9fad-6be930446483",
+    "statement": "Quins factors condicionen l’accés amb helicòpter?",
+    "correct": "C",
+    "explanation": "MAN.SVMN.000 v1.2026\n\n2.1.3. Accés\n\nL’accés amb helicòpter depèn de meteorologia, disponibilitat, orto o ocàs, visibilitat i zona segura de vol estacionari o aterratge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "T31 Intervenció bàsica en salvaments al medi natural terrestre",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nombre de camins asfaltats de la zona",
+      "B": "Tipus de vegetació ornamental",
+      "C": "Meteorologia, visibilitat, disponibilitat i zona segura de vol",
+      "D": "Nombre d’edificis urbans propers"
+    }
+  }
+]

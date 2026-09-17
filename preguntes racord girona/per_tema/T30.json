@@ -1,0 +1,2756 @@
+[
+  {
+    "id": "racord_dc95dec0-e624-4c2b-a137-91778c2923d9",
+    "statement": "Després d’un col·lapse, diversos veïns desallotjats presenten una forta afectació emocional. Quina mesura és adequada?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.2. Protocols per a la població afectada\n\nEntre les mesures bàsiques hi ha l’atenció psicosocial a les persones afectades, mitjançant serveis com Protecció Civil o Creu Roja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Activar suport psicosocial i facilitar informació clara",
+      "B": "Concentrar-los davant de l’edificació afectada",
+      "C": "Fer-los entrar a la zona d’intervenció per identificar objectes",
+      "D": "Ajornar qualsevol informació fins al final de l’operatiu"
+    }
+  },
+  {
+    "id": "racord_2f94776c-fa13-4011-8643-d80f8168e357",
+    "statement": "En el marcatge gràfic de víctimes, què indica la lletra «C»?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Marcatge de víctimes\n\nAl gràfic de marcatge de víctimes, la lletra C correspon a «Clear», és a dir, zona revisada sense víctimes ni indicis pendents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Clear: zona revisada sense víctimes ni indicis pendents",
+      "B": "Prohibició de pas",
+      "C": "Víctima morta confirmada",
+      "D": "Víctima viva confirmada"
+    }
+  },
+  {
+    "id": "racord_168d86c5-a05b-4716-ae98-7d86977d4888",
+    "statement": "Quin criteri estableix LACES respecte de les comunicacions?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nCal mantenir sistemes actius i continus de comunicació, per ràdio o visual, entre els equips i el centre de comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reservar les comunicacions per al final de cada maniobra",
+      "B": "Mantenir comunicació activa i contínua amb el comandament",
+      "C": "Utilitzar comunicació verbal a curta distància",
+      "D": "Desconnectar les ràdios durant la recerca"
+    }
+  },
+  {
+    "id": "racord_f78708fb-f99d-42f4-be98-c5c8742bd9a9",
+    "statement": "Com és habitualment l’escenari després d’un col·lapse total?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.1. Col·lapses totals\n\nGran part de l’estructura queda reduïda a runa, i el paisatge post col·lapse és generalment caòtic, amb una acumulació massiva de materials despresos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Caòtic, amb gran acumulació de runa i materials despresos",
+      "B": "Estable, amb poca runa i espais de treball amplis",
+      "C": "Ordenat, amb els elements estructurals principals encara alineats",
+      "D": "Localitzat, amb afectació concentrada en un sol element"
+    }
+  },
+  {
+    "id": "racord_d0591937-2af1-4764-96ae-9fcc98e68237",
+    "statement": "Quina consideració té l’ús dels EPI en una intervenció sobre estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nL’ús dels Equips de Protecció Individual és una obligació operativa i personal davant els riscos elevats i imprevisibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una mesura opcional segons la durada del servei",
+      "B": "Es reserva per a treballs amb maquinària pesada",
+      "C": "Depèn del nombre de víctimes atrapades",
+      "D": "És una obligació operativa i personal"
+    }
+  },
+  {
+    "id": "racord_6c41afda-afc2-4de8-ae83-35165ee59f0e",
+    "statement": "Quina mesura s’ha d’aplicar respecte al nombre d’intervinents durant una recerca física?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nCal reduir el nombre d’intervinents dins de la zona calenta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir tots els equips prop de la runa",
+      "B": "Reduir el nombre d’intervinents dins la zona calenta",
+      "C": "Concentrar tots els equips a la zona calenta",
+      "D": "Distribuir personal sense limitar-ne l’accés"
+    }
+  },
+  {
+    "id": "racord_81374918-cb12-48c0-9090-a70b9e652a78",
+    "statement": "Quina és una causa natural de col·lapse estructural?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nLes causes naturals poden ser terratrèmols, aiguats, nevades, esllavissades o vents intensos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una reforma mal executada",
+      "B": "Una negligència constructiva",
+      "C": "Una esllavissada",
+      "D": "La falta de manteniment"
+    }
+  },
+  {
+    "id": "racord_67ebee0b-6fc8-4b46-b2b0-57ca7b848cf6",
+    "statement": "Què significa l’anotació «D - 2» sota una V?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nD - n indica el nombre de víctimes mortes confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dues víctimes vives confirmades",
+      "B": "Dues víctimes mortes confirmades",
+      "C": "Dues víctimes evacuades",
+      "D": "Dos accessos prohibits"
+    }
+  },
+  {
+    "id": "racord_6e18e1dd-6bc5-46e2-a5b0-0ffe9e5931cc",
+    "statement": "Quan és especialment útil la crida i escolta en una intervenció operativa sobre una estructura col·lapsada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1.1. Crida i escolta\n\nÉs especialment útil immediatament després del col·lapse, quan les víctimes poden respondre activament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Després de finalitzar el desenrunament",
+      "B": "Quan hi ha maquinària treballant a la zona",
+      "C": "Immediatament després del col·lapse",
+      "D": "Quan ja s’han descartat espais vitals"
+    }
+  },
+  {
+    "id": "racord_771368c3-754a-4305-a8d8-b7fcdfef8250",
+    "statement": "Com es poden produir temporalment els col·lapses totals?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.1. Col·lapses totals\n\nEls col·lapses totals es poden produir de forma sobtada o diferida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sempre de forma immediata",
+      "B": "Només després de diversos col·lapses parcials",
+      "C": "Sempre de forma progressiva i lenta",
+      "D": "De forma sobtada o diferida"
+    }
+  },
+  {
+    "id": "racord_6c9a3dd1-54a7-47b8-958b-3e7fc47394ef",
+    "statement": "Quina definició correspon a un apuntalament?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments\n\nEls apuntalaments són estructures provisionals que permeten assegurar elements inestables en una construcció col·lapsada o malmesa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sistema de recerca de víctimes sota la runa",
+      "B": "Una estructura provisional destinada a assegurar elements inestables",
+      "C": "Una tècnica de desenrunament amb eines manuals",
+      "D": "Una estructura definitiva destinada a reconstruir l’edifici"
+    }
+  },
+  {
+    "id": "racord_f9d8fc68-a41f-4ac7-bf02-fedd1676ba85",
+    "statement": "En quins escenaris són habituals les caigudes a diferent nivell?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nSón habituals sobre forjats danyats, cobertes parcialment enfonsades o entre nivells de planta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En zones d’aparcament allunyades del col·lapse",
+      "B": "En espais exteriors sense desnivells",
+      "C": "En zones planes i totalment estabilitzades",
+      "D": "Sobre forjats danyats, cobertes enfonsades o entre nivells"
+    }
+  },
+  {
+    "id": "racord_0afde96f-5a54-4bac-a3c6-2f745881f436",
+    "statement": "Quina aplicació té l’apuntalament horitzontal en excavacions o rases?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nS’utilitzen per reforçar parets laterals en excavacions o rases, evitant enfonsaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reforçar les parets laterals i evitar enfonsaments",
+      "B": "Sostenir verticalment la víctima durant l’extracció",
+      "C": "Transferir la càrrega de les terres cap a la superfície",
+      "D": "Elevar el fons de la rasa"
+    }
+  },
+  {
+    "id": "racord_9a573999-32f8-4a19-b8c4-ad8a90cb276e",
+    "statement": "Què significa que totes les línies «L» i «D» d’un marcatge hagin estat ratllades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nQuan totes les línies L o D hagin estat ratllades, s’entén que totes les víctimes detectades han estat evacuades i la zona queda revisada, sense víctimes ni indicis «Clear».",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que la zona presenta perill estructural imminent",
+      "B": "Que encara queden víctimes pendents de confirmació",
+      "C": "Que cal iniciar una nova recerca canina",
+      "D": "Que les víctimes detectades han estat evacuades i la zona queda revisada"
+    }
+  },
+  {
+    "id": "racord_498a13ce-5b8f-418f-81a3-c52d8a0395c6",
+    "statement": "Quin risc s’ha de vigilar constantment durant una recerca física?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nCal actuar amb vigilància constant de possibles col·lapses secundaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els possibles col·lapses secundaris",
+      "B": "La variació del cabal d’aigua",
+      "C": "La pèrdua de pressió hidràulica",
+      "D": "La fallada del sistema de comunicacions exterior"
+    }
+  },
+  {
+    "id": "racord_7452ee2e-c462-4807-949c-c33ad7073eb4",
+    "statement": "Quina finalitat té la senyalització en un escenari d’estructura col·lapsada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització\n\nLa correcta senyalització és essencial per garantir la seguretat, l’eficàcia i la coordinació dels equips de rescat, i permet identificar l’estat de les edificacions, els riscos, les àrees d’intervenció i la presència de víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir la comunicació entre equips durant la intervenció",
+      "B": "Determinar la prioritat sanitària de cada víctima",
+      "C": "Garantir seguretat, eficàcia i coordinació i transmetre informació de l’escenari",
+      "D": "Indicar la resistència estructural exacta de cada element"
+    }
+  },
+  {
+    "id": "racord_906c9c90-eac1-4869-820b-7b7527cf74f4",
+    "statement": "Durant la recerca sona una seqüència de 3 tocs curts. Quina resposta operativa correspon?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\nLa seqüència de 3 tocs curts té el significat tàctic d’evacuació immediata de la zona per perill imminent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir la posició i continuar observant",
+      "B": "Reprendre els treballs de desenrunament",
+      "C": "Evacuar immediatament la zona",
+      "D": "Activar la recerca canina"
+    }
+  },
+  {
+    "id": "racord_cf20cd72-7fd9-4635-a038-827c2663aedf",
+    "statement": "Quins àmbits disposen de protocols compartits en els equips de rescat certificats sota INSARAG?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nTenen protocols compartits de comandament, comunicació i actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transport, allotjament i manteniment",
+      "B": "Cartografia, edificació i evacuació",
+      "C": "Comandament, comunicació i actuació",
+      "D": "Sanitat, logística i reconstrucció"
+    }
+  },
+  {
+    "id": "racord_6e8dc12b-588e-4418-99a7-ec3bf2c2753a",
+    "statement": "En un marcatge hi consta «V», «L - 1» i «D - 1». Quina informació transmet?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nSota la V, L - n indica víctimes vives confirmades i D - n víctimes mortes confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La zona ja està revisada i sense indicis",
+      "B": "Hi ha dues víctimes mortes confirmades",
+      "C": "Hi ha dues víctimes vives confirmades",
+      "D": "Hi ha una víctima viva confirmada i una víctima morta confirmada"
+    }
+  },
+  {
+    "id": "racord_64416ea7-39f6-4af1-a163-c5c9a28ba50a",
+    "statement": "Quina actuació s’ha de fer abans d’una acció dins la zona calenta quan hi ha risc estructural?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nCada acció dins la zona calenta ha de ser precedida d’una valoració estructural i d’un apuntalament si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer una valoració estructural i apuntalar si és necessari",
+      "B": "Retirar la runa abans de valorar l’estructura",
+      "C": "Augmentar el nombre d’intervinents a l’interior",
+      "D": "Prioritzar la rapidesa sobre l’estabilització"
+    }
+  },
+  {
+    "id": "racord_05d3b914-d3ea-4606-b0cb-16b0d5c97ac1",
+    "statement": "Per què és important identificar correctament el tipus de col·lapse?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1. Tipus de col·lapses\n\nEntendre com es manifesta un col·lapse és essencial per valorar correctament l’escenari, identificar els riscos associats i prendre decisions operatives adequades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per determinar la causa exacta abans d’iniciar qualsevol valoració",
+      "B": "Per calcular la durada prevista de les tasques de desenrunament",
+      "C": "Per valorar l’escenari, identificar riscos i prendre decisions operatives adequades",
+      "D": "Per establir el nombre exacte de víctimes atrapades"
+    }
+  },
+  {
+    "id": "racord_c9e60523-5dd6-407e-9072-0a4b404507a2",
+    "statement": "Quina funció principal desenvolupa el GREC en una intervenció estructural?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.1. El Grup de Recolzament en Estructures Col·lapsades (GREC)\n\nAporten el seu coneixement per ajudar al comandament en la presa de decisions o en la definició de la resposta tècnica en intervencions amb patologies, afectacions i col·lapses estructurals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assumir el comandament general de qualsevol intervenció urbana",
+      "B": "Gestionar els recursos sanitaris i logístics de l’emergència",
+      "C": "Executar la recerca canina i la localització instrumentalitzada",
+      "D": "Donar suport al comandament en la presa de decisions i la resposta tècnica"
+    }
+  },
+  {
+    "id": "racord_71efd95f-789f-4a6f-8fb8-23c39522ea5e",
+    "statement": "Quina funció caracteritza els apuntalaments horitzontals?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nEls apuntalaments horitzontals estan dissenyats per estampar o sostenir murs que han perdut resistència estructural o assegurar parets de contenció i excavacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir murs mitjançant esforços verticals",
+      "B": "Sostenir forjats transmetent la càrrega al sòl",
+      "C": "Estampar o sostenir murs i assegurar parets de contenció o excavacions",
+      "D": "Elevar elements deformats fins a la posició original"
+    }
+  },
+  {
+    "id": "racord_a40de0df-d459-44f4-a9ce-72793002b27d",
+    "statement": "Quins dos elements són clau per a la seguretat i la localització precisa de víctimes durant la recerca en una actuació d'estructures col·lapsades?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\nLa seguretat i la localització precisa depenen en gran part d’un sistema de comunicació clar i unificat i d’un marcatge correcte de l’escenari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augment del personal i ús continu de maquinària",
+      "B": "Comunicació clara i unificada i marcatge correcte",
+      "C": "Accés lliure i reducció de la senyalització",
+      "D": "Treball independent dels equips sense coordinació"
+    }
+  },
+  {
+    "id": "racord_754e3fbd-ef31-49b3-9763-6ed715e9f685",
+    "statement": "Quins tres grans tipus de col·lapse es classifiquen habitualment en l’àmbit de Bombers?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1. Tipus de col·lapses\n\nEn l’àmbit de Bombers, es classifiquen habitualment en tres grans tipus: col·lapse total, col·lapse parcial i col·lapse secundari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Total, parcial i secundari",
+      "B": "Inicial, progressiu i final",
+      "C": "Lleu, moderat i greu",
+      "D": "Vertical, horitzontal i inclinat"
+    }
+  },
+  {
+    "id": "racord_8ad536ff-2c3f-470a-80c6-7949da5a811a",
+    "statement": "Indica quins tres conceptes han permès millorar la resposta internacional als grans col·lapses:",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nLa comunitat internacional va començar a entendre la necessitat de coordinació, estandardització i autosuficiència operativa en els equips que acudien a ajudar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sectorització, estandarització i especialització",
+      "B": "Centralització, especialització i autosuficiència logística",
+      "C": "Rapidesa,coordinació i autonomia de comandament",
+      "D": "Coordinació, estandardització i autosuficiència operativa"
+    }
+  },
+  {
+    "id": "racord_166a7e88-174c-43c6-b1c9-b20b95ab213a",
+    "statement": "Quina definició correspon a un col·lapse estructural?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nUn col·lapse estructural és la fallida sobtada o progressiva d’una construcció quan algun dels seus elements estructurals supera el seu límit resistent o elàstic, deixant de complir la seva funció portadora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’evacuació preventiva d’un edifici davant una patologia constructiva",
+      "B": "La degradació superficial d’un edifici sense afectació estructural",
+      "C": "La fallida d’una construcció quan un element supera el seu límit resistent o elàstic",
+      "D": "La deformació reversible d’un element sense pèrdua de funció portadora"
+    }
+  },
+  {
+    "id": "racord_7b919e97-624c-4057-91d2-c958f441ca0c",
+    "statement": "L' INSARAG estableix _______  ,_________ i _________ perquè els equips USAR poguin operar de manera segura, eficient i interoperable en zones afectades per terratrèmols.",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nL’INSARAG va establir, des dels anys 90, guies operatives, criteris de classificació i estàndards mínims perquè els equips USAR poguessin operar de manera segura, eficient i interoperable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Guies operatives, criteris de classificació i estàndards mínims",
+      "B": "Una estructura militar comuna, una direcció operativa permanent i unes guies de treball estandaritzades",
+      "C": "Un grup operatiu, un de comandament i un de suport",
+      "D": "Mètodes de treball, guies operatives  i procediments de comandament"
+    }
+  },
+  {
+    "id": "racord_67fb9d58-efa0-460a-98a0-f5739c18f2aa",
+    "statement": "Quina definició correspon a la tècnica de crida i escolta?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1.1. Crida i escolta\n\nConsisteix a aturar l’activitat a la zona afectada, fer silenci i emetre una crida clara dirigida a les possibles víctimes atrapades per detectar qualsevol resposta sonora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Introduir una càmera entre les esquerdes",
+      "B": "Aturar l’activitat, fer silenci i cridar per detectar respostes sonores",
+      "C": "Fer treballar un gos sobre la superfície de runa",
+      "D": "Fer soroll amb eines per provocar una resposta"
+    }
+  },
+  {
+    "id": "racord_6d0b37e9-7d45-4cf3-8436-7b93e2b66468",
+    "statement": "Com treballa un apuntalament horitzontal respecte de la direcció de les forces?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nNo traslladen càrregues cap avall, sinó que treballen en empenta lateral, oferint resistència a pressions o desplaçaments horitzontals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En compressió vertical cap al sòl",
+      "B": "En torsió entre dos punts d’ancoratge",
+      "C": "En tracció vertical cap a la coberta",
+      "D": "En empenta lateral contra pressions o desplaçaments horitzontals"
+    }
+  },
+  {
+    "id": "racord_192a17fc-7140-4ac2-86e0-9679c6886cdc",
+    "statement": "Quina definició correspon a un col·lapse total?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.1. Col·lapses totals\n\nParlem de col·lapse total quan la fallida estructural afecta la totalitat de l’edifici o de la seva estructura principal, provocant un ensorrament generalitzat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Deformació d’un element estructural sense ensorrament",
+      "B": "Ensorrament produït després d’un primer col·lapse",
+      "C": "Fallida que afecta la totalitat de l’edifici o l’estructura principal",
+      "D": "Fallida d’un element concret mentre la resta roman aparentment estable"
+    }
+  },
+  {
+    "id": "racord_c12ca1d3-1254-4b67-b26f-63a92d777f0c",
+    "statement": "Quina seqüència és correcta en una maniobra de crida i escolta?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1.1. Crida i escolta\n\nCal eliminar el soroll ambiental, fer una crida breu i clara, esperar uns segons en silenci i repetir el cicle si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer una crida, moure runa, esperar i activar eines",
+      "B": "Introduir una càmera, cridar i activar els geòfons",
+      "C": "Eliminar sorolls, fer una crida, esperar en silenci i repetir",
+      "D": "Mantenir les ràdios actives, cridar i continuar treballant"
+    }
+  },
+  {
+    "id": "racord_b4e7b289-3dfe-4f63-89e1-9892d0bbe169",
+    "statement": "En un punt hi ha marcat «V» amb «L - 2». Es rescata una de les víctimes vives. Com s’ha d’actualitzar el marcatge?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nSi inicialment s’hi escriu «L - 2» i es rescata una víctima, cal ratllar la línia anterior i escriure «L - 1».",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ratllar «L - 2» i escriure «L - 1»",
+      "B": "Substituir la V per una X",
+      "C": "Escriure «D - 1» sota «L - 2»",
+      "D": "Eliminar totes les anotacions del punt"
+    }
+  },
+  {
+    "id": "racord_567262fe-3bd2-4bc5-abe4-98fccd19ae9c",
+    "statement": "Quin objectiu té establir un control estricte d’accessos en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nLa primera actuació ha d’anar enfocada a establir un control estricte dels accessos en un escenari altament dinàmic i inestable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Controlar qui entra a la zona calenta i mantenir la traçabilitat",
+      "B": "Evitar haver de comunicar les entrades al comandament",
+      "C": "Facilitar l’entrada simultània de tots els equips disponibles",
+      "D": "Permetre l’accés dels veïns per recuperar pertinences"
+    }
+  },
+  {
+    "id": "racord_0458b461-c7d5-40e5-b6f8-36ea4ac8781c",
+    "statement": "Amb quins mitjans es poden delimitar físicament les zones perilloses en una actuació d'estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\nLes zones perilloses s’han de delimitar amb sistemes visibles i robustos, com cordes, tanques o cintes reflectants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicles particulars i mobiliari",
+      "B": "Marques verbals sense suport físic",
+      "C": "Línies d’aigua i eines manuals",
+      "D": "Cordes, tanques o cintes reflectants"
+    }
+  },
+  {
+    "id": "racord_e47c669a-9135-476a-a819-95afc16acb34",
+    "statement": "Quins factors poden condicionar un col·lapse secundari?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.3. Col·lapses secundaris\n\nPot estar condicionat per factors com la disposició de la runa, les càrregues acumulades, els moviments estructurals o l’evolució de les esquerdes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La il·luminació, el trànsit, la temperatura i les comunicacions",
+      "B": "La runa, les càrregues acumulades, els moviments i l’evolució de les esquerdes",
+      "C": "La pressió atmosfèrica, el vent, la pluja i la visibilitat",
+      "D": "La superfície útil, l’ocupació, les instal·lacions i els accessos"
+    }
+  },
+  {
+    "id": "racord_02245817-27e9-4985-9efa-db50c778dd4a",
+    "statement": "Quina protecció aporta el casc en una actuació d'estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nEl casc protegeix el cap davant impactes i incorpora visera i llanterna per millorar la visibilitat en entorns foscos o confinats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protecció respiratòria davant pols i gasos",
+      "B": "Protecció exclusiva davant temperatures elevades",
+      "C": "Protecció del cap davant impactes i suport a la visibilitat",
+      "D": "Protecció dels peus davant perforacions"
+    }
+  },
+  {
+    "id": "racord_6034bfa3-5481-4f72-8917-d1d504415034",
+    "statement": "Durant una actuació amb estructures col·lapsades, quin risc addicional apareix quan l’aigua entra en contacte amb instal·lacions elèctriques actives?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nEl contacte de l’aigua amb instal·lacions elèctriques actives pot comportar electrocució.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reducció del risc de relliscada",
+      "B": "Augment de la visibilitat",
+      "C": "Electrocució",
+      "D": "Pèrdua de comunicacions"
+    }
+  },
+  {
+    "id": "racord_c5fd1bff-dd51-4674-8d79-aef848b46db5",
+    "statement": "En arribar un nou equip en un col·lapse estructural, observa una V amb «L - 2» ratllat i «L - 1» vigent. Quina interpretació és correcta?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nEl marcatge s’actualitza ratllant la informació anterior i escrivint el nombre actual de víctimes pendents de rescat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Inicialment hi havia una víctima viva i ara n’hi ha dues",
+      "B": "Hi ha una víctima morta i una de viva",
+      "C": "Inicialment hi havia dues víctimes vives i en queda una pendent de rescat",
+      "D": "La zona ha quedat completament revisada"
+    }
+  },
+  {
+    "id": "racord_814291e2-a68d-48dd-83bb-f5ffd1bce911",
+    "statement": "Quin procés va iniciar el GREC l’any 2025?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.1. El Grup de Recolzament en Estructures Col·lapsades (GREC)\n\nL’any 2025, el GREC ha començat la seva certificació com a equip STRAC per formar part dels recursos que poden ser activats pel Mecanisme Europeu de Protecció Civil en emergències internacionals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La creació com a subàmbit de la guàrdia de suport",
+      "B": "La integració al sistema OSOCC",
+      "C": "La classificació com a equip USAR pesat",
+      "D": "La certificació com a equip STRAC"
+    }
+  },
+  {
+    "id": "racord_58b0007d-fe33-4404-9332-71c1e38ce41a",
+    "statement": "Quina condició ha de complir la via d’escapament durant un apuntalament?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nMantenir una via d’escapament neta d’obstacles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha de mantenir-se neta d’obstacles",
+      "B": "Ha de situar-se sota l’element inestable",
+      "C": "Ha de quedar ocupada pel material d’apuntalament",
+      "D": "Ha de coincidir amb la zona de major càrrega"
+    }
+  },
+  {
+    "id": "racord_849278c2-6c2d-4828-8266-c07a81edfa32",
+    "statement": "Per què cal revisar de forma constant l’estabilitat d’un apuntalament horitzontal?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nÉs important revisar de forma constant l’estabilitat del sistema, especialment quan s’està desenrunant a prop o hi ha risc d’ensorrament per la pressió de terres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè el desenrunament o la pressió de terres poden alterar-ne l’estabilitat",
+      "B": "Perquè els puntals horitzontals perden sempre longitud amb el temps",
+      "C": "Perquè les falques s’han de retirar durant el desenrunament",
+      "D": "Perquè els murs estabilitzats han de recuperar la posició inicial"
+    }
+  },
+  {
+    "id": "racord_994f69c2-26bf-4362-bfbb-4b1834895b6e",
+    "statement": "Quins elements protegeixen davant materials trencats, flames o substàncies irritants?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nLes ulleres, els guants i la roba ignífuga eviten lesions per contacte amb materials trencats, flames o substàncies irritants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Llanterna, visera i línia de vida",
+      "B": "Ulleres, guants i roba ignífuga",
+      "C": "Mascareta, botes i arnès",
+      "D": "Casc, detector de gasos i ràdio"
+    }
+  },
+  {
+    "id": "racord_ea6fb917-b2a6-4fa5-a071-442497ec8abe",
+    "statement": "Quin criteri s’aplica al temps i al personal dins de la zona afectada?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nDins la zona afectada s’hi estarà el temps i personal imprescindible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir tota la dotació dins la zona fins a acabar el muntatge",
+      "B": "Augmentar el personal per accelerar la maniobra",
+      "C": "Mantenir personal de reserva dins la zona afectada",
+      "D": "Reduir el temps d’exposició i el personal al necessari"
+    }
+  },
+  {
+    "id": "racord_e68a9c6d-fff8-4292-9a54-8ff11932a743",
+    "statement": "Quin element principal d’un apuntalament inclinat fa la funció de puntal oblic?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.3. Apuntalaments inclinats\n\nTornapuntes: són els elements oblics que fan la funció de puntal inclinat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sotapont",
+      "B": "El tornapuntes",
+      "C": "El jaç de taulons",
+      "D": "El travesser horitzontal"
+    }
+  },
+  {
+    "id": "racord_a6bd3024-1359-43bd-ae5a-92f0b0db3c05",
+    "statement": "Quins gasos cita el document com a exemples de contaminants atmosfèrics?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nL’ambient pot estar contaminat per gasos tòxics com CO, CO₂ o metà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CO, CO₂ i metà",
+      "B": "Oxigen, nitrogen i vapor d’aigua",
+      "C": "Heli, argó i hidrogen",
+      "D": "Ozó, neó i nitrogen"
+    }
+  },
+  {
+    "id": "racord_52cc7059-ad6c-4b9e-b1be-746bc553e5cf",
+    "statement": "Quina actuació és prioritària davant la possibilitat de cables elèctrics actius?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nCal confirmar la desconnexió dels subministraments elèctrics i fer servir eines aïllades si hi ha dubte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retirar els conductors abans de tallar el subministrament",
+      "B": "Moure els cables amb eines metàl·liques",
+      "C": "Treballar sobre paviment mullat per dissipar la tensió",
+      "D": "Confirmar la desconnexió elèctrica i utilitzar eines aïllades si cal"
+    }
+  },
+  {
+    "id": "racord_1d84012d-22fe-42d4-aa16-8be1737b9512",
+    "statement": "Quina funció té el guaita en un escenari d’estructura col·lapsada?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nEl guaita vigila contínuament l’estat de l’estructura, els moviments de runa i qualsevol canvi que pugui afectar la seguretat dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vigilar l’estructura, la runa i els canvis que puguin afectar la seguretat",
+      "B": "Gestionar el trànsit exterior de vehicles",
+      "C": "Executar els apuntalaments de manera autònoma",
+      "D": "Dirigir les maniobres sanitàries dins la zona calenta"
+    }
+  },
+  {
+    "id": "racord_5600fc0c-842e-46ba-ab5c-16ed995c5662",
+    "statement": "Quins tres elements formen un apuntalament vertical bàsic?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nUn apuntalament vertical bàsic consta de tres elements: sotapont, puntals i jaç de taulons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Travessers, tirants i plaques",
+      "B": "Bigues, tensors i lligams",
+      "C": "Sotapont, puntals i jaç de taulons",
+      "D": "Tornapuntes, ancoratges i falques"
+    }
+  },
+  {
+    "id": "racord_6f5fdf38-65e4-467a-880a-2c141ad9361a",
+    "statement": "Quina funció té el sotapont?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nSotapont: tauló de fusta que recull i reparteix la càrrega de l’element danyat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transferir la càrrega lateralment cap al mur",
+      "B": "Recollir i repartir la càrrega de l’element danyat",
+      "C": "Impedir el moviment del jaç de taulons",
+      "D": "Fixar el puntal directament al terreny"
+    }
+  },
+  {
+    "id": "racord_30629106-6eda-46ec-b320-58f1f8efd634",
+    "statement": "Quina és una causa humana de col·lapse estructural?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nLes causes d’un col·lapse poden ser humanes, com reformes mal executades, falta de manteniment, incendis, explosions o negligències constructives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un terratrèmol",
+      "B": "Una nevada abundant",
+      "C": "Un aiguat intens",
+      "D": "Una reforma mal executada"
+    }
+  },
+  {
+    "id": "racord_b137d4ae-42de-4dde-86fb-46bfdbd4e6b6",
+    "statement": "A través de quin sistema es coordinen els equips certificats sota INSARAG?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nEs coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) liderat per Nacions Unides.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "OSOCC",
+      "B": "GREC",
+      "C": "PROCICAT",
+      "D": "STRAC"
+    }
+  },
+  {
+    "id": "racord_32d5bf00-4cc5-4db1-825f-3a22df9bfaa5",
+    "statement": "Quina característica de les botes és especialment important en un escenari amb runa?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nSón imprescindibles les botes amb protecció davantera i sola antiperforació perquè el terra pot estar cobert de fragments tallants o punxants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protecció davantera i sola antiperforació",
+      "B": "Sola llisa per facilitar els desplaçaments",
+      "C": "Absència de reforç per guanyar flexibilitat",
+      "D": "Part superior de teixit lleuger"
+    }
+  },
+  {
+    "id": "racord_bbcf5ebe-7d06-4630-b353-1a87eb9526a1",
+    "statement": "Quina funció tenen els geòfons?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.2. Instrumentalitzada (geòfons i càmeres)\n\nEls geòfons són dispositius que detecten vibracions o sorolls provocats per les víctimes, com ara cops o moviments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Visualitzar directament l’estat de la víctima",
+      "B": "Detectar vibracions o sorolls produïts per les víctimes",
+      "C": "Mesurar la resistència dels elements estructurals",
+      "D": "Detectar l’olor humana sota la runa"
+    }
+  },
+  {
+    "id": "racord_b89a802d-d378-4310-b292-d67400ff8214",
+    "statement": "Quin efecte té l’estandardització de les operacions en estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3. Equips especialitzats en intervenció en estructures col·lapsades\n\nL’estandardització de les operacions facilita la coordinació, millora l’eficiència i incrementa les possibilitats de rescat amb èxit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Redueix la necessitat de recursos especialitzats i de planificació",
+      "B": "Permet prescindir de recursos locals que poden fer falta en un altre lloc",
+      "C": "Facilita la coordinació, millora l’eficiència i augmenta les possibilitats d’èxit",
+      "D": "Totes les respostes anteriors són correctes"
+    }
+  },
+  {
+    "id": "racord_00c37e7c-ce25-4c1f-989c-458f0e9267ae",
+    "statement": "Què ha de detectar el guaita dins del protocol LACES en una actuació d'estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nEl guaita ha de detectar canvis, moviments estructurals, riscos imminents o senyals de perill.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nombre exacte de víctimes sota la runa",
+      "B": "La resistència dels puntals instal·lats",
+      "C": "Canvis, moviments estructurals i senyals de perill",
+      "D": "La composició química de tots els materials"
+    }
+  },
+  {
+    "id": "racord_4369cd81-71d0-4efc-a12e-d422fcf40e95",
+    "statement": "Què indica 1 toc llarg seguit d’1 toc curt durant una actuació amb estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\n1 toc llarg més 1 toc curt indica represa de les operacions amb la situació estabilitzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Petició de l’equip SOS",
+      "B": "Evacuació immediata",
+      "C": "Aturada i silenci operatiu",
+      "D": "Represa de les operacions"
+    }
+  },
+  {
+    "id": "racord_5184e581-795f-4f3e-9ffc-1a19f5243edb",
+    "statement": "En una actuació d'estructures col·lapsades, en un carrer amb pendent, on s’han de situar els vehicles respecte de l’edificació afectada?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nEn carrers amb pendent, els vehicles s’han de situar per sobre de l’edificació afectada per evitar quedar atrapats per despreniments o fluxos de runa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per sobre de l’edificació afectada",
+      "B": "Per sota de l’edificació afectada",
+      "C": "A la mateixa cota de la façana principal",
+      "D": "Al punt més baix del carrer"
+    }
+  },
+  {
+    "id": "racord_8c8bbc6f-d06f-4835-9c78-e8e08501fbfd",
+    "statement": "En quina direcció transmet les càrregues un apuntalament vertical?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nAquest tipus d’apuntalament es fa des del terra en direcció vertical, transmetent les càrregues cap als punts de suport resistents o cap al sòl.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap als punts de suport resistents o cap al sòl",
+      "B": "En diagonal cap a l’exterior de l’edifici",
+      "C": "Cap a la part superior de l’element afectat",
+      "D": "En direcció lateral cap als murs"
+    }
+  },
+  {
+    "id": "racord_204e2373-09f6-4c7b-9295-6356177cd5ec",
+    "statement": "Quin és un exemple de zona de refugi dins d’una zona calenta?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nPoden actuar com a refugi espais reforçats amb apuntalaments, racons protegits per murs estructurals intactes o vehicles blindats situats estratègicament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un punt situat sobre un forjat sense valorar",
+      "B": "Un espai reforçat amb apuntalaments previs",
+      "C": "Una zona sota una façana inestable",
+      "D": "Un espai envoltat de runa en moviment"
+    }
+  },
+  {
+    "id": "racord_a2ee2fcd-ddeb-4cee-93cc-92a7ddcc08b5",
+    "statement": "Quina característica logística té un equip de rescat certificat sota INSARAG?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nActuen de forma autònoma, sense dependre de recursos locals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva tasca no s'allarga més de cinc dies en el lloc de l'incident",
+      "B": "Actuen de forma autònoma sense dependre de recursos locals",
+      "C": "Es despleguen després que el país afectat hagi recuperat els serveis bàsics",
+      "D": "Comparteixen material i protocols amb altres equips de rescat"
+    }
+  },
+  {
+    "id": "racord_6f79ffbd-4974-44c2-a5bb-8c4785814d59",
+    "statement": "Quin és un dels primers passos per garantir la seguretat en un escenari amb estructura col·lapsada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nUna correcta disposició dels vehicles d’intervenció és un dels primers passos per garantir la seguretat de l’escenari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Iniciar el desenrunament abans de sectoritzar",
+      "B": "Concentrar tots els vehicles al punt més proper al col·lapse",
+      "C": "Disposar correctament els vehicles d’intervenció",
+      "D": "Accedir a la zona calenta abans d’identificar riscos"
+    }
+  },
+  {
+    "id": "racord_7ff63ef3-71b3-4235-a83f-095e58b825ee",
+    "statement": "Quin factor ambiental pot afeblir materials i alterar l’estabilitat de murs o fonaments?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nLa pluja pot afeblir els materials o alterar l’estabilitat de murs o fonaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pluja",
+      "B": "La llum solar",
+      "C": "La baixa humitat",
+      "D": "La ventilació natural"
+    }
+  },
+  {
+    "id": "racord_aff91e0d-d563-48a5-b058-cb2496e39c09",
+    "statement": "Què indiquen 3 tocs curts en els senyals acústics de seguretat en una actuació d'estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\n3 tocs curts indiquen evacuació immediata de la zona per perill imminent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aturada de les operacions mantenint posicions",
+      "B": "Petició de material",
+      "C": "Represa de les operacions",
+      "D": "Evacuació immediata per perill imminent"
+    }
+  },
+  {
+    "id": "racord_9ed5085e-af85-48b0-b397-2c142e008333",
+    "statement": "De quines dues formes pot prestar suport el GREC?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.1. El Grup de Recolzament en Estructures Col·lapsades (GREC)\n\nPoden oferir suport tant a distància, com presencialment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per via aèria o terrestre",
+      "B": "Mitjançant equips lleugers o pesats",
+      "C": "En fase preventiva o en fase de reconstrucció",
+      "D": "A distància o presencialment"
+    }
+  },
+  {
+    "id": "racord_f6a67795-8507-4d15-a94a-a8c77b4f0856",
+    "statement": "Què ha de determinar la valoració tècnica inicial respecte de l’estructura en una intervenció sobre una estructura col·lapsada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nLa valoració tècnica inicial ha de permetre determinar l’estabilitat de l’estructura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La durada prevista de la intervenció",
+      "B": "La causa exacta del col·lapse",
+      "C": "L’estabilitat de l’estructura",
+      "D": "El nombre de víctimes atrapades"
+    }
+  },
+  {
+    "id": "racord_f79d7af0-eeda-4255-836a-c0302bb423ac",
+    "statement": "Quina protecció respiratòria s’indica davant pols en suspensió?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nLa presència de pols en suspensió fa imprescindible portar una mascareta FFP3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ulleres panoràmiques",
+      "B": "Mascareta FFP3",
+      "C": "Mascareta quirúrgica",
+      "D": "Pantalla facial sense filtre"
+    }
+  },
+  {
+    "id": "racord_f5e940c8-ec94-4051-9a57-eda1d49ddf7c",
+    "statement": "Quina és la funció principal d’un apuntalament vertical?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nTenen com a funció principal sostenir elements horitzontals com forjats, sostres o bigues, o bé reforçar murs verticals debilitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assegurar parets laterals d’una rasa mitjançant empenta lateral",
+      "B": "Contrarestar desplaçaments mitjançant esforços diagonals",
+      "C": "Sostenir elements horitzontals o reforçar murs verticals debilitats",
+      "D": "Estampar murs que poden desplomar-se cap a l’exterior"
+    }
+  },
+  {
+    "id": "racord_d61c31e7-3653-4ef8-8547-09ec1e6e0a9e",
+    "statement": "Quins dos terratrèmols van contribuir a impulsar un canvi en la coordinació internacional dels equips d'emergència?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nA partir de diversos casos greus —com el terratrèmol de Ciutat de Mèxic (1985) o el sisme d’Armènia (1988)—, la comunitat internacional va començar a entendre la necessitat de coordinació, estandardització i autosuficiència operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ciutat de Mèxic de 1988 i Haití de 1985",
+      "B": "Haití de 2010 i Armènia de 2024",
+      "C": "Badalona de 2020 i Pont de Vilomara de 2022",
+      "D": "Ciutat de Mèxic de 1985 i Armènia de 1988"
+    }
+  },
+  {
+    "id": "racord_221b9dbb-1f5c-4ec0-ba24-74cf35100e77",
+    "statement": "Quina funció té el jaç de taulons?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nJaç de taulons: taulons situats a la base que distribueixen el pes al terra o a l’estructura inferior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recollir la càrrega directament de l’element danyat",
+      "B": "Bloquejar el moviment lateral d’un mur",
+      "C": "Actuar com a puntal inclinat",
+      "D": "Distribuir el pes al terra o a l’estructura inferior"
+    }
+  },
+  {
+    "id": "racord_b1914cc5-25ab-4e2a-9834-14de3d56a32e",
+    "statement": "Quines actuacions formen part del control de circulació en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.2. Protocols per a la població afectada\n\nEl control de circulació inclou tall de carrers, desviaments i restriccions per evitar riscos secundaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tall de carrers, desviaments i restriccions",
+      "B": "Obertura de tots els accessos al trànsit",
+      "C": "Permís de circulació lliure per als residents",
+      "D": "Estacionament de vehicles particulars a la zona"
+    }
+  },
+  {
+    "id": "racord_54f4b0af-927e-4384-b5e1-332bec18a376",
+    "statement": "Com han de ser les rutes d’escapament definides en LACES en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nLes rutes d’evacuació han de ser ràpides, clares i lliures d’obstacles, i conegudes abans de començar les tasques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ràpides, clares, lliures d’obstacles i conegudes prèviament",
+      "B": "Ocultes per evitar que siguin utilitzades per tercers",
+      "C": "Compartides amb les zones d’acumulació de material",
+      "D": "Variables durant cada fase de treball"
+    }
+  },
+  {
+    "id": "racord_d9635a1f-8129-4f38-b3d6-4483a1fee0bb",
+    "statement": "Quin objectiu principal té una recerca física?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nL’objectiu és identificar víctimes en superfície o parcialment atrapades, que puguin ser alliberades amb facilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Identificar víctimes en superfície o parcialment atrapades",
+      "B": "Determinar la resistència dels elements estructurals",
+      "C": "Planificar els apuntalaments definitius",
+      "D": "Localitzar víctimes profundament sepultades mitjançant sensors"
+    }
+  },
+  {
+    "id": "racord_c120c709-8e22-4e78-aab7-ae610afd1c89",
+    "statement": "Quin nivell de risc comporta un col·lapse total per als intervinents?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.1. Col·lapses totals\n\nAquest tipus d’escenari comporta un risc extrem per als intervinents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un risc extrem",
+      "B": "Un risc moderat",
+      "C": "Un risc baix",
+      "D": "Un risc controlat després de l’ensorrament"
+    }
+  },
+  {
+    "id": "racord_2e348588-2323-4809-92a4-74b00376c753",
+    "statement": "Per què un col·lapse parcial pot ser especialment perillós per als intervinents?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.2. Col·lapses parcials\n\nAquest tipus de col·lapse és molt freqüent i pot passar desapercebut en una primera valoració.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè pot passar desapercebut en una primera valoració",
+      "B": "Perquè la runa impedeix qualsevol observació de l’escenari",
+      "C": "Perquè sempre produeix un ensorrament total immediat",
+      "D": "Perquè no presenta indicadors visibles de cap mena"
+    }
+  },
+  {
+    "id": "racord_38d1ba6f-9c29-4c12-9fff-8ca19061626d",
+    "statement": "Com a norma general, en una actuació d'estructures col·lapsadesa, quina distància s’haurien de situar els vehicles respecte del lloc del col·lapse?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nEls vehicles s’haurien de col·locar a una distància mínima de dues edificacions no afectades respecte del lloc del col·lapse.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Just davant de l’edificació col·lapsada",
+      "B": "A una distància equivalent a mitja edificació",
+      "C": "A una distància fixa de 10 metres en qualsevol escenari",
+      "D": "A una distància mínima equivalent a dues edificacions no afectades"
+    }
+  },
+  {
+    "id": "racord_06560cfb-7454-401b-9a80-da227e79832e",
+    "statement": "Durant una recerca es detecten dues víctimes vives i una de morta en el mateix punt. Quin marcatge és coherent?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nSota la V s’anota L - n per al nombre de víctimes vives confirmades i D - n per al nombre de víctimes mortes confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "X amb «L - 2» i «D - 1»",
+      "B": "C amb «L - 2» i «D - 1»",
+      "C": "V amb «L - 2» i «D - 1»",
+      "D": "V amb «L - 1» i «D - 2»"
+    }
+  },
+  {
+    "id": "racord_eba49066-15b1-4614-92d8-7cb0d41f3323",
+    "statement": "Quin angle amb el terra es considera habitualment òptim per a un apuntalament inclinat?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.3. Apuntalaments inclinats\n\nL’apuntalament ha de formar un angle òptim amb el terra, generalment entre 45º i 60º, per equilibrar estabilitat i capacitat de càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 80° i 90°",
+      "B": "Entre 45° i 60°",
+      "C": "Entre 65° i 80°",
+      "D": "Entre 15° i 30°"
+    }
+  },
+  {
+    "id": "racord_0569a99d-9e9a-46a5-b700-99f0bc68a758",
+    "statement": "Quina mesura s’ha de preveure davant possibles incendis latents sota la runa?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nCal fer una detecció tèrmica pr��via, controlar les atmosferes i treballar amb extintors i línies de seguretat preparades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retirar tota la runa abans de comprovar la temperatura",
+      "B": "Ventilar sense valorar la presència de combustibles",
+      "C": "Desconnectar els detectors de gasos per evitar falses alarmes",
+      "D": "Fer detecció tèrmica, controlar atmosferes i tenir mitjans d’extinció preparats"
+    }
+  },
+  {
+    "id": "racord_7cf0df47-a6ec-4566-8ba6-da97938c8a1f",
+    "statement": "Quina funció general compleix l’EPI en un entorn col·lapsat?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nL’EPI forma una barrera vital entre el bomber i l’entorn hostil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actuar com a barrera entre el bomber i l’entorn hostil",
+      "B": "Evitar que es produeixin col·lapses secundaris",
+      "C": "Substituir la necessitat d’una valoració de riscos",
+      "D": "Eliminar els riscos estructurals de l’escenari"
+    }
+  },
+  {
+    "id": "racord_aefb3fb5-8488-4b75-afcf-445f1ddaf348",
+    "statement": "Quan s’utilitza una recerca instrumentalitzada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.2. Instrumentalitzada (geòfons i càmeres)\n\nAquesta tècnica s’utilitza un cop completada la recerca física superficial i en condicions de silenci i estabilitat estructural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan la zona presenta moviment estructural actiu",
+      "B": "Abans de qualsevol valoració tècnica",
+      "C": "Després de la recerca física superficial i amb silenci i estabilitat",
+      "D": "Al mateix temps que treballa maquinària pesada"
+    }
+  },
+  {
+    "id": "racord_503cc54d-d56b-4f27-af98-f9b14beac9e9",
+    "statement": "Quin significat té una X en la senyalització de seguretat?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de seguretat\n\nLa X s’utilitza per prohibir el pas.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ruta transitable",
+      "B": "Prohibició de pas",
+      "C": "Víctima viva confirmada",
+      "D": "Zona revisada"
+    }
+  },
+  {
+    "id": "racord_365268b9-6317-4857-864f-babe40744d1c",
+    "statement": "Quin risc per a les persones és elevat en un col·lapse total?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.1. Col·lapses totals\n\nEn aquests casos hi ha una elevada probabilitat d’atrapament de persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’atrapament de persones",
+      "B": "La pèrdua de visibilitat per fum sense afectació estructural",
+      "C": "L’exposició a corrents d’aigua",
+      "D": "La caiguda al mateix nivell en zones no afectades"
+    }
+  },
+  {
+    "id": "racord_450175e4-c79b-4f44-9654-74a85a5bc800",
+    "statement": "Quin grup de bombers especialistes s'encarrega de les intervencions en estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "GRAF",
+      "B": "GRIT",
+      "C": "GREC",
+      "D": "GRAE"
+    }
+  },
+  {
+    "id": "racord_46859b2b-1732-4da1-bfe7-f7fca3ab92f5",
+    "statement": "Com s’executa l’apuntalament horitzontal en una rasa profunda durant el desenrunament?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nEn persones atrapades dins d’una rasa, és habitual fer apuntalaments horitzontals successius a mesura que s’aprofundeix el desenrunament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb apuntalaments verticals situats al centre de la rasa",
+      "B": "Amb tornapuntes diagonals separats de les parets",
+      "C": "Amb un únic apuntalament instal·lat al fons des de l’inici",
+      "D": "Amb apuntalaments successius a mesura que s’aprofundeix"
+    }
+  },
+  {
+    "id": "racord_a66fe2d7-55ce-4047-97ce-e4918c75a3fa",
+    "statement": "Quina mesura afavoreix l’eficàcia d'una recerca física?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nPer garantir l’eficàcia de la maniobra cal mantenir el màxim silenci possible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer servir eines sorolloses durant el rastreig",
+      "B": "Augmentar el nombre d’intervinents a la zona calenta",
+      "C": "Moure la runa de manera contínua",
+      "D": "Mantenir el màxim silenci possible"
+    }
+  },
+  {
+    "id": "racord_92d47bd8-8ff9-4875-8d1d-76480f1bf522",
+    "statement": "Quins signes poden advertir d’un possible col·lapse secundari?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.3. Col·lapses secundaris\n\nEls signes premonitoris, com la caiguda de pols, sorolls secs, moviments de runa o canvis en les esquerdes, són indicadors que cal vigilar molt de prop.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augment de la llum natural i millora de l’accessibilitat",
+      "B": "Reducció de les càrregues i desaparició de les esquerdes",
+      "C": "Caiguda de pols, sorolls secs, moviments de runa o canvis en les esquerdes",
+      "D": "Disminució del soroll, estabilitat de la runa i absència de deformacions"
+    }
+  },
+  {
+    "id": "racord_5f2d8725-0dcb-4408-bb8a-5c04f1733414",
+    "statement": "Quin criteri s’ha d’aplicar respecte de la posició de l’element danyat?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nNo intentar restituir la posició de l’element danyat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Forçar-lo fins a recuperar la geometria inicial",
+      "B": "Elevar-lo fins a descarregar completament l’estructura",
+      "C": "Desplaçar-lo abans de col·locar els puntals",
+      "D": "Evitar restituir-ne la posició original"
+    }
+  },
+  {
+    "id": "racord_61276df2-5c27-4ac7-9af0-13073a3373fc",
+    "statement": "Quina funció correspon a la L de LACES  en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nLook (guaita): designar una persona o equip encarregat de mantenir la vigilància constant de l’escenari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir una vigilància constant de l’escenari",
+      "B": "Definir una ruta d’evacuació",
+      "C": "Controlar les comunicacions per ràdio",
+      "D": "Establir una zona de refugi"
+    }
+  },
+  {
+    "id": "racord_ef69df4d-1b12-4054-8e35-3c45f0f8741c",
+    "statement": "Què son els equips USAR?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.3. Equips USAR (Urban Search and Rescue)\n\nEls equips USAR són dispositius especialitzats en actuacions de recerca i rescat en entorns urbans col·lapsats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equips de valoració tècnica destinats a edificis afectats per incendis",
+      "B": "Equips de protecció civil dedicats a la gestió d'emergències derivades de desastres naturals",
+      "C": "Dispositius de coordinació internacional especialitzats només en esfondraments",
+      "D": "Dispositius especialitzats en recerca i rescat en entorns urbans col·lapsats"
+    }
+  },
+  {
+    "id": "racord_5985ffa8-0aeb-446e-b38f-90b1f4892b56",
+    "statement": "Quin principi operatiu promou INSARAG per a les actuacions en entorns col·lapsats?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.2. INSARAG: marc internacional de recerca i rescat\n\nPromoure l’aplicació d’un sistema modular, escalable i autosuficient per a operacions en entorns col·lapsats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sistema centralitzat, rígid i únic",
+      "B": "Un sistema modular, escalable i autosuficient",
+      "C": "Un sistema basat en equips de composició fixa i desplegament progressiu",
+      "D": "Un sistema flexible, autònom i descentralitzat"
+    }
+  },
+  {
+    "id": "racord_af0488a4-2b4d-4b7e-bdfb-72181cf05bf3",
+    "statement": "Quin avantatge operatiu aporta mantenir actualitzades les lletres i quantitats del marcatge de víctimes?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nAquest sistema facilita la transmissió d’informació entre equips de diferents torns o especialitats i permet una supervisió àgil de l’evolució del dispositiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Determina el tipus d’apuntalament que s’ha d’instal·lar",
+      "B": "Substitueix la necessitat de comunicació amb el comandament",
+      "C": "Permet calcular la resistència de la runa",
+      "D": "Facilita el relleu d’informació i el seguiment de l’evolució del rescat"
+    }
+  },
+  {
+    "id": "racord_70dc15e2-53d6-468c-8e2c-caa447b585b5",
+    "statement": "Quins patrons sistemàtics pot seguir una recerca física?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nLa recerca pot seguir patrons com l’avanç en línia, els cercles concèntrics o el patró en habitacions múltiples.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sector circular, doble línia i patró radial",
+      "B": "Avanç en línia, cercles concèntrics i habitacions múltiples",
+      "C": "Ziga-zaga, espiral descendent i quadrícula vertical",
+      "D": "Rastreig caní, geòfons i càmera"
+    }
+  },
+  {
+    "id": "racord_86ab3fc8-6e79-4919-bbe8-2f3c262a8ca6",
+    "statement": "Què representa el protocol LACES  en una actuació d'estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nLACES és un acrònim que defineix cinc mesures preventives bàsiques que s’han d’implementar abans i durant la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc tipus d’apuntalament de fortuna",
+      "B": "Cinc fases de desenrunament estructural",
+      "C": "Cinc mesures preventives bàsiques de seguretat",
+      "D": "Cinc nivells de classificació d’un col·lapse"
+    }
+  },
+  {
+    "id": "racord_c8255f30-124a-4279-a3e8-367f67c03321",
+    "statement": "Quina funció té el perímetre de seguretat en una actuació d'estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.2. Protocols per a la població afectada\n\nEl perímetre de seguretat delimita amb tanques, cinta o vehicles una zona d’accés restringit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Definir la posició dels vehicles sanitaris",
+      "B": "Identificar la ubicació exacta de víctimes",
+      "C": "Delimitar una zona d’accés restringit",
+      "D": "Marcar una ruta d’entrada per a la població"
+    }
+  },
+  {
+    "id": "racord_80cb33c5-05e2-4b41-89ec-43d4303c19ce",
+    "statement": "Quina característica operativa ha de tenir l’equip SOS en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nL’equip SOS ha d’estar preparat per intervenir si un membre queda atrapat o es produeix un incident dins la zona calenta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estar preparat per intervenir davant un incident amb intervinents",
+      "B": "Treballar dins la zona calenta durant tota la intervenció",
+      "C": "Fer el control d’accessos mentre espera una activació",
+      "D": "Assumir simultàniament tasques ordinàries de recerca"
+    }
+  },
+  {
+    "id": "racord_aec36ab6-1eee-44e1-931a-002acec5d35e",
+    "statement": "Quin és l’objectiu principal dels apuntalaments en les intervencions de Bombers?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments\n\nEl seu objectiu principal és garantir la seguretat dels equips de rescat i evitar nous ensorraments durant les tasques d’exploració, recerca i extracció de víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir de manera definitiva els elements estructurals afectats",
+      "B": "Restituir la posició original dels elements deformats",
+      "C": "Facilitar el moviment de la runa durant el desenrunament",
+      "D": "Garantir la seguretat dels equips i evitar nous ensorraments"
+    }
+  },
+  {
+    "id": "racord_16aba1a3-7962-4964-85f4-9589dab1bc79",
+    "statement": "Com ha de ser el procés de valoració inicial d'una intervenció sobre una estructura col·lapsada?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nAquest procés ha de ser sistemàtic, progressiu i sempre subordinat a la seguretat dels intervinents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Simultani, intensiu i independent de l’estabilitat",
+      "B": "Flexible, improvisat i orientat al desenrunament",
+      "C": "Ràpid, lineal i centrat en l’extracció",
+      "D": "Sistemàtic, progressiu i subordinat a la seguretat"
+    }
+  },
+  {
+    "id": "racord_e28194ac-e601-4bd8-96d8-a1b11d1a7faa",
+    "statement": "Com acostuma a desencadenar-se un col·lapse secundari?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.3. Col·lapses secundaris\n\nSovint, es desencadena de forma sobtada i imprevisible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Després d’una seqüència sempre visible de deformacions",
+      "B": "De forma lenta i fàcilment anticipable",
+      "C": "De forma sobtada i imprevisible",
+      "D": "Quan finalitzen les tasques de rescat"
+    }
+  },
+  {
+    "id": "racord_1f9f1476-adb4-4578-a92c-05fc6fc8fac5",
+    "statement": "Quin criteri s’aplica als punts de suport d’un apuntalament horitzontal?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nEls elements horitzontals han de tenir contacte ferm amb els punts de suport, utilitzant falques o lligams si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han de tenir un contacte ferm amb els punts de suport",
+      "B": "Han de mantenir un petit joc per absorbir moviments",
+      "C": "Han de quedar separats dels punts de suport",
+      "D": "Han de recolzar sobre elements deformables"
+    }
+  },
+  {
+    "id": "racord_74dc683c-c2e6-42d2-b024-44287a6ef56e",
+    "statement": "Com treballen els apuntalaments inclinats?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.3. Apuntalaments inclinats\n\nEls oblics treballen en tracció i compressió diagonal, ajudant a contrarestar el desplaçament o enfonsament d’un mur o estructura que ha perdut estabilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En flexió sobre un únic punt",
+      "B": "En compressió vertical directa",
+      "C": "En empenta horitzontal pura",
+      "D": "En tracció i compressió diagonal"
+    }
+  },
+  {
+    "id": "racord_010f9dd8-ce9d-4b4e-8cc1-dc5df08587f1",
+    "statement": "Quin efecte pot tenir una acumulació d’aigua sobre una estructura col·lapsada?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nL’acumulació d’aigua pot afeblir els fonaments, provocar nous enfonsaments i dificultar la mobilitat dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la resistència dels fonaments",
+      "B": "Afeblir fonaments i afavorir nous enfonsaments",
+      "C": "Eliminar el risc elèctric de la zona",
+      "D": "Estabilitzar la runa i millorar els accessos"
+    }
+  },
+  {
+    "id": "racord_3104252e-a31e-4ef1-bdb7-e5be8cfdaedd",
+    "statement": "Com han d’entrar en càrrega els puntals?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nCal evitar les vibracions i els puntals s’han d’entrar en càrrega de manera uniforme.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De manera alterna i ràpida",
+      "B": "Mitjançant vibracions controlades",
+      "C": "De manera uniforme",
+      "D": "Per un sol costat de forma progressiva"
+    }
+  },
+  {
+    "id": "racord_2fd5c88d-ad91-4dfd-aad1-47ad7fdc85c6",
+    "statement": "Quina finalitat té l’atenció psicosocial en escenaris d'estructures col·lapsades?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.2. Protocols per a la població afectada\n\nL’atenció psicosocial ofereix suport emocional i informació clara a les persones afectades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Realitzar la valoració estructural dels habitatges",
+      "B": "Donar suport emocional i informació clara",
+      "C": "Gestionar les operacions de desenrunament",
+      "D": "Substituir l’assistència sanitària d’urgència"
+    }
+  },
+  {
+    "id": "racord_7bc16f2a-331f-4c45-afda-3dba4c48ba94",
+    "statement": "Què és una recerca instrumentalitzada?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.2. Instrumentalitzada (geòfons i càmeres)\n\nLa recerca instrumentalitzada permet detectar víctimes atrapades sota la runa mitjançant eines tecnològiques com els geòfons i les càmeres de visualització.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recerca orientada a estabilitzar la runa",
+      "B": "Recerca basada en l’olfacte dels gossos",
+      "C": "Recerca amb eines tecnològiques com geòfons i càmeres",
+      "D": "Recerca basada en la vista i l’oïda dels bombers"
+    }
+  },
+  {
+    "id": "racord_cbb4b8c1-25e0-487f-8dd8-9b386655a66c",
+    "statement": "Quina mesura s’ha d’aplicar davant risc de caiguda en un espai elevat o inestable?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nCal comprovar la resistència del pla de treball i utilitzar línies de vida o arnesos anticaiguda en espais elevats o inestables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballar sense assegurament per millorar la mobilitat",
+      "B": "Desplaçar-se sobre la runa sense comprovar-ne la resistència",
+      "C": "Comprovar el pla de treball i utilitzar protecció anticaigudes",
+      "D": "Utilitzar guants com a principal sistema de protecció"
+    }
+  },
+  {
+    "id": "racord_667631d4-7f48-4a42-96a4-ffe85f266972",
+    "statement": "Quin organisme va sorgir sota el paraigua de Nacions Unides per millorar la resposta internacional de recerca i rescat en terratrèmols?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nAquesta reflexió va culminar amb la creació, sota el paraigua de Nacions Unides, del Grup Assessor Internacional de Recerca i Rescat (INSARAG).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "GREC",
+      "B": "INSARAG",
+      "C": "STRAC",
+      "D": "OSOCC"
+    }
+  },
+  {
+    "id": "racord_594a64f6-2515-4973-9b58-2525f87c59d6",
+    "statement": "Quin color s’utilitza habitualment per indicar una zona de perill?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de seguretat\n\nEls colors habituals són el vermell per indicar perill i el verd per assenyalar rutes transitables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Blanc",
+      "B": "Blau",
+      "C": "Vermell",
+      "D": "Verd"
+    }
+  },
+  {
+    "id": "racord_75ca0ced-bd57-42dc-b744-c2d79989d199",
+    "statement": "Quin risc és considerat un dels perills més greus en un entorn col·lapsat?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nUn dels perills més greus és el col·lapse secundari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El col·lapse secundari",
+      "B": "La dificultat d’aparcament dels vehicles",
+      "C": "La manca de visibilitat exterior",
+      "D": "La pèrdua de cobertura de ràdio"
+    }
+  },
+  {
+    "id": "racord_c0855ce0-cc6a-4ce9-9805-ff01484a9c58",
+    "statement": "Quins tres grans grups d’apuntalaments es diferencien segons la direcció de la càrrega que suporten?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments\n\nDistingim 3 grans grups d’apuntalaments segons la direcció de la càrrega que suporten: verticals, horitzontals i inclinats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Interiors, exteriors i enterrats",
+      "B": "Fixos, mòbils i mixtos",
+      "C": "Simples, dobles i compostos",
+      "D": "Verticals, horitzontals i inclinats"
+    }
+  },
+  {
+    "id": "racord_697ec161-b298-4f92-8a4b-779ccb3b09ef",
+    "statement": "Durant una actuació amb estructures col·lapsades un guaita detecta que el perill s’ha estabilitzat després d’una aturada general. Quin senyal acústic correspon per reprendre l’activitat?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\nLa represa de les operacions amb situació estabilitzada s’indica amb 1 toc llarg seguit d’1 toc curt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tocs curts repetitius",
+      "B": "1 toc llarg i 1 toc curt",
+      "C": "3 tocs curts",
+      "D": "1 toc llarg"
+    }
+  },
+  {
+    "id": "racord_c36d4707-6920-4f10-9b84-f8c41bb3d292",
+    "statement": "Quins dos grans grups de causes poden originar un col·lapse?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nLes causes d’un col·lapse poden ser humanes o naturals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Interiors o exteriors",
+      "B": "Mecàniques o elèctriques",
+      "C": "Humanes o naturals",
+      "D": "Estructurals o sanitàries"
+    }
+  },
+  {
+    "id": "racord_3575e23b-3ee4-4c5f-a401-eaef9d73ef90",
+    "statement": "Quins elements estructurals cita el manual de referència d'estructures col·lapsades (MAN.SVES.000 V1 2026) com a exemples que poden superar el seu límit resistent o elàstic?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nElements estructurals com ara forjats, murs, pilars o cobertes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Façanes lleugeres, instal·lacions, mobiliari o vidres",
+      "B": "Envans, paviments, finestres o revestiments",
+      "C": "Portes, baranes, escales o falsos sostres",
+      "D": "Forjats, murs, pilars o cobertes"
+    }
+  },
+  {
+    "id": "racord_6e0556a6-2419-41a1-b239-f1aa6334793a",
+    "statement": "Què indica una V gran sense cap altra anotació confirmada?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nLa V indica la presència d’una víctima potencial, viva o morta, encara sense confirmar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presència d’una víctima potencial pendent de confirmació",
+      "B": "Presència d’una víctima viva confirmada",
+      "C": "Presència d’una víctima morta confirmada",
+      "D": "Zona completament revisada"
+    }
+  },
+  {
+    "id": "racord_0581d995-9cd8-40b5-8369-2ac7ca6b380b",
+    "statement": "Què és una recerca física?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nLa recerca física és la primera fase operativa en la localització de víctimes atrapades després d’un col·lapse i es basa en els sentits dels bombers, principalment vista i oïda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una fase destinada a estabilitzar estructures inestables",
+      "B": "Una maniobra de localització mitjançant gossos ensinistrats",
+      "C": "Una tècnica basada en geòfons i càmeres",
+      "D": "La primera fase operativa basada en la vista i l’oïda dels bombers"
+    }
+  },
+  {
+    "id": "racord_4c0b6959-6c8c-4401-98c2-1645a2692c3d",
+    "statement": "Un equip troba una possible víctima per resposta auditiva, però encara no pot confirmar-ne l’estat. Quina marca inicial correspon?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nQuan es detecta una víctima de forma visual, auditiva o mitjançant eines tècniques, cal marcar el punt amb una gran V, que indica una víctima potencial encara sense confirmar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una X sobre l’accés",
+      "B": "Una L amb el nombre 1",
+      "C": "Una V gran al punt detectat",
+      "D": "Una D amb el nombre 1"
+    }
+  },
+  {
+    "id": "racord_e6c0e2f2-b875-4e37-b8db-b4b1dc926ffe",
+    "statement": "Quina resistència màxima es considera per a un puntal?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nEs considera que un puntal té una resistència màxima de 1.000 kg.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 kg",
+      "B": "2.000 kg",
+      "C": "1.500 kg",
+      "D": "500 kg"
+    }
+  },
+  {
+    "id": "racord_c72e669c-f400-4c9a-b72d-9171d06d982a",
+    "statement": "En quina situació és adequat un apuntalament horitzontal?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.2. Apuntalaments horitzontals\n\nS’utilitzen per estabilitzar murs que poden desplomar-se cap a l’exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per estabilitzar un mur amb risc de desplom cap a l’exterior",
+      "B": "Per substituir un pilar interior afectat",
+      "C": "Per reforçar una biga mitjançant càrrega vertical",
+      "D": "Per sostenir un forjat des del terra"
+    }
+  },
+  {
+    "id": "racord_7cfee8fa-bc35-47ac-acf7-bd0aee41308e",
+    "statement": "Quins elements s’han d’observar per detectar un col·lapse parcial?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.2. Col·lapses parcials\n\nDetectar un col·lapse parcial requereix una observació acurada de l’escenari, l’estat dels elements no col·lapsats, la disposició de la runa i les esquerdes visibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La superfície de l’edifici, l’ocupació i l’any de construcció",
+      "B": "La temperatura exterior, el vent i la humitat ambiental",
+      "C": "El nombre de vehicles, les vies d’accés i la cobertura de ràdio",
+      "D": "L’estat dels elements, la runa i les esquerdes visibles"
+    }
+  },
+  {
+    "id": "racord_40419367-b90a-4c32-95a5-baad3c2f9ea6",
+    "statement": "Com s’ha de considerar una interrupció de les comunicacions segons LACES?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nQualsevol trencament en les comunicacions ha de ser considerat un factor de risc greu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com un factor de risc greu",
+      "B": "Com una situació acceptable durant el desenrunament",
+      "C": "Com una incidència menor si la maniobra continua",
+      "D": "Com una indicació per avançar l’equip"
+    }
+  },
+  {
+    "id": "racord_ce4459e8-d628-4007-b9f4-b0243e85606d",
+    "statement": "Què és l'INSARAG?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.2. INSARAG: marc internacional de recerca i rescat\n\nINSARAG (International Search and Rescue Advisory Group) és una xarxa de Nacions Unides que coordina la resposta internacional en situacions d’ensorraments greus, especialment en escenaris de catàstrofes naturals com els terratrèmols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mecanisme europeu destinat a la reconstrucció d’edificis",
+      "B": "Xarxa de Nacions Unides que coordina la resposta internacional en ensorraments greus",
+      "C": "Grup tècnic de Bombers dedicat a valorar patologies estructurals",
+      "D": "Centre operatiu europeu que gestiona les emergències del seu àmbit territorial"
+    }
+  },
+  {
+    "id": "racord_66426169-c718-4043-a534-45f5628b02ff",
+    "statement": "Quina funció tenen els puntals d’un apuntalament vertical?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nPuntals: elements metàl·lics o de fusta regulables, que transfereixen la càrrega cap avall.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transferir la càrrega cap avall",
+      "B": "Repartir el pes directament sobre l’element danyat",
+      "C": "Fixar el sistema a la part superior de la façana",
+      "D": "Treballar en empenta lateral contra un mur"
+    }
+  },
+  {
+    "id": "racord_97437b36-8d38-4912-a1fa-a250980b0863",
+    "statement": "Què indiquen tocs curts repetitius durant una actuació amb estructures col·lapsades?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\nEls tocs curts repetitius indiquen socors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ruta segura",
+      "B": "Socors",
+      "C": "Represa de les operacions",
+      "D": "Aturada temporal"
+    }
+  },
+  {
+    "id": "racord_8f593628-0199-476a-a8db-c581df33e963",
+    "statement": "Quina finalitat té el punt d’entrada controlat de LACES en una actuació d'estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nEl punt d’entrada permet assegurar que les persones que entren a la zona perillosa estan registrades i en contacte amb el comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centralitzar-hi el material de desenrunament",
+      "B": "Facilitar l’entrada de la població evacuada",
+      "C": "Situar-hi els vehicles d’intervenció",
+      "D": "Garantir registre, traçabilitat i contacte amb el comandament"
+    }
+  },
+  {
+    "id": "racord_b52c9909-e2ba-4e75-8efd-63a5ba7a4fb1",
+    "statement": "Quina funció ha de complir el conjunt de l’apuntalament respecte de la càrrega?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nEl conjunt ha de generar un pla de descàrrega estable, repartint la càrrega cap avall de forma segura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir la càrrega suspesa sense transmetre-la al suport",
+      "B": "Generar un pla de descàrrega estable i repartir la càrrega cap avall",
+      "C": "Concentrar tota la càrrega en un únic punt de suport",
+      "D": "Desplaçar la càrrega cap als elements més deformats"
+    }
+  },
+  {
+    "id": "racord_ca55b888-8539-4bdc-86f2-aaa6bd20fed3",
+    "statement": "Quins tipus de resposta sonora pot detectar la crida i escolta?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1.1. Crida i escolta\n\nLa maniobra busca detectar qualsevol resposta sonora, com veus, cops o sorolls.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Moviments d’aire entre cavitats",
+      "B": "Canvis de temperatura sota la runa",
+      "C": "Vibracions estructurals sense origen humà",
+      "D": "Veus, cops o sorolls"
+    }
+  },
+  {
+    "id": "racord_ff6b3c69-cbce-41c2-b947-f76add165eee",
+    "statement": "Quina protecció respiratòria s’ha de reforçar davant risc d’amiant o partícules tòxiques?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.3. Equip de protecció individual\n\nAmb risc de presència d’amiant o partícules tòxiques, cal reforçar la protecció respiratòria amb equip de respiració autònoma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protecció auditiva",
+      "B": "Equip de respiració autònoma (ERA)",
+      "C": "Mascareta higiènica",
+      "D": "Visera integral sense filtre"
+    }
+  },
+  {
+    "id": "racord_0d5cec71-021f-42a0-bd6b-3f22ecb55b41",
+    "statement": "Quan es va constituir oficialment el GREC com a subàmbit de la guàrdia de suport?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.1. El Grup de Recolzament en Estructures Col·lapsades (GREC)\n\nNo va ser fins el 2021 que es va constituir oficialment el Grup de recolzament en estructures col·lapsades (GREC) com un subàmbit de la guàrdia de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’any 2021",
+      "B": "L’any 2024",
+      "C": "L’any 2025",
+      "D": "L’any 2010"
+    }
+  },
+  {
+    "id": "racord_e7b81e09-642c-4cc5-88a2-fa383aa3e257",
+    "statement": "Quins elements pot sostenir un apuntalament vertical?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nEls apuntalaments verticals poden sostenir elements horitzontals com forjats, sostres o bigues.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Forjats, sostres o bigues",
+      "B": "Portes, envans o revestiments",
+      "C": "Escales, passamans o instal·lacions",
+      "D": "Façanes, baranes o finestres"
+    }
+  },
+  {
+    "id": "racord_f749b4db-5c8d-4229-95e1-9d6fb1c2583f",
+    "statement": "Quina definició correspon al venteig en la recerca canina?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.3.1. Venteig\n\nEl venteig és la maniobra pròpia del gos en què rastreja l’aire buscant partícules d’olor corporal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El seguiment visual de la superfície de runa",
+      "B": "La detecció de vibracions sota l’estructura",
+      "C": "La inspecció amb càmera des de punts elevats",
+      "D": "El rastreig de l’aire per detectar partícules d’olor corporal"
+    }
+  },
+  {
+    "id": "racord_3f7e6755-895b-41af-b6ce-e3ded374bfaa",
+    "statement": "Quins dos criteris s’han de considerar en l’emplaçament inicial dels vehicles en una actuació d'estructures col·lapsades?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nL’emplaçament inicial ha de tenir en compte la protecció del personal i la preservació de la capacitat de maniobra dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Proximitat a la façana i visibilitat pública",
+      "B": "Rapidesa de descàrrega i accés dels veïns",
+      "C": "Orientació solar i amplada de les voreres",
+      "D": "Protecció del personal i capacitat de maniobra dels equips"
+    }
+  },
+  {
+    "id": "racord_5eacaeef-2860-42f5-aea1-4da8a07ab4f5",
+    "statement": "Quina definició correspon a un col·lapse parcial?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.2. Col·lapses parcials\n\nUn col·lapse parcial es produeix quan una part de l’estructura cedeix, ja sigui un mur, una coberta, un forjat o qualsevol altre element constructiu, mentre la resta de l’edificació roman aparentment estable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es produeix un segon ensorrament després del col·lapse inicial",
+      "B": "Cedeix una part de l’estructura mentre la resta roman aparentment estable",
+      "C": "Cedeix tota l’estructura principal i es produeix un ensorrament generalitzat",
+      "D": "Es deformen elements no estructurals sense risc d’ensorrament"
+    }
+  },
+  {
+    "id": "racord_c56b55de-1c98-4283-94a6-9141308dc5f3",
+    "statement": "Quina definició correspon a un apuntalament inclinat?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.3. Apuntalaments inclinats\n\nEls apuntalaments inclinats són estructures provisionals que s’instal·len en posició diagonal per fer de suport lateral o substitució parcial d’un element estructural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema vertical per sostenir forjats des del terra",
+      "B": "Estructura provisional diagonal que aporta suport lateral",
+      "C": "Estructura definitiva destinada a substituir un mur",
+      "D": "Sistema horitzontal per reforçar excavacions"
+    }
+  },
+  {
+    "id": "racord_e998a877-5b0e-43f2-8877-5c1853bc1452",
+    "statement": "Què és una zona segura o de refugi segons el protocol LACES?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nÉs un espai prèviament avaluat que ofereix una protecció mínima als intervinents davant una emergència sobtada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una zona exterior que substitueix qualsevol evacuació",
+      "B": "Una àrea reservada per a la població afectada",
+      "C": "Un punt destinat a emmagatzemar material",
+      "D": "Un espai avaluat que ofereix protecció temporal davant una emergència"
+    }
+  },
+  {
+    "id": "racord_7334f35b-1d40-4c13-9f18-0bb01443e2b1",
+    "statement": "Un equip SOS està assignat com a suport d’emergència en una actuació d'estructures col·lapsades. Quina actuació és correcta?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.1. Emplaçament de vehicles i criteris de seguretat\n\nMentre està assignat com a equip de suport d’emergència, l’equip SOS ha de mantenir-se disponible, equipat i amb coneixement de les rutes d’evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entrar a la zona calenta per ajudar en el desenrunament",
+      "B": "Fer relleus del personal de recerca de manera habitual",
+      "C": "Assumir el transport de material fora de l’escenari",
+      "D": "Mantenir-se disponible, equipat i preparat per intervenir"
+    }
+  },
+  {
+    "id": "racord_d1e2d9ef-456c-4b53-a822-a3f38c735470",
+    "statement": "Quina funció tenen les càmeres de visualització?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.2. Instrumentalitzada (geòfons i càmeres)\n\nLes càmeres s’introdueixen a través de forats a la runa o entre esquerdes per localitzar visualment persones atrapades i valorar-ne la posició i l’estat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Localitzar visualment víctimes i valorar-ne la posició i l’estat",
+      "B": "Identificar partícules d’olor humana",
+      "C": "Detectar vibracions provocades per cops",
+      "D": "Mesurar moviments estructurals de la runa"
+    }
+  },
+  {
+    "id": "racord_7cc658a7-58d8-496e-aa9f-2f1e6ceb6b74",
+    "statement": "Què significa l’anotació «L - 3» sota una V?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nL - n indica el nombre de víctimes vives confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tres víctimes ja evacuades",
+      "B": "Tres víctimes vives confirmades",
+      "C": "Tres equips de rescat treballant",
+      "D": "Tres víctimes mortes confirmades"
+    }
+  },
+  {
+    "id": "racord_f749e9ec-5fbf-4252-9448-ee1255b93656",
+    "statement": "Quina lletra gran s’ha de marcar quan es detecta una víctima potencial?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n5. Senyalització — Senyalització de víctimes\n\nQuan es detecta una víctima cal marcar el punt amb una gran V d’uns 50 cm sobre la runa o estructura visible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "V",
+      "B": "L",
+      "C": "D",
+      "D": "C"
+    }
+  },
+  {
+    "id": "racord_95e17b8e-fd68-4bf1-a486-0de8ebca917c",
+    "statement": "Quina acció pot desencadenar un col·lapse secundari per vibracions?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nLes vibracions procedents d’eines, passos, maquinària pesada o moviment no controlat de runa poden provocar un col·lapse secundari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir una zona d’escapament lliure",
+      "B": "Treballar amb maquinària pesada prop d’una estructura inestable",
+      "C": "Fer una valoració estructural abans d’entrar",
+      "D": "Establir un control d’accessos"
+    }
+  },
+  {
+    "id": "racord_9546e69b-8226-4c25-9e55-031b83a80404",
+    "statement": "Quin objectiu té el desallotjament preventiu dels edificis adjacents a un edifici que ha col·lapsat?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.2. Protocols per a la població afectada\n\nEl desallotjament preventiu consisteix a evacuar edificis adjacents que puguin veure’s afectats per un col·lapse en cadena o efecte dominó.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Facilitar l’accés dels equips de manteniment",
+      "B": "Permetre una inspecció administrativa de l’edifici",
+      "C": "Reduir el nombre de vehicles estacionats",
+      "D": "Evitar l’exposició a un possible col·lapse en cadena"
+    }
+  },
+  {
+    "id": "racord_a9db4751-e63d-4872-b454-be88273d1124",
+    "statement": "Quina funció té l’ancoratge dins de LACES en una actuació d'estructures col·lapsades?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.4. Protocol de seguretat LACES\n\nAncoratge: establir un punt d’entrada controlat i identificable que serveixi de referència per a la traçabilitat de l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Establir un punt d’entrada controlat i identificable",
+      "B": "Connectar una línia de vida a cada intervinent",
+      "C": "Fixar estructuralment els murs inestables",
+      "D": "Definir la zona d’assistència sanitària"
+    }
+  },
+  {
+    "id": "racord_210c41c7-a9a9-4635-a8dd-6f1021787ed0",
+    "statement": "Què indica 1 toc llarg durant una actuació amb estructures col·lapsades?",
+    "correct": "C",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.5. Seguretat i comunicació en operacions de recerca\n\n1 toc llarg indica aturada de totes les operacions, mantenint posicions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Socors d’un intervinent",
+      "B": "Evacuació immediata de tota la zona",
+      "C": "Aturada de les operacions mantenint posicions",
+      "D": "Represa de les operacions"
+    }
+  },
+  {
+    "id": "racord_0e7db22d-1aa1-49f3-bda3-cb20a84a9a83",
+    "statement": "Com es classifiquen els equips certificats sota INSARAG segons la seva capacitat operativa?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.2. Història i evolució de la intervenció internacional en terratrèmols\n\nEstan classificats en tres categories (lleugers, mitjans i pesats) segons la seva capacitat operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tècnics, logístics i sanitaris",
+      "B": "Bàsics, avançats i especials",
+      "C": "Locals, regionals i internacionals",
+      "D": "Lleugers, mitjans i pesats"
+    }
+  },
+  {
+    "id": "racord_a132daf7-8547-4898-8b4d-8e4dfdd11383",
+    "statement": "Quins riscos ha d’identificar la valoració tècnica inicial  d'una intervenció sobre una estructura col·lapsada?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nLa valoració tècnica inicial ha de permetre identificar els riscos més imminents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els riscos associats al trànsit exterior",
+      "B": "Els riscos estructurals o ambientals immediats",
+      "C": "Els riscos derivats del relleu dels equips",
+      "D": "Els riscos administratius de la intervenció"
+    }
+  },
+  {
+    "id": "racord_702e722f-f527-493e-a788-092cdc4f1fa3",
+    "statement": "Quin tipus d’apuntalament és el més habitual en col·lapses estructurals?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4.1. Apuntalaments verticals\n\nEls apuntalaments verticals són els més habituals i utilitzats en les intervencions dels bombers en col·lapses estructurals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’apuntalament exterior lateral",
+      "B": "L’apuntalament horitzontal",
+      "C": "L’apuntalament inclinat",
+      "D": "L’apuntalament vertical"
+    }
+  },
+  {
+    "id": "racord_92473d2c-381f-4768-b10c-55375d4114ec",
+    "statement": "Quina distància màxima s’estableix entre puntals?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments — Criteris bàsics\n\nLa distància entre puntals no pot superar el metre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "0,5 metres",
+      "B": "1,5 metres",
+      "C": "2 metres",
+      "D": "1 metre"
+    }
+  },
+  {
+    "id": "racord_cc5754f6-4b2c-4fd7-aeaf-12e619c0f8e6",
+    "statement": "Quina mesura és imprescindible abans d’entrar en una atmosfera potencialment tòxica?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n6.6. Riscos específics en escenaris d’estructures col·lapsades\n\nÉs imprescindible monitorar l’aire amb detectors de gasos abans d’entrar i utilitzar ERA si la situació ho requereix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprovar l’olor de l’ambient abans d’accedir",
+      "B": "Monitorar l’aire amb detectors de gasos",
+      "C": "Entrar ràpidament per reduir el temps d’exposició",
+      "D": "Ventilar amb mitjans improvisats sense mesurament"
+    }
+  },
+  {
+    "id": "racord_8b3a3ca9-2fc8-46b3-9d94-bcf5b20860ed",
+    "statement": "Quin abast pot tenir un col·lapse estructural?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2. Valoració del col·lapse estructural\n\nAquest fenomen pot afectar des d’una petita part de l’edificació fins a la seva totalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot afectar des d’una petita part de l’edificació fins a la seva totalitat",
+      "B": "Afecta sempre l’estructura principal completa",
+      "C": "Es limita als elements no portants de l’edificació",
+      "D": "Es produeix sempre de forma localitzada en una planta"
+    }
+  },
+  {
+    "id": "racord_1c380a69-69c0-4d9e-88c8-abc786768190",
+    "statement": "Durant quines tasques contribueixen els apuntalaments a evitar nous ensorraments?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n4. Apuntalaments\n\nEls apuntalaments permeten evitar nous ensorraments durant les tasques d’exploració, recerca i extracció de víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Senyalització, evacuació i triatge",
+      "B": "Exploració, recerca i extracció de víctimes",
+      "C": "Comunicació, sectorització i relleu",
+      "D": "Extinció, ventilació i refrigeració"
+    }
+  },
+  {
+    "id": "racord_c766999f-9ad9-4c3c-bc69-3bebaa0bd313",
+    "statement": "Quina característica professional defineix els membres del GREC?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n1.3.1. El Grup de Recolzament en Estructures Col·lapsades (GREC)\n\nEs tracta d’un grup format per bombers amb titulacions tècniques que aporten el seu coneixement per ajudar al comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són tècnics municipals integrats temporalment al cos",
+      "B": "Són equips mèdics especialitzats en trauma estructural",
+      "C": "Són guies canins dedicats a la localització de víctimes",
+      "D": "Són bombers amb titulacions tècniques"
+    }
+  },
+  {
+    "id": "racord_8cd8ce45-b3ac-4d2c-9bdb-16fe83de6389",
+    "statement": "Quina definició correspon a un col·lapse secundari?",
+    "correct": "A",
+    "explanation": "MAN.SVES.000 V1.2026\n\n2.1.3. Col·lapses secundaris\n\nEl col·lapse secundari és aquell que es produeix després d’un primer col·lapse, com a conseqüència directa de la inestabilitat generada a l’estructura restant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un ensorrament posterior causat per la inestabilitat generada després del primer col·lapse",
+      "B": "Un col·lapse total provocat directament per un terratrèmol",
+      "C": "Una deformació prèvia que anuncia el primer col·lapse",
+      "D": "Una fallida parcial que no modifica l’estabilitat de la resta"
+    }
+  },
+  {
+    "id": "racord_ea07f83f-1aee-4cf4-bb50-75672ee19b71",
+    "statement": "Quin és el primer pas abans d’iniciar una intervenció operativa sobre una estructura col·lapsada?",
+    "correct": "D",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.1. Recerca física\n\nAbans de començar qualsevol intervenció operativa sobre una estructura col·lapsada, és imprescindible dur a terme una valoració tècnica inicial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Iniciar la recerca canina",
+      "B": "Instal·lar els geòfons",
+      "C": "Retirar la runa superficial",
+      "D": "Fer una valoració tècnica inicial"
+    }
+  },
+  {
+    "id": "racord_f9eab05f-64c1-4a52-851b-af729d7ad6b3",
+    "statement": "Què és una recerca canina?",
+    "correct": "B",
+    "explanation": "MAN.SVES.000 V1.2026\n\n3.3. Canina\n\nLa recerca canina és una maniobra de localització de víctimes atrapades basada en l’olfacte d’alt rendiment dels gossos ensinistrats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "T30 Intervenció bàsica en estructures col·lapsades",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Localització basada en la vista i l’oïda dels bombers",
+      "B": "Localització de víctimes mitjançant l’olfacte de gossos ensinistrats",
+      "C": "Localització mitjançant càmeres introduïdes a la runa",
+      "D": "Localització mitjançant vibracions i sorolls"
+    }
+  }
+]

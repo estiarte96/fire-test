@@ -1,0 +1,522 @@
+[
+  {
+    "id": "academia_sim5_q58",
+    "simulacre": "Simulacre 5",
+    "num_pregunta": 58,
+    "statement": "La relació de transmissió és una característica fonamental dels mecanismes de transmissió de moviment circular. Tenint en compte aquesta relació, es classifiquen en: directes, multiplicadors i reductors. En cas dels reductors:",
+    "correct": "B",
+    "explanation": "La relacióde transmissió (i)és elquocient entre lavelocitatde rotacióde laroda conduïda ilavelocitat de rotacióde la\nroda conductora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El motriu té un diàmetre major que elconduït i,en conseqüència, elconduït gira a major velocitat de rotació",
+      "B": "El motriu té un diàmetre menor que elconduït i,en conseqüència, el conduït gira a menor velocitatde rotació",
+      "C": "Elmotriu i elconduït tenen elmateix diàmetre i,en conseqüència, giren a la mateixa velocitatde rotació",
+      "D": "Elconduït témenor diàmetre que elmotriu i giraa major velocitatde rotació"
+    }
+  },
+  {
+    "id": "academia_sim8_q34",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 34,
+    "statement": "Porten ____ els vehicles que tenen caixes de canvi manuals i____ els que tenen canvi automàtic.",
+    "correct": "B",
+    "explanation": "Acoblen idesacoblen la transmissió de laforça proporcionada pel motor a la caixa de velocitats.\n acadèmia",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "embragatge //també",
+      "B": "embragatge //convertidorde parell",
+      "C": "convertidor deparell//embragatge",
+      "D": "convertidor deparell//també"
+    }
+  },
+  {
+    "id": "academia_sim13_q78",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 78,
+    "statement": "Quina de les següents formes de transmissió de lacalor en incendis forestals contribueix d'una manera més eficaç al seu desenvolupament?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Convecció",
+      "B": "Conducció",
+      "C": "Radiació acadèmia",
+      "D": "Inflamació"
+    }
+  },
+  {
+    "id": "academia_sim20_q10",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 10,
+    "statement": "Dins de quin component del sistema de transmissió d'un vehicle s'inclou l'eixintermediari?",
+    "correct": "A",
+    "explanation": "Elscanvis de marxa manuals consten de tresarbres: elprimari iel secundari, alineats,il’intermediari,paral·lel alsaltres\ndos. bombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De lacaixa de canvis",
+      "B": "De l'embragatge",
+      "C": "Del grup diferencial",
+      "D": "De l'arbrede transmissió"
+    }
+  },
+  {
+    "id": "academia_sim23_q25",
+    "simulacre": "Simulacre 23",
+    "num_pregunta": 25,
+    "statement": "Quin dels següents no es refereix a un mecanisme de transmissió de calor?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Conducció",
+      "B": "Convecció",
+      "C": "Radiació",
+      "D": "Contracció"
+    }
+  },
+  {
+    "id": "academia_sim24_q54",
+    "simulacre": "Simulacre 24",
+    "num_pregunta": 54,
+    "statement": "Quin ordre correcte segueix el sistema de transmissió d'un vehicle des del motor fins les rodes?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor, caixa de canvis, embragatge, arbre de transmissió, diferencial,semieixos irodes",
+      "B": "Motor, embragatge, arbre de transmissió,semieixos, satèl·lits,planetarisirodes",
+      "C": "Motor, arbrede transmissió,embragatge, caixa de canvis, semieixos, satèl·lits,planetarisirodes",
+      "D": "Motor, embragatge, caixa de canvis,arbre de transmissió, diferencial,semieixos irodes"
+    }
+  },
+  {
+    "id": "academia_sim33_q10",
+    "simulacre": "Simulacre 33",
+    "num_pregunta": 10,
+    "statement": "Quina peça s'encarrega de realitzar la funció d'unió entre l'arbre de transmissió il'eix secundari?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La juntahomocinètica",
+      "B": "La juntade la tròcola",
+      "C": "La juntade Cardan",
+      "D": "La juntade laculata"
+    }
+  },
+  {
+    "id": "academia_sim34_q47",
+    "simulacre": "Simulacre 34",
+    "num_pregunta": 47,
+    "statement": "Circulem amb el nostre vehicle iportem una marxa posada. Quan girarà el disc d'embragatge?",
+    "correct": "B",
+    "explanation": "Pedal d'embragatge trepitjat:fem que el moviment del motor no es transmeti a la caixa de velocitats.\nPedal d'embragatge sense trepitjar:fem que el moviment del motor es transmeti a la caixa de velocitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan tinguem elpedat trepitjat",
+      "B": "Quan no tinguem elpedatbomberstrepitjat",
+      "C": "Sempre",
+      "D": "En elmoment de canviarde marxa"
+    }
+  },
+  {
+    "id": "academia_sim36_q76",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 76,
+    "statement": "Quina definició correspon a la d'integritat davant el foc?",
+    "correct": "C",
+    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural. \nAïllament: aptitud de l’element constructiu de suportar l’exposició alfoc en un únic costat, sense que es produeixi la\ntransmissió de l’incendidegut a una transferència de calor significativades del costat exposat al no exposat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’aptitudde l’element constructiu de suportar l’exposicióal foc en un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calorsignificativades del costat exposat alno exposat",
+      "B": "Altemps que l'element pot mantenir l'estanqueïtat davant del fum, sense que es produeixi latransmissió des del costatexposat al no exposat",
+      "C": "A lacapacitat que té un element constructiu, de suportar l’exposicióal foc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
+      "D": "A lacapacitat d'un element constructiu de suportar elfoc en una o més cares sense perdre l'estabilitatestructural"
+    }
+  },
+  {
+    "id": "academia_sim37_q34",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 34,
+    "statement": "Si circulem amb elnostre vehicle amb la quarta marxa posada, eldisc de l'embragatge:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estarà girant",
+      "B": "No giraràfinsque no trepitgemel pedal",
+      "C": "Podrà estar giranto no,en funció de lescaracterístiques delvehicle",
+      "D": "El disc de l'embragatge només el trobarem en cotxes amb caixa de canvis automàtica"
+    }
+  },
+  {
+    "id": "academia_sim38_q10",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 10,
+    "statement": "Quin element d'un vehicle pertany al sistema de seguretat activa?",
+    "correct": "C",
+    "explanation": "La resta pertanyen a la seguretat passiva.\nExemples d'elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els seients",
+      "B": "El cinturóde seguretat",
+      "C": "Els pneumàtics",
+      "D": "Els airbags"
+    }
+  },
+  {
+    "id": "academia_sim40_q4",
+    "simulacre": "Simulacre 40",
+    "num_pregunta": 4,
+    "statement": "Quin o quins dels següents mètodes de transmissió de la calor ve donat per laLlei de Fourier?",
+    "correct": "A",
+    "explanation": "La lleide Fourier descriu laconducció tèrmica mitjançant una equació.\nElflux de calor és proporcional àrea de la secció transversal ial gradient de temperatura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conducció",
+      "B": "La convecció",
+      "C": "La radiació",
+      "D": "La conducció ilaconvecció"
+    }
+  },
+  {
+    "id": "academia_sim41_q95",
+    "simulacre": "Simulacre 41",
+    "num_pregunta": 95,
+    "statement": "Quin nom rep elsistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
+    "correct": "C",
+    "explanation": "Control d'estabilitat(ESP):tractade mantenir elcotxe en latrajectòriacorrecta.Actua comparant angles.\nSistema de suspensió activa:s'encarrega de gestionar icontrolarde forma independent l'amortiguació de cadascuna de\nlesrodes.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de direccióassistida",
+      "B": "El controld'estabilitat bombers",
+      "C": "El controlde tracció",
+      "D": "Sistema de suspensió activa www.academiabombers.com 21"
+    }
+  },
+  {
+    "id": "academia_sim51_q43",
+    "simulacre": "Simulacre 51",
+    "num_pregunta": 43,
+    "statement": "Com s'anomena latransmissió de calor que es produeix mitjançant ones electromagnètiques, no necessitant cap mitjà de transmissió i essent molt més eficient quan es produeix a través del buit?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Inducció",
+      "B": "Conducció",
+      "C": "Convecció",
+      "D": "Radiació"
+    }
+  },
+  {
+    "id": "academia_sim52_q46",
+    "simulacre": "Simulacre 52",
+    "num_pregunta": 46,
+    "statement": "Sobre el concepte de calor específica, és FALS que:",
+    "correct": "C",
+    "explanation": "Les unitats en què s'expressa poden ser Joules per quilogram per grau centígrad (J/kg ºC) en el SI, però també es fa\nservirla caloriaper gram per grau, cal/gºC.\nCal tenirclar que la temperatura ens marca si hihaurà transmissió d'energia d'un cos a un altre,però no laquantitat\nd'energia que emmagatzema un cos! Un cos amb més temperatura pot tenirmenys energia que un de més fred.Això\ndepèn de la calor específica del material (Temari BBVV).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot variarsegons si elcos es troba en estat líquid,sòlido gasós",
+      "B": "Permet que un cos amb més temperatura pugui tenirmenys energia que un de més fred",
+      "C": "La calor específica de l'aigualíquidaacadèmiaésde4,2cal/gºC",
+      "D": "Les unitats amb elsque s'expressa en el Sistema Internacional son els J/kg ºC"
+    }
+  },
+  {
+    "id": "academia_sim53_q66",
+    "simulacre": "Simulacre 53",
+    "num_pregunta": 66,
+    "statement": "Quina definició correspon a la de capacitat portant davant el foc?",
+    "correct": "D",
+    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural.\nIntegritat:capacitat que té un element constructiu, de suportar l’exposició al foc únicament en una cara, sense que\nexisteixitransmissió de calor a la cara no exposada aldegut al pas de flames o de gasos calents.\nAïllament: aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la\ntransmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’aptitudde l’element constructiu de suportar l’exposicióal focen un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calor significativades del costat exposat al no exposat",
+      "B": "Altemps que l'element pot mantenir l'estanqueïtatdavant del fum, sense que es produeixi la transmissió des del costatexposat al no exposat",
+      "C": "A lacapacitat que té un element constructiu, de suportar l’exposició alfoc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
+      "D": "A lacapacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitatestructural"
+    }
+  },
+  {
+    "id": "academia_sim55_q15",
+    "simulacre": "Simulacre 55",
+    "num_pregunta": 15,
+    "statement": "Quin dels següents codis de perillcorrespon a una matèria que provoca la irritació de la pell?",
+    "correct": "B",
+    "explanation": "Hem de tenir clarque el primer nombre d'una indicació de perillens indicarà eltipus de perill,essent:\nHXXX:\n2:perillfísic\n3:perillper lasalut\n4:perillpel medi ambient\nEn aquest cas la primera xifraés un 3, il'única opció que presenta un perillper a la salut és la resposta correcta.\n\n16.- \nEstà integrat a l'embragatge, o bé alconvertidor de parell, en funció de sies tracta d'un vehicle amb transmissió manual\no automàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "H200",
+      "B": "H315 bombers",
+      "C": "H412",
+      "D": "H228 www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim55_q16",
+    "simulacre": "Simulacre 55",
+    "num_pregunta": 16,
+    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió manual?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la caixa de canvis",
+      "B": "A l'embragatge",
+      "C": "A lesrodes",
+      "D": "Al cigonyal 22 Acadèmia Bombers Simulacre 55"
+    }
+  },
+  {
+    "id": "academia_sim56_q60",
+    "simulacre": "Simulacre 56",
+    "num_pregunta": 60,
+    "statement": "En molles de la suspensió poden ser, bàsicament, ballestes o molles helicoïdals. Quin avantatge ofereixen aquestes darreres molles respecte les ballestes?",
+    "correct": "B",
+    "explanation": "Cada sistema té avantatges iinconvenients:\n-Les ballestes poden, per elles mateixes, sostenir elsponts de transmissió, n’eviten la rotació en frenar i accelerar i,com\nque estan fixades pels dos extrems, reparteixen millor els esforços sobre elxassís. L’inconvenient és que és un sistema\nmolt pesat, més sorollós, ide reaccions més lentes ibrusques.\n-Les molles helicoïdals són més lleugeres, reaccionen amb més suavitat i“adaptabilitat” i,per tant, donen més confort a\nlespersones ocupants. L’inconvenient és que no poden sostenir els ponts, ha d’haver-hi totun conjunt de braços itirants\nper sostenir-los ies complica el sistema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden sostenir elsponts de transmissió per simateixes",
+      "B": "Són més lleugeres",
+      "C": "Reparteixen millorelsesforços sobre el xassís",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim63_q20",
+    "simulacre": "Simulacre 63",
+    "num_pregunta": 20,
+    "statement": "En quin sentit girarà la roda boja d'un engranatge format per tres rodes?",
+    "correct": "A",
+    "explanation": "Aquesta roda intermèdia permet variar la relació de transmissió canviant el nombre de dents del pinyó i de la corona\nsense necessitat de variar ladistància entre l'eixmotriu i l'eixconduït.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un sentitdiferent alde la roda motriu ial de la roda conduïda bombers",
+      "B": "En elmateix sentitque laroda motriu i en un sentitdiferent alde la roda conduïda",
+      "C": "En sentithorari",
+      "D": "En el mateix sentitque laroda conduïdawww.academiabombers.comienunsentitdiferentaldelarodamotriu"
+    }
+  },
+  {
+    "id": "academia_sim76_q7",
+    "simulacre": "Simulacre 76",
+    "num_pregunta": 7,
+    "statement": "Quina és la principal forma de transmissió de lacalor en els fluids?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Conducció",
+      "B": "Reflexió",
+      "C": "Convecció bombers",
+      "D": "Radiació"
+    }
+  },
+  {
+    "id": "academia_sim77_q22",
+    "simulacre": "Simulacre 77",
+    "num_pregunta": 22,
+    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió automàtica?",
+    "correct": "D",
+    "explanation": "Està integrat a l'embragatge, o bé al convertidor de parell, en funció de sies tracta d'un vehicle amb transmissió manual\no automàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A lacaixa de canvis",
+      "B": "A l'embragatge acadèmia",
+      "C": "A lesrodes",
+      "D": "Alconvertidor de parell"
+    }
+  },
+  {
+    "id": "academia_sim77_q37",
+    "simulacre": "Simulacre 77",
+    "num_pregunta": 37,
+    "statement": "Com s'anomena elsistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sensepatinar?",
+    "correct": "C",
+    "explanation": "Control d'estabilitat(ESP): tractade mantenir elcotxe en la trajectòriacorrecta. Actua comparant angles.\n\nSistema de suspensió activa: s'encarrega de gestionar icontrolar de forma independent l'amortiguació de cadascuna de\nlesrodes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de direccióassistida",
+      "B": "El controld'estabilitat",
+      "C": "El controlde tracció",
+      "D": "Sistema de suspensió activa"
+    }
+  },
+  {
+    "id": "academia_sim84_q47",
+    "simulacre": "Simulacre 84",
+    "num_pregunta": 47,
+    "statement": "Dins de quin component del sistema de transmissió d'un vehicle s'inclou l'eix intermediari?",
+    "correct": "A",
+    "explanation": "Els canvis de marxa manuals consten de tres arbres: elprimari i elsecundari, alineats, il’intermediari, paral·lel als altres\ndos.\n\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 84",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la caixa de canvis",
+      "B": "De l'embragatge",
+      "C": "Del grup diferencial",
+      "D": "De l'arbre de transmissió"
+    }
+  },
+  {
+    "id": "academia_sim91_q28",
+    "simulacre": "Simulacre 91",
+    "num_pregunta": 28,
+    "statement": "Com s’anomena l’element d’una caixa de canvis manual que, situat entre l’eixintermediari i l’eix secundari, inverteix el gir de les rodes motrius per permetre la marxa enrere?",
+    "correct": "C",
+    "explanation": "Engrana un pinyó intermedi entre l’eixintermediari il’eixsecundari, invertint el sentit de rotació sense alterar el gir del\nmotor ipermet que les rodes girin en sentit contrari (marxa enrere).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvula de retrocés",
+      "B": "Corona",
+      "C": "Pinyó inversor",
+      "D": "Dúmper"
+    }
+  },
+  {
+    "id": "academia_sim121_q42",
+    "simulacre": "Simulacre 121",
+    "num_pregunta": 42,
+    "statement": "Com s’anomena l’element d’una caixa de canvis manual que, situat entre l’eix intermediari il’eix secundari, inverteix el gir de les rodes motrius per permetre la marxa enrere?",
+    "correct": "C",
+    "explanation": "Engrana un pinyó intermedi entre l’eix intermediari i l’eixsecundari, invertint el sentit de rotació sense alterar el gir del\nmotor ipermet que les rodes girin en sentit contrari (marxa enrere).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Conducció i mecànica",
+    "section": "Simulacre 121",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvula de retrocés",
+      "B": "Corona",
+      "C": "Pinyó inversor",
+      "D": "Dúmper"
+    }
+  }
+]

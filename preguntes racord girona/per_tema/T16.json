@@ -1,0 +1,1964 @@
+[
+  {
+    "id": "racord_c94b7097-fc2f-4898-8590-eeabfa716253",
+    "statement": "Com estan instal·lats els panys encastats?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nPanys encastats: són els més habituals en portes exteriors i interiors. Van integrats dins del perfil mateix de la porta, de manera que només són visibles l’escut exterior, el forat del bombí i el pestell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Integrats dins del perfil de la porta",
+      "B": "Sobreposats de manera visible a la cara exterior",
+      "C": "Fixats exclusivament al marc, sense integrar-se a la porta",
+      "D": "Instal·lats sempre en una reixa independent"
+    }
+  },
+  {
+    "id": "racord_f9898d07-dcad-40ac-978e-60fa0ca82706",
+    "statement": "Quina finalitat general tenen les altres assistències tècniques?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5. Altres assistències tècniques\n\nA banda dels serveis que hem vist, els Bombers de la Generalitat realitzen un ampli ventall d’assistències tècniques destinades a eliminar riscos per a les persones, els béns o l’entorn urbà i natural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir de manera permanent les empreses de manteniment",
+      "B": "Eliminar riscos per a les persones, els béns o l’entorn urbà i natural",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Atendre exclusivament situacions amb risc vital immediat"
+    }
+  },
+  {
+    "id": "racord_57675672-051d-43f0-af6e-a59683b88a23",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la captura química:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.3. Estils de captura: física i química\n\nLa captura química, reservada a veterinaris o personal acreditat, utilitza dards amb anestèsic disparats amb sarbatanes o rifles de CO₂. Aquesta tècnica s’empra amb animals agressius o d’alt risc, i requereix protocols de seguretat estrictes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’empra amb animals agressius o d’alt risc i exigeix protocols estrictes",
+      "B": "La pot executar qualsevol bomber sense acreditació quan l’animal ofereix resistència",
+      "C": "Pot utilitzar dards amb anestèsic disparats amb sarbatanes o rifles de CO₂",
+      "D": "Està reservada a veterinaris o personal acreditat"
+    }
+  },
+  {
+    "id": "racord_f7668e45-f9ef-4f85-b2a4-c430a5b7808a",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte d’una alarma d’incendi sense risc real:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nEn el cas d’alarma d’incendi, si no hi ha risc real, no es manipula el sistema, sinó que es contacta amb la central d’alarmes o la propietat per tal que ho solucionin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No s’ha de manipular el sistema i cal contactar amb la central d’alarmes o la propietat",
+      "B": "S’ha de tallar sempre el cable de l’altaveu exterior",
+      "C": "S’ha de desconnectar immediatament la bateria de la central",
+      "D": "Els Bombers han de reparar definitivament el sistema"
+    }
+  },
+  {
+    "id": "racord_c3204950-8dae-4ec7-92e4-c07a28f924bc",
+    "statement": "Com s’ha de manipular una au gran?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.6. Aus\n\nLes aus grans s’aguanten contra el cos amb un braç, mentre l’altre controla el coll.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Agafant-la exclusivament per les potes",
+      "B": "Contra el cos amb un braç, mentre l’altre controla el coll",
+      "C": "Subjectant-la només per les ales esteses",
+      "D": "Mantenint-la allunyada del cos i sense controlar el coll"
+    }
+  },
+  {
+    "id": "racord_29870a93-f2e7-410f-95a2-81763ef67aee",
+    "statement": "Quins coneixements són necessaris per garantir un ús segur i eficient de la motoserra?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2. Coneixements generals\n\nL’ús segur i eficient de la motoserra requereix conèixer amb detall les seves parts, tipologies, normativa aplicable i requisits de seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament els procediments de repostatge i manteniment",
+      "B": "La marca, el model i l’antiguitat de la motoserra",
+      "C": "Únicament la potència del motor i la longitud de l’espasa",
+      "D": "Les parts de l’eina, les tipologies, la normativa aplicable i els requisits de seguretat"
+    }
+  },
+  {
+    "id": "racord_c115db66-cc1a-48b9-9fdc-fbfabbd3d439",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les tècniques específiques d’obertura:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4. Intervencions amb accés a habitatges en entorn urbà\n\nPer motius de seguretat, les tècniques específiques d’obertura no es descriuen en aquest manual i s’imparteixen exclusivament en activitats presencials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’imparteixen exclusivament en activitats presencials per motius de seguretat",
+      "B": "Es descriuen íntegrament en qualsevol document operatiu",
+      "C": "No requereixen formació pràctica ni presencial",
+      "D": "Es poden aprendre únicament mitjançant documentació escrita"
+    }
+  },
+  {
+    "id": "racord_7cf9e69d-ef74-405e-b757-31bc83a42aaa",
+    "statement": "Quina mesura s’ha d’aplicar en treballs amb motoserra efectuats a partir de dos metres d’altura?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.5. Seguretat en l’ús de motoserres per al tall d’arbrat\n\nSempre s’ha de prioritzar l’ús d’autoescala i, en treballs a partir de 2 metres, utilitzar tècniques i equips de protecció contra caigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballar des de l’arbre sense cap mitjà d’accés mecànic",
+      "B": "Utilitzar sempre una escala colissa com a plataforma de treball",
+      "C": "Prescindir de sistemes anticaigudes si el tall és de curta durada",
+      "D": "Utilitzar tècniques i equips de protecció contra caigudes, prioritzant l’autoescala"
+    }
+  },
+  {
+    "id": "racord_f7a3dcea-b471-4aa0-9a10-9230e0994975",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte el fre de cadena d'una motosserra:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nEl fre de cadena és un element de seguretat fonamental que atura immediatament el moviment de la cadena en cas de retrocés sobtat (kickback) o quan el bomber l’acciona manualment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Atura immediatament la cadena en cas de retrocés sobtat o quan s’acciona manualment",
+      "B": "Regula la potència del motor durant l’execució del tall",
+      "C": "Només actua quan s’esgota el combustible o la bateria",
+      "D": "Lubrica automàticament la cadena en situacions de sobreescalfament"
+    }
+  },
+  {
+    "id": "racord_ab55919a-912c-4f0a-92b2-ba1007671e39",
+    "statement": "En un tall horitzontal amb un únic punt de recolzament, quin ordre han de seguir els talls?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.2. Tall horitzontal\n\nEn aquest cas, el primer tall serà l’inferior, i el segon el superior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Primer el tall superior i després el tall inferior",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Primer un tall lateral i després un tall inferior",
+      "D": "Primer el tall inferior i després el tall superior"
+    }
+  },
+  {
+    "id": "racord_5e8779df-d547-4eb5-a35a-0efcaa0df1c8",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels tipus de motoserra.",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nSegons l’ús previst, podem trobar diversos tipus de motoserra: les estàndard d’ús general, per a tala i trossejament d’arbres de mida mitjana; les compactes o d’arboricultura, més lleugeres i maniobrables per a treballs en altura o espais reduïts; les de gran espasa, destinades a troncs de gran diàmetre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les motoserres de gran espasa estan destinades a troncs de gran diàmetre",
+      "B": "Les motoserres compactes o d’arboricultura estan destinades principalment a troncs de gran diàmetre",
+      "C": "Les motoserres compactes són més lleugeres i maniobrables",
+      "D": "Les motoserres estàndard d’ús general són adequades per a arbres de mida mitjana"
+    }
+  },
+  {
+    "id": "racord_95bb89eb-ff64-484a-af46-d390389a1f64",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la manipulació i captura de gossos:",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.1. Gossos: comportament, maniobres i signes d’alerta\n\nEn tots els casos és recomanable evitar el contacte visual directe i prolongat, ja que pot ser percebut com una amenaça. La captura es pot fer amb llaç, i en animals agressius o de races potencialment perilloses pot ser necessari recórrer a la captura química. Un cop assegurat, és imprescindible col·locar un morrió, ja sigui comercial o improvisat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un cop assegurat, és imprescindible col·locar-li un morrió",
+      "B": "El contacte visual directe i prolongat pot ser percebut com una amenaça",
+      "C": "La captura es pot efectuar amb un llaç",
+      "D": "És recomanable mantenir un contacte visual directe i prolongat per imposar-se a l’animal"
+    }
+  },
+  {
+    "id": "racord_95ba780a-528c-4c14-8198-7c4950768c51",
+    "statement": "Quina característica presenten els sistemes d’alarma més moderns?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nEn les instal·lacions més modernes, els sistemes són bidireccionals i connectats a centrals que poden verificar i filtrar les activacions abans d’alertar els serveis d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són bidireccionals i les centrals poden verificar i filtrar les activacions",
+      "B": "Només incorporen avisos lluminosos locals",
+      "C": "Funcionen sense connexió amb cap central",
+      "D": "Alerten sempre els serveis d’emergència sense verificació"
+    }
+  },
+  {
+    "id": "racord_e34987e7-81d4-4911-8391-3f40e75b2ec6",
+    "statement": "Quan realitzem treballs amb motosserra, quina mesura és imprescindible sempre que s’hagi de fer caure un element vertical?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.1. Tall vertical\n\nSempre que s’hagi de fer caure un element vertical cal preveure una via d’escapament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Situar un altre bomber dins de la zona de risc B",
+      "B": "Treballar amb dues motoserres simultàniament",
+      "C": "Preveure una via d’escapament",
+      "D": "Retirar la senyalització abans de començar el tall"
+    }
+  },
+  {
+    "id": "racord_8523fcbf-7f22-4da2-9a79-277d4f8fc367",
+    "statement": "Quines prioritats regeixen habitualment les intervencions amb animals en contextos d’emergència?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.1. Introducció\n\nAquestes intervencions solen produir-se en contextos d’emergència, on la seguretat de les persones i la protecció de l’animal esdevenen prioritàries i poden estar directament amenaçades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La captura immediata de l’animal, independentment del risc existent",
+      "B": "La seguretat de les persones i la protecció de l’animal",
+      "C": "La preservació del material operatiu i la reducció de la durada del servei",
+      "D": "L’evacuació de la zona sense valorar l’estat de l’animal"
+    }
+  },
+  {
+    "id": "racord_2490fedb-4cc7-4706-83c0-601d71eb2528",
+    "statement": "Quina funció té l’oli de cadena d'una motosserra?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nL’oli és imprescindible per lubricar la cadena i evitar sobreescalfament i desgast prematur, tant en motoserres de combustió interna com elèctriques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Lubricar la cadena i evitar-ne el sobreescalfament i el desgast prematur",
+      "B": "Augmentar la potència del motor durant els treballs intensius",
+      "C": "Substituir l’esmolat periòdic de les dents de tall",
+      "D": "Refrigerar exclusivament el dipòsit de combustible"
+    }
+  },
+  {
+    "id": "racord_225114fb-9ab7-4fa7-9938-c6b474cc0078",
+    "statement": "Com s’ha de controlar l’ambient abans d’aproximar-se a un animal?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.2. Coneixements generals\n\nControlar l’ambient, reduint sorolls i estímuls: apagar sirenes i senyals acústics, parlar en veu baixa i evitar moviments bruscos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reduint sorolls i estímuls, parlant en veu baixa i evitant moviments bruscos",
+      "B": "Parlant en veu alta per imposar una resposta d’obediència",
+      "C": "Mantenint les sirenes activades per evitar que l’animal s’apropi",
+      "D": "Augmentant els estímuls visuals per dirigir-ne el moviment"
+    }
+  },
+  {
+    "id": "racord_05831ed7-bfb3-466c-9d7f-099b3935a464",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les causes de despreniments en façanes i cobertes:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.2. Retirada d’elements perillosos i sanejament de façanes\n\nEls episodis de vent intens, pluja persistent o el deteriorament progressiu de les estructures poden provocar despreniments d’elements en façanes i cobertes, com ara arrebossats, rajoles, teules, persianes, tendals, vidres o elements metàl·lics i publicitaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pluja persistent pot provocar despreniments",
+      "B": "Els despreniments només es poden produir com a conseqüència directa d’un incendi",
+      "C": "El vent intens pot provocar despreniments",
+      "D": "El deteriorament progressiu de les estructures pot provocar despreniments"
+    }
+  },
+  {
+    "id": "racord_93e24362-c571-4def-9c16-903b2c370600",
+    "statement": "Quin risc físic és especialment important en cavalls i bestiar boví?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.4. Èquids i bòvids (cavalls i bestiar boví)\n\nEls èquids poden mossegar, però el risc més important en tots dos grups són les coces: en el cas dels cavalls, principalment cap enrere, i en el cas dels bovins, també de forma lateral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament les mossegades, sense risc associat a les extremitats",
+      "B": "Les coces, principalment cap enrere en cavalls i també lateralment en bovins",
+      "C": "Els cops d’ales i les becades",
+      "D": "La constricció i els cops de cua"
+    }
+  },
+  {
+    "id": "racord_741743aa-2b5d-46fd-a735-bf2919c827ae",
+    "statement": "En quins casos és legalment possible accedir a un domicili sense el consentiment explícit del propietari?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.1. Marc legal bàsic\n\nLa intervenció que impliqui accedir a un domicili sense consentiment explícit del propietari només és legalment possible en dos casos: Perill potencial per a persones o béns. Ordre o requeriment judicial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan hi ha perill potencial per a persones o béns o una ordre o requeriment judicial",
+      "B": "Quan la porta presenta signes de deteriorament",
+      "C": "Sempre que ho sol·liciti verbalment qualsevol veí",
+      "D": "Només quan hi ha una alarma acústica activa"
+    }
+  },
+  {
+    "id": "racord_a1ed8ce9-1de7-43c6-a8f2-ef4381e375a8",
+    "statement": "Quins paràmetres s’han de valorar abans de realitzar l’obertura?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nAbans de realitzar l’obertura, cal valorar els paràmetres següents: Confirmar que hi ha risc imminent o necessitat justificada. Determinar el tipus de porta i pany. Decidir si l’obertura serà destructiva o no destructiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Només el tipus de porta i el color del pany",
+      "C": "Exclusivament el valor econòmic de l’immoble",
+      "D": "El risc o necessitat, el tipus de porta i pany i el caràcter destructiu o no destructiu de l’obertura"
+    }
+  },
+  {
+    "id": "racord_96534056-e517-430e-957d-20869b05ce94",
+    "statement": "Què s’entén per galga o espessor de la cadena?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nAmplada de la baula motriu (també conegut com galga o espessor).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nombre total de dents de tall",
+      "B": "L’amplada de la baula motriu",
+      "C": "La longitud total de l’espasa",
+      "D": "La distància entre tres reblons dividida per dos"
+    }
+  },
+  {
+    "id": "racord_5487d530-907a-482c-978d-930f81dd603a",
+    "statement": "On són especialment freqüents els panys sobreposats?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nSón especialment freqüents en habitatges antics o com a panys secundaris de reforç.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament en portes cuirassades modernes",
+      "B": "En habitatges antics o com a panys secundaris de reforç",
+      "C": "Només en portes de doble fulla",
+      "D": "Exclusivament en portes interiors de fullola"
+    }
+  },
+  {
+    "id": "racord_4b2178c7-6899-47ff-ae19-4d7124528fcf",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de l’actuació davant d’una porta cuirassada:",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.4. Selecció d’eines segons el tipus de porta\n\nCuirassada. Serra o talladora, accés alternatiu. Alta resistència estructural. Evitar la porta com a via primària, si és possible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot valorar l’ús d’una serra o talladora",
+      "B": "Es pot valorar un accés alternatiu",
+      "C": "S’ha d’evitar la porta com a via primària si és possible",
+      "D": "La porta s’ha de prioritzar sempre com a via principal perquè presenta baixa resistència estructural"
+    }
+  },
+  {
+    "id": "racord_d38a07f4-8c17-47be-99f7-14590b2d263e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del sanejament de façanes:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.2. Retirada d’elements perillosos i sanejament de façanes\n\nAquestes maniobres requereixen treballar amb seguretat en alçada, delimitar l’AGO d’autoprotecció i coordinar-se amb els responsables de l’edifici per assegurar un seguiment posterior de la incidència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal coordinar-se amb els responsables de l’edifici",
+      "B": "Es pot treballar en alçada sense assegurar-se prèviament si l’element és petit",
+      "C": "Cal delimitar l’AGO d’autoprotecció",
+      "D": "S’ha d’assegurar un seguiment posterior de la incidència"
+    }
+  },
+  {
+    "id": "racord_0b904135-7165-4be5-a548-df8b4ccffea4",
+    "statement": "Quines actuacions bàsiques es poden efectuar sobre un element inestable d’una façana?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.2. Retirada d’elements perillosos i sanejament de façanes\n\nRetirar, fixar o sanejar l’element, minimitzant el risc en altres parts de la façana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desplaçar-lo a una altra zona sense assegurar-lo",
+      "B": "Retirar-lo, fixar-lo o sanejar-lo minimitzant el risc sobre altres parts de la façana",
+      "C": "Enderrocar tota la façana per garantir la seguretat",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_f9292b7f-976e-4865-831e-e703d13e40c0",
+    "statement": "Quina recomanació legal s’ha de seguir en cas de dubte sobre l’accés a un domicili?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.1. Marc legal bàsic\n\nEn cas de dubte, actuar amb presència de cossos i forces de seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Accedir immediatament i comunicar-ho un cop finalitzada l’actuació",
+      "B": "Delegar la decisió exclusivament en la propietat de l’immoble",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Actuar amb presència de cossos i forces de seguretat"
+    }
+  },
+  {
+    "id": "racord_4d7fd4ca-9604-4370-949b-5f6f5cc19589",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de l’ús d’absorbents:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.3. Neteja de calçada\n\nL’ús d’absorbents és la tècnica més habitual per al control inicial. Aquests productes retenen el líquid i en faciliten l’absorció. Tanmateix, cal remarcar que la barreja absorbent-contaminant manté el mateix potencial contaminant i ha de ser recollida i gestionada correctament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La barreja d’absorbent i contaminant deixa de ser contaminant i es pot abandonar a la calçada",
+      "B": "Els absorbents retenen el líquid i en faciliten l’absorció",
+      "C": "La barreja resultant s’ha de recollir i gestionar correctament",
+      "D": "Els absorbents són la tècnica més habitual per al control inicial"
+    }
+  },
+  {
+    "id": "racord_40bb67be-a8ae-4bbb-b6ee-8926808834e8",
+    "statement": "Quin és l’objectiu principal de l’actuació davant d’elements inestables en façanes?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.2. Retirada d’elements perillosos i sanejament de façanes\n\nL’actuació dels Bombers té com a objectiu principal eliminar o reduir el perill de manera provisional, mitjançant la retirada, el sanejament o l’assegurament dels elements inestables fins que l’empresa o la propietat responsable pugui realitzar una reparació definitiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retirar tots els elements de la façana encara que siguin estables",
+      "B": "Limitar-se a informar la propietat sense actuar sobre el risc",
+      "C": "Executar sempre la reparació definitiva de la façana",
+      "D": "Eliminar o reduir provisionalment el perill fins que es pugui fer una reparació definitiva"
+    }
+  },
+  {
+    "id": "racord_b39947d6-13af-46d5-91c5-7b98764861b5",
+    "statement": "Indica quina de les afirmacions següents és INCORRECTA respecte de la prevenció de riscos físics i zoonosis:",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.6.2. Prevenció de riscos físics i 2.6.3. Prevenció de zoonosis i paràsits\n\nMantenir distància de seguretat fins a assegurar la contenció. Evitar acorralar l’animal o bloquejar-li totes les vies de fugida ,si no és imprescindible. Evitar el contacte directe amb sang, saliva, orina, femtes o altres fluids. Rentar-se i desinfectar-se les mans després de cada actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal rentar-se i desinfectar-se les mans després de cada actuació",
+      "B": "Cal mantenir una distància de seguretat fins a assegurar la contenció",
+      "C": "És recomanable bloquejar sempre totes les vies de fugida i manipular els fluids sense protecció",
+      "D": "S’ha d’evitar el contacte directe amb sang, saliva, orina, femtes o altres fluids"
+    }
+  },
+  {
+    "id": "racord_b47fb9e9-2db0-4deb-a3f2-11a66d0d01cd",
+    "statement": "Quin element de la motosserra li proporciona la potència necessària per realitzar el tall?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nEl motor, que pot ser de combustió interna amb benzina o elèctric (bateria), és l’element que proporciona la potència necessària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La funda d’espasa",
+      "B": "El fre de cadena",
+      "C": "El captor de cadena",
+      "D": "El motor"
+    }
+  },
+  {
+    "id": "racord_d3a7de3b-88a0-48b0-a7c0-e6369d830cb8",
+    "statement": "Quines parts del cos resulten especialment afectades en els accidents associats a l’ús incorrecte de la motoserra?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.1. Introducció\n\nLes lesions associades solen ser greus i afectar especialment mans, cames i cara, per la qual cosa és imprescindible combinar formació, experiència i ús rigorós de l’Equip de Protecció Individual (EPI).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament els peus i els turmells",
+      "B": "Exclusivament l’esquena i les espatlles",
+      "C": "Principalment el tòrax i l’abdomen",
+      "D": "Les mans, les cames i la cara"
+    }
+  },
+  {
+    "id": "racord_6b31ceb4-7857-4f61-8832-a6ca896a56a6",
+    "statement": "Quina actuació és prioritària davant d’un animal intoxicat per fums?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.5. Situacions d’emergència veterinària\n\nAnimals intoxicats per fums: allunyar-los immediatament de la zona contaminada, administrar oxigen amb màscares adaptades si se’n disposa i mantenir-los en repòs, procurant un ambient tranquil i ventilat fins a l’arribada dels veterinaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Administrar-li aliments abans de retirar-lo de l’atmosfera contaminada",
+      "B": "Fer-lo caminar per comprovar-ne la capacitat respiratòria",
+      "C": "Allunyar-lo de la zona contaminada, administrar oxigen si se’n disposa i mantenir-lo en repòs",
+      "D": "Mantenir-lo dins de la zona contaminada fins que arribi el veterinari"
+    }
+  },
+  {
+    "id": "racord_c569fad7-81f8-4a70-84df-33f89efa9133",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la protecció davant l’exposició a pols de fusta.",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.5. Seguretat en l’ús de motoserres per al tall d’arbrat\n\nExposició a pols de fusta → ús de màscara filtrant tipus FFP3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pantalla facial no substitueix la protecció respiratòria FFP3",
+      "B": "S’ha d’utilitzar una màscara filtrant de tipus FFP3",
+      "C": "Una pantalla facial, sense protecció respiratòria, és suficient davant l’exposició a pols de fusta",
+      "D": "La protecció ha de tenir capacitat de filtració de la pols de fusta"
+    }
+  },
+  {
+    "id": "racord_4645644e-b483-45ff-8d60-cdde278a95a2",
+    "statement": "Com ha d’estar la cadena d'una motosserra per treballar amb seguretat i eficàcia?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nPer treballar amb seguretat i eficàcia, la cadena ha d’estar correctament tensada i esmolada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ajustada sense tenir en compte les indicacions de l’espasa",
+      "B": "Correctament tensada i esmolada",
+      "C": "Destensada i sense esmolar per reduir la velocitat de tall",
+      "D": "Lubricada únicament abans del primer ús de l’eina"
+    }
+  },
+  {
+    "id": "racord_e3929cfb-935f-4efb-83af-5869d92458cb",
+    "statement": "Quina funció correspon a l’empunyadura davantera d'una motosserra?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nLa davantera es fa servir per guiar el tall, mentre que la posterior incorpora l’accelerador i permet regular la potència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Guiar el tall",
+      "B": "Regular la potència mitjançant l’accelerador",
+      "C": "Aturar el motor en cas de retrocés",
+      "D": "Lubricar la cadena"
+    }
+  },
+  {
+    "id": "racord_5226b79a-f034-45e5-944e-ff7bf8a0a6fb",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels panys encastats i sobreposats:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nPanys encastats: són els més habituals en portes exteriors i interiors. Van integrats dins del perfil mateix de la porta. Panys sobreposats: es col·loquen per la cara interior de la porta, de forma visible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els panys sobreposats queden completament ocults dins del perfil de la porta",
+      "B": "Els panys encastats van integrats dins del perfil de la porta",
+      "C": "Els panys sobreposats són visibles",
+      "D": "Els panys sobreposats es col·loquen a la cara interior"
+    }
+  },
+  {
+    "id": "racord_4329050d-4930-46b1-acb2-dc3e19d9a0da",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del criteri d’intervenció amb himenòpters:",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.8. Himenòpters\n\nEl criteri operatiu dels Bombers de la Generalitat estableix que només s’ha d’intervenir quan existeix risc immediat per a persones o béns en espais públics o privats amb afectació directa a tercers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En espais privats, cal que hi hagi afectació directa a tercers",
+      "B": "La intervenció requereix l’existència d’un risc immediat per a persones o béns",
+      "C": "Es pot intervenir en espais públics quan existeix risc immediat",
+      "D": "S’ha d’intervenir sempre en qualsevol eixam situat dins d’una propietat privada, encara que no afecti tercers"
+    }
+  },
+  {
+    "id": "racord_6774f60c-f98f-483f-b137-90c184fc6049",
+    "statement": "Quina reacció pot provocar en un animal la combinació d’estrès, lesions o dolor?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.2. Coneixements generals\n\nL’estrès, sumat a possibles lesions o dolor, pot desencadenar comportaments imprevisibles i potencialment agressius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una resposta sempre passiva davant del contacte humà",
+      "B": "Una disminució automàtica de la capacitat de defensa",
+      "C": "Una conducta estable i fàcilment anticipable",
+      "D": "Comportaments imprevisibles i potencialment agressius"
+    }
+  },
+  {
+    "id": "racord_f7ccb769-de8d-4529-8a79-1f6380b58ee6",
+    "statement": "D'acord amb el manual bàsic d'intervenció en assistències tècniques, quina dimensió ha de tenir la zona de risc A quan existeix perill de caiguda de l’arbre?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.3. Valoració prèvia i condicions d’ús\n\nZona de risc A: quan hi ha perill de caiguda de l’arbre s’ha de delimitar un perímetre de seguretat equivalent a dues vegades i mitja l’alçada de l’arbre, impedint el pas tant de vianants com de vehicles dins d’aquest espai.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un espai limitat exclusivament a la projecció vertical de la capçada",
+      "B": "Un perímetre igual a la meitat de l’alçada de l’arbre",
+      "C": "Un radi fix de dos metres al voltant de l’operador",
+      "D": "Un perímetre equivalent a dues vegades i mitja l’alçada de l’arbre"
+    }
+  },
+  {
+    "id": "racord_2bdf088f-a355-4a10-a983-5383e56c8824",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte dels entorns operatius d’ús de la motoserra.",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.1. Introducció\n\nA nivell operatiu, l’ús de la motoserra pot aparèixer en entorns molt diversos: zones urbanes amb espais reduïts, carreteres amb trànsit, entorns forestals amb vegetació densa, o treballs en altura per a la retirada de branques. Cadascun d’aquests escenaris exigeix tècniques específiques i una planificació acurada per minimitzar riscos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La motoserra només s’utilitza en entorns forestals amb vegetació densa",
+      "B": "Les mateixes tècniques són aplicables a tots els entorns sense necessitat de planificació diferenciada",
+      "C": "Cada entorn exigeix tècniques específiques i una planificació acurada per minimitzar els riscos",
+      "D": "Els treballs en altura no formen part dels escenaris d’ús de la motoserra"
+    }
+  },
+  {
+    "id": "racord_6f45ecea-4558-4ad4-a7e1-f5df12aa6de5",
+    "statement": "Quin tipus d’obertura correspon a un salvament urgent amb una persona inconscient o en risc imminent?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nSalvament urgent. Persona inconscient o en risc imminent. Obertura immediata, destructiva si cal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un accés alternatiu únicament per finestres",
+      "B": "Una actuació ajornada fins a localitzar la propietat",
+      "C": "Una obertura immediata, destructiva si cal",
+      "D": "Una tècnica no destructiva obligatòria encara que retardi l’accés"
+    }
+  },
+  {
+    "id": "racord_d89717d2-b642-427a-af49-40b4564ba49f",
+    "statement": "Quan es duu a terme un servei de neteja de calçada?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.3. Neteja de calçada\n\nLa neteja de calçada és un servei habitual que els Bombers duen a terme quan, a causa d’un vessament o de la presència d’objectes a la via, es genera un risc per a la població, la circulació rodada o per als vianants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan hi ha un accident amb víctimes",
+      "B": "Quan un vessament o objectes a la via generen risc per a la població, el trànsit o els vianants",
+      "C": "Quan la via està bruta però no existeix cap risc",
+      "D": "Exclusivament quan el vessament és de gran magnitud NRBQ"
+    }
+  },
+  {
+    "id": "racord_f14311e5-2040-416e-b60e-930a9e3650b5",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la captura física.",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.3. Estils de captura: física i química\n\nLa captura física engloba recursos de baixa tecnologia però molt útils: guants gruixuts per evitar mossegades, tovalloles per reduir l’estrès visual, llaços per a mamífers mitjans o rèptils grans, salabres per a animals petits i xarxes de niló per a situacions variades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot incloure guants gruixuts, tovalloles, llaços, salabres i xarxes de niló",
+      "B": "Requereix obligatòriament l’ús de dards amb anestèsic",
+      "C": "Només és adequada per a animals grans i agressius",
+      "D": "Es basa exclusivament en tècniques d’immobilització manual"
+    }
+  },
+  {
+    "id": "racord_f6665deb-cf6e-42a4-a136-5f924224deaf",
+    "statement": "Què s’ha de confirmar durant la verificació inicial d’una alarma?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nVerificació inicial: Confirmar amb el personal responsable, propietat o empresa de seguretat si l’activació respon a incendi, intrusió o avaria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si l’activació respon a incendi, intrusió o avaria",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Només si la bateria de la central està carregada",
+      "D": "Únicament si l’altaveu exterior funciona correctament"
+    }
+  },
+  {
+    "id": "racord_5130279d-f5e3-4c42-a6bb-ca28a06eccd3",
+    "statement": "Quin és el principal perill quan porcs o ovelles es troben en grup?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.3. Suids i òvids (porcs i ovelles)\n\nEl principal perill és l’estampida, ja que el pànic col·lectiu pot provocar lesions tant en els animals com en les persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pèrdua d’orientació individual sense afectació al grup",
+      "B": "La impossibilitat de dirigir-los mitjançant elements de conducció",
+      "C": "L’absència de resposta davant dels estímuls externs",
+      "D": "L’estampida provocada pel pànic col·lectiu"
+    }
+  },
+  {
+    "id": "racord_41469b58-f045-4943-839b-a5026397c7df",
+    "statement": "Quina relació existeix entre la longitud de l’espasa d'una motosserra i el tipus de treball?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nLa seva longitud varia en funció del tipus de treball: una espasa curta ofereix més precisió en espais reduïts, mentre que una espasa llarga és adequada per tallar troncs de gran diàmetre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’espasa curta és exclusiva per a troncs de gran diàmetre i la llarga per a espais reduïts",
+      "B": "L’espasa curta ofereix més precisió i l’espasa llarga és adequada per a troncs de gran diàmetre",
+      "C": "La longitud de l’espasa no condiciona el tipus de treball",
+      "D": "L’espasa llarga només és adequada per a treballs interiors"
+    }
+  },
+  {
+    "id": "racord_ed563095-0a33-4ace-8cfd-d8bdccdbbdcf",
+    "statement": "Quina és la finalitat de les assistències tècniques que requereixen la participació dels serveis d’emergències?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n1. Introducció\n\nEs tracta d’intervencions que, tot i no estar directament vinculades amb incendis o salvaments urgents, exigeixen la participació dels serveis d’emergències per protegir la vida, els béns i el medi ambient.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir la vida, els béns i el medi ambient",
+      "B": "Atendre exclusivament actuacions relacionades amb incendis i salvaments urgents",
+      "C": "Substituir els serveis de manteniment ordinaris de titularitat pública o privada",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_652e7714-06dc-4945-987b-d3ca24ed4e46",
+    "statement": "Quan s’ha d’aplicar una maniobra específica de tall de troncs de gran diàmetre?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.3. Tall de troncs de gran diàmetre\n\nQuan el diàmetre del tronc sigui major que la longitud de l’espasa, la maniobra per a tallar cal executar-la com s’indica a la figura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan el diàmetre del tronc és inferior a la meitat de l’espasa",
+      "B": "Quan s’utilitza una motoserra elèctrica o de bateria",
+      "C": "Quan el tronc només té un punt de recolzament",
+      "D": "Quan el diàmetre del tronc és superior a la longitud de l’espasa"
+    }
+  },
+  {
+    "id": "racord_4a35a19c-f133-498e-b532-1e5734c371d8",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del marc legal d’accés a domicilis:",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.1. Marc legal bàsic\n\nLa intervenció que impliqui accedir a un domicili sense consentiment explícit del propietari només és legalment possible en dos casos: Perill potencial per a persones o béns. Ordre o requeriment judicial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sense consentiment, l’accés queda limitat als supòsits legalment previstos",
+      "B": "Una ordre o requeriment judicial pot justificar legalment l’accés",
+      "C": "El perill potencial per a persones o béns pot justificar legalment l’accés",
+      "D": "La simple necessitat de comprovar l’estat d’un pany autoritza l’accés sense consentiment"
+    }
+  },
+  {
+    "id": "racord_0de83814-8c52-40e8-94b1-6b7a86826887",
+    "statement": "Quins elements són visibles habitualment en un pany encastat?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nVan integrats dins del perfil mateix de la porta, de manera que només són visibles l’escut exterior, el forat del bombí i el pestell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’escut exterior, el forat del bombí i el pestell",
+      "B": "Tota la caixa metàl·lica del mecanisme",
+      "C": "Només la barra de seguretat interior",
+      "D": "La cadena de seguretat i el forrellat"
+    }
+  },
+  {
+    "id": "racord_1368a70a-84e7-4272-9afa-760b11f01fef",
+    "statement": "Quina funció té el mecanisme d’avís d’una alarma?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nMecanisme d’avís, normalment acústic i/o lluminós, destinat a alertar l’entorn i sovint a transmetre senyal a una central receptora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Neutralitzar automàticament qualsevol risc existent",
+      "B": "Detectar exclusivament canvis de temperatura",
+      "C": "Desconnectar l’alimentació de tot l’edifici",
+      "D": "Alertar l’entorn i, sovint, transmetre un senyal a una central receptora"
+    }
+  },
+  {
+    "id": "racord_cd7df9c0-7957-45c8-9a38-27738bb76122",
+    "statement": "Quina característica operativa presenten generalment els panys encastats?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nSón més discrets i, en general, estan millor protegits, ja que la seva estructura queda oculta dins la fusta o el material de la porta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No queden integrats dins del material de la porta",
+      "B": "Són més visibles perquè la caixa metàl·lica queda totalment exposada",
+      "C": "Són més discrets i estan millor protegits perquè l’estructura queda oculta",
+      "D": "Són exclusius d’habitatges antics"
+    }
+  },
+  {
+    "id": "racord_7379ec5a-afd1-43d4-a262-3385dfd2e05d",
+    "statement": "Com s’ha d’actuar davant d’un gos que emet un lladruc agut i repetitiu?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.1. Gossos: comportament, maniobres i signes d’alerta\n\nUn lladruc agut i repetitiu reflecteix inseguretat i nerviosisme; en aquests casos convé no acorralar l’animal i deixar-li sempre una via d’escapament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenint un contacte visual directe i prolongat",
+      "B": "Aproximant-s’hi ràpidament per reduir el temps d’exposició",
+      "C": "Evitant acorralar-lo i deixant-li una via d’escapament",
+      "D": "Bloquejant totes les vies de fugida per limitar-ne la mobilitat"
+    }
+  },
+  {
+    "id": "racord_9f924ecd-f01f-46df-a3c2-39056f68a362",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les abelles i les vespes:",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.8. Himenòpters\n\nNormalment no són agressives, tret que es vegi amenaçat el rusc. Són més agressives que les abelles davant el perill, sobretot quan perceben que el niu està amenaçat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les vespes no reaccionen encara que el niu es vegi amenaçat",
+      "B": "Les abelles són sempre més agressives que les vespes",
+      "C": "Les abelles normalment no són agressives si no s’amenaça el rusc, mentre que les vespes són més agressives davant del perill",
+      "D": "Les dues espècies presenten necessàriament el mateix comportament defensiu"
+    }
+  },
+  {
+    "id": "racord_e2c11108-e9c4-4727-9899-06de649f405e",
+    "statement": "Quina actuació és recomanable per manipular una serp amb seguretat?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.7. Rèptils\n\nEn el cas de les serps, és recomanable utilitzar ganxos o pinces que permetin mantenir distància de seguretat amb el cap o oferir-los un recinte fosc on entrar i amagar-se per poder-los enretirar del lloc on es troben.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subjectar-la directament pel cap amb les mans nues",
+      "B": "Agafar-la per l’extrem de la cua i aixecar-la",
+      "C": "Utilitzar ganxos o pinces que permetin mantenir distància amb el cap",
+      "D": "Bloquejar-la amb el cos abans d’utilitzar cap eina"
+    }
+  },
+  {
+    "id": "racord_96974e0f-3a6d-4408-a3dc-4e4ec4ec014c",
+    "statement": "Quins requisits exigeixen les assistències tècniques encara que no impliquin un risc vital immediat?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5. Altres assistències tècniques\n\nAquestes actuacions, tot i que no sempre impliquen un risc vital immediat, requereixen criteris de seguretat, valoració prèvia i coneixements específics per part del personal intervinent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament rapidesa i disponibilitat de material",
+      "B": "Només autorització de la propietat",
+      "C": "Criteris de seguretat, valoració prèvia i coneixements específics",
+      "D": "Exclusivament presència policial"
+    }
+  },
+  {
+    "id": "racord_385c236a-65cf-406a-9fce-57a87a048c88",
+    "statement": "Quins criteris determinen l’elecció entre la captura física i la captura química?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.3. Estils de captura: física i química\n\nL’elecció entre un mètode o un altre dependrà sempre de l’espècie, la mida, el comportament i les condicions de l’entorn.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament el pes de l’animal i la durada prevista del servei",
+      "B": "L’espècie, la mida, el comportament i les condicions de l’entorn",
+      "C": "El nombre d’intervinents i la distància fins al parc",
+      "D": "Exclusivament la disponibilitat de material de captura"
+    }
+  },
+  {
+    "id": "racord_977504f6-9e2b-4396-aa77-d328908e924b",
+    "statement": "En intervencions amb motosserra, quina actuació s’ha de realitzar després de l’anàlisi inicial de l’entorn?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.3. Valoració prèvia i condicions d’ús\n\nTot seguit cal delimitar l’AGO (Àrea General d’Operacions) d’autoprotecció, establint un perímetre de seguretat clarament senyalitzat amb cintes o cons, i restringint-hi l’accés només a personal autoritzat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permetre el pas de vianants si es mantenen fora de la zona de risc B",
+      "B": "Delimitar l’AGO amb un perímetre senyalitzat i restringir-hi l’accés al personal autoritzat",
+      "C": "Iniciar immediatament el tall abans que canviïn les condicions de l’entorn",
+      "D": "Retirar la senyalització per facilitar l’accés dels serveis municipals"
+    }
+  },
+  {
+    "id": "racord_23c8bb79-4bf1-41fa-8b58-14ccb0f1444b",
+    "statement": "Quan és especialment important documentar l’actuació d’accés a un habitatge?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.1. Marc legal bàsic\n\nDocumentar sempre l’actuació, especialment si no hi ha presència policial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan l’obertura ha estat no destructiva",
+      "B": "Únicament quan no s’ha pogut accedir a l’habitatge",
+      "C": "Només si la propietat ho demana expressament",
+      "D": "Sempre, i especialment quan no hi ha presència policial"
+    }
+  },
+  {
+    "id": "racord_797ffef9-69db-4c1d-8ad3-7ba0320f89d0",
+    "statement": "Indica quina de les afirmacions següents és INCORRECTA respecte de les particularitats que cal considerar en una assistència tècnica.",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n1. Introducció\n\nCada assistència tècnica presenta particularitats pròpies que cal tenir en compte: Riscos específics, que s’han d’identificar i minimitzar. Equipament i tècniques adequades a cada entorn i situació. Marc legal que fixa els límits i responsabilitats de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El marc legal no condiciona els límits ni les responsabilitats de la intervenció",
+      "B": "Cal identificar i minimitzar els riscos específics",
+      "C": "El marc legal fixa els límits i les responsabilitats de la intervenció",
+      "D": "S’han d’emprar equipaments i tècniques adequats a cada entorn i situació"
+    }
+  },
+  {
+    "id": "racord_2f1669d7-8cb9-422b-b255-2379cf17e821",
+    "statement": "Quina funció compleix l’espasa o barra guia de la motoserra?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nL’espasa, també anomenada barra guia, és la peça metàl·lica allargada sobre la qual es desplaça la cadena.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la peça metàl·lica allargada sobre la qual es desplaça la cadena",
+      "B": "És el dipòsit destinat a l’oli de lubricació de la cadena",
+      "C": "És l’element que regula la potència mitjançant l’accelerador",
+      "D": "És el dispositiu que atura automàticament el motor en cas de retrocés"
+    }
+  },
+  {
+    "id": "racord_34b59e8e-51ee-40b0-9f69-f18abfa8c4e9",
+    "statement": "Quins elements poden condicionar l’accés encara que la dificultat no es trobi en el pany?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.2. Altres sistemes de bloqueig\n\nNo totes les dificultats estan en el pany. També poden condicionar l'accés: Cadena de seguretat, forrellat o baldó interior. Barra de seguretat (per dins). Tancament electrònic o intel·ligent. Sistema doble (porta + reixa). Porta de doble fulla amb pestells interns.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament el bombí i l’escut exterior",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Exclusivament el material de la fulla de la porta",
+      "D": "Cadenes, forrellats, barres interiors, tancaments electrònics, reixes o pestells interns"
+    }
+  },
+  {
+    "id": "racord_3c6e21e2-9205-4216-86cb-bc74a66bb789",
+    "statement": "Quins riscos de l’entorn s’han d’identificar abans d’iniciar un treball amb motoserra?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.3. Valoració prèvia i condicions d’ús\n\nAquesta valoració comença amb l’anàlisi de l’entorn immediat, identificant possibles riscos com branques o troncs en tensió que puguin desplaçar-se de forma sobtada, cables elèctrics a prop de la zona de tall, trànsit rodat, presència de persones o animals, i condicions meteorològiques adverses com vent fort, pluja o neu que puguin comprometre l’estabilitat i la visibilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Branques o troncs en tensió, cables elèctrics, trànsit, persones o animals i meteorologia adversa",
+      "C": "Exclusivament el diàmetre del tronc i el tipus de cadena",
+      "D": "Únicament la longitud de l’espasa i el nivell de combustible"
+    }
+  },
+  {
+    "id": "racord_a845ff85-a320-480a-9f57-32be5469f4ea",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte dels components bàsics d’una alarma:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nUna alarma es compon, bàsicament, de dos elements principals: Mecanisme detector, que pot ser un sensor de moviment, un detector tèrmic, de fum, de pressió, o altres sistemes electrònics. Mecanisme d’avís, normalment acústic i/o lluminós, destinat a alertar l’entorn i sovint a transmetre senyal a una central receptora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es compon únicament d’un altaveu exterior",
+      "B": "Es compon d’un mecanisme detector i d’un mecanisme d’avís",
+      "C": "El mecanisme detector només pot ser un sensor de moviment",
+      "D": "El mecanisme d’avís no pot transmetre senyal a una central"
+    }
+  },
+  {
+    "id": "racord_93d51b3e-7a1d-4bc1-8277-f0c8a3adce2b",
+    "statement": "Quina estructura presenta una porta blindada?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3. Tipologia de portes\n\nBlindada – Porta de fusta massissa amb reforços metàl·lics puntuals. Premarc parcialment metàl·lic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fusta massissa amb reforços metàl·lics puntuals i premarc parcialment metàl·lic",
+      "B": "Fusta sense cap reforç metàl·lic ni premarc",
+      "C": "Fullola interior amb tancament senzill",
+      "D": "Estructura interior totalment metàl·lica amb marc de gran resistència"
+    }
+  },
+  {
+    "id": "racord_6125fc7f-d3e9-4368-8db7-67ed7a566aa9",
+    "statement": "Quin és l’objectiu principal de la intervenció davant l’activació d’una alarma?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nL’objectiu principal de la intervenció és verificar la realitat de l’activació i descartar qualsevol risc per a les persones, els béns o les instal·lacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desconnectar sempre el sistema abans de comprovar-ne la causa",
+      "B": "Substituir els components avariats de la instal·lació",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Verificar la realitat de l’activació i descartar riscos per a persones, béns o instal·lacions"
+    }
+  },
+  {
+    "id": "racord_f2cd1097-f864-43ae-913a-a96ad96634a8",
+    "statement": "Quines actuacions es poden efectuar sobre una alarma antirobatori accidental a petició de la policia?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nSi es tracta d’una alarma antirobatori accidental, a petició de la policia es pot: Tallar el cable de l’altaveu o altaveu exterior. Anul·lar el fusible d’alimentació. Desconnectar la bateria de la central.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desmuntar completament la central d’alarma",
+      "B": "Manipular tots els detectors d’incendi de l’edifici",
+      "C": "Tallar el cable de l’altaveu, anul·lar el fusible o desconnectar la bateria de la central",
+      "D": "Substituir el sistema per un altre de provisional"
+    }
+  },
+  {
+    "id": "racord_b7ba28ad-d722-4abb-8626-caf9d4724922",
+    "statement": "Quin criteri general s’ha de seguir en una intervenció amb fauna salvatge sense risc immediat?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.5. Mamífers salvatges\n\nLa intervenció amb fauna salvatge requereix un plantejament diferent: sempre que sigui possible, és preferible oferir a l’animal una via de fugida i evitar la captura, si no hi ha risc immediat per a persones o infraestructures.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejar-li totes les vies de sortida abans de valorar el risc",
+      "B": "Oferir-li una via de fugida i evitar-ne la captura",
+      "C": "Capturar-lo sempre per evitar que abandoni la zona",
+      "D": "Recórrer directament a la captura química"
+    }
+  },
+  {
+    "id": "racord_fa826928-e3d4-4700-a5af-2ab371c70b5f",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte del rescat d’un gat situat en un arbre.",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.2. Gats: comportament, maniobres i signes d’alerta\n\nPer aquest motiu, abans d’intervenir, és recomanable confirmar que el gat porta almenys 24 hores a l’arbre. Només en aquest cas es considera justificat assumir els riscos que comporta una maniobra de rescat en alçada, ja que la seguretat del bomber ha de prevaldre davant una situació que, habitualment, es resol de manera natural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal intervenir immediatament sempre que el gat no baixi en els primers trenta minuts",
+      "B": "Abans d’intervenir, és recomanable confirmar que el gat porta almenys 24 hores a l’arbre",
+      "C": "La immobilitat del gat indica necessàriament una incapacitat real per baixar",
+      "D": "La seguretat del bomber queda subordinada a la rapidesa del rescat"
+    }
+  },
+  {
+    "id": "racord_d852074f-80de-4302-af6b-eda4d6099fba",
+    "statement": "Com estan instal·lats els panys sobreposats?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nPanys sobreposats: es col·loquen per la cara interior de la porta, de forma visible, i són especialment freqüents en habitatges antics o com a panys secundaris de reforç.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la cara interior de la porta i de forma visible",
+      "B": "Exclusivament dins del premarc metàl·lic",
+      "C": "Integrats completament dins del perfil de la porta",
+      "D": "A la cara exterior i ocults sota l’escut"
+    }
+  },
+  {
+    "id": "racord_308f9b16-4cc6-4546-a9a7-62ccae251982",
+    "statement": "Què indica habitualment un lladruc feble i espaiat en un gos?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.1. Gossos: comportament, maniobres i signes d’alerta\n\nUn lladruc feble i espaiat indica incertesa o actitud indefinida, i aconsella actuar amb calma i seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incertesa o actitud indefinida",
+      "B": "Agressivitat immediata i voluntat d’atac",
+      "C": "Seguretat i voluntat clara de defensar-se",
+      "D": "Absència total d’estrès i disposició al contacte"
+    }
+  },
+  {
+    "id": "racord_5ce70db8-e959-4842-ba6f-704ba1530f9e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la classificació de l’actuació segons la urgència:",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nTreball. Requereix accés, però sense risc immediat per a les persones. Tècniques no destructives o accés alternatiu (finestres, etc.).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La categoria de treball correspon a una situació sense risc immediat per a les persones",
+      "B": "En una actuació de treball es pot valorar un accés alternatiu",
+      "C": "En una actuació de treball es poden utilitzar tècniques no destructives",
+      "D": "En una actuació de treball sense risc immediat s’ha de prioritzar necessàriament l’obertura destructiva"
+    }
+  },
+  {
+    "id": "racord_c22f34da-4b83-48de-a115-47fd58eadc76",
+    "statement": "Quina característica defineix una porta de fusta massissa?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3. Tipologia de portes\n\nFusta massissa – Porta exterior robusta, habitualment amb diversos punts de tancament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Té un premarc sempre parcialment metàl·lic",
+      "B": "És una porta exterior robusta i habitualment amb diversos punts de tancament",
+      "C": "És una porta interior poc resistent amb tancament senzill",
+      "D": "Disposa necessàriament d’estructura interior totalment metàl·lica"
+    }
+  },
+  {
+    "id": "racord_88fcaad6-b774-401c-a136-8e337574191a",
+    "statement": "Quina tècnica és especialment útil per immobilitzar un gat i reduir-ne els estímuls visuals?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.2. Gats: comportament, maniobres i signes d’alerta\n\nUna tècnica molt útil és embolicar l’animal amb una tovallola, que pot servir tant per immobilitzar-lo com per tapar-li la cara i reduir els estímuls visuals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transportar-lo sense cap mena de contenció",
+      "B": "Subjectar-lo únicament per les potes posteriors",
+      "C": "Utilitzar sempre un llaç de captura",
+      "D": "Embolicar-lo amb una tovallola"
+    }
+  },
+  {
+    "id": "racord_db25d4c6-b2a6-419d-b2e1-9c318588a478",
+    "statement": "Quin és l’objectiu principal de l’obertura de portes en les actuacions dels Bombers?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4. Intervencions amb accés a habitatges en entorn urbà\n\nL’obertura de portes és una acció habitual en les actuacions de Bombers, on l’objectiu principal és obtenir un accés ràpid, segur i amb la mínima afectació possible a la porta i a l’immoble, sempre que la situació ho permeti.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Obtenir un accés ràpid, segur i amb la mínima afectació possible a la porta i a l’immoble",
+      "B": "Forçar sempre la porta principal amb la màxima rapidesa, independentment dels danys",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Accedir únicament mitjançant finestres o balcons"
+    }
+  },
+  {
+    "id": "racord_05f44da4-f4a7-428a-9bf8-c6bc4f08fe63",
+    "statement": "En un tall horitzontal amb dos punts de recolzament, quin ordre han de seguir els talls?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.2. Tall horitzontal\n\nPrimer tall, part superior, segon tall, part inferior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dos talls s’han de fer simultàniament",
+      "B": "Primer per la part inferior i després per la part superior",
+      "C": "L’ordre és indiferent si la cadena està correctament tensada",
+      "D": "Primer per la part superior i després per la part inferior"
+    }
+  },
+  {
+    "id": "racord_4b88adc7-336b-4d1b-968c-25543567c01d",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la tipologia de portes:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3. Tipologia de portes\n\nFullola – Porta interior poc resistent, normalment amb tancament senzill. Fusta massissa – Porta exterior robusta, habitualment amb diversos punts de tancament. Blindada – Porta de fusta massissa amb reforços metàl·lics puntuals. Premarc parcialment metàl·lic. Cuirassada – Estructura interior totalment metàl·lica, premarc i marc metàl·lic de gran resistència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La porta cuirassada té premarc i marc metàl·lics de gran resistència",
+      "B": "La porta de fullola presenta una estructura interior totalment metàl·lica de gran resistència",
+      "C": "La porta blindada incorpora reforços metàl·lics puntuals",
+      "D": "La porta de fusta massissa és habitualment robusta"
+    }
+  },
+  {
+    "id": "racord_36ff8298-0ac0-41a9-aeed-936ca97b4b7b",
+    "statement": "Quin tipus d’obertura correspon a un rescat d’una persona atrapada o amb símptomes mèdics, però conscient?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nRescat. Persona atrapada o amb símptomes mèdics, però conscient. Tècnica ràpida amb dany mínim.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una obertura destructiva obligatòria en tots els casos",
+      "B": "Una tècnica ràpida amb dany mínim",
+      "C": "Una tècnica lenta sense considerar l’estat de la persona",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_1c28ecf4-95bf-405f-a33c-4ca3c4942398",
+    "statement": "Quines situacions poden motivar l’obertura d’una porta?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4. Intervencions amb accés a habitatges en entorn urbà\n\nLes circumstàncies que poden motivar una obertura de porta són molt diverses: des de l’accés a un habitatge on es troba una persona que no pot obrir la porta perquè està inconscient, ferida o no té les capacitats per fer-ho, fins a la necessitat d’entrar en un habitatge o local afectat per un incendi, una fuita de gas, una inundació, per verificar alarmes o neutralitzar riscos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una persona que no pot obrir perquè està inconscient, un incendi, una fuita de gas, una inundació, la verificació d’alarmes o la neutralització de riscos",
+      "B": "Únicament els incendis estructurals amb flames visibles",
+      "C": "Només les situacions en què hi ha una ordre judicial prèvia",
+      "D": "Exclusivament la pèrdua de claus per part de la propietat"
+    }
+  },
+  {
+    "id": "racord_f599543a-ef2e-4858-91da-a91e62bfb02b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de l’activació accidental o persistent d’una alarma:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nAquestes incidències, si bé no solen comportar un risc immediat, poden generar alarma social entre la població i mobilitzar recursos d’emergència de manera innecessària, amb impacte en la disponibilitat operativa del servei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aquestes incidències no tenen cap impacte sobre la disponibilitat operativa del servei",
+      "B": "Poden generar alarma social entre la població",
+      "C": "Habitualment no comporten un risc immediat",
+      "D": "Poden mobilitzar recursos d’emergència de manera innecessària"
+    }
+  },
+  {
+    "id": "racord_8e8122ad-32ad-4a77-ac35-4068133d763c",
+    "statement": "Quina característica defineix una porta de fullola?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3. Tipologia de portes\n\nFullola – Porta interior poc resistent, normalment amb tancament senzill.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una porta exterior robusta amb diversos punts de tancament",
+      "B": "És una porta de fusta massissa amb reforços metàl·lics puntuals",
+      "C": "Té una estructura interior totalment metàl·lica",
+      "D": "És una porta interior poc resistent i normalment amb tancament senzill"
+    }
+  },
+  {
+    "id": "racord_fdf8eb1f-8cd3-4361-8f5e-4ffe99a02ab9",
+    "statement": "Quins tipus d’animals poden estar implicats en les intervencions dels Bombers?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.1. Introducció\n\nEs tracta d’actuacions molt diverses que poden implicar animals domèstics i de companyia, bestiar de producció, fauna salvatge autòctona o fins i tot espècies exòtiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Animals domèstics i de companyia, bestiar de producció, fauna salvatge autòctona i espècies exòtiques",
+      "B": "Únicament animals domèstics i bestiar de producció",
+      "C": "Exclusivament fauna salvatge autòctona en espais naturals",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_97506d7b-d2d6-4db7-b783-1bb2e9248a3a",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte dels riscos d’un vessament a la calçada:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.3. Neteja de calçada\n\nEn cas de vessament, cal tenir en compte dos riscos principals: Seguretat viària: el paviment esdevé extremadament lliscant i augmenta el perill d’accidents. Contaminació ambiental: la pluja o el drenatge pot arrossegar el producte vessat, que sol contenir additius i compostos químics tòxics, i pot contaminar l���aigua i el sòl.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pluja elimina el producte sense generar contaminació",
+      "B": "Pot augmentar el risc d’accidents i contaminar l’aigua i el sòl",
+      "C": "Només comporta un risc estètic per a la via",
+      "D": "Els vessaments no afecten la seguretat viària"
+    }
+  },
+  {
+    "id": "racord_711e94ef-9754-4c94-8d1d-7a49515b6323",
+    "statement": "Quina assistència poden oferir els bombers a un animal mentre no arriba un veterinari professional?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.1. Introducció\n\nAixò significa que els bombers no només poden intervenir per treure l’animal d’una situació de risc, sinó que també poden oferir una primera assistència sanitària immediata al lloc del sinistre, mentre no arribi un veterinari professional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una intervenció quirúrgica d’urgència",
+      "B": "Un tractament veterinari complet i definitiu",
+      "C": "Una captura química sense supervisió especialitzada",
+      "D": "Una primera assistència sanitària immediata al lloc del sinistre"
+    }
+  },
+  {
+    "id": "racord_2d267f11-2391-40f3-bbaa-b4f81e5414c1",
+    "statement": "Com es calcula el pas de cadena d'una motosserra?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nPas de cadena (distància entre tres reblons dividit per 2)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comptant exclusivament el nombre de baules motrius",
+      "B": "Mesurant la longitud total de l’espasa",
+      "C": "Dividint per dos la distància entre tres reblons",
+      "D": "Multiplicant per dos la distància entre dues dents de tall"
+    }
+  },
+  {
+    "id": "racord_1bc3ea98-15be-4ef5-a948-ea1470b8be02",
+    "statement": "Quin tipus de motoserra és adequat per a la tala i el trossejament d’arbres de mida mitjana?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nSegons l’ús previst, podem trobar diversos tipus de motoserra: les estàndard d’ús general, per a tala i trossejament d’arbres de mida mitjana; les compactes o d’arboricultura, més lleugeres i maniobrables per a treballs en altura o espais reduïts; les de gran espasa, destinades a troncs de gran diàmetre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "La motoserra de gran espasa",
+      "C": "La motoserra compacta o d’arboricultura",
+      "D": "La motoserra estàndard d’ús general"
+    }
+  },
+  {
+    "id": "racord_8f8a3d53-24b5-4198-8182-a70b899a7c2f",
+    "statement": "Quines comprovacions s’han de fer en totes les motoserres abans de començar el treball?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.3. Valoració prèvia i condicions d’ús\n\nEn tots els casos, s’ha de revisar la tensió i l’esmolat de la cadena, assegurar que el fre de cadena i la palanca de seguretat funcionen correctament, i inspeccionar l’espasa, el pinyó i les proteccions addicionals per detectar qualsevol desgast o avaria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprovar únicament el nivell de combustible o la càrrega de la bateria",
+      "B": "Posar en marxa l’eina abans d’inspeccionar els dispositius de seguretat",
+      "C": "Revisar només l’esmolat, sense comprovar la tensió de la cadena",
+      "D": "Revisar la cadena, el fre, la palanca de seguretat, l’espasa, el pinyó i les proteccions"
+    }
+  },
+  {
+    "id": "racord_097d8a99-ba71-4817-9456-4ea179f8ee7b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels equips de protecció individual.",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.5. Seguretat en l’ús de motoserres per al tall d’arbrat\n\nEls pantalons antitall i les canyalleres ofereixen una barrera eficaç davant contactes accidentals amb la cadena. Els guants específics permeten mantenir un bona subjecció de l’eina i redueixen el risc de lesions per talls o vibracions. Els protectors de sabates, protegeixen el peu d’impactes i penetracions. El casc ha d’incorporar pantalla facial i cal garantir protecció ocular davant possibles projeccions i fragments. La protecció auditiva també és essencial i pot anar integrada al casc o cal usar taps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La protecció auditiva és prescindible quan la motoserra s’utilitza durant períodes curts",
+      "B": "Els guants específics milloren la subjecció i redueixen riscos de tall o vibració",
+      "C": "El casc ha d’incorporar pantalla facial i protecció ocular",
+      "D": "Els pantalons antitall i les canyelleres protegeixen davant contactes accidentals amb la cadena"
+    }
+  },
+  {
+    "id": "racord_9195bf3f-178e-4174-8a59-236b4ccda8fb",
+    "statement": "Quina funció correspon a l’empunyadura posterior d'una motosserra?",
+    "correct": "D",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.2.1. Tipus de motoserres i parts principals\n\nLa davantera es fa servir per guiar el tall, mentre que la posterior incorpora l’accelerador i permet regular la potència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir la punta de l’espasa durant el transport",
+      "B": "Aturar la cadena en cas de retrocés",
+      "C": "Guiar exclusivament la direcció del tall",
+      "D": "Incorporar l’accelerador i permetre regular la potència"
+    }
+  },
+  {
+    "id": "racord_7f375d4c-da16-4505-a8c2-9eb91342c6d9",
+    "statement": "D'acord amb el manual bàsic d'intervenció en assistències tècniques, indiqueu quina de les afirmacions següents és INCORRECTA respecte de la zona de risc B.",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.3. Valoració prèvia i condicions d’ús\n\nZona de risc B: espai immediat al voltant de l’operador de la motoserra. No hi pot haver ningú —ni tan sols altres bombers— dins d’un radi mínim de 2 metres al voltant del bomber que realitza el tall, per evitar riscos de contacte amb la cadena o projecció de fragments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva finalitat és evitar el contacte amb la cadena i la projecció de fragments",
+      "B": "Altres bombers poden situar-se a menys de dos metres de l’operador si utilitzen EPI complet",
+      "C": "És l’espai immediat al voltant de l’operador",
+      "D": "Ha de mantenir-se un radi mínim de dos metres"
+    }
+  },
+  {
+    "id": "racord_e9c96543-39de-4ae6-86f8-5c7940fba90f",
+    "statement": "Quina actuació s’ha de seguir quan realitzem treballs amb motosserra en zones pròximes a línies elèctriques?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.5. Seguretat en l’ús de motoserres per al tall d’arbrat\n\nEn zones amb proximitat a línies elèctriques, l’actuació no es pot iniciar fins que s’hagi confirmat el tall del subministrament. A més, cal respectar estrictament les distàncies mínimes de seguretat de treball en funció del voltatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Iniciar el tall mantenint únicament una distància visual respecte del cable",
+      "B": "Prescindir de les distàncies de seguretat quan el voltatge és desconegut",
+      "C": "No iniciar l’actuació fins a confirmar el tall del subministrament i respectar les distàncies de seguretat",
+      "D": "Actuar sense interrompre el subministrament si s’utilitza una motoserra de bateria"
+    }
+  },
+  {
+    "id": "racord_4bbc2575-1338-4318-b70c-8ae3cd9a65b5",
+    "statement": "En quins serveis és habitual l’ús de la motoserra per part dels Bombers?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.1. Introducció\n\nEl seu ús és habitual en serveis de retirada d’arbres caiguts o inestables, sanejament de branques amb risc de caiguda, o treballs de desbrossament i neteja després de temporals, incendis o altres emergències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament en la tala preventiva d’arbres sans en entorns forestals",
+      "B": "Cap de les anteriors és correcta",
+      "C": "En la retirada d’arbres caiguts o inestables, el sanejament de branques i els treballs de desbrossament i neteja",
+      "D": "Únicament en treballs interiors sense presència de vegetació"
+    }
+  },
+  {
+    "id": "racord_8fede171-745e-45f0-bb39-91730781357b",
+    "statement": "Quins factors s’han de valorar abans d’escollir la via d’accés a un habitatge?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nPer accedir a un habitatge durant una intervenció de bombers és imprescindible fer una valoració prèvia del temps disponible i de les diferents opcions d’entrada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament la resistència aparent de la porta",
+      "B": "La preferència personal de l’operador",
+      "C": "El temps disponible i les diferents opcions d’entrada",
+      "D": "Únicament el material disponible al vehicle"
+    }
+  },
+  {
+    "id": "racord_d1380288-1c23-4d95-870a-eb66ab08bb4e",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte d’una porta cuirassada:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3. Tipologia de portes\n\nCuirassada – Estructura interior totalment metàl·lica, premarc i marc metàl·lic de gran resistència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Té un premarc de fusta sense elements metàl·lics",
+      "B": "Té una estructura interior totalment metàl·lica i un premarc i marc metàl·lics de gran resistència",
+      "C": "És una porta de fusta massissa amb reforços metàl·lics només puntuals",
+      "D": "És una porta interior poc resistent amb tancament senzill"
+    }
+  },
+  {
+    "id": "racord_7fb55f36-4d75-40e4-8d8c-58b4c8ef80e0",
+    "statement": "Quina eina és orientativament recomanada per a una porta de fullola?",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.4. Selecció d’eines segons el tipus de porta\n\nFullola. Radiografia, palanca, mall. Estructura molt feble. S’aconsella actuació ràpida i mínima.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament una escamotejadora i un ariet",
+      "B": "Radiografia, palanca o mall",
+      "C": "Serra o talladora com a primera opció",
+      "D": "Només un acc��s alternatiu per finestra"
+    }
+  },
+  {
+    "id": "racord_2bda919d-0c0d-4772-94cc-d7f1f22e9e55",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la immobilització o elevació d’un animal gran:",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.4. Èquids i bòvids (cavalls i bestiar boví)\n\nQuan cal immobilitzar o aixecar un animal gran, s’han d’utilitzar eslingues adaptades i col·locades de manera correcta, ja que una mala posició pot provocar lesions internes greus. En cap cas s’ha d’intentar arrossegar o manipular l’animal per les extremitats posteriors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És adequat arrossegar l’animal per les extremitats posteriors si es fa entre diversos intervinents",
+      "B": "No s’ha d’arrossegar ni manipular l’animal per les extremitats posteriors",
+      "C": "S’han d’utilitzar eslingues adaptades i ben col·locades",
+      "D": "Una mala posició de les eslingues pot provocar lesions internes greus"
+    }
+  },
+  {
+    "id": "racord_b3052919-daf9-4c1f-a9bc-a55a22640849",
+    "statement": "Quin criteri bàsic permet classificar els panys segons la seva instal·lació?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.3.1. Tipus de panys segons la seva instal·lació\n\nUna classificació bàsica però molt útil dels panys és segons com estan instal·lats a la porta, ja que això determina tant la seva accessibilitat com la tècnica necessària per a la seva obertura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La manera com estan instal·lats a la porta",
+      "B": "El color de l’escut exterior",
+      "C": "El nombre de claus disponibles",
+      "D": "La marca comercial del bombí"
+    }
+  },
+  {
+    "id": "racord_f5ac6057-e9ad-4878-82b2-af11a003ba30",
+    "statement": "Com s’ha de començar el desbrancament d’una branca caiguda?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.2. Tall horitzontal\n\nAbans de trossejar una branca caiguda, cal retallar les branques secundàries, començant sempre per les que no estan recolzades al terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tallant primer les branques que suporten el pes principal",
+      "B": "Retirant totes les branques abans de començar a tallar-les",
+      "C": "Retallant primer les branques secundàries que no estan recolzades a terra",
+      "D": "Trossejant el tronc principal abans de retirar les branques secundàries"
+    }
+  },
+  {
+    "id": "racord_380be511-786e-4843-b83f-cf32df19b915",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les opcions d’accés a l'interior d'un habitatge:",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nSegons les condicions, es pot optar per l’accés a través de finestres o balcons mitjançant escales o ràpels, o bé per l’obertura directa de portes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’accés s’ha d’efectuar sempre per la porta principal",
+      "B": "Les finestres i els balcons no es consideren vies alternatives d’accés",
+      "C": "Es pot accedir per finestres o balcons amb escales o ràpels, o mitjançant l’obertura directa de portes",
+      "D": "Els ràpels només es poden utilitzar després d’una obertura destructiva"
+    }
+  },
+  {
+    "id": "racord_014ca06a-f8a0-4239-8595-289ab08cbb89",
+    "statement": "Quina actuació s’ha d’explorar abans d’entrar en contacte directe amb un animal?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.2. Coneixements generals\n\nExplorar alternatives sense contacte directe, com localitzar el propietari, confinar l’animal en un espai segur o demanar suport a serveis especialitzats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejar totes les vies de fugida encara que no sigui imprescindible",
+      "B": "Iniciar sempre la captura física abans de controlar l’entorn",
+      "C": "Localitzar el propietari, confinar l’animal o demanar suport especialitzat",
+      "D": "Acorralar immediatament l’animal per limitar-ne els moviments"
+    }
+  },
+  {
+    "id": "racord_e6feab81-d793-4b8a-b6c5-5e7f75a2f492",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la tala d’un arbre.",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.1. Tall vertical\n\nPrimer es fa un tall en forma de falca (1 i 2). Aquest tall ens marcarà la direcció de caiguda. Després, des de la part oposada al tall direccional (3), es comença a tallar i es deixen uns centímetres sense tallar per tal que faci de frontissa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El tall oposat ha d’eliminar completament la fusta sense deixar cap frontissa",
+      "B": "El tall en forma de falca marca la direcció de caiguda i el tall oposat ha de deixar una frontissa",
+      "C": "La falca s’ha d’executar després del tall de la part oposada",
+      "D": "La direcció de caiguda es determina exclusivament amb la longitud de l’espasa"
+    }
+  },
+  {
+    "id": "racord_716937f7-2414-42d3-98a1-23a70ef4168d",
+    "statement": "Quines eines són orientativament recomanades per a una porta blindada?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.4. Selecció d’eines segons el tipus de porta\n\nBlindada. Palanca gran, escamotejadora, ariet. Reforços metàl·lics puntuals. Es recomana buscar punts febles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Palanca gran, escamotejadora o ariet",
+      "B": "Únicament radiografia i una palanca petita",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Exclusivament serra o talladora sense valorar punts febles"
+    }
+  },
+  {
+    "id": "racord_890b5082-4f90-4832-8deb-a957e52045f6",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la desconnexió d’una alarma antirobatori:",
+    "correct": "B",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nPer aquest motiu, només es poden desconnectar a requeriment i sota la responsabilitat de la policia competent, i sempre amb la seva presència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La desconnexió requereix el requeriment de la policia competent",
+      "B": "Els Bombers poden desconnectar-la per iniciativa pròpia sense presència policial",
+      "C": "La policia ha de ser present durant la desconnexió",
+      "D": "La responsabilitat correspon a la policia competent"
+    }
+  },
+  {
+    "id": "racord_9e145d0d-e92e-4fa3-9abc-a86e3fdf4886",
+    "statement": "Quins vessaments són freqüents a la via pública?",
+    "correct": "A",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.3. Neteja de calçada\n\nEls vessaments més freqüents a la via pública són els de combustibles, lubricants, líquids de frens o refrigerants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Combustibles, lubricants, líquids de frens o refrigerants",
+      "B": "Exclusivament productes radioactius",
+      "C": "Únicament aigua potable",
+      "D": "Només residus sòlids sense l��quids"
+    }
+  },
+  {
+    "id": "racord_827e8b0a-eec8-46ba-b3ff-891c34f69790",
+    "statement": "Com és preferible dirigir porcs i ovelles quan no és recomanable la manipulació directa?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n2.4.3. Suids i òvids (porcs i ovelles)\n\nA la resta de casos, és preferible utilitzar tanques, passadissos de conducció o elements dissuasius com sorolls o planxes. Aquestes eines permeten dirigir el moviment dels animals sense necessitat de contacte físic directe.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzant obligatòriament captura química",
+      "B": "Arrossegant-los per les extremitats posteriors",
+      "C": "Amb tanques, passadissos de conducció o elements dissuasius",
+      "D": "Acorralant-los en un espai sense sortida"
+    }
+  },
+  {
+    "id": "racord_2e0fe5a6-f449-4cf1-87f0-0c5b9c2c9ac0",
+    "statement": "De què depèn l’elecció de la tècnica d’accés més adequada?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n4.2. Valoració prèvia\n\nL’elecció de la tècnica més adequada dependrà de la urgència de la situació i de la seguretat dels intervinents i possibles afectats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del criteri econòmic de la propietat",
+      "B": "Únicament de la disponibilitat d’una autoescala",
+      "C": "De la urgència i de la seguretat dels intervinents i possibles afectats",
+      "D": "Exclusivament de la duresa del material de la porta"
+    }
+  },
+  {
+    "id": "racord_08e1453b-408a-4cac-99c9-95c0ca3dd1ef",
+    "statement": "Què s’ha de fer en la fase de comunicació i tancament d’una intervenció amb alarma?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n5.1. Desconnexió i gestió d’alarmes\n\nComunicació i tancament: Informar la propietat o responsable de seguretat, i traspàs a la policia local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Abandonar el lloc sense informar cap responsable",
+      "C": "Informar la propietat o responsable de seguretat i fer el traspàs a la policia local",
+      "D": "Assumir el manteniment posterior del sistema"
+    }
+  },
+  {
+    "id": "racord_01607bab-cc88-4e87-bdfd-50acba63622d",
+    "statement": "En treballs amb motosserra, què s’ha de preveure abans de tallar un element vertical?",
+    "correct": "C",
+    "explanation": "MAN.ATXX.000 v1.2026\n\n3.4.1. Tall vertical\n\nAbans de començar a tallar un element vertical (tronc, arbre sencer o branca en posició vertical d’una arbre caigut) cal preveure el moviment que farà l’element que volem tallar per que no atrapi l’eina i, perquè en caure, no ofereixi perill per als intervinents o produeixi danys materials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "T16 Intervenció en assistències tècniques",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament el temps que requerirà completar el tall",
+      "B": "La posició dels serveis municipals que retiraran posteriorment el tronc",
+      "C": "El moviment de l’element, per evitar que atrapi l’eina o causi riscos i danys",
+      "D": "Exclusivament la longitud de la cadena necessària"
+    }
+  }
+]

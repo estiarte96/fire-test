@@ -1,0 +1,2792 @@
+[
+  {
+    "id": "racord_74574d20-6bcf-4704-8ecb-6984872276fa",
+    "statement": "Quins complements poden reforçar l’EPI davant risc mecànic?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc mecànic\n\nEs reforça l’EPI amb elements de protecció addicionals. Com poden ser guants, arnesos, proteccions anti-tall etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Guants, arnesos i proteccions antitall",
+      "B": "Mascaretes filtrants i vestits encapsulats",
+      "C": "Vestits de neoprè i elements de flotabilitat",
+      "D": "Roba impermeable i protecció solar"
+    }
+  },
+  {
+    "id": "racord_0bec0dec-39b9-4b64-aae7-7fb47bdb60b1",
+    "statement": "Com subministra l’aire el regulador de pressió?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nRegulador de pressió: Mecanisme que subministra aire a demanda quan el bomber inspira.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A demanda, quan el bomber expira",
+      "B": "A demanda, quan el bomber inspira",
+      "C": "Només quan la pressió baixa de 60 bars",
+      "D": "De forma contínua, encara que el bomber no inspiri"
+    }
+  },
+  {
+    "id": "racord_bc35c983-4b38-4f07-9ad4-a59e92407bef",
+    "statement": "Per a quin entorn s’aplica principalment el vestit estructural regulat per la normativa EN 469?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.1. EN 469 – Vestuari de protecció per a l’extinció d’incendis\n\nAplicació: vestit estructural (jaquetó i pantaló) per a intervencions en entorns de foc intens.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entorns de foc intens",
+      "B": "Treballs forestals prolongats",
+      "C": "Intervencions sanitàries",
+      "D": "Rescats aquàtics"
+    }
+  },
+  {
+    "id": "racord_2aebd88c-8009-4c01-96d1-7ec644544562",
+    "statement": "Quina característica correspon als vestits de protecció química de tipus 1?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc químic\n\nTIPUS 1: Hermètics a gasos o vapors. Reutilitzables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són hermètics a esquitxades i no reutilitzables",
+      "B": "Són hermètics a sòlids pulverulents i no reutilitzables",
+      "C": "Són hermètics a esprais i no reutilitzables",
+      "D": "Són hermètics a gasos o vapors i reutilitzables"
+    }
+  },
+  {
+    "id": "racord_78994493-fdcf-4a3d-97fe-287426ed5b2b",
+    "statement": "Quan s’han d’utilitzar els EPI segons el marc preventiu actual?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nLa Llei 31/1995 de Prevenció de Riscos Laborals i el Reial decret 773/1997 estableixen el marc legal i tècnic que garanteix l’ús adequat dels equips de protecció individual (EPI) quan no és possible eliminar o reduir suficientment els perills mitjançant protecció col·lectiva o mesures organitzatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan no existeix cap protecció col·lectiva",
+      "B": "Exclusivament en intervencions d’incendi",
+      "C": "Quan el risc no es pot eliminar o reduir prou per altres mitjans",
+      "D": "Sempre abans d’aplicar mesures organitzatives"
+    }
+  },
+  {
+    "id": "racord_56a4df7e-e37d-44ef-8154-479ff5ab3235",
+    "statement": "Per què un EPI mal revisat pot afectar un altre membre de l’equip?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.3. Importància de la revisió diària\n\nUn EPI mal revisat pot comprometre no només el bomber que el porta, sinó també el company que depèn d’ell en una maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè obliga sempre a suspendre tot el servei",
+      "B": "Perquè redueix únicament la vida útil del material",
+      "C": "Perquè pot comprometre el bomber i el company que en depèn",
+      "D": "Perquè només afecta la traçabilitat entre torns"
+    }
+  },
+  {
+    "id": "racord_9cf60d69-fdb6-458e-895e-012026773a4f",
+    "statement": "Quins riscos per a la salut s’associen a l’exposició repetida als contaminants?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nEls bombers estan exposats a un risc més alt de desenvolupar malalties respiratòries i fins i tot alguns tipus de càncer a causa de l’exposició repetida a aquests agents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament pèrdua auditiva",
+      "B": "Malalties respiratòries i alguns tipus de càncer",
+      "C": "Únicament lesions mecàniques superficials",
+      "D": "Només fatiga muscular temporal"
+    }
+  },
+  {
+    "id": "racord_1043d31a-e0e6-4b4c-b269-de5c651d4d3c",
+    "statement": "En quin tipus d’operacions s’utilitza principalment la caputxa de rescat?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.5. Ús de la caputxa de rescat\n\nL’ús principal de la caputxa de rescat és en operacions d’evacuació de persones atrapades en zones amb fum dens, incendis en espais confinats o atmosferes tòxiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballs forestals prolongats sense presència de fum",
+      "B": "Evacuacions en fum dens, espais confinats o atmosferes tòxiques",
+      "C": "Intervencions elèctriques en atmosferes netes",
+      "D": "Operacions aquàtiques amb risc d’ofegament"
+    }
+  },
+  {
+    "id": "racord_c6604e9c-6474-498c-bb70-b6cad909b8df",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’EPI pesant:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.2. EPI pesant\n\nTot i ser més voluminós i menys transpirable, garanteix la màxima seguretat en escenaris amb perills crítics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És més voluminós que l’EPI lleuger",
+      "B": "És adequat per a perills crítics",
+      "C": "És més lleuger i transpirable que l’EPI forestal",
+      "D": "Protegeix davant flames i temperatures elevades"
+    }
+  },
+  {
+    "id": "racord_b4aeb854-2f34-400d-89e4-c3e9d364f09a",
+    "statement": "Indiqueu quina de les fórmules següents és INCORRECTA per calcular el consum personal:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.1. Càlcul del consum personal\n\nConsum (l/min) = ((Pressió inicial – Pressió final) × Capacitat ampolla (l)) / Temps (min).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consum = aire utilitzat ÷ temps",
+      "B": "Consum = temps ÷ (diferència de pressió × capacitat)",
+      "C": "Consum = diferència de pressió × capacitat ÷ temps",
+      "D": "Consum = (pressió inicial − pressió final) × capacitat ÷ temps"
+    }
+  },
+  {
+    "id": "racord_44b2ef25-883d-4626-aef3-7709ca908360",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre el manteniment i la revisió.",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1. Revisió i manteniment diari\n\nEl manteniment i la revisió, doncs, són part inseparable de la professió, igual que entrenar o conèixer les tècniques operatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són opcionals quan l’equip sembla operatiu",
+      "B": "Només són necessaris després d’una intervenció complexa",
+      "C": "Són una part inseparable de la professió",
+      "D": "Corresponen exclusivament al cap de torn"
+    }
+  },
+  {
+    "id": "racord_94d8bda4-d682-4ffe-aa77-1d0a42cb6738",
+    "statement": "A quin element està connectat directament el regulador de pressió?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nRegulador de pressió: Connectat directament a la màscara.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’alarma d’immobilitat",
+      "B": "A la màscara",
+      "C": "A l’arnès",
+      "D": "Al manòmetre"
+    }
+  },
+  {
+    "id": "racord_6b50a47f-6504-402b-aeb7-eabc2217f11e",
+    "statement": "Quins elements incorpora l’ampolla d’aire comprimit?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nInclou vàlvula de sortida i manòmetre d’alta pressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Arnès dorsal i alarma d’immobilitat",
+      "B": "Vàlvula d’admissió i manòmetre de baixa pressió",
+      "C": "Vàlvula de sortida i manòmetre d’alta pressió",
+      "D": "Regulador de demanda i visor panoràmic"
+    }
+  },
+  {
+    "id": "racord_73d814dc-d7b4-469b-9709-1e9ecfb6794c",
+    "statement": "De quin material són habitualment les ampolles lleugeres destinades a l’ERA?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nDe compost lleuger (composite) per a ús amb ERA, i per a altres usos concrets també metàl·liques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vidre",
+      "B": "Composite",
+      "C": "Fusta laminada",
+      "D": "Cautxú"
+    }
+  },
+  {
+    "id": "racord_16a6bc77-1061-4d23-8626-6bd59744460e",
+    "statement": "Què s’ha de fer davant qualsevol anomalia detectada en un EPI?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nQualsevol anomalia ha de ser registrada i comunicada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Continuar utilitzant l’equip si funciona parcialment",
+      "B": "Corregir-la sempre sense deixar constància",
+      "C": "Esperar a la revisió del torn següent",
+      "D": "Registrar-la i comunicar-la"
+    }
+  },
+  {
+    "id": "racord_3eaa012f-0cdf-4322-a6b4-ab5df49c20f8",
+    "statement": "Quina protecció complementària és adequada davant condicions meteorològiques adverses?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc mediambiental i meteorològic\n\nEls complements inclouen roba tèrmica o aïllant per a ambients freds, peces d’alta visibilitat, impermeables per a pluja i elements de protecció contra vent o radiació solar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Roba tèrmica, alta visibilitat i protecció contra pluja o vent",
+      "B": "Només equips de respiració autònoma",
+      "C": "Exclusivament arnesos i dissipadors",
+      "D": "Únicament vestits químics encapsulats"
+    }
+  },
+  {
+    "id": "racord_7097a7d8-1906-4cf9-b497-fb4536c86a68",
+    "statement": "Un bomber passa de 300 a 270 bars en 5 minuts amb una ampolla de 6,8 litres. Quin és el consum personal?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.1. Càlcul del consum personal\n\nConsum (l/min) = ((Pressió inicial – Pressió final) × Capacitat ampolla (l)) / Temps (min).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 L/min",
+      "B": "40,8 L/min",
+      "C": "204 L/min",
+      "D": "68 L/min"
+    }
+  },
+  {
+    "id": "racord_2403e8d4-523d-4170-8035-551e8f4fd7a6",
+    "statement": "D’on rep l’aire segur la caputxa de rescat?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.5. Ús de la caputxa de rescat\n\nAquest dispositiu proporciona aire segur a través de la connexió a l’ERA d’un bomber.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la connexió a l’ERA d’un bomber",
+      "B": "D’una ampolla independent integrada a la caputxa",
+      "C": "D’un filtre mecànic sense connexió",
+      "D": "Directament de l’atmosfera exterior"
+    }
+  },
+  {
+    "id": "racord_734b02a9-efd0-4aa8-afe3-dafcb2f6222a",
+    "statement": "Quan s’ha de fer la gestió d’un equip al parc?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.3. Gestió a parc\n\nCal fer la gestió al parc dels equips que no s’hagin pogut gestionar al mateix lloc de l’actuació o bé que aquesta gestió no hagi estat suficient.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan la gestió in situ no és possible o és insuficient",
+      "B": "Només quan l’equip presenta un trencament estructural",
+      "C": "Sempre abans de fer qualsevol gestió in situ",
+      "D": "Exclusivament quan ho indica el fabricant"
+    }
+  },
+  {
+    "id": "racord_a34860e5-bf22-422d-aab2-c542140149ee",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’autocontrol de l’autonomia.",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.4. Mètode operatiu d’autocontrol d’autonomia\n\nCada bomber ha de fer un seguiment periòdic de la pressió durant la intervenció i comprovar-la en punts clau de la tasca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pressió no s’ha de relacionar amb el temps transcorregut",
+      "B": "Només cal comprovar la pressió en sortir de la zona calenta",
+      "C": "Cal comprovar periòdicament la pressió en punts clau",
+      "D": "La tornada s’ha de planificar després d’entrar en reserva"
+    }
+  },
+  {
+    "id": "racord_92fd421f-367e-4edd-be09-b1531ce48462",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la identificació dels components de l’ERA:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.3. Aspectes clau de coneixement operatiu de l’ERA\n\nÉs igualment fonamental que conegui i identifiqui cada component de l’ERA tant de forma visual com tàctil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només cal identificar-los mitjançant el color",
+      "B": "Cal identificar-los visualment i tàctilment",
+      "C": "No cal identificar-los si la revisió s’ha fet al parc",
+      "D": "Només cal identificar-los visualment"
+    }
+  },
+  {
+    "id": "racord_57a67405-1d88-463a-8ebf-aa14d268c145",
+    "statement": "Quins equips poden requerir una gestió avançada per contaminació important?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.4. Gestió avançada o fora de parc\n\nAixò pot passar, per exemple, amb contaminacions importants de les màscares o amb la jaqueta i els sobrepantalons estructurals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només llanternes i emissores",
+      "B": "Exclusivament cinturons personals",
+      "C": "Només calçat forestal sense contaminació",
+      "D": "Màscares, jaquetes i sobrepantalons estructurals"
+    }
+  },
+  {
+    "id": "racord_d517c657-094f-44ea-9c52-3800fae1bc98",
+    "statement": "Quina finalitat té l’equipament complementari davant risc biològic?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc biològic\n\nL’objectiu és evitar la transmissió de malalties i la contaminació del bomber.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar cremades per radiació tèrmica",
+      "B": "Evitar la transmissió de malalties i la contaminació",
+      "C": "Evitar el bloqueig de les vies d’evacuació",
+      "D": "Evitar la pèrdua de flotabilitat"
+    }
+  },
+  {
+    "id": "racord_a2316973-f699-4cde-bbe4-03948ab9a0c4",
+    "statement": "Quina característica correspon als vestits de protecció química de tipus 3?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc químic\n\nTIPUS 3: Hermètics a líquids aplicats a pressió. No reutilitzables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són hermètics a sòlids pulverulents i reutilitzables",
+      "B": "Són permeables a líquids aplicats a pressió",
+      "C": "Són hermètics a líquids a pressió i no reutilitzables",
+      "D": "Són hermètics a gasos i reutilitzables"
+    }
+  },
+  {
+    "id": "racord_9e7f37b6-5b5a-4b32-b544-046eb2328549",
+    "statement": "Quin avís s’activa quan la pressió arriba a 60 bars?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nAlarma de reserva d’aire: 60 bars: So continu fins als 0 b.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una alarma exclusivament visual",
+      "B": "Un so continu de reserva",
+      "C": "Dos senyals separats",
+      "D": "Un únic senyal breu"
+    }
+  },
+  {
+    "id": "racord_4bec79f6-8ead-4553-bc94-b53f9342994b",
+    "statement": "Durant quant de temps poden mantenir-se actius alguns contaminants dels EPI?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nPoden mantenir-se actius durant dies o setmanes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només durant els primers minuts",
+      "B": "Durant dies o setmanes",
+      "C": "Fins que l’equip arriba al vehicle",
+      "D": "Exclusivament mentre hi ha fum visible"
+    }
+  },
+  {
+    "id": "racord_6a162b7c-34f3-412f-8a4c-6cc0d06ad46d",
+    "statement": "Quines operacions ha de poder efectuar autònomament cada bomber amb l’ERA?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.3. Aspectes clau de coneixement operatiu de l’ERA\n\nCada bomber ha de ser capaç de muntar, revisar i col·locar-se l’ERA de manera autònoma i ràpida, fins i tot en situacions d’estrès o d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desmuntar el manoreductor durant la intervenció",
+      "B": "Substituir les vàlvules de seguretat a la zona calenta",
+      "C": "Muntar-lo, revisar-lo i col·locar-se’l ràpidament",
+      "D": "Reparar-lo, recarregar-lo i certificar-lo"
+    }
+  },
+  {
+    "id": "racord_fbf07717-c37d-4eeb-a7e0-29fd59767be4",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’emmagatzematge dels equips:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nEls equips s’han de guardar en condicions òptimes de temperatura, ventilació i protecció, evitant exposicions innecessàries a sol, humitat o productes químics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’evitar exposicions a productes químics",
+      "B": "És adequat guardar-los exposats al sol per facilitar-ne l’assecat",
+      "C": "Cal garantir una ventilació adequada",
+      "D": "Cal protegir-los de la humitat"
+    }
+  },
+  {
+    "id": "racord_46ba1690-0670-47c5-8c04-4fcb480966c7",
+    "statement": "Per què les decisions individuals d’autoprotecció afecten tot l’equip?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nLes decisions individuals pel que fa a l’autoprotecció afecten no només la pròpia seguretat, sinó també la dels companys.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè determinen únicament el temps d��intervenció",
+      "B": "Perquè substitueixen les decisions del comandament",
+      "C": "Perquè modifiquen sempre el nivell mínim de protecció",
+      "D": "Perquè afecten la seguretat pròpia i la dels companys"
+    }
+  },
+  {
+    "id": "racord_3639024c-6778-4448-9c62-4806dbc6d18f",
+    "statement": "Quina funció té el reductor de pressió de l’ERA?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nConverteix la pressió de l’aire de l’ampolla (alta pressió) en una pressió de treball segura per al sistema (baixa pressió).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mostrar la pressió restant de l’ampolla",
+      "B": "Subministrar aire només quan el bomber inspira",
+      "C": "Convertir la baixa pressió en la pressió màxima de càrrega",
+      "D": "Convertir l’alta pressió en una pressió de treball segura"
+    }
+  },
+  {
+    "id": "racord_94c37a94-c7e0-4d47-93e4-8a06f4efe98b",
+    "statement": "Quina norma és la referència per al vestuari utilitzat en incendis urbans i industrials?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.1. EN 469 – Vestuari de protecció per a l’extinció d’incendis\n\nAquesta és la norma de referència per als equips de protecció utilitzats en incendis urbans i industrials, on el risc tèrmic és molt alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EN 16471",
+      "B": "EN 659",
+      "C": "EN 15614",
+      "D": "EN 469"
+    }
+  },
+  {
+    "id": "racord_fb97f70d-dcb3-45d9-a9b4-d75253ef362a",
+    "statement": "Quins indicadors determinen el tipus de gestió que necessita un EPI?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.2. Gestió in situ\n\nEl tipus de gestió vindrà determinada no només per l’estat aparent de l’equip (indicadors sensorials), sinó també pel perfil toxicològic i les característiques de l’escenari d’exposició en què s’hagi utilitzat l’equip (indicadors tècnics).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament l’estat aparent de l’equip",
+      "B": "Només la durada de la intervenció",
+      "C": "Els indicadors sensorials i els indicadors tècnics",
+      "D": "Només el color exterior i l’antiguitat"
+    }
+  },
+  {
+    "id": "racord_33aff0bf-8647-49b3-9cda-2dce11a4aab8",
+    "statement": "A quina categoria pertany el vestit d’intervenció pesant?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.2. Vestit d’intervenció\n\nCaracterístiques: EPI categoria III.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sense categoria",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria II"
+    }
+  },
+  {
+    "id": "racord_7af4d391-1bcb-402e-961d-a1461be0f8b7",
+    "statement": "Quants tipus principals d’EPI distingeix el Cos de Bombers de la Generalitat?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4. Nivells d’EPI al Cos de Bombers\n\nAl Cos de Bombers de la Generalitat distingim tres tipus principals d’Equip de Protecció Individual.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quatre",
+      "B": "Tres",
+      "C": "Dos",
+      "D": "Cinc"
+    }
+  },
+  {
+    "id": "racord_da1a0214-16a4-4216-8f5c-423ede81d79e",
+    "statement": "Quina és la utilització principal del vestit d’intervenció lleuger?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.2. Vestit d’intervenció\n\nÚs principal: intervencions en incendis forestals, assistències tècniques i rescat en exteriors, on és prioritari el confort i la mobilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Intervencions en atmosferes tòxiques sense ERA",
+      "B": "Incendis forestals, assistències tècniques i rescat exterior",
+      "C": "Treballs amb productes químics corrosius",
+      "D": "Incendis estructurals amb exposició directa intensa"
+    }
+  },
+  {
+    "id": "racord_daec97cf-b314-4322-ac2a-2e17e5adafc8",
+    "statement": "Quan poden utilitzar-se màscares filtrants en un risc químic?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc químic\n\nTambé s’utilitzen màscares filtrants en escenaris amb concentracions controlades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En escenaris amb concentracions controlades",
+      "B": "En qualsevol atmosfera sense valorar-ne la concentració",
+      "C": "En atmosferes desconegudes amb risc mortal",
+      "D": "En atmosferes amb manca d’oxigen"
+    }
+  },
+  {
+    "id": "racord_39f93f9b-ca00-4dd7-86d4-54fa40d1f8b3",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la responsabilitat en la revisió diària:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.1. Principis bàsics de la revisió diària\n\nResponsabilitat compartida: Tot i que la supervisió correspon al cap de torn, cada bomber és responsable de l’equip que utilitza i de comunicar qualsevol incidència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La supervisió correspon al cap de torn",
+      "B": "Cada bomber és responsable de l’equip que utilitza",
+      "C": "La responsabilitat de revisar l’equip correspon exclusivament al cap de torn",
+      "D": "Les incidències s’han de comunicar"
+    }
+  },
+  {
+    "id": "racord_f8e1e574-2b03-4ca7-9ad9-8788b48f2cd9",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els factors del càlcul de consum d'un ERA:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4. Càlcul de consums\n\nEn el càlcul s’han de considerar factors com el consum personal, la capacitat total de l’ampolla i la pressió de càrrega, la reserva mínima i el temps operatiu real.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La capacitat volumètrica no influeix en el càlcul",
+      "B": "Només cal considerar la pressió inicial",
+      "C": "La reserva no s’ha de descomptar de l’aire disponible",
+      "D": "Cal considerar consum, capacitat, pressió, reserva i temps operatiu"
+    }
+  },
+  {
+    "id": "racord_a47b80b1-b764-45f8-a190-26dcb09aa078",
+    "statement": "Quins espais poden contaminar-se si no es gestionen adequadament els EPI bruts?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nPoden alliberar-se de nou hores després de la intervenció, contaminant el parc, els vehicles i fins i tot l’ambient familiar si no es fa una gestió adequada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El parc, els vehicles i l’ambient familiar",
+      "B": "Exclusivament el compartiment de material",
+      "C": "Únicament les instal·lacions de neteja",
+      "D": "Només la zona calenta de la intervenció"
+    }
+  },
+  {
+    "id": "racord_c556f38c-0f0b-433f-b9ff-7b1977870be5",
+    "statement": "A quin percentatge aproximat de la capacitat s’activa l’alarma de baixa pressió?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nS’activa quan la pressió de l’ampolla arriba aproximadament al 25% de la seva capacitat (60 bars en ampolles de 300 bars).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al 25%",
+      "B": "Al 50%",
+      "C": "Al 75%",
+      "D": "Al 10%"
+    }
+  },
+  {
+    "id": "racord_fd048347-8c9e-44e1-a11e-0ff57ec90cd0",
+    "statement": "Quina protecció estableix principalment la norma EN 469?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.1. EN 469 – Vestuari de protecció per a l’extinció d’incendis\n\nObjectiu: establir els requisits mínims de protecció contra flama, calor radiada, calor convectiva i calor per contacte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Contra flama i diferents formes de transmissió de calor",
+      "B": "Contra caigudes en alçada i atrapaments",
+      "C": "Contra riscos biològics i microorganismes",
+      "D": "Contra l’ofegament i la hipotèrmia"
+    }
+  },
+  {
+    "id": "racord_b5c2b870-271d-491c-acc8-ed20a14bad49",
+    "statement": "Què s’ha de comprovar en les proves funcionals dels equips actius?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nEn equips actius (ERA, detectors, emissores, llanternes) cal comprovar que funcionen correctament, que les bateries estan carregades i que no hi ha fuites ni avaries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només el funcionament de les alarmes acústiques",
+      "B": "Exclusivament la data de compra de l’equip",
+      "C": "Funcionament, càrrega de bateries, fuites i avaries",
+      "D": "Només l’aspecte exterior i la identificació"
+    }
+  },
+  {
+    "id": "racord_b561548e-e2fe-4b7f-bd9d-10b1b954516c",
+    "statement": "Quina característica diferencia el vestit forestal regulat per la normativa EN 15614?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.2. EN 15614 – Vestuari de protecció per a incendis forestals\n\nEstructura del vestit: normalment d’una sola capa de teixit ignífug, molt més lleuger que el vestit estructural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sempre és de tres capes i menys transpirable",
+      "B": "Està format per una barrera metàl·lica rígida",
+      "C": "És un vestit encapsulat i hermètic als gasos",
+      "D": "Normalment és d’una sola capa ignífuga i més lleuger"
+    }
+  },
+  {
+    "id": "racord_44dff9bd-c981-4d0d-a0c8-f5e15ad64466",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la responsabilitat en seguretat:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nTot i així, la responsabilitat de la seguretat no recau exclusivament en el comandament: cada bomber ha de ser conscient de la importància de l’autoprotecció i del paper fonamental que juga en la seva pròpia integritat física.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’autoprotecció és secundària si existeix una ordre de comandament",
+      "B": "Cada bomber només respon de l’estat del seu material",
+      "C": "La seguretat és responsabilitat exclusiva del cap d’intervenció",
+      "D": "La seguretat no recau exclusivament en el comandament"
+    }
+  },
+  {
+    "id": "racord_4c47c5c0-5d97-4895-a01f-8e55d26259bc",
+    "statement": "Què inclou el concepte de descontaminació dels EPI i equips de treball?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2. Gestió dels contaminants en les activitats operatives\n\nEl concepte de descontaminació de l’EPI i dels equips de treball inclou les diferents tècniques, procediments o processos d’inspecció, neteja i descontaminació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament inspecció visual i registre",
+      "B": "Inspecció, neteja i descontaminació",
+      "C": "Només neteja superficial i assecat",
+      "D": "Emmagatzematge, reposició i retirada"
+    }
+  },
+  {
+    "id": "racord_11f54a72-be4a-447b-992b-7270a1ee14a8",
+    "statement": "Quina norma regula el vestuari de protecció per a incendis forestals?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.2. EN 15614 – Vestuari de protecció per a incendis forestals\n\nEN 15614 – Vestuari de protecció per a incendis forestals. Norma específica per al vestuari dels bombers que treballen en incendis forestals i entorns naturals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EN 15090",
+      "B": "EN 443",
+      "C": "EN 469",
+      "D": "EN 15614"
+    }
+  },
+  {
+    "id": "racord_38eabd68-e4f4-4ace-a518-d501a97b2698",
+    "statement": "Quin és l’objectiu dels processos de descontaminació?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2. Gestió dels contaminants en les activitats operatives\n\nTenen per objectiu eliminar els agents químics, físics o biològics de les diferents superfícies dels equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eliminar exclusivament la brutícia visible",
+      "B": "Reduir només la humitat dels equips",
+      "C": "Eliminar agents químics, físics o biològics",
+      "D": "Evitar únicament la corrosió dels components metàl·lics"
+    }
+  },
+  {
+    "id": "racord_bcf07a80-045f-431f-aab6-9a2e792f2025",
+    "statement": "Quan s’han d’afegir complements als nivells bàsics d’EPI?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements\n\nSegons les diferents situacions que comportin l’exposició a determinats riscos específics, caldrà afegir l’equipament de protecció complementari segons el tipus de risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan existeixen riscos específics que requereixen més protecció",
+      "B": "Només després que s’hagi produït un accident",
+      "C": "Exclusivament quan ho demani cada bomber",
+      "D": "Sempre, independentment del risc existent"
+    }
+  },
+  {
+    "id": "racord_3c85dee1-1528-4043-a048-f7f4a82efb52",
+    "statement": "Per què és important reconèixer tàctilment els components de l’ERA?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.3. Aspectes clau de coneixement operatiu de l’ERA\n\nDe manera que el pugui reconèixer i manipular amb precisió encara que les condicions de visibilitat siguin molt reduïdes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per detectar la composició química de l’aire",
+      "B": "Per substituir la inspecció visual abans de l’ús",
+      "C": "Per determinar la pressió sense consultar el manòmetre",
+      "D": "Per manipular-los amb precisió amb visibilitat reduïda"
+    }
+  },
+  {
+    "id": "racord_ebb27b89-caaa-4e7c-bbbc-c6c29df8ec5f",
+    "statement": "Què pot considerar-se un EPI?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nEntenem per EPI qualsevol equip o accessori destinat a ser portat o subjectat pel bomber amb la finalitat de protegir la seva salut o seguretat, des de peces de roba tècnica fins a equips multirisc o complements especialitzats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només les peces que cobreixen completament el cos",
+      "B": "Qualsevol eina utilitzada durant una intervenció",
+      "C": "Un equip o accessori portat o subjectat amb finalitat protectora",
+      "D": "Únicament els equips de protecció respiratòria"
+    }
+  },
+  {
+    "id": "racord_afdb831d-aeea-4cca-80d4-1328f8d87903",
+    "statement": "Quina norma defineix els requisits mínims dels guants de protecció per a bombers?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.3. Altres normes de vestuari i equips de protecció dels bombers\n\nEN 659 – Guants de protecció per a bombers: Defineix els requisits mínims de protecció contra flama, calor, tall i perforació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EN 443",
+      "B": "EN 16473",
+      "C": "EN 659",
+      "D": "EN 15090"
+    }
+  },
+  {
+    "id": "racord_8a1fe86c-40e3-4dc2-8b2f-cecdc051b081",
+    "statement": "Una ampolla disposa de 1.530 litres per al treball i el consum és de 50 L/min. Quina és l’autonomia operativa?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.3. Autonomia i càlculs operatius\n\nAutonomia (min) = Aire disponible per al treball (l) / Consum personal (l/min). Exemple: 1530 / 50 = 30,6 minuts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "50 minuts",
+      "B": "25,5 minuts",
+      "C": "40,8 minuts",
+      "D": "30,6 minuts"
+    }
+  },
+  {
+    "id": "racord_e434b18d-cd0d-4e1d-9308-86986c2f52ce",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la revisió diària.",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.3. Importància de la revisió diària\n\nLa revisió diària és una pràctica que reforça la disciplina, la responsabilitat i la professionalitat del cos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substitueix la formació i les tècniques operatives",
+      "B": "Redueix la necessitat de responsabilitat individual",
+      "C": "Reforça la disciplina, la responsabilitat i la professionalitat",
+      "D": "Només té efectes sobre els costos de reposició"
+    }
+  },
+  {
+    "id": "racord_9473b0c6-1af1-4a09-b02e-866cd1de8855",
+    "statement": "Què ha de dominar cada professional respecte dels EPI assignats?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nÉs imprescindible doncs, que cada professional conegui a fons les prestacions dels EPI que li han estat assignats, així com les seves limitacions i que en domini l’ús correcte, identificant quan i com han de ser emprats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la col·locació i la retirada",
+      "B": "Les prestacions, les limitacions i l’ús correcte",
+      "C": "Únicament la normativa de fabricació",
+      "D": "El cost, la vida útil i el proveïdor"
+    }
+  },
+  {
+    "id": "racord_a5978f97-3493-4b85-9299-0c40a33452b3",
+    "statement": "Què implica el principi de regularitat i disciplina?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.1. Principis bàsics de la revisió diària\n\nRegularitat i disciplina: La revisió ha de ser diària i sistemàtica. La constància garanteix que no hi hagi elements passats per alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprovar únicament els elements més importants",
+      "B": "Fer una inspecció mensual de tots els equips",
+      "C": "Revisar només els equips utilitzats el dia anterior",
+      "D": "Fer una revisió diària i sistemàtica"
+    }
+  },
+  {
+    "id": "racord_e5742edb-c774-46af-92ff-7a419e2a0c7f",
+    "statement": "Per a quin tipus d’ús no està pensada la caputxa de rescat?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.5. Ús de la caputxa de rescat\n\nNo està pensada per a un ús operatiu prolongat, sinó per a situacions d’emergència en què calgui protegir de manera ràpida una persona que no disposa d’un equip de respiració autònoma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per protegir ràpidament una víctima",
+      "B": "Per a un ús operatiu prolongat",
+      "C": "Per evacuar una persona sense ERA",
+      "D": "Per a situacions d’emergència"
+    }
+  },
+  {
+    "id": "racord_1c20d751-212e-493c-8d8d-7b5e15f7c390",
+    "statement": "Què exigeix el principi de rigor i detall?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.1. Principis bàsics de la revisió diària\n\nRigor i detall: No n’hi ha prou amb una ullada ràpida; cal fer una comprovació acurada seguint les fitxes establertes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una comprovació limitada als equips actius",
+      "B": "Una ullada ràpida als elements visibles",
+      "C": "Una revisió basada només en l’experiència personal",
+      "D": "Una comprovació acurada seguint les fitxes establertes"
+    }
+  },
+  {
+    "id": "racord_446eccba-8e4a-46d3-879b-7a8139a0f0a8",
+    "statement": "Quina reserva aproximada correspon a una ampolla amb 2.040 litres totals?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.2. Capacitat i reserva d’aire\n\nSegons les normes de seguretat, una part d’aquest aire s’ha de considerar reserva (aprox. 25% de la capacitat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60 litres",
+      "B": "408 litres",
+      "C": "510 litres",
+      "D": "1.530 litres"
+    }
+  },
+  {
+    "id": "racord_2a962136-5b83-407a-b872-6d33c6a9eb0c",
+    "statement": "Quina és la utilització principal de l’EPI pesant?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.2. EPI pesant\n\nÉs l’equipament utilitzat en situacions d’alt risc tèrmic i d’exposició intensa, especialment en incendis estructurals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Situacions d’alt risc tèrmic i exposició intensa",
+      "B": "Treballs forestals de llarga durada",
+      "C": "Rescats aquàtics en aigües obertes",
+      "D": "Intervencions administratives sense exposició"
+    }
+  },
+  {
+    "id": "racord_51c6ceb0-aa74-4fc2-9f66-a75ec53e4ad9",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’avís de 170 bars:",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nAvisos de pressió: 170 bars: “Bip-bip” o Arribada a la meitat del temps de treball.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Indica l’arribada aproximada a la meitat del temps de treball",
+      "B": "Indica l’entrada en reserva d’aire",
+      "C": "Indica que cal iniciar immediatament la sortida",
+      "D": "Activa un so continu fins als 0 bars"
+    }
+  },
+  {
+    "id": "racord_50cd6222-3602-464b-9839-07d2eb268034",
+    "statement": "Quina diferència operativa hi ha entre un ERA i una màscara filtrant?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc per vies aèries\n\nEls ERA asseguren aire net en ambients hostils, i les màscares filtrants permeten treballar en atmosferes amb presència controlada de contaminants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tots dos aporten aire independent de l’atmosfera",
+      "B": "L’ERA només filtra; la màscara aporta aire comprimit",
+      "C": "L’ERA aporta aire net; la màscara filtra contaminants controlats",
+      "D": "Tots dos només són útils en atmosferes sense contaminants"
+    }
+  },
+  {
+    "id": "racord_50ae8c72-1e5c-4084-93b4-9089969e28c2",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’adaptació del nivell de protecció:",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nEl nivell mínim de protecció dels equips de protecció individual es regula mitjançant el procediment corresponent, i pot ser adaptat pel cap d’intervenció, d’acord amb l’avaluació dels riscos i les característiques de cada actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot adaptar-se únicament segons la comoditat del personal",
+      "B": "Pot ser adaptat pel cap d’intervenció",
+      "C": "Ha de considerar les característiques de l’actuació",
+      "D": "Ha de tenir en compte l’avaluació dels riscos"
+    }
+  },
+  {
+    "id": "racord_62191a5e-461e-4147-a064-39b84bd6adf4",
+    "statement": "Quina capacitat total té una ampolla de 6 litres carregada a 300 bars?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.2. Capacitat i reserva d’aire\n\nLa capacitat total de l’ampolla es calcula multiplicant la pressió de càrrega per la capacitat volumètrica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2.040 litres",
+      "B": "1.350 litres",
+      "C": "1.800 litres",
+      "D": "600 litres"
+    }
+  },
+  {
+    "id": "racord_73160fd3-d06c-44f2-a72b-eee0788dccad",
+    "statement": "En quin tipus d’intervencions predomina l’ús de l’EPI lleuger?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.1. EPI lleuger\n\nDissenyat per a intervencions en les quals predomina la mobilitat i la rapidesa d’acció, com ara incendis forestals, assistències tècniques, rescat en entorns urbans o accidents de trànsit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entorns amb exposició directa a flames intenses",
+      "B": "Atmosferes tòxiques sense protecció respiratòria",
+      "C": "Intervencions que requereixen mobilitat i rapidesa",
+      "D": "Intervencions subaquàtiques de llarga durada"
+    }
+  },
+  {
+    "id": "racord_fea4e739-7b03-4c11-ac35-fdc4a886e096",
+    "statement": "Quin equip és propi d’una intervenció amb risc químic?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc químic\n\nL’EPI es complementa amb vestits de protecció química, guants i botes resistents a agents químics i equips de respiració autònoma (ERA).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vestit aquàtic, escarpins i elements de flotabilitat",
+      "B": "Vestit químic, guants, botes resistents i ERA",
+      "C": "Vestit forestal, ulleres solars i protecció auditiva",
+      "D": "Jaqueta d’alta visibilitat i cinturó personal"
+    }
+  },
+  {
+    "id": "racord_100e4ae5-a137-4e9a-8b1c-5d020e8b3f00",
+    "statement": "Quina composició caracteritza els guants d’intervenció pesant?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.3. Guants d’intervenció\n\nGuants de cuir categoria III, amb fibra de membrana d’aramida i Kevlar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cuir amb membrana d’aramida i Kevlar",
+      "B": "Teixit lleuger sense protecció tèrmica",
+      "C": "Neoprè amb una capa exterior de cotó",
+      "D": "Làtex amb reforços de fibra de vidre"
+    }
+  },
+  {
+    "id": "racord_c8330b7e-eaee-4598-8951-92745f014191",
+    "statement": "On s’ha de fer la gestió dels equips al parc?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.3. Gestió a parc\n\nAquesta gestió s’ha de fer en un lloc adequat de la zona bruta del parc o altres instal·lacions que disposin dels mitjans adequats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la zona neta destinada al personal",
+      "B": "A qualsevol espai, encara que no tingui mitjans adequats",
+      "C": "Al compartiment de cabina del vehicle",
+      "D": "A la zona bruta o en instal·lacions amb mitjans adequats"
+    }
+  },
+  {
+    "id": "racord_045246aa-a3a4-4f0b-87c5-fb4b3a5bcd0e",
+    "statement": "Quins factors poden modificar el consum personal d’un bomber?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.1. Càlcul del consum personal\n\nAquest valor pot variar molt segons l’esforç físic, la temperatura i condicions ambientals, i l’estrès i la càrrega psicològica de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament la pressió de reserva",
+      "B": "L’esforç, l’ambient i l’estrès",
+      "C": "Només la capacitat nominal de l’ampolla",
+      "D": "El model de màscara i el color de l’ampolla"
+    }
+  },
+  {
+    "id": "racord_abccc7ea-7198-4308-8c0b-9cfec90edb42",
+    "statement": "Quina és la finalitat de la caputxa de rescat?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.5. Ús de la caputxa de rescat\n\nLa caputxa de rescat és un element de protecció respiratòria dissenyat per a l’evacuació de víctimes en atmosferes amb fum o amb manca d’oxigen.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evacuar víctimes en atmosferes amb fum o manca d’oxigen",
+      "B": "Substituir l’ERA del bomber durant l’extinció",
+      "C": "Permetre el treball prolongat del bomber a la zona calenta",
+      "D": "Filtrar exclusivament partícules en espais oberts"
+    }
+  },
+  {
+    "id": "racord_85a0ce89-f0d9-47bb-a14f-f6f236eaf343",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la verificació prèvia de l’ERA:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.3. Aspectes clau de coneixement operatiu de l’ERA\n\nAquesta rutina de verificació prèvia és essencial per prevenir incidències durant la intervenció i garantir la protecció respiratòria del bomber en tot moment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ajuda a prevenir incidències durant la intervenció",
+      "B": "Només és necessària després d’haver detectat una avaria",
+      "C": "Permet detectar defectes, desgast o danys",
+      "D": "Contribueix a garantir la protecció respiratòria"
+    }
+  },
+  {
+    "id": "racord_33b4fdc7-59cd-4f7e-b9d2-636b85659e84",
+    "statement": "Quina finalitat general té el manteniment dels EPI i dels altres equips de treball?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4. Manteniment de l’EPI i altres equips de treball\n\nEl manteniment dels EPIS i de la resta d’equips de treball és una tasca essencial que garanteix la seva fiabilitat en el moment crític de la intervenció, allarga la vida útil del material i redueix riscos innecessaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir la revisió prèvia a cada intervenció",
+      "B": "Reduir únicament els costos d’adquisició",
+      "C": "Garantir només la neteja exterior dels equips",
+      "D": "Garantir la fiabilitat, allargar la vida útil i reduir riscos"
+    }
+  },
+  {
+    "id": "racord_864eeb84-a32c-4347-8a1c-69cf40025db5",
+    "statement": "Què signifiquen els pictogrames F, P i A de les botes d’intervenció?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.4. Botes d’intervenció\n\nF (resistència al foc), P (plantilla anti-perforació), A (propietat antiestàtica).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fred, protecció química i absorció d’aigua",
+      "B": "Fum, protecció auditiva i adherència",
+      "C": "Flotabilitat, penetració d’aigua i aïllament tèrmic",
+      "D": "Foc, plantilla anti-perforació i propietat antiestàtica"
+    }
+  },
+  {
+    "id": "racord_9ff816dc-323b-4bcf-8038-b897ec1f60e1",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els EPI:",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nEn l’àmbit d’intervenció en emergències, aquests equips no només són imprescindibles per complir la normativa, sinó que són una eina vital per afrontar intervencions d’alta exigència física i risc elevat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són una eina vital en intervencions d’alta exigència i risc elevat",
+      "B": "El seu ús és opcional quan el bomber té experiència",
+      "C": "Només tenen una funció administrativa i normativa",
+      "D": "S’utilitzen únicament en intervencions de baixa exigència"
+    }
+  },
+  {
+    "id": "racord_dcb530cd-68fc-4910-9c07-74fc0a9b82b3",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la protecció òptima en una actuació:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nAquesta combinació de criteris establerts pel comandament i responsabilitat individual garanteix una protecció òptima en qualsevol situació operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Depèn exclusivament de l’EPI de categoria més elevada",
+      "B": "Depèn només del procediment establert",
+      "C": "Depèn dels criteris del comandament i de la responsabilitat individual",
+      "D": "Depèn únicament de l’experiència del bomber"
+    }
+  },
+  {
+    "id": "racord_8569e504-76c8-4530-8888-8198dace5281",
+    "statement": "Quina mesura és adequada quan no es pot fer una gestió immediata completa de l’EPI brut?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nAplicar una primera gestió de contaminants al mateix lloc de l’actuació, o encapsular correctament l’EPI brut en cas necessari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Encapsular correctament l’EPI brut",
+      "B": "Deixar-lo assecar a la zona neta del vehicle",
+      "C": "Transportar-lo sense protecció al compartiment de personal",
+      "D": "Manipular-lo sense guants per valorar-ne l’estat"
+    }
+  },
+  {
+    "id": "racord_e31fb659-32e6-4c7d-93be-142ad48d285f",
+    "statement": "Quina és la finalitat de l’EPI aquàtic?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.3. EPI aquàtic\n\nEstà pensat per protegir davant riscos d’ofegament, hipotèrmia i cops derivats del moviment de l’aigua o dels obstacles submergits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir davant gasos tòxics i manca d’oxigen",
+      "B": "Protegir davant caigudes en alçada",
+      "C": "Protegir davant flames i calor radiant intensa",
+      "D": "Protegir davant ofegament, hipotèrmia i cops"
+    }
+  },
+  {
+    "id": "racord_739f8788-fd7a-4706-b8e2-083326d261af",
+    "statement": "Quina és la pressió habitual de càrrega de l’ampolla d’un ERA?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nConté aire respirable a alta pressió (habitualment 300 bars).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "300 bars",
+      "B": "200 bars",
+      "C": "60 bars",
+      "D": "170 bars"
+    }
+  },
+  {
+    "id": "racord_ea9133e5-b1bb-431d-a85a-797f14b14129",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la selecció dels EPI:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nL’elecció correcta de cada EPI ha de basar-se en factors com la freqüència i magnitud del risc, el nivell d’exposició i les característiques de l’operació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’ha de tenir en compte el nivell d’exposició",
+      "B": "L’elecció depèn principalment de la preferència personal del bomber",
+      "C": "Cal valorar la magnitud del risc",
+      "D": "Cal considerar la freqüència del risc"
+    }
+  },
+  {
+    "id": "racord_50b79cca-be94-4449-8544-9c357984ecb9",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la noramtiva EN 15614:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.2. EN 15614 – Vestuari de protecció per a incendis forestals\n\nAssegura la lleugeresa i transpirabilitat del vestit per a jornades llargues, amb protecció tèrmica moderada suficient per a entorns forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Afavoreix la transpirabilitat",
+      "B": "Busca comoditat en moviment",
+      "C": "Preveu protecció davant brases",
+      "D": "Exigeix la mateixa protecció tèrmica que el vestit estructural pesant"
+    }
+  },
+  {
+    "id": "racord_ac964439-983e-4cfc-9a17-44cbfa77865d",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els EPI de categoria II:",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nCategoria II – Protegeix davant de riscos que no poden qualificar-se com a mínims ni com a mortals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegeixen davant riscos que no són mínims ni mortals",
+      "B": "Protegeixen únicament davant riscos mortals",
+      "C": "Protegeixen exclusivament davant riscos mínims",
+      "D": "Inclouen només equips de protecció respiratòria"
+    }
+  },
+  {
+    "id": "racord_03c06ad9-6db5-4ae9-9213-587b6f2d652f",
+    "statement": "Quin objectiu té la protecció complementària davant risc tèrmic?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc tèrmic\n\nL’objectiu és evitar cremades per contacte, radiació o projecció de partícules incandescents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar infeccions per contacte amb fluids",
+      "B": "Evitar l’ofegament i la hipotèrmia",
+      "C": "Evitar descàrregues i arcs elèctrics",
+      "D": "Evitar cremades per contacte, radiació o partícules"
+    }
+  },
+  {
+    "id": "racord_6a637e11-0b76-4735-b329-5183c8e7fd22",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’estructura regulada per la normativa EN 469:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.1. EN 469 – Vestuari de protecció per a l’extinció d’incendis\n\nEstructura del vestit: es defineix el concepte de multicapa (capa exterior, barrera impermeable, barrera tèrmica i folre interior).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No incorpora cap barrera impermeable",
+      "B": "Està formada sempre per una única capa ignífuga",
+      "C": "Inclou capa exterior, barreres impermeable i tèrmica i folre",
+      "D": "Només regula la capa exterior del vestit"
+    }
+  },
+  {
+    "id": "racord_07832fad-69d1-43d2-8afb-2ab5bfe762fb",
+    "statement": "Quin benefici té detectar avaries o mancances abans d’una sortida?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.3. Importància de la revisió diària\n\nEvitar fallades en servei: Detectar avaries o mancances abans d’una sortida permet actuar amb seguretat i eficiència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garanteix que l’equip no necessitarà manteniment",
+      "B": "Permet actuar amb seguretat i eficiència",
+      "C": "Permet evitar qualsevol revisió posterior",
+      "D": "Substitueix la necessitat de comunicar incidències"
+    }
+  },
+  {
+    "id": "racord_be31a710-70ad-4045-b685-8b22eff00902",
+    "statement": "Davant de quins riscos ofereix protecció bàsica l’EPI lleuger?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.1. EPI lleuger\n\nEstà pensat per protegir davant riscos mecànics moderats, radiació solar, cops lleugers i exposicions tèrmiques puntuals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofegament, hipotèrmia i corrents fortes",
+      "B": "Atmosferes tòxiques i flames intenses prolongades",
+      "C": "Riscos moderats, radiació solar, cops i calor puntual",
+      "D": "Radiacions ionitzants i agents químics corrosius"
+    }
+  },
+  {
+    "id": "racord_4ff36b1f-9187-4f7a-a4d2-8faa4d8d14d5",
+    "statement": "Què pot passar amb el fum i les partícules adherides als EPI hores després de la intervenció?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nEl fum i les partícules adherides a la roba i al casc poden alliberar-se de nou hores després de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden tornar-se a alliberar",
+      "B": "Es transformen només en brutícia visible",
+      "C": "Desapareixen quan l’equip s’asseca",
+      "D": "Queden neutralitzats automàticament"
+    }
+  },
+  {
+    "id": "racord_d67ddf4c-389d-4f99-b466-6d4b6503966f",
+    "statement": "Quins elements s’han d’inspeccionar especialment abans de cada ús de l’ERA?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.3. Aspectes clau de coneixement operatiu de l’ERA\n\nAbans de cada ús, cal inspeccionar amb atenció totes les parts mòbils, les juntes i les connexions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la superfície exterior de l’ampolla",
+      "B": "Només el visor de la màscara",
+      "C": "Exclusivament les corretges de l’arnès",
+      "D": "Les parts mòbils, les juntes i les connexions"
+    }
+  },
+  {
+    "id": "racord_f9d104a6-ffc6-4537-93ec-055c7fa6c769",
+    "statement": "Quins defectes s’han de buscar durant la inspecció visual?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nInspecció visual: Cal revisar desgasts, trencaments, cremades o deformacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament l’estat de les etiquetes",
+      "B": "Només la presència de brutícia visible",
+      "C": "Desgasts, trencaments, cremades o deformacions",
+      "D": "Només alteracions del color exterior"
+    }
+  },
+  {
+    "id": "racord_cc01f4ca-90ae-4c37-8908-a8889eacafb1",
+    "statement": "Quin aire queda disponible per al treball en una ampolla de 2.040 litres amb una reserva de 510 litres?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.2. Capacitat i reserva d’aire\n\nAmpolla de 6,8 L a 300 bars = 2040 L. Reserva del 25% = 510 L. Aire per al treball = 1530 L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.530 litres",
+      "B": "2.040 litres",
+      "C": "2.550 litres",
+      "D": "510 litres"
+    }
+  },
+  {
+    "id": "racord_0727b976-66af-413c-a798-2637da84f6ac",
+    "statement": "Quina capacitat total té una ampolla de 6,8 litres carregada a 300 bars?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.2. Capacitat i reserva d’aire\n\nPer exemple, una ampolla de 6,8 litres a 300 bars té: 6,8 l × 300 bars = 2040 litres d’aire.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2.040 litres",
+      "B": "6.800 litres",
+      "C": "510 litres",
+      "D": "1.530 litres"
+    }
+  },
+  {
+    "id": "racord_eabe9d1b-b178-4596-9caa-b0a8e9163236",
+    "statement": "Quin nivell de risc correspon als EPI de categoria I?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nCategoria I - Protegeix davant de riscos mínims que poden provocar danys lleus o fàcilment reparables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Riscos mitjans amb danys reversibles",
+      "B": "Riscos greus amb danys irreversibles",
+      "C": "Riscos mortals de manifestació immediata",
+      "D": "Riscos mínims amb danys lleus o reparables"
+    }
+  },
+  {
+    "id": "racord_b7e64f9c-c0d5-4f3b-8046-3867390eba7a",
+    "statement": "Quins riscos ha de cobrir principalment el calçat de bombers?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.4. Botes d’intervenció\n\nHa de protegir davant múltiples riscos (tèrmics, mecànics, químics i elèctrics) alhora que ha de permetre comoditat i mobilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només riscos tèrmics i radiació solar",
+      "B": "Exclusivament riscos mecànics superficials",
+      "C": "Només riscos biològics i aquàtics",
+      "D": "Riscos tèrmics, mecànics, químics i elèctrics"
+    }
+  },
+  {
+    "id": "racord_74cba2e8-da39-4d0b-a821-baa5edcbcd9a",
+    "statement": "Un bomber passa de 300 a 250 bars en 5 minuts amb una ampolla de 6,8 litres. Quin és el consum personal?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.1. Càlcul del consum personal\n\nConsum (l/min) = ((Pressió inicial – Pressió final) × Capacitat ampolla (l)) / Temps (min).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "68 L/min",
+      "B": "50 L/min",
+      "C": "340 L/min",
+      "D": "40,8 L/min"
+    }
+  },
+  {
+    "id": "racord_dd3f421c-24f3-446a-9cc4-52f036b4223c",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els EPI utilitzats en intervencions poc exigents:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nFins i tot en intervencions aparentment poc exigents poden quedar-hi restes de contaminants invisibles i potencialment nocius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han de revisar en finalitzar l’actuació",
+      "B": "Els contaminants poden ser potencialment nocius",
+      "C": "No cal revisar-los si no hi ha brutícia visible",
+      "D": "Poden contenir contaminants invisibles"
+    }
+  },
+  {
+    "id": "racord_347d9640-bb55-4a75-a0cc-6bad3497a9e8",
+    "statement": "Quina és la utilització principal del casc lleuger?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.1. Casc d’intervenció\n\nÚs principal: intervencions en incendis forestals, rescats tècnics i treballs a l’exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rescats subaquàtics prolongats",
+      "B": "Incendis forestals, rescats tècnics i treballs exteriors",
+      "C": "Incendis estructurals amb flames intenses",
+      "D": "Intervencions químiques encapsulades"
+    }
+  },
+  {
+    "id": "racord_14a1cbbf-7205-4694-8a3e-4e1e3aea5468",
+    "statement": "Què representa la revisió diària dels EPI i del material operatiu?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1. Revisió i manteniment diari\n\nLa revisió diària no és només una rutina administrativa, sinó una mesura clau de prevenció i seguretat personal i col·lectiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una mesura clau de prevenció i seguretat",
+      "B": "Una tasca administrativa sense efectes operatius",
+      "C": "Una comprovació necessària només després d’una avaria",
+      "D": "Una actuació reservada al personal de manteniment"
+    }
+  },
+  {
+    "id": "racord_3559edba-4062-439f-b945-e371f50b4118",
+    "statement": "Quina finalitat té el càlcul correcte del consum d’aire?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4. Càlcul de consums\n\nPermet estimar l’autonomia real de l’ERA, planificar la durada de les tasques dins la zona calenta i prevenir situacions d’emergència per manca d’aire.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Calcular la temperatura de la zona calenta",
+      "B": "Establir la categoria de l’equip de protecció",
+      "C": "Estimar l’autonomia, planificar la feina i prevenir la manca d’aire",
+      "D": "Determinar només el pes total de l’equip"
+    }
+  },
+  {
+    "id": "racord_a4f4a78c-ef86-4afd-ae55-712bc6b9a1f1",
+    "statement": "Com es calcula la capacitat total d’aire d’una ampolla?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.2. Capacitat i reserva d’aire\n\nLa capacitat total de l’ampolla es calcula multiplicant la pressió de càrrega per la capacitat volumètrica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pressió de càrrega dividida per capacitat volumètrica",
+      "B": "Capacitat volumètrica dividida pel temps",
+      "C": "Pressió de càrrega per capacitat volumètrica",
+      "D": "Pressió final menys pressió inicial"
+    }
+  },
+  {
+    "id": "racord_f0281ce4-3f1e-4c75-b696-b0ebb3d8b059",
+    "statement": "Què conté l’ampolla d’un equip de respiració autònoma?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nAmpolla d’aire comprimit: Conté aire respirable a alta pressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aire respirable a alta pressió",
+      "B": "Aire ambiental a pressió atmosfèrica",
+      "C": "Una mescla de gasos tòxics inertitzats",
+      "D": "Oxigen pur a baixa pressió"
+    }
+  },
+  {
+    "id": "racord_dad56c27-3d44-4414-aa02-69844a22b094",
+    "statement": "Quina és la funció principal del casc d’intervenció?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.1. Casc d’intervenció\n\nÉs l’element clau per a la protecció del cap i la cara davant de múltiples riscos com impactes, projectils, calor, flames, fum, substàncies corrosives i corrents elèctriques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir únicament el coll davant la calor",
+      "B": "Evitar només la projecció de partícules als ulls",
+      "C": "Protegir exclusivament les vies respiratòries",
+      "D": "Protegir el cap i la cara davant múltiples riscos"
+    }
+  },
+  {
+    "id": "racord_980f1c20-1942-41d2-9b47-e3bdea2c66c2",
+    "statement": "Per a què serveix operativament la lectura del manòmetre?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nPermet al bomber calcular la seva autonomia i decidir el moment de la sortida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per calcular l’autonomia i decidir el moment de sortida",
+      "B": "Per regular automàticament la càrrega de l’ampolla",
+      "C": "Per calcular la temperatura de la zona calenta",
+      "D": "Per decidir la categoria de l’EPI"
+    }
+  },
+  {
+    "id": "racord_3f6090e2-6fe5-4e3a-aaba-723d5a364c23",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA quan s’utilitza una caputxa de rescat:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.5. Ús de la caputxa de rescat\n\nEl subministrament es comparteix amb la víctima. Això implica que el temps disponible per a l’evacuació es redueix i, per tant, s’ha de planificar amb rigor l’entrada, la col·locació de la caputxa i la sortida immediata.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El temps disponible per a l’evacuació es redueix",
+      "B": "El bomber comparteix el subministrament d’aire amb la víctima",
+      "C": "La caputxa no modifica l’autonomia disponible del bomber",
+      "D": "Cal planificar rigorosament l’entrada i la sortida"
+    }
+  },
+  {
+    "id": "racord_2a45dec9-fa66-4654-bfff-f41c928a98b4",
+    "statement": "Què és l’autonomia operativa d’un ERA?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.3. Autonomia i càlculs operatius\n\nL’autonomia operativa és el temps real que el bomber pot treballar abans d’haver d’iniciar la sortida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El temps transcorregut des de l’entrada fins a 170 bars",
+      "B": "El temps total fins a consumir la reserva",
+      "C": "El temps necessari per carregar l’ampolla",
+      "D": "El temps real de treball abans d’iniciar la sortida"
+    }
+  },
+  {
+    "id": "racord_10a2a403-d090-4b60-bc57-25160b16d3f8",
+    "statement": "Quina finalitat té el conjunt de components que formen un ERA?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nUn equip de respiració autònoma (ERA) està format per diversos elements que treballen conjuntament per subministrar aire respirable al bomber en ambients perillosos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subministrar aire ambiental filtrat en qualsevol entorn",
+      "B": "Reduir el pes de l’equip durant la intervenció",
+      "C": "Subministrar aire respirable en ambients perillosos",
+      "D": "Controlar exclusivament la temperatura corporal"
+    }
+  },
+  {
+    "id": "racord_6276038f-c260-408c-95bb-5d2c3091d4d5",
+    "statement": "Quins elements ha d’incloure un programa integral d’EPI?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nLa seva eficàcia depèn d’un programa integral que inclou l’avaluació de riscos, la selecció i adaptació a cada situació, la formació i informació als usuaris, i el manteniment constant del material.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Formació, comandament, comunicació i logística",
+      "B": "Selecció, inspecció, reparació i retirada",
+      "C": "Avaluació, selecció, formació i manteniment",
+      "D": "Adquisició, emmagatzematge, transport i substitució"
+    }
+  },
+  {
+    "id": "racord_7c0270b3-fbd7-4118-9a4c-70958f36bacb",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el manteniment dels guants pesants.",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.3. Guants d’intervenció\n\nManteniment: Neteja regular amb drap humit, assecat complet, no s’ha de rentar a màquina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’assecar completament",
+      "B": "S’han de netejar amb un drap humit",
+      "C": "Requereixen una neteja regular",
+      "D": "S’han de rentar habitualment a màquina"
+    }
+  },
+  {
+    "id": "racord_1d28d56c-96cb-4eba-aa27-671817515545",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els nivells d’EPI que distingeix el Cos de Bombers de la Generalitat:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4. Nivells d’EPI al Cos de Bombers\n\nEls EPI no són equips tancats: a partir dels components propis de cada modalitat, es poden afegir complements específics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nivell d’EPI només depèn de la durada del servei",
+      "B": "Es poden reforçar amb complements segons el risc",
+      "C": "Tots els nivells ofereixen exactament la mateixa protecció",
+      "D": "No admeten cap complement addicional"
+    }
+  },
+  {
+    "id": "racord_4f1ab00b-2706-4a3b-90b4-f0edb855bb8a",
+    "statement": "En quines intervencions s’utilitza principalment el casc d’intervenció pesant?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.1. Casc d’intervenció\n\nÚs principal: intervencions en incendis estructurals (urbans, industrials, túnels) i entorns amb altes temperatures.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assistències sanitàries i logístiques",
+      "B": "Incendis forestals i caminades prolongades",
+      "C": "Rescats aquàtics i marítims",
+      "D": "Incendis estructurals i entorns d’alta temperatura"
+    }
+  },
+  {
+    "id": "racord_27c65fc3-8a15-4b6e-a6d5-daa233e70e13",
+    "statement": "Què és el consum personal d’aire?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.4.1. Càlcul del consum personal\n\nEl consum personal és la quantitat d’aire que un bomber utilitza per minut en condicions determinades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La reserva mínima que no es pot utilitzar",
+      "B": "La pressió total carregada a l’ampolla",
+      "C": "La quantitat d’aire utilitzada per minut",
+      "D": "El temps total transcorregut dins la zona calenta"
+    }
+  },
+  {
+    "id": "racord_562742a3-72da-4d5a-99e9-ba8fa0035307",
+    "statement": "Quina actuació s’associa a l’avís de 110 bars?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nAvisos de pressió: 110 bars: “Bip-bip” + “Bip-bip” o Iniciar sortida de la zona calenta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Continuar la feina fins a l’alarma de reserva",
+      "B": "Desactivar el dispositiu de control electrònic",
+      "C": "Entrar a la zona calenta",
+      "D": "Iniciar la sortida de la zona calenta"
+    }
+  },
+  {
+    "id": "racord_9931dc2b-9298-463d-8d07-fe5cfe2cdf6f",
+    "statement": "Què és un pictograma en un equip de protecció individual?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.2. Pictogrames\n\nEls pictogrames són símbols normalitzats que indiquen de manera ràpida i visual el tipus de protecció que ofereix cada equip i davant de quin risc actua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un distintiu intern que identifica el propietari de l’equip",
+      "B": "Una marca que determina únicament la categoria de l’EPI",
+      "C": "Un símbol normalitzat que identifica la protecció i el risc",
+      "D": "Un codi que indica exclusivament la talla de l’equip"
+    }
+  },
+  {
+    "id": "racord_98853eec-dc81-4dfa-9504-a725fbdbe535",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el coneixement dels EPI:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nÉs imprescindible doncs, que cada professional conegui a fons les prestacions dels EPI que li han estat assignats, així com les seves limitacions i que en domini l’ús correcte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal conèixer les limitacions dels equips",
+      "B": "Cal dominar-ne l’ús correcte",
+      "C": "Cal conèixer les prestacions dels EPI assignats",
+      "D": "Només cal conèixer les prestacions, però no les limitacions"
+    }
+  },
+  {
+    "id": "racord_74b969a0-39be-4e53-9fcf-804ffeaf26c9",
+    "statement": "Quan s’ha de revisar un EPI després d’una actuació?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nCada EPI ha de ser revisat just en finalitzar cada actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan aparegui brutícia visible",
+      "B": "En començar el torn següent",
+      "C": "Just en finalitzar l’actuació",
+      "D": "Només després d’una intervenció exigent"
+    }
+  },
+  {
+    "id": "racord_1a6a683a-cf35-4ef3-9cee-184e4f566471",
+    "statement": "Què s’ha de fer inicialment amb l’EPI al lloc de l’actuació?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.2. Gestió in situ\n\nUn cop finalitzada una intervenció o després d'utilitzar un EPI o equip de treball en una pràctica o exercici, cal fer la inspecció bàsica de l’equip a lloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer una inspecció bàsica de l’equip",
+      "B": "Fer-ne només un registre sense inspeccionar-lo",
+      "C": "Guardar-lo immediatament amb els equips nets",
+      "D": "Enviar-lo sempre directament fora del parc"
+    }
+  },
+  {
+    "id": "racord_760e7774-f99b-4d80-9e01-c47a0d86d312",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la gestió especialitzada:",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.4. Gestió avançada o fora de parc\n\nS'estableix una gestió especialitzada per als contaminants especialment perillosos, per als originats en escenaris molt poc habituals i, sobretot, per als que no hi ha un sistema de neteja previst.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’aplica a contaminants perillosos, inusuals o sense sistema de neteja",
+      "B": "S’aplica només als equips que no han estat utilitzats",
+      "C": "Només és necessària quan hi ha brutícia visible",
+      "D": "Substitueix qualsevol gestió que es pugui fer al parc"
+    }
+  },
+  {
+    "id": "racord_4232662e-3bc9-40c3-b666-9ea3099282df",
+    "statement": "Quina utilitat té la traçabilitat i el registre de les revisions?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.1. Principis bàsics de la revisió diària\n\nAnotar les revisions i incidències permet fer un seguiment real del material, planificar reposicions i evitar confusions entre torns.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir les proves funcionals dels equips actius",
+      "B": "Evitar la comunicació directa entre torns",
+      "C": "Eliminar la necessitat d’inspeccions visuals",
+      "D": "Fer seguiment, planificar reposicions i evitar confusions"
+    }
+  },
+  {
+    "id": "racord_31d4ae14-28ff-47bf-95c0-c9b53bbf4f07",
+    "statement": "Quina categoria correspon al vestit d’intervenció lleuger?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.2. Vestit d’intervenció\n\nCaracterístiques: EPI categoria II.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria I",
+      "C": "Sense categoria",
+      "D": "Categoria III"
+    }
+  },
+  {
+    "id": "racord_546f51ec-0b0f-42e5-90c3-f97c33e695b8",
+    "statement": "Quines característiques té el visor de la màscara facial?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nIncorpora visor panoràmic resistent a impactes i tractament antientelament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És opac, flexible i resistent al foc directe",
+      "B": "És panoràmic, però no ofereix resistència als impactes",
+      "C": "És lateral, metàl·lic i sense tractament superficial",
+      "D": "És panoràmic, resistent a impactes i antientelament"
+    }
+  },
+  {
+    "id": "racord_98af86d5-c0ee-4b39-9b61-fef543e19063",
+    "statement": "Quan correspon aplicar una gestió avançada o fora de parc?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.4. Gestió avançada o fora de parc\n\nPer als equips en què cal maquinària o coneixements i habilitats específiques que no hi ha al parc, s’estableix una gestió avançada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan no s’ha utilitzat durant la intervenció",
+      "B": "Quan la inspecció bàsica no detecta cap incidència",
+      "C": "Quan l’equip només necessita una neteja ràpida",
+      "D": "Quan calen mitjans o coneixements no disponibles al parc"
+    }
+  },
+  {
+    "id": "racord_e3841132-901a-4564-9f59-b86f4713b2e7",
+    "statement": "Quines condicions han de complir les connexions i mànegues de l’ERA?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nConductes d’alta i baixa pressió que uneixen els diferents components. Han d’estar lliures de fuites i ben protegits contra danys mecànics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estar exposades per facilitar-ne la refrigeració",
+      "B": "Connectar només els elements de baixa pressió",
+      "C": "Estar lliures de fuites i protegides contra danys mecànics",
+      "D": "Permetre petites fuites per compensar la pressió"
+    }
+  },
+  {
+    "id": "racord_96e9557e-d450-4415-8b4f-04f0c57ea4fa",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el casc lleuger:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.1. Casc d’intervenció\n\nOfereix protecció contra cops, impactes i calor radiant moderada, però no suporta flames intenses com el casc d’intervenció pesant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És lleuger i ventilat",
+      "B": "Protegeix davant calor radiant moderada",
+      "C": "Suporta flames intenses igual que el casc pesant",
+      "D": "Pot incorporar protecció auditiva"
+    }
+  },
+  {
+    "id": "racord_d111b98c-d317-4d40-8525-aa6e62d0f5ec",
+    "statement": "Quina informació proporciona el manòmetre de l’ERA?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nManòmetre i indicador de pressió: Mostra la pressió restant de l’ampolla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El consum cardíac del bomber",
+      "B": "La temperatura de l’aire de l’ampolla",
+      "C": "El nivell de contaminació exterior",
+      "D": "La pressió restant de l’ampolla"
+    }
+  },
+  {
+    "id": "racord_c39e3286-d278-4161-855c-e94b83f0761a",
+    "statement": "Quina norma regula els cascos de bombers per a incendis estructurals?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.3. Altres normes de vestuari i equips de protecció dels bombers\n\nEN 443 – Cascos de bombers per a incendis estructurals: Defineix els requisits de resistència tèrmica, impactes i compatibilitat amb ERA.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EN 443",
+      "B": "EN 16473",
+      "C": "EN 659",
+      "D": "EN 16471"
+    }
+  },
+  {
+    "id": "racord_606e8334-b488-4b99-bb59-528c4093d244",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre el casc pesant:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.1. Casc d’intervenció\n\nDisseny: casc tancat i envoltant, amb protecció integral per a cap, cara, coll i orelles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofereix menys resistència tèrmica que el casc lleuger",
+      "B": "No és compatible amb equips ERA",
+      "C": "És obert i ventilat per a ús prolongat",
+      "D": "És tancat i envoltant, amb protecció integral"
+    }
+  },
+  {
+    "id": "racord_85e635f5-7ccf-4517-b31f-41ca72d22ab4",
+    "statement": "Quina funció té el segellament de la màscara facial?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nProporciona segellament complet al voltant de la cara per evitar l’entrada d’aire contaminat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Activar l’alarma de reserva",
+      "B": "Evitar la sortida d’aire de l’ampolla",
+      "C": "Reduir el pes suportat per l’esquena",
+      "D": "Evitar l’entrada d’aire contaminat"
+    }
+  },
+  {
+    "id": "racord_9f1dfbd9-385f-40f5-96f9-aa92c6d1291d",
+    "statement": "Quins factors determinen l’elecció correcta d’un EPI?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nL’elecció correcta de cada EPI ha de basar-se en factors com la freqüència i magnitud del risc, el nivell d’exposició i les característiques de l’operació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El risc, l’exposició i les característiques de l’operació",
+      "B": "El rang, l’antiguitat i la destinació del bomber",
+      "C": "El cost, el color i la disponibilitat del material",
+      "D": "La durada del torn i la distància al parc"
+    }
+  },
+  {
+    "id": "racord_6825deae-8017-4974-b18a-0913cb4e7b2c",
+    "statement": "A quina categoria pertanyen els equips de respiració autònoma?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nCategoria III: Exposició a atmosferes tòxiques o nocives: equips de respiració autònoma (ERA), mascaretes autofiltrants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria I",
+      "B": "Categoria II",
+      "C": "Sense categoria",
+      "D": "Categoria III"
+    }
+  },
+  {
+    "id": "racord_5079dfb1-7f6e-4d33-a01a-3095033ea39a",
+    "statement": "Quin complement és característic de la protecció davant risc elèctric?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc elèctric\n\nEntre ells destaquen els guants dielèctrics i botes, i l’ús de catifes aïllants i eines amb aïllament homologat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Guants dielèctrics i eines aïllades",
+      "B": "Guants forestals i ulleres panoràmiques",
+      "C": "Vestit de neoprè i elements de retenció",
+      "D": "Mascareta filtrant i caputxa biològica"
+    }
+  },
+  {
+    "id": "racord_e5d5eb13-db7f-4e33-b326-7dc596721c7e",
+    "statement": "Quina és la finalitat principal dels equips de protecció individual?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nTal com diu la definició, entenem per EPI qualsevol equip o accessori destinat a ser portat o subjectat pel bomber amb la finalitat de protegir la seva salut o seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protegir la salut o la seguretat del bomber",
+      "B": "Substituir les mesures de protecció col·lectiva",
+      "C": "Eliminar tots els riscos de la intervenció",
+      "D": "Facilitar únicament la identificació del personal"
+    }
+  },
+  {
+    "id": "racord_3b7a3ca2-cada-4f0e-96b2-ccd0ebff7850",
+    "statement": "Què s’ha de fer si un equip requereix gestió al parc o gestió avançada?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.2. Gestió in situ\n\nSi la inspecció realitzada conclou que requereix una gestió al parc o una gestió avançada, caldrà encapsular i transportar l’equip com més separat millor i de manera segura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Manipular-lo sense protecció abans d’arribar al parc",
+      "B": "Barrejar-lo amb els equips nets per reduir espai",
+      "C": "Encapsular-lo i transportar-lo separat i de manera segura",
+      "D": "Transportar-lo descobert per facilitar la ventilació"
+    }
+  },
+  {
+    "id": "racord_85d5afa0-ec7c-4902-b5ae-b105c698befc",
+    "statement": "Quins factors determinen la permeabilitat exigida a un vestit químic?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.4.4. Complements – Risc químic\n\nAquesta permeabilitat s’estableix en base a 2 factors: estat d’agregació del producte i forma en què s’aplica el producte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La temperatura ambiental i el rang del bomber",
+      "B": "L’estat del producte i la forma d’aplicació",
+      "C": "El fabricant i la categoria professional",
+      "D": "El color del producte i la durada del torn"
+    }
+  },
+  {
+    "id": "racord_3942bf06-ebe0-4523-bc68-7483e7965a76",
+    "statement": "Quins coneixements ha de tenir el bomber sobre l’ERA, a més del funcionament tècnic?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.1. Introducció\n\nEl bomber ha de conèixer no només el funcionament tècnic de l’ERA, sinó també les normes de seguretat, els protocols de control d’accessos a la zona calenta i les bones pràctiques per prevenir la transmissió de contaminants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament càlculs de pressió hidràulica",
+      "B": "Únicament protocols de comunicació exterior",
+      "C": "Normes de seguretat, control d’accessos i prevenció de contaminants",
+      "D": "Només tècniques de reparació del manoreductor"
+    }
+  },
+  {
+    "id": "racord_8eaae477-65a5-49bb-b413-e611943e29c0",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el reductor de pressió:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nConverteix la pressió de l’aire de l’ampolla (alta pressió) en una pressió de treball segura per al sistema (baixa pressió). Inclou vàlvules de seguretat per evitar sobrepressions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Inclou vàlvules per evitar sobrepressions",
+      "B": "Redueix la pressió procedent de l’ampolla",
+      "C": "Proporciona una pressió de treball segura",
+      "D": "Augmenta la baixa pressió fins a la pressió de càrrega de l’ampolla"
+    }
+  },
+  {
+    "id": "racord_fe995255-d960-41ae-948d-a46728bd4dd9",
+    "statement": "Quin efecte poden tenir la brutícia o la humitat sobre un EPI?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nLa brutícia o la humitat poden reduir la seva vida útil o comprometre la seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la resistència mecànica de l’equip",
+      "B": "Reduir la vida útil o comprometre la seguretat",
+      "C": "Millorar la protecció davant la calor",
+      "D": "Facilitar l’emmagatzematge prolongat"
+    }
+  },
+  {
+    "id": "racord_78e77227-4dd4-4d70-a0d2-8fa1adec931a",
+    "statement": "Quina relació entre norma i equip és correcta?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.2.3. Altres normes de vestuari i equips de protecció dels bombers\n\nEN 16471 – Cascos per a incendis forestals. EN 16473 – Cascos per a rescat tècnic. EN 15090 – Calçat de protecció per a bombers. EN 659 – Guants de protecció per a bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EN 16473 — vestuari d’incendi estructural",
+      "B": "EN 16471 — guants de protecció per a bombers",
+      "C": "EN 15090 — calçat de protecció per a bombers",
+      "D": "EN 659 — cascos per a rescat tècnic"
+    }
+  },
+  {
+    "id": "racord_6fbc4b1e-0891-418a-ad9f-72b34e58b2f9",
+    "statement": "Qui pot adaptar el nivell mínim de protecció a cada actuació?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nEl nivell mínim de protecció dels equips de protecció individual es regula mitjançant el procediment corresponent, i pot ser adaptat pel cap d’intervenció, d’acord amb l’avaluació dels riscos i les característiques de cada actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El conductor del primer vehicle",
+      "B": "El responsable del magatzem",
+      "C": "Qualsevol membre de la dotació",
+      "D": "El cap d’intervenció"
+    }
+  },
+  {
+    "id": "racord_aa73b379-3346-48c7-9675-dd7651272c51",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la gestió dels EPI després de cada servei.",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nLa gestió correcta dels EPI després de cada servei és molt més que una rutina de manteniment: és una mesura de salut i seguretat vital.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una tasca exclusivament administrativa",
+      "B": "És una actuació opcional si no hi ha sutge visible",
+      "C": "Només és necessària després d’incendis industrials",
+      "D": "És una mesura vital de salut i seguretat"
+    }
+  },
+  {
+    "id": "racord_a49f5696-4ec1-43dd-ac68-d4aab3fec262",
+    "statement": "En quins tipus d’atmosfera són imprescindibles els equips de protecció respiratòria?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.1. Introducció\n\nEls equips de protecció respiratòria són una eina imprescindible per garantir la seguretat dels bombers en entorns amb atmosfera contaminada o amb manca d’oxigen.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En espais oberts amb bona ventilació",
+      "B": "En atmosferes netes amb excés d’humitat",
+      "C": "En atmosferes contaminades o amb manca d’oxigen",
+      "D": "En qualsevol entorn, encara que no existeixi risc respiratori"
+    }
+  },
+  {
+    "id": "racord_32281c8f-30eb-412b-8826-12baff8b6448",
+    "statement": "Quina composició té el vestit d’intervenció pesant?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.3.2. Vestit d’intervenció\n\nDisseny: conjunt jaquetó + sobrepantaló de 3 capes, amb barreres tèrmica i impermeable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Granota lleugera sense barrera impermeable",
+      "B": "Jaqueta i pantaló d��una sola capa",
+      "C": "Vestit encapsulat amb aire autònom integrat",
+      "D": "Jaquetó i sobrepantaló de tres capes"
+    }
+  },
+  {
+    "id": "racord_4cb5d970-34d9-4141-a43d-58d3c2b59f9f",
+    "statement": "Quina és la funció principal dels equips de protecció respiratòria?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.1. Introducció\n\nLa seva funció és subministrar aire respirable de forma segura i constant, permetent al bomber desenvolupar la seva tasca sense exposar-se als riscos derivats de la inhalació de gasos tòxics, fum, vapors o partícules en suspensió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reduir la temperatura de l’aire inhalat pel bomber",
+      "B": "Filtrar exclusivament les partícules sòlides de l’ambient",
+      "C": "Subministrar aire respirable de manera segura i constant",
+      "D": "Subministrar oxigen pur només durant la fase de sortida"
+    }
+  },
+  {
+    "id": "racord_ce26a090-5a34-4adc-a008-b2b7e898aa12",
+    "statement": "Quins contaminants poden quedar impregnats als EPI després d’una intervenció?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nMolts cops, queden impregnats de contaminants químics i partícules tòxiques derivades de la combustió de materials (plàstics, pintures, coles, etc.), que són invisibles a simple vista.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Contaminants químics i partícules tòxiques invisibles",
+      "B": "Exclusivament aigua i humitat ambiental",
+      "C": "Només terra i pols fàcilment visibles",
+      "D": "Només residus biològics detectables a simple vista"
+    }
+  },
+  {
+    "id": "racord_a0826f80-a70e-4436-852c-91a630bdb5b3",
+    "statement": "Per què l’ERA forma part de la seguretat col·lectiva?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.1. Introducció\n\nL’ERA no és només una eina de protecció individual, sinó una part clau de la seguretat col·lectiva en una intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè permet prescindir del control d’accessos",
+      "B": "Perquè el seu ús correcte protegeix el bomber i el conjunt de l’equip",
+      "C": "Perquè elimina tots els riscos existents a la zona calenta",
+      "D": "Perquè substitueix els protocols operatius de la intervenció"
+    }
+  },
+  {
+    "id": "racord_ec426974-120c-49f0-a960-3d642169b699",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els EPI de categoria III:",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nInclou, entre d’altres, exposició a atmosferes tòxiques o nocives, agressions químiques, temperatures extremes, caigudes en alçada i contacte amb tensió elèctrica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden protegir davant tensió elèctrica",
+      "B": "Inclouen protecció davant caigudes en alçada",
+      "C": "Protegeixen principalment davant agressions mecàniques superficials",
+      "D": "Poden protegir davant atmosferes tòxiques"
+    }
+  },
+  {
+    "id": "racord_28444b49-a9ca-41c3-9570-d1196b3e408f",
+    "statement": "Quin nivell de risc correspon als EPI de categoria III?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nCategoria III – Protegeix davant de riscos greus per la salut o mortals, susceptibles de provocar danys irreversibles pel treballador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Riscos mínims amb efectes graduals",
+      "B": "Riscos mecànics superficials exclusivament",
+      "C": "Riscos moderats amb danys fàcilment reparables",
+      "D": "Riscos greus o mortals amb possibles danys irreversibles"
+    }
+  },
+  {
+    "id": "racord_cc537695-c03f-4f1c-97e4-1d4a63b37e3c",
+    "statement": "En quantes categories es classifiquen els equips de protecció individual segons el nivell de risc?",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.1. Categories\n\nEls equips de protecció individual es classifiquen en tres categories segons el nivell de risc davant el qual protegeixen.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc",
+      "B": "Quatre",
+      "C": "Dues",
+      "D": "Tres"
+    }
+  },
+  {
+    "id": "racord_4338677b-9ed6-4f92-99f5-f1a3b0bb45b8",
+    "statement": "Quina funció té l’arnès o suport dorsal de l’ERA?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nEstructura que subjecta l’ampolla i distribueix el pes a l’esquena i espatlles del bomber.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subjectar l’ampolla i distribuir-ne el pes",
+      "B": "Reduir la pressió de l’aire de l’ampolla",
+      "C": "Subministrar aire a demanda a la màscara",
+      "D": "Mesurar la pressió restant de l’equip"
+    }
+  },
+  {
+    "id": "racord_657eb508-e5ef-4e6d-b107-4a6a65208306",
+    "statement": "Com es defineix la responsabilitat sobre la seguretat dins l’equip?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n1. Introducció\n\nLa seguretat és una corresponsabilitat compartida entre tots els membres de l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivitat",
+      "B": "Corresponsabilitat",
+      "C": "Delegació",
+      "D": "Subordinació"
+    }
+  },
+  {
+    "id": "racord_87f0f7b7-a247-4a81-b97c-7597b88e74dc",
+    "statement": "Com contribueix el manteniment adequat a la vida útil dels equips?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.3. Importància de la revisió diària\n\nAllargar la vida útil dels equips: Un manteniment adequat retarda desgasts i redueix costos de reposició.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evita haver de fer proves funcionals",
+      "B": "Retarda els desgasts i redueix els costos de reposició",
+      "C": "Elimina completament el desgast dels materials",
+      "D": "Permet utilitzar indefinidament qualsevol EPI"
+    }
+  },
+  {
+    "id": "racord_105a3f4a-1cf7-4224-8eb7-42405596d3bd",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’ús de l’ERA:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.1. Introducció\n\nEn moltes intervencions, especialment en incendis, fuites de productes químics, atmosferes explosives o espais confinats, l’ús de l’equip de respiració autònoma (ERA) és obligatori.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És opcional en atmosferes explosives",
+      "B": "Pot ser obligatori en incendis, fuites químiques o espais confinats",
+      "C": "Només és obligatori en incendis forestals",
+      "D": "No s’utilitza en espais confinats"
+    }
+  },
+  {
+    "id": "racord_70d83029-245e-4e94-a75b-af882c42f225",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la cadena de transmissió dels contaminants:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nCada bomber és responsable de trencar la cadena de transmissió dels contaminants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada bomber té responsabilitat en la gestió dels contaminants",
+      "B": "Cal respectar les zones netes i brutes del parc",
+      "C": "Cal evitar manipular l’EPI brut sense guants",
+      "D": "Trencar la cadena de transmissió correspon només al personal de neteja"
+    }
+  },
+  {
+    "id": "racord_2e255f30-20aa-4143-a471-b2e88bc81e22",
+    "statement": "Quan pot ser necessària una inspecció assistida de l'EPI?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.2. Gestió in situ\n\nCal fer la inspecció bàsica de l’equip a lloc i, si cal, una inspecció assistida per determinar l’operativitat de l’element i el tipus de gestió que necessita.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan cal determinar millor l’operativitat i la gestió necessària",
+      "B": "Sempre abans de fer la inspecció bàsica",
+      "C": "Exclusivament quan la brutícia és visible",
+      "D": "Només quan l’equip no s’ha utilitzat"
+    }
+  },
+  {
+    "id": "racord_6564736b-31c3-4298-bab9-c3749d1bce28",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre l’alarma d’immobilitat:",
+    "correct": "D",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n3.2. Parts d’un equip de respiració autònoma (ERA)\n\nAquesta alarma s’activa quan el dispositiu de control electrònic no detecta moviment per part de l’usuari durant 30”. Si en els 10” següents no detecta cap moviment, l’alarma queda fixada i només es pot desactivar manualment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Detecta la manca de moviment del bomber",
+      "B": "Queda fixada si no hi ha moviment durant els 10 segons següents",
+      "C": "Inicia l’avís després de 30 segons sense moviment",
+      "D": "Queda fixada immediatament després de 10 segons sense moviment"
+    }
+  },
+  {
+    "id": "racord_cb9c2c32-8079-43b5-a7b0-e5b3d4fad32f",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els factors que poden motivar una gestió avançada:",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.4. Gestió avançada o fora de parc\n\nLa necessitat de dur a terme una gestió avançada o especialitzada pot estar motivada per l’estat de l’equip, la manca de mitjans necessaris, les instruccions del fabricant o els riscos de manipulació durant el manteniment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La manca de mitjans pot motivar-la",
+      "B": "La preferència personal de l’usuari és un factor determinant",
+      "C": "Les instruccions del fabricant poden motivar-la",
+      "D": "L’estat de l’equip pot motivar-la"
+    }
+  },
+  {
+    "id": "racord_fb203aef-352c-4e23-a575-e42ac46a3346",
+    "statement": "Com han de quedar els equips després de cada ús?",
+    "correct": "A",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.1.2. Criteris generals de manteniment dels EPI\n\nNeteja i higiene: Després de cada ús, els equips han de quedar nets i secs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nets i secs",
+      "B": "Emmagatzemats sense netejar",
+      "C": "Nets, encara que quedin mullats",
+      "D": "Humits i ventilats"
+    }
+  },
+  {
+    "id": "racord_e6a65e66-84e1-4f68-98ec-5f403f46568c",
+    "statement": "Quina diferència hi ha entre la categoria i el pictograma d’un EPI?",
+    "correct": "B",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n2.1.2. Pictogrames\n\nLa categoria defineix el nivell de gravetat del risc i la complexitat dels assaigs que ha superat l’equip, el pictograma especifica la seva funció concreta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La categoria indica el fabricant i el pictograma el risc",
+      "B": "La categoria indica la gravetat i el pictograma la funció concreta",
+      "C": "La categoria indica la funció i el pictograma la talla",
+      "D": "La categoria indica la norma i el pictograma la vida útil"
+    }
+  },
+  {
+    "id": "racord_a94e498a-f662-4fac-92ba-d2f462417016",
+    "statement": "Quan s’inicia el procés de gestió dels contaminants?",
+    "correct": "C",
+    "explanation": "MAN.SEGU.000 V1.2026\n\n4.2.1. Consciència sobre els contaminants en els EPIs\n\nEl procés de gestió dels contaminants s’inicia en el moment en què s’acaba una intervenció o quan finalitza la utilització d’un equip, vehicle o eina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "T20 Equips de protecció individual d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan es detecta contaminació visible",
+      "B": "Quan el material arriba a un centre especialitzat",
+      "C": "Quan acaba la intervenció o l’ús de l’equip",
+      "D": "Quan comença el torn de guàrdia següent"
+    }
+  }
+]

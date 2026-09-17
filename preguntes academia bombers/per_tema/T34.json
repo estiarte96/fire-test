@@ -1,0 +1,322 @@
+[
+  {
+    "id": "academia_sim2_q80",
+    "simulacre": "Simulacre 2",
+    "num_pregunta": 80,
+    "statement": "L'amplitudanualmitjanadelatemperatura(AAMT)ésunparàmetrequeresultade:",
+    "correct": "D",
+    "explanation": "TMA: Temperatura mitjana anual.\nRPE: Règim pluviomètric estacional.\nPMA: Precipitació mitjana anual.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La relació entre la humitat registrada en la temperatura mésalta anual i la humitat en la temperatura mésbaixa",
+      "B": "La diferència entre la temperatura màxima i la mínima registrades en un mateix any natural",
+      "C": "La temperatura mitjana anual",
+      "D": "La diferència entre la temperatura mitjana del mésméscàlid i la del mesmésfred\n\nacadèmia\nbombers"
+    }
+  },
+  {
+    "id": "academia_sim18_q29",
+    "simulacre": "Simulacre 18",
+    "num_pregunta": 29,
+    "statement": "Unencenedordegasésunexemplede:",
+    "correct": "B",
+    "explanation": "La flama de difusió, exceptuant la de l'espelma, no té forma de con, i acostuma a ser vermella o groga.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Flama de difusió",
+      "B": "Flama de premescla",
+      "C": "Flama de predifusió",
+      "D": "Flama de mescla"
+    }
+  },
+  {
+    "id": "academia_sim26_q94",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 94,
+    "statement": "Quindelssegüentsclimespresentaunaprecipitaciómitjanaanual(PMA)menor?",
+    "correct": "D",
+    "explanation": "Climaprelitoral:600-1.000mm.\nClimapirinenc:1.000-1.300mm.\nClimaatlàntic:900-1.100mm.\nClimacontinental:350-850mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elclimaprelitoral",
+      "B": "Elclimapirinenc",
+      "C": "Elclimaatlànticooceànic",
+      "D": "Elclimacontinental"
+    }
+  },
+  {
+    "id": "academia_sim29_q24",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 24,
+    "statement": "Laprecipitaciómitjanaanual(PMA)delclimalitoralestrobasobreels:",
+    "correct": "C",
+    "explanation": "Clima litoral: 500 -750 mm.\nClima prelitoral: 600 -1.000 mm.\nClima pirinenc: 1.000 -1.300 mm.\nClima atlàntic: 900 -1.100 mm.\nClima continental: 350 -850 mm.\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 -1.300 mm",
+      "B": "600 -1.000 mm",
+      "C": "500 -750 mm",
+      "D": "350 -850 mm\n\nacadèmia\nbombers"
+    }
+  },
+  {
+    "id": "academia_sim30_q18",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 18,
+    "statement": "Quin clima es localitza a Ponent, a la Catalunya Central i a la Plana de Vic?",
+    "correct": "D",
+    "explanation": "Característiques del clima continental:\nPMA: 350 - 850 mm.\nRPE: màxim tardor i primavera, mínim estiu.\nTMA: 12 - 15°C\nAAMT: 17 - 20°C",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima prelitoral",
+      "B": "El clima litoral",
+      "C": "El clima prepirinenc",
+      "D": "El clima continental"
+    }
+  },
+  {
+    "id": "academia_sim36_q68",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 68,
+    "statement": "A quina classe correspon l'etiqueta blanca per la part de sobre i vermella per la de sota?",
+    "correct": "B",
+    "explanation": "Laclasse4.2corresponalesmatèriesquepodenexperimentarinflamacióespontània.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alaclasse4.1",
+      "B": "Alaclasse4.2",
+      "C": "Alaclasse5.1",
+      "D": "Alaclasse4.3"
+    }
+  },
+  {
+    "id": "academia_sim37_q56",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 56,
+    "statement": "Quèpodemafirmarsobreelclimaprelitoral?",
+    "correct": "B",
+    "explanation": "Font: Pla INUNCAT.\nClima prelitoral: caracteritzat per precipitació moderada produïda per masses d’aire procedents del mediterrani,\npreferentment ala tardor.\nPMA = 600 –1.000 mm\nRPE = Màxim tardor i primavera\nTMA = 11 –15 ºC\nAAMT= 15 –18 ºC\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva temperatura mitjana anual oscil·la entre els 14,5 i els 18 ºC",
+      "B": "Presenta una precipitació mitjana anual d'entre 600 i 1.000 mm",
+      "C": "Es caracteritza per tenir una pluviometria equilibrada durant l’any",
+      "D": "El seu règim pluviomètric estacional ésde màxims al'estiu i primavera i mínim hivern\n\nacadèmia\nbombers"
+    }
+  },
+  {
+    "id": "academia_sim45_q87",
+    "simulacre": "Simulacre 45",
+    "num_pregunta": 87,
+    "statement": "Dequincolorésl'etiquetadelaclasse2.3?",
+    "correct": "B",
+    "explanation": "L'etiqueta 2.1 (gasos inflamables) serà tota vermella, mentre que la 2.2 (gasos no inflamables, no tòxics) serà tota verda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tota verda",
+      "B": "Tota blanca",
+      "C": "Té la meitat inferior de color vermell i la meitat superior de color blanc",
+      "D": "Tota vermella"
+    }
+  },
+  {
+    "id": "academia_sim47_q11",
+    "simulacre": "Simulacre 47",
+    "num_pregunta": 11,
+    "statement": "La precipitació mitjana anual (PMA) del clima prelitoral es troba sobre els:",
+    "correct": "B",
+    "explanation": "Climalitoral:500-750mm.\nClimaprelitoral:600-1.000mm.\nClimapirinenc:1.000-1.300mm.\nClimaatlàntic:900-1.100mm.\nClimacontinental:350-850mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000-1.300mm",
+      "B": "600-1.000mm",
+      "C": "500-750mm",
+      "D": "350-850mm"
+    }
+  },
+  {
+    "id": "academia_sim59_q75",
+    "simulacre": "Simulacre 59",
+    "num_pregunta": 75,
+    "statement": "Comseràl'etiquetadeperillreferentalaclasse5.1(comburents)?",
+    "correct": "D",
+    "explanation": "L'etiqueta 5.2 té la meitat superior vermella i la meitat inferior groga.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vermella la meitat superior i groga la meitat inferior",
+      "B": "Groga la meitat superior i vermella la meitat inferior",
+      "C": "Vermella la meitat superior i blanca la meitat inferior",
+      "D": "Completament groga"
+    }
+  },
+  {
+    "id": "academia_sim93_q61",
+    "simulacre": "Simulacre 93",
+    "num_pregunta": 61,
+    "statement": "Com serà l'etiqueta de perill referent a la classe 5.1 (comburents)?",
+    "correct": "D",
+    "explanation": "L'etiqueta 5.2 té la meitat superior vermella i la meitat inferior groga.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 93",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vermella la meitat superior i groga la meitat inferior",
+      "B": "Groga la meitat superior i vermella la meitat inferior",
+      "C": "Vermella la meitat superior i blanca la meitat inferior",
+      "D": "Completament groga"
+    }
+  },
+  {
+    "id": "academia_sim103_q72",
+    "simulacre": "Simulacre 103",
+    "num_pregunta": 72,
+    "statement": "QuinclimaeslocalitzaaPonent,alaCatalunyaCentralialaPlanadeVic?",
+    "correct": "D",
+    "explanation": "Característiquesdelclimacontinental:\nPMA:350-850mm.\nRPE:màximtardoriprimavera,mínimestiu.\nTMA:12-15°C\nAAMT:17-20°C",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elclimaprelitoral",
+      "B": "Elclimalitoral",
+      "C": "Elclimaprepirinenc",
+      "D": "Elclimacontinental"
+    }
+  },
+  {
+    "id": "academia_sim126_q4",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 4,
+    "statement": "Ordena la codificació de colors del triatge START de més a menys prioritari:",
+    "correct": "D",
+    "explanation": "Vermell (Prioritat 1): víctimes crítiques però amb possibilitat de supervivència si reben assistència immediata.\nGroc (Prioritat 2): víctimes greus però que poden esperar un temps limitat abans de rebre assistència.\nVerd (Prioritat 3): víctimes amb lesions lleus oferides que poden esperar orebre atenció ambulatòria.\nNegre (Prioritat 4): víctimes sense senyals vitals oamb lesions incompatibles amb la vida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Negre, vermell, groc, verd",
+      "B": "Negre, verd, groc, vermell",
+      "C": "Vermell, negre, groc, verd",
+      "D": "Vermell, groc, verd, negre"
+    }
+  },
+  {
+    "id": "academia_sim127_q49",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 49,
+    "statement": "Indica l'afirmació CORRECTA relativa als sistemes de triatge emprats en incidents de múltiples\nvíctimes:",
+    "correct": "A",
+    "explanation": "ElmètodeSALT(Sort,Assess,LifesavingInterventions,Treatment/Transport)ésunmètodedetriatgemixt.\nAdiferènciadeltriatgeSTART,elsistemaMETAtéencomptediagnòsticsmèdics,valoracionsdetalladesinecessitats\nterapèutiques.\nEneltriatgeSTART,lesvíctimess’identifiquenmitjançant:\n−Cintesdecolorscol·locadesalcanell,turmellovisiblealcos.\n−Targetesdetriatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ElsistemaMETAésunsistemadetriatgeavançatresponsabilitatdelpersonalmèdic",
+      "B": "EltriatgeSTARTtéencomptediagnòsticsmèdicsinecessitatsterapèutiques",
+      "C": "EltriatgeSTARTcontemplatressistemesd’etiquetatge:targetesdetriatge,collaretsdecolorsicartolinesnumerades",
+      "D": "ElmètodeSALT(Sort,Assess,LifesavingInterventions,Treatment/Transport)ésunmètodedetriatgebasaten\nlesions"
+    }
+  },
+  {
+    "id": "academia_sim128_q30",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 30,
+    "statement": "Un cop les víctimes arriben a l'Àrea Sanitària, l'equip mèdic hi aplica el sistema META. Què aporta\naquest triatge respecte de la classificació START inicial?",
+    "correct": "A",
+    "explanation": "El triatge avançat META, responsabilitat del personal mèdic, afina la classificació inicial perquè valora diagnòstics\nmèdics, valoracions detallades i necessitats terapèutiques, cosa que el START (basat només en funcions vitals bàsiques)\nno fa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incorpora diagnòstics mèdics i necessitats terapèutiques ala valoració",
+      "B": "Reclassifica les víctimes incorporant la valoració de lesions i l’estat general",
+      "C": "Complementa la classificació inicial amb una valoració mésdetallada de l’estat de la víctima",
+      "D": "Estableix una nova priorització apartir de la informació clínica obtinguda durant l’atenció sanitària\n4\nwww.academiabombers.com\nAcadèmia Bombers Simulacre 128"
+    }
+  },
+  {
+    "id": "academia_sim128_q55",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 55,
+    "statement": "En un incident amb múltiples afectats cal habilitar una zona de triatge i una àrea de concentració\nde víctimes. Quina unitat del Cos de Bombers en té la capacitat?",
+    "correct": "C",
+    "explanation": "El GROS té capacitat per muntar zones de triatge, àrees de concentració de víctimes i punts d'assistència sanitària\nprehospitalària, amésd'instal·lar la logística necessària. El GEM, en canvi, aporta personal mèdic i d'infermeria per\nmedicalitzar el lloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Incidents de múltiples víctimes",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El GEM, que medicalitza el lloc de l'incident amb personal mèdic i d'infermeria",
+      "B": "Els testimonis oprimers intervinents que arriben en primer lloc al sinistre",
+      "C": "El GROS, especialitzat en suport tàctic, logístic iassistencial",
+      "D": "Els equips especialitzats que apliquen suport vital avançat i administren fàrmacs"
+    }
+  }
+]

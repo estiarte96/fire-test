@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "racord_883ac752-b531-4041-9770-270324b45433",
+    "statement": "Formes part d'un binomi de rescat de persones atrapades en un ascensor. No hi ha cambra de màquines i busques el motor d’un ascensor d’adherència. On l’has d’esperar trobar habitualment?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nEl motor d’adherència està situat dins del mateix forat de l’ascensor, generalment a la part superior del recorregut.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dins del fossat, sota la cabina",
+      "B": "Dins del forat, generalment a la part superior del recorregut",
+      "C": "En una sala independent situada sobre la coberta",
+      "D": "En un armari hidràulic de la planta baixa"
+    }
+  },
+  {
+    "id": "racord_2f536cbb-bc8e-4a92-ac78-0620b820dd9c",
+    "statement": "Durant una guàrdia es reben diversos avisos relacionats amb un ascensor d'un edifici. Quin d’aquests supòsits encaixa directament entre les causes habituals d’intervenció d’emergència en ascensors?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nLes causes més freqüents són: avaries elèctriques o mecàniques, talls de subministrament elèctric, errors de funcionament dels sistemes de control i usuaris amb crisi d’angoixa o situacions de risc mèdic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una revisió reglamentària de la instal·lació amb l’ascensor fora de servei",
+      "B": "Una substitució preventiva dels cables sense persones afectades",
+      "C": "Una inspecció periòdica programada per l’empresa mantenidora",
+      "D": "Una avaria elèctrica o mecànica que deixa usuaris bloquejats"
+    }
+  },
+  {
+    "id": "racord_3350fc2a-85b7-465c-8869-328ffdadce95",
+    "statement": "Durant el rescat d’un ascensor hidràulic avariat, quina direcció de moviment forma part de la maniobra bàsica?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nPermetre el descens segur de la cabina en cas d’avaria o tall elèctric per facilitar l’evacuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ascens de la cabina fins a la planta superior",
+      "B": "Moviment alternatiu de pujada i baixada per descarregar el circuit",
+      "C": "Desplaçament en el sentit que determini un contrapès",
+      "D": "Descens controlat de la cabina"
+    }
+  },
+  {
+    "id": "racord_e7394453-d0e3-4375-8191-fe5727d2afc2",
+    "statement": "Quina funció general tenen els nusos en el rescat en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nEls nusos són essencials per a la connexió segura entre cordes, mosquetons i altres equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permetre connexions segures entre cordes, mosquetons i altres equips",
+      "B": "Complementar els sistemes de protecció anticaigudes",
+      "C": "Multiplicar la força aplicada sobre una càrrega",
+      "D": "Permetre connexxions segures entre cordes i multiplicar forces"
+    }
+  },
+  {
+    "id": "racord_ff8a63ce-f9e1-426a-baeb-ed950ffe3032",
+    "statement": "En un rescat de persones atrapades en un ascensor, com ha d’estar ancorat el personal quan hi ha risc de caiguda?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nSempre que hi hagi risc de caiguda, el personal que fa la maniobra ha d’estar ancorat a dos punts: al punt de progressió o suspensió + al sistema anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A dos punts: progressió o suspensió i sistema anticaigudes",
+      "B": "A un punt de retenció connectat a l’anella ventral",
+      "C": "A dos punts: un sistema anticaigudes i un sistema MGO",
+      "D": "A una corda principal amb sistema de seguretat"
+    }
+  },
+  {
+    "id": "racord_0db00a7e-a86e-48b6-8e93-330ee73e5997",
+    "statement": "Indica quina característica NO correspon habitualment al motor d’un ascensor sense cambra de màquines:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nEl motor és de tipus gearless (sense reductor), compacte i silenciós.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disposa de reductor mecànic",
+      "B": "És de tipus gearless",
+      "C": "És silenciós",
+      "D": "És compacte"
+    }
+  },
+  {
+    "id": "racord_1882ff7f-bacd-4fbd-a519-4657065be4a8",
+    "statement": "Quan s’utilitza la progressió tipus escalada descrita al manual de referència MAN.SVXX.000 V1 2026 de rescat en alçada?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.2. Maniobra de progressió tipus escalada\n\nAquesta maniobra es fa servir quan no és possible instal·lar una corda des de dalt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan es pot accedir per una escala colissa",
+      "B": "Quan la víctima es troba dins d’una cistella d’AEA",
+      "C": "Quan no es pot instal·lar una corda des de dalt",
+      "D": "Quan hi ha una corda fixa instal·lada prèviament"
+    }
+  },
+  {
+    "id": "racord_6198e1e0-f07d-4ca7-9a4a-7078ee46d6af",
+    "statement": "Quins elements són necessaris per afrontar professionalment una actuació de rescat urbà?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.1. El rescat urbà a Catalunya\n\nPer això, cal aplicar coneixements tècnics, planificació operativa i maniobres específiques amb criteri professional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Planificació, adaptabilitat i suport sanitari",
+      "B": "Planificació operativa, adaptabilitat de maniobres i atenció psicosanitària",
+      "C": "Experiència pràctica, rapidesa i adaptabilitat de la maniobra",
+      "D": "Coneixements tècnics, planificació operativa i maniobres específiques"
+    }
+  },
+  {
+    "id": "racord_f676edc6-5ce2-4f67-82e3-990398ab3dc0",
+    "statement": "Quina utilitat té el nus ballestrinca o pardal?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nBallestrinca o pardal: Útil per a connexions ràpides i ajustables a punts d’ancoratge provisionals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aturar una caiguda limitant la força de xoc",
+      "B": "Fixar la víctima a dos punts independents",
+      "C": "Multiplicar l’avantatge mecànic d’un polispast",
+      "D": "Fer connexions ràpides i ajustables en ancoratges provisionals"
+    }
+  },
+  {
+    "id": "racord_f87ba42f-81e6-4322-be4b-82a568b6bf8c",
+    "statement": "Un ascensor queda aturat després de perdre alimentació. Quina correspondència element-funció és CORRECTA?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nFre de seguretat: dispositiu mecànic que bloqueja el moviment de la cabina quan no s’està subministrant energia o en cas d’avaria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Politja d’adherència: governa les trucades i les parades.",
+      "B": "Contrapès: bloqueja mecànicament la cabina en cas d’avaria.",
+      "C": "Fre associat al motor: manté immobilitzada la cabina quan no hi ha energia.",
+      "D": "Limitador de velocitat: equilibra la massa de la cabina."
+    }
+  },
+  {
+    "id": "racord_d440c637-da73-4d48-b885-ae9598c90176",
+    "statement": "Quina definició correspon al rescat urbà?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.2. Què entenem per rescat urbà?\n\nEl rescat urbà és tota actuació destinada a localitzar, accedir, estabilitzar i evacuar persones que es troben atrapades o en situació de dificultat física o funcional dins d’un entorn construït.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actuació per localitzar i extreure persones en dificultat dins d’un entorn construït",
+      "B": "Actuació per localitzar, estabilitzar i confinar persones en dificultat dins d’un entorn construït",
+      "C": "Actuació per atendre sanitàriament i extreure persones en dificultat dins d’un entorn construït",
+      "D": "Actuació per localitzar, accedir, estabilitzar i evacuar persones en dificultat dins d’un entorn construït"
+    }
+  },
+  {
+    "id": "racord_6e066c71-6032-47d7-b691-a5ea86331770",
+    "statement": "Indica l’associació CORRECTA entre tipologia d’ascensor i ubicació dels equips:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nEls ascensors electromecànics d’adherència requereixen una cambra de màquines on s’ubiquen el motor i els aparells de maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hidràulic: motor d’adherència gearless a la part superior del forat.",
+      "B": "Electromecànic d’adherència tradicional: motor i aparells de maniobra en una cambra de màquines.",
+      "C": "Electromecànic tradicional: pistó sota la cabina i bomba a la planta baixa.",
+      "D": "Sense cambra de màquines: motor i bomba d’oli en un armari tècnic de planta baixa."
+    }
+  },
+  {
+    "id": "racord_3b0a6dc6-21a0-49b5-8b52-08cef04200d0",
+    "statement": "Indica la funció que té una politja simple:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.3. Politges i sistemes mecànics\n\nPolitges simples: per redirigir el moviment de la corda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Absorbir l’impacte d’una caiguda",
+      "B": "Redirigir el moviment de la corda",
+      "C": "Assegurar el rescatador a dos punts",
+      "D": "Evitar el retrocés de la càrrega"
+    }
+  },
+  {
+    "id": "racord_09d6af6e-c86e-4abc-9e9d-3201b2dd4ffc",
+    "statement": "Quins dos sistemes independents s’han de disposar en maniobres de rescat amb cordes?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nEn les maniobres amb cordes, això implica disposar de dos sistemes independents: un per sosteniment i un altre com a anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sistema MGO i un nus autoblocant",
+      "B": "Una politja simple i una politja amb bloqueig",
+      "C": "Una corda estàtica i una escala manual",
+      "D": "Un sistema de sosteniment i un sistema anticaigudes"
+    }
+  },
+  {
+    "id": "racord_201230b3-a64e-4952-a25a-077d3ff9f2f2",
+    "statement": "Quins components formen el sistema d’ascens per corda fixa?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.4. Maniobra d’ascens per corda fixa\n\nEs fa servir un sistema d’ascens format per bloquejadors (puny), pedal i arnès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "MGO, triangle de salvament i descensor",
+      "B": "Bloquejador o puny, pedal i arnès",
+      "C": "Línia de vida, ballestrinca i cistella",
+      "D": "Politja simple, nus de vuit i escala"
+    }
+  },
+  {
+    "id": "racord_00e6b3eb-2480-4208-b412-d46dd8a9f532",
+    "statement": "Què estableix el Reial decret 486/1997 respecte a les zones amb risc de caiguda?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nEstableix l’obligació de protegir les zones on hi ha risc de caiguda des de més de 2 metres d’alçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que les zones amb risc de caiguda des de més de 2 metres s’han de protegir",
+      "B": "Que qualsevol treball a un metre requereix corda de seguretat",
+      "C": "Que el risc de caiguda es valora a partir de cinc metres",
+      "D": "Que les escales manuals poden substituir qualsevol protecció col·lectiva"
+    }
+  },
+  {
+    "id": "racord_22f71fb7-132a-4e36-bc23-81e85d247d6e",
+    "statement": "Indica la funció d'un nus de vuit resseguit o per sinus:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nResseguit o per sinus: per assegurar l’ancoratge de la corda a l’arnès o a un punt fix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per assegurar la corda a l’arnès o a un punt fix",
+      "B": "Per bloquejar el retrocés d’una politja",
+      "C": "Per actuar com a nus de topall al final de la corda",
+      "D": "Per fer una connexió temporal ajustable a una barana"
+    }
+  },
+  {
+    "id": "racord_849392e1-38dd-4f30-a746-55af51875799",
+    "statement": "Durant la inspecció d’un ascensor d’adherència, has d’identificar els seus elements. Quina correspondència entre element i descripció és CORRECTA?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nCabina: espai on viatgen les persones o la càrrega. Està suspesa mitjançant cables d’acer.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Contrapès: sistema electrònic que governa les maniobres",
+      "B": "Quadre de maniobres: massa que compensa el pes de la cabina",
+      "C": "Cabina: espai destinat a persones o càrrega, suspès mitjançant cables d’acer",
+      "D": "Politja d’adherència: rail metàl·lic que estabilitza el recorregut"
+    }
+  },
+  {
+    "id": "racord_0036fcd8-d652-466e-9cc1-6857152f5319",
+    "statement": "Després de tallar la tensió d’un ascensor hidràulic, quin element permet provocar un descens lent i controlat de la cabina?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nCal activar la vàlvula de descàrrega manual, per tal que la cabina descendeixi lentament i de manera controlada fins a la planta inferior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El fre integrat del motor gearless",
+      "B": "La vàlvula de descàrrega manual",
+      "C": "El volant de la politja d’adherència",
+      "D": "El limitador de velocitat"
+    }
+  },
+  {
+    "id": "racord_fb8655d4-4c3b-4920-99e0-e1404b4c2e2c",
+    "statement": "Quina característica comparteixen els nusos Prusik i Machard?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nPrusik i Machard: Nusos autoblocants utilitzats com a sistemes de seguretat en descensos o ascensos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són nusos destinats a ancoratges provisionals ajustables",
+      "B": "Són autoblocants i s’utilitzen com a seguretat en descensos o ascensos",
+      "C": "Són nusos pensats per connectar la víctima a una llitera",
+      "D": "Són nusos de topall per a descensors i politges"
+    }
+  },
+  {
+    "id": "racord_9a695ee7-3a85-4fcd-be0e-d71e1ca2d19b",
+    "statement": "Durant una intervenció dels bombers en un rescat d'alçada, quina situació pot prevaldre la necessitat operativa per sobre d'alguns requeriments preventius?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nAquesta llei és aplicable als serveis d’emergència, excepte en situacions de catàstrofe o risc vital imminent, on pot prevaldre la necessitat operativa sobre alguns requeriments preventius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan l’actuació es fa amb una autoescala",
+      "B": "En una catàstrofe o davant un risc vital imminent",
+      "C": "En qualsevol rescat que es desenvolupi a menys de tres metres",
+      "D": "En situacions exclusivament de risc vital imminent"
+    }
+  },
+  {
+    "id": "racord_ac24a8fa-e0d8-4e39-9c65-19ad3b1e333d",
+    "statement": "En quins tres fonaments es basa la seguretat operativa en rescat en alçada?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4. La seguretat en intervencions de rescat en alçada\n\nEls fonaments de la seguretat operativa es basen en la previsió, la formació i l’autoprotecció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Previsió, rapidesa i autoprotecció",
+      "B": "Rapidesa, experiència i autoprotecció",
+      "C": "Coordinació, formació i rapidesa",
+      "D": "Previsió, formació i autoprotecció"
+    }
+  },
+  {
+    "id": "racord_0880afec-b2a8-4d3c-9099-35e088423f56",
+    "statement": "Un tall de xarxa sorprèn un ascensor electromecànic durant el trajecte. Quina resposta del sistema és l’esperable abans de qualsevol maniobra de rescat?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nEn cas de tall del subministrament elèctric, la cabina queda bloquejada pel sistema de fre del motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La cabina s’eleva automàticament fins a la planta més propera",
+      "B": "La cabina queda lliure i es desplaça segons la diferència de masses",
+      "C": "La cabina queda immobilitzada pel fre associat al motor",
+      "D": "La cabina descendeix per gravetat fins a la planta inferior"
+    }
+  },
+  {
+    "id": "racord_f1df67b9-55c4-4592-b290-88866d2d853f",
+    "statement": "Quin objectiu general tenen les intervencions en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2. Intervencions en alçada\n\nL’objectiu és sempre el mateix: aconseguir el salvament de forma segura, eficaç i adaptada a cada situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aconseguir un salvament segur, eficaç i adaptat a la situació",
+      "B": "Aconseguir un salvament segur, ràpid i coherent a la situació",
+      "C": "Aplicar maniobres segures de fortuna fins l'arribada del personal especialitzat",
+      "D": "Prioritzar la rapidesa per damunt de la valoració del risc"
+    }
+  },
+  {
+    "id": "racord_d18dc8f3-a7f8-42ab-b3f5-ce9b706a0a35",
+    "statement": "Un ascensor hidràulic no transmet l’esforç del pistó directament a la cabina. Quin mecanisme és compatible amb una actuació indirecta?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nEl pistó pot actuar de forma indirecta, mitjançant un sistema de politges o palanques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una politja d’adherència moguda per un motor gearless",
+      "B": "Un fre de motor connectat a les guies",
+      "C": "Un limitador de velocitat que transforma el moviment",
+      "D": "Un sistema de politges o palanques"
+    }
+  },
+  {
+    "id": "racord_c3efd3ac-0ef4-41e4-b624-afb9289cf4d6",
+    "statement": "Abans d’iniciar la maniobra d'un rescat de persones en un ascensor, quin criteri ha de condicionar la resta de l’actuació?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nAbans de començar la maniobra, és imprescindible identificar correctament el tipus d’ascensor per adaptar el procediment d’actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tallar el subministrament elèctric",
+      "B": "Verificar la posició exacta de la cabina",
+      "C": "Bloquejar i senyalitzar l’armari de comandament",
+      "D": "Identificar correctament el tipus d’ascensor"
+    }
+  },
+  {
+    "id": "racord_5d360360-b96c-4402-900a-dc7e7818c5ee",
+    "statement": "Indica quina actuació és INCORRECTA un cop finalitzada l’extracció de persones atrapades a l'interior d'un ascensor:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nUn cop finalitzada l’extracció, es comprova l’estat de l’ascensor i es deixa fora de servei, fins que l’empresa de manteniment faci una revisió. Es notifica la intervenció als responsables de l’edifici.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Deixar-lo fora de servei fins que l’empresa de manteniment el revisi",
+      "B": "Comprovar l’estat general de l’ascensor",
+      "C": "Notificar la intervenció als responsables de l’edifici",
+      "D": "Restablir el servei si una prova en buit resulta satisfactòria"
+    }
+  },
+  {
+    "id": "racord_e3886bfc-4d7f-41d3-b996-0130c455b9bf",
+    "statement": "En treballs en alçada, quina funció té el sistema anticaigudes davant una caiguda lliure?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nEl sistema anticaigudes no impedeix la caiguda lliure. La seva funció és parar-la limitant la força de xoc suportada per l’usuari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parar la caiguda limitant la velocitat de descens",
+      "B": "Parar la caiguda limitant la força de xoc",
+      "C": "Parar la caiguda limitant la força de fregament",
+      "D": "Totes les anteriors són correctes"
+    }
+  },
+  {
+    "id": "racord_347f7703-deba-4f16-b17e-942650ac1cf4",
+    "statement": "En un ascensor sense cambra de màquines, el motor és habitualment ______.",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nEl seu funcionament es basa en un motor d’adherència, habitualment de tipus gearless.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Geared i hidràulic",
+      "B": "Gearless i accionat per oli a pressió",
+      "C": "Geared i situat necessàriament en una cambra superior",
+      "D": "Gearless i d’adherència"
+    }
+  },
+  {
+    "id": "racord_021bc385-945c-443a-8c33-561cdb3b5d06",
+    "statement": "Quin objectiu tenen les maniobres amb elements de retenció?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.1. Maniobres amb elements de retenció\n\nObjectiu: Garantir la seguretat dels intervinents en situacions on hi hagi risc de caiguda a diferent nivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Progressar verticalment per una corda fixa",
+      "B": "Garantir la seguretat davant el risc de caiguda a diferent nivell",
+      "C": "Permetre el descens controlat de la víctima",
+      "D": "Elevar càrregues reduint l’esforç necessari"
+    }
+  },
+  {
+    "id": "racord_51525a93-fd9d-416b-a9f0-87d164eb935d",
+    "statement": "Indica quina afirmació és INCORRECTA en una maniobra de rescat d’un ascensor hidràulic:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nEls ascensors hidràulics no permeten elevar la cabina sense el funcionament actiu de la bomba.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La vàlvula de descàrrega permet un descens lent i controlat",
+      "B": "Sense la bomba activa no es pot elevar la cabina",
+      "C": "Abans d’actuar s’ha de tallar la tensió elèctrica",
+      "D": "La vàlvula de descàrrega manual permet elevar la cabina sense la bomba activa"
+    }
+  },
+  {
+    "id": "racord_22da1711-08ac-4720-b1d1-d6c72fcca923",
+    "statement": "Quina capacitat és imprescindible en entorns urbans respecte als ancoratges de fortuna?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.4. Ancoratges en entorns urbans\n\nEn entorns urbans és imprescindible saber identificar, crear i verificar ancoratges de fortuna segurs en estructures artificials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Saber identificar, crear i verificar ancoratges de fortuna segurs",
+      "B": "Evitar qualsevol estructura artificial com a punt d’ancoratge",
+      "C": "Fer servir sempre un mateix punt sense revisar-lo",
+      "D": "Fer servir la corda principal com a substitut de l’ancoratge"
+    }
+  },
+  {
+    "id": "racord_7cc96195-d356-4990-8985-95317c42a974",
+    "statement": "Abans d’accionar la vàlvula de descàrrega manual d’un ascensor hidràulic, quina seqüència de comprovacions és CORRECTA?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nCal localitzar el motor hidràulic, comprovar que l’ascensor està fora de servei i tallar la tensió elèctrica des del quadre de comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprovar que l’ascensor està fora de servei i tallar la tensió des del quadre de comandament",
+      "B": "Obrir la vàlvula, comprovar després la posició de la cabina i finalment tallar la tensió",
+      "C": "Bloquejar el contrapès, activar el limitador de velocitat i després obrir la vàlvula",
+      "D": "Mantenir la bomba alimentada, obrir la vàlvula i tallar la tensió quan la cabina arribi a planta"
+    }
+  },
+  {
+    "id": "racord_f61e6854-1dc4-4047-88b1-fc530d25f06b",
+    "statement": "En accionar correctament la descàrrega manual d’un ascensor hidràulic, fins on s’ha de conduir la cabina per efectuar l’evacuació?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nLa cabina descendeix lentament i de manera controlada fins a la planta inferior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fins al punt mig del recorregut",
+      "B": "Fins a tocar el fossat",
+      "C": "Fins a la planta inferior",
+      "D": "Fins a la planta superior"
+    }
+  },
+  {
+    "id": "racord_142cef15-836f-434a-8183-35ccab408c86",
+    "statement": "Abans de manipular un ascensor avariat, els bombers sempre tallen el subministrament elèctric. Quina és la finalitat principal d’aquesta acció?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nAquest pas és essencial per garantir la seguretat dels actuants i evitar posades en marxa inesperades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer que totes les portes de planta quedin desbloquejades automàticament",
+      "B": "Anul·lar mecànicament la tensió dels cables de suspensió",
+      "C": "Evitar posades en marxa inesperades i protegir els intervinents",
+      "D": "Provocar el descens de qualsevol cabina fins a la planta inferior"
+    }
+  },
+  {
+    "id": "racord_dfda088d-070c-484e-b30c-9e97211b05ed",
+    "statement": "En un ascensor hidràulic es vol identificar quin component converteix l’energia de l’oli a pressió en moviment de la cabina. Quin és?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nUtilitzen la força d’un pistó impulsat per oli a pressió per desplaçar la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El contrapès",
+      "B": "El limitador de velocitat",
+      "C": "El pistó",
+      "D": "La politja d’adherència"
+    }
+  },
+  {
+    "id": "racord_3d2a046f-b7e4-4d70-9b90-2aff48531990",
+    "statement": "Quina definició correspon a un Sistema d’Ancoratge de Seguretat (SAS)?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.5. Sistemes d’ancoratge de seguretat (SAS)\n\nEl SAS és un sistema destinat a la instal·lació de cordes format per un mínim de dos punts d’ancoratge que ofereixin total garantia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema per instal·lar cordes amb un mínim de dos punts d’ancoratge fiables",
+      "B": "Sistema de suspensió connectat directament a l’anella A",
+      "C": "Sistema de politges format per una politja fixa i una de mòbil",
+      "D": "Sistema de frenada per controlar la velocitat de ràpel"
+    }
+  },
+  {
+    "id": "racord_ba7f9427-379a-4166-a584-645cd402a2e3",
+    "statement": "Completa la cadena de transmissió: motor elèctric → ______ → cables d’acer → cabina i contrapès.",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nFuncionen mitjançant un motor elèctric que acciona una politja. Aquesta politja transmet el moviment als cables d’acer que sostenen la cabina i el contrapès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "fre de seguretat",
+      "B": "politja d’adherència",
+      "C": "limitador de velocitat",
+      "D": "quadre de maniobres"
+    }
+  },
+  {
+    "id": "racord_7ef039de-df72-4284-b084-98efe3a27df7",
+    "statement": "En un edifici de poca alçada trobes una cabina moguda per l’acció d’un pistó alimentat amb oli a pressió. Quina tipologia has identificat?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nEls ascensors hidràulics són sistemes d’elevació que utilitzen la força d’un pistó impulsat per oli a pressió per desplaçar la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ascensor hidràulic",
+      "B": "Ascensor sense cambra de màquines",
+      "C": "Ascensor inclinat gearless",
+      "D": "Ascensor electromecànic d’adherència"
+    }
+  },
+  {
+    "id": "racord_a72d2136-3d2b-4759-bbdc-483315b5ac97",
+    "statement": "Indica quina afirmació és INCORRECTA respecte de la inspecció prèvia de l'escenari en un rescat de persones en un ascensor:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nAquesta inspecció prèvia permet detectar anomalies que podrien agreujar la situació durant el rescat i establir mesures correctores abans de procedir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permet detectar anomalies que podrien agreujar la situació",
+      "B": "Si no s’observen anomalies, es pot prescindir del tall del subministrament elèctric",
+      "C": "Ha d’incloure la detecció d’obstacles, oli, aigua o altres substàncies al fossat",
+      "D": "Pot requerir l’adopció de mesures correctores abans de procedir"
+    }
+  },
+  {
+    "id": "racord_226d4eba-b34b-4230-97c4-2c644926bb34",
+    "statement": "Quins elements de seguretat inclou el sistema de ràpel?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.3. Maniobres de descens per corda (ràpel)\n\nEl sistema inclou punts d’ancoratge sòlids, una línia principal i una segona corda com a línia de seguretat o anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una corda dinàmica i un nus de topall com a sistema complet",
+      "B": "Ancorartges sòlids i ús de MGO",
+      "C": "Una politja simple, una corda de seguretat i un ancoratge dinàmic",
+      "D": "Ancoratges sòlids, línia principal i segona corda de seguretat"
+    }
+  },
+  {
+    "id": "racord_7d062d4d-ba5c-4b7e-a3ec-cba0fe322987",
+    "statement": "Indica quina funció NO correspon al quadre de maniobres:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nQuadre de maniobres: sistema electrònic que governa tot el funcionament de l’ascensor: trucades, portes, velocitat, posicionament i parades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Intervenir en el control de portes.",
+      "B": "Gestionar les trucades i les parades.",
+      "C": "Governar el posicionament i la velocitat.",
+      "D": "Equilibrar mecànicament el pes de la cabina."
+    }
+  },
+  {
+    "id": "racord_16a91839-7e64-453c-a24f-e7a38a6509e8",
+    "statement": "De què depèn la selecció d’una modalitat de SAS?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.5. Sistemes d’ancoratge de seguretat (SAS)\n\nS’ha de seleccionar en funció del context, l’estabilitat de l’entorn i el material utilitzat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del context, l’estabilitat de l’entorn i el material utilitzat",
+      "B": "Del nombre de víctimes, l'alçada de rescat i el material disponible",
+      "C": "Del nombre de víctimes i del material disponible",
+      "D": "De la formació dels intervinents i del context de l'escenari"
+    }
+  },
+  {
+    "id": "racord_82b57636-adbe-4219-9f9f-5bfda279512a",
+    "statement": "Un bomber accedeix al fossat durant la preparació del rescat en un ascensor. Quin dispositiu pot activar com una de les funcions de seguretat de tall de maniobra del motor?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nPodem garantir la desconnexió prement el polsador elèctric d'emergència del fossat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La vàlvula de descàrrega manual",
+      "B": "El polsador elèctric d’emergència del fossat",
+      "C": "El comandament manual del contrapès",
+      "D": "El desbloqueig del fre motor"
+    }
+  },
+  {
+    "id": "racord_9231e79e-ee3a-4132-a94e-4e0080dd8bb4",
+    "statement": "En la configuració tradicional d’un ascensor electromecànic, on se situa habitualment la cambra de màquines?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nLa cambra de màquines està situada habitualment a la part superior de l’edifici.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una planta intermèdia, dins del mateix recinte de la cabina",
+      "B": "Al fossat, sota la cabina",
+      "C": "A la part superior de l’edifici",
+      "D": "A la planta baixa, sempre dins d’un armari metàl·lic"
+    }
+  },
+  {
+    "id": "racord_6dc791b6-5729-4e04-96aa-954ee44b95c8",
+    "statement": "Indica quina afirmació és INCORRECTA respecte de la millora recent de la fiabilitat dels ascensors:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nLa modernització del parc d’ascensors, l’aparició de sistemes més tecnològics i la implantació de normatives europees de seguretat han millorat notablement la fiabilitat dels sistemes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La implantació de normatives europees de seguretat ha contribuït a millorar-ne la fiabilitat",
+      "B": "La incorporació de sistemes més tecnològics ha contribuït a millorar-ne la fiabilitat",
+      "C": "La reducció dels sistemes de control i dels dispositius de seguretat ha estat clau per augmentar-ne la fiabilitat",
+      "D": "La modernització del parc d’ascensors ha contribuït a millorar-ne la fiabilitat"
+    }
+  },
+  {
+    "id": "racord_e0da0866-8dc8-4707-9783-cd0e1b3f10c5",
+    "statement": "Els arnesos que disposa el Cos de Bombers té varis llocs de connexió pels diferents sistemes de seguretat. On es connecta el sistema anticaigudes de l’arnès integral?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nUn sistema anticaigudes és un dispositiu d’assegurament, independent del mode de progressió o de suspensió, connectat a l’anella ‘A’ (anticaigudes) de l’arnès integral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’anella A",
+      "B": "A l'anella C",
+      "C": "A l’anella B",
+      "D": "A l'anella D"
+    }
+  },
+  {
+    "id": "racord_ea7250bb-efe2-4d7f-9217-7dd10df6bee8",
+    "statement": "Quines comprovacions s’han de fer abans d’utilitzar un ancoratge de fortuna?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.4. Ancoratges en entorns urbans\n\nÉs important inspeccionar-los visualment, verificar la seva resist��ncia i, si cal, reforçar-los amb sistemes addicionals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprovar el color, la mida i la proximitat a la víctima",
+      "B": "Comprovar la temperatura, la humitat i la il·luminació",
+      "C": "Verificar la llargada de la corda i la distància al vehicle",
+      "D": "Inspecció visual, verificació de resistència i reforç si és necessari"
+    }
+  },
+  {
+    "id": "racord_c596e5de-a377-4770-b581-a34a1bd875e4",
+    "statement": "Quin risc condiciona especialment les intervencions en alçada?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nEl risc de caiguda i l’accés difícil exigeixen tècniques molt precises i seguretat reforçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El risc de caiguda i de despreniments",
+      "B": "El risc de caiguda i la dificultat d’accés",
+      "C": "La dificultat d'accés i la manca de rutes d'escapament",
+      "D": "El risc de despreniments i de tall de les cordes de treball degut a fregaments"
+    }
+  },
+  {
+    "id": "racord_8a948302-1837-48b4-9d50-0dcb4af6b1d5",
+    "statement": "Un cop localitzat l’armari de control i tallat el subministrament d’un ascensor sense cambra de màquines, quin recurs forma part de la maniobra?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.3. Maniobra de rescat en ascensors sense cambra de màquines\n\nConsisteix a localitzar l’armari de control electrònic, tallar el subministrament elèctric i usar el desbloqueig automàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La vàlvula de descàrrega hidràulica",
+      "B": "Una politja autoblocant instal·lada pels intervinents",
+      "C": "El desbloqueig automàtic",
+      "D": "El volant d’una cambra de màquines superior"
+    }
+  },
+  {
+    "id": "racord_438e9c07-3ddd-4c75-9c7b-0a06f5fed72f",
+    "statement": "Quina característica de la víctima justifica una actuació de rescat urbà?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.2. Què entenem per rescat urbà?\n\nPersones que es troben atrapades o en situació de dificultat física o funcional dins d’un entorn construït, i que no poden resoldre la seva situació sense assistència externa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Necessita informació però no presenta cap dificultat física o funcional",
+      "B": "No pot resoldre la situació sense assistència externa",
+      "C": "Pot abandonar l’espai pels seus propis mitjans amb normalitat",
+      "D": "Es troba fora de qualsevol entorn construït"
+    }
+  },
+  {
+    "id": "racord_a221f093-20ad-4f11-8cc9-abc3757a5f18",
+    "statement": "Indica la funció d'un nus de vuit simple:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nNus de vuit simple: Serveix com a nus de topall, per evitar que la corda s’escapi d’un dispositiu, com un descensor o una politja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com a nus de topall per evitar que la corda s’escapi d’un dispositiu",
+      "B": "Com a autoblocant en un ascens o descens",
+      "C": "Per assegurar una corda directament a l’arnès",
+      "D": "Per fer una connexió ajustable en un ancoratge provisional"
+    }
+  },
+  {
+    "id": "racord_d93855e1-48bc-492e-b05b-6b0b8521ed75",
+    "statement": "Una corda ha d’evitar sortir-se accidentalment d’un descensor. Quin nus és adequat per fer a final de corda?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.2. Nusos\n\nNus de vuit simple: Serveix com a nus de topall per evitar que la corda s’escapi d’un dispositiu, com un descensor o una politja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ballestrinca",
+      "B": "Nus de vuit simple",
+      "C": "Nus de vuit resseguit",
+      "D": "Nus Machard"
+    }
+  },
+  {
+    "id": "racord_f72ef147-b610-4dfd-ab54-038ef58ed6a5",
+    "statement": "Quin tipus de situacions atenen habitualment els Bombers dins del rescat urbà?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.1. El rescat urbà a Catalunya\n\nEls serveis d’emergència dels Bombers de la Generalitat de Catalunya intervenen habitualment en un ampli ventall de situacions de rescat urbà, en entorns construïts que poden resultar altament complexos i canviants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Situacions vinculades principalment a esfondraments",
+      "B": "Totes les anteriors són correctes",
+      "C": "Situacions de rescat en entorns construïts que poden ser complexos i canviants",
+      "D": "Actuacions de manteniment preventiu en edificis"
+    }
+  },
+  {
+    "id": "racord_92e7e7ca-24d4-4486-a89c-b47c8d1cce91",
+    "statement": "Quina definició correspon als sistemes de protecció individual contra caigudes?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nSón el conjunt de components previstos per protegir l’usuari contra les caigudes en alçada, que inclouen un dispositiu de subjecció del cos i un sistema de connexió que es fixa a un punt d’ancoratge segur.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Components de subjecció i connexió destinats a protegir contra despreniments",
+      "B": "Totes les anteriors són correctes",
+      "C": "Components de subjecció i connexió destinats a protegir contra moviments de compressió",
+      "D": "Components de subjecció i connexió destinats a protegir contra caigudes en alçada"
+    }
+  },
+  {
+    "id": "racord_860cf88a-8c0d-4119-82f3-a723b381f48f",
+    "statement": "Indica l’afirmació CORRECTA respecte dels ascensors sense cambra de màquines:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nEls ascensors sense cambra de màquines funcionen amb un motor d’adherència, habitualment de tipus gearless, situat dins del mateix forat de l’ascensor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzen una bomba hidràulica en un armari tècnic de planta baixa i no disposen de contrapès.",
+      "B": "Disposen d’una cambra superior reduïda on s’ubiquen necessàriament el motor i el quadre de maniobres.",
+      "C": "El motor s’instal·la habitualment al fossat i el quadre de maniobres dins la cabina.",
+      "D": "Utilitzen habitualment un motor d’adherència gearless situat dins del forat, generalment a la part superior."
+    }
+  },
+  {
+    "id": "racord_5670ee37-04a3-44cf-ae9f-24372c55d532",
+    "statement": "Què és un polispast?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.3. Politges i sistemes mecànics\n\nSistemes de politja compostos (polispasts): permeten reduir la força necessària per elevar una càrrega o persona, habitualment formats per combinacions de politges fixes i mòbils.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dispositiu autoblocant per ascendir per una corda fixa",
+      "B": "Sistema de politges desmultiplicador que redueix la força necessària per elevar una càrrega",
+      "C": "Sistema d’ancoratge amb dos punts independents",
+      "D": "Sistema de politges multiplicador que redueix la força necessària per elevar una càrrega"
+    }
+  },
+  {
+    "id": "racord_1c822a6c-9f3a-427a-8921-26198e429a25",
+    "statement": "Com faciliten els polispasts l’evacuació d’una víctima façana amunt?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.7. Sistema de politges (polispast)\n\nEls sistemes de politges multipliquen la força aplicada, facilitant la tracció en situacions com l’evacuació d’una víctima façana amunt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentant el pes efectiu de la càrrega",
+      "B": "Reduint la longitud de la corda principal",
+      "C": "Multiplicant la força aplicada i facilitant la tracció",
+      "D": "Redueixen el fregament del sistema"
+    }
+  },
+  {
+    "id": "racord_4df34027-b246-47e5-8a45-7a7929cdb68d",
+    "statement": "Indica l'acció que permet garantir la desconnexió del subministrament elèctric de la cabina al motor d'un ascensor:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nPodem garantir la desconnexió del subministrament elèctric al motor obrint la porta de qualsevol planta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tancar totes les portes de planta",
+      "B": "Fer girar el volant del motor",
+      "C": "Obrir la porta de qualsevol planta",
+      "D": "Accionar la bomba hidràulica"
+    }
+  },
+  {
+    "id": "racord_5cf85fd8-5180-4a86-972f-3be7311ff0eb",
+    "statement": "Quin criteri de comunicació s’aplica abans d’executar una acció amb l’AEA?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nEs fa una comunicació prèvia a l’inici de les accions i no s’executa fins a rebre la confirmació de recepció de l’altra part.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comunicar l’acció i esperar confirmació de recepció abans d’executar-la",
+      "B": "Deixar la decisió a la persona situada a la cistella",
+      "C": "Executar l’acció i comunicar-la quan hagi finalitzat",
+      "D": "Comunicar l’acció verbalment i amb senyals i esperar confirmació de recepció abans d’executar-la"
+    }
+  },
+  {
+    "id": "racord_35bc3003-0d4b-4b46-aa93-3a83452fd95b",
+    "statement": "En una instal��lació aparentment alimentada i sense danys mecànics visibles, la cabina no respon correctament a les ordres de servei. Quina causa és compatible amb les incidències habituals que poden requerir intervenció?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nLes causes més freqüents són: errors de funcionament dels sistemes de control.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una avaria de la instal·lació de gas comunitària",
+      "B": "Una variació de pressió a la instal·lació d’aigua sanitària",
+      "C": "Un error de funcionament del sistema de control",
+      "D": "Una fallada del sistema de ventilació de l’escala"
+    }
+  },
+  {
+    "id": "racord_b7b7ae99-be03-48b0-b8bd-49c155b15296",
+    "statement": "Una cabina d'ascensor electromecànica queda aturada entre plantes amb persones a l’interior. Quin objectiu defineix millor la maniobra de rescat?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.1. Maniobra de rescat en ascensors electromecànics d’adherència\n\nPermetre el desplaçament controlat de la cabina fins a una planta segura per facilitar l’evacuació de les persones atrapades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer baixar la cabina necessàriament fins a la planta inferior",
+      "B": "Desplaçar la cabina de manera controlada fins a una planta transitable per evacuar els ocupants",
+      "C": "Obrir les portes de planta sense modificar la posició de la cabina",
+      "D": "Elevar la cabina mitjançant una bomba auxiliar"
+    }
+  },
+  {
+    "id": "racord_a1cc43e0-d646-45a9-a01a-6b02f929dd63",
+    "statement": "Una cabina accelera per sobre del valor admissible. Quin element està destinat a detectar aquesta situació i provocar l’actuació del sistema de frenada d’emergència?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nLimitador de velocitat: sistema que actua sobre el fre de seguretat en cas de velocitat excessiva o caiguda de la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El limitador de velocitat",
+      "B": "El contrapès",
+      "C": "El quadre de maniobres",
+      "D": "La politja d’adherència"
+    }
+  },
+  {
+    "id": "racord_464a58b5-05e6-4fbb-abbb-842add44ae63",
+    "statement": "Què és una corda dinàmica?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nCordes dinàmiques: amb capacitat d’absorbir impactes, s’utilitzen principalment en escalada o situacions on pugui haver-hi caiguda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Corda de tracció destinada a sistemes de politges",
+      "B": "Corda capaç d’absorbir impactes en escalada o situacions de possible caiguda",
+      "C": "Corda per assegurar ancoratges fixos sense absorció d’impactes",
+      "D": "Corda amb poca elasticitat per a ascens controlat"
+    }
+  },
+  {
+    "id": "racord_ebe21243-bdb7-4c83-8e8f-ccc95ddf458d",
+    "statement": "Com són les cordes utilitzades en el treball en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nLes cordes utilitzades en el treball en alçada són de tipus tècnic i estan fabricades amb materials sintètics d’alta resistència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cordes tècniques de materials sintètics d’alta resistència",
+      "B": "Cordes naturals amb elevada elasticitat",
+      "C": "Cordes metàl·liques destinades a absorbir impactes",
+      "D": "Cordes rígides concebudes per a ancoratges permanents"
+    }
+  },
+  {
+    "id": "racord_c7d2e31a-9693-4571-9670-ce705c39d74f",
+    "statement": "En un rescat d’un ascensor hidràulic aturat, quin objectiu de moviment és coherent amb el procediment de rescat?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.2. Maniobra de rescat en ascensors hidràulics\n\nObjectiu: Permetre el descens segur de la cabina d’un ascensor hidràulic en cas d’avaria o tall elèctric, per facilitar l’evacuació de les persones atrapades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer descendir la cabina de manera controlada fins a una planta segura",
+      "B": "Elevar la cabina fins a la planta superior aprofitant la pressió residual",
+      "C": "Desplaçar la cabina en el sentit que indiqui el contrapès",
+      "D": "Fer girar manualment una politja d’adherència fins al replà"
+    }
+  },
+  {
+    "id": "racord_c823cf43-fd55-479e-9607-a428e55d7e9a",
+    "statement": "Quin objectiu té el sistema de politges o polispast en una maniobra de rescat?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.7. Sistema de politges (polispast)\n\nObjectiu: Reduir l’esforç necessari per moure càrregues (persones, material, lliteres).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Controlar la velocitat d’un descens per ràpel",
+      "B": "Reduir l’esforç necessari per moure persones, material o lliteres",
+      "C": "Permetre la progressió autònoma per una bastida",
+      "D": "Evitar l’entrada del bomber a una zona de caiguda"
+    }
+  },
+  {
+    "id": "racord_f957786e-b4b9-40c2-a2ce-67edd8647d5a",
+    "statement": "Indica les diferents opcions d’evacuació amb AEA que existeixen:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.8. Maniobra de rescat amb autoescala (cistella i/o llitera)\n\nAquest rescat es pot fer accedint a la cistella, amb la víctima immobilitzada en una llitera a la pròpia cistella o bé mitjançant el mode de gruatge lleuger de l’AEA.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cistella, corda fixa o polispast",
+      "B": "Ràpel, cistella o gruatge lleuger",
+      "C": "Gruatge lleuger, llitera simple o llitera complexa",
+      "D": "Cistella, llitera a la cistella o gruatge lleuger"
+    }
+  },
+  {
+    "id": "racord_4c579d0c-f44d-49af-b7d4-9147d93afd22",
+    "statement": "Què és una corda estàtica?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nCordes estàtiques: amb molt poca elasticitat, indicades per a maniobres de rescat, descens i ascens controlat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Corda amb un grau mig d'elasticitat destinada a connexions ràpides en ancoratges provisionals",
+      "B": "Corda de seguretat amb una limitada elasticitat emprada com a línia de vida doble",
+      "C": "Corda amb molt poca elasticitat per a rescat, descens i ascens controlat",
+      "D": "Corda amb alta elasticitat concebuda per absorbir una caiguda"
+    }
+  },
+  {
+    "id": "racord_de01524f-3e3f-42ed-894b-55d35804819a",
+    "statement": "Amb l’alimentació tallada i el fre preparat per a la maniobra, com es porta manualment una cabina d'ascensor electromecànica fins a una planta transitable?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.1. Maniobra de rescat en ascensors electromecànics d’adherència\n\nS’inicia la maniobra girant el volant fins a fer coincidir la cabina amb una planta transitable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Obrint la vàlvula de descàrrega manual",
+      "B": "Accionant el polsador d’emergència del fossat",
+      "C": "Estirant directament el contrapès amb una corda",
+      "D": "Girant el volant del sistema motriu"
+    }
+  },
+  {
+    "id": "racord_658faeed-c075-4306-94ce-4aafa386619f",
+    "statement": "Com s’assegura el bomber durant la progressió amb MGO?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.5. Maniobra de progressió i assegurament amb sistema MGO\n\nConsisteix a desplaçar-se assegurant-se successivament mitjançant dos mosquetons de gran obertura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb un mosquetó de gran obertura connectat a la baga curta",
+      "B": "Amb tres mosquetons de gran obertura connectats successivament",
+      "C": "Amb un mosquetó de gran obertura connectat a la baga llarga",
+      "D": "Amb dos mosquetons de gran obertura connectats successivament"
+    }
+  },
+  {
+    "id": "racord_a50dcc2f-7da2-4fda-8b6a-a2e5167804cf",
+    "statement": "Indica quines accions formen part d’una actitud activa respecte a la seguretat en rescats en alçada:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4. La seguretat en intervencions de rescat en alçada\n\nAixò inclou la revisió del material abans de cada maniobra, la comunicació constant, i la presa de decisions prudents segons el context.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Revisar el material, mantenir comunicació i prendre decisions prudents",
+      "B": "Escollir la maniobra més ràpida",
+      "C": "Totes les anteriors són correctes",
+      "D": "Fer canvis ràpids de sistema durant la maniobra"
+    }
+  },
+  {
+    "id": "racord_647e2b0b-0d95-42d2-a1a7-a004dcbe065c",
+    "statement": "En un ascensor electromecànic tradicional amb cambra de màquines, on és habitual trobar el motor que acciona la politja?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nMotor elèctric: generalment situat a la cambra de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la cambra de màquines",
+      "B": "Al fossat, sota la cabina",
+      "C": "Dins de la cabina, darrere la botonera",
+      "D": "Integrat a la porta del replà superior"
+    }
+  },
+  {
+    "id": "racord_f99e5889-3306-429b-a759-83575d866484",
+    "statement": "Què s’ha de valorar en la primera observació d’un escenari de treball en alçada?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nCal identificar qualsevol punt amb perill de caiguda a diferent nivell i analitzar l’estabilitat estructural de l’espai.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'estabilitat estructural de l’espai i el material disponible",
+      "B": "Els punts de caiguda i la durada prevista del servei",
+      "C": "Els punts de caiguda i l’estabilitat estructural de l’espai",
+      "D": "L'estabilitat estructural de l'espai i les rutes d'escapament disponibles"
+    }
+  },
+  {
+    "id": "racord_a3f7e0b2-8b0c-4e90-bad6-f209a018517b",
+    "statement": "Quina mesura s’ha d’aplicar al final d’una corda de treball?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nEn el treball amb cordes fer un nus abans del final de la corda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Connectar el final de la corda a un sistema de seguretat",
+      "B": "Deixar el final lliure per facilitar el descens",
+      "C": "Fer un nus abans del final de la corda",
+      "D": "Tallar l’excés de corda abans de començar"
+    }
+  },
+  {
+    "id": "racord_3c069d5c-a416-487c-9a65-36d107d8e511",
+    "statement": "En edificis nous d’habitatges i oficines, quin conjunt de característiques ajuda a explicar l’ús freqüent d’ascensors sense cambra de màquines?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nSón molt habituals en edificis nous d’habitatges i oficines per la seva eficiència energètica, menor manteniment i integració compacta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eficiència energètica, menor manteniment i integració compacta",
+      "B": "Baixa capacitat de transport i necessitat d’una sala de màquines superior",
+      "C": "Ús d’un pistó de gran recorregut i absència de cables d’acer",
+      "D": "Gran necessitat d’espai tècnic, alta velocitat hidràulica i doble contrapès"
+    }
+  },
+  {
+    "id": "racord_521375fd-bffc-4373-b53e-364596bef674",
+    "statement": "Indica quina funció NO correspon a les guies de cabina i contrapès d'un ascensor:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nSón rails d’acer col·locats dins el forat, que permeten el desplaçament vertical segur i estable de la cabina i el contrapès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Generar la força motriu necessària per elevar la cabina",
+      "B": "Mantenir l’estabilitat del moviment",
+      "C": "Contribuir a l’alineació de cabina i contrapès",
+      "D": "Guiar el desplaçament vertical"
+    }
+  },
+  {
+    "id": "racord_11f4eeab-97fb-4c91-8afa-7150d31b0fd3",
+    "statement": "Indica el nombre de modalitats de gruatge existents amb l'AEA:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.8. Maniobra de rescat amb autoescala (cistella i/o llitera)\n\nEs pot fer un gruatge simple, un gruatge complex, un punt fix o un salvament urgent amb triangle de rescat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "3"
+    }
+  },
+  {
+    "id": "racord_fb1caa41-5d1c-4597-83f8-ca92499b5b0b",
+    "statement": "On és més coherent trobar un ascensor inclinat?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nEls ascensors inclinats (funiculars) són ascensors de gran capacitat instal·lats a l’exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un fossat interior de poca alçada",
+      "B": "Dins d’una cambra de màquines subterrània",
+      "C": "A l’exterior",
+      "D": "En una sala tècnica annexa a la planta baixa"
+    }
+  },
+  {
+    "id": "racord_3d636960-8f18-4404-9a3d-5d5733b6e8d3",
+    "statement": "D'acrod amb les pautes de seguretat en intervencions en alçada, com ha de progessar un bomber pels trams de l’AEA?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nPer moure’s pels trams, cal fer-ho amb el motor aturat i assegurant-se amb el sistema MGO, mantenint sempre les mans lliures.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb el motor engegat, el sistema PAW activat i la funció \"passarel·la\" activada",
+      "B": "Amb el motor engegat, sistema MGO i les mans lliures",
+      "C": "Amb el motor aturat i el sistema PAW activat",
+      "D": "Amb el motor aturat, sistema MGO i les mans lliures"
+    }
+  },
+  {
+    "id": "racord_1e4bcdf9-72f2-492e-8bea-545afeb3587b",
+    "statement": "Indica una ubicació possible del quadre de maniobres d’un ascensor sense cambra de màquines:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nEl quadre de maniobra es pot trobar a la planta superior, en un armari de control, o en una planta intermèdia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una cambra de màquines superior independent.",
+      "B": "En un armari de control a la planta superior o en una planta intermèdia",
+      "C": "Obligatòriament dins del forat, al costat del motor gearless",
+      "D": "En un armari tècnic de planta baixa juntament amb la bomba hidràulica"
+    }
+  },
+  {
+    "id": "racord_bb462be2-ba2f-433d-a751-4566db2c6a4c",
+    "statement": "Durant el moviment manual d’una cabina d'ascensor electromecànica, quina coordinació és essencial per evitar una evacuació en una posició insegura?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.1. Maniobra de rescat en ascensors electromecànics d’adherència\n\nSempre s’ha de fer amb coordinació entre els efectius que actuen des de la cambra de màquines i els que estan en contacte amb les víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre els ocupants de la cabina i l’empresa de manteniment, sense intervenció dels bombers",
+      "B": "Entre els efectius de la cambra de màquines i els que mantenen contacte amb les víctimes",
+      "C": "Entre un equip situat al fossat i un altre a la coberta, independentment de la posició de la cabina",
+      "D": "Entre el limitador de velocitat i el quadre de maniobres mitjançant senyals automàtics"
+    }
+  },
+  {
+    "id": "racord_595d79b2-260f-43e1-968d-75d43dcd57f0",
+    "statement": "Indica l’afirmació CORRECTA respecte dels ascensors hidràulics:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nEls ascensors hidràulics són sistemes d’elevació que utilitzen la força d’un pistó impulsat per oli a pressió per desplaçar la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No requereixen contrapès i el motor d’adherència se situa habitualment a la part superior del forat.",
+      "B": "Requereixen contrapès i el pistó només pot actuar directament sota la cabina.",
+      "C": "No requereixen contrapès i el pistó pot actuar directament o mitjançant politges o palanques.",
+      "D": "El pistó pot actuar indirectament, però el moviment es transmet per adherència dels cables a una politja."
+    }
+  },
+  {
+    "id": "racord_61d13764-a8db-4760-b13b-7e9c528920de",
+    "statement": "Indica el conjunt d’elements més propi d’una cambra de màquines d’un ascensor electromecànic:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nCambra de màquines: espai situat habitualment a la part superior de l’edifici, on es troben el motor, la politja, el quadre de maniobres i els controls elèctrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor, politja d’adherència, quadre de maniobres i controls elèctrics.",
+      "B": "Motor gearless, fre integrat i quadre de maniobres ubicats dins del forat.",
+      "C": "Motor, bomba hidràulica, vàlvula de descàrrega i dipòsit d’oli.",
+      "D": "Cabina, contrapès, guies i portes de planta."
+    }
+  },
+  {
+    "id": "racord_04f32f90-3349-4f42-8e8e-35354178e53a",
+    "statement": "Quines dues funcions generals permeten les politges?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.3. Politges i sistemes mecànics\n\nLes politges permeten multiplicar la força i redirigir la càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Multiplicar la força i redirigir la càrrega",
+      "B": "Absorbir impactes i frenar caigudes",
+      "C": "Connectar cordes a l’arnès i als mosquetons",
+      "D": "Crear ancoratges redundants i línies de vida"
+    }
+  },
+  {
+    "id": "racord_98d54e77-d262-42ac-90db-f2921b4fb1dc",
+    "statement": "En un ascensor sense cambra de màquines, quin element s’ha de localitzar per iniciar la maniobra específica de rescat?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.3. Maniobra de rescat en ascensors sense cambra de màquines\n\nConsisteix a localitzar l’armari de control electrònic, tallar el subministrament elèctric i usar el desbloqueig automàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’armari tècnic amb motor i bomba hidràulica",
+      "B": "El pistó situat sota la cabina",
+      "C": "L’armari de control electrònic.",
+      "D": "La cambra de màquines superior"
+    }
+  },
+  {
+    "id": "racord_c59390a8-d5f0-4e98-859b-9f240b8ce399",
+    "statement": "En un rescat urbà que es faci servir l'AEA, quina funció té el bomber situat al control principal de la torreta?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nHi ha d’haver un bomber en el control principal de la torreta per garantir la seguretat de les persones que hi ha a la cistella i, en cas de necessitat, agafar el control de l’autoescala.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assumir el control de l'autoescala i realitzar el primer muntatge de seguretat",
+      "B": "Controlar el sistema de politges de la llitera desde torreta",
+      "C": "Garantir la seguretat de la cistella i poder assumir el control de l’autoescala",
+      "D": "Fer el muntatge del SAS a la coberta"
+    }
+  },
+  {
+    "id": "racord_1d58b5b5-d449-4d88-bd94-ac37c874aada",
+    "statement": "Indica el procediment CORRECTE per verificar la posició exacta de la cabina dins del forat d'ascensor:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nCal localitzar la cabina exactament dins del forat, mitjançant inspecció visual des de les portes o mitjançant els indicadors del quadre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Accionament del sistema motriu fins que la cabina sigui visible.",
+      "B": "Estimació de la posició segons la tensió dels cables i el contrapès.",
+      "C": "Inspecció visual des de les portes o consulta dels indicadors del quadre.",
+      "D": "Obertura d’una porta amb la clau de desbloqueig i assumpció que la cabina és al replà."
+    }
+  },
+  {
+    "id": "racord_360e4de2-5d0c-4719-9ef4-74200d9c60ed",
+    "statement": "Quin objectiu té la maniobra d’ascens per corda fixa?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.4. Maniobra d’ascens per corda fixa\n\nObjectiu: Permetre la progressió vertical ascendent per parets, pous, patis interiors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permetre el descens d’una víctima per façana",
+      "B": "Evitar l’accés involuntari a una zona de caiguda",
+      "C": "Assegurar una víctima amb triangle de salvament",
+      "D": "Permetre la progressió vertical ascendent per parets, pous o patis interiors"
+    }
+  },
+  {
+    "id": "racord_246999d9-bf62-4982-aa0a-b8f431d3f65a",
+    "statement": "Un ascensor s’atura sobtadament entre dues plantes sense que s’hagi detectat una avaria mecànica prèvia. Quin incident extern pot explicar directament aquesta situació?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nLes causes més freqüents són: avaries elèctriques o mecàniques, talls de subministrament elèctric, errors de funcionament dels sistemes de control i usuaris amb crisi d’angoixa o situacions de risc mèdic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una aturada de la climatització de les zones comunes",
+      "B": "Un tall del subministrament elèctric de l’edifici",
+      "C": "Una fallada de l’enllumenat exterior de la finca",
+      "D": "Una disminució de pressió a la xarxa d’aigua"
+    }
+  },
+  {
+    "id": "racord_60fb2170-118c-43f0-94c6-e11491902c73",
+    "statement": "Quin objectiu té la maniobra de rescat amb autoescala?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.8. Maniobra de rescat amb autoescala (cistella i/o llitera)\n\nObjectiu: Rescat urbà utilitzant l’autoescala.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer un ascens assegurat tipus escalada",
+      "B": "Muntar un sistema d’ancoratge amb vehicle",
+      "C": "Fer una progressió vertical amb corda fixa",
+      "D": "Fer un rescat urbà utilitzant l’autoescala"
+    }
+  },
+  {
+    "id": "racord_5c9083ba-5385-4f78-91c8-5800ca46abe7",
+    "statement": "En un ascensor d’adherència, quina funció diferencia principalment la politja d’adherència del fre i del limitador de velocitat?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nLa politja transmet el moviment als cables d’acer que sostenen la cabina i el contrapès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transmet el moviment del motor als cables que sostenen la cabina i el contrapès",
+      "B": "Immobilitza la cabina sempre que desapareix l’alimentació elèctrica",
+      "C": "Detecta l’excés de velocitat i ordena l’actuació del fre d’emergència",
+      "D": "Gestiona les trucades, el posicionament i l’obertura de portes"
+    }
+  },
+  {
+    "id": "racord_4ee0321b-279f-4af9-8cf7-cddfed54e088",
+    "statement": "Un sistema geared incorpora ______, mentre que un gearless ______.",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nPoden estar equipats amb reductor (geared), en els sistemes més tradicionals, o sense reductor (gearless), en les instal·lacions més modernes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "contrapès; funciona sense contrapès",
+      "B": "politja; funciona sense politja",
+      "C": "reductor; funciona sense reductor",
+      "D": "cables d’acer; funciona sense cables"
+    }
+  },
+  {
+    "id": "racord_39dfe4cf-6b3c-4e78-b429-3a2b64e1eb37",
+    "statement": "Quan fem intervencions en alçada, què s’ha de comprovar en el material abans d’entrar en acció?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nCada bomber ha de comprovar que els seus EPI estan correctament col·locats i funcionen bé (arnès, casc, mosquetons, cordes, descensors…).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que les cordes tenen la doble homologació",
+      "B": "Que els EPI estan ben col·locats i funcionen correctament",
+      "C": "Que els mosquetons són de doble tancament",
+      "D": "Que els EPI són del mateix model per a tot l’equip"
+    }
+  },
+  {
+    "id": "racord_72336fe3-0228-44e4-bae5-3461824f588f",
+    "statement": "En rescat urbà, quina funció tenen les cordes principals?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nCordes principals: són els cordes de suspensió i tracció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Connexió entre mosquetons i ancoratges",
+      "B": "Suspensió i tracció",
+      "C": "Bloqueig  i tracció de càrregues",
+      "D": "Seguretat i línia de vida"
+    }
+  },
+  {
+    "id": "racord_306eb88c-e467-49a4-bb99-fd9665051c27",
+    "statement": "Quina diferència funcional hi ha entre l’escala de ganxos i l’escala colissa?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.9. Maniobra de rescat amb escala colissa i/o de ganxos\n\nL’escala de ganxos és dissenyada per penjar-se i l’escala colissa és dissenyada per ser recolzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La de ganxos és motoritzada i la colissa és manual",
+      "B": "La de ganxos és per descens i la colissa per politges",
+      "C": "La de ganxos es penja i la colissa es recolza",
+      "D": "La de ganxos es recolza i la colissa es penja"
+    }
+  },
+  {
+    "id": "racord_6df02029-e4a8-428a-8f71-82dece269d46",
+    "statement": "En una actuació amb persones atrapades, quin resultat ha de perseguir el procediment d’intervenció, més enllà d’aconseguir simplement l’obertura de les portes?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nEls Bombers de la Generalitat han consolidat procediments específics d’intervenció per garantir una actuació ràpida, segura i eficaç, tant per als usuaris atrapats com per als intervinents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una actuació ràpida, segura i eficaç tant per als usuaris com per als intervinents",
+      "B": "El restabliment immediat del servei abans d’abandonar l’edifici",
+      "C": "La substitució de la revisió posterior per una comprovació visual dels bombers",
+      "D": "La reducció del nombre de components mecànics que intervenen en el sistema"
+    }
+  },
+  {
+    "id": "racord_eeb70f2a-1734-4647-894d-009972b93c7e",
+    "statement": "En un rescat de persones atrapades en un ascensor, s’ha decidit iniciar la maniobra de moviment de cabina però cal aïllar el sistema elèctric. Des de quin punt s’ha d’efectuar el tall de tensió de l’ascensor?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nSempre s’ha de tallar la tensió de l’ascensor des del quadre de maniobres o des de l’armari elèctric corresponent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del polsador de crida del replà",
+      "B": "Des del quadre de maniobres o l’armari elèctric corresponent",
+      "C": "Des de la botonera de l’interior de la cabina",
+      "D": "Des del limitador de velocitat"
+    }
+  },
+  {
+    "id": "racord_603408da-7f0a-42c8-917e-b543a483952a",
+    "statement": "Quins elements d’una edificació NO poden actuar com a ancoratges de fortuna?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.4. Ancoratges en entorns urbans\n\nElements fixos de l’edificació, com ara pilars, bigues, xemeneies, baranes metàl·liques o suports d’instal·lacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bigues",
+      "B": "Envans lleugers",
+      "C": "Pilars",
+      "D": "Xemeneies"
+    }
+  },
+  {
+    "id": "racord_f81f0777-aa74-4e0f-918b-c673c87a41a4",
+    "statement": "Indica la classificació que recull les tres tipologies principals d’ascensor:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nA Catalunya, la major part dels ascensors instal·lats corresponen a tres tipologies principals: ascensors electromecànics d’adherència, ascensors hidràulics i ascensors sense cambra de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Geared, gearless i hidràulics",
+      "B": "Electromecànics verticals, electromecànics inclinats i hidràulics",
+      "C": "Electromecànics amb cambra de màquines, hidràulics i funiculars",
+      "D": "Electromecànics d’adherència, hidràulics i sense cambra de màquines"
+    }
+  },
+  {
+    "id": "racord_896f123e-fc58-4c4d-a778-904428982f85",
+    "statement": "Quin objectiu té la maniobra de progressió tipus escalada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.2. Maniobra de progressió tipus escalada\n\nObjectiu: Permetre la progressió vertical mitjançant tècniques d’escalada assegurada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permetre la progressió vertical mitjançant escalada assegurada",
+      "B": "Permetre un descens per corda amb frenada",
+      "C": "Reduir l’esforç per elevar una llitera",
+      "D": "Evitar l’entrada a una zona amb risc de caiguda"
+    }
+  },
+  {
+    "id": "racord_e95498c8-5cb6-45e8-961a-a0318d5dcc4d",
+    "statement": "D'acord amb els sistemes de protecció individual en ascensors, què és l’«alçada lliure» en un sistema anticaigudes?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nS’ha de preveure una distància de seguretat anomenada “alçada lliure”. NO INTERVÉ EL TEMPS EN QUE TRASNCORRE L'ATURADA!",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La distància de seguretat necessària perquè el sistema pugui parar la caiguda en menys de 15 segons",
+      "B": "La distància de seguretat necessària perquè el sistema pugui parar la caiguda en menys de 10 segons",
+      "C": "La distància de seguretat necessària perquè el sistema pugui parar la caiguda en menys de 20 segons",
+      "D": "La distància de seguretat necessària perquè el sistema pugui parar la caiguda"
+    }
+  },
+  {
+    "id": "racord_3da83900-65ce-4d9b-b5aa-a2e0f933c5d2",
+    "statement": "Quin principi de connexió s’ha de mantenir durant una maniobra amb MGO?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.5. Maniobra de progressió i assegurament amb sistema MGO\n\nLa maniobra exigeix estar assegurat per dos punts, mantenint sempre un punt d’ancoratge de l’MGO connectat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir sempre almenys un punt d’ancoratge de l’MGO connectat",
+      "B": "Mantenir els dos mosquetons sobre el mateix element en tot moment",
+      "C": "No estar menys de 5 segons sense els dos punts d'ancoratges del MGO connectats",
+      "D": "Totes les anteriors són correctes"
+    }
+  },
+  {
+    "id": "racord_3d31a6fa-5d6c-4f0b-9b65-e0160892b314",
+    "statement": "D'acord amb els equipaments de seguretat durant una intervenció en alçada, quina definició correspon a un sistema de retenció?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nUn sistema de retenció permet delimitar un espai de treball per impedir que l’usuari entri en una zona amb risc de caiguda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema que manté l’usuari en suspensió durant el treball",
+      "B": "Sistema que impedeix que l’usuari entri en una zona amb risc de caiguda",
+      "C": "Sistema que multiplica la força per retenir una càrrega",
+      "D": "Sistema que para una caiguda i limita la força de xoc"
+    }
+  },
+  {
+    "id": "racord_9aaf15ab-87b4-46d5-b392-b6b300301f55",
+    "statement": "En rescat urbà, quina funció tenen les cordes secundàries?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nCordes secundàries: són les cordes de seguretat o línia de vida, s’utilitzen sempre en sistemes redundants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actuar com a corda de seguretat o línia de vida en sistemes redundants",
+      "B": "Assumir la tracció principal de la càrrega",
+      "C": "Connectar directament la víctima amb una politja simple",
+      "D": "Assumir la tracció principal que genera el bomber"
+    }
+  },
+  {
+    "id": "racord_dd0737a4-593f-49ae-94e1-c75dbad326d0",
+    "statement": "Quins riscos requereixen una gestió acurada en el rescat urbà?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.2. Què entenem per rescat urbà?\n\nAquest tipus d’intervenció requereix sovint, l’ús d’eines especialitzades, tècniques específiques i una gestió acurada dels riscos estructurals, mecànics o ambientals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els riscos estructurals, mecànics o ambientals",
+      "B": "Els riscos meteorològics, constructius i tecnològics",
+      "C": "Els riscos estructurals, meteorològics i mecànics",
+      "D": "Els riscos constructius, estructurals i mecànics"
+    }
+  },
+  {
+    "id": "racord_3f34c3a8-3a9a-484d-9f5b-22e89fe29ed6",
+    "statement": "D'acord amb els equipaments de seguretat durant una intervenció en alçada, quina característica defineix un sistema de suspensió?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nUn sistema de suspensió subjecta l’usuari i li permet posicionar-se en suspensió. Aquest sistema s’ha de complementar sempre amb un sistema anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subjecta l’usuari en suspensió i es complementa amb un sistema anticaigudes",
+      "B": "Para una caiguda lliure sense necessitat d’un altre sistema de seguretat",
+      "C": "Impedeix que l’usuari arribi a una zona de risc sense deixar-lo suspendre",
+      "D": "Serveix per elevar una càrrega mitjançant politges"
+    }
+  },
+  {
+    "id": "racord_39b94225-8346-4cfd-abf8-de6065ca957b",
+    "statement": "Indica quins elements reforça el marc normatiu per garantir un rescat segur i efectiu per part dels bombers en una actuació:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nAquest marc normatiu reforça la necessitat de formació específica, equips certificats, i la planificació prèvia de l’actuació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equips certificats, planificació prèvia i experiència",
+      "B": "Formació específica, equips certificats i planificació prèvia",
+      "C": "Experiència, formació específica i rapidesa d’execució",
+      "D": "Planificació prèvia, comunicació externa i senyalització preventiva"
+    }
+  },
+  {
+    "id": "racord_eae9b755-538c-4b42-b098-5833cbbaa7c1",
+    "statement": "Com a norma general, quin criteri s’ha d’aplicar durant una actuació d'un rescat en alçada si no hi ha risc vital imminent?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nSi no hi ha un risc vital imminent, tots els aspectes de seguretat s’han d’aplicar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’aplicar tots els aspectes de seguretat",
+      "B": "S’han d’aplicar tots els aspectes de seguretat exceptuant aquells que la seva implementació provoca una demora operativa",
+      "C": "Es pot prescindir de les mesures de seguretat col·lectives",
+      "D": "S’han d’aplicar tots els aspectes de seguretat poguent prescindir de la revisió prèvia del material"
+    }
+  },
+  {
+    "id": "racord_444f9c40-5b15-4da9-903b-17c7bed8900a",
+    "statement": "Si la cabina d’un ascensor d’adherència puja, el contrapès ______.",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nEl contrapès es mou en sentit oposat a la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "es manté immòbil",
+      "B": "baixa en sentit oposat",
+      "C": "puja a la mateixa velocitat",
+      "D": "es desplaça transversalment"
+    }
+  },
+  {
+    "id": "racord_2b2af0f9-acf3-4f39-aec1-e9474daa54b4",
+    "statement": "Has localitzat l’armari tècnic accessible d’un ascensor sense cambra de màquines. Quin element permet governar des d’allà el funcionament de la instal·lació?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nDes d’aquí es governa tot el funcionament de l’ascensor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La politja d’adherència",
+      "B": "El fre de seguretat",
+      "C": "El quadre de maniobres",
+      "D": "El contrapès"
+    }
+  },
+  {
+    "id": "racord_90b1845c-a959-4bad-9342-7e15c13937d3",
+    "statement": "Quins coneixements ha de tenir l’equip per treballar amb seguretat en alçada?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4. La seguretat en intervencions de rescat en alçada\n\nTots els membres de l’equip han de tenir coneixement i entrenament suficient en tècniques de progressió, ús del material i reconeixement de situacions de risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Progressió, formació i actualització de maniobres",
+      "B": "Conducció d’AEA, ús del material i formació",
+      "C": "Progressió, ús del material i reconeixement de situacions de risc",
+      "D": "Reconeixement de la situació, ús del material, formació i conducció d'AEA"
+    }
+  },
+  {
+    "id": "racord_f6a8f464-a667-46fc-9814-444a33158780",
+    "statement": "Quins elements externs a l’edificació poden emprar-se com a ancoratge de fortuna?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.4. Ancoratges en entorns urbans\n\nTambé és possible l’ús d’arbres o el propi vehicle de bombers com ancoratge de fortuna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicles particulars",
+      "B": "Arbres o el vehicle de bombers",
+      "C": "Mobiliari urbà",
+      "D": "Tanques provisionals"
+    }
+  },
+  {
+    "id": "racord_a5ec5057-188b-4483-b698-ab81a59f3e77",
+    "statement": "Quins principis aporta un SAS format correctament?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.5. Sistemes d’ancoratge de seguretat (SAS)\n\nAssegurant redundància i fiabilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elasticitat i absorció d’impactes",
+      "B": "Rapidesa i simplicitat de muntatge",
+      "C": "Redundància i fiabilitat",
+      "D": "Mobilitat i descens controlat"
+    }
+  },
+  {
+    "id": "racord_20d55cab-89e2-4635-b85f-250121a9db69",
+    "statement": "Durant la inspecció prèvia del fossat d'un ascensor, quin conjunt pot representar un risc afegit per a la maniobra?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nÉs recomanable assegurar-se que no hi ha obstacles, olis, aigua o altres substàncies fins al fossat que puguin comprometre la seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Obstacles, oli, aigua o altres substàncies",
+      "B": "Guies, cables i contrapès pel simple fet de formar part de la instal·lació",
+      "C": "Politges i frens correctament instal·lats",
+      "D": "Botoneres i indicadors de planta"
+    }
+  },
+  {
+    "id": "racord_7fa9d00a-7493-466f-867c-974c983ff0f0",
+    "statement": "Com defineix el marc normatiu el «treball temporal en alçada»?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nEs du a terme en una alçada superior a 2 metres i comporta risc de caiguda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treball a qualsevol alçada amb ús d’una escala",
+      "B": "Treball a més de 2 metres que comporta risc de caiguda",
+      "C": "Treball vertical desenvolupat amb una corda dinàmica",
+      "D": "Treball sobre una bastida amb protecció col·lectiva"
+    }
+  },
+  {
+    "id": "racord_e60fef76-e99e-484e-a535-f919b2f3e68a",
+    "statement": "Quina mesura s’ha d’aplicar en maniobres de càrrega o accés a plataforma amb AEA?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nS’ha d’aturar el motor i, si el pas entre l’estructura fixa i la cistella no és completament segur s’ha de muntar un sistema anticaigudes. Aquest sistema, quan sigui possible, s’ha de muntar de manera redundant amb un punt d’ancoratge elevat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Engegar el motor i muntar anticaigudes si el pas no és segur, preferentment redundant",
+      "B": "Mantenir el motor en funcionament per corregir moviments de la cistella",
+      "C": "Aturar el motor i muntar anticaigudes si el pas no és segur, preferentment redundant",
+      "D": "Aturar el motor i activar la funció tortuga"
+    }
+  },
+  {
+    "id": "racord_1ce1dfc0-c37d-4285-9452-c82ed1b72c62",
+    "statement": "D'acord amb les tres grans tipologies de rescat urbà identifica quina no pertany dins l’estructura operativa del cos de Bombers:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nDins de l’àmbit operatiu, podem identificar tres grans tipologies de rescat urbà: intervencions en alçada, rescats en ascensors i altres tipus de salvament urbà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rescats en ascensors",
+      "B": "Intervencions en alçada",
+      "C": "Rescats en vies ferrades",
+      "D": "Salvaments urbans"
+    }
+  },
+  {
+    "id": "racord_8d38e3e2-2686-4d45-a99e-71e951f3cdcb",
+    "statement": "Quins sistemes cita el Reial decret 486/1997 per protegir zones amb risc de caiguda?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nMitjançant sistemes com baranes, passarel·les o proteccions col·lectives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Baranes, passarel·les o proteccions col·lectives",
+      "B": "Politges, descensors i bloquejadors",
+      "C": "Cordes dinàmiques, nusos i triangles de salvament",
+      "D": "MGO, autoescala i escala de ganxos"
+    }
+  },
+  {
+    "id": "racord_74b5680c-9b37-4372-b482-718b59b16a19",
+    "statement": "Quins coneixements i actuacions caracteritzen els rescats en ascensors?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nRequereix coneixement tècnic del funcionament dels aparells elevadors, maniobres de desbloqueig segures i comunicació constant amb la víctima.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Coneixement dels aparells, progressió en espais confinats i comunicació amb la víctima",
+      "B": "Coneixement dels aparells, estabilització estructural i desbloqueig segur",
+      "C": "Coneixement dels aparells, desbloqueig segur i comunicació amb la víctima",
+      "D": "Tècniques d’escalada, ancoratges i evacuació amb cordes"
+    }
+  },
+  {
+    "id": "racord_83a19212-5056-4feb-9d21-f85e1ddacfe6",
+    "statement": "Quina normativa regula les condicions d’ús dels equips de treball en alçada?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nRegulació específica d’equips de treball en alçada (Reial decret 1215/1997, modificat pel RD 2177/2004).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Llei 31/1995, modificada pel RD 486/1997",
+      "B": "El Reial decret 1215/1997, modificat pel RD 2177/2004",
+      "C": "El RD 2177/2004, modificat per la Llei 31/1995",
+      "D": "El Reial decret 486/1997, modificat pel RD 1215/1997"
+    }
+  },
+  {
+    "id": "racord_134f83b1-5f1f-444e-bff6-56239cc8e110",
+    "statement": "Quin objectiu té la progressió amb sistema MGO?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.5. Maniobra de progressió i assegurament amb sistema MGO\n\nObjectiu: Permetre la progressió vertical autònoma amb MGO per estructures metàl·liques, escales, bastides, balcons, línies de vida d’entorns industrials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer un descens controlat per una corda principal",
+      "B": "Connectar la víctima a una llitera amb dos punts",
+      "C": "Permetre progressió vertical autònoma per estructures, escales o bastides",
+      "D": "Permetre progressió horitzontal autònoma per estructures, escales o bastides"
+    }
+  },
+  {
+    "id": "racord_652c921a-1dc7-412c-962c-6e770a4d9a99",
+    "statement": "Indica quina afirmació és INCORRECTA sobre la identificació prèvia del tipus d’ascensor:",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nAquest coneixement permet identificar l’arquitectura de l’equip, reconèixer possibles riscos i triar la maniobra més adequada en cada situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permet escollir la maniobra més adequada segons el sistema",
+      "B": "Permet identificar l’arquitectura bàsica de l’equip",
+      "C": "Permet reconèixer possibles riscos abans d’actuar",
+      "D": "Permet determinar la maniobra sense necessitat de comprovar l’estat dels elements de la instal·lació"
+    }
+  },
+  {
+    "id": "racord_3540ff0a-702e-4991-90eb-7bab866e0249",
+    "statement": "Arribes a un edifici el qual hi ha un ascensor amb persones atrapades a l'interior. Abans d’entrar al recinte, valores quina tecnologia d’ascensor és més probable segons l’edifici. En quin escenari és especialment coherent trobar un ascensor hidràulic?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nÉs habitual en edificis de poca alçada o amb limitacions d’espai.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una torre molt alta on es prioritza una gran velocitat de recorregut",
+      "B": "En un edifici de poca alçada o amb condicionants d’espai",
+      "C": "En un edifici on el motor ha d’estar obligatòriament dins del forat",
+      "D": "En una instal·lació exterior inclinada de gran capacitat"
+    }
+  },
+  {
+    "id": "racord_15f04754-0937-44ff-b024-edbe67af4c0b",
+    "statement": "Quin objectiu té l’assegurament de la víctima amb llitera o triangle de salvament?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.6. Assegurament de la víctima amb llitera o triangle de salvament\n\nObjectiu: Garantir la màxima seguretat en maniobres de rescat vertical amb triangle de salvament o llitera, mitjançant la fixació del sistema a dos punts independents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar que el rescatador entri a la zona de perill",
+      "B": "Permetre una progressió vertical autònoma de la víctima",
+      "C": "Garantir la seguretat fixant el sistema a dos punts independents",
+      "D": "Reduir la força necessària per elevar la víctima"
+    }
+  },
+  {
+    "id": "racord_50e109cc-c6b0-4ea6-a1f6-c4ebdef94bbc",
+    "statement": "On s’ancora el sistema de retenció descrit al manual de referència MAN.SVXX.000 V1 2026 de rescat en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.1. Maniobres amb elements de retenció\n\nManiobra d’ancoratge a l’anella ventral de subjecció/retenció de l’arnès integrat al sobrepantaló.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’anella ventral de subjecció o retenció de l’arnès",
+      "B": "Al casc mitjançant una línia de vida",
+      "C": "A l’anella A anticaigudes de l’arnès",
+      "D": "Al puny bloquejador del sistema d’ascens"
+    }
+  },
+  {
+    "id": "racord_e073a64c-03a3-445b-97b0-fd2c2cbd6be5",
+    "statement": "Quines dues homologacions compleixen les cordes disponibles a Bombers de la Generalitat?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.1. Cordes\n\nEs disposa de cordes que compleixen les dues homologacions: categoria de corda semiestàtica i categoria de corda dinàmica simple.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria de tracció i categoria de suspensió",
+      "B": "Categoria de línia de vida i categoria d’ancoratge",
+      "C": "Categoria semiestàtica i categoria dinàmica simple",
+      "D": "Categoria estàtica i categoria dinàmica"
+    }
+  },
+  {
+    "id": "racord_c510f36f-6b5d-4eda-9d67-1721492ebb6e",
+    "statement": "Durant el rescat d'una persona precipitada en un pou s'utilitza el triangle de salvament.Com s'asssegura la víctima durant aquesta maniobra?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.6. Assegurament de la víctima amb llitera o triangle de salvament\n\nConsisteix a connectar la víctima mitjançant cordes, arnesos i sistemes d’unió segurs a una línia d’assegurament amb llitera o a un rescatador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb dos mosquetons MGO directament a la roba",
+      "B": "Amb una escala de ganxos fixada a l’arnès",
+      "C": "Amb una corda sense arnès connectada a una politja simple",
+      "D": "Amb cordes, arnesos i sistemes d’unió segurs a una línia, llitera o rescatador"
+    }
+  },
+  {
+    "id": "racord_7d0afc57-cfd8-4c71-b792-4b4f5f1565c4",
+    "statement": "Per què s’han de delimitar clarament les zones de perill quan fem treballs en alçada?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nPerquè tot l’equip entengui bé fins on pot acostar-se sense estar assegurat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Totes les anteriors són correctes",
+      "B": "Perquè l’equip adapti les mesures de seguretat adequades a cada zona",
+      "C": "Per evitar aglomeracions innecessaries a la zona del rescat",
+      "D": "Perquè l’equip conegui fins on es pot acostar sense estar assegurat"
+    }
+  },
+  {
+    "id": "racord_2cb994ae-3d67-4d18-a73d-d806c7f74bd0",
+    "statement": "Indica quina afirmació és INCORRECTA respecte d’un ascensor sense cambra de màquines:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nAquest disseny permet estalviar espai arquitectònic i elimina la necessitat d’una sala tècnica específica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El quadre de maniobra ha d’estar obligatòriament dins d’una cambra superior independent",
+      "B": "El motor d’adherència se situa habitualment dins del forat",
+      "C": "El quadre de maniobra pot estar en un armari de control accessible",
+      "D": "El disseny permet estalviar espai arquitectònic"
+    }
+  },
+  {
+    "id": "racord_5c08d351-414f-44d0-a1c2-e0c919812875",
+    "statement": "En un servei de rescat de persones atrapades en un ascensor, un cop tallada la tensió, quina actuació evita que una tercera persona pugui intervenir inadvertidament sobre el sistema mentre dura el rescat?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nDesprés de tallar la tensió, cal bloquejar l’accés a l’armari de comandament i senyalitzar clarament la situació de rescat per evitar intervencions externes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reactivar puntualment el sistema per comprovar si la cabina es mou",
+      "B": "Deixar l’armari obert perquè qualsevol tècnic pugui actuar immediatament",
+      "C": "Traslladar els comandaments a la planta on es troben les víctimes",
+      "D": "Bloquejar l’accés a l’armari de comandament i senyalitzar clarament la intervenció"
+    }
+  },
+  {
+    "id": "racord_67571bb9-7d71-4188-b948-55fbab6b5601",
+    "statement": "En revisar un ascensor hidràulic, comproves que el sistema és d’acció directa. Quina disposició del pistó és la correcta?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nEl pistó pot actuar de forma directa, situant-se just sota la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actua sobre el contrapès mitjançant una politja d’adherència",
+      "B": "Forma part de l’armari de maniobres i no té contacte mecànic amb la cabina",
+      "C": "Actua sota la cabina",
+      "D": "Es troba a la part superior del forat i treballa per tracció"
+    }
+  },
+  {
+    "id": "racord_c71ad854-ba08-4768-9893-5fa866c230a6",
+    "statement": "Dins dels ascensors electromecànics d’adherència, el recorregut pot ser ______.",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nAscensors electromecànics d’adherència: ascensors verticals i ascensors inclinats (funiculars).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "vertical o inclinat",
+      "B": "geared o gearless",
+      "C": "directe o indirecte",
+      "D": "amb cambra o sense cambra de màquines"
+    }
+  },
+  {
+    "id": "racord_9ac46395-791b-4a60-8525-d45a97156d7c",
+    "statement": "En un edifici nou trobes un ascensor d’adherència sense sala tècnica específica. Quina relació amb els sistemes tradicionals és la més precisa?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nEls ascensors sense cambra de màquines són una evolució dels sistemes electromecànics tradicionals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una variant dels ascensors hidràulics directes",
+      "B": "És una evolució dels ascensors electromecànics d’adherència",
+      "C": "És un sistema inclinat adaptat al recorregut vertical",
+      "D": "És un sistema pneumàtic independent de cables i contrapès"
+    }
+  },
+  {
+    "id": "racord_e5339051-4068-4d4f-aafa-203b03897398",
+    "statement": "Abans d’alliberar manualment el fre d’un ascensor electromecànic avariat, quina acció és imprescindible?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.1. Maniobra de rescat en ascensors electromecànics d’adherència\n\nConsisteix a accedir a la cambra de màquines, tallar el subministrament elèctric, desbloquejar el fre motor i iniciar la maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desconnectar mecànicament les guies",
+      "B": "Tallar el subministrament elèctric",
+      "C": "Obrir totes les portes de planta",
+      "D": "Activar el limitador de velocitat"
+    }
+  },
+  {
+    "id": "racord_848637ba-6ff9-4364-8216-3c3724a294d6",
+    "statement": "Indica quin element NO forma part de la comprovació prèvia específica de l’ascensor:",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nAquesta comprovació inclou revisar visualment les portes i els mecanismes de bloqueig, l’estat de la cabina, les guies i cables, així com possibles deformacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les possibles deformacions i els obstacles al fossat",
+      "B": "El mobiliari i els revestiments de les zones comunes de l’edifici",
+      "C": "La cabina, les guies i els cables",
+      "D": "Les portes i els mecanismes de bloqueig"
+    }
+  },
+  {
+    "id": "racord_e4b9527e-9b8f-48b3-b5f7-f16162213d3b",
+    "statement": "Indica quina afirmació és INCORRECTA respecte un ascensor hidràulic:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nAquest tipus d’instal·lació no requereix contrapès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitza un pistó impulsat per oli a pressió",
+      "B": "És habitual en edificis de poca alçada o amb limitacions d’espai",
+      "C": "Necessita contrapès per reduir l’esforç de la bomba",
+      "D": "El pistó pot actuar de forma directa o indirecta."
+    }
+  },
+  {
+    "id": "racord_b8c49769-a905-41fd-bc7b-29bfb82822f8",
+    "statement": "Quina definició descriu millor el concepte d'intervenció en alçada dins del rescat urbà?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2. Intervencions en alçada\n\nInclouen totes aquelles actuacions on cal accedir, estabilitzar o evacuar persones situades en llocs elevats —cobertes, balcons, patis interiors, bastides, arbres, estructures metàl·liques, etc.—, i que suposen un risc de caiguda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actuació per accedir, estabilitzar o evacuar persones en llocs elevats amb risc de caiguda",
+      "B": "Actuació per accedir, estabilitzar o evacuar persones en llocs elevats de més de 5 metres",
+      "C": "Actuació per accedir, estabilitzar o evacuar persones en llocs elevats de més de 3 metres",
+      "D": "Actuació per accedir, estabilitzar o evacuar persones en llocs elevats sense risc de caiguda"
+    }
+  },
+  {
+    "id": "racord_2990d7df-a0dc-4e6e-b2ae-a07400c603d0",
+    "statement": "Durant l’anàlisi del sistema motriu d’un ascensor d’adherència, quina relació entre motor, politja i cables és CORRECTA?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nLa politja d’adherència és accionada pel motor i fa de nexe entre el motor i el moviment vertical de la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La politja acciona el motor i el motor arrossega directament la cabina per les guies",
+      "B": "El motor acciona la politja i aquesta transmet el moviment als cables que mouen cabina i contrapès",
+      "C": "El motor actua sobre les guies i la politja només limita la velocitat",
+      "D": "El quadre de maniobres mou la politja mecànicament i el motor només actua com a fre"
+    }
+  },
+  {
+    "id": "racord_f24ede85-43b1-4c3a-b7ae-74f36ca4f253",
+    "statement": "Quines accions no poden comportar les actuacions de rescat urbà?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.1. El rescat urbà a Catalunya\n\nAquestes actuacions comporten l’assistència, alliberament o evacuació de persones en risc que, per sí mateixes, no poden sortir de la situació compromesa on es troben.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Confinaments",
+      "B": "Evacuacions",
+      "C": "Assistències",
+      "D": "Alliberaments"
+    }
+  },
+  {
+    "id": "racord_77e1f151-c023-42ed-85a3-bca944ef7f79",
+    "statement": "Quin criteri general s’ha d’aplicar per escollir l’accés en un rescat urbà?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n1.3. Estructura operativa del dispositiu de rescat\n\nS’ha de buscar sempre l’accés més fàcil, segur i ràpid, evitant accions innecessàriament destructives i valorant constantment el risc-benefici per als actuants i la víctima.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Buscar l’accés més fàcil, segur i ràpid valorant el risc-benefici",
+      "B": "Escollir l’accés més directe i ràpid encara que augmenti el risc",
+      "C": "Iniciar l’entrada  més ràpida possible i posteriorment valorar les alternatives disponibles per si cal que entri més personal",
+      "D": "Prioritzar l’accés que permeti utilitzar més eines de treball i personal d'intervenció"
+    }
+  },
+  {
+    "id": "racord_b44ffe11-1745-4655-aa4b-e8da59992c73",
+    "statement": "Com es fa la maniobra de ràpel del bomber descrita al document de referència de rescat en alçada MAN.SVXX.000 V1.2026?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.10. Maniobra de ràpel del bomber\n\nConsisteix a despenjar un bomber utilitzant un altre bomber com a punt fix, mitjançant cordes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzant una politja autoblocant com a punt fix",
+      "B": "Connectant el bomber a una corda dinàmica sense punt d’ancoratge",
+      "C": "Despenjant un bomber per l'escala de ganxos amb un altre bomber com a punt fix",
+      "D": "Despenjant un bomber amb un altre bomber com a punt fix"
+    }
+  },
+  {
+    "id": "racord_ce11b0ef-26e8-4e86-a4a4-27a28ff08837",
+    "statement": "En un ascensor electromecànic tradicional, quin espai cal localitzar per actuar manualment sobre el sistema motriu?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.1. Maniobra de rescat en ascensors electromecànics d’adherència\n\nConsisteix a accedir a la cambra de màquines, tallar el subministrament elèctric i desbloquejar el fre motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’armari de control d’una planta intermèdia",
+      "B": "La cambra de màquines",
+      "C": "El fossat",
+      "D": "L’armari tècnic de la planta baixa"
+    }
+  },
+  {
+    "id": "racord_808d7b03-82e2-4f85-9b87-763e18e210d9",
+    "statement": "Durant una incidència, la cabina d'un ascensor accelera per sobre del valor admès. Quina seqüència funcional és CORRECTA?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nControla la velocitat de la cabina i, si detecta una acceleració excessiva, activa el sistema de fre d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El quadre detecta l’excés de velocitat i desconnecta mecànicament els cables",
+      "B": "El fre detecta l’excés de velocitat i activa el quadre de maniobres",
+      "C": "El limitador detecta l’excés de velocitat i activa el sistema de frenada d’emergència",
+      "D": "El contrapès detecta l’excés de velocitat i bloqueja les guies"
+    }
+  },
+  {
+    "id": "racord_bb4a57be-9fec-479a-9af5-a0b8f7ca920d",
+    "statement": "Indica quina actuació és INCORRECTA en el rescat d’un ascensor sense cambra de màquines:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.3. Maniobra de rescat en ascensors sense cambra de màquines\n\nConsisteix a localitzar l’armari de control electrònic, tallar el subministrament elèctric i usar el desbloqueig automàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tallar el subministrament elèctric",
+      "B": "Utilitzar el sistema de desbloqueig previst",
+      "C": "Mantenir el motor alimentat per conservar el moviment durant l’evacuació",
+      "D": "Localitzar l’armari de control electrònic"
+    }
+  },
+  {
+    "id": "racord_d45cb3ef-0f07-4026-ad70-9b6dfdb83d3d",
+    "statement": "Quina funció té una politja amb bloqueig o autoblocant?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.3. Politges i sistemes mecànics\n\nPolitges amb bloqueig: eviten el retrocés de la càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Connectar la víctima a una línia de vida",
+      "B": "Canviar el sentit de la corda sense bloquejar-la",
+      "C": "Evitar el retrocés de la càrrega",
+      "D": "Limitar la força de xoc d’una caiguda"
+    }
+  },
+  {
+    "id": "racord_49906d5c-b181-4e37-8bda-98cafdfff500",
+    "statement": "Indica l’afirmació CORRECTA sobre la velocitat habitual d’un ascensor hidràulic respecte d’un electromecànic:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nLa velocitat de desplaçament és inferior a la dels sistemes electromecànics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És equivalent sempre que el pistó sigui directe",
+      "B": "Depèn exclusivament de la ubicació de la bomba",
+      "C": "És inferior",
+      "D": "És superior perquè no utilitza contrapès"
+    }
+  },
+  {
+    "id": "racord_996ae0d6-736e-4b81-96f0-28a47b450251",
+    "statement": "Quina funció tenen els ancoratges en una maniobra de rescat en alçada?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.4. Ancoratges en entorns urbans\n\nEls ancoratges són punts fonamentals, ja que suporten les càrregues generades pels sistemes de cordes i garanteixen la seguretat de l’operació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Controlar la velocitat d’un descens per ràpel",
+      "B": "Absorbir directament l’impacte de qualsevol caiguda",
+      "C": "Suportar les càrregues dels sistemes de cordes i donar seguretat a l’operació",
+      "D": "Reduir la força necessària per elevar una víctima"
+    }
+  },
+  {
+    "id": "racord_9533c148-3fbd-4e5d-93f3-51962030d2d9",
+    "statement": "En quina situació es contempla la maniobra de ràpel del bomber?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.10. Maniobra de ràpel del bomber\n\nQuan no hi ha un punt fiable per fer d’ancoratge fix i es tracti d’una situació de risc vital imminent per a una persona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan no es pot accedir amb una escala colissa",
+      "B": "Quan no hi ha un ancoratge fix fiable i existeix risc vital imminent",
+      "C": "Quan no hi ha un ancoratge fix fiable i  no existeix un risc vital imminent",
+      "D": "Quan la víctima no pot evacuar-se per la cistella de l’AEA"
+    }
+  },
+  {
+    "id": "racord_0f72bc34-3dc9-4020-81fe-65a0124a4b61",
+    "statement": "Quin objectiu té la maniobra de descens per corda o ràpel d'acord amb el manual de referència MAN.SVXX.000 V1 2026 de rescat en alçada?",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.3. Maniobres de descens per corda (ràpel)\n\nObjectiu: Permetre el descens controlat per a rescatadors com per a l'evacuació de víctimes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permetre una progressió vertical ascendent",
+      "B": "Mantenir l’operador fora de la zona de perill",
+      "C": "Permetre el descens controlat de rescatadors i víctimes",
+      "D": "Elevar una víctima mitjançant un avantatge mecànic"
+    }
+  },
+  {
+    "id": "racord_592a0418-21a7-44a0-bb23-952b53d762db",
+    "statement": "Indica quina afirmació és INCORRECTA sobre els cables d’acer d’un ascensor d’adherència:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nEls cables d’acer transmeten el moviment des de la politja fins a la cabina i el contrapès. No arrosseguen per tracció directa, sinó per adherència a la politja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Arrosseguen la cabina per tracció directa independentment de la politja d’adherència.",
+      "B": "Transmeten el moviment entre la politja, la cabina i el contrapès.",
+      "C": "El moviment es transmet gràcies a l’adherència entre cables i politja.",
+      "D": "Treballen associats a la politja d’adherència."
+    }
+  },
+  {
+    "id": "racord_db5b9a13-6f4c-4e45-97c5-ab9a685a9923",
+    "statement": "A la cambra de màquines observes una peça circular accionada pel motor, amb ranures per on passen els cables i que fa de nexe entre motor i moviment de la cabina. Quin element és?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nPolitja d’adherència: peça circular accionada pel motor, amb ranures que guien els cables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La politja d’adherència",
+      "B": "El contrapès",
+      "C": "El quadre de maniobres",
+      "D": "El limitador de velocitat"
+    }
+  },
+  {
+    "id": "racord_1fa1eb56-c34a-40ac-8f00-b081d769e383",
+    "statement": "En un rescat d’un ascensor sense cambra de màquines, quin és l’objectiu operatiu principal?",
+    "correct": "D",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2.3. Maniobra de rescat en ascensors sense cambra de màquines\n\nObjectiu: Permetre l’accés a la cabina i l’evacuació segura de les persones atrapades en ascensors que no disposen de cambra de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Accedir a una cambra superior i girar manualment el volant del motor",
+      "B": "Fer descendir la cabina mitjançant una vàlvula hidràulica fins a la planta inferior",
+      "C": "Elevar la cabina amb un polispast exterior abans d’obrir les portes",
+      "D": "Accedir a la cabina i evacuar les persones atrapades aplicant les particularitats d’aquest sistema"
+    }
+  },
+  {
+    "id": "racord_8858e1aa-982b-4bb6-a41d-29dab877c426",
+    "statement": "La seguretat d'una intervenció en alçada no ha d’anar en contra de la seva__________.",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2. Intervencions en alçada\n\nLa seguretat de l’actuació no ha d’anar en contra de la seva eficàcia. El procediment s’ha d’aplicar amb flexibilitat i sentit comú, prioritzant sempre la missió de salvament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rapidesa i simplicitat de muntatge",
+      "B": "Eficàcia",
+      "C": "Validesa operativa",
+      "D": "Eficiència"
+    }
+  },
+  {
+    "id": "racord_84f0481a-04c3-4b02-8688-ab4f17c46bc7",
+    "statement": "Quina norma constitueix la base legal de la seguretat en el treball durant les actuacions dels bombers en rescats en alçada?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.1. Marc normatiu en el rescat en alçada\n\nLegislació general de prevenció de riscos laborals (Llei 31/1995 de Prevenció de Riscos Laborals). Constitueix la base legal de la seguretat en el treball.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Reial decret 486/1997",
+      "B": "La Llei 31/1995 de Prevenció de Riscos Laborals",
+      "C": "El Reial decret 1215/1997",
+      "D": "El Reial decret 2177/2004"
+    }
+  },
+  {
+    "id": "racord_e78724e2-ad36-417f-9f59-3d308c1d51fd",
+    "statement": "Quin factor explica principalment que l’ascensor esdevingués essencial en l’edificació urbana a partir de la segona meitat del segle XX?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3. Intervencions en ascensors\n\nEls ascensors han esdevingut un element estructural essencial en els edificis urbans de Catalunya, especialment a partir de la segona meitat del segle XX, amb l’expansió vertical de les ciutats i la construcció massiva d’habitatges plurifamiliars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’ús habitual dels sistemes hidràulics en edificis de poca alçada",
+      "B": "L’expansió vertical de les ciutats i la construcció massiva d’habitatges plurifamiliars",
+      "C": "La modernització  i la implantació de normatives europees de seguretat",
+      "D": "L’eficiència energètica i la integració compacta dels sistemes sense cambra de màquines"
+    }
+  },
+  {
+    "id": "racord_f967c7e5-755a-424f-a66c-a8e3f5685c78",
+    "statement": "En un electromecànic d’adherència tradicional, des d’on es desbloqueja manualment el fre del motor?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nEl fre del motor cal desbloquejar-lo manualment des de la cambra de màquines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del fossat.",
+      "B": "Des de la cambra de màquines.",
+      "C": "Des de l’armari de control de la planta superior o intermèdia.",
+      "D": "Des de l’armari tècnic de la planta baixa."
+    }
+  },
+  {
+    "id": "racord_edba43db-4807-4bc1-8067-e040a2aa7aea",
+    "statement": "Quins son els tres sistemes de protecció individual contra caigudes quan realitzem treballs en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.1. Sistemes de protecció individual contra caigudes\n\nEn funció de la seva finalitat, destaquem tres sistemes de protecció diferents: sistema de retenció, sistema de suspensió i sistema anticaigudes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retenció, suspensió i anticaigudes",
+      "B": "Progressió, tracció i anticaigudes",
+      "C": "Ancoratge, retenció i frenada",
+      "D": "Retenció, anticaigudes i frenada"
+    }
+  },
+  {
+    "id": "racord_315b8544-55f7-4a10-a788-048a48e477e8",
+    "statement": "Abans del rescat en un ascensor cal activar, com a mínim, ______ funcions de seguretat de tall de maniobra motor.",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.3. Pautes generals de seguretat en intervencions amb ascensors\n\nImportant: Cal activar, com a mínim, 2 d’aquestes funcions de seguretat prèvies al rescat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dues",
+      "B": "Tres",
+      "C": "Cuatre",
+      "D": "Una"
+    }
+  },
+  {
+    "id": "racord_c5b8788d-a9d9-42ca-9907-e934449e908e",
+    "statement": "Indica la modalitat que correspon a un tipus de Sistemes d’Ancoratge de Seguretat:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.2.5. Sistemes d’ancoratge de seguretat (SAS)\n\nEs poden establir diferents modalitats de SAS: SAS simple, SAS en línia, SAS triangulat, SAS de corda, SAS utilitzant un vehicle i SAS amb bomber.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "SAS amb politja autoblocant",
+      "B": "SAS anticaigudes dinàmic",
+      "C": "SAS triangulat",
+      "D": "SAS de descens controlat"
+    }
+  },
+  {
+    "id": "racord_f4a115fb-67ed-4b4d-9e40-591c6a82c188",
+    "statement": "Indica l’afirmació CORRECTA sobre el criteri general de rescat en ascensors:",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.2. Maniobres bàsiques de rescat en ascensors\n\nLes maniobres tenen per finalitat facilitar l’evacuació segura de les persones atrapades adaptant-se a les particularitats tècniques de cada sistema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La maniobra s’ha d’adaptar a la tipologia i a l’arquitectura de l’ascensor",
+      "B": "Finalitzada l’extracció, es pot restablir el servei si les portes funcionen",
+      "C": "El tall elèctric només és necessari en els ascensors hidràulics",
+      "D": "Un cop localitzada la cabina, la seqüència és la mateixa per a qualsevol tipologia"
+    }
+  },
+  {
+    "id": "racord_3ae3f27a-cc0c-493c-a882-c9b37a6d648b",
+    "statement": "Busques la unitat motriu d’un ascensor hidràulic. On és habitual trobar el motor i la bomba?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.2. Ascensors hidràulics\n\nEl motor i la bomba hidràulica es troben habitualment dins d’un armari tècnic situat a la planta baixa, sovint en una sala annexa al recinte de l’ascensor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la part superior del forat, integrats amb el motor gearless",
+      "B": "En un armari tècnic a la planta baixa, sovint en una sala annexa al recinte",
+      "C": "Dins del fossat, necessàriament sota el pistó",
+      "D": "Al sostre de la cabina, al costat del limitador de velocitat"
+    }
+  },
+  {
+    "id": "racord_53c93b02-89c7-488a-abdf-b508713a1f14",
+    "statement": "Quan fem intervencions en alçada, quin criteri d’autoprotecció s’aplica quan es treballa en una posició exposada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.4.2. Pautes de seguretat en intervencions en alçada\n\nCal estar sempre ancorat si es treballa en una posició exposada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballar ancorat en una posició exposada",
+      "B": "Treballar desancorat per mantenir mobilitat",
+      "C": "Treballar ancorat de 3 punts diferents",
+      "D": "Mantenir una corda a prop sense connectar-la"
+    }
+  },
+  {
+    "id": "racord_c12641eb-4712-4e25-a4df-f1ded7431177",
+    "statement": "En revisar el forat d’un ascensor observes rails metàl·lics associats tant a la cabina com al contrapès. Quina funció tenen principalment?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nGuies: rails metàl·lics que marquen el recorregut vertical de la cabina i del contrapès, garantint l’estabilitat i la seguretat del moviment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Guiar-ne el recorregut i mantenir l’estabilitat i l’alineació",
+      "B": "Regular electrònicament la velocitat i les parades",
+      "C": "Bloquejar el moviment quan desapareix l’alimentació",
+      "D": "Transmetre el parell del motor directament a la cabina"
+    }
+  },
+  {
+    "id": "racord_6964dbe4-54b0-4c53-be63-aebbfc17b0f0",
+    "statement": "Quan és especialment útil una escala colissa o de ganxos en rescat en alçada?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n2.3.9. Maniobra de rescat amb escala colissa i/o de ganxos\n\nEspecialment útil en espais estrets, patis interiors o façanes sense possibilitat d’accés amb autoescala.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En espais estrets, patis interiors o façanes sense accés amb autoescala",
+      "B": "En sistemes de tracció amb politges compostes",
+      "C": "En grans espais oberts amb accés directe de l’AEA",
+      "D": "En ascensos per corda fixa dins de pous"
+    }
+  },
+  {
+    "id": "racord_23504e64-e215-4556-b7da-edcf5751246b",
+    "statement": "Durant una maniobra manual, quin efecte funcional aporta el contrapès al sistema d’adherència?",
+    "correct": "B",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.1. Ascensors electromecànics d’adherència\n\nContrapès: element que equilibra el pes de la cabina i redueix l’esforç del motor. Es mou en sentit oposat a la cabina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Condueix lateralment la cabina per evitar oscil·lacions",
+      "B": "Compensa part del pes de la cabina i redueix l’esforç que ha de fer el motor",
+      "C": "Detecta variacions de velocitat i activa el fre d’emergència",
+      "D": "Gestiona la seqüència d’obertura i tancament de portes"
+    }
+  },
+  {
+    "id": "racord_99eda9bd-97dd-4510-abb1-32c4a151a0ab",
+    "statement": "En un ascensor sense cambra de màquines es talla l’alimentació. Quin element manté la cabina aturada com a part del sistema associat al motor?",
+    "correct": "A",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1.3. Ascensors sense cambra de màquines\n\nFre de seguretat integrat: sistema de frenada automàtic associat al motor. Manté la cabina aturada quan no hi ha subministrament elèctric o quan s’activa una condició de seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El fre de seguretat integrat",
+      "B": "Les guies de cabina",
+      "C": "El contrapès",
+      "D": "El quadre de maniobres"
+    }
+  },
+  {
+    "id": "racord_b60c751b-af80-41ef-8b68-cc2705a8f31b",
+    "statement": "Indica quina afirmació és INCORRECTA respecte dels ascensors inclinats o funiculars:",
+    "correct": "C",
+    "explanation": "MAN.SVXX.000 V1.2026\n\n3.1. Tipus d’ascensors\n\nSón ascensors de gran capacitat instal·lats a l’exterior, amb la singularitat que, tant cabina com contrapès, es desplacen en un pla inclinat, no vertical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "T33 Intervenció bàsica en rescat urbà",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’instal·len a l’exterior",
+      "B": "La cabina i el contrapès es desplacen en un pla inclinat",
+      "C": "La cabina es desplaça en un pla inclinat mentre el contrapès ho fa verticalment",
+      "D": "Són ascensors de gran capacitat"
+    }
+  }
+]

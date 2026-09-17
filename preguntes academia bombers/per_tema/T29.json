@@ -1,0 +1,302 @@
+[
+  {
+    "id": "academia_sim2_q80",
+    "simulacre": "Simulacre 2",
+    "num_pregunta": 80,
+    "statement": "L'amplitud anual mitjana de la temperatura (AAMT) és un paràmetre que resulta de:",
+    "correct": "D",
+    "explanation": "TMA: Temperatura mitjana anual.\nRPE: Règim pluviomètric estacional.\nPMA: Precipitació mitjana anual.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La relació entrela humitatregistrada en latemperatura més altaanual ilahumitat en la temperatura més baixa",
+      "B": "La diferència entrela temperatura màxima ilamínima registrades en un mateix any natural",
+      "C": "La temperatura mitjana anual",
+      "D": "La diferènciaentrela temperatura mitjana del més més càlid iladel mes més fred 21 Acadèmia Bombers Simulacre 2"
+    }
+  },
+  {
+    "id": "academia_sim10_q14",
+    "simulacre": "Simulacre 10",
+    "num_pregunta": 14,
+    "statement": "Quin clima es caracteritza per tenir una pluviometria abundant associada alpas de sistemes frontals, durant la primavera, tardor i hivern, i una precipitació convectiva durant l'estiu?",
+    "correct": "C",
+    "explanation": "Clima pirinenc:\nPMA = 1.000 -1.300 mm.\nRPE = màxim estiu;mínim hivern.\nTMA = 2 - 10°C.\nAAMT = 13 -16°C.\n\n\n 20\nAcadèmia Bombers Simulacre 10",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima prepirinenc",
+      "B": "El clima oceànic o atlànticbombers",
+      "C": "Elclima pirinenc",
+      "D": "Elclima continental www.academiabombers.com"
+    }
+  },
+  {
+    "id": "academia_sim26_q94",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 94,
+    "statement": "Quin dels següents climes presenta una precipitació mitjana anual (PMA) menor?",
+    "correct": "D",
+    "explanation": "Clima prelitoral:600 -1.000 mm. acadèmia\nClima pirinenc: 1.000 -1.300 mm.\nClima atlàntic:900 -1.100 mm.\nClima continental: 350 -850 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima prelitoral",
+      "B": "El clima pirinenc",
+      "C": "El clima atlànticooceànic acadèmia",
+      "D": "El clima continental"
+    }
+  },
+  {
+    "id": "academia_sim29_q24",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 24,
+    "statement": "La precipitació mitjana anual (PMA) del clima litorales troba sobre els:",
+    "correct": "C",
+    "explanation": "Clima litoral:500 -750 mm.\nClima prelitoral:600 - 1.000 mm.\nClima pirinenc: 1.000 -1.300bombersmm.\nClima atlàntic:900 -1.100 mm.\nClima continental: 350 -850 mm.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 29",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 -1.300 mm",
+      "B": "600 -1.000 mm",
+      "C": "500 -750 mm",
+      "D": "350 -850 mm 22 Acadèmia Bombers Simulacre 29"
+    }
+  },
+  {
+    "id": "academia_sim30_q18",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 18,
+    "statement": "Quin clima es localitza a Ponent, a la Catalunya Central ia la Plana de Vic?",
+    "correct": "D",
+    "explanation": "Característiques del clima continental:\nPMA: 350 -850 mm.\nRPE: màxim tardor iprimavera, mínim estiu.\nTMA: 12 - 15°C\nAAMT: 17 -20°C",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elclima prelitoral",
+      "B": "Elclima litoral",
+      "C": "Elclima prepirinenc",
+      "D": "Elclima continental"
+    }
+  },
+  {
+    "id": "academia_sim37_q56",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 56,
+    "statement": "Què podem afirmar sobre el clima prelitoral?",
+    "correct": "B",
+    "explanation": "Font:Pla INUNCAT. www.academiabombers.com\nClima prelitoral:caracteritzatper precipitaciómoderada produïda per masses d’aireprocedents del mediterrani,\npreferentment a latardor.\nPMA = 600 – 1.000 mm\nRPE = Màxim tardor iprimavera\nTMA = 11 – 15 ºC\nAAMT= 15 – 18 ºC\n\n\n\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 37",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva temperatura mitjana anual oscil·laentre els14,5 iels 18 ºC",
+      "B": "Presenta una precipitaciómitjana anual d'entre600 i 1.000 mm",
+      "C": "Es caracteritzaper teniruna pluviometria equilibrada durant l’any",
+      "D": "Elseu règim pluviomètricestacional és de màxims a l'estiuiprimavera imínim hivern 22 Acadèmia Bombers Simulacre 37"
+    }
+  },
+  {
+    "id": "academia_sim47_q11",
+    "simulacre": "Simulacre 47",
+    "num_pregunta": 11,
+    "statement": "La precipitació mitjana anual (PMA) del clima prelitoral es troba sobre els:",
+    "correct": "B",
+    "explanation": "Clima litoral:500 - 750 mm.\nClima prelitoral:600 -1.000 mm.\nClima pirinenc: 1.000 -1.300 mm.\nClima atlàntic:900 - 1.100 mm.\nClima continental: 350 - 850 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 - 1.300 mm",
+      "B": "600 -1.000 mm",
+      "C": "500 -750 mm",
+      "D": "350 -850 mm"
+    }
+  },
+  {
+    "id": "academia_sim103_q72",
+    "simulacre": "Simulacre 103",
+    "num_pregunta": 72,
+    "statement": "Quin clima es localitza a Ponent, a laCatalunya Central i a la Plana de Vic?",
+    "correct": "D",
+    "explanation": "Característiques del clima continental:\n\nPMA: 350 -850 mm.\nRPE: màxim tardor iprimavera, mínim estiu.\nTMA: 12 - 15°C\nAAMT: 17 - 20°C",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elclima prelitoral",
+      "B": "Elclima litoral",
+      "C": "El clima prepirinenc",
+      "D": "El clima continental www.academiabombers.com 11 Acadèmia Bombers Simulacre 103"
+    }
+  },
+  {
+    "id": "academia_sim125_q57",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 57,
+    "statement": "Segons el Protocol d’Atenció a les Persones davant Emergències Greus a Catalunya (APCAT), quan es considera que un incident és un IMV?",
+    "correct": "C",
+    "explanation": "Segons el Protocol d’Atenció a les Persones davant Emergències Greus a Catalunya (APCAT), es considera un IMV\nquan es donen com a mínim un nombre de víctimes reals o potencials de:\n\n− 6 o més víctimes greus o mortals.\n\n− 10 o més víctimes que requereixen trasllathospitalari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan hiha 10 o més víctimes greus o mortals, o 15 o més víctimes que requereixen trasllathospitalari",
+      "B": "Quan hiha 5 o més víctimes greus o mortals, o 8 o més víctimes que requereixen trasllathospitalari",
+      "C": "Quan hiha 6 o més víctimes greus o mortals, o 10 o més víctimes que requereixen trasllathospitalari",
+      "D": "Quan hiha 3 o més víctimes greus o mortals, o 15 o més víctimes que requereixen trasllathospitalari"
+    }
+  },
+  {
+    "id": "academia_sim126_q4",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 4,
+    "statement": "Ordena la codificació de colors del triatge START de més a menys prioritari:",
+    "correct": "D",
+    "explanation": "Vermell (Prioritat 1):víctimes crítiques però amb possibilitat de supervivència si reben assistència immediata.\n\nGroc (Prioritat2): víctimes greus però que poden esperar un temps limitatabans de rebre assistència.\n\nVerd (Prioritat3): víctimes amb lesions lleus o ferides que poden esperar o rebre atenció ambulatòria.\n\nNegre (Prioritat 4): víctimes sense senyals vitals o amb lesions incompatibles amb la vida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Negre, vermell, groc, verd",
+      "B": "Negre, verd, groc, vermell",
+      "C": "Vermell, negre, groc, verd",
+      "D": "Vermell, groc, verd, negre"
+    }
+  },
+  {
+    "id": "academia_sim126_q47",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 47,
+    "statement": "Segons el Protocol d’Atenció a les Persones davant Emergències Greus a Catalunya (APCAT), en quin dels casos següents es considera que un incident té la consideració d’IMV?",
+    "correct": "C",
+    "explanation": "Segons el Protocol d’Atenció a les Persones davant Emergències Greus a Catalunya (APCAT), es considera un IMV\nquan es donen com a mínim un nombrewww.academiabombers.comdevíctimesrealsopotencialsde:\n\n− 6 o més víctimes greus o mortals.\n\n− 10 o més víctimes que requereixen trasllat hospitalari.\n\n\n\n\n\n\n\n\n\n\n\n 18\nAcadèmia Bombers Simulacre 126",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan es registren 10 o més víctimes greus o mortals, o bé 15 o més víctimes que necessiten trasllat a un centre hospitalari",
+      "B": "Quan es registren 5 o més víctimes greus o mortals, o bé 8 o més víctimes que necessiten trasllata un centre hospitalari",
+      "C": "Quan es registren 6 o més víctimes greus o mortals, o bé 10 o més víctimes que necessiten trasllata un centre hospitalari",
+      "D": "Quan es registren 3 o més víctimes greus o mortals, o bé 15 o més víctimes que necessiten trasllata un centre hospitalari"
+    }
+  },
+  {
+    "id": "academia_sim127_q49",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 49,
+    "statement": "Indica l'afirmació CORRECTA relativa als sistemes de triatge emprats en incidents de múltiples víctimes:",
+    "correct": "A",
+    "explanation": "El mètode SALT (Sort, Assess, Lifesaving Interventions, Treatment/Transport) és un mètode de triatge mixt.\n\nA diferència del triatge START, el sistema META té en compte diagnòstics mèdics, valoracions detallades inecessitats\nterapèutiques.\n\nEn el triatge START, les víctimes s’identifiquen mitjançant:\n\n− Cintes de colors col·locades al canell, turmell o visible al cos.\n− Targetes de triatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema META és un sistema de triatge avançat responsabilitat del personal mèdic",
+      "B": "El triatgeSTART té en compte diagnòstics mèdics inecessitats terapèutiques",
+      "C": "El triatgeSTART contempla tres sistemes d’etiquetatge: targetes de triatge, collarets de colors icartolines numerades",
+      "D": "El mètode SALT (Sort,Assess, Lifesaving Interventions, Treatment/Transport) és un mètode de triatgebasat en lesions"
+    }
+  },
+  {
+    "id": "academia_sim128_q30",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 30,
+    "statement": "Un cop les víctimes arriben a l'Àrea Sanitària, l'equip mèdic hi aplica el sistema META. Què aporta aquest triatge respecte de la classificació START inicial?",
+    "correct": "A",
+    "explanation": "El triatge avançat META, responsabilitat del personal mèdic, afina la classificació inicial perquè valora diagnòstics\nmèdics, valoracions detallades inecessitats terapèutiques, cosa que el START (basat només en funcions vitals bàsiques)\nno fa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incorpora diagnòstics mèdics inecessitats terapèutiques a la valoració",
+      "B": "Reclassifica les víctimes incorporant lavaloració de lesions il’estatgeneral",
+      "C": "Complementa la classificació inicialamb una valoració més detallada de l’estatde la víctima",
+      "D": "Estableix una nova prioritzacióa partir de la informació clínica obtinguda durant l’atenció sanitària 4 Acadèmia Bombers Simulacre 128"
+    }
+  },
+  {
+    "id": "academia_sim128_q32",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 32,
+    "statement": "En un ensorrament, un bomber valora un home adult que respira a 28 rpm i té pols radial present, però no respon a cap ordre verbal. Quina classificació START li correspon?",
+    "correct": "B",
+    "explanation": "Tot ique respira per sota de 30 rpm ité pols radial, el fetde no seguir ordres simples és criteri d'estat mental alterat i\nclassifica la víctima com a vermella. El groc es reserva per a qui, amb constants estables, síque respon a ordres simples.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Groc (prioritat2)",
+      "B": "Vermell (prioritat1)",
+      "C": "Verd (prioritat3)",
+      "D": "Negre (prioritat4)"
+    }
+  },
+  {
+    "id": "academia_sim128_q55",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 55,
+    "statement": "En un incident amb múltiples afectats cal habilitar una zona de triatge iuna àrea de concentració de víctimes. Quina unitat del Cos de Bombers en té la capacitat?",
+    "correct": "C",
+    "explanation": "El GROS té capacitat per muntar zones de triatge, àrees de concentració de víctimes ipunts d'assistència sanitària\nprehospitalària, a més d'instal·lar la logística necessària. El GEM, en canvi, aporta personal mèdic id'infermeria per\nmedicalitzar el lloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T29 - Incidents de múltiples víctimes",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El GEM, que medicalitza ellloc de l'incident amb personal mèdic id'infermeria",
+      "B": "Els testimonis o primers intervinents que arriben en primer llocal sinistre",
+      "C": "El GROS, especialitzat en suport tàctic,logístic iassistencial",
+      "D": "Els equips especialitzats que apliquen suport vitalavançat iadministren fàrmacs"
+    }
+  }
+]

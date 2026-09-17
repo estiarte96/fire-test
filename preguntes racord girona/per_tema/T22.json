@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "racord_d74a1f51-18d9-4187-8e5e-cfbbed5402fc",
+    "statement": "Quina finalitat té el comandament únic respecte dels esforços dels intervinents?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nPermet que tots els esforços s’orientin i coordinin cap a un objectiu comú.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Limitar-los a les actuacions del primer equip",
+      "B": "Concentrar-los únicament en la logística",
+      "C": "Orientar-los i coordinar-los cap a un objectiu comú",
+      "D": "Assignar-los objectius independents entre si"
+    }
+  },
+  {
+    "id": "racord_fd344a00-3912-49d3-bf34-df693413d803",
+    "statement": "Quina comunicació s’ha de garantir dins del sistema de comunicacions?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.2. Comunicacions integrades\n\nS’ha de garantir la comunicació efectiva entre comandaments i unitats operatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la comunicació entre comandaments",
+      "B": "Exclusivament la comunicació entre agències externes",
+      "C": "La comunicació únicament amb el cap d’intervenció",
+      "D": "La comunicació efectiva entre comandaments i unitats"
+    }
+  },
+  {
+    "id": "racord_f2a4f636-d027-40b6-989f-7f09c892c8aa",
+    "statement": "Quina conseqüència pot tenir un relleu sense un traspàs adequat d’informació?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.1. Relleu del comandament\n\nEn cas contrari, el comandament no disposaria dels elements necessaris per dirigir la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tots els equips haurien de retornar al punt de trànsit",
+      "B": "El nou comandament no disposaria dels elements necessaris per dirigir",
+      "C": "La línia de comandament quedaria automàticament anul·lada",
+      "D": "El PAI deixaria de ser aplicable a tota la intervenció"
+    }
+  },
+  {
+    "id": "racord_4c0a28d6-6be4-4df7-91c7-16d301625c2b",
+    "statement": "D’acord amb el Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament, qui ha de ser el cap d’intervenció?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nSerà el màxim comandament de la guàrdia present al lloc del sinistre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El primer membre operatiu que arriba a l’incident",
+      "B": "El responsable del vehicle amb més recursos",
+      "C": "El comandament designat pel centre de control, encara que no sigui al lloc",
+      "D": "El màxim comandament de la guàrdia present al lloc"
+    }
+  },
+  {
+    "id": "racord_0a7d2a86-89fa-46fa-9f4b-0490a296d28c",
+    "statement": "D'acord amb les característiques del SISCOM, quins factors poden influir en el tram de control assignat?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.6. Tram de control\n\nEl tipus d’incident, les característiques del risc, els factors de seguretat i perill associat, i la distància a què estan desplegades les unitats operatives o sectors, influeixen sobre el tram de control assignat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament l’antiguitat dels comandaments",
+      "B": "Només el nombre de vehicles disponibles",
+      "C": "El tipus d’incident, el risc, la seguretat i la distància de desplegament",
+      "D": "La durada del torn i el nombre de comunicacions externes"
+    }
+  },
+  {
+    "id": "racord_2aa8da39-ebae-48f8-ab9a-d61a944a3319",
+    "statement": "Quin principi s’ha de garantir durant un relleu del comandament?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.1. Relleu del comandament\n\nPer garantir el comandament únic cal que en tota intervenció hi hagi una continuïtat de la figura del cap d’intervenció, i no es generin buits de comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La coexistència temporal de dos caps d’intervenció",
+      "B": "La substitució immediata sense traspàs d’informació",
+      "C": "La continuïtat del cap d’intervenció sense buits de comandament",
+      "D": "La interrupció de les maniobres fins al relleu"
+    }
+  },
+  {
+    "id": "racord_45005f14-72c6-4979-b6b6-708180a360fa",
+    "statement": "Què ha d’incloure un relleu correcte del comandament?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.1. Relleu del comandament\n\nQuan sigui necessari un relleu del comandament, cal que es faci correctament i inclogui el traspàs de tota la informació rellevant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la identificació dels recursos disponibles",
+      "B": "Únicament els objectius ja assolits",
+      "C": "La redefinició completa del SISCOM",
+      "D": "El traspàs de tota la informació rellevant"
+    }
+  },
+  {
+    "id": "racord_2b353031-7233-4d36-9fe7-8a5a8f3bc296",
+    "statement": "D'acord amb les característiques del SISCOM, qui assumeix les funcions que no s’han desplegat?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.5. Estructura modular i escalable\n\nEl CI assumeix aquelles funcions que no s’han desplegat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap d’intervenció",
+      "B": "El responsable de planificació",
+      "C": "El comandament unificat",
+      "D": "El comandament superior més proper"
+    }
+  },
+  {
+    "id": "racord_576c976b-0373-4ff1-9af7-0c517c10bb10",
+    "statement": "Quina finalitat té l’estructura modular i escalable del SISCOM?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.5. Estructura modular i escalable\n\nL’organització del comandament d’un incident es desenvolupa de manera modular per donar resposta a la dimensió i la complexitat de l’incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir una estructura idèntica en tots els incidents",
+      "B": "Evitar que el cap d’intervenció assumeixi funcions",
+      "C": "Desplegar sempre totes les funcions disponibles",
+      "D": "Adaptar-se a la dimensió i la complexitat de l’incident"
+    }
+  },
+  {
+    "id": "racord_512ef9e1-6cbc-4176-974b-85d186ddc724",
+    "statement": "Des d’on gestionen la resposta els comandaments de les diferents agències en un comandament integrat?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.2. Comandament integrat\n\nEls comandaments de les diferents agències gestionen la resposta des d’un únic lloc de comandament, el Centre de Comandament Avançat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des de les seves sales operatives respectives sense contacte",
+      "B": "Des del Centre de Comandament Avançat",
+      "C": "Des del parc de bombers més proper",
+      "D": "Des del Centre de Comandament Unificat"
+    }
+  },
+  {
+    "id": "racord_cdc303ef-0eb8-41f8-92ee-3e7f476b21cb",
+    "statement": "Indica quina de les afirmacions següents NO és una característica del comandament únic:",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nEl comandament únic permet establir la màxima responsabilitat de la intervenció en una única persona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Distribueix la màxima responsabilitat entre diversos comandaments",
+      "B": "Concentra la màxima responsabilitat en una única persona",
+      "C": "Estableix un comandament directe i visible al lloc de l’incident",
+      "D": "Permet definir un únic Pla d’Acció per a tot l’operatiu"
+    }
+  },
+  {
+    "id": "racord_4ed0530c-7cdc-4499-b02f-b9fc4b3ad957",
+    "statement": "Quin efecte té la cadena de comandament sobre els esforços operatius?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nAquest principi assegura la concentració dels esforços per a cada objectiu sota la direcció d’un comandament responsable.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Separa les ordres dels informes de situació",
+      "B": "Concentra els esforços per objectiu sota un comandament responsable",
+      "C": "Distribueix cada objectiu entre comandaments independents",
+      "D": "Evita que el comandament controli el personal subordinat"
+    }
+  },
+  {
+    "id": "racord_b995ba78-6ea9-4167-a541-aff42938bb71",
+    "statement": "Quina definició correspon al concepte Grup?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nGrup: Un grup s'organitza entorn d'una maniobra, i està format per diversos equips que realitzen funcions o tasques específiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una subdivisió territorial o funcional de l’incident amb comandament propi",
+      "B": "S’organitza entorn d’una maniobra i està format per diversos equips",
+      "C": "És una entitat que inclou diversos sectors dins una àrea funcional més àmplia",
+      "D": "És el responsable de la presa de decisions estratègiques i de la gestió global"
+    }
+  },
+  {
+    "id": "racord_9a7d15f3-1c44-4a51-a092-1e2914674428",
+    "statement": "Quina utilitat té gestionar els incidents senzills sota els principis del SISCOM?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n2. El SISCOM del cos de Bombers de la Generalitat de Catalunya\n\nGestionar els incidents més senzills sota els principis i l’estructura del SISCOM ens ajuda a perfeccionar i mantenir les habilitats necessàries per desplegar aquest sistema en emergències a gran escala.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir els procediments operatius en emergències a gran escala",
+      "B": "Perfeccionar i mantenir les habilitats necessàries per a grans emergències",
+      "C": "Reduir la necessitat de formar els comandaments",
+      "D": "Evitar l’aplicació del SISCOM en incidents complexos"
+    }
+  },
+  {
+    "id": "racord_8c89e21b-5275-4125-974a-7ffeb403464d",
+    "statement": "Quina funció té el PAI com a instrument de comandament?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.3. El Pla d’Acció de la Intervenció (PAI)\n\nÉs un instrument bàsic per dirigir la intervenció, que li serveix per integrar i orientar els esforços de tots els recursos actuants cap a la resolució de l’incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Definir exclusivament les necessitats de comunicacions",
+      "B": "Dividir l’incident en plans independents sense coordinació",
+      "C": "Substituir la línia de comandament",
+      "D": "Integrar i orientar els esforços dels recursos cap a la resolució"
+    }
+  },
+  {
+    "id": "racord_8299138f-bd99-4ec8-9815-3fe2cfab690e",
+    "statement": "Quin és el principi essencial del SISCOM?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nÉs el principi essencial del SISCOM i permet que tots els esforços s’orientin i coordinin cap a un objectiu comú.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El comandament unificat",
+      "B": "El comandament únic",
+      "C": "El tram de control",
+      "D": "La planificació per tasques"
+    }
+  },
+  {
+    "id": "racord_eb30d3e4-aa4b-4e44-8b71-cbdc179b0228",
+    "statement": "Què ha de permetre la interoperabilitat de les comunicacions?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.2. Comunicacions integrades\n\nLa interoperabilitat amb d’altres organismes, cossos o agrupacions que treballin sota el comandament del cap de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Evitar la coordinació amb cossos externs",
+      "B": "Utilitzar sistemes separats per a cada organisme",
+      "C": "Treballar sense un comandament definit",
+      "D": "Comunicar-se amb altres organismes sota el mateix comandament"
+    }
+  },
+  {
+    "id": "racord_b8fa8d78-85d5-4c8c-932e-7afec3f46be8",
+    "statement": "Quina definició correspon a les instal·lacions de suport al comandament?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n7. Instal·lacions\n\nLes instal·lacions de suport al comandament són aquells recursos físics específics que es despleguen sobre el terreny, a petició del cap d’intervenció, amb la finalitat de complir amb les funcions previstes en el SISCOM i assumir el lideratge de les intervencions dirigides pels Bombers de la Generalitat de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recursos físics desplegats sobre el terreny a petició del cap d’intervenció",
+      "B": "Equips operatius organitzats entorn d’una maniobra",
+      "C": "Sales fixes destinades exclusivament a la recepció de trucades",
+      "D": "Àrees funcionals responsables de la planificació i la logística"
+    }
+  },
+  {
+    "id": "racord_3787b50a-1f62-4d41-b0a5-2290b90a694d",
+    "statement": "Què han de compartir tots els actuants en un comandament integrat?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.2. Comandament integrat\n\nPer tal de garantir que tots els actuants comparteixen un Pla d’Acció per aconseguir el control i la resolució de l’incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un mateix àmbit territorial",
+      "B": "Una única autoritat legal",
+      "C": "Una única sala de control pròpia",
+      "D": "Un Pla d’Acció"
+    }
+  },
+  {
+    "id": "racord_32b28c30-7c86-403c-ad6b-07e731159d75",
+    "statement": "Indica quina actuació és correcta quan no hi ha una terminologia establerta:",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.1. Terminologia comuna\n\nEn el cas que no estigui establerta, és important fugir de l’ús de les sigles i treballar amb un vocabulari senzill que defineixi correctament els conceptes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Crear sigles noves durant la intervenció",
+      "B": "Reduir la comunicació entre agències",
+      "C": "Utilitzar només terminologia tècnica especialitzada",
+      "D": "Evitar sigles i utilitzar un vocabulari senzill"
+    }
+  },
+  {
+    "id": "racord_5a0fce39-fec5-4a01-bad6-e35fa2657f95",
+    "statement": "Qui elabora el PAI?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.3. El Pla d’Acció de la Intervenció (PAI)\n\nEl Pla d’Acció de la Intervenció (PAI) és el pla que elabora el cap d’intervenció (CI).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap d’intervenció",
+      "B": "El responsable de cada sector",
+      "C": "El comandament integrat de cada agència",
+      "D": "El cap de logística"
+    }
+  },
+  {
+    "id": "racord_93a3addd-9424-477d-8f16-ea305fb2178a",
+    "statement": "Quina definició correspon al concepte Maniobra?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nManiobra: Una maniobra és el conjunt coordinat d'accions tàctiques específiques dissenyades per aconseguir els objectius tàctics establerts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el conjunt coordinat d’accions tàctiques específiques per assolir objectius tàctics",
+      "B": "És l’organització més alta de les funcions principals del SISCOM",
+      "C": "És el conjunt de diversos equips organitzats entorn d’una mateixa maniobra",
+      "D": "És l’entitat més bàsica i correspon a un sol recurs"
+    }
+  },
+  {
+    "id": "racord_a5ca009d-2e36-4ec2-9de4-3c97c867f0ff",
+    "statement": "D'acord amb l'organigrama del SISCOM del Cos de Bombers, quina definició correspon a la funció de Comandament?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nComandament: El comandament estableix l’estratègia, els objectius tàctics i les prioritats. Té la responsabilitat general de la gestió de l’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recopila i difon la informació operativa de l’incident",
+      "B": "Dirigeix les operacions sobre el terreny i executa el PAI",
+      "C": "Proporciona instal·lacions, transport, combustible i subministraments",
+      "D": "Estableix l’estratègia, els objectius tàctics i les prioritats"
+    }
+  },
+  {
+    "id": "racord_8154385a-e38b-4dc3-bd5e-eef09d9cb60a",
+    "statement": "En què es basa la cadena de comandament?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nEl principi de la cadena de comandament es basa a crear una línia ordenada d’autoritat dins l’organització de l’incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la distribució aleatòria de responsabilitats",
+      "B": "En la comunicació directa sense nivells jeràrquics",
+      "C": "En una línia ordenada d’autoritat",
+      "D": "En l’autonomia total de cada equip"
+    }
+  },
+  {
+    "id": "racord_4c4d7719-fb2e-4a95-a8dd-977bd79bbbdf",
+    "statement": "Quin problema ajuda a evitar la cadena de comandament?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nEvita la confusió en la comunicació d’ordres i informes de situació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La confusió en les ordres i els informes de situació",
+      "B": "La delegació d’autoritat als comandaments subordinats",
+      "C": "La comunicació directa entre membres del personal",
+      "D": "L’ampliació de l’estructura modular"
+    }
+  },
+  {
+    "id": "racord_936e8735-87b6-4117-8690-99d68692e8c9",
+    "statement": "Quina definició correspon al concepte Sector?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nSector: Un sector és una subdivisió de l'incident que es configura per gestionar àrees geogràfiques o funcions especialitzades. Cada sector té un comandament i pot tenir comunicacions específiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el conjunt d’equips que desenvolupen una maniobra concreta",
+      "B": "És l’organització superior de les funcions d’operacions, planificació i logística",
+      "C": "És una subdivisió de l’incident per gestionar àrees geogràfiques o funcions especialitzades",
+      "D": "És l’entitat més bàsica i correspon a un únic recurs"
+    }
+  },
+  {
+    "id": "racord_93e72ae1-7bae-4f7a-adfe-298d0be0a80b",
+    "statement": "Indica quina de les afirmacions següents NO és una característica de l’estructura modular i escalable:",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.5. Estructura modular i escalable\n\nS’expandeix i es contrau d’una manera flexible, segons l’evolució de l’incident. Requereix que cada funció tingui un responsable i un mateix comandament pot assumir diferents funcions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un mateix comandament pot assumir diferents funcions",
+      "B": "S’expandeix i es contrau segons l’evolució de l’incident",
+      "C": "Obliga a mantenir una estructura fixa durant tota la intervenció",
+      "D": "Cada funció ha de tenir un responsable"
+    }
+  },
+  {
+    "id": "racord_3019bd07-5ba1-490e-adef-06be2560bb62",
+    "statement": "D'acord amb el SISCOM, què és el comandament únic?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nEl comandament únic es defineix com «la concentració en un únic comandament de la responsabilitat i autoritat per planificar, dirigir i coordinar una intervenció».",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La coordinació exclusiva de les comunicacions de la intervenció",
+      "B": "La concentració de la responsabilitat i l’autoritat en un únic comandament",
+      "C": "La distribució de la responsabilitat entre tots els equips actuants",
+      "D": "La delegació automàtica de totes les funcions de comandament"
+    }
+  },
+  {
+    "id": "racord_1e87e2d2-47c2-4abe-a784-e593e71befe1",
+    "statement": "Quan s’ha d’iniciar la delegació d’autoritat als comandaments subordinats?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.4. Planificació per objectius\n\nQuan el comandament no pot exercir un control immediat sobre totes les accions de la seva àrea de responsabilitat, haurà d’iniciar la delegació d’autoritat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan no pot controlar immediatament totes les accions de la seva àrea",
+      "B": "Quan el tram de control és inferior a tres línies",
+      "C": "Quan encara no s’han definit els objectius",
+      "D": "Quan l’incident és senzill i només hi ha una unitat"
+    }
+  },
+  {
+    "id": "racord_85a47e1e-d659-4e40-814f-a2d96675292c",
+    "statement": "D'acord amb l'organigrama del SISCOM del Cos de Bombers, quina definició correspon a la funció de Suport?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nSuport: És el responsable d’assumir l'anàlisi i el suport tècnic o logístic en la intervenció, formant part del dispositiu d'assessorament i suport al comandament en els àmbits de coordinació i operatiu, i es desplega mitjançant les especialitats i el suport logístic. Engloba la planificació i la logística.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Proporciona exclusivament combustible i avituallament",
+      "B": "Assumeix l’anàlisi i el suport tècnic o logístic al comandament",
+      "C": "Estableix l’estratègia general i els objectius tàctics",
+      "D": "Dirigeix els recursos operatius i restaura les condicions de normalitat"
+    }
+  },
+  {
+    "id": "racord_0c2a300d-dbd5-4aa4-9e13-4a8ca8b1382a",
+    "statement": "De quin sistema és una adaptació el SISCOM?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n2. El SISCOM del cos de Bombers de la Generalitat de Catalunya\n\nEl Sistema de Comandament de Bombers (en endavant SISCOM) instaurat a partir del 2010 és l’adaptació de l’ICS per als Bombers de la Generalitat de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CCA",
+      "B": "IADO",
+      "C": "SCB",
+      "D": "ICS"
+    }
+  },
+  {
+    "id": "racord_051a4605-df92-49bb-9ba4-4fd5dd863f32",
+    "statement": "Quina finalitat té l’enviament d’un alt comandament al Centre de Comandament Unificat?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.3. Comandament unificat\n\nS’enviarà un alt comandament al Centre de Comandament Unificat per garantir la coordinació general i la petició unificada de mitjans estatals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir els comandaments presents als sectors",
+      "B": "Assumir totes les funcions del cap d’intervenció sobre el terreny",
+      "C": "Garantir la coordinació general i la petició unificada de mitjans estatals",
+      "D": "Coordinar exclusivament les comunicacions de cada agència"
+    }
+  },
+  {
+    "id": "racord_0375a7dc-4e7a-4529-a78e-f69231537df4",
+    "statement": "Per quin motiu el cap d’intervenció ha de delegar funcions en intervencions complexes?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5. Funcions i posicions\n\nEn intervencions complexes, el cap d’intervenció ha de delegar funcions per mantenir el tram de control de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per assumir directament totes les tasques operatives",
+      "B": "Per substituir el Pla d’Acció de la Intervenció",
+      "C": "Per eliminar la cadena de comandament",
+      "D": "Per mantenir el tram de control de la intervenció"
+    }
+  },
+  {
+    "id": "racord_194bc11a-27fe-43ea-bcd7-c104c024bae7",
+    "statement": "D'acord amb l'organigrama del SISCOM del Cos de Bombers, quina definició correspon a la funció de Logística?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nLogística: És el responsable de donar resposta a totes les necessitats vinculades a l’incident i preveure les necessitats logístiques futures: proporcionar i muntar les instal·lacions, l’avituallament, el transport, els subministraments, el combustible, el manteniment dels equips i la infraestructura de les comunicacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estableix l’estratègia, les prioritats i els objectius tàctics",
+      "B": "Atén les necessitats logístiques presents i futures de l’incident",
+      "C": "Dirigeix les operacions i executa el Pla d’Acció",
+      "D": "Recopila i avalua la informació operativa i prepara el PAI"
+    }
+  },
+  {
+    "id": "racord_a0db9dc3-3e1d-4db9-8e00-4cb526ecf0cd",
+    "statement": "Quina informació ha de transmetre el cap d’intervenció als comandaments del seu equip?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5. Funcions i posicions\n\nHa de ser capaç de transmetre, de forma clara i concisa, la voluntat i les intencions que es volen dur a terme, les tasques clau i l'estat final desitjat als diferents comandaments del seu equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament els missatges destinats als centres de control",
+      "B": "Les intencions, les tasques clau i l’estat final desitjat",
+      "C": "Exclusivament les necessitats logístiques immediates",
+      "D": "Només la relació dels recursos disponibles"
+    }
+  },
+  {
+    "id": "racord_b1ea0178-231d-4581-9608-52441b39062c",
+    "statement": "Com es materialitza la delegació d’autoritat dins la planificació per objectius?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.4. Planificació per objectius\n\nHaurà d’iniciar la delegació d’autoritat als comandaments subordinats a partir de l’assignació d’objectius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant la creació obligatòria d’un comandament unificat",
+      "B": "Mitjançant l’eliminació de la cadena de comandament",
+      "C": "Mitjançant l’assignació d’objectius",
+      "D": "Mitjançant ordres directes a totes les unitats"
+    }
+  },
+  {
+    "id": "racord_0ba3798d-c84f-4381-bb50-b306ba5f1394",
+    "statement": "D'acord amb l'organigrama del SISCOM del Cos de Bombers, quina definició correspon a la funció d’Operacions?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nOperacions: És el responsable de dirigir i supervisar les operacions destinades a establir el control de la situació i restaurar les condicions de normalitat, desenvolupant l'organització sobre el terreny i dirigint els recursos operatius. És qui executa el PAI.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Manté les dades de situació i documenta els mapes de l’incident",
+      "B": "Estableix l’estratègia, els objectius tàctics i les prioritats",
+      "C": "Assumeix l’anàlisi i el suport tècnic o logístic al comandament",
+      "D": "Dirigeix les operacions sobre el terreny i executa el PAI"
+    }
+  },
+  {
+    "id": "racord_6aca9767-08c3-4679-8779-951c1cc710ab",
+    "statement": "Quin element és essencial per al desenvolupament correcte d’una intervenció?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.1. Terminologia comuna\n\nLa capacitat de comunicar-se dins d’una emergència és un element essencial per al desenvolupament correcte de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La proximitat de les instal·lacions",
+      "B": "La durada prevista de l’incident",
+      "C": "La quantitat de recursos disponibles",
+      "D": "La capacitat de comunicar-se"
+    }
+  },
+  {
+    "id": "racord_ee4cdfca-3acc-495b-a97f-a5b8c34bde26",
+    "statement": "Què és el tram de control?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.6. Tram de control\n\nEl tram de control és el nombre de línies de comunicació i supervisió que reporten a cadascuna de les persones amb responsabilitat de gestió en una emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La distància entre el CCA i les unitats operatives",
+      "B": "El nombre de línies de comunicació i supervisió que reporten a un responsable",
+      "C": "El nombre total de recursos presents a la intervenció",
+      "D": "La durada màxima de cada període operatiu"
+    }
+  },
+  {
+    "id": "racord_7ea01dce-022b-479c-925c-a7a07b1881e1",
+    "statement": "Davant de qui és directament responsable una unitat del que porta a terme?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nÉs directament responsable davant del comandament de qui rep les ordres o directrius i a qui informa de l’evolució i els progressos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Davant de la resta d’unitats del sector",
+      "B": "Davant del centre de control territorial",
+      "C": "Davant del seu únic comandament superior",
+      "D": "Davant de qualsevol comandament present"
+    }
+  },
+  {
+    "id": "racord_748fd390-0f72-44cb-935c-4532bc7375f1",
+    "statement": "Quan s’ha d’establir i identificar clarament el cap d’intervenció?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nA les intervencions, des del seu inici, cal establir i identificar de forma clara el cap d’intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des de l’inici de la intervenció",
+      "B": "Quan s’incorpora un comandament superior",
+      "C": "Només en incidents de gran complexitat",
+      "D": "Després de definir totes les maniobres"
+    }
+  },
+  {
+    "id": "racord_93045de7-0bdc-44ec-a738-b2e2286e76c2",
+    "statement": "Com s’ha d’ajustar el tram de control en un incident ràpid o complex?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.6. Tram de control\n\nEn un incident d’evolució ràpida o complex, on la intensitat i la càrrega de treball és alta, cal reduir el tram de control al mínim.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No s’ha de modificar durant la intervenció",
+      "B": "S’ha de reduir al mínim",
+      "C": "S’ha de mantenir sempre entre sis i deu línies",
+      "D": "S’ha d’ampliar al màxim"
+    }
+  },
+  {
+    "id": "racord_7ac75d84-6858-40bd-b5ea-7dfa6dc3d35c",
+    "statement": "Les posicions i l'estructura del SISCOM estan definides per:",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5. Funcions i posicions\n\nLes posicions i l’estructura del SISCOM estan definides a la MAN.COMD.002.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una INT",
+      "B": "Una guia",
+      "C": "Un manual",
+      "D": "Una circular"
+    }
+  },
+  {
+    "id": "racord_f07870fc-829e-41af-ae3c-52ce31257047",
+    "statement": "Què aclareixen conjuntament la cadena i la línia de comandament?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nAquests dos principis aclareixen les relacions de subordinació i les línies de comunicació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La durada dels períodes operatius",
+      "B": "Les relacions de subordinació i les línies de comunicació",
+      "C": "Els criteris de relleu dels recursos",
+      "D": "La ubicació de totes les instal·lacions de suport"
+    }
+  },
+  {
+    "id": "racord_78d9c37f-3d65-40cf-9a2a-dad7b5cd1e22",
+    "statement": "Quina àrea existent a l’ICS no s’ha implementat als Bombers de la Generalitat?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nA l’ICS hi ha una cinquena àrea de finances i administració que no s’ha implementat a Bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Planificació",
+      "B": "Finances i administració",
+      "C": "Operacions",
+      "D": "Logística"
+    }
+  },
+  {
+    "id": "racord_ab17bf9e-87fb-4da3-b6e0-2c6d3b5ececf",
+    "statement": "Quina definició correspon al concepte Zona?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nZona: Una zona és una entitat organitzativa que s'utilitza per gestionar les operacions dins d'una àrea funcional més àmplia. Una zona inclou diversos sectors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la unitat formada per un binomi, un vehicle o un altre recurs únic",
+      "B": "És una entitat organitzativa que inclou diversos sectors dins una àrea funcional més àmplia",
+      "C": "És el conjunt coordinat d’accions tàctiques per aconseguir objectius tàctics",
+      "D": "És una subdivisió de l’incident amb un comandament i comunicacions específiques"
+    }
+  },
+  {
+    "id": "racord_b438ae64-8c38-4873-a3ab-e2b3519938de",
+    "statement": "En què es basa la planificació per objectius?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.4. Planificació per objectius\n\nLa planificació per objectius es basa en establir objectius específics i dirigir els esforços per aconseguir-los.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En desplegar sempre totes les posicions",
+      "B": "En establir objectius específics i dirigir-hi els esforços",
+      "C": "En assignar tasques sense objectius previs",
+      "D": "En reduir l’autoritat dels comandaments subordinats"
+    }
+  },
+  {
+    "id": "racord_38e2876f-6302-4b61-8e1e-4763c227c555",
+    "statement": "Quina necessitat justifica l’establiment d’un comandament unificat?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.3. Comandament unificat\n\nÉs necessari compartir la responsabilitat i la presa de decisions estratègiques entre diferents agències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Compartir responsabilitat i decisions estratègiques",
+      "B": "Substituir el comandament únic en tots els incidents",
+      "C": "Separar els plans d’acció de cada agència",
+      "D": "Reduir el nombre d’objectius tàctics"
+    }
+  },
+  {
+    "id": "racord_0fbb6b06-a5e7-45ab-a3ad-b80cee6885ca",
+    "statement": "Quina diferència defineix millor el comandament unificat respecte del comandament integrat?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.3. Comandament unificat\n\nEn el comandament unificat les diferents agències comparteixen l’autoritat i la presa de decisions estratègiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En l’integrat no existeix un Pla d’Acció compartit",
+      "B": "En l’unificat es comparteixen l’autoritat i les decisions estratègiques",
+      "C": "En l’integrat desapareix l’autoritat pròpia de cada agència",
+      "D": "En l’unificat només participa una agència amb diversos equips"
+    }
+  },
+  {
+    "id": "racord_0d5979c7-b4df-4764-9bf0-0e7592a8193d",
+    "statement": "Què permet establir el comandament únic des de l’inici d'una intervenció?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nEstablir un comandament directe i visible al lloc de l’incident des de l’inici de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un comandament compartit entre totes les agències",
+      "B": "Un centre de comandament unificat en qualsevol incident",
+      "C": "Un comandament directe i visible al lloc de l’incident",
+      "D": "Una estructura completa amb totes les posicions desplegades"
+    }
+  },
+  {
+    "id": "racord_9e6499af-9127-4e59-b292-6caf92477577",
+    "statement": "Quan adquireix una rellevància especial l’ús d’una terminologia comuna durant una intervenció?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.1. Terminologia comuna\n\nQuan en un incident treballem conjuntament amb altres agències, aquest punt té especial rellevància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan treballen conjuntament diverses agències",
+      "B": "Quan només intervé una unitat",
+      "C": "Quan no hi ha comunicacions per ràdio",
+      "D": "Quan l’incident és de baixa complexitat"
+    }
+  },
+  {
+    "id": "racord_0b33b168-565f-46ac-9066-0ef6768dd87b",
+    "statement": "D'acord amb les característiques del SISCOM, quin tram de control es considera habitual en la majoria dels casos?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.6. Tram de control\n\nA la majoria dels casos, el tram de control es manté entre tres i cinc línies de comunicació directes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre sis i deu línies directes",
+      "B": "Més de deu línies directes",
+      "C": "Una única línia directa",
+      "D": "Entre tres i cinc línies directes"
+    }
+  },
+  {
+    "id": "racord_d928c605-05d5-4ad5-932a-7b4aa4ca7a76",
+    "statement": "D'acord amb l'organigrama del SISCOM del Cos de Bombers, quina definició correspon a la funció de Planificació?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nPlanificació: És el responsable de recopilar, avaluar i difondre la informació operativa relacionada amb l'incident. Aquesta àrea manté les dades i la informació sobre la situació actual i la prevista, així com l'estat dels recursos assignats a la intervenció. Prepara i documenta el PAI i els mapes, i recopila i difon la informació sobre l’incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estableix les prioritats i assumeix la gestió general de l’emergència",
+      "B": "Proporciona transport, combustible i manteniment dels equips",
+      "C": "Dirigeix les operacions sobre el terreny i els recursos operatius",
+      "D": "Recopila, avalua i difon la informació i documenta el PAI"
+    }
+  },
+  {
+    "id": "racord_912d75f4-848b-4f81-bb32-5da3d0a1bf47",
+    "statement": "Quina definició correspon al concepte Àrees funcionals?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nÀrees funcionals: És l’organització més alta de les funcions principals (operacions, planificació i logística).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són línies de comunicació i supervisió que reporten a un comandament",
+      "B": "Són l’organització més alta de les funcions principals: operacions, planificació i logística",
+      "C": "Són subdivisions de l’incident destinades a gestionar àrees geogràfiques",
+      "D": "Són agrupacions de diversos equips organitzades al voltant d’una maniobra"
+    }
+  },
+  {
+    "id": "racord_082d9b71-3f9b-498d-9051-059c60abdc8f",
+    "statement": "Qui determina l’estructura del SISCOM que s’ha de desplegar?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.5. Estructura modular i escalable\n\nEl cap d’intervenció és el responsable de determinar l’estructura a desplegar, en funció dels objectius de l’incident i els recursos necessaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El centre de control territorial",
+      "B": "El responsable de cada equip",
+      "C": "El cap d’intervenció",
+      "D": "El comandament de logística"
+    }
+  },
+  {
+    "id": "racord_c35850a2-5365-40f6-859c-adf36ea74a57",
+    "statement": "Què és el Pla d’Acció de la Intervenció?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.3. El Pla d’Acció de la Intervenció (PAI)\n\nEl Pla d’Acció de la Intervenció (PAI) és el pla que elabora el cap d’intervenció per resoldre l’incident, en la seva totalitat o parcialment, assumint el mínim risc possible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pla logístic exclusiu de les emergències complexes",
+      "B": "El document de relleu dels nivells de comandament",
+      "C": "El pla de comunicacions elaborat pel centre de control",
+      "D": "El pla del cap d’intervenció per resoldre l’incident amb el mínim risc"
+    }
+  },
+  {
+    "id": "racord_fcfc8285-bed5-470d-9534-da0330260374",
+    "statement": "D'acord amb les característiques del SISCOM, què significa el concepte «+1/-1» per a cada comandament?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nCada comandament ha de controlar les actuacions del personal sota la seva directa supervisió, a qui dona ordres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rebre ordres de totes les unitats subordinades",
+      "B": "Comunicar-se només amb el cap d’intervenció",
+      "C": "Controlar i donar ordres al personal sota supervisió directa",
+      "D": "Dirigir simultàniament dos nivells superiors"
+    }
+  },
+  {
+    "id": "racord_a856f41a-0474-44c1-a851-2c1bb980cd1f",
+    "statement": "Què significa el concepte «+1/-1» per a cada unitat?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nCada unitat ha de tenir un únic superior jeràrquic definit, a qui reporta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tenir dos comandaments segons la maniobra",
+      "B": "Tenir un únic superior jeràrquic a qui reportar",
+      "C": "Reportar directament a tots els nivells superiors",
+      "D": "Actuar sense dependència jeràrquica definida"
+    }
+  },
+  {
+    "id": "racord_43cfbdcb-f466-44b1-a0c7-b897de74b574",
+    "statement": "Què és el SISCOM dels Bombers de la Generalitat de Catalunya?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n2. El SISCOM del cos de Bombers de la Generalitat de Catalunya\n\nEl SISCOM es defineix com el model organitzatiu dels recursos de resposta a una intervenció integrats en una estructura jeràrquica i comuna, que inclou el personal, els procediments, les instal·lacions i els equipaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sistema de comunicacions destinat exclusivament als comandaments",
+      "B": "El model organitzatiu dels recursos integrats en una estructura jeràrquica i comuna",
+      "C": "Una estructura logística formada únicament per instal·lacions i equipaments",
+      "D": "Un pla d’actuació reservat a les emergències de gran complexitat"
+    }
+  },
+  {
+    "id": "racord_c1c69fa5-257c-4f42-b518-24259f01dd94",
+    "statement": "Quin abast pot tenir el PAI respecte de la resolució de l’incident?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.3. El Pla d’Acció de la Intervenció (PAI)\n\nÉs el pla que elabora el cap d’intervenció per resoldre l’incident, en la seva totalitat o parcialment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només pot abordar-lo en la seva totalitat",
+      "B": "Pot abordar l’incident totalment o parcialment",
+      "C": "Es limita als incidents de baixa complexitat",
+      "D": "Només s’aplica a una maniobra concreta"
+    }
+  },
+  {
+    "id": "racord_396f33dd-6739-4aa5-ada4-1e1835951ff6",
+    "statement": "Quines posicions s’han de desplegar en una intervenció?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.5. Estructura modular i escalable\n\nNomés es despleguen les posicions necessàries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només les posicions de comandament i logística",
+      "B": "Només les posicions necessàries",
+      "C": "Totes les posicions previstes al SISCOM",
+      "D": "Les mateixes posicions en qualsevol incident"
+    }
+  },
+  {
+    "id": "racord_4557d174-6f7c-401c-83ee-8d55e6360f9a",
+    "statement": "En un incident SISCOM 1, qui pot assumir totes les funcions de comandament, operacions, suport, planificació i logística?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nEn incidents quotidians de poca complexitat i fàcils de solucionar (SISCOM 1), totes aquestes funcions poden ser assumides per una sola persona, el cap d’intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap d’intervenció",
+      "B": "El responsable de suport",
+      "C": "El responsable de planificació",
+      "D": "El responsable d’operacions"
+    }
+  },
+  {
+    "id": "racord_7fb1848f-ae59-43d1-b7bb-eaf4646d5298",
+    "statement": "D’acord amb el manual de referència MAN.COMD.001, a partir de quin any es va instaurar el SISCOM?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n2. El SISCOM del cos de Bombers de la Generalitat de Catalunya\n\nEl Sistema de Comandament de Bombers (en endavant SISCOM) instaurat a partir del 2010 és l’adaptació de l’ICS per als Bombers de la Generalitat de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2010",
+      "B": "2015",
+      "C": "2005",
+      "D": "2020"
+    }
+  },
+  {
+    "id": "racord_4075a75f-ef99-42a3-99ac-8b7cd71d39b5",
+    "statement": "Què comparteixen les diferents agències en un comandament unificat?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.3. Comandament unificat\n\nLes diferents agències comparteixen l’autoritat i treballen conjuntament per establir un conjunt comú d’estratègies i objectius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només les comunicacions operatives",
+      "B": "La responsabilitat legal d’una sola agència",
+      "C": "L’autoritat, les estratègies i els objectius",
+      "D": "Únicament els recursos logístics"
+    }
+  },
+  {
+    "id": "racord_f46ccf60-819e-4584-81ab-7b325fb8ef7f",
+    "statement": "Quines funcions queden integrades dins l’àrea de Suport del SISCOM?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n5.1. Funcions i Àrees funcionals\n\nSuport: Engloba la planificació i la logística.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comandament i operacions",
+      "B": "Comandament i logística",
+      "C": "Planificació i logística",
+      "D": "Operacions i planificació"
+    }
+  },
+  {
+    "id": "racord_7d52c831-ebcb-4939-8378-a3626f99085f",
+    "statement": "Quin és l’origen de l’Incident Command System o sistema de comandament d’incidents (ICS)?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n1. Introducció a l’ICS\n\nL'incident Command System o sistema de comandament d’incidents (ICS) va ser desenvolupat a la dècada del 1970 als Estats Units després d'un seguit d'incendis catastròfics a la interfície urbana de Califòrnia. Els estudis van trobar que els fets es devien a una gestió i una coordinació inadequada. Per millorar aquesta coordinació i gestió de l’emergència, es va crear l'ICS.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es va crear durant la Segona Guerra Mundial per coordinar la defensa civil",
+      "B": "Es va crear a Europa als anys noranta després de diverses inundacions",
+      "C": "Es va crear als Estats Units als anys setanta arran d’incendis catastròfics a Califòrnia",
+      "D": "Es va crear a Catalunya l’any 2010 per organitzar els incendis forestals"
+    }
+  },
+  {
+    "id": "racord_b98480d9-20f9-4d1c-97db-d5ae48b860b9",
+    "statement": "Quan s’aplica el comandament integrat?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.2. Comandament integrat\n\nEl comandament integrat s’aplica quan diferents agències operen conjuntament en un mateix incident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan cal sol·licitar mitjans estatals",
+      "B": "Només quan l’emergència afecta territoris limítrofs",
+      "C": "Quan diferents agències operen conjuntament en un mateix incident",
+      "D": "Quan una sola agència intervé en un incident senzill"
+    }
+  },
+  {
+    "id": "racord_285d0955-9fcd-4454-8a09-4123b0a3c043",
+    "statement": "Indica quina afirmació és CERTA sobre el comandament integrat:",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.2. Comandament integrat\n\nPermet a les agències treballar junts de manera eficaç sense afectar l’autoritat, la responsabilitat o la rendició de comptes de cada agència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elimina la necessitat d’un Pla d’Acció compartit",
+      "B": "Obliga totes les agències a renunciar a la seva autoritat legal",
+      "C": "Només és aplicable si totes les agències tenen les mateixes funcions",
+      "D": "Permet cooperar sense alterar l’autoritat ni la responsabilitat de cada agència"
+    }
+  },
+  {
+    "id": "racord_d9f77f47-3da7-47b5-8fe2-48efc4774b28",
+    "statement": "Quina definició correspon al concepte Equip?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nEquip: L’equip és l'entitat més bàsica i es refereix a un sol recurs (un binomi, un vehicle...). L’equip té assignades tasques, que són les accions pràctiques, específiques i concretes que s'han de dur a terme durant l'operació de resposta per implementar les maniobres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el conjunt coordinat d’accions tàctiques específiques per assolir objectius tàctics",
+      "B": "És una subdivisió de l’incident per gestionar àrees geogràfiques o funcions especialitzades",
+      "C": "És l’entitat més bàsica i correspon a un sol recurs, com un binomi o un vehicle",
+      "D": "És l’entitat organitzativa que inclou diversos sectors dins una àrea funcional més àmplia"
+    }
+  },
+  {
+    "id": "racord_01e09983-0b22-4837-a4e3-22458285d9b4",
+    "statement": "Indica quina afirmació és INCORRECTA sobre la cadena de comandament:",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nLa cadena de comandament NO ha d’impedir que el personal pugui comunicar-se directament entre sí, ja sigui per demanar o per compartir informació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ordena les relacions d’autoritat dins l’incident",
+      "B": "Impedeix qualsevol comunicació directa entre membres del personal",
+      "C": "Permet demanar o compartir informació directament",
+      "D": "Ajuda a evitar confusions en ordres i informes"
+    }
+  },
+  {
+    "id": "racord_7b777b60-21cc-4003-a5e6-6a0a22678d73",
+    "statement": "A quins tipus d’incidents permet donar resposta el SISCOM?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n2. El SISCOM del cos de Bombers de la Generalitat de Catalunya\n\nEl SISCOM permet donar resposta a tot tipus d’incidents, des dels més senzills fins als més complexos i de qualsevol tipologia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament als incidents amb diverses agències",
+      "B": "Només als incidents que requereixen un comandament unificat",
+      "C": "Només als incidents forestals de gran complexitat",
+      "D": "A tot tipus d’incidents, des dels més senzills fins als més complexos"
+    }
+  },
+  {
+    "id": "racord_89dce409-fd4b-4de7-850c-5f91f71adf81",
+    "statement": "Quins tipus d’instal·lacions requereix el SISCOM per liderar les intervencions i donar suport al comandament?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n7. Instal·lacions\n\nEl SISCOM requereix de la presència d’instal·lacions fixes (sales de control, parcs de bombers...) i instal·lacions mòbils (unitats de comandament, àrees de treball...) per liderar les intervencions i donar suport al comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Instal·lacions permanents i centres de comandament unificat",
+      "B": "Únicament instal·lacions fixes",
+      "C": "Exclusivament instal·lacions mòbils",
+      "D": "Instal·lacions fixes i instal·lacions mòbils"
+    }
+  },
+  {
+    "id": "racord_edc6a13e-49c3-4928-b63a-9b02bb7e0720",
+    "statement": "Què estableix el principi de la línia de comandament?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nCada equip, maniobra, grup, sector o zona respon davant d’un únic comandament, de qui rep les ordres o directrius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que cada unitat rep ordres de tots els comandaments superiors",
+      "B": "Que cada element respon davant d’un únic comandament",
+      "C": "Que les zones no tenen dependència jeràrquica",
+      "D": "Que els equips poden escollir el comandament de referència"
+    }
+  },
+  {
+    "id": "racord_62065f4a-278c-4d97-9c6e-40bef097d1fb",
+    "statement": "En què es basa el comandament integrat?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.2. Comandament integrat\n\nEs basa en el treball en equip entre elles, sota la direcció del comandament que té assignada la responsabilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la desaparició de les responsabilitats pròpies",
+      "B": "En el treball en equip sota el comandament responsable",
+      "C": "En la distribució independent de decisions entre agències",
+      "D": "En la direcció exclusiva del comandament de cada agència"
+    }
+  },
+  {
+    "id": "racord_9576803e-ef72-49c0-8191-0636a4ba8dd4",
+    "statement": "Quina relació és correcta entre la INT.COMD.000 i la GUI.ORGO.001?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.1. Relleu del comandament\n\nLa INT.COMD.000 estableix el relleu dels nivells de comandament en l’àmbit operatiu, i la GUI.ORGO.001 defineix les pautes d’aquest relleu per als Bombers de la Generalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La instrucció estableix el relleu i la guia en defineix les pautes",
+      "B": "Tots dos documents defineixen exclusivament el comandament unificat",
+      "C": "La instrucció defineix el PAI i la guia regula el tram de control",
+      "D": "La guia estableix els nivells i la instrucció regula les comunicacions"
+    }
+  },
+  {
+    "id": "racord_a48bcbc6-7b06-4979-b585-b49f1fbb25f2",
+    "statement": "Quan es pot instaurar el comandament unificat?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1.3. Comandament unificat\n\nEn els casos de grans emergències amb afectació important de territoris limítrofs en què sigui necessari compartir la responsabilitat i la presa de decisions estratègiques entre diferents agències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan una sola agència conserva tota la responsabilitat",
+      "B": "Només en emergències de baixa complexitat",
+      "C": "En grans emergències que afecten territoris limítrofs",
+      "D": "En qualsevol incident amb dues unitats del mateix cos"
+    }
+  },
+  {
+    "id": "racord_1e6638bb-6816-4de2-89cd-c29b53ee06e8",
+    "statement": "Per què cal mantenir el tram de control tan curt i simple com sigui possible?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.6. Tram de control\n\nSi un comandament és responsable directe d’un nombre massa elevat d���actuacions o àrees de gestió, li serà difícil o impossible prestar prou atenció a cadascuna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè impedeix la comunicació directa entre el personal",
+      "B": "Perquè un excés d’actuacions dificulta supervisar-les adequadament",
+      "C": "Perquè obliga a reduir el nombre total de recursos",
+      "D": "Perquè elimina la necessitat de delegar autoritat"
+    }
+  },
+  {
+    "id": "racord_77b86936-7750-475b-b995-119346492882",
+    "statement": "En quin document estan definides les instal·lacions de suport al comandament?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n7. Instal·lacions\n\nLes instal·lacions de suport al comandament estan definides al MAN.SUPT.001.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "MAN.SUPT.001",
+      "B": "MAN.COMD.002",
+      "C": "INT.COMD.003",
+      "D": "GUI.ORGO.001"
+    }
+  },
+  {
+    "id": "racord_3ea73e19-0607-42ca-8d9c-e90cc00394d3",
+    "statement": "Quin document de comunicacions necessita cada incident?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.2. Comunicacions integrades\n\nDe la mateixa manera que cada incident requereix un Pla d'Acció, també necessita un Pla de comunicacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un Pla de comunicacions",
+      "B": "Un Pla d’evacuació",
+      "C": "Un Pla logístic",
+      "D": "Un Pla de relleu"
+    }
+  },
+  {
+    "id": "racord_2276a60f-f2b8-4dd9-a3d2-ca605566d505",
+    "statement": "Quin mètode és essencial per assegurar la capacitat de comunicació en una intervenció?",
+    "correct": "C",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.1. Terminologia comuna\n\nUn mètode essencial per assegurar la capacitat de comunicar-se és la utilització d’una terminologia comuna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reduir els missatges operatius",
+      "B": "Centralitzar totes les comunicacions",
+      "C": "Utilitzar una terminologia comuna",
+      "D": "Augmentar el nombre de canals"
+    }
+  },
+  {
+    "id": "racord_88222c49-9b0e-4882-b31a-3b58482cb57f",
+    "statement": "Què ha de dirigir cada comandament dins la cadena de comandament?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.2. Cadena i línia de comandament\n\nCada comandament dirigeix únicament els equips, les maniobres, el grup, sector o zona a càrrec seu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només els elements organitzatius que té assignats",
+      "B": "Exclusivament els equips del seu mateix vehicle",
+      "C": "Només les comunicacions entre sectors",
+      "D": "Totes les unitats presents a l’incident"
+    }
+  },
+  {
+    "id": "racord_16e7d6a7-32f0-404b-a1d6-be6d01eb375a",
+    "statement": "Com poden actuar els comandaments en situacions de baixa complexitat?",
+    "correct": "D",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.4. Planificació per objectius\n\nEn situacions de baixa complexitat, els comandaments poden complir les seves responsabilitats dirigint personalment les unitats i participant directament en missions o tasques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assumint únicament funcions logístiques",
+      "B": "Delegant obligatòriament totes les funcions",
+      "C": "Limitant-se a elaborar el pla de comunicacions",
+      "D": "Dirigint personalment les unitats i participant en les tasques"
+    }
+  },
+  {
+    "id": "racord_f356277f-4f2e-4c7f-be4e-c6ff228a5e04",
+    "statement": "Quina definició correspon al concepte Comandament de la Intervenció?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n6. Organització dels recursos de la intervenció\n\nComandament de la Intervenció: És l'entitat més alta dins l'estructura del SISCOM i és el responsable de la presa de decisions estratègiques i de la gestió global de l’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una entitat organitzativa formada per diversos sectors",
+      "B": "És l’entitat més alta del SISCOM i assumeix les decisions estratègiques i la gestió global",
+      "C": "És el conjunt de diversos equips que executen funcions o tasques específiques",
+      "D": "És l’organització més alta de les funcions d’operacions, planificació i logística"
+    }
+  },
+  {
+    "id": "racord_9fa48acf-8f94-4805-b96f-ad2180c5555a",
+    "statement": "Mitjançant quins elements es garanteixen les comunicacions de la intervenció?",
+    "correct": "B",
+    "explanation": "MAN.COMD.001 V2.2025\n\n3.2. Comunicacions integrades\n\nLes comunicacions de la intervenció es garanteixen a través d’un sistema de telecomunicacions, d’un pla de comunicacions i de criteris d’ús unificats i compartits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un únic canal i ordres exclusivament verbals",
+      "B": "Sistema de telecomunicacions, pla i criteris d’ús comuns",
+      "C": "Sistemes independents per a cada unitat",
+      "D": "Només un pla d’acció operatiu"
+    }
+  },
+  {
+    "id": "racord_213e6c34-ba43-4677-8ea3-f14dcae45c0c",
+    "statement": "Qui defineix el Pla d’Acció de la Intervenció i estableix els objectius a assolir?",
+    "correct": "A",
+    "explanation": "MAN.COMD.001 V2.2025\n\n4.1. Comandament únic\n\nEl cap d’intervenció és qui defineix el Pla d’Acció de la Intervenció (PAI) i estableix els objectius a assolir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Comandament operatiu i gestió de l'emergència",
+    "section": "T22 Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap d’intervenció",
+      "B": "El responsable de planificació",
+      "C": "El responsable de logística",
+      "D": "El comandament de cada equip"
+    }
+  }
+]

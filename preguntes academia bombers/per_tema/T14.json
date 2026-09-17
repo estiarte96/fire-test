@@ -1,0 +1,2962 @@
+[
+  {
+    "id": "academia_sim1_q28",
+    "simulacre": "Simulacre 1",
+    "num_pregunta": 28,
+    "statement": "Quina de les següents zones té una latitud de 12° en comptes de 8° a laprojecció UTM?",
+    "correct": "B",
+    "explanation": "Totes les zones tenen 8° de latitudexcepte la X, que té 12°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Z",
+      "B": "La X",
+      "C": "La Y",
+      "D": "La W"
+    }
+  },
+  {
+    "id": "academia_sim1_q58",
+    "simulacre": "Simulacre 1",
+    "num_pregunta": 58,
+    "statement": "Quina afirmació respecte els fusos d'una projecció UTM és falsa?",
+    "correct": "A",
+    "explanation": "La suma de l'amplitud dels graus de tots els fusos és 360° (60×6°).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La suma de l'amplitud dels graus de totsels fusos és 180°",
+      "B": "Els fusos s'enumeren començant per l'antimeridià180°",
+      "C": "En cada fus s'hidefineixen 20 zones",
+      "D": "Elmeridià central de cada fus té una amplitud de 3°"
+    }
+  },
+  {
+    "id": "academia_sim2_q66",
+    "simulacre": "Simulacre 2",
+    "num_pregunta": 66,
+    "statement": "Si en elsistema de coordenades UTM una zona té la lletra \"E\", es trobarà:",
+    "correct": "B",
+    "explanation": "Les zones UTM s'anomenen amb les lletresdes de la\"C\" finsla \"X\",excloent les lletres\"I\"i \"O\" per la seva semblança\namb l'uiel zero. Si una zona téuna lletraigual o posterior a la \"N\", lazona està a l'hemisferinord, mentre que està al sud\nsila seva lletraés anterior a la\"N\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'hemisferiNord",
+      "B": "A l'hemisferiSud",
+      "C": "A l'hemisferiEst",
+      "D": "La lletrad'una zona no defineix l'hemisferialqual pertany"
+    }
+  },
+  {
+    "id": "academia_sim3_q26",
+    "simulacre": "Simulacre 3",
+    "num_pregunta": 26,
+    "statement": "Respecte el punt \"31T 623 4683\" de les coordenades UTM, podem dir que:",
+    "correct": "A",
+    "explanation": "Elpunt es troba a 4683 km de l'Equador, i es trobarà a ladreta delmeridià central del fusperquè laseva UTMx és major\nque 500 (meridià central).Al tenir3 xifres alUTMx i 4 alUTMy, oferiràuna precisió quilomètrica (1 km).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El punt en qüestió es trobarà a ladreta del meridià central del fus",
+      "B": "El punt en qüestió es troba a 623 km de l'Equador",
+      "C": "Ens ofereix una precisió de 100 m",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim4_q6",
+    "simulacre": "Simulacre 4",
+    "num_pregunta": 6,
+    "statement": "Respecte a la projecció UTM, una de les conclusions que traiem de les coordenades \"31T 452 4891\" és que:",
+    "correct": "A",
+    "explanation": "Les UTMx serien el\"452\", que al ser un número menor que 500 significaque es trobarà a lapart de l'esquerra del\nmeridià centraldel fus.\nLes UTMy ens indiquen la posició delpunt respecte l'Equador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El punt que ens indicaestà a 4891 km de l'Equador",
+      "B": "El punt que ens indicaestà a 452 km de l'Equador",
+      "C": "Elpunt es troba a ladretabombersdelmeridiàcentraldelfus",
+      "D": "Cap de lesrespostes és correcta"
+    }
+  },
+  {
+    "id": "academia_sim5_q52",
+    "simulacre": "Simulacre 5",
+    "num_pregunta": 52,
+    "statement": "En la projecció UTM, el fus comprès entre 180°W i174°W és:",
+    "correct": "A",
+    "explanation": "Elsfusos s'enumeren de l'1al60 començant des de l'antimeridiàde Greenwich (180°) cap a l'est.Pertant,d'aquesta\nmanera el fuscomprès entre 180°W i174°W és elprimer.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El primer",
+      "B": "L'últim",
+      "C": "El del mig o fuscentral",
+      "D": "Cap resposta és correcta"
+    }
+  },
+  {
+    "id": "academia_sim6_q65",
+    "simulacre": "Simulacre 6",
+    "num_pregunta": 65,
+    "statement": "Tenim un sistema de politges que ens ofereix un avantatge mecànic de 5. Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 5 metres?",
+    "correct": "A",
+    "explanation": "Longitud corda = (metres desplaçament de la càrrega × AM).\n\n\n 19\nAcadèmia Bombers Simulacre 6",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "25 metres",
+      "B": "10 metres",
+      "C": "20 metres",
+      "D": "5metres"
+    }
+  },
+  {
+    "id": "academia_sim7_q15",
+    "simulacre": "Simulacre 7",
+    "num_pregunta": 15,
+    "statement": "Senyala l'afirmació falsa sobre les coordenades UTM:",
+    "correct": "A",
+    "explanation": "Cada fus equival a 6° de longitud. 8° de latitud.\nBandes = zones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada fus equival a 6°de latitud",
+      "B": "Les coordenades UTM maibombersprenenvalorsnegatius",
+      "C": "El fus comprès entre els0° iels 6°E és elfus número 31",
+      "D": "A cada fus s'hidefineixen20 bandes"
+    }
+  },
+  {
+    "id": "academia_sim7_q85",
+    "simulacre": "Simulacre 7",
+    "num_pregunta": 85,
+    "statement": "Si en un mapa a escala 1:1.000 la distància entre dos edificis és de 4 dm, quina distància realhi haurà entre ells?",
+    "correct": "A",
+    "explanation": "4 dm = 40 cm\nAmb les dades que ens dóna l'enunciat, podem concloure que:\n1/1.000 = 40 /distància\ndistància = 40.000 cm = 400 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "400 metres",
+      "B": "200 metres ",
+      "C": "2.000 metres",
+      "D": "20 metres"
+    }
+  },
+  {
+    "id": "academia_sim8_q78",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 78,
+    "statement": "Sobre cadascun dels fusos de laprojecció UTM, cap a l'hemisferi nord la latitud de l'equador téun valor convencional de __ metres, i cap a l'hemisferi sud té un valor convencional de __ metres.",
+    "correct": "A",
+    "explanation": "A l'hemisferiNord, a partirde l'equador (amb valor 0)pujarem finsels 10.000.000 de metres.\nA l'hemisferiSud, a partirde l'equador (en aquest cas tindrà un valor de 10.000.000 metres) baixarem fins els 0 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "0 metres / 10.000.000 metres acadèmia",
+      "B": "50.000 metres /100.000 metres",
+      "C": "10.000.000 metres / 0metres",
+      "D": "100.000 metres / 50.000 metres"
+    }
+  },
+  {
+    "id": "academia_sim8_q94",
+    "simulacre": "Simulacre 8",
+    "num_pregunta": 94,
+    "statement": "Quina equidistància tindrà un mapa a 1:10.000?",
+    "correct": "D",
+    "explanation": "1:250.000: 100 metres\n1:50.000: 20 metres\n1:25.000: 10 metres\n1:10.000: 5 metres\n1:5.000:5 metres bombers\n\n95.- www.academiabombers.com\nUn cingle és un precipicide caiguda vertical.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 metres",
+      "B": "20 metres acadèmia",
+      "C": "10 metres",
+      "D": "5 metres"
+    }
+  },
+  {
+    "id": "academia_sim9_q52",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 52,
+    "statement": "És la quantitat de calor que s'allibera en el front d'un incendi per unitat de temps i longitud:",
+    "correct": "C",
+    "explanation": "La IntensitatLinealde foc és ellimitadorreal de lacapacitat d'extinciód'unfoc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Propagació",
+      "B": "Cobertura del foc",
+      "C": "IntensitatLineal",
+      "D": "Capacitat difusòria"
+    }
+  },
+  {
+    "id": "academia_sim9_q57",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 57,
+    "statement": "En la rosca següent: M 8×13 DIN 571 g 8.8, a què fa referència el \"DIN 571\"?",
+    "correct": "D",
+    "explanation": "La primera lletraindicael sistema de la rosca, il'element \"8×13\" fa referència a les dimensions (diàmetre × longitud).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'acabat",
+      "B": "Al sistema de la rosca",
+      "C": "A lesdimensions de larosca",
+      "D": "Defineix eltipus de cargol"
+    }
+  },
+  {
+    "id": "academia_sim9_q92",
+    "simulacre": "Simulacre 9",
+    "num_pregunta": 92,
+    "statement": "Sobre cadascun dels fusos de la projecció UTM, i coincidint amb elseu meridià central, és superposada una xarxa plana iortogonal, amb coordenades de longitud mesurables en metres, cap a l'esto cap a l'oest a partir del meridià central del fus que pren el valor convencional de:",
+    "correct": "A",
+    "explanation": "Hemisferinord:\nx= 500.000 m\ny= 0 m\nHemisferisud:\nx= 500.000 m\ny= 10.000.000 m",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "500.000 metres",
+      "B": "10.000.000 metres",
+      "C": "100.000 metres",
+      "D": "50.000 metres "
+    }
+  },
+  {
+    "id": "academia_sim11_q88",
+    "simulacre": "Simulacre 11",
+    "num_pregunta": 88,
+    "statement": "És el nord que assenyala la brúixola. No coincideix amb el nord geogràfic i varia amb el temps.",
+    "correct": "D",
+    "explanation": "Declinació magnètica: angle de diferència entre en NM ielNG. Varia amb el temps.\nNord de la projecció:diferència entre el NG ilaprojecció.\nNord geogràfic: punt on l'eixde rotació sobre el que gira laterra intercepta lasuperfície terrestre,és a dir,elPol Nord. No\nvariaamb el temps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord de laprojecció",
+      "B": "Declinació magnètica",
+      "C": "Nord geogràfic",
+      "D": "Nord magnètic 21 Acadèmia Bombers Simulacre 11"
+    }
+  },
+  {
+    "id": "academia_sim12_q58",
+    "simulacre": "Simulacre 12",
+    "num_pregunta": 58,
+    "statement": "A la projecció UTM, el meridià de Greenwich separa:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els fusos 29 i 30",
+      "B": "Els fusos 30 i 31",
+      "C": "Les zones 29 i30",
+      "D": "Les zones 30 i31"
+    }
+  },
+  {
+    "id": "academia_sim12_q59",
+    "simulacre": "Simulacre 12",
+    "num_pregunta": 59,
+    "statement": "Una llartipus 13A estarà formada per:",
+    "correct": "D",
+    "explanation": "En qualsevol llartipus de tipus sòlid el nombre de capes serà 14. El \"13\" de l'enunciat fa referència al nombre de bigues\nper cada capa ia la longitud (13 dm) de les bigues de fusta disposades en el sentitlongitudinal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tretze capes, amb tretzebigues de 500 milímetres cada una",
+      "B": "Tretze capes, amb catorze bigues de 500 milímetres cada una",
+      "C": "Tretze capes, amb catorze bigues de 300 milímetres cada una",
+      "D": "Catorze capes, amb tretze bigues de 500 milímetres cada una"
+    }
+  },
+  {
+    "id": "academia_sim13_q8",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 8,
+    "statement": "La longitud és: www.academiabombers.com",
+    "correct": "A",
+    "explanation": "Correspon a la coordenada x (font:icgc).\n acadèmia",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La distància entre un punt qualsevol de lasuperfíciede la Terra iun meridià de referència",
+      "B": "La distància entre elsdos pols",
+      "C": "La distànciaentre un punt qualsevol de lasuperfíciede la Terra il’equador",
+      "D": "L'angle que forma un punt qualsevol amb elparal·lelde referència 20 Acadèmia Bombers Simulacre 13"
+    }
+  },
+  {
+    "id": "academia_sim13_q30",
+    "simulacre": "Simulacre 13",
+    "num_pregunta": 30,
+    "statement": "El vent que procedeix d'un rumb de 315° rep elnom de:",
+    "correct": "A",
+    "explanation": "ElMestral procedeix del Nord Oest.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mestral",
+      "B": "Gregal acadèmia",
+      "C": "Garbí",
+      "D": "Tramuntana"
+    }
+  },
+  {
+    "id": "academia_sim14_q20",
+    "simulacre": "Simulacre 14",
+    "num_pregunta": 20,
+    "statement": "La longitud, en el seu eix major, nord-sud, del Llac de Banyoles és de:",
+    "correct": "C",
+    "explanation": "La seva profunditat màxima és de 40 metres ila mitjana,de 15.Té una capacitat de 17 hm³ iuna superfíciede 1,18 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.115 metres",
+      "B": "3.451 metres",
+      "C": "2.150 metres",
+      "D": "9.225 metres"
+    }
+  },
+  {
+    "id": "academia_sim14_q38",
+    "simulacre": "Simulacre 14",
+    "num_pregunta": 38,
+    "statement": "En el sistema de coordenades UTM, dins de cada fus: (senyala la incorrecta)",
+    "correct": "C",
+    "explanation": "Elmeridià central delfus té un valorde 500 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les ordenades (Y) es mesuren a partirde l'equador",
+      "B": "Les abscisses (X) es medeixen a partirdelmeridià central delfus",
+      "C": "Elmeridià central delfus té un valoracadèmiade10.000km",
+      "D": "Cada zona UTM téuna amplada de 8°, menys la última"
+    }
+  },
+  {
+    "id": "academia_sim15_q52",
+    "simulacre": "Simulacre 15",
+    "num_pregunta": 52,
+    "statement": "Quina és lazona UTM que, de forma excepcional, se liassignaran 12° de latitud?",
+    "correct": "B",
+    "explanation": "La resta de zones o bandes tindrà8° de latitud.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La zona W",
+      "B": "La zona X",
+      "C": "La zona Y",
+      "D": "La zona Z"
+    }
+  },
+  {
+    "id": "academia_sim16_q69",
+    "simulacre": "Simulacre 16",
+    "num_pregunta": 69,
+    "statement": "Com s'anomena la diferència angular entre el nord geogràfic iel nord de laquadrícula?",
+    "correct": "A",
+    "explanation": "Declinació magnètica: angle de diferència entre en NM ielNG. Varia amb eltemps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Convergència de la quadrícula",
+      "B": "Declinació magnètica ",
+      "C": "Desviació atípica",
+      "D": "No existeixcap nom concretper aquest fenomen"
+    }
+  },
+  {
+    "id": "academia_sim18_q38",
+    "simulacre": "Simulacre 18",
+    "num_pregunta": 38,
+    "statement": "Si en elsistema de coordenades UTM una zona té la lletra\"D\", significarà que:",
+    "correct": "B",
+    "explanation": "Siuna zona téuna lletraigualo posterioracadèmiaala\"N\",lazonaestàal'hemisferinord,mentre que està alsud silaseva lletra\nés anteriora la \"N\".\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 18",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a l'hemisferiNord",
+      "B": "Pertany a l'hemisferiSud acadèmia",
+      "C": "Hi haurà un error",
+      "D": "Pertany al'hemisferiOest"
+    }
+  },
+  {
+    "id": "academia_sim18_q74",
+    "simulacre": "Simulacre 18",
+    "num_pregunta": 74,
+    "statement": "Quina equidistància tindrà un mapa a escala 1:50.000?",
+    "correct": "B",
+    "explanation": "1:250.000: 100 metres.\n1:50.000: 20 metres.\n1:25.000: 10 metres.\n1:10.000: 5 metres.\n1:5.000: 5 metres.\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 18",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 metres",
+      "B": "20 metres",
+      "C": "10 metres",
+      "D": "5 metres"
+    }
+  },
+  {
+    "id": "academia_sim19_q40",
+    "simulacre": "Simulacre 19",
+    "num_pregunta": 40,
+    "statement": "Quina mesura té cada quadrícula d'una projecció UTM siestà composta per dues lletres?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 × 10 km",
+      "B": "100 × 100 km",
+      "C": "1.000 × 1.000 km",
+      "D": "10.000 × 10.000 km 19 Acadèmia Bombers Simulacre 19"
+    }
+  },
+  {
+    "id": "academia_sim19_q41",
+    "simulacre": "Simulacre 19",
+    "num_pregunta": 41,
+    "statement": "Quin riu neix al voltant de Santa Coloma de Queralt, téuna longitud de 65 km iuna conca allargada de nord a sud de 424 km² de superfície?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Gaià",
+      "B": "El Francolí",
+      "C": "El Foix",
+      "D": "El Segre"
+    }
+  },
+  {
+    "id": "academia_sim19_q67",
+    "simulacre": "Simulacre 19",
+    "num_pregunta": 67,
+    "statement": "Si disposem de 6 xifres de la \"X\" i7 xifres de la\"Y\" en coordenades UTM, tindrem una precisió de:",
+    "correct": "A",
+    "explanation": "3X 4Y: 1 km.\n4X 5Y: 100 m.\n5X 6Y: 10 m.\n6X 7Y: 1 m.\n\n\n\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 19",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 metre",
+      "B": "10 metres",
+      "C": "100 metres",
+      "D": "1 kilòmetre"
+    }
+  },
+  {
+    "id": "academia_sim20_q92",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 92,
+    "statement": "Quin dels següents atributs sobre la projecció UTM (Universal Transverse Mercator) no és certa?",
+    "correct": "D",
+    "explanation": "Les projeccionsconformes o ortomòrfiques conserven les formes (conforme = ortomòrfica).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una projecció cilíndrica",
+      "B": "És una projecció conforme",
+      "C": "És una projecció ortomòrfica",
+      "D": "Totes són certes"
+    }
+  },
+  {
+    "id": "academia_sim20_q94",
+    "simulacre": "Simulacre 20",
+    "num_pregunta": 94,
+    "statement": "Si en el sistema de coordenades UTM una zona té la lletra \"P\", es trobarà:",
+    "correct": "A",
+    "explanation": "Les zones UTM s'anomenen amb les lletresdesde la \"C\"finsla \"X\",excloentles lletres\"I\"i\"O\"per laseva semblança\namb l'uielzero. Siuna zona téuna lletraigualoposteriora la\"N\",la zona està al'hemisferinord,mentre que estàal sud\nsilaseva lletraésanteriora la\"N\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'hemisferiNord",
+      "B": "A l'hemisferiSud",
+      "C": "A l'hemisferiOest acadèmia",
+      "D": "La lletrad'unazona no defineixl'hemisferial qual pertany"
+    }
+  },
+  {
+    "id": "academia_sim21_q29",
+    "simulacre": "Simulacre 21",
+    "num_pregunta": 29,
+    "statement": "Quines zones separa el meridià de Greenwich a la projecció UTM?",
+    "correct": "C",
+    "explanation": "Separa els fusos 30 i31.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les zones 29 i30 ",
+      "B": "Les zones 180 i181",
+      "C": "No separa zones, separa fusos",
+      "D": "Les zones 30 i31"
+    }
+  },
+  {
+    "id": "academia_sim22_q83",
+    "simulacre": "Simulacre 22",
+    "num_pregunta": 83,
+    "statement": "La projecció UTM, Universal Transversal de Mercator, és de tipus:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cilíndricaiconforme",
+      "B": "Azimutal iequidistant acadèmia",
+      "C": "Cònica iconforme",
+      "D": "Cilíndricaiequivalent"
+    }
+  },
+  {
+    "id": "academia_sim23_q86",
+    "simulacre": "Simulacre 23",
+    "num_pregunta": 86,
+    "statement": "Quina projecció cartogràfica manté l'escala invariable sobre algunes determinades direccions del mapa?",
+    "correct": "A",
+    "explanation": "En les projeccions equidistants, la qualitat d'equidistància no pot ser absolutament mai mantinguda en latotalitatdel\nmapa: això suposaria una completa absència d'alteracions dimensionals, cosa del tot impossible en passar d'una\nsuperfície esferoïdal a una de plana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La projeccióequidistant",
+      "B": "La projeccióconforme",
+      "C": "La projecció equivalent",
+      "D": "La projecció azimutal"
+    }
+  },
+  {
+    "id": "academia_sim25_q33",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 33,
+    "statement": "Amb quina mesura de longitud s'expressarà el diàmetre exterior d'una rosca Whitworth?",
+    "correct": "D",
+    "explanation": "Això es deu a que va seradoptada per l'institutd'enginyerscivilsd'Anglaterra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En iardes ",
+      "B": "En mil·límetres",
+      "C": "En centímetres",
+      "D": "En polzades"
+    }
+  },
+  {
+    "id": "academia_sim25_q83",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 83,
+    "statement": "Quants nombres hem de teniracadèmiaalaYialaXper tenir una precisió kilomètrica en una projecció UTM?",
+    "correct": "D",
+    "explanation": "Kilomètrica:4Y 3X\nHectomètrica: 5Y 4X\nDecamètrica: 6Y 5X\nMètrica:7Y 6X\n ",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "3 i4 respectivament",
+      "B": "4 i5 respectivament",
+      "C": "5i 4respectivament",
+      "D": "4i 3respectivament bombers"
+    }
+  },
+  {
+    "id": "academia_sim25_q84",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 84,
+    "statement": "Si representem una taula de 2 metres de llargada a escala 1:100, el dibuix resultant:",
+    "correct": "B",
+    "explanation": "2metres x (1/100) = 2/100 = 0,02 m = 2 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Medirà 20 centímetres www.academiabombers.com",
+      "B": "Medirà 2 centímetres",
+      "C": "Medirà 5 centímetres",
+      "D": "Medirà 50 centímetres 23 Acadèmia Bombers Simulacre 25"
+    }
+  },
+  {
+    "id": "academia_sim25_q85",
+    "simulacre": "Simulacre 25",
+    "num_pregunta": 85,
+    "statement": "És ladirecció que assenyala l'agulla imantada d'una brúixola:",
+    "correct": "A",
+    "explanation": "Declinació magnètica: angle de diferènciaentre en NM i elNG. Varia amb eltemps.\nNord de la projecció:diferènciaentre el NG ilaprojecció.\nNord geogràfic: punt on l'eixde rotacióacadèmiasobreelquegiralaterrainterceptalasuperfícieterrestre,ésadir,elPol Nord. No\nvariaamb el temps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord magnètic",
+      "B": "Declinació magnètica",
+      "C": "Nord geogràfic",
+      "D": "Nord dela projecció"
+    }
+  },
+  {
+    "id": "academia_sim26_q85",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 85,
+    "statement": "Quan mesura en un plànol 1:50.000 un carrer que téuna longitud de 500 metres?",
+    "correct": "A",
+    "explanation": "500 metres = 50.000 cm.\n50.000/50.000 = 1 cm",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 cm",
+      "B": "1 metre ",
+      "C": "10 cm",
+      "D": "0,1 cm"
+    }
+  },
+  {
+    "id": "academia_sim26_q86",
+    "simulacre": "Simulacre 26",
+    "num_pregunta": 86,
+    "statement": "És una característica de la projecció Transversa de Mercator:",
+    "correct": "C",
+    "explanation": "La projecció transversa de Mercator distorsiona molt l'àrea.\nCobreix el globus, des de 84° N finsa 80° S.\nEls fusos de la projecció UTM (des de l'1finsal 60) es divideixen latitudinalment en 20 filesdesignades per lletres(de la\nC a laX, sense la Ini laO per a evitar confusions).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els seus fusos es divideixenlatitudinalmenten60 files",
+      "B": "Conserva lesàrees",
+      "C": "El meridià de Greenwich separa elsfusos 30 i31",
+      "D": "Cobreix el globus,des de 80° N finsacadèmiaa84°S"
+    }
+  },
+  {
+    "id": "academia_sim27_q62",
+    "simulacre": "Simulacre 27",
+    "num_pregunta": 62,
+    "statement": "En una projecció UTM, quin significat té el \"548929\" de la coordenada \"29T 548929 4801142\"?",
+    "correct": "B",
+    "explanation": "29:zona UTM.\nT:banda UTM.\n548929: distància en metres a l'Est.\n4801142: distància en metres al Nord.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La banda UTM",
+      "B": "La distància en metres a l'Est",
+      "C": "La zona UTM bombers",
+      "D": "La distància en metres al Nord"
+    }
+  },
+  {
+    "id": "academia_sim28_q86",
+    "simulacre": "Simulacre 28",
+    "num_pregunta": 86,
+    "statement": "Si representem un armari de 3 metres de llargada a escala 1:1.000, quant medirà eldibuix resultant?",
+    "correct": "B",
+    "explanation": "3metres x (1/1.000)= 3/1.000 = 0,003 m = 3 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Medirà 3 decàmetres",
+      "B": "Medirà 3 mil·límetres",
+      "C": "Medirà 3centímetres",
+      "D": "Medirà 30 centímetres"
+    }
+  },
+  {
+    "id": "academia_sim29_q35",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 35,
+    "statement": "En el sistema de coordenades UTM, si ettrobes en la posició X: 600.000 iY: 3.200.000, i et mous 2.000 m cap a l'Oest i 100 metres cap al Sud, quina és lateva posició final?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "X: 602.000 Y:3.199.900",
+      "B": "X: 598.000 Y:3.199.900",
+      "C": "X: 598.000 Y: 3.200.100",
+      "D": "X: 602.000 Y: 3.200.100"
+    }
+  },
+  {
+    "id": "academia_sim29_q36",
+    "simulacre": "Simulacre 29",
+    "num_pregunta": 36,
+    "statement": "Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 4 metres en un sistema de politges que ens aporta avantatge mecànic de 3?",
+    "correct": "A",
+    "explanation": "Longitud corda = (metres desplaçament de la càrrega × AM) = 4 m × 3 AM = 12 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 metres",
+      "B": "81 metres",
+      "C": "64 metres",
+      "D": "5 metres"
+    }
+  },
+  {
+    "id": "academia_sim30_q85",
+    "simulacre": "Simulacre 30",
+    "num_pregunta": 85,
+    "statement": "Quants nombres hem de tenir a laY i a laX per tenir una precisió mètrica en una projecció UTM?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "7 i6 respectivament",
+      "B": "4 i5 respectivament ",
+      "C": "5 i4 respectivament",
+      "D": "6 i5 respectivament"
+    }
+  },
+  {
+    "id": "academia_sim31_q10",
+    "simulacre": "Simulacre 31",
+    "num_pregunta": 10,
+    "statement": "Quin nom té elvent que procedeix d'un rumb de 315°?",
+    "correct": "D",
+    "explanation": "ElMestral procedeix del Nord Oest.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tramuntana",
+      "B": "Gregal",
+      "C": "Garbí",
+      "D": "Mestral"
+    }
+  },
+  {
+    "id": "academia_sim31_q23",
+    "simulacre": "Simulacre 31",
+    "num_pregunta": 23,
+    "statement": "A quin ritme comprimirem el pit durant les compressions toràciques del Suport Vital Bàsic?",
+    "correct": "A",
+    "explanation": "Guier ERC -pàgina 12\n\n24.- bombers\nSegueix una orientació general de nord-est cap alsud-oest, i téuna longitud de 580 km.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 31",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A un ritmede 100-120 compressions per minut",
+      "B": "A un ritmede 120-140 compressionsbombersperminut",
+      "C": "A un ritme de 80-100 compressions per minut",
+      "D": "A un ritme de 60-80 compressions perwww.academiabombers.comminut"
+    }
+  },
+  {
+    "id": "academia_sim31_q74",
+    "simulacre": "Simulacre 31",
+    "num_pregunta": 74,
+    "statement": "Respecte a la projecció UTM, una de les conclusions que traiem de les coordenades \"31T 452 6253\" és que:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El punt que ens indicaestà a 6263 km delMeridià de Greenwich",
+      "B": "El punt que ens indicaestà a 452 km de l'Equador",
+      "C": "Elpunt es troba a ladreta del meridià centraldel fus",
+      "D": "Cap de lesrespostes és correcta"
+    }
+  },
+  {
+    "id": "academia_sim32_q18",
+    "simulacre": "Simulacre 32",
+    "num_pregunta": 18,
+    "statement": "Quina latitud té lazona X a la projecció UTM?",
+    "correct": "B",
+    "explanation": "Totes leszones tenen 8°de latitudexcepte la X,que té12°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8°",
+      "B": "12°",
+      "C": "6°",
+      "D": "3º"
+    }
+  },
+  {
+    "id": "academia_sim32_q81",
+    "simulacre": "Simulacre 32",
+    "num_pregunta": 81,
+    "statement": "Al capvespre, un arbre projecta una ombra de 2,5 metres de longitud. Si ladistància des de la part més alta de l'arbre a l'extrem més allunyat de l'ombra és de 4 metres, quina és l'alçada de l'arbre?",
+    "correct": "D",
+    "explanation": "h²= a²+ b²\n4²= a²+ 2,5²\n16= a² + 6,25\na²= 9,75\n√a²= √9,75\na= 3,12 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6,25 metres",
+      "B": "2 metres",
+      "C": "9,76 metres",
+      "D": "3,12 metres"
+    }
+  },
+  {
+    "id": "academia_sim33_q15",
+    "simulacre": "Simulacre 33",
+    "num_pregunta": 15,
+    "statement": "En una projecció UTM, donat un punt amb les coordenades X=457 Y=7234, podem dir que:",
+    "correct": "C",
+    "explanation": "Per trobar elpunt exacte, a banda de lacoordenada, s'hauriad'indicar elfus il'hemisferi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a l'hemisferisud bombers",
+      "B": "Pertany alfus 45",
+      "C": "No podem saber a l'hemisferique fanreferència",
+      "D": "Elformat de lacoordenada és errònia,www.academiabombers.comlaXhauriadetenircincxifres"
+    }
+  },
+  {
+    "id": "academia_sim33_q94",
+    "simulacre": "Simulacre 33",
+    "num_pregunta": 94,
+    "statement": "En una projecció UTM, donades les coordenades X=249 Y=5167:",
+    "correct": "D",
+    "explanation": "Un percada fusihemisferi(60× 2 =120punts diferents).\n\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 20",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Podrem situar-neun solpunt, amb una precisió kilomètrica",
+      "B": "Sabrem que les compleixen 60 punts diferents",
+      "C": "Podrem situar-ne un solpunt, amb una precisió decamètrica",
+      "D": "Sabrem que lescompleixenbombers120puntsdiferents"
+    }
+  },
+  {
+    "id": "academia_sim36_q4",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 4,
+    "statement": "Quina serà la distància del terreny en metres sien un mapa a escala 1:100.000 mesurem una distància de 10 dm?",
+    "correct": "C",
+    "explanation": "10 dm = 100 cm = 1 m.\n1 m en elmapa × 100.000 = 100.000 m a la realitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 m",
+      "B": "10.000 m",
+      "C": "100.000 m",
+      "D": "1.000.000 m"
+    }
+  },
+  {
+    "id": "academia_sim36_q15",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 15,
+    "statement": "En cartografia, què voldrà dir que les corbes de nivell tendeixin a juntar-se les unes amb les altres? www.academiabombers.com",
+    "correct": "C",
+    "explanation": "Generalment lapressió atmosfèrica disminueix a mesura que augmenta l'altura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que augmenta lapressió atmosfèrica",
+      "B": "Que elpendent decreix",
+      "C": "Que creixel pendent",
+      "D": "Les respostes a) ic)són correctes"
+    }
+  },
+  {
+    "id": "academia_sim36_q21",
+    "simulacre": "Simulacre 36",
+    "num_pregunta": 21,
+    "statement": "La costa de Catalunya téuna longitud de:",
+    "correct": "C",
+    "explanation": "La proporcióde kilòmetres quadrats de superfície perquilòmetre de costa és a Catalunya de 55 km²/km, la qualcosa\nrepresenta disposar d’una àmplia façana marítima. D’altrabanda, existeixuna fortadensitat linealde població,\ncorresponent per alconjunt de Catalunya més de 10.000 habitantsper quilòmetre de costa.\nFonst:GENCAT.\n\n22.- \n100 kg = 1.000 N\nF× d1 = R ×d2\nF× 150 = 1.000 × 30\nF= 30.000/150 = 200 Newtons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "460 km",
+      "B": "230 km ",
+      "C": "580 km",
+      "D": "320 km"
+    }
+  },
+  {
+    "id": "academia_sim37_q17",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 17,
+    "statement": "Quina precisió oferiran unes coordenades UTM amb dues xifres per la \"X\" itres per la \"Y\"?",
+    "correct": "C",
+    "explanation": "Una xifraper la\"X\" idues xifres per la \"Y\" oferirien una precisió de 100 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quilomètrica",
+      "B": "De 100 km",
+      "C": "De 10 km",
+      "D": "De 100 m"
+    }
+  },
+  {
+    "id": "academia_sim37_q43",
+    "simulacre": "Simulacre 37",
+    "num_pregunta": 43,
+    "statement": "Com s'anomena elnou datum que adopta Europa l'any 2007 com a nou sistema de referència geogràfica oficial?",
+    "correct": "A",
+    "explanation": "Aquest datum geodèsic és compatible amb elsmoderns sistemes de navegació per satèl·litGPS, GLONASS il'europeu\nGALILEU.\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 37",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ETRS89",
+      "B": "WGS84",
+      "C": "ED75",
+      "D": "DATUM73"
+    }
+  },
+  {
+    "id": "academia_sim38_q78",
+    "simulacre": "Simulacre 38",
+    "num_pregunta": 78,
+    "statement": "El vent que procedeix d'un rumb de 90° rep el nom de:",
+    "correct": "B",
+    "explanation": "Garbí (Llebeig): 225°\nXaloc: 135°\nMigjorn: 180°",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Migjorn",
+      "B": "Llevant",
+      "C": "Xaloc",
+      "D": "Garbí"
+    }
+  },
+  {
+    "id": "academia_sim39_q81",
+    "simulacre": "Simulacre 39",
+    "num_pregunta": 81,
+    "statement": "La mèdul·la espinal:",
+    "correct": "D",
+    "explanation": "Mesura uns 45 cm de longitud ipresenta un engruiximent a lapart superior iun altrea lapart baixa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Forma partdel sistema nerviós",
+      "B": "És un cilindreallargat,de colorblanc, que s’estén des de labase delcrani finsa la zona lumbar",
+      "C": "Es troba continguda en elconducte format per lacolumna vertebral",
+      "D": "Totes lesrespostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim40_q54",
+    "simulacre": "Simulacre 40",
+    "num_pregunta": 54,
+    "statement": "Quan mesura en un plànolacadèmia1:10.000untrenqueté una longitud de 50 metres?",
+    "correct": "D",
+    "explanation": "50 metres = 5.000 cm.\n10.000/5.000 = 2 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5 cm",
+      "B": "50 cm",
+      "C": "20 cm",
+      "D": "2 cm"
+    }
+  },
+  {
+    "id": "academia_sim40_q66",
+    "simulacre": "Simulacre 40",
+    "num_pregunta": 66,
+    "statement": "Quin pas oferirà la següent rosca mètrica: \"M24 x 3 x 60\" ?",
+    "correct": "D",
+    "explanation": "M24 x 3 x 60\nLa M significa rosca mètrica, 24 significa elvalor del diàmetre exterior en mm, 3 significael pas en mm i 60 significa la\nlongitud de larosca en mm.\nElpas és ladistància entre dos punts homòlegs d'una rosca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 mm",
+      "B": "3 cm",
+      "C": "60 mm",
+      "D": "3 mm"
+    }
+  },
+  {
+    "id": "academia_sim41_q82",
+    "simulacre": "Simulacre 41",
+    "num_pregunta": 82,
+    "statement": "Quants nombres hem de tenir a laY ia la X per tenir una precisió mètrica en una projecció UTM?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5 i4 respectivament",
+      "B": "8 i7 respectivament",
+      "C": "7 i6 respectivament",
+      "D": "6 i5 respectivament"
+    }
+  },
+  {
+    "id": "academia_sim42_q71",
+    "simulacre": "Simulacre 42",
+    "num_pregunta": 71,
+    "statement": "En cartografia, una corba de nivell (senyala la resposta incorrecta):",
+    "correct": "C",
+    "explanation": "És una isopletad'altitud,també anomenada isohipsa, és a dir,líniaimaginària de representació del relleuresultat de la\nintersecció de lasuperfície territorialamb un pla horitzontalsituat a una altitudpreestablerta.\nSiestà molt separada de lescorbes contigues indica lapresència d'un pendent molt suau.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Uneix els punts d’igual altituden elterritori",
+      "B": "També rep el nom d'isohipsa",
+      "C": "Siestà molt separada de les corbes contigues indica lapresència d'un pendent molt pronunciat",
+      "D": "S'anomena isòbata quan es refereix alfons marí"
+    }
+  },
+  {
+    "id": "academia_sim42_q74",
+    "simulacre": "Simulacre 42",
+    "num_pregunta": 74,
+    "statement": "Quina serà lalongitud màxima de les BIE de mànega plana?",
+    "correct": "A",
+    "explanation": "Longitud màxima BIE semirígida: 30acadèmiam.\nLongitud màxima BIE d'altapressió: 30 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20 metres",
+      "B": "30 metres",
+      "C": "15 metres",
+      "D": "Les BIE tenen longitud mínima, no màxima"
+    }
+  },
+  {
+    "id": "academia_sim43_q18",
+    "simulacre": "Simulacre 43",
+    "num_pregunta": 18,
+    "statement": "En cartografia ens podem referir a l'escala textual com a:",
+    "correct": "D",
+    "explanation": "L'escala textualo d'equivalències indica la relacióentre el mapa ilarealitata partird'un text.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Escala numèrica",
+      "B": "Escala gràfica",
+      "C": "Escala mitjana",
+      "D": "Escala d'equivalències"
+    }
+  },
+  {
+    "id": "academia_sim44_q42",
+    "simulacre": "Simulacre 44",
+    "num_pregunta": 42,
+    "statement": "Segons la UNE-EN 771-1, què defineix el el gruix d'un maó?",
+    "correct": "C",
+    "explanation": "Llarg:longitud\nTravés: amplada\nGruix:altura",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La longitud",
+      "B": "L'amplada",
+      "C": "L'alçada",
+      "D": "Elvolum"
+    }
+  },
+  {
+    "id": "academia_sim44_q53",
+    "simulacre": "Simulacre 44",
+    "num_pregunta": 53,
+    "statement": "Quina qualitat presenta una projecció conforme?",
+    "correct": "B",
+    "explanation": "Projecció equivalent: projecció cartogràfica dotada de laqualitat de l'equivalència, de manera que manté intacta la\nproporcionalitat entre els valors de les magnituds superficials de les àrees que hi són representades respecte a les del\nterritori.\nProjecció afilàctica:projecció cartogràfica,generalment destinada per a resoldre planisferis que, sense mantenir cap de\nlesqualitats matemàtiques de conformitat, d'equivalència nid'equidistància, ofereix una solució compensada o de\ncompromís entre totes aquelles qualitats incompatibles, per tal de resultar acceptable des del punt de vista d'una\naproximació merament perceptiva o didàctica.\nProjecció equidistant: projecció cartogràfica dotada de la qualitat de l'equidistància, de manera que manté l'escala\ninvariable sobre algunes determinades direccions del mapa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No manté cap de lesqualitats matemàtiques de conformitat, d'equivalència ni d'equidistància",
+      "B": "Conserva constants lesformes en elmapa, amb els mateixos valors angulars que els mesurats en el corresponent territorirepresentat",
+      "C": "Manté intactala proporcionalitatentre els valors de lesmagnituds superficialsde les àrees que hisón representades respecte a les delterritori",
+      "D": "Manté l'escalainvariable sobre algunes determinades direccions delmapa"
+    }
+  },
+  {
+    "id": "academia_sim46_q3",
+    "simulacre": "Simulacre 46",
+    "num_pregunta": 3,
+    "statement": "Si en el sistema de coordenades UTM una zona té la lletra \"K\", es trobarà:",
+    "correct": "B",
+    "explanation": "Les zones UTM s'anomenen amb leslletres des de la \"C\" fins la\"X\", excloent les lletres\"I\"i \"O\" per la seva semblança\namb l'uiel zero. Si una zona té una lletraigual o posterior a la\"N\", la zona està a l'hemisferinord, mentre que està alsud\nsila seva lletraés anterior a la \"N\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'hemisferiNord",
+      "B": "A l'hemisferiSud",
+      "C": "A l'hemisferiEst",
+      "D": "La lletrad'una zona no defineix l'hemisferialqual pertany"
+    }
+  },
+  {
+    "id": "academia_sim46_q32",
+    "simulacre": "Simulacre 46",
+    "num_pregunta": 32,
+    "statement": "Què defineix el el gruix d'un maó?",
+    "correct": "C",
+    "explanation": "Llarg:longitud\nTravés: amplada\nGruix:altura\nUNE-EN 771-1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La longitud",
+      "B": "L'amplada",
+      "C": "L'alçada",
+      "D": "Elvolum 24 Acadèmia Bombers Simulacre 46"
+    }
+  },
+  {
+    "id": "academia_sim47_q52",
+    "simulacre": "Simulacre 47",
+    "num_pregunta": 52,
+    "statement": "Si en el sistema de coordenades UTM una zona té lalletra \"Q\", es trobarà:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'hemisferiNord",
+      "B": "A l'hemisferiSud",
+      "C": "A l'hemisferiOest",
+      "D": "La lletrad'unazona no defineixl'hemisferialqual pertany"
+    }
+  },
+  {
+    "id": "academia_sim48_q56",
+    "simulacre": "Simulacre 48",
+    "num_pregunta": 56,
+    "statement": "La sobrepressió del cop d’ariet, d'acord amb la fórmula de Michaud:",
+    "correct": "A",
+    "explanation": "Segons lafórmula de Michaud, la sobrepressió del cop d’arietés directament proporcional a la longitud del conducte i\ninversament proporcional altemps durant elqual es tanca la clau.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És directament proporcional a la longitud delconducte",
+      "B": "És independent la longitud del conducte",
+      "C": "És inversament proporcional a lalongitud del conducte",
+      "D": "És directament proporcional al quadrat de lalongitud del conducte 22 Acadèmia Bombers Simulacre 48"
+    }
+  },
+  {
+    "id": "academia_sim49_q44",
+    "simulacre": "Simulacre 49",
+    "num_pregunta": 44,
+    "statement": "Un mapa planimètric:",
+    "correct": "A",
+    "explanation": "Elmapa és la representació bidimensional, a escala, d’un conjunt de dades seleccionades (relleu,tipus de sòls,\nvegetació, roques, etc.).\nPlanimètric: no representa elrelleu.\nTopogràfic: representa detalladament el relleu de la superfície terrestre on s’hi recull amb detall tots els elements naturals\niantròpics, de manera que facilitael coneixement d’una porció de terreny sense necessitat de veure’l.\nAltimetria:part del mapa que representa el relleu a través de corbes de nivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No representa el relleu",
+      "B": "Representa el relleua través de colors",
+      "C": "Representa detalladament el relleude la superfície terrestreon s’hi recullamb detall totsels elements naturals i antròpics,de manera que facilitaelconeixement d’una porció de terreny sense necessitat de veure’l",
+      "D": "Representa elrelleua través de corbes de nivell"
+    }
+  },
+  {
+    "id": "academia_sim52_q18",
+    "simulacre": "Simulacre 52",
+    "num_pregunta": 18,
+    "statement": "Com s'anomena l’angle que formen els paral·lels amb l’eix equatorial?",
+    "correct": "B",
+    "explanation": "Els meridians es designen amb lamagnitud angular anomenada longitud, que expressa l’angle que formen amb el\nmeridià que es pren com a referència ial qual se liassigna el valor 0º.\nPer denominar els paral·lelss’utilitzauna magnitud angular anomenada latitud,que expressa l’angle que formen amb\nl’eixequatorial.L’Equador és el paral·lelque determina l’origen de les latitudsilicorrespon un angle de 0 graus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Altitud",
+      "B": "Latitud",
+      "C": "Longitud",
+      "D": "La pregunta és errònia,entre els paral·lelsil’eixequatorial no existeix cap valor angular vàlid"
+    }
+  },
+  {
+    "id": "academia_sim52_q21",
+    "simulacre": "Simulacre 52",
+    "num_pregunta": 21,
+    "statement": "Si sabem que el Pirineu és una serralada que s’estén d'oest a est al llarg de més de 400 km podem concloure que el Pirineu català:",
+    "correct": "A",
+    "explanation": "ElPirineu Català té uns 250 km de longitud i s’estén entre la Valld’Aran a l’oest,iel cap de Creus a l’est,conformant un\npaisatge subalpí ialpí de gran diversitat marcat pels circs glaciars amb llacsi estanys, antigues glaceres icursos d'aigua\nque han excavat vallsprofundes orientades de nord a sud, cobertes amb boscos de pins, avets, bedolls iprats.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 26\nAcadèmia Bombers Simulacre 52",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comprèn més de la meitat de l'extensiótotaldelPirineu",
+      "B": "Comprèn exactament la meitat de l'extensió totaldelPirineu",
+      "C": "No existeix",
+      "D": "Comprèn menys de lameitat de l'extensió totaldel Pirineu"
+    }
+  },
+  {
+    "id": "academia_sim53_q15",
+    "simulacre": "Simulacre 53",
+    "num_pregunta": 15,
+    "statement": "Com s'anomenen les línies imaginàries que uneixen punts situats a lamateixa altitud?",
+    "correct": "D",
+    "explanation": "Algunes de les isopletes més conegudes ifreqüentment utilitzades, a més de les isohipses o populars corbes de nivell,\nsón les següents:\nLes isòbares, per a representar les pressions atmosfèriques;\nlesisòbates, per a lesprofunditats oceàniques;\nlesisoclines, per a les inclinacions magnètiques;\nlesisòcrones, per a les distàncies traduïdes en temps;\nlesisogeotermes, per a les temperatures de les profunditats terrestres;\nlesisoglosses, per als tretslingüístics que poden ajudar a definir límitsdialèctics;\nlesisògones, per a variacions de valors angulars de diferents fenòmens com ara vents, magnetisme, etc.;\nlesisohèlies, per a les durades de la insolació;\nlesisohietes, per a les precipitacions;\nlesisotermes, per a les temperatures, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Corbes de nivell",
+      "B": "Isohipses",
+      "C": "Isohietes bombers",
+      "D": "Es poden anomenar tantcorbes de nivellcom isohipses,fan referència almateix concepte"
+    }
+  },
+  {
+    "id": "academia_sim54_q63",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 63,
+    "statement": "Com s'anomena la diferència d'altitud entre corbes de nivell?",
+    "correct": "A",
+    "explanation": "Entre dues corbes de nivellconsecutives sempre hiha la mateixa distància vertical.La diferència d'altitudentre corbes\ns'anomena equidistància, ies manté constant en totel mapa, variant, però, d'uns mapes a altres,segons la seva escala.\nCom més petitaés l'escala,més gran és l'equidistància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equidistància",
+      "B": "Cota bombers",
+      "C": "Equivalència",
+      "D": "Salt"
+    }
+  },
+  {
+    "id": "academia_sim54_q75",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 75,
+    "statement": "Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 4 metres en un sistema de politges que ens aporta avantatge mecànic de 4?",
+    "correct": "B",
+    "explanation": "Longitud corda = (metres desplaçament de lacàrrega × AM) = 4 m × 34AM = 16 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 metres",
+      "B": "16 metres",
+      "C": "64 metres",
+      "D": "5metres"
+    }
+  },
+  {
+    "id": "academia_sim54_q81",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 81,
+    "statement": "Què defineix la latitud?",
+    "correct": "B",
+    "explanation": "Per denominar els paral·lels s’utilitzaacadèmiaunamagnitudangularanomenada latitud, que expressa l’angle que formen amb\nl’eixequatorial. L’Equador és el paral·lelque determina l’origen de les latituds ilicorrespon un angle de 0 graus. A\nmesura que ens aproximem al Pol Nord, l’angle augmenta fins a un valor de 90º, i elmateix passa si ens aproximem al\nPol Sud. Per diferenciar els paral·lels de cada hemisferi cal afegir N (Nord) o S (Sud) al valor angular del paral·lel.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’angle que formen els paral·lelsamb elmeridià que es pren com a referència",
+      "B": "L’angle que formen els paral·lelsamb l’eixequatorial",
+      "C": "L’angleque formen elsmeridians amb l’eixequatorial",
+      "D": "L’angleque formen elsmeridians amb elmeridià que es pren com a referència"
+    }
+  },
+  {
+    "id": "academia_sim54_q89",
+    "simulacre": "Simulacre 54",
+    "num_pregunta": 89,
+    "statement": "En un mapa topogràfic, les corbes de nivell:",
+    "correct": "B",
+    "explanation": "Són líniesimaginàries que uneixen punts situats a la mateixa altitud.\nS'imprimeixen en color siena sisón isohipses ien color blau si es tracta d'isòbates.\nLes corbes de nivelltambé reben elnom d'isohipses. Quan fan referència al fons marí s'anomenen isòbates ielseu valor\nés negatiu perquè estan per sota el nivelldel mar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No existiran",
+      "B": "S'imprimiran de colordiferentsegons siguinisohipses o isòbates",
+      "C": "Podran variarladistància verticalqueexisteixentre dues de consecutives",
+      "D": "Són líniesimaginàriesque uneixen punts situatsa lamateixa latitud"
+    }
+  },
+  {
+    "id": "academia_sim56_q5",
+    "simulacre": "Simulacre 56",
+    "num_pregunta": 5,
+    "statement": "En un mapa topogràfic, la disposició de les corbes de nivellresseguint punts de lamateixa altitud mostren com és el relleu del lloc.En larepresentació de quin accident geogràfic les corbes de nivell sovint estaran solapades entre elles?",
+    "correct": "D",
+    "explanation": "Les cingleres iels penya-segats són uns accidents geogràfics que consisteixen en un espadat rocós de forta pendent. A\ndiferència de lescingleres, els penya-segats fan referència al relleu del litoralmarí. Les corbes de nivell sovint estan\nsolapades entre elles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En elspenya-segats",
+      "B": "En un coll",
+      "C": "En lescingleres",
+      "D": "Les respostes a) ic)són correctes"
+    }
+  },
+  {
+    "id": "academia_sim57_q44",
+    "simulacre": "Simulacre 57",
+    "num_pregunta": 44,
+    "statement": "Què defineix el través d'un maó?",
+    "correct": "B",
+    "explanation": "Llarg:longitud\nTravés: amplada\nGruix: altura\nUNE-EN 771-1\n bombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La longitud",
+      "B": "L'amplada",
+      "C": "L'alçada",
+      "D": "El volum"
+    }
+  },
+  {
+    "id": "academia_sim58_q3",
+    "simulacre": "Simulacre 58",
+    "num_pregunta": 3,
+    "statement": "Quin és el sistema de coordenades que utilitza la combinació de lletres i números per identificar qualsevol punt de la superfície terrestre?",
+    "correct": "B",
+    "explanation": "ElSistema de coordenades UTM utilitzala combinació de lletresi números (un codi alfanumèric) per identificaramb\nprecisió qualsevol punt de lasuperfície terrestre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema de coordenades geogràfiques",
+      "B": "Sistema de coordenades UTM",
+      "C": "Sistema de coordenades polars",
+      "D": "Sistema de coordenades cartesianes"
+    }
+  },
+  {
+    "id": "academia_sim60_q12",
+    "simulacre": "Simulacre 60",
+    "num_pregunta": 12,
+    "statement": "El pilotatge clavat serà de:",
+    "correct": "D",
+    "explanation": "Elpilotatge clavat pot ser de fusta, acer iformigó prefabricat. En el cas del de fusta,quan aquesta estigui en contacte\namb l’aigua,haurà d’estar submergida en tota la seva longitud. S'introdueix en elterreny a cops mitjançant una maça. La\nseva longitud màxima és de 5 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Formigó prefabricat",
+      "B": "Fusta",
+      "C": "Acer ",
+      "D": "Totes tresopcions poden ser utilitzadesper a laconstrucció de pilotatges"
+    }
+  },
+  {
+    "id": "academia_sim60_q67",
+    "simulacre": "Simulacre 60",
+    "num_pregunta": 67,
+    "statement": "Quin dels següents factors NO afecta la resistència d'un conductor?",
+    "correct": "B",
+    "explanation": "Calculem la resistència del conductor utilitzantlafórmula: R = ρ x L/S. On ρ (ro)és la resistivitatdelmaterial conductor\ndelcable, \"L\" és la longitud i\"S\" és la secció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La secció",
+      "B": "La intensitat",
+      "C": "La longitud",
+      "D": "Elcoeficient de resistivitat"
+    }
+  },
+  {
+    "id": "academia_sim61_q68",
+    "simulacre": "Simulacre 61",
+    "num_pregunta": 68,
+    "statement": "Com s'anomenen les línies imaginàriesque uneixen punts situats a la mateixa altitud?",
+    "correct": "D",
+    "explanation": "Algunes de les isopletes més conegudes i freqüentment utilitzades, a més de les isohipses o populars corbes de nivell,\nsón les següents:\nLes isòbares, per a representar les pressions atmosfèriques;\nlesisòbates, per a les profunditats oceàniques;\nlesisoclines, per a les inclinacions magnètiques;\nlesisòcrones, per a les distàncies traduïdes en temps;\nlesisogeotermes, per a les temperatures de les profunditats terrestres;\nlesisoglosses, per als tretslingüístics que poden ajudar a definir límitsdialèctics;\nlesisògones, per a variacions de valors angulars de diferents fenòmens com ara vents, magnetisme, etc.;\nlesisohèlies, per a les durades de la insolació;\nlesisohietes, per a les precipitacions; \nlesisotermes, per a les temperatures, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Corbes de nivell",
+      "B": "Isohipses",
+      "C": "Isohietes",
+      "D": "Les respostes a) ib)són correctes"
+    }
+  },
+  {
+    "id": "academia_sim62_q23",
+    "simulacre": "Simulacre 62",
+    "num_pregunta": 23,
+    "statement": "Mesurem la façana exterior d'un edifici i comprovem que el seu espessor és de 60 cm, o ditd'una altramanera:",
+    "correct": "C",
+    "explanation": "Un peu equival auns 30 cm (29,57 cm, exactament).\nUn pam és una antiga mesura de longitud equivalent a laquarta partde la vara, d'aproximadament 23 cm. (23 cm × 3\npams = 69 cm).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pam imig",
+      "B": "Dos pams",
+      "C": "Dos peus",
+      "D": "Quatre peus"
+    }
+  },
+  {
+    "id": "academia_sim62_q34",
+    "simulacre": "Simulacre 62",
+    "num_pregunta": 34,
+    "statement": "Quina característica ofereixen els sistemes de boques d’incendi equipades (BIE)?",
+    "correct": "C",
+    "explanation": "RIPCI -pàgina 20.\n3.Les BIE s’han de muntar sobre un suport rígid,de manera que elbroquet i lavàlvula d’obertura manual ielsistema\nd’obertura de l’armari,si n’hiha, estiguin situats,com a màxim, a 1,50 m sobre elnivell del sòl.\nLes BIE s’han de situar sempre a una distància, màxima, de 5 m de les sortides del sector d’incendi, mesurada sobre un\nrecorregut d’evacuació, sense que constitueixinacadèmiacapobstacleperalaseva utilització.\nElnombre iladistribució de les BIE tant en un espai diàfan com compartimentat ha de ser tal que latotalitatde la\nsuperfície del sector d’incendi en què estiguin instal·lades quedi coberta almenys per una BIE, considerant com a radi\nd’acció d’aquesta BIE la longitud de laseva mànega incrementada en 5 m.\nPer a les BIE amb mànega semirígida o mànega plana, la separació màxima entre cada BIE ila seva més pròxima ha de\nser de 50 m. La distància des de qualsevol punt de l’àrea protegida fins a laBIE més propera no ha d’excedir el seu radi\nd’acció. bombers\n\n35.- www.academiabombers.com\nAvanç = nombre d'entrades x pas (2 × 2mm = 4 mm)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per a lesBIE amb mànega semirígidaacadèmiaomànegaplana,laseparació màxima entre cada BIE ila seva més pròxima ha de ser lasuma de leslongituds de lesdues mànegues",
+      "B": "Es considera com a radid’acció d’aquesta BIE la longitud de laseva mànega",
+      "C": "Les BIE s’han de situarsempre a una distància màxima de 5 m de les sortides delsector d’incendi",
+      "D": "Les BIE s’han de muntar de manera que el manòmetre estigui situat,com a màxim, a 1,50 m sobre el nivelldelsòl"
+    }
+  },
+  {
+    "id": "academia_sim63_q71",
+    "simulacre": "Simulacre 63",
+    "num_pregunta": 71,
+    "statement": "Quina és la latitud de l'última zona UTM?",
+    "correct": "C",
+    "explanation": "La resta de leszones tindran una latitudde 8°.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23\nAcadèmia Bombers Simulacre 63",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8°",
+      "B": "6°",
+      "C": "12°",
+      "D": "20°"
+    }
+  },
+  {
+    "id": "academia_sim63_q90",
+    "simulacre": "Simulacre 63",
+    "num_pregunta": 90,
+    "statement": "Al capvespre, un arbrebombersprojectauna ombra de 4 metres de longitud. Si la distància des de la part més alta de l'arbre a l'extrem més allunyat de l'ombra és de 5 metres, quina és l'alçada de l'arbre?",
+    "correct": "D",
+    "explanation": "h²= a² + b²\n5²= a² + 4²\n25 = a² + 16\na²= 9\n√a² = √9\na= 3metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 metres",
+      "B": "2 metres www.academiabombers.com",
+      "C": "5 metres",
+      "D": "3 metres"
+    }
+  },
+  {
+    "id": "academia_sim64_q10",
+    "simulacre": "Simulacre 64",
+    "num_pregunta": 10,
+    "statement": "Quina és lalongitud total del Pirineu?",
+    "correct": "B",
+    "explanation": "ElPirineu és la part més alta del territoricatalà.És una serralada que s’estén d’oest a est alllarg de més de 400 km, des\ndel golfde Biscaia fins a la Mediterrània. El Pirineu català téuns 250 km de longitud is’estén entre la Vall d’Aran a l’oesti\nelcap de Creus a l’est\n\n\n\n\n 14\nAcadèmia Bombers Simulacre 64",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 220 km, amb la meitat delseu recorregut sobre territoricatalà",
+      "B": "De més de 400 km, amb més de la meitat delseu recorregut sobre territoricatalà",
+      "C": "De més de 600 km, amb lameitat delseu recorregutsobre territoricatalà",
+      "D": "De més de 400 km, amb menys de lameitat del seu recorregut sobre territoricatalà"
+    }
+  },
+  {
+    "id": "academia_sim64_q45",
+    "simulacre": "Simulacre 64",
+    "num_pregunta": 45,
+    "statement": "Quin dels següents plans inclinats ens oferirà un avantatge mecànic superior?",
+    "correct": "A",
+    "explanation": "AM d'un pla inclinat: longitud de larampa /altura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un pla inclinatamb una rampa de 5 metres iuna d'alturad'1m",
+      "B": "Un pla inclinatamb una rampa de 12metres iuna d'alturade 3 m",
+      "C": "Un pla inclinatamb una rampa de 7 metres iuna d'altura de 2 m",
+      "D": "Un pla inclinatamb una rampa de 18 metres iuna d'alturade 4 m"
+    }
+  },
+  {
+    "id": "academia_sim64_q72",
+    "simulacre": "Simulacre 64",
+    "num_pregunta": 72,
+    "statement": "En un mapa topogràfic, les corbeswww.academiabombers.comdenivell:",
+    "correct": "C",
+    "explanation": "Són líniesimaginàries que uneixen punts situats a lamateixa altitud.\nS'imprimeixen en color siena si són isohipses i en color blau sies tracta d'isòbates.\nLes corbes de nivelltambé reben el nom d'isohipses. Quan fan referència alfons marí s'anomenen isòbates ielseu valor\nés negatiu perquè estan per sotabomberselnivelldelmar.\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 20\nAcadèmia Bombers Simulacre 64",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tindran un traçat discontinu,en tot cas",
+      "B": "S'imprimiran del mateix color siguinisohipses o siguinisòbates",
+      "C": "No variarà ladistància verticalque existeixentre dues de consecutives",
+      "D": "Són líniesimaginàries que uneixen punts situats a lamateixa latitud 9 Acadèmia Bombers Simulacre 64"
+    }
+  },
+  {
+    "id": "academia_sim66_q56",
+    "simulacre": "Simulacre 66",
+    "num_pregunta": 56,
+    "statement": "Què defineix eltravésbombersd'unmaó?",
+    "correct": "B",
+    "explanation": "Llarg:longitud\nTravés: amplada\nGruix: altura\nUNE-EN 771-1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La longitud",
+      "B": "L'amplada www.academiabombers.com",
+      "C": "L'alçada",
+      "D": "Elvolum 8 Acadèmia Bombers Simulacre 66"
+    }
+  },
+  {
+    "id": "academia_sim66_q66",
+    "simulacre": "Simulacre 66",
+    "num_pregunta": 66,
+    "statement": "Què podem afirmar donat un punt amb les coordenades X=457 Y=7234 d'una projecció UTM?",
+    "correct": "C",
+    "explanation": "Per trobar elpunt exacte, a banda de la coordenada, s'hauria d'indicar elfus i l'hemisferi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a l'hemisferisud",
+      "B": "Pertany alfus 45",
+      "C": "No podem saber a l'hemisferi que fan referència",
+      "D": "El format de la coordenada és errònia, laX hauria de tenir cinc xifres"
+    }
+  },
+  {
+    "id": "academia_sim66_q83",
+    "simulacre": "Simulacre 66",
+    "num_pregunta": 83,
+    "statement": "És l’angle que formen els paral·lels amb l’eixequatorial:",
+    "correct": "B",
+    "explanation": "Els meridians es designen amb la magnitud angular anomenada longitud, que expressa l’angle que formen amb el\nmeridià que es pren com a referència ial qual se liassigna el valor 0º.\nPer denominar els paral·lels s’utilitzauna magnitud angular anomenada latitud,que expressa l’angle que formen amb\nl’eixequatorial. L’Equador és elparal·lel que determina l’origen de les latituds ilicorrespon un angle de 0 graus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Altitud",
+      "B": "Latitud",
+      "C": "Longitud",
+      "D": "Aptitud acadèmia"
+    }
+  },
+  {
+    "id": "academia_sim68_q29",
+    "simulacre": "Simulacre 68",
+    "num_pregunta": 29,
+    "statement": "A quin tipus d'escala hi trobarem la contraescala o taló?",
+    "correct": "D",
+    "explanation": "L’escala gràfica és una línia segmentada regularment on la longitud de cada segment mesurada al mapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útilper a fer\nlectures directes de distàncies entre punts del mapa. A l’esquerra de l’origen (zero de l’escala gràfica) s’hi representa la\ncontraescala o taló,on elnombre de subdivisions és superior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'escala visual ",
+      "B": "A l'escala numèrica",
+      "C": "A l'escalanatural",
+      "D": "A l'escalagràfica"
+    }
+  },
+  {
+    "id": "academia_sim68_q32",
+    "simulacre": "Simulacre 68",
+    "num_pregunta": 32,
+    "statement": "En cartografia, la longitud: (senyala la INCORRECTA):",
+    "correct": "D",
+    "explanation": "La longitud geogràfica s'estén de 0 a 180 graus, mesurant-se cap a l'esticap a l'oest des del meridià de Greenwich.\nElmeridià de Greenwich és el punt de referència a partir del qual es mesura lalongitud, ité un valor de 0 graus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Correspon a la coordenada \"x\"",
+      "B": "Fa referènciaa ladistància entre un punt qualsevol de lasuperfície de laTerra iun meridià de referència",
+      "C": "Quan es tractade coordenades geogràfiques, ladistància és angular",
+      "D": "S'estén de 0 a90 graus 4 Acadèmia Bombers Simulacre 68"
+    }
+  },
+  {
+    "id": "academia_sim69_q38",
+    "simulacre": "Simulacre 69",
+    "num_pregunta": 38,
+    "statement": "Si representem un bagul de 2 metres de llargada a escala 1:1.000, quant medirà eldibuix resultant?",
+    "correct": "B",
+    "explanation": "2 metres x (1/1.000) = 2/1.000 = 0,002 m = 2 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Medirà 2 decàmetres",
+      "B": "Medirà 2 mil·límetres",
+      "C": "Medirà 2 centímetres bombers",
+      "D": "Medirà 20 centímetres"
+    }
+  },
+  {
+    "id": "academia_sim69_q63",
+    "simulacre": "Simulacre 69",
+    "num_pregunta": 63,
+    "statement": "Quin valor té l'encavalcament funcional que s'estén entre la projecció UPS ila projecció UTM?",
+    "correct": "D",
+    "explanation": "Projecció UTM -ICGC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1,5°",
+      "B": "1°",
+      "C": "0,02° bombers",
+      "D": "0,5°"
+    }
+  },
+  {
+    "id": "academia_sim70_q50",
+    "simulacre": "Simulacre 70",
+    "num_pregunta": 50,
+    "statement": "És el nord que assenyala labrúixola:",
+    "correct": "D",
+    "explanation": "Declinació magnètica: angle de diferènciaacadèmiaentreenNMielNG. Varia amb el temps.\nNord de la projecció: diferència entre el NG i laprojecció.\nNord geogràfic: punt on l'eixde rotació sobre el que gira laterra intercepta lasuperfície terrestre, és a dir,el Pol Nord. No\nvaria amb el temps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord de la projecció",
+      "B": "Declinació magnètica",
+      "C": "Nord geogràfic",
+      "D": "Nord magnètic"
+    }
+  },
+  {
+    "id": "academia_sim71_q20",
+    "simulacre": "Simulacre 71",
+    "num_pregunta": 20,
+    "statement": "Quina precisió oferiran unes coordenades UTM amb una xifra per la \"X\" idues per la \"Y\"?",
+    "correct": "B",
+    "explanation": "Dues xifres per la \"X\" itres xifres per la\"Y\" oferirienuna precisió de 10 km.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 17\nAcadèmia Bombers Simulacre 71",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quilomètrica",
+      "B": "De 100 km",
+      "C": "De 10 km acadèmia",
+      "D": "De 100 m"
+    }
+  },
+  {
+    "id": "academia_sim71_q44",
+    "simulacre": "Simulacre 71",
+    "num_pregunta": 44,
+    "statement": "De quina manera representa el relleu un mapa planimètric?",
+    "correct": "D",
+    "explanation": "Elmapa és la representació bidimensional, a escala, d’un conjunt de dades seleccionades (relleu,tipusde sòls,\nvegetació, roques, etc.).\nPlanimètric: no representa el relleu.\nTopogràfic: representa detalladament el relleude lasuperfície terrestre on s’hi recullamb detall totsels elements naturals\niantròpics, de manera que facilitaelconeixement d’una porció de terreny sense necessitat de veure’l.\nAltimetria:part del mapa que representa el relleua través de corbes de nivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A travésde corbes de nivell",
+      "B": "A travésde colors",
+      "C": "A partirde lallegenda",
+      "D": "Un mapa planimètric no representa elrelleu"
+    }
+  },
+  {
+    "id": "academia_sim72_q35",
+    "simulacre": "Simulacre 72",
+    "num_pregunta": 35,
+    "statement": "Si parlem de la projeccióbombersUTM(Projecció Transversal de Mercator), verticalment l'eixes divideix en 20 zones. Quina és la latitud de les zones \"C\" i \"M\"?",
+    "correct": "A",
+    "explanation": "A cada fus es defineixen 20 zones o bandes (de 8º de latitud,excepte laX amb 12º).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8° en ambdós casos www.academiabombers.com",
+      "B": "6° en ambdós casos",
+      "C": "6 i12°, respectivament",
+      "D": "12 i 6°,respectivament 5 Acadèmia Bombers Simulacre 72"
+    }
+  },
+  {
+    "id": "academia_sim72_q59",
+    "simulacre": "Simulacre 72",
+    "num_pregunta": 59,
+    "statement": "Quin tipus d'escala és una línia segmentada regularment on la longitud de cada segment mesurada almapa es correspon amb les unitats de mesura reals indicades en els seus extrems?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala \"unitatper unitat\"",
+      "B": "L'escala numèrica",
+      "C": "L'escala natural",
+      "D": "L'escala gràfica"
+    }
+  },
+  {
+    "id": "academia_sim73_q51",
+    "simulacre": "Simulacre 73",
+    "num_pregunta": 51,
+    "statement": "Quines xifres licorresponen a les coordenades UTM X quan llegim un mapa orientat al nord?",
+    "correct": "D",
+    "explanation": "Quan llegim un mapa orientat alnord, a les UTM X licorresponen lesxifres que es troben retolades a la part inferiori\nsuperior del mapa ia les UTM Y les de l’esquerra ide la dreta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les que es troben retolades a la partsuperior idreta del mapa",
+      "B": "Les que es troben retolades a la partdreta iesquerra del mapa",
+      "C": "Les que es troben retolades a la partinferioriesquerra delmapa",
+      "D": "Les que es troben retolades a la partinferiorisuperior del mapa"
+    }
+  },
+  {
+    "id": "academia_sim73_q94",
+    "simulacre": "Simulacre 73",
+    "num_pregunta": 94,
+    "statement": "Quina part del sistema nerviós desenvolupa les funcions del peristaltisme intestinal o del batec del cor?",
+    "correct": "D",
+    "explanation": "ElSistema Nerviós Vegetatiu (SNV) també rep elnom de SN autònom.\n\n95.- \nCada fus equival a 6° de longitud. 8° de latitud.\n\nBandes = zones.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 24",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Sistema Nerviós Somàtic (SNS)acadèmia",
+      "B": "El Sistema Nerviós Antipàtic (SNA)",
+      "C": "Aquestes funcions no són controlades pelsistema nerviós",
+      "D": "ElSistema Nerviós Vegetatiu (SNV)"
+    }
+  },
+  {
+    "id": "academia_sim74_q55",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 55,
+    "statement": "En una projecció UTM, l’origen del fus correspon al punt d’intersecció entre elmeridià central i l’Equador. Quines són les seves coordenades d'origen segons ens referim a l’hemisferi nord o sud?",
+    "correct": "A",
+    "explanation": "Les seves coordenades varien segons ens referim a l’hemisferinord o sud:\nNord: X = 500 km, Y = 0 Km\nSud: X = 500 km, Y = 10000 Km",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord: X = 500 km, Y = 0 Km, Sud: X =500 km, Y = 10.000 Km",
+      "B": "Nord: X = 0 km, Y = 10.000bombersKm,Sud:X=10.000km, Y = 0Km",
+      "C": "Nord: X = 0 km, Y = 500 Km, Sud: X = 10.000 km, Y = 500 Km",
+      "D": "Nord: X = 10.000 km, Y =0 Km, Sud: X = 0km, Y =10.000 Km"
+    }
+  },
+  {
+    "id": "academia_sim74_q69",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 69,
+    "statement": "Amb quines unitats s'indica habitualment ladeclinació magnètica?",
+    "correct": "C",
+    "explanation": "La declinació magnètica és l'anglebombersentreelnordgeogràfic(veritable)ielnord magnètic, i es mesura en graus, minuts, i\nsegons amb una direcció especificada com est (E) o oest (W).\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 74",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En Radians (rad)",
+      "B": "Amb un percentatge (%) ",
+      "C": "En graus, minuts,i segons",
+      "D": "En quadrants"
+    }
+  },
+  {
+    "id": "academia_sim74_q89",
+    "simulacre": "Simulacre 74",
+    "num_pregunta": 89,
+    "statement": "A la nostra latitud:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La coordenada UTM X sempre té un dígitmés isempre porta un 3 a l’inicidelvalor de la coordenada",
+      "B": "La coordenada UTM Y sempre té un dígitmés isempre porta un 4 a l’inicidelvalor de la coordenada",
+      "C": "La coordenada UTM X sempre té un dígitmés i sempre porta un 6 a l’inicidelvalorde la coordenada",
+      "D": "La coordenada UTM Y sempre té un dígitmés i sempre porta un 2 a l’inicidelvalorde la coordenada"
+    }
+  },
+  {
+    "id": "academia_sim75_q57",
+    "simulacre": "Simulacre 75",
+    "num_pregunta": 57,
+    "statement": "Quin tipus d'escala ha de tenir necessàriament elements com el taló o la contraescala?",
+    "correct": "D",
+    "explanation": "L’escala gràfica és una líniasegmentada regularment on la longitud de cada segment mesurada al mapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útilper a fer\nlectures directes de distàncies entre punts del mapa. A l’esquerra de l’origen (zero de l’escala gràfica) s’hirepresenta la\ncontraescala o taló,on elnombre de subdivisions és superior.\n\n58.- acadèmia\nL'envà (\"tabique\") és una paret prima que separa ambients dins d'un edifici.No realitzafuncions estructurals.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 20\nAcadèmia Bombers Simulacre 75",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala \"unitatper unitat\"",
+      "B": "L'escala numèrica",
+      "C": "L'escala natural",
+      "D": "L'escala gràfica"
+    }
+  },
+  {
+    "id": "academia_sim75_q61",
+    "simulacre": "Simulacre 75",
+    "num_pregunta": 61,
+    "statement": "Quina latitud té l'última zona UTM?",
+    "correct": "C",
+    "explanation": "La resta de les zones tindran una latitudde 8°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8° ",
+      "B": "6°",
+      "C": "12°",
+      "D": "20°"
+    }
+  },
+  {
+    "id": "academia_sim76_q8",
+    "simulacre": "Simulacre 76",
+    "num_pregunta": 8,
+    "statement": "Quina és l'amplada màxima d'unwww.academiabombers.comfusUTM?",
+    "correct": "C",
+    "explanation": "Existeixen 60 fusos UTM (Universal Transverse Mercator). Cada fus cobreix una amplada de 6 graus de longitud, iestan\nnumerats de 1 a 60, començant des del meridià de Greenwich cap a l'est.\n\n\n\n\n\n\n\n\n\n\n\n\n\n 14\nAcadèmia Bombers Simulacre 76",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "3 graus de longitud",
+      "B": "333 km",
+      "C": "6 graus de longitud",
+      "D": "100 km 1 Acadèmia Bombers Simulacre 76"
+    }
+  },
+  {
+    "id": "academia_sim76_q78",
+    "simulacre": "Simulacre 76",
+    "num_pregunta": 78,
+    "statement": "Quan mesura en un plànol 1:2.000 la pista d'un aeroport que té una longitud de 800 metres?",
+    "correct": "A",
+    "explanation": "800 metres = 80.000 cm. 80.000/2.000 = 40 cm.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 76",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "40 cm acadèmia",
+      "B": "4 m",
+      "C": "14 cm",
+      "D": "16 m"
+    }
+  },
+  {
+    "id": "academia_sim77_q69",
+    "simulacre": "Simulacre 77",
+    "num_pregunta": 69,
+    "statement": "Després d'haver actuat en un servei a Vidreres, ens arriba una nova incidència a Llagostera. Quina carretera agafarem per assegurarun desplaçament eficient?",
+    "correct": "A",
+    "explanation": "L'autovia C-35 o Autovia Vidreres-Llagostera és una autovia que uneix Vidreres iLlagostera. Amb una longitud de 15 km,\ncomença en l'enllaçde l'Autopista del Mediterrani AP-7, a Massanet de laSelva, ifinalitzaa Llagostera amb laconnexió\nde l'autoviaC-65 cap a Sant Feliu de Guíxols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-35",
+      "B": "La C-66",
+      "C": "La C-58",
+      "D": "La C-63"
+    }
+  },
+  {
+    "id": "academia_sim78_q61",
+    "simulacre": "Simulacre 78",
+    "num_pregunta": 61,
+    "statement": "Hi ha diverses regles a tenir en compte a l'hora d'interpretar les corbes de nivell del terreny. Quina de les següents regles NO existeix?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La regla15:2",
+      "B": "La reglade V's",
+      "C": "La reglad'Os",
+      "D": "Espaiament de corbes de nivell"
+    }
+  },
+  {
+    "id": "academia_sim78_q81",
+    "simulacre": "Simulacre 78",
+    "num_pregunta": 81,
+    "statement": "Quina precisió oferiran unes coordenades UTM amb tres per la \"Y\" idues xifres per la \"X\" ?",
+    "correct": "C",
+    "explanation": "Una xifra per la \"X\" i dues xifres per la \"Y\" oferirien una precisió de 100 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quilomètrica",
+      "B": "De 100 km",
+      "C": "De 10 km",
+      "D": "De 100 m"
+    }
+  },
+  {
+    "id": "academia_sim79_q45",
+    "simulacre": "Simulacre 79",
+    "num_pregunta": 45,
+    "statement": "Si parlem de la projecció UTM (Projecció Transversal de Mercator), verticalment l'eix es divideix en 20 zones. Quina és la latitud de l'última zona?",
+    "correct": "C",
+    "explanation": "La resta de les zones tindran una latitud de 8°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8°",
+      "B": "6°",
+      "C": "12°",
+      "D": "20°"
+    }
+  },
+  {
+    "id": "academia_sim79_q88",
+    "simulacre": "Simulacre 79",
+    "num_pregunta": 88,
+    "statement": "Quin valor del diàmetre exterior oferirà la següent rosca mètrica: \"M24 x 3 x 60\"?",
+    "correct": "A",
+    "explanation": "M24 x 3 x 60\n\nLa M significa rosca mètrica, 24 significa el valor del diàmetre exterior en mm, 3 significa el pas en mm i60 significa la\nlongitud de la rosca en mm.\n\nEl pas és la distància entre dos punts homòlegs d'una rosca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 mm",
+      "B": "3 cm",
+      "C": "60 mm",
+      "D": "3 mm"
+    }
+  },
+  {
+    "id": "academia_sim80_q33",
+    "simulacre": "Simulacre 80",
+    "num_pregunta": 33,
+    "statement": "On es troba la contraescala en una escala gràfica?",
+    "correct": "B",
+    "explanation": "L’escala gràfica és una línia segmentada regularment on la longitud de cada segment mesurada al mapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útilper a fer\nlectures directes de distàncies entre punts del mapa.\n\nA l’esquerra de l’origen (zero de l’escala gràfica) s’hi representa la contraescala o taló,on el nombre de subdivisions és\nsuperior.\n\n\n\n\n\n\n 17\nAcadèmia Bombers Simulacre 80",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la dreta de l'origen de l'escalagràfica",
+      "B": "A l'esquerra de l'origen de l'escala gràfica",
+      "C": "Al centre de l'escala gràfica",
+      "D": "En qualsevol dels extrems de l'escala gràfica"
+    }
+  },
+  {
+    "id": "academia_sim80_q69",
+    "simulacre": "Simulacre 80",
+    "num_pregunta": 69,
+    "statement": "Quina afirmació és FALSA sobre els meridians?",
+    "correct": "C",
+    "explanation": "S’anomenen plans meridians aquells infinitsplans que contenen l’eixpolar itallen la superfície terrestre\nperpendicularment al pla equatorial. A les línies d’intersecció entre els plans meridians ila superfície terrestre se les\nanomena, en aquest cas, meridians. Tots els meridians passen pels pols Nord iSud.\n\nEls meridians es designen amb la magnitud angular anomenada longitud, que expressa l’angle que formen amb el\nmeridià que es pren com a referència ial qual se liassigna el valor 0º. La comunitat internacional ha pres com a meridià\nde referència elque passa per la ciutat anglesa de Greenwich, rebent el nom de meridià de Greenwich. S’estableix que la\nlongitud és Est (E) per als meridians situats a la dreta del de Greenwich iés Oest (W) per als que es troben a l’esquerra.\nPer tant, la longitud\ns’expressa en un valor angular de 0º a 180º, corresponent el valor de 0º al meridià de Greenwich, iel valor 180º a la part\nd’aquest meridià a l’altrabanda de la Terra, ique s’anomena antimeridià de Greenwich.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'expressen en un valor angular de 0º a 180º",
+      "B": "Tots els meridians passen pels pols Nord iSud",
+      "C": "Es designen amb la magnitud angular anomenada latitud",
+      "D": "S’estableix que la longitud és Est (E) per als meridians situats a la dreta del de Greenwich iés Oest (W) per als que es troben a l’esquerra"
+    }
+  },
+  {
+    "id": "academia_sim82_q3",
+    "simulacre": "Simulacre 82",
+    "num_pregunta": 3,
+    "statement": "Què vol dir que les corbes de nivell són equidistants?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que la diferència de cota entre les dues corbes de nivell és constant",
+      "B": "Que sempre estan a lamateixa distància horitzontal",
+      "C": "Que estan a la mateixa distància del nord magnètic",
+      "D": "L’equidistància no és possible entre dues corbes de nivell"
+    }
+  },
+  {
+    "id": "academia_sim83_q5",
+    "simulacre": "Simulacre 83",
+    "num_pregunta": 5,
+    "statement": "Quina mesura té cada quadrícula d'una projecció UTM si està composta per dues lletres?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 83",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 × 10 km",
+      "B": "100 × 100 km",
+      "C": "1.000 × 1.000 km",
+      "D": "10.000 × 10.000 km"
+    }
+  },
+  {
+    "id": "academia_sim90_q12",
+    "simulacre": "Simulacre 90",
+    "num_pregunta": 12,
+    "statement": "Quin tipus de projecció, amb la missió de combatre la mentalitat euro-cèntrica dels cartògrafs, representa el mapa de tal manera que les àrees dibuixades són proporcionals a les àrees reals?",
+    "correct": "C",
+    "explanation": "També coneguda (de fet,de forma correcta) com a Gall-Peters.\n\nLa projecció de Fisher no té res a veure amb la cartografia.\n\n\n\n\n 14\nAcadèmia Bombers Simulacre 90",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 90",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La projecció de Mercator",
+      "B": "La projecció transversa de Mercator",
+      "C": "La projecció de Peters",
+      "D": "La projecció de Fisher"
+    }
+  },
+  {
+    "id": "academia_sim92_q11",
+    "simulacre": "Simulacre 92",
+    "num_pregunta": 11,
+    "statement": "Si disposem de 6 xifres de la \"X\" i7 xifres de la \"Y\" en coordenades UTM, tindrem una precisió de:",
+    "correct": "A",
+    "explanation": "3X 4Y: 1 km.\n4X 5Y: 100 m.\n5X 6Y: 10 m.\n6X 7Y: 1 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 92",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 metre",
+      "B": "10 metres",
+      "C": "100 metres",
+      "D": "1 kilòmetre"
+    }
+  },
+  {
+    "id": "academia_sim94_q88",
+    "simulacre": "Simulacre 94",
+    "num_pregunta": 88,
+    "statement": "Referent a la nomenclatura de les rosques, de quina forma s'expressaran les seves dimensions?",
+    "correct": "D",
+    "explanation": "Per exemple:\n\nM24 x 3 x 60\n\nLa M significa rosca mètrica, 24 significa el valor del diàmetre exterior en mm, 3 significa el pas en mm i60 significa la\nlongitud de la rosca en mm.\n\nEl pas és la distància entre dos punts homòlegs d'una rosca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Longitud x Diàmetre exterior x Pas",
+      "B": "Diàmetre exterior x Longitud x Pas",
+      "C": "Pas x Diàmetre exterior xLongitud",
+      "D": "Diàmetre exterior x Pas xLongitud"
+    }
+  },
+  {
+    "id": "academia_sim95_q52",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 52,
+    "statement": "Si en el sistema de coordenades UTM una zona té la lletra \"D\", significarà que:",
+    "correct": "B",
+    "explanation": "Si una zona té una lletra igual o posterior a la \"N\", la zona està a l'hemisferi nord, mentre que està alsud si la seva lletra\nés anterior a la \"N\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a l'hemisferi Nord",
+      "B": "Pertany a l'hemisferi Sud",
+      "C": "Hi haurà un error",
+      "D": "Pertany a l'hemisferi Oest"
+    }
+  },
+  {
+    "id": "academia_sim95_q83",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 83,
+    "statement": "Quina és la unitat de la tensió superficial en el SI?",
+    "correct": "A",
+    "explanation": "La unitat del Sistema Internacional (SI) per a la tensió superficial és elnewton per metre (N/m), ja que la tensió superficial\nes defineix com laforça per unitat de longitud que actua en lasuperfície d'un líquid.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "N/m",
+      "B": "J/m",
+      "C": "Kg/m",
+      "D": "N/m²"
+    }
+  },
+  {
+    "id": "academia_sim95_q87",
+    "simulacre": "Simulacre 95",
+    "num_pregunta": 87,
+    "statement": "Quin és l'estany no litoral més gran de Catalunya?",
+    "correct": "C",
+    "explanation": "Aquest cos d'aigua presenta les següents característiques mètriques:\n\nDimensions lineals:\n\n·Longitud total:aproximadament 2.150 metres.\n\n·Amplada màxima lòbul nord: 775 metres.\n·Amplada màxima lòbul sud: 725 metres.\n\nCaracterístiques de volum:\n\n·Superfície total:111,7 hectàrees.\n\n·Profunditat mitjana: 40-44 metres.\n\n·Profunditat màxima registrada: 120 metres (a zones amb surgències càrstiques).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Llac de Malniu www.academiabombers.com",
+      "B": "Llac de Montcortès",
+      "C": "Estany de Banyoles",
+      "D": "Estany de Certascan"
+    }
+  },
+  {
+    "id": "academia_sim96_q39",
+    "simulacre": "Simulacre 96",
+    "num_pregunta": 39,
+    "statement": "Quina és la longitud total del Pirineu?",
+    "correct": "B",
+    "explanation": "El Pirineu és la part més alta del territoricatalà. És una serralada que s’estén d’oest a est al llarg de més de 400 km, des\ndel golf de Biscaia finsa laMediterrània. El Pirineu català té uns 250 km de longitud is’estén entre la Vall d’Aran a l’oest i\nelcap de Creus a l’est",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 220 km, amb la meitat del seu recorregut sobre territoricatalà",
+      "B": "De més de 400 km, amb més de la meitat del seu recorregut sobre territoricatalà",
+      "C": "De més de 600 km, amb lameitat del seu recorregut sobre territoricatalà",
+      "D": "De més de 400 km, amb menys de lameitat del seu recorregut sobre territoricatalà"
+    }
+  },
+  {
+    "id": "academia_sim96_q83",
+    "simulacre": "Simulacre 96",
+    "num_pregunta": 83,
+    "statement": "Quin és el llac natural (no litoral) més gran de Catalunya?",
+    "correct": "B",
+    "explanation": "Té forma de vuit iuna superfície d’1.075.315 m2, té, de nord a sud, una longitud de 2.080 m, una amplada, que varia\nsegons ellloc, entre 730 i235 m iuna profunditat que va de 6 m, al llindar que correspon a lapart més estreta, a 62 m al\nfons d’un embut situat a la part meridional.\n\nFont: enciclopèdia.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'estany de Certascan",
+      "B": "Estany de Banyoles",
+      "C": "Estany de Sant Maurici",
+      "D": "Llac de Malniu"
+    }
+  },
+  {
+    "id": "academia_sim98_q7",
+    "simulacre": "Simulacre 98",
+    "num_pregunta": 7,
+    "statement": "Quina és la longitud aproximada del Pirineu Axial a Catalunya?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 km",
+      "B": "250 km",
+      "C": "730 km",
+      "D": "500 km"
+    }
+  },
+  {
+    "id": "academia_sim98_q70",
+    "simulacre": "Simulacre 98",
+    "num_pregunta": 70,
+    "statement": "Al capvespre, un arbre projecta una ombra de 4 metres de longitud. Si la distància des de la part més alta de l'arbre a l'extrem més allunyat de l'ombra és de 5 metres, quina és l'alçada de l'arbre?",
+    "correct": "D",
+    "explanation": "h² = a² + b²\n5² = a² + 4²\n25 = a² + 16\na² = 9\n√a² = √9\na = 3 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 metres",
+      "B": "2 metres",
+      "C": "5 metres",
+      "D": "3 metres"
+    }
+  },
+  {
+    "id": "academia_sim103_q27",
+    "simulacre": "Simulacre 103",
+    "num_pregunta": 27,
+    "statement": "Quin tipus d'escala és una línia segmentada regularment on la longitud de cada segment mesurada al mapa es correspon amb les unitats de mesura reals indicades en els seus extrems?",
+    "correct": "D",
+    "explanation": "L’escala gràfica és una líniasegmentada regularment on la longitud de cada segment mesurada almapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útilper a fer\nlectures directes de distàncies entre punts del mapa. A l’esquerra de l’origen (zero de l’escala gràfica) s’hirepresenta la\ncontraescala o taló, on el nombre de subdivisions és superior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala \"unitat per unitat\"",
+      "B": "L'escala numèrica",
+      "C": "L'escala natural",
+      "D": "L'escala gràfica www.academiabombers.com 4 Acadèmia Bombers Simulacre 103"
+    }
+  },
+  {
+    "id": "academia_sim104_q5",
+    "simulacre": "Simulacre 104",
+    "num_pregunta": 5,
+    "statement": "Com s'anomenen les línies imaginàries que uneixen punts situats a la mateixa altitud?",
+    "correct": "D",
+    "explanation": "Algunes de les isopletes més conegudes ifreqüentment utilitzades, a més de les isohipses o populars corbes de nivell,\nsón les següents:\n\nLes isòbares, per a representar les pressions atmosfèriques;\n\nles isòbates, per a les profunditats oceàniques;\n\nles isoclines, per a les inclinacions magnètiques;\n\nles isòcrones, per a les distàncies traduïdes en temps;\n\nles isogeotermes, per a les temperatures de les profunditats terrestres;\n\nles isoglosses, per als trets lingüístics que poden ajudar a definir límits dialèctics;\n\nles isògones, per a variacions de valors angulars de diferents fenòmens com ara vents, magnetisme, etc.;\n\nles isohèlies, per a les durades de la insolació;\n\nles isohietes, per a les precipitacions;\nles isotermes, per a les temperatures, etc.www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 17\nAcadèmia Bombers Simulacre 104",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 104",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Corbes de nivell",
+      "B": "Isohipses",
+      "C": "Isohietes",
+      "D": "Les respostes a) ib) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim105_q32",
+    "simulacre": "Simulacre 105",
+    "num_pregunta": 32,
+    "statement": "És l’angle que formen els paral·lels amb l’eix equatorial:",
+    "correct": "B",
+    "explanation": "Els meridians es designen amb la magnitud angular anomenada longitud, que expressa l’angle que formen amb el\nmeridià que es pren com a referència i alqual se liassigna el valor 0º.\n\nPer denominar els paral·lels s’utilitzauna magnitud angular anomenada latitud,que expressa l’angle que formen amb\nl’eixequatorial. L’Equador és elparal·lel que determina l’origen de les latituds i licorrespon un angle de 0 graus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 105",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Altitud",
+      "B": "Latitud",
+      "C": "Longitud",
+      "D": "Aptitud"
+    }
+  },
+  {
+    "id": "academia_sim106_q33",
+    "simulacre": "Simulacre 106",
+    "num_pregunta": 33,
+    "statement": "Si representem un bagul de 2 metres de llargada a escala 1:1.000, quant medirà el dibuix resultant?",
+    "correct": "B",
+    "explanation": "2 metres x (1/1.000) = 2/1.000 = 0,002 m = 2 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Medirà 2 decàmetres",
+      "B": "Medirà 2 mil·límetres",
+      "C": "Medirà 2 centímetres",
+      "D": "Medirà 20 centímetres"
+    }
+  },
+  {
+    "id": "academia_sim109_q78",
+    "simulacre": "Simulacre 109",
+    "num_pregunta": 78,
+    "statement": "Amb quines unitats s'indica habitualment la declinació magnètica?",
+    "correct": "C",
+    "explanation": "La declinació magnètica és l'angle entre el nord geogràfic (veritable) iel nord magnètic, ies mesura en graus, minuts, i\nsegons amb una direcció especificada com est (E) o oest (W).\n\n\n\n\n 20\nAcadèmia Bombers Simulacre 109",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 109",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En Radians (rad)",
+      "B": "Amb un percentatge (%) www.academiabombers.com",
+      "C": "En graus, minuts, isegons",
+      "D": "En quadrants"
+    }
+  },
+  {
+    "id": "academia_sim111_q31",
+    "simulacre": "Simulacre 111",
+    "num_pregunta": 31,
+    "statement": "En el mapa comarcal del Baix Llobregat d’escala 1:50.000, la distància entre els cims del Puig Madrona del Papiol i el de Sant Pere Màrtir de Sant Just Desvern és de 18 centímetres. Quina és la distància real en metres entre aquests dos cims?",
+    "correct": "A",
+    "explanation": "Distància al mapa: 18 centímetres.\n\nEscala: 1 cm = 50.000 cm.\n\nDistància real en centímetres:\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 111\n\n\n\n18 cm × 50.000 cm = 900.000 cm\n\nConvertim centímetres a metres:\n\n900.000 cm /100 = 9.000 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "9.000 metres",
+      "B": "3.600 metres",
+      "C": "900 metres",
+      "D": "1.800 metres"
+    }
+  },
+  {
+    "id": "academia_sim114_q23",
+    "simulacre": "Simulacre 114",
+    "num_pregunta": 23,
+    "statement": "Què defineix el gruix d'un maó?",
+    "correct": "C",
+    "explanation": "Llarg: longitud\nTravés: amplada\nGruix: altura\n\nUNE-EN 771-1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 114",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La longitud",
+      "B": "L'amplada",
+      "C": "L'alçada",
+      "D": "El volum"
+    }
+  },
+  {
+    "id": "academia_sim115_q38",
+    "simulacre": "Simulacre 115",
+    "num_pregunta": 38,
+    "statement": "Després d'haver actuat en un servei a Vidreres, ens arriba una nova incidència a Llagostera. Quina carretera agafarem per assegurar un desplaçament eficient?",
+    "correct": "A",
+    "explanation": "L'autovia C-35 o Autovia Vidreres-Llagostera és una autovia que uneix Vidreres iLlagostera. Amb una longitud de 15 km,\ncomença en l'enllaç de l'Autopista del Mediterrani AP-7, a Massanet de la Selva, ifinalitza a Llagostera amb la connexió\nde l'autovia C-65 cap a Sant Feliu de Guíxols.\n www.academiabombers.com",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 115",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-35",
+      "B": "La C-66",
+      "C": "La C-58",
+      "D": "La C-63"
+    }
+  },
+  {
+    "id": "academia_sim117_q2",
+    "simulacre": "Simulacre 117",
+    "num_pregunta": 2,
+    "statement": "Quina afirmació relativa als rius de Catalunya és INCORRECTA?",
+    "correct": "A",
+    "explanation": "El Fluvià és un riu del Pirineu Oriental que té elseu origen a la Garrotxa, concretament al Grau d’Olot, a uns 920 metres\nd’altitud.Travessa la plana d’en Bas ipassa per Olot; a Sant Joan les Fonts canvia laseva direcció cap a llevant.\nFinalment, desemboca algolf de Roses, alterme de Sant Pere Pescador, després de recórrer localitats com Castellfollit\nde la Roca, Besalú, Esponellà iTorroella de Fluvià. La seva longitud totalés de 97,2 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 117",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ElFluvià travessa el Massís de Cadiretes",
+      "B": "Elpantà de la Llosa del Cavall pertany al riuCardener",
+      "C": "El Bastareny és un afluentdel Llobregat",
+      "D": "L'Arijaés un riusituatal límitde les comarques delRipollès ielBerguedà"
+    }
+  },
+  {
+    "id": "academia_sim118_q40",
+    "simulacre": "Simulacre 118",
+    "num_pregunta": 40,
+    "statement": "En una projecció UTM, l’origenwww.academiabombers.comdelfuscorresponalpuntd’interseccióentreelmeridiàcentral i l’Equador. Quines són les seves coordenades d'origen segons ens referim a l’hemisferi nord o sud?",
+    "correct": "A",
+    "explanation": "Les seves coordenades varien segons ens referim a l’hemisferi nord o sud:\n\nNord: X = 500 km, Y = 0 Km\n\nSud: X = 500 km, Y = 10000 Km",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 118",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord: X = 500 km, Y = 0 Km, Sud: X = 500 km, Y = 10.000 Km",
+      "B": "Nord: X = 0 km, Y = 10.000 Km, Sud: X = 10.000 km, Y = 0 Km",
+      "C": "Nord: X = 0 km, Y = 500 Km, Sud: X = 10.000 km, Y = 500 Km",
+      "D": "Nord: X = 10.000 km, Y = 0 Km, Sud: X = 0 km, Y = 10.000 Km"
+    }
+  },
+  {
+    "id": "academia_sim122_q6",
+    "simulacre": "Simulacre 122",
+    "num_pregunta": 6,
+    "statement": "Si parlem de la projecció UTM (Projecció Transversal de Mercator), verticalment l'eix es divideix en 20 zones. Quina és la latitud de les zones \"C\" i \"M\"?",
+    "correct": "A",
+    "explanation": "A cada fus es defineixen 20 zones o bandes (de 8º de latitud,excepte la X amb 12º).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8° en ambdós casos",
+      "B": "6° en ambdós casos",
+      "C": "6 i12°, respectivament",
+      "D": "12 i 6°,respectivament"
+    }
+  },
+  {
+    "id": "academia_sim122_q46",
+    "simulacre": "Simulacre 122",
+    "num_pregunta": 46,
+    "statement": "Què caracteritza a un mapa planimètric?",
+    "correct": "A",
+    "explanation": "El mapa és larepresentació bidimensional, a escala, d’un conjunt de dades seleccionades (relleu, tipus de sòls,\nvegetació, roques, etc.).\n\nPlanimètric: no representa el relleu.\nTopogràfic: representa detalladament elrelleu de la superfície terrestre on s’hi recull amb detall tots els elements naturals\niantròpics, de manera que facilitael coneixement d’una porció de terreny sense necessitat de veure’l.\nAltimetria: part del mapa que representa el relleu a través de corbes de nivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No representa el relleu",
+      "B": "Representa el relleu a través de colors",
+      "C": "Representa detalladament elrelleu de la superfície terrestre on s’hirecull amb detall tots els elements naturals i antròpics, de manera que facilitael coneixement d’una porció de terreny sense necessitat de veure’l",
+      "D": "Representa el relleu a través de corbeswww.academiabombers.comdenivell"
+    }
+  },
+  {
+    "id": "academia_sim125_q72",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 72,
+    "statement": "Segons els límits generals que estableix la normativa, quina és l'amplada màxima d'un autobús o autocar?",
+    "correct": "C",
+    "explanation": "Les dimensions d’un autobús o autocar poden variar segons la configuració, però la normativa estableix uns límits\ngenerals: una alçada màxima de 4 metres, una amplada de fins a 2,55 metres (2,60 m en casos especials) iuna longitud\nque oscil·la entre 13,5 i18,75 metres, segons el nombre d’eixos o si és articulat. Pel que fa al pes, un autocar\nconvencional de 55 places pot arribar a les 18 tones de pes màxim autoritzat (PMA).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2,20 metres (2,40 m en casos especials)",
+      "B": "2,40 metres (2,50 m en casos especials)",
+      "C": "2,55 metres (2,60 m en casos especials)",
+      "D": "2,75 metres (2,90 m en casos especials)"
+    }
+  },
+  {
+    "id": "academia_sim126_q69",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 69,
+    "statement": "En quina part de la motoserra s'indica la longitud de l'espasa?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alprotector de lamà dreta",
+      "B": "A lafunda de l'espasa",
+      "C": "Al costat de l'adhesiu amb la normativa de seguretat",
+      "D": "A l'espasa"
+    }
+  },
+  {
+    "id": "academia_sim127_q24",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 24,
+    "statement": "Quina de les següents és una característica de la Cartografia Operativa d'Emergències (COE)?",
+    "correct": "D",
+    "explanation": "El Cos de Bombers de la Generalitat de Catalunya ha desplegat laseva pròpia cartografia, anomenada Cartografia\nOperativa d'Emergències (COE), que permet l’aproximació, l’anàlisii el treballdurant l’emergència, així com l’inventari\nd’infraestructures d’extinció d’incendis com són els camins forestals iels punts d’aigua.\n\nLa COE es distribueix en format paper (també hi és en format digitalal SIG-Bombers). Les característiques d’aquesta\ncartografia són:\n\n− Cobertura de tot elterritoride Catalunya\n− Escala 1:25.000\n− Equidistància 10 m\n− Doble sistema de coordenades: UTM i geogràfiques\n− Datum ETRS89\n− Sistema de posicionament ide referència complementari, el codi SOC\n− Representació clara de les infraestructures operatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presenta una escala 1:50.000",
+      "B": "Permet millorar la gestió i lacoordinació operativa a partirde diferents llenguatges operatius",
+      "C": "Presenta una equidistància 20 m",
+      "D": "Utilitzael datum ETRS89"
+    }
+  },
+  {
+    "id": "academia_sim127_q35",
+    "simulacre": "Simulacre 127",
+    "num_pregunta": 35,
+    "statement": "En un mapa topogràfic, un equip de bombers observa que les corbes de nivell apareixen molt juntes en una determinada zona. Què indica aquesta disposició?",
+    "correct": "B",
+    "explanation": "Pendent: La separació entre corbes ens dona idea del pendent del terreny. Allíon les línies estan molt juntes elpendent\nés pronunciat, l’altitudaugmenta o disminueix una equidistància en poc espai. Allí on les corbes de nivell estan molt\nespaiades indica pendent suau, elterreny és més aviat pla, cal recórrer molta distància per pujar o baixar una\nequidistància. La mesura real del pendent depèn de l’escala ila equidistància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que el terreny és pràcticament pla",
+      "B": "Que el pendent és pronunciat",
+      "C": "Que l’equidistància entre corbes és menor en aquesta zona",
+      "D": "Que l’altitudno varia en aquesta zona"
+    }
+  },
+  {
+    "id": "academia_sim128_q37",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 37,
+    "statement": "Un aspirant a bomber, en una pràctica a l'ISPC, està treballant amb un sistema de coordenades geogràfiques inecessita determinar la latitud d’un punt situat sobre la superfície terrestre. Quin element de la xarxa de coordenades haurà d’utilitzar?",
+    "correct": "A",
+    "explanation": "El sistema de coordenades més conegut és el de les coordenades geogràfiques, basat en una graella de línies\nimaginàries: meridians iparal·lels.\n\n− Els paral·lels són cercles concèntrics iparal·lels a l'equador. S'utilitzen per a mesurar lalatitud, que és l'angle d'un punt\nrespecte a l'equador.\n\n− Els meridians són línies que uneixen elpol Nord amb el pol Sud ique són perpendiculars als paral·lels. S'utilitzen per a\nmesurar la longitud, que és l'angle d'un punt respecte al Meridià de Greenwich (el meridià 0).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T14 - Cartografia",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els paral·lels, perquè permeten mesurar lalatitud, que és l’angle d’un punt respecte de l’equador",
+      "B": "Els meridians, perquè són líniesperpendiculars als paral·lels, que permeten determinar lalatitud",
+      "C": "Els meridians il’equador, perquè lalatitud s’obté comparant simultàniament totes dues línies de referència",
+      "D": "Els paral·lels, que són líniesque uneixen elpol Nord amb el pol Sud i que són perpendiculars als meridians 5 Acadèmia Bombers Simulacre 128"
+    }
+  }
+]

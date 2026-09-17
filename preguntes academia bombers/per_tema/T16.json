@@ -1,0 +1,42 @@
+[
+  {
+    "id": "academia_sim41_q59",
+    "simulacre": "Simulacre 41",
+    "num_pregunta": 59,
+    "statement": "Quina puntuació obtindrà una víctima a l'escala del coma de Glasgow en elmillor dels casos?",
+    "correct": "A",
+    "explanation": "Sino respon a cap tipus d'estímulbombersobtindriaunpuntacadascun dels tresparàmetres: obertura ocular (1) + resposta\nverbal (1)+ resposta motriu (1).\n\n60.- www.academiabombers.com\n...ilihade prestar l'assistència tècnica icientíficanecessària per aldesenvolupament de les seves competències (art.\n8.4).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 41",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quinze punts",
+      "B": "Tres punts",
+      "C": "Cinc punts",
+      "D": "Tretze punts"
+    }
+  },
+  {
+    "id": "academia_sim128_q34",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 34,
+    "statement": "Dins del Pla d'acció de la intervenció (PAI), què caracteritza el Pla B?",
+    "correct": "D",
+    "explanation": "Pla A: És l’opció prioritàriaquan l’estat de lavíctima és estable ies disposa de temps i condicions per feruna extracció\ntècnicament segura irespectuosa amb la seva situació clínica. Consisteix en una maniobra estructurada iprogressiva,\nque implica una gran generació d’espais mitjançant tècniques com ara l’obertura de portes, la retirada de muntants,\nsostres o seients, amb l’objectiu de facilitarl’abordatge sanitari dins del vehicle i minimitzar el riscde lesions secundàries\ndurant l’extracció.\n\nPla B: És l’opció prevista en paral·lel alPla A, i es posa en marxa en cas que es produeixi un agreujament sobtat de\nl’estatde la víctima o una situació sobrevinguda que obligui a reduir eltemps d’extracció de lapersona afectada. Aquest\npla ha d’estar preestablert i consensuat prèviament amb tots els actuants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consiste en una maniobra d’atenció a la víctima dins del vehicle quan la seva extracció immediata no és possible",
+      "B": "És el pla que decideix el responsable del servei sanitari un cop es produeixi un agreujament sobtat de l’estat de la víctima",
+      "C": "Consisteix en una maniobra estructurada iprogressiva, que implica una gran generació d’espais mitjançant tècniques com ara l’obertura de portes, laretirada de muntants, sostres o seients",
+      "D": "És elpla previst en paral·lel alPla A per sil'estatde la víctima s'agreuja"
+    }
+  }
+]

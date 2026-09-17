@@ -1,0 +1,3098 @@
+[
+  {
+    "id": "racord_190f47dd-a137-408e-a0d0-4b114881c70f",
+    "statement": "Quin avantatge aporta l’ús de l’alta pressió en l’extinció d’incendis forestals?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.1. Línia d’aigua amb estesa de mànegues\n\nL’ús de l’alta pressió permet una major capacitat de penetració i eficiència en l’extinció, reduint el consum d’aigua i millorant el control del foc en escenaris de vegetació densa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elimina la necessitat d’accedir amb vehicle o d’estendre línies de mànega",
+      "B": "Augmenta la penetració i l’eficiència, redueix el consum d’aigua i millora el control en vegetació densa",
+      "C": "Substitueix completament les tasques posteriors de refrescament i remat",
+      "D": "Permet atacar directament qualsevol longitud de flama sense limitacions"
+    }
+  },
+  {
+    "id": "racord_64b8342c-cc4b-41a1-ad79-9494615ee45e",
+    "statement": "En què es basa la seguretat en incendis forestals al Cos de Bombers?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.1. Una responsabilitat compartida: seguretat a tots els nivells\n\nLa seguretat en incendis forestals al Cos de Bombers es basa en la combinació de mesures individuals i organitzatives que busquen minimitzar els riscos derivats de la falta d’equipament, de comunicació o de coordinació, així com d’una consciència insuficient del que està passant al nostre entorn.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la combinació de mesures individuals i organitzatives destinades a minimitzar els riscos",
+      "B": "En la supressió de qualsevol risc mitjançant l’augment dels recursos disponibles",
+      "C": "Únicament en l’organització jeràrquica temporal del comandament",
+      "D": "Exclusivament en la responsabilitat individual de cada membre de la dotació"
+    }
+  },
+  {
+    "id": "racord_263e940e-4a5c-4208-9991-97fa98d956ef",
+    "statement": "Quin any es crea el Grup de Recolzament d'Actuacions Forestals?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\n1999: Creació del GRAF (Grup de Recolzament d’Actuacions Forestals) \nAmb l’acumulació de coneixement i la necessitat de maniobres especialitzades, neix el GRAF, una unitat tècnica d’alt nivell que introdueix l’anàlisi, el foc tècnic i la lectura del comportament del foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1992",
+      "B": "1986",
+      "C": "1999",
+      "D": "2003"
+    }
+  },
+  {
+    "id": "racord_79756787-15a3-442a-b2ec-707fa54cdeeb",
+    "statement": "Quina és la caracterísitca principal dels incendis de primera generació?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La simultaneïtat de diversos incendis en nuclis de població.",
+      "B": "La presència d’habitatges i infraestructures dins del bosc.",
+      "C": "La continuïtat del combustible en boscos densos o paisatges abandonats.",
+      "D": "La capacitat de generar focus secundaris a gran distància."
+    }
+  },
+  {
+    "id": "racord_29651a3b-18e9-4b5a-9496-3addaca4149c",
+    "statement": "Quines mesures de seguretat s’han d’aplicar davant el risc de canvis bruscos en el comportament del foc?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nMesures: mantenir l'observació contínua de la columna de fum, identificar punts de canvi, evitar maniobres en zones tancades o sense rutes d’escapament, aplicar LACES de forma estricta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aplicar LACES només quan el foc hagi superat la capacitat d’extinció",
+      "B": "Observar contínuament la columna, identificar punts de canvi, evitar zones sense escapament i aplicar estrictament LACES",
+      "C": "Mantenir la maniobra encara que no hi hagi rutes d’escapament, sempre que existeixi comunicació",
+      "D": "Concentrar tota l’observació en el front de flames i prescindir de la columna de fum"
+    }
+  },
+  {
+    "id": "racord_9a3b8b34-15ec-4ab7-8f68-e677701891fb",
+    "statement": "Quins factors han condicionat la transformació profunda del territori?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nÉs el resultat d’una transformació profunda del territori, condicionada per factors socials, econòmics i ambientals que han alterat l’estructura dels paisatges i el seu comportament davant el foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Factors socials, econòmics i ambientals.",
+      "B": "Factors únicament polítics i administratius.",
+      "C": "Factors exclusivament meteorològics i topogràfics.",
+      "D": "Factors hidràulics, industrials i demogràfics."
+    }
+  },
+  {
+    "id": "racord_a97d9355-d6d4-4388-93b3-a74db6ee86ac",
+    "statement": "Què presenta cada generació d’incendis forestals?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals\nCada generació respon a unes característiques específiques que dificulten la capacitat d’extinció dels equips d’emergències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un únic comportament independent del territori i del clima.",
+      "B": "Unes característiques idèntiques a les generacions anteriors.",
+      "C": "Unes característiques específiques que dificulten la capacitat d’extinció.",
+      "D": "Una reducció progressiva de la intensitat i la propagació."
+    }
+  },
+  {
+    "id": "racord_b3fcd6b8-d840-48cd-8bb0-fcf1b7e83b84",
+    "statement": "Quins requisits han de complir les rutes d’escapament?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nAquestes rutes han d’estar planificades, senyalitzades i dimensionades d’acord amb la distància al front i la velocitat de propagació prevista. A més, és imprescindible avaluar si ofereixen prou temps per evacuar amb seguretat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han d’estar planificades, senyalitzades, dimensionades i oferir prou temps per evacuar amb seguretat",
+      "B": "Poden improvisar-se quan el front arribi a la zona de treball",
+      "C": "Només s’han de dimensionar segons el nombre de vehicles disponibles",
+      "D": "No cal senyalitzar-les si la dotació disposa de comunicacions de ràdio"
+    }
+  },
+  {
+    "id": "racord_0696c998-74a4-40a8-b39e-73c0e6e51283",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de l’execució de maniobres de foc tècnic.",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.2. Foc tècnic\n\nHa de ser executat únicament per personal format en foc tècnic i amb validació del cap d’intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’iniciar sempre abans d’analitzar el comportament previsible de l’incendi",
+      "B": "No requereixen coneixement especialitzat si existeix una línia d’aigua propera",
+      "C": "Les pot executar qualsevol membre de la intervenció sense autorització prèvia",
+      "D": "Només les pot executar personal format en foc tècnic i amb la validació del cap d’intervenció"
+    }
+  },
+  {
+    "id": "racord_fcb68330-4a09-45da-b343-40b3cd057a55",
+    "statement": "Per quins efectes el vent actua com a accelerador de la velocitat del foc?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.1. Fonaments del sistema CPS\n\nVent: Igual que el pendent, és un accelerador de la velocitat del foc, tant pel seu efecte sobre la radiació, l’empenta i l’oxigenació del foc, com en el dessecament dels combustibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè anul·la el pendent i limita la disponibilitat d’oxigen",
+      "B": "Per l’efecte sobre la radiació, l’empenta, l’oxigenació i el dessecament dels combustibles",
+      "C": "Perquè redueix sempre la radiació i incrementa la humitat dels combustibles",
+      "D": "Perquè impedeix la formació de focus secundaris i estabilitza la cua"
+    }
+  },
+  {
+    "id": "racord_959ed42f-55b8-440e-b260-4bb80e441147",
+    "statement": "Quina conseqüència ha tingut la dualitat entre la millora de l’extinció i l’acumulació de vegetació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nAquesta dualitat ha generat un escenari de gran complexitat, on els grans incendis forestals (GIF) poden superar en poques hores tota la capacitat operativa disponible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha reduït la intensitat dels incendis no controlats.",
+      "B": "Ha eliminat la possibilitat de grans incendis forestals.",
+      "C": "Ha garantit la capacitat operativa davant qualsevol incendi.",
+      "D": "Ha generat un escenari de gran complexitat."
+    }
+  },
+  {
+    "id": "racord_44e33823-ef03-4e18-b914-971dc0fae135",
+    "statement": "En quin tipus de foc de capçades el foc es propaga simultàniament per la superfície i per les capçades?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.4.3. Focs de capçades\n\nFoc de capçades passiu: És quan el foc propaga per la superfície i per les capçades simultàniament, i per tant el combustible superficial i les capçades cremen alhora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En el foc de capçades passiu.",
+      "B": "En el foc de capçades actiu.",
+      "C": "En el foc de subsòl.",
+      "D": "En l’antorxeig."
+    }
+  },
+  {
+    "id": "racord_e5e933d6-f065-4433-a626-a05305fbc3d8",
+    "statement": "Quines zones afecten principalment els incendis agrícoles?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.1. Incendi agrícola\n\nSón incendis que afecten zones de cultiu, especialment camps de cereal sec (blat, ordi, civada...), restes agrícoles o cremes mal gestionades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament urbanitzacions situades a la franja de transició entre bosc i àrea habitada.",
+      "B": "Espais verds situats dins de nuclis urbans consolidats, com parcs i jardins.",
+      "C": "Zones de cultiu, especialment camps de cereal sec, restes agrícoles o cremes mal gestionades.",
+      "D": "Masses vegetals contínues de caràcter silvestre, exclusivament en zones de muntanya."
+    }
+  },
+  {
+    "id": "racord_4c0fb8c5-f5f8-4ff1-91e9-7013485b4937",
+    "statement": "Com augmenten els períodes de risc a causa del canvi climàtic?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nEls efectes del canvi climàtic estan tenint una gran afectació sobre els boscos de Catalunya, canviant les condicions meteorològiques i augmentant els períodes de risc, tant en duració com en intensitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmenten només en intensitat, però no en duració.",
+      "B": "Augmenten tant en duració com en intensitat.",
+      "C": "Augmenten només en duració, però no en intensitat.",
+      "D": "Augmenten en freqüència, però amb menys duració i intensitat."
+    }
+  },
+  {
+    "id": "racord_f4522b10-5ad5-4d35-bf45-c6f6cb8161d8",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les etapes de remat i rereguarda:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.4.2. Etapa de remat i 4.4.3. Etapa de rereguarda\n\nUn cop el foc ja està controlat comença l’etapa de rematada, que té com a objectiu eliminar tots els focus calents i restes actives dins del perímetre per assegurar que l’incendi no es reactivi. Aquesta etapa finalitza quan l’incendi es dona per extingit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’etapa de remat comença abans que el foc estigui controlat i la rereguarda finalitza quan queda estabilitzat",
+      "B": "L’etapa de rereguarda té com a finalitat evitar la reactivació del foc",
+      "C": "La rematada pretén eliminar els focus calents i les restes actives dins del perímetre",
+      "D": "La rereguarda finalitza quan l’incendi es dona per extingit"
+    }
+  },
+  {
+    "id": "racord_57127cd1-413b-4c9a-b281-b62ba0272362",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els sistemes internacionals de denominació dels sectors.",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.2.1. Criteri de numeració: sistema de parells i senars\n\nFrança: Divideixen l’incendi en zones anomenades “Zonage”, numerades o anomenades segons la topografia (exemple: Zone Nord, Zone Sud). Estats Units: El perímetre es divideix en divisions (Divisions A, B, C...), generalment assignades a lletres de l’alfabet en sentit horari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A França i als Estats Units s’aplica obligatòriament el mateix sistema numèric que a Catalunya.",
+      "B": "A França els flancs s’identifiquen exclusivament amb números parells i als Estats Units amb números imparells.",
+      "C": "Als Estats Units les divisions s’identifiquen únicament amb punts cardinals i mai amb lletres.",
+      "D": "A França s’utilitzen zones anomenades «Zonage» i als Estats Units el perímetre es divideix generalment en divisions identificades amb lletres."
+    }
+  },
+  {
+    "id": "racord_d8320fae-525c-4b31-a514-0cdcf52dfe18",
+    "statement": "Quins elements integren l’acrònim LACES segons el manual?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nEl protocol LACES (acrònim de Lookout, Anchor point, Awareness, Communications, Escape routes, Safety zones) o OACEL en castellà, és un model universalment reconegut que estableix els 5 paràmetres per a la seguretat en qualsevol maniobra forestal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Lookout, Attack, Control, Extinction i Suppression",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Location, Access, Coordination, Equipment i Strategy",
+      "D": "Lookout, Anchor point, Awareness, Communications, Escape routes i Safety zones"
+    }
+  },
+  {
+    "id": "racord_f5da3bde-944f-4ceb-847e-e3bee37b0b50",
+    "statement": "Com s’ha d’emplaçar l’autobomba durant la fase en què el vehicle actua com a eina de protecció?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.5. Maniobra d’autoprotecció en cas d’atrapament d’autobomba\n\nEl vehicle s’emplaça de manera que la cabina quedi a l’ombra del foc, amb una orientació de 45º a 60º respecte al front de flames, amb línia de 25 mm pressuritzada, la llança a la zona d’ombra, i materials que obstaculitzin el pas d’aire calent per sota.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb la part posterior dirigida al front i les portes obertes per facilitar la ventilació",
+      "B": "Amb la cabina a l’ombra del foc, orientada entre 45° i 60° respecte del front i amb una línia de 25 mm pressuritzada",
+      "C": "Amb la cabina encarada perpendicularment al front i sense línia pressuritzada",
+      "D": "En qualsevol orientació, sempre que la dotació abandoni immediatament la cabina"
+    }
+  },
+  {
+    "id": "racord_49d08abb-5c46-46dc-8b40-d5c603e06f59",
+    "statement": "Quin és l’origen del Campbell Prediction System (CPS)?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3. Sistema bàsic d’anàlisis d’incendis forestals (CPS)\n\nEl Campbell Prediction System (CPS), també conegut com a sistema d’alineació de forces, neix als Estats Units a finals dels anys 80 com una proposta del bomber i instructor Doug Campbell, membre del U.S. Forest Service.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Va ser desenvolupat com un sistema de modelització informàtica de laboratori",
+      "B": "Va néixer als Estats Units a finals dels anys vuitanta com una proposta de Doug Campbell",
+      "C": "Va néixer a Catalunya l’any 1999 com una proposta exclusiva del GRAF",
+      "D": "Va ser creat a França durant els anys cinquanta per sectoritzar els incendis"
+    }
+  },
+  {
+    "id": "racord_9909168a-d189-4ba3-9789-57425958d90b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del contrafoc:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.2. Foc tècnic\n\nContrafoc: És una maniobra de foc tècnic que consisteix a encendre un nou front de foc perquè avanci contra l’incendi principal, de manera que tots dos competeixin pel mateix combustible i redueixin la intensitat del foc original. Quan els fronts es troben, les columnes es neutralitzen i el foc perd capacitat de propagació. Tot i això, és una maniobra complexa i de risc, ja que genera altes intensitats, sacrifica el terreny entre fronts i només es pot executar en finestres d’actuació molt petites.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una maniobra complexa i de risc que només es pot executar en finestres molt petites",
+      "B": "És una maniobra senzilla, de baixa intensitat i executable sense una finestra d’actuació limitada",
+      "C": "Consisteix a encendre un nou front que avanci contra l’incendi principal",
+      "D": "Els dos fronts competeixen pel mateix combustible"
+    }
+  },
+  {
+    "id": "racord_82e57b52-a2ef-4f81-bcb0-74b5dffd55f6",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte del condicionament d’espais oberts.",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.2. Eines manuals (batefocs, rasclet, pala forestal, motxilles d’aigua)\n\nÉs una maniobra complementària que consisteix a crear o ampliar clars o zones obertes a partir de l’eliminació del combustible. Redueix la continuïtat vegetal i ajuda a millorar l’eficàcia d’altres maniobres o la seguretat de punts concrets.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Té com a objectiu principal incrementar la intensitat del foc davant d’una línia de defensa",
+      "B": "Consisteix a acumular combustible dins d’un clar perquè actuï com a punt d’ancoratge",
+      "C": "Només es pot executar després que l’incendi hagi estat declarat extingit",
+      "D": "Consisteix a crear o ampliar zones obertes eliminant combustible per reduir la continuïtat vegetal"
+    }
+  },
+  {
+    "id": "racord_fd898bf4-4a91-4d01-af10-08e4e37cb0d4",
+    "statement": "Quina finalitat té una crema d’eixamplament?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.2. Foc tècnic\n\nLa crema d’eixamplament és una maniobra de foc tècnic que té per objectiu eliminar, mitjançant foc controlat, el combustible situat entre un ancoratge i el front de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Refredar el combustible mitjançant escuma abans de l’arribada del front",
+      "B": "Encendre un front perquè avanci directament contra l’incendi principal",
+      "C": "Retirar mecànicament tot el combustible fins a deixar exposat el sòl mineral",
+      "D": "Eliminar amb foc controlat el combustible situat entre un ancoratge i el front de l’incendi"
+    }
+  },
+  {
+    "id": "racord_70d217bf-20f8-4edb-bfde-0102dfb4bcd3",
+    "statement": "Què indica una columna de fum compacta i definida?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2.1. Elements clau de la columna de fum\n\nColumna compacta i definida: molta energia, foc intens, elevació convectiva forta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un foc feble, dispers i sense elevació convectiva",
+      "B": "Una combustió limitada exclusivament a materials humits",
+      "C": "Molta energia, un foc intens i una elevació convectiva forta",
+      "D": "L’absència de risc de focus secundaris"
+    }
+  },
+  {
+    "id": "racord_f5f92c6e-07ec-4a3c-8547-ce53c768c635",
+    "statement": "Indica quina de les següents afirmacions NO és correcte respecte els incendis forestals, l'evolució del paisatge i el Cos de Bombers:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nA les darreres dècades, Catalunya ha experimentat una evolució paral·lela en dos sentits: \na) Una millora molt notable en la capacitat d’extinció i resposta operativa. \nb) Una acumulació creixent de vegetació (combustible), causada principalment per \nl’abandonament progressiu del món rural..",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els episodis de sequera limiten l'ús de l'aigua en les tasques d'extinció.",
+      "B": "Hi ha hagut una millora notable en la capacitat d'extinció del Cos de Bombers.",
+      "C": "L'abandonament rural ha provocat una acumulació del combustible als boscos.",
+      "D": "S'ha millorat la resposta operativa."
+    }
+  },
+  {
+    "id": "racord_c2f117ed-dd0c-41e1-b895-d2fa37f2efe7",
+    "statement": "Quin patró ha seguit la resposta institucional després de cada gran incendi a Catalunya?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural\nTot i els avenços, la resposta institucional ha tingut un patró clar: després de cada gran incendi, s’han creat més recursos, més unitats, més formació i millor equipament per extingir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disminuir el nombre d’unitats especialitzades i els equipaments.",
+      "B": "Crear més recursos, més unitats, més formació i millor equipament per extingir.",
+      "C": "Prioritzar la gestió del combustible per sobre de l’extinció.",
+      "D": "Reduir els recursos operatius i limitar la formació forestal."
+    }
+  },
+  {
+    "id": "racord_8c8128b6-0b07-4856-ba01-e563aa413115",
+    "statement": "En quines circumstàncies poden col·lapsar sobtadament els arbres cremats o inestables?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nEls arbres cremats, afectats per fongs o amb estructures inestables poden col·lapsar sobtadament, especialment després del pas del front de foc, per efectes del vent, o com a conseqüència de descàrregues dels mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament durant les maniobres de foc tècnic executades de nit",
+      "B": "Només quan l’arbre no presenta cap afectació per foc, fongs o inestabilitat",
+      "C": "Únicament abans de l’arribada del front i sempre en absència de vent",
+      "D": "Després del pas del front, per efecte del vent o per descàrregues dels mitjans aeris"
+    }
+  },
+  {
+    "id": "racord_4c1da9f7-42eb-41b8-a562-817132bdfcb6",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del Lookout o guaita:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nAquest observador ha d’estar ben posicionat per tenir una perspectiva global, ja sigui integrat dins l’equip o situat a distància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot estar integrat dins de l’equip si la posició és adequada",
+      "B": "S’ha de situar obligatòriament dins de l’equip, encara que des d’allà no disposi d’una perspectiva global",
+      "C": "Pot situar-se a distància quan això li permet una observació millor",
+      "D": "Ha d’estar ben posicionat per obtenir una perspectiva global"
+    }
+  },
+  {
+    "id": "racord_7e21db9f-4e42-4c9b-a008-e0d997510807",
+    "statement": "Quin és l’objectiu de les maniobres d’atac directe?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1. Maniobres d’atac directe\n\nSón aquelles que s’apliquen directament sobre el front de flama o la zona de combustió activa. L’objectiu és aturar la propagació del foc en aquell moment i lloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir el front actiu fins que arribi a una línia natural de defensa",
+      "B": "Aturar la propagació del foc en aquell moment i lloc",
+      "C": "Eliminar preventivament tot el combustible situat a gran distància del front",
+      "D": "Redirigir sempre l’incendi cap a una zona prèviament seleccionada"
+    }
+  },
+  {
+    "id": "racord_b0405c48-2623-4b16-8444-2fbf2a165676",
+    "statement": "Com es va concebre el GRAF des del seu origen?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nDes del seu origen, el GRAF no es va concebre només com un grup d’intervenció, sinó com una aposta estratègica per l’anàlisi, la prevenció i la innovació operativa en la lluita contra el foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com un grup administratiu sense funcions operatives ni preventives.",
+      "B": "Com una unitat destinada únicament a l’extinció amb línies d’aigua.",
+      "C": "Com una aposta estratègica per l’anàlisi, la prevenció i la innovació operativa.",
+      "D": "Com una unitat dedicada exclusivament a la investigació de causes."
+    }
+  },
+  {
+    "id": "racord_02a2e076-9d7e-49f0-9e1a-af42a255b002",
+    "statement": "Cap a on tendeixen a dirigir-se els vents quan una tempesta propera encara s’està formant?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.4. Incendis forestals amb tempesta propera\n\nQuan la tempesta encara s’està formant, els vents tendeixen a entrar cap al nucli tempestuós, de manera que el foc pot ser “atret” cap a la tempesta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap a l’exterior del nucli en totes les direccions de manera uniforme",
+      "B": "Cap al nucli tempestuós, i el foc pot ser atret cap a la tempesta",
+      "C": "En sentit contrari al nucli, sense afectar la propagació del foc",
+      "D": "Exclusivament en sentit descendent pel vessant"
+    }
+  },
+  {
+    "id": "racord_608eee13-43a3-4145-9d4b-edd86b482fdd",
+    "statement": "Quins factors poden provocar canvis bruscos en el comportament d’un incendi de vegetació?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nEls incendis de vegetació poden evolucionar ràpidament a causa de factors com el vent, la topografia o l'alineació de forces.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La quantitat d’escuma disponible, el nombre de sectors i la fase de remat",
+      "B": "La distància fins al parc, l’antiguitat del vehicle i la durada del torn",
+      "C": "El vent, la topografia i l’alineació de forces",
+      "D": "La marca dels EPI, el color de la columna i el nombre d’hidrants"
+    }
+  },
+  {
+    "id": "racord_ac0506af-4687-494f-a96f-c1d65f8c7c4b",
+    "statement": "Quina problemàtica sorgeix amb els incendis de quarta generació?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La propagació ràpida sense afectació sobre nuclis habitats.",
+      "B": "La interfase urbana-forestal i l’amenaça directa a habitatges i infraestructures.",
+      "C": "La simultaneïtat de grans incendis en diferents territoris.",
+      "D": "La continuïtat del combustible en paisatges rurals abandonats."
+    }
+  },
+  {
+    "id": "racord_28b7d73f-ba86-4a71-8dc7-5dd938ed44e9",
+    "statement": "En un incendi situat a la franja de transició entre una zona forestal i una urbanització, quina doble prioritat operativa s’ha de considerar?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.3. Incendi d’interfície urbà-forestal (IUF)\n\nPlantegen una doble prioritat operativa: control de la propagació i protecció de les persones i estructures.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La protecció dels vehicles d’emergència i el manteniment de totes les vies obertes.",
+      "B": "L’extinció completa del perímetre abans d’adoptar mesures sobre la població.",
+      "C": "La determinació de la causa i la protecció exclusiva de la massa forestal.",
+      "D": "El control de la propagació i la protecció de les persones i les estructures."
+    }
+  },
+  {
+    "id": "racord_e508cb37-3259-40e8-91dc-88aa3c402083",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb els focus secundaris:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.6. Focus secundaris\n\nSón petits incendis separats del front principal, causats per projecció de brases o partícules incandescents. Poden aparèixer a centenars de metres del front actiu. Són un dels principals riscos de propagació ja que poden saltar discontinuïtats o maniobres. El seu control ha de ser prioritari, doncs poden esdevenir nous caps.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es mantenen units al front principal i no poden superar discontinuïtats ni maniobres d’extinció.",
+      "B": "Poden aparèixer a centenars de metres del front actiu.",
+      "C": "Són petits incendis separats del front principal, causats per brases o partícules incandescents.",
+      "D": "El seu control ha de ser prioritari perquè poden esdevenir nous caps."
+    }
+  },
+  {
+    "id": "racord_8af42b49-bcea-4f9d-973e-0edf98eb5c5a",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la inclinació de la columna de fum.",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2.1. Elements clau de la columna de fum\n\nUna columna vertical indica que l’efecte del vent és escàs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una columna vertical indica necessàriament un vent general molt fort",
+      "B": "Una columna vertical indica que l’efecte del vent és escàs",
+      "C": "Una columna inclinada impedeix identificar l’eix de propagació",
+      "D": "Una columna partida confirma sempre que no existeix inestabilitat atmosfèrica"
+    }
+  },
+  {
+    "id": "racord_7414de2f-3301-41a1-b11f-85318ac21835",
+    "statement": "Quin període correspon a la segona generació d’incendis forestals?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 1980 a 2000.",
+      "B": "De 2000 a 2010.",
+      "C": "De 1950 a 1970.",
+      "D": "De 1970 a 1980."
+    }
+  },
+  {
+    "id": "racord_2af3eae2-9102-4e54-bb76-62730b97722c",
+    "statement": "En quin termini poden els grans incendis forestals superar tota la capacitat operativa disponible?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nLa millora en l'extinció i l'acumulació de combustible és una dualitat que ha generat un escenari de gran complexitat, on els grans incendis forestals (GIF) poden superar en poques hores tota la capacitat operativa disponible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament després de setanta-dues hores.",
+      "B": "Després de diverses setmanes.",
+      "C": "En poques hores.",
+      "D": "Només durant la fase de rereguarda."
+    }
+  },
+  {
+    "id": "racord_88719111-ea2f-4393-8c04-57fae8dfe50d",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA en relació amb els patrons de propagació d’un incendi forestal:",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1. Identificació del patró de propagació de l’incendi\n\nEl foc no es propaga aleatòriament, sinó que segueix patrons influenciats per tres factors fonamentals i un condicional: Topografia, Vent, Combustible. A aquests patrons s’ha d’afegir un altre factor: si hi ha una tempesta propera, ja que en aquest cas afectarà de manera molt important l’evolució de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La propagació depèn exclusivament del vent general i de la quantitat de mitjans d’extinció",
+      "B": "La propagació és aleatòria i no permet identificar forces dominants sobre el comportament del foc",
+      "C": "La presència d’una tempesta propera no modifica de manera rellevant l’evolució de l’incendi",
+      "D": "La propagació està influenciada per la topografia, el vent i el combustible, i pot quedar molt afectada per una tempesta propera"
+    }
+  },
+  {
+    "id": "racord_f3f4138b-c09b-47ee-b2b7-923e53da8cc8",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de l’estratègia de seguretat en incendis forestals:",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.1. Una responsabilitat compartida: seguretat a tots els nivells\n\nAquesta estratègia inclou l’ús correcte d’EPI, l’aplicació del protocol LACES amb consciència de situació constant, l’organització jeràrquica temporal del comandament i l’ús de maniobres d’autoprotecció en escenaris crítics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es limita a l’aplicació del protocol LACES i exclou les mesures d’autoprotecció",
+      "B": "Substitueix l’organització jeràrquica del comandament per decisions individuals no coordinades",
+      "C": "Considera prescindible la consciència de situació quan s’utilitzen correctament els EPI",
+      "D": "Inclou l’ús correcte dels EPI, el protocol LACES, l’organització del comandament i les maniobres d’autoprotecció"
+    }
+  },
+  {
+    "id": "racord_76e8e146-24d4-45a5-a65d-41f90e596342",
+    "statement": "Quina necessitat va revelar l’estiu del  1986 després dels grans incendis que hi van haver a Catalunya?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nL'estiu de 1986, un estiu catastròfic, revela la necessitat de millora en els recursos i coordinació en l’àmbit forestal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centralitzar tota la gestió forestal en els ajuntaments.",
+      "B": "Reduir els recursos destinats a la prevenció forestal.",
+      "C": "Substituir els mitjans terrestres per mitjans aeris.",
+      "D": "Millorar els recursos i la coordinació en l’àmbit forestal."
+    }
+  },
+  {
+    "id": "racord_09a5db51-24ed-4d0f-88cb-e91ee52281b8",
+    "statement": "Quina finalitat té la maniobra d’obertura de caixa?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.2. Eines manuals (batefocs, rasclet, pala forestal, motxilles d’aigua)\n\nServeix per reduir la càrrega de combustible i establir un espai de tall que faciliti el control del foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reduir la càrrega de combustible i establir un espai de tall que faciliti el control del foc",
+      "B": "Crear una columna convectiva que acceleri l’avanç del front principal",
+      "C": "Augmentar la continuïtat vegetal perquè el foc mantingui una direcció estable",
+      "D": "Aplicar aigua a alta pressió des de l’autobomba fins a la zona calenta"
+    }
+  },
+  {
+    "id": "racord_8d587f05-c9c2-427f-ae13-8daea96d96ca",
+    "statement": "Quina informació aporta una columna de fum inclinada?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2.1. Elements clau de la columna de fum\n\nUna columna inclinada marcarà el vent dominant i l’eix de propagació de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La humitat exacta del sòl i la causa de la ignició",
+      "B": "La superfície final que quedarà afectada per l’incendi",
+      "C": "La inexistència de focus secundaris a sotavent",
+      "D": "El vent dominant i l’eix de propagació de l’incendi"
+    }
+  },
+  {
+    "id": "racord_f39dce44-df67-40b5-95ab-addc4e39ffcc",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels escumògens i els retardants:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.3. Ús de retardants o escumes\n\nEls escumògens, en canvi, tenen un efecte de curta durada: barrejats amb aigua, generen una escuma que envolta el combustible, l’aïlla de l’oxigen i afavoreix l’absorció d’humitat. Això permet una millor penetració i refredament dels combustibles, redueix el consum d’aigua i facilita la tasca tant de mitjans aeris com terrestres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’ús d’escuma afavoreix la penetració i el refredament dels combustibles",
+      "B": "Els escumògens tenen una persistència permanent i no requereixen barrejar-se amb aigua",
+      "C": "L’escuma envolta el combustible i l’aïlla de l’oxigen",
+      "D": "Els escumògens tenen un efecte de curta durada"
+    }
+  },
+  {
+    "id": "racord_cd1d9f77-ea23-47bf-b307-61cfd1f6416b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb els nivells de seguretat:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.1. Una responsabilitat compartida: seguretat a tots els nivells\n\nPla d’acció: Defineix l’estratègia, objectius i recursos. Cal preveure punts crítics. Aplicació tàctica: Maniobres amb mètodes segurs: límits clars, zones segures, vigilància. Responsabilitat individual: Ús correcte de l��EPI, coneixement de la maniobra, atenció a l’entorn, LACES.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La responsabilitat individual inclou l’ús correcte de l’EPI i l’atenció a l’entorn",
+      "B": "La responsabilitat individual consisteix a definir l’estratègia global, els objectius i els recursos de l’incident",
+      "C": "L’aplicació tàctica requereix límits clars, zones segures i vigilància",
+      "D": "El pla d’acció ha de definir l’estratègia, els objectius i els recursos"
+    }
+  },
+  {
+    "id": "racord_c127618b-66f8-4e56-94c3-ee44cd00ed19",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de l’extinció amb mitjans aeris:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.3. Extinció amb mitjans aeris\n\nTé efecte temporal: necessita seguiment i rematada terrestre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les descàrregues tenen un efecte permanent i no requereixen seguiment ni rematada terrestre",
+      "B": "Després de les descàrregues cal efectuar-ne el seguiment",
+      "C": "La consolidació de l’actuació requereix una rematada terrestre",
+      "D": "L’efecte de les descàrregues és temporal"
+    }
+  },
+  {
+    "id": "racord_efde48ed-68fa-49d8-8ca3-4c0cbe8816b7",
+    "statement": "Quins criteris orienten la planificació de l’actuació en el cinquè pas del sistema CPS?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.3. Procés de valoració en 5 passos\n\nActuar allà on el foc es debilitarà (oportunitat). Defensar o replegar-se allà on s’intensificarà (punt crític). Tenir temps per avaluar, decidir i actuar (finestra d’actuació).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Atacar sempre el cap, encara que el foc s’intensifiqui i no hi hagi marge de seguretat",
+      "B": "Esperar que el foc superi el punt crític abans de decidir la maniobra",
+      "C": "Actuar on el foc es debilitarà, defensar o replegar-se on s’intensificarà i aprofitar la finestra d’actuació",
+      "D": "Prescindir de la predicció i actuar exclusivament segons els recursos disponibles"
+    }
+  },
+  {
+    "id": "racord_8a738a65-c35f-48d3-989e-c0ad6145122e",
+    "statement": "Quina afectació té el canvi climàtic sobre els boscos de Catalunya?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nEls efectes del canvi climàtic estan tenint una gran afectació sobre els boscos de Catalunya, canviant les condicions meteorològiques i augmentant els períodes de risc, tant en duració com en intensitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només afecta les zones urbanes i agrícoles.",
+      "B": "Evita l’acumulació de vegetació en les masses forestals.",
+      "C": "Redueix la duració i la intensitat dels períodes de risc.",
+      "D": "Canvia les condicions meteorològiques i augmenta els períodes de risc."
+    }
+  },
+  {
+    "id": "racord_3aae3f50-2adc-46e5-b855-3704f8b88ba2",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA en relació amb els flancs d’un incendi forestal:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.2. Flancs\n\nEls flancs són zones on el foc avança a velocitats moderades. Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són focus separats del front principal que apareixen per projecció de brases.",
+      "B": "Són zones on el foc acostuma a avançar a velocitats moderades i sovint s’hi executen maniobres d’atac directe o combinades.",
+      "C": "Són les zones de màxima intensitat i velocitat de propagació, on sempre s’ha de fer un atac frontal.",
+      "D": "Constitueixen la part posterior de l’incendi i només poden ser atacats quan el foc està estabilitzat."
+    }
+  },
+  {
+    "id": "racord_28f9474b-b084-439f-8914-b8e645c9b5a2",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el sistema de numeració dels sectors utilitzat pels Bombers de la Generalitat de Catalunya.",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.2.1. Criteri de numeració: sistema de parells i senars\n\nEls sectors del flanc esquerre s’identifiquen amb números imparells (1, 3, 5...). Els sectors del flanc dret s’identifiquen amb números parells (2, 4, 6...).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els sectors del flanc esquerre s’identifiquen amb números imparells.",
+      "B": "Els sectors del flanc esquerre s’identifiquen amb números parells i els del flanc dret amb números imparells.",
+      "C": "La metodologia es basa en la denominació dels sectors mitjançant números.",
+      "D": "Els sectors del flanc dret s’identifiquen amb números parells."
+    }
+  },
+  {
+    "id": "racord_23af6bd7-e4a9-4f2b-b66b-572307542660",
+    "statement": "Quin factor és una de les causes de l’augment de la càrrega de combustible?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’abandonament agrícola i ramader.",
+      "B": "L’augment de l’activitat agrícola i ramadera.",
+      "C": "La recuperació de la gestió forestal tradicional.",
+      "D": "La implantació generalitzada de franges de protecció."
+    }
+  },
+  {
+    "id": "racord_c76b00d7-e63f-4d04-a335-d01267669b51",
+    "statement": "Com es determina habitualment quin és el flanc dret i quin és el flanc esquerre d’un incendi forestal?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.2. Flancs\n\nNormalment es diferencien en flanc dret i flanc esquerre mirant des del darrere de l’incendi cap al cap, tot i que també es poden anomenar segons la seva posició (flanc nord, flanc sud).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prenent com a referència exclusiva la direcció del vent general.",
+      "B": "Mirant des del darrere de l’incendi cap al cap.",
+      "C": "Mirant des del cap de l’incendi cap al punt d’inici.",
+      "D": "Prenent com a referència la ubicació inicial del vehicle de comandament."
+    }
+  },
+  {
+    "id": "racord_6c2fe522-8acf-43ad-b915-f211d2331de0",
+    "statement": "Quins indicis es poden obtenir mitjançant l’observació de la columna de fum?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2. Anàlisi bàsic: descripció de la columna de fum\n\nA través de la seva inclinació, color, concentració i nombre de focus, es poden extreure indicis útils per determinar: El tipus de foc (de vent, topogràfic o convectiu). La intensitat de la combustió. El grau de convecció i risc de focus secundaris. La humitat del combustible. Les condicions de propagació. Eix de propagació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El tipus de foc, la intensitat, la convecció, el risc de focus secundaris, la humitat i l’eix de propagació",
+      "B": "La causa exacta, la identitat de l’autor i el temps total necessari per extingir-lo",
+      "C": "La resistència dels edificis, la capacitat dels hidrants i l’estat dels vehicles",
+      "D": "La superfície final cremada i el nombre exacte de recursos que s’hauran de mobilitzar"
+    }
+  },
+  {
+    "id": "racord_5d42ae7e-376a-45a1-881f-20dfa165393e",
+    "statement": "Quina evolució de la gestió forestal contribueix al problema estructural?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El declivi de la gestió forestal tradicional.",
+      "B": "La professionalització completa de la gestió forestal privada.",
+      "C": "L’augment de la gestió forestal tradicional.",
+      "D": "La substitució de la gestió forestal per la gestió agrícola."
+    }
+  },
+  {
+    "id": "racord_c59ffc36-8962-4832-8a25-20852790aef0",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del color de la columna de fum.",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2.1. Elements clau de la columna de fum\n\nBlanca: combustió de matèries verdes o humides, vapor d’aigua. Grisa: combustió parcial, humitat mitjana. Negra: combustió intensa de materials secs, molt disponibles, senyal de risc elevat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una columna blanca pot correspondre a la combustió de matèries verdes o humides",
+      "B": "Una columna negra pot indicar combustió intensa de materials secs i un risc elevat",
+      "C": "Una columna negra indica principalment combustió de matèries verdes o humides i presència de vapor d’aigua",
+      "D": "Una columna grisa pot indicar combustió parcial i humitat mitjana"
+    }
+  },
+  {
+    "id": "racord_1a2a66ac-1c74-4626-bf3a-c2f46dbb5a52",
+    "statement": "Quina funció compleix l’Awareness dins del protocol LACES?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nAwareness (consciència de situació), representa el nostre estat d’alerta i coneixement vers els riscos de l’escenari on estem desplegant la maniobra. Ens servirà per anticipar perills i problemes abans no passin i és necessari que sigui comú amb la resta de membres de l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir l’estat d’alerta, conèixer els riscos i anticipar perills compartint aquesta consciència amb l’equip",
+      "B": "Substituir la necessitat de comunicació entre els membres de la dotació",
+      "C": "Determinar únicament el punt d’inici de l’incendi i la causa probable",
+      "D": "Limitar l’observació als riscos que ja s’han materialitzat"
+    }
+  },
+  {
+    "id": "racord_3b3ead94-85e9-43c8-ab90-d19061db1476",
+    "statement": "Quin és el primer pas del procés de valoració en cinc passos del sistema CPS?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.3. Procés de valoració en 5 passos\n\n1) Identificar la tipologia d’incendi. El primer pas és determinar quin factor domina la propagació del foc en aquell moment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Localitzar els punts de canvi abans d’identificar el patró dominant",
+      "B": "Determinar exclusivament la superfície afectada i els recursos disponibles",
+      "C": "Identificar la tipologia d’incendi i determinar quin factor domina la propagació",
+      "D": "Planificar directament la maniobra sense valorar el comportament del foc"
+    }
+  },
+  {
+    "id": "racord_266a8975-2a78-41d8-83b0-4402aaa5b11e",
+    "statement": "Quin caràcter té l’extinció amb mitjans aeris respecte de les maniobres terrestres?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.3. Extinció amb mitjans aeris\n\nL’extinció amb mitjans aeris es basa en la descàrrega d’aigua o de productes retardants des d’aeronaus com avions i helicòpters, i constitueix una eina essencial però sempre complementària a les maniobres terrestres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Té com a única finalitat transportar personal fins a punts estratègics",
+      "B": "És una eina essencial, però sempre complementària a les maniobres terrestres",
+      "C": "Només es pot utilitzar durant l’etapa de rereguarda",
+      "D": "És una actuació autònoma que fa innecessària qualsevol intervenció dels equips de terra"
+    }
+  },
+  {
+    "id": "racord_35e0c0ac-4982-4b1b-89c0-44737445cc10",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb el cap d’un incendi forestal.",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.1. Cap\n\nEl cap concentra el màxim de radiació, convecció i velocitat de propagació. És la part més perillosa d’un incendi. L’actuació directa sobre el cap és molt arriscada i sovint no recomanable. Poden generar focus secundaris si la intensitat o l’orografia ho afavoreix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap pot generar focus secundaris si la intensitat o l’orografia ho afavoreixen.",
+      "B": "El cap concentra el màxim de radiació, convecció i velocitat de propagació.",
+      "C": "El cap és la part més perillosa d’un incendi forestal.",
+      "D": "L’actuació directa sobre el cap és, amb caràcter general, la maniobra més segura i recomanable."
+    }
+  },
+  {
+    "id": "racord_f71c41a1-292c-4fb4-962f-7aaf3199a43a",
+    "statement": "L'any 1986 Catalunya va patir una gran onada d'incendis forestals, quantes gectàrees es van cremar aproximadament en el conjunt del territori català?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\n1986: Es cremen més de 65.000 ha – naixement de les ADF.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Més de 55.000 hectàrees.",
+      "B": "Més de 45.000 hectàrees.",
+      "C": "Més de 65.000 hectàrees.",
+      "D": "Més de 76.000 hectàrees."
+    }
+  },
+  {
+    "id": "racord_67f4a3bf-8632-459b-b09f-d97fc2358f4c",
+    "statement": "Amb quina rapidesa poden les ventades associades a una tempesta modificar la direcció i la intensitat de propagació del foc?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.4. Incendis forestals amb tempesta propera\n\nLes tempestes generen corrents ascendents intensos quan s’està desenvolupant la tempesta i ventades irregulars associades als corrents descendents, quan descarrega la tempesta, capaços de modificar en pocs minuts la direcció i la intensitat de la propagació del foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament després de diverses hores",
+      "B": "Exclusivament durant la fase de remat de l’incendi",
+      "C": "En pocs minuts",
+      "D": "Només després que finalitzi completament la tempesta"
+    }
+  },
+  {
+    "id": "racord_6a774eb5-beb8-43e5-b0ef-962ea2192b81",
+    "statement": "Quina resposta es dona als incendis de tercera generació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La defensa de nuclis habitats mitjançant evacuacions generals.",
+      "B": "La creació exclusiva de tallafocs i franges de protecció.",
+      "C": "L’augment de recursos sense analitzar el comportament del foc.",
+      "D": "L’anàlisi tècnic del foc i l’ús de foc tècnic com a eina d’extinció."
+    }
+  },
+  {
+    "id": "racord_44757bd2-374a-4b26-9c8c-eb8843f7ba3e",
+    "statement": "Quina és la causa principal de l’acumulació creixent de vegetació a Catalunya?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nHi ha una acumulació creixent de vegetació (combustible), causada principalment per l’abandonament progressiu del món rural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’augment de les cremes prescrites.",
+      "B": "L’abandonament progressiu del món rural.",
+      "C": "La construcció de franges de protecció.",
+      "D": "L’increment de l’activitat agrícola tradicional."
+    }
+  },
+  {
+    "id": "racord_116798cd-f77c-4f76-b1d7-2bac88ca69cd",
+    "statement": "En un incendi forestal d’intensitat elevada, com es pot plantejar el control del cap?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.1. Cap\n\nEl control del cap es pot plantejar per confinament, maniobres indirectes o per accions des de flancs segurs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant un atac frontal directe, independentment de la longitud de flama i de la velocitat de propagació.",
+      "B": "Per confinament, mitjançant maniobres indirectes o amb accions efectuades des de flancs segurs.",
+      "C": "Únicament amb mitjans aeris, sense combinar-los amb cap maniobra terrestre.",
+      "D": "Exclusivament des de la cua, sense possibilitat d’actuar des dels flancs de l’incendi."
+    }
+  },
+  {
+    "id": "racord_f6ea41b5-3093-4892-b996-2d705b4a3f6d",
+    "statement": "Quin dels supòsits següents permet classificar un incendi com a gran incendi forestal (GIF)?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.5. Classificació en funció de l’afectació de l’incendi forestal\n\nGran incendi forestal (GIF): incendi que manté de forma sostinguda una velocitat, intensitat lineal i longitud de flama que supera la capacitat dels sistemes d'extinció, que pot afectar de forma important la població o que afecta més de 500 ha.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que afecti una zona forestal, encara que la velocitat, la intensitat i la longitud de flama siguin reduïdes.",
+      "B": "Que presenti qualsevol focus secundari, independentment de la intensitat, l’extensió o la població afectada.",
+      "C": "Que afecti més d’una hectàrea, encara que sigui controlable amb els recursos locals disponibles.",
+      "D": "Que superi sostingudament la capacitat dels sistemes d’extinció, pugui afectar de manera important la població o afecti més de 500 hectàrees."
+    }
+  },
+  {
+    "id": "racord_f4423c1b-c453-4139-bc3e-9022a917263a",
+    "statement": "Després d’un incendi aparentment extingit, es detecten brases latents sota terra en una zona amb molta matèria orgànica acumulada. De quin tipus de foc es tracta?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.4.1. Focs de subsòl (o sotabosc latent)\n\nCremen la matèria orgànica situada sota la superfície del sòl: arrels, humus, restes vegetals acumulades, etc. Propagació lenta però persistent. Pot continuar latent durant dies o setmanes si no es remata correctament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D’un foc de capçades actiu.",
+      "B": "D’un foc de superfície de mitjana intensitat.",
+      "C": "D’un foc de subsòl o sotabosc latent.",
+      "D": "D’un incendi d’interfície urbà-forestal."
+    }
+  },
+  {
+    "id": "racord_76e396cc-a5a1-4e5b-95ef-b240c3b40865",
+    "statement": "Quin factor condicional s’ha d’afegir als patrons de propagació determinats per la topografia, el vent i el combustible?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1. Identificació del patró de propagació de l’incendi\n\nA aquests patrons s’ha d’afegir un altre factor: si hi ha una tempesta propera, ja que en aquest cas afectarà de manera molt important l’evolució de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La superfície cremada en incendis anteriors",
+      "B": "La distància fins al parc de bombers",
+      "C": "La presència d’una tempesta propera",
+      "D": "La disponibilitat de mitjans aeris"
+    }
+  },
+  {
+    "id": "racord_0121bbc3-91bd-45aa-b2a4-742b0d370442",
+    "statement": "Quina de les opcions recull únicament funcions atribuïdes al GRAF?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nEntre les seves funcions destaca: L’anàlisi tàctica i estratègica dels incendis forestals. L’ús de maniobres com les cremes d’eixamplament i els contrafocs. La introducció d’eines manuals (com la pulaski) en l’atac indirecte. La col·laboració en projectes de recerca com el Fire Paradox, FIRE-RES i EWED. El desenvolupament de projectes d’investigació propis. La formació interna i externa, a través de l’Institut de Seguretat Publica (ISPC), adreçada tant a bombers com a altres col·lectius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Anàlisi dels incendis, cremes d’eixamplament, contrafocs, eines manuals, recerca i formació.",
+      "B": "Coordinació sanitària, triatge de víctimes, descontaminació i salvament marítim.",
+      "C": "Investigació penal, salvament aquàtic, rescat urbà i inspecció d’establiments.",
+      "D": "Gestió de parcs, manteniment de vehicles, compres i contractació de personal."
+    }
+  },
+  {
+    "id": "racord_1299018f-97a2-4c7f-b4ef-ca2abcd2bc41",
+    "statement": "Quina morfologia és característica dels incendis dominats pel vent?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.2. Foc de vent\n\nIncendis molt allargats, amb flancs estesos i cua lenta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una forma circular, amb flancs curts i una cua molt ràpida",
+      "B": "Una forma irregular determinada exclusivament pels corrents convectius descendents",
+      "C": "Una forma compacta, sense diferenciació entre el cap i els flancs",
+      "D": "Una forma molt allargada, amb flancs estesos i una cua lenta"
+    }
+  },
+  {
+    "id": "racord_447ff077-20c6-4649-a8a6-705fdae5f5dd",
+    "statement": "Quin model territorial incrementa la probabilitat de patir grans incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural\nUn paisatge cada cop més continu i amb més càrrega de combustible  incrementa exponencialment la probabilitat de patir grans incendis forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un paisatge continu i amb una càrrega elevada de combustible.",
+      "B": "Un territori gestionat mitjançant franges, pastures i cremes prescrites.",
+      "C": "Un paisatge fragmentat amb camps cultivats i zones de baixa càrrega.",
+      "D": "Un mosaic agroforestal amb discontinuïtats entre les masses vegetals."
+    }
+  },
+  {
+    "id": "racord_b5e51a9c-a295-4de5-ba4a-b4d545528df4",
+    "statement": "En quins tres elements observables sobre el terreny es basa el sistema CPS?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3. Sistema bàsic d’anàlisis d’incendis forestals (CPS)\n\nCampbell proposa una eina basada en tres elements observables sobre el terreny: el vent, el pendent i la radiació solar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El vent, el pendent i la radiació solar",
+      "B": "La superfície cremada, el nombre de focus i l’antiguitat del bosc",
+      "C": "La velocitat dels vehicles, la distància al parc i la disponibilitat d’aigua",
+      "D": "La humitat relativa, la pressió atmosfèrica i la precipitació"
+    }
+  },
+  {
+    "id": "racord_b5cf295f-5f92-4e5b-8963-bfa9553c3cb0",
+    "statement": "Quins elements són els principals responsables de la propagació d’un foc topogràfic?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.1. Foc topogràfic\n\nEs tracta d’un incendi on el pendent, l’orientació i els vents topogràfics són els principals responsables de la propagació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La simultaneïtat de focus, la radiació nocturna i les vies d’accés",
+      "B": "El pendent, l’orientació i els vents topogràfics",
+      "C": "El vent general, la humitat relativa i els mitjans aeris",
+      "D": "La càrrega de combustible, la pluja i la pressió atmosfèrica"
+    }
+  },
+  {
+    "id": "racord_6479f1ca-e184-4877-ae52-17cd97711a91",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb la influència d’una tempesta propera.",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.4. Incendis forestals amb tempesta propera\n\nQuan la tempesta comença a descarregar, es produeixen corrents descendents que projecten els vents cap a fora, sovint en múltiples direccions, creant un escenari altament inestable i imprevisible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan la tempesta comença a descarregar, els vents tendeixen a entrar de manera estable cap al nucli tempestuós",
+      "B": "La situació pot esdevenir altament inestable i imprevisible",
+      "C": "Durant la descàrrega es poden produir corrents descendents",
+      "D": "Els vents es poden projectar cap a fora en múltiples direccions"
+    }
+  },
+  {
+    "id": "racord_6eee8d4d-3d04-4c6b-ae50-32b07afaad90",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb les característiques operatives d’un incendi forestal.",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.2. Incendi forestal\n\nPot tenir comportament molt variable: des de focs de superfície fins a focs de capçada. Alta càrrega de combustible acumulat. Difícil accés i necessitat de lectura tàctica acurada. Pot generar fenòmens convectius i patrons de propagació complexos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot presentar una alta càrrega de combustible acumulat.",
+      "B": "Presenta generalment un accés fàcil i no requereix una lectura tàctica acurada.",
+      "C": "Pot evolucionar des de focs de superfície fins a focs de capçada.",
+      "D": "Pot generar fenòmens convectius i patrons de propagació complexos."
+    }
+  },
+  {
+    "id": "racord_66a5308e-5c46-429d-9791-c2557ef4dfa1",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la classificació general de les maniobres d’extinció:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4. Maniobres d’extinció en incendis forestals\n\nEn termes generals, les maniobres d’extinció es classifiquen en dues grans categories: Atac directe, quan es treballa sobre el front de flames, mitjançant aigua, eines manuals o mitjans aeris. Atac paral·lel o indirecte, quan s’actua sobre el combustible (la vegetació no cremada) per frenar l’avanç del foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’atac directe actua sobre el front de flames i l’atac paral·lel o indirecte actua sobre el combustible no cremat",
+      "B": "L’atac directe només es pot executar amb mitjans aeris i l’indirecte només amb línies d’aigua",
+      "C": "L’atac directe actua sempre a distància del front i l’atac indirecte únicament sobre les flames",
+      "D": "L’atac directe i l’indirecte es diferencien exclusivament pel nombre d’unitats mobilitzades"
+    }
+  },
+  {
+    "id": "racord_ed2ad8e3-dd13-4f55-9a36-2c3158107823",
+    "statement": "Quina importància té la consciència de situació en els incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.3. La importància de la consciència de situació\n\nEn incendis forestals, la consciència de situació és un element clau per a la seguretat operativa i la presa de decisions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un element clau per a la seguretat operativa i la presa de decisions",
+      "B": "És una funció exclusiva de la sala de control i no afecta els equips operatius",
+      "C": "És una eina limitada a la investigació posterior de les causes de l’incendi",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_22f0566a-5b36-4be9-a511-c43edd2a371c",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les mesures per evitar atrapaments:",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nMesures: mantenir sempre una ruta d’escapament clara i reconeguda, identificació de zones segures i comunicar posicions i direccions de progressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les rutes d’escapament només s’han d’identificar després que es produeixi un canvi en el vent",
+      "B": "Les zones segures poden substituir-se per qualsevol espai amb visibilitat del front",
+      "C": "Cal mantenir una ruta d’escapament clara, identificar zones segures i comunicar les posicions i direccions de progressió",
+      "D": "La comunicació de la posició és prescindible quan la dotació treballa agrupada"
+    }
+  },
+  {
+    "id": "racord_c344812d-3808-4f01-ace7-37f59d609767",
+    "statement": "Què permet entendre el concepte de generacions d’incendis forestals?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals\nEl concepte de generacions d’incendis forestals permet entendre com han evolucionat els focs al llarg del temps i com s’han anat complicant a causa de factors socials, climàtics i de gestió del territori.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com es determina exclusivament la causa d’un incendi forestal.",
+      "B": "Com es calcula la superfície cremada després de l’extinció.",
+      "C": "Com s’ha reduït progressivament la complexitat dels incendis.",
+      "D": "Com han evolucionat i s’han anat complicant els focs al llarg del temps."
+    }
+  },
+  {
+    "id": "racord_4083c9f0-b753-411a-809e-4dfa8496caaf",
+    "statement": "Què és l’eix de propagació d’un incendi forestal?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.4. Eix de propagació\n\nÉs la línia imaginària que uneix el punt d’inici amb el cap de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La separació entre el front principal i els focus secundaris.",
+      "B": "La línia imaginària que uneix el punt d’inici amb el cap de l’incendi.",
+      "C": "La línia tancada que engloba totes les zones afectades pel foc.",
+      "D": "La línia de defensa construïda paral·lelament al flanc més actiu."
+    }
+  },
+  {
+    "id": "racord_7c1a78eb-7c7f-4fe5-b703-ba3ece51e378",
+    "statement": "Quin és l’objectiu d’una línia de defensa executada amb eines manuals o mecàniques?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.2. Eines manuals (batefocs, rasclet, pala forestal, motxilles d’aigua)\n\nTé per objectiu crear una obertura lineal i contínua fins a sòl mineral, eliminant tot el combustible en superfície.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Crear una obertura lineal i contínua fins a sòl mineral, eliminant el combustible superficial",
+      "B": "Establir una línia discontínua que conservi part del combustible entre els trams",
+      "C": "Crear una franja amb combustible fi per conduir el foc cap a una zona determinada",
+      "D": "Refredar únicament les capçades sense modificar el combustible de superfície"
+    }
+  },
+  {
+    "id": "racord_35ab31c1-0aa6-4440-9729-7278a4303d79",
+    "statement": "Un incendi de vegetació afecta una superfície de 0,8 hectàrees. Com es classifica segons la seva extensió?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.5. Classificació en funció de l’afectació de l’incendi forestal\n\nConat d’incendi: Incendi de vegetació que no supera una hectàrea d’extensió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com a conat d’incendi.",
+      "B": "Com a incendi forestal de caràcter regional.",
+      "C": "Com a incendi d’interfície urbà-forestal.",
+      "D": "Com a gran incendi forestal."
+    }
+  },
+  {
+    "id": "racord_02688ccf-1561-444a-84cb-027beca35e23",
+    "statement": "En quins dos sentits ha evolucionat paral·lelament Catalunya durant les darreres dècades?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nA les darreres dècades, Catalunya ha experimentat una evolució paral·lela en dos sentits: a) Una millora molt notable en la capacitat d’extinció i resposta operativa. b) Una acumulació creixent de vegetació (combustible), causada principalment per l’abandonament progressiu del món rural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un augment de la població rural i una fragmentació general dels boscos.",
+      "B": "En una millora de la capacitat d’extinció i una acumulació creixent de vegetació.",
+      "C": "En una disminució de la resposta operativa i una reducció del combustible.",
+      "D": "En una reducció dels recursos i una disminució de la superfície forestal."
+    }
+  },
+  {
+    "id": "racord_11362fa9-cf9e-4f7a-8f96-85fb790d29a1",
+    "statement": "En un foc situat a la base d’un pendent, orientat al sud a les 12 hores i amb vent del sud, quina alineació de forces s’obté segons l’exemple del manual?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.2. Les alineacions de forces\n\nExemple: si tenim un foc a la base d’un pendent, orientat al sud a les 12 del migdia i amb vent del sud, tenim plena alineació perquè el foc pot ascendir (+1) a favor de vent (+1) i sobre un combustible calent (+1), és a dir 3/3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poca alineació, amb una valoració d’1/3",
+      "B": "Fora d’alineació, amb una valoració de 0/3",
+      "C": "Plena alineació, amb una valoració de 3/3",
+      "D": "Mitja alineació, amb una valoració de 2/3"
+    }
+  },
+  {
+    "id": "racord_3470eb8b-b71c-4a17-af62-638fdd55073a",
+    "statement": "Què es va començar a establir després de la creació del Cos de Bombers de la Generalitat?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nUn cop creat el Cos de Bombers, es comencen a establir les primeres bases organitzatives, materials i doctrines pròpies, que progressivament incorporaran la lluita contra els incendis forestals com a eix central.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament els primers mitjans aeris d’extinció.",
+      "B": "Les primeres unitats tècniques territorials del GRAF",
+      "C": "Únicament les primeres Agrupacions de Defensa Forestal.",
+      "D": "Les primeres bases organitzatives, materials i doctrines pròpies."
+    }
+  },
+  {
+    "id": "racord_683877ae-7850-4de9-8179-ba4db3b1e35e",
+    "statement": "Quins factors fonamenten la selecció d’una maniobra d’extinció en un incendi forestal?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4. Maniobres d’extinció en incendis forestals\n\nAquesta decisió no és mai arbitrària, sinó que es fonamenta en diversos factors: El comportament del foc, ens indica la seva intensitat, velocitat i punts crítics. La configuració del terreny, pot afavorir o dificultar la propagació. Els recursos disponibles, humans i materials. Els objectius operatius, poden anar des d’estratègies de contenció del perímetre a altres de supressió total de les flames.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament el nombre de vehicles disponibles i la durada prevista del servei",
+      "B": "La causa probable de l’incendi i l’antiguitat de la massa forestal afectada",
+      "C": "El comportament del foc, la configuració del terreny, els recursos disponibles i els objectius operatius",
+      "D": "Únicament la superfície cremada i la distància fins al parc de bombers"
+    }
+  },
+  {
+    "id": "racord_4dcc48c2-10ea-48d2-9642-31ef8b9ab46b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA en relació amb la cua d’un incendi forestal:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.3. Cua\n\nÉs la part posterior de l’incendi, generalment la menys activa. Aquí el foc es propaga en direcció oposada al vent i al pendent, i amb menor intensitat. És l’únic lloc on, en incendis de baixa intensitat, es pot plantejar un atac directe segur. Malgrat ser la part menys activa s’ha de controlar, ja que pot augmentar d’intensitat si arriba a un punt de canvi de comportament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El foc s’hi propaga normalment en direcció oposada al vent i al pendent.",
+      "B": "És la part més activa de l’incendi i el foc hi avança, habitualment, a favor del vent i del pendent.",
+      "C": "En incendis de baixa intensitat, és l’únic lloc on es pot plantejar un atac directe segur.",
+      "D": "Malgrat ser generalment la part menys activa, s’ha de controlar perquè pot augmentar d’intensitat."
+    }
+  },
+  {
+    "id": "racord_7efa67fe-5c24-4151-9be6-9fe2cf1e49b6",
+    "statement": "En quins escenaris es dona especialment el risc d’atrapament?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nEl risc d’atrapament es dona especialment en escenaris amb canvis ràpids de direcció del vent, zones amb vegetació densa o en maniobres indirectes sense control de les vies de sortida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament durant l’etapa de rereguarda d’incendis ja extingits",
+      "B": "Només en maniobres directes efectuades des d’un punt d’ancoratge segur",
+      "C": "Amb canvis ràpids del vent, vegetació densa o maniobres indirectes sense control de les vies de sortida",
+      "D": "Únicament en zones sense vegetació i amb absència total de vent"
+    }
+  },
+  {
+    "id": "racord_049608c8-984c-492e-8f8a-b586459548f5",
+    "statement": "Segons el sistema CPS, quina alineació té un incendi que comença a les 6 del matí a la part baixa d'una vessant orientada a l'est en absència de vent?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.2. Les alineacions de forces\n\nTenim poca alineació perquè el foc pot ascendir (+1)  però no fa vent (+0) i el combustible encara no està calent (+0), és a dir 1/3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2/3 o mitja alineació",
+      "B": "3/3 o plena alineació",
+      "C": "1/3 o poca alineació",
+      "D": "0/3 o fora d'alineació"
+    }
+  },
+  {
+    "id": "racord_48cf7bf1-873a-4183-940b-3155524a888a",
+    "statement": "Quina ha estat l’aportació principal del GRAF al model català de gestió d’incendis forestals?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nL’aportació del GRAF ha estat clau per a l’evolució del model català de gestió d’incendis forestals, passant d’un enfocament reactiu a un model proactiu i estratègic, on la lectura del foc, l’anàlisi del territori i la gestió preventiva són tan importants com l’extinció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eliminar la lectura del foc i la gestió preventiva de l’operativa.",
+      "B": "Donar prioritat absoluta a l’extinció per sobre de l’anàlisi territorial.",
+      "C": "Afavorir el pas d’un enfocament reactiu a un model proactiu i estratègic.",
+      "D": "Substituir la gestió preventiva per un model exclusivament reactiu."
+    }
+  },
+  {
+    "id": "racord_fe5e34d5-efe4-4ce6-b617-86c8a5075b9e",
+    "statement": "Quin efecte pot produir el desplom de columna associat a un pirocumulonimbus?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.3. Foc convectiu (de combustible)\n\nEn el cas del pirocumulunimbus es pot donar un procés conegut com ��desplom de columna” (downdraft), que genera forts vents descendents que poden ampliar el perímetre de forma sobtada i intensa en qualsevol direcció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot anul·lar els focus secundaris i concentrar el foc exclusivament a la cua",
+      "B": "Pot generar forts vents descendents i ampliar sobtadament el perímetre en qualsevol direcció",
+      "C": "Pot provocar únicament vents ascendents sense modificar el perímetre",
+      "D": "Pot estabilitzar la columna i reduir de manera immediata la superfície afectada"
+    }
+  },
+  {
+    "id": "racord_07219ea2-252a-4f57-9d0a-090949918b1a",
+    "statement": "Quina opció defineix correctament el perímetre d’un incendi forestal?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.5. Perímetre de l’incendi\n\nÉs la línia tancada que engloba totes les zones afectades pel foc, incloent el cap, els flancs, la cua i qualsevol focus secundari que s’hagi incorporat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la línia tancada que engloba el cap, els flancs, la cua i qualsevol focus secundari que s’hagi incorporat.",
+      "B": "És la línia imaginària que uneix el punt d’inici amb el cap i indica la direcció principal de propagació.",
+      "C": "És el conjunt format únicament pel cap i pels dos flancs del front principal.",
+      "D": "És la zona cremada que queda exclosa de l’àrea de treball operativa."
+    }
+  },
+  {
+    "id": "racord_31282e1d-7e26-41f1-9624-f2128085f0d2",
+    "statement": "Quines fases principals integren la maniobra d’autoprotecció en cas d’atrapament d’autobomba?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.5. Maniobra d’autoprotecció en cas d’atrapament d’autobomba\n\nEs basa en maniobres passives i actives d’autoprotecció i es desenvolupa en tres fases principals: prèvia o preventiva, amb vehicle com a eina de protecció, i situació crítica amb sortida del vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fase d’ancoratge, fase de contrafoc i fase d’extinció",
+      "B": "Fase d’atac, fase de remat i fase de rereguarda",
+      "C": "Fase activa, fase estabilitzada i fase controlada",
+      "D": "Fase prèvia o preventiva, fase amb el vehicle com a eina de protecció i fase crítica amb sortida del vehicle"
+    }
+  },
+  {
+    "id": "racord_5c101f77-da2e-448c-b9f2-0293a3687de6",
+    "statement": "Quin conjunt de factors ha contribuït a l’escalada de la intensitat i la velocitat dels incendis forestals?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.Introducció\nL’augment de la superfície forestal, l’acumulació de combustible degut a l’abandonament del món rural i els efectes del canvi climàtic han provocat una escalada en la intensitat i la velocitat dels incendis, amb episodis de propagació extrema i períodes de risc crític cada cop més amplis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La construcció de tallafocs, les cremes prescrites i la millora dels accessos forestals.",
+      "B": "L’augment de la superfície forestal, l’acumulació de combustible i el canvi climàtic.",
+      "C": "L’augment dels mitjans d’extinció, la formació del personal i la vigilància preventiva.",
+      "D": "La reducció de la superfície forestal, l’expansió agrícola i l’augment de dies amb condicions estivals extremes."
+    }
+  },
+  {
+    "id": "racord_f54e042c-524e-4a39-b759-bf0641db262c",
+    "statement": "Quin canvi ha experimentat la lletra A del protocol LACES després de diversos accidents?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.3. La importància de la consciència de situació\n\nNo és casualitat que, després de diversos accidents, la lletra A del LACES hagi evolucionat d’“Ancoratge” a “Ancoratge i Awareness” (consciència de situació), posant en relleu la necessitat d’una observació i comunicació constants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha evolucionat d’Ancoratge a Ancoratge i Awareness, incorporant la consciència de situació",
+      "B": "Ha deixat de formar part del protocol per evitar duplicitats amb el guaita",
+      "C": "Ha passat a representar exclusivament les actuacions dels mitjans aeris",
+      "D": "Ha evolucionat de Comunicacions a Coordinaci��, eliminant el punt d’ancoratge"
+    }
+  },
+  {
+    "id": "racord_26e2773f-c5de-46d1-ab42-20742a9ad522",
+    "statement": "Quins condicionants s’han de considerar en l’ús de maquinària pesada?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.1. Maquinària pesada (buldòzers, tractors, etc.)\n\nEl seu avantatge principal és la velocitat i la capacitat de treball en grans extensions, tot i que requereixen una planificació acurada, ja que depenen de l’accessibilitat del terreny i comporten riscos associats a la seva maniobra en zones abruptes o amb poca visibilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la direcció del fum i la distància fins a la cua de l’incendi",
+      "B": "L’accessibilitat del terreny i els riscos de maniobra en zones abruptes o amb poca visibilitat",
+      "C": "Exclusivament la quantitat d’aigua disponible al vehicle autobomba",
+      "D": "La possibilitat d’actuar sense planificació prèvia en qualsevol tipus de terreny"
+    }
+  },
+  {
+    "id": "racord_c95404fd-65aa-4c8b-a2fe-eff37103006b",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte dels focs de vent.",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.2. Foc de vent\n\nÉs aquell en què el vent general és el principal motor de propagació. Aquests incendis poden avançar amb gran rapidesa, i sovint superen la velocitat de la maniobra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El vent general és el principal motor de propagació i l’incendi pot superar la velocitat de la maniobra",
+      "B": "El pendent és sempre l’únic factor responsable de la propagació",
+      "C": "Aquests incendis tenen una capacitat molt reduïda per generar focus secundaris",
+      "D": "La cua avança habitualment més de pressa que el cap"
+    }
+  },
+  {
+    "id": "racord_b460bb60-d91c-4c6a-84b8-6918a6de76c7",
+    "statement": "Quin avantatge operatiu ofereix l’helitransport de personal en un incendi forestal?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.3. Helitransport de personal\n\nL’helitransport de personal és una tècnica que permet el desplaçament d’unitats ràpid, mitjançant helicòpter fins a les zones més properes al foc, sovint en terrenys de difícil accés.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permet desplaçar ràpidament unitats fins a zones properes al foc i de difícil accés",
+      "B": "Té com a finalitat exclusiva efectuar vigilància durant l’etapa de rereguarda",
+      "C": "Permet substituir totes les maniobres terrestres per descàrregues aèries",
+      "D": "S’utilitza preferentment per retirar maquinària pesada de zones abruptes"
+    }
+  },
+  {
+    "id": "racord_491d18ba-db56-484d-896d-dab403eaf946",
+    "statement": "Com es poden reduir els errors en escenaris dinàmics i incerts, segons el manual?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.1. Una responsabilitat compartida: seguretat a tots els nivells\n\nL’experiència internacional mostra que en escenaris dinàmics i incerts no es poden eliminar completament els errors, però sí que es poden reduir mitjançant un enfocament sistèmic, anticipant senyals de perill i construint resiliència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant un enfocament sistèmic, anticipant senyals de perill i construint resiliència",
+      "B": "Eliminant tota possibilitat d’error mitjançant procediments rígids i invariables",
+      "C": "Delegant exclusivament la seguretat en el bomber amb més antiguitat de la dotació",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_739a5a07-c286-40a4-baac-d11634c0daf3",
+    "statement": "Quina funció té l’orientació dins del sistema CPS?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.1. Fonaments del sistema CPS\n\nOrientació: Defineix la posició del combustible en el pendent respecte del sol i la seva radiació i informa quan serà fred o calent, més temperatura del combustible, més inflamable i, per tant, més perillós.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Determina la quantitat exacta d’aigua necessària per extingir el foc",
+      "B": "Mesura únicament la velocitat del vent general sobre el front",
+      "C": "Indica exclusivament la distància entre el cap i la cua de l’incendi",
+      "D": "Determina la posició del combustible respecte del sol i informa de si és fred o calent"
+    }
+  },
+  {
+    "id": "racord_16ad9908-8d06-4f77-9a28-d0e761c37f45",
+    "statement": "D'acord amb les fases d'un incendi forestal, què caracteritza un incendi controlat?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.5. Fases d’un incendi forestal\n\nEl foc ja no es propaga lliurement. Té algun punt calent però ja no avança. Falta rematar el perímetre. L’incendi és en fase d’extinció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El foc no es pot reiniciar i qualsevol nova ignició dins de la zona és una continuació del mateix incendi",
+      "B": "El foc encara pot créixer lliurement i els mitjans només han iniciat les tasques d’estabilització",
+      "C": "El foc ja no es propaga lliurement ni avança, tot i que poden quedar punts calents i cal rematar el perímetre",
+      "D": "La seva dinàmica supera la capacitat d’extinció i no existeixen punts d’ancoratge"
+    }
+  },
+  {
+    "id": "racord_28a4fee2-92d0-4f45-aed8-cab5a8a753ca",
+    "statement": "Quina conseqüència negativa pot provocar la gran eficàcia en l’extinció d'incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.3 La paradoxa de l'extinció\nAquesta eficàcia també provoca una acumulació de combustible que incrementa el risc i la intensitat dels grans incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una acumulació de combustible que incrementa el risc i la intensitat dels grans incendis.",
+      "B": "Una reducció de la superfície forestal i de la intensitat dels incendis.",
+      "C": "Una eliminació progressiva de la probabilitat de grans incendis.",
+      "D": "Una disminució del combustible que incrementa el nombre d’incendis petits."
+    }
+  },
+  {
+    "id": "racord_f9c938e0-33ab-49d1-9b3d-2c543dffbf6d",
+    "statement": "D'acord amb les fases d'un incendi forestal, què caracteritza un incendi actiu?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.5. Fases d’un incendi forestal\n\nEl foc es propaga activament i pot créixer lliurement. Progressa, però els mitjans ja hi treballen per estabilitzar-lo.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva dinàmica no supera la capacitat d’extinció i, si es descontrola, es considera una represa",
+      "B": "El foc ja no es propaga ni es pot reiniciar i qualsevol nou foc es considera el mateix incendi",
+      "C": "El foc es propaga activament i pot créixer lliurement, mentre els mitjans treballen per estabilitzar-lo",
+      "D": "El foc ja no es propaga lliurement i només resten punts calents dins del perímetre"
+    }
+  },
+  {
+    "id": "racord_8a69b1c8-1d67-4d7c-b27a-59118d527733",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels focs topogràfics.",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.1. Foc topogràfic\n\nSón afectats pels vents topogràfics en funció de l’hora del dia (ascendents de dia, descendents de nit).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els vents topogràfics acostumen a ser descendents durant el dia i ascendents durant la nit",
+      "B": "La intensitat augmenta de manera notable quan s’incrementa el pendent",
+      "C": "La propagació ascendent pot ser ràpida",
+      "D": "L’aire calent tendeix a pujar i desseca la vegetació situada per sobre del foc"
+    }
+  },
+  {
+    "id": "racord_5c01b635-18d0-4004-a9b0-1283c26ed2e6",
+    "statement": "Quina finalitat té la maniobra d’autoprotecció en cas d’atrapament d’autobomba?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.5. Maniobra d’autoprotecció en cas d’atrapament d’autobomba\n\nLa maniobra d’autoprotecció en incendi de vegetació és un conjunt d’accions planificades i pautades que permeten minimitzar el risc d’atrapament per foc forestal i, en cas que aquest sigui inevitable, maximitzar la capacitat de supervivència de la dotació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substituir la planificació prèvia per una resposta improvisada en el moment crític",
+      "B": "Minimitzar el risc d’atrapament i, si és inevitable, maximitzar la capacitat de supervivència de la dotació",
+      "C": "Garantir l’extinció completa del front sense necessitat de maniobres terrestres addicionals",
+      "D": "Permetre que el vehicle travessi el front de flames en qualsevol situació"
+    }
+  },
+  {
+    "id": "racord_d302d0a7-727d-495a-9a36-71a727af6aad",
+    "statement": "Quin resultat produeix la maquinària pesada quan obre una línia de defensa?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.1. Maquinària pesada (buldòzers, tractors, etc.)\n\nAquests equips retiren ràpidament la vegetació i deixen el sòl mineral exposat, creant barreres que dificulten l’avanç del foc i serveixen com a punts d’ancoratge segurs per a maniobres posteriors amb eines manuals o foc tècnic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Genera un nou front de foc que competeix amb l’incendi principal",
+      "B": "Retira la vegetació, deixa exposat el sòl mineral i crea barreres i punts d’ancoratge",
+      "C": "Acumula la vegetació davant del front per reduir-ne la velocitat",
+      "D": "Crea una línia d’aigua contínua sense alterar el combustible"
+    }
+  },
+  {
+    "id": "racord_16648097-feb6-414a-8cb2-4ac526e22905",
+    "statement": "Quines condicions han de complir les comunicacions dins del protocol LACES?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nTot el personal ha de disposar de canals clars i provats, i verificar que els missatges siguin rebuts i compresos. És necessari establir protocols i codis comuns, incloent-hi els avisos d’emergència, per garantir que la informació circuli de manera ràpida i sense ambigüitats en un entorn canviant i d’alta pressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han d’adaptar els codis a criteri de cada emissor per augmentar-ne la flexibilitat",
+      "B": "Només s’han de comprovar quan es produeix un avís d’emergència",
+      "C": "Han de limitar-se als comandaments i evitar qualsevol confirmació per reduir el trànsit de ràdio",
+      "D": "Han d’utilitzar canals clars i provats, confirmar la recepció i comprensió i emprar protocols i codis comuns"
+    }
+  },
+  {
+    "id": "racord_b31a38a3-6d10-4066-a596-2ed952f97e0c",
+    "statement": "Quina propietat diferencia els retardants de l’aigua aplicada sense additius?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.3. Ús de retardants o escumes\n\nEls retardants són productes químics (principalment fosfats amònics) que, afegits a l’aigua, en potencien les propietats extintores i mantenen part de la seva eficàcia fins i tot després de l’evaporació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Potencien les propietats extintores i mantenen part de l’eficàcia després de l’evaporació",
+      "B": "Només actuen separant mecànicament el combustible del sòl",
+      "C": "Perden tota l’eficàcia de manera immediata quan s’evapora l’aigua",
+      "D": "S’utilitzen exclusivament per transportar personal a zones inaccessibles"
+    }
+  },
+  {
+    "id": "racord_8f643417-07c3-4a48-a3f2-195920ecb8a4",
+    "statement": "En quina situació es desenvolupa un foc convectiu o de combustible?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.3. Foc convectiu (de combustible)\n\nAquest tipus d’incendi té lloc quan l’acumulació de combustible és tan gran que la intensitat del foc és capaç de generar el seu propi microclima, amb corrents d’aire i dinàmiques internes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan l’acumulació de combustible permet que el foc generi el seu propi microclima",
+      "B": "Quan el vent general és l’únic motor de propagació i no hi ha dinàmiques internes",
+      "C": "Quan el pendent i els vents topogràfics desapareixen completament",
+      "D": "Quan el foc es limita a una superfície petita i no desenvolupa corrents d’aire"
+    }
+  },
+  {
+    "id": "racord_d6363142-a033-4d6f-9e1b-042d923e2bd8",
+    "statement": "Què caracteritza els incendis de cinquena generació?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La simultaneïtat de diversos grans incendis que poden afectar diferents nuclis de població.",
+      "B": "La continuïtat del combustible sense afectació a nuclis habitats.",
+      "C": "La propagació lenta d’un únic incendi en una zona despoblada.",
+      "D": "La generació ocasional de focus secundaris de curta distància."
+    }
+  },
+  {
+    "id": "racord_8ae9fabf-11ad-4b04-bb50-0334813c68c7",
+    "statement": "Quina resposta es planteja davant els incendis de segona generació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Creació de tallafocs i sectorització del territori.",
+      "B": "Ús generalitzat de tecnologia i defensa d’habitatges.",
+      "C": "Adaptació del territori i resiliència col·lectiva.",
+      "D": "Augment de recursos i desplegament immediat."
+    }
+  },
+  {
+    "id": "racord_542d2109-f1c9-451f-8161-b2a93128b117",
+    "statement": "Sobre quin problema estructural no s’ha actuat amb la mateixa intensitat en relació a la gestió dels incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural\nNo s’ha actuat amb la mateixa intensitat sobre el problema estructural de fons: l’augment descontrolat de la càrrega de combustible als boscos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’augment descontrolat de la càrrega de combustible als boscos.",
+      "B": "L’excés de tallafocs i franges de protecció.",
+      "C": "La falta de continuïtat de la vegetació als boscos.",
+      "D": "La disminució de la superfície forestal."
+    }
+  },
+  {
+    "id": "racord_bd4cf92b-6137-4b7b-98f4-aa3f1c2613da",
+    "statement": "Quina opció descriu correctament l’àmbit afectat per un incendi forestal segons la classificació per entorn?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.2. Incendi forestal\n\nAfecta principalment masses vegetals contínues de caràcter silvestre, com ara bosc de fulla perenne o caduca, sotabosc i matollars, així com vegetació de ribera o barrancs en zona natural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parcs, jardins, rambles i solars situats dins de nuclis urbans consolidats.",
+      "B": "Masses vegetals contínues de caràcter silvestre, com boscos, sotabosc, matollars i vegetació de ribera o barrancs.",
+      "C": "Únicament habitatges disseminats, urbanitzacions i edificacions agrícoles.",
+      "D": "Exclusivament camps de cereal sec, restes agrícoles i cremes de rostolls."
+    }
+  },
+  {
+    "id": "racord_b1bbc27f-4076-4c44-a174-ccd2b53ac903",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les condicions d’ús de l’atac directe:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1. Maniobres d’atac directe\n\nÉs la metodologia d’actuació més habitual en els primers moments d’un incendi i es fan servir quan: La intensitat del foc ho permet. Hi ha accés segur a la zona. Es busca una resposta ràpida i localitzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot emprar quan la intensitat del foc ho permet",
+      "B": "S’ha d’aplicar encara que la intensitat impedeixi aproximar-se amb seguretat al front",
+      "C": "És adequada quan es busca una resposta ràpida i localitzada",
+      "D": "Requereix que hi hagi un accés segur a la zona"
+    }
+  },
+  {
+    "id": "racord_da60322a-78ff-415f-a85f-adcd61701944",
+    "statement": "Quines entitats es van crear arran dels incendis forestals de l’any 1986?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nEls grans incendis de l'estiu de 1986 provoquen una crisi que dona lloc a la creació de les Agrupacions de Defensa Forestal (ADF): entitats de voluntariat local amb l’objectiu de dur a terme tasques de prevenció forestal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les Agrupacions de Defensa Forestal.",
+      "B": "El Grup de Recolzament d’Actuacions Forestals.",
+      "C": "Les agrupacions professionals d’extinció rural.",
+      "D": "Les unitats territorials de suport operatiu."
+    }
+  },
+  {
+    "id": "racord_a2c43ebc-dee5-4c77-8fe9-072c5c3a0694",
+    "statement": "Quina característica defineix el foc de capçades actiu?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.4.3. Focs de capçades\n\nFoc de capçades actiu: És el més perillós. El foc es propaga de forma sostinguda per la capçada dels arbres, sovint independentment del foc de superfície. Aquest tipus de foc és capaç de recórrer grans distàncies amb gran rapidesa i intensitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es propaga de manera sostinguda per les capçades, sovint independentment del foc de superfície, i pot recórrer grans distàncies amb rapidesa i intensitat.",
+      "B": "Es propaga simultàniament per la superfície i per les capçades, que cremen sempre al mateix ritme.",
+      "C": "Crema exclusivament la matèria orgànica situada sota la superfície del sòl.",
+      "D": "Arriba esporàdicament a alguna capçada, però no es propaga de manera contínua entre els arbres."
+    }
+  },
+  {
+    "id": "racord_d40fc8c0-c9f1-4cac-a6fb-8190606d2a79",
+    "statement": "Quin tipus d’urbanització contribueix a l’augment del risc forestal?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La urbanització concentrada dins de nuclis consolidats.",
+      "B": "La urbanització situada fora de les masses forestals.",
+      "C": "La urbanització compacta amb franges de protecció.",
+      "D": "La urbanització dispersa sense franges de protecció."
+    }
+  },
+  {
+    "id": "racord_8e5e87f2-f74b-4c04-9449-54af05f4af8a",
+    "statement": "Com es valoren els tres factors principals del sistema CPS?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.1. Fonaments del sistema CPS\n\nCada factor pot tenir valor 0 (no afavoreix) o 1 (afavoreix), sumant-se de 0/3 a 3/3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els factors es valoren únicament com a favorables, sense possibilitat d’assignar valor zero",
+      "B": "Només el vent rep puntuació, mentre que el pendent i l’orientació són descriptius",
+      "C": "Cada factor rep un valor de 0 a 3 i la suma màxima és de 9/9",
+      "D": "Cada factor rep un valor 0 si no afavoreix i 1 si afavoreix, amb una suma de 0/3 a 3/3"
+    }
+  },
+  {
+    "id": "racord_cdc968c2-f686-4224-8cd6-6f106575c7c0",
+    "statement": "Quina utilitat té determinar ràpidament l’eix de propagació?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.4. Eix de propagació\n\nDeterminar l’eix de propagació ràpidament permet predir per on evolucionarà el foc. És essencial per identificar quines zones poden esdevenir punts crítics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permet establir automàticament la numeració dels vehicles i dels canals de comunicació.",
+      "B": "Permet identificar l’autor de la ignició i determinar la causa de l’incendi.",
+      "C": "Permet predir per on evolucionarà el foc i identificar les zones que poden esdevenir punts crítics.",
+      "D": "Permet calcular amb exactitud l’hora d’extinció i la superfície final afectada."
+    }
+  },
+  {
+    "id": "racord_09c9f5b7-0ac3-460c-8bea-2bc41c26984c",
+    "statement": "Quina funció correspon al nivell de seguretat global de l’incident?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.1. Una responsabilitat compartida: seguretat a tots els nivells\n\nSeguretat global de l’incident: L’anàlisi de riscos globals, zones d’exclusió, i l’organització de sectors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Executar directament totes les maniobres d’autoprotecció de les unitats",
+      "B": "Definir exclusivament les pauses, els relleus i la hidratació del personal",
+      "C": "Analitzar els riscos globals, establir zones d’exclusió i organitzar els sectors",
+      "D": "Comprovar únicament l’ús correcte dels EPI de cada membre de la dotació"
+    }
+  },
+  {
+    "id": "racord_cabcb95f-4510-4a58-903d-a8ffbd4dc9e8",
+    "statement": "Quin període correspon a la tercera generació d’incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 1980 a 2000.",
+      "B": "De 1970 a 1980.",
+      "C": "De 2000 a 2010.",
+      "D": "A partir de l’any 2016."
+    }
+  },
+  {
+    "id": "racord_51385e5d-c32d-4d22-829e-f5de7f464619",
+    "statement": "En quins aspectes posava l’accent l’enfocament diferenciat del GRAF?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nInspirats parcialment en models de fora de Catalunya, els GRAF van assumir des del primer moment un enfocament diferenciat, posant l’accent en el coneixement del comportament del foc, la lectura tàctica del territori i el desenvolupament de noves eines i procediments adaptats a la realitat forestal catalana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la investigació policial, la inspecció d’edificis i la gestió dels parcs.",
+      "B": "En la substitució de l’anàlisi tècnica per procediments d’extinció estàndard.",
+      "C": "En el comportament del foc, la lectura tàctica del territori i el desenvolupament de noves eines i procediments.",
+      "D": "En la conducció de vehicles, el manteniment de material i les comunicacions."
+    }
+  },
+  {
+    "id": "racord_902f0a8d-eef7-49f0-af66-706780fffb25",
+    "statement": "En un camp de cereal madur afectat per un incendi, quina característica operativa és especialment previsible?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.1. Incendi agrícola\n\nAlta velocitat de propagació, especialment en camps de cereal madur. Baixa i mitja intensitat, però potencial de gran superfície. Molt sensibles al vent, podent provocar canvis de direcció sobtats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una alta velocitat de propagació, amb sensibilitat al vent i possibilitat de canvis sobtats de direcció.",
+      "B": "Una intensitat sempre extrema, sense possibilitat d’afectar grans superfícies.",
+      "C": "Una propagació lenta i persistent, pràcticament independent de les condicions de vent.",
+      "D": "Una evolució exclusiva pel subsòl, amb absència de flama visible."
+    }
+  },
+  {
+    "id": "racord_c4b68046-2fd3-4ef3-ada0-3760f4ff5c3a",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la seguretat en operacions amb mitjans aeris:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nMesures: respectar les zones de seguretat, evitar treballar en línia amb trajectòries de descàrrega, mantenir comunicació clara entre els comandaments i els mitjans aeris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal respectar les zones de seguretat establertes",
+      "B": "Les brigades de terra s’han de situar preferentment en línia amb les trajectòries de descàrrega per aprofitar millor l’aigua",
+      "C": "S’ha d’evitar treballar en línia amb les trajectòries de descàrrega",
+      "D": "La comunicació entre els comandaments i els mitjans aeris ha de ser clara"
+    }
+  },
+  {
+    "id": "racord_8f57a3a8-8e64-447c-8264-8d64fccdec7c",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la consciència de situació:",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.3. La importància de la consciència de situació\n\nLa consciència de situació és, doncs, una eina col·lectiva i alhora individual que marca la diferència entre una intervenció segura i una situació de risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És exclusivament individual i no ha de compartir-se amb la resta de l’equip",
+      "B": "És una eina alhora col·lectiva i individual que pot marcar la diferència entre una intervenció segura i una situació de risc",
+      "C": "És únicament col·lectiva i no requereix interpretació per part de cada bomber",
+      "D": "Només és necessària quan ja s’ha produït un atrapament"
+    }
+  },
+  {
+    "id": "racord_d0da268f-4617-495a-b394-6b973a293de0",
+    "statement": "Quin resultat produeixen la continuïtat del paisatge i l’augment de la càrrega de combustible?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.2 Una estratègia reactiva davant d'un problema estructural\nEl resultat és un paisatge cada cop més continu i amb més càrrega de combustible, que incrementa exponencialment la probabilitat de patir grans incendis forestals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Redueixen progressivament la probabilitat de grans incendis forestals.",
+      "B": "Eviten que els incendis superin la capacitat d’extinció.",
+      "C": "Limiten la propagació dels incendis a superfícies petites.",
+      "D": "Incrementen exponencialment la probabilitat de patir grans incendis forestals."
+    }
+  },
+  {
+    "id": "racord_ac70d16a-d3d9-41e7-ab98-34e38496ef34",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les zones de seguretat:",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nLes zones de seguretat són espais físics on el personal es pot refugiar sense necessitat de protecció addicional. Exemples habituals són superfícies ja cremades, afloraments rocosos o clars sense vegetació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden ser afloraments rocosos",
+      "B": "Poden ser clars sense vegetació",
+      "C": "Poden ser superfícies ja cremades",
+      "D": "Són espais que sempre requereixen protecció addicional perqu�� el personal hi pugui romandre"
+    }
+  },
+  {
+    "id": "racord_fb6ba20e-54bb-446f-9b4d-5c7352837c45",
+    "statement": "Quines funcions poden desenvolupar les eines manuals en l’extinció d’un incendi forestal?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.2. Eines manuals (batefocs, rasclet, pala forestal, motxilles d’aigua)\n\nLa seva aplicació permet construir línies de defensa, eliminar combustible i reduir la intensitat del foc de manera directa i immediata.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incrementar la càrrega de combustible per facilitar la propagació controlada",
+      "B": "Actuar únicament en zones accessibles per a maquinària pesada",
+      "C": "Construir línies de defensa, eliminar combustible i reduir directament la intensitat del foc",
+      "D": "Substituir sempre les línies d’aigua en incendis de qualsevol intensitat"
+    }
+  },
+  {
+    "id": "racord_ddb14ae7-94bd-4ad5-9284-e8aced65ea3e",
+    "statement": "Quina és una de les primeres eines d’anàlisi disponibles per a qualsevol bomber en arribar a un incendi forestal?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2. Anàlisi bàsic: descripció de la columna de fum\n\nUna de les primeres eines d’anàlisi que pot utilitzar qualsevol bomber arribant a un incendi forestal és l’observació de la columna de fum.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La mesura topogràfica detallada de tot el perímetre",
+      "B": "L’anàlisi de laboratori de mostres de combustible",
+      "C": "L’observació de la columna de fum",
+      "D": "La reconstrucció completa de la causa de l’incendi"
+    }
+  },
+  {
+    "id": "racord_8709f431-0cd4-4064-8219-c497ac03ff97",
+    "statement": "Quin és l’objectiu principal de l’etapa d’atac?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.4.1. Etapa d’atac\n\nL’objectiu principal d’aquesta etapa és frenar la propagació activa del foc (estabilitzar) i aconseguir punts d’ancoratge que permetin limitar-ne l’expansió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eliminar exclusivament les brases latents després que l’incendi hagi estat extingit",
+      "B": "Frenar la propagació activa i aconseguir punts d’ancoratge que en limitin l’expansió",
+      "C": "Declarar l’incendi controlat abans d’establir sectors o línies de defensa",
+      "D": "Efectuar patrulles mòbils sense intervenir sobre la propagació activa"
+    }
+  },
+  {
+    "id": "racord_9a3dac8e-d263-440c-a332-5b203d37d1b9",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la fase crítica i de sortida del vehicle:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.5. Maniobra d’autoprotecció en cas d’atrapament d’autobomba\n\nEls bombers despleguen línies de protecció a l’ombra del vehicle i cobreixen els baixos del camió. Si l’aigua és insuficient o s’esgota, la dotació es col·loca a terra amb els EPI i els aïllants per minimitzar l’exposició a la calor. Un cop estabilitzada la situació, es comunica immediatament a la sala de control l’estat del personal, del vehicle i del material, donant finalització a la fase crítica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La dotació s’ha de mantenir dreta i separada del vehicle quan l’aigua sigui insuficient o s’esgoti",
+      "B": "Un cop estabilitzada la situació, s’ha de comunicar a la sala de control l’estat del personal, del vehicle i del material",
+      "C": "S’han de cobrir els baixos del camió",
+      "D": "S’han de desplegar línies de protecció a l’ombra del vehicle"
+    }
+  },
+  {
+    "id": "racord_bcb512e6-5418-417d-a428-df83ad61d5f0",
+    "statement": "Quin percentatge dels incendis forestals afecta menys de 10 hectàrees?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.3 La paradoxa de l'extinció\nL’evolució del sistema de resposta als incendis forestals ha comportat una gran eficàcia en l’extinció, on el 99% dels incendis afecten menys de 10 hectàrees.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 99%.",
+      "B": "El 76%.",
+      "C": "El 90%.",
+      "D": "El 65%."
+    }
+  },
+  {
+    "id": "racord_5cff6ab8-bdef-4db5-8726-1e6917157c0f",
+    "statement": "Amb quines finalitats pot utilitzar el foc el Cos de Bombers en un incendi de vegetació?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.2. Foc t��cnic\n\nEn supòsits d'incendi de vegetació, el Cos de Bombers de la Generalitat de Catalunya pot fer ús del foc com a mitjà per a estabilitzar, extingir, redirigir, confinar o disminuir la intensitat de l'incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per estabilitzar, extingir, redirigir, confinar o disminuir la intensitat de l’incendi",
+      "B": "Únicament per ampliar el perímetre cremat i facilitar-ne la cartografia",
+      "C": "Exclusivament per cremar vegetació després que l’incendi hagi estat extingit",
+      "D": "Només per incrementar la velocitat de propagació del front principal"
+    }
+  },
+  {
+    "id": "racord_29141acc-0b02-4c90-9ddb-f2c81ad6580b",
+    "statement": "Quines mesures contribueixen a prevenir la càrrega de treball excessiva i l’estrès tèrmic?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.2. Riscos específics en incendis de vegetació i mesures de seguretat associades\n\nMesures: pauses programades, relleus freqüents, consum regular d’aigua, reconeixement dels símptomes de cop de calor o fatiga extrema, vigilància mútua dins l’equip.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treball individual per evitar que el cansament d’un membre afecti la resta de l’equip",
+      "B": "Pauses programades, relleus freqüents, hidratació regular, reconeixement de símptomes i vigilància mútua",
+      "C": "Consum d’aigua únicament quan apareguin símptomes de fatiga extrema",
+      "D": "Eliminació de les pauses per reduir el temps d’exposició global al foc"
+    }
+  },
+  {
+    "id": "racord_3d9bd317-bacf-4e02-b034-bb3cb881506d",
+    "statement": "Quina afirmació descriu correctament els incendis de sisena generació?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals\nSisena generació (a partir de 2016): Els incendis són extremadament intensos, amb una dinàmica pròpia, ràpida i poc previsible. Tenen un gran potencial devastador i poden superar qualsevol capacitat de resposta convencional. Clau: la prevenció, l’adaptació del territori i la resiliència col·lectiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són incendis de baixa intensitat que avancen lentament pel subsòl.",
+      "B": "Són extremadament intensos, ràpids, poc previsibles i poden superar la resposta convencional.",
+      "C": "Són incendis fàcilment controlables amb un desplegament inicial ordinari.",
+      "D": "Són incendis limitats a zones agrícoles sense potencial devastador."
+    }
+  },
+  {
+    "id": "racord_12efdf97-4704-4d3a-b738-e4e68da738ec",
+    "statement": "Quina és la finalitat operativa de comprendre l’estructura d’un incendi forestal?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1. Parts de l’incendi forestal\n\nComprendre l’estructura d’un incendi forestal és fonamental per identificar els punts crítics, planificar les maniobres d’extinció i avaluar el seu comportament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assignar els indicatius de ràdio, distribuir els vehicles i determinar els relleus de personal.",
+      "B": "Establir la superfície cremada, calcular els danys econòmics i elaborar l’informe posterior.",
+      "C": "Determinar la causa de l’incendi, identificar-ne l’autor i delimitar les responsabilitats administratives.",
+      "D": "Identificar els punts crítics, planificar les maniobres d’extinció i avaluar el comportament de l’incendi."
+    }
+  },
+  {
+    "id": "racord_c1cae972-8d9a-47fa-9034-ffeb472a6611",
+    "statement": "Quina resposta es dona als incendis de quarta generació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Creació de tallafocs i sectorització dels paisatges abandonats.",
+      "B": "Ús exclusiu de foc tècnic en totes les zones afectades.",
+      "C": "Augment de recursos i desplegament immediat sense planificació.",
+      "D": "Defensa de nuclis habitats i ús generalitzat de tecnologia per al seguiment i la planificació."
+    }
+  },
+  {
+    "id": "racord_1497a38a-5a8c-48db-8e1d-9275bc33078d",
+    "statement": "Quina dimensió orientativa ha de tenir una zona de seguretat segons el manual?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nCom a normal aquesta zona cal que tingui un radi igual a 4 vegades l’alçada de flama esperada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un radi igual a quatre vegades l’alçada de flama esperada",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Un diàmetre fix de deu metres, independentment de la intensitat",
+      "D": "Un radi igual a la meitat de l’alçada de flama esperada"
+    }
+  },
+  {
+    "id": "racord_57f72c41-fdef-4f11-a34a-9e7c981ca23d",
+    "statement": "Quin és el problema principal dels incendis de segona generació?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La gran velocitat de propagació dels focs.",
+      "B": "La simultaneïtat de diversos grans incendis.",
+      "C": "La continuïtat del combustible en boscos densos.",
+      "D": "La propagació directa sobre habitatges i infraestructures."
+    }
+  },
+  {
+    "id": "racord_3322830c-1021-4386-88fc-61e09fe54b13",
+    "statement": "Quin incendi va influir especialment en la necessitat de crear el GRAF?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nEl GRAF es crea arran de la necessitat de reforçar la resposta operativa als grans incendis forestals que s’havien anat produint al país, especialment després del gran incendi de la Catalunya Central del 1998.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El gran incendi de la Catalunya Central del 1998.",
+      "B": "El gran incendi de la Catalunya Central del 1986.",
+      "C": "El gran incendi de l’Empordà del 1994.",
+      "D": "El gran incendi de Bellaterra del 2006."
+    }
+  },
+  {
+    "id": "racord_0e3e80eb-2b16-4096-abcb-5f8048542895",
+    "statement": "Quina descripció correspon a un incendi de vegetació urbana?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.3.4. Incendi de vegetació urbana\n\nSón incendis que afecten espais verds dins de nuclis urbans consolidats, com ara parcs i jardins, rambles o rieres amb vegetació densa, o solars amb herba seca o vegetació abandonada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Afecta exclusivament camps de cereal sec, restes agrícoles o cremes mal gestionades.",
+      "B": "Afecta masses forestals contínues sense presència d’edificis ni instal·lacions urbanes.",
+      "C": "Afecta únicament la franja de transició entre una massa forestal i una àrea habitada.",
+      "D": "Afecta espais verds dins de nuclis urbans consolidats, com parcs, jardins, rambles, rieres o solars amb vegetació."
+    }
+  },
+  {
+    "id": "racord_bec87cc5-f292-4807-992d-b0fdc533f97d",
+    "statement": "Quin objectiu té la maniobra de definició de perímetre mitjançant foc tècnic?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2.2. Foc tècnic\n\nConsisteix a eliminar amb foc tècnic el combustible existent entre el front actiu i ancoratges sòlids (naturals o construïts), amb l’objectiu de transformar un perímetre irregular en una línia més recta, curta i fàcil de defensar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incrementar la sinuositat del perímetre perquè el foc consumeixi més superfície",
+      "B": "Crear una línia discontínua sense relació amb el front actiu de l’incendi",
+      "C": "Transformar un perímetre irregular en una línia més recta, curta i fàcil de defensar",
+      "D": "Eliminar els punts d’ancoratge naturals o construïts situats davant del front"
+    }
+  },
+  {
+    "id": "racord_e3fcbcc8-983c-45d9-8c7f-0ebf70acbc9e",
+    "statement": "Quina millora notable s’ha produït durant les darreres dècades en la gestió dels incendis forestals ?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nÉs el resultat d’una transformació profunda del territori, condicionada per factors socials, econòmics i ambientals que han alterat l’estructura dels paisatges i el seu comportament davant el foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La millora de la productivitat agrícola i ramadera.",
+      "B": "La millora de la discontinuïtat del combustible forestal.",
+      "C": "La millora de la capacitat d’extinció i resposta operativa.",
+      "D": "La millora de la gestió tradicional de totes les masses forestals."
+    }
+  },
+  {
+    "id": "racord_864478e8-e5ec-4c28-8941-c8061278f7ac",
+    "statement": "En què consisteix la maniobra d’estesa de mànegues en un incendi forestal?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.1. Línia d’aigua amb estesa de mànegues\n\nAquesta tècnica consisteix a desplegar línies de mànegues des del vehicle autobomba fins al front de foc i aplicar aigua directament sobre les flames o les zones calentes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A desplegar línies de mànegues des de l’autobomba fins al front i aplicar aigua sobre les flames o les zones calentes",
+      "B": "A crear una línia fins a sòl mineral mitjançant l’eliminació manual de tot el combustible",
+      "C": "A encendre un front de foc que avanci en direcció contrària a l’incendi principal",
+      "D": "A efectuar descàrregues de retardant exclusivament des d’aeronaus"
+    }
+  },
+  {
+    "id": "racord_88b789ff-0e5a-4057-9a8a-34fa6dca4eb5",
+    "statement": "Quina de les opcions següents recull exclusivament finalitats de la codificació numèrica dels sectors?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.2.1. Criteri de numeració: sistema de parells i senars\n\nAquesta codificació permet: Facilitar la ràdio-comunicació per identificar les zones de l’incendi. Reduir errors de localització en situacions complexes. Definir els sectors amb un criteri comú de denominació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Facilitar la ràdio-comunicació, reduir errors de localització i definir els sectors amb un criteri comú.",
+      "B": "Assignar automàticament els comandaments, els vehicles i els mitjans aeris.",
+      "C": "Calcular la intensitat lineal, determinar la longitud de flama i establir la superfície cremada.",
+      "D": "Identificar la causa de l’incendi, preservar indicis i delimitar responsabilitats."
+    }
+  },
+  {
+    "id": "racord_44a5f64b-cd99-4fe1-b701-f693284a5c1c",
+    "statement": "D'acord amb les fases d'un incendi forestal, què caracteritza un incendi estabilitzat?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.5. Fases d’un incendi forestal\n\nEl foc encara es propaga però la seva dinàmica no supera la capacitat d’extinció. Si es descontrola, no es considera un reinici, sinó que torna a considerar-se actiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El foc es propaga lliurement i la seva dinàmica supera permanentment la capacitat d’extinci��",
+      "B": "El foc ja no es pot reiniciar i qualsevol nova combustió constitueix necessàriament un nou incendi",
+      "C": "El foc encara es propaga, però la seva dinàmica no supera la capacitat d’extinció",
+      "D": "El foc ja no avança i només falta declarar-lo extingit sense efectuar cap rematada"
+    }
+  },
+  {
+    "id": "racord_ccec3458-9feb-4bdc-9226-2d9b8a54f3d5",
+    "statement": "Quina fet va tenir lloc l’any 1994?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\n1994: Més de 76.000 ha cremades – creació programa Foc Verd.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es van cremar més de 65.000 hectàrees i es van crear les ADF.",
+      "B": "Es va crear el GRAF després de l’incendi de la Catalunya Central.",
+      "C": "Es van cremar més de 76.000 hectàrees i es va crear el programa Foc Verd.",
+      "D": "Es va regular l’ús del foc tècnic com a eina de gestió."
+    }
+  },
+  {
+    "id": "racord_90c5a1bd-35a0-4bc5-8c48-4b715b9fd08e",
+    "statement": "Des de quina perspectiva no es pot entendre únicament la història recent dels incendis forestals a Catalunya?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\nLa història recent dels incendis forestals a Catalunya no es pot entendre només des de la perspectiva de l’emergència i l’extinció.»",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des de la perspectiva de l’emergència i l’extinció.",
+      "B": "Des de la perspectiva dels factors socials i econòmics.",
+      "C": "Des de la perspectiva de la prevenció i la gestió forestal.",
+      "D": "Des de la perspectiva de la transformació del territori."
+    }
+  },
+  {
+    "id": "racord_2a17b4fb-4e9b-4c9d-980d-531996040dd0",
+    "statement": "Quan un incendi forestal pren una certa dimensió o complexitat, amb quina finalitat es divideix habitualment en sectors geogràfics?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.2. Denominació dels sectors en un incendi forestal\n\nQuan un incendi forestal pren una certa dimensió o complexitat, és habitual dividir-lo en sectors geogràfics per facilitar la gestió i el comandament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per facilitar-ne la gestió i el comandament.",
+      "B": "Per substituir l’estructura de comandament per una distribució exclusivament geogràfica.",
+      "C": "Per assignar un únic tipus de maniobra a tot el perímetre.",
+      "D": "Per determinar la causa de l’incendi abans de desplegar els recursos."
+    }
+  },
+  {
+    "id": "racord_4de82435-0585-4b8f-a903-216a4eb0d9ea",
+    "statement": "De què depèn principalment l’eficàcia real de les descàrregues efectuades pels mitjans aeris?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.3. Extinció amb mitjans aeris\n\nTot i la seva espectacularitat, l’eficàcia real depèn de la coordinació estreta amb els equips de terra, que han d’aprofitar immediatament les descàrregues per consolidar-les amb maniobres amb eines manuals o línies d’aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament del volum d’aigua transportat per l’aeronau",
+      "B": "De l’absència de personal terrestre dins de tot el sector d’intervenció",
+      "C": "De la coordinació estreta amb els equips de terra i de la consolidació immediata de les descàrregues",
+      "D": "Únicament de la velocitat de vol i de l’altura de la descàrrega"
+    }
+  },
+  {
+    "id": "racord_05246784-0ee5-4084-8e35-c58a4a5675ca",
+    "statement": "Què caracteritza els incendis de tercera generació?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La intensitat i la capacitat de generar focus secundaris a gran distància.",
+      "B": "La baixa intensitat i la facilitat de control directe.",
+      "C": "La baixa velocitat i l’absència de focus secundaris.",
+      "D": "La propagació limitada a camps de conreu abandonats."
+    }
+  },
+  {
+    "id": "racord_82790cca-50f7-403e-8cf2-100e1b50a9ba",
+    "statement": "A partir de quina informació es construeix la consciència de situació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.3. La importància de la consciència de situació\n\nEs construeix a partir de la informació prèvia i diària que proporciona la guàrdia de suport —com ara l’anàlisi de condicions meteorològiques, els episodis de risc esperats i les lliçons apreses d’incendis històrics o internacionals— i es concreta en documents com el RAF (Recomanació d’Actuacions Forestals) que es publica diàriament durant la campanya forestal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament de les dades recollides després de donar l’incendi per extingit",
+      "B": "Només de les comunicacions emeses pels mitjans aeris durant la intervenció",
+      "C": "Únicament de la informació sobre la disponibilitat de vehicles i personal del parc",
+      "D": "De la informació prèvia i diària sobre meteorologia, episodis de risc i lliçons apreses, concretada en documents com el RAF"
+    }
+  },
+  {
+    "id": "racord_95e8b844-cc2d-46f4-95da-edbc1e985b2c",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA en relació amb la tipologia i la classificació dels incendis forestals.",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2. Coneixements bàsics sobre incendis forestals\n\nConèixer la seva tipologia i classificació permet anticipar el seu comportament, adaptar la resposta i protegir eficaçment tant persones com infraestructures i ecosistemes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serveixen principalment per determinar l’origen i l’autoria de l’incendi abans d’iniciar l’extinció.",
+      "B": "Permeten anticipar el comportament de l’incendi, adaptar la resposta i protegir persones, infraestructures i ecosistemes.",
+      "C": "Només són aplicables als incendis que afecten masses forestals contínues i exclouen els incendis agrícoles.",
+      "D": "Tenen una finalitat exclusivament estadística i no condicionen la resposta operativa."
+    }
+  },
+  {
+    "id": "racord_4f5b3398-71d1-4c5b-8502-99cecce15bf7",
+    "statement": "Quina fet es va produir l’any 1982?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.1 Evolució històrica dels incendis forestals\n1982: Institucionalització del Cos de Bombers de la Generalitat",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La creació de les Agrupacions de Defensa Forestal.",
+      "B": "La creació del programa Foc Verd.",
+      "C": "La creació del Grup de Recolzament d’Actuacions Forestals.",
+      "D": "La institucionalització del Cos de Bombers de la Generalitat."
+    }
+  },
+  {
+    "id": "racord_655d8675-664f-41fb-baf1-773312c6a623",
+    "statement": "Quan són especialment útils les maniobres d’atac indirecte?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.2. Maniobres atac indirecte\n\nSón especialment útils en incendis d’alta intensitat, on el foc pot no ser abordable directament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només quan l’incendi ja ha estat extingit i comença la vigilància",
+      "B": "Exclusivament en incendis urbans sense presència de vegetació",
+      "C": "En incendis d’alta intensitat en què el foc pot no ser abordable directament",
+      "D": "Únicament en conats de baixa intensitat accessibles amb línia d’aigua"
+    }
+  },
+  {
+    "id": "racord_4f06b5a8-2e82-4c55-9098-28b9af6e48f5",
+    "statement": "Què pot indicar l’existència de diverses columnes de fum separades?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.2.1. Elements clau de la columna de fum\n\nL’existència de diverses columnes separades pot indicar la presència de focus secundaris, repunts de foc o dispersió per projecció de brases.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un únic foc concentrat sense possibilitat de propagació exterior",
+      "B": "Focus secundaris, repunts de foc o dispersió per projecció de brases",
+      "C": "La desaparició de la combustió activa al front principal",
+      "D": "L’absència de vent i d’inestabilitat atmosfèrica"
+    }
+  },
+  {
+    "id": "racord_18bd84ca-128d-4cbe-853a-52f932a49d52",
+    "statement": "Quina opció defineix correctament el cap d’un incendi forestal?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.1. Cap\n\nÉs la part de l'incendi que avança més ràpidament i amb major intensitat, generalment empesa pel vent, el pendent i la disponibilitat de combustible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la part posterior de l’incendi, generalment menys activa i amb propagació oposada al vent i al pendent.",
+      "B": "És la línia tancada que engloba exclusivament les zones amb flama activa del front principal.",
+      "C": "És cadascuna de les parts laterals que s’estenen des del punt d’inici fins a la cua de l’incendi.",
+      "D": "És la part que avança més ràpidament i amb major intensitat, generalment empesa pel vent, el pendent i la disponibilitat de combustible."
+    }
+  },
+  {
+    "id": "racord_060fd0fd-64ac-4d6b-8a2a-7308a2340958",
+    "statement": "Quin efecte operatiu té la identificació correcta del patró de propagació?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.5. Importància de la identificació del patró\n\nIdentificar-lo correctament permet anticipar l’evolució del foc i escollir la maniobra més adequada. Finalment, aquest coneixement té un impacte directe en la seguretat dels equips operatius ja que permet reduir riscos, evitar situacions d’encerclament i treballar sempre amb un marge de seguretat suficient.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Permet prescindir de les vies d’escapament i dels marges de seguretat",
+      "B": "Permet substituir l’observació del foc per una classificació fixa i invariable",
+      "C": "Permet determinar exclusivament la causa de l’incendi després de l’extinció",
+      "D": "Permet anticipar l’evolució, escollir la maniobra adequada i reduir els riscos per als equips"
+    }
+  },
+  {
+    "id": "racord_e41c5f52-e9fd-4247-9da4-72624de7dfb1",
+    "statement": "De quin percentatge de la superfície cremada total són responsables els grans incendis forestals?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.3 La paradoxa de l'extinció\nAquesta eficàcia també provoca una acumulació de combustible que incrementa el risc i la intensitat dels grans incendis forestals, responsables de més del 90% de la superfície cremada total.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aproximadament del 25%.",
+      "B": "De més del 90%.",
+      "C": "Exactament del 50%.",
+      "D": "De menys del 10%."
+    }
+  },
+  {
+    "id": "racord_e7f986b4-bc7d-4533-8373-43ad953bbd05",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els punts de canvi d’alineació:",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.3.3. Procés de valoració en 5 passos\n\nCanvi a millor (pels bombers): el foc entra en una zona amb menys pendent, més ombrívola o protegida del vent → el comportament s’afeblirà. Canvi a pitjor (pels bombers): el foc entra en una zona amb més exposició solar, pendent positiva o vent frontal → risc de salt, capell o flameig sobtat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’entrada del foc en una zona amb més exposició solar, pendent positiva o vent frontal constitueix un canvi a millor per als equips d’extinció",
+      "B": "Una zona amb menys pendent pot representar un canvi a millor",
+      "C": "Un augment de l’exposició solar o un vent frontal pot comportar un canvi a pitjor",
+      "D": "Una zona més ombrívola o protegida del vent pot afeblir el comportament del foc"
+    }
+  },
+  {
+    "id": "racord_52ebd22f-23f0-48ac-9c7b-f1632193b2d5",
+    "statement": "En què consisteix la paradoxa de l’extinció?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.3 La paradoxa de l'extinció\nAixò és el que es coneix com la paradoxa de l’extinció; com més eficaços som apagant incendis, els pocs que se'ns escapen són cada vegada més intensos, més potents i més destructius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com més eficaços som apagant incendis, els pocs que s’escapen són més intensos, potents i destructius.",
+      "B": "Com menys incendis s’apaguen, menys combustible s’acumula als boscos.",
+      "C": "Com més incendis es produeixen, menor és la superfície cremada total.",
+      "D": "Com més combustible hi ha, més fàcil resulta controlar tots els incendis."
+    }
+  },
+  {
+    "id": "racord_d659cbc6-c625-4310-a982-abab24b0a605",
+    "statement": "En quines condicions és adequada la maniobra d’atac directe amb eines manuals, segons el manual?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n4.1.2. Eines manuals (batefocs, rasclet, pala forestal, motxilles d’aigua)\n\nÉs una maniobra senzilla i ràpida, adequada per a focs de baixa intensitat (fins a un metre de longitud de flama i a velocitats de propagació inferiors a 1 km/h aproximadament).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En focs de capçades actius amb flames superiors a cinc metres",
+      "B": "En focs de baixa intensitat, amb flames de fins a un metre i velocitats inferiors aproximadament a 1 km/h",
+      "C": "Exclusivament en focs de subsòl sense presència de combustió superficial",
+      "D": "En qualsevol incendi que avanci a més de 5 km/h, sense suport addicional"
+    }
+  },
+  {
+    "id": "racord_82ba6284-09a6-4407-86f2-7f1a4dd58add",
+    "statement": "Un foc de superfície presenta flames de fins a tres metres i pot saltar pistes i afectar puntualment matolls i capçades. Com s’ha de classificar segons la intensitat?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.4.2. Focs de superfície\n\nEls de mitjana intensitat arriben fins a tres metres, poden saltar pistes i afectar puntualment matolls i capçades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com un foc de superfície d’alta intensitat.",
+      "B": "Com un foc de superfície de baixa intensitat.",
+      "C": "Com un foc de superfície de mitjana intensitat.",
+      "D": "Com un foc de capçades actiu."
+    }
+  },
+  {
+    "id": "racord_450d6665-8b7d-4f19-9fae-3cd195a8c24d",
+    "statement": "Quin període correspon a la primera generació d’incendis forestals?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dels anys 1950 als anys 1970.",
+      "B": "Dels anys 2000 als anys 2010.",
+      "C": "Dels anys 1980 als anys 2000.",
+      "D": "Dels anys 1970 als anys 1980."
+    }
+  },
+  {
+    "id": "racord_401b5248-6d58-4201-8c64-70ddd57c3a45",
+    "statement": "Quina informació proporciona de manera immediata la lectura de la columna de fum durant la valoració bàsica d’un incendi forestal?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3. Valoració bàsica d’incendis forestals\n\nLa lectura de la columna de fum ens proporciona informació immediata sobre la intensitat, direcció i evolució del foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Informació suficient per determinar automàticament tots els recursos necessaris",
+      "B": "Informació sobre la intensitat, la direcció i l’evolució del foc",
+      "C": "Informació sobre la resistència estructural dels elements situats dins del perímetre",
+      "D": "Informació exclusiva sobre la causa, el punt d’ignició i la superfície exacta afectada"
+    }
+  },
+  {
+    "id": "racord_35a25209-68fa-4ea3-b0f6-4351b5daf8e3",
+    "statement": "Quina descripció correspon a la cua d’un incendi forestal?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.3. Cua\n\nÉs la part posterior de l’incendi, generalment la menys activa. Aquí el foc es propaga en direcció oposada al vent i al pendent, i amb menor intensitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la part posterior, generalment menys activa, on el foc es propaga en direcció oposada al vent i al pendent i amb menor intensitat.",
+      "B": "És la part davantera, generalment més activa, on el foc es propaga a favor del vent i del pendent.",
+      "C": "És cadascuna de les parts laterals compreses entre el cap i el punt d’inici.",
+      "D": "És la línia imaginària que uneix el punt d’inici amb el cap de l’incendi."
+    }
+  },
+  {
+    "id": "racord_ff6a91c5-0ef7-4221-904d-081f99ec78a7",
+    "statement": "Per quin motiu el control dels focus secundaris ha de ser prioritari?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026 – Intervenció bàsica en incendis forestals\n\n2.1.6. Focus secundaris\n\nEl seu control ha de ser prioritari, doncs poden esdevenir nous caps. Poden posar en risc l’estructura de resposta i comportar atrapament d’unitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perquè només apareixen dins de la zona cremada i dificulten exclusivament el remat.",
+      "B": "Perquè determinen automàticament que l’incendi sigui classificat com a gran incendi forestal.",
+      "C": "Perquè poden esdevenir nous caps, posar en risc l’estructura de resposta i comportar l’atrapament d’unitats.",
+      "D": "Perquè sempre redueixen la intensitat del front principal i desorganitzen el perímetre."
+    }
+  },
+  {
+    "id": "racord_61b90a14-795f-4294-ac30-ca8958223eb1",
+    "statement": "Quina és la funció principal del Lookout o guaita?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nEn tota intervenció s’ha de designar una persona que actuï com a observador permanent del comportament de l’incendi. La seva funció és mantenir una visió clara i contínua del front de foc, de la columna i de l’equip de treball i de la zona segura, i avisar immediatament si es produeix qualsevol canvi en la dinàmica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Executar personalment totes les rutes d’escapament abans de la maniobra",
+      "B": "Observar permanentment l’incendi, l’equip i la zona segura, i avisar immediatament dels canvis",
+      "C": "Dirigir exclusivament les comunicacions amb els mitjans aeris",
+      "D": "Mantenir-se integrat dins del front de flames per observar-ne la intensitat"
+    }
+  },
+  {
+    "id": "racord_0ed3af78-3c73-45e7-ad84-c8fb1692f337",
+    "statement": "Què és un punt d’ancoratge segur?",
+    "correct": "A",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.4. El protocol LACES: l’estàndard en maniobres forestals\n\nQualsevol maniobra d’extinció ha de començar des d’un punt d’ancoratge segur, és a dir, un lloc que el foc no pugui superar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un lloc que el foc no pugui superar i des del qual es pot iniciar la maniobra",
+      "B": "Un espai sense comunicacions que obliga la dotació a mantenir-se agrupada",
+      "C": "Qualsevol punt situat davant del cap, encara que pugui ser sobrepassat",
+      "D": "Una zona destinada exclusivament a l’estacionament dels mitjans aeris"
+    }
+  },
+  {
+    "id": "racord_a2cac95d-b42b-495e-954c-c992f6819870",
+    "statement": "Quina era la solució principal per als incendis de primera generació?",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.4 Generacions d'incendis forestals",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Defensar els nuclis habitats i utilitzar tecnologia.",
+      "B": "Crear tallafocs i sectoritzar el territori per trencar la continuïtat.",
+      "C": "Augmentar els recursos i fer un desplegament immediat.",
+      "D": "Aplicar una gran coordinació interterritorial."
+    }
+  },
+  {
+    "id": "racord_ccc7366f-e8f9-4acd-bbfa-a669b761ad6f",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els fenòmens de piroconvecció.",
+    "correct": "B",
+    "explanation": "MAN.INVE.000 v1.2026\n\n3.1.3. Foc convectiu (de combustible)\n\nAixí, la formació del pirocúmul genera vents d’aspiració cap a ell (indraft), que acceleren el front de l’incendi de forma proporcional a l’alçada del pirocúmul (quan més alçada més velocitat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La velocitat d’acceleració del front és proporcional a l’alçada del pirocúmul",
+      "B": "Com més alçada assoleix el pirocúmul, menor és la velocitat d’acceleració del front de l’incendi",
+      "C": "Els vents d’aspiració poden accelerar el front de l’incendi",
+      "D": "La formació del pirocúmul genera vents d’aspiració cap a ell"
+    }
+  },
+  {
+    "id": "racord_d74bbb06-7e34-48a4-830b-e469b5fc741a",
+    "statement": "Quan i per qui va ser creat el GRAF?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’1 de juny del 2006 pel programa Foc Verd.",
+      "B": "L’1 de març del 1998 per l’Institut de Seguretat Pública de Catalunya.",
+      "C": "L’1 de gener del 2000 per les Agrupacions de Defensa Forestal.",
+      "D": "L’1 de març del 1999 per la Direcció General de Prevenció, Extinció d’Incendis i Salvaments."
+    }
+  },
+  {
+    "id": "racord_f2868686-7a91-4d18-a3e5-c938fca5b49a",
+    "statement": "Quines actuacions formen part de la fase prèvia o de prevenció?",
+    "correct": "C",
+    "explanation": "MAN.INVE.000 v1.2026\n\n5.5. Maniobra d’autoprotecció en cas d’atrapament d’autobomba\n\nAl parc, cal comprovar el correcte funcionament de les finestres i conductes d’aire de la cabina, així com els ruixadors de cabina. En moviment per zones forestals, és essencial fer un seguiment continu del foc, identificar zones segures accessibles i planificar rutes i zones segures.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aturar el vehicle davant del front i abandonar immediatament la cabina",
+      "B": "Desplegar línies a l’ombra del vehicle abans de detectar qualsevol risc",
+      "C": "Comprovar finestres, conductes i ruixadors, seguir el foc i planificar rutes i zones segures",
+      "D": "Activar els ruixadors de manera permanent des de la sortida del parc"
+    }
+  },
+  {
+    "id": "racord_a4291344-52d4-454b-a44b-6cedc2408a05",
+    "statement": "Com està estructurat actualment el GRAF?",
+    "correct": "D",
+    "explanation": "MAN.INVE.000 v1.2026 \n1.5 El GRAF: una unitat clau del model d'incendis forestals a Catalunya\nActualment, el GRAF està estructurat a partir d’una Unitat Tècnica central a Bellaterra, que actua com a cervell analític, i diverses unitats territorials desplegades en les diferents demarcacions del país.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "T25 Intervenció bàsica en incendis forestals",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb diverses unitats municipals sense coordinació tècnica central.",
+      "B": "Amb una única unitat territorial situada a la Catalunya Central.",
+      "C": "Amb una unitat central a Girona i una unitat aèria a Sabadell.",
+      "D": "Amb una Unitat Tècnica central a Bellaterra i diverses unitats territorials."
+    }
+  }
+]

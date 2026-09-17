@@ -1,0 +1,102 @@
+[
+  {
+    "id": "academia_sim125_q51",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 51,
+    "statement": "En un balcó sense cap element fiable per ancorar i amb una persona en risc vital imminent, en què consisteix la maniobra de ràpel del bomber?",
+    "correct": "C",
+    "explanation": "El ràpel del bomber s'aplica quan no hi ha cap punt fiable d'ancoratge fixi hiha risc vitalimminent: un company fa de\npunt fix per despenjar l'altremitjançant cordes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A despenjar el bomber directament des de lacistellade l'autoescala",
+      "B": "A despenjar un bomber utilitzantun ancoratge de fortuna com a punt fix",
+      "C": "A fer descendir un bomber utilitzantun altrebomber com a punt d'ancoratge",
+      "D": "A baixar amb un sol punt d'ancoratge sense línia de seguretat"
+    }
+  },
+  {
+    "id": "academia_sim125_q56",
+    "simulacre": "Simulacre 125",
+    "num_pregunta": 56,
+    "statement": "Quins elements formen el sistema emprat en la maniobra d'ascens per corda fixa?",
+    "correct": "D",
+    "explanation": "L'ascens per corda fixa es fa amb un sistema format per bloquejadors (puny), pedal iarnès sobre una corda instal·lada\nprèviament. El dispositiu de frenada iel descensor pertanyen a la maniobra de descens (ràpel).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloquejador ventral, descensor iarnès",
+      "B": "Politjaautoblocant, mosquetó de gran obertura i pedal",
+      "C": "Dispositiu de frenada, líniade vida inus ballestrinca",
+      "D": "Bloquejador de puny, pedal iarnès"
+    }
+  },
+  {
+    "id": "academia_sim126_q18",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 18,
+    "statement": "En un ascens per corda cal muntar un sistema de seguretat autoblocant. Quina parella de nusos hi correspon?",
+    "correct": "C",
+    "explanation": "El Prusik iel Machard són nusos autoblocants que s'empren com a sistemes de seguretat tant en descensos com en\nascensos. El vuit simple fa de topall, el resseguit assegura l'ancoratge a l'arnès ila ballestrinca serveix per a connexions\nràpides iajustables. www.academiabombers.com",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elnus de vuit simple iel resseguit",
+      "B": "La ballestrinca ielvuit simple",
+      "C": "El nus Prusik i elnus Machard",
+      "D": "El vuitresseguit i laballestrinca"
+    }
+  },
+  {
+    "id": "academia_sim126_q43",
+    "simulacre": "Simulacre 126",
+    "num_pregunta": 43,
+    "statement": "Cal evacuar una víctima immobilitzada façana amunt i el comandament decideix muntar un polispast. Quin criteri determina si la configuració ha de ser simple o més complexa?",
+    "correct": "C",
+    "explanation": "Els polispasts són configuracions de cordes, politges, frens ipunts d'ancoratge que poden ser simples o més complexos\nsegons el pes ila distància. El nombre d'efectius o el tipus de corda no és el criterique en defineix la configuració.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nombre de bombers disponibles a lazona de tracció iel pes de la càrrega",
+      "B": "L'elasticitatde la corda emprada en lalínia principali ladistància que cal recórrer",
+      "C": "El pes de la càrrega ila distància que cal recórrer",
+      "D": "L'alçada lliuredisponible sota el punt d'ancoratge il'elasticitatde lacorda emprada en la líniaprincipal"
+    }
+  },
+  {
+    "id": "academia_sim128_q26",
+    "simulacre": "Simulacre 128",
+    "num_pregunta": 26,
+    "statement": "Quina maniobra de rescat en alçada exigeix estar assegurat per dos punts?",
+    "correct": "D",
+    "explanation": "Maniobra de progressió i assegurament amb sistema MGO.\n\nObjectiu: Permetre la progressió vertical autònoma amb MGO per estructures metàl·liques, escales, bastides, balcons,\nlíniesde vida d’entorns industrials...\n\nDescripció: Consisteix a desplaçarse assegurant-se successivament mitjançant dos mosquetons de gran obertura, que\npermeten una connexió ràpida i segura a elements de grans dimensions (barres, perfils,passamans...). La maniobra\nexigeix estar assegurat per dos punts, mantenint sempre un punt d’ancoratge de l’MGO connectat.\n\n\n\n\n\n 14\nAcadèmia Bombers Simulacre 128",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Maniobres amb elements de retenció",
+      "B": "Maniobra de progressió tipusescalada",
+      "C": "Maniobra d’ascens per corda fixa",
+      "D": "Maniobra de progressió iassegurament amb sistema MGO"
+    }
+  }
+]

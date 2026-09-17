@@ -1,0 +1,2504 @@
+[
+  {
+    "id": "racord_66fd1e38-7e15-4bb4-b2e9-a05ecdcfb2eb",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la revisió del material d'un vehicle:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.2. Manteniment preventiu i revisió diària\n\nÉs imprescindible revisar que el material principal transportat estigui complet, operatiu i ben col·locat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És suficient comprovar que el material sigui present, encara que no funcioni",
+      "B": "El material ha d’estar operatiu",
+      "C": "El material ha d’estar complet",
+      "D": "El material ha d’estar ben col·locat"
+    }
+  },
+  {
+    "id": "racord_008d4f39-45cc-4749-92aa-901007fe3ee5",
+    "statement": "Què determina el pla de manteniment periòdic d’un vehicle?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.2. Manteniment preventiu i revisió diària\n\nCada vehicle segueix un pla de manteniment periòdic establert segons el quilometratge o el temps d’ús.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El quilometratge o el temps d’ús",
+      "B": "Només l’antiguitat del parc",
+      "C": "Únicament el nombre de serveis diaris",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_82f52517-7836-4025-983d-a6ceef7612ce",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA durant la comprovació mecànica d'un vehicle:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.2. Manteniment preventiu i revisió diària\n\nAmb el vehicle en marxa, i sempre sense accelerar en fred, es deixen passar uns minuts al ralentí per assegurar la bona posada en funcionament del sistema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La comprovació s’ha de fer amb el motor aturat",
+      "B": "Cal deixar el vehicle uns minuts al ralentí sense accelerar en fred",
+      "C": "El ralentí només és necessari després d’un servei",
+      "D": "Cal accelerar immediatament per comprovar la potència"
+    }
+  },
+  {
+    "id": "racord_47c5db17-ce7e-40dd-a55a-8dd2784b411c",
+    "statement": "Quina capacitat d’aigua comparteixen un camió tipus BUP i un camió tipus BRP?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.3. Bomba Urbana Pesada (BUP) i 3.4. Bomba Rural Pesada (BRP)\n\nBUP: Capacitat d’aigua: entre 3.000 i 4.000 litres. BRP: Capacitat d’aigua: entre 3.000 i 4.000 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 500 i 1.000 litres",
+      "B": "Entre 1.000 i 1.650 litres",
+      "C": "Entre 7.000 i 10.000 litres",
+      "D": "Entre 3.000 i 4.000 litres"
+    }
+  },
+  {
+    "id": "racord_a61bf872-4aa7-48e0-a969-12a9227cf9e5",
+    "statement": "Quina ordenació de menor a major capacitat d’aigua és correcta?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBUL 1000 l. BRP 3000 l. BUP 4000 l. BNP 10000 l.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BUP, BNP, BUL i BRP",
+      "B": "BNP, BUP, BRP i BUL",
+      "C": "BUL, BRP, BUP i BNP",
+      "D": "BRP, BUL, BNP i BUP"
+    }
+  },
+  {
+    "id": "racord_09dde130-a217-4f29-923e-ce5808310de3",
+    "statement": "En quins serveis pot operar la BUL com a vehicle de primera sortida?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. Bomba Urbana Lleugera (BUL)\n\nPot operar en primera sortida en incendis d’habitatge, vehicles, contenidors, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En incendis d’habitatge, vehicles o contenidors",
+      "B": "Exclusivament en incendis forestals de gran intensitat",
+      "C": "Únicament en el transport d’aigua a altres vehicles",
+      "D": "Només en serveis industrials sense hidrants"
+    }
+  },
+  {
+    "id": "racord_b1fe5530-966d-4125-a1df-4f393e80263f",
+    "statement": "Quin conjunt de material és habitual en les autobombes?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nMaterial transportat: mànegues, llances, eines manuals, escumogen, ERA (Equips de Respiració Autònoma), eines d’obertura, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament equips de navegació aquàtica",
+      "B": "Només material sanitari i lliteres",
+      "C": "Mànegues, llances, eines manuals, escumogen, ERA i eines d’obertura",
+      "D": "Únicament eines d’excarceració pesada"
+    }
+  },
+  {
+    "id": "racord_5f4da3d9-f008-4249-a981-13a784d7faa9",
+    "statement": "En quines situacions són especialment útils els mitjans aeris?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6. Mitjans aeris\n\nEls mitjans aeris són una eina fonamental per a determinades actuacions d’emergència, especialment en zones de difícil accés o en incendis forestals d’elevada intensitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només en incendis urbans de baixa intensitat",
+      "B": "En zones de difícil accés o incendis forestals intensos",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Exclusivament en serveis sanitaris terrestres"
+    }
+  },
+  {
+    "id": "racord_c84dd1c7-a34c-4352-ad58-0109c48f113b",
+    "statement": "Quina diferència funcional principal hi ha entre un BUP i un BRP?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.3. Bomba Urbana Pesada (BUP) i 3.4. Bomba Rural Pesada (BRP)\n\nBUP: Intervenció principal en incendis estructurals, accidents de trànsit, incendis de vehicles i serveis urbans generals. BRP: Intervencions en tot tipus d’emergència, des d’incendis en entorns urbans a incendis de vegetació, agrícoles o en masies aïllades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No existeix cap diferència operativa entre totes dues",
+      "B": "Un BUP només subministra aigua i un BRP només transporta personal",
+      "C": "Un BUP és exclusivament forestal i un BRP exclusivament urbana",
+      "D": "Un BUP se centra en serveis urbans, mentre que la BRP és polivalent en entorns urbans, rurals i forestals"
+    }
+  },
+  {
+    "id": "racord_f6b225b6-f7a0-4a1e-9ffd-4b3a389e9d92",
+    "statement": "Indiqueu quina de les associacions següents és INCORRECTA:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nFSV Furgó salvaments varis — Salvaments. FRQ Furgó risc químic — NRBQ. AEA Autoescala automàtica — Incendis/salvaments. UPC Unitat personal i càrrega — Comandament. AMB Ambulància — Sanitari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "FSV — Salvaments",
+      "B": "FRQ — Intervencions NRBQ",
+      "C": "AMB — Vehicle de comandament",
+      "D": "AEA — Incendis i salvaments"
+    }
+  },
+  {
+    "id": "racord_f7c3186f-7db5-4738-b712-d07bf9b3c503",
+    "statement": "Quina relació entre punt fort i limitació correspon a un camió tipus BUL?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. Bomba Urbana Lleugera (BUL)\n\nPunts forts: Maniobrabilitat, rapidesa d’accés en entorns urbans. Limitacions: Capacitat d’extinció limitada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gran maniobrabilitat urbana, però capacitat d’extinció limitada",
+      "B": "Gran capacitat d’aigua, però poca capacitat d’accés en terrenys difícils",
+      "C": "Gran polivalència forestal, però menys maniobrable en ciutat",
+      "D": "Gran potència de bomba, però dificultat per actuar en entorns urbans densos"
+    }
+  },
+  {
+    "id": "racord_b5dfa218-ec28-4908-8d2f-fa628d5a7167",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la UCP (Unitat de Comandament Pesada):",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.3. Unitat de Comandament Pesada (UCP)\n\nCamió gran adaptat, dissenyat per desplegar un CCA complet en grans emergències. Ofereix infraestructura mòbil de gestió per a situacions amb un equip de comandaments complet, personal tècnic, equips de comunicació i coordinació amb altres agències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Està destinada principalment al transport no urgent de pacients",
+      "B": "És un camió gran adaptat",
+      "C": "Pot desplegar un CCA complet",
+      "D": "Facilita la coordinació amb altres agències"
+    }
+  },
+  {
+    "id": "racord_2234b6de-fc4c-4c17-ba68-da302de5cd26",
+    "statement": "Quina funció general compleixen els vehicles especials respecte de les autobombes?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4. Vehicles especials\n\nEls vehicles especials complementen l’actuació de les autobombes i aporten capacitats tècniques específiques per a situacions complexes o de risc elevat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Substitueixen sempre les autobombes en qualsevol incendi",
+      "B": "Complementen les autobombes i aporten capacitats tècniques específiques",
+      "C": "Només transporten aigua i agents extintors",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_459e4628-fb91-4b5e-bb0d-8427c1a78c86",
+    "statement": "Quina relació entre vehicle, capacitat d’aigua i àmbit d’actuació és correcta?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBUP. Bomba urbana pesada. 4000 l. Extinció, salvaments, assistències tècniques d’àmbit urbà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BUP — 4.000 litres — extinció, salvaments i assistències tècniques d’àmbit urbà",
+      "B": "BUP — 1.000 litres — suport sanitari exclusiu",
+      "C": "BUP — 3.000 litres — actuacions únicament forestals",
+      "D": "BUP — 10.000 litres — alimentació d’altres vehicles"
+    }
+  },
+  {
+    "id": "racord_392283fa-8baf-49f5-8591-4e1a81b6c84f",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les funcions d’una AEA:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2. Autoescales (AEA): tipologies, característiques i serveis\n\nAEA – AUTOESCALA AUTOMÀTICA. SALVAMENT: Salvament de persones en incendis. Salvament en col·lapses. Evacuacions sanitàries amb llitera. Salvaments amb grua lleugera. EXTINCIÓ: Extinció d’incendis urbans. ASSISTÈNCIES TÈCNIQUES: Sanejament de façanes. Obertura d’habitatges. Grua pesada. Inspecció i revisió en alçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No pot efectuar evacuacions sanitàries amb llitera",
+      "B": "Pot intervenir en salvaments, extinció urbana i assistències tècniques",
+      "C": "No està destinada a operacions d’inspecció en alçada",
+      "D": "La seva única funció és l’extinció d’incendis forestals"
+    }
+  },
+  {
+    "id": "racord_c14d1235-9852-4b37-ae8f-f4800f67d727",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels avions d’extinció:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nAvions d’extinció: Capacitat de càrrega: entre 3.000 i 6.000 litres. Descàrregues d’aigua o retardants des de l’aire. S’utilitzen principalment en grans incendis forestals o zones obertes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’utilitzen principalment en espais urbans tancats",
+      "B": "Són adequats per a grans incendis forestals",
+      "C": "Poden descarregar aigua o retardant",
+      "D": "Poden transportar entre 3.000 i 6.000 litres"
+    }
+  },
+  {
+    "id": "racord_785d582b-5c20-4ebc-88a3-864dbe64a830",
+    "statement": "Quina diferència de capacitat d’aigua hi ha entre una BNP i una BUP?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBUP 4000 l. BNP 10000 l.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6.000 litres",
+      "B": "4.000 litres",
+      "C": "9.000 litres",
+      "D": "7.000 litres"
+    }
+  },
+  {
+    "id": "racord_80c463b5-6758-487d-8669-8e3b31ef7940",
+    "statement": "Quina associació entre acrònim, tipus de vehicle i capacitat d’aigua és correcta?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBUL. Bomba urbana lleugera. 1000 l. Extinció, salvaments, assistències tècniques d’àmbit urbà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BUL — Bomba Urbana Lleugera — 1.000 litres",
+      "B": "BUL — Bomba Urbana Pesada — 4.000 litres",
+      "C": "BUL — Bomba Nodrissa Pesada — 10.000 litres",
+      "D": "BUL — Bomba Rural — 3.000 litres"
+    }
+  },
+  {
+    "id": "racord_0ca889df-5471-4cc9-86a9-8e0f2e7dee19",
+    "statement": "Quines mesures contribueixen a reduir els riscos provocats pel vent en una AEA?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.2. Seguretat en intervencions amb AEA\n\nEl vent pot causar oscil·lacions perilloses i afectar l’estabilitat del braç d’escala per la qual cosa es recomana utilitzar tensors i el màxim nombre de punts de recolzament, a més de seguir estrictament les restriccions de funcionament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Desconnectar els sistemes de control electrònic",
+      "B": "Utilitzar tensors, el màxim nombre de punts de recolzament i respectar les restriccions",
+      "C": "Reduir el nombre de punts de recolzament per facilitar el moviment",
+      "D": "Treballar amb tots els trams desplegats sense valorar el vent"
+    }
+  },
+  {
+    "id": "racord_a298c93c-ad32-4927-8e09-c94807df8bd3",
+    "statement": "Quin cabal màxim pot assolir la bomba d’alta capacitat d'un BNP?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nBomba alta capacitat fins a 5000 l/min de cabal a 10 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fins a 5.000 litres per minut a 10 bars",
+      "B": "Fins a 3.000 litres per minut a 25 bars",
+      "C": "Fins a 1.000 litres per minut a 4 bars",
+      "D": "Fins a 10.000 litres per minut a 2 bars"
+    }
+  },
+  {
+    "id": "racord_99139e6e-47f8-4266-80d6-14063aa7c9c5",
+    "statement": "Quina associació descriu correctament un BRP (Bomba Rural Pesada)?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBRP. Bomba rural. 3000 l. Extinció, salvaments, assistències tècniques d’àmbit urbà i forestal (4x4).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BRP — 10.000 litres — alimentació i extinció",
+      "B": "BRP — 4.000 litres — comandament i coordinació",
+      "C": "BRP — 1.000 litres — serveis exclusivament urbans",
+      "D": "BRP — 3.000 litres — serveis urbans i forestals amb capacitat 4x4"
+    }
+  },
+  {
+    "id": "racord_f31da7ec-a606-46b8-8db2-1ee2cb33efd6",
+    "statement": "Quins equipaments poden incorporar els vehicles especials?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.1. Concepte i classificació dels vehicles especials\n\nAquests vehicles poden estar equipats amb grues, cistelles de salvament, eines tècniques específiques, sistemes de protecció especial o capacitat de mobilització de grans volums.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament una cisterna d’aigua i una bomba centrífuga",
+      "B": "Grues, cistelles de salvament, eines específiques i sistemes de protecció especial",
+      "C": "Només mànegues de 25 mm i eines forestals",
+      "D": "Exclusivament lliteres i material sanitari"
+    }
+  },
+  {
+    "id": "racord_c8f2abe6-aeb9-4360-a81d-5fb87c8296fa",
+    "statement": "Què permet l’autonomia operativa dels mitjans terrestres del Cos de Bombers?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nAutonomia operativa: poden treballar de forma independent durant diverses hores gràcies al material del qual disposa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballar de manera independent durant diverses hores gràcies al material disponible",
+      "B": "Actuar únicament mentre reben suport continu d’un altre vehicle",
+      "C": "Treballar sense personal d’intervenció",
+      "D": "Prescindir de qualsevol tipus de material transportat"
+    }
+  },
+  {
+    "id": "racord_c5074ec3-1fc0-4c92-b8a4-606492bb27e9",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre l’assignació de vehicles:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.1. Assignació de vehicles segons la tipologia d’emergència\n\nFactors a tenir en compte: Tipologia del risc. Accés al lloc. Recursos hídrics disponibles. Durada del servei. Tipus d’actuants i especialització.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La durada prevista del servei és irrellevant",
+      "B": "Cal valorar el risc, l’accés, l’aigua, la durada i l’especialització",
+      "C": "La selecció depèn únicament de la distància al parc",
+      "D": "Els recursos hídrics no condicionen la mobilització"
+    }
+  },
+  {
+    "id": "racord_9a8aab41-6301-4598-9c0e-93b9c363eead",
+    "statement": "Quina funció operativa desenvolupen els vehicles de comandament sobre el terreny?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2. Vehicles de comandament (UCL, UCM, UCP)\n\nEls vehicles de comandament permeten establir un Centre de Comandament sobre el terreny, que pot anar des d’un primer punt de comandament fins a un Centre de Comandament Avançat (CCA) complet.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’utilitzen exclusivament per transportar aigua i escumogen",
+      "B": "Permeten establir des d’un primer punt de comandament fins a un CCA complet",
+      "C": "Substitueixen els centres i les sales de coordinació",
+      "D": "Només donen suport sanitari a les víctimes"
+    }
+  },
+  {
+    "id": "racord_d8d48bb6-1081-4334-9a66-c971bdd54e54",
+    "statement": "Quina relació entre vehicle i funció és correcta?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nAEA Autoescala automàtica — Incendis/salvaments. UPC Unitat personal i càrrega — Comandament. AMB Ambulància — Sanitari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "AEA — alimentació; UPC — extinció; AMB — salvaments verticals",
+      "B": "AEA — sanitari; UPC — NRBQ; AMB — comandament",
+      "C": "Cap de les anteriors és correcta",
+      "D": "AEA — incendis i salvaments; UPC — comandament; AMB — sanitari"
+    }
+  },
+  {
+    "id": "racord_fcd00ca1-71d8-429b-802a-5703726dc5b8",
+    "statement": "Per a quines operacions estan dissenyats els vehicles especials del Cos de Bombers?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.1. Concepte i classificació dels vehicles especials\n\nEs consideren vehicles especials aquells que no tenen com a funció principal l’extinció directa d’incendis, sinó que estan dissenyats per: Fer operacions de rescat tècnic o vertical. Treballar amb productes perillosos. Donar suport logístic o estructural. Fer operacions en alçada o amb càrregues pesades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rescat tècnic o vertical, productes perillosos, suport logístic o estructural i operacions en alçada",
+      "B": "Exclusivament extinció directa amb grans cabals d’aigua",
+      "C": "Només transport sanitari no urgent",
+      "D": "Únicament vigilància i coordinació aèria"
+    }
+  },
+  {
+    "id": "racord_de1d294c-56e9-4418-9601-63884eb9c3ea",
+    "statement": "Quina combinació d’escumògens pot transportar el camió tipus BNP?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nAmb dipòsits interns per a escumogen tipus multi expansió i per tipus AR (resistents als alcohols).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només aigua sense cap dipòsit d’escumogen",
+      "B": "Escumogen multi expansió i escumogen AR resistent als alcohols",
+      "C": "Exclusivament retardant forestal",
+      "D": "Únicament escumogen de baixa expansió"
+    }
+  },
+  {
+    "id": "racord_9ff730bb-a3aa-4af5-b2a0-19aba88f74fb",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la comunicació aèria:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.3. Protocols de treball: càrrega/descàrrega, comunicació i seguretat\n\nCal usar procediments breus, clars i codificats. En alguns casos, es compta amb un operador de vol o coordinador aeri sobre el terreny.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot intervenir un coordinador aeri",
+      "B": "Els missatges han de ser llargs i improvisats",
+      "C": "Els procediments han de ser breus",
+      "D": "Els missatges han de ser clars i codificats"
+    }
+  },
+  {
+    "id": "racord_3ae9d9a8-1004-4423-9933-2c36b2b69bab",
+    "statement": "Quina tipologia de mitjà aquàtic s’utilitza per arribar ràpidament a víctimes en aigües obertes?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nLlanxes ràpides de rescat i motos d’aigua: Usades per arribar amb rapidesa a víctimes en aigües obertes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Furgons de risc químic",
+      "B": "Autoescales automàtiques",
+      "C": "Llanxes ràpides de rescat i motos d’aigua",
+      "D": "Embarcacions de càrrega pesada"
+    }
+  },
+  {
+    "id": "racord_02a8d3df-5ff6-4884-9d15-c051221afe1c",
+    "statement": "Quin vehicle combina mànegues especialment de 25 mm, eines forestals i sistemes d’autoprotecció?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.4. Bomba Rural Pesada (BRP)\n\nBomba d’alta i baixa pressió, i mànegues variades, però especialment de 25 mm. Eines forestals: batefocs, motoserres, eines manuals. Sistemes de seguretat destacats: Ruixadors d’autoprotecció, barres de protecció per bolcada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "La Bomba Rural Pesada (BRP)",
+      "C": "La Bomba Urbana Pesada (BUP)",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_e87b36a3-e2a0-4f72-9dc2-451c9934b125",
+    "statement": "Quina maniobra permet transportar una persona ferida immobilitzada amb una autoescala?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nRescat amb llitera: transport de ferits immobilitzats, adaptant la cistella o mitjançant suports específics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La grua pesada amb els trams totalment desplegats",
+      "B": "El rescat amb llitera adaptant la cistella o utilitzant suports específics",
+      "C": "La maniobra de descontaminació",
+      "D": "La maniobra de pont entre dues zones"
+    }
+  },
+  {
+    "id": "racord_483d459c-cce8-4015-917d-079cc8896b58",
+    "statement": "En quins entorns s’utilitzen principalment els mitjans aquàtics?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nEls mitjans aquàtics s’utilitzen principalment en zones costaneres, rius, embassaments o àrees inundables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament en carreteres i túnels",
+      "B": "En zones costaneres, rius, embassaments o àrees inundables",
+      "C": "Únicament en espais confinats",
+      "D": "Només en incendis forestals"
+    }
+  },
+  {
+    "id": "racord_a92c9ae7-96d5-4c8e-99ad-c2e75c916dd4",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA en comparar la UCL, la UCM i la UCP:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.1. UCL, 5.2.2. UCM i 5.2.3. UCP\n\nUCL: primer punt de comandament provisional. UCM: Centre de Comandament Avançat operatiu en emergències de mitjana complexitat. UCP: desplegar un CCA complet en grans emergències.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La UCP és la unitat més lleugera i maniobrable",
+      "B": "La UCL està concebuda per a emergències prolongades i multiescenari amb múltiples usuaris",
+      "C": "La UCL és adequada per al primer comandament, la UCM per a emergències mitjanes i la UCP per a grans emergències",
+      "D": "La UCM només serveix per transportar relleus"
+    }
+  },
+  {
+    "id": "racord_b5977fd4-7230-42e2-a848-8f797d503817",
+    "statement": "Quina funció principal té el Furgó de Salvament (FSV)?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.3. Furgons de salvament (FSV)\n\nEl Furgó de Salvament (FSV) és un vehicle especialitzat destinat a donar suport en serveis de rescat tècnic, accidents de trànsit, apuntalaments i intervencions amb persones atrapades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Subministrar grans cabals d’aigua a zones sense hidrants",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Fer principalment salvaments en alçada per façana",
+      "D": "Donar suport en rescats tècnics, accidents, apuntalaments i intervencions amb persones atrapades"
+    }
+  },
+  {
+    "id": "racord_43a51ce5-c711-48ec-9a36-a924c1765b0f",
+    "statement": "Quin vehicle disposa de la capacitat d’aigua més elevada entre les autobombes descrites?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nCapacitat d’aigua: entre 7.000 i 10.000 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "La Bomba Nodrissa Pesada (BNP)",
+      "C": "La Bomba Rural Pesada (BRP)",
+      "D": "La Bomba Urbana Pesada (BUP)"
+    }
+  },
+  {
+    "id": "racord_5f6b3863-5af4-4a71-9e32-62c7c581c307",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les funcions dels mitjans aeris:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nFuncions: Transport de personal d’intervenció a zones remotes. Llançament d’aigua o productes retardants en incendis. Salvament de muntanya o zones marítimes. Vigilància aèria, coordinació dels mitjans aeris i comandament de la intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No poden participar en tasques de comandament",
+      "B": "La seva funció queda limitada al transport de càrrega",
+      "C": "Només poden efectuar descàrregues d’aigua",
+      "D": "Poden transportar personal, efectuar descàrregues, fer salvaments i desenvolupar tasques de vigilància i coordinació"
+    }
+  },
+  {
+    "id": "racord_d47fe18f-f14d-4d0a-a563-0ca12b02db36",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels vehicles sanitaris A2:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nA2 o transport col·lectiu. Transport no urgent. 1 Tècnic/a Emergències Sanitàries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estan destinats al transport col·lectiu",
+      "B": "La dotació indicada és d’un tècnic o tècnica d’emergències sanitàries",
+      "C": "La seva funció principal és proporcionar suport vital avançat",
+      "D": "Realitzen transport no urgent"
+    }
+  },
+  {
+    "id": "racord_80c9d62b-69e2-4790-8883-74b334b98243",
+    "statement": "Un equip de bombers ha d’apropar-se a un helicòpter que acaba d’aterrar. Quina actuació és correcta?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.3. Protocols de treball: càrrega/descàrrega, comunicació i seguretat\n\nNormes de seguretat: No acostar-se a l’helicòpter sense autorització. Conèixer els senyals bàsics de comunicació visual amb l’helicòpter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Apropar-s’hi immediatament per la ruta més curta",
+      "B": "Fer senyals improvisats al pilot",
+      "C": "Esperar autorització abans d’apropar-s’hi",
+      "D": "Entrar a la zona sense contacte amb la tripulació"
+    }
+  },
+  {
+    "id": "racord_e181f33b-5df5-4676-8646-316765848528",
+    "statement": "Quines condicions ha de reunir la base d’emplaçament d’una autoescala?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nS’ha de garantir una base sòlida i plana, o inclinada dins d’uns límits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot ser inestable si s’utilitzen tots els trams",
+      "B": "Ha de ser sòlida i plana o tenir una inclinació dins dels límits admesos",
+      "C": "Ha de ser sempre inclinada per facilitar l’extensió de l’escala",
+      "D": "Només cal que sigui accessible per al vehicle"
+    }
+  },
+  {
+    "id": "racord_e3c7b872-64d6-411b-b83c-c62d51667879",
+    "statement": "Quin vehicle està relacionat principalment amb els salvaments?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nFSV. Furgó salvaments varis. Salvaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Unitat de Personal i Càrrega (UPC)",
+      "B": "L’Ambulància (AMB)",
+      "C": "El Furgó de Salvaments Varis (FSV)",
+      "D": "La Bomba Nodrissa Pesada (BNP)"
+    }
+  },
+  {
+    "id": "racord_563e26ea-b2ae-4d30-bd84-63b7735b4229",
+    "statement": "Indiqueu quina de les afirmacions següents ��s INCORRECTA respecte de les funcions dels mitjans terrestres dels Bombers de la Generalitat de Catalunnya:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nFuncions principals: Extinció d’incendis (urbans, forestals, industrials). Salvament de persones en accidents de trànsit, col·lapses estructurals o espais confinats. Intervencions en risc químic o tecnològic. Suport sanitari o logístic. Coordinació i comandament operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden intervenir en accidents de trànsit i col·lapses estructurals",
+      "B": "Poden donar suport sanitari o logístic",
+      "C": "Poden desenvolupar tasques de coordinació i comandament",
+      "D": "La seva funció queda limitada exclusivament a l’extinció d’incendis urbans"
+    }
+  },
+  {
+    "id": "racord_f19af7b8-e2cf-4c3b-87c9-87d6bd05634b",
+    "statement": "Quina relació entre tipus de mitjà aeri i funció és correcta?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris d’extinció i 6.2. Mitjans aeris de salvament\n\nEls mitjans aeris d’extinció tenen com a missió principal fer descàrregues d’aigua o retardants. Determinats helicòpters disposen d’equipament especial per fer rescats aeris de persones en entorns difícils.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Extinció: descàrregues; salvament: rescat de persones",
+      "B": "Extinció: comandament terrestre; salvament: avituallament",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Extinció: evacuació sanitària; salvament: retardants"
+    }
+  },
+  {
+    "id": "racord_3e084af2-b974-4e0c-8d21-e67a981e774c",
+    "statement": "Quines capacitats operatives caracteritzen els helicòpters d’extinció?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nMàxima precisió en les descàrregues. Possibilitat de transportar brigades lleugeres a peu de foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Precisió en la descàrrega i transport de brigades lleugeres",
+      "C": "Transport exclusiu de víctimes ferides",
+      "D": "Gran càrrega de retardant i absència de transport de personal"
+    }
+  },
+  {
+    "id": "racord_b1c83e64-c259-4ca2-8525-b2d259e4549b",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de l’emplaçament d’una autoescala:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nNo s’ha d’emplaçar sobre tapes de clavegueram, voreres, rampes inestables ni pendents pronunciats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han d’evitar els pendents pronunciats",
+      "B": "S’han d’evitar les rampes inestables",
+      "C": "Es pot emplaçar sobre una tapa de clavegueram si es despleguen tots els estabilitzadors",
+      "D": "No s’ha d’emplaçar sobre voreres inadequades"
+    }
+  },
+  {
+    "id": "racord_5bfe4531-a29e-4d70-bad3-1cbd5eaa13e2",
+    "statement": "Per què cal mantenir una distància òptima entre l’autoescala i la façana?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nCal mantenir una distància òptima a la façana per assolir el punt d’accés.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per poder assolir correctament el punt d’accés",
+      "B": "Per evitar haver d’utilitzar els estabilitzadors",
+      "C": "Per permetre que l’escala treballi sempre en posició vertical",
+      "D": "Per augmentar el pes suportat per la cistella"
+    }
+  },
+  {
+    "id": "racord_83315e6a-8876-4887-ba23-2c80ad3b6039",
+    "statement": "Quina característica diferencia el vehicle d’intervenció ràpida dels vehicles sanitaris de transport?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nVehicle intervenció ràpida. Atenció sanitària, no transport. 1 TES + 1 Metge/sa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofereix atenció sanitària, però no està destinat al transport de pacients",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Només realitza transport col·lectiu no urgent",
+      "D": "Està destinat exclusivament al trasllat en llitera"
+    }
+  },
+  {
+    "id": "racord_a4d1e110-ad40-4a02-9bce-d4bf21c441a0",
+    "statement": "D’on poden recollir aigua els helicòpters d’extinció?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nAigua recollida de basses, rius, piscines o amb dipòsits instal·lats (helibases).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament del mar",
+      "B": "Únicament de camions cisterna",
+      "C": "De basses, rius, piscines o dipòsits d’helibase",
+      "D": "Només d’hidrants urbans"
+    }
+  },
+  {
+    "id": "racord_a103ea28-2331-47fa-af03-ac6be2f28a21",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la selecció dels vehicles d’emergència:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.2. Funció dels vehicles en les emergències\n\nLa correcta tria i mobilització del vehicle pot marcar la diferència en l’eficàcia de la resposta i en la seguretat dels intervinents i de la població afectada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La mobilització depèn únicament de la distància al parc",
+      "B": "La tria i mobilització correctes poden millorar l’eficàcia i la seguretat de la resposta",
+      "C": "La selecció del vehicle no afecta la seguretat dels intervinents",
+      "D": "Tots els vehicles ofereixen les mateixes capacitats operatives"
+    }
+  },
+  {
+    "id": "racord_4c990bd7-5cbb-454d-a0b3-9105e556826d",
+    "statement": "Quina finalitat tenen els vehicles de suport logístic?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.3. Vehicles de suport logístic\n\nAquests vehicles tenen com a funció mantenir l’operativitat i el benestar dels equips durant les intervencions. Són essencials en serveis de llarga durada, d’alta demanda física o en entorns aïllats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir l’operativitat i el benestar dels equips durant les intervencions",
+      "B": "Assumir exclusivament el comandament tàctic",
+      "C": "Realitzar únicament l’extinció directa d’incendis",
+      "D": "Transportar només pacients en llitera"
+    }
+  },
+  {
+    "id": "racord_cf4fd9ab-5ee1-4f8f-ab4e-32dbf0f8b0f1",
+    "statement": "Quin equip caracteritza principalment els helicòpters de salvament?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nHelicòpters de salvament: Dotats de grua de rescat i cabina adaptada per evacuar persones ferides.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una cisterna de 10.000 litres",
+      "B": "Un sistema de navegació exclusiu per a incendis urbans",
+      "C": "Un monitor terrestre d’alt cabal",
+      "D": "Una grua de rescat i una cabina adaptada per evacuar persones ferides"
+    }
+  },
+  {
+    "id": "racord_3f3e9c05-0f0d-42f5-93e4-f2d711fbea40",
+    "statement": "Quina és la missió principal dels mitjans aeris d’extinció?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nEls mitjans aeris d’extinció tenen com a missió principal fer descàrregues d’aigua o retardants sobre el foc per reforçar les línies de contenció i reduir la intensitat de les flames.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer únicament vigilància sense intervenir",
+      "B": "Descarregar aigua o retardant per reforçar la contenció",
+      "C": "Transportar exclusivament personal sanitari",
+      "D": "Substituir sempre els equips terrestres"
+    }
+  },
+  {
+    "id": "racord_671cc044-1635-42e8-b334-30d458a05c31",
+    "statement": "Quina actuació aèria ajuda directament a disminuir l’avanç del foc?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nObjectius operatius: Franges de retardant per reduir la propagació. Refredament per reduir la intensitat de l’incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la ventilació del front",
+      "B": "Retirar vehicles terrestres de la zona",
+      "C": "Transportar exclusivament comandaments",
+      "D": "Crear franges de retardant"
+    }
+  },
+  {
+    "id": "racord_e0438d7a-e925-44a2-b143-a7512357f5de",
+    "statement": "Quin material diferencia especialment un BUP de la dotació més bàsica d'un BUL?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.3. Bomba Urbana Pesada (BUP)\n\nMaterial transportat: escumogen, eines de rescat, ERA, eines d’obertura, generador elèctric, ventilador, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament batefocs i eines forestals",
+      "B": "Exclusivament monitors d’alt cabal i dipòsits AR",
+      "C": "Només una grua i una cistella de salvament",
+      "D": "Escumogen, eines de rescat, generador elèctric i eines d’obertura"
+    }
+  },
+  {
+    "id": "racord_b296cfd3-78a9-4b29-a48b-83e1c22096f9",
+    "statement": "Quin nombre d’efectius transporten habitualment els mitjans terrestres del Cos de Bombers?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nPersonal transportat: habitualment de 2 a 6 efectius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sempre entre 8 i 12 efectius",
+      "B": "Habitualment un únic efectiu",
+      "C": "Exclusivament dos conductors",
+      "D": "Habitualment entre 2 i 6 efectius"
+    }
+  },
+  {
+    "id": "racord_0828e120-edd1-43c4-bb77-e4954e6714a9",
+    "statement": "Quina mesura és prioritària abans de l’aterratge d’un helicòpter?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.3. Protocols de treball: càrrega/descàrrega, comunicació i seguretat\n\nNormes de seguretat: Mantenir la zona d’aterratge clara i senyalitzada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Retirar tota la senyalització",
+      "B": "Apropar el personal a la zona d’aterratge",
+      "C": "Deixar material solt al perímetre",
+      "D": "Mantenir la zona clara i senyalitzada"
+    }
+  },
+  {
+    "id": "racord_8b01aeaf-262c-4616-81d7-4754e0473ecf",
+    "statement": "Quina funció poden desenvolupar els helicòpters de transport i intervenció?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nHelicòpters de transport i intervenció: Poden portar personal, material o fer descàrregues d’aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transportar personal o material i efectuar descàrregues d’aigua",
+      "B": "Transportar únicament productes retardants",
+      "C": "Actuar només com a mitjà de vigilància",
+      "D": "Evacuar ferits exclusivament mitjançant una grua de rescat"
+    }
+  },
+  {
+    "id": "racord_0fd2eb08-5b33-4495-aeff-52b021d9aa1f",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la UCM (Unitat de Comandament Mitjana):",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.2. Unitat de Comandament Mitjana (UCM)\n\nVehicle tipus furgó, amb capacitat ampliada per establir un Centre de Comandament Avançat operatiu en emergències de mitjana complexitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No disposa d’espai interior per al treball conjunt",
+      "B": "És un camió pesant destinat exclusivament a emergències multiescenari",
+      "C": "És un vehicle tipus furgó preparat per establir un CCA en emergències de mitjana complexitat",
+      "D": "És un tot terreny lleuger destinat únicament al primer comandament provisional"
+    }
+  },
+  {
+    "id": "racord_2f060e55-a46e-4e58-aca2-6519228ddbff",
+    "statement": "En què consisteix la maniobra de salvament amb cistella?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nSalvament amb cistella: recollida i evacuació de persones des d’alçades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la descontaminació ràpida de persones afectades",
+      "B": "En la creació d’un pas entre dues terrasses",
+      "C": "En la recollida i evacuació de persones des d’alçades",
+      "D": "En l’elevació exclusiva de càrregues pesades"
+    }
+  },
+  {
+    "id": "racord_4f3651be-7de5-48d9-b7c4-18935ece0f03",
+    "statement": "Quins elements faciliten l’estabilitat i el control precís d’una autoescala?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2. Autoescales (AEA): tipologies, característiques i serveis\n\nEstabilitzadors extensibles per garantir l’equilibri. Tauler de control electrònic per maniobres precises.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La cisterna compartimentada i els dipòsits d’escumogen",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Els estabilitzadors extensibles i el tauler de control electrònic",
+      "D": "Els elevadors pneumàtics i les eines hidràuliques"
+    }
+  },
+  {
+    "id": "racord_f584631f-44e5-4ac9-a50a-2269502638d6",
+    "statement": "Quines capacitats són pròpies de la UCP (Unitat de Comandament Pesada)?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.3. Unitat de Comandament Pesada (UCP)\n\nEspais diferenciats per a comandaments, suport al comandament, comunicació i reunions. Sistema de pantalles, mapes digitals i connexió per satèl·lit. Climatització, autonomia energètica i punts de treball per a múltiples usuaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Espais diferenciats, pantalles, mapes digitals, connexió per satèl·lit i autonomia energètica",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Una cisterna de gran capacitat i una bomba d’alta pressió",
+      "D": "Una cistella de salvament i una escala telescòpica"
+    }
+  },
+  {
+    "id": "racord_9b210148-f912-4148-bb7a-0b7d572ba91e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels protocols dels mitjans aeris:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nCal seguir protocols d’embarcament i desembarcament molt estrictes. És essencial respectar les normes de seguretat a la zona d’aterratge, ja que qualsevol negligència pot provocar accidents greus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una negligència a la zona d’aterratge pot provocar accidents greus",
+      "B": "Els protocols d’embarcament poden flexibilitzar-se lliurement si l’operació és urgent",
+      "C": "Cal respectar les normes de seguretat a la zona d’aterratge",
+      "D": "Els protocols d’embarcament i desembarcament han de ser estrictes"
+    }
+  },
+  {
+    "id": "racord_7f8ae641-827a-4aef-a1f5-715bd873370e",
+    "statement": "Quina relació entre medi, recurs i funció és correcta?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2. Tipologia general de vehicles\n\nMitjans terrestres: vehicles amb rodes. Mitjans aeris: helicòpters i avions. Mitjans aquàtics: llanxes, motos d’aigua i embarcacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Terrestre — llanxa — comandament; aeri — BRP — extinció; aquàtic — helicòpter — transport",
+      "B": "Terrestre — avió — retardant; aeri — ambulància — sanitari; aquàtic — autoescala — salvament vertical",
+      "C": "Terrestre — autobomba — extinció; aeri — helicòpter — transport o salvament; aquàtic — llanxa — rescat a l’aigua",
+      "D": "Cap de les anteriors és correcta"
+    }
+  },
+  {
+    "id": "racord_258f66ba-a383-4f0d-bd85-6ad8d5b29727",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les característiques comunes de les autobombes:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nCaracterístiques comunes: Capacitat d’aigua. Bomba centrífuga d’alta i baixa pressió. Estructures reforçades per accedir a tot tipus de terrenys. Material transportat: mànegues, llances, eines manuals, escumogen, ERA, eines d’obertura, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disposen d’un dipòsit amb capacitat per transportar aigua",
+      "B": "Incorporen una bomba centrífuga d’alta i baixa pressió",
+      "C": "Les autobombes no disposen de dipòsit d’aigua ni de material d’extinció",
+      "D": "Poden transportar mànegues, llances, escumogen i ERA"
+    }
+  },
+  {
+    "id": "racord_8d59e566-671b-468a-aca1-d4c80b981c60",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels vehicles NRBQ:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.4. Vehicles de risc químic (NRBQ)\n\nFuncions: Avaluar la zona contaminada. Donar suport a l’establiment del zonatge. Protegir als intervinents. Iniciar maniobres de detecció, contenció o mitigaci�� en entorns químics, biològics o radiològics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden avaluar una zona contaminada",
+      "B": "Poden donar suport a l’establiment del zonatge",
+      "C": "Poden iniciar maniobres de detecció, contenció o mitigació",
+      "D": "La seva funció principal és efectuar salvaments en alçada amb cistella"
+    }
+  },
+  {
+    "id": "racord_49a15e68-b739-43df-8088-be4c1c9bc15b",
+    "statement": "Quina relació entre vehicle i material transportat és correcta?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. BUL, 3.3. BUP, 3.4. BRP i 3.5. BNP\n\nBUL: ERA, llances, mànegues, ventilador, eines manuals. BUP: ERA, escumogen, ventilador, material de rescat, llums. BRP: ERA, mànegues, eines manuals, material de rescat, ruixadors d’autoprotecció. BNP: Bomba d’alta capacitat, monitors d’alt cabal, mànegues, ventiladors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BUP — ruixadors d’autoprotecció; BRP — dipòsits AR",
+      "B": "Cap de les anteriors és correcta",
+      "C": "BUL — monitors d’alt cabal; BNP — batefocs i motoserres",
+      "D": "BRP — eines forestals i ruixadors d’autoprotecció; BNP — monitors d’alt cabal i bomba d’alta capacitat"
+    }
+  },
+  {
+    "id": "racord_14f70b8f-7116-4be1-814f-f091881a42ee",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la mobilitat dels mitjans terrestres.",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nMobilitat ràpida en tot tipus de via (urbana, interurbana, forestal).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No estan preparats per circular per camins o terrenys accidentats",
+      "B": "Poden oferir mobilitat ràpida en vies urbanes, interurbanes i forestals",
+      "C": "La seva mobilitat queda limitada a l’àmbit municipal",
+      "D": "Només poden circular per vies urbanes pavimentades"
+    }
+  },
+  {
+    "id": "racord_00b5cbb1-ea44-47ca-a86e-1ad4653c1c75",
+    "statement": "Quina diferència operativa existeix entre la grua pesada i la grua lleugera d’una autoescala?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nLa grua pesada es fa servir amb el primer tram d’escala i els altres trams totalment recollits. La grua lleugera es fa amb tot el braç d’escala subjectant la càrrega a l’extrem de l’últim tram.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pesada utilitza tota l’escala desplegada i la lleugera només el primer tram",
+      "B": "No existeix cap diferència entre totes dues maniobres",
+      "C": "La pesada utilitza el primer tram amb la resta recollits, i la lleugera tot el braç amb la càrrega a l’últim tram",
+      "D": "La pesada s’utilitza exclusivament per evacuar persones"
+    }
+  },
+  {
+    "id": "racord_f1821ef6-ef93-4317-a81a-e8675f3abfec",
+    "statement": "Quines tasques es duen a terme des dels vehicles de comandament?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2. Vehicles de comandament (UCL, UCM, UCP)\n\nÉs des d’aquests vehicles, on es coordinen els recursos operatius, es prenen decisions tàctiques i es manté la comunicació amb els centres o sales de coordinació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Realitzar únicament el transport de personal i càrrega",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Fer exclusivament el manteniment mecànic dels vehicles",
+      "D": "Coordinar recursos, prendre decisions tàctiques i mantenir la comunicació amb les sales de coordinació"
+    }
+  },
+  {
+    "id": "racord_cf0d7ea0-7be4-4ebd-9107-fafa10c3f449",
+    "statement": "Com es realitza habitualment la comunicació amb el pilot d’un mitjà aeri?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nLa comunicació amb el pilot es fa per freqüències de ràdio específiques i sovint amb l’ajuda d’un operador aeronàutic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant la xarxa telefònica convencional",
+      "B": "Mitjançant freqüències de ràdio específiques i sovint amb un operador aeronàutic",
+      "C": "Exclusivament amb senyals manuals des de terra",
+      "D": "Sense cap procediment específic de comunicació"
+    }
+  },
+  {
+    "id": "racord_9cfe0d90-4075-45d2-8113-7a3b9c0bc8eb",
+    "statement": "Quin risc de conducció deriva del centre de gravetat elevat d’una AEA?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.2. Seguretat en intervencions amb AEA\n\nLes AEA tenen un centre de gravetat molt alt, fet que incrementa el risc de balanceig en girs i corbes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una reducció del voladís davanter i posterior",
+      "B": "Un major risc de balanceig en girs i corbes",
+      "C": "L’eliminació del risc d’impacte amb obstacles",
+      "D": "Una major estabilitat automàtica en maniobres ràpides"
+    }
+  },
+  {
+    "id": "racord_d541f80d-7546-4ad4-99aa-1e9b7e94c012",
+    "statement": "Quina relació entre tipus de vehicle, funció i personal correspon a un vehicle sanitari de tipus B?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nB. Suport vital bàsic. 2 Tècnics Emergències Sanitàries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transport no urgent amb un únic tècnic",
+      "B": "Suport vital avançat amb un tècnic i un infermer",
+      "C": "Atenció sanitària sense transport amb un metge",
+      "D": "Suport vital bàsic amb dos tècnics d’emergències sanitàries"
+    }
+  },
+  {
+    "id": "racord_19561631-79f1-45c9-9ebf-f5922e9d7604",
+    "statement": "Quina finalitat té la maniobra de pont amb una autoescala?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nPont: establir pas entre dues zones (ex. entre terrasses).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elevar càrregues pesades amb el primer tram",
+      "B": "Establir un pas entre dues zones, com ara dues terrasses",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Evacuar una persona amb una llitera"
+    }
+  },
+  {
+    "id": "racord_6dec19be-fb3a-4da1-b34f-982d57db210a",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte dels àmbits d’actuació dels helicòpters de salvament.",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.2. Mitjans aeris per a salvament de persones: helicòpters\n\nÀmbits d’actuació: Rescats de muntanya i zones escarpades. Salvament marítim o fluvial. Extracció de víctimes en zones inundades o aïllades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només actuen en incendis forestals",
+      "B": "No poden evacuar víctimes de zones inundades",
+      "C": "La seva funció es limita al transport de càrrega",
+      "D": "Poden rescatar en muntanya, aigua i zones aïllades"
+    }
+  },
+  {
+    "id": "racord_8373af14-b82f-4e53-844f-636b12d57187",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la grua pesada d’una autoescala:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.1. Emplaçament i maniobres amb autoescales\n\nTotes les autoescales modernes poden fer de grua amb càrregues pesades fent servir el primer tram d'escala, però només es fa servir en casos d’emergència ja que l’autoescala no és un vehicle dissenyat per moure càrregues.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’utilitza el primer tram d’escala",
+      "B": "Només s’ha d’utilitzar en casos d’emergència",
+      "C": "És una funció ordinària per a la qual l’autoescala ha estat dissenyada específicament",
+      "D": "Els altres trams han d’estar totalment recollits"
+    }
+  },
+  {
+    "id": "racord_9fb5123c-4fb0-4176-9d41-990ff474a96a",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la relació entre el FSV i les autobombes:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.3. Furgons de salvament (FSV)\n\nÉs un recurs que dona potència i capacitat tècnica, sovint complementant l’actuació de les autobombes. Són vehicles essencials en serveis de rescat tècnic, i sovint actuen en coordinació amb les autobombes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El FSV no pot actuar conjuntament amb altres vehicles",
+      "B": "El FSV aporta capacitat tècnica i sovint treballa coordinadament amb les autobombes",
+      "C": "La seva funció principal és aportar aigua a les autobombes",
+      "D": "El FSV substitueix sempre les autobombes en accidents de trànsit"
+    }
+  },
+  {
+    "id": "racord_e6f37d35-87fa-44d7-a06d-8a0af6988c27",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de les funcions del FSV:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.3. Furgons de salvament (FSV)\n\nLes funcions principals són: Salvament de persones atrapades, excarceració en accidents de mitjans de transport i rescat en estructures col·lapsades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot donar suport en excarceracions",
+      "B": "Pot intervenir en estructures col·lapsades",
+      "C": "Pot intervenir en el salvament de persones atrapades",
+      "D": "La seva funció principal és l’extinció directa d’incendis forestals amb aigua"
+    }
+  },
+  {
+    "id": "racord_a2e521c0-5161-49c1-b88e-6dd521239b9d",
+    "statement": "Quins recursos poden transportar els vehicles d’emergència?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.2. Funció dels vehicles en les emergències\n\nEls vehicles poden portar: Personal. Aigua, escumogen o altres agents extintors. Eines i equips de salvament, rescat i excarceració. Material sanitari i de suport vital. Recursos logístics i de suport operatiu. Sistemes de comunicació i comandament mòbil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Personal, agents extintors, equips de rescat, material sanitari, recursos logístics i sistemes de comunicació",
+      "B": "Únicament aigua i mànegues",
+      "C": "Exclusivament material sanitari",
+      "D": "Només eines manuals i equips d’excarceració"
+    }
+  },
+  {
+    "id": "racord_d82708f4-5fb7-47da-afc0-16275f3ed99f",
+    "statement": "Quin vehicle és especialment adequat per a una primera intervenció en carrers estrets o nuclis urbans densos?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. Bomba Urbana Lleugera (BUL)\n\nVehicle compacte i maniobrable, dissenyat per actuar en entorns urbans densos o amb accessos complicats, com cascs antics, carrers estrets o zones molt urbanitzades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "Cap de les anteriors és correcta",
+      "C": "La Bomba Rural Pesada (BRP)",
+      "D": "La Bomba Nodrissa Pesada (BNP)"
+    }
+  },
+  {
+    "id": "racord_e42bb6fb-65f8-4468-b8d0-a762f25164c7",
+    "statement": "Quina capacitat d’aigua correspon a la Bomba Urbana Lleugera?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. Bomba Urbana Lleugera (BUL)\n\nCapacitat d’aigua: entre 1.000 i 1.650 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 500 i 1.000 litres",
+      "B": "Entre 3.000 i 4.000 litres",
+      "C": "Entre 1.000 i 1.650 litres",
+      "D": "Entre 7.000 i 10.000 litres"
+    }
+  },
+  {
+    "id": "racord_6b39e3bb-a5df-4814-a59f-5e9d47566013",
+    "statement": "Quin vehicle està específicament relacionat amb intervencions NRBQ?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nFRQ. Furgó risc químic. NRBQ.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "L’Autoescala Automàtica (AEA)",
+      "C": "El Furgó de Risc Químic (FRQ)",
+      "D": "L’Ambulància (AMB)"
+    }
+  },
+  {
+    "id": "racord_9cdae5c2-abbd-4dae-a4d9-b965047a02ec",
+    "statement": "Quina relació entre personal transportat i tracció correspon a la BNP?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nPersonal transportat: 2 a 3 bombers. Tracció: 4x2 o 6x4.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transporta entre 6 i 8 bombers i té tracció 6x6",
+      "B": "Transporta entre 3 i 6 bombers i té sempre tracció 4x4",
+      "C": "Transporta entre 2 i 3 bombers i pot tenir tracció 4x2 o 6x4",
+      "D": "Transporta un únic bomber i té tracció exclusivament 4x2"
+    }
+  },
+  {
+    "id": "racord_1deba127-d96d-45ca-bb52-ff8b612bab21",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels factors d’assignació de vehicles:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.1. Assignació de vehicles segons la tipologia d’emergència\n\nAccés al lloc: vies, tipus de terreny i condicionants geogràfics. Recursos hídrics disponibles: presència d’hidrants o punts d’aigua naturals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les vies d’accés poden condicionar el vehicle mobilitzat",
+      "B": "La presència d’hidrants és un factor rellevant",
+      "C": "El tipus de terreny i la disponibilitat d’aigua no afecten la selecció",
+      "D": "Els punts d’aigua naturals poden influir en l’assignació"
+    }
+  },
+  {
+    "id": "racord_53873b05-0a8b-4689-8a62-04bd65b9008b",
+    "statement": "Quina quantitat d’escumogen pot transportar un BNP?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nEscumogen transportat: Entre 500 i 1.000 l d’escumogen multi expansió i AR.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre 1.000 i 1.650 litres",
+      "B": "Entre 500 i 1.000 litres",
+      "C": "Entre 7.000 i 10.000 litres",
+      "D": "Entre 3.000 i 4.000 litres"
+    }
+  },
+  {
+    "id": "racord_859106f8-bfa6-40a0-a07e-7f4e2c4a6b67",
+    "statement": "A quina Regió d'Emergències correspon un vehicle de bombers amb el codi 2.05.30?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.4. Codificació específica dels vehicles d’emergència\n\nX.YY.ZZ. X Regió/Divisió. YY Unitat o parc. ZZ Tipus de vehicle.  Les Regions d'Emergències estan codificades de la següent forma: 1. Centre  2.Girona 3.Lleida 4. Metropolitana Nord 5.Metropolitana Sud 6. Tarragona 7.Terres de l'Ebre  Actualment s'ha creat la Regió d'Emergències dels Pirineus però cal veure quina codificació els hi posen als vehicles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Regió d'Emergències de Girona",
+      "B": "Regió d'Emergències Centre",
+      "C": "Regió d'Emergències Metropolitana Nord",
+      "D": "Regió d'Emergències de Lleida"
+    }
+  },
+  {
+    "id": "racord_790eb051-3675-42c9-abd3-93172fdab53c",
+    "statement": "En un incendi que amenaça una urbanització, quin objectiu operatiu poden assumir els mitjans aeris?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nProtecció puntual de zones sensibles (masies, urbanitzacions, caps de foc).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer únicament transport sanitari",
+      "B": "Protegir puntualment la zona sensible",
+      "C": "Retirar material de les autobombes",
+      "D": "Substituir el confinament de la població"
+    }
+  },
+  {
+    "id": "racord_04f0422e-3093-43e9-939a-3dd319c952ca",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte del suport als mitjans aquàtics:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nSovint són complementats amb helicòpters de rescat o mitjans terrestres de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden complementar-se amb helicòpters de rescat",
+      "B": "Els mitjans aquàtics han d’actuar sempre sols i sense suport d’altres recursos",
+      "C": "La combinació de recursos pot reforçar l’operatiu",
+      "D": "Poden rebre suport de mitjans terrestres"
+    }
+  },
+  {
+    "id": "racord_f4a55cb2-62c8-4cf7-bb13-7e08820fcd4d",
+    "statement": "Quin vehicle és l’autobomba estàndard de la majoria de parcs i està adaptat a entorns urbans, rurals i forestals?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.4. Bomba Rural Pesada (BRP)\n\nVehicle polivalent dissenyat per a actuacions en tot tipus d’entorns, urbans, rurals i forestals, especialment adaptat a terrenys difícils. És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "La Bomba Nodrissa Pesada (BNP)",
+      "C": "La Bomba Rural Pesada (BRP)",
+      "D": "La Bomba Urbana Pesada (BUP)"
+    }
+  },
+  {
+    "id": "racord_11d97b1d-c3bf-43ef-8cac-e11e2db18c5f",
+    "statement": "Quan s’ha de fer la revisió diària del vehicle?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.2. Manteniment preventiu i revisió diària\n\nCal fer-la a l’inici de la jornada, segons l’horari establert d’activitat al parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’inici de la jornada",
+      "B": "Exclusivament al final de cada mes",
+      "C": "Només després d’una avaria",
+      "D": "Quan ho sol·liciti el taller"
+    }
+  },
+  {
+    "id": "racord_497f292d-4445-4fef-9698-8941d8a80dfa",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre el codi  d'un vechicle X.YY.ZZ:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.4. Codificació específica dels vehicles d’emergència\n\nX.YY.ZZ. X Regió/Divisió. YY Unitat o parc. ZZ Tipus de vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "X identifica la regió o divisió",
+      "B": "YY identifica la unitat o parc",
+      "C": "YY identifica el tipus de vehicle",
+      "D": "ZZ identifica el tipus de vehicle"
+    }
+  },
+  {
+    "id": "racord_1d4c1bef-1c29-4c31-b131-b7ac468a5dbb",
+    "statement": "Quines mesures són necessàries davant del risc elèctric en una intervenció amb AEA?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.2. Seguretat en intervencions amb AEA\n\nÉs imprescindible identificar i mantenir distàncies segures respecte al cablejat, assegurar l’autoescala amb una connexió correcta a terra i evitar qualsevol contacte entre l’escala i cables sota tensió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Apropar l’escala al cablejat per comprovar si hi ha tensió",
+      "B": "Prescindir de la connexió a terra si el vehicle està estabilitzat",
+      "C": "Mantenir distàncies segures, connectar correctament l’AEA a terra i evitar cables sota tensió",
+      "D": "Utilitzar la cistella com a punt de contacte amb els cables"
+    }
+  },
+  {
+    "id": "racord_e65b3726-1d26-4195-b962-98b6d1c052c1",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de la classificació dels vehicles sanitaris.",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nAquesta normativa classifica els vehicles en diferents tipologies segons la seva funció assistencial: des del transport no urgent (A1 i A2) fins als serveis de suport vital bàsic (tipus B) o avançat (tipus C), passant per les unitats d’intervenció ràpida (VIR), que ofereixen assistència sanitària in situ però sense transport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els vehicles tipus A1 i A2 són unitats de suport vital avançat",
+      "B": "Inclou vehicles de transport no urgent, suport vital bàsic, suport vital avançat i intervenció ràpida",
+      "C": "Tots els vehicles sanitaris tenen la mateixa funció i la mateixa dotació",
+      "D": "Els vehicles d’intervenció ràpida estan destinats principalment al transport col·lectiu"
+    }
+  },
+  {
+    "id": "racord_79781152-6f00-4bc2-bbcc-438fc6777c74",
+    "statement": "Quina característica defineix els avions d’extinció?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nAvions d’extinció: Amb gran capacitat de càrrega d’aigua o retardant, especialment útils en incendis forestals de gran abast.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només poden actuar en zones marítimes",
+      "B": "Estan destinats exclusivament al transport sanitari",
+      "C": "Disposen de gran capacitat de càrrega d’aigua o retardant",
+      "D": "No poden intervenir en incendis forestals"
+    }
+  },
+  {
+    "id": "racord_91089b8c-82cd-429e-ab0b-b047159e99f3",
+    "statement": "Quin tipus de bomba incorporen totes les autobombes del Cos de Bombers de la Generalitat?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nTotes les autobombes del Cos de Bombers de la Generalitat estan equipades amb bombes centrífugues d’alta i baixa pressió per poder tirar aigua amb tots els diàmetres de mànegues dels quals es disposa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una bomba exclusiva per generar escuma d’alta expansió",
+      "B": "Una bomba pneumàtica sense impulsió d’aigua",
+      "C": "Una bomba centrífuga d’alta i baixa pressió",
+      "D": "Una bomba exclusivament de baixa pressió"
+    }
+  },
+  {
+    "id": "racord_f4e83866-0f87-4194-9fe2-6d72ce5d097e",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la classificació general de vehicles d'emergència segons el medi on treballen:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.3. Classificació general dels vehicles i mitjans mòbils\n\nA grans trets, es poden agrupar en tres grans categories: Mitjans terrestres. Mitjans aeris. Mitjans aquàtics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els mitjans aeris constitueixen una de les tres grans categories",
+      "B": "Els mitjans terrestres constitueixen una de les tres grans categories",
+      "C": "Els mitjans aquàtics constitueixen una de les tres grans categories",
+      "D": "Els vehicles d’emergència es classifiquen en quatre categories principals: terrestres, aeris, aquàtics i ferroviaris"
+    }
+  },
+  {
+    "id": "racord_15ec0d73-16eb-4c76-984f-eb073eab8fa5",
+    "statement": "Quina de les opcions següents correspon a una classificació funcional dels vehicles d’emergència?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.3. Classificació general dels vehicles i mitjans mòbils\n\nUna altra forma habitual de classificació és per la funció operativa: Vehicles d’extinció (autobombes). Vehicles de salvament i assistència tècnica. Vehicles de risc químic (NRBQ). Vehicles de comandament i coordinació. Vehicles logístics i de transport. Mitjans aeris de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicles manuals, automàtics i semiautomàtics",
+      "B": "Vehicles d’extinció, salvament, risc químic, comandament, logística i mitjans aeris de suport",
+      "C": "Vehicles lleugers, mitjans i pesants segons el color",
+      "D": "Vehicles urbans, particulars i comercials"
+    }
+  },
+  {
+    "id": "racord_47162d6c-fd90-45ad-a7fd-19ee6ead9a54",
+    "statement": "Què s’ha de comprovar abans d’engegar el vehicle?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.2. Manteniment preventiu i revisió diària\n\nAbans d’engegar el vehicle, es fa una inspecció visual exterior i interior que permet detectar possibles fuites o anomalies visibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament el funcionament de la bomba d’aigua",
+      "B": "Possibles fuites o anomalies visibles",
+      "C": "La resposta del motor a altes revolucions",
+      "D": "Només el nivell de combustible"
+    }
+  },
+  {
+    "id": "racord_d4b9e2f8-e28a-4ca3-95e2-57e93ab17a03",
+    "statement": "Quin vehicle és més adequat per intervenir en un incendi de vegetació en una zona amb pendents i fora d’asfalt?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.4. Bomba Rural Pesada (BRP)\n\nPunts forts: Gran polivalència, accessibilitat fora d’asfalt, capacitat de treball en pendents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Urbana Lleugera (BUL)",
+      "B": "La Bomba Urbana Pesada (BUP)",
+      "C": "La Bomba Nodrissa Pesada (BNP)",
+      "D": "La Bomba Rural Pesada (BRP)"
+    }
+  },
+  {
+    "id": "racord_b36041b6-854a-4d70-8eee-41e291a28372",
+    "statement": "Quina finalitat tenen les mesures operatives i de manteniment dels vehicles d’emergència?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7. Consideracions operatives i manteniment\n\nTambé implica una sèrie de mesures operatives i de manteniment que asseguren la disponibilitat, seguretat i eficiència dels vehicles i dels equips que transporten.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Reduir exclusivament el consum de combustible",
+      "C": "Substituir la formació del personal conductor",
+      "D": "Assegurar-ne la disponibilitat, la seguretat i l’eficiència"
+    }
+  },
+  {
+    "id": "racord_eebebe9a-d715-4763-9f00-18cb26c8ced3",
+    "statement": "Quines funcions poden desenvolupar els vehicles de transport de personal i càrrega?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.3.1. Vehicles de transport de personal i càrrega\n\nFurgonetes o minibusos destinats a portar efectius, relleus o equips especialitzats. També poden fer evacuació preventiva de població o trasllat de tècnics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "Transportar efectius, relleus, equips especialitzats, població evacuada o personal tècnic",
+      "C": "Desplegar un CCA complet en grans emergències",
+      "D": "Proporcionar suport vital avançat amb personal mèdic"
+    }
+  },
+  {
+    "id": "racord_c42d8eb7-3262-4b06-a736-ccaaf790d054",
+    "statement": "Quina capacitat operativa ofereixen les embarcacions semirígides o rígides?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nEmbarcacions semirígides o rígides: Amb capacitat de transport de persones i equips.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transportar persones i equips",
+      "B": "Transportar exclusivament agents extintors",
+      "C": "Desenvolupar funcions de comandament terrestre",
+      "D": "Fer únicament vigilància aèria"
+    }
+  },
+  {
+    "id": "racord_bc4475e1-71db-498c-a1c2-24d1bb04fe9c",
+    "statement": "Quin equipament o capacitat operativa correspon a la UCM (Unitat de Comandament Mitjana)?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.2. Unitat de Comandament Mitjana (UCM)\n\nEspai interior per a treball conjunt del comandament i suport tècnic. Tauler de control de seguiment d’ordinadors, sistema de vídeo i xarxa. Pot fer de centre d’informació i contacte amb les autoritats locals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cisterna d’aigua, bomba centrífuga i monitors d’alt cabal",
+      "B": "Eines forestals, ruixadors d’autoprotecció i barres antibolcada",
+      "C": "Únicament lliteres i equips sanitaris",
+      "D": "Espai de treball conjunt, sistemes informàtics i de vídeo, xarxa i contacte amb autoritats locals"
+    }
+  },
+  {
+    "id": "racord_c815d2bd-ae90-4b0a-ad7b-12e3c739113d",
+    "statement": "Quin equipament caracteritza els vehicles de risc químic NRBQ?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.4. Vehicles de risc químic (NRBQ)\n\nTransporten equips de detecció i mesura, equips de protecció individual d’alt nivell, sistemes de descontaminació ràpida i materials de contenció o transvasament de fuites.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només eines hidràuliques d’excarceració i elevadors pneumàtics",
+      "B": "Exclusivament una escala telescòpica i estabilitzadors",
+      "C": "Equips de detecció, EPI d’alt nivell, descontaminació i materials de contenció o transvasament",
+      "D": "Només mànegues, llances i una cisterna d’aigua"
+    }
+  },
+  {
+    "id": "racord_e9642b1d-0dfe-4d25-981a-772b7e201a4f",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte un camió tipus BUP:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.3. Bomba Urbana Pesada (BUP)\n\nPot funcionar com a “camió llançadora” en cadenes de reompliment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva funció principal és el transport sanitari",
+      "B": "No pot transportar escumogen ni material de rescat",
+      "C": "Pot actuar com a camió llançadora en cadenes de reompliment",
+      "D": "Només pot funcionar si està connectada permanentment a un hidrant"
+    }
+  },
+  {
+    "id": "racord_6b166e69-fca7-4006-9fdb-87b8d7a208e2",
+    "statement": "De què depenen l’estructura, el material transportat i l’àmbit d’ús de cada vehicle d’emergència?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.2. Funció dels vehicles en les emergències\n\nCada vehicle està dissenyat i equipat amb una finalitat específica, la qual determina la seva estructura, el material transportat i el tipus d’intervencions on és més efectiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament del nombre de rodes",
+      "B": "Del color exterior del vehicle",
+      "C": "De la finalitat específica per a la qual ha estat dissenyat",
+      "D": "Únicament de la seva antiguitat"
+    }
+  },
+  {
+    "id": "racord_e7cce6ad-61df-49d0-a83a-5f2490972c3c",
+    "statement": "Quina funció compleixen els vehicles d’emergència en la resposta operativa?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.2. Funció dels vehicles en les emergències\n\nEls vehicles d’emergència són eines clau per donar resposta ràpida, segura i eficaç a una gran varietat de situacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nom��s intervenen en incendis forestals",
+      "B": "Permeten donar una resposta ràpida, segura i eficaç a diferents emergències",
+      "C": "S’utilitzen exclusivament per transportar personal",
+      "D": "Substitueixen completament la coordinació operativa"
+    }
+  },
+  {
+    "id": "racord_8f685771-b6c2-4930-8d6c-c9089a4a3ad2",
+    "statement": "En un servei prolongat, quin factor pot justificar la mobilització de recursos addicionals?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.1. Assignació de vehicles segons la tipologia d’emergència\n\nDurada del servei: serveis curts o prolongats, necessitats de suport logístic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’absència de material transportat",
+      "B": "La necessitat de suport logístic",
+      "C": "Cap de les anteriors és correcta",
+      "D": "La reducció del nombre d’actuants"
+    }
+  },
+  {
+    "id": "racord_af794d9f-9365-43b9-ae68-eae1c9ed9cda",
+    "statement": "Com s’ha d’establir la comunicació amb els mitjans aeris?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.3. Protocols de treball: càrrega/descàrrega, comunicació i seguretat\n\nComunicació amb mitjans aeris: Mitjançant ràdio amb canals específics (freqüència de vol). Cal usar procediments breus, clars i codificats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per ràdio, amb canals específics i missatges breus",
+      "B": "Només amb senyals visuals",
+      "C": "Sense procediments establerts",
+      "D": "Mitjançant telefonia convencional"
+    }
+  },
+  {
+    "id": "racord_9e04eba9-5430-4caa-87f3-ca58bc90b43d",
+    "statement": "Quina funció general compleixen els vehicles inclosos dins dels altres tipus de vehicles d’emergència?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5. Altres tipus de vehicles d’emergència\n\nTambé són essencials aquells vehicles destinats a donar atenció sanitària, gestionar l’emergència, coordinar els equips i garantir la continuïtat operativa en situacions complexes o prolongades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actuar exclusivament en l’extinció directa d’incendis forestals",
+      "B": "Donar atenció sanitària, gestionar l’emergència, coordinar equips i garantir la continuïtat operativa",
+      "C": "Cap de les anteriors és correcta",
+      "D": "Substituir totes les autobombes en serveis de llarga durada"
+    }
+  },
+  {
+    "id": "racord_55a190e0-9fb4-4090-ad7b-7b3dd48e9eda",
+    "statement": "Quins elements defineixen una autobomba com a vehicle especialitzat d’extinció?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nUna autobomba és un vehicle especialitzat equipat amb una cisterna d’aigua, una bomba d’impulsió i una sèrie de mànegues, eines i equips complementaris per permetre l’extinció d’incendis i altres actuacions de salvament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una grua de rescat, una cistella i una escala telescòpica",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Una cisterna d’aigua, una bomba d’impulsió, mànegues, eines i equips complementaris",
+      "D": "Una cabina sanitària, una llitera i equips de suport vital"
+    }
+  },
+  {
+    "id": "racord_9209cda1-8893-428c-a221-3eacd8882282",
+    "statement": "Quina decisió és clau per aconseguir una intervenció exitosa?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n7.1. Assignació de vehicles segons la tipologia d’emergència\n\nLa selecció adequada del vehicle o combinació de vehicles per a cada emergència és clau per a una intervenció exitosa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Prioritzar exclusivament el vehicle més pròxim",
+      "B": "Utilitzar un únic tipus de vehicle en qualsevol servei",
+      "C": "Seleccionar el vehicle o la combinació de vehicles adequada",
+      "D": "Mobilitzar sempre el vehicle amb més capacitat d’aigua"
+    }
+  },
+  {
+    "id": "racord_5b56e47a-dc41-4ed2-b6ff-17aabca6cd12",
+    "statement": "Quin vehicle terrestre disposa de la capacitat d’aigua més elevada ?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBNP. Bomba nodrissa pesada. 10000 l. Alimentació i extinció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Rural, amb 3.000 litres",
+      "B": "La Bomba Nodrissa Pesada, amb 10.000 litres",
+      "C": "La Bomba Urbana Pesada, amb 4.000 litres",
+      "D": "La Bomba Urbana Lleugera, amb 1.000 litres"
+    }
+  },
+  {
+    "id": "racord_34e39a4e-10cb-482f-9201-95d6ecec4ada",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la funció principal de cada autobomba:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. BUL, 3.3. BUP, 3.4. BRP i 3.5. BNP\n\nBUL: Primera intervenció en entorns urbans densos. BUP: Extinció d’incendis i salvaments en entorns urbans. BRP: Extinció d’incendis i salvaments en entorns urbans, rurals i forestals. BNP: Subministrament d’aigua a altres vehicles o a zones sense hidrants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un BRP és adequat per a entorns urbans, rurals i forestals",
+      "B": "La BNP té com a funció principal la primera intervenció en carrers estrets",
+      "C": "Un BNP està orientat al subministrament d’aigua",
+      "D": "El BUL està orientat a la primera intervenció urbana"
+    }
+  },
+  {
+    "id": "racord_1b39307e-3f10-4e7d-968e-dfbd9aba3add",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte un camió tipus BUP:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.3. Bomba Urbana Pesada (BUP)\n\nFunció principal: Extinció d’incendis i salvaments en entorns urbans. Punts forts: Gran capacitat de càrrega i potència de bomba. Limitacions: Menys maniobrable en entorns molt estrets o d’accés difícil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Destaca per la capacitat de càrrega i la potència de la bomba",
+      "B": "La BUP està especialment dissenyada per circular fora d’asfalt i treballar en pendents pronunciats",
+      "C": "Pot ser menys maniobrable en entorns molt estrets o d’accés difícil",
+      "D": "La seva funció principal inclou l’extinció i els salvaments en entorns urbans"
+    }
+  },
+  {
+    "id": "racord_3e63e418-1aec-4b98-a06b-b073cc9dfeba",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la comunicació durant les maniobres amb AEA:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.2. Seguretat en intervencions amb AEA\n\nLa comunicació clara i coordinada entre l’operador de l’escala, el conductor i el comandament és fonamental durant totes les maniobres. Cal establir rols definits, utilitzar els sistemes de comunicació més adequats i emprar un llenguatge concís i conegut per tots.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els sistemes de comunicació no són necessaris si hi ha contacte visual",
+      "B": "Cal establir rols definits i utilitzar un llenguatge concís i conegut per tots",
+      "C": "La comunicació només és necessària durant el desplegament inicial",
+      "D": "L’operador pot actuar sense coordinació amb el conductor i el comandament"
+    }
+  },
+  {
+    "id": "racord_e6141f35-b6c0-4310-8c69-8746c6aee574",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA respecte de les autobombes:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nCada autobomba s’adapta a un entorn concret i a unes necessitats operatives determinades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les autobombes només estan preparades per actuar en entorns urbans",
+      "B": "Totes les autobombes tenen exactament la mateixa funció i capacitat",
+      "C": "L’entorn d’intervenció no condiciona el model mobilitzat",
+      "D": "Cada model s’adapta a un entorn i a unes necessitats operatives determinades"
+    }
+  },
+  {
+    "id": "racord_2cdc8263-8975-4ad1-bb3c-4ac72783e9b9",
+    "statement": "Quina relació entre funció i personal correspon als vehicles sanitaris A1 o convencionals?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nA1 o convencionals. Transport de pacients en llitera. 1 Tècnic/a Emergències Sanitàries.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transport de pacients en llitera amb un tècnic o tècnica d’emergències sanitàries",
+      "B": "Transport col·lectiu amb dos tècnics d’emergències sanitàries",
+      "C": "Atenció sanitària sense transport amb un metge o metgessa",
+      "D": "Suport vital avançat amb infermeria i medicina"
+    }
+  },
+  {
+    "id": "racord_13c058ea-3663-41d0-9b5a-54f837add132",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte un BRP:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.4. Bomba Rural Pesada (BRP)\n\nPunts forts: Gran polivalència, accessibilitat fora d’asfalt, capacitat de treball en pendents. Limitacions: Menys maniobrable en ciutat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un BRP està dissenyat exclusivament per circular en ciutat i no pot treballar fora d’asfalt",
+      "B": "És menys maniobrable en ciutat",
+      "C": "Té capacitat de treball en pendents",
+      "D": "Destaca per la seva polivalència"
+    }
+  },
+  {
+    "id": "racord_d3431bef-80cf-4191-a978-a055197bedc6",
+    "statement": "Quins vehicles s’inclouen habitualment dins dels mitjans terrestres?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.3. Classificació general dels vehicles i mitjans mòbils\n\nMitjans terrestres: Són els més habituals. Inclouen autobombes, furgons, vehicles de salvament, comandament, transport, risc químic, autoescales, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exclusivament llanxes i motos d’aigua",
+      "B": "Només helicòpters i avions",
+      "C": "Únicament ambulàncies i vehicles particulars",
+      "D": "Autobombes, furgons, vehicles de salvament, comandament, transport, risc químic i autoescales"
+    }
+  },
+  {
+    "id": "racord_4959f6ed-9f83-45ad-90e6-443310ef612c",
+    "statement": "Quina de les opcions següents recull usos propis dels mitjans aquàtics?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nUsos principals: Salvament de persones a l’aigua o en zones inundades. Reforç d’intervencions en entorns fluvials o marítims. Suport logístic en trasllat de personal o material a illes o zones aïllades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salvament aquàtic, reforç en entorns fluvials o marítims i suport logístic a zones aïllades",
+      "B": "Cap de les anteriors és correcta",
+      "C": "Transport exclusiu d’aigua a zones sense hidrants",
+      "D": "Extinció estructural, comandament urbà i excarceració"
+    }
+  },
+  {
+    "id": "racord_aaa1e653-9d1a-4287-a684-ce97908d2d5f",
+    "statement": "Quina dotació correspon a un vehicle sanitari de tipus C?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.1. Vehicles sanitaris\n\nC. Suport vital avançat. 1 TES + 1 Infermer/a (+1 Metge/sa).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un únic tècnic d’emergències sanitàries",
+      "B": "Dos tècnics d’emergències sanitàries sense personal d’infermeria",
+      "C": "Un conductor i un operador de comunicacions",
+      "D": "Un TES, un infermer o infermera i, eventualment, un metge o metgessa"
+    }
+  },
+  {
+    "id": "racord_39c054e7-65d3-424d-8e8c-a2b2f38b118f",
+    "statement": "Quina formació requereix el personal que opera amb mitjans aquàtics?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.3. Mitjans aquàtics: característiques i ús en salvament o suport\n\nRequereixen personal format en tècniques de navegació i salvament aquàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament formació en conducció de vehicles pesants",
+      "B": "Formació en tècniques de navegació i salvament aquàtic",
+      "C": "Exclusivament formació sanitària",
+      "D": "Només coneixements de comunicació aeronàutica"
+    }
+  },
+  {
+    "id": "racord_1673c2a9-e1fc-431d-adbc-2d64a568db49",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre la codificació dels vehicles del Cos de Bombers de la Generalitat de Catalunya:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.4. Codificació específica dels vehicles d’emergència\n\nX.YY.ZZ. X Regió/Divisió. YY Unitat o parc. ZZ Tipus de vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els vehicles de la DGPEIS s’identifiquen amb un codi numèric de 5 dígits",
+      "B": "El segon i el tercer número correspon al parc",
+      "C": "Totes les anteriors són correctes",
+      "D": "El primer número correspon a la Subdirecció o Regió d’adscripció"
+    }
+  },
+  {
+    "id": "racord_4938d83d-4d21-4ceb-96fd-0ec6d7a9ca40",
+    "statement": "Quina associació entre tracció i sistemes de seguretat correspon a un BRP?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.4. Bomba Rural Pesada (BRP)\n\nTracció 4x4 reforçada. Sistemes de seguretat destacats: Ruixadors d’autoprotecció, barres de protecció per bolcada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tracció 4x4 reforçada, ruixadors d’autoprotecció i barres de protecció per bolcada",
+      "B": "Tracció 6x4, monitors d’alt cabal i dipòsits AR",
+      "C": "Tracció 4x2, grua de rescat i cistella de salvament",
+      "D": "Tracció 4x2, generador elèctric i escala telescòpica"
+    }
+  },
+  {
+    "id": "racord_6e1f3fe1-aac1-4192-9e1f-991879023507",
+    "statement": "Quina diferència hi ha entre una autoescala sense braç articulat i una amb braç articulat?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2. Autoescales (AEA): tipologies, característiques i serveis\n\nSense braç articulat: els trams de l’autoescala són rígids. Amb braç articulat: combina trams rígids i articulats per millorar la maniobrabilitat en entorns complexos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La primera només treballa amb càrregues i la segona només amb persones",
+      "B": "Totes dues tenen exactament la mateixa configuració",
+      "C": "La primera incorpora cistella i la segona no en pot portar",
+      "D": "La primera té trams rígids i la segona combina trams rígids i articulats"
+    }
+  },
+  {
+    "id": "racord_5421188b-518b-41e5-87e5-e567a173a3c0",
+    "statement": "Quins elements identifica la codificació específica d’un vehicle d’emergència?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.4. Codificació específica dels vehicles d’emergència\n\nPer tal de poder-los identificar ràpidament en una emergència, cada vehicle rep una codificació numèrica o alfanumèrica: Regió, Divisió, parc o unitat a què pertany. La seva ubicació base o zona d’adscripció. El tipus de vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només la capacitat d’aigua i la potència del motor",
+      "B": "Exclusivament el nombre de bombers transportats",
+      "C": "La regió o divisió, la unitat o parc i el tipus de vehicle",
+      "D": "Únicament el fabricant i l’any de matriculació"
+    }
+  },
+  {
+    "id": "racord_53e7fc8b-c8dc-4b60-a8a2-dc025c8928b5",
+    "statement": "Quin vehicle és més adequat per reforçar un incendi industrial en una zona sense hidrants?",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.5. Bomba Nodrissa Pesada (BNP)\n\nFunció: Reforç logístic d’aigua en incendis industrials, forestals, en àrees amb baixa pressió de xarxa o sense hidrants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap de les anteriors és correcta",
+      "B": "La Bomba Nodrissa Pesada (BNP)",
+      "C": "La Bomba Urbana Lleugera (BUL)",
+      "D": "La Bomba Rural Pesada (BRP)"
+    }
+  },
+  {
+    "id": "racord_1e704a39-0ebc-4877-81df-a1951984ac6b",
+    "statement": "Quin nombre de bombers transporten normalment les autobombes?",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.1. Definició i característiques de les autobombes\n\nPersonal: normalment entre 3 i 6 bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Normalment entre 3 i 6 bombers",
+      "B": "Sempre entre 1 i 2 bombers",
+      "C": "Exclusivament un conductor i un operador de bomba",
+      "D": "Habitualment entre 7 i 10 bombers"
+    }
+  },
+  {
+    "id": "racord_56ed4719-49cb-4cac-862c-6cd0b66db784",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte de la Unitat de Comandament Llleugera:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.1. Unitat de Comandament Lleugera (UCL)\n\nVehicle tot terreny 4x4, lleuger, ràpid i maniobrable. Permet al primer comandament operatiu acostar-se ràpidament a l’escenari i establir un primer punt de comandament provisional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És lleuger, ràpid i maniobrable",
+      "B": "Permet establir un primer punt de comandament provisional",
+      "C": "És un camió gran concebut per desplegar un CCA complet en grans emergències",
+      "D": "És un vehicle tot terreny 4x4"
+    }
+  },
+  {
+    "id": "racord_cf37d1b9-7d18-4404-b360-4445781144f2",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels EPI en treballs amb AEA:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.2.2. Seguretat en intervencions amb AEA\n\nL’ús correcte dels equips de protecci�� individual (EPI), especialment dels sistemes anticaigudes, és obligatori per al personal que treballa en alçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La protecció és exigible al personal que treballa en alçada",
+      "B": "Els sistemes anticaigudes són opcionals quan la maniobra és de curta durada",
+      "C": "L’ús correcte dels EPI és obligatori",
+      "D": "Els sistemes anticaigudes són especialment importants"
+    }
+  },
+  {
+    "id": "racord_4f8658d8-b756-429c-b748-ed8accc10da6",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre els mitjans aeris:",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n1.3. Classificació general dels vehicles i mitjans mòbils\n\nMitjans aeris: Són helicòpters i avions utilitzats principalment en incendis forestals, salvaments de muntanya o transport de personal i càrrega a zones de difícil accés. Requereixen protocols específics d’ús i comunicació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No poden transportar personal ni càrrega",
+      "B": "No requereixen procediments específics de comunicació",
+      "C": "Inclouen helicòpters i avions i requereixen protocols específics d’ús i comunicació",
+      "D": "S’utilitzen principalment en carreteres i zones urbanes"
+    }
+  },
+  {
+    "id": "racord_71be2a1b-41e1-4f7e-93ca-70737ae869ef",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la relació entre capacitats d’aigua dels vehicels que disposa el cos de Bombers:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.1. Mitjans terrestres: definició, característiques i funcions\n\nBUL 1000 l. BUP 4000 l. BRP 3000 l. BNP 10000 l.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La BNP té més capacitat que la BUP, la BRP i la BUL",
+      "B": "La BUP i la BUL tenen la mateixa capacitat",
+      "C": "La BRP té més capacitat que la BUP",
+      "D": "La BUL té més capacitat que la BNP"
+    }
+  },
+  {
+    "id": "racord_ea516bc4-9939-435f-aae8-daa8da81e6f2",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA sobre els mitjans aeris:",
+    "correct": "A",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n2.2. Mitjans aeris: helicòpters i avions, usos i protocols\n\nEls mitjans aeris són un recurs altament especialitzat i d’alt cost, però essencial en determinades situacions, especialment en zones de difícil accés, en incendis forestals d’alta intensitat o en rescats complexos de muntanya o marítims.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són recursos de baix cost destinats principalment a emergències urbanes ordinàries",
+      "B": "Poden ser essencials en zones de difícil accés",
+      "C": "Poden intervenir en rescats complexos de muntanya o marítims",
+      "D": "Són recursos altament especialitzats"
+    }
+  },
+  {
+    "id": "racord_1ec8a67c-eb4b-4b96-b0ed-633c3856593f",
+    "statement": "Quina funció addicional pot assumir la UCM en una emergència de gran magnitud o llarga durada?",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.2.2. Unitat de Comandament Mitjana (UCM)\n\nTambé com a desplegament de la funció de recepció de recursos en emergències de gran magnitud o llarga durada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La funció de suport vital avançat",
+      "B": "L’elevació de vehicles accidentats",
+      "C": "La descontaminació NRBQ",
+      "D": "La funció de recepció de recursos"
+    }
+  },
+  {
+    "id": "racord_5c29db65-c175-45a6-b02d-8be0eccb4d37",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA sobre la capacitat de càrrega dels mitjans aeris d’extinció:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.1. Mitjans aeris per a incendis forestals: helicòpters i avions\n\nHelicòpters d’extinció: Capacitat de càrrega: entre 500 i 1.500 litres. Avions d’extinció: Capacitat de càrrega: entre 3.000 i 6.000 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els helicòpters transporten entre 3.000 i 6.000 litres",
+      "B": "Tots dos tenen la mateixa capacitat",
+      "C": "Els avions transporten menys de 1.500 litres",
+      "D": "Els avions transporten més aigua que els helicòpters"
+    }
+  },
+  {
+    "id": "racord_2ef87675-a585-4afa-b9a1-9dde93379324",
+    "statement": "Indiqueu quina de les afirmacions següents és CERTA en comparar les diferents tipologies de vehicles:",
+    "correct": "B",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n3.2. BUL, 3.3. BUP, 3.4. BRP i 3.5. BNP\n\nBUL: 1.000 – 1.650 litres i entre 3 i 6 bombers. BUP: 3.000 – 4.000 litres i entre 3 i 6 bombers. BRP: 3.000 – 4.000 litres i entre 3 i 6 bombers. BNP: 7.000 – 10.000 litres i 2 a 3 bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un BUL i un BNP tenen la mateixa capacitat d’aigua",
+      "B": "La BNP transporta més aigua, però habitualment menys personal que les altres autobombes",
+      "C": "El BNP transporta menys aigua i més personal que la BUL",
+      "D": "Un BUP transporta menys personal que un BNP"
+    }
+  },
+  {
+    "id": "racord_f308abe3-63d8-4153-9e7f-42909d6014e1",
+    "statement": "Quin equipament és propi dels helicòpters de salvament?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n6.2. Mitjans aeris per a salvament de persones: helicòpters\n\nCaracterístiques: Grua de rescat i operadors especialitzats. Cabina adaptada per al transport de ferits o rescatats. Capacitat sanitària i coordinació amb sistema hospitalari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dipòsit de retardant de 6.000 litres",
+      "B": "Bomba centrífuga d’alta i baixa pressió",
+      "C": "Grua de rescat, operadors especialitzats i cabina adaptada",
+      "D": "Monitor terrestre d’alt cabal"
+    }
+  },
+  {
+    "id": "racord_5d828ef2-e2b3-4f0e-8509-e37546beb57a",
+    "statement": "Quin equipament és habitual en un FSV?",
+    "correct": "C",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n4.3. Furgons de salvament (FSV)\n\nEntre l’equipament habitual s’hi troben eines hidràuliques d’excarceració, elevadors pneumàtics, eines manuals i elèctriques, trípodes, llums, cordes i material de seguretat per a treballs verticals o en espais confinats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament una escala telescòpica i una cistella",
+      "B": "Exclusivament equips de detecció radiològica",
+      "C": "Eines d’excarceració, elevadors pneumàtics, trípodes, cordes, llums i material de seguretat",
+      "D": "Només dipòsits d’escumogen i monitors d’alt cabal"
+    }
+  },
+  {
+    "id": "racord_330f0698-5542-4998-9780-b254b66ac247",
+    "statement": "Indiqueu quina de les afirmacions següents és INCORRECTA respecte dels vehicles de suport logístic i gran càrrega:",
+    "correct": "D",
+    "explanation": "MAN.EQIP.000 V1.2026\n\n5.3.2. Vehicles de transport de material, 5.3.3. Unitats logístiques i 5.3.4. Vehicles de gran càrrega\n\nVehicles de transport de material: camions o furgons per carregar mànegues, eines forestals, ERA, avituallament, escumogen, etc. Unitats logístiques: vehicles polivalents preparats per oferir aigua potable i avituallament en zones de difícil accés. Vehicles de gran càrrega: camions amb grua i gran capacitat d’elevació i càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "section": "T18 Vehicles d'intervenció en emergències",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les unitats logístiques poden aportar aigua potable i avituallament",
+      "B": "Els vehicles de transport de material poden portar mànegues, ERA, avituallament o escumogen",
+      "C": "Els vehicles de gran càrrega poden incorporar una grua amb gran capacitat d’elevació",
+      "D": "Les unitats logístiques tenen com a funció principal efectuar suport vital avançat"
+    }
+  }
+]
