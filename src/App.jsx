@@ -385,7 +385,7 @@ function HomeScreen({
 }) {
   const themes = [...new Set(filteredQuestions.map(q => q.theme))].filter(Boolean).sort();
   const [selectedThemes, setSelectedThemes] = useState([]);
-  const [mode, setMode] = useState('exam');
+  const [mode, setMode] = useState('study');
   const [examLength, setExamLength] = useState('15');
 
   // Stats calc
@@ -936,14 +936,14 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       <div className="glass" style={{ padding: 24, marginBottom: 16, position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 12, flexWrap: 'wrap', gap: 8 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-            <div style={{ fontSize: 12, color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 0.5 }}>
+            <span style={{ fontSize: 11, color: 'var(--text-muted)', fontWeight: 500, opacity: 0.85 }}>
               {q.theme}
-            </div>
-            <span className={`badge-academy ${acadInfo.badgeClass}`}>
+            </span>
+            <span className={`badge-academy ${acadInfo.badgeClass}`} style={{ fontSize: 10, padding: '2px 7px' }}>
               {acadInfo.icon} {acadInfo.shortLabel}
             </span>
             {q.section && q.section !== q.theme && (
-              <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>• {q.section}</span>
+              <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)' }}>• {q.section}</span>
             )}
           </div>
           <button 
