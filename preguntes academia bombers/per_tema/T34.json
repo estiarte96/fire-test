@@ -1,9 +1,649 @@
 [
   {
-    "id": "academia_sim27_q15",
-    "statement": "Les zones d'inundació ocasional tenen un període de retorn...",
+    "id": "academia_sim1_q86",
+    "statement": "És un riu que, durant bona part del seu recorregut, discorre el límit territorial entre Catalunya i Aragó:",
+    "correct": "B",
+    "explanation": "El riu Sènia discorre entre Catalunya i el País Valencià.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Segre",
+      "B": "La Noguera Ribagorçana",
+      "C": "La Noguera Pallaresa",
+      "D": "El Sènia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q11",
+    "statement": "Quin riu neix al Montseny entre les Agudes i el Matagalls?",
+    "correct": "B",
+    "explanation": "Desemboca entre Blanes i Malgrat de Mar.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Daró",
+      "B": "Tordera",
+      "C": "Besòs",
+      "D": "Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q16",
+    "statement": "La Serralada Litoral catalana s'estén entre:",
+    "correct": "D",
+    "explanation": "Entre l'Alt Empordà i el Garraf.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Ebre i l'Alt Empordà",
+      "B": "L'Ebre i la Tordera",
+      "C": "El riu Riudecanyes i la Tordera",
+      "D": "El riu Foix i el golf de Roses  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q41",
+    "statement": "L'Estany de Sant Maurici drena fins a arribar a...",
+    "correct": "A",
+    "explanation": "Formant part, d'aquesta manera, de la conca de l'Ebre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Noguera Pallaresa",
+      "B": "La Noguera Ribagorçana",
+      "C": "El Ter",
+      "D": "La Garona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q51",
+    "statement": "El pantà de Boadella pertany al riu:",
+    "correct": "D",
+    "explanation": "S'origina com a conseqüència d'una presa situada al municipi de Darnius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ter",
+      "B": "Llobregat",
+      "C": "Tordera",
+      "D": "Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q37",
+    "statement": "Quin avanç oferirà un cargol de dues entrades amb 3 mm de pas?",
     "correct": "C",
-    "explanation": "Inundació freqüent: menys de 50 anys.\nInundació ocasional: 50-100 anys.\nInundació excepcional: 100-500 anys.",
+    "explanation": "2 entrades × 3 mm = 6 mm\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8 mm",
+      "B": "5 mm",
+      "C": "6 mm",
+      "D": "12 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q51",
+    "statement": "A quina comarca trobem el cap Norfeu?",
+    "correct": "A",
+    "explanation": "Se situa entre Roses i Cadaqués.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alt Empordà",
+      "B": "Baix Empordà",
+      "C": "Amposta",
+      "D": "Montsià"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q58",
+    "statement": "El pantà de Camarasa forma part de:",
+    "correct": "A",
+    "explanation": "El trobem a la comarca de la Noguera.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca de la Noguera Pallaresa",
+      "B": "La conca del Segre",
+      "C": "La conca del Llobregat",
+      "D": "La conca del Ter"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q19",
+    "statement": "En rescats amb víctimes no col·laboradores, un dels mètodes que podem dur a terme és el mètode del bomber, on:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Caldrà lligar els canells de la víctima amb un mocador ample",
+      "B": "El rescatador tindrà una mà lliure que li servirà de suport per elevar-se",
+      "C": "Es col·locarà la víctima per sota del rescatador, que la durà a cavall a quatre grapes",
+      "D": "El rescatador agafarà a la víctima per sota les aixelles, i se subjectaran els canells per evitar desplaçaments"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q9",
+    "statement": "Amb quines comarques de Catalunya limita el Montsià?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb el Baix Ebre, amb la Ribera d'Ebre, amb el Baix Camp i amb la Terra Alta",
+      "B": "Amb el Baix Ebre, amb la Ribera d'Ebre i amb la Terra Alta",
+      "C": "Amb el Baix Ebre i amb la Terra Alta",
+      "D": "Amb el Baix Ebre, únicament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q28",
+    "statement": "La capital de l'Alt Penedès és:",
+    "correct": "C",
+    "explanation": "Alt Camp: Valls\nBaix Penedès: El Vendrell\nGarraf: Vilanova i la Geltrú",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vilanova i la Geltrú",
+      "B": "El Vendrell",
+      "C": "Vilafranca del Penedès",
+      "D": "Valls"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q37",
+    "statement": "Quin és l'únic embassament del riu Anoia?",
+    "correct": "C",
+    "explanation": "El pantà de Sant Martí de Tous, igual que el de la Llosa del Cavall, forma part de la conca del riu Llobregat.\nEl pantà de Santa Anna pertany a la Noguera Ribagorçana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Santa Anna",
+      "B": "L'embassament de la Llosa del Cavall",
+      "C": "El pantà de Sant Martí de Tous",
+      "D": "El pantà de Margalef"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q87",
+    "statement": "Quin dels següents rius pertany a les conques intercomunitàries?",
+    "correct": "B",
+    "explanation": "Desemboca a la \"Garonne basin\", a França.\nSegons l'ACA, Catalunya es divideix en dos àmbits pel que fa a la gestió de l’aigua: les conques internes o districte fluvial\nde Catalunya i les intercomunitàries.\nEl Garona, per tant, ha passat de considerar-se \"conca internacional\" a \"intercomunitària\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Anoia",
+      "B": "El riu Garona",
+      "C": "La Muga",
+      "D": "El Foix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q13",
+    "statement": "Quin dels següents rius neix a l'Altiplà de la Segarra, prop de Calaf?",
+    "correct": "C",
+    "explanation": "El riu Anoia desemboca al Llobregat, a l'alçada de Martorell.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Foix",
+      "B": "El Cardener",
+      "C": "L'Anoia",
+      "D": "La Tordera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q12",
+    "statement": "La capital del Baix Penedès és:",
+    "correct": "B",
+    "explanation": "Alt Penedès: Vilafranca del Penedès.\nGarraf: Vilanova i la Geltrú.\nAlt Camp: Valls.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vilanova i la Geltrú",
+      "B": "El Vendrell",
+      "C": "Valls",
+      "D": "Vilafranca del Penedès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q59",
+    "statement": "A Catalunya, la pluviometria és molt contrastada d'una zona a una altra. Quina de les següents comarques presenta un índex de precipitació mitjana anual més pobre?",
+    "correct": "C",
+    "explanation": "El menor índex de precipitació mitjana anual de Catalunya es troba comprès verticalment entre la Móra d'Ebre i Balaguer.\nHoritzontalment entre Lleida i Cervera (aproximadament).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Tarragonès",
+      "B": "El Montsià",
+      "C": "El Segrià",
+      "D": "La Vall d'Aran"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q60",
+    "statement": "El riu Flamisell és un afluent de:",
+    "correct": "C",
+    "explanation": "Altres afluents de la Noguera Pallaresa: Noguera de Cardós, Noguera de Vallferrera, riu de Santa Magdalena i riu de la\nBonaigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Noguera Ribagorçana",
+      "B": "El Segre",
+      "C": "La Noguera Pallaresa",
+      "D": "La Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q94",
+    "statement": "Amb quines comarques limita el Ripollès?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Cerdanya, Osona, Garrotxa i Solsonès",
+      "B": "Alt Urgell, Solsonès, Osona i Garrotxa",
+      "C": "Alt Urgell, Osona, Garrotxa i Berguedà",
+      "D": "La Cerdanya, Osona, Garrotxa i Berguedà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q15",
+    "statement": "Quina és la capital del Montsià?",
+    "correct": "A",
+    "explanation": "Baix Ebre: Tortosa.\nTerra Alta: Gandesa.\nRibera d'Ebre: Móra d'Ebre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amposta",
+      "B": "Tortosa",
+      "C": "Gandesa",
+      "D": "Móra d'Ebre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q54",
+    "statement": "És un riu que ha estat domesticat per l'home a partir de la construcció d'embassaments com el de Canelles o el de Santa Anna:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Noguera Pallaresa",
+      "B": "El Noguera Ribagorçana",
+      "C": "El Segre",
+      "D": "El Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim13_q26",
+    "statement": "Quin dels següents embassaments forma part de la conca de la Tordera?",
+    "correct": "C",
+    "explanation": "És l'embassament més significatiu de la Tordera.\nEmbassament de Vallforners: Besòs.\nEmbassament de Guiamets: riera de Capçanes (conca del riu Ebre).\nEmbassament de Sant Martí de Tous: riera de Tous, que desemboca al riu Anoia (conca del riu Llobregat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Guiamets",
+      "B": "L'embassament de Vallforners",
+      "C": "L'embassament de Santa Fe",
+      "D": "L'embassament de Sant Martí de Tous"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q24",
+    "statement": "A Catalunya, quin clima presenta el màxim règim pluviomètric estacional (RPE) a l'estiu?",
+    "correct": "B",
+    "explanation": "Clima oceànic o atlàntic: RPE equilibrat.\nClima mediterrani continental: RPE màxim a la tador i primavera.\nClima mediterrani litoral: RPE màxim a la tador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima oceànic o atlàntic",
+      "B": "Clima mediterrani pirinenc",
+      "C": "Clima mediterrani continental",
+      "D": "Clima mediterrani litoral  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q79",
+    "statement": "Entre quines comarques s'estén el Parc Natural de Sant Llorenç del Munt i l'Obac?",
+    "correct": "C",
+    "explanation": "Cims principals: Montcau i la Mola.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bages, Vallès Oriental i Osona",
+      "B": "Vallès Oriental i Vallès Occidental",
+      "C": "Bages, Vallès Occidental i Moianès",
+      "D": "Bages, Solsonès i Anoia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q65",
+    "statement": "Per quin nucli de població no passa la C-55?",
+    "correct": "D",
+    "explanation": "És la C-58 la que passa per Terrassa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sant Mateu de Bages",
+      "B": "Solsona",
+      "C": "Manresa",
+      "D": "Terrassa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q49",
+    "statement": "Per quina de les següents ciutats passa la carretera C-32?",
+    "correct": "A",
+    "explanation": "La carretera C-32 també és coneguda com el Corredor mediterrani.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mataró",
+      "B": "Manresa",
+      "C": "Igualada",
+      "D": "Solsona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q61",
+    "statement": "Segons el Pla INUNCAT, les zones potencialment inundables són:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Totes aquelles zones urbanes on, per insuficiència del clavagueram, es pugui produir una acumulació d'aigua per a pluges amb períodes de retorn inferiors a 10 anys",
+      "B": "Tots aquells territoris que limiten amb els llits dels rius, torrents, rieres, llacs o aigües continentals que poden embassar-se per falta de drenatge",
+      "C": "Tots aquells territoris que limiten amb els llits dels rius, torrents, rieres, llacs o aigües continentals que poden ser afectades per avingudes fins a un període de retorn de 500 anys",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q10",
+    "statement": "El riu Anoia és un afluent:",
+    "correct": "A",
+    "explanation": "Neix prop del municipi de Calaf.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Llobregat",
+      "B": "Del Besòs",
+      "C": "Del Tordera",
+      "D": "Del Foix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q30",
+    "statement": "Quin dels següents embassaments correspon a la conca del Segre?",
+    "correct": "D",
+    "explanation": "Embassament de Sant Antoni: Noguera Pallaresa.\nEmbassaments de Canelles: Noguera Ribagorçana.\nTot i això, tots formen part de la conca del Segre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Rialb",
+      "B": "L'embassament de Canelles",
+      "C": "L'embassament de Sant Antoni",
+      "D": "Totes les propostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q56",
+    "statement": "El pantà de Susqueda forma part de:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca de la Noguera Pallaresa",
+      "B": "La conca de la Noguera Ribagorçana",
+      "C": "La conca del Segre",
+      "D": "La conca del Ter  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q89",
+    "statement": "Els afluents principals del Besòs són:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Congost i el Tenes",
+      "B": "El Congost i el Mogent",
+      "C": "El Ripoll i el Mogent",
+      "D": "El Ripoll i el Tenes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q87",
+    "statement": "Quin dels següents embassaments pertany a la conca del Llobregat?",
+    "correct": "C",
+    "explanation": "El pantà de Sau i Susqueda pertanyen a la conca del Ter.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sau",
+      "B": "Susqueda",
+      "C": "La Baells",
+      "D": "Els tres pertanyen a la conca del Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q91",
+    "statement": "De quina de les següents comarques Tremp n'és la capital?",
+    "correct": "D",
+    "explanation": "Alt Urgell: Seu d'Urgell\nPallars Sobirà: Sort\nAlta Ribagorça: Pont de Suert",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Pallars Sobirà",
+      "B": "De l'Alta Ribagorça",
+      "C": "De l'Alt Urgell",
+      "D": "Del Pallars Jussà  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q45",
+    "statement": "Quin dels següents rius no s'inclou dins les conques internes de Catalunya?",
+    "correct": "A",
+    "explanation": "Les conques internes inclouen els rius que neixen a Catalunya i que finalitzen el seu recorregut a la Mediterrània (el\nSegre neix a França).\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T34 - Intervenció bàsica en inundacions",
@@ -11,17 +651,259 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De màxim 50 anys",
-      "B": "De màxim 200 anys",
-      "C": "D'entre 50 i 100 anys",
-      "D": "D'entre 100 i 500 anys"
-    }
+      "A": "El Segre",
+      "B": "El Riudecanyes",
+      "C": "El Fluvià",
+      "D": "La Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim38_q73",
-    "statement": "Quin període de retorn té una zona d'inundació freqüent?",
+    "id": "academia_sim27_q77",
+    "statement": "Amb quines comarques limita el Maresme?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb la Selva, el Vallès Oriental i el Barcelonès",
+      "B": "Amb el Barcelonès, la Selva, el Vallès Oriental, el Pla de l'Estany i el Gironès",
+      "C": "Amb el Barcelonès, la Selva, el Vallès Oriental i el Gironès",
+      "D": "Amb el Vallès Oriental, Osona, la Garrotxa, Gironès i el Baix Empordà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q87",
+    "statement": "És un riu que discorre entre els límits de Catalunya i el País Valencià:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Sènia",
+      "B": "La Garona",
+      "C": "El Xúquer",
+      "D": "La Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q28",
+    "statement": "Quin d'aquests rius és un afluent del Ter?",
+    "correct": "A",
+    "explanation": "Existeix un altre riu Brugent que és un afluent del Francolí.\nEl Mogent, el Ripoll i el Congost són agluents del Besòs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Brugent",
+      "B": "El Congost",
+      "C": "El Mogent",
+      "D": "El Ripoll"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q90",
+    "statement": "Quin d'aquests rius és un afluent del Besòs?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tots tres ho són",
+      "B": "Congost",
+      "C": "La riera de Calders",
+      "D": "El Merdançol"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q22",
+    "statement": "Quina conca hidrogràfica acull l'embassament de major capacitat de Catalunya?",
+    "correct": "A",
+    "explanation": "A la serra del Montsec, ben a prop dels Pirineus i seguint el curs del riu Noguera Ribagorçana, hi trobarem\nl'embassament de Canelles.\nFa de frontera natural entre Lleida i Osca. El seu volum és de 688 hm³.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca del Francolí",
+      "B": "La conca de la Noguera Pallaresa",
+      "C": "La conca del Ter",
+      "D": "La conca de la Noguera Ribagorçana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q16",
+    "statement": "Quina és la capital de la comarca de la Ribera d'Ebre?",
+    "correct": "C",
+    "explanation": "Montsià: Amposta\nPriorat: Falset\nBaix Ebre: Tortosa",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tortosa",
+      "B": "Amposta",
+      "C": "Móra d'Ebre",
+      "D": "Falset  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q43",
+    "statement": "Quina és la comarca més extensa de Catalunya?",
     "correct": "D",
-    "explanation": "Z. Inundació freqüent: màxim 50 anys\nZ. Inundació ocasional: 50-100 anys\nZ. Inundació excepcional: 100-500 anys\n\n\nacadèmia\nbombers",
+    "explanation": "Amb un total de 1.784,06 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Alt Urgell",
+      "B": "La Cerdanya",
+      "C": "L'Alt Empordà",
+      "D": "La Noguera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q69",
+    "statement": "L'embassament de Guiamets forma part de:",
+    "correct": "B",
+    "explanation": "Pertany a la riera de Capçanes (Priorat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca del Llobregat",
+      "B": "La conca de l'Ebre",
+      "C": "La conca del Ter",
+      "D": "La conca de la Tordera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q78",
+    "statement": "D'acord amb la classificació de les zones en funció de la freqüència d'inundacions (període de retorn), les zones d'inundació freqüent:",
+    "correct": "D",
+    "explanation": "Classificació de la zona en funció de la freqüència (període de retorn):\n- Zones d'inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de\ncinquanta anys.\n- Zones d'inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de\ncinquanta i superiorment per la línia de període de cent anys.\n- Zones d'inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn\nde cent i superiorment per la línia de període de cinc-cents anys.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys",
+      "B": "Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys",
+      "C": "Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys",
+      "D": "Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q88",
+    "statement": "Quin és el riu més cabalós de la conca interna de Catalunya?",
+    "correct": "C",
+    "explanation": "Ull! Parlem de la conca interna!",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Segre",
+      "B": "Ebre",
+      "C": "Ter",
+      "D": "Fluvià  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q95",
+    "statement": "L'embassament de Santa Anna forma part de:",
+    "correct": "A",
+    "explanation": "Es troba a la comarca de la Noguera.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca de la Noguera Ribagorçana",
+      "B": "La conca del Llobregat",
+      "C": "La conca del Ter",
+      "D": "La conca de la Noguera Pallaresa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q13",
+    "statement": "Quina és la capital de la comarca del Vallès Oriental?",
+    "correct": "C",
+    "explanation": "Vallès Occidental: Terrassa i Sabadell.\nMaresme: Mataró.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Terrassa i Sabadell",
+      "B": "Manlleu",
+      "C": "Granollers",
+      "D": "Mataró"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q43",
+    "statement": "A quina comarca s'hi troba la Vall d'en Bas?",
+    "correct": "D",
+    "explanation": "És a la capçalera del riu Fluvià, voltat per les serres del Corb, de Sant Miquel, de Llancers i pel Puigsacalm.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T34 - Intervenció bàsica en inundacions",
@@ -29,29 +911,133 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un màxim de 10 anys",
-      "B": "Entre 50 i 100 anys",
-      "C": "Un màxim de 100 anys",
-      "D": "Cap resposta és correcta"
-    }
+      "A": "Entre les comarques del Berguedà i el Ripollès",
+      "B": "A la Cerdanya",
+      "C": "Al Solsonès",
+      "D": "A la Garrotxa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim39_q18",
-    "statement": "Quin període de retorn té una zona d'inundació ocasional?",
-    "correct": "D",
-    "explanation": "Z. Inundació freqüent: màxim 50 anys\nZ. Inundació ocasional: 50-100 anys\nZ. Inundació excepcional: 100-500 anys",
+    "id": "academia_sim38_q80",
+    "statement": "Quins són els afluents principals del riu Llobregat?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T34 - Intervenció bàsica en inundacions",
-    "section": "Simulacre 39",
+    "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un màxim de 50 anys",
-      "B": "Més de 500 anys",
-      "C": "Entre 100 i 500 anys",
-      "D": "Entre 50 i 100 anys"
-    }
+      "A": "L'Arija i la riera de Ribes",
+      "B": "El Brugent i l'Anguera",
+      "C": "El Cardener i l'Anoia",
+      "D": "El Llobregós i el Riu Sió  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q13",
+    "statement": "És correcte afirmar que:",
+    "correct": "D",
+    "explanation": "Els VLB (valors límit biològics) són un complement dels VLA (valors límit ambientals).\nEl límit TLV-C no es pot superar en cap cas.\nEl TLV-STEL considera els límits d'exposició per a períodes curts de temps.\nLes exposicions per sobre del TLV-TWA fins al valor STEL no han de tenir una durada superior a 15 minuts ni repetir-se\nmés de quatre vegades al dia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els VLA són un complement dels VLB",
+      "B": "El TLV-TWA considera els límits d'exposició per a períodes curts de temps",
+      "C": "Es pot superar el límit TLV-C un màxim de tres cops al dia, durant no més de 15 minuts",
+      "D": "Les exposicions per sobre del TLV-TWA fins al valor STEL no han de repetir-se més de quatre vegades al dia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q42",
+    "statement": "Els nuclis no urbans:",
+    "correct": "C",
+    "explanation": "Representen el 2% del total de les entitats de població.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estan recollits en el nomenclàtor com a disseminats, però s’emplacen en sòl urbà o urbanitzable",
+      "B": "Ofereixen un teixit compacte i s'ubiquen sobre sòl urbà",
+      "C": "Presenten un teixit compacte però emplaçat en sòl no urbà",
+      "D": "Mostren un caràcter dispers i el règim del sòl on s’emplacen és no urbanitzable"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q38",
+    "statement": "A Catalunya hi ha 19 embassaments i la conca de la Garona que formen part de comissions de desembassament. D’aquests, 10 estan a la part catalana de l’Ebre, 9 a les conques internes i la conca de la Garona (internacional). Quin dels següents embassaments s'inclou dins les conques internes de Catalunya?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà de Camarasa",
+      "B": "El pantà de Rialb",
+      "C": "L'embassament de Talarn",
+      "D": "El pantà de Sau"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q31",
+    "statement": "A quina comarca hi trobem la vall d’Àneu?",
+    "correct": "C",
+    "explanation": "Comprèn els termes municipals d'Alt Àneu, Esterri d'Àneu, la Guingueta d'Àneu i Espot i està formada per la conca del riu\nNoguera Pallaresa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Baix Empordà",
+      "B": "Al Ripollès",
+      "C": "Al Pallars Sobirà",
+      "D": "A l'Alta Ribagorça"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q59",
+    "statement": "Quin riu no s'inclou dins les conques internes de Catalunya?",
+    "correct": "B",
+    "explanation": "Tampoc en formen part l'Ebre, la Sènia o la Noguera Pallaresa (intercomunitàries).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Francolí",
+      "B": "La Noguera Ribagorçana",
+      "C": "El Ter",
+      "D": "La Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q52",
@@ -69,7 +1055,249 @@
       "B": "Zona d'inundació freqüent",
       "C": "Zona d'inundació ocasional",
       "D": "Zona d'inundació exepcional"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q84",
+    "statement": "La Serralada Prelitoral Catalana, de les tres unitats que integren el Sistema Mediterrani Català:",
+    "correct": "D",
+    "explanation": "És la més interior, llarga (280-320 km) i elevada (800-1.700 m) de les tres unitats que integren el Sistema Mediterrani\nCatalà (Depressió Prelitoral, Serralada Litoral i Serralada Prelitoral).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la més llarga",
+      "B": "És la més elevada",
+      "C": "És la més interior",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q71",
+    "statement": "Quin embassament forma part de la conca del riu Ter?",
+    "correct": "D",
+    "explanation": "Embassaments conca de riu Ter: Núria, Sau, Susqueda, Seva, Colomers i Pasteral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Sant Antoni",
+      "B": "El pantà de La baells",
+      "C": "El pantà de Dosrius",
+      "D": "El pantà de Susqueda"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q81",
+    "statement": "Quin dels següents rius forma part de les conques internes de Catalunya?",
+    "correct": "A",
+    "explanation": "Formen part de les conques intercomunitàries: Arriu Garona, Noguera Pallaresa, Noguera Ribagorçana, Segre, Ebre i\nSènia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Fluvià",
+      "B": "La Noguera Pallaresa",
+      "C": "La Sènia",
+      "D": "El Segre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q45",
+    "statement": "Quina comarca catalana compta amb una major superfície boscosa?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Garrotxa",
+      "B": "El Pallars Sobirà",
+      "C": "L'Alt Urgell",
+      "D": "El Baix Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q58",
+    "statement": "Quin embassament s'inclou dins les conques internacionals?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà d'Escales",
+      "B": "El pantà de la Baells",
+      "C": "L'embassament de Garona",
+      "D": "Cap, la Garona no té cap embassament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q32",
+    "statement": "Senyala la característica que fa referència als disseminats urbans:",
+    "correct": "A",
+    "explanation": "Són el 4% del total de les entitats (209 en total).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presenten un hàbitat dispers, però s’emplacen en sòl urbà o urbanitzable",
+      "B": "Mostren un caràcter dispers i el règim del sòl on s’emplacen és no urbanitzable",
+      "C": "Presenten un teixit compacte però emplaçat en sòl no urbà",
+      "D": "Formen un teixit compacte i s'ubiquen sobre sòl urbà  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q60",
+    "statement": "A quina localitat desemboca el riu Tordera?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre Roses i Cadaqués",
+      "B": "A Arenys de Mar",
+      "C": "Entre Mataró i Argentona",
+      "D": "Entre Blanes i Malgrat de Mar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q73",
+    "statement": "Quina de les següents comarques compta amb una major superfície total?",
+    "correct": "A",
+    "explanation": "Unitats: Quilòmetres quadrats:\nCerdanya: 546,7\nGarrotxa: 734,6\nRibera d'Ebre: 827,3\nOsona: 1.245,2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Osona",
+      "B": "Ribera d'Ebre",
+      "C": "Garrotxa",
+      "D": "Cerdanya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q50",
+    "statement": "Quina afirmació és INCORRECTA sobre el flotador del carburador?",
+    "correct": "A",
+    "explanation": "Quan el combustible assoleix un determinat nivell a l'interior de la cuba, el flotador ascendeix, TANCANT la vàlvula\nd'agulla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan el combustible assoleix un determinat nivell, el flotador ascendeix, obrint la vàlvula d'agulla",
+      "B": "El seu objectiu és mantenir el nivell de la gasolina constant, controlant el nivell de combustible del carburador",
+      "C": "S'ubica a la cuba del carburador",
+      "D": "És un instrument fet de plàstic i llautó"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q83",
+    "statement": "Quin avanç oferirà un cargol de tres entrades i un pas de 2 mm?",
+    "correct": "D",
+    "explanation": "Avanç = nombre d'entrades x pas (3 × 2mm = 6 mm)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8 mm",
+      "B": "4 mm",
+      "C": "2 mm",
+      "D": "6 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q29",
+    "statement": "Quina de les següents conques s'inclou dins les conques internes de Catalunya?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Conca del Xúquer",
+      "B": "La Conca del Ter",
+      "C": "La Conca de l'Ebre",
+      "D": "La Conca de la Garona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q70",
+    "statement": "Sobre els episodis de pluja de fang és fals que:",
+    "correct": "D",
+    "explanation": "Els episodis de pluja de fang s’acompanyen de temperatures relativament suaus, excepte a l’estiu, atesa la procedència\nmeridional dels vents que transporten la pols del desert.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La pols és la que realitza la funció de nucli de condensació per afavorir la generació de gotes de pluja",
+      "B": "Durant l’episodi el cel pot prendre una tonalitat marronosa",
+      "C": "Cal cercar l’origen d’aquestes partícules sòlides en les tempestes al desert",
+      "D": "S’acompanyen de temperatures molt fredes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q22",
@@ -87,7 +1315,569 @@
       "B": "A la freqüència estadística amb que es produeix una inundació en una zona concreta del territori",
       "C": "A l'època de l'any en que és més probable que es produeixi una inundació",
       "D": "Al període estadístic de temps que transcorre entre que es desborda un riu fins que ho torna a fer"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q44",
+    "statement": "Quina és la capital de la comarca del Garraf?",
+    "correct": "D",
+    "explanation": "Alt Penedès: Vilafranca del Penedès.\nAlt Camp: Valls.\nBaix Penedès: El Vendrell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Valls",
+      "B": "Vilafranca del Penedès",
+      "C": "El Vendrell",
+      "D": "Vilanova i la Geltrú"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q54",
+    "statement": "Com s'anomena l'embassament situat al riu Cardener, a la comarca del Solsonès?",
+    "correct": "B",
+    "explanation": "Situat als termes municipals de Navès, Guixers i una petita part de Sant Llorenç de Morunys, l'embassament de la Llosa\ndel Cavall es va inaugurar l'any 1998 i té una capacitat de 79,40 hm³. Els seus usos són la regulació d’avingudes,\nl'abastament, el reg i les activitats recreatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Rialb",
+      "B": "Embassament de la Llosa del Cavall",
+      "C": "L'embassament de Siurana",
+      "D": "El pantà de Sau"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q56",
+    "statement": "A quina comarca neix el riu Llobregat?",
+    "correct": "D",
+    "explanation": "El riu Llobregat neix al Berguedà (Castellar de n'Hug), província de Barcelona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Pallars Sobirà",
+      "B": "Al Ripollès",
+      "C": "A la Cerdanya",
+      "D": "Al Berguedà  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q5",
+    "statement": "Identifica quin és el riu que neix al Montseny, entre les Agudes i el Matagalls.",
+    "correct": "B",
+    "explanation": "Desemboca entre Blanes i Malgrat de Mar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Daró",
+      "B": "Tordera",
+      "C": "Besòs",
+      "D": "Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q83",
+    "statement": "Quin avanç oferirà un cargol de dues entrades i un pas de 2 mm?",
+    "correct": "B",
+    "explanation": "Avanç = nombre d'entrades x pas (2× 2mm = 4 mm)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "8 mm",
+      "B": "4 mm",
+      "C": "2 mm",
+      "D": "6 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q17",
+    "statement": "Es consideren zones d'inundació ocasional, d'acord amb la classificació de les zones en funció de la freqüència d'inundacions:",
+    "correct": "B",
+    "explanation": "Classificació de la zona en funció de la freqüència (període de retorn):\n- Zones d'inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de\ncinquanta anys.\n- Zones d'inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de\ncinquanta i superiorment per la línia de període de cent anys.\n- Zones d'inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn\nde cent i superiorment per la línia de període de cinc-cents anys.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys",
+      "B": "Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys",
+      "C": "Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys",
+      "D": "Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q63",
+    "statement": "Quin dels següents és un embassament del riu Gaià?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà de Riudecanyes",
+      "B": "El pantà del Catllar",
+      "C": "El pantà de Sant Antoni",
+      "D": "El pantà de la Baells  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q57",
+    "statement": "Dels següents embassaments, quin forma part de la conca del Segre?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Susqueda",
+      "B": "Riba-Roja",
+      "C": "Rialb",
+      "D": "Canelles"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q76",
+    "statement": "Com s'anomena el riu que discorre entre els límits de Catalunya i el País Valencià?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sènia",
+      "B": "Garona",
+      "C": "Foix",
+      "D": "Muga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q91",
+    "statement": "Quin és el parc natural més meridional de Catalunya?",
+    "correct": "C",
+    "explanation": "L'Alt Pirineu és el més septentrional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Alt Pirineu",
+      "B": "La Serra del Montsant",
+      "C": "El Delta de l'Ebre",
+      "D": "El Mas de Melons i Secans  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q52",
+    "statement": "Quin avanç oferirà un cargol de dues entrades i un pas d'1 mm?",
+    "correct": "C",
+    "explanation": "Avanç = nombre d'entrades x pas (2 × 1mm = 2 mm).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 mm",
+      "B": "4 mm",
+      "C": "2 mm",
+      "D": "6 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q81",
+    "statement": "Quin riu NO és afluent del Llobregat?",
+    "correct": "C",
+    "explanation": "El Ritort és afluent del Ter.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Bastareny",
+      "B": "L'Anoia",
+      "C": "El Ritort",
+      "D": "El Cardener"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q11",
+    "statement": "Els disseminats urbans:",
+    "correct": "A",
+    "explanation": "Són el 4% del total de les entitats (209 en total).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presenten un hàbitat dispers, però s’emplacen en sòl urbà o urbanitzable",
+      "B": "Mostren un caràcter dispers i el règim del sòl on s’emplacen és no urbanitzable",
+      "C": "Presenten un teixit compacte però emplaçat en sòl no urbà",
+      "D": "Formen un teixit compacte i s'ubiquen sobre sòl urbà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q60",
+    "statement": "Quina divisòria d'aigües constitueix la serra del Cadí?",
+    "correct": "A",
+    "explanation": "El Segre (Cerdanya i Alt Urgell) del Llobregat (Berguedà).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre el Segre i el Llobregat",
+      "B": "Entre el Ter i el Llobregat",
+      "C": "Entre la Noguera Pallaresa i la Noguera Ribagorçana",
+      "D": "Entre la Noguera Pallaresa i el Segre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q95",
+    "statement": "La comarca de la Cerdanya, de quines comarques està envoltada (toquen administrativament)?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alt Urgell, Berguedà, Ripollès i Pallars Sobirà",
+      "B": "Berguedà, Ripollès i Garrotxa",
+      "C": "Berguedà, Ripollès i Solsonès",
+      "D": "Alt Urgell, Berguedà i Ripollès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q32",
+    "statement": "Quin riu transcorre pels municipis de Moltblanc, la Pobla de Mafumet i Tarragona?",
+    "correct": "B",
+    "explanation": "Hom considera que neix a la font Major de l’Espluga de Francolí (Conca de Barberà), a la confluència del riu de Milans\namb el barranc del Tillar, travessa la Serralada Prelitoral per l’estret de la Riba i, després de passar pel Camp de\nTarragona, desemboca a ponent del port tarragoní. Té 85 km de llargària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Fluvià",
+      "B": "El Francolí",
+      "C": "El Foix",
+      "D": "El Segre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q43",
+    "statement": "Quina de les següents comarques compta amb un major nombre de població?",
+    "correct": "D",
+    "explanation": "Solsonès: 13.725 hab.\nVallès Occidental: 949.026 hab.\nTarragonès: 270.237 hab.\nBages: 183.265 hab.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Bages",
+      "B": "El Tarragonès",
+      "C": "El Solsonès",
+      "D": "El Vallès Occidental"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q11",
+    "statement": "La conca d’Òdena és una conca d’erosió que ha estat excavada per:",
+    "correct": "A",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q87",
+    "statement": "El pla del Bages és una conca d’erosió que ha estat excavada per:",
+    "correct": "B",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q44",
+    "statement": "La conca de Barberà és una conca d’erosió que ha estat excavada per:",
+    "correct": "C",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q5",
+    "statement": "Si un excursionista es fa mal a la vall del Riu Glorieta, a quina comarca es troba?",
+    "correct": "D",
+    "explanation": "El riu Glorieta, que dona nom a la vall, neix als Motllats, a la serra de Prades, i aflora a les anomenades Fonts del\nGlorieta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Priorat",
+      "B": "Montsià",
+      "C": "Baix Penedès",
+      "D": "Alt Camp"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q28",
+    "statement": "El riu Besòs neix de l'aiguabarreig de quins dos rius?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Congost i el Tenes",
+      "B": "El Mogent i el Congost",
+      "C": "La riera de Caldes i el Ripoll",
+      "D": "El Mogent i el Tenes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q51",
+    "statement": "Quin pas oferirà un cargol de dues entrades i un avanç de 2 mm?",
+    "correct": "A",
+    "explanation": "Avanç = nombre d'entrades x pas\n2 mm = 2 × pas\nPas = 1mm.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 mm",
+      "B": "4 mm",
+      "C": "2 mm",
+      "D": "6 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q90",
+    "statement": "La plana de Vic és una conca d’erosió que ha estat excavada per:",
+    "correct": "D",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q11",
+    "statement": "Quin riu és un dels afluents del Segre?",
+    "correct": "C",
+    "explanation": "Aquells rius que pertanyen a la vessant mediterrània es poden agrupar en tres grups: els afluents catalans de l’Ebre, amb\nel Segre i els seus afluents (la Noguera Ribagorçana, la Noguera Pallaresa i la Valira); els rius que tenen la seva\ncapçalera al Pirineu, com la Muga, el Fluvià, el Ter (amb el Freser i l’Onyar) i el Llobregat (amb el Cardener i l’Anoia), i\naboquen les seves aigües directament a la mar, i els rius que neixen al sistema Mediterrani (la Tordera, el Besòs, el Foix,\nel Gaià, el Francolí i la Sénia).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Llobregat",
+      "B": "La Muga",
+      "C": "La Noguera Pallaresa",
+      "D": "La Tordera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q25",
+    "statement": "Quin dels següents embassaments forma part de les conques internes de Catalunya?",
+    "correct": "C",
+    "explanation": "Conca catalana de l’Ebre:\n- Camarasa\n- Canelles\n- Escales\n- Guiamets\n- Oliana\n- Rialb\n- Riba-roja\n- Talarn\n- Terradets\n- Siurana\nConques internes de Catalunya:\n- Baells\n- Darnius-Boadella\n- Foix\n- Llosa del Cavall\n- Pasteral\n- Riudecanyes\n- Sant Ponç\n- Sau\n- Susqueda\nInternacional:\n- Garona",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Riba-roja",
+      "B": "Escales",
+      "C": "Darnius-Boadella",
+      "D": "Canelles"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q47",
+    "statement": "Quins són dos afluents del riu Segre?",
+    "correct": "B",
+    "explanation": "Aquells rius que pertanyen a la vessant mediterrània es poden agrupar en tres grups: els afluents catalans de l'Ebre, amb\nel Segre i els seus afluents (la Noguera Ribagorçana, la Noguera Pallaresa i la Valira); els rius que tenen la seva\ncapçalera al Pirineu, com la Muga, el Fluvià, el Ter (amb el Freser i l'Onyar) i el Llobregat (amb el Cardener i l'Anoia), i\naboquen les seves aigües directament a la mar, i els rius que neixen al sistema Mediterrani (la Tordera, el Besòs, el Foix,\nel Gaià, el Francolí i la Sénia).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ter i Freser",
+      "B": "Noguera Ribagorçana i Valira",
+      "C": "Llobregat i Cardener",
+      "D": "Noguera Pallaresa i Freser"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim79_q2",
+    "statement": "On se situa el massís del Montgrí?",
+    "correct": "A",
+    "explanation": "De fet, constitueix la separació natural entre el Baix i l'Alt Empordà. Forma part de la Serralada Litoral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre les comarques del Baix i l'Alt Empordà",
+      "B": "A la Serralada Prelitoral",
+      "C": "Entre les comarques de la Selva i del Baix Empordà",
+      "D": "Al Prepirineu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q4",
@@ -105,13 +1895,575 @@
       "B": "La freqüència estadística amb que es produeix una inundació en una zona en concret del territori",
       "C": "Aquella època de l'any en que hi ha més probabilitats que un riu es desbordi",
       "D": "El període de temps on les condicions hidràuliques presenten un calat igual o superior a 1 metre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim127_q59",
-    "statement": "Quin tipus de rescats requereixen formació específica en espeleorescat?",
+    "id": "academia_sim80_q56",
+    "statement": "L'embassament de Canelles forma part de:",
     "correct": "A",
-    "explanation": "Rescat en coves.\nEl medi subterrani té una logística específica i complexa:\n−Absència de llum natural i orientació limitada.\n−Temperatura constant baixa i alta humitat.\n−Estretors, pous verticals i inundacions puntuals.\n−Requereix formació específica en espeleorescat, comunicacions alternatives i paciència operativa.\n21",
+    "explanation": "Embassaments conca de la Noguera Ribagorçana: Cavallers, Baserca, Escales, Canelles, Santa Anna.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La conca de la Noguera Ribagorçana",
+      "B": "La conca del Llobregat",
+      "C": "La conca del Ter",
+      "D": "La conca de la Noguera Pallaresa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q6",
+    "statement": "Quina característica fa referència als disseminats urbans?",
+    "correct": "A",
+    "explanation": "Són el 4% del total de les entitats (209 en total).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presenten un hàbitat dispers, però s’emplacen en sòl urbà o urbanitzable",
+      "B": "Mostren un caràcter dispers i el règim del sòl on s’emplacen és no urbanitzable",
+      "C": "Presenten un teixit compacte però emplaçat en sòl no urbà",
+      "D": "Formen un teixit compacte i s'ubiquen sobre sòl urbà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q44",
+    "statement": "Quin embassament pertanyent a les conques internes de Catalunya presenta una major capacitat?",
+    "correct": "D",
+    "explanation": "Embassaments de les conques internes (capacitat en hm³):\n- Baells, la: 109,43\n- Darnius - Boadella: 61,10\n- Foix: 3,74\n- Llosa del Cavall, la: 80,00\n- Pastoral, el: 1,43\n- Riudecanyes: 5,32\n- Sant Ponç: 24,38\n- Sau: 165,26\n- Susqueda: 233,00 (la de major capacitat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Baells",
+      "B": "Sau",
+      "C": "Llosa del Cavall",
+      "D": "Susqueda"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q67",
+    "statement": "De quines comarques està envoltada la comarca de l'Alt Empordà (toquen administrativament)?",
+    "correct": "A",
+    "explanation": "Limita amb el Vallespir i el Rosselló pel nord; amb la Mediterrània per l'est; amb el Baix Empordà, el Gironès i el Pla de\nl'Estany pel sud, i amb la Garrotxa per l'oest.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garrotxa, Pla de l'Estany, Gironès i Baix Empordà",
+      "B": "Ripollès, Pla de l'Estany, Gironès i Baix Empordà",
+      "C": "Garrotxa, Osona, Gironès i Baix Empordà",
+      "D": "Ripollès, Pla de l'Estany i Baix Empordà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim88_q17",
+    "statement": "El Parc del Montnegre-Corredor està situat a les comarques de:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 88",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vallès Oriental, Selva",
+      "B": "Maresme, Vallès Oriental",
+      "C": "Maresme, Selva",
+      "D": "Vallès Occidental, Vallès Oriental"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim89_q56",
+    "statement": "Quin dels rius següents té la capçalera al Pirineu català?",
+    "correct": "C",
+    "explanation": "Els rius mediterranis es poden agrupar en tres grups: els afluents catalans de l’Ebre, amb el Segre i els seus afluents (la\nNoguera Ribagorçana, la Noguera Pallaresa i la Valira); els rius que tenen la seva capçalera al Pirineu, com la Muga, el\nFluvià, el Ter (amb el Freser i l’Onyar) i el Llobregat (amb el Cardener i l’Anoia), i aboquen les seves aigües directament\na la mar, i els rius que neixen al Sistema Mediterrani (la Tordera, el Besòs, el Foix, el Gaià, el Francolí i la Sénia).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 89",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Francolí",
+      "B": "El Besòs",
+      "C": "El Llobregat",
+      "D": "L’Ebre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim90_q6",
+    "statement": "Quin dels següents rius és més meridional?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 90",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "El Sió",
+      "C": "El Francolí",
+      "D": "El Brugent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim90_q43",
+    "statement": "Quina característica NO defineix un xàfec?",
+    "correct": "C",
+    "explanation": "Quan el xàfec és de curta durada es denomina ruixat (símbol) i acostuma a caure de núvols isolats entre els quals hi ha\ncel serè. La intensitat de la precipitació sol ésser forta; i la durada no sol excedir gaire d’un quart d’hora. Els ruixats\n(símbol) són típics de les masses d’aire fred i inestable que es troben a la part posterior de les depressions que passen\ndamunt el terra i el mar calents.\nLes gotes o els elements sòlids que acompanyen els xàfecs acostumen a ser d’una mida superior al d’altres tipus de\nprecipitació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 90",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una precipitació provinent de núvols convectius exclusivament",
+      "B": "És freqüent que es repeteixin diversos cops, amb intervals de precipitació feble o inexistent",
+      "C": "Són típics dels corrents catabàtics i acostumen a ser d’una mida lleugerament inferior al d’altres tipus de precipitació",
+      "D": "Quan són de curta durada es denominen ruixats, que són típics de les masses d’aire fred i inestable"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q62",
+    "statement": "El riu Ripoll és afluent del riu:",
+    "correct": "D",
+    "explanation": "El Ripoll és un riu de la Depressió Prelitoral, al Vallès Occidental, afluent del Besòs pel marge dret. Neix al sot del Galí, a\nla serra de Granera, al municipi de Sant Llorenç Savall, a 640 metres d'altitud, dins el Parc Natural de Sant Llorenç del\nMunt i l'Obac.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tordera",
+      "B": "Llobregat",
+      "C": "Foix",
+      "D": "Besòs"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q81",
+    "statement": "En una canonada amb dues seccions de diàmetres diferents, un líquid circula a una velocitat v1 al primer tram i a una tercera part de v1 al segon tram. Quina és la relació entre el diàmetre del segon tram (d2) i el del primer (d1)?",
+    "correct": "A",
+    "explanation": "Pel principi de continuïtat (A1 × v1 = A2 × v2), com v2 = v1/3, l'àrea del segon tram (A2) ha de ser 3 vegades més gran\nque A1. Com que l'àrea depèn del quadrat del diàmetre (A = πd²/4), això implica:\nd2 = d1√3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "d2 és (d1)√3",
+      "B": "d2 és la meitat de d1",
+      "C": "d2 és el triple de d1",
+      "D": "d2 és nou vegades d1"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim94_q58",
+    "statement": "Quant dura habitualment una torbonada?",
+    "correct": "C",
+    "explanation": "La torbonada és un vent fortíssim que s'aixeca i es para sobtadament, i que dura només alguns minuts, acompanyat\nsovint de pluja intensa o de calamarsa (diccionari.cat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Enrtre dues i tres hores",
+      "B": "Entre una i dues hores",
+      "C": "Només pocs minuts",
+      "D": "Més d'un dia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim96_q83",
+    "statement": "Quin és el llac natural (no litoral) més gran de Catalunya?",
+    "correct": "B",
+    "explanation": "Té forma de vuit i una superfície d’1.075.315 m2, té, de nord a sud, una longitud de 2.080 m, una amplada, que varia\nsegons el lloc, entre 730 i 235 m i una profunditat que va de 6 m, al llindar que correspon a la part més estreta, a 62 m al\nfons d’un embut situat a la part meridional.\nFont: enciclopèdia.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'estany de Certascan",
+      "B": "Estany de Banyoles",
+      "C": "Estany de Sant Maurici",
+      "D": "Llac de Malniu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim97_q47",
+    "statement": "Quin dels següents rius pertanyents a la conca del Segre és més septentrional?",
+    "correct": "D",
+    "explanation": "Rialb (P. Jussà) > Sió (Segarra) > Corb (Conca de Barberà) > Set (Segrià).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 97",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu de Set",
+      "B": "El riu Corb",
+      "C": "El Sió",
+      "D": "El Rialb"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim103_q16",
+    "statement": "Quin dels següents embassaments pertany al riu Noguera Pallaresa?",
+    "correct": "C",
+    "explanation": "El forma una presa situada a l'estret de Susterris, al municipi de Talarn, i s'estén pels termes de la Pobla de Segur, Salàs\nde Pallars, Conca de Dalt, Talarn i Isona i Conca Dellà, a la comarca del Pallars Jussà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà dels Guiamets",
+      "B": "El pantà d'Escales",
+      "C": "L'embassament de Sant Antoni",
+      "D": "El pantà de Cavallers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim106_q57",
+    "statement": "En quin tram de la conca del Ter es localitza l’embassament de Sau?",
+    "correct": "B",
+    "explanation": "Es troba al peu de la serralada de les Guilleries i s'estén pels termes de Vilanova de Sau.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tram alt del Ter, al Ripollès",
+      "B": "Tram mitjà, a la comarca d’Osona",
+      "C": "Tram baix, proper a la ciutat de Girona",
+      "D": "Prop de la desembocadura"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim106_q82",
+    "statement": "La Depressió Central de Catalunya:",
+    "correct": "B",
+    "explanation": "S’estén entre el Prepirineu i les Serralades Costaneres, obrint-se cap a ponent i connectant amb la Depressió de l’Ebre,\nde la qual constitueix la seva prolongació oriental. Des del punt de vista físic, es configura com una sèrie d’altiplans\nsituats entre els 800 i 1.000 metres d’altitud que disminueixen progressivament fins als 100 metres a mesura que\ns’avança cap a l’oest, on comença la Depressió de l’Ebre. Entre aquests relleus s’hi troben conques d’erosió formades\npels rius en incidir sobre materials tous com les argiles i les margues, donant lloc a zones com el Pla de Bages o la\nConca de Barberà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Està situada entre el Montseny i el Massís del Garraf, tancant-se cap a l’interior",
+      "B": "S'estén entre el Prepirineu i les Serralades Costaneres, obrint-se cap a ponent",
+      "C": "Forma part de la Serralada Prelitoral i separa el Pirineu del mar Mediterrani",
+      "D": "S'estén entre el Pirineu i el Prepirineu, obrint-se cap a llevant"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim108_q6",
+    "statement": "Quina de les següents afirmacions relatives als rius de Catalunya és CORRECTA?",
+    "correct": "A",
+    "explanation": "UNE 60311 - 4.6. Canonades de materials obsolets.\nS'haurà de procurar la substitució progressiva de les canonades de materials obsolets (tals com fibrociment, PVC, planxa\nesfaltada i fosa gris), per algun dels materials permesos per aquesta norma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 108",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Noguera Pallaresa desemboca al riu Segre a Camarasa",
+      "B": "El Fluvià és un riu del Pirineu Oriental que neix al Berguedà",
+      "C": "La Muga és un riu pirinenc d'orientació oest-est i de règim nival",
+      "D": "El Llobregat travessa les comarques del Berguedà, el Bages, el Moianès, el Vallès Oriental, i finalment el Baix Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim109_q7",
+    "statement": "La Serra de Boumort actua com a divisòria d’aigües entre:",
+    "correct": "D",
+    "explanation": "Més concretament, actua com a divisòria d’aigües entre:\n· El riu Segre, a la banda sud,\n· El riu Noguera Pallaresa, a la banda nord.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 109",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Llobregat i el riu Ter",
+      "B": "El riu Noguera Pallaresa i el riu Noguera Ribagorçana",
+      "C": "El riu Segre i el riu Llobregat",
+      "D": "El riu Segre i el riu Noguera Pallaresa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim110_q48",
+    "statement": "És un espai situat just al sud de l’Ametlla de Mar, al sector meridional de la costa catalana:",
+    "correct": "D",
+    "explanation": "El cap de Santes Creus és un espai situat just al sud de l’Ametlla de Mar, al sector meridional de la costa catalana. És un\nespai representatiu del medi litoral i potser un dels millors representants dels trams de la costa rocosa del litoral del\nmigjorn català.\nComprèn una estreta faixa, entre el cap de Santes Creus i el nord del cap Roig, que limita a l’interior amb els conreus de\nsecà propis del país de la màquia litoral, o amb elements d’origen antròpic (via del tren, carreteres, edificacions, etc.).\nFont: GENCAT.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 110",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap Ravener",
+      "B": "Cap dels Grills",
+      "C": "Cap de Cervera",
+      "D": "Cap de Santes Creus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim110_q6",
+    "statement": "Quina de les següents aformacions relatives a la localització dels cims més representatius de Catalunya és CERTA?",
+    "correct": "A",
+    "explanation": "També es coneix amb el nom de reactància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 110",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Pic de l'Infern es troba a la comarca de La Cerdanya",
+      "B": "El Puig Neulós es troba ubicat a la Serra de l'Albera",
+      "C": "El Besberri Nord es troba a la comarca del Pallars Sobirà",
+      "D": "El cim de Mont-roig es troba a la confluència del riu Noguera Ribagorçana amb el riu Noguera Pallaresa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim111_q13",
+    "statement": "Quin riu que discorre entre els termes de Gombrèn (Ripollès) i la Pobla de Lillet (Berguedà), situat al límit d'ambdues comarques?",
+    "correct": "A",
+    "explanation": "Rep per l'esquerra el torrent d'Avinyonet, i és afluent del Llobregat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Arija",
+      "B": "El riu d'Anguera",
+      "C": "El Cinca",
+      "D": "El Llobregós"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim112_q73",
+    "statement": "Quin riu neix a la Serra del Port del Compte?",
+    "correct": "D",
+    "explanation": "El riu Cardener neix a la Serra del Port del Comte, concretament a les Fonts del Cardener, al municipi de la Coma i la\nPedra (Solsonès).\n20",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Daró",
+      "B": "La Tordera",
+      "C": "El riu Gaià",
+      "D": "El riu Cardener"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim117_q2",
+    "statement": "Quina afirmació relativa als rius de Catalunya és INCORRECTA?",
+    "correct": "A",
+    "explanation": "El Fluvià és un riu del Pirineu Oriental que té el seu origen a la Garrotxa, concretament al Grau d’Olot, a uns 920 metres\nd’altitud. Travessa la plana d’en Bas i passa per Olot; a Sant Joan les Fonts canvia la seva direcció cap a llevant.\nFinalment, desemboca al golf de Roses, al terme de Sant Pere Pescador, després de recórrer localitats com Castellfollit\nde la Roca, Besalú, Esponellà i Torroella de Fluvià. La seva longitud total és de 97,2 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 117",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Fluvià travessa el Massís de Cadiretes",
+      "B": "El pantà de la Llosa del Cavall pertany al riu Cardener",
+      "C": "El Bastareny és un afluent del Llobregat",
+      "D": "L'Arija és un riu situat al límit de les comarques del Ripollès i el Berguedà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim121_q93",
+    "statement": "Què és la brolla?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 121",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una formació vegetal densa i ombrívola formada per arbustos alts de tipus esclerofil·le",
+      "B": "És una formació vegetal que pot recobrir la major part del sòl però deixa passar molta claror",
+      "C": "És terra sense cultivar, un camp abandonat o un lloc semidesert i àrid amb vegetació esclarissada",
+      "D": "És un terreny en el qual hom deixa créixer herba per a la pastura del bestiar o per a farratge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim122_q7",
+    "statement": "Quina de les següents opcions inclou únicament embassaments situats dins la conca de l'Ebre?",
+    "correct": "B",
+    "explanation": "Article 4-1r.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Margalef, Siurana, Guiamets",
+      "B": "Riudecanyes, Flix, el Catllar",
+      "C": "Mequinença, Seva, Siurana",
+      "D": "Sant Martí de Tous, Santa Anna, Terradets"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim123_q92",
+    "statement": "Quin dels següents perfils climàtics correspon a la comarca del Bages?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amplitud tèrmica anual baixa, amb valors mitjans anuals de 850 mm a 1100 mm i hiverns suaus",
+      "B": "Amplitud tèrmica anual alta, precipitació mitjana anual al voltant dels 600 mm i temperatura mitjana de 12 °C a 14 °C",
+      "C": "Amplitud tèrmica anual baixa, distribució de la precipitació irregular i amb precipitació mitjana anual que volta els 500 mm",
+      "D": "Amplitud tèrmica anual alta, precipitació mitjana anual al voltant dels 950 mm i temperatura mitjana anual compresa entre els 10 i 12 °C"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q81",
+    "statement": "Respecte als llindars dels avisos del Servei Meteorològic de Catalunya, quina afirmació és CORRECTA?",
+    "correct": "D",
+    "explanation": "Intensitat de pluja: Llindar baix: >20 mm/30 minuts · Llindar alt: >40 mm/30 minuts\nAcumulació de pluja: Llindar baix: >100 mm/24 hores · Llindar alt: >200 mm/24 hores",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El llindar alt d'intensitat de pluja és >30 mm/30 minuts",
+      "B": "El llindar alt d'acumulació de pluja és >300 mm/24 hores",
+      "C": "El llindar baix d'intensitat de pluja és >40 mm/30 minuts",
+      "D": "El llindar baix d'acumulació de pluja és >100 mm/24 hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q9",
+    "statement": "Cal rescatar una persona que ha caigut en un torrent. Quina tècnica combinada és la indicada?",
+    "correct": "A",
+    "explanation": "Article 104.\nTemporalitat de la comissió de serveis.\n104.1. Les comissions de serveis tindran sempre caràcter temporal i restaran sense efecte si és necessari per raó de\nservei, o perquè es proveeixi el lloc pel procediment ordinari o pel transcurs del temps pel qual es va concedir, que serà\nun màxim de dos anys.\n104.2. El lloc ocupat en comissió de serveis que sigui necessari cobrir amb caràcter definitiu s'haurà d'incloure en les\nconvocatòries de provisió de llocs de treball que es realitzin amb posterioritat a la concessió de la comissió i pel sistema\nque correspongui segons el que determinen les relacions de llocs de treball.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bossa de corda lligada al sistema desembragable de l'armilla",
+      "B": "Natació operativa sense cap sistema d'assegurament des de terra",
+      "C": "Llançament de corda amb bossa de rescat des de la riba",
+      "D": "Línia de rescat amb cap flotant de llarga distància i flotador"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q13",
+    "statement": "En un episodi de pluges s'han registrat 210 mm en 24 hores i una intensitat màxima de 25 mm en 30 minuts. Quina lectura dels llindars del SMC és CORRECTA?",
+    "correct": "B",
+    "explanation": "L'acumulació de 210 mm/24 h supera el llindar alt (>200 mm/24 h), mentre que 25 mm/30 min només supera el llindar\nbaix d'intensitat (>20 mm/30 min) i queda lluny de l'alt (>40 mm/30 min).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T34 - Intervenció bàsica en inundacions",
@@ -119,10 +2471,52 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Rescat en coves",
-      "B": "Recat en barrancs i rius de muntanya",
-      "C": "Rescat en condicions hivernals (neu i gel)",
-      "D": "Rescats en parets, cingleres i zones de difícil accés"
-    }
+      "A": "Tots dos meteors han superat el llindar alt establert",
+      "B": "L'acumulació supera el llindar alt i la intensitat, el baix",
+      "C": "L'acumulació supera el llindar baix i la intensitat, l'alt",
+      "D": "Cap dels dos meteors no arriba a superar el llindar baix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q13",
+    "statement": "Quin és el llindar baix d'intensitat de pluja segons el Servei Meteorològic de Catalunya?",
+    "correct": "C",
+    "explanation": "Intensitat de pluja: Llindar baix: >20 mm/30 minuts · Llindar alt: >40 mm/30 minuts\nAcumulació de pluja: Llindar baix: >100 mm/24 hores · Llindar alt: >200 mm/24 hores",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Intensitat inferior a 40 mm en 30 minuts",
+      "B": "Intensitat inferior a 30 mm en 1 hora",
+      "C": "Intensitat inferior a 20 mm en 30 minuts",
+      "D": "Intensitat inferior a 10 mm en 1 hora"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q63",
+    "statement": "En una operació de recerca en un espai afectat per un incendi, en quin ordre s’han de prioritzar les maniobres de recerca?",
+    "correct": "C",
+    "explanation": "Les maniobres de recerca s’haurien de fer en el següent ordre:\n1. Espais amb baixa probabilitat.\n2. Espais de mitja probabilitat.\n3. Espais amb mínima probabilitat, considerats no compatibles amb la vida (només si no hi ha altres opcions o indicis\nclars de presència de víctimes).\n4. Espais amb alta probabilitat de supervivència.\n18",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T34 - Intervenció bàsica en inundacions",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Espais amb baixa probabilitat, espais de mitjana probabilitat, espais amb alta probabilitat, espais amb mínima probabilitat de supervivència",
+      "B": "Espais amb mínima probabilitat, espais amb baixa probabilitat, espais de mitjana probabilitat, espais amb alta probabilitat de supervivència",
+      "C": "Espais amb baixa probabilitat, espais de mitjana probabilitat, espais amb mínima probabilitat, espais amb alta probabilitat de supervivència",
+      "D": "Espais de mitjana probabilitat, espais amb baixa probabilitat, Espais amb mitjana probabilitat, espais amb mínima probabilitat de supervivència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

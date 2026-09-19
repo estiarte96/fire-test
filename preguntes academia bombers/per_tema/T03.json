@@ -15,13 +15,15 @@
       "B": "Dels municipis",
       "C": "Del ple municipal",
       "D": "De l'alcalde"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim1_q72",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, el fet de no presentar-se amb l'uniforme degut, sense causa justificada, al relleu corresponent, es considera:",
+    "id": "academia_sim1_q62",
+    "statement": "L'escala de Beaufort mesura la velocitat del vent. De quants nivells consta en total?",
     "correct": "C",
-    "explanation": "La descurança injustificada en la presentació personal també es considera una falta lleu.",
+    "explanation": "L'escala de Beaufort va del 0 al 12, per tant, contant el nivell 0, hi ha un total de 13 nivells. Ull, que en un examen ens la\npoden \"colar\".",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
@@ -29,11 +31,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una falta greu",
-      "B": "Una falta molt greu",
-      "C": "Una falta lleu",
-      "D": "No es considera una falta, però el funcionari rebrà un avís"
-    }
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "10"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q14",
@@ -51,7 +55,9 @@
       "B": "El Ple municipal",
       "C": "El Consejo Nacional de Protección Civil (CNPC)",
       "D": "La Comissió de Protecció Civil de Catalunya (CPCC)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q50",
@@ -69,7 +75,9 @@
       "B": "Tenen dret a ésser indemnitzades",
       "C": "Seran o no seran indemnitzades segons ho determini l'autoritat competent",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q6",
@@ -87,25 +95,9 @@
       "B": "L'escala executiva",
       "C": "L'escala tècnica",
       "D": "L'escala bàsica"
-    }
-  },
-  {
-    "id": "academia_sim3_q30",
-    "statement": "Segons la Llei 4/1997, de 20 de Maig, quin és l'òrgan col·legiat superior de direcció i coordinació de protecció civil de Catalunya?",
-    "correct": "D",
-    "explanation": "*Art. 42*",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 3",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El conseller d'Interior",
-      "B": "El president de la Generalitat",
-      "C": "La Conselleria d'Interior",
-      "D": "El Govern de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q38",
@@ -123,7 +115,9 @@
       "B": "El cos de bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals i els bombers voluntaris",
       "C": "El cos bombers de la Generalitat i els bombers voluntaris",
       "D": "El cos de bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i el personal tècnic laboral especialitzat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q77",
@@ -141,7 +135,9 @@
       "B": "El restabliment dels serveis essencials",
       "C": "La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs",
       "D": "La prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q45",
@@ -159,7 +155,9 @@
       "B": "Els plens dels ajuntaments",
       "C": "El Conseller d'Interior",
       "D": "El Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q48",
@@ -177,7 +175,29 @@
       "B": "Exercir la direcció superior del Centre de Coordinació Operativa Local",
       "C": "Declarar l'activació dels plans de protecció civil d'àmbit municipal davant qualsevol situació de greu risc col·lectiu",
       "D": "Elaborar i sotmetre a l'aprovació del pla de l'ajuntament el Pla bàsic d'emergència municipal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q4",
+    "statement": "Quin dels següents organismes disposa de la competència per aprovar el Pla Bàsic d'Emergències Municipal (PBEM)?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alcalde",
+      "B": "El Govern de la Generalitat de Catalunya",
+      "C": "El Ple de l'Ajuntament",
+      "D": "El Conseller corresponent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q35",
@@ -195,7 +215,9 @@
       "B": "Bàsica i tècnica",
       "C": "Tècnica, executiva i superior",
       "D": "Bàsica, tècnica, oficial, executiva i superior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q51",
@@ -213,7 +235,49 @@
       "B": "L'alcalde o alcaldessa",
       "C": "El Conseller/a d'Interior",
       "D": "El Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q63",
+    "statement": "La imposició de sancions per faltes molt greus correspon...",
+    "correct": "A",
+    "explanation": "La incoació dels expedients disciplinaris i la imposició de sancions per faltes lleus i greus correspon a la persona titular\nde la direcció general competent en matèria de prevenció i extinció d'incendis i de salvaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la persona titular del departament",
+      "B": "A la persona titular del departament o al Subdirector General Operatiu",
+      "C": "Al Director General de la DGPEIS",
+      "D": "Al Subdirector General de la DGPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q68",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, la DGPEIS s'estructura en:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Subdirecció General Operativa (SGO), la Subdirecció General Tècnica (SGT) i la Subdirecció General d'Administració i RRHH",
+      "B": "La Subdirecció General Operativa (SGO) i la Subdirecció General Tècnica (SGT)",
+      "C": "La Subdirecció General Operativa (SGO), la Subdirecció General Tècnica (SGT), la Subdirecció General d'Administració i RRHH i la Subdirecció General de Protecció Civil",
+      "D": "La Subdirecció General Operativa (SGO), la Subdirecció General Tècnica (SGT) i els bombers voluntaris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q20",
@@ -231,7 +295,9 @@
       "B": "RD 513/2017 del 20 de Maig",
       "C": "RD 513/2014 del 22 de Març",
       "D": "RD 513/2014 del 20 de Març"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q32",
@@ -249,7 +315,9 @@
       "B": "Cada dos anys",
       "C": "Anualment",
       "D": "Cada cinc anys  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q42",
@@ -267,7 +335,9 @@
       "B": "Al conjunt de plens municipals",
       "C": "Al Conseller d'Interior",
       "D": "Al President del Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q43",
@@ -285,7 +355,9 @@
       "B": "Administracions públiques, serveis d'autoprotecció i voluntariat de protecció civil",
       "C": "Administracions públiques, serveis d'autoprotecció i mesures de prevenció de riscos laborals",
       "D": "Òrgans competents en l'àmbit públic i privat, serveis d'autoprotecció i voluntariat de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q46",
@@ -303,7 +375,49 @@
       "B": "El Govern",
       "C": "El Conseller d'Interior",
       "D": "Els Govern i el Conseller d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q50",
+    "statement": "Segons el Decret 276/2016, de 19 de juliol, quina posició tindrà la funció d'assignar els àmbits territorials dels caps operatius?",
+    "correct": "A",
+    "explanation": "Art. 8.1: El cap operatiu és el màxim comandament operatiu en l'àmbit territorial assignat mitjançant una ordre interna del\nsubdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Subdirector General Operatiu",
+      "B": "El Director General dels SPEIS",
+      "C": "El Conseller d'Interior",
+      "D": "El Cap de la Sala de Control Territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q60",
+    "statement": "Segons la Llei 7/2007, de 12 d'abril, només en virtut de la llei es pot aplicar, amb caràcter excepcional, el sistema de:",
+    "correct": "A",
+    "explanation": "El sistema de concurs ha de consistir només en la valoració de mèrits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Concurs",
+      "B": "Lliure designació",
+      "C": "Concurs-oposició",
+      "D": "Pràctiques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q80",
@@ -321,7 +435,9 @@
       "B": "Els parcs",
       "C": "Les regions d'emergències",
       "D": "Els grups  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q3",
@@ -339,7 +455,9 @@
       "B": "A la Subdirecció General Operativa (SGO)",
       "C": "A la Subdirecció General Tècnica (SGT)",
       "D": "A l'Institut de Seguretat Pública de Catalunya (ISPC)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q42",
@@ -357,7 +475,9 @@
       "B": "La solidaritat en l'assumpció de riscs i danys",
       "C": "La previsió dels riscs greus",
       "D": "La integració de plans i recursos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q44",
@@ -375,7 +495,9 @@
       "B": "La integració de plans i recursos",
       "C": "La col·laboració veïnal en associacions de protecció civil",
       "D": "Les associacions de voluntariat de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q47",
@@ -393,7 +515,9 @@
       "B": "Al Subdirector General Operatiu",
       "C": "Al Subdirector General dels SPEIS",
       "D": "Al Director General dels SPEIS"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q35",
@@ -411,7 +535,9 @@
       "B": "La intervenció",
       "C": "El restabliment dels serveis essencials",
       "D": "La solidaritat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q53",
@@ -429,7 +555,9 @@
       "B": "Parcs, àrees regionals i regions d'emergències",
       "C": "Grups, àrees regionals i regions d'emergències",
       "D": "Grups, unitats i parcs de bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q50",
@@ -447,7 +575,9 @@
       "B": "Elaborar i mantenir el catàleg de recursos i serveis mobilitzables per a la protecció civil en el municipi",
       "C": "Exercir la potestat sancionadora",
       "D": "Declarar l'activació dels plans de protecció civil d'àmbit municipal davant qualsevol situació de greu risc col·lectiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q12",
@@ -465,7 +595,9 @@
       "B": "Un 65% de les places de cada convocatòria",
       "C": "Un 60% de les places de cada convocatòria",
       "D": "Un 35% de les places de cada convocatòria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q39",
@@ -483,7 +615,9 @@
       "B": "L'alcalde o alcaldessa",
       "C": "El president del Govern",
       "D": "El Conseller/a d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q18",
@@ -501,7 +635,9 @@
       "B": "No podrà ésser inferior al 30% ni superior al 50% del total de places convocades",
       "C": "No serà inferior al 25% ni superior al 40% de les places convocades",
       "D": "Procurarà tendir al 50% de les places convocades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q38",
@@ -519,7 +655,9 @@
       "B": "Les poblacions de més de 20.000 habitants",
       "C": "Les poblacions de més de 20.000 habitants o que siguin considerades turístiques",
       "D": "Cap de les respostes és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q55",
@@ -537,7 +675,29 @@
       "B": "És un pla especial",
       "C": "És un apèndix del Pla de Protecció Civil de Catalunya (PPCC)",
       "D": "És un pla d'autoprotecció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q73",
+    "statement": "Quina escala es fa servir per mesurar la força del vent?",
+    "correct": "A",
+    "explanation": "Escala Saffir-Simpson: huracans\nEscala Fujita-Pearson: tornados\nEscala de Douglas: onades/estat del mar",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala de Beaufort",
+      "B": "L'escala de Douglas",
+      "C": "L'escala Fujita-Pearson",
+      "D": "L'escala Saffir-Simpson"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q9",
@@ -555,7 +715,9 @@
       "B": "Els cels rasos",
       "C": "Els revestiments",
       "D": "Les voltes d'escala"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q46",
@@ -573,25 +735,29 @@
       "B": "Aprovar el PBEM",
       "C": "Crear la CMPC",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim13_q51",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, el maltractament greu a la ciutadania es considera:",
-    "correct": "C",
-    "explanation": "*Art. 42*",
+    "id": "academia_sim14_q17",
+    "statement": "Quina antiguitat he de complir per promocionar de Bomber a Bomber de primera si no faig el curs addicional ni tinc la titulació requerida?",
+    "correct": "D",
+    "explanation": "Fent un curs addicional (sense tenir la titulació requerida) necessitarà una antiguitat de 5 anys.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 13",
+    "section": "Simulacre 14",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una falta lleu",
-      "B": "Una falta greu",
-      "C": "Una falta molt greu",
-      "D": "Una falta imperdonable"
-    }
+      "A": "Sense fer el curs addicional no podré promocionar",
+      "B": "2 anys",
+      "C": "5 anys",
+      "D": "10 anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q58",
@@ -609,7 +775,9 @@
       "B": "El Departament d'Interior",
       "C": "La Comissió de Protecció Civil de Catalunya (CPCC)",
       "D": "El Centre de Coordinació Operativa de Catalunya (CECAT)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q73",
@@ -627,7 +795,49 @@
       "B": "3 metges; un de designat pel Departament d'Interior, un de designat per l'interessat i un escollit a l'atzar del Servei Català de la Salut",
       "C": "2 metges, un de designat pel Servei Català de la Salut i l'altre designat per l'interessat",
       "D": "3 metges; un de designat pel Govern de la Generalitat, un de designat pel Govern espanyol i un escollit a l'atzar del Servei Català de la Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q27",
+    "statement": "Segons el Decret 243/2007, de l'Estructura del Departament d'Interior, la Divisió de Planificació i Gestió es divideix en:",
+    "correct": "A",
+    "explanation": "La Unitat de Planificació i Gestió elabora informes i documentació en relació als serveis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Unitat de Suport a la Gestió i la Unitat de Bombers Voluntaris",
+      "B": "L'Àrea d'Actuacions Forestals, la Unitat d'Actuacions Especials i la Unitat d'Emergències Mèdiques",
+      "C": "La Unitat de Formació i la Unitat de Desenvolupament Operatiu",
+      "D": "La Unitat de Planificació i la Unitat de Gestió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q63",
+    "statement": "Quina afirmació referent al Cos de Bombers de la Generalitat i als membres dels serveis de prevenció i extinció d'incendis és falsa?",
+    "correct": "D",
+    "explanation": "Art 12: El Cos de Bombers de la Generalitat actua en el territori de Catalunya (...) podrà actuar fora del territori de\nCatalunya en supòsits excepcionals o d'emergència, si la naturalesa del servei a prestar ho requereix, a petició de\nl'autoritat competent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si estan en acte de servei, tenen la consideració d'agents de l'autoritat",
+      "B": "Es considera que estan en acte de servei si, tot i estar lliures de servei, intervenen en qualsevol tipus de sinistre, havent acreditat prèviament la seva condició",
+      "C": "El Cos de Bombers de la Generalitat té una estructura jerarquitzada",
+      "D": "L'àmbit d'actuació del Cos de Bombers de la Generalitat es delimita, en qualsevol cas, el territori de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q76",
@@ -645,7 +855,49 @@
       "B": "L'Acadèmia de Bombers de la Generalitat",
       "C": "L'Escola de Bombers de Catalunya",
       "D": "El Conseller d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q12",
+    "statement": "Quina de les següents afirmacions respecte les unitats de temperatura és falsa?",
+    "correct": "A",
+    "explanation": "A l'escala Fahrenheit, entre el punt de fusió i el d'ebullició hi ha 180 graus (32-212).\nL'escala Kelvin és una escala absoluta perquè el zero absolut el té als 0°K.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala Kelvin és una escala absoluta",
+      "B": "A l'escala Fahrenheit, entre el punt de fusió i el d'ebullició hi ha 100 graus de diferència",
+      "C": "A l'escala centígrada, el zero absolut el trobem als -273°C",
+      "D": "Totes les respostes són correctes, no n'hi ha cap de falsa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q42",
+    "statement": "Els Bombers de la Generalitat tenen els drets i els deures que els pertoquen com a funcionaris. A més a més tenen altres drets. Quin dels següents no correspon als drets que gaudiran els bombers?",
+    "correct": "D",
+    "explanation": "Tindran dret a disposar de la defensa jurídica necessària en les causes judicials en què estiguin implicats com a\nconseqüència d'actuacions dutes a terme en l'exercici de les seves funcions a la feina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dret a gaudir d'una assegurança per accidents en l'exercici de la seva professió per causa d'accident",
+      "B": "Dret a rebre la concessió de llicències i permisos, subordinades a les necessitats del servei",
+      "C": "Dret a rebre formació física i teòrica continuada",
+      "D": "Dret a disposar de la defensa jurídica necessària en qualsevol causa judicial en què estiguin implicats"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q79",
@@ -663,25 +915,9 @@
       "B": "Correspon a l'alcalde, que podrà encomanar funcions de direcció als tinents o tinentes d'alcalde",
       "C": "Correspon a l'alcalde, que podrà encomanar funcions de direcció als tinents o tinentes d'alcalde i, si hi manquen, als altres regidors o regidores",
       "D": "Correspon a l'alcalde, que podrà delegar certes funcions als tinents o tinentes, que mai correspondran a funcions de direcció"
-    }
-  },
-  {
-    "id": "academia_sim17_q14",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, els actes i les conductes que atemptin contra la dignitat del funcionariat i de les institucions es consideren:",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 17",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una falta lleu",
-      "B": "Una falta greu",
-      "C": "Una falta molt greu",
-      "D": "Una falta. La suma de tres faltes suposarà l'obertura d'un expedient disciplinari."
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q36",
@@ -699,7 +935,9 @@
       "B": "Tant personalment com materialment",
       "C": "Materialment, i personalment sota la decisió del ciutadà o ciutadana",
       "D": "A partir de la participació en simulacres, exclusivament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q62",
@@ -717,7 +955,9 @@
       "B": "Al Govern i al Conseller d’Interior",
       "C": "Al conseller o consellera de governació",
       "D": "Al conseller o consellera d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q24",
@@ -735,7 +975,9 @@
       "B": "Del grup B (A2)",
       "C": "Del grup C (C1)",
       "D": "Del grup D (C2)  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q78",
@@ -753,7 +995,9 @@
       "B": "Als bombers de l'escala bàsica",
       "C": "Als bombers de l'escala tècnica",
       "D": "Als bombers de l'escala tècnica i als de l'escala bàsica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q82",
@@ -771,7 +1015,29 @@
       "B": "Als seixanta-cinc anys",
       "C": "Als seixanta-tres anys",
       "D": "Als setanta anys"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q84",
+    "statement": "A qui correspon la imposició de sancions per faltes lleus i greus als membres del Cos de Bombers de la Generalitat?",
+    "correct": "D",
+    "explanation": "En el cas de faltes molt greus, a la persona titular del Departament d'Interior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Subdirector General dels SPEIS",
+      "B": "Al Conseller d'Interior",
+      "C": "Al Subdirector General Operatiu",
+      "D": "Al Director General dels SPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q7",
@@ -789,7 +1055,9 @@
       "B": "Les vegueries",
       "C": "Les comarques",
       "D": "Els municipis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q20",
@@ -807,25 +1075,9 @@
       "B": "Llei 5/1994 de 4 de Maig",
       "C": "Llei 31/1994 de 8 de Novembre",
       "D": "Llei 31/1995 de 8 de Novembre"
-    }
-  },
-  {
-    "id": "academia_sim19_q92",
-    "statement": "D'acord amb la Llei 5/1994, de 20 de març, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya, un bomber que utilitzi l'uniforme de servei en situacions alienes a la seva prestació...",
-    "correct": "D",
-    "explanation": "En tot cas parlariem de la Llei 5/1994, de 4 de Maig.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 19",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Serà sancionat amb una falta molt greu",
-      "B": "Serà sancionat amb una falta greu",
-      "C": "No rebrà cap tipus de sanció",
-      "D": "Aquesta Llei no existeix"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q6",
@@ -843,7 +1095,9 @@
       "B": "La ciutadania està obligada a complir les prestacions de caràcter personal que l'autoritat competent determini, les quals tenen dret a ésser indemnitzades",
       "C": "Seran o no seran indemnitzades segons consideri el Departament d'Interior",
       "D": "La ciutadania no està obligada a complir les prestacions que l'autoritat competent determini"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q21",
@@ -861,7 +1115,9 @@
       "B": "L'escala executiva",
       "C": "L'escala tècnica",
       "D": "L'escala bàsica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q63",
@@ -879,25 +1135,9 @@
       "B": "No",
       "C": "Si, però sempre que durant l'actuació el ciutadà afectat col·labori en el servei",
       "D": "No, tot i que en casos concrets, d'acord amb el que estableix la legislació vigent, es pot arribar a concedir una indemnització"
-    }
-  },
-  {
-    "id": "academia_sim21_q58",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, quin tipus de falta suposaran els actes i les conductes que atemptin contra la dignitat del funcionariat i de les institucions?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una falta lleu",
-      "B": "Una falta greu",
-      "C": "Una falta molt greu",
-      "D": "L'obertura immediata d'un expedient disciplinari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q74",
@@ -915,13 +1155,15 @@
       "B": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers d'empresa i els bombers voluntaris",
       "C": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els ADF, els AOF, els bombers voluntaris, els bombers d'empresa i personal tècnic especialitzat, de caràcter laboral, destinat a acomplir tasques de suport i ajut al cos de Bombers de la Generalitat",
       "D": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i personal tècnic especialitzat, de caràcter laboral, destinat a acomplir tasques de suport i ajut al cos de Bombers de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim22_q14",
-    "statement": "No modificar, actualitzar i revisar els plans d'autoprotecció en els supòsits en què sigui procedent, d'acord amb l'article 19.3 de la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, es considera:",
-    "correct": "C",
-    "explanation": "*Article 72*\n\n\nacadèmia\nbombers",
+    "id": "academia_sim22_q5",
+    "statement": "Com es creen, se suprimeixen i es modifiquen els cossos?",
+    "correct": "B",
+    "explanation": "Les lleis de creació dels cossos i les escales han de determinar:\na) La denominació del cos.\nb) Les escales del cos, si escau.\nc) La definició de les funcions que han de desenvolupar els membres del cos i les escales.\nd) El nivell de titulació o les titulacions concretes exigides per a l’ingrés al cos i les escales.\ne) La regulació i la determinació dels criteris de desenvolupament per reglament de les qüestions que, per raó de\nl’especialitat de les funcions i les escales, se separen de les normes generals del Decret legislatiu i necessiten un\ntractament específic.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
@@ -929,11 +1171,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una falta lleu",
-      "B": "Una falta greu",
-      "C": "Una falta molt greu",
-      "D": "Motiu de sanció disciplinària, però no una falta  acadèmia bombers"
-    }
+      "A": "Mitjançant una ordre de conseller",
+      "B": "Mitjançant una llei del Parlament",
+      "C": "A través d'un decret llei",
+      "D": "A través un decret de Presidència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim22_q15",
@@ -951,7 +1195,29 @@
       "B": "Els plans territorials",
       "C": "Els plans d'autoprotecció",
       "D": "Els plans supramunicipals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q17",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, com s'establiran els criteris i els sistemes que permeten assegurar la continuïtat de les dotacions previstes per a la prestació correcta de les funcions de guàrdia?",
+    "correct": "C",
+    "explanation": "Art 5.2: \"El relleu entre els torns de guàrdia s'ha d'efectuar de manera que no s'interrompi el funcionament normal del\nservei de guàrdia\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant una instrucció del Conseller d'Interior",
+      "B": "Mitjançant una resolució del Subdirector General Operatiu (SGO)",
+      "C": "Mitjançant una instrucció del Director General dels SPEIS (DGPEIS)",
+      "D": "Mitjançant una resolució del cap de coordinació de la Sala Central de Bombers (SCB)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q12",
@@ -969,7 +1235,9 @@
       "B": "A la Comissió de Protecció Civil de Catalunya",
       "C": "Al Govern",
       "D": "Al Conseller/a d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q13",
@@ -987,7 +1255,9 @@
       "B": "Les autoritats de protecció civil, els serveis d'autoprotecció i el voluntariat de protecció civil",
       "C": "Les administracions de l'Estat, l'administració de la Generalitat i les administracions locals",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q14",
@@ -1005,7 +1275,9 @@
       "B": "Les vegueries",
       "C": "Les comarques",
       "D": "Els municipis  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q15",
@@ -1023,7 +1295,9 @@
       "B": "Als centres municipals de coordinació operativa (Cecopal)",
       "C": "A l'alcalde",
       "D": "Als plens dels ajuntaments"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q12",
@@ -1041,7 +1315,9 @@
       "B": "El Cos de Bombers de la Generalitat i el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals",
       "C": "El Cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals i els bombers voluntaris",
       "D": "El Cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i el personal a què fa referència la disposició addicional tercera d'aquesta mateixa llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q14",
@@ -1059,7 +1335,49 @@
       "B": "A l'escala executiva",
       "C": "A l'escala tècnica",
       "D": "A l'escala bàsica  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q15",
+    "statement": "A qui correspon la imposició de sancions per faltes molt greus?",
+    "correct": "A",
+    "explanation": "La incoació dels expedients disciplinaris i la imposició de sancions per faltes lleus i greus correspon a la persona titular\nde la direcció general competent en matèria de prevenció i extinció d'incendis i de salvaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la persona titular del departament",
+      "B": "Al Subdirector/a General Operatiu",
+      "C": "Al Director/a General de la DGPEIS",
+      "D": "Al Subdirector/a General de la DGPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q13",
+    "statement": "Segons l'article 3 del Decret 8/2015, de 27 de gener, la Secció de bombers d'Honor:",
+    "correct": "B",
+    "explanation": "Poden rebre el nomenament de bomber/a voluntari de la Secció d'Honor les persones, els col·lectius, les agrupacions o\nles institucions, nacionals o estrangeres, que hagin contribuït d'alguna manera en favor dels serveis de prevenció i\nextinció d'incendis i de salvaments de la Generalitat. Els membres d'aquesta secció només ho són a títol honorífic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'adscriu com una subsecció de la Secció Especial",
+      "B": "És una de les seccions del Cos de Bombers Voluntaris",
+      "C": "És una subsecció de la Secció de Bombers Veterans",
+      "D": "Forma part del Cos de Bombers de la Generalitat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q14",
@@ -1077,7 +1395,9 @@
       "B": "La Llei 5/1994, de 4 de maig",
       "C": "La Llei 2/1999, de 12 de Juny",
       "D": "La Llei 4/1997, de 20 de Maig  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q15",
@@ -1095,7 +1415,9 @@
       "B": "Ha de ser aprovat per la Direcció General de Prevenció, Extinció d'Incendis i Salvaments",
       "C": "Ha de ser aprovat pel Conseller d'Interior",
       "D": "Ha de ser aprovat pel Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q12",
@@ -1113,7 +1435,9 @@
       "B": "L'integració de plans i recursos",
       "C": "La solidaritat en l'assumpció de riscs i danys",
       "D": "La planificació preventiva i l'autoconeixement dels riscs"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q13",
@@ -1131,7 +1455,9 @@
       "B": "La Secció de Bombers Veterans, la Secció Juvenil i la Secció Infantil",
       "C": "La Secció Especial, la Secció de Bombers Veterans, la Secció d'Honor i la Secció Juvenil",
       "D": "La Secció de Bombers Veterans, la Secció d'Honor i la Secció Juvenil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q14",
@@ -1149,7 +1475,9 @@
       "B": "Les comissions provincials de protecció civil",
       "C": "Els consells comarcals",
       "D": "Les associacions de veïns"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q15",
@@ -1167,7 +1495,9 @@
       "B": "Del grup B (A2)",
       "C": "Del grup C (C1)",
       "D": "Del grup D (C2)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q5",
@@ -1185,7 +1515,9 @@
       "B": "Declarar l'activació dels plans de protecció civil d'àmbit municipal davant qualsevol situació de greu risc col·lectiu, de catàstrofe o de calamitat pública que ho requereixi i, subsidiàriament",
       "C": "Exercir la potestat sancionadora",
       "D": "Presidir la Comissió Municipal de Protecció Civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q73",
@@ -1203,7 +1535,9 @@
       "B": "Al President o Presidenta de la Generalitat",
       "C": "A la Comissió de Protecció Civil de Catalunya",
       "D": "Al Conseller/a d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q12",
@@ -1221,7 +1555,9 @@
       "B": "Representants de l'Administració de la Generalitat, de l'Administració local de Catalunya i del voluntariat de protecció civil",
       "C": "Representants de l'Administració de la Generalitat, de l'Administració de l'Estat a Catalunya i del voluntariat de protecció civil",
       "D": "Les administracions públiques, els serveis d'autoprotecció i el voluntariat de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q14",
@@ -1239,7 +1575,9 @@
       "B": "Al Conseller d'Interior",
       "C": "Als plens dels ajuntaments",
       "D": "A l'alcalde  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q15",
@@ -1257,7 +1595,9 @@
       "B": "Crear la CMPC",
       "C": "Aprovar el PBEM",
       "D": "La direcció superior del CECOPAL"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim29_q78",
@@ -1275,7 +1615,9 @@
       "B": "La freqüència de Disponibilitat Immediata",
       "C": "Els sistemes de compensació horària de Disponibilitat de localització i mobilització immediata",
       "D": "Totes tres respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim29_q91",
@@ -1293,25 +1635,9 @@
       "B": "La proximitat i immediatesa de l'acció pública",
       "C": "El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts per aquesta Llei",
       "D": "La preparació adequada de les persones que pertanyen als grups d'intervenció"
-    }
-  },
-  {
-    "id": "academia_sim29_q95",
-    "statement": "D'acord amb la Llei 5/1994, de 4 de maig, de regulació dels SPEIS, es considerarà una falta lleu:",
-    "correct": "B",
-    "explanation": "La resta d'opcions fan referència a faltes greus.\nLes faltes greus es troben regulades i exposades a l'article 43, i les lleus a l'article 44.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 29",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'ús de l'uniforme o del material de servei en situacions alienes a la prestació d'aquest",
-      "B": "El fet de no presentar-se amb l'uniforme degut, sense causa justificada, al relleu de torn corresponent",
-      "C": "L'incompliment de l'obligació de donar compte a la superioritat de qualsevol assumpte que en requereixi el coneixement",
-      "D": "La negativa a sotmetre's a les revisions físiques i de medicina preventiva que s'escaiguin"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q31",
@@ -1329,7 +1655,9 @@
       "B": "Les províncies",
       "C": "Les comarques",
       "D": "Els municipis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q42",
@@ -1347,7 +1675,9 @@
       "B": "Els ajuntaments que no són obligats a adoptar plans de protecció civil, i que opten per prescindir-ne",
       "C": "Els ajuntaments que no disposin dels recursos suficients com per adoptar els plans de protecció civil que els pertoca per llei",
       "D": "Els ajuntaments que són obligats a adoptar plans de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q68",
@@ -1365,7 +1695,29 @@
       "B": "Cinquanta mil",
       "C": "Cent mil",
       "D": "Deu mil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q74",
+    "statement": "Quina és la figura responsable de dirigir els brífings diaris de la Sala Central de Bombers (SCB)?",
+    "correct": "C",
+    "explanation": "El cap operatiu, el cap territorial i el cap de coordinació territorial participaran en els brífings diaris de la SCB (sense\ndirigir).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cap de coordinació territorial",
+      "B": "El Cap operatiu",
+      "C": "El Cap de coordinació de la SCB",
+      "D": "El Director General dels SPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q13",
@@ -1383,7 +1735,29 @@
       "B": "No estan permeses, en cap cas",
       "C": "Només estan permeses en cas de formar part del voluntariat de protecció civil",
       "D": "Donen dret a indemnització"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q67",
+    "statement": "D'acord amb el Decret 276/2016, de 19 de juliol, el cap territorial:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el comandament operatiu bàsic",
+      "B": "És un comandament operatiu intermedi, assignat mitjançant una instrucció del Director General dels SPEIS",
+      "C": "És un alt comandament operatiu, assignat mitjançant una ordre interna del Subdirector General Operatiu",
+      "D": "És un comandament operatiu intermedi, assignat mitjançant una ordre interna del Subdirector General Operatiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q69",
@@ -1401,7 +1775,9 @@
       "B": "Investigar, estudiar i divulgar matèries relatives a les funcions de prevenció i extinció d'incendis i de salvaments",
       "C": "Impartir el curs selectiu per a l'ingrés al Cos de Bombers de la Generalitat",
       "D": "Expedir l'habilitació acreditativa per a exercir la funció de bomber d'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q76",
@@ -1419,7 +1795,9 @@
       "B": "El municipi contigu al qual se li delegui aquesta responsabilitat, sempre que s'aprovin per reglament les condicions per a la prestació d'aquest servei",
       "C": "La Generalitat",
       "D": "El municipi de més de vint mil habitants més proper, a canvi d'una contribució econòmica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q8",
@@ -1437,7 +1815,9 @@
       "B": "Són plans territorials i d'autoprotecció, respectivament",
       "C": "Són plans territorials",
       "D": "Són plans territorials i especials, respectivament  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q22",
@@ -1455,25 +1835,9 @@
       "B": "És un pla especial",
       "C": "És un apèndix del Pla de Protecció Civil de Catalunya (PPCC)",
       "D": "És un pla de tipus territorial"
-    }
-  },
-  {
-    "id": "academia_sim32_q32",
-    "statement": "Un bomber que utilitzi l'uniforme de servei en situacions alienes a la seva prestació:",
-    "correct": "B",
-    "explanation": "Llei 5/1994, de 4 de Maig - article 43.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 32",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Serà sancionat amb una falta molt greu",
-      "B": "Serà sancionat amb una falta greu",
-      "C": "No rebrà cap tipus de sanció",
-      "D": "Serà sancionat amb una falta lleu  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q71",
@@ -1491,7 +1855,29 @@
       "B": "És responsabilitat de l'alcalde o alcaldessa",
       "C": "És responsabilitat del ple municipal",
       "D": "És responsabilitat del director o directora del pla"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q89",
+    "statement": "Quina població té la província de Lleida?",
+    "correct": "A",
+    "explanation": "Barcelona (5.704.697), Girona (771.779), Tarragona (826.830), Lleida (436.352).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "436.352 habitants",
+      "B": "71.779 habitants",
+      "C": "5.704.697 habitants",
+      "D": "826.830 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q13",
@@ -1509,25 +1895,9 @@
       "B": "Les autoritats de protecció civil, els serveis d'autoprotecció i el voluntariat de protecció civil",
       "C": "Les administracions de l'Estat, l'administració de la Generalitat i les administracions locals",
       "D": "Les administracions públiques, les autoritats de protecció civil i els serveis d'autoprotecció"
-    }
-  },
-  {
-    "id": "academia_sim33_q31",
-    "statement": "D'acord amb l'article 2 de la Llei 5/1994, de 4 de maig, dels SPEIS, un dels principis bàsics d'actuació dels membres dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya pel que fa a les relacions amb la comunitat és que:",
-    "correct": "D",
-    "explanation": "Pel que fa a les relacions interadministratives, han de:\nPrimer. Atenir-se als principis de cooperació, coordinació, col·laboració, solidaritat, assistència recíproca, responsabilitat,\ncomplementarietat, subsidiarietat i capacitat d'integració, a l'efecte d'aconseguir un servei eficient capaç d'assegurar la\nprotecció de les persones i els béns.\nSegon. Actuar, en l'exercici de llurs funcions, d'acord amb el principi de lleialtat institucional, amb l'objectiu que la celeritat\nen la informació en els supòsits de perill i la transparència en la transmissió d'ordres afavoreixin la més prompta\nconclusió del sinistre amb el menor cost en vides i béns.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 33",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Han de tenir un tracte correcte amb la ciutadania, la qual han d'auxiliar i protegir si les circumstàncies ho exigeixen o hi són requerits",
-      "B": "Han d'actuar, en l'exercici de llurs funcions, amb la diligència, la celeritat i la decisió necessàries per a aconseguir la màxima rapidesa en l'acció i actuar amb proporcionalitat en la utilització dels mitjans a llur abast",
-      "C": "Han de respectar els drets fonamentals de la ciutadania i les llibertats públiques, en els termes de la Constitució, de l'Estatut d'autonomia i de la resta de l'ordenament jurídic",
-      "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q82",
@@ -1545,7 +1915,9 @@
       "B": "El Departament d'Interior",
       "C": "El Conseller/a d'Interior",
       "D": "Els alcaldes i alcaldesses d'arreu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q90",
@@ -1563,7 +1935,29 @@
       "B": "Tres metges; un de designat pel Departament d'Interior, un de designat per l'interessat i un escollit a l'atzar del Servei Català de la Salut",
       "C": "Dos metges, un de designat pel Servei Català de la Salut i l'altre designat per l'interessat",
       "D": "Tres metges; un de designat pel Govern de la Generalitat, un de designat pel Govern espanyol i un escollit a l'atzar del Servei Català de la Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q8",
+    "statement": "Quin dels següents tipus d'escala no trobem recollit al DB SI?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Escala no protegida",
+      "B": "Escala oberta a l'exterior",
+      "C": "Escala especialment protegida",
+      "D": "Escala d'emergència davant d'incendis  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q39",
@@ -1581,7 +1975,9 @@
       "B": "100.000 habitants",
       "C": "10.000 habitants",
       "D": "50.000 habitants"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q84",
@@ -1599,7 +1995,9 @@
       "B": "Comissió de Protecció Civil de Catalunya",
       "C": "Centre de Coordinació Deliberadora de Catalunya",
       "D": "Centre de Coordinació Operativa de Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q7",
@@ -1617,7 +2015,29 @@
       "B": "Als alcaldes d'arreu de Catalunya, de forma rotatòria cada dos anys",
       "C": "Al Conseller d'Interior",
       "D": "Al president del Govern de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q18",
+    "statement": "Les sancions derivades de les infraccions greus tipificades a la Llei 5/2003, de 22 d’abril, de mesures de prevenció dels incendis forestals en les urbanitzacions sense continuïtat immediata amb la trama urbana:",
+    "correct": "A",
+    "explanation": "a) Infraccions lleus: fins a 600 euros.\nb) Infraccions greus: de 601 euros fins a 10.000 euros.\nc) Infraccions molt greus: de 10.001 euros fins a 100.000 euros.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es materialitzen en forma de multa, que anirà de 601 euros fins a 10.000 euros",
+      "B": "Comportarà una renovavió total del pesonal pertanyent als òrgans de gestió de l'ajuntament corresponent",
+      "C": "Es materialitzen en forma de multa, que anirà de 10.001 euros fins a 100.000 euros",
+      "D": "Es materialitzen en forma d'avís"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q20",
@@ -1635,7 +2055,29 @@
       "B": "Les comissions locals de protecció civil, l'integració en la protecció civil i la direcció dels plans d'autoprotecció",
       "C": "Les administracions públiques, els serveis d'autoprotecció i el voluntariat de protecció civil",
       "D": "Les comissions de protecció civil i les comissions locals de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q83",
+    "statement": "Quin és el nivell més elevat que pot reconèixer l'escala de Beaufort en la mesura de la velocitat del vent?",
+    "correct": "B",
+    "explanation": "L'escala de Beaufort va del 0 al 12, per tant, contant el nivell 0, hi ha un total de 13 nivells. El més alt, per això, serà el 12\nmateix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'11",
+      "B": "El 12",
+      "C": "El 13",
+      "D": "L'escala de Beaufort no té en compte la velocitat del vent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q52",
@@ -1653,7 +2095,9 @@
       "B": "Cada quatre anys, d'acord amb la Llei 4/1997, de 20 de Maig",
       "C": "Anualment, d'acord amb la Llei 5/1994, de 4 de Maig",
       "D": "Cada quatre anys, segons la Llei 5/1994, de 4 de Maig"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q53",
@@ -1671,7 +2115,9 @@
       "B": "A la Comissió de Protecció Civil de Catalunya",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q10",
@@ -1689,7 +2135,29 @@
       "B": "Tres",
       "C": "Cinc",
       "D": "Sis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q29",
+    "statement": "A qui correspon la incoació dels expedients disciplinaris i la imposició de sancions per faltes lleus i greus?",
+    "correct": "D",
+    "explanation": "En canvi, correspon al Conseller d'Interior la imposició de sancions per faltes molt greus als membres del Cos de\nBombers de la Generalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Conseller d'Interior",
+      "B": "Al Subdirector General Operatiu",
+      "C": "Al Subdirector General dels SPEIS",
+      "D": "A la persona titular de la direcció general dels SPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q73",
@@ -1707,7 +2175,9 @@
       "B": "Cada dos anys",
       "C": "Cada any",
       "D": "Cada quatre anys"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q80",
@@ -1725,7 +2195,9 @@
       "B": "A la Divisió d'Operacions",
       "C": "A la Divisió de Grups Operatius Especials",
       "D": "A la Divisió de la Sala Central de Bombers  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q86",
@@ -1743,7 +2215,9 @@
       "B": "Mitjançant una resolució del Director General competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "Per reglament",
       "D": "Mitjançant un Decret Llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim38_q31",
@@ -1761,7 +2235,9 @@
       "B": "La llei 4/1997, de 20 de maig",
       "C": "La llei 276/2016, de 19 de juliol",
       "D": "La llei 31/1995, de 8 de novembre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim38_q36",
@@ -1779,7 +2255,9 @@
       "B": "Autonòmics, territorials i d'autoprotecció",
       "C": "Generals, territorials i d'autoprotecció",
       "D": "Autonòmics i territorials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim38_q50",
@@ -1797,7 +2275,9 @@
       "B": "Els diversos plans territorials i especials",
       "C": "Els diversos plans territorials, especials i d'autoprotecció",
       "D": "Els plans territorials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q12",
@@ -1815,7 +2295,9 @@
       "B": "Les d'oficial i de sotsinspector",
       "C": "Les d'oficial, d'inspector i sotsinspector",
       "D": "Les d'oficial, de sergent, de caporal, de bomber de primera i de bomber"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q33",
@@ -1833,7 +2315,9 @@
       "B": "Donacions anuals diferides als serveis de prevenció i extinció d'incendis",
       "C": "Tant personal com material",
       "D": "La ciutadania té l'obligació de col·laborar personalment, i l'aportació de béns personals raurà en la voluntarietat de cada individu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q24",
@@ -1851,7 +2335,9 @@
       "B": "Per l'escala superior, titulació del grup A1, per l'escala executiva, titulació del grup A2 i per l'escala tècnica, titulació del grup B",
       "C": "Per l'escala superior, titulació del grup A, per l'escala executiva, titulació del grup B i per l'escala tècnica, titulació del grup C2  acadèmia bombers",
       "D": "Per l'escala superior, titulació del grup A, per l'escala executiva, titulació del grup B i per l'escala tècnica, titulació del grup C1  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q64",
@@ -1869,7 +2355,29 @@
       "B": "A l'Escola de Bombers",
       "C": "Al Departament d'Interior, per mitjà del Cos de Bombers de la Generalitat",
       "D": "A Protecció Civil de Catalunya  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q23",
+    "statement": "El Pla d'espais d'interès natural de Catalunya:",
+    "correct": "A",
+    "explanation": "A Catalunya, el Pla d'espais d'interès natural (PEIN), aprovat l'any 1992, és l'instrument de planificació de nivell superior\nque estructura el sistema d'espais protegits de Catalunya i integra aquest sistema dins del conjunt del territori, ja que el\nPEIN és un pla territorial sectorial enquadrat dins del Pla territorial de Catalunya (1995).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'aprovava l'any 2002",
+      "B": "Es defineix per les sigles <<PINC>>",
+      "C": "És un pla territorial enquadrat dins del Pla territorial de Catalunya",
+      "D": "Totes les afirmacions són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q28",
@@ -1887,7 +2395,9 @@
       "B": "El cap de coordinació territorial",
       "C": "El cap d'intervenció",
       "D": "El subdirector general competent en l'àmbit operatiu, a través del cap de coordinació de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q53",
@@ -1905,7 +2415,29 @@
       "B": "El principi de previsió dels riscs greus",
       "C": "El principi de responsabilitat pública i autoprotecció",
       "D": "El principi d'integració de plans i recursos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q11",
+    "statement": "Si essent membres del Cos de Bombers de la Generalitat i estant lliures de servei, intervenim en un sinistre:",
+    "correct": "B",
+    "explanation": "Article 10.2: El personal professional a què es refereix l'apartat 1, es considera que està també en acte de servei si, tot i\nestar lliure de servei, intervé en qualsevol tipus de sinistre, havent acreditat prèviament la seva condició.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Seguirem estant lliures de servei",
+      "B": "Entrarem en acte de servei, sempre que prèviament haguem acreditat la nostra condició",
+      "C": "Correm el risc de que se'ns obri un expedient disciplinari",
+      "D": "Entrarem automàticament en acte de servei sense haver d'acreditar la nostra condició"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q30",
@@ -1923,7 +2455,9 @@
       "B": "Dos",
       "C": "Cinc",
       "D": "Tres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q44",
@@ -1941,7 +2475,9 @@
       "B": "El deure de col·laboració ciutadana s'estén als simulacres que organitzin les autoritats de protecció civil",
       "C": "Els ciutadans i ciutadanes tenen el dret a col·laborar en les tasques de protecció civil",
       "D": "Els ciutadans i ciutadanes que col·laborin en tasques de protecció civil tindran dret a rebre una compensació, que en cap cas serà de caràcter econòmic"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q36",
@@ -1959,7 +2495,9 @@
       "B": "3 metges; un de designat pel Departament d'Interior, un de designat per l'interessat i un escollit a l'atzar del Servei Català de la Salut",
       "C": "4 metges; dos de designats pel Departament d'Interior i dos més designats per l'interessat",
       "D": "3 metges; un de designat pel Govern de la Generalitat, un de designat pel Govern espanyol i un escollit a l'atzar del Servei Català de la Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q63",
@@ -1977,7 +2515,9 @@
       "B": "És una de les finalitats de la Llei",
       "C": "És un deure de la ciutadania",
       "D": "És un dels principis generals sobre els quals s'inspira la Llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q90",
@@ -1995,7 +2535,29 @@
       "B": "En administracions públiques, serveis d'autoprotecció i voluntariat de protecció civil",
       "C": "En administracions públiques, serveis d'autoprotecció i mesures de prevenció de riscos laborals",
       "D": "En administracions públiques, serveis d'autoprotecció, voluntariat de protecció civil i associacions de voluntaris"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q24",
+    "statement": "Els Aiguamolls de l’Empordà, la Zona Volcànica de la Garrotxa o el Delta de l’Ebre són exemples de:",
+    "correct": "C",
+    "explanation": "Actualment a Catalunya hi ha els següents parcs: Alt Pirineu, Aiguamolls de l’Empordà, Cadí-Moixeró, Cap de Creus,\nCapçaleres del Ter i del Freser, Collserola, Delta de l’Ebre, Els Ports, Montgrí les Medes i el Baix Ter, Montseny,\nMuntanya de Montserrat, Sant Llorenç del Munt i Serra de l’Obac, la Serra del Montsant i la Zona Volcànica de la\nGarrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Paratges naturals d'interès nacional",
+      "B": "Reserves naturals",
+      "C": "Parcs naturals",
+      "D": "Parcs nacionals  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q47",
@@ -2013,7 +2575,9 @@
       "B": "El Cos de Bombers de la Generalitat i el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals",
       "C": "El Cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals i els bombers voluntaris",
       "D": "El Cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i el personal a què fa referència la disposició addicional tercera d'aquesta mateixa llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q68",
@@ -2031,7 +2595,29 @@
       "B": "Requerir a les entitats privades i als particulars la col·laboració necessària per a complir les obligacions establertes per la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya",
       "C": "Aprovar el Pla bàsic d'emergència municipal",
       "D": "Presidir la CPCC"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q28",
+    "statement": "Quina és l'única comarca sense consell comarcal?",
+    "correct": "C",
+    "explanation": "Al Barcelonès el consell comarcal va ser suprimit l'any 2019.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Moianès",
+      "B": "L'Alt Urgell",
+      "C": "El Barcelonès",
+      "D": "La Conca de Barberà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q57",
@@ -2049,7 +2635,9 @@
       "B": "L'alcalde o alcaldessa",
       "C": "A la Comissió de Protecció Civil de Catalunya (CPCC)",
       "D": "El Conseller/a d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q33",
@@ -2067,7 +2655,69 @@
       "B": "Del grup B (A2)",
       "C": "Del grup C (C1)",
       "D": "Del grup D (C2)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q13",
+    "statement": "Només en virtut de la llei es pot aplicar, amb caràcter excepcional, el sistema de:",
+    "correct": "A",
+    "explanation": "El sistema de concurs ha de consistir només en la valoració de mèrits.\nLlei 7/2007, de 12 d'abril.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Concurs",
+      "B": "Lliure designació",
+      "C": "Concurs-oposició",
+      "D": "Pràctiques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q27",
+    "statement": "En supòsits de risc greu, de catàstrofe o calamitat pública:",
+    "correct": "A",
+    "explanation": "Si les característiques d'una emergència ho exigeixen, les autoritats competents dels serveis públics de prevenció i\nextinció d'incendis poden requisar tot tipus de béns, i també intervenir i ocupar transitòriament els que siguin necessaris.\nLes persones afectades per aquestes actuacions tenen dret a ésser indemnitzades, d'acord amb el que estableix la\nlegislació vigent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La ciutadania està obligada a complir les prestacions de caràcter personal que l'autoritat competent determini, les quals no donen dret a indemnització",
+      "B": "La ciutadania està obligada a complir les prestacions de caràcter personal que l'autoritat competent determini, les quals tenen dret a ésser indemnitzades",
+      "C": "La ciutadania estarà obligada a col·laborar econòmica i materialment a la resolució dels conflictes",
+      "D": "La ciutadania no està obligada a complir les prestacions que l'autoritat competent determini"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q51",
+    "statement": "A qui correspon la direcció dels plans municipals?",
+    "correct": "C",
+    "explanation": "Article 40.3: L'alcalde pot encomanar funcions de direcció dels plans municipals als tinents o tinentes d'alcalde i, si hi\nmanquen, als altres regidors o regidores.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Correspon a l'alcalde, exclusivament",
+      "B": "Correspon a l'alcalde, que podrà encomanar funcions de direcció als tinents o tinentes d'alcalde",
+      "C": "Correspon a l'alcalde, que podrà encomanar funcions de direcció als tinents o tinentes d'alcalde i, si hi manquen, als altres regidors o regidores",
+      "D": "Correspon a l'alcalde, que podrà delegar certes funcions als tinents o tinentes, que mai correspondran a funcions de direcció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q79",
@@ -2085,7 +2735,9 @@
       "B": "A les Àrees Regionals",
       "C": "A les Unitats Regionals",
       "D": "A les Divisions"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q85",
@@ -2103,7 +2755,9 @@
       "B": "Urgents, a mitjà termini i a llarg termini",
       "C": "Municipals, regionals i nacionals",
       "D": "Territorials, especials i d'autoprotecció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q46",
@@ -2121,7 +2775,29 @@
       "B": "A la Comissió de Protecció Civil de Catalunya",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q53",
+    "statement": "Quants habitants té l'àrea metropolitana de Barcelona (AMB) aproximadament?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona hi viuen 3.303.927 persones, repartides en una superfície de 636 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "3.700.000 habitants",
+      "B": "4.500.000 habitants",
+      "C": "3.300.000 habitants",
+      "D": "1.200.000 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim50_q54",
@@ -2139,25 +2815,29 @@
       "B": "El/la President/a de la Generalitat",
       "C": "El/la Gerent municipal",
       "D": "L’alcalde/essa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim52_q37",
-    "statement": "A quin tipus de falta recorrerà un bomber que utilitzi l'uniforme de servei en situacions alienes a la seva prestació?",
-    "correct": "B",
-    "explanation": "Llei 5/1994, de 4 de Maig - article 43.",
+    "id": "academia_sim50_q88",
+    "statement": "Quin és el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?",
+    "correct": "A",
+    "explanation": "El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en\nels plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una\nrepercussió important.\nÉs un pla d’emergències multirisc i complementari dels plans especials.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 52",
+    "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Serà sancionat amb una falta molt greu",
-      "B": "Serà sancionat amb una falta greu",
-      "C": "Dependrà del context",
-      "D": "Serà sancionat amb una falta lleu"
-    }
+      "A": "Pla territorial de Protecció civil de Catalunya (PROCICAT)",
+      "B": "Pla Director del SPEIS",
+      "C": "Pla de Protecció Civil Municipal",
+      "D": "Pla especial d'emergència exterior del sector químic de Catalunya (PLASEQCAT)  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q22",
@@ -2175,7 +2855,29 @@
       "B": "Les Àrees Regionals",
       "C": "Les Unitats Regionals",
       "D": "Les Divisions"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q68",
+    "statement": "Quin dels següents supòsits NO es considera un nucli de població?",
+    "correct": "C",
+    "explanation": "Es considera nucli compacte (nucli de població) el conjunt d'almenys 10 edificacions o, tot i tenir menys de 10\nedificacions, superen els 50 habitants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un conjunt de 12 edificacions amb un total de 38 habitants",
+      "B": "Un conjunt de 6 edificacions amb un total de 55 habitants",
+      "C": "Un conjunt de 8 edificacions amb un total de 48 habitants",
+      "D": "Un conjunt de 15 edificacions amb un total de 34 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q85",
@@ -2193,25 +2895,29 @@
       "B": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals i els bombers voluntaris",
       "C": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris i els bombers d'empresa",
       "D": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i personal tècnic especialitzat, de caràcter laboral, destinat a acomplir tasques de suport i ajut al cos de Bombers de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim55_q2",
-    "statement": "Quants anys de servei actiu hauran de passar, com a mínim, per a que una bombera amb categoria de caporala, mitjançant concurs oposició, accedeixi a la categoria d'oficiala?",
-    "correct": "C",
-    "explanation": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinciód'incendis i de salvaments de Catalunya - art.\n20.\nEl personal del Cos de Bombers de la Generalitat que tingui un mínim de dos anys d'antiguitat de servei actiu en la\ncategoria immediatament inferior i que hagi superat o superi un curs de capacitació de caràcter selectiu impartit per\nl'Escola de Bombers i Seguretat Civil de Catalunya pot accedir a la categoria de sergent o sergenta per promoció interna,\nmitjançant concurs oposició.\nEl personal del Cos de Bombers de la Generalitat que tingui un mínim de dos anys d'antiguitat de servei actiu en la\ncategoria immediatament inferior i que hagi superat o superi un curs de capacitació de caràcter selectiu impartit per\nl'Escola de Bombers i Seguretat Civil de Catalunya pot accedir a la categoria d'oficial o oficiala per promoció interna,\nmitjançant concurs oposició.",
+    "id": "academia_sim54_q78",
+    "statement": "Com s'anomena el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?",
+    "correct": "A",
+    "explanation": "El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en\nels plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una\nrepercussió important.\nÉs un pla d’emergències multirisc i complementari dels plans especials.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 55",
+    "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sis anys",
-      "B": "Cinc anys",
-      "C": "Quatre anys",
-      "D": "Dos anys"
-    }
+      "A": "Pla territorial de Protecció civil de Catalunya (PROCICAT)",
+      "B": "Pla Director del SPEIS",
+      "C": "Pla de Protecció Civil Municipal",
+      "D": "CAMCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q64",
@@ -2229,13 +2935,15 @@
       "B": "En autoritats de protecció civil, serveis d'autoprotecció i voluntariat de protecció civil",
       "C": "En administracions de l'Estat, administració de la Generalitat i administracions locals",
       "D": "En administracions públiques, administracions locals i serveis de protecció ciutadana  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim56_q28",
-    "statement": "De quina forma s'estructura la protecció civil, d'acord amb la Llei 4/1997, de 20 de maig?",
-    "correct": "B",
-    "explanation": "",
+    "id": "academia_sim56_q25",
+    "statement": "Sobre les entitats municipals descentralitzades (EMD), és FALS que:",
+    "correct": "A",
+    "explanation": "A Catalunya n'hi ha 65.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
@@ -2243,11 +2951,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En administracions públiques, plans d'autoprotecció, mesures de prevenció de riscos laborals i associacions de voluntaris",
-      "B": "En administracions públiques, serveis d'autoprotecció i voluntariat de protecció civil",
-      "C": "En administracions públiques, serveis d'autoprotecció i serveis especials",
-      "D": "En administracions públiques, plans d'autoprotecció, voluntariat de protecció civil i associacions de voluntaris"
-    }
+      "A": "Es regeixen per la Llei Municipal i de Règim Local de Catalunya",
+      "B": "No disposen d'ajuntament propi",
+      "C": "A Catalunya n'hi ha 32",
+      "D": "Tenen competència sobre la vigilància dels béns d'ús públic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q65",
@@ -2265,7 +2975,9 @@
       "B": "A la Subdirecció General Operativa (SGO)",
       "C": "Al conseller o consellera del departament d'Interior",
       "D": "Al director o directora general de Prevenció, Extinció d'Incendis i Salvaments"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q75",
@@ -2283,7 +2995,9 @@
       "B": "Al Conseller d'Interior",
       "C": "Al Subdirector General Operatiu",
       "D": "Al Director General dels SPEIS"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q28",
@@ -2301,7 +3015,9 @@
       "B": "Presidir la Comissió Municipal de Protecció Civil",
       "C": "Elaborar i mantenir el catàleg de recursos i serveis mobilitzables per a la protecció civil en el municipi",
       "D": "Elaborar i proposar al ple de l'ajuntament o a la comissió de govern, segons escaigui, les disposicions que en l'àmbit municipal s'hagin de dictar en matèria de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q73",
@@ -2319,7 +3035,9 @@
       "B": "Al Departament d'Interior",
       "C": "A la Comissió de Protecció Civil de Catalunya (CPCC)",
       "D": "Al Centre de Coordinació Operativa de Catalunya (CECAT)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q27",
@@ -2337,7 +3055,9 @@
       "B": "Els representants de l'Administració local i les associacions del voluntariat de protecció civil (AVPC)",
       "C": "Representants de l'Administració de l'Estat, de l'Administració de la Generalitat i de la local",
       "D": "Representants de l'Administració de l'Estat, representants de les associacions del voluntariat de protecció civil (AVPC) i eventuals col·laboracions voluntàries"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q31",
@@ -2355,7 +3075,9 @@
       "B": "Atles de la Protecció Civil",
       "C": "Asrtrolabi",
       "D": "Carta de protecció civil de Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q47",
@@ -2373,7 +3095,9 @@
       "B": "Del grup A",
       "C": "Del grup C1",
       "D": "Del grup B"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q37",
@@ -2391,7 +3115,9 @@
       "B": "Per concurs",
       "C": "Per oposició, en convocatòria lliure",
       "D": "Per oposició o per concurs oposició, en convocatòria lliure"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q40",
@@ -2409,7 +3135,49 @@
       "B": "És un pla especial",
       "C": "És un annex del Pla de Protecció Civil de Catalunya (PPCC)",
       "D": "És un pla de tipus territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim60_q44",
+    "statement": "En quin cas un conjunt de menys de 10 edificacions podrà considerar-se un nucli de població?",
+    "correct": "C",
+    "explanation": "Nucli de població: Conjunt de 10 edificacions, com a mínim, que formen una trama urbana (carrers, places i altres vies\nurbanes). Excepcionalment, el nombre d'edificacions podrà ser inferior a 10, sempre que la població que hi habita superi\nels 50 habitants. S'inclouen en el nucli aquelles edificacions que, tot i estar aïllades, es troben a menys de 200 metres\ndels límits exteriors del conjunt esmentat, si bé en la determinació d'aquesta distància s'han d'excloure els terrenys\nocupats per instal·lacions industrials o comercials, parcs, jardins, zones esportives, cementiris, aparcaments i altres, així\ncom els canals o rius que poden ser creuats per ponts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si la població que hi habita supera els 25 habitants",
+      "B": "Si formen una trama urbana (carrers, places i altres vies urbanes)",
+      "C": "Si la població que hi habita supera els 50 habitants",
+      "D": "En cap cas"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim60_q70",
+    "statement": "Quins passos seguirem, per ordre, a l'hora de fer ús d'un multímetre?",
+    "correct": "C",
+    "explanation": "1- Seleccionar la magnitud a mesurar (multímetre).\n2- Seleccionar l’escala major.\n3- Connectar l’aparell.\n4- Adequar l’escala (si s’escau).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Seleccionar la magnitud a mesurar, seleccionar l’escala major, adequar l’escala (si s’escau) i connectar l’aparell",
+      "B": "Connectar l’aparell, seleccionar l’escala major, seleccionar la magnitud a mesurar i i adequar l’escala (si s’escau)",
+      "C": "Seleccionar la magnitud a mesurar, seleccionar l’escala major, connectar l’aparell i adequar l’escala (si s’escau)",
+      "D": "Seleccionar l’escala major, seleccionar la magnitud a mesurar, adequar l’escala (si s’escau) i connectar l’aparell  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q82",
@@ -2427,7 +3195,9 @@
       "B": "A l'escala executiva",
       "C": "A l'escala tècnica",
       "D": "A l'escala bàsica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q4",
@@ -2445,7 +3215,9 @@
       "B": "El Pla de protecció civil de Catalunya ha d'integrar els diversos plans territorials, especials i d'autoprotecció",
       "C": "El Pla de protecció civil de Catalunya ha d'integrar el catàleg de recursos humans i materials disponibles",
       "D": "El Govern ha d'informar mensualment el Parlament de la gestió del Pla i de les modificacions que s'hi puguin incorporar"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q29",
@@ -2463,7 +3235,9 @@
       "B": "L'alcalde, en l'àmbit municipal i el conseller o consellera d'Interior, en l'àmbit de Catalunya",
       "C": "Els plans territorials, els plans especials i els plans d'autoprotecció",
       "D": "El Govern, el Departament d'Interior i la Comissió de Protecció Civil de Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q36",
@@ -2481,7 +3255,29 @@
       "B": "Formarà part del Cos de Bombers de la Generalitat",
       "C": "Pot ser professional o voluntari",
       "D": "És personal voluntari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q69",
+    "statement": "Quin dels següents conjunts es considera un nucli de població?",
+    "correct": "B",
+    "explanation": "Es considera nucli compacte (nucli de població) el conjunt d'almenys 10 edificacions o, tot i tenir menys de 10\nedificacions, superen els 50 habitants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un conjunt de 9 edificacions amb un total de 24 habitants",
+      "B": "Un conjunt de 6 edificacions amb un total de 53 habitants",
+      "C": "Un conjunt de 8 edificacions amb un total de 48 habitants",
+      "D": "Un conjunt de 7 edificacions amb un total de 44 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim64_q73",
@@ -2499,7 +3295,9 @@
       "B": "En municipis de més de deu mil habitants",
       "C": "En municipis de més de vint mil habitants",
       "D": "En qualsevol municipi"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q2",
@@ -2517,7 +3315,9 @@
       "B": "La persona titular del Departament d’Interior",
       "C": "La persona titular de l’Àrea d’Afers Interns del Cos de Bombers de la Generalitat",
       "D": "La persona titular de la Direcció General de Prevenció, Extinció d’Incendis i Salvaments"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q62",
@@ -2535,7 +3335,29 @@
       "B": "En situacions de risc o d'emergència, el Departament d'Interior pot exigir l'execució de tasques fora de l'horari ordinari",
       "C": "Tenen el deure de mantenir en condicions correctes d'ús les instal·lacions i els materials afectes al servei",
       "D": "Tenen el deure d'abandonar el servei un cop finalitzat l'horari ordinari de treball amb independència de la situació del relleu de torn corresponent"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q81",
+    "statement": "Quin és l'àmbit de l'àrea regional, per norma general?",
+    "correct": "A",
+    "explanation": "L'àrea regional és un conjunt de parcs amb unitat de coordinació i àmbit comarcal. Excepcionalment, hi poden haver\nzones d'àmbit intercomarcal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La comarca",
+      "B": "El municipi",
+      "C": "La vegueria",
+      "D": "La província"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q93",
@@ -2553,25 +3375,9 @@
       "B": "A la Divisió de Planificació i Gestió",
       "C": "A la Divisió d'Operacions",
       "D": "A la Divisió de la Sala Central de Bombers"
-    }
-  },
-  {
-    "id": "academia_sim66_q10",
-    "statement": "D’acord amb la Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d’incendis i de salvaments de Catalunya, quina d’aquestes afirmacions és INCORRECTA?",
-    "correct": "B",
-    "explanation": "El personal del Cos de Bombers de la Generalitat que tingui un mínim de dos anys d'antiguitat de servei actiu en la\ncategoria immediatament inferior i que hagi superat o superi un curs de capacitació de caràcter selectiu impartit per\nl'Escola de Bombers i Seguretat Civil de Catalunya pot accedir a la categoria d'oficial o oficiala per promoció interna,\nmitjançant concurs oposició.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 66",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les característiques de les funcions del cos de Bombers de la Generalitat condicionen la concessió de llicències i permisos i la distribució dels períodes de vacances a les necessitats del servei",
-      "B": "Poden accedir a la categoria d’oficial o oficiala del cos de Bombers de la Generalitat, mitjançant concurs, les persones membres d’aquest cos que tinguin un mínim de tres anys de servei efectiu en la categoria de sergent o sergenta i superin un curs de capacitació de caràcter selectiu a l’Institut de Seguretat Pública de Catalunya",
-      "C": "En supòsits de risc greu, de catàstrofe o de calamitat pública, la ciutadania està obligada a complir les prestacions de caràcter personal que l’autoritat competent determini, les quals no donen dret a indemnització",
-      "D": "El cos de Bombers de la Generalitat pot actuar fora del territori de Catalunya, en supòsits excepcionals o d’emergència, si la naturalesa del servei a prestar ho requereix, a petició de l’autoritat competen"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q22",
@@ -2589,7 +3395,9 @@
       "B": "Personal eventual",
       "C": "Personal laboral",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q60",
@@ -2607,7 +3415,9 @@
       "B": "Els alcaldes d'arreu de Catalunya, de forma rotatòria cada quatre anys",
       "C": "El Conseller d'Interior",
       "D": "El president del Govern de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q81",
@@ -2625,13 +3435,15 @@
       "B": "Les operatives en tasques de prevenció i extinció d'incendis i de salvaments i de suport sanitari en emergències",
       "C": "Les de direcció, coordinació i orientació d'unitats tècniques i les operatives de nivell superior",
       "D": "Totes les esmentades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim68_q40",
-    "statement": "Quina sanció rebrà un bomber que utilitzi l'uniforme de servei en situacions alienes a la seva prestació?",
-    "correct": "B",
-    "explanation": "Llei 5/1994, de 4 de Maig - article 43.",
+    "id": "academia_sim68_q29",
+    "statement": "A quin tipus d'escala hi trobarem la contraescala o taló?",
+    "correct": "D",
+    "explanation": "L’escala gràfica és una línia segmentada regularment on la longitud de cada segment mesurada al mapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útil per a fer\nlectures directes de distàncies entre punts del mapa. A l’esquerra de l’origen (zero de l’escala gràfica) s’hi representa la\ncontraescala o taló, on el nombre de subdivisions és superior.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
@@ -2639,11 +3451,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una falta molt greu",
-      "B": "Una falta greu",
-      "C": "No rebrà cap tipus de sanció",
-      "D": "Una falta lleu  acadèmia bombers"
-    }
+      "A": "A l'escala visual",
+      "B": "A l'escala numèrica",
+      "C": "A l'escala natural",
+      "D": "A l'escala gràfica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q64",
@@ -2661,25 +3475,9 @@
       "B": "Al Subdirector/a General Operatiu (SGO)",
       "C": "A la persona titular del Departament d'Interior",
       "D": "Al Director/a general de Prevenció, Extinció d'Incendis i Salvaments de la Generalitat de Catalunya  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim68_q77",
-    "statement": "De quina manera s'accedeix a les categories de sots-inspector i d'inspector del Cos de Bombers de la Generalitat?",
-    "correct": "D",
-    "explanation": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya -\nArticle 21.1.\nL'accés a les categories de sots-inspector i d'inspector es fa per concurs-oposició lliure, que inclou un curs selectiu de\ncapacitació a l'Escola de Bombers de Catalunya, el qual ha de comprendre un període de pràctiques per al personal aliè\nal Cos. Es pot reservar fins a un 65% de les places de cada convocatòria per a la promoció interna dels membres que\ntinguin un mínim de tres anys d'antiguitat de servei en actiu en la categoria immediatament inferior respectiva, que tinguin\nla titulació adequada i que hagin superat o superin el curs de capacitació de caràcter selectiu impartit per l'Escola de\nBombers de Catalunya.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 68",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Per concurs-oposició lliure, podent-se reservar fins a un 85% de les places de cada convocatòria per a la promoció interna",
-      "B": "Per promoció interna per concurs oposició",
-      "C": "Per oposició en convocatòria lliure",
-      "D": "Per concurs-oposició lliure, podent-se reservar fins a un 65% de les places de cada convocatòria per a la promoció interna"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q93",
@@ -2697,7 +3495,9 @@
       "B": "A la Comissió de Protecció Civil de Catalunya",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q4",
@@ -2715,13 +3515,15 @@
       "B": "A la Comissió de Protecció Civil de Catalunya",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim70_q12",
-    "statement": "D'acord amb la Llei 4/1997, de 20 de maig, qui ostenta la competència per declarar l'activació dels plans de protecció civil d'àmbit de Catalunya?",
-    "correct": "A",
-    "explanation": "Article 43 - Competències del conseller o consellera d'Interior.\ne) Declarar l'activació dels plans de protecció civil d'àmbit de Catalunya i, subsidiàriament, la dels plans d'emergència\nmunicipal i els d'autoprotecció, i declarar-ne la desactivació si l'evolució de la situació ho permet.",
+    "id": "academia_sim70_q7",
+    "statement": "Uun conjunt de menys de 10 edificacions podrà considerar-se un nucli de població?",
+    "correct": "C",
+    "explanation": "Nucli de població: Conjunt de 10 edificacions, com a mínim, que formen una trama urbana (carrers, places i altres vies\nurbanes). Excepcionalment, el nombre d'edificacions podrà ser inferior a 10, sempre que la població que hi habita superi\nels 50 habitants. S'inclouen en el nucli aquelles edificacions que, tot i estar aïllades, es troben a menys de 200 metres\ndels límits exteriors del conjunt esmentat, si bé en la determinació d'aquesta distància s'han d'excloure els terrenys\nocupats per instal·lacions industrials o comercials, parcs, jardins, zones esportives, cementiris, aparcaments i altres, així\ncom els canals o rius que poden ser creuats per ponts.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
@@ -2729,11 +3531,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El Conseller d'Interior",
-      "B": "El Govern",
-      "C": "El CECAT",
-      "D": "El President de la Generalitat"
-    }
+      "A": "Si, si la població que hi habita supera els 25 habitants",
+      "B": "Si, si formen una trama urbana (carrers, places i altres vies urbanes)",
+      "C": "Si, si la població que hi habita supera els 50 habitants",
+      "D": "No, en cap cas  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q42",
@@ -2751,25 +3555,9 @@
       "B": "A l'escala executiva",
       "C": "A l'escala tècnica",
       "D": "A l'escala bàsica  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim71_q82",
-    "statement": "De quina manera s'estructura la protecció civil, d'acord amb la Llei 4/1997, de 20 de maig?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 71",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "En administracions públiques, plans d'autoprotecció, mesures de prevenció de riscos laborals i associacions de voluntaris",
-      "B": "En administracions públiques, serveis d'autoprotecció i voluntariat de protecció civil",
-      "C": "En administracions públiques, serveis d'autoprotecció i serveis especials",
-      "D": "En administracions públiques, plans d'autoprotecció, voluntariat de protecció civil i associacions de voluntaris"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q87",
@@ -2787,7 +3575,9 @@
       "B": "Al Consell o Consellera d'Interior",
       "C": "A la CPCC",
       "D": "Al Ple municipal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q79",
@@ -2805,7 +3595,9 @@
       "B": "El cos de Bombers de la Generalitat de Catalunya, únicament",
       "C": "El cos de Bombers de la Generalitat de Catalunya i el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals",
       "D": "El cos de Bombers de la Generalitat de Catalunya, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, el sistema d'emergències mèdiques (SEM), els bombers d'empresa i el personal a què fa referència la disposició addicional tercera"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q15",
@@ -2823,7 +3615,9 @@
       "B": "Grup B (A2)",
       "C": "Grup C (C1)",
       "D": "Grup D (C2)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q18",
@@ -2841,7 +3635,29 @@
       "B": "A meitat de legislatura",
       "C": "Semestralment",
       "D": "Trimestralment"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q10",
+    "statement": "En quin context un conjunt de menys de 10 edificacions pot ser considerat un nucli de població?",
+    "correct": "C",
+    "explanation": "Nucli de població: Conjunt de 10 edificacions, com a mínim, que formen una trama urbana (carrers, places i altres vies\nurbanes). Excepcionalment, el nombre d'edificacions podrà ser inferior a 10, sempre que la població que hi habita superi\nels 50 habitants. S'inclouen en el nucli aquelles edificacions que, tot i estar aïllades, es troben a menys de 200 metres\ndels límits exteriors del conjunt esmentat, si bé en la determinació d'aquesta distància s'han d'excloure els terrenys\nocupats per instal·lacions industrials o comercials, parcs, jardins, zones esportives, cementiris, aparcaments i altres, així\ncom els canals o rius que poden ser creuats per ponts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si la població que hi habita supera els 25 habitants",
+      "B": "Si formen una trama urbana (carrers, places i altres vies urbanes)",
+      "C": "Si la població que hi habita supera els 50 habitants",
+      "D": "En cap cas"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q12",
@@ -2859,7 +3675,9 @@
       "B": "El restabliment dels serveis essencials",
       "C": "La intervenció",
       "D": "La prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q3",
@@ -2877,7 +3695,29 @@
       "B": "Del grup B (A2)",
       "C": "Del grup C (C1)",
       "D": "Del grup D (C2)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q57",
+    "statement": "Quin tipus d'escala ha de tenir necessàriament elements com el taló o la contraescala?",
+    "correct": "D",
+    "explanation": "L’escala gràfica és una línia segmentada regularment on la longitud de cada segment mesurada al mapa es correspon\namb les unitats de mesura reals indicades en els seus extrems. Aquesta manera de representar l’escala és útil per a fer\nlectures directes de distàncies entre punts del mapa. A l’esquerra de l’origen (zero de l’escala gràfica) s’hi representa la\ncontraescala o taló, on el nombre de subdivisions és superior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala \"unitat per unitat\"",
+      "B": "L'escala numèrica",
+      "C": "L'escala natural",
+      "D": "L'escala gràfica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q70",
@@ -2895,7 +3735,9 @@
       "B": "Ressalta que la col·laboració regular amb les autoritats de protecció civil es fa per mitjà dels centres de coordinació operativa",
       "C": "Destaca el deure de col·laboració dels ciutadans i ciutadanes en les tasques de protecció civil, que s'estén als simulacres que organitzin les autoritats de protecció civil",
       "D": "Ressalta que la col·laboració regular amb les autoritats de protecció civil es fa per mitjà d'empreses especialitzades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q91",
@@ -2913,7 +3755,9 @@
       "B": "Exercir la potestat sancionadora, en els termes que estableix aquesta Llei",
       "C": "Exercir les altres funcions i facultats que li assigni la legislació vigent",
       "D": "Exercir la direcció superior del Centre de Coordinació Operativa Local"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q68",
@@ -2931,7 +3775,9 @@
       "B": "Aprovar el PBEM",
       "C": "Crear la CMPC",
       "D": "Aprovar els plans específics municipals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q38",
@@ -2949,7 +3795,9 @@
       "B": "Aprovar el PBEM",
       "C": "Crear la CMPC",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q43",
@@ -2967,7 +3815,9 @@
       "B": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals i els bombers voluntaris",
       "C": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris i els bombers d'empresa",
       "D": "El cos de Bombers de la Generalitat, el personal pertanyent als serveis de prevenció i extinció d'incendis de les entitats locals, els bombers voluntaris, els bombers d'empresa i personal tècnic especialitzat, de caràcter laboral, destinat a acomplir tasques de suport i ajut al cos de Bombers de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q61",
@@ -2985,7 +3835,9 @@
       "B": "El conjunt de Catalunya i els municipis",
       "C": "El conjunt de Catalunya, les entitats supramunicipals i els municipis",
       "D": "Les entitats supramunicipals i els municipis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q63",
@@ -3003,7 +3855,9 @@
       "B": "A l'alcalde o alcaldessa",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q71",
@@ -3021,7 +3875,9 @@
       "B": "A l'escala tècnica",
       "C": "A l'escala executiva",
       "D": "Les respostes a) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q93",
@@ -3039,7 +3895,9 @@
       "B": "El Conseller/a d'Interior",
       "C": "Els plens dels ajuntaments",
       "D": "L'alcalde o alcaldessa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim81_q26",
@@ -3057,25 +3915,9 @@
       "B": "És una de les finalitats de la Llei",
       "C": "És un deure de la ciutadania",
       "D": "És un dels principis generals sobre els quals s'inspira la Llei"
-    }
-  },
-  {
-    "id": "academia_sim81_q82",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, la descurança injustificada en la presentació personal es considera:",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 81",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una falta greu",
-      "B": "Una falta molt greu",
-      "C": "Una falta lleu",
-      "D": "No es considera una falta, però el funcionari rebrà un avís"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q6",
@@ -3093,7 +3935,9 @@
       "B": "La regulació del finançament dels serveis de prevenció i extinció d'incendis i de salvaments a Catalunya",
       "C": "L'ordenació general de les accions i els serveis de prevenció i extinció d'incendis i de salvaments a Catalunya",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q60",
@@ -3111,7 +3955,9 @@
       "B": "Correspon a la Comissió Nacional de Protecció Civil elaborar-lo i correspon al Govern aprovar-lo",
       "C": "Correspon al Govern elaborar-lo i correspon a la Comissió Nacional de Protecció Civil aprovar-lo",
       "D": "Correspon al Govern elaborar-lo i aprovar-lo"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim87_q59",
@@ -3129,7 +3975,9 @@
       "B": "No pot ser inferior al 25% ni superior al 40% de les places convocades",
       "C": "No pot ser inferior al 25% ni superior al 50% de les places convocades",
       "D": "No pot ser inferior al 30% ni superior al 50% de les places convocades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim88_q88",
@@ -3147,7 +3995,9 @@
       "B": "La naturalesa de les actuacions podrà comportar la necessitat d'improvisació pel que fa el criteri de les ordres transmeses",
       "C": "La planificació horitzontal pot resultar més eficaç que la jerarquització en certs contextos on la col·laboració directa és clau",
       "D": "Les accions s'han de dur a terme amb ambigüetat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim91_q11",
@@ -3165,7 +4015,9 @@
       "B": "Els/Les alcaldes/ses a nivell municipal i el/la President/ta de la Generalitat de Catalunya a nivell de Catalunya",
       "C": "La Policia local a nivell municipal i els Mossos d’Esquadra a nivell de Catalunya",
       "D": "Les administracions públiques, els serveis d'autoprotecció i el voluntariat de protecció civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim91_q13",
@@ -3183,7 +4035,9 @@
       "B": "Donacions anuals diferides als serveis de prevenció i extinció d'incendis",
       "C": "Tant personal com material",
       "D": "La ciutadania té l'obligació de col·laborar personalment, i l'aportació de béns personals raurà en la voluntarietat de cada individu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim92_q58",
@@ -3201,25 +4055,49 @@
       "B": "De ningú, és una posició amb autonomia funcional",
       "C": "De la Sala Central de Bombers",
       "D": "Del cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim98_q32",
-    "statement": "Segons la Llei 5/1994, de 4 de Maig, quina sanció rebrà un bomber que utilitzi l'uniforme de servei en situacions alienes a la seva prestació?",
-    "correct": "B",
-    "explanation": "Llei 5/1994, de 4 de Maig - article 43.",
+    "id": "academia_sim93_q62",
+    "statement": "Els túnels del Garraf de l'autopista C-32 són en el terme municipal de:",
+    "correct": "D",
+    "explanation": "Els túnels del Garraf de l'autopista C-32 es troben en el terme municipal de Sitges, a la comarca del Garraf. Aquests\ntúnels són una part important de la infraestructura viària que connecta Barcelona amb comarques del sud com el Garraf i\nel Baix Penedès.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 98",
+    "section": "Simulacre 93",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una falta molt greu",
-      "B": "Una falta greu",
-      "C": "No rebrà cap tipus de sanció",
-      "D": "Una falta lleu"
-    }
+      "A": "Castelldefels",
+      "B": "El Garraf",
+      "C": "Vilanova i la Geltrú",
+      "D": "Sitges"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim99_q57",
+    "statement": "Segons la Llei 4/1997, de 20 de maig, de protecció civil de Catalunya, quin dels següents NO representa un deure especial dels membres del Cos de Bombers de la Generalitat?",
+    "correct": "C",
+    "explanation": "Llei 4/1997, de 20 de maig, de protecció civil de Catalunya.\nArticle 38.\nEls membres del Cos de Bombers de la Generalitat tenen el deure, en especial, de:\na) Dur l'uniforme reglamentari.\nb) Sotmetre's periòdicament a les revisions físiques i de medicina preventiva que assegurin el manteniment efectiu de\nllurs condicions físiques.\nc) Mantenir l'aptitud física adequada per a incorporar-se al servei en plenes facultats.\nd) Complir la jornada i l'horari que siguin establerts, d'acord amb la legislació vigent. En situacions de risc o d'emergència,\nel Departament de Governació pot exigir l'execució de tasques fora de l'horari ordinari.\ne) Mantenir en condicions correctes d'ús les instal·lacions i els materials afectes al servei.\nf) Romandre en servei, un cop finalitzat l'horari ordinari de treball, després d'haver actuat en un sinistre, mentre no hagin\nestat rellevats o quan la gravetat del sinistre ho requereixi.\ng) Assistir als cursos de formació teòrico-pràctica que s'organitzin a fi de garantir una prestació eficaç del servei.\nh) Subjectar-se al règim d'incompatibilitats del personal al servei de l'Administració de la Generalitat, amb les\nespecialitats que, d'acord amb la naturalesa essencial del servei públic que exerceix, estableixin aquesta Llei i la\nnormativa que la desplega.\n-2 Els deures específics dels membres del Cos de Bombers de la Generalitat durant la permanència en els parcs i durant\nles guàrdies s'han de determinar per via reglamentària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Romandre en servei, un cop finalitzat l'horari ordinari de treball, després d'haver actuat en un sinistre, mentre no hagin estat rellevats o quan la gravetat del sinistre ho requereixi",
+      "B": "Mantenir en condicions correctes d'ús les instal·lacions i els materials afectes al servei",
+      "C": "Dur a terme les perquisicions tècniques necessàries per tal de determinar les circumstàncies, el punt d'inici i altres factors que puguin provocar l'origen i la posterior propagació d'un incendi",
+      "D": "Sotmetre's periòdicament a les revisions físiques i de medicina preventiva que assegurin el manteniment efectiu de llurs condicions físiques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim102_q45",
@@ -3237,7 +4115,9 @@
       "B": "Els nivells d'aplicació del pla",
       "C": "El procediment de desactivació del pla",
       "D": "L'anàlisi dels riscs presents"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim108_q85",
@@ -3255,7 +4135,9 @@
       "B": "En municipis de més de deu mil habitants",
       "C": "En municipis de més de vint mil habitants",
       "D": "En qualsevol municipi"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim110_q30",
@@ -3273,7 +4155,9 @@
       "B": "Una situació excepcional per situacions de gravetat",
       "C": "Una situació no permesa actualment",
       "D": "Una situació excepcional que dona dret a ser retribuïda de forma específica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim111_q1",
@@ -3291,7 +4175,29 @@
       "B": "A l'alcalde o alcaldessa",
       "C": "Al Conseller/a d'Interior",
       "D": "Al Govern"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim111_q15",
+    "statement": "Una entitat municipal descentralitzada (EMD):",
+    "correct": "A",
+    "explanation": "A Catalunya, l’entitat municipal descentralitzada (EMD) és la denominació que rep l’entitat local menor o entitat d’àmbit\nterritorial inferior al municipi, formada per un o diversos nuclis de població sense ajuntament propi, que es governen\nconjuntament mitjançant una junta de veïns, presidida per un/a president/a.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És considerada una entitat d'àmbit territorial inferior al municipi",
+      "B": "És una entitat local de caràcter simbòlic que no té competències atribuïdes",
+      "C": "També és denominada Junta Veïnal",
+      "D": "És considerada una entitat d'àmbit territorial anàleg al municipi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim111_q10",
@@ -3309,7 +4215,29 @@
       "B": "Cada cent vuitanta dies o fracció.",
       "C": "Cada dos-cents cinquanta o fracció.",
       "D": "Cada cent dies."
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim113_q3",
+    "statement": "Les Entitats Municipals Descentralitzades (EMD) de Catalunya:",
+    "correct": "A",
+    "explanation": "Les entitats municipals descentralitzades (EMD) són organismes públics que depenen dels ajuntaments però tenen\nautonomia per gestionar determinats serveis i funcions a una part del municipi. El seu principal objectiu és acostar la\ngestió pública als ciutadans, millorant l'eficàcia administrativa i la resposta a les necessitats locals (icgc.cat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 113",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són un tipus d'entitat d'àmbit territorial inferior al municipi",
+      "B": "Són organismes privats vinculats als ajuntaments que disposen d’autonomia pròpia per a la gestió de serveis ni l’exercici de funcions",
+      "C": "Són un tipus d'entitat d'àmbit territorial equivalent al municipi",
+      "D": "Són organismes públics vinculats als ajuntaments, creats per millorar l’eficiència administrativa i l’atenció a les necessitats locals, però que no disposen d’autonomia pròpia per a la gestió de serveis ni l’exercici de funcions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim114_q12",
@@ -3327,25 +4255,9 @@
       "B": "El risc d’incapacitat permanent total en l’exercici de la seva professió per causa d’accident",
       "C": "El risc de mort o d'invalidesa total o parcial en l'exercici de la seva professió per causa d'accident",
       "D": "El risc de gran invalidesa en l’exercici de la seva professió per causa d’accident"
-    }
-  },
-  {
-    "id": "academia_sim116_q7",
-    "statement": "Segons la Llei 4/1997, de 20 de Maig, quina afirmació és CORRECTA respecte a l’escala de suport del Cos de Bombers de la Generalitat?",
-    "correct": "D",
-    "explanation": "1 cal = 4,2 J.\n80 cal × 4,2 J/cal = 336 J/g.\nPer a fer-la canviar de líquid a vapor es necessiten 2.260 J/g (540 cal).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T03 - Llei bombers i protecció civil",
-    "section": "Simulacre 116",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Permet accedir per promoció interna a l’escala tècnica",
-      "B": "Permet accedir per promoció interna a l’escala executiva",
-      "C": "Permet accedir per promoció interna a l'escala tècnica i a l’escala executiva",
-      "D": "No permet accedir per promoció interna a la resta d’escales"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim120_q14",
@@ -3363,7 +4275,9 @@
       "B": "Tècnic/a especialista d'operacions de vol",
       "C": "Tècnic/a gestor/a de sala de coordinació",
       "D": "Auxiliar tècnic/a equip de prevenció activa forestal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim125_q61",
@@ -3381,7 +4295,29 @@
       "B": "Del conseller d’Interior en tots els casos",
       "C": "Del director general de Prevenció, Extinció d’Incendis i Salvaments (en casos de faltes lleus o greus) o del conseller d’Interior (en casos de faltes molt greus)",
       "D": "Del secretari general d’Interior (en casos de faltes lleus o greus) o del conseller d’Interior (en casos de faltes molt greus)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q61",
+    "statement": "Segons l’article 38 de la Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya, els membres del cos de Bombers de la Generalitat tenen el deure, en especial, de:",
+    "correct": "C",
+    "explanation": "Article 38.\n1. Els membres del Cos de Bombers de la Generalitat tenen el deure, en especial, de:\na) Dur l'uniforme reglamentari.\nb) Sotmetre's periòdicament a les revisions físiques i de medicina preventiva que assegurin el manteniment efectiu de\nllurs condicions físiques.\nc) Mantenir l'aptitud física adequada per a incorporar-se al servei en plenes facultats.\nd) Complir la jornada i l'horari que siguin establerts, d'acord amb la legislació vigent. En situacions de risc o d'emergència,\nel Departament de Governació pot exigir l'execució de tasques fora de l'horari ordinari.\ne) Mantenir en condicions correctes d'ús les instal·lacions i els materials afectes al servei.\nf) Romandre en servei, un cop finalitzat l'horari ordinari de treball, després d'haver actuat en un sinistre, mentre no hagin\nestat rellevats o quan la gravetat del sinistre ho requereixi.\ng) Assistir als cursos de formació teòrico-pràctica que s'organitzin a fi de garantir una prestació eficaç del servei.\nh) Subjectar-se al règim d'incompatibilitats del personal al servei de l'Administració de la Generalitat, amb les\nespecialitats que, d'acord amb la naturalesa essencial del servei públic que exerceix, estableixin aquesta Llei i la\nnormativa que la desplega.\n2. Els deures específics dels membres del Cos de Bombers de la Generalitat durant la permanència en els parcs i durant\nles guàrdies s'han de determinar per via reglamentària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T03 - Llei bombers i protecció civil",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir l'aptitud psíquica adequada per incorporar-se al servei en plenes facultats",
+      "B": "Complir amb diligència les funcions i tasques que els siguin encomanades d’acord amb el lloc de treball",
+      "C": "Mantenir en condicions correctes d'ús les instal·lacions i els materials afectes al servei",
+      "D": "Actuar amb imparcialitat i objectivitat en l’exercici de les seves funcions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q7",
@@ -3399,7 +4335,9 @@
       "B": "Aprovar el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya",
       "C": "Exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)",
       "D": "Declarar l'activació dels plans de protecció civil d'àmbit de Catalunya i, subsidiàriament, la dels plans d'emergència municipal i els d'autoprotecció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q44",
@@ -3417,7 +4355,9 @@
       "B": "El cos d’agents rurals de la Generalitat i el cos de Mossos d'Esquadra exerceixen les funcions de prevenció d'incendis dels béns forestals i el Cos de Bombers de la Generalitat assumeix les tasques relacionades amb la prevenció dels incendis forestals en col·laboració amb les agrupacions de defensa forestal i els serveis municipals de bombers",
       "C": "El Cos de Bombers de la Generalitat i els serveis municipals de bombers exerceixen les funcions de prevenció d'incendis dels béns forestals, en col·laboració amb les agrupacions de defensa forestal",
       "D": "El cos d’agents rurals de la Generalitat exerceix les funcions de prevenció d'incendis dels béns forestals i el Cos de Bombers de la Generalitat assumeix les tasques relacionades amb la prevenció dels incendis forestals en col·laboració amb les agrupacions de defensa forestal i els serveis municipals de bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q61",
@@ -3435,7 +4375,9 @@
       "B": "De la Divisió de Coordinació d'Emergències",
       "C": "De la Divisió d'Operacions",
       "D": "De la Divisió de Planificació i Gestió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q5",
@@ -3453,7 +4395,9 @@
       "B": "De manera immediata, proporcionada i coordinada amb el pla d'autoprotecció de la indústria",
       "C": "De manera reservada, tècnica i limitada als representants veïnals acreditats",
       "D": "De manera àmplia, precisa i eficaç sobre les mesures de seguretat i la conducta a seguir"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q5",
@@ -3471,7 +4415,9 @@
       "B": "Surt pel Nord-Oest i es pon pel Nort-Est",
       "C": "Surt pel Sud-Oest i es pon pel Sud-Est",
       "D": "Surt pel Nord-Est i es pon pel Nort-Oest"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q41",
@@ -3489,6 +4435,8 @@
       "B": "És obligatòria, proporcionada a les possibilitats de cadascú, i no dóna lloc a indemnització",
       "C": "És obligatòria, però genera dret a indemnització pels perjudicis del servei prestat",
       "D": "No la pot ordenar l'alcalde: en manca de pla la competència és del conseller de Governació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

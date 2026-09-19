@@ -1,0 +1,182 @@
+[
+  {
+    "id": "academia_sim1_q2",
+    "statement": "La bugia és un element característic dels motors:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dièsel",
+      "B": "Híbrids",
+      "C": "Tant Otto com Dièsel",
+      "D": "Otto"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q29",
+    "statement": "En el cas de contenidors, contenidors cisterna i cisternes portàtils, situarem les plaques-etiqueta:",
+    "correct": "A",
+    "explanation": "El el cas de contenidors, contenidors cisterna i cisternes NO portàtils, situarem les plaques-etiqueta als costats i a la part\nde darrera, únicament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als dos costats i a cada extrem",
+      "B": "Als dos costats i a darrera del contenidor o cisterna",
+      "C": "Als dos costats del contenidor o cisterna",
+      "D": "A davant i a darrera del contenidor o cisterna"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q50",
+    "statement": "Quina seqüència segueixen les explosions dels cilindres en els motors en línia formats per quatre cilindres?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1-3-4-2",
+      "B": "1-4-3-2",
+      "C": "1-2-4-3",
+      "D": "1-3-2-4"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q78",
+    "statement": "On se situaran les plaques-etiqueta en el cas de contenidors, contenidors cisterna i cisternes portàtils?",
+    "correct": "D",
+    "explanation": "El el cas de contenidors, contenidors cisterna i cisternes NO portàtils, situarem les plaques-etiqueta als costats i a la part\nde darrera, únicament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A davant i a darrera del contenidor o cisterna",
+      "B": "Als dos costats i a un dels extrems de la cisterna",
+      "C": "Als dos costats del contenidor o cisterna",
+      "D": "Als dos costats, a davant i a darrera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q93",
+    "statement": "Portaran plaques-etiqueta a la part del darrere i als costats:",
+    "correct": "C",
+    "explanation": "Els contenidors cisterna, els CGEM i les cisternes portàtils portaran plaques-etiqueta als quatre costats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Contenidors de Gas amb Elements Múltiples (CGEM)",
+      "B": "Les cisternes portàtils",
+      "C": "Els vehicles cisterna",
+      "D": "Els contenidors cisterna"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q90",
+    "statement": "Quin sistema d'alimentació és més comunament utilitzat en l'actualitat?",
+    "correct": "C",
+    "explanation": "En l'actualitat, el sistema d'alimentació de combustible més comú en vehicles de passatgers és el sistema d'injecció\ndirecta (GDI, Gasoline Direct Injection).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de carburació",
+      "B": "Depèn del combustible; en vehicles de benzina, carburació, i en vehicles dièsel, injecció",
+      "C": "El sistema d'injecció",
+      "D": "Depèn del combustible; en vehicles de benzina, injecció, i en vehicles dièsel, carburació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q36",
+    "statement": "Quina és la nomenclatura d'un cotxe híbrid endollable?",
+    "correct": "B",
+    "explanation": "HEV: Hybrid Electric Vehicle.\nPHEV: Plug-in Hybrid Electric Vehicle.\nBEV: Battery Electric Vehicle.\nFCEV: Fuel Cell Electric Vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BEV",
+      "B": "PHEV",
+      "C": "FCEV",
+      "D": "HEV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q22",
+    "statement": "En arribar a un turisme incendiat hi observeu un adhesiu \"ECO BI-FUEL\" a la part posterior. Quina comprovació addicional es recomana fer?",
+    "correct": "A",
+    "explanation": "L'adhesiu posterior ja fa sospitar l'ús de combustible alternatiu; davant d'aquesta sospita cal emprar el detector de gasos\nper detectar fuites. Els vehicles de gas conserven tub d'escapament, i acostar-se a obrir la tapa del dipòsit no és una\ncomprovació segura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Utilitzar el detector de gasos per comprovar possibles fuites",
+      "B": "Obrir la tapa del dipòsit per llegir l'etiqueta LPG, CNG o LNG",
+      "C": "Comprovar l'absència de tub d'escapament de gasos al vehicle",
+      "D": "Consultar la fitxa de seguretat del model abans d'aproximar-s'hi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q52",
+    "statement": "Un camió amb càrrega especial crema a l'interior d'un túnel. Quin zonatge de seguretat correspon establir en aquesta intervenció?",
+    "correct": "D",
+    "explanation": "La zona d'autoprotecció n'hi ha prou en la majoria d'incendis de vehicle, però en situacions complexes com túnels, zones\nurbanes densament poblades o vehicles pesants amb càrregues especials cal desplegar un AGO complet amb les tres\nzones: calenta, tèbia i freda.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T26 - Intervenció bàsica en incendis varis",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mantenir la zona d'autoprotecció al voltant del vehicle com a delimitació suficient",
+      "B": "Delimitar dues zones diferenciades, la calenta i la freda, al voltant del vehicle",
+      "C": "Ampliar el radi de la zona d'autoprotecció fins als 50 metres sense zonificar-la",
+      "D": "Desplegar un AGO complet amb les zones calenta, tèbia i freda diferenciades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  }
+]

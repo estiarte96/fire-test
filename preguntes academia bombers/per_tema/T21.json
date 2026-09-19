@@ -1,147 +1,2223 @@
 [
   {
-    "id": "academia_sim4_q13",
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia li correspon assumir la funció de cap d'intervenció per a un nivell de comandament 1?",
-    "correct": "A",
-    "explanation": "Nivell de comandament 1: cap de sortida\nNivell de comandament 2: sotscap territorial\nNivell de comandament 3: cap territorial\nNivell de comandament 4: cap operatiu\nNivell de comandament 5: subdirector general competent en l'àmbit operatiu\n\n\nacadèmia\nbombers",
+    "id": "academia_sim1_q30",
+    "statement": "A què es refereixen les sigles del CECAT?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Centre de Coordinació d'Àmbit Territorial",
+      "B": "Al Consell Executiu de Catalunya",
+      "C": "Al Centre de Coordinació Operativa de Catalunya",
+      "D": "A la Comissió de Protecció Civil de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q46",
+    "statement": "Segons el decret 243/2007, de 6 de novembre, quina Subdirecció General no s'adscriu a la Direcció General de Prevenció, Extinció d'Incendis i Salvaments?",
+    "correct": "D",
+    "explanation": "La SG de Protecció Civil no existeix, s'anomena Direcció General de Protecció Civil, i no s'adscriu a la DGPEIS.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La SG Operativa",
+      "B": "La SG Tècnica",
+      "C": "La SG d'Administració i Recursos Humans",
+      "D": "La SG de Protecció Civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q10",
+    "statement": "Quin dels següents municipis presenta un major nombre de població?",
+    "correct": "B",
+    "explanation": "Barcelona > L'Hospitalet de Llobregat > Terrassa > Badalona > Sabadell > Lleida > Tarragona (...) (IDESCAT 2020).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 4",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap de sortida",
-      "B": "Al sotscap territorial",
-      "C": "Al cap territorial",
-      "D": "Al cap operatiu"
-    }
+      "A": "Sabadell",
+      "B": "Badalona",
+      "C": "Santa Coloma de Gramenet",
+      "D": "Tarragona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim13_q86",
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia li correspon assumir la funció de cap d'intervenció per a un nivell de comandament 5?",
+    "id": "academia_sim7_q63",
+    "statement": "Els plans bàsics d'emergència municipals són homologats per:",
     "correct": "B",
-    "explanation": "Nivell de comandament 1: cap de sortida\nNivell de comandament 2: sotscap territorial\nNivell de comandament 3: cap territorial\nNivell de comandament 4: cap operatiu\nNivell de comandament 5: subdirector general operatiu",
+    "explanation": "I són aprovats pels plens de les corporacions municipals respectives.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les corporacions municipals respectives",
+      "B": "La Comissió de Protecció Civil",
+      "C": "El director o directora del pla",
+      "D": "El govern municipal respectiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q22",
+    "statement": "Quin dels següents articles no forma part dels principis generals de la Protecció Civil?",
+    "correct": "D",
+    "explanation": "Definició de demora: \"acció de tardar a fer una cosa\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Solidaritat en l'assumpció de riscs i danys",
+      "B": "Responsabilitat pública i autoprotecció",
+      "C": "Proximitat i immediatesa de l'acció pública",
+      "D": "Responsabilitat i demora en en la resposta al sinistre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q45",
+    "statement": "En cas de terratrèmol quin pla especial s'activarà?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TERRACAT",
+      "B": "SISMICAT",
+      "C": "CAT-ASTOFE",
+      "D": "TERRATRECAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q55",
+    "statement": "Aprovar el Pla de Protecció Civil de Catalunya correspon:",
+    "correct": "B",
+    "explanation": "És competència del Govern aprovar el Pla de protecció civil de Catalunya, els plans territorials d'àmbit supramunicipal i\nels plans especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'Institut de Seguretat Pública de Catalunya (ISPC)",
+      "B": "Al Govern",
+      "C": "Al President del Govern",
+      "D": "Al Conseller d'Interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q16",
+    "statement": "Quin d'aquests plans de protecció civil no correspon a un pla especial?",
+    "correct": "D",
+    "explanation": "El PROCICAT no és un pla especial, és un pla TERRITORIAL.\nCAMCAT: contaminació d'aigües marines\nINFOCAT: incendis forestals\nTRANSCAT: transport de mercaderies perilloses",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CAMCAT",
+      "B": "INFOCAT",
+      "C": "TRANSCAT",
+      "D": "PROCICAT  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q49",
+    "statement": "En emergències i protecció civil li correspon a la Generalitat:",
+    "correct": "A",
+    "explanation": "Respectant, això si, el que estableixi l'Estat en l'exercici de les seves competències en matèria de seguretat pública.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La competència exclusiva",
+      "B": "La competència compartida",
+      "C": "La competència executiva",
+      "D": "La competència legislativa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q58",
+    "statement": "Els ciutadans i ciutadanes tenen __ ____ a/de participar en els plans de protecció civil.",
+    "correct": "B",
+    "explanation": "*Art. 5* (Dret de participació).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "la obligació",
+      "B": "el dret",
+      "C": "el deure",
+      "D": "la predisposició"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q87",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, quin òrgan competent tindrà la funció, entre d'altres, d'elaborar i formular propostes sobre la creació i desenvolupament de mesures, dispositius i recursos orientats a l'atenció de les emergències a Catalunya?",
+    "correct": "C",
+    "explanation": "*Art. 74*",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Titular del Departament d'Interior",
+      "B": "El Departament d'Interior",
+      "C": "La Direcció General de Prevenció, Extinció d'Incendis i Salvaments",
+      "D": "La Subdirecció General d'Operacions en Protecció Civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q71",
+    "statement": "Qui s'encarrega de presidir la Comissió de Protecció Civil de Catalunya?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Conseller d'Interior",
+      "B": "El Director General de Protecció Civil",
+      "C": "El delegat de la Generalitat corresponent",
+      "D": "El president de l'associació de municipis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q84",
+    "statement": "En la protecció civil, es defineix el risc com el grau de pèrdues esperades degut a l'exposició a un determinat perill en una determinada àrea i període. L'assignació del nivell de risc dependrà, principalment, dels següents factors:",
+    "correct": "A",
+    "explanation": "La perillositat, per la seva banda, ve determinada per la intensitat i per la freqüència.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la perillositat i la vulnerabilitat",
+      "B": "De la afectació i la vulnerabilitat",
+      "C": "De la freqüència i la vulnerabilitat",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q8",
+    "statement": "El sistema d'injecció electrònica funciona en tres blocs. Quina de les següents respostes no correspon a un d'aquests tres blocs?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els sensors",
+      "B": "La unitat de comandament amb microprocessador",
+      "C": "Els actuadors",
+      "D": "El sistema de persecució  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim13_q10",
+    "statement": "L'òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya és:",
+    "correct": "B",
+    "explanation": "La Comissió de Protecció Civil de Catalunya es compon de representants de l'Administració de la Generalitat, de\nl'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap de sortida",
-      "B": "Al subdirector general operatiu",
-      "C": "Al cap operatiu",
-      "D": "Aquest nivell de comandament no existeix"
-    }
+      "A": "El Centre de Coordinació Operativa de Catalunya",
+      "B": "La Comissió de Protecció Civil de Catalunya",
+      "C": "Els serveis d'autoprotecció",
+      "D": "Les comissions locals de protecció civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim28_q16",
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia li correspon assumir la funció de cap d'intervenció per a un nivell de comandament 3?",
-    "correct": "A",
-    "explanation": "Nivell de comandament 1: cap de sortida\nNivell de comandament 2: sotscap territorial\nNivell de comandament 3: cap territorial\nNivell de comandament 4: cap operatiu\nNivell de comandament 5: subdirector general operatiu",
+    "id": "academia_sim13_q37",
+    "statement": "Quina és la única demarcació de Catalunya on hi trobem una major quantitat de matollars que de boscos?",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
-    "section": "Simulacre 28",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap territorial",
-      "B": "Al subdirector general operatiu",
-      "C": "Al cap operatiu",
-      "D": "Aquest nivell de comandament no existeix"
-    }
+      "A": "Girona",
+      "B": "Barcelona",
+      "C": "Lleida",
+      "D": "Tarragona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim29_q70",
-    "statement": "Tots els serveis en situacions d'emergència han de ser comandats?",
-    "correct": "B",
-    "explanation": "El cap d'intervenció serà el màxim comandament de la guàrdia present al lloc del sinistre.",
+    "id": "academia_sim13_q47",
+    "statement": "Qui aprova el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya?",
+    "correct": "A",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern, per decret",
+      "B": "El Conseller d'Interior, amb informe previ de les comissions municipals",
+      "C": "El Conseller d'Interior, amb homologació prèvia del CECAT",
+      "D": "El president del govern, per decret llei"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q51",
+    "statement": "Quina comarca destaca com la zona amb major volum de cultius de regadiu?",
+    "correct": "C",
+    "explanation": "Seguida per la Noguera i el Pla d'Urgell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Noguera",
+      "B": "La Segarra",
+      "C": "El Segrià",
+      "D": "El Pla d'Urgell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q65",
+    "statement": "Quin nombre màxim d'associacions de voluntaris i voluntàries de protecció civil poden reconèixer els plans de protecció civil per cada municipi?",
+    "correct": "A",
+    "explanation": "Article 55: Els plans de protecció civil només poden reconèixer una associació de voluntaris i voluntàries de protecció civil\nper municipi. A aquests efectes, correspon a l'ajuntament determinar l'associació que ha de quedar vinculada\nfuncionalment a l'autoritat municipal de protecció civil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un",
+      "B": "Dos",
+      "C": "Tres",
+      "D": "Cinc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q37",
+    "statement": "D'acord amb el Decret 155/2014, de 25 de novembre, com s'anomena el document que estableix el marc orgànic i funcional previst per a un municipi, amb l’objecte de prevenir i controlar els riscos sobre les persones i els béns?",
+    "correct": "C",
+    "explanation": "DUPROCIM = Document Únic de Protecció Civil Municipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "PROCICAT",
+      "B": "DUPROCICAT",
+      "C": "DUPROCIM",
+      "D": "DUPBEM"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q93",
+    "statement": "La creació d'una comissió municipal de protecció civil (CMPC) és obligatòria en municipis amb més de:",
+    "correct": "B",
+    "explanation": "També estaran obligats aquells municipis considerats turístics o que presentin riscos especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20.000 habitants",
+      "B": "50.000 habitants",
+      "C": "200.000 habitants",
+      "D": "500.000 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q63",
+    "statement": "Quin dels següents municipis presenta major població?",
+    "correct": "A",
+    "explanation": "Barcelona > L'Hospitalet de Llobregat > Terrassa > Badalona > Sabadell > Lleida > Tarragona (...) (IDESCAT 2020).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Terrassa",
+      "B": "Sabadell",
+      "C": "Santa Coloma de Gramenet",
+      "D": "Tarragona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q52",
+    "statement": "El pla territorial d'àmbit superior de protecció civil de Catalunya rep el nom de:",
+    "correct": "C",
+    "explanation": "PROCICAT = PROtecció CIvil de CATalunya.\nEl CECAT és el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CECAT",
+      "B": "CECOPAL",
+      "C": "PROCICAT",
+      "D": "INFOCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q20",
+    "statement": "El Decret 243/2007, de 6 de novembre, defineix aquesta figura com \"la segona autoritat\" del Departament d'Interior:",
+    "correct": "A",
+    "explanation": "Article 4.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El/La Secretari/ària General",
+      "B": "El Director o Directora General de la DGPEIS",
+      "C": "El President o Presidenta de la Generalitat",
+      "D": "El Director o Directora General de Protecció Civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q89",
+    "statement": "En quins casos utilitzarem la taula espinal curta?",
+    "correct": "B",
+    "explanation": "Ens serveix per traslladar el pacient a la taula espinal llarga.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En nadons o nans",
+      "B": "En el cas que no ens sigui possible utilitzar la llarga",
+      "C": "En pacients que requereixen una radiografia",
+      "D": "Cap de les respostes és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q12",
+    "statement": "Sobre qui recau la competència d'aprovar el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya?",
+    "correct": "B",
+    "explanation": "\nacadèmia\nbombers\n\nCorrespon al Govern:\na) Aprovar el Pla de protecció civil de Catalunya, els plans territorials d'àmbit supramunicipal i els plans especials.\nb) Aprovar el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya.\nc) Aprovar els reglaments generals de desenvolupament i execució d'aquesta Llei, amb l'informe previ de la Comissió de\nProtecció Civil de Catalunya.\nd) Exercir la potestat sancionadora, en els termes establerts per aquesta Llei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre el President o Presidenta de la Generalitat",
+      "B": "Sobre el Govern",
+      "C": "Sobre el Conseller d'Interior",
+      "D": "Sobre el conseller o consellera de Governació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q13",
+    "statement": "Si es produeixen les eventualitats contingudes en un pla de protecció civil, quina figura, en primera instància, tindrà la responsabilitat de declarar-ne formalment l'activació?",
+    "correct": "C",
+    "explanation": "Activació dels plans de protecció civil (art. 24):\n1. Si es produeixen les eventualitats contingudes en un pla de protecció civil, el director o directora d'aquest ha de\ndeclarar-ne formalment l'activació, pel procediment establert pel mateix pla.\n2. En el cas d'impediment del director o directora del pla o en el cas d'una urgència extrema, en correspon la declaració\nd'activació a les persones assenyalades subsidiàriament pel pla, en l'ordre indicat. Si hi manquen, l'autoritat de protecció\ncivil del pla d'àmbit superior pot declarar-ne l'activació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alcalde o alcaldessa",
+      "B": "L'autoritat de protecció civil del pla d'àmbit superior",
+      "C": "El director o directora d'aquest",
+      "D": "A la primera persona assenyalada subsidiàriament pel mateix pla"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q26",
+    "statement": "De quin tipus poden ser els plans de protecció civil?",
+    "correct": "B",
+    "explanation": "Tots els plans de protecció civil han d'estar coordinats i integrats de manera eficaç per a donar resposta a les situacions\nde risc col·lectiu greu, a les catàstrofes o a les calamitats públiques que es produeixin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Concurrents o especials",
+      "B": "Territorials, especials i d'autoprotecció",
+      "C": "Regionals, estatals i d'autoprotecció",
+      "D": "Regionals, especials i d'autoprotecció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q70",
+    "statement": "Quina comarca de Catalunya disposa d'un menor nombre de municipis?",
+    "correct": "C",
+    "explanation": "Alta Ribagorça: 3\nBarcelonès: 5\nPla de l'Estany: 11\nNoguera: 30\nIDESCAT 2021",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Barcelonès",
+      "B": "El Pla de l'Estany",
+      "C": "L'Alta Ribagorça",
+      "D": "La Noguera  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q92",
+    "statement": "Quina província és la principal productora de cereals a Catalunya?",
+    "correct": "A",
+    "explanation": "Barcelona: 249.327 T\nLleida: 1.158.253 T\nTarragona: 211.018 T\nGirona: 203.241 T",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Lleida",
+      "B": "Girona",
+      "C": "Barcelona",
+      "D": "Tarragona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q12",
+    "statement": "Quins representants componen la Comissió de Protecció Civil de Catalunya?",
+    "correct": "D",
+    "explanation": "*Art. 46*\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els representants de l'Administració de l'Estat, els representants de la Generalitat i els representants de l'Administració local de Catalunya",
+      "B": "Els representants de l'Administració de l'Estat, els representants de l'Administració de la Generalitat, els dels consells comarcals i els dels municipis de Catalunya",
+      "C": "Els representants de l'Administració de la Generalitat i els de l'Administració de l'Estat a Catalunya",
+      "D": "Els representants de l'Administració de la Generalitat, de l'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q83",
+    "statement": "Quina competència ostenta la Generalitat en matèria de protecció civil?",
+    "correct": "B",
+    "explanation": "Correspon a la Generalitat la competència exclusiva en matèria de protecció civil, que inclou, en tot cas, la regulació, la\nplanificació i l’execució de mesures relatives a les emergències i la seguretat civil, i també la direcció i la coordinació dels\nserveis de protecció civil, que inclouen els serveis de prevenció i extinció d’incendis\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Competència executiva",
+      "B": "Competència exclusiva",
+      "C": "Competència compartida",
+      "D": "Competència reglamentària"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q25",
+    "statement": "Quin tipus de Pla de Protecció Civil preveu, per a empreses, centres i instal·lacions determinades, les actuacions en cas d'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de situacions de risc, catàstrofes i calamitats públiques que els puguin afectar?",
+    "correct": "B",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 29",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Si, per un cap de sortida",
-      "B": "Si, per un cap d'intervenció",
-      "C": "No, excepte en casos concrets",
-      "D": "No, en cap cas. L'estructura interna del Cos de Bombers és horitzontal."
-    }
+      "A": "Els plans especials",
+      "B": "Els plans d'autoprotecció",
+      "C": "Els plans característics",
+      "D": "Els plans territorials"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim48_q11",
-    "statement": "A qui correspon l'activació de les posicions de l'àmbit de suport?",
-    "correct": "D",
-    "explanation": "L'activació de les posicions de l'àmbit de suport correspon a la Sala Central de Bombers (SCB), a petició de:\n- Cap d'intervenció\n- Cap de coordinació de la SCT\n- Cap de coordinació de la SCB",
+    "id": "academia_sim29_q47",
+    "statement": "Quin tipus de plans de protecció civil existeixen?",
+    "correct": "A",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Territorials, especials i d'autoprotecció",
+      "B": "Autonòmics, territorials i sectorials",
+      "C": "Territorials, forestals i metropolitans",
+      "D": "Autonòmics, territorials i especials"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q8",
+    "statement": "Com s'anomena l'òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya?",
+    "correct": "C",
+    "explanation": "La Comissió de Protecció Civil de Catalunya es compon de representants de l'Administració de la Generalitat, de\nl'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centre de Coordinació Operativa de Catalunya",
+      "B": "CECOPAL",
+      "C": "Comissió de Protecció Civil de Catalunya",
+      "D": "Comissions autonòmiques de protecció civil  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q82",
+    "statement": "Quina província de Catalunya té un major nombre de municipis?",
+    "correct": "A",
+    "explanation": "Barcelona > Lleida > Girona > Tarragona (TOTAL: 947 municipis).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Barcelona",
+      "B": "Girona",
+      "C": "Lleida",
+      "D": "Tarragona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q16",
+    "statement": "El Departament d'Interior, Relacions Institucionals i Participació s'estructura en les unitats directives següents:",
+    "correct": "A",
+    "explanation": "DECRET 243/2007, de 6 de novembre, d’estructura del Departament d’Interior, Relacions Institucionals i Participació -\narticle 1.1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Secretaria General, la Secretaria de Seguretat i la Secretaria de Relacions Institucionals i Participació",
+      "B": "La Secretaria General, la Secretaria de Seguretat, la DGPEIS, la DG de Policia i la DG de Protecció Civil",
+      "C": "La Secretaria General i la Secretaria de Seguretat",
+      "D": "La Secretaria General, la Secretaria de Seguretat i la DGPEIS  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q31",
+    "statement": "A qui correspon la responsabilitat d'aprovar el Pla Bàsic d'Emergències Municipal (PBEM)?",
+    "correct": "B",
+    "explanation": "L'elabora l'alcalde.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'alcalde o alcaldessa",
+      "B": "Al Ple Municipal",
+      "C": "Al director o directora del pla",
+      "D": "Al Govern"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q47",
+    "statement": "Quina província presenta una producció agrícola més alta?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Barcelona",
+      "B": "Tarragona",
+      "C": "Girona",
+      "D": "Lleida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q1",
+    "statement": "En matèria de Protecció Civil, quina de les següents funcions correspon al Govern?",
+    "correct": "D",
+    "explanation": "La resta de respostes són competència del Conseller/a d'Interior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La d'elaborar i mantenir el Catàleg de recursos i serveis mobilitzables per a la protecció civil a Catalunya",
+      "B": "La d'exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (Cecat)",
+      "C": "La de presidir la Comissió de Protecció Civil de Catalunya",
+      "D": "La d'elaborar i aprovar el Mapa de protecció civil de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q65",
+    "statement": "A quina província hi trobem l'únic Parc Nacional de Catalunya?",
+    "correct": "C",
+    "explanation": "Parlem del Parc Nacional d'Aigüestortes i Estany de Sant Maurici.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Barcelona",
+      "B": "Tarragona",
+      "C": "Lleida",
+      "D": "Girona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q14",
+    "statement": "Quin nombre d'habitants mínim obligarà a un municipi a elaborar i aprovar plans bàsics d'emergència municipal?",
+    "correct": "D",
+    "explanation": "Art. 17.2 - 4/1997, de Protecció Civil.\nEls municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població, tenen la\nconsideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat industrial,\nsegons la Comissió de Protecció Civil de Catalunya, han d'elaborar i aprovar plans bàsics d'emergència municipal que\ngaranteixin la coordinació i l'aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els plans bàsics\nd'emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la informació pública i\nl'informe previs de la comissió municipal de protecció civil, si n'hi ha, i són homologats per la Comissió de Protecció Civil\nde Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinquanta mil",
+      "B": "Cent mil",
+      "C": "Deu mil",
+      "D": "Vint mil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q94",
+    "statement": "Quin tipus de Plans de Protecció Civil s'associen a alguna activitat, centre o instal·lació concrets?",
+    "correct": "D",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els plans especials",
+      "B": "Els plans territorials",
+      "C": "Els plans característics",
+      "D": "Els plans d'autoprotecció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q8",
+    "statement": "Quina de les següents és una finalitat bàsica de l'acció pública en matèria de protecció civil?",
+    "correct": "A",
+    "explanation": "La resta de les opcions fan referència a principis generals.\nL'acció pública en matèria de protecció civil té com a finalitats bàsiques:\na) La previsió dels riscs greus, entesa com a anàlisi objectiva d'aquests i llur localització en el territori.\nb) La prevenció, entesa com el conjunt d'actuacions encaminades tant a la disminució dels riscs com a llur detecció\nimmediata, mitjançant la vigilància.\nc) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l'estructura de\ncoordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes\nrespostes.\nd) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats\npúbliques.\ne) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts\nper aquesta Llei.\nf) La preparació adequada de les persones que pertanyen als grups d'intervenció.\ng) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats\npúbliques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències",
+      "B": "La proximitat i immediatesa de l'acció pública",
+      "C": "La responsabilitat pública i autoprotecció",
+      "D": "La solidaritat en l'assumpció de riscs i danys  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q46",
+    "statement": "La gestió de quin dels següents aeroports està a càrrec d'Aeroports de Catalunya?",
+    "correct": "D",
+    "explanation": "Els aeroports de Barcelona-el Prat, Girona-Costa Brava, Reus i Sabadell són responsabilitat d’Aena Aeropuertos, mentre\nque Aeroports de Catalunya gestiona els aeroport de Lleida-Alguaire i Pirineus-la Seu d’Urgell, i els aeròdroms d’Alfés,\nCalaf-Sant Pere Sallavinera, Empuriabrava, Igualada-Òdena, la Cerdanya i Manresa, a més de 34 heliports.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Barcelona-el Prat",
+      "B": "Girona-Costa Brava",
+      "C": "Sabadell",
+      "D": "Lleida-Alguaire"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q48",
+    "statement": "La protecció civil s'inspira en quatre principis. Indica el principi incorrecte:",
+    "correct": "D",
+    "explanation": "Article 2\n1. La protecció civil s'inspira en els principis de:\na) Solidaritat en l'assumpció de riscs i danys.\nb) Responsabilitat pública i autoprotecció.\nc) Proximitat i immediatesa de l'acció pública.\nd) Integració de plans i recursos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Principi de solidaritat en l'assumpció de riscs i danys",
+      "B": "Principi de proximitat i immediatesa de l'acció pública",
+      "C": "Principi de responsabilitat pública i autoprotecció",
+      "D": "Principi d'apatia i d'individualitat  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q77",
+    "statement": "Quina comarca conté un menor nombre de municipis?",
+    "correct": "D",
+    "explanation": "Alta Ribagorça: 3 municipis.\nAran: 9 municipis.\nUrgell: 20 municipis.\nOsona: 50 miunicipis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Aran",
+      "B": "Osona",
+      "C": "L'Urgell",
+      "D": "L'Alta Ribagorça"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q69",
+    "statement": "El Mapa de protecció civil de Catalunya:",
+    "correct": "D",
+    "explanation": "El Govern ha d'elaborar i aprovar el Mapa de protecció civil de Catalunya, en un termini de dos anys des de l'entrada en\nvigor d'aquesta Llei. El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials\nen les quals és present cada risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'elabora el Govern",
+      "B": "L'aprova el Govern",
+      "C": "L'elabora la Comissió de Protecció Civil de Catalunya",
+      "D": "Les respostes a) i b) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q83",
+    "statement": "Quants municipis comprèn l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona viuen 3.303.927 persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6 municipis",
+      "B": "12 municipis",
+      "C": "36 municipis",
+      "D": "18 municipis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q40",
+    "statement": "El Departament d'Interior, sota la direcció del conseller o consellera, s'estructura en els òrgans següents:",
+    "correct": "A",
+    "explanation": "RESTEN ADSCRITS al Departament d'Interior:\na) El Servei Català de Trànsit.\nb) L'Institut de Seguretat Pública de Catalunya.\nc) El Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Secretaria General, la Direcció General de Prevenció, Extinció d'Incendis i Salvaments, la Direcció General de la Policia, la Direcció General de Protecció Civil, la Direcció General d'Administració de Seguretat, la Direcció General de Coordinació de les Policies Locals i la Direcció General dels Agents Rurals",
+      "B": "La Secretaria General, el Gabinet del Conseller, l'Oficina de Relacions Institucionals i l'Oficina de Comunicació",
+      "C": "La Secretaria General, la Direcció General de Protecció Civil i la Direcció General de Prevenció, Extinció d'Incendis i Salvaments",
+      "D": "El Servei Català de Trànsit, l'Institut de Seguretat Pública de Catalunya i el Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q58",
+    "statement": "De quin tipus són el conjunt de mapes que configuren el Mapa de protecció civil de Catalunya?",
+    "correct": "A",
+    "explanation": "El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials en les quals és\npresent cada risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Temàtics",
+      "B": "Topogràfics",
+      "C": "Pluviomètrics",
+      "D": "Coroplètics"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q35",
+    "statement": "Quin tipus d'espais naturals són més abundants, en nombre, a Catalunya?",
+    "correct": "B",
+    "explanation": "La Llei 12/1985, d’espais naturals, estableix 4 categories d’Espais naturals de protecció especial (ENPE) i, actualment, al\nterritori català hi ha un total de 86 ENPES distribuïts en Parc nacional (1), Parcs naturals (14), Reserves naturals (64) i\nParatges naturals d’interès nacional (7).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Paratges naturals d’interès nacional",
+      "B": "Les Reserves naturals",
+      "C": "Els Parcs nacionals",
+      "D": "Els Parcs naturals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q56",
+    "statement": "De quins tipus poden ser els plans de protecció civil?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Territorials i sectorials",
+      "B": "Territorials, especials i d'autoprotecció",
+      "C": "Territorials, forestals i metropolitans",
+      "D": "Preventius i de recuperació  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q57",
+    "statement": "Quin dels següents municipis no forma part de l'Àrea Metropolitana de Barcelona (AMB)?",
+    "correct": "A",
+    "explanation": "A l'AMB s'hi inclou un total de 36 municipis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gavà",
+      "B": "Granollers",
+      "C": "Sant Feliu de Llobregat",
+      "D": "Cerdanyola del Vallès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q79",
+    "statement": "Com s'anomenen els espais o els elements naturals d'àmbit mitjà o reduït que presenten característiques singulars pel seu interès científic, paisatgístic i educatiu, amb l'objectiu de garantir-ne la protecció i la de l'entorn?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reserves naturals",
+      "B": "Parcs naturals",
+      "C": "Parcs nacionals",
+      "D": "Paratges naturals d'interès nacional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q91",
+    "statement": "Quants municipis engloba l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona hi viuen 3.303.927 persones, repartides en una superfície de 636 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "56 municipis",
+      "B": "19 municipis",
+      "C": "49 municipis",
+      "D": "36 municipis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q95",
+    "statement": "A Catalunya, quin sector d'activitat manté ocupada una major quantitat de població?",
+    "correct": "D",
+    "explanation": "IEC 2022 - Valor (mitjana anual), en milers de persones.\nAgricultura: 53,1\nIndústria: 604,3\nConstrucció: 215,7\nServeis: 2.641,1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'agricultura",
+      "B": "L'indústria",
+      "C": "La construcció",
+      "D": "Els serveis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q4",
+    "statement": "Del total de 86 ENPES que hi ha al territori català en total, quants són considerats Parcs nacionals?",
+    "correct": "A",
+    "explanation": "És el Parc Nacional d'Aigüestortes i Estany de Sant Maurici.\nLa Llei 12/1985, d’espais naturals, estableix 4 categories d’Espais naturals de protecció especial (ENPE) i, actualment, al\nterritori català hi ha un total de 86 ENPES distribuïts en Parc nacional (1), Parcs naturals (14), Reserves naturals (64) i\nParatges naturals d’interès nacional (7).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un",
+      "B": "Tres",
+      "C": "Set",
+      "D": "Quinze"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q14",
+    "statement": "Què és el CECAT?",
+    "correct": "A",
+    "explanation": "El Centre de Coordinació Operativa de Catalunya (CECAT) és el centre superior de coordinació i informació de\nl'estructura de protecció civil de Catalunya. Vetlla per la bona gestió de les emergències a través de la coordinació dels\ndiferents cossos operatius, organismes i institucions involucrades en la resolució de situacions en què calgui l’activació\nd’un pla d’emergències. Té com a última finalitat la seguretat de les persones, dels seus béns i drets, i també la previsió i\nla minimització dels efectes que poden patir en cas d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya",
+      "B": "Un pla que s’aplica per gestionar riscos o emergències no inclosos en els plans especials",
+      "C": "El pla de Coordinació Executiva de Catalunya",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q22",
+    "statement": "Amb quin nom es coneix també el pla anatòmic frontal?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pla transversal",
+      "B": "Pla sagital",
+      "C": "Pla coronal",
+      "D": "Pla parasagital"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q10",
+    "statement": "Quina categoria d’Espai natural de protecció especial (ENPE) rep el Parc Nacional d'Aigüestortes i Estany de Sant Maurici?",
+    "correct": "D",
+    "explanation": "Al territori català només té aquesta consideració el Parc Nacional d’Aigüestortes i Estany de Sant Maurici, amb una zona\nperifèrica de protecció.\nLa Llei 12/1985, d’espais naturals, estableix 4 categories d’Espais naturals de protecció especial (ENPE) i, actualment, al\nterritori català hi ha un total de 86 ENPES distribuïts en Parc nacional (1), Parcs naturals (14), Reserves naturals (64) i\nParatges naturals d’interès nacional (7).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La de Reseva natural",
+      "B": "La de Parc natural",
+      "C": "La de paratge natural d’interès nacional",
+      "D": "La de Parc nacional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q73",
+    "statement": "Quina de les següents funcions correspon al cap territorial?",
+    "correct": "D",
+    "explanation": "El Sotscap territorial GARANTEIX aquesta recollida de dades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dirigir els Brífings diaris de la Sala Central de Bombers (SCB)",
+      "B": "Assumir el comandament del torn de sortida i del desenvolupament en el territori dels serveis que li siguin encarregats pel cap de torn",
+      "C": "Informar directament al CECAT de tots els serveis que puguin afectar la protecció civil",
+      "D": "Supervisar la recollida de les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q6",
+    "statement": "A partir de quin número d'habitants un municipi estarà obligat a elaborar un Pla Bàsic d'Emergències Municipal (PBEM), si no està considerat com a turístic ni presenta cap risc especial?",
+    "correct": "D",
+    "explanation": "Article 17.2: Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població,\ntenen la consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat\nindustrial, segons la Comissió de Protecció Civil de Catalunya, han d'elaborar i aprovar plans bàsics d'emergència\nmunicipal que garanteixin la coordinació i l'aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els\nplans bàsics d'emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la\ninformació pública i l'informe previs de la comissió municipal de protecció civil, si n'hi ha, i són homologats per la\nComissió de Protecció Civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels 50.000 habitants",
+      "B": "A partir dels 10.000 habitants",
+      "C": "A partir dels 5.000 habitants",
+      "D": "A partir dels 20.000 habitants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q22",
+    "statement": "A Catalunya, quin sector d'activitat manté ocupada una menor quantitat de població?",
+    "correct": "A",
+    "explanation": "IEC 2022 - Valor (mitjana anual), en milers de persones.\nAgricultura: 53,1\nIndústria: 604,3\nConstrucció: 215,7\nServeis: 2.641,1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'agricultura",
+      "B": "L'indústria",
+      "C": "La construcció",
+      "D": "Els serveis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q59",
+    "statement": "Quin nom reben els espais naturals que presenten valors naturals qualificats, la protecció dels quals es fa amb l'objectiu d'aconseguir-ne la conservació d'una manera compatible amb l'aprofitament ordenat dels seus recursos i l'activitat dels seus habitants?",
+    "correct": "A",
+    "explanation": "Actualment a Catalunya hi ha els següents parcs: Alt Pirineu, Aiguamolls de l’Empordà, Cadí-Moixeró, Cap de Creus,\nCapçaleres del Ter i del Freser, Collserola, Delta de l’Ebre, Els Ports, Montgrí les Medes i el Baix Ter, Montseny,\nMuntanya de Montserrat, Sant Llorenç del Munt i Serra de l’Obac, la Serra del Montsant i la Zona Volcànica de la\nGarrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parcs naturals",
+      "B": "Reserves naturals",
+      "C": "Parcs nacionals",
+      "D": "Paratges naturals d'interès nacional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q21",
+    "statement": "Quants ENPES hi ha actualment al territori català?",
+    "correct": "D",
+    "explanation": "Actualment, al territori català hi ha un total de 73 ENPES distribuïts en Parc nacional (1), Parcs naturals (14), Reserves\nnaturals (64) i Paratges naturals d’interès nacional (7).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A les pertinents Sales de Control Territorial (SCT)",
-      "B": "Al cap de coordinació de la SCT",
-      "C": "Al cap d'intervenció",
-      "D": "A la Sala Central de Bombers (SCB)"
-    }
+      "A": "55",
+      "B": "115",
+      "C": "32",
+      "D": "73"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim50_q28",
-    "statement": "Tots els serveis en situacions d'emergència han d'estar comandats per:",
-    "correct": "B",
-    "explanation": "La funció de cap d'intervenció ha de ser assumida per les següents posicions de comandament de l'àmbit operatiu de la\nguàrdia segons els nivells que de més baix a més alt s'indiquen a continuació:\na) Nivell de comandament 1: cap de sortida.\nb) Nivell de comandament 2: sotscap territorial.\nc) Nivell de comandament 3: cap territorial.\nd) Nivell de comandament 4: cap operatiu.\ne) Nivell de comandament 5: subdirector general competent en l'àmbit operatiu.",
+    "id": "academia_sim48_q70",
+    "statement": "La gestió dels parcs nacionals, de les reserves naturals integrals i dels paratges naturals d'interès nacional correspon a:",
+    "correct": "A",
+    "explanation": "La gestió dels parcs nacionals, de les reserves naturals integrals i dels paratges naturals d'interès nacional correspon a\nl'Administració de la Generalitat.\nLa gestió dels parcs naturals i de les reserves naturals parcials correspon, en principi, a llurs promotors. El decret de\ndeclaració pot establir la participació de la Generalitat, de les entitats locals, dels propietaris i de les entitats afectades en\nels òrgans rectors.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Administració de la Generalitat",
+      "B": "Les entitats locals, els propietaris i les entitats afectades en els òrgans rectors amb la participació de la Generalitat",
+      "C": "La Xarxa Natura 2000",
+      "D": "Els seus promotors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q16",
+    "statement": "El pla especial d’emergències per nevades a Catalunya (NEUCAT) és un pla de tipus:",
+    "correct": "B",
+    "explanation": "El Pla especial d'emergències per nevades a Catalunya (NEUCAT) constitueix un pla especial amb la finalitat de disposar\nd’una planificació d’emergències que permeti afrontar i gestionar eficaçment les incidències i emergències per nevades\nque es donin dins l’àmbit territorial de Catalunya.\nPlans especials de Catalunya:\nAEROCAT\nALLAUCAT\nCAMCAT\nINFOCAT\nINUNCAT\nNEUCAT\nPla especial d’emergències per pandèmies\nPLASEQCAT i PLASEQTA\nRADCAT\nSISMICAT\nTRANSCAT\nVENTCAT",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un cap de torn",
-      "B": "Un cap d'intervenció",
-      "C": "El/La Subdirector/a General Operatiu/va",
-      "D": "Un cap operatiu"
-    }
+      "A": "Pla territorial",
+      "B": "Pla especial",
+      "C": "Pla d’Autoprotecció",
+      "D": "Pla de protecció civil municipal  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim62_q8",
-    "statement": "Quina d'aquestes respostes és INCORRECTA en relació amb la modificació del nivell de comandament?",
-    "correct": "D",
-    "explanation": "Article 22: Determinació del nivell de comandament.\nEl nivell de comandament d'un servei davant d'una situació d'emergència el determina el cap de coordinació territorial\ncorresponent, en funció de la informació rebuda i de l'escenari de la situació d'emergència i, si escau, d'acord amb les\ninstruccions establertes. El nivell de comandament pot variar a petició del cap d'intervenció, del cap de coordinació\nterritorial, o per decisió del subdirector general competent en l'àmbit operatiu, a través del cap de coordinació de la Sala\nCentral de Bombers.\n\n\nacadèmia\nbombers",
+    "id": "academia_sim50_q59",
+    "statement": "La principal autoritat de Protecció Civil en un municipi és:",
+    "correct": "C",
+    "explanation": "Article 40 - Autoritats de protecció civil\n1. Són autoritats de protecció civil:\na) L'alcalde, en l'àmbit municipal.\nb) El conseller o consellera de Governació, en l'àmbit de Catalunya, sens perjudici de les funcions que corresponguin al\npresident o presidenta de la Generalitat en el cas de delegació en emergències declarades \"de interés nacional\", segons\nla legislació de l'Estat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El/la Conseller/a d’Interior",
+      "B": "El/la Cap del Servei Territorial de Protecció Civil",
+      "C": "L’alcalde/essa",
+      "D": "El/la Delegat/da del Govern"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q73",
+    "statement": "Quina afirmació és certa sobre el fenomen de la inversió tèrmica?",
+    "correct": "D",
+    "explanation": "La inversió tèrmica és el fenomen atmosfèric pel qual la temperatura augmenta amb l'alçada, al l'inrevés del que passa\nnormalment.\nÉs un fenomen meteorològic que es dóna en situacions atmosfèriques d'estabilitat total i amb el vent en calma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un fenomen meteorològic que, sobretot, es dóna en situacions atmosfèriques d'inestabilitat",
+      "B": "Es dóna normalment a l'estiu",
+      "C": "Les temperatures són més altes a prop de la superfície que a muntanya",
+      "D": "Pot provocar que la contaminació quedi atrapada a prop del sòl"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q23",
+    "statement": "A qui correspondrà evacuar o allunyar les persones dels llocs de perill davant d'una emergència?",
+    "correct": "A",
+    "explanation": "Entre les mesures d'emergència, correspon a l'autoritat de protecció civil d'acordar les següents:\na) Evacuar o allunyar les persones dels llocs de perill.\nb) Recomanar el confinament de persones en llurs domicilis o en llocs segurs, d'acord amb les previsions dels plans\ncorresponents.\nc) Restringir l'accés a zones de perill o a zones d'operació.\nd) Limitar i condicionar l'ús de serveis públics i privats i el consum de béns.\ne) Les altres que es considerin necessàries d'acord amb el que estableix el pla que en cada moment s'apliqui.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'autoritat de protecció civil",
+      "B": "A l'alcalde",
+      "C": "Al delegat del Govern corresponent",
+      "D": "Als serveis de prevenció i extinció d’incendis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q65",
+    "statement": "Quina de les següents NO és una finalitat de l'acció pública en matèria de protecció civil?",
+    "correct": "D",
+    "explanation": "L'acció pública en matèria de protecció civil té com a finalitats bàsiques:\na) La previsió dels riscs greus, entesa com a anàlisi objectiva d'aquests i llur localització en el territori.\nb) La prevenció, entesa com el conjunt d'actuacions encaminades tant a la disminució dels riscs com a llur detecció\nimmediata, mitjançant la vigilància.\nc) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l'estructura de\ncoordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes\nrespostes.\nd) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats\npúbliques.\ne) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts\nper aquesta Llei.\nf) La preparació adequada de les persones que pertanyen als grups d'intervenció.\ng) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats\npúbliques.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La preparació adequada de les persones que pertanyen als grups d'intervenció",
+      "B": "La previsió dels riscs greus",
+      "C": "La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats públiques",
+      "D": "La priorització en el reestabliment del teixit productiu davant dels efectes de les catàstrofes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q67",
+    "statement": "El Pla de protecció civil de Catalunya:",
+    "correct": "B",
+    "explanation": "El Pla de protecció civil de Catalunya ha d'ésser aprovat pel Govern a proposta del conseller consellera d'Interior, amb\nl'informe previ de la Comissió de Protecció Civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha d'ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del Govern",
+      "B": "Ha de contenir, entre d'altres, el catàleg de recursos humans i materials disponibles",
+      "C": "Ha d'ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del conseller o consellera d'Interior",
+      "D": "Ha de ser revisat cada dos anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q20",
+    "statement": "Quina de les següents funcions NO correspon als plens dels ajuntaments:",
+    "correct": "D",
+    "explanation": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l'alcalde o alcaldessa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aprovar els plans d'actuació municipal",
+      "B": "Crear la Comissió Municipal de Protecció Civil",
+      "C": "Aprovar els plans específics municipals",
+      "D": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q44",
+    "statement": "Quina província de Catalunya registra un major nombre de EMD?",
+    "correct": "A",
+    "explanation": "A Catalunya, hi ha 65 EMD: 4 a Barcelona, 1 a Girona, 54 a Lleida i 6 a Tarragona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Lleida",
+      "B": "Tarragona",
+      "C": "Barcelona",
+      "D": "Girona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q20",
+    "statement": "D'acord amb l'article 132 de l'Estatut, quina competència té la Generalitat de Catalunya en matèria de Protecció Civil?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Compartida",
+      "B": "Exclusiva",
+      "C": "Executiva",
+      "D": "Selectiva"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q15",
+    "statement": "Quina comarca catalana té un menor nombre de municipis?",
+    "correct": "A",
+    "explanation": "\nacadèmia\nbombers\n\nFont: Idescat, a partir del Cens de població i habitatges de l'INE (Darrera actualització: 10 de gener de 2024).\nAlta Ribagorça: 3 municipis.\nGarraf: 6 municipis.\nSegarra: 21 municipis.\nPla de l'Estany: 11 municipis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 62",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Es pot modificar a petició del cap d'intervenció",
-      "B": "Es pot modificar a petició del cap de coordinació territorial",
-      "C": "Es pot modificar per decisió del subdirector general operatiu, a través del cap de coordinació de la sala central de Bombers",
-      "D": "Es pot modificar a petició del cap de la guàrdia de suport"
-    }
+      "A": "L'Alta Ribagorça",
+      "B": "El Garraf",
+      "C": "La Segarra",
+      "D": "El Pla de l'Estany"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim125_q75",
-    "statement": "En arribar a un descarrilament d'un tren, el cap d'intervenció valora com poden haver quedat els cotxes segons el sistema de rodament. Què és el més previsible?",
-    "correct": "D",
-    "explanation": "Els bogis són estructures metàl·liques que suporten el cotxe i, en un descarrilament, el vehicle pot quedar tombat o\ndesplaçat mantenint-los adherits; no és habitual que se separin ni que les rodes solidàries d'un eix es desuneixin.",
+    "id": "academia_sim62_q23",
+    "statement": "Mesurem la façana exterior d'un edifici i comprovem que el seu espessor és de 60 cm, o dit d'una altra manera:",
+    "correct": "C",
+    "explanation": "Un peu equival a uns 30 cm (29,57 cm, exactament).\nUn pam és una antiga mesura de longitud equivalent a la quarta part de la vara, d'aproximadament 23 cm. (23 cm × 3\npams = 69 cm).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pam i mig",
+      "B": "Dos pams",
+      "C": "Dos peus",
+      "D": "Quatre peus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q37",
+    "statement": "A quina comarca es troben la majoria dels paratges naturals d'interès nacional?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera (Alt\nEmpordà), massís del Pedraforca, Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus i Punta Falconera-cap de\nNorfeu (els tres últims al Parc Natural del Cap de Creus, a l'Alt Empordà).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Pallars Jussà",
+      "B": "A la Cerdanya",
+      "C": "A l'Alt Empordà",
+      "D": "A la Noguera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q85",
+    "statement": "Quin pla anatòmic divideix el cos en dues meitats, l'anterior i la posterior?",
+    "correct": "A",
+    "explanation": "Pla sagital: Divideix el cos en parts dreta i esquerre. El pla sagital mitjà divideix el cos en meitats iguals, mentre que els\nplans sagitals parasagitals són qualsevol altre pla paral·lel al pla sagital mitjà.\nPla transversal (o horitzontal): Divideix el cos en parts superior i inferior. Aquest pla és perpendicular tant al pla sagital\ncom al pla frontal i divideix el cos en parts cranials (superiors) i caudals (inferiors).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pla frontal o coronal",
+      "B": "El pla sagital o medial",
+      "C": "El la transversal o horitzontal",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q39",
+    "statement": "Els paratges naturals d’interès nacional:",
+    "correct": "C",
+    "explanation": "Els paratges naturals d’interès nacional són els espais o els elements naturals d'àmbit mitjà o reduït que presenten\ncaracterístiques singulars pel seu interès científic, paisatgístic i educatiu, amb l'objectiu de garantir-ne la protecció i la de\nl'entorn. La declaració de paratge natural d'interès nacional es fa per llei.\nA Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són espais o els elements naturals d'extensió relativament gran",
+      "B": "A Catalunya en són quinze",
+      "C": "Es declaren per llei",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q72",
+    "statement": "D'acord amb el que estableix l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els municipis que no disposin de pla de protecció civil:",
+    "correct": "C",
+    "explanation": "Article 10.3. D'acord amb el que estableix l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els\nmunicipis que no disposin de pla de protecció civil correspon a l'alcalde de declarar la situació d'emergència i adoptar, si\ns'escau, les mesures establertes pels articles 8, 9, 10 i 11.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Correspon a les associacions del voluntariat de protecció civil de declarar la situació d'emergència i a l'alcalde/ssa adoptar, si s'escau, les mesures corresponents",
+      "B": "La pregunta és incorrecta. D'acord amb l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, els municipis hauran de disposar de pla de protecció civil, en tot cas.",
+      "C": "Correspon a l'alcalde/ssa de declarar la situació d'emergència i adoptar, si s'escau, les mesures corresponents",
+      "D": "Correspon a a l'alcalde/ssa de declarar la situació d'emergència i a les associacions del voluntariat de protecció civil d'adoptar, si s'escau, les mesures corresponents"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q86",
+    "statement": "De quina comarca formen part la majoria dels municipis que integren l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "22 dels 36 municipis es troben al Baix Llobregat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Baix Llobregat",
+      "B": "Del Barcelonès",
+      "C": "Del Vallès Occidental",
+      "D": "Del Maresme"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q29",
+    "statement": "Quin concepte fa referència al temps o al nombre de cicles de càrrega i descàrrega que una bateria pot durar abans que la seva capacitat disminueixi fins a un punt en què ja no és pràctica o efectiva per al seu ús previst?",
+    "correct": "B",
+    "explanation": "En el moment en què la bateria perd més del 20% de la capacitat total, es diu que la seva vida útil s'ha perdut.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Freqüència",
+      "B": "Vida útil",
+      "C": "Resiliència",
+      "D": "Cicle vital"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q78",
+    "statement": "A Catalunya hi ha declarats set paratges naturals d’interès nacional, d'entre els quals hi destaca un jardí situat en una finca a les afores de Blanes. Parlem de:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El massís de l’Albera",
+      "B": "El Jardí Botànic Santa Clotilde",
+      "C": "La vall del monestir de Poblet",
+      "D": "El Pinya de Rosa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q19",
+    "statement": "Quin dels següents està declarat un paratge natural d’interès nacional?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cadí-Moixeró",
+      "B": "La Serra de Montsant",
+      "C": "El massís de l’Albera",
+      "D": "Les capçaleres del Ter i del Freser"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q2",
+    "statement": "Els plans de protecció civil han d'ésser elaborats segons una estructura de contingut homogènia, als efectes de llur integració, la qual ha d'incloure, com a mínim, informació i previsions sobre: (senyala la resposta INCORRECTA)",
+    "correct": "C",
+    "explanation": "Article 20 - Contingut dels plans.\nHauran d'incloure, en tot cas, el procediment d'activació del pla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El programa d'implantació i de simulacres",
+      "B": "Els nivells d'aplicació del pla",
+      "C": "El procediment de desactivació del pla",
+      "D": "L'anàlisi dels riscs presents"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q55",
+    "statement": "Quina afirmació és CERTA respecte el Parc Nacional d’Aigüestortes i Estany de Sant Maurici?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha un parc nacional: el Parc Nacional d’Aigüestortes i Estany de Sant Maurici, declarat el 21 d’octubre de\n1955. Actualment té una superfície de 40.852 hectàrees, dividides en 14.119 ha de Parc Nacional estricte i 26.733 de\nzona perifèrica de protecció. La seva superfície cau dins de 4 comarques: l’Alta Ribagorça, el Pallars Sobirà, el Pallars\nJussà i la Vall d’Aran.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva superfície cau dins de quatre comarques: l’Alta Ribagorça, el Pallars Sobirà, el Pallars Jussà i la Vall d’Aran",
+      "B": "Va ser declarat Parc Nacional el 12 de juny de 1983",
+      "C": "Té una superfície total de 8.483 hectàrees, resultant de la suma entre l'espai corresponent al Parc Nacional estricte i el de zona perifèrica de protecció",
+      "D": "És un dels dos parcs nacionals que té Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q16",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca del Priorat?",
+    "correct": "A",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q76",
+    "statement": "Quina de les següents afirmacions és FALSA respecte els plans de protecció civil?",
+    "correct": "D",
+    "explanation": "Els plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden ser territorials, especials i d'autoprotecció",
+      "B": "Han de ser revisats cada 4 anys",
+      "C": "El pla d'emergències municipal és aprovat pel Ple municipal",
+      "D": "Els plans d'autoprotecció preveuen riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per avaluar-los i tractar-los"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q48",
+    "statement": "Els Valors Límit d'Exposició (TLV) són guies desenvolupades per l'American Conference of Governmental Industrial Hygienists (ACGIH) que indiquen les concentracions segures d'exposició a agents químics o físics en el lloc de treball. EL TLV-TWA:",
+    "correct": "C",
+    "explanation": "Són les sigles de Time-Weighted Average.\nTLV-STEL: nivell d'exposició permès durant un període curt, típicament 15 minuts, sense causar irritació o efectes\ncrònics.\nTLV-C (Ceiling): concentració que no s'ha de superar en cap moment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el nivell d'exposició permès durant un període curt, típicament 15 minuts, sense causar irritació o efectes crònics",
+      "B": "És la concentració que no s'ha de superar en cap moment",
+      "C": "És el nivell mitjà d'exposició permès durant una jornada laboral típica de 8 hores i una setmana laboral de 40 hores",
+      "D": "És el nivell mínim de concentració assolit durant una jornada laboral  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q14",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca de la Selva?",
+    "correct": "C",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q40",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca de la Conca de Barberà?",
+    "correct": "B",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q49",
+    "statement": "Quin és el nom del pla territorial d'àmbit superior de protecció civil de Catalunya?",
+    "correct": "C",
+    "explanation": "PROCICAT = PROtecció CIvil de CATalunya.\nEl CECAT és el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CECAT",
+      "B": "TRANSCAT",
+      "C": "PROCICAT",
+      "D": "INFOCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q69",
+    "statement": "Després d'haver actuat en un servei a Vidreres, ens arriba una nova incidència a Llagostera. Quina carretera agafarem per assegurar un desplaçament eficient?",
+    "correct": "A",
+    "explanation": "L'autovia C-35 o Autovia Vidreres-Llagostera és una autovia que uneix Vidreres i Llagostera. Amb una longitud de 15 km,\ncomença en l'enllaç de l'Autopista del Mediterrani AP-7, a Massanet de la Selva, i finalitza a Llagostera amb la connexió\nde l'autovia C-65 cap a Sant Feliu de Guíxols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-35",
+      "B": "La C-66",
+      "C": "La C-58",
+      "D": "La C-63"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q73",
+    "statement": "Segons el principi de diferenciació que contempla l'article 88 de l'EAC:",
+    "correct": "A",
+    "explanation": "En canvi, l'article 87 exposa els principis d’organització i funcionament i potestat normativa, que són els següents:\n1. Els municipis disposen de plena capacitat d’autoorganització dins el marc de les disposicions generals establertes per\nllei en matèria d’organització i funcionament municipal.\n2. Els municipis tenen dret a associar-se amb altres i a cooperar entre ells i amb altres ens públics per a exercir llurs\ncompetències, i també per a complir tasques d’interès comú.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les lleis que afecten el règim jurídic, orgànic, funcional, competencial i financer dels municipis han de tenir en compte necessàriament les diferents característiques demogràfiques, geogràfiques, funcionals, organitzatives, de dimensió i de capacitat de gestió que tenen",
+      "B": "Els municipis disposen de plena capacitat d’autoorganització dins el marc de les disposicions generals establertes per llei en matèria d’organització i funcionament municipal",
+      "C": "Els municipis tenen dret a associar-se amb altres i a cooperar entre ells i amb altres ens públics per a exercir llurs competències",
+      "D": "Cada municipi disposa d’un règim especial establert per llei del Parlament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q59",
+    "statement": "Quin Pla especial d’emergències té l'objectiu d'obtenir la màxima protecció de les persones, dels béns i del medi ambient que puguin resultar afectats en un succés de contaminació marina?",
+    "correct": "C",
+    "explanation": "L'objectiu del CAMCAT és obtenir la màxima protecció de les persones, dels béns i del medi ambient que puguin resultar\nafectats en un succés de contaminació marina, ja sigui per una acció deliberada o derivada d’un accident, que afecti o\npugui afectar tant la costa de Catalunya com les aigües del mar territorial català.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "MARCAT",
+      "B": "OCECAT",
+      "C": "CAMCAT",
+      "D": "CATMAR"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q64",
+    "statement": "Amb quina figura de protecció compta el Cap Gros - cap de Creus dins del Sistema d’espais naturals protegits de Catalunya?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 7 paratges naturals d’interès nacional:\n- Vall del monestir de Poblet.\n- Massís de l’Albera.\n- Massís del Pedraforca (no és inclòs al Parc Natural del Cadí-Moixeró).\n- Pinya de Rosa.\n- Serra de Rodes.\n- Cap Gros - cap de Creus.\n- Punta Falconera - cap de Norfeu (aquest, junt amb la serra de Rodes i el cap Gros - cap de Creus, inclosos al Parc\nNatural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc natural",
+      "B": "Reserva natural parcial",
+      "C": "Parc nacional",
+      "D": "Paratge natural d'interès nacional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim84_q25",
+    "statement": "Quants municipis formen part de l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona viuen 3.303.927 persones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6 municipis",
+      "B": "12 municipis",
+      "C": "36 municipis",
+      "D": "18 municipis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim89_q34",
+    "statement": "Quina de les següents funcions relacionades amb la protecció civil NO correspon als plens dels ajuntaments?",
+    "correct": "D",
+    "explanation": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l'alcalde o alcaldessa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 89",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aprovar els plans d'actuació municipal",
+      "B": "Crear la Comissió Municipal de Protecció Civil",
+      "C": "Aprovar els plans específics municipals",
+      "D": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim95_q93",
+    "statement": "Indiqueu quins dels plans següents tenen la consideració de plans especials d’emergències de Catalunya:",
+    "correct": "C",
+    "explanation": "Actualment, són objecte de plans especials a Catalunya:\n— Incendis forestals (INFOCAT).\n— Inundacions (INUNCAT).\n— Nevades (NEUCAT).\n— Allaus (ALLAUCAT).\n— Contaminació d’aigües marines (CAMCAT).\n— Ventades (VENTCAT).\n— Sismes (SISMICAT).\n— Accidents aeris (AEROCAT).\n— Accidents químics (PLASEQCAT).\n— Accidents radiològics no nuclears (RADCAT).\n— Transport de mercaderies perilloses per carretera (TRANSCAT).\n— Pandèmies.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "INUNCAT, FERROCAT i VENTCAT",
+      "B": "PLASEQCAT, AMBIENTCAT i ALLAUCAT",
+      "C": "AEROCAT, CAMCAT i RADCAT",
+      "D": "SISMICAT, PROCICAT i NEUCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim100_q35",
+    "statement": "Quin dels següents embassaments és més meridional?",
+    "correct": "D",
+    "explanation": "L'embassament d'Utxesa, situat al Canal de Seròs, té el seu origen en una presa ubicada al terme municipal de Torres\nde Segre. Aquesta extensió d'aigua s'estén també pels municipis de Sarroca de Lleida i Aitona, tots ells dins de la\ncomarca del Segrià.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Boadella",
+      "B": "Sant Ponç",
+      "C": "Seva",
+      "D": "Utxesa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim101_q93",
+    "statement": "El pla de protecció civil que s’activa per emergències de riscos NO contemplats en altres plans de protecció civil específics se’n diu:",
+    "correct": "C",
+    "explanation": "El PROCICAT és una eina bàsica en la gestió d’emergències de la protecció civil a Catalunya. Com a Pla territorial recull\nla previsió de resposta a les emergències produïdes per a tots els riscs no previstos als plans d’emergència especials\nelaborats per la Generalitat de Catalunya. Aquesta resposta inclou tant els possibles nivells d’activació com l’estructura\nde resposta i l’operativa aplicables en la gestió de l’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 101",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "INUNCAT",
+      "B": "INFOCAT",
+      "C": "PROCICAT",
+      "D": "TRANSCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim113_q89",
+    "statement": "Quina relació és CORRECTA entre municipi i comarca?",
+    "correct": "C",
+    "explanation": "Sant Llorenç de Morunys està situat al Solsonès.\nSanta Coloma de Queralt està situada a la Conca de Barberà.\nVidreres està situat a la Selva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 113",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sant Llorenç de Morunys està situat a l’Alt Urgell",
+      "B": "Santa Coloma de Queralt està situada a l’Alt Camp",
+      "C": "Artesa de Segre està situada a la Noguera",
+      "D": "Vidreres està situat al Baix Empordà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim119_q95",
+    "statement": "Quina afirmació relativa a les reserves naturals a Catalunya és CORRECTA?",
+    "correct": "C",
+    "explanation": "Són els espais naturals d'extensió reduïda i de considerable interès científic que són objecte d'aquesta declaració per\naconseguir preservar íntegrament el conjunt d'ecosistemes naturals que contenen o alguna de les seves parts. La\ndeclaració de reserves naturals es fa per llei quan és reserva integral i per decret del Consell Executiu quan és reserva\nparcial.\nA Catalunya hi ha declarades 59 reserves naturals parcials:\n22\n\n· 27 al Parc Natural de la Zona Volcànica de la Garrotxa.\n· 2 al Parc Natural del Cap de Creus.\n· 2 al Parc Natural del Delta de l’Ebre.\n· 2 al Parc Natural de l’Alt Pirineu.\n· 2 al Parc Natural del Montgrí, les Illes Medes i el Baix Ter\n· 2 al Parc Natural de Collserola.\n· 2 al Paratge Natural d'Interès Nacional de l'Albera.\n· 1 al Parc Natural dels Ports.\n· 1 al Parc Natural dels Aiguamolls de l’Empordà.\n· 1 al Parc Natural de la Muntanya de Montserrat.\n· 17 isolades.\n23",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les reserves naturals són espais naturals d’extensió considerable i gran interès científic, declarats amb l’objectiu de limitar l’activitat humana i preservar els ecosistemes.",
+      "B": "A Catalunya hi ha declarades 67 reserves naturals parcials",
+      "C": "El Parc Natural de la Zona Volcànica de la Garrotxa és l’espai natural amb més reserves naturals parcials del territori català",
+      "D": "La declaració de reserves naturals es fa per decret quan és reserva integral i per llei quan és reserva parcial 12"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim122_q81",
+    "statement": "Quina de les afirmacions següents és CORRECTA en relació amb la connexió entre municipis mitjançant la xarxa viària?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-28 uneix els municipis de Sort i el Pont de Suert",
+      "B": "Per anar de Palamós a Torroella de Montgrí agafarem la C-31",
+      "C": "La C-42 neix entre Salou i Cambrils i finalitza a Valls",
+      "D": "Per Agramunt hi passa la C-13"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim124_q11",
+    "statement": "Segons l'article 84 de l'EAC, els governs locals de Catalunya tenen en tot cas competències pròpies sobre la matèria següent:",
+    "correct": "D",
+    "explanation": "El Noguera Pallaresa i el Noguera Ribagorçana neixen a la Val d'Aran.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 124",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La planificació, l’ordenació, la gestió, la inspecció i el control de l’habitatge d’acord amb les necessitats socials i d’equilibri territorial",
+      "B": "La regulació administrativa de totes les modalitats de venda i totes les formes de prestació de l’activitat comercial",
+      "C": "El desenvolupament integral i la protecció del món rural",
+      "D": "La protecció civil i la prevenció d’incendis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q37",
+    "statement": "Quina fase del cicle de la gestió d’emergències implica accions com l’alerta i evacuació de la població?",
+    "correct": "D",
+    "explanation": "La fase de resposta comença en el moment en què es produeix una emergència i exigeix una actuació immediata per\nprotegir vides, béns i el medi. És la fase més visible de tot el cicle, ja que mobilitza recursos humans i materials de\nmanera intensa i en temps real.\n−Implica accions com l’alerta i evacuació de la població, el rescat de persones, l’assistència sanitària urgent, el\nconfinament de zones afectades, l’extinció d’incendis o la gestió de talls de serveis bàsics.\n−També inclou els avisos i la comunicació d’instruccions clares a la ciutadania, i la coordinació entre els diferents grups\nactuants, així com entre les diferents administracions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Que cada cotxe hagi perdut els bogis, i que aquests quedin dispersos per la via",
-      "B": "Que les rodes de cada eix hagin girat de manera independent i s'hagin desunit",
-      "C": "Que els cotxes quedin verticals gràcies al sistema de rodament rígid",
-      "D": "Que el comboi quedi tombat o desplaçat però amb els bogis encara adherits"
-    }
+      "A": "Preparació",
+      "B": "Recuperació",
+      "C": "Prevenció",
+      "D": "Resposta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q62",
+    "statement": "Segons la definició tècnica del risc, quina afirmació és CORRECTA?",
+    "correct": "D",
+    "explanation": "Si entenem el concepte de risc en un sentit ampli, veurem que aquest desapareix si qualsevol dels seus tres components\n(perill, exposició o vulnerabilitat) es redueix a zero. Això vol dir que, encara que sovint no puguem eliminar el perill —com\nen el cas dels fenòmens naturals— sí que podem actuar sobre l’exposició (evitant que hi hagi persones o infraestructures\nen zones perilloses) o sobre la vulnerabilitat (fent que allò que està exposat sigui més resistent o menys susceptible de\npatir danys). Aquesta perspectiva converteix la reducció del risc en un procés molt més ampli, creatiu i estratègic, que\nimplica buscar formes de conviure amb els riscos de manera informada, sostenible i segura.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La presència d'un únic component és suficient perquè existeixi risc",
+      "B": "El risc només desapareix quan el perill i la vulnerabilitat són iguals a zero",
+      "C": "La vulnerabilitat és l'únic component imprescindible perquè existeixi risc",
+      "D": "Si qualsevol dels tres components és zero, el risc desapareix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q2",
+    "statement": "Un municipi sense cap risc especial assignat ha d'ordenar la seva planificació en matèria de protecció civil. Quin pla general han de tenir tots els municipis, integrat en el DUPROCIM?",
+    "correct": "C",
+    "explanation": "Quan s’estableix un comandament unificat, s’enviarà un alt comandament al Centre de Comandament Unificat per\ngarantir la coordinació general i la petició unificada de mitjans estatals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El PAM",
+      "B": "El pla d'autoprotecció (PAU) del terme municipal",
+      "C": "El PROCICAT",
+      "D": "El PBEM"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q58",
+    "statement": "Un vaixell aboca hidrocarburs davant la costa catalana i cal activar el pla especial corresponent. Quin és?",
+    "correct": "C",
+    "explanation": "El pla especial per a la contaminació del medi marí és el CAMCAT. El TRANSCAT cobreix els accidents en el transport\nde mercaderies perilloses i el PLASEQCAT els accidents químics a la indústria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El TRANSCAT",
+      "B": "El PLASEQCAT",
+      "C": "El CAMCAT",
+      "D": "El RADCAT"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q20",
@@ -150,7 +2226,7 @@
     "explanation": "Entre les funcions del grup d'intervenció hi ha l'extinció d'incendis, el salvament i rescat, la contenció del risc i la inspecció\ntècnica amb control de danys estructurals; el transport sanitari correspon al grup sanitari, els punts d'acollida al logístic i\nels accessos al grup d'ordre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T21 - Gestió d'emergències i comandament",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
@@ -159,6 +2235,68 @@
       "B": "Instal·lació de refugis i punts d'acollida",
       "C": "Control dels accessos i del trànsit a la zona",
       "D": "Inspecció tècnica i control de danys estructurals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q70",
+    "statement": "Un vehicle atropella intencionadament diverses persones i provoca nombrosos ferits. Els bombers arriben primer i han d’estabilitzar la situació, mentre que el SEM comença a valorar les víctimes. Alhora, la policia detecta indicis que l’atropellament ha estat deliberat. Quin plantejament és més adequat?",
+    "correct": "C",
+    "explanation": "Els IMV exigeixen una resposta coordinada entre diversos cossos:\n−Els bombers actuen com a operatiu de referència a la majoria d’escenaris accidentals, liderant l’estabilització inicial i el\ncontrol del perill.\n−El Servei d’Emergències Mèdiques (SEM) lidera l’atenció sanitària i l’evacuació de ferits.\n−El Cos de Mossos d’Esquadra o policies locals assumeixen la seguretat, el control d’accessos i, en casos penals, el\ncomandament operatiu.\n23",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cos de Mossos d’Esquadra assumirà el comandament operatiu de l’incident i els bombers lideraran l’atenció sanitària i l’evacuació de ferits",
+      "B": "Els bombers assumiran el comandament operatiu de l’incident, el Cos de Mossos d’Esquadra o policies locals assumeixen la seguretat i Protecció Civil assumirà el control d’accessos",
+      "C": "El Cos de Mossos d’Esquadra assumirà el comandament operatiu de l’incident i el Servei d’Emergències Mèdiques (SEM) assumirà l’evacuació de ferits",
+      "D": "Els bombers assumiran el comandament operatiu de l’incident i el Cos de Mossos d’Esquadra o policies locals assumeixen la seguretat i el control d’accessos 10"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q27",
+    "statement": "L'estructura operativa definida en els plans de protecció civil de Catalunya es resumeix en:",
+    "correct": "C",
+    "explanation": "L'estructura operativa dels plans catalans consta de direcció del pla, comitè d'emergències, grups actuants i centres de\ncoordinació; el consell assessor i el gabinet d'informació són parts del comitè d'emergències, no elements de primer\nnivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Direcció del Pla, consell assessor, gabinet d'informació i voluntariat de protecció civil",
+      "B": "Comitè d'emergències, grups actuants, plans d'actuació de grup i CECAT",
+      "C": "Direcció del Pla, comitè d'emergències, grups actuants i centres de coordinació",
+      "D": "Direcció del Pla, comitè d'emergències, sales operatives i punts d'acollida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q44",
+    "statement": "Com s'anomena el centre europeu encarregat de fer el seguiment permanent de les emergències a nivell global i que rep la petició d’ajuda del país afectat, avalua la situació i sol·licita les ajudes als diferents països?",
+    "correct": "D",
+    "explanation": "Centre Europeu de Coordinació de Resposta a Emergències (ERCC).\nDes de Brussel·les, el Centre Europeu de Coordinació de Resposta a Emergències (ERCC) per les seves sigles en\nanglès) està actiu les 24 hores del dia. Aquest centre:\n−Fa seguiment permanent de les emergències a nivell global.\n−Rep la petició d’ajuda del país afectat, avalua la situació i sol·licita les ajudes als diferents països.\n16\n\n−Garanteix una millor coordinació entre les institucions europees, les autoritats nacionals dels estats membres i altres\nsocis internacionals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T21 - Gestió d'emergències i protecció civil",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centre Europeu de Monitoratge i Intervenció davant Emergències (CEMIE), i té la seu a Praga",
+      "B": "Centre Europeu de Coordinació d’Ajuda i Protecció Civil (ECAPC), i té la seu a Tolosa",
+      "C": "Centre Europeu de Coordinació de Protecció Civil (CECPC), i té la seu a Estrasburg",
+      "D": "Centre Europeu de Coordinació de Resposta a Emergències (ERCC), i té la seu a Brussel·les"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

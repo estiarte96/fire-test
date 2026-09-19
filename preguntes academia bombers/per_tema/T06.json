@@ -1,5 +1,165 @@
 [
   {
+    "id": "academia_sim3_q2",
+    "statement": "Quin clima es caracteritza per tenir una pluviometria equilibrada durant l'any, amb una precipitació mitjana anual d'entre 900 i 1.100 mm i un règim pluviomètric estacional equilibrat?",
+    "correct": "C",
+    "explanation": "Pla INUNCAT.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima pirinenc",
+      "B": "El clima continental",
+      "C": "El clima oceànic o atlàntic",
+      "D": "El clima prepirinenc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q3",
+    "statement": "El clima de les terres allunyades de la mar es denomina...",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Clima d'interior",
+      "B": "Clima continental",
+      "C": "Clima terral",
+      "D": "Clima alpí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q25",
+    "statement": "Segons l'article 94 del TREBEP, quin dels principis següents no s'inclou dins dels principis de la potestat disciplinària?",
+    "correct": "D",
+    "explanation": "La potestat disciplinària s'exerceix d'acord amb els principis següents:\na) Principi de legalitat i tipicitat de les faltes i sancions, a través de la predeterminació normativa o, en el cas del personal\nlaboral, dels convenis col·lectius.\nb) Principi d’irretroactivitat de les disposicions sancionadores no favorables i de retroactivitat de les favorables al\npresumpte infractor.\nc) Principi de proporcionalitat, aplicable tant a la classificació de les infraccions i sancions com a la seva aplicació.\nd) Principi de culpabilitat.\ne) Principi de presumpció d’innocència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Principi de culpabilitat",
+      "B": "Principi de proporcionalitat",
+      "C": "Principi de pressumpció d'inocència",
+      "D": "Tots els principis esmentats corresponen a principis de la potestat disciplinària"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q26",
+    "statement": "Quin dels següents climes presenta generalment una major amplitud anual mitjana de la temperatura (AAMT)?",
+    "correct": "B",
+    "explanation": "AAMT: diferència entre la temperatura mitjana del mes més càlid i la del mes més fred.\nClima atlàntic: 13 - 14°C.\nClima pirinenc: 13 - 16°C.\nClima prepirinenc: 16 - 19°C.\nClima continental: 17 - 20°C.\nClima prelitoral: 15 - 18°C.\nClima litoral: 14 - 15°C.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima prelitoral",
+      "B": "El clima continental",
+      "C": "El clima atlàntic o oceànic",
+      "D": "El clima pirinenc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q78",
+    "statement": "La Comissió Bilateral és el marc permanent de relació entre el Govern de la Generalitat i el Govern de l'Estat. Aquesta comissió es reunirà:",
+    "correct": "D",
+    "explanation": "Aquesta comissió és paritària i està constituïda per sis representants de cada part.\nLa presidència de la Comissió Bilateral correspondrà, de forma alternativa per les dues parts en torns d'un any, a les\npersones que tinguin la presidència de cadascuna de les representacions que formen la Comissió Bilateral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Trimestralment, i sempre que ho sol·liciti una de les dues parts",
+      "B": "Dues vegades l'any, en tot cas",
+      "C": "Un mínim d'una vegada l'any i sempre que ho demani una de les dues parts",
+      "D": "Un mínim de dues vegades l'any i sempre que ho demani una de les dues parts"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q32",
+    "statement": "L'article 55 del RDL 5/2015, de 30 d'octubre, referent als principis rectors, considera que les administracions públiques han de seleccionar el seu personal funcionari i laboral mitjançant procediments que garanteixin els principis constitucionals. Quin dels següents principis no existeix?",
+    "correct": "A",
+    "explanation": "A part dels ja mencionats, caldrà afegir els principis de: imparcialitat i professionalitat, independència i discrecionalitat i\nadequació del contingut dels processos selectius a les tasques o funcions que s'hagin d'exercir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Principi de transparència",
+      "B": "Principi d'agilitat en els processos de selecció",
+      "C": "Principi de publicitat de les convocatòries i les seves bases",
+      "D": "Principi d'objecció de la consciència  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q66",
+    "statement": "Una empresa haurà d'elaborar un pla d'igualtat propi...",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un cop superi els 100 treballadors i treballadores",
+      "B": "Sempre que disposi de representació paritària dins els efectius de la plantilla",
+      "C": "Un cop superi els 250 treballadors i treballadores",
+      "D": "En tot cas"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q74",
+    "statement": "Segons el TREBEP, la potestat disciplinària s'exercirà d'acord amb els principis següents. Indica la resposta incorrecta.",
+    "correct": "C",
+    "explanation": "Altres principis: Principi de legalitat i tipicitat de les faltes i les sancions, Principi de proporcionalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Principi de pressumpció d'innocència",
+      "B": "Principi de culpabilitat",
+      "C": "Principi d'igualtat",
+      "D": "Principi d'irretroactivitat de les disposicions sancionadores no favorables i de retroactivitat de les favorables"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim27_q84",
     "statement": "Segons la Llei 17/2015, del 21 de juliol, d'igualtat efectiva de dones i homes, en un context de representació paritària:",
     "correct": "C",
@@ -15,7 +175,29 @@
       "B": "Cap sexe no superarà el 55% del col·lectiu en qüestió ni representarà un percentatge inferior al 45%",
       "C": "Cap sexe no superarà el 60% del conjunt de persones a què es refereix ni serà inferior al 40%",
       "D": "El nombre de persones de cada sexe dins el col·lectiu és desigual"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q61",
+    "statement": "Quin clima registra el seu règim pluviomètric estacional (RPE) màxim a la tardor i a la primavera, i el seu mínim a l'estiu?",
+    "correct": "B",
+    "explanation": "RPE clima pirinenc: màxim estiu, mínim hivern.\nRPE clima prepirinenc: màxim estiu i primavera, mínim hivern.\nRPE clima atlàntic o oceànic: equilibrat.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima pirinenc",
+      "B": "El clima continental",
+      "C": "El clima prepirinenc",
+      "D": "El clima oceànic o atlàntic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q62",
@@ -33,7 +215,69 @@
       "B": "Equilibri per raó de sexe",
       "C": "Paritat de gènere",
       "D": "Equitat de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q48",
+    "statement": "D'acord amb l'article 1 del Decret 243/2007, de 6 de novembre, d’estructura del Departament d’Interior, Relacions Institucionals i Participació, quin dels següents organismes no s'adscriu al Departament d’Interior?",
+    "correct": "C",
+    "explanation": "1.2 Resten adscrits al Departament d’Interior, Relacions Institucionals i Participació l’Institut de Seguretat Pública de\nCatalunya, el Servei Català de Trànsit i l'Entitat Autònoma de Jocs i Apostes de la Generalitat. Aquests dos últims en els\ntermes que preveu aquest Decret.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Servei Català de Trànsit",
+      "B": "L'Entitat Autònoma de Jocs i Apostes de la Generalitat",
+      "C": "El Servei Català de la Salut",
+      "D": "L’Institut de Seguretat Pública de Catalunya  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q31",
+    "statement": "A partir de quina quantitat de treballadors i treballadores l'empresa haurà d'elaborar un pla d'igualtat propi?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un cop superi els 100 treballadors i treballadores",
+      "B": "Un cop superi els 250 treballadors i treballadores",
+      "C": "A partir dels 50 treballadors i treballadores",
+      "D": "A partir dels 500 treballadors i treballadores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q35",
+    "statement": "A Catalunya, quin clima serà més probable que arribi a assolir una temperatura mitjana anual (TMA) més elevada?",
+    "correct": "D",
+    "explanation": "Clima litoral: 14,5 – 17 ºC\nClima prelitoral: 11 – 15 ºC\nClima prepirinenc: 9 – 13 ºC\nClima continental: 12 – 15 ºC\nFont: INUNCAT.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El clima continental",
+      "B": "El clima prelitoral",
+      "C": "El clima prepirinenc",
+      "D": "El clima litoral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q4",
@@ -51,7 +295,9 @@
       "B": "Evitar qualsevol de les formes de discriminació per motiu de l'origen territorial i xenofòbia",
       "C": "Evitar qualsevol de les formes de discriminació per motiu de sexe o gènere, orientació o identitat sexual",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q16",
@@ -69,7 +315,49 @@
       "B": "L’odi, l’hostilitat o el rebuig cap a persones que són d’origen estranger o que són percebudes com a estrangeres",
       "C": "Qualsevol distinció, exclusió, restricció o preferència per raó de raça, color de pell, llinatge o origen nacional o ètnic que tingui per objecte o per resultat anul·lar o menyscabar el reconeixement, el gaudi o l’exercici, en condicions d’igualtat, dels drets humans i llibertats fonamentals en les esferes política, econòmica, social, cultural o en qualsevol altra esfera de la vida pública",
       "D": "La forma específica de racisme, social i institucional, envers el poble gitano, que es dona d’una manera particularment persistent, violenta, recurrent i banalitzada  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q22",
+    "statement": "Qui ha d’aprovar el Pla estratègic de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "L’Observatori de la Igualtat de Gènere",
+      "C": "L’Institut Català de la Dona",
+      "D": "El Consell Nacional de les Dones de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q23",
+    "statement": "Quin concepte defineix la distribució justa dels drets, els beneficis, les obligacions, les oportunitats i els recursos sobre la base del reconeixement i el respecte de la diferència entre dones i homes en la societat?",
+    "correct": "D",
+    "explanation": "Igualtat de gènere: la condició d'ésser iguals homes i dones en les possibilitats de desenvolupamentpersonal i de presa\nde decisions, sense les limitacions imposades pels rols de gènere tradicionals, per la qual cosa els diferents\ncomportaments, aspiracions i necessitats de dones i d’homes són igualment considerats, valorats i afavorits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Perspectiva de gènere",
+      "B": "Paritat",
+      "C": "Igualtat de gènere",
+      "D": "Equitat de gènere"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q84",
@@ -87,7 +375,49 @@
       "B": "L'assetjament sexual és el cas més greu dels assetjaments per raó de sexe",
       "C": "L'assetjament per raó del sexe, a diferència de l'assetjament sexual, es dirigeix principalment a l’orientació sexual d’una persona",
       "D": "No n'hi ha cap"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q90",
+    "statement": "Quin nom rep l’acció educadora que potencia la igualtat real d’oportunitats i valora indistintament l’experiència, les aptituds i l’aportació social i cultural de dones i homes, en igualtat de drets, sense estereotips sexistes, homofòbics, bifòbics, transfòbics o androcèntrics ni actituds discriminatòries per raó de sexe, orientació sexual, identitat de gènere o expressió de gènere?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Educació deconstructiva",
+      "B": "Educació binària",
+      "C": "Coeducació",
+      "D": "Educació transversal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q2",
+    "statement": "Quin organisme o sistema institucional s'encarrega d’aprovar el Pla estratègic de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "El Departament d'Interior",
+      "C": "L’Institut Català de les Dones",
+      "D": "L'Administració local"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q29",
@@ -105,7 +435,9 @@
       "B": "Llei 19/2020, del 30 de desembre, d'igualtat de tracte i no-discriminació",
       "C": "La Llei 17/2015, del 21 de juliol, d'igualtat de tracte i no-discriminació",
       "D": "La Llei 21/2014, del 14 d'octubre, d'igualtat efectiva i de no-discriminació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q47",
@@ -123,7 +455,9 @@
       "B": "Assetjament per raó de l’orientació sexual",
       "C": "Assetjament sexual",
       "D": "Assetjament per raó de la identitat sexual"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q57",
@@ -141,7 +475,9 @@
       "B": "De les disposicions generals de la llei",
       "C": "De les polítiques públiques per a promoure la igualtat efectiva de dones i homes",
       "D": "De les competències i organització administrativa de la llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q80",
@@ -159,7 +495,29 @@
       "B": "En l’atorgament de qualitats negatives i despectives sobre un col·lectiu de persones, que són tractades amb prejudicis i són considerades no normatives en conseqüència",
       "C": "En el maltractament exercit contra persones o grups de persones pel fet de defensar persones o grups discriminats",
       "D": "En l’atribució de característiques tant negatives com positives sobre un grup de persones, que són tractades amb prejudicis i, conseqüentment, són considerades no normatives  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q88",
+    "statement": "Quin òrgan o institució és l'encarregat/ada de fer el seguiment i l’avaluació dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "D",
+    "explanation": "L’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb laparticipació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius dedefensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar iimpulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de laGeneralitat, i també de fer-ne el seguiment i l’avaluació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "El professional d’igualtat de la Generalitat",
+      "C": "Una empresa aliena, sempre que garanteixi la imparcialitat en l'avaluació",
+      "D": "L’Institut Català de les Dones  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q2",
@@ -177,7 +535,9 @@
       "B": "Garantir la seguretat, la integritat, la confidencialitat i la dignitat de les persones afectades per casos d'assetjament per raó de sexe en l’àmbit de l’Administració de la Generalitat",
       "C": "Establir i regular els mecanismes i els recursos per a fer efectiu el dret a la igualtat i a la no-discriminació per raó de sexe en tots els àmbits, etapes i circumstàncies de la vida",
       "D": "Definir el marc d’actuació en relació amb els casos d’assetjament sexual, per raó del sexe, de l’orientació sexual i/o de la identitat sexual amb la finalitat explícita d’eradicar aquest tipus de conductes en l’àmbit de l’Administració de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q10",
@@ -195,7 +555,9 @@
       "B": "L'Institut Català de les Dones",
       "C": "El Comitè europeu per a la igualtat de dones i homes",
       "D": "El Comitè per a l'Eliminació de la Discriminació contra la Dona"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q26",
@@ -213,7 +575,9 @@
       "B": "S’aplica a totes les persones físiques i jurídiques, exclusivament del sector privat, situades o que actuïn en el territori de Catalunya",
       "C": "S’aplica a totes les persones físiques i jurídiques, tant del sector públic com de l’àmbit privat, situades o que actuïn en el territori de Catalunya",
       "D": "S'aplica en certs àmbits d’actuació i amb independència que operin de manera personal, presencial i directa, en l’entorn de les xarxes socials o per mitjans telemàtics amb origen o destí a l’àmbit territorial del conjunt de l'Estat espanyol"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q86",
@@ -231,7 +595,9 @@
       "B": "De les disposicions generals de la llei",
       "C": "De les polítiques públiques per a promoure la igualtat efectiva de dones i homes",
       "D": "De les competències i organització administrativa de la llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q29",
@@ -249,7 +615,9 @@
       "B": "Societat del rendiment",
       "C": "Rendiment econòmic",
       "D": "Mercat de treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q42",
@@ -267,7 +635,9 @@
       "B": "Eliminar les discriminacions, les desigualtats i la invisibilitat, generades pel caràcter patriarcal de la societat, que han patit històricament les dones",
       "C": "Propiciar un marc favorable perquè el paper de les dones aporti tot el seu potencial al progrés i a la transformació social i econòmica",
       "D": "Establir i regular els mecanismes i els recursos per a fer efectiu el dret a la igualtat i a la no-discriminació per raó de sexe en tots els àmbits, etapes i circumstàncies de la vida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q48",
@@ -285,7 +655,9 @@
       "B": "Assetjament horitzontal",
       "C": "Assetjament amb consciència de classe",
       "D": "Assetjament vertical ascendent  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q67",
@@ -303,7 +675,9 @@
       "B": "Suports d'equilibri",
       "C": "Accions positives",
       "D": "Reforços compensatoris"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q87",
@@ -321,7 +695,9 @@
       "B": "Definir sancions i/o condemnes per casos d'assetjament sexual, per raó de sexe, de l'orientació sexual i/o de la identitat sexual amb la finalitat explícita d'eradicar aquest tipus de conductes en l'àmbit de l'Administració de la Generalitat de Catalunya",
       "C": "Definir el marc d'actuació en relació amb els casos d'assetjament sexual, per raó de sexe, de l'orientació sexual i/o de la identitat sexual amb la finalitat explícita d'eradicar aquest tipus de conductes en l'àmbit de l'Administració de la Generalitat de Catalunya",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q90",
@@ -339,7 +715,9 @@
       "B": "Clàusules financeres",
       "C": "Clàusules tècniques",
       "D": "Clàusules legals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q24",
@@ -357,7 +735,29 @@
       "B": "Assetjament sexual",
       "C": "Assetjament per raó de la identitat sexual",
       "D": "Assetjament per raó del sexe  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q25",
+    "statement": "Els poders adjudicadors de Catalunya que tenen la consideració d’Administració pública, per tal de promoure la igualtat de tracte i d'oportunitats de dones i homes en el mercat laboral, han de dur a terme certes accions, d'entre les quals no s'hi troba:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incloure condicions d'execució dels treballs objecte del contracte, per raó de les quals l'adjudicatari adopti mesures tendents a promoure la igualtat de dones i homes",
+      "B": "Apostar per la política que reforci o busqui incrementar la bretxa salarial",
+      "C": "Incorporar la perspectiva de gènere en les ofertes de contractació pública",
+      "D": "Indicar en els plecs de clàusules administratives particulars els barems de puntuació addicional per a les empreses que disposin de plans d’igualtat, en el cas que no hi estiguin obligades per llei"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q50",
@@ -375,7 +775,29 @@
       "B": "Discriminació diversificada",
       "C": "Discriminació per associació",
       "D": "Macedònia discriminatòria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q58",
+    "statement": "Com anomenem a la situació que garanteix la presència de les dones en una proporció adequada en cada circumstància?",
+    "correct": "C",
+    "explanation": "Representació paritària: la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el\n60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de\ncada sexe.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Representació paritària",
+      "B": "Presència ponderada",
+      "C": "Representació equilibrada",
+      "D": "Representació equànime"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q60",
@@ -393,25 +815,9 @@
       "B": "Addueixen l'obertura d'un expedient disciplinari a l'empresa infractora i han de ser regulades per una norma amb rang de llei",
       "C": "Són conductes que poden propiciar contextos de confrontació entre gèneres en un mateix espai de treball, i han de ser erradicades o minimitzades",
       "D": "Són admeses i s’han de promoure si una norma amb rang de llei ho autoritza"
-    }
-  },
-  {
-    "id": "academia_sim43_q88",
-    "statement": "Qui ha de vetllar per garantir el dret a la igualtat de tracte i la no-discriminació en els àmbits a què fa referència la Llei 19/2020, del 30 de desembre, d'igualtat de tracte i no-discriminació?",
-    "correct": "D",
-    "explanation": "Article 3.1 - Principis generals d'actuació de l'Administració\nLes administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el dret\na la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 43",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El món laboral",
-      "B": "Les administracions públiques i privades",
-      "C": "Les administracions públiques i la Inspecció de Treball de Catalunya (ITC)",
-      "D": "Les administracions públiques i el Síndic de Greuges  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q11",
@@ -429,7 +835,9 @@
       "B": "Restaran subjectes a les mesures de representació paritària, com qualsevol altra empresa de l'àmbit públic",
       "C": "Hauran d'estar compostos per dones, exclusivament",
       "D": "Restaran subjectes a les mesures de representació paritària, com qualsevol altra empresa de l'àmbit públic o privat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q31",
@@ -447,13 +855,15 @@
       "B": "És l'odi o rebuig cap a les persones que s'autoidentifiquen amb dos gèneres a la vegada",
       "C": "És l'odi envers les persones bipolars",
       "D": "És l'odi o rebuig cap a les persones sense llar"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim44_q39",
-    "statement": "A qui correspon la funció d'elaborar un protocol d'actuació i posar en marxa la Comissió per a la Protecció i la Promoció de la igualtat de Tracte i no-discriminació?",
+    "id": "academia_sim44_q36",
+    "statement": "La discriminació múltiple:",
     "correct": "B",
-    "explanation": "Llei 19/2020, del 30 de desembre, d'igualtat de tracte i no-discriminació - art.3",
+    "explanation": "Discriminació indirecta: la situació discriminatòria creada per una disposició, un criteri, una interpretació o una pràctica\npretesament neutres que poden causar un perjudici més gran a les persones d’un dels sexes, excepte si resulten\nadequats i necessaris i es poden justificar amb criteris objectius que no tinguin cap relació amb qüestions de gènere.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
@@ -461,11 +871,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A les empreses",
-      "B": "Al Govern",
-      "C": "Al Síndic de Greuges",
-      "D": "A la Comissió per a la Protecció i la Promoció de la Igualtat de Tracte i la No-discriminació"
-    }
+      "A": "La pot patir un home",
+      "B": "Consisteix en una forma agreujada i específica de discriminació",
+      "C": "És la situació discriminatòria creada per una disposició, un criteri, una interpretació o una pràctica pretesament neutres que poden causar un perjudici més gran a les persones d’un dels sexes, excepte si resulten adequats i necessaris i es poden justificar amb criteris objectius que no tinguin cap relació amb qüestions de gènere",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q95",
@@ -483,7 +895,29 @@
       "B": "La Llei 19/2020, de 30 de desembre, d'igualtat de tracte i no discriminació",
       "C": "L'Institut de les Dones",
       "D": "La Llei 10/2017, de 2 de juny, d'igualtat de tracte i no discriminació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q40",
+    "statement": "Quin nom rep la forma específica de racisme, social i institucional, envers el poble gitano, que es dona d’una manera particularment persistent, violenta, recurrent i banalitzada?",
+    "correct": "D",
+    "explanation": "O antigitanisme.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tanafòbia",
+      "B": "Gitifòbia",
+      "C": "Aporofòbia",
+      "D": "Romafòbia  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q49",
@@ -501,13 +935,15 @@
       "B": "La Llei 11/2012, de 14 de maig",
       "C": "La Llei 17/2015, del 21 de juliol",
       "D": "La Llei 17/2019, de 20 de novembre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim45_q63",
-    "statement": "Quina institució de la Generalitat de Catalunya, d'acord amb la Llei 19/2020, del 30 de desembre, haurà de garantir el dret a la igualtat de tracte i la no-discriminació?",
-    "correct": "C",
-    "explanation": "Les administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el dret\na la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
+    "id": "academia_sim45_q62",
+    "statement": "Què és la discriminació directa?",
+    "correct": "A",
+    "explanation": "No són mesures discriminatòries per raó de sexe les que, encara que plantegin un tractament diferent per a homes i\ndones, tenen una justificació objectiva i raonable, com ara les que es fonamenten en l’acció positiva per a les dones, en\nla necessitat d’una protecció especial per motius biològics o en la promoció de la coresponsabilitat de dones i homes en\nel treball domèstic o en el de cura de persones.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
@@ -515,11 +951,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Sindicatura de Comptes",
-      "B": "El Consell de garanties estatutàries",
-      "C": "El Síndic de Greuges",
-      "D": "El Consell de l'Audiovisual de Catalunya"
-    }
+      "A": "La situació en què es troba una persona que és, ha estat o pot ésser tractada, per raó de sexe o de circumstàncies directament relacionades amb la seva condició biològica, d’una manera menys favorable que una altra en una situació anàloga",
+      "B": "La situació discriminatòria creada per una disposició, un criteri, una interpretació o una pràctica pretesament neutres que poden causar un perjudici més gran a les persones d’un dels sexes",
+      "C": "Qualsevol comportament que, per motiu del sexe d’una persona, s’exerceix amb la finalitat d’atemptar contra la seva dignitat o la seva integritat física o psíquica o decrear-li un entorn intimidador, hostil, degradant, humiliant, ofensiu o molest, o que provoca aquests mateixos efectes",
+      "D": "La situació en què una dona, pel fet de pertànyer a altres grups que també solen ésser discriminats, pateix formes agreujades i específiques de discriminació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q64",
@@ -537,7 +975,9 @@
       "B": "Aplica a persones jurídiques de l'àmbit públic que actuin en el territori de Catalunya",
       "C": "Aplica a persones físiques de l'àmbit públic que actuin en el territori de Catalunya",
       "D": "Totes les respostes són correctes  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q7",
@@ -555,7 +995,9 @@
       "B": "És la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el 60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de cada sexe",
       "C": "És la situació que garanteix la presència de les dones en una proporció adequada en cada circumstància",
       "D": "És la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el 70% del conjunt de persones a què es refereix ni és inferior al 30%, i que ha de tendir a assolir el 50% de persones de cada sexe"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q15",
@@ -573,7 +1015,9 @@
       "B": "La Llei 15/2019, de 4 de maig",
       "C": "La Llei 17/2015, del 21 de juliol",
       "D": "La Llei 13/2021, de 19 de gener"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q56",
@@ -591,7 +1035,49 @@
       "B": "A les persones afectades per discriminació múltiple",
       "C": "A les persones afectades per discriminació per estigmatització",
       "D": "A les persones afectades per capacitisme  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q10",
+    "statement": "Com s'anomena l'òrgan que s'encarrega de fer el seguiment i l’avaluació dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "D",
+    "explanation": "L’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, i també de fer-ne el seguiment i l’avaluació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "El professional d’igualtat de la Generalitat",
+      "C": "Una empresa aliena, sempre que garanteixi la imparcialitat en l'avaluació",
+      "D": "L’Institut Català de les Dones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q38",
+    "statement": "Quin nom reben el conjunt d’activitats remunerades que produeixen béns i serveis en el mercat laboral?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treball de mercat",
+      "B": "Societat del rendiment",
+      "C": "Rendiment econòmic",
+      "D": "Mercat de treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q58",
@@ -609,7 +1095,9 @@
       "B": "Discriminació ramificada",
       "C": "Discriminació de greuge",
       "D": "Cultiu discriminatori"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q26",
@@ -627,7 +1115,9 @@
       "B": "Col·lectius interessats com a titulars d'interessos legítims",
       "C": "Organitzacions per a la defensa efectiva dels interessos administratius públics",
       "D": "Persones interessades com a titulars d'interessos legítims col·lectius"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q35",
@@ -645,7 +1135,9 @@
       "B": "Discriminació ramificada",
       "C": "Discriminació de greuge",
       "D": "Discriminació diversificada"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q93",
@@ -663,7 +1155,9 @@
       "B": "Perspectiva de gènere",
       "C": "Coeducació",
       "D": "Equitat de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q19",
@@ -681,7 +1175,9 @@
       "B": "En la distribució justa dels drets, els beneficis, les obligacions, les oportunitats i els recursos sobre la base del reconeixement i el respecte de la diferència entre dones i homes en la societat",
       "C": "En l'acció educadora que potencia la igualtat real d'oportunitats i valora indistintament l'experiència i les aptituds de dones i homes, sense estereotips",
       "D": "En la presa en consideració de les diferències entre dones i homes en un àmbit o una activitat per a l’anàlisi, la planificació, el disseny i l’execució de polítiques, tenint en compte la manera en què les diverses actuacions, situacions i necessitats afecten les dones"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q47",
@@ -699,7 +1195,9 @@
       "B": "Habilitar recursos diversificats per a la resolució àgil de cada tipus d’assetjament",
       "C": "Obtenir la informació necessària per a l’elaboració de diagnosis sobre aquesta temàtica dins l’organització",
       "D": "Elaborar estratègies de sensibilització"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q83",
@@ -717,7 +1215,69 @@
       "B": "Les mesures de representació paritària no tenen efecte",
       "C": "Les mesures de representació paritària es concretaran per conveni",
       "D": "Les mesures de representació paritària tindran una aplicació especial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q1",
+    "statement": "L'Administració de la Generalitat, per a vetllar per la incorporació de l’impacte de gènere en les memòries dels programes pressupostaris que s’integren en els pressupostos de la Generalitat:",
+    "correct": "A",
+    "explanation": "Article 17.2: L'Administració de la Generalitat, per a vetllar per la incorporació de l’impacte de gènere en les memòries\ndels programes pressupostaris que s’integren en els pressupostos de la Generalitat, ha d'impulsar la realització\nd’auditories de gènere sobre el compliment dels objectius incorporats en les memòries en els departaments, els\norganismes i les entitats del sector públic que en depenen a la fi de cada exercici pressupostari.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha d'impulsar la realització d’auditories de gènere",
+      "B": "Ha d'impulsar la creació de la Comissió d’Igualtat i Temps de Treball",
+      "C": "Ha d'impulsar la creació de la Comissió Interdepartamental per a la Igualtat d'Oportunitats",
+      "D": "Ha de delegar la responsabilitat de seguiment a la Comissió específica de l’Institut Català de les Dones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q20",
+    "statement": "Què és l'aporofòbia?",
+    "correct": "D",
+    "explanation": "Homofòbia: l’aversió o la discriminació contra les persones homosexuals.\nAntisemitisme: l’hostilitat o el prejudici cap als jueus com a grup religiós o ètnic, que es manifesta com a odi envers un\nindividu o com a persecució institucionalitzada i violenta del col·lectiu.\nCapacitisme: l’aversió o la discriminació contra les persones amb diversitat funcional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’aversió o la discriminació contra les persones homosexuals",
+      "B": "L'hostilitat cap als jueus com a grup religiós o ètnic",
+      "C": "L'aversió o la discriminació contra les persones amb diversitat funcional",
+      "D": "El rebuig o l'odi envers les persones pobres, sense sostre o sense llar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q47",
+    "statement": "Què ha de fer el Departament competent en matèria educativa?",
+    "correct": "D",
+    "explanation": "El dit departament:\na) Ha d’incorporar el principi de coeducació en els plans d’acció tutorial i els plans i reglaments de convivència dels\ncentres educatius.\nb) Ha de vetllar perquè els continguts dels materials escolars, educatius i formatius, en qualsevol format,i el llenguatge\nque s’hi empri tinguin en compte la diversitat i evitin qualsevol mena de discriminació per aquest motiu.\nc) Ha de garantir el desplegament del que estableix aquest article i vetllar perquè les escoles, els instituts i la resta de\ncentres educatius siguin un entorn amable, en què els alumnes i els professors puguin viure d'una manera natural la\ndiversitat, i contribueixin a crear models positius per a la comunitat educativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vetllar perquè els continguts dels materials escolars tinguin en compte la diversitat",
+      "B": "Incorporar el principi de coeducació en els plans d’acció tutorial",
+      "C": "Vetllar perquè els centres educatius siguin un entorn amable",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim50_q89",
@@ -735,7 +1295,29 @@
       "B": "Garantir el dret a la igualtat de tracte i a la no-discriminació",
       "C": "Promoure la discriminació",
       "D": "Establir les obligacions de les persones físiques"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q10",
+    "statement": "Què són els ajustos raonables?",
+    "correct": "C",
+    "explanation": "Els ajustos raonables són les modificacions i adaptacions necessàries i adequades que s'apliquen per garantir a les\npersones amb discapacitat el gaudi o l'exercici, en igualtat de condicions amb els altres, de tots els drets humans i\nllibertats fonamentals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Modificacions i adaptacions per garantir uns valors mínims de representació per part del gènere de menor representació dins d'un col·lectiu",
+      "B": "Modificacions i adaptacions per garantir els drets de les persones amb orientació sexual diversa",
+      "C": "Modificacions i adaptacions per garantir els drets de les persones amb discapacitat",
+      "D": "Modificacions i adaptacions per garantir uns ingressos mínims per les persones pobres o més desafavorides econòmicament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q23",
@@ -753,7 +1335,9 @@
       "B": "Ha d’incorporar el principi de les accions positives en els plans d’acció tutorial i els plans i reglaments de convivència dels centres educatius",
       "C": "Ha d’incorporar el principi d'ajustos raonables en els plans d’acció tutorial i els plans i reglaments de convivència dels centres educatius",
       "D": "Ha d’incorporar el principi de represàlia discriminatòria en els plans d’acció tutorial i els plans i reglaments de convivència dels centres educatius"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q59",
@@ -771,7 +1355,29 @@
       "B": "Llei 19/2020, del 30 de desembre",
       "C": "Llei 15/2017, de 15 de juny",
       "D": "L'enunciat és incorrecte, ja que es tracta d'un Decret"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q86",
+    "statement": "A quin col·lectiu aniran destinades les mesures específiques que hauran d'aplicar les administracions locals a nivell de coeducació?",
+    "correct": "D",
+    "explanation": "Article 21.2. Les administracions locals han d’aplicar mesures específiques per tal que els joves menors de setze anys\nassisteixin quotidianament als centres educatius, amb una atenció especial a les adolescents amb risc d’abandonament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als majors de cinquanta anys, per tal de fomentar la política d'igualtat efectiva de dones i homes",
+      "B": "Als joves menors de divuit anys, per tal d'evitar l'abandonament escolar",
+      "C": "Als joves d'entre catorze i vint-i-un anys, per tal que desenvolupin interessos intel·lectuals o professionals més enllà de la formació obligatòria",
+      "D": "Als joves menors de setze anys, per tal de que assisteixin quotidianament als centres educatius"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q45",
@@ -789,7 +1395,9 @@
       "B": "Per l’aplicació de mesures d’acció positiva",
       "C": "Per la correcció i l’erradicació de qualsevol forma de discriminació per raó de gènere",
       "D": "Per la consecució dels objectius fixats en els ajustos raonables"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q16",
@@ -807,7 +1415,9 @@
       "B": "L'Institut Català de les Dones",
       "C": "El Comitè per la Igualtat de Gènere",
       "D": "El Comitè Estratègic de Polítiques de Gènere  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q32",
@@ -825,7 +1435,9 @@
       "B": "Als homes",
       "C": "A les persones amb discapacitat",
       "D": "A les persones víctimes de discriminació múltiple  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q42",
@@ -843,7 +1455,9 @@
       "B": "L’odi, l’hostilitat o el rebuig cap a persones que són d’origen estranger o que són percebudes com a estrangeres",
       "C": "Qualsevol distinció, exclusió, restricció o preferència per raó de raça, color de pell, llinatge o origen nacional o ètnic que tingui per objecte o per resultat anul·lar o menyscabar el reconeixement, el gaudi o l’exercici, en condicions d’igualtat, dels drets humans i llibertats fonamentals en les esferes política, econòmica, social, cultural o en qualsevol altra esfera de la vida pública",
       "D": "Totes les respostes són certes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q90",
@@ -861,7 +1475,9 @@
       "B": "L'igualtat de gènere",
       "C": "La coeducació",
       "D": "La perspectiva de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q21",
@@ -879,7 +1495,9 @@
       "B": "Habilitar recursos diversificats per a la resolució àgil de cada tipus d’assetjament",
       "C": "Definir el marc d’actuació en relació amb els casos d’assetjament sexual, per raó del sexe, de l’orientació sexual i/o de la identitat sexual amb la finalitat explícita d’eradicar aquest tipus de conductes en l’àmbit de l’Administració de la Generalitat",
       "D": "Definir els rols i les responsabilitats dels diferents agents"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q40",
@@ -897,7 +1515,9 @@
       "B": "En la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el 60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de cada sexe",
       "C": "En la situació que garanteix la presència de les dones en una proporció adequada en cada circumstància",
       "D": "En la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el més de tres quarts del conjunt total de persones a què es refereix ni és inferior a un quart  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q56",
@@ -915,7 +1535,9 @@
       "B": "L’aversió contra les persones bisexuals",
       "C": "La discriminació, distinció o exclusió per acció simultània de racisme i xenofòbia",
       "D": "La discriminació contra les persones bipolars  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q20",
@@ -933,7 +1555,9 @@
       "B": "En el Catàleg Igualitari de Catalunya",
       "C": "En el Registre Públic de Plans d'Igualtat",
       "D": "En l'Índex d'Empreses afiliades al model de Política d'Igualtat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q38",
@@ -951,7 +1575,9 @@
       "B": "Tenen el deure de comunicar-ho a l’Organisme de Protecció i Promoció de la Igualtat de Tracte i la No-discriminació o a l'òrgan competent",
       "C": "Tenen el dret de comunicar-ho a l’òrgan competent i el deure d'actuar amb coneixement de causa",
       "D": "Tenen el deure de comunicar-ho als cossos i forces de seguretat i a l’òrgan competent"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q57",
@@ -969,25 +1595,29 @@
       "B": "El capítol I",
       "C": "El capítol III",
       "D": "El capítol II"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim56_q18",
-    "statement": "Si es produeix una situació de discriminació o assetjament en l'àmbit d’organització o direcció d'una empresa i no s'hi han complert les obligacions marcades per la Llei 19/2020, del 30 de desembre, qui en serà responsable del dany causat?",
+    "id": "academia_sim55_q75",
+    "statement": "Què és l'antisemitisme?",
     "correct": "B",
-    "explanation": "Article 25 - Efectes de la contravenció de la Llei.\nEls empresaris i els prestadors de béns i serveis són responsables del dany causat si la discriminació, inclòs\nl’assetjament, es produeix en llur àmbit d’organització o direcció i no han complert les obligacions d'aquesta llei.",
+    "explanation": "Homofòbia: l’aversió o la discriminació contra les persones homosexuals.\nAntisemitisme: l’hostilitat o el prejudici cap als jueus com a grup religiós o ètnic, que es manifesta com a odi envers un\nindividu o com a persecució institucionalitzada i violenta del col·lectiu.\nCapacitisme: l’aversió o la discriminació contra les persones amb diversitat funcional.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 56",
+    "section": "Simulacre 55",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els Delegats de Prevenció",
-      "B": "Els empresaris i els prestadors de béns i serveis",
-      "C": "Els Delegats de Personal",
-      "D": "Totes les respostes són correctes"
-    }
+      "A": "L’aversió o la discriminació contra les persones d'origen àrab",
+      "B": "L'hostilitat cap als jueus com a grup religiós o ètnic",
+      "C": "L'aversió o la discriminació contra les persones amb diversitat funcional",
+      "D": "El rebuig o l'odi envers les persones pobres, sense sostre o sense llar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q48",
@@ -1005,7 +1635,9 @@
       "B": "Al Capítol I",
       "C": "Al Capítol IV",
       "D": "Al Capítol III  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q64",
@@ -1023,7 +1655,29 @@
       "B": "Eliminar les discriminacions, les desigualtats i la invisibilitat, generades pel caràcter patriarcal de la societat, que han patit històricament les dones",
       "C": "Fomentar els estereotips culturals que perpetuen les diferències de gènere",
       "D": "Afavorir una distribució coresponsable entre dones i homes del treball de mercat i del treball domèstic i de cura de persones, en el marc d’un model de societat sostenible  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q84",
+    "statement": "Quin és el clima que caracteritza al conjunt de Catalunya?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un clima atlàntic, amb estius frescos i hiverns suaus",
+      "B": "Un clima mediterrani caracteritzat per hiverns suaus i estius calorosos",
+      "C": "Un clima mediterrani caracteritzat per hiverns freds i estius suaus",
+      "D": "Un clima continental, que es caracteritza per experimentar estacions clarament diferenciades amb hiverns freds i estius calorosos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q89",
@@ -1041,7 +1695,29 @@
       "B": "Efectes colaterals",
       "C": "Discriminació per associació",
       "D": "Discriminació de segon ordre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q6",
+    "statement": "A l'efecte de facilitar les actuacions sobre la contractació del sector públic, on han de consultar la informació de les empreses els poders adjudicadors de Catalunya?",
+    "correct": "C",
+    "explanation": "Art. 10: Els poders adjudicadors de Catalunya que als efectes de la legislació de contractes del sector públic tenen la\nconsideració d’Administració pública, han de consultar la informació de les empreses inscrites en el Registre Públic de\nPlans d'Igualtat, a què fa referència l'article 36.5, a l'efecte de facilitar les actuacions que estableix el present article.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En el Registre Civil",
+      "B": "En el Catàleg Igualitari de Catalunya",
+      "C": "En el Registre Públic de Plans d'Igualtat",
+      "D": "En l'Índex d'Empreses afiliades al model de Política d'Igualtat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q10",
@@ -1059,7 +1735,9 @@
       "B": "Afavorir una distribució coresponsable entre dones i homes del treball de mercat i del treball domèstic i de cura de persones, en el marc d’un model de societat sostenible",
       "C": "Establir i regular els mecanismes i els recursos per a fer efectiu el dret a la igualtat i a la no-discriminació per raó de sexe en tots els àmbits, etapes i circumstàncies de la vida",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q12",
@@ -1077,7 +1755,9 @@
       "B": "Una estesa de seguretat",
       "C": "Una àrea d'atenció",
       "D": "Una àrea de refugi professional"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q35",
@@ -1095,7 +1775,9 @@
       "B": "Assetjament discriminatori",
       "C": "Discriminació personificada",
       "D": "Assetjament per raó de sexe"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q65",
@@ -1113,7 +1795,9 @@
       "B": "Assetjament vertical descendent",
       "C": "Assetjament vertical intern",
       "D": "Assetjament vertical ascendent"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q59",
@@ -1131,7 +1815,9 @@
       "B": "Victimització colateral",
       "C": "Discriminació per associació",
       "D": "Discriminació de segon ordre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q69",
@@ -1149,7 +1835,9 @@
       "B": "La Comissió Nacional per a una Intervenció Coordinada contra la Violència Masclista",
       "C": "Tant el Consell Nacional de les Dones de Catalunya com la Comissió Nacional per a una Intervenció Coordinada contra la Violència Masclista",
       "D": "La Comissió Interdepartamental per a la Igualtat Efectiva de Dones i Homes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q55",
@@ -1167,7 +1855,9 @@
       "B": "L’Institut Català de les Dones, amb l'aprovació prèvia pel plenari del Consell Nacional de Dones de Catalunya",
       "C": "La Generalitat de Catalunya, a lliure deliberació",
       "D": "El Consell Nacional de les Dones de Catalunya, amb l'aprovació prèvia pel plenari de l’Institut Català de les Dones"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q67",
@@ -1185,7 +1875,29 @@
       "B": "La Llei 19/2020, del 30 de desembre",
       "C": "La Llei 15/2017, de 15 de juny",
       "D": "La Llei 22/2011, de 19 de novembre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q82",
+    "statement": "Quina és la funció principal del Lòbul frontal del cervell?",
+    "correct": "D",
+    "explanation": "Lòbul frontal: Allotja les emocions, la funció motora i l'expressió del llenguatge.\nLòbul parietal: Allotja la funció sensitiva i la orientació espacial.\nLòbul temporal: Regula algunes funcions de memòria, i la recepció i integració del llenguatge.\nLòbul occipital: Allotja la visió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Allotja la funció sensitiva i la orientació espacial",
+      "B": "Regula algunes funcions de memòria, i la recepció i integració del llenguatge",
+      "C": "Allotja la visió",
+      "D": "Allotja les emocions, la funció motora, i l'expressió del llenguatge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q91",
@@ -1203,7 +1915,9 @@
       "B": "A responsabilitats civils",
       "C": "A responsabilitats penals",
       "D": "A responsabilitats socials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q25",
@@ -1221,7 +1935,9 @@
       "B": "Les administracions públiques de Catalunya han d'aprovar una partida econòmica destinada a la formació en política de gènere a les empreses sancionades o condemnades perquè han exercit o tolerat pràctiques laborals considerades discriminatòries per raó de sexe o de gènere",
       "C": "Les empreses sol·licitants sancionades o condemnades perquè han exercit o tolerat pràctiques laborals considerades discriminatòries per raó de sexe o de gènere tindran el mateix dret per aplicar a subvencions, beques o qualsevol altre tipus d'ajut públic que qualsevol altra entitat sol·licitant",
       "D": "Les empreses sol·licitants sancionades o condemnades perquè han exercit o tolerat pràctiques laborals considerades discriminatòries per raó de sexe o de gènere només podran rebre ajuts públics justificant que aquests es destinaran íntegrament a potenciar un model de relacions entre persones igualitari i que eradiqui les relacions de domini i explotació de gènere imposades pel sistema patriarcal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q55",
@@ -1239,7 +1955,9 @@
       "B": "Discriminació per associació",
       "C": "Discriminació de segon ordre",
       "D": "Discriminació indirecta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q56",
@@ -1257,7 +1975,29 @@
       "B": "Rebre les sol·licituds d’intervenció",
       "C": "Obrir un procés d’investigació en rebre la denúncia o la queixa",
       "D": "Fer el control estadístic dels casos d’assetjament que es produeixin als departaments  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q65",
+    "statement": "Sobre qui recau la responsabilitat d’aprovar el Pla estratègic de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre el Govern",
+      "B": "Sobre l’Observatori de la Igualtat de Gènere",
+      "C": "Sobre l’Institut Català de la Dona",
+      "D": "Sobre el Consell Nacional de les Dones de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q66",
@@ -1275,7 +2015,9 @@
       "B": "Discriminació indirecta",
       "C": "Discriminació per associació",
       "D": "Discriminació de segon ordre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q5",
@@ -1293,7 +2035,49 @@
       "B": "La figura del professional d’igualtat de gènere",
       "C": "La figura del delegat o delegada de gènere",
       "D": "L'informador/a"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q31",
+    "statement": "Quina de les següents competències correspon a l’Institut Català de les Dones?",
+    "correct": "C",
+    "explanation": "Article 14 - Pla estratègic de polítiques d'igualtat de gènere del Govern de la Generalitat.\nL’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, i també de fer-ne el seguiment i l’avaluació.\nEl Govern ha d’aprovar el Pla estratègic de polítiques d'igualtat de gènere de l’Administració de la Generalitat.\nEl Govern ha d’incentivar l'Administració local i donar-li el suport necessari perquè pugui elaborar i aprovar els plans en\nmatèria de polítiques d'igualtat de gènere que corresponguin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Impulsar la col·laboració entre les diferents administracions públiques de Catalunya",
+      "B": "Incentivar l'Administració local i donar-li el suport necessari perquè pugui elaborar i aprovar els plans en matèria de polítiques d'igualtat de gènere que corresponguin",
+      "C": "Dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat",
+      "D": "Aprovar el Pla estratègic de polítiques d'igualtat de gènere de l’Administració de la Generalitat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q60",
+    "statement": "Què es busca en els ajustos raonables amb les modificacions i adaptacions?",
+    "correct": "C",
+    "explanation": "Els ajustos raonables són les modificacions i adaptacions necessàries i adequades que s'apliquen per garantir a les\npersones amb discapacitat el gaudi o l'exercici, en igualtat de condicions amb els altres, de tots els drets humans i\nllibertats fonamentals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garantir uns valors mínims de representació per part del gènere de menor representació dins d'un col·lectiu",
+      "B": "Garantir els drets de les persones amb orientació sexual diversa",
+      "C": "Garantir els drets de les persones amb discapacitat",
+      "D": "Garantir uns ingressos mínims per les persones pobres o més desafavorides econòmicament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q70",
@@ -1311,7 +2095,9 @@
       "B": "Cada any",
       "C": "Dos cops a l'any, com a mínim",
       "D": "Cada dos anys  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q3",
@@ -1329,7 +2115,9 @@
       "B": "L’odi, l’hostilitat o el rebuig cap a persones que són d’origen estranger o que són percebudes com a estrangeres",
       "C": "L’aversió o rebuig pels usuaris del transport públic",
       "D": "La forma específica de racisme, social i institucional, envers el poble gitano, que es dona d’una manera particularment persistent, violenta, recurrent i banalitzada"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q57",
@@ -1347,7 +2135,29 @@
       "B": "Responsabilitats administratives",
       "C": "Responsabilitats morals",
       "D": "Responsabilitats penals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q62",
+    "statement": "A qui correspon la funció de fer el seguiment i l’avaluació dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "D",
+    "explanation": "L’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, i també de fer-ne el seguiment i l’avaluació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Govern",
+      "B": "Al Parlament",
+      "C": "A una empresa aliena, sempre que garanteixi la imparcialitat en l'avaluació",
+      "D": "A l’Institut Català de les Dones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q68",
@@ -1365,7 +2175,9 @@
       "B": "La formació dels joves sobre el trajecte històric per a la consecució dels drets de les dones",
       "C": "La formació dels alumnes en l’ús androcèntric del llenguatge",
       "D": "Les respostes b) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q86",
@@ -1383,7 +2195,29 @@
       "B": "Als cossos i forces de seguretat i a l’òrgan competent",
       "C": "A la Comissió per a la Protecció i la Promoció de la Igualtat de Tracte i la No-discriminació i a l'Observatori de la Discriminació",
       "D": "A l'Observatori de la Discriminació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q2",
+    "statement": "Com anomenem a la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el 60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de cada sexe?",
+    "correct": "C",
+    "explanation": "Representació paritària: la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el\n60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de\ncada sexe.\nRepresentació equilibrada: la situació que garanteix la presència de les dones en una proporció adequada en cada\ncircumstància.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Representació equilibrada",
+      "B": "Igualtat de gènere",
+      "C": "Representació paritària",
+      "D": "Representació equànime"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim64_q46",
@@ -1401,7 +2235,9 @@
       "B": "La Carta dels drets fonamentals de la Unió",
       "C": "L'assessorament de l’Organisme de Protecció i Promoció de la Igualtat de Tracte i la No-discriminació",
       "D": "Les recomanacions dels comitès especialitzats de Nacions Unides"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q16",
@@ -1419,7 +2255,9 @@
       "B": "A l'Arxiu Català de Plans d’Igualtat",
       "C": "Al Catàleg d'Empreses Afines (CEF)",
       "D": "Al Registre Públic de Plans d’Igualtat  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q60",
@@ -1437,7 +2275,9 @@
       "B": "El Govern",
       "C": "Les associacions sindicals",
       "D": "L'Institut Català de les Dones"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q70",
@@ -1455,7 +2295,29 @@
       "B": "L'inici d'un procediment administratiu sancionador",
       "C": "La nul·litat de les disposicions, dels actes o de les clàusules dels negocis jurídics",
       "D": "L'elevació del cas a la Sala de Govern corresponent o al Consell General del Poder Judicial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q82",
+    "statement": "Quin és el caràcter del Pla per a la igualtat de tracte i la no-discriminació?",
+    "correct": "C",
+    "explanation": "Article 28.4. El Pla per a la igualtat de tracte i la no-discriminació té caràcter quadriennal. A la finalització de cada\nquadrienni el departament competent en aquesta matèria ha de fer una avaluació de les activitats dutes a terme i dels\ncriteris d’actuació i les mesures continguts en l’estratègia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Anual",
+      "B": "Semestral",
+      "C": "Quadriennal",
+      "D": "Trimestral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q46",
@@ -1473,7 +2335,9 @@
       "B": "Trimestral",
       "C": "Quadriennal",
       "D": "Biennal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q55",
@@ -1491,7 +2355,9 @@
       "B": "La Llei 11/2012, de 20 de setembre",
       "C": "La Llei 17/2015, del 21 de juliol",
       "D": "La Llei 9/2017, de 14 de març"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q62",
@@ -1509,7 +2375,9 @@
       "B": "El/La Conseller/a de Drets Socials",
       "C": "El/La Conseller/a d'Igualtat i Feminismes",
       "D": "El Govern de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q68",
@@ -1527,7 +2395,9 @@
       "B": "Qualsevol empresa pública que apliqui polítiques d’igualtat efectiva en el treball en l’àmbit territorial de Catalunya i que en l'any anterior a la convocatòria de la concessió del distintiu no hagi estat objecte de sanció ferma per l’autoritat laboral per pràctiques discriminatòries o per no complir llurs obligacions en matèria d’igualtat de dones i homes",
       "C": "Qualsevol empresa pública o privada, que apliqui polítiques d’igualtat efectiva en el treball en l’àmbit territorial de Catalunya i que en els dos anys anteriors a la convocatòria de la concessió del distintiu no hagin estat objecte de sanció ferma per l’autoritat laboral per pràctiques discriminatòries o perquè no compleixen llurs obligacions en matèria d’igualtat de dones i homes",
       "D": "Qualsevol empresa pública que apliqui polítiques d’igualtat efectiva en el treball en l’àmbit territorial espanyol i que en els deu anys anteriors a la convocatòria de la concessió del distintiu no hagin estat objecte de sanció ferma per l’autoritat laboral per pràctiques discriminatòries o perquè no compleixen llurs obligacions en matèria d’igualtat de dones i homes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q2",
@@ -1545,13 +2415,15 @@
       "B": "No tenen efecte",
       "C": "Es concretaran per conveni",
       "D": "Tindran una aplicació especial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim67_q66",
-    "statement": "D'acord amb l'article 20 de la Llei d'igualtat efectiva de dones i homes, han d'adoptar accions positives específiques temporals, raonables i proporcionades amb relació a l'objectiu perseguit en cada cas, que promoguin la igualtat efectiva de dones i homes:",
-    "correct": "C",
-    "explanation": "Article 20 - Participació social de les dones.\n1. Els poders públics han d'adoptar accions positives específiques temporals, raonables i proporcionades amb relació a\nl'objectiu perseguit en cada cas, que promoguin la igualtat efectiva de dones i homes, que permetin corregir situacions de\ndesigualtat social resultants de pràctiques de subordinació o de sistemes socials discriminatoris, i facin efectiu el dret a la\nparticipació social de les dones.",
+    "id": "academia_sim67_q41",
+    "statement": "D'acord amb l'article 27 de la Llei, 17/2015, del 21 de juliol, els poders públics de Catalunya, de manera específica, han de facilitar l’accés de les dones i de les entitats que defensen els drets de les dones a l’ús de les tecnologies de la informació i la comunicació, amb mesures i programes de formació que eradiquin les barreres que dificulten l’ús en igualtat de condicions dels recursos tecnològics, amb una atenció especial a:",
+    "correct": "B",
+    "explanation": "Article 27 - Accés de les dones a les tecnologies de la informació i la comunicació.\n1. Els poders públics de Catalunya, de manera específica, han de facilitar l’accés de les dones i de les entitats que\ndefensen els drets de les dones a l’ús de les tecnologies de la informació i la comunicació, amb mesures i programes de\nformació que eradiquin les barreres que dificulten l’ús en igualtat de condicions dels recursos tecnològics, amb una\natenció especial als col·lectius en risc d’exclusió social i de l’àmbit rural.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
@@ -1559,29 +2431,33 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'Institut Català de les Dones",
-      "B": "L'Administració de la Generalitat i els poders privats",
-      "C": "Els poders públics",
-      "D": "Els delegats de prevenció"
-    }
+      "A": "Els col·lectius racialitzats i de l’àmbit cultural i artístic",
+      "B": "Els col·lectius en risc d’exclusió social i de l’àmbit rural",
+      "C": "Els col·lectius racialitzats i de l'àmbit dels serveis",
+      "D": "Els col·lectius en risc d’exclusió social i de l’àmbit cultural i artístic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim68_q22",
-    "statement": "Sobre quin dels següents organismes NO recau la funció de vetllar per garantir el dret a la igualtat de tracte i la no-discriminació en els àmbits a què fa referència la Llei 19/2020, del 30 de setembre?",
-    "correct": "A",
-    "explanation": "Article 3 - Principis generals d’actuació de l’Administració.\n1. Les administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el\ndret a la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
+    "id": "academia_sim67_q88",
+    "statement": "Quin concepte defineix qualsevol instrucció o conducta similar duta a terme per una autoritat, un òrgan o un superior jeràrquic que impliqui una discriminació per qualsevol dels motius a què fa referència l’article 1 de la Llei d'igualtat de tracte i no-discriminació?",
+    "correct": "C",
+    "explanation": "Represàlia discriminatòria: qualsevol tracte advers de l’Administració contra una persona o un grup de persones pel fet\nd’haver presentat alguna queixa, reclamació, denúncia, demanda o recurs de qualsevol tipus amb l’objectiu d’impedir,\nevitar, disminuir o denunciar la discriminació o l’assetjament a què són o han estat sotmeses, o contra les persones que\ncol·laboren o participen en un procediment iniciat arran d’aquesta queixa, reclamació, denúncia, demanda o recurs.\nResten exclosos els supòsits que puguin ésser constitutius d’il·lícit penal.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 68",
+    "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El Tribunal Superior de Justícia de Catalunya",
-      "B": "Les administracions públiques",
-      "C": "El Síndic de Greuges",
-      "D": "La funció recau sobre tots tres organismes esmentats"
-    }
+      "A": "Discriminació vertical",
+      "B": "Represàlia discriminatòria",
+      "C": "Ordre, inducció, instrucció o recomanació de discriminar",
+      "D": "Discriminació horitzontal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q31",
@@ -1599,7 +2475,9 @@
       "B": "Activitats remunerades, exclusivament",
       "C": "Activitats no remunerades o remunerades per sota de conveni",
       "D": "Activitats no remunerades, exclusivament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q33",
@@ -1617,25 +2495,29 @@
       "B": "Incidir en el subjecte per tal de fomentar la relativització davant els comportaments que puguin atemptar contra la dignitat dels individus",
       "C": "Garantir el dret a la igualtat de tracte i a la no-discriminació",
       "D": "Les respostes a) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim69_q7",
-    "statement": "Sobre quins organismes recau la funció de vetllar per garantir el dret a la igualtat de tracte i la no-discriminació en els àmbits a què fa referència la Llei 19/2020, del 30 de setembre?",
-    "correct": "B",
-    "explanation": "Article 3 - Principis generals d’actuació de l’Administració.\n1. Les administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el\ndret a la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
+    "id": "academia_sim68_q35",
+    "statement": "Quin lòbul del cervell regula algunes funcions de memòria, i la recepció i integració del llenguatge?",
+    "correct": "C",
+    "explanation": "Lòbul frontal: Allotja les emocions, la funció motora i l'expressió del llenguatge.\nLòbul parietal: Allotja la funció sensitiva i la orientació espacial.\nLòbul temporal: Regula algunes funcions de memòria, i la recepció i integració del llenguatge.\nLòbul occipital: Allotja la visió.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 69",
+    "section": "Simulacre 68",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sobre el Govern i l’Organisme de Protecció i Promoció de la Igualtat de Tracte i la No-discriminació",
-      "B": "Sobre les administracions públiques i el Síndic de Greuges",
-      "C": "Sobre les administracions públiques, únicament",
-      "D": "Sobre la persona titular de la secretaria general del departament competent en matèria de no discriminació de persones LGBTI i l’Organisme de Protecció i Promoció de la Igualtat de Tracte i la No-discriminació"
-    }
+      "A": "El lòbul occipital",
+      "B": "El lòbul frontal",
+      "C": "El lòbul temporal",
+      "D": "El lòbul parietal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q24",
@@ -1653,7 +2535,9 @@
       "B": "La condició d'ésser iguals homes i dones en les possibilitats de desenvolupament personal i de presa de decisions, sense les limitacions imposades pels rols de gènere tradicionals, per la qual cosa els diferents comportaments, aspiracions i necessitats de dones i d’homes són igualment considerats, valorats i afavorits",
       "C": "La distribució justa dels drets, els beneficis, les obligacions, les oportunitats i els recursos sobre la base del reconeixement i el respecte de la diferència entre dones i homes en la societat",
       "D": "La situació que garanteix la presència de les dones en una proporció adequada en cada circumstància  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q35",
@@ -1671,7 +2555,49 @@
       "B": "Són admeses",
       "C": "S'han de promoure si resulten de decisions generals de les administracions públiques destinades a protegir els grups de població vulnerables per mitjà d’accions específiques per a millorar-ne les condicions de vida o afavorir-ne la inclusió social, la incorporació al món laboral o l’accés a béns i serveis essencials",
       "D": "S'han de diferenciar i distingir de les diferències de tracte"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q53",
+    "statement": "Quin òrgan s'encarrega de fer el seguiment i l’avaluació dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "D",
+    "explanation": "L’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, i també de fer-ne el seguiment i l’avaluació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "El professional d’igualtat de la Generalitat",
+      "C": "La Comissió Tècnica Interdepartamental de la Igualtat Efectiva de Dones i Homes",
+      "D": "L’Institut Català de les Dones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q11",
+    "statement": "Quin concepte fa referència a les imatges simplificades que atribueixen uns rols fixats sobre els comportaments pretesament «correctes» o «normals» de les persones en un context determinat en funció del sexe al qual pertanyen?",
+    "correct": "B",
+    "explanation": "Article 2 - Definicions.\nj) (...) Els estereotips de gènere són a la base de la discriminació entre homes i dones i contribueixen a justificar-los i a\nperpetuar-los.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Discriminació indirecta",
+      "B": "Estereotips de gènere",
+      "C": "Perspectiva de gènere",
+      "D": "Imaginari de gènere"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q37",
@@ -1689,25 +2615,9 @@
       "B": "Agents d'Equitat",
       "C": "Gestors de Diversitat de Gènere",
       "D": "Coordinadors de polítiques de gènere"
-    }
-  },
-  {
-    "id": "academia_sim70_q41",
-    "statement": "Segons la Llei 19/2020, del 30 de desembre, quina institució de la Generalitat de Catalunya haurà de garantir el dret a la igualtat de tracte i la no-discriminació?",
-    "correct": "C",
-    "explanation": "Les administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el dret\na la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 70",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La Sindicatura de Comptes",
-      "B": "El Consell de garanties estatutàries",
-      "C": "El Síndic de Greuges",
-      "D": "El Consell de l'Audiovisual de Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q13",
@@ -1725,7 +2635,9 @@
       "B": "Garantir l’equitat de gènere exclusivament en el sector públic",
       "C": "Establir i regular els mecanismes i recursos per a fer efectiu el dret a la igualtat i a la no-discriminació per raó de sexe en tots els àmbits, etapes i circumstàncies de la vida",
       "D": "Subvencionar les empreses que no respectin les regulacions relatives al compliment de la igualtat i a la no-discriminació per raó de sexe per tal que ho facin"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q15",
@@ -1743,7 +2655,9 @@
       "B": "Garantir els drets de les persones amb orientació sexual diversa",
       "C": "Garantir els drets de les persones amb discapacitat",
       "D": "Garantir uns valors òptims de representació per part de les dones dins dels col·lectius tradicionalment masculinitzats"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q29",
@@ -1761,7 +2675,9 @@
       "B": "Cada dos anys",
       "C": "Cada any",
       "D": "Cada quatre anys"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q46",
@@ -1779,7 +2695,29 @@
       "B": "Tres",
       "C": "Set",
       "D": "Tretze"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q52",
+    "statement": "Un empleat musulmà és víctima d'assetjament islamofòbic per part d'un grup de companys. Encara que el departament de recursos humans intervé inicialment, les seves mesures no s'implementen de manera efectiva. A més, els i les caps d'equip no es prenen seriosament la situació. Quina situació s'està donant?",
+    "correct": "C",
+    "explanation": "Victimització secundària: el maltractament addicional exercit contra persones que es troben en algun dels supòsits de\ndiscriminació, assetjament, represàlia o intolerància com a conseqüència directa o indirecta dels dèficits, les duplicitats o\nles fragmentacions de les intervencions dutes a terme pels organismes responsables, i també per les actuacions d’altres\nagents implicats.\nDiscriminació de segon ordre: el maltractament exercit contra persones o grups de persones pel fet de defensar persones\no grups discriminats.\nDiscriminació múltiple: la discriminació que es produeix quan una persona pateix una forma agreujada i específica de\ndiscriminació com a conseqüència de la concurrència o la interacció de diversos motius de discriminació.\nRepresàlia discriminatòria: qualsevol tracte advers de l’Administració contra una persona o un grup de persones pel fet\nd’haver presentat alguna queixa, reclamació, denúncia, demanda o recurs de qualsevol tipus amb l’objectiu d’impedir,\nevitar, disminuir o denunciar la discriminació o l’assetjament a què són o han estat sotmeses, o contra les persones que\ncol·laboren o participen en un procediment iniciat arran d’aquesta queixa, reclamació, denúncia, demanda o recurs.\nResten exclosos els supòsits que puguin ésser constitutius d’il·lícit penal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Discriminació de segon ordre",
+      "B": "Discriminació múltiple",
+      "C": "Victimització secundària",
+      "D": "Represàlia discriminatòria"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q85",
@@ -1797,7 +2735,9 @@
       "B": "Crear circuits d’intervenció ràpids i eficients",
       "C": "Definir el marc d’actuació en relació amb els casos d’assetjament sexual, per raó del sexe, de l’orientació sexual i/o de la identitat sexual amb la finalitat explícita d’eradicar aquest tipus de conductes en l’àmbit de l’Administració de la Generalitat",
       "D": "Ignorar la necessitat de sensibilització"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q36",
@@ -1815,7 +2755,29 @@
       "B": "Principi d’equitat",
       "C": "Principi d’oportunitat",
       "D": "Principi de lleialtat institucional"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q38",
+    "statement": "El pla d’acció de suport a les empreses destinat al foment de la igualtat de tracte i d’oportunitats de dones i homes en el treball ha d’incloure programes de suport a les empreses per a elaborar i aplicar plans d’igualtat, amb una atenció especial a:",
+    "correct": "D",
+    "explanation": "Article 34.\n2. El pla d’acció de suport a les empreses destinat al foment de la igualtat de tracte i d’oportunitats de dones i homes en\nel treball, que ha d’especificar la dotació econòmica i els mecanismes d’avaluació corresponents per a cadascuna de les\nlínies d’actuació, ha d’incloure:\na) Programes de suport a les empreses per a elaborar i aplicar plans d’igualtat, amb una atenció especial a les petites i\nmitjanes empreses de fins a dos-cents cinquanta treballadors.\nb) Programes de suport i d’assessorament per a incorporar la figura del professional d’igualtat de dones i homes a les\nempreses, com ara la de tècnic superior de promoció d’igualtat de gènere o la d’agent d’igualtat de dones i homes a les\nempreses.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les grans empreses de més de mil treballadors",
+      "B": "Les petites i mitjanes empreses de fins a cinquanta treballadors",
+      "C": "Les grans empreses de més de cinc-cents treballadors",
+      "D": "Les petites i mitjanes empreses de fins a dos-cents cinquanta treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q90",
@@ -1833,7 +2795,9 @@
       "B": "Han de censurar les entitats de defensa dels drets de les dones",
       "C": "Les administracions públiques de Catalunya no tindran en compte el sexe de les persones en el nomenament dels titulars dels òrgans de direcció i dels organismes públics vinculats o dependents",
       "D": "Han de fer visibles i reconèixer els grups de defensa dels drets de les dones"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q58",
@@ -1851,7 +2815,9 @@
       "B": "En la pressió exercida per una persona o un grup de persones sobre una altra amb superioritat jeràrquica",
       "C": "En la pressió exercida per una persona o un grup de persones sobre una altra persona de la mateixa categoria o grup de treball",
       "D": "En la pressió exercida per una persona amb superioritat jeràrquica sobre una o més persones treballadores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q83",
@@ -1869,7 +2835,9 @@
       "B": "L’Institut Català de les Dones",
       "C": "L'Administració de la Generalitat",
       "D": "El Comitè d'agents d'igualtat de dones i homes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q20",
@@ -1887,7 +2855,9 @@
       "B": "En la pressió exercida per una persona o un grup de persones sobre una altra amb superioritat jeràrquica",
       "C": "En la pressió exercida per una persona o un grup de persones sobre una altra persona de la mateixa categoria o grup de treball",
       "D": "En la pressió exercida per una persona amb superioritat jeràrquica sobre una o més persones treballadores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q69",
@@ -1905,7 +2875,9 @@
       "B": "De qualsevol persona o grup de persones",
       "C": "De qualsevol persona física o jurídica",
       "D": "De qualsevol persona amb superioritat jeràrquica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q73",
@@ -1923,7 +2895,9 @@
       "B": "Llei 19/2020, del 30 de desembre",
       "C": "Llei 15/2017, de 15 de juny",
       "D": "L'enunciat és incorrecte, ja que es tracta d'un Decret"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q94",
@@ -1941,7 +2915,9 @@
       "B": "Perspectiva de gènere",
       "C": "Coeducació",
       "D": "Equitat de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q21",
@@ -1959,7 +2935,29 @@
       "B": "Efectes colaterals",
       "C": "Discriminació per associació",
       "D": "Discriminació de segon ordre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q43",
+    "statement": "Per facilitar les actuacions en la contractació del sector públic, on han de consultar els poders adjudicadors de Catalunya la informació relativa a les empreses?",
+    "correct": "C",
+    "explanation": "Art. 10: Els poders adjudicadors de Catalunya que als efectes de la legislació de contractes del sector públic tenen la\nconsideració d’Administració pública, han de consultar la informació de les empreses inscrites en el Registre Públic de\nPlans d'Igualtat, a què fa referència l'article 36.5, a l'efecte de facilitar les actuacions que estableix el present article.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En el Registre Civil",
+      "B": "En el Catàleg Igualitari de Catalunya",
+      "C": "En el Registre Públic de Plans d'Igualtat",
+      "D": "En l'Índex d'Empreses afiliades al model de Política d'Igualtat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q58",
@@ -1977,7 +2975,29 @@
       "B": "El principi d'empatia",
       "C": "El principi d'ajustos raonables",
       "D": "El principi de tolerància"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q17",
+    "statement": "Quin organisme és responsable del seguiment i l’avaluació dels plans estratègics de polítiques d'igualtat de gènere de l’Administració de la Generalitat?",
+    "correct": "D",
+    "explanation": "L’Institut Català de les Dones, amb la col·laboració dels departaments corresponents i amb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar i impulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, i també de fer-ne el seguiment i l’avaluació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T06 - Igualtat de tracte i de gènere",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern",
+      "B": "El professional d’igualtat de la Generalitat",
+      "C": "La Comissió Tècnica Interdepartamental de la Igualtat Efectiva de Dones i Homes",
+      "D": "L’Institut Català de les Dones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q26",
@@ -1995,7 +3015,9 @@
       "B": "Estan dissenyades per ser implementades indefinidament",
       "C": "Són diferències de tracte",
       "D": "Les respostes b) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q82",
@@ -2013,7 +3035,9 @@
       "B": "Qualsevol persona o grup de persones",
       "C": "Qualsevol persona física o jurídica",
       "D": "Qualsevol persona amb superioritat jeràrquica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim78_q13",
@@ -2031,7 +3055,9 @@
       "B": "El principi de coeducació",
       "C": "El principi d'educació específica",
       "D": "El principi de proporcionalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim78_q90",
@@ -2049,7 +3075,9 @@
       "B": "L'igualtat de gènere",
       "C": "La coeducació",
       "D": "La perspectiva de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q12",
@@ -2067,25 +3095,29 @@
       "B": "Perspectiva de gènere",
       "C": "Coeducació",
       "D": "Equitat de gènere"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim79_q86",
-    "statement": "Quina institució de la Generalitat de Catalunya, segons la Llei 19/2020, del 30 de desembre, haurà de garantir el dret a la igualtat de tracte i la no-discriminació?",
-    "correct": "C",
-    "explanation": "Les administracions públiques i el Síndic de Greuges, en l’àmbit de llurs competències, han de vetllar per garantir el dret\na la igualtat de tracte i la no-discriminació en els àmbits a què fa referència aquesta llei.",
+    "id": "academia_sim80_q6",
+    "statement": "Quin nom rep la discriminació que es produeix quan una disposició, un criteri o una pràctica aparentment neutres poden causar un perjudici major a una persona per motiu d'edat, raça o orientació o identitat sexual?",
+    "correct": "B",
+    "explanation": "Discriminació de segon ordre: el maltractament exercit contra persones o grups de persones pel fet de defensar persones\no grups discriminats.\nDiscriminació indirecta: la discriminació que es produeix quan una disposició, un criteri o una pràctica pretesament\nneutres són susceptibles de causar un perjudici major a una persona per algun dels motius a què fa referència l’article 1.\nDiscriminació per associació: la discriminació que es produeix quan una persona o el grup al qual se l’associa és objecte\nde discriminació, real o atribuïda, com a conseqüència de la seva relació amb una persona o un grup per algun dels\nmotius a què fa referència l’article.\nVictimització secundària: el maltractament addicional exercit contra persones que es troben en algun dels supòsits de\ndiscriminació, assetjament, represàlia o intolerància com a conseqüència directa o indirecta dels dèficits, les duplicitats o\nles fragmentacions de les intervencions dutes a terme pel sorganismes responsables.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T06 - Igualtat de tracte i de gènere",
-    "section": "Simulacre 79",
+    "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Sindicatura de Comptes",
-      "B": "El Consell de garanties estatutàries",
-      "C": "El Síndic de Greuges",
-      "D": "El Consell de l'Audiovisual de Catalunya"
-    }
+      "A": "Victimització secundària",
+      "B": "Discriminació indirecta",
+      "C": "Discriminació múltiple",
+      "D": "Discriminació de segon ordre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q60",
@@ -2103,7 +3135,9 @@
       "B": "El Departament d'Interior",
       "C": "L’Institut Català de les Dones",
       "D": "El Consell de Vegueria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q68",
@@ -2121,7 +3155,9 @@
       "B": "Per les persones en situació de vulnerabilitat",
       "C": "Per persones d’origen estranger o que són percebudes com a estrangeres",
       "D": "Per les persones majors de seixanta anys"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q80",
@@ -2139,7 +3175,9 @@
       "B": "Es defineix com la situació que garanteix la presència de les dones en una proporció adequada en cada circumstància",
       "C": "És una pràctica que ha de ser erradicada",
       "D": "Es defineix com la situació que garanteix una presència de dones i homes segons la qual cap sexe no supera el 60% del conjunt de persones a què es refereix ni és inferior al 40%, i que ha de tendir a assolir el 50% de persones de cada sexe"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim83_q42",
@@ -2157,7 +3195,9 @@
       "B": "Discriminació múltiple",
       "C": "Discriminació per estigmatització",
       "D": "Capacitisme"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim91_q32",
@@ -2175,7 +3215,9 @@
       "B": "Ha de fomentar l'educació segregada com a sistema educatiu per a capgirar els comportaments que perpetuen el patriarcat en l’ensenyament",
       "C": "Ha de garantir el dret a una escola inclusiva",
       "D": "Ha de vetllar perquè els continguts dels materials escolars, educatius i formatius, en qualsevol format, i el llenguatge que s’hi empri tinguin en compte la visió androcèntrica de la societat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q24",
@@ -2193,7 +3235,9 @@
       "B": "Ha d'impulsar la creació de la Comissió d’Igualtat i Temps de Treball",
       "C": "Ha d'impulsar la creació de la Comissió Interdepartamental per a la Igualtat d'Oportunitats",
       "D": "Ha de delegar la responsabilitat de seguiment a la Comissió específica de l’Institut Català de les Dones"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim98_q33",
@@ -2211,7 +3255,9 @@
       "B": "Tenir menys de dos-cents cinquanta treballadors/es",
       "C": "Haver estat objectes de sanció ferma per l’autoritat laboral per pràctiques discriminatòries en els cinc anys anteriors",
       "D": "Hi ha més d'una resposta correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim124_q34",
@@ -2229,6 +3275,8 @@
       "B": "Als joves menors de divuit anys, per tal d'evitar l'abandonament escolar",
       "C": "Als joves d'entre catorze i vint-i-un anys, per tal que desenvolupin interessos intel·lectuals o professionals més enllà de la formació obligatòria",
       "D": "Als joves menors de setze anys, per tal de que assisteixin quotidianament als centres educatius"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

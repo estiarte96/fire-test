@@ -1,12 +1,292 @@
 [
   {
+    "id": "academia_sim6_q57",
+    "statement": "Com s'anomena la publicació que, entre d'altres consideracions, classifica les matèries perilloses i recull les recomanacions d'envasat d'aquestes mercaderies?",
+    "correct": "A",
+    "explanation": "És una guia, s'hi publiquen RECOMANACIONS.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El llibre taronja de les nacions unides, i es presenta en dos volums",
+      "B": "El llibre taronja de les nacions unides, i es presenta en un sol volum",
+      "C": "El llibre negre de les matèries perilloses, i s'organitza en tres volums",
+      "D": "El llibre negre de les nacions unides"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q1",
+    "statement": "Tenim una rosca amb tres entrades i sabem que té un avanç de 3 mm. Quin serà el pas de la rosca?",
+    "correct": "D",
+    "explanation": "El pas d'una rosca és la distància entre dos filets consecutius.\nAvanç = pas × número de filets\n3 mm = pas × 3\nPas = 1 mm",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "3 mm",
+      "B": "6 mm",
+      "C": "9 mm",
+      "D": "1 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q79",
+    "statement": "En quina posició col·locarem a la víctima en un suport a 90°?",
+    "correct": "B",
+    "explanation": "Posició Fowler o semiassegut: 45°.\nPosició Semifowler: 30°.\nPosició Fowler elevat: 90°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Posició de Semifowler",
+      "B": "Posició de Fowler elevat",
+      "C": "Posició de Fowler o semiassegut",
+      "D": "Posició mixta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim13_q6",
+    "statement": "En quina posició d'espera per una víctima el suport serà a 45°?",
+    "correct": "A",
+    "explanation": "Posició Fowler o semiassegut: 45°.\nPosició Semifowler: 30°.\nPosició Fowler elevat: 90°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La posició de Fowler",
+      "B": "La posició de Semifowler",
+      "C": "La posició Trendelenburg",
+      "D": "La posició anti-trendelenburg"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q38",
+    "statement": "Quin dels significats dels següents termes s'apropa més al del concepte \"estintolar\"?",
+    "correct": "A",
+    "explanation": "Apuntalar: sostenir amb un o més puntals alguna cosa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Apuntalar",
+      "B": "Alfluixar",
+      "C": "Reparar",
+      "D": "Cedir"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q70",
+    "statement": "Quantes Entitats Municipals Descentralitzades (EMD) hi ha a Catalunya (2023)?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Setze",
+      "B": "Seixanta-cinc",
+      "C": "Noranta-dos",
+      "D": "Una"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q82",
+    "statement": "Quin dels següents ossos es troba més proper al còccix?",
+    "correct": "D",
+    "explanation": "Els metatarsos són un grup de cinc ossos llargs del peu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La tíbia",
+      "B": "Els metatarsos",
+      "C": "El peroné",
+      "D": "El fèmur"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q85",
+    "statement": "El risc de punxonament:",
+    "correct": "C",
+    "explanation": "El punxonament es produeix principalment en elements bidimensionals que treballen predominantment a flexió. La\nsuperfície crítica de punxonament és la superfície de trencament, que abasta el perímetre on recolza la llosa i s'eleva\namb un angle entre 30 º i 45 º.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Acostuma produir-se en forjats de fusta",
+      "B": "La superfície crítica de punxonament abasta el perímetre on total de la llosa i s'eleva amb un angle entre 90 i 180º",
+      "C": "Pot ser pal·liat temporalment amb un apuntalament preventiu",
+      "D": "Es produeix principalment en elements unidireccionals que treballen predominantment a flexió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q17",
+    "statement": "En enginyeria de la construcció, es refereix a la dimensió horitzontal entre dos suports, com ara columnes, pilars, muntants, parets laterals, etc:",
+    "correct": "D",
+    "explanation": "Llum: dimensió horitzontal entre dos suports, com ara columnes, pilars, muntants, parets laterals, etc.\nFletxa: desplaçament d'un punt interior en un element estructural degut a la deformació que sofreix sota l'aplicació de\ncàrregues externes.\nIntereix: distància que hi ha entre els nervis que conformen una estructura horitzontal.\nLínia neutra: línia teòrica en una secció sotmesa a flexió on les fibres tenen tensió nul·la.\n(Font: TERMCAT).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Intereix",
+      "B": "Fletxa",
+      "C": "Línia neutra",
+      "D": "Llum"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q70",
+    "statement": "Quantes cordes té un Polispast?",
+    "correct": "C",
+    "explanation": "Un Polispast és un sistema de dos grups d’una o més politges cadascun, l’un fix i l’altre mòbil, que permet, en multiplicar\nla força aplicada a un cable, a una cadena o a una corda, manualment o mecànicament per accionament elèctric\n(mitjançant un motor), pneumàtic (mitjançant pistons o bé un motor), etc, d’elevar càrregues amb un esforç inferior\n—proporcionalment al nombre de politges del grup mòbil— al que seria necessari (font: enciclopèdia.cat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Més d'una",
+      "B": "Dues, exactament",
+      "C": "Una",
+      "D": "L'enunciat és incorrecte, el Polispast es caracteritza per usar cadenes en comptes de cordes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q47",
+    "statement": "Quan parlem del refugi de Rebost, del refugi de Sant Jordi i del refugi de Gresolet, en quin parc natural els podem trobar?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Ports",
+      "B": "Cadí-Moixeró",
+      "C": "L'Albera",
+      "D": "Sant Llorenç del Munt i l'Obac"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim111_q51",
+    "statement": "Com es distribueix el moment flector en una mènsula sotmesa a una càrrega puntual a l'extrem?",
+    "correct": "B",
+    "explanation": "En una mènsula sotmesa a una càrrega puntual a l’extrem lliure:\n· El moment flector és màxim al punt d’empotrament.\n· Disminueix linealment fins a zero a l’extrem lliure.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Uniformement a tot llarg de la mènsula",
+      "B": "Màxima al punt d'empotrament i disminueix cap a l'extrem lliure",
+      "C": "Màxima a l'extrem lliure i disminueix cap al punt d'empotrament",
+      "D": "No hi ha força de tall"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q21",
+    "statement": "Quan es detecta una víctima en una estructura col·lapsada, quin marcatge inicial s'ha de realitzar?",
+    "correct": "B",
+    "explanation": "Quan es detecta una víctima —ja sigui de forma visual, auditiva o mitjançant eines tècniques— cal marcar el punt amb\nuna gran V d’uns 50 cm de mida, pintada sobre la runa o estructura visible. Aquest símbol indica la presència d’una\nvíctima potencial, tant viva com morta, encara sense confirmar.\nSota la V, presència potencial de víctima pendent de confirmació s’anotarà:\n−L - n →n per indicar el nombre de víctimes vives confirmades.\n−D - n →n per indicar el nombre de víctimes mortes confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pintar una gran creu vermella d'uns 50 cm sobre la runa o l'estructura visible per indicar una víctima pendent de localització",
+      "B": "Pintar una gran V d'uns 50 cm sobre la runa o l'estructura visible per indicar una possible víctima pendent de confirmació",
+      "C": "Marcar una X de grans dimensions (30 cm) sobre la runa per indicar que la zona ha estat inspeccionada. Sota la X, s'anotarà la presència potencial de víctima pendent de confirmació amb una L o D, segons sigui viva o potencialment morta.",
+      "D": "Marcar la zona amb una lletra de grans dimensions (uns 30 cm), una V o una D segons l'estat de la víctima, pintada sobre la runa o l'estructura visible"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q50",
+    "statement": "Avui, els equips certificats sota l’INSARAG:",
+    "correct": "D",
+    "explanation": "Avui, els equips certificats sota l’INSARAG:\n−Actuen de forma autònoma, sense dependre de recursos locals.\n−Tenen protocols compartits de comandament, comunicació i actuació.\n−Es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) liderat per Nacions Unides.\n21\n\n−Estan classificats en tres categories (lleugers, mitjans i pesats) segons la seva capacitat operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tenen protocols autònoms de comandament, comunicació i actuació",
+      "B": "Es coordinen a través del sistema GREC",
+      "C": "Actuen en funció dels recursos locals",
+      "D": "Estan classificats en tres categories segons la seva capacitat operativa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim125_q53",
     "statement": "Quina és la distància màxima recomanada entre dos puntals en un apuntalament?",
     "correct": "A",
     "explanation": "Criteris bàsics a tenir en compte en un apuntalament.\nA nivell del Bombers de la Generalitat es tenen en compte aquestes consideracions:\n−La distància entre puntals no pot superar el metre.\n−Es considera que un puntal té una resistència màxima de 1.000 kg.\n−L’apuntalament ha de quedar ben alineat i fermament fixat al sotapont i jaç de taulons, utilitzant falques si cal.\n−Cal evitar les vibracions i els puntals s’han d’entrar en càrrega de manera uniforme.\n−No intentar restituir la posició de l’element danyat.\n−Mantenir una via d’escapament neta d’obstacles.\n−Dins la zona afectada s’hi estarà el temps i personal imprescindible.\n−El conjunt ha de generar un pla de descàrrega estable, repartint la càrrega cap avall de forma segura.\nDistingim 3 grans grups d’apuntalaments segons la direcció de la càrrega que suporten: Verticals, Horitzontals i Inclinats.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T30 - Construcció i apuntalaments d'emergència",
+    "theme": "T30 - Estructures col·lapsades",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
@@ -15,7 +295,89 @@
       "B": "2 metres",
       "C": "3 metres",
       "D": "2,5 metres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q69",
+    "statement": "En context de col·lapses estructurals, quin senyal acústic indica que s'ha d'evacuar immediatament la zona per un perill imminent?",
+    "correct": "C",
+    "explanation": "Senyals acústics:\nEVACUAR\nPatró acústic: 3 tocs curts (1 segon).\nSignificat: Evacuació immediata de la zona per perill imminent.\nATURAR OPERACIONS / SILENCI\nPatró acústic: 1 toc llarg (3 segons).\nSignificat: Aturada de totes les operacions, mantenint les posicions.\nCONTINUAR OPERACIONS\n24\n\nPatró acústic: 1 toc llarg (3 segons) i 1 toc curt.\nSignificat: Reprendre les operacions perquè la situació està estabilitzada.\nS.O.S.\nPatró acústic: Tocs curts repetitius.\nSignificat: Senyal de socors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 toc llarg (3 segons)",
+      "B": "1 toc llarg (3 segons) i 1 toc curt (1 segon)",
+      "C": "3 tocs curts (1 segon)",
+      "D": "2 tocs llargs (3 segons) i 2 tocs curts (1 segon)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q54",
+    "statement": "En la senyalització de les zones en un escenari d’estructura col·lapsada, què indica la inscripció L - n sota una V?",
+    "correct": "D",
+    "explanation": "L - n indica el nombre de víctimes vives confirmades.\nD - n indica el nombre de víctimes mortes confirmades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nombre de víctimes localitzades (vives i mortes)",
+      "B": "El nombre de víctimes atrapades",
+      "C": "El nombre de víctimes mortes confirmades",
+      "D": "El nombre de víctimes vives confirmades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q67",
+    "statement": "En un incendi amb risc de col·lapse d’una edificació, quin hauria de ser, com a norma general, l’emplaçament dels vehicles d’intervenció respecte del lloc del possible col·lapse?",
+    "correct": "A",
+    "explanation": "Una correcta disposició dels vehicles d’intervenció és un dels primers passos per garantir la seguretat de l’escenari.\nL’emplaçament inicial ha de fer-se tenint en compte tant la protecció del personal com la preservació de la capacitat de\nmaniobra dels equips.\nCom a norma general, els vehicles s’haurien de col·locar a una distància mínima de dues edificacions no afectades\nrespecte el lloc del col·lapse. Aquesta separació permet evitar riscos derivats d’un col·lapse secundari i facilita\nl’establiment de zones segures. En carrers amb pendent, els vehicles s’hauran de situar per sobre de l’edificació\nafectada, per evitar quedar atrapats en cas de despreniment o fluxos imprevistos de runa i materials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A una distància mínima de dues edificacions no afectades respecte del lloc del col·lapse",
+      "B": "A una distància mínima de 25 metres",
+      "C": "A una distància mínima de 1,5 edificacions no afectades respecte del lloc del col·lapse",
+      "D": "A una distància mínima equivalent a l’alçada de l’edifici afectat incrementada en 25 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q12",
+    "statement": "Durant un servei intervenim en dos edificis afectats: en un, la fallida estructural afecta tot l’edifici, mentre que en l’altre ha col·lapsat l’estructura principal. De quin tipus de col·lapse es tracta en cada cas?",
+    "correct": "D",
+    "explanation": "Parlem de col·lapse total quan la fallida estructural afecta la totalitat de l’edifici o de la seva estructura principal,\nprovocant un ensorrament generalitzat. En aquests casos, gran part de l’estructura queda reduïda a runa, i el paisatge\npost col·lapse és generalment caòtic, amb una acumulació massiva de materials despresos i una elevada probabilitat\nd’atrapament de persones.\nEls col·lapses totals es poden produir de forma sobtada o diferida, i solen estar associats a situacions d’alta intensitat,\ncom incendis prolongats, explosions, sobrecàrregues, fallades estructurals greus o catàstrofes naturals com terratrèmols.\nAquest tipus d’escenari comporta un risc extrem per als intervinents, tant per la dificultat en la identificació d’espais vitals\ncom per l’elevada inestabilitat de la runa. A més, cal preveure sempre la possibilitat que es desencadenin col·lapses\nsecundaris, especialment durant les tasques de desenrunament o rescat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Col·lapse total i col·lapse secundari, respectivament",
+      "B": "Col·lapse total i col·lapse parcial, respectivament",
+      "C": "Col·lapse parcial i col·lapse secundari, respectivament",
+      "D": "Col·lapse total, en tots dos casos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q40",
@@ -24,7 +386,7 @@
     "explanation": "El teorema de Pitàgores només és vàlid per a triangles rectangles, és a dir, els que tenen un angle de 90°. La resta\nd'afirmacions són correctes: la hipotenusa és el costat més llarg, es compleix c²=a²+b² i la regla 3-4-5 i els seus múltiples\n(6-8-10) garanteixen l'angle recte.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T30 - Construcció i apuntalaments d'emergència",
+    "theme": "T30 - Estructures col·lapsades",
     "section": "Simulacre 128",
     "isSaved": 0,
     "isAnswered": 0,
@@ -33,6 +395,28 @@
       "B": "La hipotenusa és el costat més llarg del triangle rectangle",
       "C": "Un triangle de costats en proporció 6-8-10 té un angle de 90°",
       "D": "El quadrat de la hipotenusa iguala la suma dels quadrats dels catets"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q59",
+    "statement": "Una càmera de visualització mostra una persona immòbil sota la runa i no se'n pot confirmar l'estat. Com cal marcar aquest punt?",
+    "correct": "D",
+    "explanation": "La V d'uns 50 cm indica víctima potencial, viva o morta, encara sense confirmar; les inscripcions L - n o D - n només\ns'anoten sota la V quan es confirma el nombre de víctimes vives o mortes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T30 - Estructures col·lapsades",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb un rombe amb la lletra C al costat del forat d'accés, fins que se'n confirmi l'estat",
+      "B": "Amb una gran V i la inscripció \"D - 1\" a sota, atès que no respon a la crida",
+      "C": "Amb una gran V i la inscripció \"L - 1\" a sota, mentre no es confirmi la defunció",
+      "D": "Amb una gran V sense cap inscripció a sota, ja que la víctima potencial no està confirmada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

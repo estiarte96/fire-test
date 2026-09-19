@@ -1,0 +1,502 @@
+[
+  {
+    "id": "academia_sim5_q88",
+    "statement": "El principal factor de risc en el desenvolupament d'un incendi és:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El foc",
+      "B": "La flama",
+      "C": "El fum",
+      "D": "L'oxigen  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q25",
+    "statement": "Quina serà la durada de l’administració d’una respiració en el Suport Vital Pediàtric?",
+    "correct": "A",
+    "explanation": "\"La durada de l’administració d’una respiració és al voltant d’1 segon, per coincidir amb la pràctica en adults\" (ERC 2015)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al voltant d'1 segon",
+      "B": "Al voltant de 2 segons",
+      "C": "Al voltant de 3 segons",
+      "D": "Durant el SVP no s'efectuaran respiracions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q80",
+    "statement": "Escull l'ús més adequat per un material refractari:",
+    "correct": "B",
+    "explanation": "El terme refractari fa referència a la qualitat dels materials de resistir altes temperatures sense descompondre's.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un mirall",
+      "B": "El motor d'un cotxe",
+      "C": "El revestiment d'una façana",
+      "D": "Una piscina exterior  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q11",
+    "statement": "A partir de quina concentració aproximada apareixen les propietats asfixiants del CO2?",
+    "correct": "A",
+    "explanation": "A partir del 15% pot ser letal.\nGENCAT - Seguretat contra incendis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En concentracions superiors al 0,1%",
+      "B": "En concentracions superiors al 9%",
+      "C": "En concentracions superiors al 6%",
+      "D": "En concentracions superiors al 12%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q45",
+    "statement": "Quina part d'una planta s'encarrega de fabricar la matèria orgànica necessària per a la planta a partir de la fotosíntesi?",
+    "correct": "B",
+    "explanation": "Per fer-la, necessiten la llum del Sol i el CO2 de l’aire que les envolta, a part de l’aigua i les sals minerals captades per\nles arrels i que transporta la tija (saba bruta).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La tija",
+      "B": "Les fulles",
+      "C": "La flor",
+      "D": "Les arrels"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q52",
+    "statement": "De què s'encarreguen els estomes d'una planta?",
+    "correct": "A",
+    "explanation": "El CO2 de l'aire difon cap a l'interior de la fulla mitjançant l'obertura dels estomes i s'utilitza en la fotosíntesi.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De l'intercanvi de gasos",
+      "B": "D'absorbir aigua i altres substàncies nutrients",
+      "C": "De formar una túnica de protecció per a les arrels",
+      "D": "De fixar la planta ferma al sòl"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q49",
+    "statement": "Quin dels següents fenomens és un indicador visible d’una atmosfera estable?",
+    "correct": "C",
+    "explanation": "Indicadors visibles d’atmosfera estable:\n- Els núvols en forma de capes, sense moviment vertical; núvols del tipus estrat.\n- La columna de fum es dispersa després d’elevar-se una mica.\n- Pobra visibilitat a nivell baix degut a l’acumulació de boirina i fum.\n- Vents en calma.\n- Refredament a poca altura; capes de boira.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'originen remolins de pols",
+      "B": "Els núvols creixen verticalment",
+      "C": "Existeix una pobra visibilitat a nivell baix degut a l’acumulació de boirina i fum",
+      "D": "Es formen núvols del tipus cúmul"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q74",
+    "statement": "A quina part d'una planta es troba la caliptra, còfia o pilorriza?",
+    "correct": "A",
+    "explanation": "A la punta de cada arrel en creixement, coneguda com a punt vegetatiu, hi ha una cobertura cònica anomenada caliptra,\ncòfia o pilorriza.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la fulla",
+      "B": "A l'arrel",
+      "C": "A la tija",
+      "D": "A la flor"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q76",
+    "statement": "NO és una característica de la tija o caule d'una planta:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Suporta les fulles, flors i fruits",
+      "B": "Podrà ser herbàcia o llenyosa, depenent del tipus de planta",
+      "C": "Connecta l'arrel amb la part aèria de la planta",
+      "D": "Totes són característiques de la tija o caule"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q38",
+    "statement": "Quin grup de conceptes fa referència exclusivament a terminologia relacionada amb obertures o finestres en construcció?",
+    "correct": "C",
+    "explanation": "El pla que forma la paret a la part baixa de la finestra és l’ampit; els gruixos de paret a banda i banda són els brancals, i\nla llinda és la pedra o un altre element resistent que, col·locat a la part alta de la finestra, suporta el pes de la paret que té\nal damunt (enciclopèdia.cat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Agulla, racó i parament",
+      "B": "Llindar, contrafort i cartel·la",
+      "C": "Ampit, llinda i brancals",
+      "D": "Cartel·la, parament i ampit"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q91",
+    "statement": "Quin dels següents teixits vegetals està en contacte directe amb la medul·la d'un arbre?",
+    "correct": "A",
+    "explanation": "El xilema és un tipus de teixit vegetal que transporta aigua i nutrients minerals des de les arrels cap a la resta de la\nplanta. Està compost principalment per cèl·lules mortes, com ara els elements dels vasos i les traqueides, que formen\nconductes tubulars. El xilema també proporciona suport estructural a la planta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El xilema",
+      "B": "L'escorça",
+      "C": "El càmbium",
+      "D": "El floema  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q44",
+    "statement": "Què és un paredat?",
+    "correct": "B",
+    "explanation": "La tàpia és una paret prima i no gaire alta que circumda un espai descobert.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una paret prima i no gaire alta que circumda un espai descobert",
+      "B": "Una paret feta de pedres col·locades amb morter o en sec",
+      "C": "Una porció de paret en forma triangular que descansa sobre un arc",
+      "D": "La part superior de la façana d'un edifici, de forma triangular i limitada pels dos vessants de la teulada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q90",
+    "statement": "Quina de les següents funcions correspon a la tija d'una planta?",
+    "correct": "B",
+    "explanation": "Funcions de la tija:\n- Suport de l'estructura aèria de la planta.\n- Transport d'aigua i nutrients.\n- Producció de nous teixits.\n- Emmagatzematge d'aigua i substàncies de reserva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Captació d'energia solar per utilitzar-la per a la fotosíntesi",
+      "B": "Suport de l'estructura aèria de la planta",
+      "C": "Regulació, mitjançant els estomes, dels intercanvis de gasos",
+      "D": "Regular la temperatura de la planta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q58",
+    "statement": "Quin comportament tindrà el fum en atmosferes inestables?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tendirà a creixer verticalment",
+      "B": "Tendirà a agafar forma tipus estrat",
+      "C": "Es dispersarà després d'elevar-se una mica",
+      "D": "Serà de color blanc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q87",
+    "statement": "Quina part del teixit d'una planta s'encarrega del transport de la saba bruta?",
+    "correct": "D",
+    "explanation": "La part de la planta encarregada del transport de la saba elaborada és el floema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'epidermis",
+      "B": "El floema",
+      "C": "La parènquima",
+      "D": "El xilema"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q2",
+    "statement": "És una estructura de les plantes que es troba entre el tronc o la tija principal i les flors o fruits:",
+    "correct": "D",
+    "explanation": "Es pot descriure com una tija que suporta les flors o fruits i els connecta amb la planta.\nEl periant, en canvi, és una estructura floral que inclou les parts externes de la flor, com els sépals i els pètals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pecíol",
+      "B": "Periant",
+      "C": "Gineceu",
+      "D": "Peduncle"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q9",
+    "statement": "Quina part del teixit d'una planta s'encarrega del transport de la saba elaborada?",
+    "correct": "B",
+    "explanation": "La part de la planta encarregada del transport de la saba bruta és el xilema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'epidermis",
+      "B": "El floema",
+      "C": "La parènquima",
+      "D": "El xilema"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q73",
+    "statement": "Quin tipus de planta és la farigola?",
+    "correct": "C",
+    "explanation": "Una planta herbàcia és una planta que té una tija tova, flexible i de color verd, a diferència de les plantes llenyoses, com\nels arbres i arbustos, que tenen tiges rígides i llenyoses.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una planta aquàtica",
+      "B": "Un arbust",
+      "C": "Una planta herbàcia",
+      "D": "Un arbre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim95_q73",
+    "statement": "Quin és el principal factor de risc en el desenvolupament d’un incendi?",
+    "correct": "C",
+    "explanation": "El fum és el principal factor de risc en el desenvolupament d’un incendi. Té efectes irritants sobre les mucoses i provoca\nllagrimeig als ulls, dificultant la visió. Alhora, evita el pas de la llum, cosa que complica les tasques d’extinció i rescat, així\ncom l’evacuació de les persones afectades. A més, pot arribar a ser inflamable i/o explosiu quan es donen les condicions\nadequades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El foc",
+      "B": "La flama",
+      "C": "El fum",
+      "D": "Les explosions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim98_q84",
+    "statement": "La propagació principal del foc en un edifici de diverses plantes es produeix generalment per:",
+    "correct": "D",
+    "explanation": "La convecció és el mecanisme dominant en la propagació vertical, ja que els gasos calents i el fum pugen i es mouen a\ntravés dels espais verticals com les caixes d'escala o els ascensors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Conducció a través de les parets",
+      "B": "Radiació a través de les finestres",
+      "C": "Infiltració",
+      "D": "Convecció a través de les escales i buits verticals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim118_q2",
+    "statement": "Un pneumotòrax a tensió es defineix com:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 118",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'acumulació d'aire a l'espai pleural sense sortida a l'exterior",
+      "B": "L'acumulació de sang a l'espai pleural sense sortida a l'exterior",
+      "C": "L'acumulació de líquid a l'espai pleural sense sortida a l'exterior",
+      "D": "L'acumulació d'aire a l'espai pleural amb o sense sortida a l'exterior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim119_q84",
+    "statement": "L’ús d’aquesta tècnica d’ús combinat de ventiladors pot generar un augment del flux de gas superior a les altres:",
+    "correct": "D",
+    "explanation": "Ventiladors en sèrie al llarg del recorregut: un primer ventilador (el de major capacitat —anomenat principal—) es col·loca\na l’entrada del recinte. Les pèrdues de càrrega al llarg del recorregut fan que, en un punt concret, la velocitat sigui molt\nbaixa. En aquesta posició es col·loca el segon ventilador (anomenat auxiliar), tornant a impulsar el flux.\n21\n\nL’ús d’aquesta tècnica pot generar un augment del flux de gasos superior a qualsevol de les dues anteriors. El segon\nventilador, a més, genera una depressió a la seva part posterior cap a la qual tendeix a dirigir-se el flux del ventilador\nprincipal, reduint encara més l’efecte d’altres pèrdues de càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ventiladors en sèrie a l'entrada",
+      "B": "Ventiladors en \"V\"",
+      "C": "Ventiladors en paral·lel",
+      "D": "Ventiladors en sèrie al llarg del recorregut"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q64",
+    "statement": "Quina afirmació és CORRECTA sobre la façana D en un edifici de planta quadrada?",
+    "correct": "D",
+    "explanation": "Per facilitar la coordinació, es fa servir una nomenclatura estàndard per identificar les façanes de l’edifici. S’anomenen\namb lletres i s’ordenen en sentit horari.\n- Façana A: l’accés principal o el que determini el cap d’intervenció.\n- Façana B: situada a l’esquerra respecte la façana A.\n- Façana C: l’oposada a façana A en edifici amb planta quadrada.\n- Façana D: situada a la dreta respecte la façana A.\nAquest sistema facilita la comunicació clara i eficaç entre equips quan es parla de la situació del foc, de possibles vies\nd’accés o de zones de risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la façana situada a l'esquerra respecte de la façana A",
+      "B": "És la façana oposada a la façana A en qualsevol edifici",
+      "C": "És la façana on s'ubica l'accés principal",
+      "D": "És la façana situada a la dreta respecte de la façana A"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q10",
+    "statement": "Durant una intervenció en un incendi estructural, la ubicació del foc en determinades plantes pot condicionar les maniobres dels bombers i obligar a buscar una ruta freda per evitar l’exposició al fum. De quines plantes es tracta?",
+    "correct": "C",
+    "explanation": "12\n\n−Plantes altes: Comporta major dificultat per arribar a l’incendi, fins i tot limita les maniobres d’extinció des del vehicle\nper pèrdues de càrrega de les línies. També comporta dificultats o impossibilita fer salvaments per façana a partir de la\nplanta 8 o superior. Per contra, l’evacuació de totes les plantes inferiors a l’incendi pot ser més segura.\n−Plantes soterrani: Condiciona la intervenció ja que comporta buscar una ruta freda per evitar l’exposició al fum. En el\ncas d’haver de treballar per la ruta calenta exposa als actuants al treball sense visibilitat, temperatura i contaminants",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les plantes intermèdies",
+      "B": "Les plantes baixes",
+      "C": "Les plantes soterrànies",
+      "D": "Les plantes altes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q25",
+    "statement": "La maniobra d’atac transicional:",
+    "correct": "A",
+    "explanation": "La maniobra d’atac transicional és un atac ofensiu exterior directe a nivell de terra, que consisteix en aplicar aigua des de\nl’exterior abans d’entrar, amb l’objectiu de reduir la temperatura i l’energia del motor de l’incendi. És una maniobra\nofensiva en la seva finalitat, però s’inicia des de l’exterior. Redueix la potencia de l'incendi i incrementa la probabilitat de\nsupervivència de les víctimes.\n−Permet millorar les condicions per a l’equip interior i alenteix l’evolució de l’incendi.\n−Pot realitzar-se per finestres, portes obertes o façanes trencades.\n−No substitueix l’atac interior, sinó que el prepara i el fa més segur.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T24 - Intervenció bàsica en incendis estructurals",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consisteix en un atac ofensiu exterior a nivell de terra",
+      "B": "Consisteix en un atac defensiu interior en altura",
+      "C": "Consisteix en un atac defensiu exterior a nivell de terra",
+      "D": "Consisteix en un atac ofensiu exterior en altura"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  }
+]

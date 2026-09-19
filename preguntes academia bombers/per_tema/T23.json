@@ -1,200 +1,3582 @@
 [
   {
-    "id": "academia_sim9_q73",
-    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útil generalment?",
-    "correct": "B",
-    "explanation": "L'espessant incrementa la viscositat de l'aigua, fet que facilitarà que aquesta s'adhereixi a les branques i branquillons de\nles capçades.",
+    "id": "academia_sim1_q68",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, un material amb una velocitat mitja de caiguda de gotes o partícules inflamades rebrà la següent denominació:",
+    "correct": "A",
+    "explanation": "d0: nul·la caiguda de gotes o partícules.\nd1: mitja caiguda de gotes o partícules.\nd2: alta caiguda de gotes o partícules.\nLa \"d\" fa referència a \"drop\".",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "d1",
+      "B": "d2",
+      "C": "d3",
+      "D": "d4"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q79",
+    "statement": "Quin paràmetre mesura la rigidesa d'un material elàstic?",
+    "correct": "B",
+    "explanation": "Pèndol de Charpy: calcula la resiliència d'un material.\nAssaig de Brinell i assaig de Vickers: assajos de duresa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pèndol de Charpy",
+      "B": "El mòdul de Young",
+      "C": "L'assaig de Brinell",
+      "D": "La prova de Vickers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q85",
+    "statement": "Per a les BIE amb mànega semirígida o plana, el sistema de BIE es sotmetrà, abans de la posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa a una pressió estàtica igual a la màxima de servei i, com a mínim, a ____, mantenint aquesta pressió durant _____ com a mínim.",
+    "correct": "C",
+    "explanation": "10 kg/cm² = 980 kPa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 kg/cm² // una hora",
+      "B": "15 kg/cm² // dues hores",
+      "C": "10 kg/cm² // dues hores",
+      "D": "15 kg/cm² // una hora"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q19",
+    "statement": "La llar tipus per a focs de la classe B consisteix en:",
+    "correct": "C",
+    "explanation": "Els recipients seran de xapa d'acer soldada.\nLa profunditat de l'aigua és d'uns 10 mm i la de combustible 20 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un recipient cilíndric de xapa d'acer galvanitzat omplert amb una tercera part d'aigua i dues terceres parts de metà",
+      "B": "Un barril cilíndric de 40 cm de diàmetre i 120 cm d'altura, omplert amb acetilè en la seva totalitat",
+      "C": "Una sèrie de recipients cilíndrics omplerts amb una tercera part d'aigua i dues terceres parts d'heptà",
+      "D": "Una estructura de secció quadrada de 20 × 20 cm, amb una altura de 120 cm i omplert al 80% amb acetona, que en alguns casos regulats podrà ser substituïda per benzè"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q27",
+    "statement": "La fatiga d'un element constructiu és:",
+    "correct": "A",
+    "explanation": "Cansament: disminució de la resistència a la ruptura d'un material o element constructiu elàstic sotmès a càrregues\npermanents molt elevades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La disminució de la resistència a la ruptura d'un material o element constructiu elàstic sotmès a tensions d'intensitat i signe variables",
+      "B": "La disminució de la resistència a la ruptura d'un material o element constructiu elàstic sotmès a càrregues permanents molt elevades",
+      "C": "La oposició que presenta un material o element constructiu a ser travessat per qualsevol agent extern",
+      "D": "La capacitat d'un material o element constructiu per a suportar accions externes sense trencar-se o deformar-se excessivament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q80",
+    "statement": "Segons el RIPCI, cada sis mesos s'ha de comprovar que les vàlvules de seccionament de les columnes seques estan:",
+    "correct": "A",
+    "explanation": "Altres comprovacions:\n- Maniobrar les claus per comprovar-ne el correcte funcionament.\n- Comprovar la senyalització.\n- Comprovar que les claus de les connexions siameses estan tancades.\n(...)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Obertes",
+      "B": "Ben senyalitzades",
+      "C": "Tancades",
+      "D": "Greixades  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q5",
+    "statement": "La distància entre dues columnes seques, seguint els recorreguts d'evacuació, ha de ser inferior a:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60 m",
+      "B": "120 m",
+      "C": "La distància que marqui el CTE segons la tipologia de l'edifici",
+      "D": "60 milles"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q17",
+    "statement": "Quin dels següents supòsits no descriu una escala especialment protegida?",
+    "correct": "B",
+    "explanation": "El DB-SI defineix l'escala especialment protegida d'aquesta manera:\n\"Escala que reuneix les condicions d'escala protegida i que, a més, disposa d'un vestíbul d'independència diferent en\ncadascun dels seus accessos des de cada planta. L'existència d'aquest vestíbul d'independència no és necessària quan\nes tracti d'una escala oberta a l'exterior, ni a la planta de sortida de l'edifici quan es tracti d'una escala d'evacuació\nascendent, podent l'escala en aquesta planta de prescindir de la compartimentació\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una escala que reuneix les condicions d'escala protegida i que, a més a més, disposa d'un vestíbul d'independència diferent a cada un dels seus accessos des de cada planta",
+      "B": "Una escala protegida sense vestíbul d'independència, destinada exclusivament a la circulació i equipada amb un sistema automàtic d'extinció",
+      "C": "Una escala protegida oberta a l'exterior sense vestíbul d'independència en el seu accés",
+      "D": "Una escala protegida d'evacuació ascendent sense vestíbul d'independència a la planta de sortida de l'edifici"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q22",
+    "statement": "Segons el RIPCI, la prova de la instal·lació en les condicions de la seva recepció en columnes seques s'efectuarà:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada sis mesos",
+      "B": "Cada any",
+      "C": "Cada cinc anys",
+      "D": "Cada deu anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q45",
+    "statement": "Un revestiment combustible amb una contribució limitada al foc, que produeix fums en opacitat mitja i gotes també en grau mig s'anomena:",
+    "correct": "A",
+    "explanation": "A1: No Combustible. Sense contribució en grau màxim al foc\nA2: No Combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitja al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense classificar.\ns1: baixa opacitat.\ns2: mitja opacitat.\ns3: alta opacitat.\nd0: nul·la caiguda de gotes o partícules.\nd1: mitja caiguda de gotes o partícules.\nd2: alta caiguda de gotes o partícules.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C-s2, d1",
+      "B": "B-s1, d2",
+      "C": "A-s3, d3",
+      "D": "D-s1, d1"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q57",
+    "statement": "D'acord amb el CTE, s'exigirà la instal·lació de BIEs en edificis d'ús comercial si:",
+    "correct": "D",
+    "explanation": "També seran 500 m² en el cas d'edificis de pública concurrència o aparcament (excloent-ne aparcaments robotitzats).\n(Secció SI 4, Taula 1.1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La superficie construïda excedeix els 1.000 m²",
+      "B": "La superficie construïda excedeix els 2.500 m²",
+      "C": "La superficie construïda excedeix els 2.000 m²",
+      "D": "La superficie construïda excedeix els 500 m²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q2",
+    "statement": "Un dels mecanismes davant d'una situació de xoc pot ser la oligúria, que és:",
+    "correct": "B",
+    "explanation": "L'oliguria és una emissió inferior a 30 mil·lilitres/h del pacient.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una deshidratació general de l'organisme",
+      "B": "Una anormalment baixa emissió d'orina",
+      "C": "Una disminució de l'aportació sanguínia als teixits",
+      "D": "Cap de les respostes és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q25",
+    "statement": "En el cas que el fabricant no estableixi una vida útil per les BIE, es considerarà de:",
+    "correct": "D",
+    "explanation": "RIPCI, Secció 1ª, taula II.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Deu anys",
+      "B": "Cinc anys",
+      "C": "Vint-i-cinc anys",
+      "D": "Vint anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q51",
+    "statement": "Segons el RIPCI, quina d'aquestes BIE haurà de romandre obligatòriament dins d'un armari?",
+    "correct": "B",
+    "explanation": "En el cas de la BIE de mànega semirígida o d'alta pressió, l'armari serà opcional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BIE de mànega semirígida",
+      "B": "BIE de mànega plana",
+      "C": "BIE d'alta pressió",
+      "D": "Totes hauran de romandre dins d'un armari obligatòriament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q64",
+    "statement": "Quantes classes de foc reconeix el Reglament d'instal·lacions de protecció contra incendis (RIPCI)?",
+    "correct": "B",
+    "explanation": "Classe A, classe B, classe C, classe D, classe F.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quatre classes",
+      "B": "Cinc classes",
+      "C": "Sis classes",
+      "D": "Set classes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q11",
+    "statement": "Segons el RIPCI, quin diàmetre s'admet per una BIE de mànega plana?",
+    "correct": "A",
+    "explanation": "En el cas de BIE de mànega semirígida el diàmetre admès és 25 mm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "45 mm",
+      "B": "25 mm",
+      "C": "12 mm",
+      "D": "65 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q22",
+    "statement": "Sobre l'aspiració dels líquids, és fals que:",
+    "correct": "C",
+    "explanation": "L'alçada teòrica d'aspiració de l'aigua és de 10,33 metres (la real, entre els 7 i els 8 metres).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els líquids tendeixen a anar de zones de major a menor pressió",
+      "B": "A major alçada, major dificultat per aspirar un líquid amb una bomba",
+      "C": "L'alçada teòrica d'aspiració de l'aigua es troba entre els set i els vuit metres",
+      "D": "L'alçada màxima a la que podrem arribar a aspirar un líquid coincidirà amb el moment on la pressió interior del conducte i la de l'exterior s'igualin"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q72",
+    "statement": "D'acord amb el CTE, s'exigirà la instal·lació de BIEs en edificis d'ús docent si:",
+    "correct": "B",
+    "explanation": "En edificis d'ús administratiu també seran 2.000 m² (Secció SI 4, Taula 1.1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La superficie construïda excedeix els 1.000 m²",
+      "B": "La superficie construïda excedeix els 2.000 m²",
+      "C": "La superficie construïda excedeix els 500 m²",
+      "D": "La superficie construïda excedeix els 2.500 m²  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q94",
+    "statement": "El RIPCI, referent al manteniment dels extintors d'incendi, indica que la realització de la prova nivell C (timbratge) s'efectuarà:",
+    "correct": "D",
+    "explanation": "D'acord amb el que estableix l'annex III del Reglament d'equips a pressió.\nA partir de la data de timbratge de l'extintor (i per tres vegades) s'ha de procedir al seu retimbratge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada any",
+      "B": "Cada cinc anys",
+      "C": "Cada quinze anys",
+      "D": "Cada vint anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q15",
+    "statement": "Quina de les següents característiques haurà de complir una escala protegida?",
+    "correct": "C",
+    "explanation": "L'escala protegida tindrà com a màxim dos accessos a cada planta, els quals es realitzaran a través de portes EI2 60-C5.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les dues respostes són correctes",
+      "B": "Haurà de tenir com a màxim dos accessos a cada planta, els quals es realitzin a través de portes EI2 30-C5",
+      "C": "A la planta de sortida de l'edifici, la longitud del recorregut des de la porta de sortida del recinte de l'escala fins a una sortida de l'edifici no haurà d'excedir els 15 metres",
+      "D": "Les dues respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q88",
+    "statement": "Segons el RIPCI 2017, la prova de funcionament de tots els polsadors dels dispositius d'activació manual d'alarma es realitzarà:",
+    "correct": "C",
+    "explanation": "Cada 3 mesos s'haurà de comprovar la senyalització dels polsadors manuals d'alarma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada 3 mesos",
+      "B": "Cada 6 mesos",
+      "C": "Cada any",
+      "D": "Cada 5 anys  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q2",
+    "statement": "Quan es prevegin riscos de gelades només s'admetran hidrants de columna de tipus:",
+    "correct": "C",
+    "explanation": "RIPCI - Sistemes d'hidrants contra incendis - punt 2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un catalitzador",
-      "B": "Un espessant",
-      "C": "Un humectant",
-      "D": "Un anticongelant G11 o G12"
-    }
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim12_q88",
-    "statement": "És el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa:",
-    "correct": "A",
-    "explanation": "El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a\ncausa de la radiació solar.",
+    "id": "academia_sim9_q74",
+    "statement": "Respecte als polsadors d'alarma d'incendi, la distància des de qualsevol origen d'evacuació fins al polsador més proper:",
+    "correct": "B",
+    "explanation": "Els polsadors hauran d'estar col·locats entre 80 i 120 cm del terra.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No podrà superar els 20 metres",
+      "B": "Serà de 25 metres, com a màxim",
+      "C": "No podrà superar els 50 metres",
+      "D": "Serà de 15 metres, com a màxim"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q17",
+    "statement": "Segons el CTE DB-SI, en l’interior del local o de la zona en qüestió s’instal·laran, a més de l'extintor proper a la porta d'accés, els extintors suficients perquè la longitud del recorregut real fins a algun d’ells, inclòs el situat a l’exterior, no sigui major de ____ en locals o zones de risc especial alt.",
+    "correct": "B",
+    "explanation": "15 metres per risc mig i baix, 10 metres per risc especial alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 metres",
+      "B": "10 metres",
+      "C": "5 metres",
+      "D": "6 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q65",
+    "statement": "La connexió de planta (sense clau de seccionament):",
+    "correct": "A",
+    "explanation": "Les connexions de planta amb clau de seccionament seran IPF-40.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serà IPF-39 i tindrà el seu centre a 90 cm del terra",
+      "B": "Serà IPF-39 i tindrà el seu centre a 120 cm del terra",
+      "C": "Serà IPF-40 i tindrà el seu centre a 90 cm del terra",
+      "D": "Serà IPF-40 i tindrà el seu centre a 120 cm del terra"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q19",
+    "statement": "El RIPCI contempla hidrants de sota terra de tres sortides?",
+    "correct": "A",
+    "explanation": "En tindran o una o dues.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No",
+      "B": "Si, però únicament els de 100 mm",
+      "C": "Si, però únicament els de 80 mm",
+      "D": "Si, tot i que ja no se'n fabriquen"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q32",
+    "statement": "Segons el RIPCI, en el cas de les BIE d'alta pressió, el sistema de BIE se sotmetrà, abans de la seva posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa una pressió:",
+    "correct": "A",
+    "explanation": "En el cas de BIE's de mànega semirígida o plana, se les sotmetrà a una pressió estàtica de 10 kg/cm² (980 kPa) durant\nun mínim de dues hores.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 1,5 cops la pressió màxima de treball, durant dues hores com a mínim",
+      "B": "Que equivaldrà a la màxima de treball, durant dues hores com a mínim",
+      "C": "De 10 kg/cm² durant dues hores com a mínim",
+      "D": "De 15 kg/cm² durant dues hores com a màxim  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q37",
+    "statement": "Quina potència oferirà un motor de 20V i 6A?",
+    "correct": "A",
+    "explanation": "P = V × I = 20 × 6 = 120 W.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "120 W",
+      "B": "100 W",
+      "C": "3,3 W",
+      "D": "26 W"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q43",
+    "statement": "Com s'anomena la isolínia que uneix els punts en un plànol cartogràfic que presenten la mateixa precipitació en la unitat de temps considerada?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Isòbara",
+      "B": "Isòbata",
+      "C": "Isohieta",
+      "D": "Isohipsa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q57",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, un material amb denominació \"s1\":",
+    "correct": "A",
+    "explanation": "La \"s\" fa referència a \"smoke\".\ns1: baixa opacitat\ns2: mitja opacitat\ns3: alta opacitat",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofereix una baixa opacitat de fums",
+      "B": "Ofereix una alta opacitat de fums",
+      "C": "Ofereix una mitja opacitat de fums",
+      "D": "Ofereix una opacitat de fums nul·la"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q50",
+    "statement": "Segons el RIPCI, la comprovació de l'accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats s'efectuarà:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 12",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vent catabàtic",
-      "B": "Vent anabàtic",
-      "C": "Marinada",
-      "D": "Terral  acadèmia bombers"
-    }
+      "A": "Cada tres mesos",
+      "B": "Cada sis mesos",
+      "C": "Cada any",
+      "D": "Cada cinc anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim15_q82",
-    "statement": "Quin nom rep el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar?",
-    "correct": "A",
-    "explanation": "El vent catabàtic, en canvi, és descendent.",
+    "id": "academia_sim13_q64",
+    "statement": "Quants metres com a màxim hi pot haver des de la sortida d'una escala especialment protegida fins a la sortida d'un edifici si el recorregut no es fa a través d'un sector de risc mínim?",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 metres",
+      "B": "20 metres",
+      "C": "5 metres",
+      "D": "15 metres  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q24",
+    "statement": "Segons el RIPCI, quin nom rep l'extintor dissenyat perquè es pugui portar i utilitzar a mà?",
+    "correct": "B",
+    "explanation": "Extintor portàtil: portar i utilitzar a mà.\nExtintor mòbil: transportar i accionar a mà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 15",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vent anabàtic",
-      "B": "Vent catabàtic",
-      "C": "Efecte Fohn",
-      "D": "Coriolis"
-    }
+      "A": "Extintor mòbil",
+      "B": "Extintor portàtil",
+      "C": "Extintor d'arqueta",
+      "D": "Extintor dorsal  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim18_q32",
-    "statement": "Vent que bufa cap amunt en les vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar:",
-    "correct": "D",
-    "explanation": "El vent catabàtic, en canvi, és el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a\ncausa de la radiació emesa.",
+    "id": "academia_sim16_q28",
+    "statement": "Segons el RD 513/2017, de 22 de Maig, per assegurar els nivells de protecció de les BIE amb mànega semirígida, el factor K mínim serà:",
+    "correct": "B",
+    "explanation": "I per les BIE de mànega plana, de 85.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 46",
+      "B": "De 42",
+      "C": "De 83",
+      "D": "De 85"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q84",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, a quina classe correspondrà un material combustible que ofereix una \"contribució mitja al foc\"?",
+    "correct": "C",
+    "explanation": "A1: No Combustible. Sense contribució en grau màxim al foc.\nA2: No Combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitja al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense classificar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "B",
+      "B": "C",
+      "C": "D",
+      "D": "E"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q58",
+    "statement": "Segons el DB-SI, els edificis d'ús no industrial, en general, hauran de disposar d'un extintor d'eficàcia 21A 113B...",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A les plantes imparells, fins la vuitena",
+      "B": "A 15 metres de recorregut a cada planta, com a màxim, des de tot origen d'evacuació",
+      "C": "A les plantes parells",
+      "D": "Cada 30 metres de recorregut a cada planta, com a màxim, des de tot origen d'evacuació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q61",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, un material amb denominació \"s2\":",
+    "correct": "B",
+    "explanation": "La \"s\" fa referència a \"smoke\".\ns1: baixa opacitat\ns2: mitja opacitat\ns3: alta opacitat",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ofereix una baixa opacitat de fums",
+      "B": "Ofereix una mitja opacitat de fums",
+      "C": "Ofereix una alta opacitat de fums",
+      "D": "Ofereix una alta caiguda de gotes o partícules inflamades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q64",
+    "statement": "Segons el RIPCI, per a les BIE amb mànega semirígida o plana, el sistema de BIE es sotmetrà, abans de la posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa a una pressió estàtica igual a la màxima de servei i de, com a mínim:",
+    "correct": "A",
+    "explanation": "Durant 2 hores.\n980 Kpa = 10 kg/cm².\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "980 KPa",
+      "B": "3.450 KPa",
+      "C": "1.470 KPa",
+      "D": "2.450 KPa  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q6",
+    "statement": "Segons el RIPCI 2017, per assegurar els nivells de protecció, el \"factor K\" mínim per a les BIE de mànega semirígida serà de ___, i per les BIE de mànega plana, de ___.",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 18",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Terral",
-      "B": "Marinada",
-      "C": "Vent catabàtic",
-      "D": "Vent anabàtic  acadèmia bombers"
-    }
+      "A": "45 / 25",
+      "B": "42 / 80",
+      "C": "42 / 85",
+      "D": "40 / 50"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim20_q90",
-    "statement": "En un incendi forestal que es desenvolupés en una situació atmosfèrica d'inversió tèrmica, què passaria si aquest fenomen desaparegués?",
+    "id": "academia_sim18_q27",
+    "statement": "Segons el document bàsic de seguretat contra els incendis (DB-SI), s'instal·laran columnes seques en ús hospitalari si l'altura d'evacuació excedeix els:",
+    "correct": "C",
+    "explanation": "En ús comercial, administratiu i residencial habitatge, entre d'altres, s'instal·larà si l'altura d'evacuació excedeix els 24\nmetres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 metres",
+      "B": "8 metres",
+      "C": "15 metres",
+      "D": "28 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q53",
+    "statement": "Segons el CTE, quina de les següents característiques respecte la placa de senyalització d'hidrants serà falsa?",
     "correct": "B",
+    "explanation": "Les plaques de senyalització d'hidrants tenen una mida de 25×20 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estarà ubicada a la façana de l'edifici que protegeix",
+      "B": "Tindrà una mida de 40×30 cm",
+      "C": "Normalment hi trobarem el diàmetre nominal en la part superior",
+      "D": "El marc de la placa serà de color vermell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q31",
+    "statement": "Segons el RIPCI, els polsadors manuals d'alarma d'incendis se situaran de manera que la distància màxima a recórrer des de qualsevol punt considerat com a origen d'evacuació fins el polsador sigui de:",
+    "correct": "D",
+    "explanation": "Els polsadors se situaran de manera que la part superior del dispositiu quedi a una alçada d'entre 80 i 120 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 metres",
+      "B": "10 metres",
+      "C": "30 metres",
+      "D": "25 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q53",
+    "statement": "Segons el CTE, quan es col·loca un sistema d'alarma en locals de pública concurrència?",
+    "correct": "C",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En establiments de més de 1.000 m²",
+      "B": "En establiments de més de 500 m²",
+      "C": "En establiments amb ocupació de més de 500 persones",
+      "D": "En establiments de més de 2.500 m²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q27",
+    "statement": "El vestíbul d'independència de l'escala especialment protegida...",
+    "correct": "D",
+    "explanation": "Si el local té consideració de risc especial mig o alt, disposarà del seu propi vestíbul d'independència previ al vestíbul\nd'independència de l'escala.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 20",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Que els corrents de convecció creats per l'incendi tindrien més dificultats per ascendir",
-      "B": "Que l'incendi s'acceleraria",
-      "C": "Que el vent canviaria bruscament de direcció, i conseqüentment l'avanç de l'incendi",
-      "D": "Que l'incendi passaria a avançar més lentament"
-    }
+      "A": "Tindrà com a màxim dos accessos, sense comptar la porta de pas cap a l'escala",
+      "B": "Si el local o zona no té consideració de risc especial d'incendi o és de risc especial baix, l'accés es realitzarà amb la porta EI2 30 C5",
+      "C": "Tindrà parets EI 120",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim21_q22",
-    "statement": "Quin d'aquests termes no fa referència a una part d'un incendi forestal?",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim20_q53",
+    "statement": "Segons el RIPCI, les mànegues que equipen una BIE d'alta pressió han de ser d'un diàmetre interior nominal:",
+    "correct": "C",
+    "explanation": "S'admeten diàmetres superiors sempre que en l'avaluació tècnica se'n justifiqui la manejabilitat (RIPCI 5.2).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 12 mm",
+      "B": "De 25 mm",
+      "C": "No superior a 12 mm",
+      "D": "No superior a 25 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q55",
+    "statement": "Menyspreant les forces de fregament, quin avantatge mecànic ens oferirà un pla inclinat de tres metres d'alçada i dotze de llargada?",
+    "correct": "B",
+    "explanation": "AM = Llargada / alçada = 12 m / 3 m = 4.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un AM de 36",
+      "B": "Un AM de 4",
+      "C": "Un AM de 0,25",
+      "D": "Ens fa falta saber la longitud de la rampa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q69",
+    "statement": "Per a considerar una zona protegida per hidrants contra incendis, un dels hidrants haurà de tenir una sortida de:",
+    "correct": "D",
+    "explanation": "Estarà situat, a ser possible, a l'entrada de l'edifici i orientat perpendicularment a la façana i d'espatlles a la mateixa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "150 mm",
+      "B": "35 mm",
+      "C": "70 mm",
+      "D": "100 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q5",
+    "statement": "Segons el RIPCI, per a les BIE amb mànega semirígida o plana, la separació màxima entre cada BIE i la més propera serà de:",
+    "correct": "A",
+    "explanation": "La distància des de qualsevol punt de l'àrea protegida fins la BIE més propera no haurà d'excedir el seu radi d'acció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 21",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Front",
-      "B": "Bossa",
-      "C": "Llengua o dit",
-      "D": "Totes fan referència a parts d'un incendi forestal"
-    }
+      "A": "50 metres",
+      "B": "El radi d'acció de la BIE",
+      "C": "60 metres",
+      "D": "15 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim26_q26",
-    "statement": "Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?",
+    "id": "academia_sim21_q62",
+    "statement": "Com anomenem al complement de núvol en forma de vel o cortina format per les gotes o cristalls de glaç que es precipiten i s'evaporen completament abans d'arribar a la superfície terrestre?",
     "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La virga",
+      "B": "La miura",
+      "C": "La gartxa",
+      "D": "La marinada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q56",
+    "statement": "Quina classificació tindrà un element que no ofereix caiguda de gotes o partícules inflamades durant més de 10 segons en 600 segons?",
+    "correct": "B",
+    "explanation": "d0: nul·la caiguda de gotes o partícules.\nd1: mitja caiguda de gotes o partícules.\nd2: alta caiguda de gotes o partícules.\nLa \"d\" fa referència a \"drop\".\nLa \"d3\" no existeix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "d0",
+      "B": "d1",
+      "C": "d2",
+      "D": "d3  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q57",
+    "statement": "A quina bomba ens referim si parlem d'una bomba que compensa les pressions?",
+    "correct": "D",
+    "explanation": "La bomba jockey s'encarrega de mantenir la pressió dins els límits del correcte funcionament en una instal·lació contra\nincendis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la bomba elèctrica",
+      "B": "A la bomba de gasoil",
+      "C": "A un hidroejector o derivats",
+      "D": "A una bomba jockey"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q58",
+    "statement": "Segons el RIPCI, la comprovació de la senyalització de les BIE es realitzarà:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada tres mesos",
+      "B": "Cada sis mesos",
+      "C": "Cada any",
+      "D": "Cada cinc anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q94",
+    "statement": "Quin dels següents núvols podrem arribar a trobar a una major alçada?",
+    "correct": "D",
+    "explanation": "Cúmuls: menys de 2 km.\nAltocúmuls: 2 - 6 km.\nNimbostratus: fins els 7 - 8 km.\nCirrostratus: 6 - 12 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cúmuls",
+      "B": "Nimbostratus",
+      "C": "Altocúmuls",
+      "D": "Cirrostratus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q55",
+    "statement": "Quin dels següents mètodes de protecció contra incendis correspon a un mètode de protecció passiva?",
+    "correct": "B",
+    "explanation": "Els extractors de fum són Protecció Activa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els extractors de fum",
+      "B": "Les portes tallafocs",
+      "C": "Els extintors",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q57",
+    "statement": "Per a les BIE amb mànega semirígida o plana, el sistema de BIE es sotmetrà, abans de la posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa a una pressió estàtica igual a la màxima de servei i, com a mínim:",
+    "correct": "B",
+    "explanation": "10 kg/cm² = 980 kPa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 kg/cm², mantenint aquesta pressió durant una hora",
+      "B": "10 kg/cm², mantenint aquesta pressió durant dues hores",
+      "C": "15 kg/cm², mantenint aquesta pressió durant dues hores",
+      "D": "15 kg/cm², mantenint aquesta pressió durant una hora"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q55",
+    "statement": "El DB-SI exigeix la instal·lació de columnes seques en edificis d'ús aparcament si:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Existeixen més de tres plantes sota rasant o més de quatre sobre rasant, amb sortides en totes les plantes",
+      "B": "L'alçada d'evacuació excedeix els 24 metres",
+      "C": "Existeixen més de tres plantes sobre rasant o més de quatre sota rasant, amb sortides en totes les plantes",
+      "D": "L'alçada d'evacuació excedeix els 15 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q56",
+    "statement": "Segons el RIPCI, quina distància màxima existirà entre qualsevol origen d'evacuació fins al polsador d'alarma d'incendi més proper?",
+    "correct": "A",
+    "explanation": "A part, hauran d'estar col·locats entre 80 i 120 cm del terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5 metres",
+      "B": "15 metres",
+      "C": "25 metres",
+      "D": "50 metres  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q57",
+    "statement": "Segons el RIPCI, quin diàmetre interior nominal han d'oferir les mànegues que equipen una BIE d'alta pressió?",
+    "correct": "A",
+    "explanation": "S'admeten diàmetres superiors sempre que en l'avaluació tècnica se'n justifiqui la manejabilitat (RIPCI 5.2).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No superior a 12 mm",
+      "B": "De 15 mm",
+      "C": "De 12 mm",
+      "D": "No superior a 15 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q59",
+    "statement": "Quina és la finalitat de la compartimentació en sectors d'incendi?",
+    "correct": "C",
+    "explanation": "Amb l’objectiu de limitar la propagació de l’incendi per l’interior de l’edifici, aquest s’ha de compartimentar en sectors\nd’incendi - DB SI.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Col·laborar en l'extinció d'un incendi",
+      "B": "Reduïr la càrrega de foc i facilitar el pas i l'accés al foc als equips d'extinció",
+      "C": "Limitar l'extensió de l'incendi",
+      "D": "Prevenir la gestació d'un incendi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q80",
+    "statement": "D'acord amb el CTE, seran d'imperativa instal·lació les BIEs en edificis de pública concurrència:",
+    "correct": "B",
+    "explanation": "També se n'instal·laran, si s'excedeixen els 500 m², a edificis d'ús comercial o aparcament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si l'altura d'evacuació excedeix els 24 metres",
+      "B": "Si la superfície construïda excedeix els 500 m²",
+      "C": "Si la superfície construïda excedeix els 2.000 m²",
+      "D": "Si la superfície construïda excedeix els 1.000 m²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q88",
+    "statement": "Quin és l'embassament amb major capacitat de Catalunya?",
+    "correct": "D",
+    "explanation": "Té una capacitat de 688 hm³. L'embassament de Mequinensa té una major capacitat però forma part de la Comunitat\nd'Aragó.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Susqueda",
+      "B": "Rialb",
+      "C": "Riba-roja",
+      "D": "Canelles"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q56",
+    "statement": "Quina de les classificacions següents de reacció al foc és certa?",
+    "correct": "D",
+    "explanation": "A1: No combustible. Sense contribució en grau màxim al foc.\nA2: No combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitjana al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense Classificar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Classe C: Combustible. Contribució molt limitada al foc.",
+      "B": "Classe F: Combustible. Contribució alta al foc.",
+      "C": "Classe B: Combustible. Contribució limitada al foc.",
+      "D": "Classe D: Combustible. Contribució mitjana al foc.  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q69",
+    "statement": "La fusta, com a material constructiu:",
+    "correct": "C",
+    "explanation": "La fusta és un material lleuger amb una alta capacitat de càrrega, amb un coeficient tèrmic de dilatació molt baix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mostra una gran capacitat de dilatació tèrmica",
+      "B": "Prové d'una font no renovable",
+      "C": "Presenta un baix poder d'aïllament acústic",
+      "D": "És un material pesat amb una alta capacitat de càrrega"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q56",
+    "statement": "Per la majoria dels usos de les edificacions, la condició que exigeix el DB-SI per a la instal·lació de columnes seques és la de superar els 24 metres d'alçada d'evacuació. En quin dels següents casos no serà així?",
+    "correct": "C",
+    "explanation": "En ús hospitalari, si l'alçada d'evacuació excedeix els 15 m.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 26",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "45°",
-      "B": "90°",
-      "C": "60°",
-      "D": "0°"
-    }
+      "A": "En ús residencial habitatge",
+      "B": "En ús comercial",
+      "C": "En ús hospitalari",
+      "D": "En ús docent  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim34_q73",
-    "statement": "Com s'anomena el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar?",
-    "correct": "B",
-    "explanation": "El vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa rep el\nnom de vent catabàtic.",
+    "id": "academia_sim26_q83",
+    "statement": "Quin valor rep el meridià central de la Zona UTM X?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un valor de 100.000 metres",
+      "B": "Un valor de 1.000.000 metres",
+      "C": "Un valor de 500.000 metres",
+      "D": "Aquest valor és canviant"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q8",
+    "statement": "Un revestiment combustible amb una contribució molt limitada al foc, que produeix fums en opacitat alta i nul·la caiguda de gotes s'anomena:",
+    "correct": "D",
+    "explanation": "A1: No Combustible. Sense contribució en grau màxim al foc\nA2: No Combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitja al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense classificar.\ns1: baixa opacitat.\ns2: mitja opacitat.\ns3: alta opacitat.\nd0: nul·la caiguda de gotes o partícules.\nd1: mitja caiguda de gotes o partícules.\nd2: alta caiguda de gotes o partícules.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C-s2, d1",
+      "B": "B-s1, d0",
+      "C": "C-s3, d1",
+      "D": "B-s3, d0  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q54",
+    "statement": "Quin sistema és l'encarregat de produir la guspira en motors tipus Otto?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de transmissió",
+      "B": "El sistema de distribució",
+      "C": "El sistema d'alimentació",
+      "D": "El sistema de lubricació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q58",
+    "statement": "Quin dels següents sistemes de ruixadors automàtics actuarà més ràpidament?",
+    "correct": "C",
+    "explanation": "Això es deu a què en aquest sistema els tubs són plens d'aigua a pressió i no requereix l'obertura d'una vàlvula per fer\npassar l'aigua per la canonada. L'aigua es troba previnguda per sortir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema per canonada seca",
+      "B": "El sistema d'Acció prèvia",
+      "C": "El sistema per canonada mullada",
+      "D": "Tots tres igual, si fa o no fa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q59",
+    "statement": "Segons el CTE DB-SI, quan serà preceptiva la instal·lació, de forma general, de ruixadors?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En tot edifici amb una alçada d'evacuació superior a 80 metres",
+      "B": "Si la superfície construïda supera els 2.500 m²",
+      "C": "En tot edifici amb una alçada d'evacuació superior a 24 metres",
+      "D": "En tot edifici amb una alçada d'evacuació superior a 50 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q83",
+    "statement": "Volem calcular el la distància geomètrica entre un punt A i un punt B, sabent que la distància reduïda entre els dos punts és de 40 metres i el desnivell és de 30 metres. La podem esbrinar?",
+    "correct": "C",
+    "explanation": "Apliquem el teorema de Pitàgores:\nDistància geomètrica = √(distància reduïda² + desnivell²)\nx = √(40² + 30²)\nx = √(1.600 + 900) = √2.500 = 50 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si, és de 60 metres",
+      "B": "Si, és de 70 metres",
+      "C": "Si, és de 50 metres",
+      "D": "No, ens falten dades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q12",
+    "statement": "D'acord amb el RIPCI, quin diàmetre interior nominal han d'oferir les mànegues que equipen una BIE d'alta pressió?",
+    "correct": "B",
+    "explanation": "S'admeten diàmetres superiors sempre que en l'avaluació tècnica se'n justifiqui la manejabilitat (RIPCI 5.2).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "25 mm",
+      "B": "No superior a 12 mm",
+      "C": "No superior a 45 mm",
+      "D": "12 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q82",
+    "statement": "L'estatge basal es comprèn entre els 0 i els 600-900 metres d'altitud. Quina és la formació boscosa més característica d'aquest estatge?",
+    "correct": "A",
+    "explanation": "També anomenada terra baixa, es caracteritza per tenir un clima temperat, d'hiverns suaus i estius secs. Hi predomina la\nvegetació típicament mediterrània, constituïda per plantes de fulla petita, perenne i escleròfil·la.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alzinar",
+      "B": "El roure",
+      "C": "El pi blanc",
+      "D": "L'avetosa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q93",
+    "statement": "Què són els ralentitzadors d'un camió?",
+    "correct": "B",
+    "explanation": "El control de velocitat de creuer és un sistema d'ajuda a la conducció que permet mantenir una velocitat prefixada pel\nconductor de forma automàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són un sistema de frenat d'estacionament",
+      "B": "Són un sistema de frenada auxiliar",
+      "C": "Són un sistema de frenat d'emergència",
+      "D": "És un sistema d'ajuda a la conducció que permet mantenir una velocitat prefixada pel conductor de forma automàtica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q20",
+    "statement": "Quina de les següents accions de manteniment d'un extintor d'incendi s'haurà de realitzar amb una freqüència anual?",
+    "correct": "B",
+    "explanation": "RIPCI - a partir de la pàgina 34.\nManteniment extintors d'incendi cada any: Efectuar les operacions de manteniment segons el que estableix el «Programa\nde manteniment anual» de la norma UNE 23120. En extintors mòbils, s’ha de comprovar, addicionalment, el bon estat del\nsistema de trasllat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Verificar que els extintors són al seu lloc assignat i no presenten mostres aparents de danys",
+      "B": "En extintors mòbils s’ha de comprovar el bon estat del sistema de trasllat",
+      "C": "Realitzar una prova de nivell C (timbratge), d’acord amb el que estableix l’annex III del Reglament d’equips a pressió",
+      "D": "Verificar que són adequats de conformitat amb el risc que s’ha de protegir"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q36",
+    "statement": "Sobre les BIE's de mànega semirrígida és fals que:",
+    "correct": "B",
+    "explanation": "Les mànegues semirrígides ofereixen 25 mm de diàmetre.\nFactor K BIE 25 mm: 42\nFactor K BIE 45 mm: 85",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Treballin a menor pressió que les BIE's de mànega plana",
+      "B": "La mànega ofereixi un radi de 25 mm",
+      "C": "Permeti enrotllar a la mateixa a la devanadora sense que s'aixafi per acció del pes, i permet que l'aigua hi circuli sense necessitat de desplegar-la del tot",
+      "D": "Hagin d'assegurar un factor K mínim diferent que les BIE's de mànega plana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q55",
+    "statement": "Quin significat tindrà la classificació \"d1\" segons la classificació europea de reacció al foc de materials de construcció per a gotes/partícules en flames?",
+    "correct": "B",
+    "explanation": "d0: sense caiguda en 600 segons.\nd1: caiguda de gotes o partícules inferior a 10s durant 600 segons.\nd2: caiguda de gotes o partícules superior a 10s durant 600 segons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La caiguda de gotes o partícules inflamades succeeix durant menys de 2 segons, durant un període d'assaig de 100 segons",
+      "B": "La caiguda de gotes o partícules inflamades succeeix durant menys de 10 segons, durant un període d'assaig de 600 segons",
+      "C": "No tindrà caiguda de gotes o partícules inflamades dos minuts",
+      "D": "La caiguda de gotes o partícules inflamades succeeix durant menys de 10 segons, durant un període d'assaig de 60 segons"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q72",
+    "statement": "L'aïllament és la capacitat d'un element constructiu de suportar l'exposició al foc només en una cara, sense que hi hagi un pas de calor significatiu a l'altre costat, evitant la propagació del foc. Quina lletra es fa servir per referir-se a aquest concepte?",
+    "correct": "A",
+    "explanation": "R: capacitat portant\nE: integritat al pas de fames i fums\nI: aïllament tèrmic",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La \"I\"",
+      "B": "La \"R\"",
+      "C": "La \"A\"",
+      "D": "La \"E\"  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q88",
+    "statement": "La vàlvula de seccionament, en columnes seques ascendents:",
+    "correct": "D",
+    "explanation": "Columnes seques ascendents: vàlvula de seccionament cada quatre plantes, per damunt de la sortida corresponent.\nColumnes seques descendents: vàlvula de seccionament a cada planta, amb la clau just per sota de la sortida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'ha d'instal·lar cada dues plantes",
+      "B": "Requerirà d'un examen particular per a la instal·lació en cada cas, on s'hi determinaran el nombre de vàlvules en funció del tram (metres) o de les plantes",
+      "C": "Serà prescindible",
+      "D": "S'ha d'instal·lar cada quatre plantes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q89",
+    "statement": "El sistema de gestió i la unitat de control formen part dels components principals de:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema del vehicle híbrid",
+      "B": "El sistema del vehicle elèctric",
+      "C": "El sistema dels motors d'explosió (Otto)",
+      "D": "El sistema del vehicle híbrid i el sistema del vehicle elèctric, respectivament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q95",
+    "statement": "A quina categoria pertany un dipòsit de superfície amb un volum nominal de 700 m³?",
+    "correct": "D",
+    "explanation": "Per dipòsits de superfície (aeris):\nA-1: menys de 1 m³\nA-2: 1 - 5 m³\nA-13: 5-13 m³\nA-35: 13 - 35 m³\nA-60: 35 - 60 m³\nA-120: 60 - 120 m³\nA-500: 120 - 500 m³\nA-2.000: 500 - 2.000 m³",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A-1.000",
+      "B": "E-120",
+      "C": "A-500",
+      "D": "A-2.000"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q20",
+    "statement": "Quina eficàcia mínima ha d'oferir un extintor per norma general?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "21A 113B",
+      "B": "13A 121B",
+      "C": "21A 134B",
+      "D": "13A 210B"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q66",
+    "statement": "Quins són els equips de protecció contra incendis d'ús exclusiu pels bombers?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les BIE, els hidrants exteriors i les columnes seques",
+      "B": "Les BIE i els hidrants exteriors",
+      "C": "Les BIE, els extintors i les columnes seques",
+      "D": "Les columnes seques i els hidrants exteriors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q73",
+    "statement": "Quina de les següents tasques de manteniment dels extintors s'haurà de dur a terme cada sis mesos?",
+    "correct": "D",
+    "explanation": "No requereixen cap manteniment cada sis mesos.\nReial decret 513/2017, de 22 de maig, pel qual s’aprova el Reglament d’instal·lacions de protecció contra incendis\n(RIPCI).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Realitzar una prova de nivell C (timbratge), d’acord amb el que estableix l’annex III del Reglament d’equips a pressió",
+      "B": "Comprovar el bon estat del sistema de trasllat dels extintors mòbils",
+      "C": "Comprovar la seva senyalització",
+      "D": "Cap resposta és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q79",
+    "statement": "En funció del producte, els consells de prudència es subdividiran en:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consells per la integritat física, consells per la salut i consells pel medi ambient",
+      "B": "Consells físics i consells químics",
+      "C": "Prevenció, resposta, emmagatzematge i eliminació",
+      "D": "Prevenció, evacuació, resposta, emmagatzematge i eliminació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q87",
+    "statement": "Els sistemes de protecció activa contra incendis:",
+    "correct": "B",
+    "explanation": "La protecció passiva actua indirectament sobre l'incendi amb la finalitat de frenar i controlar el foc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són aquells que tenen com a missió controlar l'avenç del foc durant un temps determinat",
+      "B": "Són aquells que tenen com a missió l'extinció del foc",
+      "C": "Actuen indirectament sobre l'incendi amb la finalitat de frenar i controlar el foc",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q95",
+    "statement": "Quin nom reben, d'acord amb el DB SI, les zones d'ocupació ocasional i accessibles únicament a efectes de manteniment?",
+    "correct": "A",
+    "explanation": "Sales de màquines, locals per a materials de neteja, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Zones d'ocupació nul·la",
+      "B": "Zones d'ocupació específica",
+      "C": "Zones d'ocupació transitòria",
+      "D": "Sales de comaratge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q35",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, un material amb denominació \"E-s3, d2\":",
+    "correct": "D",
+    "explanation": "A1, E i F no es classifiquen segons el concepte d'opacitat de fums.\nE: combustible. Contribució alta al foc.\nLa \"s\" fa referència a \"smoke\".\ns1: baixa opacitat\ns2: mitja opacitat\ns3: alta opacitat\nLa \"d\" (drop) fa referència a la caiguda de gotes o partícules:\nd0: sense caiguda de partícules o gotes inflamades\nd1: caiguda menor a 10s\nd2: no compleix els criteris ni del d0 ni d1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 34",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vent catabàtic",
-      "B": "Vent anabàtic",
-      "C": "Vent de Foehn",
-      "D": "Vent de Coriolis"
-    }
+      "A": "No ofereix caiguda de partícules o gotes inflamades",
+      "B": "La seva contribució al foc apareix sense especificar",
+      "C": "Presenta valors alts de producció i propagació de fum",
+      "D": "Presenta una nomenclatura errònia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim62_q86",
-    "statement": "Quin dels següents és un vent topogràfic?",
-    "correct": "A",
-    "explanation": "El vent anabàtic és un vent diürn de recorregut ascendent.",
+    "id": "academia_sim34_q89",
+    "statement": "Amb quina freqüència s'efectuarà la comprovació de l'accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats, d'acord amb el RIPCI?",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada nou mesos",
+      "B": "Cada sis mesos",
+      "C": "Cada any",
+      "D": "Cada tres mesos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q54",
+    "statement": "Quina d'aquestes plantes no formarà part d'una màquia?",
+    "correct": "D",
+    "explanation": "La màquia és una formació vegetal densa formada per arbustos alts (>3 metres) de fulla dura, adaptada a sequera. És\npròpia de sòls silicis i calcaris de la zona mediterrània.\nMàquia continental: garric i arçot.\nMàquia litoral: ullastre i margalló.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ullastre",
+      "B": "Garric",
+      "C": "Margalló",
+      "D": "Boix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q89",
+    "statement": "Com anomenem al conjunt de mitjans, elements i característiques físiques que ha de reunir un edifici o recinte a protegir, per evitar que davant d'un incendi, aquest col·lapsi i impedeixi que el foc i el fum es propaguin?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Protecció passiva",
+      "B": "Protecció activa",
+      "C": "Seguretat estructural",
+      "D": "Factor K"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q76",
+    "statement": "Quina definició correspon a la d'integritat davant el foc?",
+    "correct": "C",
+    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural.\nAïllament: aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la\ntransmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat",
+      "B": "Al temps que l'element pot mantenir l'estanqueïtat davant del fum, sense que es produeixi la transmissió des del costat exposat al no exposat",
+      "C": "A la capacitat que té un element constructiu, de suportar l’exposició al foc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
+      "D": "A la capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat estructural"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q28",
+    "statement": "Tret d'una altra indicació en relació amb l'ús, a partir de quina alçada d'un edifici es farà obligatòria la incorporació d'una instal·lació automàtica d'extinció?",
+    "correct": "D",
+    "explanation": "DBSI - pag. 32.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels 120 metres",
+      "B": "A partir dels 60 metres",
+      "C": "A partir dels 24 metres",
+      "D": "A partir dels 80 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q18",
+    "statement": "És una característica dels ascensors d'emergència:",
+    "correct": "B",
+    "explanation": "Tindrà com a mínim una capacitat de càrrega de 630 kg.\nSi l'accés es produeix des del recinte d'una escala especialment protegida, no caldrà disposar aquesta porta E30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Necessitarà disposar de porta E60 si l'accés es produeix des del recinte d'una escala especialment protegida",
+      "B": "A cada planta, tindrà accés des del recinte d'una escala protegida o des del vestíbul de independència d´una escala especialment protegida a través d'una porta E30",
+      "C": "Tindrà com a mínim una capacitat de càrrega de 320 kg",
+      "D": "Totes les respostes proposades són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q21",
+    "statement": "Segons el CTE, en quin cas s'exigirà la instal·lació de BIEs en edificis d'ús docent?",
+    "correct": "D",
+    "explanation": "En edificis d'ús administratiu també seran 2.000 m² (Secció SI 4, Taula 1.1).\nTambé s'exigirà la instal·lació de BIEs en edificis d'ús docent si la superficie construïda excedeix els 2.000 m².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En cas que la superficie construïda excedeix els 1.000 m²",
+      "B": "En cas que la superficie construïda excedeix els 2.500 m²",
+      "C": "En cas que la superficie construïda excedeix els 500 m²",
+      "D": "En cas que la superficie construïda excedeix els 2.000 m²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q23",
+    "statement": "Els sistemes de boques d’incendi equipades (BIE):",
+    "correct": "B",
+    "explanation": "Les BIE s’han de situar sempre a una distància, màxima, de 5 m de les sortides del sector d’incendi, mesurada sobre un\nrecorregut d’evacuació, sense que constitueixin cap obstacle per a la seva utilització.\nS’han de muntar sobre un suport rígid, de manera que el broquet i la vàlvula d’obertura manual i el sistema d’obertura de\nl’armari, si n’hi ha, estiguin situats, com a màxim, a 1,5 m sobre el nivell del sòl.\nNomés s’admeten 25 mil·límetres de diàmetre interior per a mànegues semirígides i 45 mil·límetres de diàmetre interior\nper a mànegues planes.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S’han de situar sempre a una distància, màxima, de 15 m de les sortides del sector d’incendi, mesurada sobre un recorregut d’evacuació, sense que constitueixin cap obstacle per a la seva utilització",
+      "B": "S’han de muntar sobre un suport rígid",
+      "C": "S’han de muntar de manera que el broquet i la vàlvula d’obertura manual i el sistema d’obertura de l’armari, si n’hi ha, estiguin situats, com a màxim, a 1 m sobre el nivell del sòl",
+      "D": "Només podran ser de 25 mil·límetres de diàmetre interior per a mànegues planes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q60",
+    "statement": "Quina sortida haurà d'oferir un dels hidrants per a considerar una zona protegida contra incendis?",
+    "correct": "A",
+    "explanation": "Estarà situat, a ser possible, a l'entrada de l'edifici i orientat perpendicularment a la façana i d'espatlles a la mateixa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 mm",
+      "B": "35 mm",
+      "C": "70 mm",
+      "D": "150 mm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q9",
+    "statement": "Els Erms d’Aitona són probablement el millor representant del paisatge erm a Catalunya. En quin context s'hi desenvolupen?",
+    "correct": "C",
+    "explanation": "Un erm és un sector del paisatge agrari que no produeix.\nSón erms les superfícies de roca nua o els paratges molt carstificats, on el sòl ha pràcticament desaparegut i les plantes\nsón quasi inexistents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En terrenys fèrtils i ombrívols",
+      "B": "En terres cultivades en convivència constant amb elevades humitats relatives",
+      "C": "En terra sense cultivar, àrida",
+      "D": "En terrenys impermeables, amb potencial assumpció de de plantes llenyoses"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q65",
+    "statement": "Quin és el sistema d'injecció dièsel controlat electrònicament més utilitzat a l'actualitat, tant en turismes com en vehicles industrials?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de bomba injectora rotativa amb regulació electrònica",
+      "B": "El sistema de cebat altern",
+      "C": "El sistema d'acumulador Common-Rail",
+      "D": "El sistema d'injector bomba"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q60",
+    "statement": "Quines classes de combustibilitat no es classifiquen sota el concepte de caiguda de gotes o partícules inflamades?",
+    "correct": "C",
+    "explanation": "\"Les classes A1, A1fl i A1l, i F, Ffl i Fl no es classifiquen sota aquest concepte\".\nEn el cas d'opacitat de fums, no es classificaran sota aquest concepte les classes A1, E i F.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A1, A2, B1 i F",
+      "B": "A1, E i F",
+      "C": "A1 i F",
+      "D": "A1 i A2"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q68",
+    "statement": "Es considera nucli de població, per norma general:",
+    "correct": "C",
+    "explanation": "Glossari Diputació de Barcelona.\nPer excepció, el nombre d'edificacions podrà ser inferior a deu, sempre que la població que hi habita sigui superior als\ncinquanta habitants. S'inclouen dins el nucli aquelles edificacions que, sent aïllades, estiguin a una distància de menys\nde 200 metres dels límits exteriors del mencionat conjunt, si bé en la determinació d'aquesta distància han de ser\nexclosos els terrenys ocupats per instal·lacions industrials o comercials, parcs, jardins, zones esportives, cementiris,\naparcaments i altres, així com els canals o rius que puguin ser creuats per ponts. Les edificacions o habitatges d'una\nentitat singular de població que no puguin ser incloses dins el concepte de nucli es consideren en disseminat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A un conjunt d'almenys cinc edificacions que estiguin a una distància de menys de 200 metres dels límits exteriors del mencionat conjunt",
+      "B": "A un conjunt d'almenys cinquanta edificacions que formin carrers, places i altres vies urbanes",
+      "C": "A un conjunt d'almenys deu edificacions que formin carrers, places i altres vies urbanes",
+      "D": "A un conjunt de dues o més edificacions o construccions que estiguin a una distància de menys de 200 metres dels límits exteriors del mencionat conjunt"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q22",
+    "statement": "De quin aparell o sistema en forma part la medul·la espinal?",
+    "correct": "C",
+    "explanation": "També en formen part l'encèfal (cervell) i els nervis perifèrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De l'aparell reproductor",
+      "B": "Del sistema musculoesquelètic",
+      "C": "Del sistema nerviós",
+      "D": "Del sistema endocrí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q52",
+    "statement": "A quin cim s’hi troba el monestir de Sant Llorenç del Munt?",
+    "correct": "D",
+    "explanation": "Se situa a la Serralada Prelitoral, amb una alçada de 1.103,25 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al cim de Bastiments",
+      "B": "Al cim del Matagalls",
+      "C": "Al cim del Pedraforca",
+      "D": "Al cim de la Mola"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q62",
+    "statement": "Quina de les següents formacions vegetals arbustives és més alta?",
+    "correct": "C",
+    "explanation": "La màquia pot superar els 3 m, la garriga i la brolla en general no arriben a 1 m d’alçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La brolla",
+      "B": "La garriga",
+      "C": "La màquia",
+      "D": "Cap de les tres supera el metre d'alçada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q50",
+    "statement": "Quin tipus de plantes difícilment trobarem als aiguamolls?",
+    "correct": "B",
+    "explanation": "La brolla és una formació vegetal més pròpia dels erms.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les herbes",
+      "B": "La brolla",
+      "C": "La bova",
+      "D": "Els joncs"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q19",
+    "statement": "De quina altra forma podem dir que han plogut 8 mil·límetres?",
+    "correct": "B",
+    "explanation": "La precipitació es mesura en l/m² o mm, i correspon a 1 litre d’aigua en 1 m² de superfície, el que suposa un gruix de 1\nmm, sobre aquesta mateixa superfície.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han plogut 0,8 l/m²",
+      "B": "Han plogut 8 l/m²",
+      "C": "Han plogut 8 ml/m²",
+      "D": "Han plogut 5 l/cm²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q29",
+    "statement": "Quina serà, segons el RIPCI, la longitud màxima de les BIE d'alta pressió?",
+    "correct": "B",
+    "explanation": "Longitud màxima BIE mànega plana: 20 m.\nLongitud màxima BIE semirígida: 30 m.\nLongitud màxima BIE d'alta pressió: 30 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20 metres",
+      "B": "30 metres",
+      "C": "15 metres",
+      "D": "Les BIE tenen longitud mínima, no màxima"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q40",
+    "statement": "Quin dels següents elements no formarà part d'un sistema fix d'extinció per ruixadors automàtics per aigua?",
+    "correct": "C",
+    "explanation": "Les vàlvules selectores formaran part dels sistemes fixes d'extinció per pols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa de canonades per a l'alimentació d'aigua",
+      "B": "El punt de control",
+      "C": "Les vàlvules selectores",
+      "D": "Els broquets de descàrrega  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q59",
+    "statement": "Quin dels següents valors límits d'exposició (TLV) a agents físics i químics presentarà un valor més elevat?",
+    "correct": "C",
+    "explanation": "TLV-C: Concentració que no hauria de ser sobrepassada en cap moment. La pràctica habitual de la higiene admet per a\nla valoració mostres de 15 minuts excepte per a aquells casos de substàncies que puguin causar irritació immediata amb\nexposicions molt curtes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El valor \"Time-Weighted Average\" (TWA)",
+      "B": "El valor \"Short-Term Exposure Limit\" (STEL)",
+      "C": "El valor \"Ceiling\" (TLV-C)",
+      "D": "Totes tres concentracions presentaran valors semblants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q13",
+    "statement": "Quin tipus de mànega d'una BIE serà de 25 mm?",
+    "correct": "B",
+    "explanation": "BIE plana: 45 mm\nBIE d'alta pressió: 12 mm",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La BIE plana",
+      "B": "La BIE semirígida",
+      "C": "La BIE d'alta pressió",
+      "D": "Tant la BIE semirígida com la d'alta pressió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q41",
+    "statement": "Quina resistència presentaran els elements estructurals dels locals de risc especial mig?",
+    "correct": "B",
+    "explanation": "Risc especial baix: R90\nRisc especial mig: R 120\nRisc especial alt: R180",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EI 60",
+      "B": "R 120",
+      "C": "R 90",
+      "D": "R 60"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q33",
+    "statement": "Per ús hospitalari, i segons el document bàsic de seguretat contra els incendis (DB-SI), a partir de quina altura d'evacuació s'instal·laran columnes seques?",
+    "correct": "C",
+    "explanation": "En ús comercial, administratiu i residencial habitatge, entre d'altres, s'instal·laran columnes seques si l'altura d'evacuació\nexcedeix els 24 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 metres",
+      "B": "8 metres",
+      "C": "15 metres",
+      "D": "28 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q93",
+    "statement": "Quina de les temperatures següents representa un valor més elevat?",
+    "correct": "B",
+    "explanation": "Recorda!\nºC = (ºF - 32) / 1,8\nºC = K + 273,15",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 ºK",
+      "B": "30 ºF",
+      "C": "-8 ºC",
+      "D": "Totes tres presenten exactament el mateix valor"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q24",
+    "statement": "El sistema de control de la respiració necessita tres elements bàsics, d'entre els quals NO hi trobem:",
+    "correct": "B",
+    "explanation": "El sistema de control de la respiració necessita tres elements bàsics: sensors, controladors i efectors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els controladors",
+      "B": "Els connectors",
+      "C": "Els efectors",
+      "D": "Els sensors  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q74",
+    "statement": "Un líquid inflamable és aquell que compleix quatre condicions. Indica quina de les següents és errònia:",
+    "correct": "B",
+    "explanation": "Tindrà un punt d'inflamació màxim de 60ºC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tindrà un punt de fusió igual o inferior a 20ºC a 101,3 kPa",
+      "B": "Tindrà un punt d'inflamació màxim de 21ºC",
+      "C": "A 50ºC tindrà una pressió de vapor inferior a 300 kPa (3 bar)",
+      "D": "A 20ºC i 101,3 kPa no serà completament gasós"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q39",
+    "statement": "La molsa n'és un tipus:",
+    "correct": "C",
+    "explanation": "Els briòfits en sentit ampli són les plantes terrestres (embriofitins) que no tenen un autèntic teixit vascular i que per tant\ns'anomenen plantes no vasculars.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pteridòfit",
+      "B": "Planta vascular",
+      "C": "Briòfit",
+      "D": "Espermatòfit"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q3",
+    "statement": "Quin grup monofilètic del regne de les plantes compren tots els llinatges de plantes vasculars que produeixen llavors?",
+    "correct": "C",
+    "explanation": "Els pteridòfits no produeixen ni flors ni llavors, igual que els briòfits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els briòfits (Bryophyta)",
+      "B": "Les falgueres (Polypodiopsida)",
+      "C": "Els espermatòfits (Spermatophyta)",
+      "D": "Els pteridòfits (Pteridophyta)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q90",
+    "statement": "Quina de les classificacions de reacció al foc següents és correcta?",
+    "correct": "C",
+    "explanation": "A1: No combustible. Sense contribució en grau màxim al foc.\nA2: No combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitjana al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense Classificar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Classe C: mitjana contribució al foc",
+      "B": "Classe F: alta contribució al foc",
+      "C": "Classe B: contribució molt limitada al foc",
+      "D": "Classe D: alta contribució al foc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q19",
+    "statement": "Si sabem que el pendent entre dues cotes és del 20% i la seva diferència d'altura és de 60 metres, podem deduir la distància real entre elles?",
+    "correct": "B",
+    "explanation": "Pendent topogràfic: inclinació del terreny respecte a un pla horitzontal. P = h/d*100 , on:\nh = diferència entre cotes (altura).\nd = distància real (distància).\ntg(a) = h/d\nP = h/d*100\n20% = 60/d*100\nd = 60*100/20 = 300 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No, ens farà falta saber la distància reduïda",
+      "B": "Si, és de 300 metres",
+      "C": "Si, és de 1.200 metres",
+      "D": "Si, és de 333 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q66",
+    "statement": "Quina definició correspon a la de capacitat portant davant el foc?",
+    "correct": "D",
+    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural.\nIntegritat: capacitat que té un element constructiu, de suportar l’exposició al foc únicament en una cara, sense que\nexisteixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents.\nAïllament: aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la\ntransmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l’aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat",
+      "B": "Al temps que l'element pot mantenir l'estanqueïtat davant del fum, sense que es produeixi la transmissió des del costat exposat al no exposat",
+      "C": "A la capacitat que té un element constructiu, de suportar l’exposició al foc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
+      "D": "A la capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat estructural"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q46",
+    "statement": "Quins components principals conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?",
+    "correct": "B",
+    "explanation": "RIPCI - pàgina 21.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega",
+      "B": "La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris",
+      "C": "El recipient o dipòsit d'aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega",
+      "D": "La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q90",
+    "statement": "Quina família de plantes o formació vegetal predominarà en un prat?",
+    "correct": "B",
+    "explanation": "Un prat és un terreny cobert d’herba, sovint amb predomini de vegetals graminoides.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les plantes heliòfiles",
+      "B": "Les gramínies",
+      "C": "La brolla",
+      "D": "Les fagàcies"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q4",
+    "statement": "D'acord amb el document bàsic de seguretat contra els incendis (DB-SI), a partir de quina altura d'evacuació s'instal·laran columnes seques en ús hospitalari?",
+    "correct": "C",
+    "explanation": "En ús comercial, administratiu i residencial habitatge, entre d'altres, s'instal·larà si l'altura d'evacuació excedeix els 24\nmetres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 metres",
+      "B": "8 metres",
+      "C": "15 metres",
+      "D": "28 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q56",
+    "statement": "Com s'anomena el sistema de control dinàmic d'estabilitat evita que es produeixin situacions extremes de subviratge i sobreviratge d'un cotxe?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema ESP",
+      "B": "Sistema ABS",
+      "C": "Sistema ASR",
+      "D": "Sistema APR  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q3",
+    "statement": "Quina subdivisió del sistema nerviós prepara el cos per a l'activitat física o la resposta a situacions d'estrès?",
+    "correct": "D",
+    "explanation": "El SN Somàtic és responsable dels moviments voluntaris i la percepció sensorial conscient.\nEl SN Parasimpàtic promou les funcions de restauració, repòs i digestió. Contraresta l'activitat del sistema nerviós\nsimpàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Sistema Nerviós Parasimpàtic",
+      "B": "El sistema Nerviós Autònom",
+      "C": "El Sistema Nerviós Somàtic",
+      "D": "El Sistema Nerviós Simpàtic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q94",
+    "statement": "En relació a les rosques mètriques, és FALS que:",
+    "correct": "C",
+    "explanation": "La rosca mètrica o ISO té un perfil triangular.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La distància entre dues crestes es medeix en mil·límetres",
+      "B": "Es defineixen pel seu pas mètric",
+      "C": "Tenen un perfil trapezoidal",
+      "D": "S'utilitzen a gran part del món, especialment a Europa i Àsia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q7",
+    "statement": "D'acord amb el RIPCI, quina serà la separació màxima entre una BIE i la més propera serà per a les BIE amb mànega semirígida o plana?",
+    "correct": "A",
+    "explanation": "La distància des de qualsevol punt de l'àrea protegida fins la BIE més propera no haurà d'excedir el seu radi d'acció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "50 metres",
+      "B": "El radi d'acció de la BIE",
+      "C": "100 metres",
+      "D": "25 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q31",
+    "statement": "Segons el RD 513/2017, de 22 de Maig, per assegurar els nivells de protecció adequats, quin serà el factor K mínim per les BIE de mànega plana?",
+    "correct": "D",
+    "explanation": "Segons el RD 513/2017, de 22 de Maig, per assegurar els nivells de protecció de les BIE amb mànega semirígida, el\nfactor K mínim serà de 42.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 46",
+      "B": "De 42",
+      "C": "De 83",
+      "D": "De 85"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q36",
+    "statement": "Com s'anomena eencarregat de produir la guspira en motors tipus Otto?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de transmissió",
+      "B": "El sistema de distribució",
+      "C": "El sistema d'alimentació",
+      "D": "El sistema de lubricació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q67",
+    "statement": "Segons el RIPCI 2017, cada quant de temps es realitzarà la prova de funcionament de tots els polsadors dels dispositius d'activació manual d'alarma?",
+    "correct": "C",
+    "explanation": "Cada 3 mesos s'haurà de comprovar la senyalització dels polsadors manuals d'alarma.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada 3 mesos",
+      "B": "Cada 6 mesos",
+      "C": "Cada any",
+      "D": "Cada 5 anys"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q87",
+    "statement": "Quina afirmació és FALSA sobre la bomba jockey?",
+    "correct": "D",
+    "explanation": "En un sistema amb una bomba jockey sola, aquesta bomba estarà configurada per monitoritzar la pressió del sistema i\nes posarà en marxa quan la pressió cau per sota d'un determinat punt. En aquest escenari, la bomba jockey assumeix\nles funcions de mantenir la pressió en lloc de ser utilitzada com a font principal de subministrament d'aigua.\nTot i així, és important destacar que, en molts sistemes, les bombes jockey són part d'un conjunt més gran de bombes,\nque poden incloure una o diverses bombes principals i potser altres bombes auxiliars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva funció principal és mantenir una pressió constant al sistema",
+      "B": "Té la capacitat d'aturar-se automàticament un cop arriba a una pressió determinada",
+      "C": "Generalment són petites i compactes",
+      "D": "No pot treballar sense la presència d'una altra bomba principal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q18",
+    "statement": "Com calculem el pendent topogràfic?",
+    "correct": "D",
+    "explanation": "Pendent topogràfic: inclinació del terreny respecte a un pla horitzontal. P = h/d*100\n— h = diferència entre cotes (altura).\n— d = distància real (distància).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dividint el valor de la diferència entre cotes (altura) entre el valor de la distància real",
+      "B": "Dividint el valor de la distància real entre el valor de la diferència entre cotes (altura) i multiplicant el resultat per 100",
+      "C": "Dividint el valor de la distància real entre el valor de la diferència entre cotes (altura)",
+      "D": "Dividint el valor de la diferència entre cotes (altura) entre el valor de la distància real i multiplicant el resultat per 100"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q21",
+    "statement": "Quina de les següents característiques dels ascensors d'emergència és CERTA?",
+    "correct": "D",
+    "explanation": "Tindrà com a mínim una capacitat de càrrega de 630 kg.\nSi l'accés es produeix des del recinte d'una escala especialment protegida, no caldrà disposar aquesta porta E30.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si l'accés es produeix des del recinte d'una escala especialment protegida, caldrà disposar d'una porta E30 o de la meitat de la resistència del recinte",
+      "B": "A cada planta, tindrà accés des del recinte d'una escala protegida o des del vestíbul de independència d´una escala especialment protegida a través d'una porta E60",
+      "C": "Tindrà com a mínim una capacitat de càrrega de 320 kg",
+      "D": "Totes les respostes proposades són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q45",
+    "statement": "Quins són els components principals que conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?",
+    "correct": "B",
+    "explanation": "RIPCI - pàgina 21.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega",
+      "B": "La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris",
+      "C": "El recipient o dipòsit d'aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega",
+      "D": "La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim60_q48",
+    "statement": "Quantes columnes seques haurà de tenir un edifici?",
+    "correct": "D",
+    "explanation": "RIPCI 6.3. Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes,\nseguint recorreguts d’evacuació, sigui inferior a 60 m. Cada columna, ascendent o descendent, ha de disposar de la seva\npresa independent en façana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una per cada 100 m² de superfície construïda",
+      "B": "Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 120 m",
+      "C": "Una per cada 100 m² de superfície útil",
+      "D": "Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60 m"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q30",
+    "statement": "Segons la classificació europea de reacció al foc dels materials, a quina classe correspondrà un material combustible que ofereix una \"contribució limitada al foc\"?",
+    "correct": "C",
+    "explanation": "A1: No Combustible. Sense contribució en grau màxim al foc\nA2: No Combustible. Sense contribució en grau menor al foc\nB: Combustible. Contribució molt limitada al foc\nC: Combustible. Contribució limitada al foc\nD: Combustible. Contribució mitja al foc\nE: Combustible. Contribució alta al foc\nF: Sense classificar\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A2",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q32",
+    "statement": "Segons el Reglament d'Instal·lacions de Protecció Contra Incendis (RIPCI), el sistema de comunicació de l'alarma permetrà transmetre un senyal diferenciat, generat voluntàriament des d'un lloc de control. El senyal serà, en tot cas, audible, havent de ser, a més, visible quan el nivell de soroll on hagi de ser percebuda superi els:",
+    "correct": "C",
+    "explanation": "RIPCI - pàg 16.\nTant el nivell sonor com l’òptic dels dispositius acústics d’alarma d’incendi i dels dispositius visuals (incorporats quan ho\nexigeixi una altra legislació aplicable o quan el nivell de soroll on s’hagi de percebre superi els 60 dB (A), o quan els\nocupants habituals de l’edifici/establiment siguin persones sordes o sigui probable que portin protecció auditiva) han de\npermetre que siguin percebuts en l’àmbit de cada sector de detecció d’incendi on estiguin instal·lats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "80 dB (A)",
+      "B": "50 dB (A)",
+      "C": "60 dB (A)",
+      "D": "75 dB (A)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q38",
+    "statement": "Com s'anomena el procés que fan servir les plantes per produir el seu aliment?",
+    "correct": "B",
+    "explanation": "La fotosíntesi és el conjunt de reaccions que realitzen diversos protocarionts i totes les plantes verdes per tal de\nsintetitzar composts orgànics, mitjançant l’energia lumínica, a partir del diòxid de carboni i d’una substància (generalment\nl’aigua) capaç de cedir hidrogen.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transpiració",
+      "B": "Fotosíntesi",
+      "C": "Absorció",
+      "D": "Assimilació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q69",
+    "statement": "Segons el Document Bàsic de Seguretat en Cas d'Incendi del Codi Tècnic de l'Edificació, una escala oberta a l'exterior...:",
+    "correct": "A",
+    "explanation": "DBSI - pàg. 43.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pot considerar-se com a escala especialment protegida sense que per a això requereixi disposar de vestíbuls d'independència en els seus accessos",
+      "B": "En cap cas podrà considerar-se com a escala especialment protegida",
+      "C": "Pot considerar-se com a escala protegida quan disposi de vestíbuls d'independència en els seus accessos",
+      "D": "Pot considerar-se com a escala especialment protegida quan disposi de vestíbuls d'independència en els seus accessos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q27",
+    "statement": "Per quins elements han d'estar compostos, com a mínim, els sistemes per agents extintors gasosos?",
+    "correct": "D",
+    "explanation": "RIPCI - pàg. 23 - 11. Sistemes fixos d’extinció per agents extintors gasosos.\nEls sistemes per agents extintors gasosos han d’estar compostos, com a mínim, pels elements següents:\na) Dispositius d’accionament.\nb) Equips de control de funcionament.\nc) Recipients per a gas a pressió.\nd) Canonades de distribució.\ne) Difusors de descàrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 62",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El vent anabàtic",
-      "B": "El vent de Llebeig",
-      "C": "El vent de Mestral",
-      "D": "El vent de Garbí"
-    }
+      "A": "Xarxa de canonades per a l’alimentació de gas, punt de control i broquets de descàrrega necessaris",
+      "B": "Xarxa de canonades, tanc d’emmagatzematge de gas, dosificador o proporcionador i broquets de descàrrega",
+      "C": "Recipients de gas propel·lent, canonades de distribució, vàlvules selectores, dispositius d’accionament i control i broquets de descàrrega",
+      "D": "Dispositius d’accionament, equips de control de funcionament, recipients per a gas a pressió, canonades de distribució, difusors de descàrrega"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim72_q25",
-    "statement": "Quin nom rep el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa?",
-    "correct": "B",
-    "explanation": "El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants d'una muntanya que s'han escalfat fortament a\ncausa de la radiació solar.",
+    "id": "academia_sim62_q38",
+    "statement": "D'acord amb el RIPCI, de quin tipus han de ser els hidrants contra incendis?",
+    "correct": "D",
+    "explanation": "Annex I - Secció 1ª Protecció activa contra incendis:\n3. Els hidrants contra incendis han de ser del tipus de columna o subterranis.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De rang de parell o imparell",
+      "B": "De columna",
+      "C": "De columna, híbrids o subterranis",
+      "D": "De columna o subterranis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q71",
+    "statement": "Quina potència oferirà un motor de 40V i 3A?",
+    "correct": "A",
+    "explanation": "P = V × I = 40 × 2 = 120 W.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "120 W",
+      "B": "100 W",
+      "C": "13,33 W",
+      "D": "26 W"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q81",
+    "statement": "D'acord amb la Taula 4.1, sobre Classes de reacció al foc dels elements constructius del DB-SI, quina reacció al foc hauran d'oferir els revestiments del terra de les zones ocupables?",
+    "correct": "A",
+    "explanation": "FL = floor = terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EFL",
+      "B": "B-s1,d0",
+      "C": "BROOF-s2",
+      "D": "A-s1,d1"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q30",
+    "statement": "Necessiten armaris les Boques d'Incendi Equipades (BIE)?",
+    "correct": "B",
+    "explanation": "L'armari no és necessari per les BIE de 25 mm Ø.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si, en tot cas",
+      "B": "Només en el cas de les BIE de 45 mm Ø",
+      "C": "No, en cap cas",
+      "D": "Només en el cas de les BIE de 25 mm Ø"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q49",
+    "statement": "Un revestiment combustible amb una contribució molt limitada al foc, que produeix fums en baixa opacitat i gotes en grau mig s'anomena:",
+    "correct": "D",
+    "explanation": "A1: No Combustible. Sense contribució en grau màxim al foc\nA2: No Combustible. Sense contribució en grau menor al foc.\nB: Combustible. Contribució molt limitada al foc.\nC: Combustible. Contribució limitada al foc.\nD: Combustible. Contribució mitja al foc.\nE: Combustible. Contribució alta al foc.\nF: Sense classificar.\ns1: baixa opacitat.\ns2: mitja opacitat.\ns3: alta opacitat.\nd0: nul·la caiguda de gotes o partícules.\nd1: mitja caiguda de gotes o partícules.\nd2: alta caiguda de gotes o partícules.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C-s2, d1",
+      "B": "B-s2, d1",
+      "C": "B-s1, d2",
+      "D": "B-s1, d1  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q39",
+    "statement": "Com anomenem a la capacitat que té un element constructiu amb funció separadora de suportar l'exposició al foc per una cara, sense que hi hagi propagació a la cara no exposada causada pel pas de flames o de gasos calents?",
+    "correct": "B",
+    "explanation": "Capacitat portant (R): representa la capacitat d'un element estructural de suportar, durant un període de temps i sense\npèrdua de l'estabilitat estructural, l'exposició a el foc en una o més cares, sota accions mecàniques concretes.\nAïllament (I): representa la capacitat que té un element constructiu de suportar l'exposició a el foc en una banda, sense\nque es produeixi una transferència de calor significativa des del costat exposat al no exposat que pugui generar la\npropagació de l'incendi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aïllament",
+      "B": "Integritat",
+      "C": "Capacitat portant",
+      "D": "Resistència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q47",
+    "statement": "Quin embassament de Catalunya té una major capacitat?",
+    "correct": "D",
+    "explanation": "Té una capacitat de 688 hm³. L'embassament de Mequinensa té una major capacitat però forma part de la Comunitat\nd'Aragó.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Llosa del Cavall",
+      "B": "Rialb",
+      "C": "Riba-roja",
+      "D": "Canelles"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q49",
+    "statement": "Quina és la finalitat de la compartimentació en sectors d'incendi en un edifici?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Extingir els incendis",
+      "B": "Limitar l'extensió de l'incendi",
+      "C": "Prevenir l'aparició d'incendis",
+      "D": "Reduir la càrrega de foc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q51",
+    "statement": "Quins usos del sòl predominen a l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "boscos, platges i sòls no ocupats: 52%\nResidencial: 20%\nIndustrial: 7%\n(...)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els boscos, platges i sòls no ocupats, seguits per l'ús residencial",
+      "B": "El residencial, seguit per l'industrial",
+      "C": "El residencial, seguit pels boscos, platges i sòls no ocupats",
+      "D": "L'industrial, seguit pel residencial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q89",
+    "statement": "Per un mateix contaminant químic, quin dels següents llindars de valor límit tindrà un valor més elevat?",
+    "correct": "B",
+    "explanation": "TLV-C. Valor sostre (\"Ceiling\"):\nConcentració que no hauria de ser sobrepassada en cap moment. La pràctica habitual de la higiene admet per a la\nvaloració mostrejos de 15 minuts excepte per a aquells casos de substàncies que puguin causar irritació immediata amb\nexposicions molt curtes (NTP-244).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TLV-STEL",
+      "B": "TLV-C",
+      "C": "TLV-TWA",
+      "D": "No es pot determinar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q13",
+    "statement": "Segons el RIPCI, quina afirmació és CERTA en relació als sistemes de detecció i alarma d'incendis?",
+    "correct": "C",
+    "explanation": "Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura entre 80 cm i 120 cm.\nEls polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi\nde considerar com a origen d’evacuació fins a un polsador, no superi els 25 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura de 90 cm del terra",
+      "B": "Els dispositius automàtics d'activació de l'alarma han d'incorporar en tot cas un dispositiu visual",
+      "C": "La prova de funcionament de tots els polsadors es farà cada any",
+      "D": "Els polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi de considerar com a origen d’evacuació fins a un polsador, no superi els 15 m"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q19",
+    "statement": "Des d'un punt de vista sistèmic del cos humà, de quin dels principals sistemes anatòmics forma part el sistema limfàtic?",
+    "correct": "C",
+    "explanation": "El sistema limfàtic forma part del sistema circulatori del cos humà. Encara que sovint es tracta com un sistema separat,\nestà íntimament connectat amb el sistema cardiovascular. El sistema limfàtic està compost per una xarxa de vasos\nlimfàtics, ganglis limfàtics, òrgans limfoides (com la medul·la òssia, el tim, la melsa) i limfa, un líquid clar que circula pels\nvasos limfàtics.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del sistema nerviós",
+      "B": "Del sistema muscular",
+      "C": "Del sistema circulatori",
+      "D": "Del sistema respiratori"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q24",
+    "statement": "Quina afirmació és FALSA sobre l'escala protegida?",
+    "correct": "A",
+    "explanation": "Una escala ESPECIALMENT protegida és aquella que compleix les condicions d'una escala protegida i que, a més,\ndisposa d'un vestíbul d'independència diferent en cadascun dels seus accessos des de cada planta. Es pot prescindir de\nvestíbuls d'independència si l'escala s'obre a l'exterior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurà de disposar d'un vestíbul d'independència diferent a cadascun dels accessos desde cada planta",
+      "B": "Estarà compartimentada de la resta de l'edifici mitjançant elements separadors EI 120",
+      "C": "El recinte tindrà com a màxim dos accessos a cada planta",
+      "D": "Els accessos de planta es realitzaran a través de portes EI2 60-C5  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q27",
+    "statement": "Fa referència a la capacitat d'un element constructiu de suportar l'exposició al foc només en una cara, sense que hi hagi un pas de calor significatiu a l'altre costat, evitant la propagació del foc:",
+    "correct": "D",
+    "explanation": "R: capacitat portant\nE: integritat al pas de fames i fums\nI: aïllament tèrmic",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Capacitat portant (R)",
+      "B": "Evacuació de la calor (E)",
+      "C": "Integritat al pas de fames i fums (E)",
+      "D": "Aïllament tèrmic (I)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q43",
+    "statement": "Quin sistema es compon d'un conjunt d'òrgans i teixits de l'organisme que alliberen hormones?",
+    "correct": "D",
+    "explanation": "Les hormones són abocades a la sang per ser distribuïdes per tot el cos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema nerviós",
+      "B": "Sistema limfàtic",
+      "C": "Sistema urinari",
+      "D": "Sistema endocrí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q89",
+    "statement": "Per a les BIE amb mànega semirígida o plana, el sistema de BIE es sotmetrà, abans de la posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa a una pressió estàtica igual a la màxima de servei i, com a mínim, a:",
+    "correct": "C",
+    "explanation": "10 kg/cm² = 980 kPa.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 kg/cm², mantenint aquesta pressió durant una hora com a mínim",
+      "B": "15 kg/cm², mantenint aquesta pressió durant dues hores com a mínim",
+      "C": "10 kg/cm², mantenint aquesta pressió durant dues hores com a mínim",
+      "D": "15 kg/cm², mantenint aquesta pressió durant una hora com a mínim"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q66",
+    "statement": "Segons el RIPCI, quin haurà de ser el factor K mínim per a les BIE?",
+    "correct": "D",
+    "explanation": "5. Sistemes de boques d’incendi equipades. Punt 2.\nPer assegurar els nivells de protecció, el factor K mínim, segons defineix la norma aplicable, per a les BIE amb mànega\nsemirígida ha de ser de 42 i per a les BIE amb mànega plana de 85",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si són de mànega semirígida 82, si són de mànega plana 45",
+      "B": "22, en qualsevol cas",
+      "C": "Si són de mànega semirígida 43, si són de mànega plana 65",
+      "D": "Si són de mànega semirígida 42, si són de mànega plana 85"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q74",
+    "statement": "Quin tipus de mànega d'una BIE serà de 45 mm?",
+    "correct": "A",
+    "explanation": "BIE plana: 45 mm\nBIE d'alta pressió: 12 mm",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La BIE plana",
+      "B": "La BIE semirígida",
+      "C": "La BIE d'alta pressió",
+      "D": "Tant la BIE semirígida com la d'alta pressió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q86",
+    "statement": "Quin pendent existeix entre dos punts A i B, si la seva distància horitzontal és de 2.000 metres, el punt A es troba a una altitud de 250 metres i el B a una altitud de 400 metres?",
+    "correct": "C",
+    "explanation": "Dist: 2.000 m\nA: 250 m\nB: 400 m\nPendent = [(400 - 250) / 2.000 m] x 100 = 7,5%",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10,5%",
+      "B": "3,5%",
+      "C": "7,5%",
+      "D": "5%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q23",
+    "statement": "De quina forma el DB SI denomina les zones d'ocupació ocasional i accessibles únicament a efectes de manteniment?",
+    "correct": "A",
+    "explanation": "Sales de màquines, locals per a materials de neteja, etc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Zones d'ocupació nul·la",
+      "B": "Zones d'ocupació específica",
+      "C": "Zones d'ocupació transitòria",
+      "D": "Sales de comaratge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q34",
+    "statement": "Quantes plantes ha de tenir un edifici com a mínim per a poder concentrar els comptadors per plantes intermèdies?",
+    "correct": "D",
+    "explanation": "ITC-BT-16 - 2.2 Col·locació en forma concentrada.\nEn funció de la naturalesa i el nombre de comptadors, així com de les plantes de l'edifici, la concentració dels\ncomptadors se situarà de la manera següent:\n– En edificis de fins a 12 plantes es col·locaran a la planta baixa, entresòl o primer soterrani. A edificis superiors a 12\nplantes es podrà concentrar per plantes intermèdies, comprenent cada concentració els comptadors de 6 o més plantes.\n– Podran disposar-se concentracions per plantes quan el nombre de comptadors en cadascuna de les concentracions\nsigui superior a 16.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 72",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vent anabàtic",
-      "B": "Vent catabàtic",
-      "C": "Efecte Fohn",
-      "D": "Coriolis"
-    }
+      "A": "14 plantes",
+      "B": "8 plantes",
+      "C": "6 plantes",
+      "D": "12 plantes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim80_q54",
-    "statement": "Del llistat d'espècies vegetals en relació amb el risc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
-    "correct": "C",
-    "explanation": "La resta d'opcions són espècies molt recomanades.",
+    "id": "academia_sim72_q75",
+    "statement": "Quina afirmació és FALSA en relació amb les mesures de protecció passiva davant d'un incendi?",
+    "correct": "D",
+    "explanation": "Les mesures de protecció activa són les mesures de lluita contra incendis.\nLes mesures de protecció passiva són aquelles mesures de lluita l'eficàcia de les quals depèn de la seva mera presència;\nno actuen directament sobre el foc però poden dificultar-ne o impossibilitar-ne la propagació, evitar l'esfondrament de\nl'edifici o facilitar-ne l'evacuació o l'extinció.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T23 - Incendis forestals",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva eficàcia depèn de la seva mera presència",
+      "B": "Les característiques dels elements constructius dels locals són un exemple de mesura de protecció passiva",
+      "C": "No actuen directament sobre el foc però poden dificultar-ne o impossibilitar-ne la propagació, evitar l'esfondrament de l'edifici o facilitar-ne l'evacuació o l'extinció",
+      "D": "Són mesures de lluita contra incendis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q30",
+    "statement": "Un condensador ceràmic amb un valor nominal de 80 nF i una tolerància de ±20%:",
+    "correct": "A",
+    "explanation": "Capacitat real màxima = valor nominal + (tolerància / 100) × valor nominal\nCapacitat real màxima = 80 nF + (20 / 100) × 80 nF = 96 nF.\n1 nF = 10^-9 F. Això significa que un nanofarad és una bilionèsima part d'un farad.\nEls condensadors ceràmics no tenen polaritat. Això vol dir que es poden connectar en qualsevol direcció en un circuit\nsense risc de mal funcionament o danys.\nPresenta unes característiques que el fan ser considerat un condensador de baixa capacitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot connectar en qualsevol direcció en un circuit sense risc de mal funcionament o danys",
+      "B": "Oferirà una capacitat real màxima de 100 nF",
+      "C": "Té valor nominal de 0,08 Farads",
+      "D": "Presenta unes característiques que el fan ser considerat un condensador d'alta capacitat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q62",
+    "statement": "Quins tipus d'extintors existeixen, segons el mecanisme de pressió?",
+    "correct": "D",
+    "explanation": "Segons el mecanisme de pressió, existeixen extintors de pressió permanent (pròpia en el cas dels de CO2, o incorporada\nen el cas dels de pols) i extintors de pressió adossada (en el seu interior a l’exterior).\nSegons la seva càrrega, hi ha extintors portàtils (menys de 20 kg) i mòbils (sobre rodes, de carro).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Extintors per a combustibles sòlids, per a combustibles líquids i per a combustibles gasosos",
+      "B": "Extintors polars i extintors apolars",
+      "C": "Extintors portàtils i extintors mòbils",
+      "D": "Extintors de pressió permanent i extintors de pressió adossada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q64",
+    "statement": "Els sistemes d’extinció automàtica d'acció prèvia:",
+    "correct": "C",
+    "explanation": "Sistemes de ruixadors automàtics d’aigua:\n- De canonada mullada.\n- De canonada seca.\n- D’acció prèvia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són sistemes d’extinció per agents gasosos",
+      "B": "Són sistemes d’extinció per pols",
+      "C": "Són sistemes de ruixadors automàtics d’aigua",
+      "D": "Poden funcionar amb aigua, pols o agents gasosos  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q73",
+    "statement": "El sistema de bombeig principal d’abastament d’aigua contra incendis pot ser únic o doble. En el sistema de bombeig únic:",
+    "correct": "D",
+    "explanation": "En el sistema de bombeig doble tan sols un dels motors d’accionament pot ser elèctric i l’altre és, en general, dièsel (pot\nser elèctric si rep subministrament d’una altra companyia elèctrica). Disposa també de bomba jockey com a sistema de\nbombeig auxiliar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La bomba jockey actua com a motor d’accionament",
+      "B": "El motor d’accionament pot ser de gasolina o dièsel i disposa de bomba jockey com a sistema de bombeig auxiliar",
+      "C": "El motor d’accionament pot és elèctric i pot prescindir de bomba jockey com a sistema de bombeig auxiliar",
+      "D": "El motor d’accionament pot ser elèctric o dièsel i disposa de bomba jockey com a sistema de bombeig auxiliar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q79",
+    "statement": "De quina forma ha de ser efectuada l'aturada del sistema de bombeig d’abastament d’aigua contra incendis?",
+    "correct": "A",
+    "explanation": "Font: ispc.gencat.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sempre de forma manual",
+      "B": "De forma automàtica si sistema de bombeig principal és únic o de forma manual si és únic",
+      "C": "Sempre de forma automàtica",
+      "D": "De forma manual si sistema de bombeig principal és únic o de forma automàtica si és doble"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q89",
+    "statement": "Segons el Reglament d’Instal·lacions de Protecció contra incendis (RIPCI) una Boca d’Incendi Equipada (BIE) instal·lada s’ha de revisar cada:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "3 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat",
+      "B": "6 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat",
+      "C": "12 mesos, per una empresa mantenidora autoritzada",
+      "D": "5 anys, per personal especialitzat del fabricant o per una empresa mantenidora"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q50",
+    "statement": "Segons el RIPCI, per a facilitar el seu ús, la longitud màxima de les BIE de mànega plana serà de:",
+    "correct": "A",
+    "explanation": "Longitud màxima BIE semirígida: 30 m.\nLongitud màxima BIE d'alta pressió: 30 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20 metres",
+      "B": "30 metres",
+      "C": "15 metres",
+      "D": "Les BIE tenen longitud mínima, no màxima"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q21",
+    "statement": "D'acord amb el RIPCI, en el cas de les BIE d'alta pressió, el sistema de BIE se sotmetrà, abans de la seva posada en servei, a una prova d'estanquitat i resistència mecànica, sometent a la xarxa una pressió:",
+    "correct": "A",
+    "explanation": "En el cas de BIE's de mànega semirígida o plana, se les sotmetrà a una pressió estàtica de 10 kg/cm² (980 kPa) durant\nun mínim de dues hores.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
     "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'auró (Acer opalus)",
-      "B": "El boix (Buxus sempervirens)",
-      "C": "La mimosa (Acacia dealbata)",
-      "D": "El bedoll (Betula pendula)"
-    }
+      "A": "De 1,5 cops la pressió màxima de treball, durant dues hores com a mínim",
+      "B": "Que equivaldrà a la màxima de treball, durant dues hores com a mínim",
+      "C": "De 10 kg/cm² durant dues hores com a mínim",
+      "D": "De 15 kg/cm² durant dues hores com a màxim"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q15",
+    "statement": "Segons el RIPCI, quina de les següents afirmacions és CERTA sobre com han d'estar distribuïts els extintors en un edifici, a efectes d'emplaçament i distribució?",
+    "correct": "B",
+    "explanation": "4. L’emplaçament dels extintors ha de permetre que siguin fàcilment visibles i accessibles, han d’estar situats a prop dels\npunts on es consideri que hi ha una probabilitat més gran que s’iniciï l’incendi, si és possible propers a les sortides\nd’evacuació i, preferentment, sobre suports fixats a paraments verticals, de manera que la part superior de l’extintor quedi\nsituada entre 80cm i 120cm sobre el terra.\nHan d’estar distribuïts de tal manera que el recorregut màxim horitzontal, des de qualsevol punt del sector d’incendi, que\ns’hagi de considerar origen d’evacuació, fins a l’extintor, no superi els 15m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'han de situar sobre suports fixats a paraments verticals, de manera que la part superior de l’extintor quedi situada entre 60cm i 80cm sobre el terra",
+      "B": "Han d’estar situats a prop dels punts on es consideri que hi ha una probabilitat més gran que s’iniciï l’incendi",
+      "C": "Han d’estar distribuïts de tal manera que el recorregut màxim horitzontal, des de qualsevol punt del sector d’incendi, que s’hagi de considerar origen d’evacuació, fins a l’extintor, no superi els 5m",
+      "D": "L’emplaçament dels extintors ha d'estar fora de l’abast dels usuaris per tal d'evitar manipulacions indegudes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q27",
+    "statement": "Dels diàmetres de mànegues que preveuen les normes UNE-EN 671-1 i UNE-EN 671-2, quins s'admeten per a les BIE de mànegues semirígides?",
+    "correct": "D",
+    "explanation": "RIPCI - pàg. 20.\nDels diàmetres de mànegues que preveuen les normes UNE-EN 671-1 i UNE-EN 671-2, per a les BIE, només s’admeten\n25 mil·límetres de diàmetre interior per a mànegues semirígides i 45 mil·límetres de diàmetre interior per a mànegues\nplanes.\nEls sistemes de BIE d’alta pressió han de demostrar la seva conformitat amb aquest Reglament mitjançant una avaluació\ntècnica favorable, segons el que indica l’article 5.3 d’aquest Reglament. Les mànegues que equipen aquestes BIE han de\nser d’un diàmetre interior nominal no superior a 12 mm. S’admeten diàmetres superiors sempre que en l’avaluació\ntècnica se’n justifiqui la manejabilitat",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només 45 mil·límetres de diàmetre interior",
+      "B": "Només 25 mil·límetres de diàmetre exterior",
+      "C": "O bé 25 mil·límetres de diàmetre interior o bé 45 mil·límetres de diàmetre exterior",
+      "D": "Només 25 mil·límetres de diàmetre interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q36",
+    "statement": "Quin sistema té la funció de mantenir la proporció adequada de líquids i substàncies orgàniques en l’espai intercel·lular dels teixits?",
+    "correct": "C",
+    "explanation": "El sistema limfàtic és el conjunt de vasos, ganglis i òrgans limfàtics que, distribuïts per tot el cos, drenen el líquid\nextracel·lular (limfa).\nTé una doble funció: mantenir la proporció adequada de líquids i substàncies orgàniques en l’espai intercel·lular dels\nteixits i actuar com a sistema de defensa contra les infeccions.\nFont: enciclopèdia.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema endocrí",
+      "B": "El sistema nerviós",
+      "C": "El sistema limfàtic",
+      "D": "El sistema digestiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q80",
+    "statement": "D’acord amb la definició d’\"escala protegida\" del Document Bàsic de Seguretat contra Incendis del Codi tècnic de l’edificació, quina d’aquestes afirmacions és CORRECTA?",
+    "correct": "A",
+    "explanation": "Annex SI A Terminologia.\nL'escala protegida és una escala de traçat continu des del seu inici fins al seu desembarcament en la planta\nd'entrada/sortida de l'edifici que, en cas d'incendi, constitueix un recinte suficientment segur per permetre que els\nocupants hi puguin romandre durant un temps determinat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un recinte suficientment segur perquè els ocupants puguin romandre a dins durant un determinat temps",
+      "B": "És un recinte compartimentat de la resta de l’edifici mitjançant elements separadors EI en tot el seu recorregut, tot i no disposar de protecció contra el fum",
+      "C": "No es pot considerar un espai segur per als ocupants",
+      "D": "Ha de disposar de vestíbuls previs en tots els seus accessos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim101_q25",
+    "statement": "Segons l'Annex SI A, Terminologia, del Codi Tècnic de l'Edificació, Document Bàsic SI, s'entén per sortida d'emergència:",
+    "correct": "C",
+    "explanation": "Sortida d'emergència.\nSortida de planta, d'edifici o de recinte prevista per a ser utilitzada exclusivament en cas d'emergència i que està\nsenyalitzada d'acord amb aquesta finalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 101",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Qualsevol sortida de planta, edifici o recinte que doni directament a un espai exterior segur.",
+      "B": "L'inici d'una escala no protegida, en tot cas",
+      "C": "Una sortida de planta, d’edifici o de recinte prevista per ser utilitzada exclusivament en cas d’emergència i que està senyalitzada d'acord amb aquesta finalitat",
+      "D": "Exclusivament les sortides d’edifici senyalitzades per a aquest efecte"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim105_q95",
+    "statement": "Quin embassament presenta la major capacitat dins del territori de Catalunya?",
+    "correct": "D",
+    "explanation": "Té una capacitat de 688 hm³. L'embassament de Mequinensa té una major capacitat però forma part de la Comunitat\nd'Aragó.\n22",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 105",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Susqueda",
+      "B": "Rialb",
+      "C": "Riba-roja",
+      "D": "Canelles 12"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim110_q46",
+    "statement": "Quin ús del sòl predomina a l'Àrea Metropolitana de Barcelona?",
+    "correct": "A",
+    "explanation": "Boscos, platges i sòls no ocupats: 52%\nResidencial: 20%\nIndustrial: 7%\n(...)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 110",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els boscos, platges i sòls no ocupats, seguits per l'ús residencial",
+      "B": "El residencial, seguit per l'industrial",
+      "C": "El residencial, seguit pels boscos, platges i sòls no ocupats",
+      "D": "L'industrial, seguit pel residencial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim118_q10",
+    "statement": "Un líquid inflamable és aquell que compleix quatre condicions. Indica quina de les següents és INCORRECTA:",
+    "correct": "A",
+    "explanation": "Decret 123/1997, de 13 de maig, pel qual s'aprova el Reglament general deprovisió de llocs de treball i promoció\nprofessional dels funcionaris del'Administració de la Generalitat de Catalunya.\nArticle 5. Dels sistemes generals de provisió.\nDe conformitat amb el que disposin les relacions de llocs de treball, la provisió dels llocs per al personal funcionari de\nl'Administració de la Generalitat es realitzarà pel sistema de concurs de mèrits i capacitats, que serà el normal per proveir\nels llocs de treball, i pel sistema de lliure designació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 118",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tindrà un punt de fusió igual o inferior a 20ºC a 101,3 kPa",
+      "B": "Tindrà un punt d'inflamació màxim de 21ºC",
+      "C": "A 50ºC tindrà una pressió de vapor inferior a 300 kPa (3 bar)",
+      "D": "A 20ºC i 101,3 kPa no serà completament gasós"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim122_q11",
+    "statement": "Quina afirmació referent a la definició de vestíbul d'independència és INCORRECTA?",
+    "correct": "C",
+    "explanation": "15\n\n· La distància mínima entre els contorns de les superfícies escombrades per les portes del vestíbul ha de ser d’almenys\n0,50 m.\n· Els vestíbuls d’independència situats en un itinerari accessible (vegeu la definició a l’Anejo A del DB SUA) han de poder\ncontenir un cercle de diàmetre Ø 1,20 m lliure d’obstacles i de l’escombrat de les portes. Quan el vestíbul contingui una\nzona de refugi, aquest cercle ha de tenir un diàmetre Ø 1,50 m i pot envair una de les places reservades per a usuaris de\ncadira de rodes. Els mecanismes d’obertura de les portes dels vestíbuls han d’estar situats a una distància mínima de\n0,30 m de la trobada en cantonada més propera de la paret que conté la porta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 122",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les seves parets han de ser EI 120",
+      "B": "Els vestíbuls d’independència situats en un itinerari accessible han de poder contenir un cercle de diàmetre Ø 1,20 m lliure d’obstacles i de l’escombrat de les portes",
+      "C": "La distància mínima entre els contorns de les superfícies escombrades per les portes del vestíbul ha de ser d’almenys 1,5 m",
+      "D": "Els que donin servei a un o diversos locals de risc especial no es poden utilitzar en els recorreguts d’evacuació de zones habitables"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q85",
+    "statement": "Quina de les següents és una mesura de protecció activa?",
+    "correct": "C",
+    "explanation": "Mesures de protecció activa: són mesures de seguretat encaminades a detectar l’incendi, transmetre l’alarma als\nocupants de l’edifici i extingir l’incendi o limitar-ne la seva propagació. Actuen de forma activa a l’edifici, és a\n26\n\ndir, precisen de la interacció dels ocupants o dels equips intervinents.\nExemples de mesures de protecció activa: els sistemes de detecció automàtica d’incendis, els polsadors manuals\nd’alarma, els extintors portàtils, els ruixadors automàtics d’aigua, els hidrants per a incendi o els sistemes de\ncontrol de temperatura i evacuació de fums, entre d’altres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T23 - Prevenció bàsica d'incendis",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les escales d’emergència exteriors",
+      "B": "La protecció estructural davant de l’acció del foc",
+      "C": "Els polsadors manuals d’alarma",
+      "D": "Cap de les respostes proposades és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

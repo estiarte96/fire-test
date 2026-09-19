@@ -1,5 +1,45 @@
 [
   {
+    "id": "academia_sim1_q16",
+    "statement": "Quina de les següents categories del Cos de Bombers de la Generalitat representa un major grau de comandament?",
+    "correct": "A",
+    "explanation": "Inspector (esc. superior)\nSotsinspector (esc. executiva)\nOficial (esc. tècnica)\nSergent (esc. tècnica)\nCaporal (esc. tècnica)\nBomber de primera (esc. tècnica)\nBomber",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sergent",
+      "B": "Caporal",
+      "C": "Bomber de primera",
+      "D": "Bomber de l'escala bàsica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q23",
+    "statement": "Quan la temperatura corporal disminueix fins els 33°C, és probable que ens trobem davant:",
+    "correct": "A",
+    "explanation": "HIPOTÈRMIES\nLleu: (35-32°C)\nModerada: (32-28°C)\nGreu: (28-20°C)\nProfunda: (menys de 20°C)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'una hipotèrmia lleu",
+      "B": "D'una hipotèrmia moderada",
+      "C": "D'una hipotèrmia greu",
+      "D": "D'una hipotèrmia profunda"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim1_q51",
     "statement": "Segons el Decret 276/2016, de 19 de juliol, quina de les següents posicions podrà ocupar un bomber amb categoria d'oficial?",
     "correct": "C",
@@ -15,7 +55,9 @@
       "B": "Cap territorial",
       "C": "Sotscap territorial",
       "D": "Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim1_q60",
@@ -33,7 +75,9 @@
       "B": "Nivell 3",
       "C": "Nivell 2",
       "D": "Nivell 1"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim1_q82",
@@ -51,7 +95,9 @@
       "B": "El cap de coordinació territorial",
       "C": "El cap de coordinació de la Sala Central de Bombers (SCB)",
       "D": "Tots els bombers del parc"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q8",
@@ -69,7 +115,49 @@
       "B": "Regió d'Emergències de les Terres de l'Ebre",
       "C": "Regió d'Emergències Sud",
       "D": "Regió d'Emergències Central  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q16",
+    "statement": "Segons la llei 276/2016, de 19 de juliol, qui s'encarrega d'elaborar i donar a conèixer diàriament la taula de recursos d'intervenció (TRI)?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cap operatiu",
+      "B": "El Cap de sortida",
+      "C": "La Sala Central de Bombers",
+      "D": "El Cap territorial  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q17",
+    "statement": "Quina de les següents categories del Cos de Bombers de la Generalitat no forma part de l'escala tècnica?",
+    "correct": "A",
+    "explanation": "La categoria de Caporal també forma part de l'escala tècnica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La d'Inspector",
+      "B": "La de Sergent",
+      "C": "La de Bomber de primera",
+      "D": "La d'Oficial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q31",
@@ -87,7 +175,9 @@
       "B": "És aquell que assumeix el comandament en el territori en les situacions d'emergència que sorgeixen durant la guàrdia",
       "C": "És aquell que assumeix la planificació i la gestió dels recursos humans i materials desplegats a tot el territori",
       "D": "A l'àmbit operatiu li corresponen totes les funcions proposades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q53",
@@ -105,7 +195,9 @@
       "B": "Al cap territorial",
       "C": "Al sotscap territorial",
       "D": "Al cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q24",
@@ -123,7 +215,9 @@
       "B": "Analitzar i identificar riscos i situacions de perill",
       "C": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent",
       "D": "Totes les funcions formen part de l'àmbit de suport  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q55",
@@ -141,7 +235,9 @@
       "B": "Les Regions",
       "C": "La Divisió i la Regió",
       "D": "Cap de les respostes és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q75",
@@ -159,7 +255,9 @@
       "B": "Mitjançant una resolució del Director General competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "La Sala Central de Bombers, mitjançant un comunicat intern",
       "D": "El Director General competent en matèria de prevenció, extinció d'incendis i salvaments, mitjançant una ordre interna"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q93",
@@ -177,7 +275,29 @@
       "B": "De l'àmbit de coordinació",
       "C": "De l'àmbit de suport",
       "D": "De l'àmbit de recolzament emocional"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q19",
+    "statement": "Segons el Decret 243/2007, a quin òrgan o òrgans s'adscriu la unitat de planificació operativa?",
+    "correct": "C",
+    "explanation": "Art. 87.2:\nLa Divisió de Sala Central de Bombers s’estructura en les unitats centrals següents:\na) Unitat de Suport Logístic i Mitjans Aeris.\nb) Unitat de Planificació Operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la divisió d'Operacions",
+      "B": "A la Unitat de Suport a la Gestió",
+      "C": "A la divisió de la Sala Central de Bombers",
+      "D": "A la divisió de les Sales de Control Territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q35",
@@ -195,7 +315,29 @@
       "B": "Els Parcs de bombers",
       "C": "Les Sales Centrals de bombers",
       "D": "Les Unitats de Direcció de l'Administració i Recursos Humans  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q79",
+    "statement": "El Cap Operatiu és assignat pel subdirector general competent en l'àmbit operatiu mitjançant:",
+    "correct": "D",
+    "explanation": "Art. 8.1: El cap operatiu és el màxim comandament operatiu en l'àmbit territorial assignat mitjançant una ordre interna del\nsubdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una instrucció de SGO",
+      "B": "Una circular",
+      "C": "Una resolució de SGO",
+      "D": "Una ordre interna"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q16",
@@ -213,7 +355,9 @@
       "B": "La Sala Central de Bombers (SCB) // la Divisió de la Sala Central de Bombers",
       "C": "El Cap Operatiu // Departament d'Interior",
       "D": "La Sala Central de Bombers (SCB) // Departament d'Interior  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q46",
@@ -231,25 +375,29 @@
       "B": "Caporal",
       "C": "Bomber de primera",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim6_q50",
-    "statement": "Segons el Decret 276/2016, de 19 de juliol, quina posició tindrà la funció d'assignar els àmbits territorials dels caps operatius?",
-    "correct": "A",
-    "explanation": "Art. 8.1: El cap operatiu és el màxim comandament operatiu en l'àmbit territorial assignat mitjançant una ordre interna del\nsubdirector general competent en l'àmbit operatiu.",
+    "id": "academia_sim5_q60",
+    "statement": "El Cap de sortida i el Cap de torn pertanyen:",
+    "correct": "C",
+    "explanation": "Àmbit operatiu:\n- Cap operatiu\n- Cap territorial\n- Sotscap territorial\n- Cap de sortida\nÀmbit de coordinació:\n- Sala Central de Bombers\n- Sales de Control Territorial\n- Parcs de bombers, amb els respectius caps de torn\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T04 - Organització del cos de Bombers",
-    "section": "Simulacre 6",
+    "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El Subdirector General Operatiu",
-      "B": "El Director General dels SPEIS",
-      "C": "El Conseller d'Interior",
-      "D": "El Cap de la Sala de Control Territorial"
-    }
+      "A": "A l'àmbit de la coordinació de la guàrdia",
+      "B": "A l'àmbit operatiu de la guàrdia",
+      "C": "El cap de sortida, a l'àmbit operatiu, i el cap de torn, a l'àmbit de coordinació de la guàrdia",
+      "D": "El cap de torn, a l'àmbit operatiu, i el cap de sortida, a l'àmbit de la guàrdia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q71",
@@ -267,7 +415,9 @@
       "B": "Sala Central de Bombers (SCB) i Sales de Control Territorial (SCT)",
       "C": "Divisió de Planificació i Gestió, Divisió de Grups Operatius Especials, Divisió d'Operacions i Divisió de la Sala Central de Bombers",
       "D": "Divisió de Planificació i Gestió, Divisió de Grups Operatius Especials, Divisió d'Operacions, Divisió de la Sala Central de Bombers i Regions d'Emergències"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q92",
@@ -285,7 +435,9 @@
       "B": "L'àmbit de coordinació",
       "C": "L'àmbit de suport",
       "D": "L'àmbit de gestió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q10",
@@ -303,7 +455,9 @@
       "B": "Dues unitats territorials",
       "C": "Tres unitats territorials",
       "D": "Quatre unitats territorials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q14",
@@ -321,7 +475,29 @@
       "B": "Sergent, exclusivament",
       "C": "Caporal, bomber de primera i, en casos excepcionals, bomber",
       "D": "Sergent, Caporal i Bomber de primera"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q91",
+    "statement": "L'àmbit de coordinació de la guàrdia s'estructura, en funció del respectiu nivell de responsabilitat i àmbit d'actuació, en els centres i les posicions següents:",
+    "correct": "A",
+    "explanation": "L'àmbit operatiu, l'àmbit de coordinació i l'àmbit de suport són els àmbits de la guàrdia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sala Central de Bombers (SCB), Sales de Control Territorial (SCT) i parcs de bombers",
+      "B": "Sala Central de Bombers (SCB) i Sales de Control Territorial (SCT)",
+      "C": "Àmbit operatiu, àmbit de coordinació i àmbit de suport",
+      "D": "Sala Central de Bombers (SCB), Sales de Control Territorial (SCT), parcs logístics i parcs de bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim8_q14",
@@ -339,7 +515,29 @@
       "B": "L'Àrea d'operacions de la Regió d'Emergències de Tarragona",
       "C": "L'Àrea d'operacions de la Regió d'Emergències de Lleida",
       "D": "L'Àrea d'operacions de la Regió d'Emergències de Girona"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q30",
+    "statement": "És un alt comandament operatiu que, en l'àmbit territorial assignat mitjançant una ordre interna del subdirector general competent en l'àmbit operatiu, assumeix el comandament dels serveis que, per les seves característiques, ho requereixin així:",
+    "correct": "B",
+    "explanation": "Cap operatiu: màxim comandament operatiu\nCap territorial: alt comandament operatiu\nSotscap territorial: comandament operatiu intermedi\nCap de sortida: comandament operatiu bàsic",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap operatiu",
+      "B": "El cap territorial",
+      "C": "El sotscap territorial",
+      "D": "El cap de sortida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim8_q65",
@@ -357,7 +555,89 @@
       "B": "El cap de coordinació territorial",
       "C": "El Conseller d'Interior",
       "D": "El Director General Operatiu (DGO)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q76",
+    "statement": "Quin és l'òrgan que s'adscriu a una Unitat i les responsabilitats del qual són, amb caràcter general, les relatives a la supervisió i execució directa de les tasques dels bombers?",
+    "correct": "D",
+    "explanation": "Òrgans centrals: Divisió, Àrea Central, Unitat Central i Grup.\nÒrgans territorials: Regió, Àrea Regional, Unitat Regional i Parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Regió",
+      "B": "L'Àrea",
+      "C": "El Parc",
+      "D": "El Grup"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q19",
+    "statement": "El domini de les pinedes de pi roig, a quina regió biogeogràfica pertany?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la regió boreo-alpina",
+      "B": "A la regió mediterrània",
+      "C": "A la regió austro-mediterrània",
+      "D": "A la regió euro-siberiana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q25",
+    "statement": "Quina de les següents respostes no fa referència a un centre o posició de l'àmbit de coordinació de la guàrdia?",
+    "correct": "D",
+    "explanation": "La Sala Central de Bombers disposa del Centre de Comandament de Bombers (CCB) com a eina de coordinació en el\nlloc del sinistre (art. 13.2).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Sala Central de Bombers (SCB)",
+      "B": "Les Sales de Control Territorial (SCT)",
+      "C": "Els parcs de bombers",
+      "D": "El Centre de Comandament de Bombers (CCB)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q48",
+    "statement": "Quin dels rius següents és més cabalós?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Segre",
+      "B": "Llobregat",
+      "C": "Ter",
+      "D": "Besòs  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q56",
@@ -375,7 +655,9 @@
       "B": "Cap territorial",
       "C": "Sotscap territorial",
       "D": "És funció del cap operatiu i cap territorial  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q66",
@@ -393,7 +675,29 @@
       "B": "L'àmbit operatiu",
       "C": "L'àmbit d'anàlisi i suport",
       "D": "L'ambit de coordinació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q2",
+    "statement": "Quina de les següents funcions no correspon a la Sala Central de Bombers?",
+    "correct": "D",
+    "explanation": "Rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit territorial correspon a les Sales de\ncontrol territorial (SCT).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Elaborar i donar a conèixer diàriament la Taula de recursos d'intervenció (TRI)",
+      "B": "Donar suport a les sales de control territorial",
+      "C": "Atendre i gestionar les peticions provinents d'altres centres, òrgans o organismes, si escau, d'acord amb els convenis, protocols o plans d'emergència corresponents",
+      "D": "Rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q11",
@@ -411,7 +715,29 @@
       "B": "Dues",
       "C": "Tres",
       "D": "Quatre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q61",
+    "statement": "Segons el TREBEP 5/2015, per ingressar a l'escala executiva del Cos de Bombers de la Generalitat, cal posseïr:",
+    "correct": "A",
+    "explanation": "Subgrup A2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Titulació del grup A",
+      "B": "Titulació del grup B",
+      "C": "Titulació del grup C",
+      "D": "Titulació del grup D"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q74",
@@ -429,7 +755,49 @@
       "B": "Sergent i Caporal, indistintament. Si no n'hi ha, exclusivament Bomber de primera.",
       "C": "Caporal i Bomber de primera",
       "D": "Sergent, i si no n'hi ha, Caporal. Excepcionalment Bomber de primera."
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q24",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, quina posició té assignada la funció de recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cap operatiu",
+      "B": "El responsable de la Sala Central de Bombers",
+      "C": "El Cap territorial",
+      "D": "El Cap de sortida  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q35",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, quin dels següents òrgans competents tindrà la funció de dirigir l'organització general i impulsar polítiques específiques del cos de bombers de la Generalitat o del personal bomber voluntari?",
+    "correct": "D",
+    "explanation": "*Art. 74*",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El titular del Departament d'Interior",
+      "B": "La Sala de Guàrdia del Centre de Coordinació Operativa de Catalunya",
+      "C": "El Subdirector General Operatiu",
+      "D": "La Direcció General de Prevenció, Extinció d'Incendis i Salvaments"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q55",
@@ -447,7 +815,49 @@
       "B": "De la Sala Central de Bombers",
       "C": "Dels parcs de bombers",
       "D": "De la Divisió de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q56",
+    "statement": "A quina alçada se situa l'epigastri?",
+    "correct": "B",
+    "explanation": "Epigastri: regió superior i mitjana de l'abdomen limitada, als costats, pels hipocondris dret i esquerre, a baix, per la regió\numbilical o mesogastri, i a dalt, per l'apèndix xifoide de l'estern. Correspon a la zona de l'estomac.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la regió inferior de l'abdomen. Correspon a la zona de l'estómac.",
+      "B": "A la regió superior i mitjana de l'abdomen. Correspon a la zona de l'estómac.",
+      "C": "A l'alçada dels pulmons",
+      "D": "A la regió mitjana de l'abdomen. Correspon a la zona immediatament superior a l'estómac.  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q80",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, quin nivell organitzatiu forma part dels òrgans centrals?",
+    "correct": "D",
+    "explanation": "Òrgans centrals: Divisió, Àrea Central, Unitat Central i Grup.\nÒrgans territorials: Regió, Àrea Regional, Unitat Regional i Parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Regió",
+      "B": "La Unitat Regional",
+      "C": "El Parc",
+      "D": "El Grup  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q23",
@@ -465,7 +875,9 @@
       "B": "Nivell de comandament 2",
       "C": "Nivell de comandament 5",
       "D": "Nivell de comandament 4"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q64",
@@ -483,7 +895,29 @@
       "B": "El Cap de coordinació de la Sala Central de Bombers",
       "C": "El Cap de sortida",
       "D": "El Sotscap territorial  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q66",
+    "statement": "Quina de les següents regles s'utilitza per calcular la gravetat d'una cremada?",
+    "correct": "A",
+    "explanation": "En aquesta regla, cada part del cos equival a una superfície corporal total (SCT) múltiple de 9 (9% o 18%) menys en el\ncas dels genitals (1%).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Regla dels 9 de Wallace",
+      "B": "Regla de Rondelet",
+      "C": "Regla de Patchwork",
+      "D": "Regla de Sáitsev"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q86",
@@ -501,7 +935,9 @@
       "B": "El Subdirector general operatiu",
       "C": "El Cap operatiu",
       "D": "El Cap territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q29",
@@ -519,7 +955,49 @@
       "B": "Oficial, sergent i caporal",
       "C": "Sotsinspector, oficial i sergent",
       "D": "Oficial, segent, caporal i bomber de primera"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim13_q77",
+    "statement": "Segons l'article 75 del Decret 243/2007, de 6 de novembre, quin nivell organitzatiu forma part dels \"òrgans territorials\"?",
+    "correct": "D",
+    "explanation": "Òrgans centrals: Divisió, Àrea Central, Unitat Central i Grup.\nÒrgans territorials: Regió, Àrea Regional, Unitat Regional i Parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Divisió",
+      "B": "La Unitat Central",
+      "C": "El Grup",
+      "D": "El Parc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim13_q95",
+    "statement": "Quina de les següents funcions no correspon a la Sala Central de Bombers? (SCB)?",
+    "correct": "D",
+    "explanation": "SCB: Elabora i dona a conèixer diàriament la Taula de recursos d'intervenció (TRI).\nCap de coordinació de la SCB: Supervisa la TRI.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Analitzar diàriament la situació general del risc i la distribució inicial de recursos del servei de guàrdia a Catalunya",
+      "B": "Facilitar la realització dels brífings diaris dels comandaments de la guàrdia",
+      "C": "Elaborar i donar a conèixer diàriament la Taula de recursos d'intervenció (TRI)",
+      "D": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q13",
@@ -537,7 +1015,9 @@
       "B": "Un bomber amb categoria d'Oficial pot ocupar la posició tant de Cap de Coordinació Territorial com de Cap de torn",
       "C": "Un bomber de primera pot exercir de Cap de torn",
       "D": "El Parc de bombers, dins de l'àmbit de coordinació, es considera la unitat territorial bàsica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q28",
@@ -555,7 +1035,49 @@
       "B": "El Cap de torn",
       "C": "El Cap de guàrdia",
       "D": "El Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q55",
+    "statement": "Quin procés o escala ens serà útil per a valorar el nivell de consciència d'una víctima?",
+    "correct": "C",
+    "explanation": "Ambdós procediments valoren l'estat neurològic de la víctima. Durant la valoració primària (ABCDE), a l'apartat \"D\"\n(Disability) es valorarà l'estat de consciència de la víctima. Diferents fonts també recomanen iniciar el codi AVDN just\nabans de l'ABCDE.\nL'escala dels 9 o de Wallace mesura la superfície corporal cremada d'una víctima.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escala de Coma de Glasgow",
+      "B": "El protocol \"VES\" i l'escala dels 9 de Wallace",
+      "C": "Tant l'escala de Coma de Glasgow com el codi \"AVDN\"",
+      "D": "El codi \"AVDN\" en tot cas i de forma exclusiva, ja que l'escala de Wallace o l'escala de coma de Glasgow valoren l'estat neurològic de la víctima"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q60",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, té la funció d'informar directament al Centre de Coordinació Operativa de Catalunya (CECAT) de tots els serveis que puguin afectar a la protecció civil:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Sala Central de Bombers (SCB)",
+      "B": "Les Sales de Control Territorial (SCT)",
+      "C": "El Subdirector general operatiu (SGO)",
+      "D": "El Cap de coordinació de la SCB"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q61",
@@ -573,7 +1095,69 @@
       "B": "Regió d'Emergències Lleida",
       "C": "Regió d'Emergències Girona",
       "D": "Regió d'Emergències Metropolitana Nord"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q82",
+    "statement": "Quin riu passa per Camprodon, on rep les aigües del Ritort?",
+    "correct": "A",
+    "explanation": "El Ter neix a Ulldeter, en el municipi de Setcases.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Ter",
+      "B": "El Fluvià",
+      "C": "El Segre",
+      "D": "El Tordera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q87",
+    "statement": "De quants satèl·lits operatius consta el segment espaial del sistema GPS?",
+    "correct": "D",
+    "explanation": "Segment de Control: cinc estacions de seguiment (Gencat). Segons el web oficial, existeixen 16 estacions monitores de\nseguiment.\nSeguiment Espaial: xarxa de 24 satèl·lits.\nSegment d'Usuari: almanac i efemèrides.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 60 satèl·lits",
+      "B": "De 82 satèl·lits",
+      "C": "De més de 2.600 satèl·lits",
+      "D": "De 24 satèl·lits"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q3",
+    "statement": "Quines són les classes de combustibilitat que no es classifiquen sota el concepte d'opacitat de fums?",
+    "correct": "A",
+    "explanation": "\"Les classes A1, A1fl i A1l; E, Efl i El i F, Ffl i Fl no es classifiquen sota aquest concepte\".\nEn el cas de caiguda de gotes o de partícules inflamades, no es classificaran sota aquest concepte les classes A1 i F.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les classes A1, E i F",
+      "B": "Les classes A1 i F",
+      "C": "Les classes A1, A2, E i F",
+      "D": "Totes es classifiquen sota aquest concepte"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q10",
@@ -591,7 +1175,29 @@
       "B": "A la Direcció General de la Policia",
       "C": "A la persona titular de la Direcció General de Prevenció, Extinció d'Incendis i Salvaments",
       "D": "A la Direcció General de Protecció Civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q17",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, a qui correspon la funció d'establir les directrius necessàries per realitzar eficaçment els informes de prevenció sobre edificis d'habitatges, indústries i demés?",
+    "correct": "B",
+    "explanation": "Article 98.2\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Unitat de Suport a la Gestió",
+      "B": "A la Subdirecció General Tècnica",
+      "C": "A la Subdirecció General de Gestió i Control",
+      "D": "A l'Institut de Seguretat Pública de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q64",
@@ -609,7 +1215,29 @@
       "B": "Una instrucció del director general competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "Una resolució del director general competent en matèria de prevenció, extinció d'incendis i salvaments",
       "D": "Una circular del Subdirector General Operatiu (SGO)  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q9",
+    "statement": "Segons el DB-SI, quina condició obliga a un edifici d'ús hospitalari a disposar de comunicació directa amb el servei de bombers?",
+    "correct": "B",
+    "explanation": "Taula 1.1 CTE DB-SI.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disposar d'una superfície construïda superior als 5.000 m²",
+      "B": "Disposar de més de cent llits",
+      "C": "Disposar d'una superfície construïda superior als 10.000 m²",
+      "D": "Estar situat a més de 5 km del parc de bombers més proper"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q23",
@@ -627,7 +1255,9 @@
       "B": "El cap territorial",
       "C": "El sotscap territorial",
       "D": "El cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q31",
@@ -645,7 +1275,29 @@
       "B": "La Divisió d'Operacions",
       "C": "La Divisió de Planificació i Gestió",
       "D": "La Divisió de la SCB"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q37",
+    "statement": "Els parcs de bombers de Montblanc, Falset i Valls s'inclouen dins de...",
+    "correct": "A",
+    "explanation": "Hi ha un total de 7 regions d'emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La regió d'emergències de Tarragona",
+      "B": "La regió d'emergències Centre",
+      "C": "La regió d'emergències de les Terres de l'Ebre",
+      "D": "La regió d'emergències Metropolitana Sud"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q47",
@@ -663,7 +1315,9 @@
       "B": "Categoria d'inspector i amb nivell de subdirector general, en tot cas",
       "C": "Categoria d'inspector o de sots-inspector",
       "D": "Categoria d'inspector, sots-inspector o oficial, en aquest últim cas havent estat habilitat per exercir funcions de cap operatiu d'acord amb el que estableix l'article 8.2"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q77",
@@ -681,7 +1335,49 @@
       "B": "El Cap territorial",
       "C": "El Sotscap territorial",
       "D": "El Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q6",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, d'estructura del Departament d'Interior, Relacions Institucionals i Participació, s'adscriuen a Unitats i fan supervisió i execució de tasques...",
+    "correct": "A",
+    "explanation": "Parcs: conjunt de mitjans personals i materials, amb organització pròpia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Grups",
+      "B": "Les Àrees Regionals",
+      "C": "Els Parcs",
+      "D": "Les Divisions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q9",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, en quines posicions s'estructura l'àmbit operatiu de la guàrdia, en funció del respectiu nivell de responsabilitat i àmbit d'actuació?",
+    "correct": "D",
+    "explanation": "Cap operatiu: màxim comandament operatiu.\nCap territorial: alt comandament operatiu.\nSotscap territorial: comandament operatiu intermedi.\nCap de sortida: comandament operatiu bàsic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap operatiu, cap territorial, sotscap territorial i cap de guàrdia",
+      "B": "Cap territorial, sotscap territorial, cap de guàrdia i cap de sortida",
+      "C": "Cap operatiu, cap territorial, sotscap territorial i cap de torn",
+      "D": "Cap operatiu, cap territorial, sotscap territorial i cap de sortida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q32",
@@ -699,7 +1395,49 @@
       "B": "El cap operatiu",
       "C": "El cap de torn",
       "D": "Cap resposta és correcta  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q85",
+    "statement": "El Departament d'Interior, Relacions Institucionals i Participació, sota la direcció de la persona que n'és titular, s'estructura en les unitats directives següents:",
+    "correct": "A",
+    "explanation": "Decret 243/2007, de 6 de novembre, art. 1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Secretaria General, la Secretaria de Seguretat i la Secretaria de Relacions Institucionals i Participació",
+      "B": "La DGPEIS, la DG de Policia i la DG de Protecció Civil",
+      "C": "La Subdirecció General Operativa, la Subdirecció General Tècnica i la Subdirecció General d'Administració i Recursos Humans",
+      "D": "La Secretaria General i la Secretaria de Seguretat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q10",
+    "statement": "L'àmbit de coordinació de la guàrdia s'estructura, en funció del respectiu nivell de responsabilitat i àmbit d'actuació, en els centres i les posicions següents: (indica l'opció incorrecta)",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parcs de bombers",
+      "B": "Sales de control operatiu",
+      "C": "Sales de control territorial",
+      "D": "Sala Central de bombers (SCB)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q25",
@@ -717,7 +1455,9 @@
       "B": "Una ordre del Subdirector General Operatiu",
       "C": "Una resolució del cap de coordinació de la Sala Central de Bombers",
       "D": "Una resolució del Director General competent en matèria de prevenció, extinció d'incendis i salvaments"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q30",
@@ -735,7 +1475,29 @@
       "B": "Permanentment disponible per a la mobilització immediata",
       "C": "Permanentment disponible per a la localització i mobilització immediata",
       "D": "Parcialment disponible per a la localització immediata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q48",
+    "statement": "La comarca del Moianès s'adscriu a la vegueria de:",
+    "correct": "A",
+    "explanation": "Catalunya Central: part de l'Anoia, Bages, Berguedà, Moianès, Osona i Solsonès.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Catalunya Central",
+      "B": "Penedès",
+      "C": "Barcelona",
+      "D": "Girona  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q59",
@@ -753,7 +1515,9 @@
       "B": "El sotscap territorial",
       "C": "El cap de coordinació territorial",
       "D": "El cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q10",
@@ -771,7 +1535,69 @@
       "B": "Torns de treball",
       "C": "Un torn rotatori entre membres de l'escala tècnica",
       "D": "Torns de responsabilitat i compromís"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q25",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, a qui correspon l'anàlisi, elaboració i proposta dels mitjans i sistemes necessaris per al desenvolupament dels serveis de prevenció, extinció d'incendis i de salvaments?",
+    "correct": "C",
+    "explanation": "Art 98.1.\nTambé la coordinació i supervisió de la prevenció d'incendis, entre d'altres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Sala Central de Bombers",
+      "B": "Al cap de coordinació de la SCB",
+      "C": "A la Subdirecció General Tècnica",
+      "D": "A l'Àrea de Prevenció i Gestió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q82",
+    "statement": "Quina de les següents afirmacions respecte l'estructura organitzativa del cos de bombers de la Generalitat és falsa?",
+    "correct": "D",
+    "explanation": "El Grup és l'òrgan que, de manera ordinària, s'adscriu a una Unitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els òrgans centrals es componen de: Divisió, Àrea Central, Unitat Central i Grup",
+      "B": "Els òrgans territorials es componen de: Regió, Àrea Regional, Unitat Regional i Parc",
+      "C": "El Parc és el conjunt de mitjans personals i materials, amb organització pròpia, situat en un municipi i amb un àmbit territorial d'intervenció funcional concret",
+      "D": "La Unitat és l'òrgan que, de manera ordinària, s'adscriu a un Grup"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q86",
+    "statement": "La creació, modificació o supressió dels grups i parcs es farà:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per ordre ministerial",
+      "B": "Per ordre del conseller competent",
+      "C": "Per acord parlamentari",
+      "D": "Per ordre del SGO"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q2",
@@ -789,7 +1615,9 @@
       "B": "Del Subdirector general operatiu",
       "C": "De la Sala Central de Bombers",
       "D": "Del cap operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q40",
@@ -807,7 +1635,9 @@
       "B": "A l'àmbit de coordinació de la guàrdia",
       "C": "A l'àmbit de suport de la guàrdia",
       "D": "Aquesta figura no existeix  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q43",
@@ -825,7 +1655,29 @@
       "B": "El cap de sortida",
       "C": "El cap territorial",
       "D": "El cap operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q59",
+    "statement": "Per ingressar a l'escala tècnica del Cos de Bombers de la Generalitat, cal posseïr:",
+    "correct": "A",
+    "explanation": "Escala superior: titulació del grup A.\nEscala executiva: titulació del grup B.\nEscala tècnica: titulació del grup C1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Titulació del grup C1",
+      "B": "Titulació del grup B",
+      "C": "Titulació del grup C",
+      "D": "Titulació del grup C2"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q2",
@@ -843,13 +1695,15 @@
       "B": "El cap territorial",
       "C": "El cap de torn",
       "D": "El cap de coordinació de la Sala Central de Bombers (SCB)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim21_q67",
-    "statement": "Segons el Decret 276/2016, de 19 de juliol, la guàrdia de cap operatiu s'organitza entre membres del cos de Bombers de la Generalitat de la categoria d'inspector que hagin superat un procés d'habilitació. Qui determina aquest procediment d'habilitació?",
+    "id": "academia_sim21_q7",
+    "statement": "Quines són les coordenades utilitzades pel GPS i aplicacions com Google Earth/Maps?",
     "correct": "A",
-    "explanation": "*Art. 8.2*",
+    "explanation": "Font: ICGC.\nEl 2007 es va fer oficial el sistema de referència ETRS89, per tal de substituir l'antic ED50.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T04 - Organització del cos de Bombers",
@@ -857,11 +1711,33 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El conseller del departament competent en matèria de prevenció, extinció d'incendis i salvaments, mitjançant una ordre",
-      "B": "El subdirector General competent en l'àmbit operatiu, mitjançant una ordre interna",
-      "C": "El President de la Generalitat",
-      "D": "El Director General de la DGPEIS, sota la direcció i supervisió del conseller del Departament"
-    }
+      "A": "Geogràfica-ETRS89",
+      "B": "MTN50",
+      "C": "ED50",
+      "D": "Coordenades UTM-626"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q8",
+    "statement": "Per ingressar a l'escala superior del Cos de Bombers de la Generalitat, cal posseïr:",
+    "correct": "A",
+    "explanation": "Escala superior: titulació del grup A.\nEscala executiva: titulació del grup B.\nEscala tècnica: titulació del grup C1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La titulació del grup A",
+      "B": "La titulació del grup B",
+      "C": "La titulació del grup C1",
+      "D": "La titulació del grup C2  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q71",
@@ -879,7 +1755,29 @@
       "B": "Cap operatiu",
       "C": "Cap territorial",
       "D": "Sotscap territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q76",
+    "statement": "En funció de la titulació requerida, a quin grup pertanyen els bombers de l'escala bàsica?",
+    "correct": "D",
+    "explanation": "La nova normativa no reconeix l'escala bàsica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C1",
+      "B": "C2",
+      "C": "B1",
+      "D": "Ja no existeix l'escala bàsica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q94",
@@ -897,7 +1795,9 @@
       "B": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent",
       "C": "Elaborar els informes que correspongui en relació amb les actuacions operatives en què hagi intervingut",
       "D": "Disposar de la informació necessària sobre el dispositiu i les incidències rellevants que es produeixin en el seu àmbit territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim22_q16",
@@ -915,7 +1815,29 @@
       "B": "Al Cap de torn",
       "C": "El Cap de coordinació territorial",
       "D": "El Cap de guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q18",
+    "statement": "Segons el Decret 243/2007, de l'Estructura del Departament d'Interior, on s'inclou la Unitat de Suport Logístic i Mitjans Aeris?",
+    "correct": "D",
+    "explanation": "Dins la Divisió de la SCB també hi trobarem la Unitat de Planificació Operativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Divisió de Planificació i Gestió",
+      "B": "A la Divisió d'Operacions",
+      "C": "A la Divisió de Grups Operatius Especials",
+      "D": "A la Divisió de la Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim22_q19",
@@ -933,7 +1855,29 @@
       "B": "El cap operatiu",
       "C": "El Subdirector General Operatiu",
       "D": "El cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q16",
+    "statement": "Els Parcs de bombers funcionaris de Badalona o Granollers formen part de:",
+    "correct": "D",
+    "explanation": "El territori de Catalunya s’articula, als efectes de la implantació del cos de Bombers de la Generalitat, en les 7 regions\nd’emergència següents: Centre, Girona, Lleida, Metropolitana Nord, Metropolitana Sud, Tarragona i Terres de l'Ebre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Regió d'Emergències Metropolitana Sud",
+      "B": "La Regió d'Emergències Centre",
+      "C": "La Regió d'Emergències de les Terres de l'Ebre",
+      "D": "La Regió d'Emergències Metropolitana Nord"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q17",
@@ -951,7 +1895,29 @@
       "B": "L'Àrea d'operacions de la Regió d'Emergències de Tarragona",
       "C": "L'Àrea d'operacions de la Regió d'Emergències de Lleida",
       "D": "L'Àrea d'operacions de la Regió d'Emergències de Girona"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q18",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, a quin òrgan s'adscriuen el Gabinet Tècnic i la Subdirecció General de Sistemes d'Informació i Telecomunicacions?",
+    "correct": "C",
+    "explanation": "Article 5.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Secretaria General",
+      "B": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
+      "C": "A la Direcció de Serveis",
+      "D": "A la unitat d'assistència i suport al/a la conseller/a"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q19",
@@ -969,7 +1935,29 @@
       "B": "El cap de coordinació territorial",
       "C": "El cap de sortida",
       "D": "Tots els bombers del parc"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q91",
+    "statement": "Segons l'article 6 del Decret 261/1999, de 28 de setembre, pel qual s'aprova el sistema de codificació de la xarxa de carreteres de Catalunya, quina direcció segueixen les carreteres amb l’1 com a número bàsic de direcció dominant associada i el 7 com a número de reserva?",
+    "correct": "D",
+    "explanation": "Les carreteres en direcció S-N s’han de numerar en sentit creixent d’W a E. Se’ls assigna l’1 com a número bàsic de\ndirecció dominant associada i el 7 com a número de reserva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Direcció SW-NE",
+      "B": "Direcció W-E",
+      "C": "Direcció SE-NW",
+      "D": "Direcció S-N  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q92",
@@ -987,7 +1975,9 @@
       "B": "A l'Alt Empordà",
       "C": "Al Gironès",
       "D": "Al Baix Empordà"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q16",
@@ -1005,7 +1995,29 @@
       "B": "Sotscap territorial",
       "C": "Cap territorial",
       "D": "Bomber"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q17",
+    "statement": "Segons l'article 91.1 del Decret 243/2007, de 6 de novembre, d’estructura del Departament d’Interior, la direcció i inspecció dels Parcs de Bombers i, si escau, de la Sala de control de la Regió i dels seus recursos humans i materials, d’acord amb les directrius que per cada àmbit estableixi el cap de Regió correspon a:",
+    "correct": "A",
+    "explanation": "També la d'elaborar propostes de planificació i coordinació de les activitats relatives al coneixement del risc i a les\ninfraestructures de suport a les activitats operatives, entre d'altres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’Àrea d’Operacions",
+      "B": "L'Àrea de Prevenció i Gestió",
+      "C": "L'Àrea de Supervisió Funcional",
+      "D": "L'Àrea de Coordinació Funcional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q18",
@@ -1023,7 +2035,9 @@
       "B": "Sala Central de Bombers (SCB) i Sales de Control Territorial (SCT)",
       "C": "Divisió de Planificació i Gestió, Divisió de Grups Operatius Especials, Divisió d'Operacions i Divisió de la Sala Central de Bombers",
       "D": "Divisió de Planificació i Gestió, Divisió de Grups Operatius Especials, Divisió d'Operacions, Divisió de la Sala Central de Bombers i Regions d'Emergències"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q19",
@@ -1041,7 +2055,69 @@
       "B": "El cap de coordinació de la SCB",
       "C": "EL Subdirector General Operatiu",
       "D": "El cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q91",
+    "statement": "Segons l'article 6 del Decret 261/1999, de 28 de setembre, pel qual s'aprova el sistema de codificació de la xarxa de carreteres de Catalunya, quina direcció segueixen les carreteres amb el 3 com a número bàsic de direcció dominant associada i el 9 com a número de reserva?",
+    "correct": "B",
+    "explanation": "Les carreteres en direcció SW-NE s’han de numerar en sentit creixent de SE a NW. Se’ls assigna el 3 com a número\nbàsic de direcció dominant associada i el 9 com a número de reserva.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Direcció W-E",
+      "B": "Direcció SW-NE",
+      "C": "Direcció S-N",
+      "D": "Direcció SE-NW  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q16",
+    "statement": "Quin càrrec estableix els sistemes de compensació horària de la modalitat de guàrdia de disponibilitat de localització i mobilització immediata?",
+    "correct": "A",
+    "explanation": "Mitjançant una resolució (art. 4).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Director General competent en matèria de prevenció, extinció d'incendis i salvaments",
+      "B": "El Subdirector General competent en matèria de prevenció, extinció d'incendis i salvaments",
+      "C": "El Subdirector General Operatiu",
+      "D": "El Conseller d'Interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q17",
+    "statement": "Quina figura garanteix el comandament únic en tots els serveis davant de situacions d'emergència, l'atenció dels quals correspon als serveis de prevenció, extinció d'incendis i salvaments de la Generalitat de Catalunya?",
+    "correct": "B",
+    "explanation": "*Art. 6.1*\nPer al compliment d'aquesta funció, el subdirector general competent en l'àmbit operatiu ha d'estar permanentment\ndisponible per a localització i mobilització immediata.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap operatiu",
+      "B": "El subdirector general competent en l'àmbit operatiu",
+      "C": "El sotscap territorial",
+      "D": "El cap de coordinació de la Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q18",
@@ -1059,7 +2135,29 @@
       "B": "És aquell que assumeix l'anàlisi i el suport tècnic o logístic",
       "C": "És aquell que assumeix la planificació i gestió dels recursos humans i materials desplegats a tot el territori a fi de garantir l'assistència i resolució de les situacions d'emergència",
       "D": "És aquell que garanteix la coordinació dels tres àmbits descrits a les demés respostes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q63",
+    "statement": "Davant d'una víctima que pateix hipotèrmia accidental, les guies ERC recomanen:",
+    "correct": "C",
+    "explanation": "La freqüència de les compressions toràciques i ventilacions no ha de ser diferent a l’RCP en pacients normotèrmics.\nNo administrarem adrenalina si la temperatura corporal és <30 ºC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Adequar la freqüència de les compressions toràciques i ventilacions al succés, essent de 15:2 en pacients que pateixin un descens notable de la temperatura corporal",
+      "B": "Administrar adrenalina en cas de que la temperatura corporal de la víctima minvi per sota els 30ºC",
+      "C": "Comprovar la presència de signes vitals durant un minut",
+      "D": "Totes les respostes fan referència a recomanacions de les guies ERC  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q16",
@@ -1077,7 +2175,9 @@
       "B": "Tenen la funció de garantir les condicions necessàries per al desenvolupament correcte de la guàrdia en el seu àmbit territorial, sota les directrius i la supervisió de la Sala Central de Bombers",
       "C": "Han de rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit territorial",
       "D": "Totes les respostes són correctes  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q17",
@@ -1095,7 +2195,9 @@
       "B": "Mitjançant una resolució del conseller del departament competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "Mitjançant un torn rotatori entre membres de l'escala tècnica",
       "D": "Mitjançant torns de treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q18",
@@ -1113,7 +2215,9 @@
       "B": "Cap operatiu, Cap territorial i Sotscap territorial",
       "C": "Cap operatiu, Cap territorial, Sotscap territorial i Cap de torn",
       "D": "Cap operatiu, Cap territorial, Sotscap territorial i Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q19",
@@ -1131,7 +2235,9 @@
       "B": "Tres modalitas",
       "C": "Cinc modalitats",
       "D": "Quatre modalitats"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q91",
@@ -1149,7 +2255,49 @@
       "B": "Al Baix Camp",
       "C": "Al Tarragonès",
       "D": "Al Maresme"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q4",
+    "statement": "El Departament d’Interior, Relacions Institucionals i Participació, sota la direcció de la persona que n’és titular, s’estructura en tres unitats directives, d'entre les quals NO s'hi troba:",
+    "correct": "C",
+    "explanation": "Decret 243/2007, de l'estructura del Dep. d'Interior, article 1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Secretaria de Relacions Institucionals i Participació",
+      "B": "La Secretaria de Seguretat",
+      "C": "La Secretaria del/de la Conseller/a",
+      "D": "La Secretaria General"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q11",
+    "statement": "Segons el TREBEP 5/2015, quina titulació cal posseïr per ingressar a l'escala executiva del Cos de Bombers de la Generalitat?",
+    "correct": "C",
+    "explanation": "Subgrup A2.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Titulació del grup C",
+      "B": "Titulació del grup D",
+      "C": "Titulació del grup A",
+      "D": "Titulació del grup B"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q21",
@@ -1167,7 +2315,9 @@
       "B": "Mitjançant una ordre interna",
       "C": "Mitjançant una circular del Subdirector General Operatiu (SGO)",
       "D": "Mitjançant una resolució del director general competent en matèria de prevenció, extinció d'incendis i salvaments"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q24",
@@ -1185,7 +2335,9 @@
       "B": "L'àmbit de gestió",
       "C": "L'àmbit de suport",
       "D": "L'àmbit de coordinació  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q17",
@@ -1203,7 +2355,29 @@
       "B": "Cap operatiu, Cap territorial, Sotscap territorial i Cap de torn",
       "C": "Cap operatiu, Cap territorial i Sotscap territorial",
       "D": "Cap operatiu, Cap territorial, Sotscap territorial, Cap de sortida i Cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q18",
+    "statement": "Segons l'article 90.3 del Decret 243/2007, de 6 de novembre, d'estructura del Departament d'Interior, en quines àrees regionals s’estructuren les Regions d’Emergències?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En l'Àrea de Desenvolupament Operatiu i l'Àrea de Formació",
+      "B": "En l'Àrea de Suport Logístic i Mitjans Aeris i l'Àrea de Planificació Operativa",
+      "C": "En l'Àrea d'Anàlisi i Prospectiva, en l'Àrea de Planificació i Avaluació i en l'Àrea de Relacions Internacionals",
+      "D": "En l'Àrea d'Operacions i l'Àrea de Prevenció i Gestió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q19",
@@ -1221,7 +2395,29 @@
       "B": "Mitjançant una resolució del director general competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "Mitjançant una instrucció del director general competent en matèria de prevenció, extinció d'incendis i salvaments",
       "D": "Mitjançant una ordre interna del subdirector general competent en l'àmbit operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q9",
+    "statement": "Què és exactament la Taula de Recursos d'Intervenció (TRI)?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el llistat desglossat de vehicles dels que disposa el Cos de Bombers de la Generalitat",
+      "B": "És un document que inclou la disponibilitat del conjunt de mitjans materials de la guàrdia",
+      "C": "És el document que reuneix l'historial diari de comunicats d'actuació que han tingut lloc durant el transcurs de l'última guàrdia a Catalunya",
+      "D": "És un document que ha de recollir la distribució final de recursos operatius de la guàrdia de Catalunya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim29_q52",
@@ -1239,12 +2435,134 @@
       "B": "La Divisió de Planificació i Gestió, la Divisió de grups operatius especials, la Divisió d'Operacions, la divisió de la SCB i set regions d'emergència",
       "C": "La Direcció General Operativa, la Direcció General Tècnica i la Direcció General d'Administració i Recursos Humans",
       "D": "La Direcció General de Planificació, la Direcció General de Formació i la Direcció General de Planificació Operativa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim31_q67",
-    "statement": "D'acord amb el Decret 276/2016, de 19 de juliol, el cap territorial:",
-    "correct": "C",
+    "id": "academia_sim30_q30",
+    "statement": "Sovint ens podem referir a un port de muntanya com:",
+    "correct": "D",
+    "explanation": "Un port de muntanya, també denominat pas de muntanya, és la ruta o pas establert a través d'un coll o collada per a\ncreuar una cadena muntanyenca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un planell",
+      "B": "Una vessant",
+      "C": "Una carena o divisòria d'aigues",
+      "D": "Un coll o collada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q35",
+    "statement": "Davant la valoració primària d'un pacient en base a l'aproximació ABCDE, en quin moment examinarem físicament del pacient, traient-li la roba si fa falta?",
+    "correct": "D",
+    "explanation": "Durant l'exposició també tractarem d'avaluar la seva temperatura corporal.\nA l'aproximació ABCDE, de forma esglaonada valorarem:\nA – Airway (via aèria)\nB – Breathing (respiració)\nC – Circulation (circulació)\nD – Disability (discapacitat neurològica)\nE – Exposure (exposició-exploració)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Abans d'iniciar el protocol",
+      "B": "Abans d'entrar a la fase d'anàlisi de la discapacitat neurològica (D)",
+      "C": "Immediatament després d'haver valorat la respiració (B)",
+      "D": "Durant l'última fase de l'escala (E)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q52",
+    "statement": "On resten adscrits el Servei Català de Trànsit, l'Institut de Seguretat Pública de Catalunya i el Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya?",
+    "correct": "B",
+    "explanation": "DECRET 255/2021, de 22 de juny, de reestructuració del Departament d'Interior - art. 1.2.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Departament d'Interior mitjançant la DG d'administració de seguretat",
+      "B": "Al Departament d'Interior mitjançant la Secretaria General",
+      "C": "Al Departament d'Acció Climàtica, Alimentació i Agenda Rural",
+      "D": "Al Departament d'Interior mitjançant la DGPEIS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q69",
+    "statement": "Quina posició de l'àmbit operatiu té la funció de supervisar la recollida de les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació?",
+    "correct": "A",
+    "explanation": "Cap territorial: supervisa la recollida de les dades de les actuacions operatives.\nSotscap territorial: garanteix la recollida de les dades de les actuacions operatives.\nCap de sortida: recull les dades de les actuacions operatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cap territorial",
+      "B": "El Cap operatiu",
+      "C": "El Sotscap territorial",
+      "D": "És una funció conjunta entre el Sotscap territorial i el Cap territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q70",
+    "statement": "Quin estatge climàtic va seguit per l'estatge subalpí (en ordre inferior-superior)?",
+    "correct": "B",
+    "explanation": "Existeix la regió eurosiberiana, no l'estatge eurosiberià.\nMuntanya alta = Estatge Nival + Alpí + Subalpí.\nMuntanya mitja = Estatge Montà.\nMuntanya baixa = Estatge Basal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estatge de muntanya alta",
+      "B": "Estatge montà",
+      "C": "Estatge basal",
+      "D": "Estatge eurosiberià"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q33",
+    "statement": "És un òrgan central:",
+    "correct": "A",
+    "explanation": "Òrgans centrals: Divisió, Àrea Central, Unitat Central, Grup.\nÒrgans territorials: Regió, Àrea Regional, Unitat Regional, Parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Grup",
+      "B": "La Regió",
+      "C": "L'Àrea Regional",
+      "D": "El Parc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q65",
+    "statement": "La ciutat de Girona és coneguda, a part de moltes altres coses, per ser la ciutat dels quatre rius. De quins quatre rius parlem?",
+    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
@@ -1253,11 +2571,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És el comandament operatiu bàsic",
-      "B": "És un comandament operatiu intermedi, assignat mitjançant una instrucció del Director General dels SPEIS",
-      "C": "És un alt comandament operatiu, assignat mitjançant una ordre interna del Subdirector General Operatiu",
-      "D": "És un comandament operatiu intermedi, assignat mitjançant una ordre interna del Subdirector General Operatiu"
-    }
+      "A": "Terri, Galligans, Ter i Freser",
+      "B": "Terri, Gotarra, Ter i Galligans",
+      "C": "Susqueda, Galligans, Onyar i Pasteral",
+      "D": "Onyar, Ter, Galligans i Güell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q72",
@@ -1275,7 +2595,29 @@
       "B": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent",
       "C": "Participar i col·laborar en els brífings diaris de la Sala Central de Bombers per tal de conèixer la resposta operativa a la situació de risc",
       "D": "Garantir l'aplicació del Pla d'actuació del grup d'intervenció (PAGI) del pla d'emergència d'àmbit general que correspongui i supervisar-ne el compliment  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q28",
+    "statement": "El Servei Tècnic i el Sevei de Prevenció, d'acord amb el Decret 243/2007, de 6 de novembre:",
+    "correct": "C",
+    "explanation": "Article 98.3\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Formaran part de l'estructura de la Subdirecció General Operativa",
+      "B": "S'inclouran dins l'estructura de la Subdirecció General d'Administració i Recursos Humans",
+      "C": "Formaran part de l'estructura de la Subdirecció General Tècnica",
+      "D": "Són òrgans autònoms i no depenen del Departament d'Interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q45",
@@ -1293,7 +2635,9 @@
       "B": "Dins la Divisió de la Sala Central de Bombers",
       "C": "Dins la Divisió d'Operacions",
       "D": "Dins la Divisió de Grups Operatius Especials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q77",
@@ -1311,7 +2655,9 @@
       "B": "És aquell que assumeix l'anàlisi i el suport tècnic o logístic, formant part del dispositiu d'assessorament i suport al comandament en els demés àmbits",
       "C": "És aquell que assumeix la planificació i gestió dels recursos humans i materials desplegats a tot el territori a fi de garantir l'assistència i resolució de les situacions d'emergència, d'acord amb una planificació dels recursos basada en una anàlisi del risc potencial de tots els elements del territori",
       "D": "Totes les funcions descrites corresponen a l'àmbit de coordinació de la guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q50",
@@ -1329,7 +2675,29 @@
       "B": "A l'àmbit de gestió",
       "C": "A l'àmbit de coordinació",
       "D": "A l'àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q53",
+    "statement": "Què és una albufera?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una àrea d'aigua soma disposada paral·lelament a la costa i separada del mar per restingues",
+      "B": "Una superfície submarina extensa poblada d'algues de vidriers",
+      "C": "Una regió de roca calcària o dolomítica i d'altres roques solubles on s'ha produït el desenvolupament de formes específiques de relleu causades per processos de dissolució i d'erosió superficial i subterrània",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q71",
@@ -1347,7 +2715,29 @@
       "B": "0,5 ohms",
       "C": "4 ohms",
       "D": "2 ohms"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q6",
+    "statement": "L'assignació del Cap Operatiu es realitza mitjançant:",
+    "correct": "C",
+    "explanation": "Art. 8.1: El cap operatiu és el màxim comandament operatiu en l'àmbit territorial assignat mitjançant una ordre interna del\nsubdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una instrucció del Conseller d’Interior",
+      "B": "Una circular del Conseller d’Interior",
+      "C": "Una ordre interna del SGO",
+      "D": "Una resolució del SGO"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q20",
@@ -1365,7 +2755,9 @@
       "B": "De ningú, és una posició amb autonomia funcional",
       "C": "De la Sala Central de Bombers",
       "D": "Del cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q44",
@@ -1383,7 +2775,29 @@
       "B": "Al cap territorial",
       "C": "Al sotscap territorial",
       "D": "Al cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q55",
+    "statement": "Durant la valoració d'un pacient en una emergència, i seguint la metodologia ABCDE, a quina de les següents accions hi apareix un error?",
+    "correct": "D",
+    "explanation": "La temperatura corporal la valorarem a la fase E (exposició-exploració), i no a la D (discapacitats neurològiques).\nLa pressió arterial normal per a adults serà una pressió sistòlica de menys de 120 i una pressió diastòlica de menys de\n80 (mmHg).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Durant el pas A, i per evitar que la llengua del pacient obstrueixi les seves vies respiratòries, podem utilitzar una cànula orofaríngia",
+      "B": "Durant el pas B, valorem la freqüència respiratòria del pacient, que és de 14 respiracions per minut. Es troba dins la normalitat.",
+      "C": "Durant el pas C valorem la seva tensió arterial, que es troba dins la normalitat, al voltant dels 120/80",
+      "D": "Durant el pas D valorem la seva temperatura corporal, que es troba dins la normalitat, a 36,6°C"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q60",
@@ -1401,7 +2815,9 @@
       "B": "Garantir l'aplicació del Pla d'actuació del grup d'intervenció (PAGI) del pla d'emergència d'àmbit general que correspongui i supervisar-ne el compliment",
       "C": "Recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació",
       "D": "Participar en aquelles activitats d'avaluació, simulacres, formació i pràctiques, prevenció, manteniment, divulgació i qualsevol altra activitat realitzada pels mitjans implicats en la prestació de les funcions de la guàrdia que li siguin encomanades pel cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q39",
@@ -1419,7 +2835,9 @@
       "B": "La de sotscap territorial i la de cap de sortida",
       "C": "La de cap operatiu i la de cap territorial",
       "D": "La de cap operatiu, únicament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q70",
@@ -1437,7 +2855,29 @@
       "B": "Al Cap de torn",
       "C": "El Cap de coordinació territorial",
       "D": "El Cap de guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q3",
+    "statement": "Quina de les següents afirmacions respecte l'estructura organitzativa del cos de bombers de la Generalitat és certa?",
+    "correct": "B",
+    "explanation": "Els òrgans centrals es componen de: Divisió, Àrea Central, Unitat Central i Grup.\nEls òrgans territorials es componen de: Regió, Àrea Regional, Unitat Regional i Parc.\nEl Parc és el conjunt de mitjans personals i materials, amb organització pròpia, situat en un municipi i amb un àmbit\nterritorial d'intervenció funcional concret.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els òrgans centrals es componen de: Divisió, Àrea Central, Unitat Regional i Parc",
+      "B": "La Unitat és un òrgan que, de manera ordinària, s'adscriu a una àrea central o regional o a una divisió o regió",
+      "C": "El Grup és el conjunt de mitjans personals i materials, amb organització pròpia, situat en un municipi i amb un àmbit territorial d'intervenció funcional concret",
+      "D": "Els òrgans territorials es componen de: Regió, Àrea Regional, Unitat Regional, Grup i Parc de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q12",
@@ -1455,7 +2895,29 @@
       "B": "El parc de bombers",
       "C": "La comarca",
       "D": "La vegueria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q38",
+    "statement": "El cap de coordinació territorial:",
+    "correct": "C",
+    "explanation": "Cap operatiu i cap territorial: Participen i col·laboren en els brífings diaris de la Sala Central de Bombers.\nCap de coordinació de la Sala Central de Bombers: dirigeix els brífings diaris de la Sala Central de Bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'acord amb el Decret 276/2016, de 19 de juliol, no haurà de concórrer en els brífings diaris de la Sala Central de Bombers",
+      "B": "Participa i col·labora en els brífings diaris de la Sala Central de Bombers",
+      "C": "Participa en els brífings diaris de la Sala Central de Bombers",
+      "D": "Dirigeix els brífings diaris de la Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q51",
@@ -1473,7 +2935,29 @@
       "B": "Tres",
       "C": "Quatre",
       "D": "Una"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q31",
+    "statement": "Qui té assignada la funció d'elaborar i donar a conèixer diàriament la Taula de recursos d'intervenció (TRI)?",
+    "correct": "D",
+    "explanation": "El TRI és el document que ha de recollir la distribució final de recursos operatius de la guàrdia de Catalunya.\nSupervisar l'elaboració de la Taula de recursos d'intervenció (TRI) és una funció del Cap de coordinació de la Sala\nCentral de Bombers.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les sales de control territorial",
+      "B": "El cap de coordinació de la Sala Central de Bombers",
+      "C": "El cap de coordinació territorial",
+      "D": "La Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q32",
@@ -1491,7 +2975,29 @@
       "B": "El cap operatiu",
       "C": "El cap de coordinació de la Sala Central de Bombers",
       "D": "El cap de torn  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q43",
+    "statement": "Com s'anomena el nou datum que adopta Europa l'any 2007 com a nou sistema de referència geogràfica oficial?",
+    "correct": "A",
+    "explanation": "Aquest datum geodèsic és compatible amb els moderns sistemes de navegació per satèl·lit GPS, GLONASS i l'europeu\nGALILEU.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ETRS89",
+      "B": "WGS84",
+      "C": "ED75",
+      "D": "DATUM73"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q87",
@@ -1509,7 +3015,49 @@
       "B": "El cap operatiu",
       "C": "El cap de sortida",
       "D": "Cap de les tres posicions proposades s'assignen mitjançant una ordre interna del Subdirector General Operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q14",
+    "statement": "A efectes de la implantació del cos de Bombers de la Generalitat, en quantes regions d'emergència es vertebra el territori de Catalunya?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha un total de 7 regions d'emergència: Centre, Girona, Lleida, Metrop.Nord, Metrop.Sud, Tarragona i\nTerres de l'Ebre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En sis regions d'emergència",
+      "B": "En set regions d'emergència",
+      "C": "En vuit regions d'emergència",
+      "D": "En cinc regions d'emergència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q29",
+    "statement": "D'acord amb el Decret 243/2007, de l'Estructura del Departament d'Interior, on s'inclouen l'Àrea d'actuacions forestals i la Unitat d'Emergències mèdiques?",
+    "correct": "C",
+    "explanation": "Dins la Divisió de Grups Operatius Especials també hi trobarem la Unitat d'Actuacions especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Divisió de Planificació i Gestió",
+      "B": "A la Divisió d'Operacions",
+      "C": "A la Divisió de Grups Operatius Especials",
+      "D": "A la Divisió de la Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim38_q61",
@@ -1527,7 +3075,9 @@
       "B": "Analitzar diàriament la situació general del risc i la distribució inicial de recursos del servei de guàrdia a Catalunya",
       "C": "Proporcionar el suport tècnic i logístic necessari en les intervencions operatives",
       "D": "Determinar els recursos humans i materials necessaris per donar suport operatiu, estratègic i logístic adequat al nivell de comandament que s'hagi establert"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim38_q83",
@@ -1545,7 +3095,9 @@
       "B": "L'àmbit de suport",
       "C": "L'àmbit de coordinació",
       "D": "L'àmbit executiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q49",
@@ -1563,7 +3115,29 @@
       "B": "El Bufet del Conseller",
       "C": "El Gabinet del Conseller",
       "D": "L'Oficina de Relacions Institucionals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q74",
+    "statement": "Quines regions fitogeogràfiques trobem a Catalunya?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament la regió mediterrània",
+      "B": "La regió mediterrània, la eurosiberiana i la boreoalpina",
+      "C": "La regió mediterrània i la siberiana",
+      "D": "La regió mediterrània, la continental i la eurosiberiana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q78",
@@ -1581,7 +3155,9 @@
       "B": "El Servei Català de Trànsit, l'Institut de Seguretat Pública de Catalunya i el Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya.",
       "C": "La Direcció General de Prevenció, Extinció d'Incendis i Salvaments, la Direcció General de la Policia i la Direcció General de Protecció Civil",
       "D": "Del Gabinet del Conseller, de la Direcció General de Prevenció, Extinció d'Incendis i Salvaments, la Direcció General de la Policia, la Direcció General de Protecció Civil i la Direcció d'Agents Forestals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q85",
@@ -1599,7 +3175,9 @@
       "B": "L'àmbit de suport",
       "C": "L'àmbit de coordinació",
       "D": "L'àmbit funcional"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q22",
@@ -1617,7 +3195,49 @@
       "B": "El Servei de Nòmines i Despeses de Personal i el Servei de Personal",
       "C": "El Servei Català de Trànsit, l'Institut de Seguretat Pública de Catalunya i el Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya",
       "D": "El Servei de Gestió Econòmica i el Servei de Contractació i Patrimoni"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q27",
+    "statement": "A quina regió del cos podriem situar la melsa i les glàndules suprarenals?",
+    "correct": "A",
+    "explanation": "També hi trobariem els òrgans de l’aparell digestiu i els òrgans de l’aparell genital.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la regió abdominal",
+      "B": "A la regió toràcica",
+      "C": "A les extremitats",
+      "D": "A la regió cervical"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q65",
+    "statement": "Quina posició tindrà la funció d'encomanar-li al cap de sortida l'assumpció del comandament del torn de sortida i del desenvolupament en el territori dels serveis en situacions d'emergència?",
+    "correct": "B",
+    "explanation": "Assumir el comandament del torn de sortida i del desenvolupament en el territori dels serveis en situacions\nd'emergència que li siguin encarregats pel cap de torn o, en cas que aquest coincideixi amb el cap de sortida, pel cap\nde coordinació territorial que correspongui.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap operatiu",
+      "B": "El cap de torn",
+      "C": "El sotscap territorial",
+      "D": "El Cap de coordinació de la Sala Central de Bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q82",
@@ -1635,7 +3255,9 @@
       "B": "Secretaria General",
       "C": "Gabinet del/de la Conseller/a",
       "D": "Direcció de Serveis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q51",
@@ -1653,7 +3275,9 @@
       "B": "Les categories d'oficial, sergent, caporal o bomber de primera de l'escala tècnica",
       "C": "Les categories d'oficial, sergent o caporal",
       "D": "Les categories de sergent, caporal o bomber de primera de l'escala tècnica"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q70",
@@ -1671,7 +3295,9 @@
       "B": "A l'escala tècnica",
       "C": "A l'escala superior",
       "D": "A l'escala suprema"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q17",
@@ -1689,7 +3315,9 @@
       "B": "Una Unitat de Sala de Control per cada Regió d'Emergències, excepte a la Regió d'Emergències de les Terres de l'Ebre que se n'adscriuran dues",
       "C": "Una Unitat de Sala de Control per cada Regió d'Emergències, excepte a la Regió d'Emergències de les Terres de l'Ebre que no en tindrà cap adscrita",
       "D": "Entre una i tres Unitats de Sala de Control per cada Regió d'Emergències, excepte en el cas de la Regió d'Emergències de Lleida, on se n'adscriuran quatre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q33",
@@ -1707,7 +3335,9 @@
       "B": "Centre de guàrdia",
       "C": "Caseta de control",
       "D": "Sala Central de Bombers (SCB)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q42",
@@ -1725,7 +3355,9 @@
       "B": "El Servei Públic d'Ocupació de Catalunya",
       "C": "L'Institut de Seguretat Pública de Catalunya",
       "D": "El Centre d'Atenció i Gestió de Trucades d'Urgència 112 Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q73",
@@ -1743,7 +3375,9 @@
       "B": "Del Consell de Direcció del Departament",
       "C": "De la Secretaria General",
       "D": "De la Direcció de Serveis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q93",
@@ -1761,7 +3395,49 @@
       "B": "Informar els comandaments de la guàrdia territorial de la situació diària de risc i dels recursos disponibles",
       "C": "Assegurar el relleu i la continuïtat del servei de guàrdia",
       "D": "Sol·licitar a la Sala Central de Bombers els recursos complementaris per tal de fer front a les situacions d'emergència que ho requereixin, en el seu àmbit territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q18",
+    "statement": "Una de les formacions vegetals característiques de la fitotopografia catalana és la brolla, que es caracteritza per:",
+    "correct": "D",
+    "explanation": "La brolla presenta una alçada inferior a la màquia i és típica de la regió mediterrània.\nLes brolles poden aparèixer com a formacions arbustives substitutòries que responen a la destrucció d’altres formacions\nforestals més madures.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assolir alçades superiors a la màquia",
+      "B": "Ser una formació vegetal ombrívola",
+      "C": "Ser típica de la regió continental",
+      "D": "Comptar amb arbusts com els brucs o les estepes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q43",
+    "statement": "Qui és l'encarregat de dirigir els brífings diaris de la Sala Central de Bombers?",
+    "correct": "A",
+    "explanation": "El cap de coordinació territorial participarà en els brífings diaris de la Sala Central de Bombers.\nEl cap operatiu i el cap territorial participaran i col·laboraran en els brífings diaris de la Sala Central de Bombers.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap de coordinació de la SCB",
+      "B": "El cap territorial",
+      "C": "El cap de coordinació territorial",
+      "D": "El cap operatiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q68",
@@ -1779,7 +3455,109 @@
       "B": "La de cap territorial i la de sotscap territorial",
       "C": "La de sotscap territorial i la de cap de sortida",
       "D": "La de cap operatiu, únicament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q79",
+    "statement": "Quina norma concreta l'estructura actual del Departament d'Interior?",
+    "correct": "A",
+    "explanation": "Substituint el Decret 243/2007, de 6 de novembre, d'estructura del Departament d'Interior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior",
+      "B": "La Llei d'Estructura del Departament d'Interior",
+      "C": "El Decret 243/2007, de 6 de novembre, d'estructura del Departament d'Interior",
+      "D": "El Decret 12/2022, de 7 de gener, de reestructuració del Departament d'Interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q30",
+    "statement": "El Decret de reestructuració del Departament d'Interior el/la defineix com la unitat d'assistència i suport a la consellera:",
+    "correct": "C",
+    "explanation": "Article 3.1\nSón funcions del Gabinet del Conseller, com a unitat d'assistència del conseller, les següents:\na) Donar suport i assistència a les activitats del conseller.\nb) Coordinar les unitats que en depenen.\nc) Qualsevol altra funció que li encomani el conseller.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Secretaria General",
+      "B": "La Direcció de Serveis",
+      "C": "El Gabinet del Conseller",
+      "D": "La Direcció General de Prevenció, Extinció d'Incendis i Salvaments"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q35",
+    "statement": "Quin percentatge de l'àrea metropolitana de Barcelona (AMB) està ocupada per boscos, platges i sòl no ocupat?",
+    "correct": "A",
+    "explanation": "Residencial: 20%\nIndustrial: 7%\nEquipaments: 6%\nInfraestructures i serveis: 6%\n(...)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 52%",
+      "B": "El 41%",
+      "C": "El 20%",
+      "D": "El 3%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q75",
+    "statement": "En quins centres i posicions s'estructura l'àmbit de coordinació de la guàrdia, en funció del respectiu nivell de responsabilitat i àmbit d'actuació?",
+    "correct": "A",
+    "explanation": "L'àmbit operatiu, l'àmbit de coordinació i l'àmbit de suport són els àmbits de la guàrdia.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la Sala Central de Bombers (SCB), en les Sales de Control Territorial (SCT) i els parcs de bombers",
+      "B": "En la Sala Central de Bombers (SCB) i Sales de Control Territorial (SCT)",
+      "C": "En l'àmbit operatiu, en l'àmbit de coordinació i en l'àmbit de suport",
+      "D": "En la Sala Central de Bombers (SCB), les Sales de Control Territorial (SCT) i les Sales de Control Regional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q21",
+    "statement": "Quina de les següents unitats de relleu té una entitat menor?",
+    "correct": "A",
+    "explanation": "Les tres grans unitats de relleu:\n-Pirineus\n-Serralades Costaneres\n-Depressió Central\nUnitats de relleu de menor entitat:\n-Serralada Transversal\n-Plana de l'Empordà\n-Delta de L'Ebre",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Serralada Transversal",
+      "B": "Els Pirineus",
+      "C": "La Depressió Central",
+      "D": "Les Serralades Costaneres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q31",
@@ -1797,7 +3575,9 @@
       "B": "És un òrgan que, de manera ordinària, s'adscriu a una regió, i li correspon la direcció operativa dels bombers",
       "C": "Es considera un òrgan territorial",
       "D": "S'adscriu a la Subdirecció General Operativa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q37",
@@ -1815,7 +3595,9 @@
       "B": "El Subdirector General Operatiu (SGO)",
       "C": "El cap de sortida",
       "D": "El cap operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q38",
@@ -1833,7 +3615,9 @@
       "B": "A les àrees d'operacions de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Girona",
       "C": "A les àrees d'operacions de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Lleida",
       "D": "A les àrees d'operacions de les regions d'emergències Centre, Tarragona i Terres de l'Ebre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim46_q63",
@@ -1851,7 +3635,29 @@
       "B": "A la Divisió",
       "C": "Al Grup",
       "D": "A la Unitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q50",
+    "statement": "Quin percentatge de la superfície de Catalunya correspon a l'àrea Metropolitana de Barcelona (AMB)?",
+    "correct": "C",
+    "explanation": "I hi viu el 42,8% de la població.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 14%",
+      "B": "El 8%",
+      "C": "El 2%",
+      "D": "El 19%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q61",
@@ -1869,7 +3675,9 @@
       "B": "Garantir l'aplicació del Pla d'actuació del grup d'intervenció (PAGI) del pla d'emergència d'àmbit general que correspongui i supervisar-ne el compliment",
       "C": "Recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació",
       "D": "Participar en aquelles activitats d'avaluació, simulacres, formació i pràctiques, prevenció, manteniment, divulgació i qualsevol altra activitat realitzada pels mitjans implicats en la prestació de les funcions de la guàrdia que li siguin encomanades pel cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q70",
@@ -1887,7 +3695,29 @@
       "B": "El cap de coordinació territorial",
       "C": "El Conseller d'Interior",
       "D": "El Director General Operatiu (DGO)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q80",
+    "statement": "Quin tant per cent del territori de l'àrea metropolitana de Barcelona (AMB) està urbanitzat?",
+    "correct": "C",
+    "explanation": "El 48 % del territori està urbanitzat i la resta està ocupada per boscos i zones naturals i agrícoles.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un 89%",
+      "B": "Un 67%",
+      "C": "Un 48%",
+      "D": "Un 95%  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q23",
@@ -1905,7 +3735,149 @@
       "B": "Mitjançant torns de treball",
       "C": "Mitjançant una circular del director general competent en matèria de prevenció, extinció d'incendis i salvaments",
       "D": "Mitjançant torns rotatoris"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q38",
+    "statement": "A més de la llengua oficial de l’Estat espanyol, són oficials també les altres llengües espanyoles?",
+    "correct": "D",
+    "explanation": "Article 3 - CE:\n1. El castellà és la llengua espanyola oficial de l’Estat. Tots els espanyols tenen el deure de conèixer-la i el dret d’usar-la.\n2. Les altres llengües espanyoles seran també oficials en les respectives Comunitats Autònomes d’acord amb els seus\nEstatuts.\n3. La riquesa de les diferents modalitats lingüístiques d’Espanya és un patrimoni cultural que serà objecte d’especial\nrespecte i protecció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No, tenen la consideració de dialectes",
+      "B": "Sí, a tot el territori espanyol",
+      "C": "Sí, als respectius territoris històrics i d’acord amb els seus Estatuts",
+      "D": "Sí, a les respectives Comunitats Autònomes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q48",
+    "statement": "Quina regió abdominopelviana es troba immediatament per sota de l'epigastri?",
+    "correct": "B",
+    "explanation": "Immediatament per sota el mesogastri o regió umbilical hi trobem l'hipogastri.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'hipocondri esquerre",
+      "B": "El mesogastri o regió umbilical",
+      "C": "La fossa ilíaca",
+      "D": "L'hipogastri  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q74",
+    "statement": "On s'inclouen la Unitat de Mitjans Aeris i la Unitat de Coordinació de Sales de Control?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Divisió de Planificació i Gestió",
+      "B": "A la Divisió de Grups Operatius Especials",
+      "C": "A la Divisió de la Sala Central de Bombers",
+      "D": "A la Divisió d'Operacions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q9",
+    "statement": "És el responsable de l'àmbit de coordinació de la guàrdia de Catalunya:",
+    "correct": "B",
+    "explanation": "...i assumeix el dispositiu de la guàrdia que depèn de la SCB.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap operatiu",
+      "B": "El cap de coordinació de la SCB",
+      "C": "El Subdirector General Operatiu (SGO)",
+      "D": "El cap territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q28",
+    "statement": "A quina escala del Cos de Bombers de la Generalitat corresponen les funcions operatives en tasques de prevenció i extinció d'incendis i salvaments amb suport sanitari en emergències?",
+    "correct": "C",
+    "explanation": "Superior: operatives de nivell superior.\nExecutiva: operatives de nivell intermedi.\nTècnica: prevenció i extinció d'incendis i salvaments i suport sanitari en emergències.\nL'escala bàsica no existeix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'escala superior",
+      "B": "A l'escala executiva",
+      "C": "A l'escala tècnica",
+      "D": "A l'escala bàsica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q81",
+    "statement": "Correspon a la Divisió de la Sala Central de Bombers (SCB):",
+    "correct": "A",
+    "explanation": "Art. 87 - Decret 246/2007, de 6 de novembre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Donar suport a la Subdirecció General Operativa en la coordinació operativa dels serveis amb altres activitats",
+      "B": "Analitzar i proposar millores operatives i tècniques",
+      "C": "Establir els procediments i guies d’actuació en els serveis realitzats pels bombers quan no correspongui a la Divisió de Grups Operatius Especials",
+      "D": "Coordinar i donar suport a la selecció del personal temporal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q90",
+    "statement": "Quines dues regions biogeogràfiques hi són representades a Catalunya?",
+    "correct": "A",
+    "explanation": "El territori de la UE està dividit en 9 regions biogeogràfiques: boreal, atlàntica, continental, alpina, mediterrània,\nmacaronèsica, pannònica, estepària i del Mar Negre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La mediterrània i l’alpina",
+      "B": "La boreal i l’atlàntica",
+      "C": "La continental i l’alpina",
+      "D": "La mediterrània i la continental"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim50_q33",
@@ -1923,7 +3895,29 @@
       "B": "Facilitar al cap d'intervenció tota la informació operativa i tècnica necessària per a la resolució d'una emergència",
       "C": "Assegurar el relleu i la continuïtat del servei de guàrdia",
       "D": "Supervisar l'elaboració de la TRI"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q39",
+    "statement": "Si estem avançant en direcció NNO i girem 90º cap a l’esquerra, en quina direcció seguirem?",
+    "correct": "D",
+    "explanation": "Passarem de 337,5º a 247,5º.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "NNE",
+      "B": "NNO",
+      "C": "SO",
+      "D": "OSO"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim50_q66",
@@ -1941,7 +3935,9 @@
       "B": "La Divisió d'Operacions",
       "C": "La Divisió de Planificació i Gestió",
       "D": "La Divisió de Grups Operatius Especials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q11",
@@ -1959,7 +3955,9 @@
       "B": "El Cap de torn",
       "C": "El Cap de coordinació de la Sala Central de Bombers",
       "D": "El Subdirector general operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q13",
@@ -1977,7 +3975,69 @@
       "B": "L'Àrea d'operacions de la Regió d'Emergències Metropolitana Nord",
       "C": "L'Àrea d'operacions de la Regió d'Emergències de Lleida",
       "D": "L'Àrea d'operacions de la Regió d'Emergències de Girona"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q29",
+    "statement": "Segons el Decret 243/2007, de 6 de novembre, quin nivell organitzatiu forma part dels òrgans territorials?",
+    "correct": "C",
+    "explanation": "Òrgans centrals: Divisió, Àrea Central, Unitat Central i Grup.\nÒrgans territorials: Regió, Àrea Regional, Unitat Regional i Parc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Àrea Central",
+      "B": "El Grup",
+      "C": "El Parc",
+      "D": "La Divisió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q77",
+    "statement": "Quin tant per cent de la població de Catalunya viu a l'àrea metropolitana de Barcelona (AMB)?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona hi viuen 3.303.927 persones, el 42,6% de la gent que viu a Catalunya, segons dades\nde l'Idescat 2021.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un 53,6%",
+      "B": "Un 59,4%",
+      "C": "Un 42,6%",
+      "D": "Un 38%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q30",
+    "statement": "Quins són els centres de guàrdia que assumeixen la planificació i gestió de recursos humans i materials, segons el Decret 243/2007?",
+    "correct": "A",
+    "explanation": "Les Sales de Control Territorial formen part de l'àmbit de Coordinació:\nSCB > SCT > Parcs de bombers\n15.1: Les sales de control territorial són els centres de guàrdia que assumeixen la planificació i gestió dels recursos\nhumans i materials i garanteixen la resposta i la coordinació de la totalitat dels serveis del respectiu àmbit de gestió\noperativa, assignat mitjançant una ordre interna del subdirector general en l'àmbit operatiu, així com la cobertura més\nequilibrada i completa possible d'aquests.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les Sales de Control Territorial",
+      "B": "Els Parcs de bombers",
+      "C": "Les Sales Centrals de bombers",
+      "D": "Les Unitats de Direcció de l'Administració i Recursos Humans"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q34",
@@ -1995,7 +4055,9 @@
       "B": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "C": "Al Servei de Personal",
       "D": "Al Consell de Direcció del Departament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q35",
@@ -2013,7 +4075,9 @@
       "B": "Facilitar al cap d'intervenció tota la informació operativa i tècnica necessària per a la resolució d'una emergència",
       "C": "Dirigir a l'inici de la guàrdia la reunió informativa del funcionament ordinari del torn de guàrdia",
       "D": "Supervisar l'elaboració de la TRI"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q66",
@@ -2031,7 +4095,9 @@
       "B": "Les operatives en tasques de prevenció i extinció d'incendis i de salvaments i de suport sanitari en emergències",
       "C": "Les de direcció, coordinació i orientació d'unitats tècniques i les operatives de nivell superior, i les altres específiques de prevenció i extinció d'incendis i de salvaments que siguin determinades per via reglamentària",
       "D": "Les d'inspecció i les de comandament d'unitats operatives i logístiques que siguin determinades per via reglamentària"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q74",
@@ -2049,7 +4115,9 @@
       "B": "Al cap territorial",
       "C": "Al cap operatiu",
       "D": "Al cap de coordinació de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q38",
@@ -2067,7 +4135,9 @@
       "B": "La de sotscap territorial i la de cap de sortida",
       "C": "La de cap operatiu i la de cap territorial",
       "D": "La de cap operatiu, únicament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q83",
@@ -2085,7 +4155,9 @@
       "B": "A la Direcció de Serveis",
       "C": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "D": "La Secretaria General"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q4",
@@ -2103,7 +4175,9 @@
       "B": "Secretaria General",
       "C": "Gabinet del Conseller",
       "D": "Comitè Directiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q37",
@@ -2121,7 +4195,9 @@
       "B": "El Cap operatiu",
       "C": "El Cap de sortida",
       "D": "El Sotscap operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q93",
@@ -2139,7 +4215,29 @@
       "B": "Dues",
       "C": "Tres",
       "D": "Quatre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q6",
+    "statement": "Quina posició de l'àmbit operatiu té la funció de recollir les dades de les actuacions operatives?",
+    "correct": "D",
+    "explanation": "Cap territorial: supervisa la recollida de les dades de les actuacions operatives.\nSotscap territorial: garanteix la recollida de les dades de les actuacions operatives.\nCap de sortida: recull les dades de les actuacions operatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cap territorial",
+      "B": "El Cap operatiu",
+      "C": "El Sotscap territorial",
+      "D": "El Cap de sortida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q32",
@@ -2157,7 +4255,9 @@
       "B": "A la Direcció de Serveis",
       "C": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "D": "La Secretaria General  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q73",
@@ -2175,7 +4275,9 @@
       "B": "L'Àrea d'operacions de la Regió d'Emergències de Tarragona",
       "C": "L'Àrea d'operacions de la Regió d'Emergències de Lleida",
       "D": "L'Àrea d'operacions de la Regió d'Emergències de Girona"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q78",
@@ -2193,7 +4295,9 @@
       "B": "El cap operatiu",
       "C": "El cap de coordinació de la Sala Central de Bombers",
       "D": "El cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q42",
@@ -2211,7 +4315,9 @@
       "B": "De la Sala Central de Bombers (SCB)",
       "C": "Operativament de la Divisió de la Sala Central de Bombers i, funcionalment, de la Sala Central de Bombers (SCB)",
       "D": "De la Divisió de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q43",
@@ -2229,7 +4335,9 @@
       "B": "Fer el seguiment, si escau, de les intervencions operatives que es produeixin en l'àmbit territorial assignat i que no requereixin el seu nivell de comandament",
       "C": "Fer el seguiment, si escau, de les intervencions operatives que es produeixin en l'àmbit territorial assignat i que no requereixin el seu nivell de comandament",
       "D": "Dirigir els brífings diaris de la Sala Central de Bombers per tal que es puguin adoptar les mesures preventives necessàries i optimitzar la resposta operativa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q71",
@@ -2247,7 +4355,29 @@
       "B": "Àmbit d'assessorament",
       "C": "Àmbit tècnic",
       "D": "Àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q79",
+    "statement": "Dels nous quadrants de la cavitat abdominal, quin correspon al del centre?",
+    "correct": "C",
+    "explanation": "Mesogastri o regió umbilical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'hipocondri dret",
+      "B": "L'hipogastri",
+      "C": "El mesogastri",
+      "D": "L'epigastri"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q8",
@@ -2265,7 +4395,29 @@
       "B": "Depèn de si ens referim a una Divisió Central o a una Divisió Regional",
       "C": "D'òrgan territorial",
       "D": "D'òrgan central  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q32",
+    "statement": "Quin dels municipis següents NO forma part de l'Àrea Metropolitana de Barcelona?",
+    "correct": "D",
+    "explanation": "Informació extreta del web de l'AMB.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Begues",
+      "B": "Cornellà de Llobregat",
+      "C": "Badia del Vallès",
+      "D": "Rubí  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q45",
@@ -2283,7 +4435,9 @@
       "B": "El Cap Territorial",
       "C": "El Cap Operatiu i el Cap Territorial",
       "D": "La Sala Central de Bombers (SCB)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q85",
@@ -2301,7 +4455,9 @@
       "B": "De disponibilitat de localització i mobilització immediata",
       "C": "Ha d'estarpermanentment disponible per a localització i mobilització immediata",
       "D": "De disponibilitat immediata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q19",
@@ -2319,7 +4475,9 @@
       "B": "Tres",
       "C": "Les mateixes que a la regió d'emergències de Girona",
       "D": "Les respostes a) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q22",
@@ -2337,7 +4495,29 @@
       "B": "Àmbit d'assessorament",
       "C": "Àmbit tècnic",
       "D": "Àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q34",
+    "statement": "Quina funció té l'hipotàlem dins del diencèfal?",
+    "correct": "B",
+    "explanation": "El diencèfal està constituït per:\n- Tàlem: Es troba situat entre els hemisferis cerebrals. És on acaben les vies sensitives importants i integra aquesta\ninformació. Dóna lloc a les respostes emocionals de les sensacions.\n- Hipotàlem: Ubicat just a sota el tàlem, és l'encarregat de regular les funcions endocrines mitjançant el control de la\nhipòfisi; controla els períodes de vigília i son, regula la temperatura corporal, regula la sensació de gana i set, el\nmetabolisme dels greixos…",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És l'encarregat de la consciència i el despertar",
+      "B": "Regula les funcions endocrines mitjançant el control de la hipòfisi",
+      "C": "Control·la les funcions vegetatives com la respiració i el ritme cardíac",
+      "D": "Integra la informació de les vies sensitives importants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q68",
@@ -2355,7 +4535,9 @@
       "B": "La de sotscap territorial i la de cap de sortida",
       "C": "La de cap territorial, únicament",
       "D": "La de sotscap territorial, únicament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q75",
@@ -2373,7 +4555,9 @@
       "B": "L'Oficina de Relacions Institucionals",
       "C": "L'Oficina de Gestió de la Xarxa RESCAT",
       "D": "L'Oficina de Relacions Externes i Protocol"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q4",
@@ -2391,7 +4575,9 @@
       "B": "Al cap de coordinació territorial",
       "C": "Al subdirector general competent en l'àmbit operatiu",
       "D": "Al cap de coordinació de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q9",
@@ -2409,7 +4595,9 @@
       "B": "L'Oficina de Relacions Institucionals",
       "C": "El Gabinet del Conseller",
       "D": "El Consell de Direcció del Departament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q71",
@@ -2427,7 +4615,9 @@
       "B": "Al cap de coordinació territorial corresponent",
       "C": "Al subdirector general competent en l'àmbit operatiu",
       "D": "Al cap de coordinació de la Sala Central de Bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q13",
@@ -2445,7 +4635,9 @@
       "B": "El Gabinet Tècnic",
       "C": "L'Àrea de Tecnologies de la Informació i les Comunicacions",
       "D": "La Direcció de Serveis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q18",
@@ -2463,7 +4655,29 @@
       "B": "Al Cap operatiu",
       "C": "Al Cap de sortida",
       "D": "Al Sotscap operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim60_q50",
+    "statement": "Què és la formació reticular en el sistema nerviós central?",
+    "correct": "C",
+    "explanation": "La formació reticular és una mescla de substància gris i blanca. Formada per múltiples sinapsis entre neurones. Es troba\ndistribuïda per la medul·la espinal i l'encèfal i és una estructura important perquè s'encarrega de coordinar funcions\nvegetatives o autònomes (respiració, deglució, pressió sanguínia…), controlar l'estat de vigília i la son, participar en el\ncontrol de la posició corporal i l'activitat hormonal i controlar les reaccions emocionals i el ritme biològic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una estructura formada per axons que representa les vies de conducció dels impulsos nerviosos",
+      "B": "Una estructura formada per l'aglomeració de cossos neuronals interconnectats que integren informació",
+      "C": "Una mescla de substància gris i blanca que coordina funcions vegetatives i controla l'estat de vigília",
+      "D": "Una prolongació de la neurona que transmet l'impuls elèctric"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim60_q51",
@@ -2481,7 +4695,9 @@
       "B": "En funció del tipus d'endoll on l'endollem utilitzarà una tensió de treball o una altra",
       "C": "Una tensió de treball normalment compresa dins de l'intèrval d'entre 100 i 550 Joules",
       "D": "Utilitzarà una tensió de treball determinada per la potència de l'aparell"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q6",
@@ -2499,7 +4715,9 @@
       "B": "Nivell de comandament 2: cap de torn",
       "C": "Nivell de comandament 3: sotscap territorial",
       "D": "Nivell de comandament 5: subdirector general competent en l'àmbit operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q37",
@@ -2517,7 +4735,9 @@
       "B": "El Centre de Coordinació Operativa de Catalunya (CECAT), la Sala Central de Bombers (SCB), les Sales de Control Territorial (SCT) i els parcs de bombers",
       "C": "La Sala Central de Bombers (SCB) i les Sales de Control Territorial (SCT)",
       "D": "El Centre d’Atenció i Gestió de Trucades d'Urgència 112 de Catalunya, el Centre de Coordinació Operativa de Catalunya (CECAT), la Sala Central de Bombers (SCB), les Sales de Control Territorial (SCT) i els parcs de bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q80",
@@ -2535,7 +4755,9 @@
       "B": "Cap de coordinació territorial",
       "C": "Cap operatiu",
       "D": "Cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q93",
@@ -2553,25 +4775,9 @@
       "B": "La Secretaria General",
       "C": "El Gabinet del/de la Conseller/a",
       "D": "La Direcció de Serveis"
-    }
-  },
-  {
-    "id": "academia_sim62_q45",
-    "statement": "En relació amb el Decret 276/2016, de 19 de juliol, de les funcions de guàrdia i del sistema de comandament dels serveis de prevenció, extinció d’incendis i salvaments de la Generalitat de Catalunya, quina és una funció del cap de sortida?",
-    "correct": "A",
-    "explanation": "11.4 El cap de sortida té assignades les funcions següents:\na) Assumir el comandament del torn de sortida i del desenvolupament en el territori dels serveis en situacions\nd'emergència que li siguin encarregats pel cap de torn o, en cas que aquest coincideixi amb el cap de sortida, pel cap de\ncoordinació territorial que correspongui, d'acord amb el sistema de comandament regulat en el capítol 5 d'aquest Decret.\nb) Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent.\nc) Recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació.\nd) Elaborar els informes que correspongui en relació amb les actuacions operatives en què hagi intervingut.\ne) Col·laborar en la investigació dels sinistres en què hagi participat i aquells que li siguin encomanats.\nf) Participar en aquelles activitats planificades d'avaluació, simulacres, formació i pràctiques, prevenció, manteniment i\ndivulgació i qualsevol altra activitat realitzada pels mitjans implicats en la prestació de la guàrdia que li siguin\nencomanades pel cap de torn o, en cas que aquest coincideixi amb el cap de sortida, pel cap de coordinació territorial\nque correspongui.\ng) Qualsevol altra que se li encomani, en els seu àmbit competencial.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T04 - Organització del cos de Bombers",
-    "section": "Simulacre 62",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Elaborar els informes que correspongui en relació amb les actuacions operatives en què hagi intervingut",
-      "B": "Coordinar la totalitat dels serveis en situacions d'emergència, supervisar el nivell de comandament i fer-ne el seguiment estratègic i permanent, i proporcionar el suport logístic i especialitzat en aquells serveis que ho requereixin, adequant la resposta, si escau, als protocols d'actuació i plans d'emergència",
-      "C": "Garantir la constitució del Centre de Comandament de Bombers en les situacions d'emergència que ho requereixin, d'acord amb la instrucció que s'estableixi",
-      "D": "Facilitar al cap d'intervenció tota la informació operativa i tècnica necessària per a la resolució de l'emergència"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q46",
@@ -2589,7 +4795,9 @@
       "B": "Garantir el comandament del sector funcional propi de l'especialitat, d'acord amb el que estableixi el cap d'intervenció",
       "C": "Participar en el brífing diari de la Sala Central de Bombers de forma presencial",
       "D": "Rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q76",
@@ -2607,7 +4815,9 @@
       "B": "Participar i col·laborar en els brífings diaris de la Sala Central de Bombers per tal de conèixer la resposta operativa a la situació de risc",
       "C": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent",
       "D": "Elaborar els informes que correspongui en relació amb les actuacions operatives en què hagi intervingut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q19",
@@ -2625,7 +4835,9 @@
       "B": "Planificar i impulsar accions adreçades a la integració, la rendibilització i l'optimització màximes de les actuacions de les diferents unitats del Departament",
       "C": "Mantenir les relacions ordinàries del Departament amb els òrgans competents en matèria de recursos humans i relacions laborals",
       "D": "Coordinar els serveis de recepció, d'atenció telefònica i presencial dels ciutadans de la seu del Departament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q37",
@@ -2643,7 +4855,89 @@
       "B": "Assegurar el relleu i la continuïtat del servei de guàrdia",
       "C": "Comunicar a la sala de control territorial corresponent qualsevol incidència que afecti l'operativitat del torn",
       "D": "Dirigir a l'inici de la guàrdia la reunió informativa del funcionament ordinari del torn de guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q54",
+    "statement": "A quin estatge ubiquem les fagedes?",
+    "correct": "C",
+    "explanation": "L'estatge montà és l'estatge de vegetació comprès entre l'estatge basal i l'estatge subalpí, que correspon, en general, a\nla muntanya mitjana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'estatge basal",
+      "B": "A l'estatge alpí",
+      "C": "A l'estatge montà",
+      "D": "A l'estatge subalpí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q72",
+    "statement": "El diòxid de carboni (CO2):",
+    "correct": "D",
+    "explanation": "El temari oficial de BBVV indica que: \"és especialment indicat per a focs de classe B (líquids) i en focs que es trobin\nsotmesos a tensió elèctrica. També es pot utilitzar, encara que no és tan efectiu, en focs de classe A (sòlids) i C (gasos)\".\nEn canvi, segons la norma UNE 23010, no serà acceptable en focs de Classe C.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot utilitzar en focs de classe A (sòlids)",
+      "B": "És indicat per a focs de classe B (líquids)",
+      "C": "És especialment indicat en focs que es trobin sotmesos a tensió elèctrica",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q13",
+    "statement": "En quines unitats centrals s'estructura la Divisió de Sala Central de Bombers?",
+    "correct": "D",
+    "explanation": "52.2 La Divisió de Sala Central de Bombers s'estructura en les unitats centrals següents:\na) Unitat de Mitjans Aeris.\nb) Unitat de Coordinació de Sales de Control.\nc) Unitat de Suport Operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unitat de Sala de Control, Unitat de Planificació i Coordinació Operativa i Unitat de Formació",
+      "B": "Unitat de Planificació de Recursos i Equipaments Operatius, Unitat de Suport Tecnològic i Unitat de Suport Operatiu",
+      "C": "Unitat de Comunicacions, Unitat de Suport Tecnològic i Unitat de Suport Logístic",
+      "D": "Unitat de Mitjans Aeris, Unitat de Coordinació de Sales de Control i Unitat de Suport Operatiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q43",
+    "statement": "A les carreteres en direcció SE-NW:",
+    "correct": "A",
+    "explanation": "Les carreteres en direcció S-N s’han de numerar en sentit creixent d’W a E. Se’ls assigna l’1 com a número bàsic de\ndirecció dominant associada i el 7 com a número de reserva.\nLes carreteres en direcció W-E s’han de numerar en sentit creixent de S a N. Se’ls assigna el 2 com a número bàsic de\ndirecció dominant associada i el 8 com a número de reserva.\nLes carreteres en direcció SW-NE s’han de numerar en sentit creixent de SE a NW. Se’ls assigna el 3 com a número\nbàsic de direcció dominant associada i el 9 com a número de reserva.\nLes carreteres en direcció SE-NW s’han de numerar en sentit creixent de SW a NE. Se’ls assigna el 4, 5 o 6 com a\nnúmero bàsic de direcció dominant associada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Se’ls assigna el 4, 5 o 6 com a número bàsic de direcció dominant associada",
+      "B": "Se’ls assigna l’1 com a número bàsic de direcció dominant associada",
+      "C": "Se’ls assigna el 3 com a número bàsic de direcció dominant associada",
+      "D": "Se’ls assigna el 2 com a número bàsic de direcció dominant associada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim64_q53",
@@ -2661,7 +4955,9 @@
       "B": "Àmbit d'assessorament",
       "C": "Àmbit tècnic",
       "D": "Àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q10",
@@ -2679,7 +4975,49 @@
       "B": "No, començarà a bullir un cop començada la formació",
       "C": "Si, però hem de tenir en compte que en menys d'un minut començarà la formació",
       "D": "Començarà a bullir a les 18:00 en punt"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q21",
+    "statement": "D'acord amb l'Organització Meteorològica Mundial (OMM), si es prenen en consideració les partícules que els constitueixen o els processos físics que intervenen en la seva formació, els meteors es poden classificar en quatre grups. De quin d'aquests grups formaria part el Foc de Sant Elm?",
+    "correct": "D",
+    "explanation": "Els quatre grups: hidrometeors, litometeors, fotometeors i electrometeors.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Litometeors",
+      "B": "Hidrometeors",
+      "C": "Fotometeors",
+      "D": "Electrometeors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q65",
+    "statement": "Quin comandament és el responsable de l'àmbit de coordinació de la guàrdia de Catalunya?",
+    "correct": "B",
+    "explanation": "...i assumeix el dispositiu de la guàrdia que depèn de la SCB.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap operatiu",
+      "B": "El cap de coordinació de la SCB",
+      "C": "El Subdirector General Operatiu (SGO)",
+      "D": "El cap territorial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q19",
@@ -2697,7 +5035,9 @@
       "B": "El cap de coordinació territorial",
       "C": "El cap de coordinació de la Sala Central de Bombers",
       "D": "El cap de coordinació de la Sala Central de Bombers o el cap de coordinació territorial, segons correspongui"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q29",
@@ -2715,7 +5055,9 @@
       "B": "Cinc",
       "C": "Tres",
       "D": "Sis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q48",
@@ -2733,7 +5075,9 @@
       "B": "Assumir el comandament del torn de sortida",
       "C": "Recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació",
       "D": "Garantir la recollida de les dades de les actuacions operatives realitzades a fi que es pugui confeccionar elcomunicat d'actuació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q69",
@@ -2751,7 +5095,9 @@
       "B": "La Divisió de Grups Operatius Especials",
       "C": "La Divisió de la Sala de Control",
       "D": "La Divisió de Planificació i Gestió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q23",
@@ -2769,7 +5115,9 @@
       "B": "La Subdirecció General Operativa",
       "C": "La Subdirecció General d'Administració i Recursos",
       "D": "La Subdirecció General de Prevenció de Riscos i Salut Laboral"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q68",
@@ -2787,7 +5135,9 @@
       "B": "L'àmbit operatiu",
       "C": "L'àmbit de suport",
       "D": "Tots tres, de forma coordinada"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q70",
@@ -2805,7 +5155,9 @@
       "B": "S'adscriu una Unitat de Sala de Control a cada Regió d'Emergències",
       "C": "S'adscriu una Unitat de Sala de Control a cada Regió d'Emergències, excepte a la Regió d'Emergències de Lleida",
       "D": "S'adscriu una Unitat de Sala de Control a tot Catalunya  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q13",
@@ -2823,7 +5175,9 @@
       "B": "A les àrees",
       "C": "Als Grups",
       "D": "A la Divisió i la Regió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q15",
@@ -2841,7 +5195,29 @@
       "B": "La Regió d'Emergències Centre",
       "C": "La Regió d'Emergències de Tarragona",
       "D": "La Regió d'Emergències de Lleida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q46",
+    "statement": "Establir els sistemes de compensació horària de la modalitat de guàrdia de disponibilitat de localització i mobilització immediata correspon a:",
+    "correct": "A",
+    "explanation": "Mitjançant una resolució (art. 4).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Director General competent en matèria de prevenció, extinció d'incendis i salvaments",
+      "B": "El Subdirector General competent en matèria de prevenció, extinció d'incendis i salvaments",
+      "C": "El Subdirector General Operatiu",
+      "D": "El Conseller d'Interior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q73",
@@ -2859,7 +5235,9 @@
       "B": "L'àmbit de suport",
       "C": "L'àmbit de coordinació",
       "D": "L'àmbit executiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q80",
@@ -2877,7 +5255,9 @@
       "B": "Al Cap operatiu",
       "C": "Al Cap de sortida",
       "D": "Al Sotscap operatiu  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q6",
@@ -2895,7 +5275,29 @@
       "B": "El Cap territorial",
       "C": "El Sotscap territorial",
       "D": "El Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q18",
+    "statement": "Com es realitza l'assignació del Cap Operatiu?",
+    "correct": "C",
+    "explanation": "Art. 8.1: El cap operatiu és el màxim comandament operatiu en l'àmbit territorial assignat mitjançant una ordre interna del\nsubdirector general competent en l'àmbit operatiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant una instrucció del Conseller d’Interior",
+      "B": "Mitjançant una circular del Conseller d’Interior",
+      "C": "Mitjançant una ordre interna del SGO",
+      "D": "Mitjançant una resolució del SGO"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q51",
@@ -2913,7 +5315,9 @@
       "B": "A les àrees",
       "C": "Als Grups",
       "D": "A la Divisió i la Regió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q68",
@@ -2931,7 +5335,29 @@
       "B": "A les de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Girona",
       "C": "A les de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Lleida",
       "D": "A les de les regions d'emergències Centre, Tarragona i Terres de l'Ebre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q75",
+    "statement": "Quina afirmació és FALSA sobre les direccions de serveis de la Generalitat?",
+    "correct": "D",
+    "explanation": "Les direccions de serveis, amb rang orgànic de direcció general, exerceixen les funcions d'administració, règim interior i\ngestió dels serveis comuns del departament, sota la direcció de la secretaria general, en quina estructura s'integren.\nLes Direccions generals són les unitats directives fonamentals de l'Administració tant en l'actuació sectorial d'aquesta\ncom en la prestació de serveis, i responen directament als objectius que persegueix un departament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Se situen sota la direcció de la secretaria general",
+      "B": "Exerceixen les funcions d'administració, règim interior i gestió dels serveis comuns del departament",
+      "C": "Tenen rang orgànic de direcció general",
+      "D": "Són les unitats directives fonamentals de l'Administració tant en l'actuació sectorial d'aquesta com en la prestació de serveis, i responen directament als objectius que persegueix un departament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q15",
@@ -2949,7 +5375,9 @@
       "B": "L'àmbit operatiu",
       "C": "L'àmbit de suport",
       "D": "Tots tres, de forma coordinada"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q23",
@@ -2967,7 +5395,9 @@
       "B": "A la regió d'emergències Centre",
       "C": "A la regió d'emergències Metropolitana Nord",
       "D": "A la regió d'emergències de Lleida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q29",
@@ -2985,7 +5415,29 @@
       "B": "A les àrees",
       "C": "Als Grups",
       "D": "A la Divisió i la Regió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q17",
+    "statement": "D'acord amb l'article 3 de la CE, quina és la llengua espanyola oficial de l'Estat?",
+    "correct": "C",
+    "explanation": "CE - Article 3.\n1. El castellà és la llengua espanyola oficial de l'Estat. Tots els espanyols tenen el deure de conèixer-la i el dret d'usar-la.\n2. Les altres llengües espanyoles seran també oficials en les respectives Comunitats Autònomes d'acord amb els seus\nEstatuts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El castellà, el català, el gallec i l'euskara (basc)",
+      "B": "El castellà, el català, el gallec, l'euskara (basc), l'aranès i el lleonès",
+      "C": "El castellà",
+      "D": "El castellà, el català, el gallec, l'euskara (basc) i el lleonès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q21",
@@ -3003,7 +5455,9 @@
       "B": "Sergent, exclusivament",
       "C": "Caporal, bomber de primera i, en casos excepcionals, bomber",
       "D": "Sergent, Caporal i Bomber de primera  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q77",
@@ -3021,7 +5475,9 @@
       "B": "A la Regió d'Emergències Metropolitana Sud",
       "C": "A la Regió d'Emergències de Lleida",
       "D": "A la Regió d'Emergències de Tarragona  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q91",
@@ -3039,7 +5495,9 @@
       "B": "El cap territorial",
       "C": "El sotscap territorial",
       "D": "El cap de sortida  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q21",
@@ -3057,7 +5515,9 @@
       "B": "El control de cada parc de bombers dins el seu àmbit territorial",
       "C": "La Sala Central de Bombers",
       "D": "El CECAT, dins el sistema de protecció civil on Bombers presta serveis  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q40",
@@ -3075,7 +5535,9 @@
       "B": "El cap de guàrdia",
       "C": "El cap de coordinació",
       "D": "El cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q58",
@@ -3093,7 +5555,29 @@
       "B": "Dos tipus de centres: les sales de control territorial i els parcs de bombers",
       "C": "Set centres, un per cada regió d'emergències",
       "D": "Cap de les respostes proposades és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q11",
+    "statement": "Està constituït pel tàlem i per l'hipotàlem:",
+    "correct": "D",
+    "explanation": "Tàlem: Es troba situat entre els hemisferis cerebrals. És on acaben les vies sensitives importants i integra aquesta\ninformació. Dóna lloc a les respostes emocionals de les sensacions.\nHipotàlem: Ubicat just a sota el tàlem, és l'encarregat de regular les funcions endocrines mitjançant el control de la\nhipòfisi; controla els períodes de vigília i son, regula la temperatura corporal, regula la sensació de gana i set, el\nmetabolisme dels greixos…",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cerebel",
+      "B": "El mesencèfal",
+      "C": "El bulb raquidi",
+      "D": "El diencèfal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q13",
@@ -3111,7 +5595,9 @@
       "B": "Analitzar diàriament la situació general del risc i la distribució de recursos a Catalunya",
       "C": "Rebre i atendre les peticions d’atenció a situacions d’emergència en el seu àmbit territorial",
       "D": "Donar suport a les sales de control territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q32",
@@ -3129,7 +5615,9 @@
       "B": "El cap de coordinació d'SCB",
       "C": "El subdirector general competent en l'àmbit operatiu",
       "D": "El conseller del Departament d'Interior  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q34",
@@ -3147,7 +5635,9 @@
       "B": "Àmbit operatiu, àmbit de coordinació i àmbit de suport",
       "C": "Àmbit regional, àmbit central i àmbit de supervisió",
       "D": "Àmbit de gestió i àmbit de guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q2",
@@ -3165,7 +5655,29 @@
       "B": "A les àrees d'operacions de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Girona",
       "C": "A les àrees d'operacions de les regions d'emergències Metropolitana Nord, Metropolitana Sud i Lleida",
       "D": "A les àrees d'operacions de les regions d'emergències Centre, Tarragona i Terres de l'Ebre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q9",
+    "statement": "Està constituït pel tàlem i l'hipotàlem:",
+    "correct": "A",
+    "explanation": "El diencèfal és una part del cervell situada entre el tronc encefàlic i el telencèfal, i inclou tant el tàlem com l'hipotàlem, així\ncom altres estructures com el subtàlem i l'epitàlem.\nEl tàlem actua com a estació de retransmissió per a la informació sensorial que entra al cervell. Filtra i redirigeix els\nsenyals sensorials cap a les àrees corticals corresponents.\nL'hipotàlem regula funcions vitals com la temperatura corporal, la fam, la set i el ritme circadià. També controla la\nglàndula pituitària, que és fonamental per a la regulació hormonal.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El diencèfal",
+      "B": "El cervell",
+      "C": "El cerebel",
+      "D": "El tronc de l'encèfal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q29",
@@ -3183,7 +5695,9 @@
       "B": "Cap territorial, cap operatiu, cap de torn i cap de sortida",
       "C": "Cap operatiu, cap territorial, sotscap territorial, cap de sortida",
       "D": "Cap de coordinació d'SCB, cap de coordinació territorial, cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q27",
@@ -3201,7 +5715,9 @@
       "B": "Les àrees",
       "C": "Els Grups",
       "D": "La Divisió i la Regió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q32",
@@ -3219,7 +5735,9 @@
       "B": "El cap operatiu",
       "C": "El cap de torn",
       "D": "El cap territorial  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q47",
@@ -3237,7 +5755,9 @@
       "B": "Cap operatiu, Cap territorial, Sotscap territorial i Cap de torn",
       "C": "Cap operatiu, Cap territorial i Sotscap territorial",
       "D": "Cap operatiu, Cap territorial, Sotscap territorial, Cap de sortida i Cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q86",
@@ -3255,7 +5775,9 @@
       "B": "Regió d'Emergències de Girona",
       "C": "Regió d'Emergències Metropolitana Nord",
       "D": "Regió d'Emergències Central"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q47",
@@ -3273,7 +5795,9 @@
       "B": "Servei Tècnic i Servei de Prevenció",
       "C": "Secció d'infraestructures, secció d'Equipaments i Logística, secció de Parc Mòbil, secció de Telecomunicacions i secció de Desenvolupament Tecnològic",
       "D": "Secció de Prevenció Tècnica i Secció de Prevenció Operativa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q88",
@@ -3291,7 +5815,9 @@
       "B": "Garantir l'aplicació del Pla d'actuació del grup d'intervenció (PAGI) del pla d'emergència d'àmbit general que correspongui i supervisar-ne el compliment",
       "C": "Recollir les dades de les actuacions operatives realitzades a fi que es pugui confeccionar el comunicat d'actuació",
       "D": "Participar en aquelles activitats d'avaluació, simulacres, formació i pràctiques, prevenció, manteniment, divulgació i qualsevol altra activitat realitzada pels mitjans implicats en la prestació de les funcions de la guàrdia que li siguin encomanades pel cap de coordinació territorial  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q94",
@@ -3309,7 +5835,29 @@
       "B": "El cap operatiu",
       "C": "El cap de coordinació de la Sala Central de Bombers",
       "D": "El cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q8",
+    "statement": "Qui és responsable de supervisar l'elaboració de la Taula de Recursos d'Intervenció (TRI)?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sotscap operatiu",
+      "B": "El cap de coordinació de la Sala Central de bombers",
+      "C": "El cap territorial",
+      "D": "La Sala Central de bombers  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q23",
@@ -3327,7 +5875,9 @@
       "B": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "C": "Al Servei de Nòmines i Despeses de Personal",
       "D": "A la unitat d'assistència i suport al/a la conseller/a"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q62",
@@ -3345,7 +5895,29 @@
       "B": "La de sotscap territorial i la de cap de sortida",
       "C": "La de cap operatiu i la de cap territorial",
       "D": "La de cap operatiu, únicament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q84",
+    "statement": "D'acord amb la Llei 21/1987, de 26 de novembre, quina de les següents activitats es considerarà incompatible pel personal al servei de les administracions públiques?",
+    "correct": "C",
+    "explanation": "Llei 21/1987, de 26 de novembre, d'Incompatibilitats del personal al servei de l'Administració de la Generalitat - article 2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La participació en un seminari de caràcter no habitual tingut en un centre oficial destinat a la formació de funcionaris, amb una duració total anual de setanta hores",
+      "B": "La participació en un tribunal per a l'ingrés en les administracions públiques",
+      "C": "La participació del 20% del capital en societats concessionàries amb aval del sector públic",
+      "D": "L'exercici no retribuït del càrrec de vocal de les juntes rectores de mutualitats"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q91",
@@ -3363,7 +5935,9 @@
       "B": "L'àmbit de suport",
       "C": "L'àmbit de coordinació",
       "D": "L'àmbit executiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q76",
@@ -3381,7 +5955,9 @@
       "B": "Analitzar diàriament la situació general del risc i la distribució inicial de recursos del servei de guàrdia a Catalunya",
       "C": "Proporcionar el suport tècnic i logístic necessari en les intervencions operatives",
       "D": "Determinar els recursos humans i materials necessaris per donar suport operatiu, estratègic i logístic adequat al nivell de comandament que s'hagi establert"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q85",
@@ -3399,7 +5975,9 @@
       "B": "A les funcions de les sales de coordinació territorial i central",
       "C": "A les funcions de resposta del cos de Bombers",
       "D": "Cap de les respostes proposades és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q95",
@@ -3417,7 +5995,9 @@
       "B": "Assegurar el relleu i la continuïtat del servei de guàrdia",
       "C": "Comunicar a la sala de control territorial corresponent qualsevol incidència que afecti l'operativitat del torn",
       "D": "Dirigir a l'inici de la guàrdia la reunió informativa del funcionament ordinari del torn de guàrdia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q22",
@@ -3435,7 +6015,9 @@
       "B": "Fer el seguiment, si escau, de les intervencions operatives que es produeixin en l'àmbit territorial assignat i que no requereixin el seu nivell de comandament",
       "C": "Fer el seguiment de les intervencions operatives que requereixin el seu nivell de comandament",
       "D": "Dirigir els brífings diaris de la Sala Central de Bombers per tal que es puguin adoptar les mesures preventives necessàries i optimitzar la resposta operativa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q41",
@@ -3453,7 +6035,9 @@
       "B": "El Cap de torn",
       "C": "El Cap de guàrdia",
       "D": "El Cap de sortida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim81_q8",
@@ -3471,7 +6055,9 @@
       "B": "Nivell 4",
       "C": "Nivell 2",
       "D": "Nivell 1"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim81_q63",
@@ -3489,7 +6075,9 @@
       "B": "L'Assessoria Jurídica",
       "C": "El Gabinet de Seguretat i Polítiques Transversals",
       "D": "La Direcció de Serveis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim81_q95",
@@ -3507,7 +6095,9 @@
       "B": "Planificació, suport, coordinació i intervenció",
       "C": "Planificació, gestió, coordinació i supervisió",
       "D": "Planificació, gestió, suport i intervenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q8",
@@ -3525,7 +6115,9 @@
       "B": "Flix, Ascó, Benifallet, Tortosa i l'Ampolla, entre d'altres",
       "C": "Flix, Ascó, Gandesa, Benifallet, Tortosa i Sant Jaume d'Enveja, entre d'altres",
       "D": "Flix, Ascó, Móra d'Ebre, Tortosa, Vandellós i la Ràpita, entre d'altres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q9",
@@ -3543,7 +6135,9 @@
       "B": "Assumir el comandament de la Sala Central de Bombers i coordinar i supervisar la seva activitat",
       "C": "Garantir el relleu i la continuïtat del servei de guàrdia de la Sala Central de Bombers",
       "D": "Reportar la informació rellevant de la intervenció en temps real a l'àmbit de coordinació corresponent"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q21",
@@ -3561,7 +6155,9 @@
       "B": "Operatiu, coordinació i suport",
       "C": "Coordinació, suport i logística",
       "D": "Intervenció, coordinació i suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q27",
@@ -3579,7 +6175,9 @@
       "B": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "C": "Al Servei de Nòmines i Despeses de Personal",
       "D": "A la unitat d'assistència i suport al/a la conseller/a"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q81",
@@ -3597,7 +6195,9 @@
       "B": "Balaguer (UTM. X; 317.682 / Y; 4.629.827)",
       "C": "Tremp (UTM. X; 325.683 / Y; 4.670.222)",
       "D": "Igualada (UTM. X; 384.144 / Y; 4.605.090)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q87",
@@ -3615,7 +6215,9 @@
       "B": "El cap de torn",
       "C": "El cap de coordinació de la sala central",
       "D": "El cap d'intervenció o del cap de coordinació territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim85_q71",
@@ -3633,7 +6235,9 @@
       "B": "Dins la Divisió de la Sala Central de Bombers",
       "C": "Dins la Divisió d'Operacions",
       "D": "Dins la Divisió de Grups Operatius Especials"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim86_q70",
@@ -3651,7 +6255,9 @@
       "B": "Cap territorial",
       "C": "Sotscap territorial",
       "D": "Cap de torn"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim87_q24",
@@ -3669,7 +6275,9 @@
       "B": "Organitzada sota diferents comandaments, vinculats a l’àmbit operatiu, de suport i de coordinació",
       "C": "Organitzada en torns successius i ininterromputs",
       "D": "Garanteix la resposta urgent i coordinada"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim87_q94",
@@ -3687,7 +6295,9 @@
       "B": "Secretaria General",
       "C": "Gabinet del Conseller",
       "D": "Comitè Directiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim88_q92",
@@ -3705,7 +6315,9 @@
       "B": "El Cap operatiu",
       "C": "El Sotscap territorial",
       "D": "És una funció conjunta entre el Sotscap territorial i el Cap territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim90_q35",
@@ -3723,7 +6335,29 @@
       "B": "Depèn de si ens referim a una Divisió Central o a una Divisió Regional",
       "C": "D'òrgan territorial",
       "D": "D'òrgan central"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim93_q93",
+    "statement": "Quina de les següents categories del Cos de Bombers de la Generalitat NO pertany a l'escala tècnica?",
+    "correct": "A",
+    "explanation": "La categoria de Sotsinspector forma part de l'escala executiva.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 93",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La de Sotsinspector/a",
+      "B": "La de Sergent/a",
+      "C": "La de Bomber/a de primera",
+      "D": "La d'Oficial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q2",
@@ -3741,7 +6375,9 @@
       "B": "No, assolirà els 100ºC un cop començada la formació",
       "C": "Si, però hem de tenir en compte que en menys d'un minut començarà la formació",
       "D": "Assolirà els 100ºC a les 18:00 en punt"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q16",
@@ -3759,7 +6395,9 @@
       "B": "Donar suport a les sales de control territorial",
       "C": "Atendre i gestionar les peticions provinents d'altres centres, òrgans o organismes, si escau, d'acord amb els convenis, protocols o plans d'emergència corresponents",
       "D": "Rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit territorial"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q40",
@@ -3777,7 +6415,9 @@
       "B": "De disponibilitat de localització i mobilització immediata",
       "C": "Ha d'estar permanentment disponible per a localització i mobilització immediata",
       "D": "De disponibilitat immediata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q75",
@@ -3795,7 +6435,29 @@
       "B": "2 metres",
       "C": "12 metres",
       "D": "4 metres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim97_q29",
+    "statement": "A quina part del cervell es troba l’àrea de Broca, essencial per al llenguatge?",
+    "correct": "C",
+    "explanation": "Àrea de broca: petita regió posterior de la circumvolució frontal inferior que coincideix aproximadament amb l'àrea 44 de\nBrodmann on té lloc el control sobre l'articulació del llenguatge.\nFont: TERMCAT.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 97",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Lòbul temporal",
+      "B": "Cerebel",
+      "C": "Lòbul frontal",
+      "D": "Lòbul parietal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim97_q89",
@@ -3813,7 +6475,29 @@
       "B": "Unitat de Col·lapses Estructurals",
       "C": "Unitat del Grup d'Emergències Mèdiques",
       "D": "Unitat d'Innovació i Desenvolupament Operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim98_q43",
+    "statement": "Quin dels següents rius NO és afluent del Llobregat?",
+    "correct": "C",
+    "explanation": "El Ritort és afluent del Ter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Bastareny",
+      "B": "L'Anoia",
+      "C": "El Ritort",
+      "D": "El Cardener"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim98_q63",
@@ -3831,7 +6515,9 @@
       "B": "La Regió d'Emergències Centre",
       "C": "La Regió d'Emergències de Tarragona",
       "D": "La Regió d'Emergències de Lleida"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim99_q20",
@@ -3849,7 +6535,9 @@
       "B": "El Subdirector General competent en matèria de prevenció, extinció d'incendis i salvaments",
       "C": "El Subdirector General Operatiu",
       "D": "El Conseller d'Interior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim99_q91",
@@ -3867,7 +6555,9 @@
       "B": "La direcció estratègica d'àmbits concrets de l'activitat del cos de Bombers de la Generalitat",
       "C": "La direcció tàctica d'àmbits concrets de l'activitat dels bombers",
       "D": "Les relatives a la supervisió i execució directa de les tasques dels bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim102_q12",
@@ -3885,7 +6575,9 @@
       "B": "El Gabinet Tècnic",
       "C": "L'Àrea de Tecnologies de la Informació i les Comunicacions",
       "D": "La Direcció de Serveis"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim103_q21",
@@ -3903,7 +6595,9 @@
       "B": "L'àmbit de suport",
       "C": "L'àmbit de coordinació",
       "D": "L'àmbit executiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim104_q14",
@@ -3921,7 +6615,9 @@
       "B": "Garantir el comandament del sector funcional propi de l'especialitat, d'acord amb el que estableixi el cap d'intervenció",
       "C": "Participar en el brífing diari de la Sala Central de Bombers de forma presencial",
       "D": "Rebre i atendre les peticions d'atenció a situacions d'emergència en el seu àmbit de suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim109_q86",
@@ -3939,7 +6635,9 @@
       "B": "La Unitat Regional",
       "C": "El Parc",
       "D": "El Grup"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim110_q32",
@@ -3957,7 +6655,29 @@
       "B": "Dos tipus de centres: les sales de control territorial i els parcs de bombers",
       "C": "Set centres, un per cada regió d'emergències",
       "D": "Cap de les respostes proposades és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim113_q21",
+    "statement": "En el marc del règim sancionador recollit al TREBEP, quan comença a comptar el termini de prescripció d’una sanció administrativa imposada?",
+    "correct": "C",
+    "explanation": "TREBEP - Article 97. Prescripció de les faltes i sancions.\n2. El termini de prescripció de les faltes es comença a comptar des que s’hagin comès, i des del cessament de la\ncomissió quan es tracti de faltes continuades. El de les sancions, des de la fermesa de la resolució sancionadora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 113",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del moment de la comissió de la falta",
+      "B": "Des de la data d’inici de l’expedient sancionador",
+      "C": "Des de la fermesa de la resolució sancionadora",
+      "D": "Des de la publicació de la sanció al diari oficial corresponent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim113_q91",
@@ -3975,7 +6695,9 @@
       "B": "Centre, Girona, Lleida, Tarragona, Terres de l'Ebre, Metropolitana Nord, Metropolitana Sud i Pirineus",
       "C": "Centre, Girona, Lleida, Tarragona, Metropolitana Nord i Metropolitana Sud",
       "D": "Centre, Girona, Lleida, Tarragona, Terres de l'Ebre, Metropolitana Nord i Metropolitana Sud"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim116_q39",
@@ -3993,7 +6715,9 @@
       "B": "Només amb dos interruptors commutats",
       "C": "Amb dos interruptors commutats o amb dos interruptors de creuament",
       "D": "Amb dos interruptors simples connectats en paral·lel o amb dos interruptors commutats"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim122_q73",
@@ -4011,7 +6735,9 @@
       "B": "La Divisió d'Innovació i Desenvolupament Operatiu, la Divisió de Riscos Tecnològics, la Divisió de Col·lapses Estructurals, la Divisió d'Incendis Estructurals i la Divisió de Prevenció Operativa",
       "C": "La Divisió de Planificació i Gestió, la Divisió de Grups Operatius Especials, la Divisió d'Operacions, la Divisió de la Sala Central de Bombers i les regions d'emergències",
       "D": "La Divisió d'Innovació i Desenvolupament Operatiu, la Divisió de Coordinació de Sales de Control, la Divisió de Col·lapses Estructurals, la Divisió de Mitjans Aeris i la Divisió de Suport Operatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim124_q72",
@@ -4029,7 +6755,89 @@
       "B": "A la Direcció de Serveis",
       "C": "A la Subdirecció General de Recursos Humans i Relacions Laborals",
       "D": "La Secretaria General"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q5",
+    "statement": "Davant d’un avís per accident o emergència a la muntanya, el dispositiu s’organitza de forma esglaonada i adaptada al tipus d’incident, que s'estructura de la següent manera:",
+    "correct": "D",
+    "explanation": "Davant d’un avís per accident o emergència a la muntanya, el dispositiu s’organitza de forma esglaonada i adaptada al\ntipus d’incident. L’esquema habitual inclou:\n−Sales de Coordinació: La Sala de control territorial (SCT) rep l’avís, activa els recursos territorials i fa la demanda de\nrecursos especials a la Sala Central de Bombers (SCB).\n−Comandament: Bombers assumeix el comandament operatiu al lloc dels fets.\n15\n\n−Equips d’intervenció: Habitualment formats per membres del Grup d'Actuacions Especials (GRAE) que s'encarrega del\nrescat de muntanya conjuntament amb el GEM (Grup d’Emergències Mèdiques) que es fa càrrec de la medicalització de\nl'assistència, reforçats, si cal, per efectius de parcs propers, helicòpter o altres serveis.\n−Altres suports: drons, unitats canines, logística de comunicacions o avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Sala Central de Bombers (SCB) rep l'avís, activa directament els recursos territorials i especials, mentre que la Sala de Control Territorial (SCT) assumeix la coordinació operativa un cop els equips ja són al lloc dels fets. El comandament recau habitualment en el GRAE, amb el suport del SEM per a les tasques assistencials sanitàries.",
+      "B": "La Sala Central de Bombers (SCB) rep l'avís i activa la Sala de Control Territorial (SCT) corresponent, que mobilitza els recursos territorials necessaris. Si la situació ho requereix, la SCB també activa els recursos especials. Un cop al lloc dels fets, Bombers assumeix el comandament operatiu de la intervenció, que habitualment és executada pel GRAE, responsable del rescat de muntanya, amb el suport del GEM.",
+      "C": "La Sala Central de Bombers (SCB) rep l'avís, activa directament els recursos territorials i especials, mentre que la Sala de Control Territorial (SCT) assumeix la coordinació operativa un cop els equips ja són al lloc dels fets. El comandament recau habitualment en el SEM, amb el suport del GRAE per a les tasques de rescat.",
+      "D": "La Sala de Control Territorial (SCT) rep l'avís, activa els recursos territorials i, si és necessari, demana recursos especials a la Sala Central de Bombers (SCB). Un cop al lloc dels fets, Bombers assumeix el comandament operatiu de la intervenció, que habitualment és executada pel GRAE, responsable del rescat de muntanya, amb el suport del GEM."
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q48",
+    "statement": "Indica quina de les funcions següents forma part del camp d'actuació de la Unitat de Prevenció Tècnica:",
+    "correct": "A",
+    "explanation": "La Unitat de Prevenció Tècnica té les següents funcions:\n1. Estudiar i donar suport per a l’elaboració de disposicions legals relatives a la prevenció i col·laborar en l’elaboració de\nnormes i circulars adreçades a la prevenció d’incendis i altres emergències.\n2. Elaborar informes i donar assessorament en matèria de prevenció.\n3. Controlar la revisió de projectes i la inspecció d’edificis i instal·lacions que així es determinin.\n4. Elaborar criteris d’interpretació normativa, informar d’aquests a les regions d’emergències i altres entitats afectades i\nfer el seguiment de la seva aplicació.\n5. Proposar i desenvolupar activitats de sensibilització vers la prevenció.\n6. Qualsevol altra funció que li encomanin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Col·laborar en l’elaboració de normes i circulars adreçades a la prevenció d’incendis i altres emergències",
+      "B": "Realitzar inspeccions als establiments i locals públics en matèria de prevenció d’incendis en els municipis que no disposin de servei de prevenció i extinció d’incendis propi",
+      "C": "Col·laborar amb l’Institut de Seguretat Pública de Catalunya en l’elaboració dels cursos de formació per les entitats col·laboradores de l’administració",
+      "D": "Custodiar i mantenir l’arxiu de l’àmbit de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q66",
+    "statement": "Segons l'article 10.2 de la Llei 1/1998, què ha de lliurar l'Administració a les persones interessades que ho sol·licitin?",
+    "correct": "C",
+    "explanation": "Article 10. Els procediments administratius.\n2. L'Administració ha de lliurar a les persones interessades que ho sol·licitin, en la llengua oficial demanada, una\ntestimoniança traduïda d'allò que els afecta. La sol·licitud de traducció no pot comportar cap perjudici o despesa al\nsol·licitant ni retards en el procediment ni suspendre'n la tramitació i els terminis establerts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una traducció oficial de la documentació administrativa que els sigui d'interès",
+      "B": "Una certificació traduïda de l'expedient administratiu en la llengua oficial sol·licitada",
+      "C": "Una testimoniança traduïda d'allò que els afecta, en la llengua oficial demanada",
+      "D": "Una còpia traduïda de tot el procediment administratiu en la llengua oficial demanada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q74",
+    "statement": "Segons l'article 15 de la Llei 1/1998, la llengua és un requisit de forma dels documents privats?",
+    "correct": "D",
+    "explanation": "Article 15. Els documents civils i mercantils\n1. La llengua no és requisit de forma dels documents privats. Per tant, són vàlids els redactats en qualsevol idioma, sens\nperjudici de les traduccions que les lleis civils, mercantils o processals exigeixin per a executar-los, en el cas que l'idioma\nno sigui oficial a Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sí, sempre que tinguin efectes davant l'Administració",
+      "B": "Sí, quan es redactin en una llengua oficial de Catalunya",
+      "C": "Només en els documents de caràcter mercantil",
+      "D": "No"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim125_q86",
@@ -4047,7 +6855,9 @@
       "B": "La Divisió d’Operacions",
       "C": "La Divisió d'Emergències Climàtiques i Grups Operatius Especials",
       "D": "Les regions d’emergències"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim125_q88",
@@ -4065,7 +6875,9 @@
       "B": "Entre tres i cinc línies de comunicació directes",
       "C": "Entre una i tres línies de comunicació directes",
       "D": "Entre quatre i sis línies de comunicació directes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim126_q12",
@@ -4083,7 +6895,9 @@
       "B": "Només nivell 2",
       "C": "Nivells 2 i 3",
       "D": "Nivells 1 i 2"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim126_q63",
@@ -4101,7 +6915,9 @@
       "B": "La INT.COMD.001 estableix el relleu dels nivells de comandament en l’àmbit operatiu",
       "C": "Les posicions i l’estructura del SISCOM estan definides a la MAN.COMD.001",
       "D": "La GUI.ORGO.000 defineix les pautes del relleu dels nivells de comandament en l’àmbit operatiu per als Bombers de la Generalitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q5",
@@ -4119,7 +6935,9 @@
       "B": "Si hi ha acord, el que estableixin els comandaments de la mateixa categoria",
       "C": "El primer en arribar al servei",
       "D": "El de més antiguitat a la categoria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q39",
@@ -4137,7 +6955,9 @@
       "B": "La planificació i la logística s'engloben dins d'operacions",
       "C": "Del cap d'intervenció en depenen directament: operacions, planificació, logística i administració",
       "D": "La planificació i la logística s'engloben dins del suport"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q53",
@@ -4155,7 +6975,29 @@
       "B": "Suport engloba la planificació i la logística",
       "C": "Planificació engloba el suport i la logística",
       "D": "Operacions engloba la planificació, el suport i la logística"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q58",
+    "statement": "Davant d'un animal amb un cop de calor, quina és l'actuació indicada fins al relleu veterinari?",
+    "correct": "D",
+    "explanation": "En els cops de calor la prioritat és baixar la temperatura corporal amb ruixats d'aigua, alcohol en zones irrigades, ombra i\nhidratació progressiva. Les mantes i el control de constants corresponen als rescats aquàtics, on el risc és la hipotèrmia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T04 - Organització del cos de Bombers",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aplicar-li aigua amb cura, aplicar compreses fredes a les zones irrigades i restringir la ingesta d’aigua fins a l’arribada del veterinari",
+      "B": "Traslladar-lo a l’ombra, cobrir-lo amb mantes humides i administrar-li aigua de manera progressiva",
+      "C": "Ruixar-lo amb aigua fresca, aplicar compreses fredes a les zones irrigades, oferir-li aigua abundant i, si cal, administrar oxigen amb màscares adaptades",
+      "D": "Ruixar-lo amb aigua, aplicar alcohol en zones irrigades, ombra i administrar-li aigua progressivament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q64",
@@ -4173,6 +7015,8 @@
       "B": "Un cop desplegada, només pot ampliar-se progressivament, però no pot reduir-se mentre es mantingui activa qualsevol actuació d’emergència",
       "C": "Es manté sense modificacions fins a la finalització completa de la intervenció, independentment de l’evolució de l’emergència i dels recursos disponibles",
       "D": "Es contrau de manera flexible en funció de l’evolució de l’incident i de les necessitats operatives"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

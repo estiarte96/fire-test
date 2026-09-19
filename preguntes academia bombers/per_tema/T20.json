@@ -1,74 +1,1702 @@
 [
   {
-    "id": "academia_sim40_q90",
-    "statement": "El Flashover i el Backdraft:",
-    "correct": "B",
-    "explanation": "Les radiacions en un Flashover poden assolir els 170 kW/m².\n\n\nacadèmia\nbombers",
+    "id": "academia_sim1_q5",
+    "statement": "En una instal·lació de mànegues, si amb 200 l/min es perden 2 bars. Quants bars perdrem amb 600 l/min?",
+    "correct": "D",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals AL QUADRAT de la relació de cabals. Per tant, si passem de 200\nl/min a 600 l/min, la relació de cabals serà de 3. Com que són proporcionals al quadrat de la relació, elevem el 3 al\nquadrat:\n3² = 9\nEl quadrat de la relació és 9, per tant 2 bars × 9 = 18 bars.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T20 - Incendis d'interior",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 bars",
+      "B": "4 bars",
+      "C": "6 bars",
+      "D": "18 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q46",
+    "statement": "Segons el RAT, a quina categoria pertany una tensió nominal de 40 kV?",
+    "correct": "C",
+    "explanation": "Especial: U ≥220\n1a Cat: 66 < U < 220\n2a Cat: 30 < U ≤66\n3a Cat (subministrament): 1 < U ≤30\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria especial",
+      "B": "1a Categoria",
+      "C": "2a Categoria",
+      "D": "3a Categoria"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q39",
+    "statement": "Quina de les següents categories d'EPI no requerirà la superació d'un examen UE previ?",
+    "correct": "A",
+    "explanation": "Els EPI de categoria I només requeriran el control intern de la producció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els EPI de categoria I",
+      "B": "Els EPI de categoria II",
+      "C": "Tot EPI haurà de passar prèviament l'examen UE",
+      "D": "Els EPI de categoria III"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q36",
+    "statement": "L'aire es desplaça...",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des dels nuclis d'alta pressió als de baixa pressió",
+      "B": "Des dels nuclis de baixa pressió als d'alta pressió",
+      "C": "De nord a sud",
+      "D": "D'est a oest"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q43",
+    "statement": "En una instal·lació de 10 mànegues, on cada mànega presenta unes pèrdues de 3 bars, quina pressió haurà d'oferir la bomba si la punta de llança necessita 5 bars i es troba a 10 metres per sobre de la bomba?",
+    "correct": "C",
+    "explanation": "3 bars × 10 mànegues + 5 bars a punta de llança + 1 bar (pels 10 metres que ascendeix la mànega) = 36 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "80 bars",
+      "B": "12 bars",
+      "C": "36 bars",
+      "D": "12,55 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q70",
+    "statement": "Una bicicleta circula en línia recta a una velocitat de 15 km/h durant 45 minuts. Quina distància recorre?",
+    "correct": "C",
+    "explanation": "45 min = 0,75 h\nd = v*t = 15 km/h*0,75 h = 11,25 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10,25 km",
+      "B": "12,25 km",
+      "C": "11,25 km",
+      "D": "13,25 km"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q44",
+    "statement": "La operació de mecanització consistent a eixamplar un forat cilíndric rep el nom de:",
+    "correct": "C",
+    "explanation": "El mandrinatge es pot dur a terme mitjançant una mandrinadora però també amb un torn.\nFresatge: operació de mecanitzar peces metàl·liques amb la fresa per tal d'obtenir superfícies planes, corbes o de formes\ndiverses (dents, ranures...).\nTrepatge: operació de fer forats en algun material amb el trepant o amb la trepadora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Premsatge",
+      "B": "Trepatge",
+      "C": "Mandrinatge",
+      "D": "Fresatge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q79",
+    "statement": "Com s'anomena la distància sense combustible que pot saltar un incendi, és a dir, l'amplitud d'una barrera per sota de la qual la barrera no tindrà cap efecte en la propagació de l'incendi?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Distància de precaució tèrmico-conductora",
+      "B": "Distància Preventiva Mínima",
+      "C": "Tallafocs",
+      "D": "Definició Lineal Mínima"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q95",
+    "statement": "Connectem una mànega a una bomba que ofereix una pressió de 100 bar. Quina pressió hi haurà en punta de llança si la mànega ha de vèncer 61 metres d'altura ascendent i té unes pèrdues de càrrega de 7,5 bars?",
+    "correct": "D",
+    "explanation": "61 metres = 6,1 bars de pèrdues de càrrega per columna d'aigua.\n6,1 + 7,5 = 13,6 bars.\n100 bars - 13,6 bars = 86,4 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "93,9 bars",
+      "B": "31,5 bars",
+      "C": "100 bars",
+      "D": "86,4 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q80",
+    "statement": "Els equips de protecció individual destinats a protegir enfront a riscos de conseqüències mortals o irreversibles tenen la categoria:",
+    "correct": "B",
+    "explanation": "CAT I: destinats a protegir contra riscos mínims.\nCAT II: riscos mitjos o elevats.\nCAT III: riscos mortals o irreversibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria X  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q29",
+    "statement": "Volem apagar un foc d'un vuitè pis d'un habitatge situat a una alçada de 40 metres. Disposem d'una mànega de 50 metres, connectada a una bomba que ens ofereix una pressió de 10 bars. Cada 10 metres de mànega perdem 1 bar de pressió. Podrem arribar a apagar el foc?",
+    "correct": "D",
+    "explanation": "Pèrdues de càrrega per fregament: 50 metres*(1bar/10 m) = 5 bars.\nPèrdues de càrrega per alçada d'impulsió: 40 metres cap amunt = 4 bars.\nPèrdues de càrrega totals: 5+4 = 9 bars.\nCom que la bomba ens ofereix 10 bars de pressió, ens sobrarà pressió (10-9 = 1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ens falta informació",
+      "B": "Si, just (la bomba ofereix la pressió exacta)",
+      "C": "No",
+      "D": "Si, amb un bar de sobres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q3",
+    "statement": "En un esfondrament d'un edifici, davant la presència d'olor a gas, l'acció menys prioritària és:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mesurar el risc amb un explosímetre",
+      "B": "Tancar el subministre a l'edifici",
+      "C": "Evacuar la població propera",
+      "D": "Col·locarse l'EPI corresponent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q15",
+    "statement": "Quina de les següents afirmacions respecte els Límits de desviació (LD) és certa?",
+    "correct": "A",
+    "explanation": "VLA-ED: Conjunt de valors de referència per a les concentracions mitjanes ponderades en el temps, en una jornada\nnormal de treball de 8 hores i una setmana laboral de 40 hores, realitzats a la zona de respiració dels agents químics en\nl'aire, i representen condicions a les quals es creu que la majoria dels treballadors poden estar exposats dia rere dia,\ndurant tota la seva vida laboral, sense patir efectes adversos per a la salut.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'accepten desviacions entre 3×VLA-ED i 5×VLA-ED d'un màxim de 30 minuts en una jornada de treball",
+      "B": "S'accepten desviacions entre 3×VLA-ED i 5×VLA-ED d'un màxim de 60 minuts en una jornada de treball",
+      "C": "S'accepten desviacions entre 3×VLA-EC i 5×VLA-EC d'un màxim de 60 minuts en una jornada de treball",
+      "D": "S'accepten desviacions entre 3×VLA-EC i 5×VLA-EC d'un màxim de 30 minuts en una jornada de treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q33",
+    "statement": "Calcula el pes aproximat que podem aixecar si fem una força de 300 N sobre un polispast exponencial amb 4 politges mòbils:",
+    "correct": "C",
+    "explanation": "F = R/2^n --> F = R/2^4 --> R = 300 × 16 = 4.800 N.\n4.800 N = 480 kg (aprox).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "200 kg",
+      "B": "320 kg",
+      "C": "480 kg",
+      "D": "120 kg"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q60",
+    "statement": "El Ciment putzolànic rep la nomenclatura de:",
+    "correct": "C",
+    "explanation": "CEM I: Pòrtland\nCEM II: Pòrtland amb additius\nCEM III: D'alt forn\nCEM IV: Putzolànic\nCEM V: Compost",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CEM II",
+      "B": "CEM III",
+      "C": "CEM IV",
+      "D": "CEM V"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q86",
+    "statement": "En atmosferes inestables, el fum:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tendirà a creixer verticalment",
+      "B": "Tendirà a agafar forma tipus estrat",
+      "C": "Es dispersarà després d'elevar-se una mica",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q45",
+    "statement": "Inclou exclusivament els riscos que puguin tenir conseqüències molt greus, segons la normativa europea:",
+    "correct": "C",
+    "explanation": "La Categoria I inclou exclusivament els riscos mínims. La Categoria II, riscos diferents als inclosos a la CAT I i CAT III.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria I",
+      "B": "Categoria II",
+      "C": "Categoria III",
+      "D": "Categoria F"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q85",
+    "statement": "El CO2 presenta propietats asfixiants a partir de concentracions superiors al:",
+    "correct": "D",
+    "explanation": "S'ha d'evacuar abans d'aplicar, ja que en concentracions del 20% pot provocar la mort en qüestió de 20-30 minuts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un 5%",
+      "B": "Un 16%",
+      "C": "Un 22%",
+      "D": "Un 9%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q58",
+    "statement": "Quina és la funció del sistema de pressió diferencial de protecció passiva?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Generar una diferència de pressió entre l'espai protegit i la zona de l'incendi. Els valors de la pressió no seran rellevants mentre es provoqui aquesta diferència.",
+      "B": "Generar una pressió més baixa a la zona de l'incendi que en l'espai protegit",
+      "C": "L'evacuació de gasos tòxics dins el seu camp d'actuació",
+      "D": "Crear una pressió més alta a l'espai on es desenvolupa l'incendi que en l'espai protegit"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q10",
+    "statement": "Quina de les següents categories d'EPI requerirà la superació d'un examen UE previ?",
+    "correct": "D",
+    "explanation": "Els EPIs de Categoria I només requeriran el control intern de la producció.\nReglament (UE) 2016/425.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Categoria I",
+      "B": "La Categoria III",
+      "C": "Qualsevol categoria haurà de superar l'examen UE prèviament",
+      "D": "Tant els de categoria II com els de categoria III"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim27_q25",
+    "statement": "Sobre el programa de manteniment de les columnes seques, cada cinc anys s'haurà de realitzar una prova d'estanquitat, sometent a la xarxa a una pressió mínima de:",
+    "correct": "D",
+    "explanation": "Ve a ser una prova de la instal·lació en les condicions de recepció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 bars en columnes de més de 30 metres, durant dues hores",
+      "B": "15 bars en columnes de més de 30 metres, durant una hora",
+      "C": "25 bars en columnes de més de 30 metres, durant una hora",
+      "D": "25 bars en columnes de més de 30 metres, durant dues hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q26",
+    "statement": "Una línia de distribució elèctrica de 75 kV es considera:",
+    "correct": "B",
+    "explanation": "Especial: U ≥220\n1a Cat: 66 < U < 220\n2a Cat: 30 < U ≤66\n3a Cat (subministrament): 1 < U ≤30",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria especial",
+      "B": "1ª categoria",
+      "C": "2ª categoria",
+      "D": "3ª categoria"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q7",
+    "statement": "Quin material servirà per reforçar el ciment?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'amiant",
+      "B": "La fibra de vidre",
+      "C": "La fibra de carboni",
+      "D": "Totes tres opcions són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q16",
+    "statement": "Ens mobilitzem per apagar un foc d'un sisè pis d'un edifici situat a una alçada de 30 metres. Disposem d'una mànega de 40 metres, connectada a una bomba que ens ofereix una pressió de 6 bars. Si cada 10 metres de mànega perdem 1 bar de pressió, podrem arribar a apagar el foc?",
+    "correct": "C",
+    "explanation": "Pèrdues de càrrega per fregament: 40 metres*(1bar/10 m) = 4 bars.\nPèrdues de càrrega per alçada d'impulsió: 30 metres cap amunt = 3 bars.\nPèrdues de càrrega totals: 4+3 = 7 bars.\nCom que la bomba ens ofereix 6 bars de pressió, ens faltarà un bar de pressió com a mínim (6-7 = -1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ens falta informació",
+      "B": "Si, just (la bomba ofereix la pressió exacta)",
+      "C": "No",
+      "D": "Si, de sobres  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q77",
+    "statement": "Quina és la pressió normal a nivell del mar?",
+    "correct": "B",
+    "explanation": "760 mm de Hg o 101.325 Pa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "750 bars",
+      "B": "1.013 mil·libars",
+      "C": "1.013 Pa",
+      "D": "1.013 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q57",
+    "statement": "En una instal·lació de 4 mànegues on cada mànega presenta unes pèrdues de 2 bars, quina pressió haurà d'oferir la bomba com a mínim si la punta de la llança es troba a 20 metres per sobre d'aquesta i necessita 6 bars?",
+    "correct": "D",
+    "explanation": "2 bars × 4 mànegues + 6 bars a punta de llança + 2 bars (pels 20 metres que ascendeix la mànega) = 16 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 bars",
+      "B": "24 bars",
+      "C": "26 bars",
+      "D": "16 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q8",
+    "statement": "Les exposicions per sobre del TLV-TWA fins al valor STEL no han de tenir una durada superior a 15 minuts ni repetir-se més de quatre vegades al dia. Quin període mínim hi ha d'haver entre exposicions successives d'aquest rang?",
+    "correct": "A",
+    "explanation": "\nacadèmia\nbombers\n\nFont - NTP 244: Criterios de valoración en Higiene Industrial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60 minuts",
+      "B": "30 minuts",
+      "C": "15 minuts",
+      "D": "120 minuts  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q55",
+    "statement": "A quina velocitat circularà una moto de competició per a recórrer 30 km en cinc minuts?",
+    "correct": "C",
+    "explanation": "30 km = 30.000 metres\n5 minuts = 300 segons (60 segons × 5 minuts)\nv = d/t --> v = 30.000 m / 300 s --> v = 100 m/s",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "90 m/s",
+      "B": "50 m/s",
+      "C": "100 m/s",
+      "D": "300 m/s"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q68",
+    "statement": "Quina categoria tindran els equips de protecció individual destinats a protegir enfront a riscos mitjos o elevats?",
+    "correct": "A",
+    "explanation": "CAT I: destinats a protegir contra riscos mínims.\nCAT II: riscos mitjos o elevats.\nCAT III: riscos mortals o irreversibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria IV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q14",
+    "statement": "Quin nom rep la peça que fa que l'electroventilador comenci a funcionar quan la temperatura del motor assoleix el seu règim aproximat de funcionament?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
     "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Són exemples de fenòmens que es poden produir en ambients on no existeixi suficient oxigen com per provocar un foc actiu",
-      "B": "Fan referència al mateix concepte, d'acord amb l'escola sueca",
-      "C": "Generen radiacions que poden arribar fins els 300 i els 160 kW/m², respectivament",
-      "D": "Són exemples d'explosions originades per augments sobtats de pressió"
-    }
+      "A": "Termòstat",
+      "B": "Manocontacte",
+      "C": "Manòmetre",
+      "D": "Termocontacte"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim46_q12",
-    "statement": "En el fenomen del Backdraft:",
-    "correct": "B",
-    "explanation": "El Backdraft es produeix quan un espai confinat no disposa de prou oxigen per començar la ignició, però sí de gasos i\nfum combustibles amb una temperatura cada vegada més elevada. Si en aquest cas s'introdueix sobtadament una\nquantitat d'oxigen determinada al lloc pressuritzat amb aquests gasos calents, s'origina una forta explosió. És un tipus de\ndeflagració (subsònica).",
+    "id": "academia_sim40_q50",
+    "statement": "En una instal·lació de 5 mànegues, on cada mànega presenta unes pèrdues de 2 bars, quina pressió haurà d'oferir la bomba si la punta de llança necessita 6 bars i es troba a 20 metres per sobre de la bomba?",
+    "correct": "D",
+    "explanation": "2 bars × 5 mànegues + 6 bars a punta de llança + 2 bar (pels 20 metres que ascendeix la mànega) = 18 bars.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T20 - Incendis d'interior",
-    "section": "Simulacre 46",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La quantitat d'oxigen és major que en el Flashover",
-      "B": "Tot el gas es mescla amb l'aire abans de l'ignició",
-      "C": "La ventilació ha de ser constant durant els minuts abans del fenomen per tal que es pugui produir",
-      "D": "És un tipus d'explosió"
-    }
+      "A": "15 bars",
+      "B": "12 bars",
+      "C": "50 bars",
+      "D": "18 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim49_q49",
-    "statement": "Quina de les següents afirmacions sobre el fenomen del Backdraft és certa?",
-    "correct": "A",
-    "explanation": "El Backdraft es produeix quan un espai confinat no disposa de prou oxigen per començar la ignició, però sí de gasos i\nfum combustibles amb una temperatura cada vegada més elevada. Si en aquest cas s'introdueix sobtadament una\nquantitat d'oxigen determinada al lloc pressuritzat amb aquests gasos calents, s'origina una forta deflagració (subsònica).\nL'escola sueca no diferencia els fenomens del Backdraft i del Flashover.\n\n\nacadèmia\nbombers",
+    "id": "academia_sim41_q46",
+    "statement": "Sobre els reguladors de pressió podem afirmar que:",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T20 - Incendis d'interior",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tractaran de reduir la pressió en certs trams del sistema per complir cert requisit de càrrega",
+      "B": "Són vàlvules",
+      "C": "Busquen limitar la pressió de treball en un punt del circuit, impedint que se sobrepassi un valor preestablert de pressió o causant un determinat efecte quan s'assoleixi tal valor",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q3",
+    "statement": "Quin perfil de rosca s'una en cargols de gran diàmetre sotmesos a impactes i grans desgasts?",
+    "correct": "C",
+    "explanation": "Per això tenen aquesta forma arrodonida, evitant arestes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Trapezoidal",
+      "B": "Triangular",
+      "C": "Rodó",
+      "D": "Pentagonal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q92",
+    "statement": "Forma part de les vies respiratòries inferiors:",
+    "correct": "D",
+    "explanation": "Les vies respiratòries superiors són:\n– Foses nasals.\n– Faringe.\n– Laringe.\nLes vies respiratòries inferiors són:\n– Tràquea.\n– Bronquis.\n– Bronquíols.\n– Alvèols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La faringe",
+      "B": "Les foses nasals",
+      "C": "La laringe",
+      "D": "La tràquea"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q85",
+    "statement": "Diferenciem diferents tipus d'extintors en funció del seu sistema d'impulsió. Quin dels següents tipus requerirà la disposició d'un manòmetre?",
+    "correct": "A",
+    "explanation": "Els extintors de pressió permanent pròpia tindran la pressió del mateix gas extintor.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un extintor de pressió permanent incorporada",
+      "B": "Un extintor de pressió auxiliar interna",
+      "C": "Un extintor de pressió permanent pròpia",
+      "D": "Un extintor de pressió auxiliar externa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q86",
+    "statement": "La circulació d'aire estableix un flux o circulació del mateix. Quina serà la seva tendència?",
+    "correct": "A",
+    "explanation": "A aquest moviment de les masses d'aire se li coneix com gradient de pressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A desplaçar-se des de la zona on hi ha menys pressió a on n'hi ha més",
+      "B": "A rotar en el sentit de les agulles del rellotge",
+      "C": "A desplaçar-se des de la zona on hi ha més pressió a on hi ha menys",
+      "D": "A rotar en el sentit contrari que el de les agulles del rellotge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q74",
+    "statement": "A quina categoria d'EPI pertany el següent format de marcat: \"CE + XXXX\"?",
+    "correct": "B",
+    "explanation": "Els EPIs de categoria I i II només portaran el \"CE\", sense els quatre caràcters.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als EPIs de categoria I",
+      "B": "Als EPIs de categoria III",
+      "C": "Als EPIs de categoria II",
+      "D": "Tots els EPIs duran aquest mateix format de marcat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q12",
+    "statement": "A quants bars equivalen 10 Pascals?",
+    "correct": "D",
+    "explanation": "1 bar = 100.000 Pa = 100 KPa = 100 KN/m²\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 bars",
+      "B": "0,00001 bars",
+      "C": "100.000 bars",
+      "D": "0,0001 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q72",
+    "statement": "En una instal·lació de 5 mànegues, on cada mànega presenta unes pèrdues de 1 bar, quina pressió mínima haurà d'oferir la bomba si la punta de llança necessita 5 bars i es troba a 20 metres per sobre de la bomba?",
+    "correct": "D",
+    "explanation": "1 bars × 5 mànegues + 5 bars a punta de llança + 2 bar (pels 20 metres que ascendeix la mànega) = 12 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
     "section": "Simulacre 49",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La quantitat d'oxigen és menor que en el Flashover",
-      "B": "L'escola sueca diferencia aquest concepte del del Flashover",
-      "C": "Per tal que es pugui produir, la ventilació ha de ser constant durant els minuts immediatament anteriors",
-      "D": "És un tipus d'explosió supersònica"
-    }
+      "A": "50 bars",
+      "B": "27 bars",
+      "C": "36 bars",
+      "D": "12 bars  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim65_q83",
-    "statement": "En un incendi d’interior, quin d’aquests NO és un indicador característic que ens pugui fer preveure un Flashover?",
+    "id": "academia_sim50_q72",
+    "statement": "Quina categoria tindran els equips de protecció individual destinats a protegir enfront a riscos mortals o irreversibles?",
     "correct": "B",
-    "explanation": "L'infraventilació en recinte confinat és un indicador característic del Backdraft.\n\n\nacadèmia\nbombers",
+    "explanation": "CAT I: destinats a protegir contra riscos mínims.\nCAT II: riscos mitjos o elevats.\nCAT III: riscos mortals o irreversibles.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T20 - Incendis d'interior",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria IV  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q94",
+    "statement": "Quina categoria tindran els equips de protecció individual destinats a protegir contra riscos mínims?",
+    "correct": "C",
+    "explanation": "CAT I: destinats a protegir contra riscos mínims.\nCAT II: riscos mitjos o elevats.\nCAT III: riscos mortals o irreversibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria IV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q79",
+    "statement": "Quina de les següents categories d'EPI només requerirà el control intern de la producció?",
+    "correct": "A",
+    "explanation": "Els EPI de categoria I no requerirà la superació d'un examen UE previ.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els EPI de categoria I",
+      "B": "Els EPI de categoria II",
+      "C": "Tot EPI haurà de passar prèviament l'examen UE",
+      "D": "Els EPI de categoria III"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q72",
+    "statement": "En columnes seques de més de 30 metres s'haurà de realitzar una prova d'estanquitat cada cinc anys. En què consisteix?",
+    "correct": "A",
+    "explanation": "En columnes de fins a 30 metres, 15 bars durant dues hores.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En sotmetre a la xarxa a una pressió mínima de 25 bars durant dues hores",
+      "B": "En sotmetre a la xarxa a una pressió mínima de 15 bars durant una hora",
+      "C": "En sotmetre a la xarxa a una pressió mínima de 35 bars durant una hora",
+      "D": "En sotmetre a la xarxa a una pressió mínima de 15 bars durant dues hores  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q31",
+    "statement": "Quina és la temperatura crítica de l'aigua?",
+    "correct": "B",
+    "explanation": "La temperatura crítica és la temperatura per sobre de la qual és impossible liquar un gas únicament augmentant la\npressió. En el cas de l'aigua, la opció correcta era la única que considerava l'aigua en estat gasós en condicions normals\nde pressió (> 100ºC).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "35,2 ºC",
+      "B": "374,4 ºC",
+      "C": "-22,9 ºC",
+      "D": "30,1 ºC"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q85",
+    "statement": "Sobre les volanderes de tipus Grower, és FALS que:",
+    "correct": "B",
+    "explanation": "Generalment el relleu és llis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són volanderes de pressió",
+      "B": "Generalment el seu relleu és dentat per les dues cares",
+      "C": "Tenen forma d'anell obert, en espiral",
+      "D": "La seva funció principal és prevenir que les parts amb les que fa contacte deixin d'exercir pressió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q84",
+    "statement": "A quina categoria d'EPI s'inclouen els equips respiratoris?",
+    "correct": "D",
+    "explanation": "S'inclouen a la Categoria III els EPI destinats a protegir contra riscos que podrien causar lesions greus o mortals com ara\nguants de protecció química, equips respiratoris, etc. Aquesta categoria inclou EPI dissenyats per a riscos mortals o\ngreus per a la salut.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la Categoria I",
+      "B": "A la Categoria ESP",
+      "C": "A la Categoria II",
+      "D": "A la Categoria III"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q64",
+    "statement": "Quina categoria d'EPI requerirà la superació d'un examen UE previ?",
+    "correct": "D",
+    "explanation": "Els EPIs de Categoria I només requeriran el control intern de la producció.\nEls EPIs de Categoria II i III requeriran la superació d'un examen UE previ.\nReglament (UE) 2016/425.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Categoria I",
+      "B": "La Categoria III",
+      "C": "Cap",
+      "D": "Tant la categoria II com la categoria III  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q57",
+    "statement": "Amb quina categoria d'EPI s'hauran de protegir als usuaris que treballin en contacte amb superfícies calentes a 40ºC?",
+    "correct": "C",
+    "explanation": "La Categoria IV no existeix.\nLa categoria I inclou exclusivament els següents riscos mínims:\na) lesions mecàniques superficials;\nb) contacte amb materials de neteja d'acció feble o contacte prolongat amb aigua;\nc) contacte amb superfícies calentes que no excedeixin els 50 °C;\nd) lesions oculars causades per la llum solar (llevat de l'observació del sol);\ne) condicions atmosfèriques que no siguin de naturalesa extrema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria IV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q40",
+    "statement": "Quina categoria tindran els equips de protecció individual destinats a protegir contra riscos mitjos o elevats?",
+    "correct": "A",
+    "explanation": "CAT I: destinats a protegir contra riscos mínims.\nCAT II: riscos mitjos o elevats.\nCAT III: riscos mortals o irreversibles.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Categoria II",
+      "B": "Categoria III",
+      "C": "Categoria I",
+      "D": "Categoria II per riscos mitjos i Categoria III per riscos elevats  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q56",
+    "statement": "En quantes categories classifica els EPI el Reglament 2016/425?",
+    "correct": "C",
+    "explanation": "El Reglament 2016/425 classifica els Equips de Protecció Individual (EPI) en tres categories, segons el grau de protecció\nque ofereixen i el nivell de risc al qual estan dissenyats per protegir.\nCategoria I: Aquesta categoria inclou EPI senzills dissenyats per protegir contra riscos mínims. Ex: guants de neteja o\nulleres de sol.\nCategoria II: Aquesta categoria inclou EPI més complexos dissenyats per protegir contra riscos que no estan classificats\ncom a mínims ni com a greus.\nCategoria III: Aquesta categoria inclou EPI dissenyats per protegir contra riscos que poden causar danys greus o la mort.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
     "section": "Simulacre 65",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Les superfícies exposades a la radiació mostren indicis clars d’estar pirolitzant",
-      "B": "Infraventilació en recinte confinat",
-      "C": "Incendi proper a finalitzar la seva fase de creixement",
-      "D": "Coixí de gasos d’incendi molt dens i fosc i quasi a nivell del terra"
-    }
+      "A": "Deu",
+      "B": "Cinc",
+      "C": "Tres",
+      "D": "Quatre  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q74",
+    "statement": "Per on circulen principalment la saba neta i la saba bruta d'una planta?",
+    "correct": "B",
+    "explanation": "La saba bruta és ascendent i la saba neta és descendent.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A través del floema",
+      "B": "A través del floema i del xilema, respectivament",
+      "C": "A través del xilema",
+      "D": "A través del xilema i del floema, respectivament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q34",
+    "statement": "Quin límit de desviació admeten els Valors Límit Ambientals (VLA)?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre tres i cinc cops el valor del VLA-ED, d'un màxim de 30 minuts en una jornada de treball",
+      "B": "Entre un i tres cops el valor del VLA-ED, d'un màxim de 30 minuts en una jornada de treball",
+      "C": "Entre tres i cinc cops el valor del VLA-ED, d'un màxim de 60 minuts en una jornada de treball",
+      "D": "Entre un i tres cops el valor del VLA-ED, d'un màxim de 60 minuts en una jornada de treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q64",
+    "statement": "Calcula el pes aproximat que podem aixecar si fem una força de 200 N sobre un polispast exponencial amb 2 politges mòbils:",
+    "correct": "C",
+    "explanation": "F = R/2^n --> F = R/2^2 --> R = 200 × 4 = 800 N.\n800 N = 80 kg (aprox).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "800 kg",
+      "B": "50 kg",
+      "C": "80 kg",
+      "D": "500 kg  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q55",
+    "statement": "A Catalunya hi ha declarades 52 reserves naturals parcials, gairebé la meitat de les quals s'inclouen a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 52 reserves naturals parcials: 25 incloses al Parc Natural de la Zona Volcànica de la\nGarrotxa, dues al Parc Natural del Cap de Creus, dues al Parc Natural del Delta de l’Ebre, dues al Parc Natural de l’Alt\nPirineu, una al Parc Natural dels Ports, una al Parc Natural dels Aiguamolls de l’Empordà, una al Parc Natural de la\nMuntanya de Montserrat i 18 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Parc Natural del Delta de l’Ebre",
+      "B": "El Parc Natural de l’Alt Pirineu",
+      "C": "El Parc Natural de la Muntanya de Montserrat",
+      "D": "El Parc Natural de la Zona Volcànica de la Garrotxa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q91",
+    "statement": "Quina part del teixit d'una planta s'encarrega del transport de la saba bruta i de la saba elaborada?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El floema",
+      "B": "El floema i el xilema, respectivament",
+      "C": "El xilema",
+      "D": "El xilema i el floema, respectivament  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q64",
+    "statement": "Segons la Guia tècnica per a la utilització pels treballadors d'equips de protecció individual, els equips de protecció respiratòria es classifiquen en dos tipus principals:",
+    "correct": "D",
+    "explanation": "Apèndix 4 - Tipus d'EPI. Aspectes a considerar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equips invasius i selectius",
+      "B": "Equips de protecció total i equips de protecció parcial",
+      "C": "Equips amovibles o equips de montura integral",
+      "D": "Equips filtrants i equips aïllants"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q19",
+    "statement": "Dins dels tipus d'EPI que reconeix el Reial Decret 773/1997, de 30 de maig, a què fan referència els equips EPR?",
+    "correct": "C",
+    "explanation": "Apèndix 4.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als equips de protecció de riscos, en general",
+      "B": "Als equips de protecció contra la radiació",
+      "C": "Als equips de protecció respiratòria",
+      "D": "Als equips de prevenció de riscos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q56",
+    "statement": "En quins dos tipus principals es classifiquen els equips de protecció respiratòria (EPR)?",
+    "correct": "B",
+    "explanation": "Guia Tècnica per a la utilització d'EPIS per part dels treballadors - Apèndix 4. Tipus d'EPI. Aspectes a considerar.\nEls equips aïllants es subdivideixen el: equips d'aire fresc, equips de línia d'aire comprimit i equips autònoms.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Equips d'aire fresc i equips autònoms",
+      "B": "Equips filtrants i equips aïllants",
+      "C": "Equips de seguretat i equips d'intervenció",
+      "D": "Equips de protecció total i equips de protecció parcial  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q26",
+    "statement": "De quina manera es desplaça l'aire?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des dels nuclis d'alta pressió als de baixa pressió",
+      "B": "Des dels nuclis de baixa pressió als d'alta pressió",
+      "C": "De nord a sud",
+      "D": "D'est a oest"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q61",
+    "statement": "D'acord amb la Guia Tècnica per a la utilització pels treballadors dels Equips de Protecció Individual, on romandrà col·locat el marcatge CE?",
+    "correct": "C",
+    "explanation": "Reial Decret 773/1997, de 30 de maig.\nEl marcatge CE romandrà col·locat a cada un dels EPI fabricats de manera visible, llegible i indeleble, durant el període\nde durada previsible o vida útil de l'equip; no obstant això, si això no fos possible a causa de les característiques del\nproducte, el marcatge CE es col·locarà a l'embalatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'embalatge, i si això no fos possible a causa de les característiques del mateix, a l'EPI",
+      "B": "A cada un dels EPI o a l'embalatge, indistintament",
+      "C": "A cada un dels EPI, i si això no fos possible, a l'embalatge",
+      "D": "El marcatge CE es col·locarà a l'embalatge en qualsevol cas"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q42",
+    "statement": "Cada quant temps s'ha de realitzar una prova d'estanquitat a les columnes seques de més de 30 metres segons el programa de manteniment, i a quina pressió mínima s'ha de sotmetre la xarxa durant aquesta prova?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'ha de realitzar una prova d'estanquitat cada 5 anys i s'ha de sotmetre a 15 bars de pressió durant dues hores",
+      "B": "S'ha de realitzar una prova d'estanquitat cada any i s'ha de sotmetre a 15 bars de pressió durant una hora",
+      "C": "S'ha de realitzar una prova d'estanquitat cada 5 anys i s'ha de sotmetre a 25 bars de pressió durant una hora",
+      "D": "S'ha de realitzar una prova d'estanquitat cada 5 anys i s'ha de sotmetre a 25 bars de pressió durant dues hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q63",
+    "statement": "Forma/en part de les vies respiratòries inferiors:",
+    "correct": "D",
+    "explanation": "Les vies respiratòries superiors són:\n– Foses nasals.\n– Faringe.\n– Laringe.\nLes vies respiratòries inferiors són:\n– Tràquea.\n– Bronquis.\n– Bronquíols.\n– Alvèols.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La faringe",
+      "B": "Les foses nasals",
+      "C": "La laringe",
+      "D": "Els bronquíols"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q1",
+    "statement": "Quin dels següents parcs naturals disposa de superfície en l'àmbit marí?",
+    "correct": "D",
+    "explanation": "Disposen de superfície en l'àmbit marí:\n- Parc Natural del Montgrí, les Illes Medes i Baix Ter.\n- Parc Natural del Delta de l’Ebre.\n- Parc Natural del Cap de Creus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural dels Ports",
+      "B": "Parc Natural de les Capçaleres del Ter i del Freser",
+      "C": "Parc Natural dels Aiguamolls de l’Empordà",
+      "D": "Parc Natural del Cap de Creus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q75",
+    "statement": "Per norma general, en quin moment del dia la humitat relativa serà major?",
+    "correct": "A",
+    "explanation": "A les primeres hores del matí, la temperatura és baixa i la humitat relativa és elevada, tot i que segurament haurà assolit\nel seu màxim al voltant de les 4 h solars, és a dir les 6 h oficials si es tracta de l’estiu. Mentre que el sol va pujant, la\ntemperatura va augmentant i la humitat relativa va disminuint.\nQuan la temperatura arriba al seu màxim del dia (normalment a la tarda), la humitat relativa disminueix fins al mínim.\nAquest és el moment que hi ha la humitat mínima als combustibles fins. Quan el sol va baixant, la temperatura cau i la\nhumitat relativa comença a pujar de nou.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A mitjanit, quan la temperatura és més fresca",
+      "B": "A primera hora del matí, just abans de la sortida del sol",
+      "C": "Al vespre, just després de la posta de sol",
+      "D": "Quan la temperatura arriba al seu màxim del dia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q79",
+    "statement": "Quin serà el flux o la tendència de la circulació de l'aire?",
+    "correct": "A",
+    "explanation": "A aquest moviment de les masses d'aire se li coneix com gradient de pressió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A desplaçar-se des de la zona on hi ha menys pressió a on n'hi ha més",
+      "B": "A rotar en el sentit de les agulles del rellotge",
+      "C": "A desplaçar-se des de la zona on hi ha més pressió a on hi ha menys",
+      "D": "A rotar en el sentit contrari que el de les agulles del rellotge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q88",
+    "statement": "A quina velocitat circularà una moto de competició per a recórrer 12 km en 2 minuts?",
+    "correct": "C",
+    "explanation": "12 km = 12.000 metres\n2 minuts = 120 segons (60 segons × 2 minuts)\nv = d/t --> v = 12.000 m / 120 s --> v = 100 m/s.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "120 m/s",
+      "B": "24 m/s",
+      "C": "100 m/s",
+      "D": "12 m/s"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q38",
+    "statement": "Quants tipus de risc classifica el Reial Decret 773/1997, de 30 de maig, per als EPI?",
+    "correct": "B",
+    "explanation": "Apèndix 2 (pàgina 43).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2 categories",
+      "B": "3 categories",
+      "C": "5 categories",
+      "D": "4 categories"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q54",
+    "statement": "Quin tipus de saba es transforma a les fulles per alimentar la planta?",
+    "correct": "A",
+    "explanation": "La saba bruta, puja des de l’arrel fins a les fulles per la tija. Allà la saba bruta es combina amb el diòxid de carboni que\nles fulles han captat de l’aire i es transforma en saba elaborada que és l’aliment de les plantes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Saba elaborada",
+      "B": "Saba crua",
+      "C": "Saba dolça",
+      "D": "Saba bruta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim84_q49",
+    "statement": "Quin perfil de rosca s'usa en cargols de gran diàmetre sotmesos a impactes i grans desgasts?",
+    "correct": "C",
+    "explanation": "Per això tenen aquesta forma arrodonida, evitant arestes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Trapezoidal",
+      "B": "Triangular",
+      "C": "Rodó",
+      "D": "Pentagonal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q67",
+    "statement": "Són fenòmens que es relacionen amb la suspensió de partícules sòlides no aqüoses en l'atmosfera o aixecades del sòl pel vent:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Criometeors",
+      "B": "Fotometeors",
+      "C": "Litometeors",
+      "D": "Geometeors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim95_q51",
+    "statement": "A Catalunya hi ha declarades 59 reserves naturals parcials, la majoria de les quals es troben a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 59 reserves naturals parcials:\n· 27 al Parc Natural de la Zona Volcànica de la Garrotxa.\n· 2 al Parc Natural del Cap de Creus.\n· 2 al Parc Natural del Delta de l’Ebre.\n· 2 al Parc Natural de l’Alt Pirineu.\n· 2 al Parc Natural del Montgrí, les Illes Medes i el Baix Ter\n· 2 al Parc Natural de Collserola.\n· 2 al Paratge Natural d'Interès Nacional de l'Albera.\n· 1 al Parc Natural dels Ports.\n· 1 al Parc Natural dels Aiguamolls de l’Empordà.\n· 1 al Parc Natural de la Muntanya de Montserrat.\n· 17 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Albera",
+      "B": "La Zona Volcànica de la Garrotxa",
+      "C": "L’Alt Pirineu",
+      "D": "El Delta de l’Ebre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim96_q49",
+    "statement": "Quin dels espais naturals protegits següents és una reserva natural integral?",
+    "correct": "C",
+    "explanation": "Una reserva natural integral és una zona amb un alt valor ecològic i científic on la intervenció humana està molt\nrestringida, i només es permet amb finalitats de conservació o recerca.\nA Catalunya hi ha 6 reserves naturals integrals:\n· Reserva Natural Integral del Cap de Creus.\n· Reserva Natural Integral del Cap de Norfeu.\n· Reserva Integral I dels Aiguamolls de l’Empordà, Els Estanys.\n· Reserva Integral II dels Aiguamolls de l’Empordà, Les Llaunes.\n· Reserva Integral III dels Aiguamolls de l’Empordà, Illa de Caramany.\n· Reserva Natural Integral de les Illes Medes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Reserva Natural Integral del Delta de l'Ebre",
+      "B": "La Reserva Natural Integral del Montgrí",
+      "C": "La Reserva Natural Integral del Cap de Norfeu",
+      "D": "La Reserva Natural Integral de la Zona Volcànica de la Garrotxa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim97_q17",
+    "statement": "Quin és el patró de circulació de l'aire en un anticicló, segons els principis de la meteorologia?",
+    "correct": "D",
+    "explanation": "En canvi, en una borrasca (baixa pressió), l'aire puja i l’aire de l’entorn s’hi acosta (convergència).\nEl que canvia entre hemisferis és el sentit de gir de l’aire, degut a l’efecte Coriolis",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 97",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'aire roman força estàtic",
+      "B": "L'aire puja i l’aire de l’entorn s’hi acosta (convergència)",
+      "C": "L'aire ascendeix o descendeix en funció de l'hemisferi",
+      "D": "L'aire descendeix i es mou cap enfora (divergència)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim99_q30",
+    "statement": "Segons el Servei Meteorològic de Catalunya, parlarem de pluja moderada:",
+    "correct": "A",
+    "explanation": "Les categories es defineixen en funció del tipus de precipitació i a partir de les quantitats de precipitació recollides en 30\nminuts:\nPluja:\nFeble: quantitats inferiors a 3 mm en 30 minuts.\nModerada: quantitats entre 3 mm i 20 mm en 30 minuts.\nForta: quantitats superiors a 20 mm i fins a 40 mm en 30 minuts.\nTorrencial: quantitats superiors a 40 mm en 30 minuts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per quantitats entre 3 mm i 20 mm en 30 minuts",
+      "B": "Per quantitats superiors a 20 mm i fins a 30 mm en 60 minuts",
+      "C": "Per quantitats superiors a 20 mm i fins a 40 mm en 30 minuts",
+      "D": "Per quantitats entre 2 mm i 30 mm en 60 minuts"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim106_q38",
+    "statement": "Si en 30 minuts s’acumulen 50 mm de pluja, com es classifica la intensitat de la precipitació?",
+    "correct": "A",
+    "explanation": "Les categories es defineixen en funció del tipus de precipitació i a partir de les quantitats de precipitació recollides en 30\nminuts:\nPluja.\n· Feble: quantitats inferiors a 3 mm en 30 minuts.\n· Moderada: quantitats entre 3 mm i 20 mm en 30 minuts.\n· Forta: quantitats superiors a 20 mm i fins a 40 mm en 30 minuts.\n· Torrencial: quantitats superiors a 40 mm en 30 minuts.\nNeu.\n· Feble: quantitats inferiors a 1 cm en 30 minuts.\n· Moderada: quantitats entre 1 i 5 cm en 30 minuts.\n· Forta: quantitats superiors a 5 cm en 30 minuts.\nLes precipitacions segons la intensitat i durada s’anomenen:\n· Xàfec: quan qualsevol de les precipitacions anteriors cau de manera sobtada i intensa però en poc temps. A més sol\nanar relacionat amb tempesta.\n· Ruixat: quan qualsevol de les precipitacions anteriors cau en poca quantitat durant un període curt de temps.\nFont: meteo.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Torrencial",
+      "B": "Feble",
+      "C": "Moderada",
+      "D": "Forta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q27",
+    "statement": "Quina de les següents correspon a un EPI de categoria II?",
+    "correct": "B",
+    "explanation": "Categoria III – Protegeix davant de riscos greus per la salut o mortals, susceptibles de provocar danys irreversibles pel\ntreballador. Inclou, entre d’altres:\n−Exposició a atmosferes tòxiques o nocives: equips de respiració autònoma (ERA), mascaretes autofiltrants.\n−Agressions químiques o radiacions ionitzants: vestits de protecció química\n−Exposició a temperatures extremes (superiors a 100 °C o inferiors a –50 °C): jaquetó i sobrepantalons d’intervenció,\nguants de protecció criogènica\n−Caigudes en alçada: arnesos anticaigudes, dissipadors d’energia\n−Contacte amb tensió elèctrica: guants dielèctrics.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Folre polar",
+      "B": "Calçat de seguretat",
+      "C": "Mascaretes autofiltrants",
+      "D": "Sobrepantalons d’intervenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q46",
+    "statement": "La zonificació és una de les accions més eficients a nivell de seguretat és la de crear un zonatge que delimiti la zona de risc. A la zona tèbia:",
+    "correct": "D",
+    "explanation": "Zona Tèbia.\nActua com a franja de zona segura i transició entre la contaminació i la zona freda. S’hi estableixen:\n−Punts de descontaminació de persones i equips (ABD).\n−Àrees de preparació logística (muntatge d’equips, recanvi d’EPI, comandaments intermedis, equips de relleu, etc.)\n−Només accedeix personal autoritzat, habitualment amb EPI de nivell inferior (protecció lleugera) o roba de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'hi ubica el Centre de Comandament Avançat (CCA)",
+      "B": "Hi pot haver personal no operatiu o en reserva",
+      "C": "Només hi accedeixen equips especialitzats amb EPI complet i tasca assignada",
+      "D": "S'hi estableixen els punts de descontaminació de persones i equips (ABD)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q12",
+    "statement": "És una de les diferències entre el vestit d’intervenció pesant i el lleuger dels Bombers de la Generalitat:",
+    "correct": "A",
+    "explanation": "Les condicions hivernals poden convertir la conducció en una activitat extremadament delicada. La neu redueix el control\nsobre el vehicle i empitjora la visibilitat, mentre que el gel —sobretot quan no és visible (gel negre)— pot causar una\npèrdua total d’adherència. Per sota dels 7 °C, els pneumàtics convencionals perden gran part de la seva capacitat\nd’adherència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A diferència del vestit d’intervenció lleuger, el vestit d’intervenció pesant és adequat per treballs de llarga durada amb altes temperatures ambientals",
+      "B": "El vestit d’intervenció pesant està dissenyat per un conjunt jaquetó i un sobrepantaló de 2 capes",
+      "C": "El vestit d’intervenció pesant és més pesant i menys transpirable",
+      "D": "El vestit d’intervenció lleuger s'usa principalment en incendis estructurals i urbans 13"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q28",
+    "statement": "Cal portar tot l’EPI abans del trajecte o es pot completar un cop arribats al lloc d’intervenció?",
+    "correct": "C",
+    "explanation": "El cap de sortida és qui valora si cal portar tot l’EPI abans del trajecte o es pot completar un cop arribats al lloc\nd’intervenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal portar tot l’EPI abans del trajecte, en qualsevol cas",
+      "B": "Es pot completar un cop arribats al lloc d’intervenció, sempre que el cap d’intervenció ho consideri oportú",
+      "C": "Es pot completar un cop arribats al lloc d’intervenció, si ho considera així el cap de sortida",
+      "D": "Es pot completar un cop arribats al lloc d’intervenció, sota la responsabilitat de cada bomber/a"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q48",
+    "statement": "Què podem afirmar en relació amb els equips de respiració autònoma (ERA)?",
+    "correct": "B",
+    "explanation": "El regulador de pressió es connecta directament a la màscara.\nL'alarma d'immobilitat s’activa quan el dispositiu de control electrònic no detecta moviment per part de l’usuari durant 30”.\nSi en els 10” següents el dispositiu de control en 10” no detecta cap moviment per part de l’usuari, l’alarma queda fixada i\nnomés es pot desactivar manualment des dels botons del dispositiu de control electrònic.\nAvisos de pressió:\n−170 bars: “Bip-bip” o Arribada a la meitat del temps de treball.\n−110 bars: “Bip-bip” + “Bip-bip” o Iniciar sortida de la zona calenta.\nAlarma de reserva d’aire:\n−60 bars: So continu fins als 0 b.\nAlarma de baixa pressió (reserva):\n−S’activa quan la pressió de l’ampolla arriba aproximadament al 25% de la seva capacitat (60 bars en ampolles de 300\nbars).\n−Emet un senyal acústic i/o vibratori per alertar al bomber que ha d’abandonar la zona de risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alarma d'immobilitat s’activa quan el dispositiu de control electrònic no detecta moviment per part de l’usuari durant 10”",
+      "B": "En ampolles de 300 bars, els avisos de pressió sonen als 170 i als 110 bars",
+      "C": "El regulador de pressió es connecta al manòmetre",
+      "D": "En una ampolla de 300 bars, l'alarma de baixa pressió s'activarà aproximadament als 100 bars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q9",
+    "statement": "Quin tipus de vestit de protecció química és reutilitzable?",
+    "correct": "C",
+    "explanation": "Tipus 1: Hermètics a gasos o vapors. Reutilitzables.\nTipus 2: D’aspecte igual que els de tipus 1. Té punts penetrables. Les costures no són estanques. Reutilitzables.\nTipus 3: Hermètics a líquids aplicats a pressió. No reutilitzables.\nTipus 4: Hermètics a líquids aplicats en forma d’esprai. No reutilitzables.\nTipus 5: Hermètics a sòlids pulverulents. No reutilitzables.\nTipus 6: Hermètics a líquids en forma d’esquitxades. No reutilitzables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tant el Tipus 5 com el Tipus 6",
+      "B": "Només el de Tipus 1",
+      "C": "Tant el Tipus 1 com el Tipus 2",
+      "D": "Només el de Tipus 6"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q46",
+    "statement": "Davant d'un perill amb presència de risc NRBQ, a quina zona s'hi establiran els punts de descontaminació de persones i equips (ABD)?",
+    "correct": "B",
+    "explanation": "Zona Tèbia.\nActua com a franja de zona segura i transició entre la contaminació i la zona freda. S’hi estableixen:\n−Punts de descontaminació de persones i equips (ABD).\n−Àrees de preparació logística (muntatge d’equips, recanvi d’EPI, comandaments intermedis, equips de relleu, etc.)\n−Només accedeix personal autoritzat, habitualment amb EPI de nivell inferior (protecció lleugera) o roba de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Zona Calenta",
+      "B": "Zona Tèbia",
+      "C": "Zona Freda",
+      "D": "Dependrà dels criteris que es facin servir per definir el zonatge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q51",
+    "statement": "D'acord amb el Reglament (UE) 2016/425 del Parlament Europeu i del Consell, de 9 de març de 2016, sobre els principis generals del marcatge CE, podem afirmar el següent:",
+    "correct": "D",
+    "explanation": "Article 17. Regles i condicions per a la col·locació del marcatge CE.\n1. El marcatge CE es col·locarà de manera visible, llegible i indeleble en l’EPI. Quan això no sigui possible o no es pugui\ngarantir a causa de la naturalesa de l’EPI, es col·locarà en l’embalatge i en els documents que acompanyin l’EPI.\n2. El marcatge CE es col·locarà abans que l’EPI s’introdueixi al mercat.\n3. En el cas dels EPI de categoria III, el marcatge CE anirà seguit del número d’identificació de l’organisme notificat que\nparticipi en el procediment previst als annexos VII o VIII.\nEl número d’identificació de l’organisme notificat serà col·locat pel mateix organisme o, seguint les seves instruccions, pel\nfabricant o el seu representant autoritzat.\n4. El marcatge CE i, si escau, el número d’identificació de l’organisme notificat podran anar seguits d’un pictograma o un\naltre marcatge que indiqui el risc davant del qual l’EPI està destinat a protegir.\n5. Els estats membres es basaran en els mecanismes existents per garantir la correcta aplicació del règim regulador del\nmarcatge CE i adoptaran les mesures adequades en cas d’ús indegut d’aquest marcatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El marcatge CE i, si escau, el número d’identificació de l’organisme notificat es podran substituir per un pictograma o un altre marcatge que indiqui el risc davant del qual l’EPI està destinat a protegir",
+      "B": "En el cas dels EPI de les categories II i III, el marcatge CE anirà seguit del número d’identificació de l’organisme notificat que participi en el procediment previst als annexos VII o VIII",
+      "C": "El marcatge CE es col·locarà un cop l’EPI s’introdueixi al mercat",
+      "D": "Si el marcatge CE no es pot col·locar de manera visible, llegible i indeleble en el mateix EPI a causa de la seva naturalesa, es podrà col·locar en l’embalatge"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q2",
+    "statement": "Treballant en zona calenta, un bomber percep el senyal acústic doble (\"bip-bip\" + \"bip-bip\") del seu ERA. Quina pressió li indica i quina actuació correspon?",
+    "correct": "C",
+    "explanation": "El doble avís acústic es correspon amb els 110 bars i indica que cal iniciar la sortida de la zona calenta. L'avís simple es\ndona als 170 bars (meitat del temps de treball) i als 60 bars s'activa l'alarma de reserva amb so continu fins als 0 bars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "170 bars: ha assolit la meitat del temps de treball",
+      "B": "60 bars: ha entrat en la reserva d'aire",
+      "C": "110 bars: ha d'iniciar la sortida de la zona calenta",
+      "D": "130 bars: ha d’abandonar la zona de risc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q65",
+    "statement": "En un pàrquing amb fum dens, un bomber col·loca una caputxa de rescat a una persona sense protecció respiratòria. Quina afirmació és INCORRECTA?",
+    "correct": "C",
+    "explanation": "La caputxa de rescat no filtra l'aire ambient: rep aire respirable mitjançant la connexió a l'ERA del bomber, per la qual\ncosa el subministrament es comparteix i l'autonomia disponible per a l'evacuació disminueix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T20 - Equips de protecció individual (EPI)",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'aire que respira la persona prové de la connexió a l'ERA del bomber",
+      "B": "El temps disponible per a l'evacuació es redueix en compartir el subministrament",
+      "C": "La caputxa incorpora un filtre propi que depura el fum de l'atmosfera de l'entorn",
+      "D": "No està pensada per a un ús prolongat, sinó per a situacions d'emergència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

@@ -1,5 +1,25 @@
 [
   {
+    "id": "academia_sim1_q12",
+    "statement": "Els Delegats de Prevenció seran designats:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pels representants del personal entre els treballadors",
+      "B": "Per i entre els treballadors",
+      "C": "Pels treballadors entre els representants del personal",
+      "D": "Per i entre els representants del personal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim1_q67",
     "statement": "Els treballadors designats i els delegats de prevenció comparteixen certs drets i garanties. Quina de les següents garanties correspon exclusivament als delegats de prevenció?",
     "correct": "D",
@@ -15,7 +35,9 @@
       "B": "Tenir prioritat de permanència a l’empresa o al centre de treball respecte dels altres treballadors, en els supòsits de suspensió o extinció per causes tecnològiques o econòmiques",
       "C": "No ser acomiadat ni sancionat durant l’exercici de les seves funcions ni dintre de l'any següent a l’expiració del seu mandat",
       "D": "Utilització del crèdit d'hores mensuals retribuïdes previst a l'Estatut dels treballadors en l'exercici de les seves funcions"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim1_q95",
@@ -33,7 +55,9 @@
       "B": "Qualsevol màquina, aparell, instrument o instal·lació utilitzada en el treball",
       "C": "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
       "D": "Qualsevol característica d'aquest que pugui tenir una influència significativa en la generació de riscos per a la seguretat i la salut del treballador"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q36",
@@ -51,7 +75,9 @@
       "B": "La Comissió Nacional de Seguretat i Salut en el Treball",
       "C": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "D": "L'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q37",
@@ -69,7 +95,9 @@
       "B": "Un Delegat de Prevenció i un Delegat de Personal",
       "C": "Un Delegat de Prevenció que a la vegada serà el Delegat de Personal",
       "D": "Un Delegat de Personal i cap Delegat de Prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim2_q86",
@@ -87,7 +115,9 @@
       "B": "Un o diversos membres del servei de prevenció propi de l'empresa",
       "C": "Un o diversos membres designats per l'empresa juntament amb l'empresari",
       "D": "Un o diversos membres del o dels serveis de prevenció aliens concertats per l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q7",
@@ -105,7 +135,9 @@
       "B": "FFAA i activitats de la Guàrdia Civil",
       "C": "Serveis operatius de protecció civil en els casos de greu risc o catàstrofe",
       "D": "Personal o treballadors de la llar"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q43",
@@ -123,7 +155,9 @@
       "B": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "El secretari general de Treball i Relacions Laborals",
       "D": "L'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q86",
@@ -141,7 +175,29 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "L'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q60",
+    "statement": "L'empresari, respecte a les mesures proposades pel Delegat de Prevenció:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les haurà d'acatar, en tot cas",
+      "B": "Es podrà negar a adoptar-les",
+      "C": "Es podrà negar a adoptar-les motivadament",
+      "D": "Cap és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q95",
@@ -159,7 +215,9 @@
       "B": "La mateixa Secretaria General de la Comissió Nacional de Seguretat i Salut en el Treball",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "Un o diversos funcionaris designats de l'àmbit de la Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q1",
@@ -177,7 +235,9 @@
       "B": "Ho posarà en coneixement de la Comissió Nacional de Seguretat i Salut en el treball",
       "C": "Tractarà d'arribar a un acord econòmic amb l'empresari que es regeixi pels valors de la justícia, el comerç just i el comerç de proximitat",
       "D": "Pot ordenar la paralització immediata d'aquests treballs o aquestes tasques"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q9",
@@ -195,7 +255,9 @@
       "B": "Elaborar els informes sol·licitats pels jutjats socials en les demandes adduïdes davant aquests en els procediments d'accidents laborals i malalties professionals",
       "C": "Assessorament tècnic en l'elaboració de la normativa legal i en el desenvolupament de la normalització",
       "D": "Vigilar el compliment de la normativa sobre prevenció de riscos laborals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q41",
@@ -213,7 +275,9 @@
       "B": "Eficàcia, coordinació i participació",
       "C": "Eficàcia, coordinació i solidaritat",
       "D": "Eficàcia, prevenció i participació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q19",
@@ -231,7 +295,9 @@
       "B": "A l'empresa usuària",
       "C": "Al Comitè de Seguretat i Salut",
       "D": "A la Inspecció de Treball i Seguretat Social"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q22",
@@ -249,7 +315,9 @@
       "B": "7",
       "C": "8",
       "D": "9"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim6_q86",
@@ -267,7 +335,9 @@
       "B": "L'empresari",
       "C": "El Comitè de Seguretat i Salut",
       "D": "La Inspecció de Treball i Seguretat Social"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q36",
@@ -285,7 +355,9 @@
       "B": "72 hores",
       "C": "7 dies",
       "D": "15 dies"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q48",
@@ -303,7 +375,9 @@
       "B": "Qualsevol màquina, aparell, instrument o instal·lació utilitzada en el treball",
       "C": "Les característiques generals dels locals que puguin originar un risc greu que es materialitzi en un futur immediat",
       "D": "La possibilitat que un treballador pateixi un determinat dany derivat del treball  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q73",
@@ -321,7 +395,29 @@
       "B": "La Comissió Nacional de Seguretat i Salut en el Treball",
       "C": "L'Institut Nacional de Seguretat i Salut en el Treball",
       "D": "La Comissió Nacional de Seguretat i Higiene en el Treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q38",
+    "statement": "De quants delegats de prevenció disposarà una empresa amb un total de 1.005 treballadors?",
+    "correct": "B",
+    "explanation": "De 5 a 30: El delegat de prevenció és el delegat de personal.\nDe 31 a 49: 1 delegat de prevenció.\nDe 50 a 100: 2 delegats de prevenció.\nDe 101 a 500: 3 delegats de prevenció.\nDe 501 a 1000: 4 delegats de prevenció.\nDe 1001 a 2000: 5 delegats de prevenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 delegats de prevenció",
+      "B": "5 delegats de prevenció",
+      "C": "6 delegats de prevenció",
+      "D": "7 delegats de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim8_q43",
@@ -339,7 +435,9 @@
       "B": "Exercir una tasca de vigilància i control sobre el compliment de la normativa de prevenció de riscos",
       "C": "Promoure i fomentar la cooperació dels treballadors en l'execució de la normativa de prevenció",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q9",
@@ -357,7 +455,9 @@
       "B": "5 delegats de prevenció",
       "C": "6 delegats de prevenció",
       "D": "7 delegats de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q30",
@@ -375,7 +475,9 @@
       "B": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "L'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q34",
@@ -393,7 +495,9 @@
       "B": "Serveis operatius de protecció civil i peritatge forense, en qualsevol cas",
       "C": "Forces armades i activitats militars de la Guàrdia Civil",
       "D": "Resguard duaner"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q30",
@@ -411,7 +515,9 @@
       "B": "En funció del reglament que se li apliqui la empresa, que dictaminarà la freqüència i els processos que es duran a terme",
       "C": "Sempre que el treballador ho requereixi",
       "D": "Només quan el treballador hi doni el seu consentiment, a excepció dels reconeixements imprescindibles"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q47",
@@ -429,7 +535,29 @@
       "B": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "L'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q56",
+    "statement": "És el valor que representa les condicions sota les quals la majoria de treballadors poden estar exposats 8 hores diàries i 40 hores setmanals durant tota la seva vida laboral sense patir efectes adversos per la seva salut:",
+    "correct": "C",
+    "explanation": "INSST - Límites de exposición profesional para agentes químicos en España. 2019.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "VLA-EC",
+      "B": "EC",
+      "C": "VLA-ED",
+      "D": "VLB  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q80",
@@ -447,7 +575,9 @@
       "B": "Les malalties, patologies o lesions sofertes amb motiu o ocasió de la feina",
       "C": "Qualsevol característica del treball que pugui tenir una influència significativa en la generació de riscos per a la seguretat i la salut del treballador",
       "D": "Totes les respostes són correctes  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q28",
@@ -465,7 +595,9 @@
       "B": "Hi haurà d'haver un delegat de prevenció que haurà de ser elegit pels delegats del personal",
       "C": "Hi haurà d'haver un delegat de prevenció i un delegat de personal",
       "D": "Hi haurà d'haver un delegat de prevenció que haurà de ser el delegat de personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q30",
@@ -483,7 +615,29 @@
       "B": "L'empresari ha d'adoptar les mesures que calgui amb la finalitat de garantir que només els treballadors que hagin rebut prou informació puguin accedir a les zones de risc greu i específic",
       "C": "L'efectivitat de les mesures preventives ha de preveure distraccions o imprudències no temeràries que podria cometre el treballador",
       "D": "Totes les respostes corresponen a principis de l'acció preventiva"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q33",
+    "statement": "Segons el TREBEB, és un dret individual exercit col·lectivament:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El dret a rebre informació sobre prevenció de riscos laborals",
+      "B": "L'exercici de la vaga",
+      "C": "El respecte a la intimitat",
+      "D": "La defensa jurídica com a conseqüència del servei"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q22",
@@ -501,7 +655,9 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "L'empresari",
       "D": "Totes les tres opcions proposades, conjunta i coordinadament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q25",
@@ -519,7 +675,9 @@
       "B": "Dret necessari mínim indisponible",
       "C": "Dret de màxims",
       "D": "Dret mínim indispensable"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q94",
@@ -537,7 +695,9 @@
       "B": "Es durà a terme periòdicament i serà de caràcter obligatòri",
       "C": "Es durà a terme sempre que ho sol·liciti el treballador",
       "D": "Es durà a terme un cop l'any, que serà cada tres mesos en els casos d'empreses que presentin riscos especials i sempre amb el consentiment previ del treballador"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q13",
@@ -555,7 +715,9 @@
       "B": "Dret necessari mínim indispensable",
       "C": "Dret obligatori i indispensable",
       "D": "Dret inamovible"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q43",
@@ -573,7 +735,9 @@
       "B": "Les patologies, malalties o lesions sofertes amb motiu de la feina",
       "C": "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
       "D": "Totes les opcions corresponen al concepte"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q52",
@@ -591,7 +755,29 @@
       "B": "Els delegats sindicals",
       "C": "Els delegats de prevenció",
       "D": "Els delegats de personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q2",
+    "statement": "Quina de les següents afirmacions sobre el Comitè de Seguretat i Salut és falsa?",
+    "correct": "A",
+    "explanation": "Ha d'estar format pels delegats de prevenció, per una banda, i per l'empresari i/o els seus representants en nombre igual\nal dels delegats de prevenció, de l'altra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha d'estar format pels delegats de prevenció, per una banda, i pels delegats de personal en nombre igual al dels delegats de prevenció, de l'altra",
+      "B": "És un òrgan paritari i col·legiat",
+      "C": "S'ha de constituir en totes les empreses o centres de treball amb 50 treballadors o més",
+      "D": "S'ha de reunir cada trimestre i sempre que ho sol·liciti alguna de les seves representacions"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q18",
@@ -609,7 +795,29 @@
       "B": "30",
       "C": "50",
       "D": "60"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q83",
+    "statement": "Quin és el període d'exposició per inhalació CL50?",
+    "correct": "C",
+    "explanation": "Ingestió (DL50): Una sola dosi\nAbsorció cutània (DL50): 24 hores",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 hores",
+      "B": "5 hores",
+      "C": "1 hora",
+      "D": "30 minuts"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim14_q93",
@@ -627,7 +835,9 @@
       "B": "Serveis de neteja i manteniment",
       "C": "Personal que desenvolupi treballs de risc especial",
       "D": "Les activitats militars de la Guàrdia Civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q9",
@@ -645,7 +855,9 @@
       "B": "Els treballadors designats per constituir un servei de prevenció dins l'empresa tenen prioritat de permanència a l'empresa respecte altres treballadors",
       "C": "L'empresari podrà assumir les funcions de prevenció en el cas de que tingui 25 treballadors en un únic centre de treball",
       "D": "Una de les obligacions dels treballadors és la de cooperar amb l'empresari per poder gaudir d'unes condicions de treball segures"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q26",
@@ -663,7 +875,9 @@
       "B": "Es realitzin activitats o processos que reglamentàriament siguin considerats com a perillosos o amb riscos especials",
       "C": "La necessitat d'aquesta presència sigui requerida per la Inspecció de Treball i Seguretat Social",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim15_q72",
@@ -681,7 +895,9 @@
       "B": "Un o diversos membres de la comissió de treball",
       "C": "Un o diversos treballadors designats de l'empresa",
       "D": "Un o diversos membres del o dels serveis de prevenció aliens concertats per l'empresa  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q48",
@@ -699,7 +915,9 @@
       "B": "La Comissió Nacional de Seguretat i Salut en el Treball",
       "C": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "D": "La Inspecció de Treball i Seguretat Social  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q58",
@@ -717,7 +935,9 @@
       "B": "3 delegats de prevenció",
       "C": "4 delegats de prevenció",
       "D": "1 delegat de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q76",
@@ -735,7 +955,9 @@
       "B": "Serveis operatius de protecció civil i peritatge forense en els casos de greu risc, catàstrofe i calamitat pública",
       "C": "Forces armades i activitats militars de la Guàrdia Civil",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q43",
@@ -753,7 +975,9 @@
       "B": "Les competències que se li atribueixen hauran de ser exercides pels delegats de prevenció",
       "C": "Estaran obligades a subcontractar el servei a una empresa externa",
       "D": "Aquest supòsit és impossible, el comitè de seguretat i salut ha d'existir sempre, independentment del nombre de treballadors de la empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q66",
@@ -771,7 +995,9 @@
       "B": "Assessorament tècnic en l'elaboració de la normativa legal",
       "C": "Promocionar i, si s'escau, realitzar activitats de formació i informació, entre d'altres, en matèria de prevenció de riscos laborals",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim17_q83",
@@ -789,7 +1015,9 @@
       "B": "Dins de la jornada laboral o bé en altres hores però descomptant-ne les hores dedicades de la jornada",
       "C": "Dins de la jornada laboral, en tot cas",
       "D": "Fora de la jornada laboral i de manera retribuïda"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q1",
@@ -807,7 +1035,9 @@
       "B": "Qualsevol equip destinat a millorar el rendiment individual o col·lectiu del treballador",
       "C": "Qualsevol equip destinat a ser portat o subjectat pel treballador perquè el protegeixi",
       "D": "Qualsevol màquina, aparell, instrument o instal·lació utilitzada en el treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q7",
@@ -825,7 +1055,9 @@
       "B": "Les relacions de caràcter administratiu o estatutari del personal al servei de les administracions públiques",
       "C": "Les relacions de naturalesa burocràtica i col·legiada regulades en el conveni de treball",
       "D": "Societats cooperatives"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q21",
@@ -843,7 +1075,9 @@
       "B": "La Inspecció de Treball i Seguretat Social",
       "C": "La Comissió Nacional de Seguretat i Higiene en el Treball",
       "D": "L'Institut Nacional de Seguretat i Higiene en el Treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q27",
@@ -861,7 +1095,9 @@
       "B": "Avaluació de riscos i adaptació del treball a la persona",
       "C": "Planificació de l'activitat preventiva i substitució periòdica del material",
       "D": "Avaluació de riscos i consideració de la condició de treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q36",
@@ -879,7 +1115,29 @@
       "B": "Quan els riscos no puguin limitar-se suficientment mitjançant mesures, mètodes o procediments d'organització del treball",
       "C": "Quan els riscos no es puguin evitar",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q42",
+    "statement": "Quin és l'òrgan científic tècnic especialitzat de l'Administració General de l'Estat que té la missió d'analitzar i estudiar les condicions de seguretat i salut en el treball, com també de promoure i donar suport a la seva millora?",
+    "correct": "D",
+    "explanation": "...per a la qual cosa establirà la cooperació necessària amb els òrgans de les CCAA amb competències en aquesta\nmatèria (art. 8).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Comissió Nacional de Seguretat i Higiene en el Treball",
+      "B": "La Comissió Nacional de Seguretat i Salut en el Treball",
+      "C": "La Inspecció de Treball i Seguretat Social",
+      "D": "L'Institut Nacional de Seguretat i Higiene en el Treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim20_q48",
@@ -897,7 +1155,49 @@
       "B": "La possibilitat que un treballador pateixi un incident laboral en el treball",
       "C": "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
       "D": "La possibilitat que un treballador pateixi un accident en el treball  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q57",
+    "statement": "L'empresa podrà impugnar la paralització immediata del treball o la feina davant l'autoritat laboral en el termini de:",
+    "correct": "B",
+    "explanation": "Aquesta impugnació s'ha de resoldre en un termini màxim de 24 hores.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "24 hores",
+      "B": "Tres dies hàbils",
+      "C": "Un dia hàbil",
+      "D": "48 hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q16",
+    "statement": "El Comitè de Seguretat i Salut:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Està format per delegats de prevenció i delegats de personal, en nombres iguals",
+      "B": "El formen l'empresari, un delegat de personal, i un delegat de prevenció",
+      "C": "Es composa per delegats de prevenció i l'empresari o els seus representants, en nombres iguals",
+      "D": "Està format per autoritats assignades pel Servei Català de la Salut  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q18",
@@ -915,7 +1215,9 @@
       "B": "Qualsevol màquina, aparell, instrument o instal·lació utilitzada en el treball",
       "C": "Qualsevol equip destinat a ser portat o subjectat pel treballador perquè el protegeixi d'un o de diversos riscos que en puguin amenaçar la seguretat o la salut en el treball",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim21_q37",
@@ -933,7 +1235,9 @@
       "B": "Es podrà aturar l'activitat mentre ho ratifiquin un terç dels delegats de prevenció",
       "C": "Es podrà sol·licitar la intervenció de la Inspecció de Treball i Seguretat Social, que dictaminarà la paralització o no paralització de l'activitat",
       "D": "Els seus representants legals podran acordar la paralització de l'activitat per majoria"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim22_q9",
@@ -951,7 +1255,29 @@
       "B": "La inspecció periòdica de les actuacions de l'empresa en matèria de prevenció de riscos",
       "C": "Proporcionar informació rellevant respecte a possibles millores o esmenes del servei de prevenció de l'empresa",
       "D": "Esmenar l'actuació de l'equip de prevenció de riscos laborals de l'empresa quan pertoqui, i proposar possibles millores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q10",
+    "statement": "Quin dels següents principis forma part dels principis generals de l'acció preventiva?",
+    "correct": "C",
+    "explanation": "Article 15: L'empresari ha d'aplicar les mesures que integren el deure general de prevenció previst a l'article anterior,\nd'acord amb els principis generals següents:\na) Evitar els riscos.\nb) Avaluar els riscos que no es poden evitar.\nc) Combatre els riscos en el seu origen.\nd) Adaptar la feina a la persona.\ne) Tenir en compte l'evolució de la tècnica.\nf) Substituir el que sigui perillós pel que comporti poc perill o no en comporti cap.\ng) Planificar la prevenció.\nh) Adoptar mesures que donin prioritat a la protecció col·lectiva respecte de la individual.\ni) Facilitar les degudes instruccions als treballadors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Adaptar la persona a la feina",
+      "B": "Atenuar els riscos potencials",
+      "C": "Avaluar els riscos que no es poden evitar",
+      "D": "Minimitzar els riscos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim22_q11",
@@ -969,7 +1295,9 @@
       "B": "Servei de la llar familiar",
       "C": "Activitats en entorns forestals",
       "D": "Treballs d'obra civil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q9",
@@ -987,7 +1315,9 @@
       "B": "Del Comitè de Seguretat i Salut",
       "C": "De l'empresari",
       "D": "Del seu criteri personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim23_q10",
@@ -1005,7 +1335,49 @@
       "B": "D'una acreditació per l'autoritat laboral",
       "C": "D'una acreditació pel Comitè de Seguretat i Salut",
       "D": "D'un informe previ del Comitè de Seguretat i Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q11",
+    "statement": "Quina de les següents funcions no forma part de les competències dels delegats de prevenció?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Col·laborar amb la direcció de l'empresa a millorar l'acció preventiva",
+      "B": "Exercir una tasca de vigilància i de control sobre el compliment de la normativa de prevenció de riscos laborals",
+      "C": "Promoure i fomentar la cooperació dels treballadors en l'execució de la normativa sobre prevenció de riscos laborals",
+      "D": "Totes les respostes formen part de les competències dels delegats de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q2",
+    "statement": "El Comitè de Seguretat i Salut estarà format...",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pels treballadors i l'empresari",
+      "B": "Pels Delegats de Prevenció per una banda, i pels Delegats Sindicals en igual nombre de l'altra",
+      "C": "Pels Delegats de Prevenció per una banda, i per l'empresari i/o els seus representants en igual nombre de l'altra",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q9",
@@ -1023,7 +1395,9 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "L'Empresa de Treball Temporal (ETT)",
       "D": "Els delegats de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim24_q10",
@@ -1041,7 +1415,9 @@
       "B": "Estaran facultats per tenir accés, amb limitacions, a la informació i la documentació referent a les condicions de treball que siguin necessàries per a l'exercici de les seves funcions",
       "C": "Estaran facultats per ser informats per l'empresari sobre els danys produïts en la salut dels treballadors, podent-se presentar, encara que sigui fora la seva jornada laboral, al lloc dels fets a fi de conèixer-ne les circumstàncies",
       "D": "Totes són correctes, no n'hi ha cap de falsa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q9",
@@ -1059,7 +1435,9 @@
       "B": "Aquells que, tot i la disposició de mesures preventives, segueixen originant riscos per a la seguretat i la salut dels treballadors que els desenvolupen o els utilitzen",
       "C": "Aquells que tenen la capacitat d'evitar o disminuir els riscos derivats del treball",
       "D": "Aquells que, en absència de mesures preventives, originen riscos per a la seguretat i la salut dels treballadors que els desenvolupen o els utilitzen"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q10",
@@ -1077,7 +1455,49 @@
       "B": "El tipus de risc a què es puguin exposar els treballadors",
       "C": "El nivell de formació acadèmica dels treballadors de l'empresa",
       "D": "La distribució de riscos a l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q11",
+    "statement": "Hi figuraran dos Delegats de Prevenció, escollits entre i pels representants de personal:",
+    "correct": "B",
+    "explanation": "6 a 30 treballadors: el Delegat de Prevenció serà el Delegat de Personal.\n31 a 49 treballadors: 1 Delegat de Prevenció.\n50 a 100 treballadors: 2 Delegats de Prevenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una empresa de 103 treballadors",
+      "B": "En una empresa que compti amb 62 treballadors",
+      "C": "En una empresa de 48 treballadors",
+      "D": "En una empresa que disposi de 32 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q9",
+    "statement": "En una empresa de 290 treballadors hi faran falta:",
+    "correct": "B",
+    "explanation": "En les empreses fins a 30 treballadors/ores: el delegat de prevenció és el delegat de personal.\nEn les empreses de 31 a 49 treballadors/ores: hi ha un delegat de prevenció, que ha de ser elegit per i entre els delegats\nde personal.\nDe 50 a 100: 2 delegats de prevenció.\nDe 101 a 500: 3 delegats de prevenció.\nDe 501 a 1000: 4 delegats de prevenció.\nDe 1001 a 2000: 5 delegats de prevenció.\nDe 2001 a 3000: 6 delegats de prevenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2 delegats de prevenció",
+      "B": "3 delegats de prevenció",
+      "C": "4 delegats de prevenció",
+      "D": "5 delegats de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim26_q11",
@@ -1095,7 +1515,9 @@
       "B": "Aportar les mesures de prevenció i protecció necessàries per tal d'evitar qualsevol tipus de risc laboral",
       "C": "Promoure la seguretat i la salut dels treballadors per mitjà de l'aplicació de mesures i del desenvolupament de les activitats necessàries per a la prevenció dels riscos derivats del treball",
       "D": "Fomentar la seguretat dels treballadors per mitjà de l'eliminació dels riscos i del desenvolupament de les activitats necessàries per a la prevenció dels riscos derivats del treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q17",
@@ -1113,7 +1535,9 @@
       "B": "La direcció de l'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "El Comitè de Seguretat i Salut"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q42",
@@ -1131,7 +1555,9 @@
       "B": "A l'empresari",
       "C": "Als delegats de prevenció i a l'empresari",
       "D": "No haurà de transmetre cap informe, és secret administratiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q82",
@@ -1149,7 +1575,9 @@
       "B": "Sempre, obligatòriament",
       "C": "Quan els riscos no es puguin evitar o limitar suficientment",
       "D": "Quan ho consideri l'empresari o el delegat de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q9",
@@ -1167,7 +1595,29 @@
       "B": "Tres dies hàbils // 24 hores",
       "C": "24 hores // tres dies hàbils",
       "D": "Cinc dies hàbils // 48 hores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q10",
+    "statement": "En una empresa amb 31 treballadors: (senyala la resposta falsa)",
+    "correct": "A",
+    "explanation": "El Comitè de Seguretat i Salut es constitueix en empreses amb 50 treballadors com a mínim.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es constituirà un Comitè de Seguretat i Salut",
+      "B": "El delegat de prevenció no farà de delegat de personal a la vegada",
+      "C": "Es podrà realitzar el pla de prevenció de forma simplificada, sempre que no suposi una reducció del nivell de protecció als treballadors",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q11",
@@ -1185,7 +1635,49 @@
       "B": "Promoció i, si escau, realització d'activitats de formació, informació, investigació, estudi i divulgació en matèria de prevenció de riscos laborals, amb la coordinació i col·laboració adequades, si escau, amb els òrgans tècnics en matèria preventiva de les comunitats autònomes en l'exercici de les seves funcions en aquesta matèria",
       "C": "Col·laboració amb organismes internacionals i desenvolupament de programes de cooperació internacional en aquest àmbit, promovent la participació de les comunitats autònomes",
       "D": "Vigilància del compliment de la normativa sobre prevenció de riscos laborals, com també de les normes juridicotècniques que incideixin en les condicions de treball en matèria de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q34",
+    "statement": "Es considera risc laboral:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Qualsevol màquina, aparell, instrument o instal·lació utilitzada en el treball i que provoqui un perill per a la vida del treballador",
+      "B": "Les enfermetats, patologies o lesions sofertes amb motiu del treball",
+      "C": "La possibilitat de que un treballador pateixi una determinada lesió del treball",
+      "D": "Qualsevol equip destinat a ser portat o subjectat per a que el protegeixi d'un o diversos riscos que puguin amenaçar la seva seguretat o salut en el treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q45",
+    "statement": "Quants delegats de prevenció seran escollits pels delegats de personal en una empresa de 75 treballadors?",
+    "correct": "C",
+    "explanation": "En les empreses fins a 30 treballadors: el delegat de prevenció és el delegat de personal.\nEn les empreses de 31 a 49 treballadors: hi ha un delegat de prevenció, que ha de ser elegit per i entre els delegats de\npersonal.\nDe 50 a 100: 2 delegats de prevenció\nDe 101 a 500: 3 delegats de prevenció\nDe 501 a 1000: 4 delegats de prevenció\nDe 1001 a 2000: 5 delegats de prevenció\nDe 2001 a 3000: 6 delegats de prevenció\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap. En empreses de fins a 100 treballadors el delegat de prevenció és el delegat de personal.",
+      "B": "Un",
+      "C": "Dos",
+      "D": "Els delegats de personal no tenen la potestat d'escollir els delegats de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim29_q75",
@@ -1203,7 +1695,9 @@
       "B": "L'estructura organitzativa, les responsabilitats, les funcions, les pràctiques, els procediments, els processos i els recursos necessaris per a realitzar l'acció de prevenció de riscos en l'empresa",
       "C": "Els equips de treball, els mitjans de producció i la informació sobre la participació i consulta dels treballadors",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q15",
@@ -1221,7 +1715,9 @@
       "B": "Un",
       "C": "Dos",
       "D": "Dependrà de si té fins a 30 treballadors o de 31 a 49 treballadors"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q23",
@@ -1239,7 +1735,9 @@
       "B": "Assumir el compliment del deure de prevenció de riscos professionals el mateix empresari",
       "C": "Designar un o diversos delegats de prevenció perquè s'ocupin d'aquesta activitat",
       "D": "Constituir un servei de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim30_q71",
@@ -1257,7 +1755,29 @@
       "B": "S'autogestionarà horitzontalment en forma d'Assamblea",
       "C": "Ha de tenir un president i dos vice-presidents",
       "D": "Ha de tenir un president i tres vice-presidents"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q6",
+    "statement": "Abans de col·locar el puny entre el melic i la caixa toràcica d'una víctima d'OVACE durant la maniobra de Heimlich, com haurà d'estar disposada?",
+    "correct": "C",
+    "explanation": "Guies ERC - pàgina 12",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La víctima haurà de tenir l'esquena recta",
+      "B": "La víctima haurà d'estar inclinada cap enrere",
+      "C": "La víctima haurà d'estar inclinada cap endavant",
+      "D": "Les guies ERC no ho especifiquen"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q51",
@@ -1275,7 +1795,9 @@
       "B": "Informar immediatament l'empresari",
       "C": "Seguir treballant fins el final de la seva jornada laboral",
       "D": "Informar immediatament el seu superior jeràrquic directe i els treballadors designats"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q78",
@@ -1293,7 +1815,9 @@
       "B": "Adoptar mesures que donin prioritat a la protecció col·lectiva respecte de la individual",
       "C": "Combatre els riscos a partir de les seves conseqüències",
       "D": "Adaptar la persona a la feina"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q85",
@@ -1311,7 +1835,9 @@
       "B": "L'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "L'empresari",
       "D": "La Comissió Nacional de Seguretat i Salut en el Treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim32_q52",
@@ -1329,7 +1855,29 @@
       "B": "Sempre que l'empresari ho decreti",
       "C": "Cada sis mesos, que seran tres en llocs de treball amb riscos específics",
       "D": "De la forma col·lectiva, publicant-ne els resultats al butlletí de l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q83",
+    "statement": "Una empresa haurà de tenir 5 delegats de prevenció:",
+    "correct": "D",
+    "explanation": "De 101 a 500: 3 delegats de prevenció.\nDe 501 a 1000: 4 delegats de prevenció.\nDe 1001 a 2000: 5 delegats de prevenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si disposa de 101 a 500 treballadors",
+      "B": "Si disposa de 501 a 1000 treballadors",
+      "C": "Si disposa de 50 a 100 treballadors",
+      "D": "Si disposa de 1001 a 2000 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q42",
@@ -1347,7 +1895,9 @@
       "B": "La formació ha de ser donada per l'empresa amb mitjans propis, en qualsevol cas",
       "C": "L'empresari haurà de garantir que cada treballador, sigui quina en sigui la modalitat o la durada de la seva contractació, se sotmeti a una formació periòdica regular",
       "D": "Totes les respostes són certes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q84",
@@ -1365,7 +1915,9 @@
       "B": "La formació dels treballadors i la consulta, informació i participació dels mateixos",
       "C": "Els equips de treball, les mesures d'emergència i els mitjans de protecció",
       "D": "L'avaluació de riscos laborals, la planificació de l'activitat preventiva i les mesures d'emergència"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q93",
@@ -1383,7 +1935,9 @@
       "B": "Risc laboral immediat",
       "C": "Risc derivat del treball",
       "D": "Risc laboral greu i imminent"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q52",
@@ -1401,7 +1955,9 @@
       "B": "Qualsevol treballador, independentment del seu tipus de contractació, es considerarà fixe en termes de prevenció",
       "C": "Els treballadors vinculats per contractes de durada determinada superior a un any s'han de considerar treballadors fixos de plantilla",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q71",
@@ -1419,7 +1975,9 @@
       "B": "Sempre",
       "C": "Quan ho dictamini un Delegat de Prevenció",
       "D": "Quan els riscos no es puguin evitar o no puguin ser limitats"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q72",
@@ -1437,7 +1995,9 @@
       "B": "L'Inspecció de Treball i Seguretat Social",
       "C": "L'empresari",
       "D": "Personal sanitari competent  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q4",
@@ -1455,7 +2015,49 @@
       "B": "Les patologies, malalties o lesions sofertes amb motiu de la feina",
       "C": "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
       "D": "El que sigui probable racionalment que es materialitzi en un futur immediat i pugui suposar un dany greu per a la salut dels treballadors"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q51",
+    "statement": "Com s'anomena l'òrgan científic especialitzat que té la missió de promoure i donar suport a la millora de les condicions de seguretat i salut en el treball, entre d'altres?",
+    "correct": "D",
+    "explanation": "...per a la qual cosa establirà la cooperació necessària amb els òrgans de les CCAA amb competències en aquesta\nmatèria (art. 8).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Riscos Laborals",
+      "B": "La Comissió Nacional de Seguretat i Salut en el Treball",
+      "C": "La Inspecció de Treball i Seguretat Social",
+      "D": "L'Institut Nacional de Seguretat i Higiene en el Treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q63",
+    "statement": "En quin cas es podrà fer ús d'EPIs de Categoria I?",
+    "correct": "A",
+    "explanation": "La resta de supòsits exposats a les respostes requeriran EPIs de Categoria III.\nPer lesions mecàniques superficials es refereix, per exemple, a hematomes, punxades de plantes, esgarrinxades i\nesgarrapades produïdes com conseqüència de petits cops amb objectes fixos i en tasques de jardineria i que no\nnecessiten assistència mèdica.\nFont: RD 773/1997, de 30 de Maig.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per lesions mecàniques superficials",
+      "B": "Per atmosferes amb dèficit d'oxigen",
+      "C": "Davant d'agents biològics nocius",
+      "D": "Davant de riscos de caiguda d'altura"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q10",
@@ -1473,7 +2075,9 @@
       "B": "S'haurà de poder fer des del butlletí de l'empresa",
       "C": "S'ha de limitar exclusivament al personal mèdic i a les autoritats sanitàries que duguin a terme la vigilància de la salut dels treballadors, sense que pugui ser subministrada a l'empresari o a altres persones sense el consentiment del treballador",
       "D": "Quedarà reservat exclusivament al treballador/a, excepte en casos extraordinaris on el personal mèdic ho podrà derivar a la Comissió Nacional de Seguretat i Salut en el Treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q40",
@@ -1491,7 +2095,9 @@
       "B": "Fora de la jornada laboral i retribuïda segons conveni",
       "C": "Dins de la jornada laboral, en qualsevol cas",
       "D": "Dins de la jornada laboral o bé en altres hores però descomptant-ne les hores dedicades de la jornada  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q44",
@@ -1509,7 +2115,9 @@
       "B": "4 delegats de prevenció",
       "C": "3 delegats de prevenció",
       "D": "1 delegat de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q6",
@@ -1527,7 +2135,9 @@
       "B": "Tenir en compte l'evolució de la tècnica",
       "C": "Improvisar la prevenció",
       "D": "Adaptar la persona a la feina, en particular en el que fa referència a la concepció dels llocs de treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q11",
@@ -1545,7 +2155,29 @@
       "B": "Superior a una setmana de feina",
       "C": "Superior a tres dies de feina",
       "D": "Igual o superior a un dia de feina"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q47",
+    "statement": "El registre de plans d'igualtat és un tràmit obligatori per a les empreses de:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "250 o més persones treballadores",
+      "B": "25 o més persones treballadores",
+      "C": "500 o més persones treballadores",
+      "D": "50 o més persones treballadores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim37_q76",
@@ -1563,7 +2195,49 @@
       "B": "La planificació de l’activitat preventiva",
       "C": "L'avaluació dels riscos per a la seguretat i la salut en el treball",
       "D": "Totes les respostes proposades són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q53",
+    "statement": "Quin òrgan és integrat per un representant de cadascuna de les comunitats autònomes i pel mateix nombre de membres de l'Administració General de l'Estat i, de manera paritària amb tots els anteriors, per representants de les organitzacions empresarials i sindicals més representatives?",
+    "correct": "C",
+    "explanation": "La Delegació de Salut i Treball no existeix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Comitè de seguretat i salut",
+      "B": "La Delegació de Salut i Treball",
+      "C": "La Comissió Nacional de Seguretat i Salut en el Treball",
+      "D": "La Inspecció de Treball i Seguretat Social"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q70",
+    "statement": "Quina de les següents empreses haurà de comptar amb sis delegats de prevenció?",
+    "correct": "A",
+    "explanation": "De 50 a 100 treballadors: 2 delegats de prevenció\nDe 101 a 500 treballadors: 3 delegats de prevenció\nDe 501 a 1000 treballadors: 4 delegats de prevenció\nDe 1001 a 2000 treballadors: 5 delegats de prevenció\nDe 2001 a 3000 treballadors: 6 delegats de prevenció\nDe 3001 a 4000 treballadors: 7 delegats de prevenció\nA partir de 4001 treballadors: 8 delegats de prevenció",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una empresa amb 2.300 treballadors",
+      "B": "Una empresa amb 3.650 treballadors",
+      "C": "Una empresa amb 1.800 treballadors",
+      "D": "Una empresa amb 4.100 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q61",
@@ -1581,7 +2255,9 @@
       "B": "L’empresa ha de portar a terme les activitats preventives amb recursos propis, en tot cas",
       "C": "Ha de ser interdisciplinari",
       "D": "Les respostes a) i c) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim39_q79",
@@ -1599,7 +2275,29 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "Els Delegats de Prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q91",
+    "statement": "En què consisteix el límit \"Time-Weighted Average\" (TWA)?",
+    "correct": "B",
+    "explanation": "TLV-C \"Ceiling\": concentració que no hauria de ser superada en cap moment.\nTLV-STEL: oncentració a què poden estar exposats els treballadors durant un curt espai de temps sense patir irritació,\ndany crònic o\nirreversible en els teixits o narcosi important.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En la concentració que no hauria de ser sobrepassada en cap moment",
+      "B": "En la concentració mitjana ponderada en el temps, per a una jornada normal de 8 hores i 40 hores setmanals, a la qual la majoria dels treballadors poden estar exposats repetidament dia rere dia sense patir efectes adversos",
+      "C": "En la concentració a què poden estar exposats els treballadors durant un curt espai de temps sense patir irritació, dany crònic o irreversible en els teixits o narcosi important",
+      "D": "En la concentració a què poden estar exposats els treballadors durant un màxim de cinc minuts sense patir efectes adversos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q21",
@@ -1617,7 +2315,29 @@
       "B": "A les Forces Armades i les activitats militars de la Guàrdia Civil",
       "C": "Al personal que presta el servei de llar familiar",
       "D": "Als serveis operatius de protecció civil i peritatge forense en els casos de greu risc, catàstrofe i calamitat pública"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q26",
+    "statement": "Els delegats de prevenció són designats pels representants del personal i entre membres d'aquests representants. A partir de quin nombre de treballadors hi haurà d'haver vuit delegats de prevenció?",
+    "correct": "B",
+    "explanation": "De 50 a 100 treballadors: 2 delegats de prevenció\nDe 101 a 500 treballadors: 3 delegats de prevenció\nDe 501 a 1000 treballadors: 4 delegats de prevenció\nDe 1001 a 2000 treballadors: 5 delegats de prevenció\nDe 2001 a 3000 treballadors: 6 delegats de prevenció\nDe 3001 a 4000 treballadors: 7 delegats de prevenció\nA partir de 4001 treballadors: 8 delegats de prevenció",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir de 3.001 treballadors",
+      "B": "A partir de 4.001 treballadors",
+      "C": "A partir de 8.001 treballadors",
+      "D": "A partir de 5.001 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q84",
@@ -1635,7 +2355,9 @@
       "B": "Protecció",
       "C": "Condició de treball",
       "D": "Precaució en el treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q32",
@@ -1653,7 +2375,9 @@
       "B": "Només en situacions d'emergència o en cas de risc greu i imminent",
       "C": "Sempre que ho consideri el treballador o ho dictamini l'emresari",
       "D": "Quan els riscos no es puguin evitar o no puguin ser prou limitats  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim41_q44",
@@ -1671,7 +2395,29 @@
       "B": "Dret necessari mínim indispensable",
       "C": "Dret necessari i inamovible",
       "D": "Dret necessari mínim indisponible"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q60",
+    "statement": "A qui correspondrà exercir la Secretaria General de la Comissió Nacional de Seguretat i Salut en el Treball?",
+    "correct": "A",
+    "explanation": "...i li ha de prestar l'assistència tècnica i científica necessària per al desenvolupament de les seves competències (art.\n8.4).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'Institut Nacional de Seguretat i Higiene en el Treball",
+      "B": "A la mateixa Secretaria General de la Comissió Nacional de Seguretat i Salut en el Treball",
+      "C": "A la Inspecció de Treball i Seguretat Social",
+      "D": "A l'empresari o empresària designat per la patronal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q20",
@@ -1689,7 +2435,9 @@
       "B": "Sobre el Comitè de Seguretat i Salut",
       "C": "Sobre la Inspecció de Treball i Seguretat Social",
       "D": "Sobre l'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q39",
@@ -1707,7 +2455,9 @@
       "B": "S'haurà de reunir amb l'empresari en un termini de quaranta-vuit hores",
       "C": "Tindrà un termini de setanta-dos hores per anul·lar o ratificar la paralització acordada",
       "D": "S'haurà de reunir amb l'empresari en un termini de vint-i-quatre hores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim42_q65",
@@ -1725,7 +2475,9 @@
       "B": "A l'empresari",
       "C": "A la Comissió Nacional de Seguretat i Salut en el Treball",
       "D": "Les respostes a) i b) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q57",
@@ -1743,7 +2495,9 @@
       "B": "Seran facilitades als treballadors directament per l'empresari",
       "C": "Hauran de ser facilitades per l'empresari als treballadors mitjançant aquests representants",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim43_q67",
@@ -1761,25 +2515,49 @@
       "B": "Els procediments per a la utilització dels agents esmentats anteriorment que influeixen en la generació dels riscos per a la seguretat i la salut del treballador",
       "C": "Les característiques generals dels locals, les instal·lacions, els equips, els productes i altres estris existents en el centre de treball",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim43_q76",
-    "statement": "D'acord amb l'article 6 de la Llei 31/1995, de 8 de novembre, a qui recau la responsabilitat de regular, mitjançant les corresponents normes reglamentàries, els requisits mínims que han de reunir les condicions de treball per a la protecció de la seguretat i la salut dels treballadors?",
+    "id": "academia_sim44_q46",
+    "statement": "Quina empresa és responsable de les condicions d'execució de la feina en tot el que faci referència a la protecció de la seguretat i la salut dels treballadors, en les relacions de treball mitjançant empreses de treball temporal (ETT)?",
     "correct": "D",
-    "explanation": "El Govern, mitjançant les corresponents normes reglamentàries i després de la consulta prèvia a les organitzacions\nsindicals i empresarials més representatives, ha de regular les matèries que s'especifiquen a l'article 6 de la Llei.",
+    "explanation": "En les relacions de treball mitjançant empreses de treball temporal, l'empresa usuària és responsable de les condicions\nd'execució de la feina en tot el que faci referència a la protecció de la seguretat i la salut dels treballadors.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T05 - Prevenció de riscos laborals",
-    "section": "Simulacre 43",
+    "section": "Simulacre 44",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A l'Institut Nacional de Seguretat i Higiene en el Treball",
-      "B": "A la Inspecció de Treball i Seguretat Social",
-      "C": "Al Parlament de Catalunya",
-      "D": "Al Govern"
-    }
+      "A": "L'empresa de treball temporal",
+      "B": "Una empresa externa",
+      "C": "L'empresa usuària o l'empresa de treball temporal, indiferentment",
+      "D": "L'empresa usuària"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q73",
+    "statement": "Quina de les següents empreses haurà de tenir cinc delegats de prevenció?",
+    "correct": "A",
+    "explanation": "De 50 a 100 treballadors: 2 delegats de prevenció .\nDe 101 a 500 treballadors: 3 delegats de prevenció .\nDe 501 a 1.000 treballadors: 4 delegats de prevenció.\nDe 1.001 a 2.000 treballadors: 5 delegats de prevenció.\nDe 2.001 a 3.000 treballadors: 6 delegats de prevenció .\nDe 3.001 a 4.000 treballadors: 7 delegats de prevenció .\nA partir de 4.001 treballadors: 8 delegats de prevenció .\nA les empreses de fins a trenta treballadors, hi ha d'haver un delegat de prevenció que ha de ser el delegat de personal.\nA les empreses que tinguin entre trenta-un i quaranta-nou treballadors, hi ha d'haver un delegat de prevenció que ha de\nser elegit pels delegats del personal i entre membres d'aquest col·lectiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En una empresa de 1.343 treballadors",
+      "B": "En una empresa de 2.265 treballadors",
+      "C": "En una empresa de 489 treballadors",
+      "D": "En una empresa de 3.109 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q88",
@@ -1797,7 +2575,9 @@
       "B": "Els principis de coordinació, delegació i celeritat",
       "C": "Els principis d'eficiència, cooperació i capacitació",
       "D": "Els principis d'eficàcia, coordinació i participació  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q28",
@@ -1815,7 +2595,9 @@
       "B": "A l'Institut Nacional de Medicina i Seguretat del Treball",
       "C": "A la Inspecció de Treball i Seguretat Social",
       "D": "A l'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q53",
@@ -1833,7 +2615,69 @@
       "B": "Assessorament tècnic en l'elaboració de la normativa legal",
       "C": "Promocionar i, si s'escau, realitzar activitats de formació i informació, entre d'altres, en matèria de prevenció de riscos laborals",
       "D": "Acordar la creació de grups de treball, permanents o temporals, per a l'estudi de temes específics o qüestions concretes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q52",
+    "statement": "En quin cas s'han de fer servir els equips de protecció individual?",
+    "correct": "C",
+    "explanation": "Article 17.2. L'empresari ha de proporcionar als seus treballadors equips de protecció individual adequats per a l'exercici\nde les seves funcions i vetllar perquè se'n faci un ús efectiu quan, pel tipus de feines realitzades, siguin necessaris. Els\nequips de protecció individual s'han de fer servir quan els riscos no es puguin evitar o no puguin ser prou limitats pels\nmitjans tècnics de protecció col·lectiva o per mesures, mètodes o procediments d'organització de la feina.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sempre",
+      "B": "Quan s'hagin de realitzar treballs de reparació, transformació, manteniment o conservació",
+      "C": "Quan els riscos no puguin ser prou limitats pels mitjans tècnics de protecció col·lectiva o per mesures, mètodes o procediments d'organització de la feina",
+      "D": "Sempre que ho consideri el treballador"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q83",
+    "statement": "És un dels drets que tindran els treballadors designats d'un servei de prevenció:",
+    "correct": "B",
+    "explanation": "Estatut dels Treballadors: Article 68 - Garanties\nEls membres del comitè d'empresa i els delegats de personal, com a representants legals dels treballadors, tenen, a més\ndel que disposin els convenis col·lectius, les garanties següents:\na) Obertura d’expedient contradictori en cas de sancions per faltes greus o molt greus, en el qual cal escoltar, a part de la\npersona interessada, el comitè d'empresa o la resta de delegats de personal.\nb) Tenir prioritat de permanència a l'empresa o al centre de treball respecte dels altres treballadors, en els supòsits de\nsuspensió o extinció per causes tecnològiques o econòmiques.\nc) No ser acomiadat ni sancionat durant l'exercici de les seves funcions ni dintre de l'any següent a l'expiració del seu\nmandat, llevat del cas en què l’expiració es produeixi per revocació o dimissió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No ser acomiadat ni sancionat durant l'exercici de les seves funcions ni dintre els tres anys següents a l'expiració del seu mandat, per norma general",
+      "B": "Prioritat de permanència a l'empresa o al centre de treball respecte dels altres treballadors",
+      "C": "En faltes lleus, caldrà escoltar a l'interessat i a part, al comitè d'empresa o la resta de delegats del personal",
+      "D": "No tindran l'obligació imperativa de fer ús dels equips de protecció individual"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q88",
+    "statement": "S'estima que a l'empresa Ficosa, amb fàbrica a Viladecavalls, hi treballen unes 11.000 persones. Si el nombre fos justament aquest, quants delegats de prevenció hauria de tenir?",
+    "correct": "B",
+    "explanation": "De 50 a 100 treballadors: 2 delegats de prevenció\nDe 101 a 500 treballadors: 3 delegats de prevenció\nDe 501 a 1000 treballadors: 4 delegats de prevenció\nDe 1001 a 2000 treballadors: 5 delegats de prevenció\nDe 2001 a 3000 treballadors: 6 delegats de prevenció\nDe 3001 a 4000 treballadors: 7 delegats de prevenció\nA partir de 4001 treballadors: 8 delegats de prevenció",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6 delegats de prevenció",
+      "B": "8 delegats de prevenció",
+      "C": "11 delegats de prevenció",
+      "D": "10 delegats de prevenció  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q51",
@@ -1851,7 +2695,9 @@
       "B": "Adoptar mesures que donin prioritat a la protecció col·lectiva respecte de la individual",
       "C": "Combatre els riscos a partir de les seves conseqüències",
       "D": "Adaptar la persona a la feina"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q63",
@@ -1869,7 +2715,9 @@
       "B": "Dins la jornada laboral sempre que sigui possible i no computa com a jornada anual",
       "C": "És indiferent",
       "D": "Es fa dins la jornada laboral sempre que sigui possible i es computa dins de la jornada anual"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim48_q90",
@@ -1887,7 +2735,9 @@
       "B": "Eficàcia, coordinació i participació",
       "C": "Eficàcia, coordinació i solidaritat",
       "D": "Eficàcia, prevenció i participació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q11",
@@ -1905,7 +2755,9 @@
       "B": "Protecció",
       "C": "Condició de treball",
       "D": "Precaució en el treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim49_q63",
@@ -1923,7 +2775,29 @@
       "B": "Eficàcia, coordinació i participació",
       "C": "Eficàcia, coordinació i solidaritat",
       "D": "Eficàcia, prevenció i participació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q62",
+    "statement": "Quants delegats de prevenció haurà de tenir una empresa de menys de 50 treballadors?",
+    "correct": "B",
+    "explanation": "(art. 35): \"A les empreses de fins a 30 treballadors, hi ha d'haver un delegat de prevenció que ha de ser el\ndelegat de personal. A les empreses que tinguin entre 31 i 49 treballadors, hi ha d'haver un delegat de prevenció que ha\nde ser elegit pels delegats del personal i entre membres d'aquest col·lectiu\".\nEn qualsevol cas, per tant, només hi haurà 1 delegat de prevenció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un o cap",
+      "B": "Un",
+      "C": "Dos",
+      "D": "Dependrà de si té fins a 30 treballadors o de 31 a 49 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q16",
@@ -1941,7 +2815,29 @@
       "B": "Promoure la seguretat i salut dels/de les treballadors/es",
       "C": "Ajudar a la millora de les condicions econòmiques del personal",
       "D": "Sancionar els/les infractors/es en la gestió de la seguretat i salut de l’empresa  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q32",
+    "statement": "Quin número mínim de treballadors haurà de tenir una empresa per a constituir un Comitè de Seguretat i Salut?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vint-i-nou",
+      "B": "Trenta",
+      "C": "Cinquanta",
+      "D": "Seixanta  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q57",
@@ -1959,7 +2855,49 @@
       "B": "La existència de processos, activitats, operacions, equips o productes “potencialment perillosos” i les mesures preventives adoptades",
       "C": "Les característiques del centre de treball i el tipus de risc",
       "D": "La probabilitat que es produeixi el dany i la seva severitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q62",
+    "statement": "No és competència dels Delegats de Prevenció:",
+    "correct": "D",
+    "explanation": "Promoure iniciatives sobre mètodes i procediments per a la prevenció efectiva dels riscos és competència del comitè de\nseguretat i salut.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Exercir una tasca de vigilància i control sobre el compliment de la normativa de prevenció de riscos laborals",
+      "B": "Promoure i fomentar la cooperació dels treballadors en l'execució de la normativa sobre prevenció de riscos laborals",
+      "C": "Col·laborar amb la direcció de l'empresa en la millora de l'acció preventiva",
+      "D": "Promoure iniciatives sobre mètodes i procediments per a la prevenció efectiva dels riscos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q93",
+    "statement": "En cas que els representants legals d'una empresa acordin la paralització de l'activitat per majoria, l'autoritat laboral:",
+    "correct": "A",
+    "explanation": "L'acord ha de ser comunicat immediatament a l'empresa i a l'autoritat laboral, la qual, en un termini de vint-i-quatre hores,\nha d'anul·lar o ratificar la paralització acordada (article 21.3).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tindrà un termini de vint-i-quatre hores per anul·lar o ratificar la paralització acordada",
+      "B": "S'haurà de reunir amb l'empresari en un termini de quaranta-vuit hores",
+      "C": "Tindrà un termini de setanta-dos hores per anul·lar o ratificar la paralització acordada",
+      "D": "S'haurà de reunir amb l'empresari en un termini de vint-i-quatre hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q18",
@@ -1977,7 +2915,9 @@
       "B": "Els treballadors vinculats per contractes de durada determinada superior a tres mesos",
       "C": "Els treballadors vinculats per contractes de durada determinada superior a un any",
       "D": "Els treballadors vinculats per contractes de durada determinada superior a nou mesos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q28",
@@ -1995,7 +2935,29 @@
       "B": "Quan ho consideri el treballador",
       "C": "Quan els riscos no es puguin evitar",
       "D": "Quan ho determinin els delegats de prevenció o els representants del personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q79",
+    "statement": "L'empresari ha d'adoptar les mesures adequades perquè els treballadors rebin totes les informacions necessàries amb relació a certes coses, d'entre les quals NO s'hi troba:",
+    "correct": "C",
+    "explanation": "L'empresari ha d'elaborar i conservar a disposició de l'autoritat laboral la següent documentació relativa a la relació\nd'accidents de treball i malalties professionals que hagin causat al treballador una incapacitat laboral superior a un dia\nde feina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les mesures adoptades d'acord amb les mesures d'emergència estipulades per llei",
+      "B": "Les mesures i les activitats de protecció i prevenció que es poden aplicar als riscos per a la seguretat i la salut dels treballadors al treball",
+      "C": "La relació d'accidents de treball i malalties professionals que hagin causat al treballador una incapacitat laboral superior a un dia de feina",
+      "D": "Els riscos per a la seguretat i la salut dels treballadors al treball"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim55_q14",
@@ -2013,7 +2975,29 @@
       "B": "Un",
       "C": "Dos",
       "D": "Quatre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q18",
+    "statement": "Si es produeix una situació de discriminació o assetjament en l'àmbit d’organització o direcció d'una empresa i no s'hi han complert les obligacions marcades per la Llei 19/2020, del 30 de desembre, qui en serà responsable del dany causat?",
+    "correct": "B",
+    "explanation": "Article 25 - Efectes de la contravenció de la Llei.\nEls empresaris i els prestadors de béns i serveis són responsables del dany causat si la discriminació, inclòs\nl’assetjament, es produeix en llur àmbit d’organització o direcció i no han complert les obligacions d'aquesta llei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Delegats de Prevenció",
+      "B": "Els empresaris i els prestadors de béns i serveis",
+      "C": "Els Delegats de Personal",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q59",
@@ -2031,7 +3015,9 @@
       "B": "A l'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "A la Inspecció de Treball i Seguretat Social",
       "D": "A l'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim56_q83",
@@ -2049,7 +3035,9 @@
       "B": "Es fa fora de la jornada laboral sempre que sigui possible",
       "C": "Es tracta d'una formació de 80 hores anuals",
       "D": "Es fa dins la jornada laboral sempre que sigui possible i es computa dins de la jornada anual"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim57_q55",
@@ -2067,7 +3055,9 @@
       "B": "Les malalties, patologies o lesions sofertes amb motiu o ocasió de la feina",
       "C": "Els accidents o enfermetats que pugui sofrir un treballador",
       "D": "Les malalties, patologies o lesions sofertes a partir de la data de la seva contractació"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q55",
@@ -2085,7 +3075,9 @@
       "B": "El conjunt d'activitats o mesures adoptades o previstes en totes les fases d'activitat de l'empresa amb la finalitat d'evitar o disminuir els riscos derivats del treball",
       "C": "L'eliminació de qualsevol característica del treball que pugui tenir una influència significativa en la generació de riscos per a la seguretat i la salut del treballador",
       "D": "Les respostes a) i b) són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q63",
@@ -2103,7 +3095,9 @@
       "B": "Al Comitè de Seguretat i Salut",
       "C": "A l'empresari",
       "D": "Totes les tres opcions proposades, conjunta i coordinadament"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q33",
@@ -2121,7 +3115,9 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "La Inspecció de Treball i Seguretat Social",
       "D": "L'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim59_q79",
@@ -2139,7 +3135,9 @@
       "B": "L'empresa no la pot impugnar en cap cas",
       "C": "L'empresa la pot impugnar davant l'autoritat laboral en un termini de quaranta-vuit hores, i aquesta impugnació s'ha de resoldre en un termini màxim de vint-i-quatre hores",
       "D": "L'empresa la pot impugnar davant l'autoritat laboral en un termini de vint-i-quatre hores, i aquesta impugnació s'ha de resoldre en un termini màxim de quaranta-vuit hores"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q48",
@@ -2157,7 +3155,9 @@
       "B": "Aquests representants",
       "C": "Els delegats de prevenció, en qualsevol cas",
       "D": "Els delegats de prevenció, excepte en els casos concrets que reuneix l'article 20 d'aquesta Llei"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim61_q50",
@@ -2175,7 +3175,9 @@
       "B": "Quan els riscos no es puguin evitar o no puguin ser prou limitats",
       "C": "Sempre que l'empresari els proporcioni",
       "D": "Quan els riscos encara es puguin evitar"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim62_q43",
@@ -2193,7 +3195,9 @@
       "B": "A l'Institut Nacional de Seguretat i Higiene en el Treball",
       "C": "Al secretari general de Treball i Relacions Laborals",
       "D": "A l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q59",
@@ -2211,7 +3215,9 @@
       "B": "Avaluar els riscos que es poden evitar",
       "C": "Denegar les degudes instruccions als treballadors",
       "D": "Evitar els riscos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q87",
@@ -2229,7 +3235,9 @@
       "B": "La facturació de l'empresa, el nombre de fases d'activitat de l'empresa i l'antiguitat del centre de treball",
       "C": "Les dimensions de l'empresa, el nombre de fases d'activitat de l'empresa i la proporció de treballadors qualificats sobre el total",
       "D": "Les dimensions de l'empresa, el tipus de risc a què es puguin exposar els treballadors i la distribució de riscos a l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q95",
@@ -2247,7 +3255,9 @@
       "B": "A qualsevol empresa",
       "C": "A les empreses amb deu treballadors o més",
       "D": "A les empreses amb cinc treballadors o més"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim64_q65",
@@ -2265,13 +3275,15 @@
       "B": "L'empresari",
       "C": "Els comitès d'empresa",
       "D": "Els delegats de personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim65_q45",
-    "statement": "D'acord amb la Llei 31/1995, de 8 de novembre, en cas de que les condicions d'un lloc de treball puguin influir negativament en la salut d'una treballadora embarassada o del fetus a pesar de les adaptacions, no existeixi un lloc de treball o funció compatible amb el seu estat i un canvi de lloc no sigui tècnicament o objectivament possible, quina situació es pot declarar?",
-    "correct": "B",
-    "explanation": "Article 26. Protecció de la maternitat.\n3. Si aquest canvi de lloc no és tècnicament o objectivament possible, o no es pot exigir raonablement per motius\njustificats, es pot declarar el pas de la treballadora afectada a la situació de suspensió del contracte per risc durant\nl'embaràs durant el període necessari per a la protecció de la seva seguretat o de la seva salut i mentre persisteixi la\nimpossibilitat de reincorporar-se al seu lloc anterior o a un altre lloc compatible amb el seu estat.",
+    "id": "academia_sim65_q14",
+    "statement": "Dos vehicles es troben separats per una distància de 5.000 km. S'apropen l'un a l'altre, el primer a una velocitat de 110 km/h i el segon a 90 km/h. Quant de temps tarden a trobar-se?",
+    "correct": "A",
+    "explanation": "x = 110t\nx = 5.000-90t\n110 t = 5.000 - 90t\nt = 25 h.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T05 - Prevenció de riscos laborals",
@@ -2279,11 +3291,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La situació de perill greu i imminent per a la seva seguretat",
-      "B": "La situació de suspensió del contracte per risc durant l'embaràs",
-      "C": "La situació de discapacitat física, psíquica o sensorial",
-      "D": "La situació de suspensió de funcions"
-    }
+      "A": "25 hores",
+      "B": "10 hores",
+      "C": "15 hores",
+      "D": "20 hores"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim65_q84",
@@ -2301,7 +3315,9 @@
       "B": "L'empresari",
       "C": "El Comitè de seguretat i salut",
       "D": "Els delegats de personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q75",
@@ -2319,7 +3335,9 @@
       "B": "La detecció de riscos i la llibertat preventiva",
       "C": "L’avaluació de riscos laborals i la planificació de l’activitat preventiva",
       "D": "La planificació de la prevenció i la re-avaluació periòdica de l'evolució dels riscos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim66_q93",
@@ -2337,7 +3355,9 @@
       "B": "A qualsevol empresa",
       "C": "A les empreses amb deu treballadors o més",
       "D": "A les empreses amb cinc treballadors o més"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q6",
@@ -2355,7 +3375,9 @@
       "B": "La probabilitat que es produeixi el dany i la formació dels treballadors",
       "C": "La naturalesa de l'empresa i la severitat dels danys potencials",
       "D": "La probabilitat que es produeixi el dany i la seva severitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q14",
@@ -2373,7 +3395,29 @@
       "B": "A l'empresari",
       "C": "Als comitès d'empresa",
       "D": "Als delegats de personal  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q66",
+    "statement": "D'acord amb l'article 20 de la Llei d'igualtat efectiva de dones i homes, han d'adoptar accions positives específiques temporals, raonables i proporcionades amb relació a l'objectiu perseguit en cada cas, que promoguin la igualtat efectiva de dones i homes:",
+    "correct": "C",
+    "explanation": "Article 20 - Participació social de les dones.\n1. Els poders públics han d'adoptar accions positives específiques temporals, raonables i proporcionades amb relació a\nl'objectiu perseguit en cada cas, que promoguin la igualtat efectiva de dones i homes, que permetin corregir situacions de\ndesigualtat social resultants de pràctiques de subordinació o de sistemes socials discriminatoris, i facin efectiu el dret a la\nparticipació social de les dones.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Institut Català de les Dones",
+      "B": "L'Administració de la Generalitat i els poders privats",
+      "C": "Els poders públics",
+      "D": "Els delegats de prevenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q19",
@@ -2391,7 +3435,9 @@
       "B": "Establir un llistat de sancions en funció de l'adequació de la normativa de les empreses i del compliment de la mateixa",
       "C": "Promoure la seguretat i la salut dels treballadors per mitjà de l'aplicació de mesures i del desenvolupament de les activitats necessàries per a la prevenció dels riscos derivats del treball",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim68_q42",
@@ -2409,7 +3455,9 @@
       "B": "Pels cossos de policia",
       "C": "En els centres i establiments militars",
       "D": "A les Forces Armades"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim69_q15",
@@ -2427,7 +3475,29 @@
       "B": "Al Comitè de Seguretat i Salut",
       "C": "A la Inspecció de Treball i Seguretat Social",
       "D": "A l'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q94",
+    "statement": "Quina de les següents empreses haurà de tenir tres delegats de prevenció?",
+    "correct": "C",
+    "explanation": "De 50 a 100 treballadors: 2 delegats de prevenció.\nDe 101 a 500 treballadors: 3 delegats de prevenció.\nDe 501 a 1.000 treballadors: 4 delegats de prevenció.\nDe 1.001 a 2.000 treballadors: 5 delegats de prevenció.\nDe 2.001 a 3.000 treballadors: 6 delegats de prevenció.\nDe 3.001 a 4.000 treballadors: 7 delegats de prevenció.\nA partir de 4.001 treballadors: 8 delegats de prevenció.\nA les empreses de fins a trenta treballadors, hi ha d'haver un delegat de prevenció que ha de ser el delegat de personal.\nA les empreses que tinguin entre trenta-un i quaranta-nou treballadors, hi ha d'haver un delegat de prevenció que ha de\nser elegit pels delegats del personal i entre membres d'aquest col·lectiu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una empresa de 1.343 treballadors",
+      "B": "Una empresa de 2.265 treballadors",
+      "C": "Una empresa de 489 treballadors",
+      "D": "Una empresa de 3.109 treballadors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q6",
@@ -2445,7 +3515,9 @@
       "B": "Els Delegats de Personal",
       "C": "Els representants sindicals",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q75",
@@ -2463,7 +3535,9 @@
       "B": "Una setmana de feina",
       "C": "Tres dies de feina",
       "D": "Dos dies de feina"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q14",
@@ -2481,7 +3555,9 @@
       "B": "Els comitès d'empresa, els delegats de personal i els representants sindicals",
       "C": "L'empresari",
       "D": "Els delegats de prevenció  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim71_q56",
@@ -2499,7 +3575,9 @@
       "B": "Delegar la responsabilitat de la seguretat als treballadors",
       "C": "Reduir la càrrega cognitiva dels treballadors en l'acompliment de les seves tasques",
       "D": "Atenuar la feina monòtona i repetitiva  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q42",
@@ -2517,7 +3595,9 @@
       "B": "Combatre les conseqüències dels riscos",
       "C": "Avaluar els riscos que es poden evitar",
       "D": "Anteposar l'ús de la tècnica habitual o tradicional  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim72_q91",
@@ -2535,7 +3615,9 @@
       "B": "Al Comitè de Seguretat i Salut",
       "C": "A l'empresari",
       "D": "Totes les tres opcions proposades, conjunta i coordinadament  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim73_q60",
@@ -2553,7 +3635,9 @@
       "B": "No està permès",
       "C": "No suposarà una reducció del nivell de protecció de la seguretat i salut dels treballadors",
       "D": "S'haurà de materialitzar en cas què ho demanin un o diversos treballadors de l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q92",
@@ -2571,7 +3655,9 @@
       "B": "En les empreses que comptin amb un únic centre de treball",
       "C": "En les empreses de fins a deu treballadors",
       "D": "En les empreses que no realitzin activitats d’especial perillositat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q95",
@@ -2589,7 +3675,9 @@
       "B": "L'empresari",
       "C": "Els comitès d'empresa",
       "D": "Els delegats de personal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q43",
@@ -2607,7 +3695,29 @@
       "B": "A la Comissió Nacional de Seguretat i Salut en el Treball",
       "C": "A l'Institut Nacional de Seguretat i Higiene en el Treball",
       "D": "A la Inspecció de Treball i Seguretat Social"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q44",
+    "statement": "En quines empreses o centres de treball la participació dels treballadors en qüestions relacionades amb la prevenció de riscos en el treball s'ha de canalitzar mitjançant els seus representants?",
+    "correct": "D",
+    "explanation": "Article 34. Drets de participació i representació.\n1. Els treballadors tenen dret a participar en l'empresa, pel que fa a les qüestions relacionades amb la prevenció de\nriscos en el treball. A les empreses o els centres de treball amb sis treballadors o més, la participació d'aquests s'ha de\ncanalitzar mitjançant els seus representants i la representació especialitzada que es regula en aquest capítol.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A les empreses o els centres de treball amb més de quaranta-nou treballadors",
+      "B": "A totes les empreses o centres de treball",
+      "C": "A les empreses o els centres de treball amb deu treballadors o més",
+      "D": "A les empreses o els centres de treball amb sis treballadors o més"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q6",
@@ -2625,7 +3735,9 @@
       "B": "Al comitè d'empresa i als representants sindicals",
       "C": "A l'empresari",
       "D": "Als delegats de personal, al comitè d'empresa i als representants sindicals"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim76_q29",
@@ -2643,7 +3755,29 @@
       "B": "La distribució de riscos a l'empresa",
       "C": "Les dimensions de l'empresa",
       "D": "L'antiguitat de l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q79",
+    "statement": "Quin és el valor que indica les condicions sota les quals la majoria de treballadors poden estar exposats durant 8 hores diàries i 40 hores setmanals al llarg de la seva vida laboral sense experimentar efectes adversos per a la seva salut?",
+    "correct": "C",
+    "explanation": "INSST - Límites de exposición profesional para agentes químicos en España. 2019.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "VLA-EC",
+      "B": "EC",
+      "C": "VLA-ED",
+      "D": "VLB"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q2",
@@ -2661,7 +3795,9 @@
       "B": "Reduir els costos empresarials",
       "C": "Promoure la seguretat i la salut dels treballadors",
       "D": "Regular les hores de treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q3",
@@ -2679,7 +3815,9 @@
       "B": "El sindicat de treballadors",
       "C": "La Direcció General de la Seguretat Social",
       "D": "L'autoritat laboral"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim77_q64",
@@ -2697,7 +3835,9 @@
       "B": "Unidisciplinari",
       "C": "Especialitzat en un únic camp",
       "D": "Multidisciplinari  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim78_q15",
@@ -2715,7 +3855,29 @@
       "B": "Quan els riscos puguin veure’s inalterats en el desenvolupament del procés o l’activitat",
       "C": "Quan es realitzin activitats o processos que reglamentàriament siguin considerats com a perillosos o amb riscos especials",
       "D": "Sempre serà necessària la presència al centre de treball dels recursos preventius"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q63",
+    "statement": "Quin és el municipi de Catalunya amb un major nombre de polígons d’activitat econòmica (PAEs)?",
+    "correct": "C",
+    "explanation": "Olot compta amb 17 PAEs.\nFont: Departament d'Empresa i Treball.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Valls",
+      "B": "Montblanc",
+      "C": "Olot",
+      "D": "Manresa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q6",
@@ -2733,7 +3895,9 @@
       "B": "Els treballadors",
       "C": "L'òrgan de representació dels treballadors",
       "D": "La Inspecció de Treball i Seguretat Social"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q17",
@@ -2751,7 +3915,9 @@
       "B": "Avaluar els riscos que es puguin evitar",
       "C": "Tenir en compte l'evolució de la tècnica",
       "D": "Donar les degudes instruccions als treballadors"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim79_q64",
@@ -2769,7 +3935,9 @@
       "B": "48 hores",
       "C": "72 hores",
       "D": "Cap és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q2",
@@ -2787,7 +3955,9 @@
       "B": "Al Comitè de Seguretat i Salut",
       "C": "A la Inspecció de Treball i Seguretat Social",
       "D": "A l'empresari"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim80_q3",
@@ -2805,13 +3975,15 @@
       "B": "3 delegats de prevenció",
       "C": "4 delegats de prevenció",
       "D": "1 delegat de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim80_q20",
-    "statement": "La Llei 31/1995 preveu que l'empresari haurà de garantir a cada treballador formació en matèria preventiva: (senyala la resposta INCORRECTA)",
-    "correct": "D",
-    "explanation": "Article 19. Formació dels treballadors.\n1. En compliment del deure de protecció, l'empresari ha de garantir que cada treballador rebi una formació teòrica i\npràctica, suficient i adequada, en matèria preventiva, tant en el moment de la seva contractació, sigui quina en sigui la\nmodalitat o la durada, com quan s'esdevinguin canvis en les funcions que exerceixi o s'introdueixin noves tecnologies o\ncanvis en els equips de treball. La formació s'ha de centrar específicament en el lloc de treball o la funció de cada\ntreballador, cal que s'adapti a l'evolució dels riscos i a l'aparició d'altres de nous i s'ha de repetir periòdicament si calgués.",
+    "id": "academia_sim80_q18",
+    "statement": "Quants polígons d’activitat econòmica (PAEs) hi ha en total a Catalunya?",
+    "correct": "C",
+    "explanation": "Font: Departament d'Empresa i Treball.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T05 - Prevenció de riscos laborals",
@@ -2819,11 +3991,13 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En el moment de la seva contractació, sigui quina sigui la modalitat o durada d'aquesta",
-      "B": "Quan es produeixin canvis en les funcions que exerceixi",
-      "C": "Quan s'introdueixin noves tecnologies o canvis en els equips de treball",
-      "D": "En el moment de la reincorporació del treballador després d'un període d'excedència"
-    }
+      "A": "17",
+      "B": "412",
+      "C": "1.448",
+      "D": "12.994"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim81_q14",
@@ -2841,7 +4015,9 @@
       "B": "Una empresa amb 411 treballadors tindrà el mateix nombre de delegats de prevenció que una empresa que en tingui 560",
       "C": "Una empresa amb 3.909 treballadors disposarà del mateix nombre de delegats de prevenció que una empresa que en tingui 4.002",
       "D": "Una empresa amb 4.598 treballadors tindrà el mateix nombre de delegats de prevenció que una empresa que en tingui 6.120"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q29",
@@ -2859,7 +4035,9 @@
       "B": "Els contractats per a un termini de fins a un any, s'han de considerar segons el nombre de dies treballats en el període d'un any anterior a la designació. Cada cent cinquanta dies treballats o fracció s'han de computar com un treballador més.",
       "C": "Els treballadors passaran automàticament a considerar-se fixos de plantilla en el moment en què hagin acumulat dos anys treballats en l'empresa",
       "D": "Totes les respostes són incorrectes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q43",
@@ -2877,7 +4055,9 @@
       "B": "Els comitès d'empresa",
       "C": "L'empresari",
       "D": "La Inspecció de Treball i Seguretat Social"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim82_q79",
@@ -2895,7 +4075,9 @@
       "B": "Prioritzar la protecció individual i la utilització dels equips de protecció individual (EPI) a la protecció col·lectiva",
       "C": "Eliminar els riscos",
       "D": "Combatre els riscos en el seu origen"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim83_q20",
@@ -2913,7 +4095,29 @@
       "B": "Faran ús d'aquests mitjans i equips de protecció al marge de la seva formació i seguint les instruccions del delegat de prevenció",
       "C": "Faran ús d'aquests mitjans i equips de protecció d'acord amb la seva formació i seguint les instruccions de l'empresari",
       "D": "Faran ús d'aquests mitjans i equips de protecció d'acord amb la seva formació i seguint les instruccions del delegat de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim83_q31",
+    "statement": "Quin risc pot ser protegit pels EPI de Categoria I?",
+    "correct": "A",
+    "explanation": "RD 773/1997, de 30 de maig - Apèndix 2.\nEls EPI de protecció ocular per a l’observació dels eclipsis solars o davant la radiació de fonts de llum artificials, com els\nutilitzats als solàriums són EPI de categoria II.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 83",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hematomes",
+      "B": "Risc ocular per a l’observació dels eclipsis solars",
+      "C": "Agents biològics nocius",
+      "D": "Risc ocular davant la radiació de fonts de llum artificials, com els utilitzats als solàriums"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim83_q86",
@@ -2931,7 +4135,9 @@
       "B": "El Comitè de Seguretat i Salut",
       "C": "L'Empresa de Treball Temporal (ETT)",
       "D": "Els delegats de prevenció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim84_q9",
@@ -2949,7 +4155,9 @@
       "B": "La possibilitat que un treballador pateixi un incident laboral en el treball",
       "C": "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
       "D": "La possibilitat que un treballador pateixi un accident en el treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim86_q9",
@@ -2967,7 +4175,9 @@
       "B": "Sempre que desenvolupi de forma habitual la seva activitat en el centre de treball i tingui la capacitat necessària",
       "C": "En les empreses de fins a trenta treballadors, sempre que desenvolupi de forma habitual la seva activitat en el centre de treball i tingui la capacitat necessària",
       "D": "En les empreses de fins a trenta treballadors, sempre que es desenvolupi l'activitat en un únic centre de treball i tingui la capacitat necessària, o en empreses de fins a trenta treballadors, quan l'activitat es desenvolupi en diferents centres de treball i tingui la capacitat necessària"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim86_q68",
@@ -2985,7 +4195,9 @@
       "B": "Conèixer tots els documents i els informes que calgui sobre les condicions de treball per al compliment de les seves funcions",
       "C": "Informar l'autoritat laboral sobre els accidents de treball mortals, molt greus o greus, i sobre aquells altres en què, per les seves característiques o pels subjectes afectats, se'n consideri necessari l'informe",
       "D": "Analitzar els danys produïts en la salut o en la integritat física dels treballadors"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim89_q53",
@@ -3003,7 +4215,9 @@
       "B": "L’avaluació dels riscos serà actualitzada quan canviïn les condicions de treball i, en tot cas, es revisarà cada 2 anys",
       "C": "L’empresari és qui ha de fer una avaluació inicial dels riscos per a la seguretat i la salut dels treballadors",
       "D": "L’avaluació dels riscos serà actualitzada cada any, en tot cas"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim90_q24",
@@ -3021,7 +4235,9 @@
       "B": "La designació dels treballadors encarregats de les mesures d'emergència",
       "C": "Els procediments d'informació i documentació sobre la relació d'accidents de treball i malalties professionals que hagin causat al treballador una incapacitat laboral superior a un dia de feina",
       "D": "L'organització i el desenvolupament de les activitats de protecció de la salut i prevenció dels riscos professionals a l'empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim91_q85",
@@ -3039,7 +4255,9 @@
       "B": "S’entén estimada la sol·licitud per silenci administratiu positiu",
       "C": "L’interessat pot exigir una resposta escrita en un termini addicional de quinze dies",
       "D": "Permet entendre desestimada la sol·licitud per silenci administratiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim93_q31",
@@ -3057,7 +4275,29 @@
       "B": "Sempre serà necessària quan es realitzin activitats o processos que reglamentàriament siguin considerats com a perillosos o amb riscos especials",
       "C": "Dependrà de quina sigui la modalitat d’organització d’aquests recursos",
       "D": "Serà sempre necessària"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim96_q12",
+    "statement": "Segons l'article 3 del RD 773/1997, de 30 de maig, l’empresari NO estarà obligat a:",
+    "correct": "A",
+    "explanation": "Article 3. Obligacions generals de l'empresari.\nEn aplicació del que es disposa en el present Reial Decret, l'empresari estarà obligat a:\na) Determinar els llocs de treball en què calgui recórrer a la protecció individual, d'acord amb el que estableix l'article 4, i\nespecificar, per a cadascun d'aquests llocs, el risc o riscos davant dels quals cal oferir protecció, les parts del cos a\nprotegir i el tipus d'equip o equips de protecció individual que s'hauran d'utilitzar.\nb) Triar els equips de protecció individual conforme al que disposen els articles 5 i 6 d'aquest Reial Decret, mantenint\ndisponible a l'empresa o centre de treball la informació pertinent en aquest sentit i facilitant informació sobre cada equip.\nc) Proporcionar gratuïtament als treballadors els equips de protecció individual que hagin d'utilitzar, substituint-los quan\nsigui necessari.\nd) Vetllar perquè la utilització dels equips es realitzi d'acord amb el que disposa l'article 7 del present Reial Decret.\ne) Assegurar que el manteniment dels equips es dugui a terme conforme al que estableix l'article 7 del present Reial\nDecret.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assegurar que el manteniment dels equips es realitzi conforme a les instruccions del venedor",
+      "B": "Vetllar perquè la utilització dels equips es realitzi conforme al que disposa l’article 7 del present Reial decret",
+      "C": "Proporcionar gratuïtament als treballadors els equips de protecció individual que hagin d’utilitzar, reposant-los quan sigui necessari",
+      "D": "Determinar els llocs de treball en què calgui recórrer a la protecció individual"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim96_q71",
@@ -3075,7 +4315,9 @@
       "B": "Forces Armades",
       "C": "Activitats militars de la Guàrdia Civil",
       "D": "Serveis operatius de protecció civil i peritatge forense amb caràcter general"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim97_q46",
@@ -3093,7 +4335,9 @@
       "B": "Han de participar en les reunions del comitè de seguretat i salut, amb veu però sense vot, els delegats de prevenció",
       "C": "S'ha de constituir en totes les empreses o centres de treball amb cinquanta treballadors o més",
       "D": "És l'òrgan paritari i col·legiat de participació destinat a la consulta regular i periòdica de les actuacions de l'empresa en matèria de prevenció de riscos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim97_q69",
@@ -3111,7 +4355,9 @@
       "B": "Qualsevol equip destinat a ser portat, no subjectat, pel treballador per protegir-lo de diversos riscos simultanis que puguin amenaçar exclusivament la seva salut, exclosos els complements o accessoris",
       "C": "Qualsevol equip destinat a ser portat o subjectat pel treballador per protegir-lo d’un o diversos riscos que puguin amenaçar la seva seguretat o salut, així com qualsevol complement o accessori destinat a aquest fi",
       "D": "Qualsevol equip destinat a ser portat o subjectat pel treballador per protegir-lo de diversos riscos simultanis que puguin amenaçar exclusivament la seva seguretat, exclosos els complements o accessoris"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim98_q34",
@@ -3129,7 +4375,9 @@
       "B": "Contractar una empresa externa per a la seguretat en matèria de riscos laborals",
       "C": "Cooperar en l'aplicació de la normativa sobre prevenció de riscos laborals",
       "D": "Delimitar estrictament les responsabilitats preventives de cada empresa, evitant superposicions o col·laboracions"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim98_q92",
@@ -3147,7 +4395,9 @@
       "B": "Utilitzar i tenir cura correctament dels equips de protecció individual",
       "C": "El manteniment, neteja, desinfecció i reparació de l’equip de protecció individual després de la seva utilització",
       "D": "Informar immediatament als delegats de prevenció i subsanar qualsevol defecte, anomalia o dany apreciat en l’equip de protecció individual"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim100_q37",
@@ -3165,7 +4415,29 @@
       "B": "La Inspecció de Treball i Seguretat Social",
       "C": "L'empresari",
       "D": "L'Institut Nacional de Seguretat i Higiene en el Treball"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim101_q32",
+    "statement": "D'acord amb la Guia tècnica per a la utilització pels treballadors d’equips de protecció individual derivada del RD 773/1997, de 30 de maig:",
+    "correct": "B",
+    "explanation": "Art. 2 - pàg. 12.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 101",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els equips de protecció respiratòria utilitzats pels bombers per protegir les persones que rescaten són considerats un EPI",
+      "B": "Els equips de protecció respiratòria utilitzats pels bombers per protegir les persones que rescaten no són considerats un EPI",
+      "C": "Els armilles salvavides portades a les embarcacions com a elements de seguretat i només utilitzades en situacions d’emergència i abandonament són considerades un EPI",
+      "D": "L’uniforme del personal de manteniment és considerat un EPI"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim104_q36",
@@ -3183,7 +4455,9 @@
       "B": "Delegar en els treballadors la responsabilitat de comprovar periòdicament l’estat i la seguretat dels equips utilitzats",
       "C": "Assegurar que els equips de treball s’ajustin als objectius econòmics i pressupostaris de l’empresa",
       "D": "Adoptar les mesures que calgui perquè siguin adequats per a la feina que s'hagi de fer i que estiguin convenientment adaptats a aquest efecte"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim109_q23",
@@ -3201,7 +4475,49 @@
       "B": "48 hores",
       "C": "72 hores",
       "D": "Cap és correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim109_q93",
+    "statement": "Segons l'article 7 del RD 773/1997, de 30 de maig, poden ser utilitzats els equips de protecció individual per diverses persones?",
+    "correct": "D",
+    "explanation": "Article 7. Utilització i manteniment dels equips de protecció individual.\nEls equips de protecció individual estaran destinats, en principi, a un ús personal. Si les circumstàncies exigissin la\nutilització d’un equip per diverses persones, s’adoptaran les mesures necessàries perquè això no origini cap problema de\nsalut o d’higiene als diferents usuaris.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 109",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En cap cas podrà ser utilitzat un equip per diverses persones",
+      "B": "En cap cas, excepte els EPI utilitzats pels serveis d’emergència",
+      "C": "Si les circumstàncies exigissin la utilització d’un equip de protecció individual per diverses persones, s’adoptaran mesures d’especialització en el lloc de treball a desenvolupar",
+      "D": "Si les circumstàncies exigissin la utilització d’un equip per diverses persones, s’adoptaran les mesures necessàries perquè això no origini cap problema de salut o d’higiene als diferents usuaris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim110_q11",
+    "statement": "A efectes del DB SI Seguretat en cas d’Incendi, als edificis, establiments o zones d’ús sanitari o assistencial de caràcter ambulatori se’ls han d’aplicar les condicions particulars de:",
+    "correct": "D",
+    "explanation": "Article 19. Formació dels treballadors.\n1. En compliment del deure de protecció, l'empresari ha de garantir que cada treballador rebi una formació teòrica i\npràctica, suficient i adequada, en matèria preventiva, tant en el moment de la seva contractació, sigui quina en sigui la\nmodalitat o la durada, com quan s'esdevinguin canvis en les funcions que exerceixi o s'introdueixin noves tecnologies o\ncanvis en els equips de treball. La formació s'ha de centrar específicament en el lloc de treball o la funció de cada\ntreballador, cal que s'adapti a l'evolució dels riscos i a l'aparició d'altres de nous i s'ha de repetir periòdicament si calgués.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 110",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’ús hospitalari",
+      "B": "L’ús comercial",
+      "C": "L’ús docent",
+      "D": "L’ús administratiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim114_q2",
@@ -3219,7 +4535,9 @@
       "B": "Prioritzar la protecció individual i la utilització dels equips de protecció individual (EPI) a la protecció col·lectiva",
       "C": "Eliminar els riscos",
       "D": "Combatre els riscos en el seu origen"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim123_q23",
@@ -3237,7 +4555,29 @@
       "B": "Aquells que han estat classificats per l'autoritat laboral com a activitats d'especial perillositat",
       "C": "Aquells que, malgrat la implantació de mesures preventives adequades, generen inevitablement riscos per a la seguretat i la salut dels treballadors exposats",
       "D": "Aquells que han estat classificats per l'article 13, f) de la Llei 31/1995, de 8 de novembre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim123_q94",
+    "statement": "La presència al centre de treball dels recursos preventius, sigui quina sigui la modalitat d’organització d’aquests recursos, serà necessària en els següents casos: (senyala la INCORRECTA)",
+    "correct": "A",
+    "explanation": "Article 32 bis. Presència dels recursos preventius. Afegit per Llei 54/2003, de 12 de desembre.\n1. La presència al centre de treball dels recursos preventius, sigui quina sigui la modalitat d’organització d’aquests\nrecursos, serà necessària en els següents casos:\na) Quan els riscos puguin veure’s agreujats o modificats en el desenvolupament del procés o l’activitat, per la\nconcurrència d’operacions diverses que es desenvolupen successiva o simultàniament i que precisin el control de la\ncorrecta aplicació dels mètodes de treball.\nb) Quan es realitzin activitats o processos que reglamentàriament siguin considerats com a perillosos o amb riscos\nespecials.\nc) Quan la necessitat d’aquesta presència sigui requerida per la Inspecció de Treball i Seguretat Social, si les\ncircumstàncies del cas així ho exigissin ateses les condicions de treball detectades.\n23",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T05 - Prevenció de riscos laborals",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan la necessitat d’aquesta presència sigui requerida pels delegats de prevenció, si les circumstàncies del cas així ho exigissin ateses les condicions de treball detectades",
+      "B": "Quan es realitzin activitats o processos que reglamentàriament siguin considerats com a perillosos",
+      "C": "Quan els riscos puguin veure’s agreujats o modificats en el desenvolupament del procés o l’activitat, per la concurrència d’operacions diverses que es desenvolupen successiva o simultàniament i que precisin el control de la correcta aplicació dels mètodes de treball",
+      "D": "Quan es duguin a terme activitats o processos que reglamentàriament comportin riscos especials"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q19",
@@ -3255,7 +4595,9 @@
       "B": "De l'antiguitat de l’empresa, del nivell de formació dels treballadors i de la localització dels riscos dins de cada centre de treball",
       "C": "De l'antiguitat de les instal·lacions, del nivell de formació dels treballadors i del nombre d'EPIs",
       "D": "De les dimensions de l’empresa, del tipus de risc a què es puguin exposar els treballadors i de la distribució de riscos a l’empresa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q4",
@@ -3273,6 +4615,8 @@
       "B": "Aquells que, en absència de mesures preventives específiques, originen riscos per a la seguretat i la salut dels treballadors que els desenvolupen o els utilitzen",
       "C": "Les característiques generals dels locals, les instal·lacions, els equips, els productes i altres estris existents en el centre de treball",
       "D": "Aquells que, tot i l’aplicació de mesures preventives específiques, comporten riscos per a la seguretat i la salut dels treballadors que els desenvolupen o els utilitzen"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

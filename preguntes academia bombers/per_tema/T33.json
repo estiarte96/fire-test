@@ -1,12 +1,312 @@
 [
   {
+    "id": "academia_sim3_q18",
+    "statement": "On ens convindrà fixar l'extrem d'una corda per tal d'obtenir un major avantatge mecànic si disposem d'un número de politges parell?",
+    "correct": "B",
+    "explanation": "En cas de politges senars, l'extrem de la corda es fixarà al suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al suport",
+      "B": "A la càrrega",
+      "C": "Per tal d'aconseguir el major avantatge mecànic no ancorarem l'extrem de la corda",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q70",
+    "statement": "Tenim una càrrega penjant d'un polispast format per dues politges mòbils i dues politges fixes. Quina distància de corda hauré d'estirar per elevar la càrrega 5 cm?",
+    "correct": "D",
+    "explanation": "df = dr × avantatge mecànic\ndf = 5 cm × 4\ndf = 20 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1 cm",
+      "B": "5 cm",
+      "C": "10 cm",
+      "D": "20 cm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q72",
+    "statement": "En una instal·lació de politges, quin és l'avantatge mecànic màxim que es pot assolir si es disposa de 4 politges?",
+    "correct": "D",
+    "explanation": "2⁴ = 16",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4",
+      "B": "32",
+      "C": "8",
+      "D": "16  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q45",
+    "statement": "En un polispast factorial compost per dues politges, quina longitud de corda caldrà estirar per elevar la càrrega un metre?",
+    "correct": "A",
+    "explanation": "En un polispast factorial de sis politges es combinaran politges fixes i mòbils en parts iguals (és factorial). Si el nombre\ntotal de politges no fos parell significaria que una de les politges desparellada servirà per canviar de sentit l'aplicació de la\nforça.\nEn haver-hi 3 politges mòbils, l'AM és de 3, per tant la longitud que hem d'estirar la corda es multiplicarà per 3 (3 x 1 = 3\nmetres).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2 metres",
+      "B": "12 metres",
+      "C": "4 metres",
+      "D": "Un metre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q40",
+    "statement": "Un polispast és un dispositiu en el qual la meitat de les politges són fixes i l'altra meitat, mòbils. Quina és la seva fórmula d'equilibri?",
+    "correct": "D",
+    "explanation": "Fórmula polispast exponencial: F = R / (2^n)\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "F = R / (2^n)",
+      "B": "R = F / (2 × n)",
+      "C": "R = F / (2 ^ n)",
+      "D": "F = R / (2 x n)  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q33",
+    "statement": "Disposant de sis politges, quin és màxim l'avantatge mecànic que podem aconseguir?",
+    "correct": "B",
+    "explanation": "2^6, en cas de que totes les politges fóssin mòbils = 64.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "32",
+      "B": "64",
+      "C": "128",
+      "D": "16"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q34",
+    "statement": "En una instal·lació de politges simples, on fixarem l'inici de la corda per aconseguir el màxim avantatge mecànic si el nombre de politges és parell?",
+    "correct": "A",
+    "explanation": "Si el nombre de politges és senar, fixarem l'inici de la corda al punt fix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la càrrega",
+      "B": "Al punt fix",
+      "C": "És indiferent",
+      "D": "No el fixarem directament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q34",
+    "statement": "En una instal·lació de politges simples, on fixarem l'inici de la corda per aconseguir el màxim avantatge mecànic si el nombre de politges és senar?",
+    "correct": "D",
+    "explanation": "Si el nombre de politges és parell, el fixarem a la càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la càrrega",
+      "B": "És indiferent",
+      "C": "Les instal·lacions de politges simples amb un nombre senar de politges totals directament no funcionen",
+      "D": "Al punt fix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q14",
+    "statement": "En un sistema de politges simple compost per dues politges, quin avantatge mecànic podré obtenir com a màxim?",
+    "correct": "C",
+    "explanation": "És igual al nombre de politges +1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un AM de 9",
+      "B": "Un AM de 2",
+      "C": "Un AM de 3",
+      "D": "Un AM de 8"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q75",
+    "statement": "On ens convindrà fixar l'extrem d'una corda per tal d'obtenir un major avantatge mecànic si el nombre de politges és senar?",
+    "correct": "B",
+    "explanation": "Si el nombre de politges és parell, lligarem l'extrem de la corda a la càrrega. Si és senar, el lligarem al suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la càrrega",
+      "B": "Al suport",
+      "C": "Al suport o a la càrrega, és indiferent",
+      "D": "Per tal d'aconseguir el major avantatge mecànic no ancorarem l'extrem de la corda"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q57",
+    "statement": "El rendiment mecànic que treiem d'un polispast sobre el que exercim 200 kg de força és del 500%. De quantes politges disposa?",
+    "correct": "C",
+    "explanation": "Si el rendiment és del 500% i la força que exercim és de 200 kg, la càrrega serà de 1.000 kg.\nSegons la fórmula del polispast:\nF = R / n\n200 kg = 1.000 kg / n\n200 × n = 1.000\nn = 5",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De 2 politges",
+      "B": "De 10 politges",
+      "C": "De 5 politges",
+      "D": "De 4 politges"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q59",
+    "statement": "En la pràctica, a major nombre de corrioles:",
+    "correct": "C",
+    "explanation": "Això es deu a la fricció del sistema als llocs on fan contacte els cables i la corriola i també a la fricció deguda a la rotació\ndel mecanisme al voltant d'un suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Més eficiència del sistema",
+      "B": "Menor avantatge mecànic",
+      "C": "Menys eficiència del sistema",
+      "D": "Menor nombre de politges"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q81",
+    "statement": "Quin avantatge mecànic màxim podrem obtenir en un sistema de politges simple compost per dues politges?",
+    "correct": "C",
+    "explanation": "És igual al nombre de politges +1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un AM de 4",
+      "B": "Un AM de 2",
+      "C": "Un AM de 3",
+      "D": "Un AM de 8"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q69",
+    "statement": "En una instal·lació de politges, quin és l'avantatge mecànic màxim que es pot assolir si es disposa de 2 politges?",
+    "correct": "A",
+    "explanation": "2² = 4",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "8",
+      "D": "16"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q16",
+    "statement": "En una instal·lació de politges, quin és l'avantatge mecànic màxim que es pot assolir si es disposa de 3 politges?",
+    "correct": "C",
+    "explanation": "2³ = 8",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4",
+      "B": "32",
+      "C": "8",
+      "D": "16  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim45_q60",
     "statement": "Quin dels següents espais confinats serà més perillós o més susceptible d'explotar estant al 20% de concentració de producte en l'aire?",
     "correct": "A",
     "explanation": "Butà: 1,8% - 9%\nMetà: 5% - 15%\nPropà: 2% - 10%\nEtà: 3% - 12,5%",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T33 - Rescat en espais confinats",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
     "section": "Simulacre 45",
     "isSaved": 0,
     "isAnswered": 0,
@@ -15,6 +315,268 @@
       "B": "Un espai amb una fuga de butà",
       "C": "Un espai amb una fuga d'età",
       "D": "Un espai amb una fuga de propà"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q77",
+    "statement": "On s’ha de col·locar la senyalització en cas d’extintors situats dins d’un armari?",
+    "correct": "C",
+    "explanation": "En cas que l’extintor estigui situat dins d’un armari, la senyalització s’ha de col·locar immediatament al costat de l’armari, i\nno a sobre de la seva superfície, de manera que sigui visible i aclareixi la situació de l’extintor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A sobre de l'armari",
+      "B": "A sota de l'armari",
+      "C": "Al costat de l’armari",
+      "D": "És indiferent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q85",
+    "statement": "Quin és un dels desavantatges de les estructures hiperestàtiques?",
+    "correct": "D",
+    "explanation": "Inconvenients estructures hiperestàtiques:\nSensibilitat davant:\n- Assentaments del terreny.\n- Desplaçaments en nusos.\n- Variacions de temperatura.\nRequereix reforç de les seccions costat de nusos rígids i pot resultar molt elaborada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Davant l'acció d'una força es desplacen, sense aconseguir l'equilibri",
+      "B": "L'increment de tensió sofert per supressió o fallada de qualsevol dels seus elements no és capaç de ser absorbit per la resta d'elements, produint-se el col·lapse de la mateixa",
+      "C": "Funcionen com un 'mecano' (mecanisme)",
+      "D": "Sensibilitat a assentaments i variacions de temperatura"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q74",
+    "statement": "Quina estructura de les vies aèries superiors és responsable de la fonació i és on es troben les cordes vocals?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tràquea",
+      "B": "Glotis",
+      "C": "Faringe",
+      "D": "Epiglotis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q81",
+    "statement": "En Rescat a Altura, en referència a les instal·lacions de cordes amb polispastos podem afirmar que:",
+    "correct": "B",
+    "explanation": "Com a regla nemotècnica, en el polipast la desmultiplicació d'esforços pot assimilar-se com el resultat de dividir la\ncàrrega entre el nombre de segments de corda que sostenen la mateixa, SENSE COMPTAR AMB el segment que\ns'aplica sobre l'última corriola fixa.\nEl fregament i els angles modifiquen l'avantatge mecànic real.\nQuantes més corrioles mòbils menys esforç cal realitzar, MÉS quantitat de corda és necessària, però més lenta és la\nmaniobra.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quantes més corrioles mòbils menys esforç cal realitzar, menys quantitat de corda és necessària, però més lenta és la maniobra",
+      "B": "En una corriola fixa, a major diàmetre de corriola menor és l'esforç que hem d'exercir",
+      "C": "El fregament i els angles no modifiquen l'avantatge mecànic real",
+      "D": "Com a regla nemotècnica, en el polipast la desmultiplicació d'esforços pot assimilar-se com el resultat de dividir la càrrega entre el nombre de segments de corda que sostenen la mateixa, incloent-hi el segment que s'aplica sobre l'última corriola fixa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q71",
+    "statement": "Si disposem d'un número de politges senar, on ens convindrà fixar l'extrem d'una corda per tal d'obtenir un major avantatge mecànic?",
+    "correct": "A",
+    "explanation": "En cas de politges parells, l'extrem de la corda es fixarà a la càrrega.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al suport",
+      "B": "A la càrrega",
+      "C": "Per tal d'aconseguir el major avantatge mecànic no ancorarem l'extrem de la corda",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q35",
+    "statement": "La maniobra d'immobilització manual per a situacions extremes que serveix per a l'extracció ràpida d'una víctima de l'interior d'un vehicle es denomina:",
+    "correct": "C",
+    "explanation": "La Maniobra de Rautek és una tècnica d’extracció manual utilitzada per retirar una persona de forma ràpida i segura en\nsituacions d’emergència, com accidents de trànsit o altres incidents en què el temps és crucial. Aquesta maniobra és\nespecialment útil quan la víctima està en una situació perillosa i necessita ser alliberada immediatament.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Maniobra de Kramer",
+      "B": "Maniobra de Phillips",
+      "C": "Maniobra de Rautek",
+      "D": "Maniobra de Panof"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim96_q47",
+    "statement": "Quina de les següents entitats de població predomina al conjunt de Catalunya?",
+    "correct": "A",
+    "explanation": "Nucli Urbà: 3.133 entitats.\nNucli No Urbà: 129 entitats.\nDisseminat Urbà: 209 entitats.\nDisseminat No Urbà: 2.419 entitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nucli Urbà",
+      "B": "Nucli No Urbà",
+      "C": "Disseminat Urbà",
+      "D": "Disseminat No Urbà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim98_q18",
+    "statement": "Quin és l'ordre, del més al menys comú, de les quatre categories d'assentaments del Mapa Urbanístic de Catalunya?",
+    "correct": "C",
+    "explanation": "Nuclis en sòl urbà: Són aquelles entitats de població que presenten un teixit constructiu compacte i dens i que\ns’emplacen en sòl urbà segons el planejament urbanístic, ja sigui sòl urbà consolidat (SUC), sòl urbà no consolidat (SNC)\no sòl urbanitzable delimitat (SUD). Actualment a Catalunya són 3.133 entitats de població amb aquets perfil.\nNuclis en sòl no urbà: Són aquelles entitats que tot i mostrar una trama compacta estan emplaçades en sòl no\nurbanitzable segons el planejament urbanístic. A Catalunya són 129 entitats.\nDisseminats en sòl urbà: Presenten un hàbitat dispers, en teixits d’edificació aïllada generalment per a habitatges\nunifamiliars que estan emplaçats en sòl urbà o urbanitzable segons el planejament urbanístic.\nA Catalunya són 209 casos que corresponen a urbanitzacions (altres urbanitzacions estan considerades com a nuclis).\nDisseminat no urbà: En aquesta categoria es considera el poblament dispers en sòl no urbanitzable (SNU). A Catalunya\nsón 2.419 casos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nucli urbà, nucli no urbà, disseminat urbà i disseminat no urbà",
+      "B": "Disseminat no urbà, nucli urbà, nucli no urbà i disseminat urbà",
+      "C": "Nucli urbà, disseminat no urbà, disseminat urbà i nucli no urbà",
+      "D": "Disseminat no urbà, nucli urbà, disseminat urbà i nucli no urbà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q51",
+    "statement": "En un balcó sense cap element fiable per ancorar i amb una persona en risc vital imminent, en què consisteix la maniobra de ràpel del bomber?",
+    "correct": "C",
+    "explanation": "El ràpel del bomber s'aplica quan no hi ha cap punt fiable d'ancoratge fix i hi ha risc vital imminent: un company fa de\npunt fix per despenjar l'altre mitjançant cordes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A despenjar el bomber directament des de la cistella de l'autoescala",
+      "B": "A despenjar un bomber utilitzant un ancoratge de fortuna com a punt fix",
+      "C": "A fer descendir un bomber utilitzant un altre bomber com a punt d'ancoratge",
+      "D": "A baixar amb un sol punt d'ancoratge sense línia de seguretat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q18",
+    "statement": "En un ascens per corda cal muntar un sistema de seguretat autoblocant. Quina parella de nusos hi correspon?",
+    "correct": "C",
+    "explanation": "El Prusik i el Machard són nusos autoblocants que s'empren com a sistemes de seguretat tant en descensos com en\nascensos. El vuit simple fa de topall, el resseguit assegura l'ancoratge a l'arnès i la ballestrinca serveix per a connexions\nràpides i ajustables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El nus de vuit simple i el resseguit",
+      "B": "La ballestrinca i el vuit simple",
+      "C": "El nus Prusik i el nus Machard",
+      "D": "El vuit resseguit i la ballestrinca"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q20",
+    "statement": "En una façana d'un pati interior on no arriba l'autoescala, quin és l'objectiu de la maniobra amb escala colissa o de ganxos?",
+    "correct": "B",
+    "explanation": "L'objectiu és permetre l'accés o l'evacuació en alçada; l'escala també serveix per evacuar les persones sempre que\nestiguin en condicions de transitar-hi.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Servir exclusivament com a punt d'ancoratge per instal·lar-hi la línia principal",
+      "B": "Permetre l'accés o l'evacuació en alçada, si la víctima pot transitar-hi",
+      "C": "Permetre només l'accés dels bombers, mai l'evacuació de les persones",
+      "D": "Substituir el sistema anticaigudes durant la progressió pels balcons"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q26",
+    "statement": "Quina maniobra de rescat en alçada exigeix estar assegurat per dos punts?",
+    "correct": "D",
+    "explanation": "Maniobra de progressió i assegurament amb sistema MGO.\nObjectiu: Permetre la progressió vertical autònoma amb MGO per estructures metàl·liques, escales, bastides, balcons,\nlínies de vida d’entorns industrials...\nDescripció: Consisteix a desplaçarse assegurant-se successivament mitjançant dos mosquetons de gran obertura, que\npermeten una connexió ràpida i segura a elements de grans dimensions (barres, perfils, passamans...). La maniobra\nexigeix estar assegurat per dos punts, mantenint sempre un punt d’ancoratge de l’MGO connectat.\n14",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Maniobres amb elements de retenció",
+      "B": "Maniobra de progressió tipus escalada",
+      "C": "Maniobra d’ascens per corda fixa",
+      "D": "Maniobra de progressió i assegurament amb sistema MGO"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q29",
+    "statement": "Abans de cada ús de l'equip de respiració autònoma, quins elements cal inspeccionar amb atenció per detectar defectes, desgast o danys?",
+    "correct": "A",
+    "explanation": "La verificació prèvia a cada ús comprèn totes les parts mòbils, les juntes i les connexions, per comprovar que no\npresenten defectes, desgast o danys que comprometin la seguretat. Limitar la revisió a determinats components deixa\nfora elements crítics del conjunt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T33 - Intervenció bàsica en rescat urbà",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Totes les parts mòbils, les juntes i les connexions",
+      "B": "Totes les parts mòbils, la màscara facial i el visor",
+      "C": "Totes les parts fixes, l'ampolla i el manòmetre",
+      "D": "Totes les parts fixes, les corretges de l'arnès i el manòmetre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

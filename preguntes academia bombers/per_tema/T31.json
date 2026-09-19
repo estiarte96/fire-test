@@ -1,110 +1,582 @@
 [
   {
-    "id": "academia_sim15_q40",
-    "statement": "Quin element utilitzarem en un trasllat en llitera conjuntament amb el collarí cervical per tal d'evitar que el cap trontolli cap als laterals?",
+    "id": "academia_sim3_q48",
+    "statement": "Quin dels següents supòsits indicarà inestabilitat atmosfèrica?",
     "correct": "D",
-    "explanation": "Els orificis que tenen els coixinets laterals de la Dama d'Elx serveixen per poder observar les orelles, per si hi hagués\notorràgia o sortida de líquid cefaloraquidi.",
+    "explanation": "En atmosferes estables la visibilitat a baixos nivells és pobre degut a l'acumulació de fums.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els núvols fluctuen formant capes, sense moviment vertical",
+      "B": "Es formen capes de boira a poca altura",
+      "C": "La columna de fum es dispersa després d'elevar-se una mica",
+      "D": "Hi ha una bona visibilitat  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q91",
+    "statement": "El modelat del Pirineu és d'origen:",
+    "correct": "B",
+    "explanation": "Relleu càrstic: relleu propi de les regions de massissos o altiplans calcaris, on s'ha desenvolupat un carst (congostos,\ndolines, avencs, coves, cavernes...).\nRelleu modelat glacial: són aquelles formacions que deriven del desplaçament de grans masses de gel.\nEls deserts són zones on abunda el modelat eólic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Càrstic",
+      "B": "Glacial",
+      "C": "Erosiu eòlic",
+      "D": "Sedimentari"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q52",
+    "statement": "Quina és la zona UTM que, de forma excepcional, se li assignaran 12° de latitud?",
+    "correct": "B",
+    "explanation": "La resta de zones o bandes tindrà 8° de latitud.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
     "section": "Simulacre 15",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Fèrula de Kendrick",
-      "B": "La fèrula espinal",
-      "C": "El vuit de guarisme",
-      "D": "La Dama d'Elx  acadèmia bombers"
-    }
+      "A": "La zona W",
+      "B": "La zona X",
+      "C": "La zona Y",
+      "D": "La zona Z"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim21_q89",
-    "statement": "En quins casos utilitzarem la taula espinal curta?",
-    "correct": "B",
-    "explanation": "Ens serveix per traslladar el pacient a la taula espinal llarga.",
+    "id": "academia_sim17_q8",
+    "statement": "A quina comarca trobem l'estació de muntanya de Rasos de Peguera?",
+    "correct": "A",
+    "explanation": "Forma part dels Prepirineus.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
-    "section": "Simulacre 21",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 17",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En nadons o nans",
-      "B": "En el cas que no ens sigui possible utilitzar la llarga",
-      "C": "En pacients que requereixen una radiografia",
-      "D": "Cap de les respostes és correcta"
-    }
+      "A": "Al Berguedà",
+      "B": "Al Solsonès",
+      "C": "A la Cerdanya",
+      "D": "A l'Alt Urgell  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim49_q64",
-    "statement": "Quin instrument utilitzarem per a la immobilització correcta del coll d'una víctima?",
+    "id": "academia_sim17_q86",
+    "statement": "Quina força haurem de fer per elevar un objecte de 150 kg amb un polispast factorial de dues politges mòbils?",
     "correct": "B",
-    "explanation": "Davant la sospita que hi ha una lesió de columna cervical: collar ortopèdic.\nExtracció de víctimes atrapades al lloc de l’accident: fèrula espinal.\n\n\nacadèmia\nbombers",
+    "explanation": "F = m × g\nR = 150 kg × 9,8 (g)\nR = 1.470 N\nF = 2/(2×n)\nF = 1.470/2×2\nF = 367,5 N",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
-    "section": "Simulacre 49",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 17",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La fèrula espinal",
-      "B": "La Dama d'Elx",
-      "C": "La taula espinal",
-      "D": "El collarí ortopèdic  acadèmia bombers"
-    }
+      "A": "275 N",
+      "B": "367,5 N",
+      "C": "37,5 N",
+      "D": "Uns 100 N aproximadament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim76_q35",
-    "statement": "La maniobra d'immobilització manual per a situacions extremes que serveix per a l'extracció ràpida d'una víctima de l'interior d'un vehicle es denomina:",
+    "id": "academia_sim20_q29",
+    "statement": "Quin gran esforç ha suportar principalment una jàssera?",
+    "correct": "A",
+    "explanation": "Les jàsseres són bigues de grans dimensions destinades, a grans trets, a transmetre els esforços del pla horitzontal en\nvertical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un esforç a flexió",
+      "B": "Un esforç de vinclament",
+      "C": "Un esforç de tallant",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q92",
+    "statement": "Amb quines comarques limita el Pla d'Urgell?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Noguera, Segrià, Urgell i Garrigues",
+      "B": "Conca de Barberà, Segrià, Urgell i Segarra",
+      "C": "Noguera, Segrià, Urgell i Segarra",
+      "D": "Ribera d'Ebre, Segrià, Urgell, Segarra i Garrigues"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q78",
+    "statement": "Quin dels següents terminologies no s'inclou en el DB SI?",
+    "correct": "D",
+    "explanation": "Annex A - Terminologia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Zona de refugi",
+      "B": "Zona d'ocupació nul·la",
+      "C": "Vestíbul d'independència",
+      "D": "Tots tres termes existeixen i s'inclouen al DB SI"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q21",
+    "statement": "En un torn on la corda s'enrosca sobre si mateixa a mesura que fem pujar la càrrega, en quin punt l'elevació d'aquesta càrrega ens requerirà una força menor?",
+    "correct": "A",
+    "explanation": "El fet que es vagi enrotllant la corda fa que el braç de resistència cada cop tingui un valor més gran.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'inici de l'ascens",
+      "B": "A l'equador del recorregut, en un punt mig entre l'inici i el final de l'ascens",
+      "C": "A la part final de l'ascens",
+      "D": "La força serà la mateixa en el transcurs del recorregut ascendent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q52",
+    "statement": "Quin nom rep la zona vegetal que està dominada per gramínies (Poaceae)?",
     "correct": "C",
-    "explanation": "La Maniobra de Rautek és una tècnica d’extracció manual utilitzada per retirar una persona de forma ràpida i segura en\nsituacions d’emergència, com accidents de trànsit o altres incidents en què el temps és crucial. Aquesta maniobra és\nespecialment útil quan la víctima està en una situació perillosa i necessita ser alliberada immediatament.\n\n\nacadèmia\nbombers",
+    "explanation": "Una prada, prat, praderia o herbassar és una zona on la vegetació està dominada per gramínies (Poaceae).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
-    "section": "Simulacre 76",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 45",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Maniobra de Kramer",
-      "B": "Maniobra de Phillips",
-      "C": "Maniobra de Rautek",
-      "D": "Maniobra de Panof"
-    }
+      "A": "Erm",
+      "B": "Bosc",
+      "C": "Prat",
+      "D": "Màquia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim80_q40",
-    "statement": "Quina afirmació és CORRECTA sobre l’immobilitzador cervical?",
-    "correct": "D",
-    "explanation": "L’immobilitzador cervical o, en alguns casos, “dama d’Elx”, és un dispositiu que assegura completament la immobilització\ncorrecta del coll, complementant el collaret cervical. Presenta ajustos amb vetes adherent (“velcros”) que faciliten la\ncol·locació. S’ajusta fàcilment a una llitera, la qual cosa permet subjectar el cap i el coll de la víctima",
+    "id": "academia_sim53_q49",
+    "statement": "A quina comunitat vegetal serà més probable que hi trobem plantes de la família de les gramínies?",
+    "correct": "B",
+    "explanation": "L'enciclopèdia.cat defineix el prat com un terreny cobert d’herba, sovint amb predomini de vegetals graminoides.\nEls components principals de les diverses comunitats herbàcies dels prats són hemicriptòfits cespitosos i estolonífers,\npertanyents sobretot a les famílies de les gramínies, de les ciperàcies i de les papilionàcies. Hi ha prats naturals, que es\nfan espontàniament, i prats artificials, que són sembrats o millorats per l’home.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
-    "section": "Simulacre 80",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 53",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La “dama d’Elx” és un nom col·loquial que es fa servir per referir-se a un tipus específic d’immobilitzador cervical",
-      "B": "Es col·loca sempre amb el collarí cervical",
-      "C": "S'ajustarà fort pels laterals per contenir possibles otorràgies i evitar que la sang s'exterioritzi",
-      "D": "Les respostes a) i b) són correctes"
-    }
+      "A": "Als aiguamolls",
+      "B": "Als prats",
+      "C": "A les màquies",
+      "D": "Als erms"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim93_q70",
-    "statement": "Què hem de tenir en compte durant el procés d'immobilització d’una fractura d’una extremitat?",
-    "correct": "D",
-    "explanation": "La bena de crepè és una bena de fil de cotó al 100%. Algunes marques poden portar una petita part d’elastòmer. No són\nestèrils. Serveixen per a subjectar l'apòsit de la ferida en el cas que faci falta.\nLa fèrula de Kramer és una fèrula flexible formada per dos filferros gruixuts, paral·lels, units per d'altres filferros més\nprims semblantment a una escala de mà. S'empra folrada de cotó o cel·lulosa i és molt útil per a immobilitzar\nprovisòriament un membre.\nUn cop col·locada la fèrula, realitzarem l'embenat de distal a proximal.\nFont: GENCAT - Canal Salut.",
+    "id": "academia_sim54_q39",
+    "statement": "Quantes persones viuen a l'àrea metropolitana de Barcelona (AMB)?",
+    "correct": "A",
+    "explanation": "A l'àrea metropolitana de Barcelona hi viuen 3.303.927 persones, repartides en una superfície de 636 km².",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T31 - Mobilització i immobilització de víctimes",
-    "section": "Simulacre 93",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un cop col·locada la fèrula, realitzarem l'embenat de proximal a distal",
-      "B": "La fèrula de Kramer és un tipus de fèrula flexible que no requereix ser recoberta amb cotó o cel·lulosa per al seu ús correcte",
-      "C": "Les benes de crepè són benes estèrils de fil de cotó",
-      "D": "En el cas de traumatismes i fractures obertes, netejarem la ferida i la desinfectarem sense aplicar-hi solucions desinfectants"
-    }
+      "A": "Entre 1 i 2 milions de persones",
+      "B": "Més de la meitat de la població total de Catalunya",
+      "C": "Més de tres milions persones",
+      "D": "Entre dos i tres milions persones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q34",
+    "statement": "Què és una carena?",
+    "correct": "B",
+    "explanation": "La carena o divisòria d'aigues és la part més alta del llom d'una muntanya, que separa vessants de diferent orientació.\nEntre dos fons de vall sempre hi ha una carena o divisòria, que fa que les aigües es parteixin prenent direccions\ndiferents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una petita plana en el vessant d'una muntanya degut a un canvi o trencament del pendent",
+      "B": "La part més alta del llom d'una muntanya, que separa vessants de diferent orientació",
+      "C": "Aquella part més baixa del terreny, per on es canalitza l'aigua de la pluja formant xaragalls, barrancs, torrents, rieres i rius",
+      "D": "El sector del terreny que discorre inclinat des de la part més alta del turó o muntanya fins a la part més baixa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q56",
+    "statement": "En una instal·lació de politges, quin és l'AM màxim que es pot assolir si es disposa de 3 politges?",
+    "correct": "C",
+    "explanation": "2^3 = 8.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4",
+      "B": "32",
+      "C": "8",
+      "D": "16  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q38",
+    "statement": "Segons l'Organització Meteorològica Mundial (OMM), quin tipus de meteor és l'arc de Sant Martí?",
+    "correct": "C",
+    "explanation": "Els quatre grups: hidrometeors, litometeors, fotometeors i electrometeors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Litometeor",
+      "B": "Hidrometeor",
+      "C": "Fotometeor",
+      "D": "Electrometeor"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q45",
+    "statement": "D'acord amb l'acrònim PAS:",
+    "correct": "C",
+    "explanation": "PAS:\nP: Protegir.\nA: Avisar (112).\nS: Socórrer.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El primer que farem és avisar als serveis d'emergència",
+      "B": "Practicarem els primers auxilis immediatament després d'haver protegit la zona",
+      "C": "Practicarem els primers auxilis immediatament després d'haver avisat als serveis d'emergència",
+      "D": "La seqüència d'actuació no serà important sempre que s'acabin duent a terme les tres accions que contempla"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q54",
+    "statement": "Quina part del cos humà és capaç de realitzar els moviments anatòmics d'inversió i eversió?",
+    "correct": "C",
+    "explanation": "L'eversió és quan la planta del peu mira cap a fora i la inversió és quan la planta del peu mira cap endins.\nEls moviments anatòmics d'inversió i eversió es produeixen principalment a l'articulació del turmell o la articulació\ntalocrural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap",
+      "B": "La mà",
+      "C": "El peu",
+      "D": "El coll"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q83",
+    "statement": "Quin nom rep la zona vegetal on hi predominen les gramínies (poaceae)?",
+    "correct": "C",
+    "explanation": "Una prada, prat, praderia o herbassar és una zona on la vegetació està dominada per gramínies (Poaceae).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Erm",
+      "B": "Bosc",
+      "C": "Prat",
+      "D": "Màquia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q94",
+    "statement": "En quina zona vegetal hi predominen les gramínies (poaceae)?",
+    "correct": "C",
+    "explanation": "Una prada, prat, praderia o herbassar és una zona on la vegetació està dominada per gramínies (Poaceae).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Erm",
+      "B": "Bosc",
+      "C": "Prat",
+      "D": "Màquia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim102_q88",
+    "statement": "En nombres absoluts, d'acord amb les dades de l'Idescat l'any 2025, quanta població és estrangera del total de població a Catalunya?",
+    "correct": "A",
+    "explanation": "Per països: Marroc > Colòmbia > Itàlia > Romania > Xina...",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.444.192 persones",
+      "B": "2.082.099 persones",
+      "C": "798.904 persones",
+      "D": "2.744.019 persones"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim106_q54",
+    "statement": "Quina de les següents afirmacions relatives al relleu de Catalunya és FALSA?",
+    "correct": "A",
+    "explanation": "El massís de l'Ardenya o serra de l'Ardenya és un conjunt de muntanyes situades a la zona litoral de les comarques de la\nSelva,el Gironès i el Baix Empordà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El massís de l'Ardenya o serra de l'Ardenya és un conjunt de muntanyes situades a l'Alt Empordà",
+      "B": "El massís del Montgrí és un massís muntanyós a la vora del mar Mediterrani, situat a la comarca del Baix Empordà",
+      "C": "El cim més alt de Catalunya és la Pica d'Estats i forma part del massís del Montcalm",
+      "D": "La serra de Llaberia-Colldejou uneix estructuralment les muntanyes de Prades i de Cardó"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim107_q15",
+    "statement": "On situem la Serra de Llaberia?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 107",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre la Serra de Queralt i les Muntanyes de Catllaràs",
+      "B": "Entre les Muntanyes de Prades i les Muntanyes de Tivissa-Vandellòs",
+      "C": "Entre el Massís del Garraf i les Muntanyes d’Ordal",
+      "D": "Entre la Serra del Montsant i les Muntanyes de la Llena"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q17",
+    "statement": "Una persona il·lesa i desorientada contacta amb Bombers i s'hi envia una dotació que la condueix fins a un lloc segur, sense maniobres tècniques. De quina actuació es tracta?",
+    "correct": "D",
+    "explanation": "L'acompanyament implica activar un recurs de Bombers que condueix la persona fins a un lloc segur sense maniobres\ntècniques de rescat; el guiatge, en canvi, es fa de manera remota, sense desplaçar-hi cap dotació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un guiatge, perquè la persona manté comunicació amb Bombers",
+      "B": "D'un rescat accessible a peu, perquè hi ha una dotació desplaçada",
+      "C": "D'una recerca extensiva, perquè cal recórrer camins transitables",
+      "D": "D'un acompanyament, amb activació d'un recurs sense maniobres tècniques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q5",
+    "statement": "Quina tipologia de recerca té una baixa velocitat d’execució i efectivitat?",
+    "correct": "D",
+    "explanation": "Davant d’un avís per accident o emergència a la muntanya, el dispositiu s’organitza de forma esglaonada i adaptada al\ntipus d’incident. L’esquema habitual inclou:\n−Sales de Coordinació: La Sala de control territorial (SCT) rep l’avís, activa els recursos territorials i fa la demanda de\nrecursos especials a la Sala Central de Bombers (SCB).\n−Comandament: Bombers assumeix el comandament operatiu al lloc dels fets.\n15\n\n−Equips d’intervenció: Habitualment formats per membres del Grup d'Actuacions Especials (GRAE) que s'encarrega del\nrescat de muntanya conjuntament amb el GEM (Grup d’Emergències Mèdiques) que es fa càrrec de la medicalització de\nl'assistència, reforçats, si cal, per efectius de parcs propers, helicòpter o altres serveis.\n−Altres suports: drons, unitats canines, logística de comunicacions o avituallament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Recerca de punts probables",
+      "B": "Recerca intensiva per línies naturals",
+      "C": "Recerca extensiva",
+      "D": "Recerca intensiva per sectors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q5",
+    "statement": "Quina afirmació relativa a les maniobres bàsiques que poden ser necessàries durant una recerca és FALSA?",
+    "correct": "B",
+    "explanation": "La recerca extensiva té una baixa necessitat de personal, però gran cobertura i velocitat d’execució.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La recerca intensiva per línies naturals requereix de més personal que la recerca extensiva",
+      "B": "La recerca extensiva té una baixa velocitat d’execució",
+      "C": "La recerca de punts probables té una velocitat d’execució mitja",
+      "D": "En el cas de la desaparició de nens petits, la recerca per contenció acostuma a ser una bona opció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q40",
+    "statement": "Com s’anomena la intervenció en què Bombers guia remotament una persona perduda fins a un lloc segur, sense desplaçar cap recurs fins a la seva ubicació?",
+    "correct": "B",
+    "explanation": "El guiatges es donen quan la persona perduda és adreçada per Bombers fins a un lloc conegut i segur de manera\nremota, mentre que l’acompanyament es dona quan es produeix l’activació d’un recurs de Bombers sense requerir\nmaniobres tècniques de rescat, però sí coneixement de l’entorn, capacitat de conducció segura i habilitats de\ncomunicació per generar confiança i tranquil·litat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Escorta preventiva",
+      "B": "Guiatge",
+      "C": "Rescat assistit",
+      "D": "Acompanyament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q59",
+    "statement": "Quin tipus de rescats requereixen formació específica en espeleorescat?",
+    "correct": "A",
+    "explanation": "Rescat en coves.\nEl medi subterrani té una logística específica i complexa:\n−Absència de llum natural i orientació limitada.\n−Temperatura constant baixa i alta humitat.\n−Estretors, pous verticals i inundacions puntuals.\n−Requereix formació específica en espeleorescat, comunicacions alternatives i paciència operativa.\n21",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Rescat en coves",
+      "B": "Recat en barrancs i rius de muntanya",
+      "C": "Rescat en condicions hivernals (neu i gel)",
+      "D": "Rescats en parets, cingleres i zones de difícil accés"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q4",
+    "statement": "Es planifica de nit la revisió minuciosa dels vorals i marges dels camins ja recorreguts, creient que la persona no es mou. Quins recursos i rendiment té aquesta modalitat?",
+    "correct": "C",
+    "explanation": "La recerca intensiva per línies naturals requereix més personal, però manté una alta velocitat d'execució i una alta\nefectivitat en recerca nocturna. La combinació de molt personal amb baixa velocitat i minuciositat molt alta correspon a la\nrecerca intensiva per sectors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Baixa necessitat de personal, velocitat d'execució baixa però efectivitat nocturna alta",
+      "B": "Molt personal, baixa velocitat d'execució i minuciositat molt alta",
+      "C": "Molt personal, alta velocitat d'execució i alta efectivitat nocturna",
+      "D": "Baixa necessitat de personal, velocitat d'execució alta i efectivitat nocturna alta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q3",
+    "statement": "Quins patrons sistemàtics es poden seguir per dur a terme la recerca física en una estructura col·lapsada?",
+    "correct": "B",
+    "explanation": "Article 5.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T31 - Salvaments medi natural terrestre",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El rastreig en ziga-zaga, la quadrícula numerada o el patró en espiral",
+      "B": "L'avanç en línia, el venteig perimetral o el patró en espiral",
+      "C": "La crida i escolta, els cercles concèntrics o el patró de sondeig amb geòfons",
+      "D": "L'avanç en línia, els cercles concèntrics o el patró en habitacions múltiples"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

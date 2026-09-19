@@ -1,471 +1,343 @@
 [
   {
-    "id": "academia_sim3_q56",
-    "statement": "Quina freqüència nominal obligatòria s'estableix per a les xarxes elèctriques?",
+    "id": "academia_sim5_q14",
+    "statement": "El pont de Besalú és un pont romànic emblemàtic a Catalunya. Quin riu el travessa?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Ter",
+      "B": "El Llobregat",
+      "C": "El Segre",
+      "D": "El Fluvià"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q51",
+    "statement": "Quina és la capital de l'Alta Ribagorça?",
     "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 3",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "60 Hz",
-      "B": "50 Hz",
-      "C": "100 Hz",
-      "D": "400 Hz  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim7_q81",
-    "statement": "Parlarem de bradicàrdia quan la freqüència cardíaca:",
-    "correct": "A",
-    "explanation": "Taquicàrdia: més de 100 ppm.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es trobi aproximadament per sota de 50 pulsacions per minut",
-      "B": "Es trobi aproximadament per sota de 30 pulsacions per minut",
-      "C": "Oscil·li entre les 30 i les 70 pulsacions per minut",
-      "D": "Es trobi per sota les 15-20 pulsacions per minut"
-    }
-  },
-  {
-    "id": "academia_sim9_q10",
-    "statement": "Si la freqüència respiratòria d'una víctima és de 13 respiracions per minut, es troba en:",
-    "correct": "B",
-    "explanation": "Bradipnea: < 12 rpm\nEupnea (respiració normal): 12-20 rpm\nTaquipnea: > 20 rpm\nApnea: no respira",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Bradipnea",
-      "B": "Eupnea",
-      "C": "Apnea",
-      "D": "Taquipnea"
-    }
-  },
-  {
-    "id": "academia_sim10_q92",
-    "statement": "En electricitat, respecte el \"període\" podem dir que:",
-    "correct": "D",
-    "explanation": "La unitat de mesura internacional de la freqüència, en canvi, és el Hertz (Hz).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 10",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És el temps que s'inverteix en fer un cicle complert (una volta del generador)",
-      "B": "La seva unitat de mesura és el segon",
-      "C": "Multiplicat per la freqüència, ens dóna un valor resultant de \"1\"",
-      "D": "Totes les respostes són correctes"
-    }
+      "A": "Urgell",
+      "B": "El Pont de Suert",
+      "C": "Figueres",
+      "D": "Les Borges Blanques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim12_q13",
-    "statement": "Durant la realització del suport vital bàsic pediàtric, haurem d'anar valorant l'existència de signes de vida, on no hi haurem de dedicar...",
-    "correct": "C",
-    "explanation": "En presència de signes de vida seguirem ventilant, i si recupera la respiració tornarem a considerar la PLS i revaloració\nconstant. En cas contrari iniciarem compressions toràciques a una freqüència de 100-120 CT/min, alternes amb\nventilacions en una relació de 15/2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 12",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Més de 15 segons",
-      "B": "Més de 20 segons",
-      "C": "Més de 10 segons",
-      "D": "Més de 5 segons"
-    }
-  },
-  {
-    "id": "academia_sim18_q12",
-    "statement": "Amb quina freqüència s'efectuaran les compressions toràciques en les maniobres de reanimació cardiopulmonar (RCP)?",
+    "id": "academia_sim29_q14",
+    "statement": "Representa prop del 20% del valor afegit brut (VAB) de l'economia catalana:",
     "correct": "D",
-    "explanation": "Cada 30 compressions, dues insuflacions.\nSegons l'ERC la freqüència serà de 100-120 compressions per minut.",
+    "explanation": "El sector industrial té un pes important, d’un 19,8 % del valor afegit brut (VAB) de l’economia, lleugerament superior al del\nconjunt europeu i clarament per sobre del de la resta de l’Estat. La pèrdua de pes del sector de serveis durant el 2020\ns’ha vist compensada, en termes relatius, per un augment de la importància de la indústria.\nAgricultura, ramaderia, silvicultura i pesca: 1%\nIndústria: 20%\nConstrucció: 5%\nServeis: 74%\nFONT: GENCAT 2020",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 18",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 29",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Amb una freqüència d'unes 30 compressions per minut",
-      "B": "Amb una freqüència d'unes 60 compressions per minut",
-      "C": "Amb una freqüència d'unes 60-90 compressions per minut",
-      "D": "Amb una freqüència d'unes 100 compressions per minut"
-    }
+      "A": "L'agricultura, ramaderia, silvicultura i pesca",
+      "B": "El sector de la construcció",
+      "C": "El sector dels serveis",
+      "D": "Les indústries extractives, manufactureres i energètiques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim19_q15",
-    "statement": "Si volem mesurar la freqüència cardíaca perifèrica, acostumarem a realitzar la mesura sobre:",
+    "id": "academia_sim38_q32",
+    "statement": "Quin seria el primer dígit d'una carretera que té la seva direcció dominant en sentit S-N (sud-nord)?",
     "correct": "A",
-    "explanation": "Pols central: carotidi o femoral.\nPols perifèric: radial.",
+    "explanation": "Segons el primer dígit:\n1: vertical (S-N)\n3: paral·lela a la costa\n4, 5, 6: perpendicular a la costa",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 19",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'artèria radial",
-      "B": "L'artèria caròtida",
-      "C": "L'artèria femoral",
-      "D": "L'artèria humeral"
-    }
-  },
-  {
-    "id": "academia_sim23_q64",
-    "statement": "Un pacient que presenti una freqüència respiratòria de 25 respiracions per minut:",
-    "correct": "D",
-    "explanation": "Bradipnea: < 12 rpm.\nEupnea (respiració normal): 12-20 rpm.\nTaquipnea: > 20 rpm.\nApnea: no respira.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 23",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es troba en una situació de normalitat o eupnea",
-      "B": "Presenta una bradipnea",
-      "C": "Es troba en una situació de normalitat o apnea",
-      "D": "Presenta una taquipnea"
-    }
-  },
-  {
-    "id": "academia_sim25_q63",
-    "statement": "Davant d'una víctima que pateix hipotèrmia accidental, les guies ERC recomanen:",
-    "correct": "C",
-    "explanation": "La freqüència de les compressions toràciques i ventilacions no ha de ser diferent a l’RCP en pacients normotèrmics.\nNo administrarem adrenalina si la temperatura corporal és <30 ºC.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 25",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Adequar la freqüència de les compressions toràciques i ventilacions al succés, essent de 15:2 en pacients que pateixin un descens notable de la temperatura corporal",
-      "B": "Administrar adrenalina en cas de que la temperatura corporal de la víctima minvi per sota els 30ºC",
-      "C": "Comprovar la presència de signes vitals durant un minut",
-      "D": "Totes les respostes fan referència a recomanacions de les guies ERC  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim30_q29",
-    "statement": "Quina de les següents intensitats és més probable que provoqui la tetanització del múscul humà?",
-    "correct": "C",
-    "explanation": "Tetanització: sumació temporal de les contraccions successives d'un múscul evocades per un tren d'estímuls d'alta\nfreqüència que no deixa temps a la fibra muscular per relaxar-se.\nEntre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.\nEn 10 mA el més probable serà una rampa-contracció muscular.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 30",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "10 mA",
-      "B": "1 A",
-      "C": "30 mA",
-      "D": "5 A"
-    }
-  },
-  {
-    "id": "academia_sim32_q78",
-    "statement": "D'acord amb la classificació de les zones en funció de la freqüència d'inundacions (període de retorn), les zones d'inundació freqüent:",
-    "correct": "D",
-    "explanation": "Classificació de la zona en funció de la freqüència (període de retorn):\n- Zones d'inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de\ncinquanta anys.\n- Zones d'inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de\ncinquanta i superiorment per la línia de període de cent anys.\n- Zones d'inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn\nde cent i superiorment per la línia de període de cinc-cents anys.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 32",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys",
-      "B": "Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys",
-      "C": "Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys",
-      "D": "Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys"
-    }
-  },
-  {
-    "id": "academia_sim35_q74",
-    "statement": "La respiració agònica:",
-    "correct": "C",
-    "explanation": "La respiració agònica s’ha de considerar un signe d’aturada cardíaca.\nL'eupnea fa referència a la freqüència respiratòria normal, en tot cas l'apnea seria el preludi.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 35",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "No es pot considerar un signe d’aturada cardíaca",
-      "B": "Sol ser el preludi d'un quadre d'eupnea, seguit d'una aturada cardiorespiratòria",
-      "C": "És una respiració lenta i feixuga",
-      "D": "Totes les respostes són incorrectes"
-    }
-  },
-  {
-    "id": "academia_sim36_q7",
-    "statement": "En un moviment circular, quin nom rep el temps que tarda un element en fer una volta completa?",
-    "correct": "A",
-    "explanation": "Freqüència: nombre de cops que un element mòbil fa una volta per cada unitat de temps.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 36",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Període",
-      "B": "Rotació",
-      "C": "Cicle",
-      "D": "Freqüència"
-    }
-  },
-  {
-    "id": "academia_sim38_q59",
-    "statement": "Quin ritme de compressions toràciques haurem de seguir en les maniobres de reanimació cardiopulmonar?",
-    "correct": "C",
-    "explanation": "Cada 30 compressions, dues insuflacions.\nSegons l'ERC la freqüència serà de 100-120 compressions per minut.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Unes 30-50 compressions per minut",
-      "B": "Una compressió per segon",
-      "C": "Unes 100-120 compressions per minut",
-      "D": "Unes 60-90 compressions per minut"
-    }
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim57_q16",
-    "statement": "Si la freqüència respiratòria d'una víctima és de 15 respiracions per minut, es troba en:",
-    "correct": "B",
-    "explanation": "Bradipnea: < 12 rpm\nEupnea (respiració normal): 12-20 rpm\nTaquipnea: > 20 rpm\nApnea: no respira",
+    "id": "academia_sim40_q89",
+    "statement": "Sobre la màquia, és fals que:",
+    "correct": "C",
+    "explanation": "Està formada per arbustos alts (1,5-2 m) i és pròpia de les terres mediterrànies amb estius extremament secs.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sigui una bosquina esclerofil·la",
+      "B": "Sigui ombrívola",
+      "C": "Estigui formada per arbustos baixos (0 - 0,5 m)",
+      "D": "Sigui una bosquina densa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q15",
+    "statement": "Quin nom rep l'òrgan reproductor masculí d'una flor?",
+    "correct": "C",
+    "explanation": "El pistil, en canvi, és la unitat bàsica del que constitueix el gineceu (part femenina d'una flor).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Antera",
+      "B": "Pistil",
+      "C": "Estam",
+      "D": "Sèpal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q31",
+    "statement": "Quin sector econòmic s'encarrega de transformar els recursos naturals?",
+    "correct": "C",
+    "explanation": "El sector secundari s'encarrega de crear els productes finals (manufactura).\nEl sector terciari és el conjunt de les activitats econòmiques considerades com a no productives, o no directament\nproductives, anomenat també sector residual o sector de serveis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sector secundari",
+      "B": "El sector terciari",
+      "C": "El sector primari",
+      "D": "El sector quaternari"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q88",
+    "statement": "El periant o perigoni:",
+    "correct": "B",
+    "explanation": "El conjunt dels estams és l'androceu.\nL'antera és la part terminal de l'estam d'una flor i té forma de sac petit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el conjunt dels estams",
+      "B": "Quan està ben desenvolupat consta de dos tipus de peces: els pètals i els sèpals",
+      "C": "És la part terminal de l'estam d'una flor i té forma de sac petit",
+      "D": "La seva funció principal és la reproducció  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q27",
+    "statement": "Són un grup de cinc ossos llargs del peu:",
+    "correct": "B",
+    "explanation": "En canvi el metacarp és la part intermèdia de l'esquelet de la mà que està localitzada entre les falanges distalment i el\ncarp, que fa de connexió amb el braç. El metacarp està format pels cinc ossos metacarpians.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La tíbia",
+      "B": "Els metatarsos",
+      "C": "El peroné",
+      "D": "Els ossos metacarpians"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q30",
+    "statement": "Quin dels següents ossos o grups d'ossos es troba més proper a la mà?",
+    "correct": "A",
+    "explanation": "Els metatarsos són un grup de cinc ossos llargs del peu. Els metacarps, en canvi, són el conjunt dels cinc ossos\nmetacarpians que constitueixen l’esquelet de la regió de la mà entre el carp i els dits.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 57",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Bradipnea",
-      "B": "Eupnea o respiració normal",
-      "C": "Apnea",
-      "D": "Taquipnea  acadèmia bombers"
-    }
+      "A": "El cúbit",
+      "B": "Els metatars",
+      "C": "El peroné",
+      "D": "L'húmer"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim62_q25",
-    "statement": "Quin signe ens farà sospitar que la víctima te un xoc hipovolèmic?",
+    "id": "academia_sim61_q61",
+    "statement": "Com s'anomena la connexió entre els botons terminals d’una neurona i les dendrites d'una altra?",
     "correct": "A",
-    "explanation": "Abans d'un xoc hipovolèmic, la freqüència cardíaca (pols) de la víctima pot augmentar com a resposta del cos per\nintentar mantenir el flux sanguini.\n\n\nacadèmia\nbombers",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 62",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 61",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un reompliment capil·lar alentit",
-      "B": "El pols radial cada vegada és més lent i més fort",
-      "C": "En observar-li el tòrax veiem que aquest cada vegada es mou més lentament (taquipnea)",
-      "D": "El nivell de consciència roman estable"
-    }
+      "A": "Sinapsi",
+      "B": "Neurasi",
+      "C": "Estàtisi",
+      "D": "Mielasi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim63_q17",
-    "statement": "Es consideren zones d'inundació ocasional, d'acord amb la classificació de les zones en funció de la freqüència d'inundacions:",
+    "id": "academia_sim70_q40",
+    "statement": "És el conjunt de les activitats econòmiques considerades com a no productives, o no directament productives, anomenat també sector residual:",
     "correct": "B",
-    "explanation": "Classificació de la zona en funció de la freqüència (període de retorn):\n- Zones d'inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de\ncinquanta anys.\n- Zones d'inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de\ncinquanta i superiorment per la línia de període de cent anys.\n- Zones d'inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn\nde cent i superiorment per la línia de període de cinc-cents anys.\n\n\nacadèmia\nbombers",
+    "explanation": "El sector secundari s'encarrega de crear els productes finals (manufactura).\nEl sector terciari és el conjunt de les activitats econòmiques considerades com a no productives, o no directament\nproductives, anomenat també sector residual o sector de serveis.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 63",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys",
-      "B": "Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys",
-      "C": "Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys",
-      "D": "Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys"
-    }
-  },
-  {
-    "id": "academia_sim68_q91",
-    "statement": "Quin es considera el llindar de tetanització del múscul humà?",
-    "correct": "C",
-    "explanation": "Tetanització: sumació temporal de les contraccions successives d'un múscul evocades per un tren d'estímuls d'alta\nfreqüència que no deixa temps a la fibra muscular per relaxar-se.\nEntre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.\nEn 10 mA el més probable serà una rampa-contracció muscular.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 68",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "10 mA",
-      "B": "1 A",
-      "C": "30 mA",
-      "D": "5 A"
-    }
-  },
-  {
-    "id": "academia_sim70_q78",
-    "statement": "En referència al pols, de les següents opcions, quina és CORRECTA?",
-    "correct": "D",
-    "explanation": "Els nounats tenen una freqüència del pols significativament més alta que la gent gran. La freqüència cardíaca normal en\nnounats sol estar entre 120 i 160 batecs per minut, mentre que en adults grans, la freqüència normal sol estar entre 60 i\n100 batecs per minut. Això es deu al fet que els cors dels nounats han de treballar més per proporcionar suficient sang\noxigenada al seu ràpid creixement i desenvolupament.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 70",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És la dilatació permanent de l’artèria aorta que es produeix en cada cicle cardíac",
-      "B": "Per valorar-lo de la manera més adient possible el millor és utilitzar el 1r dit (el dit polze)",
-      "C": "En lactants es recomana palpar-lo al coll, a l'artèria caròtida",
-      "D": "En els nounats la freqüència del pols normalment és major que en la gent gran"
-    }
+      "A": "Sector secundari",
+      "B": "Sector terciari",
+      "C": "Sector primari",
+      "D": "Sector quaternari"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim72_q20",
-    "statement": "Quin NO és un avantatge de la injecció directa Common Rail respecte la injecció directa convencional?",
-    "correct": "D",
-    "explanation": "Els filtres de combustible requereixen ser canviats amb més freqüència. El sistema Common Rail és molt més sensible a\nla qualitat del combustible que el convencional.\n\n\nacadèmia\nbombers",
+    "id": "academia_sim72_q22",
+    "statement": "Per tal d’identificar un tram de carretera que hagi quedat substituït per una variant de carretera, quina mesura transitòria es pot dur a terme?",
+    "correct": "B",
+    "explanation": "Per trams de carretera substituïts per variants: amb caràcter transitori, es pot utilitzar una de les últimes lletres de\nl’alfabet, en minúscula i sempre col·locada al final de la part numèrica, per tal d’identificar un tram de carretera que hagi\nquedat substituït per una variant de carretera. Si existeix una única variant, al tram antic se li pot addicionar la lletra\nminúscula “z”. En el supòsit que hi hagi una segona variant, el tram més antic pot continuar amb la lletra “z” i a la primera\nvariant se li pot addicionar la lletra minúscula “y”, i així successivament si resulta necessari.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 72",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El menor soroll de funcionament del motor",
-      "B": "L'augment del rendiment",
-      "C": "El menor consum i la baixa contaminació ambiental",
-      "D": "Els filtres de combustible requereixen ser canviats amb menys freqüència"
-    }
+      "A": "Se li pot afegir una de les primeres lletres de l’alfabet, en majúscula i col·locada al principi o al final de la part numèrica",
+      "B": "Se li pot addicionar una de les últimes lletres de l’alfabet, en minúscula i sempre col·locada al final de la part numèrica",
+      "C": "Se li pot afegir una de les darreres lletres de l’alfabet, en majúscula i sempre col·locada al principi de la part numèrica",
+      "D": "Se li pot addicionar una de les primeres lletres de l’alfabet, en minúscula i sempre col·locada al final de la part numèrica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim76_q3",
-    "statement": "Una freqüència respiratòria superior a 30 respiracions per minut s’anomena:",
-    "correct": "B",
-    "explanation": "Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa\nnormal és de 30 a 60 respiracions per minut.\nLa taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència\nrespiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta\ncondició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,\nansietat, o altres problemes respiratoris.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 76",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Eupnea",
-      "B": "Taquipnea",
-      "C": "Bradipnea",
-      "D": "Bradicàrdia"
-    }
-  },
-  {
-    "id": "academia_sim90_q2",
-    "statement": "Si una xarxa elèctrica té un període de 20 ms, quina és la seva freqüència en Hz?",
-    "correct": "A",
-    "explanation": "20 ms = 0,02 segons.\nf = 1/T = 1/0,02 = 50 Hz.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 90",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "50 Hz",
-      "B": "60 Hz",
-      "C": "120 Hz",
-      "D": "100 Hz"
-    }
-  },
-  {
-    "id": "academia_sim105_q28",
-    "statement": "Quina es considera la màxima sensibilitat a partir de la qual podem sofrir Fibril·lació Ventricular?",
+    "id": "academia_sim72_q65",
+    "statement": "En quina etapa del protocol PAS alertarem els serveis d'emergències mitjançant una trucada telefònica al 112?",
     "correct": "C",
-    "explanation": "Tetanització: sumació temporal de les contraccions successives d'un múscul evocades per un tren d'estímuls d'alta\nfreqüència que no deixa temps a la fibra muscular per relaxar-se.\nEntre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.\nEn 10 mA el més probable serà una rampa-contracció muscular.",
+    "explanation": "Davant d'una situació d'emergència de qualsevol tipus sempre cal seguir tres passos, sense alterar-ne l'ordre (PAS):\nP: Protegir-se, protegir l'entorn i protegir la víctima en el lloc on s'ha produït l'accident.\nA: Alertar els serveis d'emergències mitjançant una trucada telefònica al 112.\nS: Socórrer les víctimes accidentades o malaltes, sempre tenint en compte que davant del dubte és millor no actuar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 105",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 72",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "10 mA",
-      "B": "1 A",
-      "C": "30 mA",
-      "D": "5 A"
-    }
+      "A": "A la tercera, \"S\"",
+      "B": "A la primera, \"P\"",
+      "C": "A la segona, \"A\"",
+      "D": "És indiferent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim114_q61",
-    "statement": "La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són signes que ens permeten valorar el correcte funcionament de:",
-    "correct": "A",
-    "explanation": "La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són indicadors clau del\nfuncionament del sistema cardiovascular. Aquests paràmetres reflecteixen l'eficiència amb què el cor i els vasos\nsanguinis transporten la sang i l'oxigen als teixits del cos.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 114",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El sistema cardiovascular",
-      "B": "El sistema nerviós",
-      "C": "L'aparell digestiu",
-      "D": "L'aparell respiratori"
-    }
-  },
-  {
-    "id": "academia_sim123_q74",
-    "statement": "Una freqüència respiratòria de 24 respiracions per minut mesurada en un adult en repòs es considera:",
-    "correct": "B",
-    "explanation": "Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa\nnormal és de 30 a 60 respiracions per minut.\nLa taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència\nrespiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta\ncondició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,\nansietat, o altres problemes respiratoris.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 123",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Eupnea",
-      "B": "Taquipnea",
-      "C": "Bradipnea",
-      "D": "Bradicàrdia"
-    }
-  },
-  {
-    "id": "academia_sim125_q29",
-    "statement": "Ens trobem amb una noia de 19 anys estirada a terra després d’una caiguda des d’alçada moderada. Respira espontàniament però sembla desorientada. La seva freqüència respiratòria és de 22 rpm. Presenta pols radial i respon de manera incoherent, sense obeir correctament les nostres ordres. Quina classificació START tindrà?",
+    "id": "academia_sim74_q66",
+    "statement": "A la carretera N-260, entre la Pobla de Segur i el Pont de Suert, hi trobem:",
     "correct": "D",
-    "explanation": "Respira i pols: OK.\nNo obeeix ordres →criteri directe de VERMELL.",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El port de Comiols",
+      "B": "El port de la Bonaigua",
+      "C": "El port de Bóixols",
+      "D": "El port de Perves"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim88_q28",
+    "statement": "Quin sector econòmic s'encarrega de crear els productes finals?",
+    "correct": "A",
+    "explanation": "El sector secundari s'encarrega de crear els productes finals (manufactura).\nEl sector terciari és el conjunt de les activitats econòmiques considerades com a no productives, o no directament\nproductives, anomenat també sector residual o sector de serveis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 88",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sector secundari",
+      "B": "El sector terciari",
+      "C": "El sector primari",
+      "D": "El sector quaternari"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q15",
+    "statement": "Quina paraula identifica la lletra Q en l’alfabet radiofònic internacional?",
+    "correct": "A",
+    "explanation": "A - Alfa\nB - Bravo\nC - Charlie\nD - Delta\nE - Echo\nF - Foxtrot\nG - Golf\nH - Hotel\nI - Índia\nJ - Juliet\nK - Kilo\nL - Lima\nM - Mike\nN - November\nO - Oscar\nP - Papa\nQ - Quebec\nR - Romeo\nS - Sierra\nT - Tango\nU - Uniform\nV - Victor\nW - Whiskey\nX - X-ray\nY - Yankee\nZ - Zulu",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Groc",
-      "B": "Verd",
-      "C": "Blau",
-      "D": "Vermell"
-    }
+      "A": "Queen",
+      "B": "Quantum",
+      "C": "Quick",
+      "D": "Quebec"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim125_q78",
@@ -474,7 +346,7 @@
     "explanation": "Abans de començar a parlar pel transceptor portàtil, l’usuari ha de comprovar que el canal està lliure, és a dir, que cap\naltra unitat està transmetent en aquell moment. Una vegada verificat, s’ha d’iniciar la comunicació utilitzant un\nencapçalament clar que indiqui a qui va dirigit el missatge. L’estructura recomanada per iniciar la comunicació és que\nprimer s’anomena la unitat receptora del missatge, i després s’identifica l’emissor.\nPer exemple: “Control, per 10.40...” o alternativament “Control, 10.40 demanant...”",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
@@ -483,7 +355,9 @@
       "B": "Primer s'identifica la unitat receptora i, tot seguit, la unitat emissora",
       "C": "Primer s'emet el missatge i, al final, s'identifica tant l'emissor com el receptor.",
       "D": "Primer s'identifica la unitat emissora i, a continuació, la unitat receptora"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim125_q89",
@@ -492,7 +366,7 @@
     "explanation": "Quan un emissor intenta establir contacte i no rep resposta immediata, ha d’esperar 30 segons abans de tornar a repetir\nel missatge:\nExemple: “Control, aquí Echo 0.” Esperar uns 30 segons. Si no hi ha resposta, repetir.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
@@ -501,7 +375,9 @@
       "B": "15 segons",
       "C": "30 segons",
       "D": "5 segons"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim126_q39",
@@ -510,7 +386,7 @@
     "explanation": "La xarxa RESCAT no es veu afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb\nmolta població.\nLa xarxa RESCAT es basa en la tecnologia TETRA, un estàndard específicament dissenyat per a serveis d’emergència.\nUn dels grans avantatges de la xarxa RESCAT és que permet la coordinació entre serveis d’emergència, ja que utilitza\ngrups de comunicació compartits. Això és especialment útil en intervencions interterritorials com per exemple un foc\nforestal on participen unitats de diversos cossos (Bombers Generalitat, Bombers Barcelona, Mossos d’Esquadra, SEM...).\nLes emissores poden operar en dos modes principals.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
+    "theme": "T17 - Ràdio",
     "section": "Simulacre 126",
     "isSaved": 0,
     "isAnswered": 0,
@@ -519,24 +395,28 @@
       "B": "Utilitza grups de comunicació diferenciats entre els diferents serveis d'emergència",
       "C": "Es basa en la tecnologia TETRA",
       "D": "Es pot veure afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb molta població"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim127_q68",
-    "statement": "Quina afirmació relativa al tipus de comunicacions dels transceptors portàtils de la xarxa Rescat és FALSA?",
-    "correct": "B",
-    "explanation": "Mode Directe.\nMode de comunicacions només per proximitat. L’emissora no està connectada a la xarxa, sinó que comunica directament\namb altres terminals dins del seu abast de ràdio (normalment entre 500 metres i 1 km).\nCaracterístiques:\n−No depèn de la xarxa ni de repetidors\n−Ideal per a comunicacions curtes o en interiors\n−No permet enviar posició GPS ni missatges SDS",
+    "id": "academia_sim126_q41",
+    "statement": "Durant una comprovació d’emissora, quin valor s’assigna a un senyal que es rep amb claredat?",
+    "correct": "C",
+    "explanation": "Escala d’1 a 5:\n1: Inintel·ligible. El senyal és incomprensible.\n17\n\n: Intel·ligible de manera intermitent. El senyal es rep de forma esporàdica o amb dificultat.\n3: Intel·ligible amb dificultat. El senyal es pot entendre, però amb esforç.\n4: Intel·ligible. El senyal es rep amb claredat.\n5: Perfectament intel·ligible (fort i clar). El senyal es rep amb màxima claredat i sense problemes.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T17 - Transmissions",
-    "section": "Simulacre 127",
+    "theme": "T17 - Ràdio",
+    "section": "Simulacre 126",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El mode xarxa activa funcionalitats com l’enviament de missatges i la localització",
-      "B": "El mode directe permet enviar missatges SDS",
-      "C": "Si no tenim connexió a cap repetidor, no podrem treballar en mode xarxa",
-      "D": "En el mode directe l’emissora no està connectada a la xarxa"
-    }
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

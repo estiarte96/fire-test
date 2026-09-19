@@ -1,1172 +1,502 @@
 [
   {
-    "id": "academia_sim3_q80",
-    "statement": "Segons el RIPCI, cada sis mesos s'ha de comprovar que les vàlvules de seccionament de les columnes seques estan:",
+    "id": "academia_sim19_q61",
+    "statement": "En una rosca, és la distància entre les puntes de dos ressalts consecutius:",
     "correct": "A",
-    "explanation": "Altres comprovacions:\n- Maniobrar les claus per comprovar-ne el correcte funcionament.\n- Comprovar la senyalització.\n- Comprovar que les claus de les connexions siameses estan tancades.\n(...)",
+    "explanation": "Filet: alçada del ressalt.\nDiàmetre nominal: és el diàmetre exterior de l’element mascle mesurat per fora del filet.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 3",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Obertes",
-      "B": "Ben senyalitzades",
-      "C": "Tancades",
-      "D": "Greixades  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim5_q22",
-    "statement": "Segons el RIPCI, la prova de la instal·lació en les condicions de la seva recepció en columnes seques s'efectuarà:",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 5",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada sis mesos",
-      "B": "Cada any",
-      "C": "Cada cinc anys",
-      "D": "Cada deu anys"
-    }
-  },
-  {
-    "id": "academia_sim6_q25",
-    "statement": "En el cas que el fabricant no estableixi una vida útil per les BIE, es considerarà de:",
-    "correct": "D",
-    "explanation": "RIPCI, Secció 1ª, taula II.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 6",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Deu anys",
-      "B": "Cinc anys",
-      "C": "Vint-i-cinc anys",
-      "D": "Vint anys"
-    }
-  },
-  {
-    "id": "academia_sim6_q27",
-    "statement": "On s'instal·laran les BIE, segons el RIPCI?",
-    "correct": "A",
-    "explanation": "Tampoc podran constituir cap obstacle per a la seva utilització.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 6",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A 5 metres de les sortides de cada sector d'incendi, com a màxim",
-      "B": "El més aprop possible de les sortides de cada sector d'incendi, independentment de la distància o situació que acabi suposant",
-      "C": "A 2 metres de les sortides de cada sector d'incendi, com a màxim",
-      "D": "A 10 metres de les sortides de cada sector d'incendi, com a màxim"
-    }
-  },
-  {
-    "id": "academia_sim6_q64",
-    "statement": "Quantes classes de foc reconeix el Reglament d'instal·lacions de protecció contra incendis (RIPCI)?",
-    "correct": "B",
-    "explanation": "Classe A, classe B, classe C, classe D, classe F.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 6",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Quatre classes",
-      "B": "Cinc classes",
-      "C": "Sis classes",
-      "D": "Set classes  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim7_q11",
-    "statement": "Segons el RIPCI, quin diàmetre s'admet per una BIE de mànega plana?",
-    "correct": "A",
-    "explanation": "En el cas de BIE de mànega semirígida el diàmetre admès és 25 mm.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "45 mm",
-      "B": "25 mm",
-      "C": "12 mm",
-      "D": "65 mm"
-    }
-  },
-  {
-    "id": "academia_sim7_q64",
-    "statement": "La presa de la façana d'una columna seca i les sortides de planta tindran el centre de les seves boques a ____ sobre el nivell del terra.",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "0,9 m",
-      "B": "1,5 m",
-      "C": "1,2 m",
-      "D": "0,7 m  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim8_q88",
-    "statement": "Segons el RIPCI 2017, la prova de funcionament de tots els polsadors dels dispositius d'activació manual d'alarma es realitzarà:",
-    "correct": "C",
-    "explanation": "Cada 3 mesos s'haurà de comprovar la senyalització dels polsadors manuals d'alarma.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 8",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada 3 mesos",
-      "B": "Cada 6 mesos",
-      "C": "Cada any",
-      "D": "Cada 5 anys  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim9_q2",
-    "statement": "Quan es prevegin riscos de gelades només s'admetran hidrants de columna de tipus:",
-    "correct": "C",
-    "explanation": "RIPCI - Sistemes d'hidrants contra incendis - punt 2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C",
-      "D": "D"
-    }
-  },
-  {
-    "id": "academia_sim9_q42",
-    "statement": "Segons el DB-SI, s'haurà d'instal·lar un sistema de columna seca en edificis d'ús hospitalari en cas de que:",
-    "correct": "C",
-    "explanation": "Per norma general seran 24 m.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'alçada d'evacuació excedeixi els 24 metres",
-      "B": "L'alçada d'evacuació excedeixi els 18 metres",
-      "C": "L'alçada d'evacuació excedeixi els 15 metres",
-      "D": "L'alçada d'evacuació excedeixi els 28 metres"
-    }
-  },
-  {
-    "id": "academia_sim11_q19",
-    "statement": "El RIPCI contempla hidrants de sota terra de tres sortides?",
-    "correct": "A",
-    "explanation": "En tindran o una o dues.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 11",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "No",
-      "B": "Si, però únicament els de 100 mm",
-      "C": "Si, però únicament els de 80 mm",
-      "D": "Si, tot i que ja no se'n fabriquen"
-    }
-  },
-  {
-    "id": "academia_sim11_q20",
-    "statement": "Segons el DB-SI, en quin cas s'haurà d'instal·lar un sistema de Boques d'Incendi Equipades (BIE) en edificis d'ús hospitalari?",
-    "correct": "D",
-    "explanation": "La columna seca, en canvi, a partir dels 15 metres d'alçada d'evacuació.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 11",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Si l'alçada d'evacuació supera els 24 metres",
-      "B": "Si l'alçada d'evacuació supera els 15 metres",
-      "C": "Si l'edifici supera els 50 metres",
-      "D": "En tot cas"
-    }
-  },
-  {
-    "id": "academia_sim12_q9",
-    "statement": "Segons el RIPCI, on trobarem les sortides d'una columna seca ascendent?",
-    "correct": "C",
-    "explanation": "Les vàlvules de seccionament s'instal·laran cada quatre plantes.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 12",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A les plantes parells",
-      "B": "A les plantes imparells",
-      "C": "A les plantes parells fins la vuitena, i a partir d'aquesta a cada planta",
-      "D": "A les plantes parells fins la quarta, i a partir d'aquesta a cada planta"
-    }
-  },
-  {
-    "id": "academia_sim12_q50",
-    "statement": "Segons el RIPCI, la comprovació de l'accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats s'efectuarà:",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 12",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada tres mesos",
-      "B": "Cada sis mesos",
-      "C": "Cada any",
-      "D": "Cada cinc anys"
-    }
-  },
-  {
-    "id": "academia_sim12_q81",
-    "statement": "Quina de les següents afirmacions sobre la columna seca és falsa?",
-    "correct": "C",
-    "explanation": "Seguint els recorreguts d'evacuació, la distància màxima entre dues columnes seques serà de 60 metres.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 12",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La presa d'entrada d'una columna seca serà una bifurcació siamesa (2 × 70 mm)",
-      "B": "Les sortides d'una columna seca seran una bifurcació siamesa (2 × 45 mm)",
-      "C": "Seguint els recorreguts d'evacuació, la distància màxima entre dues columnes seques serà de 100 metres",
-      "D": "Totes les afirmacions són correctes"
-    }
-  },
-  {
-    "id": "academia_sim13_q15",
-    "statement": "La connexió a la façana de la columna seca portarà...",
-    "correct": "C",
-    "explanation": "I estarà situada a 90 cm del terra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 13",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Dos ràcords de 45 mm sense clau de purga",
-      "B": "Dos ràcords de 70 mm sense clau de purga, ja que aquesta se situarà a la planta més profunda",
-      "C": "Dos ràcords de 70 mm i una clau de purga de 25 mm",
-      "D": "Dos ràcords de 45 mm i una clau de purga de 25 mm"
-    }
-  },
-  {
-    "id": "academia_sim13_q22",
-    "statement": "Quina de les següents afirmacions sobre les boques d'incendi equipades (BIE) és falsa?",
-    "correct": "A",
-    "explanation": "La indicació de <<ÚS EXCLUSIU BOMBERS>> es trobarà en el sistema de columna seca.\nEl \"factor K\" mínim per a les BIE de mànega semirígida serà de 42, i el de la BIE plana, 85.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 13",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Seran fàcilment accessibles pel personal de servei contra incendis, amb la indicació <<ÚS EXCLUSIU BOMBERS>>",
-      "B": "El \"factor K\" mínim per a les BIE de mànega semirígida serà de 42",
-      "C": "Les mànegues de les BIE d'alta pressió seran d'un diàmetre nominal no superior a 12 mm",
-      "D": "Les BIE se situaran sempre a una distància màxima de 5 metres de les sortides del sector d'incendi"
-    }
-  },
-  {
-    "id": "academia_sim14_q63",
-    "statement": "Segons el DB-SI, un edifici o establiment haurà de disposar, per norma general:",
-    "correct": "A",
-    "explanation": "Taula 1.1 CTE DB-SI.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 14",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "D'almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 10.000 m² addicionals o fracció",
-      "B": "D'almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 5.000 m² addicionals o fracció",
-      "C": "D'almenys un hidrant fins a 5.000 m² de superfície construïda i un més per cada 2.000 m² addicionals o fracció",
-      "D": "D'almenys un hidrant, independentment de la seva superfície construïda"
-    }
-  },
-  {
-    "id": "academia_sim14_q67",
-    "statement": "La connexió d'una columna seca a la façana:",
-    "correct": "A",
-    "explanation": "La distribució de les boques de sortida en pis IPF 39 s’efectua en plantes parells, i a partir de la vuitena planta, en totes\nles plantes subsegüents. Cada quatre plantes es munta la boca de sortida en pis amb clau de secció IPF 40.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 14",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 70 mm",
-      "B": "S'ubicarà a 1,50 metres del terra, a un lloc accessible pels bombers de la façana de l'edifici",
-      "C": "Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 45 mm",
-      "D": "Es farà mitjançant el sistema IPF 40 i constarà de dos ràcords de 45 mm"
-    }
-  },
-  {
-    "id": "academia_sim16_q9",
-    "statement": "Segons el DB-SI, quina condició obliga a un edifici d'ús hospitalari a disposar de comunicació directa amb el servei de bombers?",
-    "correct": "B",
-    "explanation": "Taula 1.1 CTE DB-SI.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 16",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Disposar d'una superfície construïda superior als 5.000 m²",
-      "B": "Disposar de més de cent llits",
-      "C": "Disposar d'una superfície construïda superior als 10.000 m²",
-      "D": "Estar situat a més de 5 km del parc de bombers més proper"
-    }
-  },
-  {
-    "id": "academia_sim17_q13",
-    "statement": "En una columna seca, la presa d'aigua de la façana serà:",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 17",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "IPF-39",
-      "B": "IPF-40",
-      "C": "IPF-41",
-      "D": "Cap de les anteriors respostes és correcta"
-    }
-  },
-  {
-    "id": "academia_sim17_q17",
-    "statement": "Cada quant de temps s'hauran de maniobrar les claus en una columna seca?",
-    "correct": "C",
-    "explanation": "En la columna seca no s'ha de realitzar cap tipus de manteniment ni als 3 mesos i a l'any.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 17",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "3 mesos",
-      "B": "1 any",
-      "C": "6 mesos",
-      "D": "5 anys"
-    }
-  },
-  {
-    "id": "academia_sim17_q50",
-    "statement": "Segons el DB-SI, s'haurà d'instal·lar un sistema de columna seca en edificis d'ús administratiu en cas de que:",
-    "correct": "D",
-    "explanation": "Per ús hospitalari seran 15 metres.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 17",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'alçada d'evacuació excedeixi els 18 metres",
-      "B": "L'alçada d'evacuació excedeixi els 28 metres",
-      "C": "L'alçada d'evacuació excedeixi els 15 metres",
-      "D": "L'alçada d'evacuació excedeixi els 24 metres"
-    }
-  },
-  {
-    "id": "academia_sim18_q6",
-    "statement": "Segons el RIPCI 2017, per assegurar els nivells de protecció, el \"factor K\" mínim per a les BIE de mànega semirígida serà de ___, i per les BIE de mànega plana, de ___.",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 18",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "45 / 25",
-      "B": "42 / 80",
-      "C": "42 / 85",
-      "D": "40 / 50"
-    }
-  },
-  {
-    "id": "academia_sim19_q31",
-    "statement": "Segons el RIPCI, els polsadors manuals d'alarma d'incendis se situaran de manera que la distància màxima a recórrer des de qualsevol punt considerat com a origen d'evacuació fins el polsador sigui de:",
-    "correct": "D",
-    "explanation": "Els polsadors se situaran de manera que la part superior del dispositiu quedi a una alçada d'entre 80 i 120 cm.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
+    "theme": "T16 - Assistències tècniques",
     "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "15 metres",
-      "B": "10 metres",
-      "C": "30 metres",
-      "D": "25 metres"
-    }
+      "A": "Pas",
+      "B": "Filet",
+      "C": "Vall",
+      "D": "Diàmetre nominal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim20_q84",
-    "statement": "Segons el RIPCI 2017, les BIE hauran de portar obligatòriament un manòmetre?",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 20",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Si",
-      "B": "No",
-      "C": "Només les BIE-45",
-      "D": "Només les BIE-25"
-    }
-  },
-  {
-    "id": "academia_sim21_q5",
-    "statement": "Segons el RIPCI, per a les BIE amb mànega semirígida o plana, la separació màxima entre cada BIE i la més propera serà de:",
-    "correct": "A",
-    "explanation": "La distància des de qualsevol punt de l'àrea protegida fins la BIE més propera no haurà d'excedir el seu radi d'acció.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "50 metres",
-      "B": "El radi d'acció de la BIE",
-      "C": "60 metres",
-      "D": "15 metres"
-    }
-  },
-  {
-    "id": "academia_sim21_q70",
-    "statement": "La connexió a la façana d'una columna seca es trobarà a:",
-    "correct": "D",
-    "explanation": "Serà una connexió IPF-41 i se situarà en un lloc fàcilment accessible pels bombers. Portarà dos ràcords de 70 mm i clau\nde purga de 25 mm.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "50 cm del terra",
-      "B": "120 cm del terra",
-      "C": "80 cm del terra",
-      "D": "90 cm del terra"
-    }
-  },
-  {
-    "id": "academia_sim21_q77",
-    "statement": "En un edifici d'ús docent, s'instal·larà una columna seca si l'altura d'evacuació excedeix els:",
-    "correct": "B",
-    "explanation": "En un edifici d'ús hospitalari s'instal·larà una columna seca si l'altura d'evacuació excedeix els 15 metres.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "15 metres",
-      "B": "24 metres",
-      "C": "28 metres",
-      "D": "30 metres"
-    }
-  },
-  {
-    "id": "academia_sim21_q90",
-    "statement": "Segons el RIPCI, quina de les següents accions es durà a terme cada tres mesos en el manteniment d'una columna seca?",
-    "correct": "D",
-    "explanation": "Les accions de manteniment de les columnes seques en tot cas s'efectuaran, o bé cada sis mesos, o bé cada cinc anys\n(en el cas de la prova de la instal·lació).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La comprovació de l'accessibilitat de l'entrada del carrer i preses de terra",
-      "B": "La comprovació de la senyalització",
-      "C": "La maniobra de les claus de la instal·lació per tal de verificar-ne el correcte funcionament",
-      "D": "Cap de les respostes és correcta"
-    }
-  },
-  {
-    "id": "academia_sim22_q58",
-    "statement": "Segons el RIPCI, la comprovació de la senyalització de les BIE es realitzarà:",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada tres mesos",
-      "B": "Cada sis mesos",
-      "C": "Cada any",
-      "D": "Cada cinc anys"
-    }
-  },
-  {
-    "id": "academia_sim23_q60",
-    "statement": "Els ràcords de la columna seca a partir de la vuitena planta seran de:",
-    "correct": "A",
-    "explanation": "Seran de 2 × 45 mm. La presa d'entrada serà de 2 × 70 mm.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 23",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "45 mm",
-      "B": "70 mm",
-      "C": "25 mm",
-      "D": "80 mm"
-    }
-  },
-  {
-    "id": "academia_sim24_q56",
-    "statement": "Segons el RIPCI, quina distància màxima existirà entre qualsevol origen d'evacuació fins al polsador d'alarma d'incendi més proper?",
-    "correct": "A",
-    "explanation": "A part, hauran d'estar col·locats entre 80 i 120 cm del terra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 24",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "5 metres",
-      "B": "15 metres",
-      "C": "25 metres",
-      "D": "50 metres  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim28_q55",
-    "statement": "On se situaran les preses de la columna seca situades a l'exterior i en les sortides de planta?",
-    "correct": "B",
-    "explanation": "Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 28",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A 1,8 metres del nivell del terra",
-      "B": "Amb el centre de les seves boques a 0,9 metres del nivell del terra",
-      "C": "A 1,2 metres del nivell del terra",
-      "D": "Amb el centre de les seves boques a 1,5 metres del nivell del terra"
-    }
-  },
-  {
-    "id": "academia_sim28_q59",
-    "statement": "Segons el CTE DB-SI, quan serà preceptiva la instal·lació, de forma general, de ruixadors?",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 28",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "En tot edifici amb una alçada d'evacuació superior a 80 metres",
-      "B": "Si la superfície construïda supera els 2.500 m²",
-      "C": "En tot edifici amb una alçada d'evacuació superior a 24 metres",
-      "D": "En tot edifici amb una alçada d'evacuació superior a 50 metres"
-    }
-  },
-  {
-    "id": "academia_sim28_q60",
-    "statement": "Quina freqüència requerirà la prova de la instal·lació d'una columna seca?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 28",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Un any",
-      "B": "Cinc anys",
-      "C": "Deu anys",
-      "D": "Quinze anys"
-    }
-  },
-  {
-    "id": "academia_sim33_q77",
-    "statement": "A quina alçada es troben les sortides d'una columna seca?",
-    "correct": "D",
-    "explanation": "Es troben a 0,9 metres del terra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 33",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A 0,5 metres del terra",
-      "B": "A 1,5 metres del terra",
-      "C": "A 1,9 metres del terra",
-      "D": "Cap resposta és correcta"
-    }
-  },
-  {
-    "id": "academia_sim34_q89",
-    "statement": "Amb quina freqüència s'efectuarà la comprovació de l'accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats, d'acord amb el RIPCI?",
+    "id": "academia_sim19_q91",
+    "statement": "Què és la fulla aciculifòlia?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 34",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cada nou mesos",
-      "B": "Cada sis mesos",
-      "C": "Cada any",
-      "D": "Cada tres mesos"
-    }
+      "A": "Un tipus de fulla dura, prima i llarga",
+      "B": "Un tipus de fulla caduca",
+      "C": "El tipus de fulla pròpia de l'avet",
+      "D": "Les respostes a) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim36_q5",
-    "statement": "D'acord amb el RIPCI, quin diàmetre nominal tindrà cadascuna de les sortides de planta d'una columna seca?",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 36",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "45 mm",
-      "B": "80 mm",
-      "C": "70 mm",
-      "D": "25 mm"
-    }
-  },
-  {
-    "id": "academia_sim36_q41",
-    "statement": "Segons el DB-SI, en quin cas s'haurà d'instal·lar un sistema de columna seca en edificis d'ús hospitalari?",
+    "id": "academia_sim44_q25",
+    "statement": "Quina part del sistema nerviós central es troba continguda dins el crani?",
     "correct": "B",
-    "explanation": "El sistema de Boques d'Incendi Equipades (BIE), en canvi, en tot cas.",
+    "explanation": "L'encèfal comprèn el cervell, el cerebel i el tronc de l'encèfal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 36",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Si l'alçada d'evacuació supera els 24 metres",
-      "B": "Si l'alçada d'evacuació supera els 15 metres",
-      "C": "Si l'edifici supera els 50 metres",
-      "D": "En tot cas"
-    }
-  },
-  {
-    "id": "academia_sim44_q40",
-    "statement": "Quin dels següents elements no formarà part d'un sistema fix d'extinció per ruixadors automàtics per aigua?",
-    "correct": "C",
-    "explanation": "Les vàlvules selectores formaran part dels sistemes fixes d'extinció per pols.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
+    "theme": "T16 - Assistències tècniques",
     "section": "Simulacre 44",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La xarxa de canonades per a l'alimentació d'aigua",
-      "B": "El punt de control",
-      "C": "Les vàlvules selectores",
-      "D": "Els broquets de descàrrega  acadèmia bombers"
-    }
+      "A": "Els ganglis",
+      "B": "L'encèfal",
+      "C": "La medul·la espinal",
+      "D": "Les respostes b) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim50_q85",
-    "statement": "On han de constar de sortides els sistemes de columna seca ascendents?",
-    "correct": "C",
-    "explanation": "Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a\npartir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.",
+    "id": "academia_sim46_q23",
+    "statement": "La calamarsa és un meteor relacionat amb la precipitació i una de les seves característiques és:",
+    "correct": "D",
+    "explanation": "La calamarsa té menys de 5 mm de diàmetre, mentre que la pedra té un diàmetre superior a 5 mm. No es trenca en\ncaure a terra.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Creix formant clovelles alternativament clares i opaques",
+      "B": "Es trenca en caure a terra",
+      "C": "Té més de 5 mm de diàmetre",
+      "D": "Precipita sovint en forma de xàfec"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q9",
+    "statement": "Quina de les següents capes d'un arbre és més interior?",
+    "correct": "C",
+    "explanation": "El xilema és creat pel càmbium cap a l'interior de l'arbre. Es compon de l'albeca i el duramen.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'escorça",
+      "B": "El floema",
+      "C": "El xilema",
+      "D": "El càmbium"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q33",
+    "statement": "On es troben localitzats els centres nerviosos respiratoris?",
+    "correct": "C",
+    "explanation": "Els centres nerviosos respiratoris es troben localitzats al bulb raquidi i a la protuberància del tronc de l'encèfal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als lòbuls occipital i parietal",
+      "B": "Al cerebel",
+      "C": "Al bulb raquidi i a la protuberància del tronc de l'encèfal",
+      "D": "Al filum terminale, a la part inferior de la medul·la espinal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim50_q94",
+    "statement": "Quina de les següents espècies vegetals NO trobarem a una brolla?",
+    "correct": "C",
+    "explanation": "La brolla és una formació vegetal més o menys densa, que sol tenir de 0,5 a 2 m d’alçada, on predominen arbusts i\nmates de fulla persistent i petita (brucs, romaní, etc.) o bé molt esclarissada o nul·la (ginestells, argelagues, etc.)\n(enciclopèdia.cat).\nEl bedoll és un arbre caducifoli, de la família de les betulàcies, que ateny uns 20 m d’alçada, de fulles triangulars,\ndentades i glabres, tronc esvelt, escorça llisa i blanca, amb algunes bandes més fosques i branquetes i branquillons més\no menys penjants; els fruits són petits i agrupats en aments penjants. Es fa a l’estatge montà i subalpí, al Pirineu, i al\nCabrerès, preferentment als sòls silicis i secs i forma poblacions importants a les planes d’Europa septentrional.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
     "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta",
-      "B": "A cada planta",
-      "C": "A les plantes parells fins a la vuitena i a totes a partir d’aquesta",
-      "D": "A les plantes parells"
-    }
+      "A": "Bruc d'hivern",
+      "B": "Romaní",
+      "C": "Bedoll",
+      "D": "Carrasca"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim54_q46",
-    "statement": "Quins components principals conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?",
-    "correct": "B",
-    "explanation": "RIPCI - pàgina 21.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 54",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega",
-      "B": "La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris",
-      "C": "El recipient o dipòsit d'aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega",
-      "D": "La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega"
-    }
-  },
-  {
-    "id": "academia_sim54_q71",
-    "statement": "Seguint els recorreguts d'evacuació, quina distància màxima existirà entre dues columnes seques?",
-    "correct": "B",
-    "explanation": "60 metres des de qualsevol punt a la columna seca més propera.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 54",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "60 m",
-      "B": "120 m",
-      "C": "La distància la marcarà el CTE segons la tipologia de l'edifici",
-      "D": "30 m"
-    }
-  },
-  {
-    "id": "academia_sim56_q52",
-    "statement": "Quin és el diàmetre nominal d'una columna seca d'acer galvanitzat?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 56",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "70 mm",
-      "B": "80 mm",
-      "C": "60 mm",
-      "D": "45 mm"
-    }
-  },
-  {
-    "id": "academia_sim57_q7",
-    "statement": "D'acord amb el RIPCI, quina serà la separació màxima entre una BIE i la més propera serà per a les BIE amb mànega semirígida o plana?",
+    "id": "academia_sim52_q23",
+    "statement": "Quin dels següents arbres serà més probable que trobem a l'estatge subalpí?",
     "correct": "A",
-    "explanation": "La distància des de qualsevol punt de l'àrea protegida fins la BIE més propera no haurà d'excedir el seu radi d'acció.",
+    "explanation": "Les formacions vegetals d'aquest estatge estan constituïdes, en la seua major part, de pinedes de pi negre i avetoses.\nTambé hi podem trobar el bedoll, un arbre caducifoli, de la família de les betulàcies, que ateny uns 20 m d’alçada, de\nfulles triangulars, dentades i glabres, tronc esvelt, escorça llisa i blanca, amb algunes bandes més fosques i branquetes i\nbranquillons més o menys penjants; els fruits són petits i agrupats en aments penjants. Es fa a l’estatge montà i subalpí,\nal Pirineu, i al Cabrerès, preferentment als sòls silicis i secs i forma poblacions importants a les planes d’Europa\nseptentrional.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 57",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 52",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "50 metres",
-      "B": "El radi d'acció de la BIE",
-      "C": "100 metres",
-      "D": "25 metres"
-    }
+      "A": "El bedoll",
+      "B": "El roure",
+      "C": "El faig",
+      "D": "El pi roig"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim57_q67",
-    "statement": "Segons el RIPCI 2017, cada quant de temps es realitzarà la prova de funcionament de tots els polsadors dels dispositius d'activació manual d'alarma?",
-    "correct": "C",
-    "explanation": "Cada 3 mesos s'haurà de comprovar la senyalització dels polsadors manuals d'alarma.",
+    "id": "academia_sim52_q25",
+    "statement": "En referència als bronquis és FALS que:",
+    "correct": "A",
+    "explanation": "L'arbre bronquial es divideix 27 vegades i, a mesura que es va dividint, va disminuint-ne el diàmetre fins a la vintena\ndivisió.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 57",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 52",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cada 3 mesos",
-      "B": "Cada 6 mesos",
-      "C": "Cada any",
-      "D": "Cada 5 anys"
-    }
+      "A": "L'arbre bronquial es divideix dues vegades",
+      "B": "Arriben fins als alvèols",
+      "C": "Cada bronqui principal penetra en el pulmó i s'hi ramifica",
+      "D": "Són a la bifurcació de la tràquea"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim59_q45",
-    "statement": "Quins són els components principals que conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?",
-    "correct": "B",
-    "explanation": "RIPCI - pàgina 21.\n\n\nacadèmia\nbombers",
+    "id": "academia_sim54_q54",
+    "statement": "Quin nom rep el suport que uneix la fulla amb la branca?",
+    "correct": "A",
+    "explanation": "L'àpex és la punta d'una fulla o l'extrem més allunyat del tall.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 59",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega",
-      "B": "La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris",
-      "C": "El recipient o dipòsit d'aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega",
-      "D": "La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega"
-    }
+      "A": "Pecíol",
+      "B": "Estípula",
+      "C": "Limbe",
+      "D": "Àpex"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim60_q48",
-    "statement": "Quantes columnes seques haurà de tenir un edifici?",
+    "id": "academia_sim63_q77",
+    "statement": "Referent a la nomenclatura de les rosques, de quina forma s'expressaran les seves dimensions?",
     "correct": "D",
-    "explanation": "RIPCI 6.3. Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes,\nseguint recorreguts d’evacuació, sigui inferior a 60 m. Cada columna, ascendent o descendent, ha de disposar de la seva\npresa independent en façana.",
+    "explanation": "Per exemple:\nM24 x 3 x 60\nLa M significa rosca mètrica, 24 significa el valor del diàmetre exterior en mm, 3 significa el pas en mm i 60 significa la\nlongitud de la rosca en mm.\nEl pas és la distància entre dos punts homòlegs d'una rosca.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 60",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 63",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una per cada 100 m² de superfície construïda",
-      "B": "Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 120 m",
-      "C": "Una per cada 100 m² de superfície útil",
-      "D": "Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60 m"
-    }
+      "A": "Longitud x Diàmetre exterior x Pas",
+      "B": "Diàmetre exterior x Longitud x Pas",
+      "C": "Pas x Diàmetre exterior x Longitud",
+      "D": "Diàmetre exterior x Pas x Longitud  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim60_q84",
-    "statement": "Per assegurar els nivells de protecció dels diferents hidrants contra incendis, quin dels següents hidrants de columna NO estarà admès?",
+    "id": "academia_sim67_q52",
+    "statement": "Quina de les següents espècies arbòries o arbustives és un planifoli?",
     "correct": "B",
-    "explanation": "RIPCI, pàgina 17 - 3.2 Sistemes d’hidrants contra incendis.\nPer assegurar els nivells de protecció dels diferents hidrants contra incendis, només s’admeten hidrants de columna de\nrang de parell «2» i de tipus «B» o «C». Quan es prevegin riscos de gelades, només s’admeten els de tipus «C».",
+    "explanation": "Els arbres planifolis són els de fulla plana. La majoria són de fulla caduca, però les alzines, el grèvol, el garrofer i el\nmargalló són de fulla perenne.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 60",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Un hidrant de tipus «B»",
-      "B": "Un hidrant de tipus «A»",
-      "C": "Un hidrant de tipus «C»",
-      "D": "Tots tres exemples estaran admesos  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim61_q32",
-    "statement": "Segons el Reglament d'Instal·lacions de Protecció Contra Incendis (RIPCI), el sistema de comunicació de l'alarma permetrà transmetre un senyal diferenciat, generat voluntàriament des d'un lloc de control. El senyal serà, en tot cas, audible, havent de ser, a més, visible quan el nivell de soroll on hagi de ser percebuda superi els:",
-    "correct": "C",
-    "explanation": "RIPCI - pàg 16.\nTant el nivell sonor com l’òptic dels dispositius acústics d’alarma d’incendi i dels dispositius visuals (incorporats quan ho\nexigeixi una altra legislació aplicable o quan el nivell de soroll on s’hagi de percebre superi els 60 dB (A), o quan els\nocupants habituals de l’edifici/establiment siguin persones sordes o sigui probable que portin protecció auditiva) han de\npermetre que siguin percebuts en l’àmbit de cada sector de detecció d’incendi on estiguin instal·lats.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 61",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "80 dB (A)",
-      "B": "50 dB (A)",
-      "C": "60 dB (A)",
-      "D": "75 dB (A)"
-    }
-  },
-  {
-    "id": "academia_sim62_q38",
-    "statement": "D'acord amb el RIPCI, de quin tipus han de ser els hidrants contra incendis?",
-    "correct": "D",
-    "explanation": "Annex I - Secció 1ª Protecció activa contra incendis:\n3. Els hidrants contra incendis han de ser del tipus de columna o subterranis.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 62",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "De rang de parell o imparell",
-      "B": "De columna",
-      "C": "De columna, híbrids o subterranis",
-      "D": "De columna o subterranis"
-    }
-  },
-  {
-    "id": "academia_sim65_q46",
-    "statement": "En els sistemes de columna seca ascendents, on trobarem les sortides?",
-    "correct": "C",
-    "explanation": "Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a\npartir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 65",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta",
-      "B": "A cada planta",
-      "C": "A les plantes parells fins a la vuitena i a totes a partir d’aquesta",
-      "D": "A les plantes parells"
-    }
-  },
-  {
-    "id": "academia_sim67_q13",
-    "statement": "Segons el RIPCI, quina afirmació és CERTA en relació als sistemes de detecció i alarma d'incendis?",
-    "correct": "C",
-    "explanation": "Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura entre 80 cm i 120 cm.\nEls polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi\nde considerar com a origen d’evacuació fins a un polsador, no superi els 25 m.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
+    "theme": "T16 - Assistències tècniques",
     "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura de 90 cm del terra",
-      "B": "Els dispositius automàtics d'activació de l'alarma han d'incorporar en tot cas un dispositiu visual",
-      "C": "La prova de funcionament de tots els polsadors es farà cada any",
-      "D": "Els polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi de considerar com a origen d’evacuació fins a un polsador, no superi els 15 m"
-    }
+      "A": "L'avet (abies alba)",
+      "B": "El faig (fagus sylvatica)",
+      "C": "El pi pinyer (pinus pinea)",
+      "D": "Totes les respostes fan referència a planifolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim69_q66",
-    "statement": "Segons el RIPCI, quin haurà de ser el factor K mínim per a les BIE?",
+    "id": "academia_sim77_q5",
+    "statement": "Quina de les següents característiques sobre la calamarsa és CERTA?",
     "correct": "D",
-    "explanation": "5. Sistemes de boques d’incendi equipades. Punt 2.\nPer assegurar els nivells de protecció, el factor K mínim, segons defineix la norma aplicable, per a les BIE amb mànega\nsemirígida ha de ser de 42 i per a les BIE amb mànega plana de 85",
+    "explanation": "La calamarsa té menys de 5 mm de diàmetre, mentre que la pedra té un diàmetre superior a 5 mm. No es trenca en\ncaure a terra.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 69",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 77",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Si són de mànega semirígida 82, si són de mànega plana 45",
-      "B": "22, en qualsevol cas",
-      "C": "Si són de mànega semirígida 43, si són de mànega plana 65",
-      "D": "Si són de mànega semirígida 42, si són de mànega plana 85"
-    }
+      "A": "Creix formant clovelles alternativament clares i opaques",
+      "B": "Es trenca en caure a terra",
+      "C": "Té més de 5 mm de diàmetre",
+      "D": "Precipita sovint en forma de xàfec"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim70_q74",
-    "statement": "On s'instal·laran les BIE, d'acord amb el RIPCI?",
+    "id": "academia_sim77_q31",
+    "statement": "Quina és la part més interior d'un tronc?",
+    "correct": "D",
+    "explanation": "La medul·la vegetal, també coneguda simplement com a medul·la, és la secció que es troba habitualment al centre o al\ncor del tronc en botànica, específicament en el context de la fusta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Xilema",
+      "B": "Floema",
+      "C": "Càmbium",
+      "D": "Medul·la"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q84",
+    "statement": "En una rosca, com s'anomena la distància entre les puntes de dos ressalts consecutius?",
     "correct": "A",
-    "explanation": "Tampoc podran constituir cap obstacle per a la seva utilització.",
+    "explanation": "Filet: alçada del ressalt.\nDiàmetre nominal: és el diàmetre exterior de l’element mascle mesurat per fora del filet.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 70",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A 5 metres de les sortides de cada sector d'incendi, com a màxim",
-      "B": "El més allunyades possible de les sortides de cada sector d'incendi",
-      "C": "A 15 metres de les sortides de cada sector d'incendi, com a màxim",
-      "D": "A 10 metres de les sortides de cada sector d'incendi, com a màxim"
-    }
+      "A": "Pas",
+      "B": "Filet",
+      "C": "Vall",
+      "D": "Diàmetre nominal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim70_q79",
-    "statement": "D'acord amb el CTE DB-SI, quina resistència mínima al foc hauran d'oferir els elements que separen habitatges entre si?",
-    "correct": "D",
-    "explanation": "D'acord amb el Codi Tècnic de l'Edificació (CTE) en el Document Bàsic de Seguretat en cas d'Incendi (DB-SI), els\nelements que separen habitatges entre si han d'oferir una resistència mínima al foc de EI 60. Això significa que aquests\nelements han de garantir una integritat (E) i un aïllament tèrmic (I) durant almenys 60 minuts en cas d'incendi.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 70",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "EI 30",
-      "B": "EI 60",
-      "C": "R 30",
-      "D": "REI 60"
-    }
-  },
-  {
-    "id": "academia_sim71_q1",
-    "statement": "Segons el DB-SI, s'haurà d'instal·lar un sistema de columna seca en edificis d'ús hospitalari en cas de que l'alçada d'evacuació excedeixi els:",
+    "id": "academia_sim125_q2",
+    "statement": "De quin material estan formats habitualment els nius de les vespes?",
     "correct": "C",
-    "explanation": "Per norma general seran 24 m.",
+    "explanation": "Abelles (Apis mellifera)\nInsectes foscos amb pilositat fina que facilita la pol·linització, essencial per a la flora i els cultius. Viuen en ruscs de cera\namb cel·les hexagonals dins de cavitats naturals o artificials. Normalment no són agressives, tret que es vegi amenaçat\nel rusc.\nVespes (Vespula, Polistes)\nCos llis groc i negre, no fan mel però controlen plagues caçant insectes. Fan nius de fibres vegetals mastegades\n(cel·lulosa), en forma de bola o mitja taronja, sovint visibles a l’exterior, penjats de branques, teulades, murs o enterrats.\nSón més agressives que les abelles davant el perill, sobretot quan perceben que el niu està amenaçat.\nVespa asiàtica (Vespa velutina)\nEspècie invasora del sud-est asiàtic, més gran que les autòctones i de color fosc amb franges grogues. Depreda sobretot\nabelles, afectant l’apicultura i la biodiversitat. Els nius són grans, esfèrics i situats en zones altes. El seu comportament\nés molt defensiu, i pot suposar un risc elevat quan es veu amenaçada.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 71",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "24 metres",
-      "B": "18 metres",
-      "C": "15 metres",
-      "D": "28 metres"
-    }
+      "A": "De resina natural",
+      "B": "De fang barrejat amb petites restes vegetals",
+      "C": "De fibres vegetals mastegades",
+      "D": "De cera produïda per les obreres adultes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim72_q37",
-    "statement": "On estaran situades les preses de la columna seca situades a l'exterior i en les sortides de planta?",
-    "correct": "D",
-    "explanation": "Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 72",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A 1,5 metres del nivell del terra",
-      "B": "A 1,5 metres del nivell del terra les que estiguin situades a l'exterior, i a 1,2 metres del nivell del terra per les que estiguin situades en les sortides de planta",
-      "C": "A 1,2 metres del nivell del terra",
-      "D": "Amb el centre de les seves boques a 0,9 metres del nivell del terra"
-    }
-  },
-  {
-    "id": "academia_sim74_q87",
-    "statement": "On han d'estar ubicades les sortides en els sistemes de columna seca ascendent?",
-    "correct": "C",
-    "explanation": "Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a\npartir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre\nplantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 74",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta",
-      "B": "A cada planta",
-      "C": "A les plantes parells fins a la vuitena i a totes a partir d’aquesta",
-      "D": "A les plantes parells"
-    }
-  },
-  {
-    "id": "academia_sim76_q89",
-    "statement": "Segons el Reglament d’Instal·lacions de Protecció contra incendis (RIPCI) una Boca d’Incendi Equipada (BIE) instal·lada s’ha de revisar cada:",
+    "id": "academia_sim125_q11",
+    "statement": "Quina diferència hi ha entre les coces dels cavalls i les dels bovins?",
     "correct": "A",
+    "explanation": "Els cavalls i el bestiar boví són animals de gran mida que poden provocar lesions greus. Els èquids poden mossegar,\nperò el risc més important en tots dos grups són les coces: en el cas dels cavalls, principalment cap enrere, i en el cas\ndels bovins, també de forma lateral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En els cavalls són principalment cap enrere, i en els bovins també poden ser laterals",
+      "B": "Els cavalls acostumen a donar coces en moviment, mentre que els bovins només quan romanen completament immòbils",
+      "C": "En els bovins són principalment cap enrere, i en els cavalls també poden ser laterals",
+      "D": "Els bovins acostumen a donar coces en moviment, mentre que els cavalls només quan romanen completament immòbils"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q2",
+    "statement": "Un turisme accidentat ha generat automàticament una trucada al 112 mitjançant el sistema eCall. Dins de la classificació de la seguretat dels vehicles, a quin tipus correspon aquest sistema?",
+    "correct": "C",
+    "explanation": "Abelles (Apis mellifera)\nInsectes foscos amb pilositat fina que facilita la pol·linització, essencial per a la flora i els cultius. Viuen en ruscs de cera\namb cel·les hexagonals dins de cavitats naturals o artificials. Normalment no són agressives, tret que es vegi amenaçat\nel rusc.\nVespes (Vespula, Polistes)\nCos llis groc i negre, no fan mel però controlen plagues caçant insectes. Fan nius de fibres vegetals mastegades\n(cel·lulosa), en forma de bola o mitja taronja, sovint visibles a l’exterior, penjats de branques, teulades, murs o enterrats.\nSón més agressives que les abelles davant el perill, sobretot quan perceben que el niu està amenaçat.\nVespa asiàtica (Vespa velutina)\nEspècie invasora del sud-est asiàtic, més gran que les autòctones i de color fosc amb franges grogues. Depreda sobretot\nabelles, afectant l’apicultura i la biodiversitat. Els nius són grans, esfèrics i situats en zones altes. El seu comportament\nés molt defensiu, i pot suposar un risc elevat quan es veu amenaçada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Seguretat primària",
+      "B": "Seguretat secundària",
+      "C": "Seguretat terciària",
+      "D": "Seguretat estructural"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q27",
+    "statement": "Cal aproximar-se a un cavall atrapat i espantat per col·locar-li unes eslingues. Quina pauta d'aproximació és la correcta?",
+    "correct": "A",
+    "explanation": "L'aproximació s'ha de fer pel lateral i fora de l'angle cec, evitant moviments bruscos: si l'animal no ens veu, es pot\nespantar i reaccionar. Situar-se al darrere és especialment perillós perquè les coces dels cavalls es projecten sobretot\ncap enrere.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Fer-ho pel lateral, fora de l'angle cec",
+      "B": "Fer-ho per darrere i lentament, perquè és la zona de menys risc",
+      "C": "Fer-ho de front",
+      "D": "Fer-ho pel lateral, dins l'angle cec, per evitar que ens pugui percebre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q42",
+    "statement": "Quin vestit d'intervenció usarem preferentment els bombers per intervencions en incendis forestals?",
+    "correct": "C",
+    "explanation": "Vestit d’intervenció pesant:\nÚs principal: intervencions en incendis estructurals i urbans, amb exposició directa a flames, altes temperatures i calor\nradiant intensa.\nVestit d’intervenció lleuger:\nÚs principal: intervencions en incendis forestals, assistències tècniques i rescat en exteriors, on és prioritari el confort i la\nmobilitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vestit d’intervenció pesant",
+      "B": "És indiferent, mentre siguin de Categoria III",
+      "C": "Vestit d’intervenció lleuger",
+      "D": "És indiferent, mentre siguin de Categoria I"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q49",
+    "statement": "Durant una intervenció per retirar un arbre amb una motoserra, el cap d'equip ordena delimitar la zona de risc B abans d'iniciar el tall. Quin és l'objectiu principal d'aquesta zona?",
+    "correct": "D",
+    "explanation": "S’estableixen dues zones principals:\n−Zona de risc A: quan hi ha perill de caiguda de l’arbre s’ha de delimitar un perímetre de seguretat equivalent a dues\nvegades i mitja l’alçada de l’arbre, impedint el pas tant de vianants com de vehicles dins d’aquest espai.\n−Zona de risc B: espai immediat al voltant de l’operador de la motoserra. No hi pot haver ningú —ni tan sols altres\nbombers— dins d’un radi mínim de 2 metres al voltant del bomber que realitza el tall, per evitar riscos de contacte amb la\ncadena o projecció de fragments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reservar una zona per dipositar el material de treball",
+      "B": "Delimitar l'espai on hi ha perill de caiguda de l'arbre i impedir-hi el pas de persones i vehicles",
+      "C": "Protegir exclusivament l'operador de les vibracions de la motoserra",
+      "D": "Mantenir lliure un radi mínim de 2 metres al voltant de l'operador per evitar el contacte amb la cadena o la projecció de fragments"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q69",
+    "statement": "En quina part de la motoserra s'indica la longitud de l'espasa?",
+    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 76",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 126",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "3 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat",
-      "B": "6 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat",
-      "C": "12 mesos, per una empresa mantenidora autoritzada",
-      "D": "5 anys, per personal especialitzat del fabricant o per una empresa mantenidora"
-    }
+      "A": "Al protector de la mà dreta",
+      "B": "A la funda de l'espasa",
+      "C": "Al costat de l'adhesiu amb la normativa de seguretat",
+      "D": "A l'espasa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim79_q48",
-    "statement": "Segons el Document Bàsic SI del Codi Tècnic de l'Edificació, quan s'haurà de disposar de boques d'incendi equipades en ús residencial públic?",
-    "correct": "B",
-    "explanation": "Secció SI 4 Instal·lacions de protecció contra incendis - Taula 1.1.\nResidencial Públic:\n- Boques d'incendi equipades: Si la superfície construïda excedeix de 1.000 m² o l'establiment està previst per allotjar\nmés de 50 persones.\n- Columna seca: Si l'altura d'evacuació excedeix de 24 m.\n- Sistema de detecció i alarma d'incendi: Si la superfície construïda excedeix de 500 m².\n- Instal·lació automàtica d'extinció: Si l'altura d'evacuació excedeix de 28 m o la superfície construïda de l'establiment\nexcedeix de 5.000 m².\n- Hidrants exteriors: Un si la superfície total construïda està compresa entre 2.000 i 10.000 m². Un més per cada 10.000\nm² addicionals o fracció.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 79",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Si l'alçada d'evacuació excedeix de 15 m",
-      "B": "Si la superfície construïda excedeix de 1.000 m² o l'establiment està previst per allotjar més de 50 persones",
-      "C": "Si la superfície construïda excedeix de 500 m²",
-      "D": "En tot cas"
-    }
-  },
-  {
-    "id": "academia_sim97_q50",
-    "statement": "Segons el Reglament d’instal·lacions de protecció contra incendis, quina afirmació sobre el sistema de columna seca és FALSA?",
-    "correct": "A",
-    "explanation": "En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida a cada planta.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 97",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida cada dues plantes",
-      "B": "Ha d'estar composta per una presa d’aigua en façana o en zona fàcilment accessible al servei contra incendis, proveïda de vàlvula antiretorn, connexió siamesa, amb claus incorporades i ràcords de 70mm, amb tapa i clau de purga de 25mm",
-      "C": "La presa situada a l’exterior i les sortides a les plantes han de tenir el centre de les seves boques a 0,90m sobre el nivell del sòl",
-      "D": "Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60m"
-    }
-  },
-  {
-    "id": "academia_sim108_q91",
-    "statement": "Segons el RIPCI, quina d’aquestes afirmacions és INCORRECTA en relació amb les boques d’incendi equipades (BIE)?",
+    "id": "academia_sim127_q3",
+    "statement": "Durant el trossejament prolongat de troncs secs es genera una quantitat important de pols de fusta. Quina protecció respiratòria cal emprar?",
     "correct": "D",
-    "explanation": "",
+    "explanation": "Davant l'exposició a pols de fusta la mesura prevista és l'ús d'una màscara filtrant tipus FFP3.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
-    "section": "Simulacre 108",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les BIE de 25 mm han de disposar de mànega semirígida i llança selectora",
-      "B": "Les BIE han d’estar instal·lades de manera que el recorregut fins a qualsevol punt protegit no superi els 50 metres",
-      "C": "Totes les BIE han d’estar connectades a una xarxa d’aigua amb pressió i cabal suficients per garantir el seu funcionament",
-      "D": "Les BIE poden quedar ocultes darrere de mobiliari fix si aquest és fàcilment desplaçable pel personal d’emergència"
-    }
-  },
-  {
-    "id": "academia_sim127_q57",
-    "statement": "En un establiment industrial, durant la revisió de les mesures de protecció contra incendis, es comprova l’alçada d’evacuació per determinar si és obligat disposar de columna seca. A partir de quina alçada d’evacuació és exigible?",
-    "correct": "C",
-    "explanation": "Cal que disposin de columna seca els edificis i establiments següents:\n−Establiments industrials amb alçada d’evacuació de 15 metres o superior.\n−En edificis d’ús residencial habitatge, administratiu, residencial públic, docent, comercial i de pública concurrència, si\nl’alçada d’evacuació és superior a 24 metres.\n−En edificis d’ús hospitalari, si l’alçada d’evacuació supera els 15 metres.\n−En edificis i zones d’ús d’aparcament, si existeixen més de 3 plantes sota rasant o bé més de 4 plantes sobre rasant,\namb sortides a totes les plantes.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T16 - Protecció contra incendis en l'edificació",
+    "theme": "T16 - Assistències tècniques",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "10 metres",
-      "B": "12 metres",
-      "C": "15 metres",
-      "D": "24 metres"
-    }
+      "A": "Màscara autofiltrant tipus FFP1",
+      "B": "Màscara autofiltrant tipus FFP2",
+      "C": "Mascareta quirúrgica d'un sol ús",
+      "D": "Màscara filtrant tipus FFP3"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q10",
+    "statement": "En una mateixa finca cal retirar una serp de gran mida i un ocellet ferit. Quins recursos de captura física corresponen a cada cas?",
+    "correct": "D",
+    "explanation": "Dins la captura física, els llaços es destinen a mamífers mitjans o rèptils grans, mentre que els salabres són el recurs\nprevist per als animals petits; les xarxes de niló queden per a situacions variades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salabre per a la serp i llaç per a l'ocellet",
+      "B": "Llaç per a tots dos, per mantenir la distància de seguretat",
+      "C": "Tovallola per a la serp i xarxa de niló per a l'ocellet",
+      "D": "Llaç per a la serp i salabre per a l'ocellet"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q21",
+    "statement": "Una dotació trosseja un arbre caigut en una zona verda, sense persones atrapades. Quina de les afirmacions següents és FALSA?",
+    "correct": "B",
+    "explanation": "Mentre es desbranca no s'han de retirar les branques fins que s'acabi de tallar, excepte si hi ha persones atrapades;\nretirar-les simultàniament interfereix en la maniobra i incrementa el risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T16 - Assistències tècniques",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cal començar retallant les branques secundàries que no estan recolzades al terra",
+      "B": "Les branques tallades s'han d'anar retirant del lloc a mesura que es van tallant",
+      "C": "Durant el desbrancament convé treballar amb una sola motoserra en funcionament",
+      "D": "En una branca amb dos punts de recolzament, el primer tall es fa a la part superior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

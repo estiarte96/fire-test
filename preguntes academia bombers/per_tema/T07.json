@@ -1,21 +1,23 @@
 [
   {
-    "id": "academia_sim48_q38",
-    "statement": "A més de la llengua oficial de l’Estat espanyol, són oficials també les altres llengües espanyoles?",
+    "id": "academia_sim88_q48",
+    "statement": "Quin és l’únic riu que neix a Catalunya i desemboca a l’Atlàntic?",
     "correct": "D",
-    "explanation": "Article 3 - CE:\n1. El castellà és la llengua espanyola oficial de l’Estat. Tots els espanyols tenen el deure de conèixer-la i el dret d’usar-la.\n2. Les altres llengües espanyoles seran també oficials en les respectives Comunitats Autònomes d’acord amb els seus\nEstatuts.\n3. La riquesa de les diferents modalitats lingüístiques d’Espanya és un patrimoni cultural que serà objecte d’especial\nrespecte i protecció.",
+    "explanation": "Tots els rius que neixen a Catalunya o la travessen pertanyen al vessant mediterrani. Aquesta afirmació, però, té una\nexcepció: la Garona, que neix a la Vall d’Aran, i que acaba desguassant al vessant atlàntic.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
-    "section": "Simulacre 48",
+    "section": "Simulacre 88",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "No, tenen la consideració de dialectes",
-      "B": "Sí, a tot el territori espanyol",
-      "C": "Sí, als respectius territoris històrics i d’acord amb els seus Estatuts",
-      "D": "Sí, a les respectives Comunitats Autònomes"
-    }
+      "A": "La Valira",
+      "B": "El Flamisell",
+      "C": "El Cinca",
+      "D": "El Garona"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim95_q56",
@@ -33,7 +35,9 @@
       "B": "Catorze",
       "C": "Setze",
       "D": "Dinou"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim112_q57",
@@ -51,43 +55,9 @@
       "B": "14 departaments",
       "C": "15 departaments",
       "D": "12 departaments"
-    }
-  },
-  {
-    "id": "academia_sim125_q66",
-    "statement": "Segons l'article 10.2 de la Llei 1/1998, què ha de lliurar l'Administració a les persones interessades que ho sol·licitin?",
-    "correct": "C",
-    "explanation": "Article 10. Els procediments administratius.\n2. L'Administració ha de lliurar a les persones interessades que ho sol·licitin, en la llengua oficial demanada, una\ntestimoniança traduïda d'allò que els afecta. La sol·licitud de traducció no pot comportar cap perjudici o despesa al\nsol·licitant ni retards en el procediment ni suspendre'n la tramitació i els terminis establerts.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T07 - Política lingüística",
-    "section": "Simulacre 125",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una traducció oficial de la documentació administrativa que els sigui d'interès",
-      "B": "Una certificació traduïda de l'expedient administratiu en la llengua oficial sol·licitada",
-      "C": "Una testimoniança traduïda d'allò que els afecta, en la llengua oficial demanada",
-      "D": "Una còpia traduïda de tot el procediment administratiu en la llengua oficial demanada"
-    }
-  },
-  {
-    "id": "academia_sim125_q74",
-    "statement": "Segons l'article 15 de la Llei 1/1998, la llengua és un requisit de forma dels documents privats?",
-    "correct": "D",
-    "explanation": "Article 15. Els documents civils i mercantils\n1. La llengua no és requisit de forma dels documents privats. Per tant, són vàlids els redactats en qualsevol idioma, sens\nperjudici de les traduccions que les lleis civils, mercantils o processals exigeixin per a executar-los, en el cas que l'idioma\nno sigui oficial a Catalunya.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T07 - Política lingüística",
-    "section": "Simulacre 125",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Sí, sempre que tinguin efectes davant l'Administració",
-      "B": "Sí, quan es redactin en una llengua oficial de Catalunya",
-      "C": "Només en els documents de caràcter mercantil",
-      "D": "No"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q14",
@@ -105,6 +75,8 @@
       "B": "El Consorci per a la Normalització Lingüística",
       "C": "La Generalitat",
       "D": "El professorat dels centres docents de Catalunya"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

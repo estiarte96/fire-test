@@ -1,21 +1,63 @@
 [
   {
-    "id": "academia_sim1_q2",
-    "statement": "La bugia és un element característic dels motors:",
-    "correct": "D",
+    "id": "academia_sim1_q27",
+    "statement": "La zona compresa entre el nombre de rpm on el motor obté el màxim parell motor i les rpm en què es genera la màxima potència s'anomena:",
+    "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 1",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Dièsel",
-      "B": "Híbrids",
-      "C": "Tant Otto com Dièsel",
-      "D": "Otto"
-    }
+      "A": "Camp d'elasticitat",
+      "B": "Marge de rendiment",
+      "C": "Desviació potencial",
+      "D": "Corba de potència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q54",
+    "statement": "El sistema de refrigeració més utilitzat és el de refrigeració per aigua, que consta d'un conjunt d'elements que són:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El radiador, la bomba d'aigua, el ventilador, el termòstat, el termocontacte i elements de control",
+      "B": "El radiador, la bomba d'aigua, el ventilador, el termòstat i elements de control",
+      "C": "El radiador, la bomba d'aigua, el ventilador, el termòstat, el termocontacte, les vàlvules i elements de control",
+      "D": "El radiador, el ventilador, el termòstat, i elements de control"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q69",
+    "statement": "Volem aixecar un pes de 6.000 N amb un torn. El cilindre sobre el que enrotllem el pes té un radi de 50 cm. Quin radi ha de tenir la maneta per tal d'aconseguir aixecar el pes aplicant 300 N?",
+    "correct": "D",
+    "explanation": "força × radi maneta = resistència × radi cilindre\n300*x = 6.000*0,5\nx = 6.000*0,5/300 = 10 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4,5 metres",
+      "B": "1,5 metres",
+      "C": "1 metre",
+      "D": "10 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim1_q89",
@@ -24,7 +66,7 @@
     "explanation": "En el sistema DOHC l'arbre de lleves es disposa sobre la culata, i en té dos.\nEls sistemes OHC i DOHC són els més usats en l'actualitat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 1",
     "isSaved": 0,
     "isAnswered": 0,
@@ -33,7 +75,69 @@
       "B": "En el sistema OHV l'arbre de lleves es disposa sobre la culata",
       "C": "El sistema OHC té dos arbres de lleves",
       "D": "El sistema OHV és el més utilitzat en l'actualitat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q6",
+    "statement": "Quin element de la transmissió aprofita la força del motor, modificant el parell que proporciona a costa de la velocitat, per resoldre les diferents necessitats de circulació del vehicle?",
+    "correct": "B",
+    "explanation": "Podem trobar caixes de velocitats manuals o automàtiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embragatge",
+      "B": "La caixa de velocitats",
+      "C": "L'arbre de transmissió",
+      "D": "El mecanisme diferencial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q67",
+    "statement": "Respecte el sistema d'injecció d'acumulador Common Rail, podem afirmar que: (senyala la incorrecta)",
+    "correct": "A",
+    "explanation": "És un dels sistemes més utilitzats en l'actualitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actualment s'està començant a incorporar",
+      "B": "S'incorpora en motors dièsel d'injecció indirecta",
+      "C": "El governament del sistema és totalment electrònic",
+      "D": "Totes les respostes són correctes, no n'hi ha cap d'incorrecta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q72",
+    "statement": "Quina és la funció principal de la vàlvula de descàrrega d'un motor?",
+    "correct": "A",
+    "explanation": "La vàlvula de descàrrega és un dels elements que configuren la bomba de lubrificació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Limitar la pressió de l'oli en el circuit",
+      "B": "Descarregar la quantitat exacte d'oli als pistons quan correspongui",
+      "C": "Generar una pressió a la bomba d'oli proporcional a les revolucions del motor",
+      "D": "Totes les respostes són correctes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q5",
@@ -42,7 +146,7 @@
     "explanation": "Això farà que el pinyó de l'arbre de lleves hagi de tenir el doble de dents que el del cigonyal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
@@ -51,7 +155,9 @@
       "B": "1 a 2",
       "C": "1 a 1",
       "D": "2 a 2"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim3_q36",
@@ -60,7 +166,7 @@
     "explanation": "En els motors alternatius (pràcticament tots), un pistó es desplaça per un cilindre amb un moviment lineal alternatiu que\nes transforma en rotatiu a través del mecanisme biela-manovella.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
@@ -69,7 +175,29 @@
       "B": "S'usen menys que els motors alternatius",
       "C": "No disposa de vàlvules, per tant l'admissió i l'escapament es fa a través d'espiralls",
       "D": "Totes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim4_q42",
+    "statement": "El bombí és un element de frenada i el trobem en:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els frens de disc",
+      "B": "El fre d'estacionament",
+      "C": "Els frens de tambor",
+      "D": "Els frens d'emergència  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q86",
@@ -78,7 +206,7 @@
     "explanation": "En un sistema OHV el taquet opera sobre la vareta empenyedora.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 4",
     "isSaved": 0,
     "isAnswered": 0,
@@ -87,7 +215,9 @@
       "B": "El balancí",
       "C": "La vàlvula",
       "D": "El tensor"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim4_q94",
@@ -96,7 +226,7 @@
     "explanation": "El motor dièsel, en el temps d'admissió aspira només aire.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 4",
     "isSaved": 0,
     "isAnswered": 0,
@@ -105,7 +235,29 @@
       "B": "Aspira la mescla d'aire i gasolina",
       "C": "Aspira la gasolina",
       "D": "Aspira dièsel"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q27",
+    "statement": "Quantes plaques-etiqueta de perill portarà una cisterna que transporti només gasolina?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una a la part de davant i una a la part posterior",
+      "B": "Una a la part posterior, únicament",
+      "C": "Una davant, una a la part posterior i una a cada lateral",
+      "D": "Una a la part posterior i una a cada lateral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q69",
@@ -114,7 +266,7 @@
     "explanation": "El sistema de distribució ha d'estar perfectament sincronitzat amb el moviment del tren alternatiu (pistó, biela i cigonyal).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
@@ -123,7 +275,9 @@
       "B": "El sistema de distribució",
       "C": "El sistema col·lector",
       "D": "El sistema de col·lecció"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q87",
@@ -132,7 +286,7 @@
     "explanation": "La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
@@ -141,7 +295,9 @@
       "B": "Centímetres cúbics (cm³)",
       "C": "Mil·límetres",
       "D": "Mil·límetres cúbics (mm³)"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim5_q92",
@@ -150,7 +306,7 @@
     "explanation": "El sistema OHC, igual que el DOHC, porta l'arbre de lleves a la culata.\nEl sistema OHV porta l'arbre de lleves al bloc.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
@@ -159,43 +315,89 @@
       "B": "El sistema OHC porta l'arbre de lleves al bloc",
       "C": "En un motor de quatre temps, cada dos voltes del cigonyal l'arbre de lleves en farà una",
       "D": "Totes les respostes són correctes, no n'hi ha cap de falsa"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim6_q72",
-    "statement": "El ____ és una vàlvula tèrmica i el ____ és un interruptor bimetall.",
-    "correct": "B",
-    "explanation": "L'electroventilador el formen el motor elèctric, un relé i el termocontacte.\nLa funció d'un manocontacte és obrir o tancar un circuit elèctric en funció de si hi ha oli o no n'hi ha, en aquest últim cas\ntancant-lo i avisant-nos mitjançant un indicador lluminós.",
+    "id": "academia_sim5_q95",
+    "statement": "Quina d'aquestes serres no forma part dels Pirineus?",
+    "correct": "C",
+    "explanation": "La serra de Picancel forma part del Prepirineu.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
-    "section": "Simulacre 6",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Termocontacte/termòstat",
-      "B": "Termòstat/termocontacte",
-      "C": "Manocontacte/termocontacte",
-      "D": "Electroventilador/termòstat  acadèmia bombers"
-    }
+      "A": "Monteixo",
+      "B": "Catllar",
+      "C": "Picancel",
+      "D": "Puigpedrós"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim6_q93",
-    "statement": "En un motor de quatre cilindres en línia, amb ordre d'encesa 1-3-4-2, en quin estat es trobarà el cilindre 1 en el moment en que el cilindre 4 es trobi en escapament?",
+    "id": "academia_sim6_q16",
+    "statement": "Quin d'aquests elements no trobarem al bloc motor?",
     "correct": "D",
-    "explanation": "Ordre d'encesa: 1-3-4-2.",
+    "explanation": "Les bieles, per exemple, també en formarien part.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 6",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Explosió",
-      "B": "Admissió",
-      "C": "Escapament",
-      "D": "Compressió"
-    }
+      "A": "El cigonyal",
+      "B": "La bancada",
+      "C": "Els cilindres",
+      "D": "Tots tres formen part del bloc motor  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q62",
+    "statement": "Quin dels següents sistemes de comandament de la frenada acostumarem a trobar en vehicles pesants?",
+    "correct": "C",
+    "explanation": "Utilitza aire a pressió per a comandar el dispositiu de frenada. En trepitjar el pedal del fre s'introdueix aire comprimit al\ncircuit de frenada.\nEl sistema hidràulic el trobarem en vehicles lleugers i funciona mitjançant un circuit oleohidràulic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema hidràulic",
+      "B": "Sistema combinat",
+      "C": "Sistema pneumàtic",
+      "D": "Sistema aeròbic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q58",
+    "statement": "El termòstat estarà situat a:",
+    "correct": "C",
+    "explanation": "Amb el motor en fred, el termòstat es tancarà amb l'objectiu de que el motor escalfi l'aigua de refrigeració. En arribar a la\ntemperatura òptima de treball (uns 90 graus), s'obre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La culata, que és la part del motor que arriba a una major temperatura",
+      "B": "La part inferior del radiador",
+      "C": "La canalització del circuit de refrigeració que surt del motor cap a la part alta del radiador",
+      "D": "Depenent del model de vehicle, el podrem trobar en una o una altra de les opcions proposades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim7_q89",
@@ -204,7 +406,7 @@
     "explanation": "Aquesta vareta actuarà sobre el balancí, que actuarà sobre la vàlvula.\nEn un sistema OHC, a través del taquet s'acciona la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 7",
     "isSaved": 0,
     "isAnswered": 0,
@@ -213,7 +415,29 @@
       "B": "La vàlvula",
       "C": "El balancí",
       "D": "La vareta empenyedora"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q34",
+    "statement": "Porten ____ els vehicles que tenen caixes de canvi manuals i ____ els que tenen canvi automàtic.",
+    "correct": "B",
+    "explanation": "Acoblen i desacoblen la transmissió de la força proporcionada pel motor a la caixa de velocitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "embragatge // també",
+      "B": "embragatge // convertidor de parell",
+      "C": "convertidor de parell // embragatge",
+      "D": "convertidor de parell // també"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim8_q35",
@@ -222,7 +446,7 @@
     "explanation": "És el sistema més utilitzat en l'automoció.\nEn els motors rotatius o Wankel el moviment rotatiu es genera directament en un pistó de secció triangular, que gira dins\nd'una carcassa on forma 3 cambres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 8",
     "isSaved": 0,
     "isAnswered": 0,
@@ -231,7 +455,9 @@
       "B": "En els motors rotatius",
       "C": "Tant en els motors alternatius com en els motors Wankel",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim8_q54",
@@ -240,7 +466,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 8",
     "isSaved": 0,
     "isAnswered": 0,
@@ -249,7 +475,29 @@
       "B": "Entre el carburador i la tapa de balancins",
       "C": "Entre la cisterna i la vàlvula papallona",
       "D": "Entre el filtre d'aire i la culata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q84",
+    "statement": "En relació als segments d'un pistó podem dir que:",
+    "correct": "B",
+    "explanation": "El segment d'untatge es situa després del segment d'estanquitat. Ordre (de dalt a abaix): segment de foc, segment\nd'estanquitat i segment d'untatge.\nPer tal d'augmentar-ne la resistència, el segment de foc habitualment es recobreix de crom.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El segment d'untatge es situa entre el segment de foc i el segment d'estanquitat, i s'encarrega d'anar recollint l'oli dipositat a les parets del cilindre durant els desplaçaments del pistó",
+      "B": "El segment d'estanquitat està sotmès a condicions menys severes que el segment de foc",
+      "C": "Per tal d'augmentar-ne la resistència, el segment de foc habitualment es recobreix de ferro",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim9_q24",
@@ -258,7 +506,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
@@ -267,7 +515,89 @@
       "B": "Les varetes",
       "C": "Els balancins",
       "D": "Les molles  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q37",
+    "statement": "Pel que fa els cicles de treball del motor de gasolina de quatre temps, en el temps d'admissió:",
+    "correct": "C",
+    "explanation": "El cigonyal haurà girat 180° i es genera una depressió (pressió inferior a l'atmosfèrica).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cigonyal haurà girat 360°",
+      "B": "S'aspira la mescla i es genera una sobrepressió",
+      "C": "La vàlvula d'escapament es manté tancada",
+      "D": "El pistó es desplaça del PMI al PMS"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q33",
+    "statement": "Quants colzes tindrà un motor en \"V\" de sis cilindres?",
+    "correct": "D",
+    "explanation": "En els motors en \"V\" hi trobarem un colze per cada dos cilindres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sis",
+      "B": "Dotze",
+      "C": "Un",
+      "D": "Tres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q35",
+    "statement": "En un torn (màquina simple), a mesura que anem enrotllant la corda al cilindre...",
+    "correct": "A",
+    "explanation": "Això es deu a que el radi efectiu (r1) augmenta, per tant per tal que s'iguali la equació caldrà augmentar la potència (P):\nP*r2 = R*r1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La força que haurem d'exercir serà major",
+      "B": "La força que haurem d'exercir serà menor",
+      "C": "La força que haurem d'exercir romandrà constant",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q42",
+    "statement": "Sobre la potència d'un motor podem dir que:",
+    "correct": "A",
+    "explanation": "Potència i parell motor tenen valors màxims a règims de rotació diferents.\nÉs el parell motor el que s'expressa en Newtons per metre.\n1 Hp = 745 W.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot expressar com el producte entre el parell motor i la velocitat de rotació",
+      "B": "Potència i parell motor tenen valors màxims a règims de rotació semblants",
+      "C": "1 HorsePower (Hp) equival a 735 W",
+      "D": "Es pot expressar en \"Newtons × metre\""
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q85",
@@ -276,7 +606,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 10",
     "isSaved": 0,
     "isAnswered": 0,
@@ -285,7 +615,9 @@
       "B": "El contrapes",
       "C": "El suport",
       "D": "El canell"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim10_q86",
@@ -294,7 +626,7 @@
     "explanation": "Elements fixos: bloc, culata, càrter.\nElements mòbils: biela, pistons, cigonyal, volant d'inèrcia.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 10",
     "isSaved": 0,
     "isAnswered": 0,
@@ -303,7 +635,29 @@
       "B": "El volant d'inèrcia i el càrter, ja que els dos són elements fixos",
       "C": "El càrter",
       "D": "El volant d'inèrcia"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim11_q47",
+    "statement": "Quin dels següents elements no forma part del sistema de distribució en un motor de quatre temps?",
+    "correct": "D",
+    "explanation": "Els taquets també formarien part dels elements de la distribució.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'arbre de lleves",
+      "B": "Les vàlvules d'admissió i escapament",
+      "C": "L'eix de balancins",
+      "D": "Tots els elements citats formen part de la distribució"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim11_q79",
@@ -312,7 +666,7 @@
     "explanation": "Per evitar la sortida de lubricant a l'exterior del motor, en els dos extrems se situen uns retenidors.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 11",
     "isSaved": 0,
     "isAnswered": 0,
@@ -321,7 +675,9 @@
       "B": "En un costat hi trobarem el pinyó de la distribució, i a l'altre el volant d'inèrcia",
       "C": "En un costat hi trobarem la biela, i a l'altre el pinyó de la distribució",
       "D": "En un costat hi trobarem el buló, i a l'altre els contrapesos"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q17",
@@ -330,7 +686,7 @@
     "explanation": "OHV = Overhead valve. Disposa de les vàlvules a la culata i de l'arbre de lleves al bloc del motor.\nEn els sistemes OHC i DOHC és l'arbre de lleves el que es disposa a la culata.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 12",
     "isSaved": 0,
     "isAnswered": 0,
@@ -339,7 +695,9 @@
       "B": "Als cilindres",
       "C": "Al càrter",
       "D": "A la culata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim12_q30",
@@ -348,7 +706,7 @@
     "explanation": "El cap de la biela, en canvi, anirà unit al cigonyal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 12",
     "isSaved": 0,
     "isAnswered": 0,
@@ -357,7 +715,49 @@
       "B": "El cos",
       "C": "El peu",
       "D": "El colze"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q32",
+    "statement": "Quina d'aquestes afirmacions és falsa?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El motor dièsel és més lleuger que el motor d'explosió",
+      "B": "El tonell és un recipient que manté els nivells de gasolina adequats en el carburador",
+      "C": "El motor dièsel té major rendiment tèrmic que el motor d'explosió",
+      "D": "La bomba d'injecció és un element que ha d'actuar de forma especialment ràpida i precisa  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q70",
+    "statement": "Si procedim al buidatge de l'oli del motor d'un vehicle, sobre quin recipient haurem d'actuar?",
+    "correct": "A",
+    "explanation": "A la part inferior del càrter hi trobarem un tap per realitzar el buidat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre el càrter",
+      "B": "Sobre la culata",
+      "C": "Sobre el bloc motor",
+      "D": "Sobre la bomba d'oli acoblada al cigonyal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim13_q41",
@@ -366,7 +766,7 @@
     "explanation": "Igual que en el motor Dièsel.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
@@ -375,25 +775,149 @@
       "B": "Aspira només gasolina",
       "C": "L'enunciat és incorrecte; tots els motors de gasolina funcionen per injecció indirecta",
       "D": "Aspira una mescla d'aire i gasolina"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim14_q79",
-    "statement": "L'arbre de lleves és un element del sistema de distribució d'un vehicle que rep el moviment del cigonyal i determina l'angle d'obertura i tancament de les vàlvules. També podem dir que:",
-    "correct": "D",
+    "id": "academia_sim14_q43",
+    "statement": "Que surti fum blau del tub d'escapament d'un cotxe normalment és símptoma de:",
+    "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 14",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Gira a la meitat de revolucions que el cigonyal",
-      "B": "Estarà sotmès a esforços de torsió i flexió, però no de compressió",
-      "C": "Transforma el moviment de rotació en moviment rectilini",
-      "D": "Totes les respostes són correctes"
-    }
+      "A": "Consum excessiu de combustible",
+      "B": "Consum excessiu d'oli",
+      "C": "Filtració d'aigua dins el dipòsit de combustible",
+      "D": "Obstrucció del conducte d'alimentació"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q7",
+    "statement": "En un motor de 4 temps en línia, amb ordre d'encesa 1-3-4-2, si el primer pistó es troba en fase descapament, quin pistó es trobarà en fase d'admissió?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El segon",
+      "B": "El quart",
+      "C": "El tercer",
+      "D": "El sisè"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q8",
+    "statement": "En quin tipus de vehicles haurem de purgar el circuit un cop canviat el filtre del combustible?",
+    "correct": "A",
+    "explanation": "En els vehicles de gasolina el purgat es realitza automàticament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicles de gasoil",
+      "B": "Vehicles de gasolina",
+      "C": "Vehicles híbrids",
+      "D": "Vehícles elèctrics  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q49",
+    "statement": "Els cilindres són una de les parts més importants del bloc motor. Quina de les següents afirmacions sobre els tipus de bloc on es mecanitzen els cilindres és falsa?",
+    "correct": "A",
+    "explanation": "En el bloc integral els cilindres es mecanitzen sobre el material del mateix bloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En el bloc integral es munta un cilindre de paret prima o camisa a cada orifici del bloc. Aquestes camises estaran muntades a pressió, en contacte amb la paret del bloc.",
+      "B": "En podem trobar de tres tipus: el bloc integral, el bloc de camises seques i el bloc de camises humides",
+      "C": "En el bloc de camises humides les camises són de paret gruixuda i estan en contacte directe amb el líquid refrigerant",
+      "D": "Totes les afirmacions són correctes, no n'hi ha cap de falsa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q84",
+    "statement": "Quin element de transmissió s'encarrega de transmetre la força des del canvi al pont posterior i permet moviments simultanis amunt/avall i dreta/esquerra fins a un angle límit?",
+    "correct": "D",
+    "explanation": "El mecanisme diferencial fa possible que les rodes motrius d'un mateix eix girin a diferents velocitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El convertidor de parell",
+      "B": "El mecanisme diferencial",
+      "C": "La caixa de velocitats",
+      "D": "L'arbre de transmissió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q54",
+    "statement": "El boló és un element clau pel funcionament del motor. La seva funció és:",
+    "correct": "C",
+    "explanation": "Es fabricarà amb acer cimentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unir el pistó amb el cap de la biela",
+      "B": "Unir la biela amb el cigonyal",
+      "C": "Unir el pistó amb el peu de la biela",
+      "D": "Unir el cilindre amb el cap de la biela"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q68",
+    "statement": "Podriem dir que és un element que realitza una funció inversa a la de l'estàrter:",
+    "correct": "A",
+    "explanation": "L'estramgulador és una vàlvula, habitualment de papallona, que obstrueix el flux d'aire, enriquint d'aquesta manera la\nmescla (augmentant d'aquesta manera la proporció de benzina).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'estrangulador",
+      "B": "El xiclè",
+      "C": "La vàlvula papallona",
+      "D": "Els col·lectors d'admissió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim16_q74",
@@ -402,7 +926,7 @@
     "explanation": "Per cada dues voltes que dóna el cigonyal, l'arbre de lleves en dóna una.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 16",
     "isSaved": 0,
     "isAnswered": 0,
@@ -411,7 +935,49 @@
       "B": "Dues",
       "C": "Quatre",
       "D": "Un motor de quatre temps no pot ser d'explosió"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q44",
+    "statement": "Com s'anomena el bloc on els cilindres es mecanitzen sobre el material del mateix bloc?",
+    "correct": "A",
+    "explanation": "Bloc de camises seques: es munta un cilindre de paret prima o camisa en cada orifici del bloc. Aquestes camises estan\nmuntades a pressió, en contacte amb la paret del bloc, perquè es puguin refrigerar.\nBloc de camises humides: les camises són de paret gruixuda i estan en contacte directe amb el líquid refrigerant.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloc integral",
+      "B": "Bloc de camises seques",
+      "C": "Bloc de camises humides",
+      "D": "Bloc descamisat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q48",
+    "statement": "Quin motor injecta el combustible a una major pressió?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El de gasolina d'explosió",
+      "B": "El dièsel d'injecció",
+      "C": "El motor elèctric",
+      "D": "El motor de gasolina i el dièsel, indistintament  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim18_q17",
@@ -420,7 +986,7 @@
     "explanation": "El motor de quatre vàlvules per cilindre (dues d'admissió i dues d'escapament) és el més habitual.\nL'encarregat de governar el sistema de distribució és l'arbre de lleves.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 18",
     "isSaved": 0,
     "isAnswered": 0,
@@ -429,7 +995,89 @@
       "B": "Estan constituïdes per un cap i una tija",
       "C": "El motor de dos vàlvules per cilindre és el més freqüent",
       "D": "Totes les respostes són correctes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q46",
+    "statement": "On es troba el bloc motor?",
+    "correct": "C",
+    "explanation": "L'ordre (de dalt a abaix) seria:\nTapa de balancins, culata, bloc motor i càrter.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre la tapa de balancins i el càrter",
+      "B": "Entre la tapa de balancins i la culata",
+      "C": "Entre la culata i el càrter",
+      "D": "Cap resposta és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q49",
+    "statement": "Durant el temps d'admissió del cicle de treball del pistó:",
+    "correct": "D",
+    "explanation": "Com que el cigonyal dona dues voltes completes, a cada temps del cicle de treball (n'hi ha quatre) el cigonyal donarà\nmitja volta (180°).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cigonyal gira 180°",
+      "B": "La vàlvula d'escapament es manté tancada",
+      "C": "El pistó es desplaça del PMS al PMI, provocant una depressió",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q61",
+    "statement": "Quina de les següents formes de refrigerar l'oli en un motor no existeix?",
+    "correct": "D",
+    "explanation": "Refrigeració al càrter: és la més senzilla i consisteix en la radiació de la calor del càrter a l'atmosfera per efecte del pas\nde l'aire mentre circula el vehicle.\nRadiador d'oli: és un radiador semblant al de refrigeració del motor, que se situa en contacte amb l'aire per irradiar la\ncalor.\nIntercanviador de calor oli/aigua: posa en contacte el circuit de refrigeració del motor amb els conductes de l'oli.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Refrigeració al càrter",
+      "B": "Radiador d'oli",
+      "C": "Intercanviador de calor oli/aigua",
+      "D": "Refrigeració a la culata"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q9",
+    "statement": "L'avantatge de la injecció directa Common Rail respecte la injecció directa convencional és:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El menor soroll de funcionament del motor",
+      "B": "L'augment del rendiment",
+      "C": "El menor consum i la baixa contaminació ambiental",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim19_q16",
@@ -438,7 +1086,7 @@
     "explanation": "Els balancins són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l'arbre\nde lleves i, per l'altre, el transmeten a la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
@@ -447,7 +1095,209 @@
       "B": "El cigonyal",
       "C": "La biela",
       "D": "El cilindre  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim19_q94",
+    "statement": "Quina de les següents afirmacions és falsa respecte el parell motor?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Representa la força que és capaç d'exercir el cigonyal",
+      "B": "S'expressa en \"Newtons × metre\"",
+      "C": "És un moment de força",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q10",
+    "statement": "Dins de quin component del sistema de transmissió d'un vehicle s'inclou l'eix intermediari?",
+    "correct": "A",
+    "explanation": "Els canvis de marxa manuals consten de tres arbres: el primari i el secundari, alineats, i l’intermediari, paral·lel als altres\ndos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la caixa de canvis",
+      "B": "De l'embragatge",
+      "C": "Del grup diferencial",
+      "D": "De l'arbre de transmissió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q56",
+    "statement": "El sistema de refrigeració per aigua d'un vehicle consta dels següents elements:",
+    "correct": "D",
+    "explanation": "Les aletes corresponen al sistema de refrigeració per aire.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bomba d'aigua, ventilador, termocontacte, termòstat i elements de control",
+      "B": "Radiador, bomba d'aigua, ventilador i elements de control",
+      "C": "Radiador, bomba d'aigua, aletes i ventilador",
+      "D": "Radiador, bomba d'aigua, ventilador, termòstat i elements de control  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q52",
+    "statement": "Un torn amb el cilindre de 32 cm de radi l'utilitzem per treure aigua d'un pou amb una galleda. La maneta del torn mesura 120 cm entre l'eix del cilindre i el punt on exercim la força. Suposant que no hi ha fregament i que la corda i la galleda no pesen, quants litres d'aigua podem treure aplicant una força a la maneta de 8 kp?",
+    "correct": "D",
+    "explanation": "120 cm × 8 kp = 32 cm × x\n960 / 32 = 30 kp (equival a 30 litres).\nRecorda que 1 kp = 1 kgf = 9, 81 N",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5 litres",
+      "B": "22,5 litres",
+      "C": "40 litres",
+      "D": "30 litres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim21_q73",
+    "statement": "Quina d'aquestes juntes no existeix?",
+    "correct": "D",
+    "explanation": "La junta de la culata és la més significativa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Junta del col·lector d'admissió",
+      "B": "Junta de culata",
+      "C": "Junta de bomba d'aigua",
+      "D": "Totes les opcions llistades poden existir"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q52",
+    "statement": "Quin element del sistema de transmissió s'encarrega de transmetre el moviment des dels pinyons planetaris del diferencial fins a les rodes motrius?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els planetaris",
+      "B": "Els semieixos o paliers",
+      "C": "El convertidor de parell",
+      "D": "El mecanisme diferencial"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q50",
+    "statement": "Quin tipus de làmpades ofereixen una millor eficiència energètica en relació al seu consum?",
+    "correct": "D",
+    "explanation": "Utilitzen díodes emissors de llum. Atès que la llum capaç d'emetre un LED no és gaire intensa, per aconseguir la\nintensitat lluminosa similar a altres llums existents com les incandescents o les fluorescents compactes els llums LED\nestan compostos per agrupacions de leds, en major o menor nombre, segons la intensitat lluminosa desitjada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Làmpades incandescents",
+      "B": "Làmpades halògenes",
+      "C": "Làmpades de xenó",
+      "D": "Llums LED"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q33",
+    "statement": "Quin tipus de màquina eina té com a protagonista un pistó dins d'un cilindre buit?",
+    "correct": "C",
+    "explanation": "La pressió d'una bomba pneumàtica amb gas a pressió (generalment aire) és la que desplaça el pistó de forma lineal a\ntravés d'un eix. Els sistemes hidràulics funcionen de forma similar, però amb la diferència que el cilindre es mou a partir\nd'un líquid incompressible (p.e: l'oli).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les màquines hidràuliques",
+      "B": "Les màquines elèctriques",
+      "C": "Les màquines pneumàtiques",
+      "D": "Les màquines tipus cabrestant"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q54",
+    "statement": "Quin ordre correcte segueix el sistema de transmissió d'un vehicle des del motor fins les rodes?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor, caixa de canvis, embragatge, arbre de transmissió, diferencial, semieixos i rodes",
+      "B": "Motor, embragatge, arbre de transmissió, semieixos, satèl·lits, planetaris i rodes",
+      "C": "Motor, arbre de transmissió, embragatge, caixa de canvis, semieixos, satèl·lits, planetaris i rodes",
+      "D": "Motor, embragatge, caixa de canvis, arbre de transmissió, diferencial, semieixos i rodes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q86",
+    "statement": "Què és, en essència, la projecció de Lambert?",
+    "correct": "A",
+    "explanation": "És una projecció cònica simple que s'utilitza freqüentment en navegació aèria.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una projecció que superposa un con sobre l'esfera de la Terra",
+      "B": "Un tipus de projecció cilíndrica",
+      "C": "Un mètode de representació gràfica basat en la projecció de l'esfera de la Terra sobre un cilindre",
+      "D": "Una projecció que superposa l'esfera de la Terra sobre una figura geomètrica en forma de con"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q50",
@@ -456,7 +1306,7 @@
     "explanation": "El cigonyal dóna 180° (relació 1 a 2).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 25",
     "isSaved": 0,
     "isAnswered": 0,
@@ -465,7 +1315,9 @@
       "B": "45°",
       "C": "180°",
       "D": "360°"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim25_q51",
@@ -474,7 +1326,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 25",
     "isSaved": 0,
     "isAnswered": 0,
@@ -483,7 +1335,69 @@
       "B": "Motor de reacció",
       "C": "Motor Otto",
       "D": "Motor rotatiu"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q52",
+    "statement": "Quin tipus de bloc presenta camises de paret gruixuda i en contacte amb el líquid refrigerant?",
+    "correct": "B",
+    "explanation": "Bloc integral: els cilindres es mecanitzen sobre el material del mateix bloc.\nBloc de camises seques: es munta un cilindre de paret prima o camisa en cada orifici del bloc. Aquestes camises estan\nmuntades a pressió, en contacte amb la paret del bloc, perquè es puguin refrigerar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloc integral",
+      "B": "Bloc de camises humides",
+      "C": "Bloc de camises seques",
+      "D": "Bloc refrigerant"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q54",
+    "statement": "Quin element d'un vehicle s'encarrega de transmetre la força des del canvi al pont posterior permetent moviments simultanis amunt/avall i dreta/esquerra fins a un angle límit?",
+    "correct": "C",
+    "explanation": "Mecanisme diferencial: fa possible que les rodes motrius d'un mateix eix girin a diferents velocitats i per tant ajusta, en\nels revolts, el gir de cada roda segons el recorregut que hagi de fer.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El mecanisme diferencial",
+      "B": "La caixa de velocitats",
+      "C": "L'arbre de transmissió",
+      "D": "El convertidor de parell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q31",
+    "statement": "Sobre la pols extintora, és fals que:",
+    "correct": "D",
+    "explanation": "Pot ser utilitzat a temperatures inferiors a 60ºC. La seva temperatura de funcionament és d'entre -20ºC i +60 ºC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es compon de partícules molt petites",
+      "B": "Presenta una toxicitat nul·la, menys en casos de descàrregues massives que poden produir problemes respiratoris i manca de visibilitat",
+      "C": "Presenta una mala conducció de l'electricitat",
+      "D": "Pot ser utilitzat a una temperatura de 72ºC"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q1",
@@ -492,7 +1406,7 @@
     "explanation": "Ja que per 2 voltes que fa el cigonyal, l'arbre de lleves en fa una.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 27",
     "isSaved": 0,
     "isAnswered": 0,
@@ -501,7 +1415,9 @@
       "B": "El doble de dents que el del cigonyal",
       "C": "Les mateixes dents que el del cigonyal",
       "D": "El triple de dents que el del cigonyal"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim27_q22",
@@ -510,7 +1426,7 @@
     "explanation": "El calibre, en canvi, és el diàmetre interior del cilindre.\nLa cilindrada fa referència a volums, no a longitud.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 27",
     "isSaved": 0,
     "isAnswered": 0,
@@ -519,7 +1435,29 @@
       "B": "Cilindrada",
       "C": "Calibre",
       "D": "Cilindrada unitària"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q34",
+    "statement": "Calcula el pes de la càrrega que podem aixecar mitjançant un torn amb un cilindre de 80 cm de diàmetre i una manovella de 30 cm de llargada, sabent que la força aplicada és de 20 N.",
+    "correct": "A",
+    "explanation": "Dades:\nd = 80 cm --> r = 40 cm\nl = 30 cm\nF = 20 N\nFormula torn:\nF x l = P x r\n20 N x 30 cm = P x 40 cm\n(20 N x 30 cm) / 40 cm = P\nP = 15 N.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 Newtons",
+      "B": "20 Newtons",
+      "C": "35 Newtons",
+      "D": "12 Newtons"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim28_q52",
@@ -528,7 +1466,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
@@ -537,7 +1475,69 @@
       "B": "El número de cilindres més un",
       "C": "El número de cilindres menys un",
       "D": "Quatre"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q69",
+    "statement": "Calcula el pes de la càrrega que podem aixecar mitjançant un torn amb un cilindre de 40 cm de diàmetre i una manovella de 20 cm de llargada, sabent que la força aplicada és de 5 N.",
+    "correct": "D",
+    "explanation": "Dades:\nd = 40 cm --> r = 20 cm\nl = 20 cm\nF = 5 N\nFormula torn:\nF x l = P x r\n5 N x 20 cm = P x 20 cm\n(5 N x 20 cm) / 20 cm = P\nP = 5 N.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 Newtons",
+      "B": "20 Newtons",
+      "C": "10 Newtons",
+      "D": "5 Newtons"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q63",
+    "statement": "Quan en un vehicle es transportin dues matèries diferents en dues cisternes separades, s'hi col·locarà un total de:",
+    "correct": "A",
+    "explanation": "Els dos plafons corresponents a la primera matèria aniran: un a la part davantera del vehicle i l'altre a la part de darrere\nde la cisterna.\nEls dos plafons corresponents a la segona matèria aniran: un a la part davantera de la segona cisterna i l'altre al final del\nvehicle, a la part de darrera.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 plafons taronges",
+      "B": "2 plafons taronges",
+      "C": "8 plafons taronges",
+      "D": "6 plafons taronges"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q77",
+    "statement": "La boira, en realitat, n'és un tipus:",
+    "correct": "A",
+    "explanation": "Els estrats o estratus són núvols situats a baixa altura (<2 km). Quan es troben en contacte amb el sòl se'ls passa a\nanomenar boira.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estrat",
+      "B": "Cúmul",
+      "C": "Cirrus",
+      "D": "Nimbus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim31_q8",
@@ -546,7 +1546,7 @@
     "explanation": "El motor en W tindrà el cigonyal més curt.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 31",
     "isSaved": 0,
     "isAnswered": 0,
@@ -555,25 +1555,109 @@
       "B": "El motor en línia",
       "C": "El motor en V",
       "D": "El motor en bòxer  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim32_q39",
-    "statement": "Quina és la funció de l'intercooler en un motor turboalimentat?",
-    "correct": "C",
-    "explanation": "Aquest element no és més que un radiador aire-aire o aire-aigua que té la funció de reduir la temperatura de l'aire que\nprové del compressor del turbo fins a uns nivells òptims.",
+    "id": "academia_sim31_q37",
+    "statement": "Què són les llumeneres?",
+    "correct": "A",
+    "explanation": "Llum antiboira: Llum destinat a augmentar la il·luminació d'una via pel davant del vehicle o fer-lo més visible pel darrere\nen cas de boira, neu, pluja intensa o núvols de pols.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són obertures a les parets del cilindre que, en motors de dos temps, permeten que el flux dels gasos sigui l'adequat per completar el cicle",
+      "B": "Són dispositius que s'inclouen dins el sistema de seguretat passiva d'un vehicle",
+      "C": "Són llums destinades a augmentar la il·luminació d'una via pel davant del vehicle o fer-lo més visible pel darrere en cas de boira, neu, pluja intensa o núvols de pols",
+      "D": "Les respostes b) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q81",
+    "statement": "Què és la potència d'un motor?",
+    "correct": "B",
+    "explanation": "Parell motor: força necessària per què el cigonyal del motor giri i sigui capaç de transmetre aquest moviment a la resta\nd'elements mecànics necessaris per desplaçar un vehicle.\nConsum: litres de gasolina o dièsel que necessita un cotxe en recórrer una determinada distància",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La força necessària per què el cigonyal del motor giri i sigui capaç de transmetre aquest moviment a la resta d'elements mecànics necessaris per desplaçar un vehicle",
+      "B": "La capacitat que té un motor de realitzar la força del parell motor",
+      "C": "La màxima força que pot exercir un motor",
+      "D": "Els litres de gasolina o dièsel que necessita un cotxe en recórrer una determinada distància"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q93",
+    "statement": "Per on és més habitual començar a enumerar els cilindres en el cas dels motors de vehicles?",
+    "correct": "C",
+    "explanation": "En el cas dels motors de vehicles, el més habitual és anumerar els cilindres a partir del costat contrari a la sortida de la\npotència, és a dir, el primer cilindre seria el més allunyat respecte el volant d'inèrcia o a l'embragatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir del cilindre més proper a l'embragatge o al volant d'inèrcia",
+      "B": "A partir del cilindre del mig i cap a la seva dreta",
+      "C": "A partir del costat contrari a la sortida de la potència",
+      "D": "Les respostes a) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q25",
+    "statement": "Quina junta s'utilitza per a transmetre el moviment entre dos eixos rotatoris no paral·lels, l'orientació relativa dels quals canvia segons el moviment?",
+    "correct": "D",
+    "explanation": "La junta homocinètica és una peça complexa, que unida al palier de transmissió té com a finalitat connectar dos eixos\ndisposats longitudinalment, no continus, de manera que la velocitat entre ells sigui igual en tot moment.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 32",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Refrigerar els gasos d'escapament",
-      "B": "Comprimir l'aire d'admissió per facilitar una posterior refrigeració",
-      "C": "Refrigerar l'aire d'admissió per augmentar-ne la seva densitat",
-      "D": "Un motor turboalimentat no necessitarà intercooler"
-    }
+      "A": "La junta de culata",
+      "B": "La junta homocinètica",
+      "C": "La junta del càrter",
+      "D": "La junta de Cardan"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q68",
+    "statement": "On estarà situat el termòstat d'un vehicle?",
+    "correct": "C",
+    "explanation": "Amb el motor fred el termòstat es tancarà per què el mateix motor escalfi l'aigua de refrigeració. En assolir els 90°C,\naproximadament, s'obre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la part de la culata que assoleix una major temperatura",
+      "B": "A la part superior del radiador",
+      "C": "A la canalització del circuit de refrigeració que surt del motor cap a la part superior del radiador",
+      "D": "A la part inferior del radiador"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim33_q10",
@@ -582,7 +1666,7 @@
     "explanation": "La junta cardan s'encarrega de transmetre el moviment giratori del cigonyal fins les rodes motrius. També s'anomena\njunta universal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 33",
     "isSaved": 0,
     "isAnswered": 0,
@@ -591,7 +1675,69 @@
       "B": "La junta de la tròcola",
       "C": "La junta de Cardan",
       "D": "La junta de la culata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q11",
+    "statement": "Quina funció té el boló?",
+    "correct": "A",
+    "explanation": "Es fabricarà amb acer cimentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unir el pistó amb el peu de la biela",
+      "B": "Unir la biela amb el cigonyal",
+      "C": "Unir el pistó amb el cap de la biela",
+      "D": "Unir el cilindre amb el cap de la biela"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q95",
+    "statement": "Quin element s'encarrega de mantenir el pla horitzontal d'un vehicle?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La barra de torsió",
+      "B": "La ballesta",
+      "C": "Els amortidors",
+      "D": "El control electrònic d'estabilitat (ESP)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q47",
+    "statement": "Circulem amb el nostre vehicle i portem una marxa posada. Quan girarà el disc d'embragatge?",
+    "correct": "B",
+    "explanation": "Pedal d'embragatge trepitjat: fem que el moviment del motor no es transmeti a la caixa de velocitats.\nPedal d'embragatge sense trepitjar: fem que el moviment del motor es transmeti a la caixa de velocitats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan tinguem el pedat trepitjat",
+      "B": "Quan no tinguem el pedat trepitjat",
+      "C": "Sempre",
+      "D": "En el moment de canviar de marxa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim34_q56",
@@ -600,7 +1746,7 @@
     "explanation": "Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 34",
     "isSaved": 0,
     "isAnswered": 0,
@@ -609,25 +1755,49 @@
       "B": "Dues voltes",
       "C": "Mitja volta",
       "D": "Tres voltes  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim35_q28",
-    "statement": "Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?",
+    "id": "academia_sim35_q38",
+    "statement": "Quin motor injecta el combustible a major pressió?",
     "correct": "B",
-    "explanation": "ECU = Engine Control Unit.\nRecorda que el sistema de gestió i la unitat de control formen part dels components principals del sistema del vehicle\nhíbrid i el sistema del vehicle elèctric, respectivament.",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 35",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "EMS",
-      "B": "ECU",
-      "C": "MSI",
-      "D": "IMU"
-    }
+      "A": "El motor d'explosió de gasolina",
+      "B": "El motor dièsel d'injecció",
+      "C": "El motor elèctric",
+      "D": "El motor híbrid"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q66",
+    "statement": "Quins components configuren el sistema de lubricació d'un motor de gasolina i gasoil?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El circuit refrigerant, el filtre d'oli, el sensor de pressió i la bomba d'oli",
+      "B": "El filtre d'oli, el termòstat, la bomba d'oli i vàlvula de sobrepressió",
+      "C": "La bomba d'oli, la vàlvula de sobrepressió, el sensor de pressió i el termòstat",
+      "D": "El sensor de pressió, la vàlvula de sobrepressió, la bomba d'oli i el filtre d'oli"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim35_q67",
@@ -636,7 +1806,7 @@
     "explanation": "L'índex d'octà és una mesura que indica la resistència a la detonació del carburant quan es comprimeix dins del cilindre\nd'un motor.\nCom més índex d'octà, més capacitat d'antidetonació de la gasolina.\nUna benzina sense plom de 95 tindrà 95 octans, i una de 98, 98 octans.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 35",
     "isSaved": 0,
     "isAnswered": 0,
@@ -645,7 +1815,9 @@
       "B": "És el mateix entre una benzina sense plom de 95 i una de 98",
       "C": "És una propietat intrascendent en els carburants",
       "D": "Pot ser major de 100, en el cas d'alguns combustibles"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim36_q34",
@@ -654,7 +1826,7 @@
     "explanation": "ICGC: Les projeccions cilíndriques i còniques es basen o s'inspiren en l'estratègia de projectar la superfície del globus\nsobre un cilindre o un con, respectivament, que posteriorment seran tallats per una generatriu i desenrotllats plans; per\naquest motiu se les anomena, de vegades, projeccions desenrotllables. Les projeccions azimutals, en canvi, es basen o\ns'inspiren en la projecció directa del globus sobre una superfície ja plana.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 36",
     "isSaved": 0,
     "isAnswered": 0,
@@ -663,25 +1835,149 @@
       "B": "Les projeccions azimutals",
       "C": "Les projeccions cilíndriques i azimutals",
       "D": "Les projeccions cilíndriques"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim38_q10",
-    "statement": "Quin element d'un vehicle pertany al sistema de seguretat activa?",
-    "correct": "C",
-    "explanation": "La resta pertanyen a la seguretat passiva.\nExemples d'elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.",
+    "id": "academia_sim36_q45",
+    "statement": "En un motor de quatre temps, durant el temps d'escapament:",
+    "correct": "B",
+    "explanation": "La relació és d'1 a 2.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'arbre de lleves dóna 180° i el cigonyal dóna 90º",
+      "B": "L'arbre de lleves dóna 90° i el cigonyal dóna 180°",
+      "C": "Tant l'arbre de lleves com el cigonyal donen 90º",
+      "D": "L'arbre de lleves dóna 180º i el cigonyal dóna 360º"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q92",
+    "statement": "Sobre el sistema d'injecció de tipus Common Rail podem dir que:",
+    "correct": "B",
+    "explanation": "És un sistema electrònic d'injecció directa.\nLa majoria de motors Dièsel d'arreu funcionen amb Common Rail (Rail comú).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un sistema d'injecció indirecta",
+      "B": "Està concebut per a motors Dièsel",
+      "C": "Funciona de manera completament mecànica",
+      "D": "No disposa d'injectors"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q5",
+    "statement": "Quin nom rep la peça capaç d'unir l'eix secundari amb l'arbre de transmissió?",
+    "correct": "B",
+    "explanation": "La junta cardan NO és una junta homocinètica, és a dir, l'eix a què es transmet el moviment no gira a una velocitat\nangular constant.\nLa junta homocinètica o junta de velocitat constant és un element articulat que garanteix que la velocitat de rotació de\nl'eix d'entrada sigui la mateixa que la de l'eix de sortida, sense que hi influeixi l'angle de transmissió de l'acoblament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La junta de la culata",
+      "B": "La junta cardan",
+      "C": "La junta del càrter",
+      "D": "La junta homocinètica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q34",
+    "statement": "Si circulem amb el nostre vehicle amb la quarta marxa posada, el disc de l'embragatge:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estarà girant",
+      "B": "No girarà fins que no trepitgem el pedal",
+      "C": "Podrà estar girant o no, en funció de les característiques del vehicle",
+      "D": "El disc de l'embragatge només el trobarem en cotxes amb caixa de canvis automàtica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q85",
+    "statement": "El termòstat d'un motor:",
+    "correct": "C",
+    "explanation": "Està situat normalment per damunt del radiador i estarà obert quan l'aigua circuli del motor al radiador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Està situat normalment per sota del radiador",
+      "B": "Estarà tancat quan l'aigua circuli del motor al radiador",
+      "C": "Tractarà de regular la temperatura del motor per a què es mantingui a una temperatura que oscil·larà entre els 80 i els 90 graus, segons el motor",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q2",
+    "statement": "De quina manera actua el sistema electrònic que regula la motricitat que arriba a les rodes d'un vehicle?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els seients",
-      "B": "El cinturó de seguretat",
-      "C": "Els pneumàtics",
-      "D": "Els airbags"
-    }
+      "A": "Bloquejant el diferencial en cas de bloqueig d'una de les rodes motrius",
+      "B": "Fent frenar les rodes que tenen una menor adherència al paviment",
+      "C": "Bloquejant l'arbre de transmissió",
+      "D": "Totes tres opcions a la vegada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q44",
+    "statement": "Quin líquid necessita principalment el sistema de refrigeració per regular la temperatura d'un vehicle amb motor de gasolina?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Valvulina",
+      "B": "Aigua destil·lada",
+      "C": "Gel sec",
+      "D": "Aigua mineral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q40",
@@ -690,7 +1986,7 @@
     "explanation": "El cigonyal dóna 180° (relació 1 a 2).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
@@ -699,7 +1995,9 @@
       "B": "45°",
       "C": "180°",
       "D": "360°  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim40_q77",
@@ -708,7 +2006,7 @@
     "explanation": "Ull! Motor d'inducció = motor asíncron.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
@@ -717,61 +2015,109 @@
       "B": "Que el motor d'inducció o síncron, a diferència de l'asíncron, girarà a la mateixa velocitat que el cigonyal",
       "C": "Mentre que el motor síncron és aquell en què el rotor i el camp magnètic rotant giren a la mateixa velocitat, en el motor asíncron el camp magnètic sempre va uns graus per darrere del rotor",
       "D": "No presenten cap diferència"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim41_q95",
-    "statement": "Quin nom rep el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
-    "correct": "C",
-    "explanation": "Control d'estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.\nSistema de suspensió activa: s'encarrega de gestionar i controlar de forma independent l'amortiguació de cadascuna de\nles rodes.",
+    "id": "academia_sim41_q15",
+    "statement": "El parell motor:",
+    "correct": "D",
+    "explanation": "S'expressa en Newtons per metre (N×m).\nÉs la potència la que determina la velocitat a la què es pot moure un vehicle.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 41",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El sistema de direcció assistida",
-      "B": "El control d'estabilitat",
-      "C": "El control de tracció",
-      "D": "Sistema de suspensió activa"
-    }
+      "A": "Com menor sigui el seu valor, més pes serà capaç de moure",
+      "B": "S'expressa en Newtons partit per metre (N/m)",
+      "C": "Determina la velocitat a la què es pot moure un vehicle",
+      "D": "En el context del motor d'un vehicle, determinarà la força necessària per fer girar el cigonyal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim42_q16",
-    "statement": "Com s'anomena la tipologia de bomba que utilitza un pistó en moviment dins d'un cilindre?",
-    "correct": "B",
-    "explanation": "Les bombes d'èmbol també s'anomenen bombes de pistó. Poden ser d'efecte simple o de doble efecte. No necessiten\nser encebades.",
+    "id": "academia_sim41_q19",
+    "statement": "El bloc on els cilindres es mecanitzen sobre el material del mateix bloc rep el nom de:",
+    "correct": "A",
+    "explanation": "Bloc de camises seques: es munta un cilindre de paret prima o camisa en cada orifici del bloc. Aquestes camises estan\nmuntades a pressió, en contacte amb la paret del bloc, perquè es puguin refrigerar.\nBloc de camises humides: les camises són de paret gruixuda i estan en contacte directe amb el líquid refrigerant.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloc integral",
+      "B": "Bloc de camises seques",
+      "C": "Bloc de camises humides",
+      "D": "Bloc de fricció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q37",
+    "statement": "En els motors d'explosió, on es mesclen l'aire i la gasolina?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al carburador",
+      "B": "A la culata",
+      "C": "Als cilindres",
+      "D": "Al sortidor"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q91",
+    "statement": "És el recipient que conté l’oli de lubrificació del motor:",
+    "correct": "D",
+    "explanation": "Va muntat a la part inferior del bloc mitjançant cargols i amb la interposició d’una junta per facilitar l’estanquitat.\nNormalment és de xapa d’acer, encara que també es pot fabricar d’aliatge d’alumini, atesa la bona conductivitat tèrmica\nd’aquest metall i la reducció del nivell sonor del motor. En el seu interior hi ha envans per tal de frenar el moviment de l’oli\ndurant el desplaçament del vehicle. S’hi afegeix, a la part inferior, un tap roscat per buidar l’oli.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 42",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Bomba de diafragma",
-      "B": "Bomba d'èmbol",
-      "C": "Bomba centrífuga",
-      "D": "Bomba alternativa  acadèmia bombers"
-    }
+      "A": "El bloc",
+      "B": "La culata",
+      "C": "Els cilindres",
+      "D": "El càrter"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim43_q81",
-    "statement": "A quin tipus de motor trobarem el rotor de gàbia d'esquirol?",
+    "id": "academia_sim43_q64",
+    "statement": "Què podem afirmar en relació al parell motor?",
     "correct": "B",
-    "explanation": "Motor asíncron = motor d'inducció.\nUn rotor de gàbia d'esquirol és bàsicament un cilindre muntat en un eix, on el seu anell és conductor, i prenent la forma\nde la roda pels hàmsters.",
+    "explanation": "La potència també s’expressa com el producte del parell motor per la velocitat de rotació.\nPotència i parell motor tenen valors màxims a règims de rotació diferents.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 43",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al motor de gas",
-      "B": "Al motor elèctric asíncron de corrent altern",
-      "C": "Al motor de gasoil",
-      "D": "Al motor elèctric síncron de corrent altern"
-    }
+      "A": "La potència també s’expressa com el quocient del parell motor per la velocitat de rotació",
+      "B": "El màxim valor del parell motor normalment coincideix amb el mínim consum de combustible",
+      "C": "Potència i parell motor tenen valors màxims a règims de rotació semblants",
+      "D": "Les respostes a) i b) són correctes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q70",
@@ -780,7 +2126,7 @@
     "explanation": "És en el sistema OHV que l'arbre de lleves es troba al bloc motor.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 44",
     "isSaved": 0,
     "isAnswered": 0,
@@ -789,7 +2135,9 @@
       "B": "Trobem a l'arbre de lleves proper al cigonyal",
       "C": "L'arbre de lleves es troba a sobre de la culata",
       "D": "L'arbre de lleves es troba per sota del càrter"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim44_q91",
@@ -798,7 +2146,7 @@
     "explanation": "En el motor de gasolina de 4 temps, en canvi, hi entraria una barreja d'aire i benzina.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 44",
     "isSaved": 0,
     "isAnswered": 0,
@@ -807,7 +2155,9 @@
       "B": "Hi entrarà aire, únicament",
       "C": "Només hi entrarà gasoil",
       "D": "Hi entrarà una barreja d'aire i gasoil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q12",
@@ -816,7 +2166,7 @@
     "explanation": "Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 45",
     "isSaved": 0,
     "isAnswered": 0,
@@ -825,7 +2175,29 @@
       "B": "Dues voltes",
       "C": "Mitja volta",
       "D": "Tres voltes"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q21",
+    "statement": "Formen part del sistema de distribució d'un motor:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cigonyal i el grup diferencial",
+      "B": "El volant d'inèrcia i el càrter",
+      "C": "El turbocompressor i les vàlvules dels cilindres",
+      "D": "L'embragatge i el manocontacte"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim45_q65",
@@ -834,7 +2206,7 @@
     "explanation": "La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 45",
     "isSaved": 0,
     "isAnswered": 0,
@@ -843,7 +2215,49 @@
       "B": "En centímetres cúbics (cm³)",
       "C": "En mil·límetres",
       "D": "En litres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q26",
+    "statement": "El turbocompressor:",
+    "correct": "D",
+    "explanation": "És l'Intercooler que s'encarrega de refredar l'aire que rep del Turbocompressor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'encarrega de refredar l'aire que li arriba de l'intercooler",
+      "B": "És un sistema de sobrealimentació",
+      "C": "Compta amb una turbina",
+      "D": "Les respostes b) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q95",
+    "statement": "Quin pes podem aixecar mitjançant un torn amb un cilindre de 40 cm de diàmetre i una manovella de 40 cm de llargada, sabent que la força aplicada és de 200 N? (g = 10 m/s²)",
+    "correct": "A",
+    "explanation": "Dades:\nd = 40 cm --> r = 20 cm\nl = 40 cm\nF = 200 N\nFormula torn:\nF x l = P x r\n200 N x 40 cm = P x 20 cm\n8.000 / 20 = P\nP = 400 N = 40 kg",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "40 kg",
+      "B": "20 kg",
+      "C": "200 kg",
+      "D": "400 kg"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim47_q65",
@@ -852,7 +2266,7 @@
     "explanation": "En un sistema OHC, a través del taquet s'acciona la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 47",
     "isSaved": 0,
     "isAnswered": 0,
@@ -861,25 +2275,89 @@
       "B": "El balancí",
       "C": "La vàlvula",
       "D": "El tensor"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim51_q33",
-    "statement": "En un motor elèctric, el rotor:",
-    "correct": "A",
-    "explanation": "El rotor té un diàmetre menor que l'estator, ja que es troba encabit dins l'estator.",
+    "id": "academia_sim48_q44",
+    "statement": "La bomba d'oli d'un vehicle:",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'encarrega d'enviar oli al radiador",
+      "B": "Envia oli a les canalitzacions de greixatge",
+      "C": "Té la missió d'enviar oli al carburador",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q59",
+    "statement": "Quins elements componen el sistema de refrigeració d'un vehicle?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El radiador, la bomba d'aigua, el ventilador, el termòstat, el termocontacte i elements de control",
+      "B": "El radiador, la bomba d'aigua, el ventilador, el termòstat i elements de control",
+      "C": "El radiador, la bomba d'aigua, el ventilador, el termòstat, el termocontacte, les vàlvules i elements de control",
+      "D": "El radiador, el ventilador, el termòstat, i elements de control"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q24",
+    "statement": "Quina força haurem de fer per elevar una galleda d'aigua de 10 kg, si està enrotllada a un corró cilíndric de 12 cm de diàmetre i el radi de gir de la manovella és de 24 cm? (g = 10 m/s²)",
+    "correct": "D",
+    "explanation": "F · rm = R · rc\nF · 24 cm = 100 N · 6 cm\n24F = 600 N\nF = 25 N\nLa llei del torn relaciona les forces amb aquests dos radis: com més gran és el radi de la manovella respecte del cilindre,\nmenys força s’haurà de fer.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És la part mòbil del motor",
-      "B": "Té un diàmetre major que l'estator",
-      "C": "És la part estàtica del motor",
-      "D": "Hi ha més d'una resposta correcta"
-    }
+      "A": "50 Newtons",
+      "B": "100 Newtons",
+      "C": "2,5 Newtons",
+      "D": "25 Newtons  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q31",
+    "statement": "Com s'anomenen els elements que s'encarreguen d'accionar els taquets?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Molles",
+      "B": "Vàlvules",
+      "C": "Balancins",
+      "D": "Lleves"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q46",
@@ -888,7 +2366,7 @@
     "explanation": "Per això, la quantitat de dents de la corona de l'arbre de lleves és el doble que la del pinyó del cigonyal. Aquest procés el\nconeixem com a desmultiplicació.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
@@ -897,7 +2375,9 @@
       "B": "De 1 a 1",
       "C": "De 1 a 2",
       "D": "De 2 a 3"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim51_q48",
@@ -906,7 +2386,7 @@
     "explanation": "El pistó, la biela o el cigonyal també serien exemples d'elements mòbils.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
@@ -915,7 +2395,29 @@
       "B": "El volant d'inèrcia",
       "C": "La culata",
       "D": "El bloc motor  acadèmia bombers"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q73",
+    "statement": "En un moviment de terres, aquestes s’han anat amuntegat formant un terraplè. L’angle màxim que pot formar la superfície del terraplè respecte l’horitzontal s’anomena:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Angle d’esponjament",
+      "B": "Angle d’anivellament",
+      "C": "Angle de talús",
+      "D": "Cap de les anteriors és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim52_q85",
@@ -924,7 +2426,7 @@
     "explanation": "El cilindre té tres conductes o llumeneres:\n- D'escapament\n- De càrrega\n- D'admissió\nLa llumenera d'escapament i la llumenera de càrrega es localitzen, enfrontades, a prop del PMI. Durant el moviment del\npistó entre el PMS i el PMI aquestes llumeneres són descobertes i cobertes per aquest pistó. La llumenera d'escapament\nestà col·locada en una posició més elevada que la llumenera de càrrega, de manera que el pistó descobrirà primer la\nlumbrera d'escapament.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 52",
     "isSaved": 0,
     "isAnswered": 0,
@@ -933,7 +2435,9 @@
       "B": "Tres; una d'escapament, una de càrrega i una d'admissió",
       "C": "Quatre; una d'escapament, una d'admissió, una de càrrega i una de descàrrega",
       "D": "Aquests motors no disposen de llumeneres, en tot cas disposaran de vàlvules"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim53_q9",
@@ -942,7 +2446,7 @@
     "explanation": "El motor dièsel, en el temps d'admissió aspira només aire.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 53",
     "isSaved": 0,
     "isAnswered": 0,
@@ -951,25 +2455,69 @@
       "B": "Una mescla d'aire i gasolina",
       "C": "Gasolina",
       "D": "Dièsel o gasoil"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim53_q41",
-    "statement": "Què s'entén per una autobomba?",
-    "correct": "C",
-    "explanation": "",
+    "id": "academia_sim53_q29",
+    "statement": "Podriem dir que és un dispositiu que realitza una funció inversa a la de l'estrangulador. Parlem de:",
+    "correct": "A",
+    "explanation": "L'estramgulador és una vàlvula, habitualment de papallona, que obstrueix el flux d'aire, enriquint d'aquesta manera la\nmescla (augmentant d'aquesta manera la proporció de benzina).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 53",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És una bomba elèctrica que es connecta a un electrogen",
-      "B": "És una bomba per a qualsevol ús, que es pot desplaçar manualment",
-      "C": "És un vehicle automòbil equipat de bomba accionada pel motor",
-      "D": "És una bomba automàtica exclusiva per a líquids"
-    }
+      "A": "L'estàrter",
+      "B": "El xiclè",
+      "C": "La vàlvula papallona",
+      "D": "Els col·lectors d'admissió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q53",
+    "statement": "Quines són les parts principals del motor alternatiu d'èmbols?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'èmbol, la biela i el cigonyal",
+      "B": "El bloc motor, la bomba d'oli i el cigonyal",
+      "C": "El càrter, el filtre d'oli i l'oli",
+      "D": "El cigonyal, el volant d'impulsió i els coixinets del cigonyal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q82",
+    "statement": "Quina de les següents funcions NO correspon a la caixa transmissió?",
+    "correct": "D",
+    "explanation": "Les funcions de la caixa transmissió són:\n- Transferir des de la caixa la força motriu als arbres de transmissió davanter i posterior.\n- Si el vehicle és un 4X4 permanent, hi ha el diferencial central.\n- Si el vehicle és un 4X4 opcional, es connecta /desconnecta l’arbre de transmissió del davant.\n- Allotjar-hi les reductores.\n- En alguns casos, tenir una sortida per a una presa de força.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Allotjar les reductores",
+      "B": "Transferir des de la caixa la força motriu als arbres de transmissió davanter i posterior",
+      "C": "En alguns casos, tenir una sortida per a una presa de força",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim54_q11",
@@ -978,7 +2526,7 @@
     "explanation": "En un sistema OHC, a través del taquet s'acciona la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
@@ -987,7 +2535,109 @@
       "B": "Sobre el balancí",
       "C": "Sobre la vàlvula",
       "D": "Sobre el tensor"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q16",
+    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió manual?",
+    "correct": "B",
+    "explanation": "Està integrat a l'embragatge, o bé al convertidor de parell, en funció de si es tracta d'un vehicle amb transmissió manual\no automàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la caixa de canvis",
+      "B": "A l'embragatge",
+      "C": "A les rodes",
+      "D": "Al cigonyal  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q40",
+    "statement": "Com s'anomena el bloc on les camises del cilindre són de paret gruixuda i estan en contacte directe amb el líquid refrigerant?",
+    "correct": "C",
+    "explanation": "Bloc de camises seques: es munta un cilindre de paret prima o camisa en cada orifici del bloc. Aquestes camises estan\nmuntades a pressió, en contacte amb la paret del bloc, perquè es puguin refrigerar.\nBloc de camises humides: les camises són de paret gruixuda i estan en contacte directe amb el líquid refrigerant.\nBloc integral: els cilindres es mecanitzen sobre el material del mateix bloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloc integral",
+      "B": "Bloc de camises seques",
+      "C": "Bloc de camises humides",
+      "D": "Bloc lubrificat  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q66",
+    "statement": "Com s'anomena el recipient que conté l’oli de lubricació del motor?",
+    "correct": "D",
+    "explanation": "Va muntat a la part inferior del bloc mitjançant cargols i amb la interposició d’una junta per facilitar l’estanquitat.\nNormalment és de xapa d’acer, encara que també es pot fabricar d’aliatge d’alumini, atesa la bona conductivitat tèrmica\nd’aquest metall i la reducció del nivell sonor del motor. En el seu interior hi ha envans per tal de frenar el moviment de l’oli\ndurant el desplaçament del vehicle. S’hi afegeix, a la part inferior, un tap roscat per buidar l’oli.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bloc motor",
+      "B": "Culata",
+      "C": "Col·lector d'admissió",
+      "D": "Càrter"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q60",
+    "statement": "En molles de la suspensió poden ser, bàsicament, ballestes o molles helicoïdals. Quin avantatge ofereixen aquestes darreres molles respecte les ballestes?",
+    "correct": "B",
+    "explanation": "Cada sistema té avantatges i inconvenients:\n- Les ballestes poden, per elles mateixes, sostenir els ponts de transmissió, n’eviten la rotació en frenar i accelerar i, com\nque estan fixades pels dos extrems, reparteixen millor els esforços sobre el xassís. L’inconvenient és que és un sistema\nmolt pesat, més sorollós, i de reaccions més lentes i brusques.\n- Les molles helicoïdals són més lleugeres, reaccionen amb més suavitat i “adaptabilitat” i, per tant, donen més confort a\nles persones ocupants. L’inconvenient és que no poden sostenir els ponts, ha d’haver-hi tot un conjunt de braços i tirants\nper sostenir-los i es complica el sistema.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Poden sostenir els ponts de transmissió per si mateixes",
+      "B": "Són més lleugeres",
+      "C": "Reparteixen millor els esforços sobre el xassís",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q22",
+    "statement": "Quin dels següents elements correspon a una de les parts d'un sistema de frens de disc?",
+    "correct": "C",
+    "explanation": "La resta d'opcions són elements del fre de tambor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les sabates",
+      "B": "El folre de fre",
+      "C": "Les pastilles",
+      "D": "El bombí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim58_q57",
@@ -996,7 +2646,7 @@
     "explanation": "L'arbre de lleves es mou sincronitzat amb el cigonyal i està accionat per la cadena de distribució o per la corretja de\ndistribució, depenent del disseny del motor.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 58",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1005,7 +2655,169 @@
       "B": "El distribuïdor",
       "C": "La culata",
       "D": "L'arbres de lleves"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q60",
+    "statement": "Un torn amb el cilindre de 12 cm de radi l'utilitzem per treure aigua d'un pou amb una galleda. La maneta del torn mesura 30 cm entre l'eix del cilindre i el punt on exercim la força. Suposant que no hi ha fregament i que la corda i la galleda no pesen, quants litres d'aigua podem treure aplicant una força a la maneta de 8 kp?",
+    "correct": "D",
+    "explanation": "30 cm * 8 kp = 12 cm * x\nx = 240/12 = 20 kp\n20 kp = 200 Newtons, que equival a la força que faran 20 litres.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "22 L",
+      "B": "12,5 L",
+      "C": "24 L",
+      "D": "20 L"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim58_q80",
+    "statement": "De quina altra manera són coneguts els motors d'inducció?",
+    "correct": "B",
+    "explanation": "Els termes \"motor d'inducció\" i \"motor asíncron\" són equivalents i es fan servir per descriure el mateix tipus de motor\nelèctric. Aquests motors són coneguts com a motors asíncrons perquè la velocitat de rotació del rotor no està\nsincronitzada amb la freqüència del corrent elèctric suministrat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motors lineals",
+      "B": "Motors asíncrons",
+      "C": "Motor d'histéresi",
+      "D": "Motors síncrons  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q13",
+    "statement": "Procedim a col·locar un cinturó pelvià a un pacient estirat sobre una llitera cullera. Quina actuació serà correcta?",
+    "correct": "C",
+    "explanation": "El cinturó pelvià el plantejarem per fora de la llitera. Després la desmuntarem (es pot desmuntar en dos parts) per tal que\nel cinturó abraci a al víctima.\nEl cinturó pelvià es bloqueja per si sol i quedarà a l'alçada dels malucs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Haurem d'alçar el pacient entre un mínim de dos rescatadors, per tal de deixar l'espai suficient entre el pacient i la llitera i poder fer passar el cinturó entremig",
+      "B": "El cinturó quedarà tres dits per sota de l'alçada dels malucs, per tal d'afavorir el reg sanguini",
+      "C": "El primer que farem serà localitzar la cresta ilíaca antero-superior, que serà la part fins on arribarà el cinturó",
+      "D": "Un cop ajustat el cinturó farem ús d'un \"piu\" o d'un instrument similar per a bloquejar el cinturó actuant com a mecanisme de contenció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim60_q61",
+    "statement": "Per a què s'utilitza el condensador en un motor monofàsic amb bobinat auxiliar d'arrancada?",
+    "correct": "B",
+    "explanation": "En un motor monofàsic només disposem d'una única fase, si ho intentem arrencar sense condensador observem que\nl'eix del motor es comença a moure però no acaba de girar i no és capaç de vèncer aquest parell d'arrencada, per tant\nnecessitem proporcionar un parell que és de 2 a 4 vegades superior el parell nominal una vegada que ja ha arrencat. La\nsolució serà donar-li al motor dos bobinats. Un de principal amb què el motor funcionarà una vegada que arrenqui i un\nbobinat auxiliar d'arrencada on connectarem en sèrie un condensador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per a aconseguir una arrancada suau i progressiva del motor",
+      "B": "Per a augmentar el parell d'arrancada del motor",
+      "C": "Per a evitar que els pics de tensió facin malbé el motor",
+      "D": "Per emular a un motor trifàsic en l'arrancada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q70",
+    "statement": "Sobre quin recipient haurem d'actuar pel buidatge de l'oli del motor d'un vehicle?",
+    "correct": "A",
+    "explanation": "A la part inferior del càrter hi trobarem un tap per realitzar el buidat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre el càrter",
+      "B": "Sobre la culata",
+      "C": "Sobre el bloc motor",
+      "D": "Sobre la bomba d'oli acoblada al cigonyal  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q20",
+    "statement": "Què uneix el boló del motor?",
+    "correct": "C",
+    "explanation": "Es fabricarà amb acer cimentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pistó amb el cap de la biela",
+      "B": "La biela amb el cigonyal",
+      "C": "El pistó amb el peu de la biela",
+      "D": "El cilindre amb el cap de la biela"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q51",
+    "statement": "Com s'anomenen els elements que obren i tanquen hermèticament els conductes d’admissió i escapament en els temps corresponents?",
+    "correct": "A",
+    "explanation": "Les vàlvules estan constituïdes per un cap i una tija.\nLes vàlvules han de suportar temperatures i pressions extremes, entorn de 500 a 900 ºC, i que encara són més rigoroses\na les vàlvules d’escapament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvules",
+      "B": "Pistons",
+      "C": "Taquets",
+      "D": "Cilindres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q20",
+    "statement": "En quin sentit girarà la roda boja d'un engranatge format per tres rodes?",
+    "correct": "A",
+    "explanation": "Aquesta roda intermèdia permet variar la relació de transmissió canviant el nombre de dents del pinyó i de la corona\nsense necessitat de variar la distància entre l'eix motriu i l'eix conduït.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un sentit diferent al de la roda motriu i al de la roda conduïda",
+      "B": "En el mateix sentit que la roda motriu i en un sentit diferent al de la roda conduïda",
+      "C": "En sentit horari",
+      "D": "En el mateix sentit que la roda conduïda i en un sentit diferent al de la roda motriu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim63_q34",
@@ -1014,7 +2826,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 63",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1023,7 +2835,109 @@
       "B": "La relació que hi ha entre el volum total que ocupa l'aire al cilindre abans de ser comprimit i el volum que ocupa un cop comprimit",
       "C": "El diàmetre interior del cilindre expressat en mil·límetres",
       "D": "El radi interior del cilindre expressat en centímetres"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q43",
+    "statement": "Quin percentatge de la calor generada pel motor d'un vehicle és capaç d'absorbir el sistema de refrigeració?",
+    "correct": "C",
+    "explanation": "El 40% s'acaba transformant en treball i el 30% restant el contenen els gasos d'escapament.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al voltant d'un 70%",
+      "B": "Prop d'un 90%",
+      "C": "Al voltant d'un 30%",
+      "D": "Prop d'un 10%"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q56",
+    "statement": "Quina és la funció del grup cònic d'un vehicle?",
+    "correct": "C",
+    "explanation": "El grup cònic-diferencial es compon de dues parts:\n1. El grup cònic.\nEstà format bàsicament pel pinyó d'atac i la corona. La seva funció principal és rebre el moviment de gir longitudinal des\nde l'arbre de transmissió i transformar-lo en moviment de gir transversal.\n2. El grup diferencial.\nLa seva missió és mantenir constant la suma de les velocitats de gir de les rodes, aconseguint que puguin girar a\ndiferents velocitats. Està format, fonamentalment, per dos satèl·lits i dos planetaris cargolats a la corona del grup cònic.\nEls planetaris són solidaris a cada palier, de manera que transmeten el seu gir a les rodes motrius. Per la seva banda, els\nsatèl·lits giren al voltant dels planetaris i són els que permeten la diferència de gir entre les rodes motrius.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disminuir el parell que arriba a les rodes",
+      "B": "Controlar la velocitat amb què giren les rodes unides a un mateix eix",
+      "C": "Convertir el moviment longitudinal de l'arbre de transmissió en movimient transversal cap a les rodes",
+      "D": "Facilitar una connexió suau i controlada entre el motor i la caixa de canvis  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q23",
+    "statement": "Ens trobem circulant per una carretera amb un vehicle tipus turisme, quan de cop se'ns creua un animal i ens obliga a envair bruscament el carril contrari abans de superar-lo i tornar al nostre carril inicial. Quin sistema de seguretat activa del vehicle actuarà?",
+    "correct": "D",
+    "explanation": "El sistema Run-Flat és una característica de seguretat dels pneumàtics dels vehicles que permet als pneumàtics\ncontinuar funcionant després de patir una pèrdua de pressió, com ara un pèrdua d'aire causada per una punxada.\nEl EBV és una característica del sistema de frenada electrònica que permet ajustar de manera variable la força de\nfrenada a les rodes individuals en funció de diverses condicions i factors de conducció. Això millora la eficàcia del\nsistema de frens i ajuda a mantenir el control del vehicle en diferents situacions de conducció, com ara en frenades\nbrusques, en corbes o en superfícies de carretera amb poca adherència.\nEl \"Brake Assist System\" (BAS) és un sistema de seguretat actiu que es troba en molts vehicles moderns. Quan es\ndetecta una frenada d'emergència, el BAS augmenta automàticament la pressió dels frens per proporcionar una frenada\nmés efectiva i ajudar a evitar col·lisions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Electronic Brakeforce Variability (EBV)",
+      "B": "El Brake Assist System (BAS)",
+      "C": "El sistema Run-Flat",
+      "D": "L'Electronic Stability Program (ESP)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q79",
+    "statement": "Quin tipus de bomba utilitza la bomba d'aigua del sistema de refrigeració d'un vehicle?",
+    "correct": "A",
+    "explanation": "En el cas de la bomba d'aigua del sistema de refrigeració d'un vehicle, el líquid refrigerant entra per l'entrada de la bomba\ni és impulsat cap a fora per l'impulsor, creant un flux continu a través del sistema de refrigeració del motor per absorbir el\ncalor i mantenir la temperatura del motor en un rang òptim.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centrífuga",
+      "B": "Volumètrica rotativa",
+      "C": "Un hidroejector",
+      "D": "D'èmbol alternatiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim66_q12",
+    "statement": "Quin dels següents elements forma part del sistema de distribució d'un motor tèrmic?",
+    "correct": "D",
+    "explanation": "També formen part del sistema de distribució les lleves, les vàlvules o les molles de les vàlvules.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La biela",
+      "B": "El cigonyal",
+      "C": "El volant d'inèrcia",
+      "D": "L'arbre de lleves"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q25",
@@ -1032,7 +2946,7 @@
     "explanation": "El xilema transporta aigua i nutrients des de les arrels cap a les altres parts de la planta, mentre que el floema transporta\nels nutrients fotosintetitzats des de les fulles cap a les altres parts de la planta. Aquest cilindre vascular és essencial per\nal suport estructural i el transport eficient de substàncies en les plantes.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1041,7 +2955,29 @@
       "B": "L'entrenús",
       "C": "La medul·la",
       "D": "El còrtex"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim67_q35",
+    "statement": "Quina és la funció del boló d'un motor?",
+    "correct": "C",
+    "explanation": "Es fabricarà amb acer cimentat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unir el pistó amb el cap de la biela",
+      "B": "Unir la biela amb el cigonyal",
+      "C": "Unir el pistó amb el peu de la biela",
+      "D": "Unir el cilindre amb el cap de la biela  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim67_q62",
@@ -1050,7 +2986,7 @@
     "explanation": "El volant bimassa està integrat a l'embragatge, o bé al convertidor de parell, en funció de si es tracta d'un vehicle amb\ntransmissió manual o automàtica.\nEn el seu perímetre s'instal·la la corona dentada on engrana el pinyó del motor d'arrencada, va fixat d'una banda a la\nsortida del cigonyal i per l'altre costat, al disc de embragatge.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1059,7 +2995,69 @@
       "B": "A la biela",
       "C": "A l'embragatge",
       "D": "A l'arbre de lleves"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q58",
+    "statement": "Quin nom rep el recipient que conté l’oli de lubricació del motor i que tanca el bloc, de forma estanca, per la part inferior?",
+    "correct": "D",
+    "explanation": "Va muntat a la part inferior del bloc mitjançant cargols i amb la interposició d’una junta per facilitar l’estanquitat.\nNormalment és de xapa d’acer, encara que també es pot fabricar d’aliatge d’alumini, atesa la bona conductivitat tèrmica\nd’aquest metall i la reducció del nivell sonor del motor. En el seu interior hi ha envans per tal de frenar el moviment de l’oli\ndurant el desplaçament del vehicle. S’hi afegeix, a la part inferior, un tap roscat per buidar l’oli.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Biela",
+      "B": "Culata",
+      "C": "Col·lector d'admissió",
+      "D": "Càrter"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q46",
+    "statement": "Quin tipus de vàlvules hidràuliques són les vàlvules Check?",
+    "correct": "B",
+    "explanation": "Les vàlvules check són vàlvules de bloqueig automàtic que són comunament utilitzades per prevenir contrafluxos o\ndrenat de canonades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvules de control de la pressió",
+      "B": "Vàlvules antirretorn",
+      "C": "Vàlvules de control de flux",
+      "D": "Vàlvules direccionals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q57",
+    "statement": "Generalment, quin tipus de canvi té un cotxe automàtic?",
+    "correct": "A",
+    "explanation": "El seu funcionament es basa en un sistema hidràulic compost per una bomba instal·lada sobre la carcassa i unida al\nvolant d'inèrcia, una turbina connectada a l'eix de la caixa de canvis i un estator entre els dos elements anteriors. La\ninteracció de l'oli entre els àleps de la turbina i el reactor és l'encarregada de transferir l'energia del motor a les rodes.\nAvui en dia, són més ràpides en el canvi de relacions i a més són més eficients en el consum gràcies a l'augment del\nnombre de marxes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Canvi automàtic convertidor de parell",
+      "B": "No porta caixa de canvi",
+      "C": "Triple caixa de canvi",
+      "D": "Canvi automàtic de variador altern"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim70_q24",
@@ -1068,7 +3066,7 @@
     "explanation": "L'arbre de lleves dóna 90° (relació 1 a 2 amb el cigonyal).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 70",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1077,43 +3075,109 @@
       "B": "45°",
       "C": "180°",
       "D": "360°"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim70_q52",
-    "statement": "En la realització d'un esgotament amb autobomba i obviant les pèrdues de càrrega, quin valor ens hauria d'indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?",
+    "id": "academia_sim70_q65",
+    "statement": "Com s'anomena el recipient que conté l’oli de lubricació del motor i que tanca el bloc, de forma estanca, per la part inferior?",
     "correct": "D",
-    "explanation": "",
+    "explanation": "Va muntat a la part inferior del bloc mitjançant cargols i amb la interposició d’una junta per facilitar l’estanquitat.\nNormalment és de xapa d’acer, encara que també es pot fabricar d’aliatge d’alumini, atesa la bona conductivitat tèrmica\nd’aquest metall i la reducció del nivell sonor del motor. En el seu interior hi ha envans per tal de frenar el moviment de l’oli\ndurant el desplaçament del vehicle. S’hi afegeix, a la part inferior, un tap roscat per buidar l’oli.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 70",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "-4 bar",
-      "B": "40 bar",
-      "C": "0,4 bar",
-      "D": "-0,4 bar"
-    }
+      "A": "Biela",
+      "B": "Culata",
+      "C": "Col·lector d'admissió",
+      "D": "Càrter"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim73_q42",
-    "statement": "Quin dispositiu s'utilitza per protegir un motor elèctric de sobrecàrregues?",
-    "correct": "C",
-    "explanation": "Es tracta d'un dispositiu electromecànic, dissenyat per protegir els motors elèctrics de sobrecàrregues o escalfaments.",
+    "id": "academia_sim70_q95",
+    "statement": "Quina de les següents característiques sobre el compressor volumètric de tipus Roots és FALSA?",
+    "correct": "A",
+    "explanation": "Es caracteritza per mantenir una pressió de sobrealimentació constant a través d'una àmplia gamma de velocitats del\nmotor.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
-    "section": "Simulacre 73",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 70",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un variador de freqüència",
-      "B": "Un SPD",
-      "C": "Un relé tèrmic",
-      "D": "Un díode"
-    }
+      "A": "Proporciona una pressió de sobrealimentació variable, en funció de la gamma de velocitats del motor",
+      "B": "Utilitza dos lòbuls que giren en sentit oposat per empènyer l'aire cap al motor",
+      "C": "És molt fiable i és eficient a baixes revolucions per minut (RPM)",
+      "D": "Produeix un augment de potència immediatament després d'accelerar, sense retard"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q63",
+    "statement": "On se situa el termòstat d'un vehicle?",
+    "correct": "C",
+    "explanation": "Amb el motor fred el termòstat es tancarà per què el mateix motor escalfi l'aigua de refrigeració. En assolir els 90°C,\naproximadament, s'obre.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la part de la culata que assoleix una major temperatura",
+      "B": "A la part superior del radiador",
+      "C": "A la canalització del circuit de refrigeració que surt del motor cap a la part superior del radiador",
+      "D": "A la part inferior del radiador  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q20",
+    "statement": "Quin NO és un avantatge de la injecció directa Common Rail respecte la injecció directa convencional?",
+    "correct": "D",
+    "explanation": "Els filtres de combustible requereixen ser canviats amb més freqüència. El sistema Common Rail és molt més sensible a\nla qualitat del combustible que el convencional.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El menor soroll de funcionament del motor",
+      "B": "L'augment del rendiment",
+      "C": "El menor consum i la baixa contaminació ambiental",
+      "D": "Els filtres de combustible requereixen ser canviats amb menys freqüència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q63",
+    "statement": "Quina és la seqüència d'explosions dels cilindres en un motor en línia de quatre cilindres?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1-3-4-2",
+      "B": "1-4-3-2",
+      "C": "1-2-4-3",
+      "D": "1-3-2-4  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim74_q51",
@@ -1122,7 +3186,7 @@
     "explanation": "L'arbre de lleves també formaria part del grup de distribució.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 74",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1131,7 +3195,69 @@
       "B": "Les molles",
       "C": "Les vàlvules",
       "D": "El termòstat"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q84",
+    "statement": "Quin tipus d'impulsor utilitzen les bombes reciprocants?",
+    "correct": "A",
+    "explanation": "Les bombes reciprocants fan servir èmbols, pistons o diafragmes com a impulsors per moure el fluid. Aquest tipus\nd'impulsor realitza un moviment lineal alternatiu dins d'un cilindre, generant pressió per desplaçar el fluid.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un èmbol o pistó",
+      "B": "Un engranatge",
+      "C": "Un o més rodets",
+      "D": "Un parell de lòbuls"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q1",
+    "statement": "Què aconseguim fent ús del turbocompressor?",
+    "correct": "A",
+    "explanation": "És un sistema de sobrealimentació que utilitza una turbina centrífuga per a accionar mitjançant un eix coaxial un\ncompressor centrífug per comprimir l'aire. L'aire, al estar comprimit, permet augmentar la quantitat que entra als cilindres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la quantitat d'aire que entra als cilindres",
+      "B": "Disminuir la quantitat d'aire que entra als cilindres",
+      "C": "No té cap efecte sobre la quantitat d'aire que entra als cilindres",
+      "D": "Disminueix la cilindrada del motor"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q25",
+    "statement": "Quina afirmació és FALSA sobre el sistema d'injecció Common Rail?",
+    "correct": "C",
+    "explanation": "El sistema Common Rail requereix una bomba d'alta pressió per pressuritzar el combustible abans d'entrar al rail comú.\nAquesta alta pressió és essencial per a la correcta funció del sistema d'injecció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És un tipus d'injecció directa",
+      "B": "És una tecnologia avançada utilitzada en motors dièsel",
+      "C": "Permet prescindir d'una bomba d'alta pressió",
+      "D": "Cada injector és controlat per una unitat de control electrònic (ECU)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim75_q38",
@@ -1140,7 +3266,7 @@
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 75",
     "isSaved": 0,
     "isAnswered": 0,
@@ -1149,96 +3275,308 @@
       "B": "Entre el carburador i la tapa de balancins",
       "C": "Entre la cisterna i la vàlvula papallona",
       "D": "Entre el filtre d'aire i la culata"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim77_q37",
-    "statement": "Com s'anomena el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
+    "id": "academia_sim75_q50",
+    "statement": "Quina és la funció del boló?",
     "correct": "C",
-    "explanation": "Control d'estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.\nSistema de suspensió activa: s'encarrega de gestionar i controlar de forma independent l'amortiguació de cadascuna de\nles rodes.",
+    "explanation": "Es fabricarà amb acer cimentat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Unir el pistó amb el cap de la biela",
+      "B": "Unir la biela amb el cigonyal",
+      "C": "Unir el pistó amb el peu de la biela",
+      "D": "Unir el cilindre amb el cap de la biela"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q28",
+    "statement": "En els vehicles més moderns, quan es desconnecta de manera automàtica la bomba de combustible?",
+    "correct": "A",
+    "explanation": "En els vehicles moderns, la bomba de combustible es desconnecta automàticament quan s'activen els airbags per evitar\nun incendi en cas de col·lisió.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quan s'activen els airbags",
+      "B": "Quan es detecta una desacceleració superior o igual a 50 m/segon",
+      "C": "Quan s'apreta el fre a fons",
+      "D": "Totes les respostes són falses"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q72",
+    "statement": "Com es diu el recipient que conté l'oli de lubricació del motor i que segella de manera estanca la part inferior del bloc?",
+    "correct": "D",
+    "explanation": "Va muntat a la part inferior del bloc mitjançant cargols i amb la interposició d’una junta per facilitar l’estanquitat.\nNormalment és de xapa d’acer, encara que també es pot fabricar d’aliatge d’alumini, atesa la bona conductivitat tèrmica\nd’aquest metall i la reducció del nivell sonor del motor. En el seu interior hi ha envans per tal de frenar el moviment de l’oli\ndurant el desplaçament del vehicle. S’hi afegeix, a la part inferior, un tap roscat per buidar l’oli.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Biela",
+      "B": "Culata",
+      "C": "Col·lector d'admissió",
+      "D": "Càrter  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q22",
+    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió automàtica?",
+    "correct": "D",
+    "explanation": "Està integrat a l'embragatge, o bé al convertidor de parell, en funció de si es tracta d'un vehicle amb transmissió manual\no automàtica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 77",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El sistema de direcció assistida",
-      "B": "El control d'estabilitat",
-      "C": "El control de tracció",
-      "D": "Sistema de suspensió activa"
-    }
+      "A": "A la caixa de canvis",
+      "B": "A l'embragatge",
+      "C": "A les rodes",
+      "D": "Al convertidor de parell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim125_q49",
-    "statement": "Quina capacitat d'aigua té una Bomba Urbana Pesada (BUP)?",
-    "correct": "C",
-    "explanation": "BUL - Bomba urbana lleugera: 1.000 – 1.650 litres.\nBUP - Bomba urbana pesada: 3.000 – 4.000 litres.\nBRP - Bomba rural pesada: 3.000 – 4.000 litres.\nBNP - Bomba nodrissa pesada: 7.000 – 10.000 litres.",
+    "id": "academia_sim79_q83",
+    "statement": "On es porta a terme predominantment l’absorció d’aigua, electròlits i sals biliars?",
+    "correct": "B",
+    "explanation": "El còlon ascendent és la primera porció del còlon, que és part de l'intestí gros. Es troba a la part dreta de l'abdomen i\ncomença just després de la vàlvula ileocecal, que separa l'intestí prim del còlon. El còlon ascendent s'estén cap amunt\ndes de la part inferior dreta de l'abdomen fins a sota el fetge, on fa un angle brusc (angle hepàtic) per convertir-se en el\ncòlon transvers.\nLa seva funció principal és absorbir l'aigua i els electròlits de la femta líquida que prové de l'intestí prim, contribuint a\nconvertir-la en una substància més sòlida abans de continuar pel còlon transvers i la resta de l'intestí gros. També és una\nzona important per l'absorció d'electròlits i alguns nutrients.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
-    "section": "Simulacre 125",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 79",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "5.000 – 5.650 litres",
-      "B": "4.000 – 5.000 litres",
-      "C": "3.000 – 4.000 litres",
-      "D": "2.000 – 3.000 litres"
-    }
+      "A": "En la vesícula vermifoide",
+      "B": "En el còlon ascendent",
+      "C": "En el còlon transvers",
+      "D": "En el còlon descendent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim125_q60",
-    "statement": "Quin angle d'atac presenta aproximadament la BUL?",
+    "id": "academia_sim81_q18",
+    "statement": "Quin dispositiu d'un cotxe ajuda a mantenir una distància segura amb el vehicle del davant?",
+    "correct": "C",
+    "explanation": "El control de creuer adaptatiu (Adaptive Cruise Control, ACC) és un sistema de control de velocitat per a automòbils que\najusta automàticament la velocitat del vehicle per mantenir una distància de seguretat respecte als vehicles del davant.\nTambé és conegut com a control de creuer intel·ligent o control de creuer dinàmic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "ABS",
+      "B": "EBD",
+      "C": "Control de creuer adaptatiu",
+      "D": "ESP"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q41",
+    "statement": "Un torn amb el cilindre de 12 cm de radi l'utilitzem per treure aigua d'un pou amb una galleda. La maneta del torn mesura 60 cm entre l'eix del cilindre i el punt on exercim la força. Suposant que no hi ha fregament i que la corda i la galleda no pesen, quants litres d'aigua podem treure aplicant una força a la maneta de 8 kp?",
     "correct": "D",
+    "explanation": "60 cm * 8 kp = 12 cm * x\nx = 480/12 = 40 kp\n40 kp = 400 Newtons, que equival a la força que faran 40 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5 L",
+      "B": "12,5 L",
+      "C": "24 L",
+      "D": "40 L"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q43",
+    "statement": "Quina funció té el servofrè?",
+    "correct": "A",
+    "explanation": "El servofrè és un servocomandament que permet i assegura l'accionament dels frens d'alguns vehicles automòbils,\nespecialment dels pesants, amb un esforç limitat del conductor.\nFont: enciclopèdia.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Augmentar la força aplicada als frens pel conductor",
+      "B": "Recuperar part de l'energia de la frenada",
+      "C": "Millorar la direcció del vehicle en frenades brusques",
+      "D": "Refrigerar el sistema de frenada per evitar-ne el sobreescalfament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q18",
+    "statement": "En un torn, quin factor augmenta l’avantatge mecànic?",
+    "correct": "D",
+    "explanation": "Com més gran sigui el radi de la manovella i més petit el del cilindre del torn, menor serà la força necessària per aixecar\nel pes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un augment de la velocitat de rotació",
+      "B": "Un menor diàmetre de la manovella",
+      "C": "Canviar la manovella de fusta per una de fosa de ferro",
+      "D": "Un menor diàmetre del cilindre del torn"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q28",
+    "statement": "Com s’anomena l’element d’una caixa de canvis manual que, situat entre l’eix intermediari i l’eix secundari, inverteix el gir de les rodes motrius per permetre la marxa enrere?",
+    "correct": "C",
+    "explanation": "Engrana un pinyó intermedi entre l’eix intermediari i l’eix secundari, invertint el sentit de rotació sense alterar el gir del\nmotor i permet que les rodes girin en sentit contrari (marxa enrere).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvula de retrocés",
+      "B": "Corona",
+      "C": "Pinyó inversor",
+      "D": "Dúmper"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim99_q39",
+    "statement": "La zona compresa entre el nombre de rpm on un motor obté el màxim parell motor i les rpm en què es genera la màxima potència s'anomena:",
+    "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Camp d'elasticitat",
+      "B": "Marge de rendiment",
+      "C": "Desviació potencial",
+      "D": "Corba de potència"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim117_q13",
+    "statement": "És FALS sobre el massís del Montgrí:",
+    "correct": "B",
+    "explanation": "És més meridional que la Serra de Rodes.\n14",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 117",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Assoleix una altitud màxima menor de 500 metres",
+      "B": "És més septentrional que la Serra de Rodes",
+      "C": "Constitueix la separació natural entre el Baix i l'Alt Empordà",
+      "D": "Es troba comprès entre les conques del Fluvià i el TEr"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim123_q5",
+    "statement": "En què consisteix el sistema EBS en vehicles?",
+    "correct": "A",
+    "explanation": "4.2 Per a l'exercici de les seves funcions, la Secretaria General s'estructura en els òrgans següents:\na) La Direcció de Serveis.\nb) L'Assessoria Jurídica, en els termes que preveu el Decret 57/2002, de 29 de febrer.\nc) El Gabinet Tècnic.\nd) El Gabinet de Seguretat i Polítiques Transversals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema que millora el seguiment de la trajectòria del vehicle actuant sobre els frens o el motor per evitar derrapatges i reduir el risc de col·lisions laterals",
+      "B": "Sistema que incrementa automàticament la pressió de frenada en situacions d'emergència per compensar una pressió insuficient exercida pel conductor sobre el pedal",
+      "C": "Sistema que regula el repartiment de la força de frenada entre els eixos davanter i posterior segons la càrrega suportada per cadascun",
+      "D": "Sistema que controla electrònicament l'activació i l'alliberament dels frens perquè actuïn de manera immediata, simultània i uniforme"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q12",
+    "statement": "Quina és una de les principals conseqüències de conduir sobre neu?",
+    "correct": "A",
+    "explanation": "Les condicions hivernals poden convertir la conducció en una activitat extremadament delicada. La neu redueix el control\nsobre el vehicle i empitjora la visibilitat, mentre que el gel —sobretot quan no és visible (gel negre)— pot causar una\npèrdua total d’adherència. Per sota dels 7 °C, els pneumàtics convencionals perden gran part de la seva capacitat\nd’adherència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "18°",
-      "B": "20°",
-      "C": "12°",
-      "D": "15°"
-    }
+      "A": "Redueix el control sobre el vehicle",
+      "B": "Pot provocar una pèrdua total d'adherència",
+      "C": "Millora l'eficàcia del sistema ABS",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim127_q54",
-    "statement": "Quina és l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya?",
-    "correct": "B",
-    "explanation": "Bomba Rural Pesada (BRP).\nDescripció: Vehicle polivalent dissenyat per a actuacions en tot tipus d’entorns, urbans, rurals i forestals, especialment\nadaptat a terrenys difícils. És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya",
+    "id": "academia_sim127_q65",
+    "statement": "Quina afirmació referent als bloquejadors de diferencial és INCORRECTA?",
+    "correct": "C",
+    "explanation": "En carreteres normals o mullades no s’han de bloquejar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
+    "theme": "T19 - Mecànica i conducció de vehicles pesants",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Bomba Rural Pesada (BRP)",
-      "B": "La Bomba Rural Pesada (BRP)",
-      "C": "La Bomba Urbana Pesada (BUP)",
-      "D": "La Bomba Urbana Lleugera (BUL)"
-    }
-  },
-  {
-    "id": "academia_sim128_q8",
-    "statement": "Una dotació crida la sala i rep com a resposta \"Esperi Papa 10.40\". Què ha de fer la dotació?",
-    "correct": "B",
-    "explanation": "L'ambulància de tipus B, de suport vital bàsic, va dotada de 2 tècnics en emergències sanitàries. La combinació de tècnic\ni infermer/a correspon al tipus C (suport vital avançat), i la de tècnic i metge/ssa al vehicle d'intervenció ràpida.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Vehicles de bombers",
-    "section": "Simulacre 128",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Repetir la crida al cap de 30 segons",
-      "B": "Canviar al mode directe per no ocupar el canal de xarxa",
-      "C": "Tancar amb \"canvi i tallo\" i tornar a demanar-ho més tard",
-      "D": "Mantenir-se a l'escolta fins rebre l'\"endavant\" del receptor"
-    }
+      "A": "Alguns vehicles 4×4 opcionals no disposen de bloquejos de diferencial",
+      "B": "El diferencial central es pot bloquejar fins a 40 km/h i en línia recta",
+      "C": "En carreteres mullades no s’han de bloquejar",
+      "D": "Per utilitzar-los correctament cal seguir una seqüència lògica: primer es bloqueja el diferencial central, després el posterior i finalment l’anterior"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

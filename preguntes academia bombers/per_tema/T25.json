@@ -1,2486 +1,2682 @@
 [
   {
-    "id": "academia_sim1_q37",
-    "statement": "La \"cisterna desmuntable\", segons l'ADR, és una cisterna amb una capacitat superior a:",
-    "correct": "C",
-    "explanation": "En canvi, la cisterna fixa té una capacitat superior a 1.000 litres.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 1",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "200 litres",
-      "B": "650 litres",
-      "C": "450 litres",
-      "D": "1.000 litres"
-    }
-  },
-  {
-    "id": "academia_sim1_q57",
-    "statement": "Segons l'ADR, a quin tipus de matèria fa referència el codi de perill \"559\"?",
-    "correct": "D",
-    "explanation": "Codi de perill 59: Matèria comburent susceptible de produir una reacció violenta espontània.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 1",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A un peròxid orgànic que reacciona violentament davant l'efecte de l'aigua",
-      "B": "A una matèria molt comburent que, a part d'afavorir l'incendi, presenta altres propietats perilloses",
-      "C": "A una matèria comburent susceptible de produir una reacció violenta espontània",
-      "D": "A una matèria molt comburent susceptible de produir una reacció violenta espontània"
-    }
-  },
-  {
-    "id": "academia_sim1_q59",
-    "statement": "Segons l'ADR, les matèries que no són de les classes 1, 2, 5.2, 6.2 i 7 s’assignen a grups d’embalatge segons el grau de perill que presenten. A part de les esmentades, quina de les següents classes tampoc entrarà dins d'aquesta assignació?",
-    "correct": "C",
-    "explanation": "La Classe 4.1 inclou les matèries sòlides inflamables i les autoreactives.\nGrup d’embalatge I: Matèries molt perilloses.\nGrup d’embalatge II: Matèries mitjanament perilloses.\nGrup d’embalatge III: Matèries que presenten un grau menor de perillositat.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 1",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La classe 3",
-      "B": "La classe 9A",
-      "C": "Les matèries autorreactives de la classe 4.1",
-      "D": "La classe 4.2"
-    }
-  },
-  {
-    "id": "academia_sim2_q75",
-    "statement": "Quin document haurà de preveure les mesures que s'hagin de prendre per evitar o minimitzar els danys en cas de vessament de les matèries de la classe 2?",
-    "correct": "D",
-    "explanation": "Les instruccions escrites es duran a l'abast de la mà, a la cabina del vehicle (ADR 5.4.3.1).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 2",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La carta de port",
-      "B": "El document de control",
-      "C": "El certificat de control",
-      "D": "Les instruccions escrites"
-    }
-  },
-  {
-    "id": "academia_sim2_q92",
-    "statement": "Quin codi de perill trobarem al panell taronja d'un vehicle que transporta peròxid orgànic inflamable?",
+    "id": "academia_sim1_q17",
+    "statement": "Si parlem d'una alzina de petites dimensions, probablement ens estem referint a:",
     "correct": "B",
-    "explanation": "Codis de perill:\n50 = matèria comburent.\n59 = matèria comburent susceptible de produir una reacció espontània.",
+    "explanation": "Igual que l'alzina, la carrasca és de la família de les fagàcies. Els carrascars es presenten en llocs de clima mediterrani\nmés meridional o més continental i en tot cas més sec, i per tant és més pobre en espècies de sotabosc.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una sureda",
+      "B": "Una carrasca",
+      "C": "Un savinar",
+      "D": "Un margalló"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q55",
+    "statement": "En els ecosistemes forestals catalans, les espècies predominants d'arbres són:",
+    "correct": "A",
+    "explanation": "En milers de peus a Catalunya:\nCaducifolis: 258.728\nEsclerofil·les: 449.748\nConíferes: 680.920\nConíferes: plantes gimnospermes que produeixen inflorescències en forma d'estròbil, que solen ser anomenades cons o\npinyes, o bé gàlbuls, si són arrodonits i més o menys carnosos. Acostumen a ser arbres de tronc ramificat amb fulles\naciculars, esquamiformes o cintiformes, moltes de les quals produeixen resines.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les coníferes",
+      "B": "Els plannifolis",
+      "C": "Les falgueres",
+      "D": "Les cireretes d'arboç"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q90",
+    "statement": "El vent que bufa des del sud rep el nom de...",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Migjorn",
+      "B": "Gregal",
+      "C": "Mestral",
+      "D": "Tramuntana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q92",
+    "statement": "Quin dels següents elements és l'encarregat de proporcionar un augment de pressió a l'aire d'admissió?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'intercooler",
+      "B": "El compressor",
+      "C": "L'electroventilador",
+      "D": "Tots tres realitzen aquesta funció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q56",
+    "statement": "Què ens indica la separació entre isòbares?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 2",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "59",
-      "B": "539",
-      "C": "505",
-      "D": "50"
-    }
+      "A": "Si estan molt juntes, la presència d'un anticicló",
+      "B": "Si estan molt juntes, vents forts en una borrasca",
+      "C": "Si estan separades, vents forts en una borrasca",
+      "D": "Totes les respostes són incorrectes  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim3_q62",
-    "statement": "Són líquids inflamables segons l'ADR aquells que tinguin un punt d'inflamació màxim de, com a norma general:",
-    "correct": "A",
-    "explanation": "Com a norma general.\nADR 2021, 2.2.3.1.1.",
+    "id": "academia_sim2_q57",
+    "statement": "Quina collita suposa la major part de la producció agrícola catalana?",
+    "correct": "B",
+    "explanation": "Lleida és la principal productora de farratges, seguida per Girona. Els farratges suposen aproximadament el 49% de la\nproducció agrícola catalana.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els tubercles",
+      "B": "Els farratges",
+      "C": "Els cereals",
+      "D": "La vinya"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q9",
+    "statement": "Quin tipus de foc forestal presenta una major intensitat i velocitat de propagació?",
+    "correct": "C",
+    "explanation": "Ens trobarem davant d'un foc de copes o capçades quan l'incendi es desplaça cap al dosser arbrat i crema amb gran\nintensitat. També es produeixen en matolls i arbustos alts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "60°C",
-      "B": "23°C",
-      "C": "61°C",
-      "D": "21°C"
-    }
+      "A": "El foc de subsòl",
+      "B": "El foc de superfície",
+      "C": "El foc de capçades",
+      "D": "Un foc secundari derivat de la propagació del principal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim4_q41",
-    "statement": "Una matèria amb el codi de perill \"33\":",
-    "correct": "C",
-    "explanation": "ADR: 5.3.2.3.2.\n333: matèria líquida pirofòrica.\nX323: matèria líquida inflamable que reacciona perillosament amb l'aigua desprenent gasos inflamables.",
+    "id": "academia_sim3_q92",
+    "statement": "En els mapes meteorològics, quins fronts es representen amb una línia omplerta de triangles que apunten en el sentit de l'avanç del front?",
+    "correct": "B",
+    "explanation": "El front fred representa mal temps. En un front fred l'aire més fred i més dens es posa en forma de falca sota l'aire més\ncàlid i menys dens, aixecant-lo.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 4",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Serà una matèria líquida molt inflamable (PI < 21°C)",
-      "B": "Serà una matèria líquida inflamable que reacciona perillosament amb l'aigua desprenent gasos inflamables",
-      "C": "Serà una matèria líquida molt inflamable (PI < 23°C)",
-      "D": "Serà una matèria líquida inflamable, pirofòrica"
-    }
+      "A": "Els fronts càlids",
+      "B": "Els fronts freds",
+      "C": "Els fronts oclusos",
+      "D": "Els fronts estacionaris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim4_q57",
-    "statement": "Segons l'ADR, la classe 4.2 fa referència a:",
-    "correct": "C",
-    "explanation": "Classe 4.1: Matèries sòlides inflamables, matèries autorreactives, matèries que polimeritzen i matèries explosives\ndessensibilitzades sòlides.\nClasse 4.2: Matèries que poden experimentar inflamació espontània.\nClasse 4.3: Matèries que en contacte amb l'aigua desprenen gasos inflamables.",
+    "id": "academia_sim5_q20",
+    "statement": "Una hectàrea equival a:",
+    "correct": "D",
+    "explanation": "1 km² = 100 hectàrees.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 4",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries sòlides inflamables",
-      "B": "Matèries que polimeritzen i matèries que poden experimentar inflamació espontània",
-      "C": "Matèries que poden experimentar inflamació espontània",
-      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
-    }
-  },
-  {
-    "id": "academia_sim5_q30",
-    "statement": "Quants models d'etiquetes existeixen pels explosius?",
-    "correct": "C",
-    "explanation": "La \"1\" (que inclou dins les divisions 1.1, 1.2 i 1.3), la \"1.4\", la \"1.5\" i la \"1.6\".\nPer tant, la Classe 1 té sis divisions i quatre models d'etiquetes.\n(ADR 5.2.2.2.2)",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Dos",
-      "B": "Tres",
-      "C": "Quatre",
-      "D": "Sis"
-    }
+      "A": "1.000 m²",
+      "B": "100 m²",
+      "C": "1 km²",
+      "D": "0,01 km²"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim5_q47",
-    "statement": "Un vehicle cisterna buit i sense netejar que hagi transportat matèries de la classe 2, quines plaques-etiqueta de perill haurà de portar?",
-    "correct": "B",
-    "explanation": "ADR 5.3.1.6.1: \"Els vehicles cisterna, els vehicles bateria (...) sense netejar o gasificar hauran de continuar portant les\nplaques-etiqueta requerides per la càrrega precedent\".\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 5",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cap",
-      "B": "Les mateixes que quan anava ple",
-      "C": "La 3 i la 6.2",
-      "D": "La 2 i la 6.1"
-    }
-  },
-  {
-    "id": "academia_sim6_q56",
-    "statement": "Quin nombre de panells taronges són suficients per un vehicle-cisterna de dos compartiments carregats només amb gasolina?",
-    "correct": "B",
-    "explanation": "ADR 5.3.2.1.6",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 6",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Quatre, un a cada costat dels compartiments",
-      "B": "Dos; un davant i un altre darrera el vehicle, amb el número d'identificació de perill i número ONU",
-      "C": "Sis; un davant, un darrera, i els altres quatre als laterals (dos i dos)",
-      "D": "Quatre; un davant, un darrera i els altres dos als laterals  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim7_q6",
-    "statement": "Què és un gas segons l'ADR?",
-    "correct": "D",
-    "explanation": "300 KPa = 3 bar\n(ADR 1.2.1)",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una matèria que a 20°C exerceix una tensió de vapor major a 3 bar",
-      "B": "Una matèria que a 50°C exerceix una tensió de vapor menor a 300 KPa",
-      "C": "Una matèria que a 20°C exerceix una tensió de vapor menor a 101,3 KPa",
-      "D": "Una matèria que a 50°C exerceix una tensió de vapor major a 300 KPa"
-    }
-  },
-  {
-    "id": "academia_sim7_q8",
-    "statement": "Una carta de port no durà:",
-    "correct": "B",
-    "explanation": "La informació que haurà de subministrar la carta de port es troba recollida a l'apartat 5.4.1 de l'ADR 2021.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El número ONU de la mercaderia",
-      "B": "Les instruccions escrites de seguretat",
-      "C": "El nom de l'expedidor",
-      "D": "La direcció del destinatari  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim7_q35",
-    "statement": "Quines són les sigles de la normativa internacional de transport marítim de mercaderies perilloses?",
-    "correct": "B",
-    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "RID",
-      "B": "IMDG",
-      "C": "IATA",
-      "D": "IMDB"
-    }
-  },
-  {
-    "id": "academia_sim7_q60",
-    "statement": "De quants tipus poden ser les \"unitats de transport EX\" autoritzades a transportar matèries perilloses de la Classe 1?",
-    "correct": "A",
-    "explanation": "ADR: 9.1.1.2.\nPoden ser EX/II o EX/III.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 7",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "De dos tipus",
-      "B": "De tres tipus",
-      "C": "De quatre tipus",
-      "D": "De set tipus"
-    }
-  },
-  {
-    "id": "academia_sim8_q44",
-    "statement": "Quina propietat té un gas comburent?",
-    "correct": "A",
-    "explanation": "ADR 2.2.2.1.5.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 8",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Que afavoreix la combustió",
-      "B": "Que pot liquar-se amb facilitat",
-      "C": "Que és molt compressible",
-      "D": "Que es descompon amb la calor"
-    }
-  },
-  {
-    "id": "academia_sim8_q81",
-    "statement": "Segons l'ADR, a quina classe pertanyen els gasos liquats?",
-    "correct": "A",
-    "explanation": "ADR 2.2.2.1.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 8",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A la classe 2",
-      "B": "A la classe 3 i 5.1",
-      "C": "A la classe 3",
-      "D": "A la classe 5.2 i 8"
-    }
-  },
-  {
-    "id": "academia_sim9_q5",
-    "statement": "Segons l'ADR, quines classes no s'assignen a cap grup d'embalatge?",
-    "correct": "D",
-    "explanation": "Les demés classes s'embalen en un grup d'embalatge segons el seu grau de perillositat.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les classes 1, 7 i les matèries autorreactives de la classe 4.1",
-      "B": "Les classes 1 i 2, les matèries autorreactives de la classe 4.1, la classe 5.1, la 5.2, la 6.1, la 6.2 i la 7",
-      "C": "Les classes 1 i 7",
-      "D": "Les classes 1 i 2, les matèries autorreactives de la classe 4.1, la classe 5.2, la 6.2 i la 7"
-    }
-  },
-  {
-    "id": "academia_sim9_q67",
-    "statement": "Segons l'ADR, quantes classes de mercaderies perilloses existeixen?",
-    "correct": "D",
-    "explanation": "ADR 2.1.1.1.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Set",
-      "B": "Vuit",
-      "C": "Nou",
-      "D": "Tretze"
-    }
-  },
-  {
-    "id": "academia_sim9_q84",
-    "statement": "La \"cisterna fixa\", segons l'ADR, és una cisterna amb una capacitat superior a:",
-    "correct": "D",
-    "explanation": "Cisterna desmuntable: més de 450 L.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 9",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "450 L",
-      "B": "4.500 L",
-      "C": "2.000 L",
-      "D": "1.000 L"
-    }
-  },
-  {
-    "id": "academia_sim10_q44",
-    "statement": "Segons l'ADR, quina de les següents matèries s'haurà d'assignar a un grup d'embalatge?",
+    "id": "academia_sim7_q31",
+    "statement": "El salze és un arbre típic de:",
     "correct": "C",
-    "explanation": "Les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries autorreactives de la classe 4.1, s'assignen a\ngrups d’embalatge segons el grau de perill que presenten (I, II o III).",
+    "explanation": "Altres arbres que podem trobar al bosc de ribera: àlber, gatell, pollancre, om, vern, freixe...\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 10",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 7",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Les matèries de la classe 1",
-      "B": "Les matèries de la classe 5.2",
-      "C": "Les matèries de la classe 4.3",
-      "D": "Les matèries de la classe 7"
-    }
+      "A": "La regió euro-siberiana",
+      "B": "L'estatge subalpí",
+      "C": "Els boscos de ribera",
+      "D": "L'ecosistema litoral català"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim11_q26",
-    "statement": "Els tipus de vehicles FL per a la classe 3 estan autoritzats per transportar:",
-    "correct": "D",
-    "explanation": "ADR 9.1.1.2, \"definicions\".",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 11",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries líquides comburents",
-      "B": "Matèries líquides amb un punt d'inflamació comprès entre 23°C i 60°C",
-      "C": "Matèries líquides amb un punt d'inflamació menor a 13°C",
-      "D": "Matèries líquides amb un punt d'inflamació menor o igual a 60°C"
-    }
-  },
-  {
-    "id": "academia_sim11_q53",
-    "statement": "Quin dels següents tipus de vehicle no s'inclou dins l'ADR?",
+    "id": "academia_sim9_q52",
+    "statement": "És la quantitat de calor que s'allibera en el front d'un incendi per unitat de temps i longitud:",
     "correct": "C",
-    "explanation": "ADR 9.1.1.2.",
+    "explanation": "La Intensitat Lineal de foc és el limitador real de la capacitat d'extinció d'un foc.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 11",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vehicle FL",
-      "B": "Vehicle AT",
-      "C": "Vehicle RS",
-      "D": "Vehicle EX/III"
-    }
+      "A": "Propagació",
+      "B": "Cobertura del foc",
+      "C": "Intensitat Lineal",
+      "D": "Capacitat difusòria"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim11_q83",
-    "statement": "Quines propietats defineixen als gasos del grup TOC?",
-    "correct": "D",
-    "explanation": "ADR 2.2.2.1.3.",
+    "id": "academia_sim9_q73",
+    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útil generalment?",
+    "correct": "B",
+    "explanation": "L'espessant incrementa la viscositat de l'aigua, fet que facilitarà que aquesta s'adhereixi a les branques i branquillons de\nles capçades.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 11",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Comburents, oxidants i corrosius",
-      "B": "Tòxics i oxidants",
-      "C": "Tòxics i corrosius",
-      "D": "Tòxics, comburents i corrosius"
-    }
+      "A": "Un catalitzador",
+      "B": "Un espessant",
+      "C": "Un humectant",
+      "D": "Un anticongelant G11 o G12"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim11_q85",
-    "statement": "El transport de quina divisió de matèries explosives no serà necessari que porti plaques-etiqueta?",
+    "id": "academia_sim9_q85",
+    "statement": "Quan el vent prové d'una direcció d'entre 225 i 315 graus, parlem de vent de:",
+    "correct": "B",
+    "explanation": "El vent de Ponent prové de l'oest, d'una direcció aproximada de 270°.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Llevant",
+      "B": "Ponent",
+      "C": "Mestral",
+      "D": "Gregal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim12_q88",
+    "statement": "És el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa:",
     "correct": "A",
-    "explanation": "És una pregunta especialment difícil, però en examens oficials pitjors coses s'han vist.\nADR 5.3.1.1.2: \"Les plaques-etiqueta no s'exigiran per al transport de matèries i objectes explosius de la divisió 1.4, grup\nde compatibilitat S\".",
+    "explanation": "El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a\ncausa de la radiació solar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 11",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Divisió 1.4, grup de compatibilitat S",
-      "B": "Divisió 1.4, grup de compatibilitat C",
-      "C": "Divisió 1.1, grup de compatibilitat K",
-      "D": "Divisió 1.3, grup de compatibilitat B"
-    }
-  },
-  {
-    "id": "academia_sim12_q40",
-    "statement": "De quina classe són les matèries número 1202, 1203 i 1223?",
-    "correct": "D",
-    "explanation": "ADR 3.2.1.\n1202: Gasoil.\n1203: Gasolina.\n1223: Querosè.\nClasse 3 = líquids inflamables.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 12",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De la Classe 4.1",
-      "B": "De la Classe 4.2",
-      "C": "De la Classe 4.3",
-      "D": "De la Classe 3  acadèmia bombers"
-    }
+      "A": "Vent catabàtic",
+      "B": "Vent anabàtic",
+      "C": "Marinada",
+      "D": "Terral  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim12_q83",
-    "statement": "Quants panells taronges haurà de portar una unitat de transport carregada amb gasos de classe 2 com a mínim?",
-    "correct": "A",
-    "explanation": "ADR 5.3.2.1.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 12",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Dos",
-      "B": "Quatre",
-      "C": "Almenys un",
-      "D": "Tres, i un d'ells sempre a la part de darrere"
-    }
-  },
-  {
-    "id": "academia_sim13_q27",
-    "statement": "Quin número d'identificació de perill portarà un panell taronja d'una cisterna carregada únicament amb gasolina?",
-    "correct": "B",
-    "explanation": "33: matèria líquida molt inflamable (punt d'inflamació inferior a 23°C).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 13",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "30",
-      "B": "33",
-      "C": "333",
-      "D": "23"
-    }
-  },
-  {
-    "id": "academia_sim13_q79",
-    "statement": "On portaran les plaques-etiqueta els vehicles cisterna de mercaderies perilloses?",
-    "correct": "D",
-    "explanation": "En el cas de vehicles a granel, vehicles cisterna, vehicles bateria, MEMU i vehicles amb cisternes desmuntables, les\nplaques-etiqueta hauran de fixar-se als dos laterals i a la part de darrera del vehicle. (ADR 2021, art. 5.3.1.4).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 13",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Als costats, a la part de davant i a la part de darrera del vehicle",
-      "B": "A davant i a darrera del vehicle",
-      "C": "Als costats del vehicle, únicament",
-      "D": "Als costats i a la part de darrera del vehicle"
-    }
-  },
-  {
-    "id": "academia_sim13_q80",
-    "statement": "Segons l'ADR, la classe 9 es subdivideix en:",
-    "correct": "D",
-    "explanation": "ADR 2.2.9.1.2",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 13",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "9.1 i 9.2",
-      "B": "9.1, 9.2, 9.3, 9.4, 9.5 i 9.6",
-      "C": "9a, 9b, 9c i 9d",
-      "D": "Les subdivisions de la M1 a la M11  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim15_q60",
-    "statement": "On es col·locaran les plaques-etiqueta en un contenidor carregat amb embalums que contenen gasoil?",
-    "correct": "C",
-    "explanation": "ADR 5.3.1.2: \"Les plaques-etiqueta hauran de fixar-se als dos costats i a cada extrem del contenidor (...) i en dos costats\noposats en casos de contenidors per granel flexibles\".\nNo confondre \"contenidor\" amb \"vehicle\".",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 15",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Als laterals i a la part de darrera",
-      "B": "Als dos laterals",
-      "C": "Als quatre costats",
-      "D": "Els contenidors amb embalums no porten plaques-etiqueta"
-    }
-  },
-  {
-    "id": "academia_sim15_q93",
-    "statement": "Quin nou número d'identificació de perill inclou l'ADR de l'any 2021 respecte el de l'any 2019?",
-    "correct": "C",
-    "explanation": "Identifica una matèria corrosiva, tòxica i inflamable (PI de 23°C a 60°C).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 15",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El 824",
-      "B": "El 669",
-      "C": "El 836",
-      "D": "El 981"
-    }
-  },
-  {
-    "id": "academia_sim16_q5",
-    "statement": "Un vehicle \"MEMU\" és, segons l'ADR:",
-    "correct": "C",
-    "explanation": "ADR: \"...tot i que la definició d'una MEMU conté les paraules \"per a la fabricació i càrrega d'explosius\", les disposicions\nper a les MEMU només s'apliquen al transport i no a la fabricació i càrrega d'explosius\".\nCGEM: contenidor de gas amb elements múltiples.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 16",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Un contenidor de gas amb elements múltiples",
-      "B": "Una unitat de càrrega de transport",
-      "C": "Una unitat mòbil de fabricació d'explosius",
-      "D": "Un vehicle destinat al transport d'objectes no envasats o a granel"
-    }
-  },
-  {
-    "id": "academia_sim16_q75",
-    "statement": "Segons l'ADR, les matèries o objectes explosius es divideixen, cadascuna amb una lletra, en:",
-    "correct": "B",
-    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 16",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "6 grups de compatibilitat",
-      "B": "13 grups de compatibilitat",
-      "C": "5 grups de compatibilitat",
-      "D": "9 grups de compatibilitat"
-    }
-  },
-  {
-    "id": "academia_sim16_q82",
-    "statement": "Segons l'ADR, quin tipus de matèries (segons el grau de perill) inclou el grup d'embalatge III?",
-    "correct": "C",
-    "explanation": "Grup I: Matèries molt perilloses\nGrup II: Matèries mitjanament perilloses\nGrup III: Matèries poc perilloses",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 16",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries molt perilloses",
-      "B": "Matèries mitjanament perilloses",
-      "C": "Matèries poc perilloses",
-      "D": "Matèries molt poc perilloses"
-    }
-  },
-  {
-    "id": "academia_sim17_q2",
-    "statement": "On aniran situats els panells taronges en un vehicle tipus EX/II?",
-    "correct": "B",
-    "explanation": "ADR 5.3.2.1.1:\n\"Les unitats de transport que portin mercaderies perilloses portaran, disposats en un pla vertical, dos panells rectangulars\ntaronges (...) es fixarà un a la part davantera de la unitat de transport i l'altre a la part posterior. Hauran de ser ben\nvisibles\".",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 17",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A darrera de la unitat de transport",
-      "B": "Una a davant i l'altre darrera de la unitat de transport",
-      "C": "Als quatre costats de la càrrega",
-      "D": "Darrera i als costats de la càrrega"
-    }
-  },
-  {
-    "id": "academia_sim17_q94",
-    "statement": "Segons l'ADR, quin dels següents objectes o matèries no s'inclouen dins la classe 1?",
+    "id": "academia_sim14_q30",
+    "statement": "Amb quin altre nom es coneixen els ecosistemes d'alta muntanya?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 17",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 14",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Les matèries explosives",
-      "B": "Les matèries pirotècniques",
-      "C": "Els objectes fabricats amb la finalitat de produir un efecte pràctic explosiu",
-      "D": "Totes les opcions proposades s'inclouen dins la classe 1"
-    }
+      "A": "Ecosistemes altius",
+      "B": "Ecosistemes boreals",
+      "C": "Ecosistemes altitudinals",
+      "D": "Ecosistemes culminals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim18_q28",
-    "statement": "Què significa un número 255 a la part superior d'un panell taronja?",
+    "id": "academia_sim15_q34",
+    "statement": "Quina regió biogeogràfica trobem a Catalunya?",
     "correct": "D",
-    "explanation": "ADR 5.3.2.3.2",
+    "explanation": "Vegetació boreo-alpina: es presenta a l'alta muntanya a partir dels 1.600 metres aproximadament.\nVegetació euro-siberiana: la trobem a la muntanya mitjana plujosa. La representen les fagedes o el roure pènol, entre\nd'altres.\nVegetació mediterrània: és molt diferent en el paisatge i és la més extensa en el territori català. Sovint presenta una\nvegetació degradada o pobre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 18",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 15",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Que es transporta un gas liquat refrigerat, comburent (afavoreix l'incendi)",
-      "B": "Que es transporta un gas liquat, molt comburent (afavoreix l'incendi)",
-      "C": "Què es transporta un gas comprimit, molt comburent (afavoreix l'incendi)",
-      "D": "Aquest número no existeix"
-    }
+      "A": "Vegetació mediterrània",
+      "B": "Vegetació euro-siberiana",
+      "C": "Vegetació boreo-alpina",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim18_q43",
-    "statement": "Segons l'ADR, quina de les següents divisions de la classe 1 és més perillosa?",
+    "id": "academia_sim15_q82",
+    "statement": "Quin nom rep el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar?",
     "correct": "A",
-    "explanation": "Ordre de perillositat (de major a menor):\n1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4.",
+    "explanation": "El vent catabàtic, en canvi, és descendent.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vent anabàtic",
+      "B": "Vent catabàtic",
+      "C": "Efecte Fohn",
+      "D": "Coriolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q39",
+    "statement": "La comarca de Catalunya que presenta un major nombre d'hectàrees de terres llaurades de secà és:",
+    "correct": "B",
+    "explanation": "Amb 43.138 ha, segons l'IDESCAT 2009.\nSeguida per la Segarra i el Segrià.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Segrià",
+      "B": "La Noguera",
+      "C": "La Segarra",
+      "D": "L'Alt Penedès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q57",
+    "statement": "Segons la rosa dels vents, el vent provinent de l'oest s'anomena:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mestral",
+      "B": "Ponent",
+      "C": "Llevant",
+      "D": "Garbí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q32",
+    "statement": "Vent que bufa cap amunt en les vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar:",
+    "correct": "D",
+    "explanation": "El vent catabàtic, en canvi, és el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a\ncausa de la radiació emesa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 18",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "1.5",
-      "B": "1.4",
-      "C": "1.2",
-      "D": "1.3"
-    }
+      "A": "Terral",
+      "B": "Marinada",
+      "C": "Vent catabàtic",
+      "D": "Vent anabàtic  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim18_q86",
-    "statement": "De les següents reaccions, quina correspon a un fenomen físic?",
-    "correct": "C",
-    "explanation": "Les BLEVE's també en serien un exemple.\nEn les reaccions físiques s'altera l'aspecte de les substàncies però no la seva naturalesa, mentre que en els canvis\nquímics s'hi formen substàncies noves amb propietats diferents.",
+    "id": "academia_sim19_q3",
+    "statement": "Com es mesura la velocitat del vent?",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 18",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'oxidació d'un metall a l'aire lliure",
-      "B": "Una combsutió deflagrant",
-      "C": "L'explosió d'una caldera per sobrepressió de vapor",
-      "D": "La reacció del vinagre amb el bicarbonat"
-    }
-  },
-  {
-    "id": "academia_sim19_q95",
-    "statement": "Segons l'ADR, quina mesura tindran, com a norma general, els panells taronges?",
-    "correct": "C",
-    "explanation": "ADR 5.3.2.2.1",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "100 × 100 mm",
-      "B": "300 × 200 mm",
-      "C": "400 × 300 mm",
-      "D": "300 × 300 cm"
-    }
+      "A": "Amb un penell",
+      "B": "Amb un anemòmetre",
+      "C": "Amb un heliògraf",
+      "D": "Amb un baròmetre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim20_q32",
-    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.4, sense perill subsidiari?",
-    "correct": "A",
-    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "id": "academia_sim19_q79",
+    "statement": "A l'estatge montà: (senyala la incorrecta)",
+    "correct": "D",
+    "explanation": "Els alzinars són més propis de l'estatge basal o terra baixa.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 20",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'etiqueta número 1.4",
-      "B": "L'etiqueta número 1.1",
-      "C": "L'etiqueta número 1.5",
-      "D": "L'etiqueta número 1  acadèmia bombers"
-    }
+      "A": "Hi predomina una vegetació típicament euro-siberiana",
+      "B": "Hi trobem majoritàriament arbres caducifolis",
+      "C": "Hi podem trobar rouredes o també fagedes",
+      "D": "Hi predominen els alzinars"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim20_q54",
-    "statement": "Segons l'ADR, quin tipus de matèries inclou el grup d'embalatge I?",
+    "id": "academia_sim19_q80",
+    "statement": "Quin vent és sempre molt sec?",
     "correct": "C",
-    "explanation": "Grup I: Matèries molt perilloses.\nGrup II: Matèries mitjanament perilloses.\nGrup III: Matèries poc perilloses.",
+    "explanation": "El vent de Ponent és molt càlid a l'estiu, però pot arribar a ser fred.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El vent de Llevant",
+      "B": "El vent de Migjorn",
+      "C": "El vent de Ponent",
+      "D": "El vent de Xaloc  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q28",
+    "statement": "Dins de l'estrat arbori de la vegetació mediterrània hi podem trobar:",
+    "correct": "D",
+    "explanation": "Hi predominen les espècies dels gèneres Quercus i Pinus.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 20",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Matèries que presenten un grau menor de perillositat",
-      "B": "Matèries mitjanament perilloses",
-      "C": "Matèries molt perilloses",
-      "D": "Matèries extremadament perilloses i matèries nocives"
-    }
+      "A": "Garrigues",
+      "B": "Màquies",
+      "C": "Sureres",
+      "D": "Totes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim20_q93",
-    "statement": "Segons l'ADR, si en una cisterna s'hi ha transportat una matèria perillosa:",
+    "id": "academia_sim20_q90",
+    "statement": "En un incendi forestal que es desenvolupés en una situació atmosfèrica d'inversió tèrmica, què passaria si aquest fenomen desaparegués?",
     "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 20",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "S'haurà de netejar la cisterna per dins abans de tornar a carregar-la, en tot cas",
-      "B": "No farà falta netejar-la per dins si s'ha de tornar a carregar la mateixa càrrega",
-      "C": "No farà falta netejar-la, ni per dins ni per fora",
-      "D": "Abans de tornar-la a carregar s'haurà de netejar per dins, però també per fora"
-    }
+      "A": "Que els corrents de convecció creats per l'incendi tindrien més dificultats per ascendir",
+      "B": "Que l'incendi s'acceleraria",
+      "C": "Que el vent canviaria bruscament de direcció, i conseqüentment l'avanç de l'incendi",
+      "D": "Que l'incendi passaria a avançar més lentament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim21_q45",
-    "statement": "Què significa el número 286 a la part superior d'un parell taronja?",
+    "id": "academia_sim21_q22",
+    "statement": "Quin d'aquests termes no fa referència a una part d'un incendi forestal?",
     "correct": "D",
-    "explanation": "Ull! En tot cas ens hauriem de referir al \"268\" (gas tòxic i corrosiu).\nADR 5.3.2.3.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Gas tòxic i corrosiu",
-      "B": "Gas corrosiu i molt tòxic",
-      "C": "Gas tòxic i comburent",
-      "D": "Aquest número no existeix"
-    }
-  },
-  {
-    "id": "academia_sim21_q61",
-    "statement": "Segons l'ADR, a qui correspon l'obligació d'entregar les instruccions escrites al conductor?",
-    "correct": "C",
-    "explanation": "ADR 5.4.3.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Al carregador",
-      "B": "A l'expedidor o el carregador, exclusivament",
-      "C": "Al transportista",
-      "D": "A l'expedidor"
-    }
-  },
-  {
-    "id": "academia_sim21_q82",
-    "statement": "Quines són les classes que no disposen de grup d'embalatge?",
-    "correct": "D",
-    "explanation": "ADR 2.1.1.3.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 21",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les classes 1, 2, 5.2 i 6.2",
-      "B": "Les autorreactives de la classe 4.1",
-      "C": "La classe 7",
-      "D": "Totes són certes"
-    }
-  },
-  {
-    "id": "academia_sim22_q41",
-    "statement": "Quins líquids formen part de la classe 3?",
-    "correct": "D",
-    "explanation": "ADR 2.2.3.1.1 i 1.2.1.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Aquells que tinguin una temperatura d'inflamació igual o inferior a 20°C a una pressió de 101,3 kPa",
-      "B": "Aquells que tinguin un punt de fusió o punt de fusió inicial igual o inferior a 30°C a una pressió de 103,1 kPa",
-      "C": "Aquells que tinguin un punt d'inflamació igual o inferior a 21°C a una pressió de 6,3 kPa",
-      "D": "Aquells que tinguin un punt de fusió o punt de fusió inicial igual o inferior a 20°C a una pressió de 101,3 kPa"
-    }
-  },
-  {
-    "id": "academia_sim22_q42",
-    "statement": "Una unitat de transport amb matèries i objectes de les divisions 1.1, 1.3 i 1.5, amb quines plaques-etiqueta s'haurà de senyalitzar?",
-    "correct": "B",
-    "explanation": "ADR 5.3.1.1.2.\n\"...en cas que continguin matèries o objectes pertanyents a diferents divisions només portaran les plaques-etiqueta\nrelatives al model de la divisió més perillosa (1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4 )\".\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Amb les tres: 1.1, 1.3 i 1.5",
-      "B": "Amb la placa-etiqueta 1",
-      "C": "Amb la placa etiqueta 1.3",
-      "D": "Amb la placa-etiqueta 1.5  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim22_q43",
-    "statement": "Segons l'ADR, quins dipòsits no estaran obligats a tenir una obertura per a la inspecció?",
-    "correct": "B",
-    "explanation": "ADR 6.8.3.2.17.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Els que transportin gasos comprimits",
-      "B": "Els que transportin gasos liquats refrigerats",
-      "C": "Cap d'ells",
-      "D": "Tots"
-    }
-  },
-  {
-    "id": "academia_sim22_q44",
-    "statement": "D’acord amb l’ADR, és qualsevol empresa que carrega les mercaderies perilloses en embalums, petits contenidors o cisternes portàtils en o sobre un vehicle o que carreguen un contenidor per al transport a granel, un contenidor cisterna o una cisterna portátil sobre un vehicle:",
-    "correct": "A",
-    "explanation": "Expedidor: persona física o jurídica per ordre de la qual es fa l’enviament de la mercaderia perillosa. En la carta de port\ndel transport hi figura com a tal.\nTransportista: persona física o jurídica que assumeix l’obligació de dur a terme el transport, i amb aquesta finalitat té la\nseva pròpia organització empresarial.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Carregador",
-      "B": "Transportista",
-      "C": "Expedidor",
-      "D": "Empresa de subministrament"
-    }
-  },
-  {
-    "id": "academia_sim22_q45",
-    "statement": "On se situa el número ONU en un panell taronja?",
-    "correct": "A",
-    "explanation": "A la part superior hi trobem el codi de perill.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 22",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A la part superior",
-      "B": "A la part inferior",
-      "C": "A la part central",
-      "D": "A la part superior esquerra"
-    }
-  },
-  {
-    "id": "academia_sim23_q39",
-    "statement": "En una BLEVE...",
-    "correct": "A",
-    "explanation": "La bola de foc (fireball) es forma per deflagració. Una BLEVE és una explosió física.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 23",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El contingut (la substància) haurà de ser exclusivament un líquid o gas liquat en determinades condicions",
-      "B": "La causant serà una reacció química, o bé una reacció de combustió",
-      "C": "La bola de foc (fireball) es genera per detonació",
-      "D": "Totes les respostes són correctes"
-    }
-  },
-  {
-    "id": "academia_sim23_q41",
-    "statement": "El rang de números ONU:",
-    "correct": "A",
-    "explanation": "Els números ONU són assignats pel Comitè d'Experts en el Transport de Mercaderies Perilloses de la ONU i es\npubliquen al \"llibre taronja\".\n(ADR 2021)",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 23",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Va des del número UN0004 fins el UN3549",
-      "B": "Va des del número UN0003 fins el UN3013",
-      "C": "Va des del número UN0004 fins el UN3013",
-      "D": "Va des del número UN0003 fins el UN3548"
-    }
-  },
-  {
-    "id": "academia_sim23_q44",
-    "statement": "Segons l'ADR, on portaran les plaques-etiqueta les cisternes portàtils?",
-    "correct": "C",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 23",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 21",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Darrera, únicament",
-      "B": "Davant i darrera",
-      "C": "Davant, darrera i als costats",
-      "D": "Darrera i als laterals"
-    }
+      "A": "Front",
+      "B": "Bossa",
+      "C": "Llengua o dit",
+      "D": "Totes fan referència a parts d'un incendi forestal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim24_q1",
-    "statement": "Una matèria infecciosa, segons l'ADR, quin codi de perill presentarà?",
+    "id": "academia_sim21_q28",
+    "statement": "Quin és el cultiu herbaci més produït a Catalunya?",
     "correct": "B",
-    "explanation": "66: matèria molt tòxica.\n69: matèria tòxica susceptible de reaccionar violentament.",
+    "explanation": "Seguits dels cereals.\nL'olivera és un cultiu llenyós.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 24",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 21",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "66",
-      "B": "606",
-      "C": "69",
-      "D": "666"
-    }
+      "A": "Els cereals",
+      "B": "Els farratges",
+      "C": "Les hortalisses",
+      "D": "L'olivera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim24_q37",
-    "statement": "Quin aparell podria patir una BLEVE?",
+    "id": "academia_sim21_q48",
+    "statement": "Quin conreu llenyós ocupa un major nombre d'hectàrees a Catalunya?",
     "correct": "D",
-    "explanation": "Una caldera és un escalfador d'aigua.",
+    "explanation": "Seguit per la vinya i la fruita seca.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 24",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 21",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un bidó de benzina mig ple",
-      "B": "Un tanc amb aigua líquida pressuritzada",
-      "C": "Una caldera",
-      "D": "Tots tres exemples poden patir aquest fenomen"
-    }
+      "A": "Els planters",
+      "B": "La fruita seca",
+      "C": "La vinya",
+      "D": "L'olivera  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim24_q43",
-    "statement": "Segons l'ADR, a quina de les següents matèries no se li assignarà un grup d'embalatge?",
-    "correct": "B",
-    "explanation": "Les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries autorreactives de la classe 4.1, s'assignen a\ngrups d’embalatge segons el grau de perill que presenten (I, II o III).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 24",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries de la classe 3",
-      "B": "Matèries de la classe 6.2",
-      "C": "Matèries de la classe 2.2",
-      "D": "Matèries de la classe 4.2"
-    }
-  },
-  {
-    "id": "academia_sim25_q41",
-    "statement": "Com a norma general, quin gruix hauran de tenir els números d'identificació de perill dels panells taronges?",
+    "id": "academia_sim22_q92",
+    "statement": "On comença el Delta de l'Ebre?",
     "correct": "A",
-    "explanation": "Amb una tolerància de +/- 10%.\nADR 5.3.2.2.2 i 5.3.2.2.4",
+    "explanation": "Inclou els termes municipals de l'Ampolla, Amposta, Camarles, Deltebre, Sant Carles de la Ràpita i Sant Jaume d'Enveja.\nEl delta de l'Ebre és la zona humida més gran de Catalunya, amb una extensió aproximada de 7.736 hectàrees.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A Amposta",
+      "B": "A Falset",
+      "C": "A Tortosa",
+      "D": "A Móra d'Ebre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q93",
+    "statement": "Com s'anomena el front en què les masses freda i càlida no avancen l'una contra l'altra?",
+    "correct": "A",
+    "explanation": "Front oclús: front que separa dues masses d'aire fred posades en contacte per un procés de minvament d'un sector càlid,\nque es produeix quan el front fred atrapa el front càlid que el precedeix.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Front estacionari",
+      "B": "Front càlid",
+      "C": "Front oclús",
+      "D": "Front estàtic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim22_q95",
+    "statement": "El vent dominant a Catalunya:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el de Ponent",
+      "B": "És el de Llevant",
+      "C": "És el de Mestral",
+      "D": "És la Tramuntana"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q95",
+    "statement": "Existeixen tres principals situacions sinòptiques que comporten risc d'incendi a Catalunya. Quina de les opcions següents no és una d'aquestes situacions?",
+    "correct": "C",
+    "explanation": "Zones d'afectació de vents de nord: Girona i vall de l'Ebre.\nZones d'afectació de vents de l'oest: Serralada prelitoral entre Garraf i l'Ebre.\nZones d'afectació de vents de sud: Façana litoral i vall del Llobregat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 25",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "15 mm",
-      "B": "30 mm",
-      "C": "10 mm",
-      "D": "5 mm"
-    }
+      "A": "Situació de vents de nord",
+      "B": "Situació de vents de l'oest",
+      "C": "Situació de vents de l'est",
+      "D": "Situació de vents de sud"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim27_q6",
-    "statement": "Segons l'ADR, els gasos, en funció de les seves propietats perilloses, es poden classificar en sis grups. Els grups T, TF, TC i TO...",
+    "id": "academia_sim26_q26",
+    "statement": "Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?",
     "correct": "A",
-    "explanation": "Els 6 grups:\nA: asfixiant\nF: inflamable\nT: tòxic\nC: corrosiu\nFC: inflamable, corrosiu\nTF: tòxic, inflamable\nLa divisió 2.1 inclou gasos inflamables (grup F)\nLa divisió 2.2 inclou gasos asfixiants o comburents (grup O / grup A)\nLa divisió 2.3 inclou gasos tòxics (grups T, TF, TC, TO, TFC i TOC)",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 27",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es poden incloure dins de la divisió 2.3",
-      "B": "Es poden incloure dins de la divisió 2.2",
-      "C": "Es poden incloure dins de la divisió 2.1",
-      "D": "Es poden incloure dins de la classe 6"
-    }
-  },
-  {
-    "id": "academia_sim27_q80",
-    "statement": "Què és un CGEM segons l'ADR?",
-    "correct": "D",
-    "explanation": "Són les sigles de Contenidor de Gas amb Elements Múltiples (CGEM).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 27",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Un contenidor cisterna",
-      "B": "Un tipus de contenidor de gran capacitat",
-      "C": "Un tipus de contenidor dissenyat per transportar matèries a granel",
-      "D": "Un contenidor de gas amb diferents elements  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim27_q95",
-    "statement": "Segons l'ADR, els vehicles portaran la placa de matèries transportades en calent... (assenyala la incorrecta)",
-    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 27",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 26",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Si transporten matèries líquides a 100°C o més",
-      "B": "Si transporten matèries sòlides a 240°C o més",
-      "C": "De 25 cm de costat",
-      "D": "Totes les respostes són correctes"
-    }
+      "A": "45°",
+      "B": "90°",
+      "C": "60°",
+      "D": "0°"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim28_q41",
-    "statement": "Quina de les següents classes no disposa de grup d'embalatge?",
+    "id": "academia_sim26_q87",
+    "statement": "El faig, el roure i l'alzina són exemples de:",
     "correct": "B",
-    "explanation": "ADR 2.1.1.3: \"A efectes d'embalatge, les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries\nautorreactives de la classe 4.1, s'assignen a grups d’embalatge segons el grau de perill que presenten (I, II, III)\".",
+    "explanation": "Coníferes: pi, avet, salze...",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Frondoses",
+      "B": "Fagàcies",
+      "C": "Coníferes",
+      "D": "Planifolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim26_q89",
+    "statement": "L'espècie més característica de l'estatge basal és:",
+    "correct": "A",
+    "explanation": "L'estatge basal té com a límit inferior al nivell del mar i arriba fins els 600 metres aproximadament",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alzina",
+      "B": "El roure bedoll",
+      "C": "L'avet",
+      "D": "El pi negre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q26",
+    "statement": "La velocitat de propagació d'un incendi forestal generalment s'apropa:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La classe 3",
-      "B": "Les matèries autorreactives de la classe 4.1",
-      "C": "La classe 6.1",
-      "D": "La classe 5.1"
-    }
+      "A": "Al 3% de la velocitat mitjana del vent",
+      "B": "Al 6% de la velocitat mitjana del vent",
+      "C": "Als 10 km/h",
+      "D": "Cap resposta és correcta"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim28_q42",
-    "statement": "Per poder-se produir un Boil-Over s'ha de complir que:",
-    "correct": "B",
-    "explanation": "Això produeix l'ebullició sobtada de l'aigua situada sota el líquid combustible.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 28",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La densitat i punt d'ebullició del combustible siguin superiors a les de l'aigua",
-      "B": "La densitat i punt d'ebullició del combustible siguin inferior i superior, respectivament, a les de l'aigua",
-      "C": "La densitat i punt d'ebullició del combustible siguin inferiors a les de l'aigua",
-      "D": "El punt d'ebullició i la densitat del combustible siguin inferior i superior, respectivament, a les de l'aigua  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim28_q43",
-    "statement": "Segons l'ADR, quin dels següents codis de perill correspon a un gas liquat?",
+    "id": "academia_sim28_q90",
+    "statement": "Quin tipus de conreu suposa un major abast de superfície agrícola a Catalunya?",
     "correct": "D",
-    "explanation": "22: gas liquat refrigerat i asfixiant.\n223: gas liquat refrigerat i inflamable.\n225: gas liquat refrigerat i comburent.",
+    "explanation": "Cereals: 335.000 Ha\nFarratges: 136.000 Ha\nFont: IDESCAT\nEn quant a la PRODUCCIÓ agrícola, el conreu de major producció són els farratges (3.661.205 Tones).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El 22",
-      "B": "El 223",
-      "C": "El 225",
-      "D": "Totes són correctes"
-    }
+      "A": "La fruita seca",
+      "B": "Els farratges",
+      "C": "Les lleguminoses en gra",
+      "D": "Els cereals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim28_q45",
-    "statement": "Matèries com el fòsfor, que s'escalfen en contacte amb l'aire, a l'ADR les trobem...",
+    "id": "academia_sim28_q95",
+    "statement": "Durant la nit, des d'on bufa el vent tèrmic?",
     "correct": "A",
-    "explanation": "Classe 4.2: Matèries que experimenten inflamació espontània.",
+    "explanation": "És el vent anomenat terral.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Incloses a la Classe 4.2",
-      "B": "O bé a la classe 5.1 o a la 5.2",
-      "C": "Dins la classe 4.1, juntament amb els nitrats",
-      "D": "Dins la classe 4.1, amb el Magnesi"
-    }
+      "A": "Des del terra",
+      "B": "Des del mar",
+      "C": "De menor a major altitud",
+      "D": "Des de qualsevol direcció"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim29_q17",
-    "statement": "Qui haurà de posar les instruccions escrites previstes a l'ADR a disposició de la tripulació del vehicle?",
+    "id": "academia_sim29_q6",
+    "statement": "Quina de les següents afirmacions és certa respecte un bioma?",
+    "correct": "D",
+    "explanation": "Altres biomes podrien ser el taigà, els boscos temperats caducifolis, les sabanes o les selves tropicals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una gran unitat de classificació dels paisatges de la biosfera",
+      "B": "És un ecosistema molt gran que té una fauna típica, entre d'altres condicions",
+      "C": "Els deserts en són un exemple",
+      "D": "Totes les afirmacions són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q20",
+    "statement": "Quina de les següents afirmacions sobre les pressions atmosfèriques és falsa?",
+    "correct": "D",
+    "explanation": "La columna de fum es dispersa després d'elevar-se una mica en atmosferes estables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les àrees d'altes pressions acostumen a portar bon temps",
+      "B": "La extensió d'una depressió acostuma a ser menor que la d'un anticicló",
+      "C": "La pluja de convecció provoca núvols verticals tipus cúmuls",
+      "D": "En incendis d'atmosfera inestable, la columna de fum es dispersa després d'elevar-se una mica"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q32",
+    "statement": "Quin tipus de núvol trobem entre els 7 i els 12 quilòmetres d'altura?",
     "correct": "A",
-    "explanation": "ADR 1.4.2.2.6",
+    "explanation": "Els cirrus solen ser indicadors que s'aproxima un sistema frontal. També pot aparèixer després del pas de sistemes de\ntempesta.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 29",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El transportista",
-      "B": "L'expedidor",
-      "C": "El carregador",
-      "D": "L'empresari"
-    }
+      "A": "Cirrus",
+      "B": "Cúmuls",
+      "C": "Estrats",
+      "D": "Altoestrats  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim29_q37",
-    "statement": "Segons l'ADR, un combustible per a motors dièsel amb un punt d'ignició de 115°C:",
-    "correct": "C",
-    "explanation": "Segons l'ADR, els materials combustibles per a motors dièsel amb un punt d'ignició superior als 100°C no es consideren\nmercaderies perilloses.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 29",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es considera una mercaderia molt perillosa",
-      "B": "Es considera una mercaderia perillosa",
-      "C": "No es considera una mercaderia perillosa",
-      "D": "Cap de les respostes és correcta"
-    }
-  },
-  {
-    "id": "academia_sim29_q39",
-    "statement": "Com es designarà un vehicle portador d'un contenidor cisterna amb una capacitat superior a 3.000 litres amb matèries d'un punt d'inflamació menor a 23°C?",
+    "id": "academia_sim32_q75",
+    "statement": "Quin és el vent dominant per excel·lència a Catalunya?",
     "correct": "A",
-    "explanation": "ADR 9.1.1.2, \"definicions\".",
+    "explanation": "El vent de Ponent és molt sec.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 29",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Tipus FL",
-      "B": "Tipus AT",
-      "C": "Tipus EX/II",
-      "D": "Tipus EX/III"
-    }
-  },
-  {
-    "id": "academia_sim29_q43",
-    "statement": "Quantes plaques-etiqueta de perill haurà de portar un contenidor cisterna carregat amb mercaderies de la classe 2?",
-    "correct": "C",
-    "explanation": "ADR 5.3.1.2",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 29",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Tantes com el nombre de compartiments que disposi",
-      "B": "Una, la de major perillositat",
-      "C": "Tantes com matèries diferents dugui",
-      "D": "Una, a la part de darrera"
-    }
-  },
-  {
-    "id": "academia_sim30_q92",
-    "statement": "Una matèria amb el codi de perill \"30\", excepte en casos de matèries foses o susceptibles d'autocalentament, per norma general:",
-    "correct": "A",
-    "explanation": "ADR: 5.3.2.3.2.\nCodi de perill \"33\": matèria líquida molt inflamable (PI < 23°C).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 30",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Presentarà un punt d'inflamació comprès entre els 23°C i els 60°C, ambdós valors inclosos",
-      "B": "Presentarà un punt d'inflamació comprès entre els 30°C i els 81°C",
-      "C": "Presentarà un punt d'inflamació comprès entre els 13°C i els 21°C, ambdós valors inclosos",
-      "D": "Tindrà un punt d'inflamació inferior al que tindran les matèries amb un \"33\" al codi de perill"
-    }
-  },
-  {
-    "id": "academia_sim31_q32",
-    "statement": "Segons l'ADR, és la persona física o jurídica per ordre de la qual es fa l’enviament de la mercaderia perillosa. A la carta de port del transport hi figura com a tal.",
-    "correct": "B",
-    "explanation": "Transportista: persona física o jurídica que assumeix l’obligació de dur a terme el transport, i amb aquesta finalitat té la\nseva pròpia organització empresarial.\nCarregador: és qualsevol empresa que carrega les mercaderies perilloses en embalums, petits contenidors o cisternes\nportàtils en o sobre un vehicle o que carreguen un contenidor per al transport a granel, un contenidor cisterna o una\ncisterna portátil sobre un vehicle.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 31",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Transportista",
-      "B": "Expedidor",
-      "C": "Carregador",
-      "D": "Descarregador  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim31_q75",
-    "statement": "Quin tipus d'embalatge s'assigna a les matèries de la classe 9 classificades com a matèries de perillositat mitjana?",
-    "correct": "B",
-    "explanation": "ADR 2.2.9.1.15:\nGrup d'embalatge II: matèries de perillositat mitja.\nGrup d'embalatge III: matèries que presenten un grau menor de perillositat.\n\n\nacadèmia\nbombers",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 31",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Grup d'embalatge I",
-      "B": "Grup d'embalatge II",
-      "C": "Grup d'embalatge III",
-      "D": "Grup d'embalatge IV"
-    }
-  },
-  {
-    "id": "academia_sim32_q67",
-    "statement": "Quina de les següents informacions no inclourà una carta de port?",
-    "correct": "B",
-    "explanation": "La informació que haurà de subministrar la carta de port es troba recollida a l'apartat 5.4.1 de l'ADR 2021.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 32",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El número ONU de la mercaderia",
-      "B": "Les instruccions escrites de seguretat",
-      "C": "El nom de l'expedidor",
-      "D": "La direcció del destinatari"
-    }
+      "A": "El vent de Ponent",
+      "B": "El vent de Tramuntana",
+      "C": "El vent de Garbí",
+      "D": "El vent de Mestral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim33_q27",
-    "statement": "Què és una cisterna desmuntable, segons l'ADR?",
-    "correct": "C",
-    "explanation": "En canvi, la cisterna fixa té una capacitat superior a 1.000 litres.",
+    "id": "academia_sim33_q47",
+    "statement": "Com s'anomena la distància que existeix entre dues valls contigües d'una rosca?",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 33",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una cisterna amb una capacitat inferior a 450 litres",
-      "B": "Una cisterna amb una capacitat superior a 1.000 litres",
-      "C": "Una cisterna amb una capacitat superior a 450 litres",
-      "D": "Una cisterna amb una capacitat inferior a 1.000 litres"
-    }
+      "A": "Avanç",
+      "B": "Pas",
+      "C": "Flanc",
+      "D": "Filet"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim34_q27",
-    "statement": "D'acord amb l'ADR, la placa de matèries transportades en calent:",
+    "id": "academia_sim33_q91",
+    "statement": "Quin instrument meteorològic mesura la velocitat del vent?",
     "correct": "D",
-    "explanation": "Portaran la placa...\nSi transporten matèries líquides a 100°C o més, o bé\nSi transporten matèries sòlides a 240°C o més.\nSeran de 25 cm de costat com a mínim.",
+    "explanation": "L'anemògraf deixa registrades les velocitats del vent.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 34",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 33",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La portaran els vehicles si transporten matèries líquides a 120°C o més",
-      "B": "La portaran els vehicles si transporten matèries sòlides a 120°C o més",
-      "C": "Serà de 15 cm de costat",
-      "D": "Tindrà una forma de triangle equilàter"
-    }
+      "A": "L'anemògraf",
+      "B": "L'heliòmetre",
+      "C": "El baròmetre",
+      "D": "L'anemòmetre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim34_q64",
-    "statement": "Quina capacitat té una cisterna fixa, d'acord amb l'ADR?",
-    "correct": "D",
-    "explanation": "Cisterna desmuntable: més de 450 L.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 34",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Més de 450 litres",
-      "B": "4.500 litres",
-      "C": "450 litres",
-      "D": "Més de 1.000 litres  acadèmia bombers"
-    }
-  },
-  {
-    "id": "academia_sim35_q35",
-    "statement": "En quants grups de compatibilitat es divideixen les matèries o objectes explosius, d'acord amb l'ADR?",
-    "correct": "C",
-    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 35",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Sis",
-      "B": "Nou",
-      "C": "Tretze",
-      "D": "Cinc"
-    }
-  },
-  {
-    "id": "academia_sim35_q59",
-    "statement": "De quina forma es representen els grups de compatibilitat a l'ADR?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 35",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Amb números",
-      "B": "Amb lletres majúscules",
-      "C": "Amb números romans",
-      "D": "Amb números i lletres"
-    }
-  },
-  {
-    "id": "academia_sim35_q94",
-    "statement": "On portaran les plaques-etiqueta les cisternes portàtils, d'acord amb l'ADR?",
-    "correct": "D",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 35",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Darrera, únicament",
-      "B": "Davant i darrera",
-      "C": "Darrera i als laterals",
-      "D": "Davant, darrera i als costats"
-    }
-  },
-  {
-    "id": "academia_sim36_q23",
-    "statement": "On se situa el codi de perill en un panell taronja?",
+    "id": "academia_sim34_q5",
+    "statement": "Quina regió biogeogràfica es caracteritza per formacions adaptades a condicions d’ambient humit, ombrívol i temperat?",
     "correct": "A",
-    "explanation": "A la part inferior hi trobem el número ONU.\n\n\nacadèmia\nbombers",
+    "explanation": "Les comunitats vegetals pròpies de la regió mediterrània són els alzinars i les màquies. Els alzinars, amb l’alzina i la\ncarrasca com a arbres característics, es troben acompanyats de diversos arbustos alts. Les màquies són formacions de\nvegetació arbustiva alta molt ben adaptada a condicions de sequedat i calor; en zones més seques i àrides dominen les\nbrolles, formades per arbustos baixos i mitjans. La regió eurosiberiana es caracteritza per formacions adaptades a\ncondicions d’ambient humit, ombrívol i temperat. És el domini dels boscos caducifolis (rouredes i fagedes) i els boscos de\npi roig. La vegetació de la regió boreoalpina, característica dels climes freds, presenta boscos de pi negre i avetoses\nentre els 1.600 i els 2.300 m, i prats alpins fins als 2.500 i 2.800 m. A més altitud la vegetació és gairebé inexistent.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La regió eurosiberiana",
+      "B": "La regió alpina",
+      "C": "La regió boreoalpina",
+      "D": "La regió mediterrània"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim34_q73",
+    "statement": "Com s'anomena el vent que bufa cap amunt en els vessants dels terrenys que s'han escalfat fortament a causa de la radiació solar?",
+    "correct": "B",
+    "explanation": "El vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa rep el\nnom de vent catabàtic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vent catabàtic",
+      "B": "Vent anabàtic",
+      "C": "Vent de Foehn",
+      "D": "Vent de Coriolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim36_q30",
+    "statement": "Són boscos perennifolis:",
+    "correct": "A",
+    "explanation": "Les rouredes i fagedes són boscos caducifolis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 36",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A la part superior",
-      "B": "A la part inferior",
-      "C": "A la part central",
-      "D": "El codi de perill no apareix en el panell taronja"
-    }
+      "A": "Els alzinars",
+      "B": "Les fagedes",
+      "C": "Les rouredes",
+      "D": "Tots tres ho són"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim37_q71",
-    "statement": "Quin dels següents tipus de cisterna disposa d'una major capacitat, d'acord amb l'ADR?",
-    "correct": "A",
-    "explanation": "Cisterna fixa: superior a 1.000 L.\nCisterna desmuntable: superior a 450 L.\nCisterna ISO (=contenidor cisterna): superior a 450 L.",
+    "id": "academia_sim36_q43",
+    "statement": "D'acord amb el VENTCAT, a quin indret de Catalunya s'hi registraran generalment màximes de vent més elevades?",
+    "correct": "D",
+    "explanation": "Les velocitats mitjanes anuals del vent (mesurades a 10 m del terra) es troben entre 1 m/s a Viella i 10 m/s de Portbou.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A Manresa",
+      "B": "A Viella",
+      "C": "A Sant Pol de Mar",
+      "D": "A Portbou"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q93",
+    "statement": "Quin tipus de vegetació podem trobar sobre els 3.000 metres?",
+    "correct": "A",
+    "explanation": "La vegetació de la regió boreoalpina, característica dels climes freds, presenta boscos de pi negre i avetoses entre els\n1.600 i els 2.300 m, i prats alpins fins als 2.500 i 2.800 m. A més altitud la vegetació és gairebé inexistent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 37",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La cisterna fixa",
-      "B": "La cisterna ISO",
-      "C": "El contenidor cisterna",
-      "D": "La cisterna desmuntable"
-    }
+      "A": "Pràcticament no hi trobarem vegetació",
+      "B": "Prats alpins",
+      "C": "Boscos caducifolis de rouredes o fagedes",
+      "D": "Boscos de pi negre i avetoses"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim39_q39",
-    "statement": "D'acord amb l'ADR, els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les lletres són:",
-    "correct": "A",
-    "explanation": "Sabent que les matèries o objectes explosius es divideixen en tretze grups de compatibilitat podem trobar la resposta\ncorrecta.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 39",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A, B, C, D, E, F, G, H, J, K, L, N, S",
-      "B": "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, R, S, T",
-      "C": "A, B, C, D, E, F, G, H, I",
-      "D": "A, B, C, D, E, F"
-    }
-  },
-  {
-    "id": "academia_sim39_q50",
-    "statement": "Quines són les sigles de la normativa internacional europea de transport de mercaderies perilloses per carretera?",
+    "id": "academia_sim38_q30",
+    "statement": "Quin tipus de vegetació trobem per sobre dels 1.700 i fins els 2.300 metres?",
     "correct": "C",
-    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri\n\n\nacadèmia\nbombers",
+    "explanation": "Entre els 900 i els 1.700m hi predominen els boscos de pi roig, roure i faig.\nPer sobre dels 2.300 només el prat alpí (vegetació herbàcia)",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Boscos de pi roig, roure i faig",
+      "B": "Prat alpí",
+      "C": "Boscos de pi negre i d'avet",
+      "D": "Paisatges mediterranis septentrionals: alzinars, carrascars i suredes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q15",
+    "statement": "Quins tipus d'estrats existeixen en incendis forestals?",
+    "correct": "D",
+    "explanation": "L'estrat d'escala comprèn la distància entre els 1,3 metres del terra i les capçades dels arbres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 39",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "RID",
-      "B": "IMDG",
-      "C": "ADR",
-      "D": "L'enunciat és incorrecte, l'ADR només aplica a nivell nacional"
-    }
+      "A": "De superfície i aeris",
+      "B": "De superfície, verticals i meridionals",
+      "C": "De superfície, de bandada i aeris",
+      "D": "De superfície, d'escala i aeris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim40_q37",
-    "statement": "On s'hauran de col·locar les plaques-etiqueta de perill en un vehicle cisterna d'un compartiment carregat amb benzina?",
-    "correct": "B",
-    "explanation": "ADR 2023 - Punt 5.3.1.4. Ull! No confondre \"contenidor\" amb \"vehicle\".",
+    "id": "academia_sim40_q20",
+    "statement": "Amb quines unitats s'expressa la radiació solar a l'Atlas de radiació solar a Catalunya?",
+    "correct": "A",
+    "explanation": "El terme radiació solar s'utilitzarà en aquesta publicació per a fer referència a la irradiació global diària sobre una\nsuperfície horitzontal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una a cada lateral",
-      "B": "Una a cada costat de la cisterna i una altra darrera",
-      "C": "Una a la part de darrera, una a la part de davant i dues més, una a cada lateral",
-      "D": "Una a la part de davant i l'altra a la de darrera"
-    }
+      "A": "MJ/m²",
+      "B": "cal/cm²",
+      "C": "J/m²",
+      "D": "μm"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim41_q1",
-    "statement": "On han de portar les plaques-etiqueta els vehicles cisterna de mercaderies perilloses?",
-    "correct": "D",
-    "explanation": "En el cas de vehicles a granel, vehicles cisterna, vehicles bateria, MEMU i vehicles amb cisternes desmuntables, les\nplaques-etiqueta hauran de fixar-se als dos laterals i a la part de darrera del vehicle. (ADR 2021, art. 5.3.1.4).",
+    "id": "academia_sim40_q42",
+    "statement": "El terme radiació solar s'utilitzarà en l'Atlas de radiació solar a Catalunya per a fer referència a la irradiació global diària sobre una superfície horitzontal. Quin n'és l'aparell de mesurament?",
+    "correct": "C",
+    "explanation": "També rep el nom de solarímetre o actinòmetre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El manòmetre",
+      "B": "L'espectròmetre",
+      "C": "El piranòmetre",
+      "D": "El goniòmetre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim40_q46",
+    "statement": "Què acostuma a indicar l'arribada de núvols de tipus cirrus?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Arribada de forts vents",
+      "B": "Que s'apropa un front fred",
+      "C": "Arribada de pluges",
+      "D": "Que s'apropa un front càlid"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q88",
+    "statement": "En números rodons, a Catalunya hi ha una superfÌcie forestal de:",
+    "correct": "D",
+    "explanation": "IDESCAT 2021.\n1.124.440 d'hectàrees de bosc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 41",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Als costats, a la part de davant i a la part de darrera del vehicle",
-      "B": "A la part de davant i a la de darrera del vehicle",
-      "C": "Als costats del vehicle",
-      "D": "Als costats i a la part de darrera del vehicle"
-    }
+      "A": "Cent mil hectàrees",
+      "B": "Un milió d'hectàrees",
+      "C": "Vint mil hectàrees",
+      "D": "Dos milions d'hectàrees  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim42_q25",
-    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.5, sense perill subsidiari?",
+    "id": "academia_sim42_q52",
+    "statement": "Davant d'un temporal fort:",
     "correct": "C",
-    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "explanation": "Temporal fort:\n20,8 – 24,4 m/s\n41 – 47 Kt (nusos)\n75 – 87 km/h",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 42",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'etiqueta número 1.4",
-      "B": "L'etiqueta número 1.1",
-      "C": "L'etiqueta número 1.5",
-      "D": "L'etiqueta número 1"
-    }
+      "A": "Es produeixen danys considerables en construccions, teulades i arbres",
+      "B": "S’aixeca pols i papers i se sacsegen les capçades dels arbres",
+      "C": "És impossible caminar contra el vent i pot trencar-se alguna primera teula dels terrats i teulats",
+      "D": "Es mouen els arbres grans i es té dificultat per caminar contra el vent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim43_q4",
-    "statement": "A quina classe de l'ADR s'hi inclouen les matèries sòlides inflamables?",
-    "correct": "C",
-    "explanation": "4.2: matèries susceptibles d'inflamació espontània.\n4.3: matèries que desprenen gasos inflamables en entrar en contacte amb l'aigua.",
+    "id": "academia_sim42_q78",
+    "statement": "Sabent que el Servei Meteorològic de Catalunya classifica el vent que circula entre els 17,2 i els 20,7 m/s com a temporal, quina denominació rebrà un vent que circuli a 15 km/h?",
+    "correct": "B",
+    "explanation": "Ventolina: 0,3 - 1,5 m/s.\nVent fort: 13,9 – 17,1 m/s.\nTemporal molt fort: 24,5 – 28,4 m/s.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ventolina",
+      "B": "Vent fluix",
+      "C": "Vent fort",
+      "D": "Temporal molt fort"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q82",
+    "statement": "Quin sistema o mètode s'utilitza en certs parallamps per combatre les descàrregues electroestàtiques?",
+    "correct": "A",
+    "explanation": "La gàbia de Faraday té una important aplicació en la protecció d'equips electrònics contra descàrregues\nelectroestàtiques. Està conformada per conductors (malla de Faraday) que recobreixen el sostre i les parets de\nl'estructura a protegir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La gàbia de Faraday",
+      "B": "La clau de Coulomb",
+      "C": "La columna Tesla",
+      "D": "La tàpia elèctrica de Kirchhoff"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q45",
+    "statement": "Què mesura un pluviòmetre de balancí?",
+    "correct": "A",
+    "explanation": "Per a la mesura de la intensitat de precipitació s’utilitzen majoritàriament pluviòmetres de balancí. El seu funcionament es\nbasa en el tancament d’un contacte magnètic quan es produeix la basculació d’un balancí cada vegada que aquest\ns’omple d’aigua.\nFont: Meteo.cat",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 43",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A la classe 4.2",
-      "B": "A la classe 3",
-      "C": "A la classe 4.1",
-      "D": "A la classe 5.1"
-    }
+      "A": "La intensitat de precipitació",
+      "B": "La radiació solar",
+      "C": "L'humitat de l'aire",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim44_q17",
-    "statement": "Quines matèries no disposen de grup d'embalatge?",
-    "correct": "A",
-    "explanation": "ADR 2.1.1.3: \"A efectes d'embalatge, les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries\nautorreactives de la classe 4.1, s'assignen a grups d’embalatge segons el grau de perill que presenten\".",
+    "id": "academia_sim44_q12",
+    "statement": "Quin dels següents arbres és caducifoli?",
+    "correct": "C",
+    "explanation": "Les rouredes i fagedes són boscos caducifolis.\nD'entre els boscos perennifolis hi trobem el pi, el xiprer o el cedre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 44",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Les matèries de la classe 5.2",
-      "B": "Les matèries de la classe 4.2",
-      "C": "Les matèries de la classe 3",
-      "D": "Les matèries de la classe 8"
-    }
+      "A": "L'alzina",
+      "B": "El pi blanc",
+      "C": "El roure",
+      "D": "El xiprer"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim44_q33",
-    "statement": "Quin serà el proper any en el que es torni a revisar l'ADR?",
-    "correct": "A",
-    "explanation": "L'ADR es revisarà cada dos anys, els anys senars.",
+    "id": "academia_sim45_q34",
+    "statement": "Quina de les següents espècies arbòries de Catalunya ocupa una major superfície dins el territori català?",
+    "correct": "B",
+    "explanation": "La superfície ocupada pel Quercus ilex suma un total de 449.244 hectàrees. En segon lloc trobariem la superície\nocupada pel Pinus sylvestris.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 44",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 45",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'any 2025",
-      "B": "L'any 2024",
-      "C": "L'any 2030",
-      "D": "L'any 2027"
-    }
+      "A": "Pinus halepensis",
+      "B": "Quercus ilex",
+      "C": "Castanea sativa",
+      "D": "Pinus sylvestris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim47_q60",
-    "statement": "Com es designarà un contenidor cisterna de 4.000 litres de capacitat amb matèries amb un punt d'inflamació de 17°C?",
-    "correct": "A",
-    "explanation": "ADR 9.1.1.2, \"definicions\".",
+    "id": "academia_sim46_q70",
+    "statement": "Quina és l'espècie que compta amb un major nombre d'arbres a Catalunya?",
+    "correct": "D",
+    "explanation": "Quercus Ilex: alzina.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pinus halapensis",
+      "B": "Quercus suber",
+      "C": "Pinus sylvestris",
+      "D": "Quercus Ilex"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim46_q79",
+    "statement": "Quina comunitat vegetal abastarà o comptarà amb un major nombre d'estrats?",
+    "correct": "C",
+    "explanation": "Un bosc podrà presentar un o més estrats arboris, un o més estrats arbustius, un estrat herbaci i un estrat muscínic, pel\nque serà la comunitat vegetal més rica en aquest sentit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els prats",
+      "B": "Les màquies",
+      "C": "El bosc",
+      "D": "Els aiguamolls"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q27",
+    "statement": "Quins fronts es representen amb una línia omplerta de triangles que apunten en el sentit de l'avanç del front en els mapes meteorològics?",
+    "correct": "B",
+    "explanation": "El front fred representa mal temps. En un front fred l'aire més fred i més dens es posa en forma de falca sota l'aire més\ncàlid i menys dens, aixecant-lo.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 47",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Tipus FL",
-      "B": "Tipus AT",
-      "C": "Tipus EX/II",
-      "D": "Tipus EX/III"
-    }
+      "A": "Els fronts càlids",
+      "B": "Els fronts freds",
+      "C": "Els fronts oclusos",
+      "D": "Els fronts estacionaris"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim48_q57",
-    "statement": "Quin punt d'inflamació presentarà una matèria amb el codi de perill \"30\", excepte en casos molt concrets?",
+    "id": "academia_sim47_q34",
+    "statement": "Quines són les espècies predominants d'arbres en els ecosistemes forestals catalans?",
     "correct": "A",
-    "explanation": "ADR: 5.3.2.3.2.\nCodi de perill \"33\": matèria líquida molt inflamable (PI < 23°C).",
+    "explanation": "En milers de peus a Catalunya:\nCaducifolis: 258.728\nEsclerofil·les: 449.748\nConíferes: 680.920\nConíferes: plantes gimnospermes que produeixen inflorescències en forma d'estròbil, que solen ser anomenades cons o\npinyes, o bé gàlbuls, si són arrodonits i més o menys carnosos. Acostumen a ser arbres de tronc ramificat amb fulles\naciculars, esquamiformes o cintiformes, moltes de les quals produeixen resines.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les coníferes",
+      "B": "Els plannifolis",
+      "C": "Les falgueres",
+      "D": "Les cireretes d'arboç"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q75",
+    "statement": "Què mesura l'heliògraf?",
+    "correct": "D",
+    "explanation": "L’anemòmetre és un aparell utilitzat per mesurar la velocitat o força del vent. També és important saber d’on ve el vent,\nper la qual cosa s’utilitzen els penells.\nNefòmetre: aparell per a mesurar la nuvolositat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La nuvolositat",
+      "B": "El vent",
+      "C": "El punt de rosada",
+      "D": "La insolació o radiació solar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim48_q6",
+    "statement": "Quin dels següents indicadors ens alertarà de l'arribada d'un front càlid?",
+    "correct": "A",
+    "explanation": "En el front fred l'aire fred avança i fa pujar violenta i sobtadament l'aire càlid. En aquest moviment d'ascensió provoca la\nbaixada de la pressió al llarg del front fred i pot causar la formació de ruixats i tempestes de llamps i trons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Entre els 23°C i els 60°C, ambdós valors inclosos",
-      "B": "Entre els 30°C i els 81°C",
-      "C": "Entre els 13°C i els 21°C, ambdós valors inclosos",
-      "D": "Entre els 10 i els 15ºC"
-    }
+      "A": "Una pujada dràstica de la humitat relativa",
+      "B": "Vents forts i erràtics",
+      "C": "Un vent ratxat i fred",
+      "D": "Totes les respostes són incorrectes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim48_q78",
-    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.6, sense perill subsidiari?",
-    "correct": "C",
-    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "id": "academia_sim48_q49",
+    "statement": "Quin tipus de bosc és més freqüent en el paisatge?",
+    "correct": "B",
+    "explanation": "En canvi, si en realitat el que es vol saber és de quina espècie hi ha un major nombre d'arbres, llavors la resposta és\nl'alzina.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'etiqueta número 1.4",
-      "B": "L'etiqueta número 1.1",
-      "C": "L'etiqueta número 1.6",
-      "D": "L'etiqueta número 1"
-    }
+      "A": "L'alzinar",
+      "B": "La pineda de pi blanc",
+      "C": "La fageda",
+      "D": "La pineda de pi roig"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim49_q1",
-    "statement": "On han de portar les etiquetes els grans recipients per a granel amb una capacitat superior a 450 litres i els grans embalatges?",
-    "correct": "A",
-    "explanation": "ADR 5.2.2.1.7",
+    "id": "academia_sim48_q84",
+    "statement": "La marinada o brisa marina és un vent:",
+    "correct": "B",
+    "explanation": "L’altre és el terral, que és un vent nocturn que bufa de terra cap a mar. Es produeix quan la radiació solar desapareix i la\nsuperfície del mar conserva durant més temps la calor captada durant el dia que la terra, que es refreda més ràpidament.\nAixò fa que l’aire més calent del mar s’elevi i el seu lloc l’ocupi l’aire més fred provinent de la terra.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nocturn, que bufa de mar cap a terra, i que sol durar des que es fa fosc fins a la sortida del sol",
+      "B": "Diürn, que bufa de mar cap a terra, i que sol durar des que acaba el terral (cap a mig matí) fins que es fa fosc",
+      "C": "Nocturn, que bufa de terra cap al mar, i que sol durar des que es fa fosc fins a la sortida del sol",
+      "D": "Diürn, que bufa de terra cap mar, i que sol durar des que acaba el terral (cap a mig matí) fins que es fa fosc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q40",
+    "statement": "Quin fenomen meteorològic mesura l'heliògraf?",
+    "correct": "D",
+    "explanation": "L’anemòmetre és un aparell utilitzat per mesurar la velocitat o força del vent. També és important saber d’on ve el vent,\nper la qual cosa s’utilitzen els penells.\nNefòmetre: aparell per a mesurar la nuvolositat.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 49",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En dos costats oposats",
-      "B": "A davant",
-      "C": "En dos costats contigus",
-      "D": "Als quatre costats"
-    }
+      "A": "La nuvolositat",
+      "B": "El vent",
+      "C": "El punt de rosada",
+      "D": "La insolació o radiació solar  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim49_q93",
-    "statement": "El querosè és, d'acord amb l'ADR:",
-    "correct": "B",
-    "explanation": "ADR 3.2.1 Taula A Columna 1, 2, 3a, 3b i 4.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 49",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèria número 1203, de Classe 3, grup d'embalatge II",
-      "B": "Matèria número 1223, de Classe 3, grup d'embalatge III",
-      "C": "Matèria número 1202, de Classe 3, grup d'embalatge III",
-      "D": "Matèria número 1223, de Classe 3, grup d'embalatge I"
-    }
-  },
-  {
-    "id": "academia_sim50_q4",
-    "statement": "Quina numeració portaran els panells d'un vehicle-cisterna que transporti gasolina?",
-    "correct": "B",
-    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nEl gasoil durà 30 i 1202.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 50",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "30 i 1203",
-      "B": "33 i 1203",
-      "C": "33 i 1223",
-      "D": "33 i 1202"
-    }
-  },
-  {
-    "id": "academia_sim50_q34",
-    "statement": "La lletra “X” en el codi de perill del panell taronja (ADR), informa que:",
+    "id": "academia_sim51_q47",
+    "statement": "Què mesura l'anemòmetre?",
     "correct": "A",
-    "explanation": "",
+    "explanation": "El penell mesura la direcció del vent.\nEl psicòmetre mesura la humitat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 50",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La substància és incompatible amb l’aigua",
-      "B": "La substància presenta risc d’explosió",
-      "C": "Es tracta d’una matèria corrosiva",
-      "D": "Es tracta d’una substància nociva"
-    }
-  },
-  {
-    "id": "academia_sim51_q7",
-    "statement": "D'acord amb l'ADR, què és la matèria número 1203?",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un sòlid combustible",
-      "B": "Un sòlid inflamable",
-      "C": "Una matèria de la classe 3",
-      "D": "Una matèria de la classe 4.1"
-    }
+      "A": "La velocitat del vent",
+      "B": "La direcció del vent",
+      "C": "La humitat",
+      "D": "La direcció i la velocitat del vent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim52_q58",
-    "statement": "D'acord amb l'ADR, on duran les plaques-etiqueta les cisternes portàtils?",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim52_q24",
+    "statement": "Quin dels següents arbres o plantes no forma part del domini de la regió mediterrània?",
+    "correct": "A",
+    "explanation": "El pi roig\nLa regió mediterrània és una regió biogeogràfica del regne holàrtic que comprèn els països de la conca mediterrània.\nEl clima és sec i d’hiverns suaus, amb pluges sobretot tardorenques i amb eixut estival. La vegetació és xeròfila,\nconstituïda bàsicament per boscs esclerofil·les, garrigues, matolls, timonedes i prats secs (enciclopèdia.cat).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 52",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Darrera, únicament",
-      "B": "Davant i darrera",
-      "C": "Darrera i als laterals",
-      "D": "Davant, darrera i als costats"
-    }
+      "A": "El pi roig",
+      "B": "El garric",
+      "C": "El pi blanc",
+      "D": "L'alzina surera  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim54_q24",
-    "statement": "D'acord amb l'ADR, què és un CGEM?",
+    "id": "academia_sim52_q27",
+    "statement": "En quin dels següents casos un incendi resultarà més crític de cara a la seva extinció?",
     "correct": "D",
-    "explanation": "Són les sigles de Contenidor de Gas amb Elements Múltiples (CGEM).",
+    "explanation": "Com més fort sigui el vent, més ràpida serà la propagació de l'incendi.\nSi la humitat relativa és del 30% o inferior, el perill d’incendi és crític i és possible que es doni un comportament extrem\nde l'incendi.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A primera hora del matí, amb un vent de 2 m/s i una humitat relativa alta",
+      "B": "A primera hora del matí, amb un vent de 14 m/s i una humitat relativa alta",
+      "C": "Al vespre, amb una humitat relativa baixa i un vent de 2 m/s",
+      "D": "Al vespre, amb una humitat relativa baixa i un vent de 14 m/s"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q95",
+    "statement": "En un foc forestal, quin dels següents indicadors visibles corresponen al d'una atmosfera inestable?",
+    "correct": "C",
+    "explanation": "Atmosfera inestable:\n- Els núvols creixen verticalment; núvols del tipus cúmul.\n- Corrents ascendents i descendents; el fum s’eleva a gran altura; vents arremolinats.\n- Bona visibilitat.\n- Remolins de pols.\n- Escalfament a poca altura.\n(Temari BBVV)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hi ha una pobra visibilitat a nivell baix degut a l’acumulació de boirina i fum",
+      "B": "La columna de fum es dispersa després d’elevar-se una mica",
+      "C": "Els núvols creixen verticalment",
+      "D": "Existeix un refredament a poca altura"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q17",
+    "statement": "La superfície forestal representa un 63,8% de la utilització del sòl a Catalunya, dins de la qual hi predomina:",
+    "correct": "B",
+    "explanation": "Respecte el total de superfície catalana:\nBosc: 35%\nBosquina: 22%\nAltra vegetació: 6,7%",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les bosquines",
+      "B": "El bosc",
+      "C": "La pinassa (Pinus nigra)",
+      "D": "Altra vegetació, ni bosc ni bosquina"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q82",
+    "statement": "L'escala de Beaufort és una escala que permet d’estimar la velocitat d’un vent, una vegada observats els seus efectes. Si la direcció del vent es defineix pel fum que s'eleva, no pels panells, quin número correspondrà a l'escala?",
+    "correct": "D",
+    "explanation": "0 - Calma: el fum puja verticalment.\n1 - Ventolina: la direcció del vent es defineix pel fum que s'eleva, no pels panells.\n2 - Vent fluixet (brisa molt feble): el vent es nota a la cara; es mouen les fulles dels arbres; es mouen els panells comuns.\n(...)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un contenidor cisterna",
-      "B": "Un tipus de contenidor de gran capacitat",
-      "C": "Un tipus de contenidor dissenyat per transportar matèries a granel",
-      "D": "Un contenidor de gas amb diferents elements  acadèmia bombers"
-    }
+      "A": "El nou (temporal fort)",
+      "B": "El vuit (temporal)",
+      "C": "El zero (calma)",
+      "D": "L'u (ventolina)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim56_q36",
-    "statement": "D'acord amb l'ADR, on trobarem les plaques-etiqueta de perill?",
-    "correct": "C",
-    "explanation": "Als paquests o embalums hi trobarem etiquetes de perill (no plaques-etiqueta).",
+    "id": "academia_sim54_q86",
+    "statement": "NO és una característica dels vents Foëhn:",
+    "correct": "D",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos. És freqüent, però no\nsempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb velocitats de 60 a 100\nkm/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament dels vents Foëhn, i es\nproduirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o mestral de la Vall de\nl’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels grans incendis a\nTarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després de superar els\nPirineus (font: temari BBVV).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són vents secs",
+      "B": "Normalment són bastant forts i constants",
+      "C": "Són característics del costat de sotavent dels massissos muntanyosos",
+      "D": "Són més freqüents durant les estacions fredes, sobretot a l'hivern"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q63",
+    "statement": "Quina de les següents espècies vegetals és conífera?",
+    "correct": "D",
+    "explanation": "Els pins, els avets i els cedres també són exemples de coníferes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El roure",
+      "B": "L'alzina",
+      "C": "L'eucalipte",
+      "D": "El xiprer"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q87",
+    "statement": "Sobre els vents topogràfics, és CERT que:",
+    "correct": "B",
+    "explanation": "La velocitat dels vents topogràfics diürns oscil·la entre 15 i 25 Km/h, mentre que la dels vents nocturns es situa entre 3 i 8\nKm/h. El màxim en els vents ascendents es dóna al voltant de mitja tarda i en els descendents poc després de mitjanit. El\ncanvi de sentit del vent es dóna al vespre de forma gradual i en aquest interval sol estar calmat durant una hora o més.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La velocitat màxima en els vents ascendents es dóna a l'última hora del matí",
+      "B": "La pauta general és tenir vents diürns ascendents i vents nocturns descendents",
+      "C": "També són coneguts com a vents de gradient",
+      "D": "La velocitat d'aquests vents és major durant la nit que durant el dia"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q6",
+    "statement": "Encara que no és un arbre en si mateix, és una vegetació característica de moltes àrees mediterrànies:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 56",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Als paquets o embalums",
-      "B": "A la guantera del vehicle, per si és necessària la seva consulta",
-      "C": "Als vehicles",
-      "D": "Als paquets o embalums i als vehicles"
-    }
+      "A": "L'alzina",
+      "B": "El chopo",
+      "C": "El timó",
+      "D": "La garriga"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim56_q77",
-    "statement": "En quin dels següents escenaris es podrà desenvolupar el fenomen del Boil-over?",
-    "correct": "D",
-    "explanation": "El Boil-over consisteix en un vessament violent d'un líquid combustible incendiat, la densitat i el punt d'ebullició del qual\nsón inferior i superior als de l'aigua, respectivament, produït per ebullició brusca de la capa d'aigua existent al fons del\nrecipient que el conté. La densitat i el punt d'ebullició de l'oli i del gasoil són inferiors i superior, respectivament, als de\nl'aigua.",
+    "id": "academia_sim56_q30",
+    "statement": "En quina d’aquestes comarques podem trobar una major quantitat de boscos de pi blanc (Pinnus halepensis)?",
+    "correct": "A",
+    "explanation": "La pineda de pi blanc és el tipus de bosc amb un major nombre d'hectàrees a Catalunya. Les comarques amb més bosc\nde pi blanc són el Bages (prop de 26.000 hectàrees), la Terra Alta (més de 20.000 hectàrees) i l’Anoia (més de 18.000\nhectàrees).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 56",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En un foc d'un recipient tancat ple de gasolina",
-      "B": "En un foc d'un dipòsit d'oli obert que conté aigua al fons",
-      "C": "En un foc d'un bidó de gasoil obert que conté aigua al fons",
-      "D": "Les respostes b) i c) són correctes"
-    }
+      "A": "El Bages",
+      "B": "L'Aran",
+      "C": "El Ripollès",
+      "D": "L'Alt Empordà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim57_q26",
-    "statement": "Quantes divisions presenten les matèries i objectes explosius a l'ADR?",
-    "correct": "A",
-    "explanation": "Per ordre de perillositat: 1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4\nUll! No confondre les divisions (6) amb els grups de compatibilitat (13).",
+    "id": "academia_sim56_q51",
+    "statement": "Quina finalitat té la compartimentació en sectors d'incendi en un edifici?",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 57",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 56",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sis",
-      "B": "Cinc",
-      "C": "Quatre",
-      "D": "Tretze"
-    }
+      "A": "La extinció de possibles incendis",
+      "B": "Limitar l'extensió de l'incendi",
+      "C": "Prevenir l'aparició d'incendis",
+      "D": "Repartir la calor i evitar la seva concentració en situacions d'incendi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim58_q88",
-    "statement": "Quina classe de l'ADR inclou els pesticides, herbicides i desinfectants?",
-    "correct": "A",
-    "explanation": "La Classe 6 inclou substàncies tòxiques i infeccioses: Pesticides, Herbicides, Plaguicides, Desinfectants i virus.",
+    "id": "academia_sim56_q66",
+    "statement": "Quin dels següents fenomens ocórre en un front fred?",
+    "correct": "B",
+    "explanation": "Front fred: L’aire fred avança sobre el càlid, el desplaça i l’obliga a elevar-se de forma violenta i desordenada. Provoca un\ncanvi de la direcció del vent en direcció al vent associat amb el front fred, amb un augment considerable de la seva força.\nAl mateix temps va associada una baixada dràstica de la humitat relativa.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 58",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 56",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Classe 6",
-      "B": "La Classe 4",
-      "C": "La Classe 8",
-      "D": "La Classe 2  acadèmia bombers"
-    }
+      "A": "L’aire fred avança per sobre de l'aire càlid",
+      "B": "Baixa dràsticament la humitat relativa",
+      "C": "Les masses freda i càlida no avancen l’una contra l’altra",
+      "D": "Es redueix o fins i tot es perd la visibilitat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim59_q53",
-    "statement": "Quines subdivisions incorpora la classe 9, d'acord amb l'ADR?",
-    "correct": "D",
-    "explanation": "ADR 2.2.9.1.2",
+    "id": "academia_sim59_q15",
+    "statement": "Quina és l'espècie més característica de l'estatge basal?",
+    "correct": "A",
+    "explanation": "L'estatge basal té com a límit inferior al nivell del mar i arriba fins els 600 metres aproximadament",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 59",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De la A1 a la A9",
-      "B": "La 9.1, 9.2, 9.3, 9.4, 9.5 i 9.6",
-      "C": "La 9a, 9b, 9c i 9d",
-      "D": "De la M1 a la M11"
-    }
+      "A": "L'alzina",
+      "B": "El pi blanc",
+      "C": "L'avet",
+      "D": "El pi roig"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim62_q66",
-    "statement": "Quina numeració portaran els panells d'un vehicle-cisterna que transporti gasoil?",
-    "correct": "A",
-    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nLa gasolina durà 33 i 1203.",
+    "id": "academia_sim59_q27",
+    "statement": "Quantes hectàrees de superfície forestal i de conreus existeixen a Catalunya?",
+    "correct": "C",
+    "explanation": "Superfície forestal - 2.042.017 ha - 63,6%\nConreus - 822.193 ha - 25,6%\nUrbà, urbanitzable i infraestructures - 218.955 ha - 6,8%\nFont: Departament d'Acció Climàtica, Alimentació i Agenda Rural.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.123.757 hectàrees de superfícies forestals i 218.955 hectàrees de conreus",
+      "B": "702.295 hectàrees de superfícies forestals i 548.271 hectàrees de conreus",
+      "C": "2.042.017 hectàrees de superfícies forestals i 822.193 hectàrees de conreus",
+      "D": "3.211.201 hectàrees de superfícies forestals i 1.123.757 hectàrees de conreus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q29",
+    "statement": "Quin dels següents vents és dominant?",
+    "correct": "C",
+    "explanation": "En meteorologia, els vents predominants són aquells que bufen predominantment d'una única direcció general sobre un\ndeterminat punt de la superfície de la Terra. El ponent és el punt cardinal oest, i més concretament, el vent que prové de\nl'oest.\nLa marinada o brisa marina és un vent diürn que bufa de mar cap a terra, i que sol durar des que acaba el terral (cap a\nmig matí) fins que es fa fosc. És freqüent i intensa a l’estiu, quan esdevé el vent dominant al litoral. La marinada és\nmoderada a la primavera i a la tardor, i escassa a l’hivern. L’altre és el terral, que és un vent nocturn que bufa de terra\ncap a mar. Es produeix quan la radiació solar desapareix i la superfície del mar conserva durant més temps la calor\ncaptada durant el dia que la terra, que es refreda més ràpidament. Això fa que l’aire més calent del mar s’elevi i el seu\nlloc l’ocupi l’aire més fred provinent de la terra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El fogony",
+      "B": "El vent de marinada",
+      "C": "El ponent",
+      "D": "El terral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q86",
+    "statement": "Quants parells de nervis espinals existeixen al llarg del recorregut descendent de la medul·la espinal?",
+    "correct": "D",
+    "explanation": "Hi ha un total de 31 parells de nervis espinals al llarg del recorregut descendent de la medul·la espinal. Aquests nervis es\ndivideixen en:\n8 parells de nervis cervicals (C1-C8) a la regió cervical.\n12 parells de nervis toràcics (T1-T12) a la regió toràcica.\n5 parells de nervis lumbars (L1-L5) a la regió lumbar.\n5 parells de nervis sacres (S1-S5) a la regió sacra.\n1 parell de nervis coccígeus (Co) a la regió coccígea.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "11 parells",
+      "B": "17 parells",
+      "C": "24 parells",
+      "D": "31 parells"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q21",
+    "statement": "A quin arbre correspon el nom científic de \"Quercus rotundifolia\"?",
+    "correct": "B",
+    "explanation": "Cedre: Cedrus.\nAlzina surera: Quercus suber.\nAvet: Abies alba.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 62",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "30 i 1202",
-      "B": "33 i 1203",
-      "C": "33 i 1223",
-      "D": "33 i 1202"
-    }
+      "A": "Al cedre",
+      "B": "A la carrasca",
+      "C": "A l'avet",
+      "D": "A l'alzina surera  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim63_q61",
-    "statement": "Segons l'ADR, quin codi de perill fa referència a una matèria tòxica líquida que reacciona amb l’aigua, desprenent gasos infamables?",
+    "id": "academia_sim62_q37",
+    "statement": "Quin tipus de núvol és associat amb tempestes?",
+    "correct": "B",
+    "explanation": "Els cumulonimbus són núvols molt grans, densos i verticals que s'estenen a grans altituds a l'atmosfera. Aquests núvols\npoden generar fortes precipitacions, tempestes elèctriques, vents forts i fins i tot granisos.\nEls cumulonimbus es formen quan l'aire calent i humit és elevat per corrents ascendents forts. A mesura que l'aire\nascendeix, es refreda i condensa, creant núvols cumulonimbus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Stratocumulus",
+      "B": "El Cumunolimbus",
+      "C": "Els Cirrostratus",
+      "D": "Els Altocumulus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q77",
+    "statement": "Qui tipus de superfície predomina a Catalunya?",
     "correct": "C",
-    "explanation": "362: matèria líquida infamable, tòxica, que reacciona amb l'aigua desprenent gasos infamables.\n\n\nacadèmia\nbombers",
+    "explanation": "Idescat 2021.\nÀrees sense vegetació: 3,6%\nConreus: 25,8%\nBosc: 35%\nBosquina: 22%",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 63",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 62",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "632",
-      "B": "X362",
-      "C": "623",
-      "D": "362"
-    }
+      "A": "Els conreus",
+      "B": "Les bosquines",
+      "C": "El bosc",
+      "D": "Les àrees sense vegetació  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim63_q82",
-    "statement": "Segons l'ADR, la classe 4.3 fa referència a:",
-    "correct": "D",
-    "explanation": "Classe 4.1: Matèries sòlides inflamables, matèries autorreactives, matèries que polimeritzen i matèries explosives\ndessensibilitzades sòlides.\nClasse 4.2: Matèries que poden experimentar inflamació espontània.\nClasse 4.3: Matèries que en contacte amb l'aigua desprenen gasos inflamables.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 63",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries sòlides inflamables",
-      "B": "Matèries que polimeritzen i matèries que poden experimentar inflamació espontània",
-      "C": "Matèries que poden experimentar inflamació espontània",
-      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
-    }
-  },
-  {
-    "id": "academia_sim64_q75",
-    "statement": "Quantes divisions o categories de matèries perilloses radioactives diferencia l'ADR?",
-    "correct": "D",
-    "explanation": "ADR - 5.2.2.2.2 Models d'etiquetes.\nSón la 7A (Categoria I - Blanca), 7B (Categoria II - Groga), 7C (Categoria III - Groga) i 7E (Matèries fisionables).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 64",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Cinc",
-      "B": "Dos",
-      "C": "Vuit",
-      "D": "Quatre"
-    }
-  },
-  {
-    "id": "academia_sim64_q86",
-    "statement": "Quina etiqueta portarà un embalum que contingui una matèria explosiva de la divisió 1.5, sense perill subsidiari?",
-    "correct": "C",
-    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 64",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "L'etiqueta número 1.4",
-      "B": "L'etiqueta número 1.1",
-      "C": "L'etiqueta número 1.5",
-      "D": "L'etiqueta número 1"
-    }
-  },
-  {
-    "id": "academia_sim65_q19",
-    "statement": "De quin color és l'etiqueta de la classe 2.2 de l'ADR?",
+    "id": "academia_sim62_q86",
+    "statement": "Quin dels següents és un vent topogràfic?",
     "correct": "A",
-    "explanation": "L'etiqueta 2.1 (gasos inflamables) serà tota vermella, mentre que la 2.2 (gasos no inflamables, no tòxics) serà tota verda i\nla 2.3 serà tota blanca.",
+    "explanation": "El vent anabàtic és un vent diürn de recorregut ascendent.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El vent anabàtic",
+      "B": "El vent de Llebeig",
+      "C": "El vent de Mestral",
+      "D": "El vent de Garbí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q89",
+    "statement": "Quins són els tres productes amb valors de superfície agrícola més alts a Catalunya?",
+    "correct": "D",
+    "explanation": "Font: IEC - Departament d'Acció Climàtica, Alimentació i Agenda Rural.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hortalisses, vinya i olivera",
+      "B": "Farratges, cereals i hortalisses",
+      "C": "Fruita seca, fruita fresca i vinya",
+      "D": "Cereals, farratges i olivera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q27",
+    "statement": "L'heliògraf mesura:",
+    "correct": "D",
+    "explanation": "L’anemòmetre és un aparell utilitzat per mesurar la velocitat o força del vent. També és important saber d’on ve el vent,\nper la qual cosa s’utilitzen els penells.\nNefòmetre: aparell per a mesurar la nuvolositat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La nuvolositat",
+      "B": "El vent",
+      "C": "El punt de rosada",
+      "D": "La insolació o radiació solar"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q28",
+    "statement": "D'acord amb la Guia de Pirojardineria, quina de les següents espècies està molt desaconsellada a l'hora de seleccionar la vegetació adequada d’un jardí en una interfície urbano-forestal?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pi blanc",
+      "B": "L'alzina",
+      "C": "El roure de fulla gran",
+      "D": "El gerani  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q74",
+    "statement": "A quin arbre correspon el nom científic de \"Quercus suber\"?",
+    "correct": "D",
+    "explanation": "Cedre: Cedrus.\nAlzina surera: Quercus suber.\nAvet: Abies alba.\nCarrasca: Quercus rotundifolia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al cedre",
+      "B": "A la carrasca",
+      "C": "A l'avet",
+      "D": "A l'alzina surera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q7",
+    "statement": "Què és l'albedo?",
+    "correct": "B",
+    "explanation": "És el quocient entre la radiació solar reflectida en totes direccions des d'una superfície i la radiació solar total, tant directa\ncom difusa, que hi arriba.\nL'albedo és una magnitud hemisfèrica, adimensional, amb valors compresos entre 0 i 1, tot i que sovint s'expressa en\npercentatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 65",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Tota verda",
-      "B": "Tota blanca",
-      "C": "Té la meitat inferior de color vermell i la meitat superior de color blanc",
-      "D": "Tota vermella"
-    }
+      "A": "És la quantitat d'energia solar incident en una àrea determinada durant un període de temps específic",
+      "B": "És una mesura de la reflectivitat d'una superfície",
+      "C": "És una mesura de la intensitat de la radiació ultraviolada del sol que arriba a la superfície de la Terra",
+      "D": "És l'energia electromagnètica que es genera al sol i es transmet a través de l'espai fins a la Terra"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim66_q31",
-    "statement": "A les Recomanacions relatives al transport de mercaderies perilloses, al Codi Marítim Internacional de Mercaderies Perilloses (Codi IMDG) i a les Instruccions Tècniques de l'OACI per a la Seguretat del Transport Aeri de Mercaderies Perilloses que recull l'ADR, en quins grups són assignats els gasos en funció del perill principal que presenten?",
+    "id": "academia_sim66_q13",
+    "statement": "Quina regió de vegetació és la que predomina a Catalunya?",
     "correct": "D",
-    "explanation": "NOTA 1: A les Recomanacions relatives al transport de mercaderies perilloses, al Codi Marítim Internacional de\nMercaderies Perilloses (Codi IMDG) i a les Instruccions Tècniques de l'OACI per a la Seguretat del Transport Aeri de\nMercaderies Perilloses, els gasos són assignats a un de els tres grups següents, classificats en funció del perill principal\nque presentin:\nDivisió 2.1: gasos inflamables (correspon als grups designats per una lletra F majúscula);\nDivisió 2.2: gasos no inflamables, no tòxics (correspon als grups designats per una A o una O majúscules);\nDivisió 2.3: gasos tòxics (correspon als grups designats per una T majúscula, és a dir T, TF, TC, TO, TFC i TOC).\nNOTA 3: Els gasos corrosius es consideraran tòxics i, per tant, s'inclouran als grups TC, TFC o TOC.",
+    "explanation": "Les comunitats vegetals pròpies de la regió mediterrània són els alzinars i les màquies. Els alzinars, amb l’alzina i la\ncarrasca com a arbres característics, es troben acompanyats de diversos arbustos alts. Les màquies són formacions de\nvegetació arbustiva alta molt ben adaptada a condicions de sequedat i calor; en zones més seques i àrides dominen les\nbrolles, formades per arbustos baixos i mitjans.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 66",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En gasos inflamables, gasos no inflamables, gasos tòxics i gasos corrosius",
-      "B": "En gasos inflamables i gasos no inflamables",
-      "C": "En gasos inflamables, gasos no inflamables i gasos corrosius",
-      "D": "En gasos inflamables, gasos no inflamables i gasos tòxics"
-    }
+      "A": "La regió euro-siberiana",
+      "B": "La regió bòreo-alpina",
+      "C": "L'estepa",
+      "D": "La regió mediterrània"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim66_q78",
-    "statement": "A efectes de l'embalatge ADR, quants graus de toxicitat reconeix la classe 6.1?",
+    "id": "academia_sim66_q80",
+    "statement": "A és el nom científic de l'alzina?",
     "correct": "C",
-    "explanation": "Grup I: molt tòxic.\nGrup II: tòxic.\nGrup III: tòxic en grau menor.",
+    "explanation": "Cedre: Cedrus.\nAlzina surera: Quercus suber.\nAvet: Abies alba.\nCarrasca: Quercus rotundifolia.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 66",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cinc",
-      "B": "Set",
-      "C": "Tres",
-      "D": "Deu"
-    }
+      "A": "Quercus rotundifolia",
+      "B": "Quercus suber",
+      "C": "Quercus ilex",
+      "D": "Pinus halepensis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim67_q47",
-    "statement": "En quin estat es trobaran les matèries de la classe 4.1 de l'ADR?",
-    "correct": "B",
-    "explanation": "ADR 2023 - 2.2.41.1.1.",
+    "id": "academia_sim67_q72",
+    "statement": "D'acord amb les dades proporcionades per l'IDESCAT (2022), de quantes hectàrees de superfície forestal compta Catalunya?",
+    "correct": "C",
+    "explanation": "Àrees sense vegetació: 128.036 ha.\nConreus: 822.193 ha.\nUrbà, urbanitzable i infraestructures: 218.955 ha.\nTotal: 3.211.201 ha.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En estat sòlid",
-      "B": "En estat sòlid o líquid",
-      "C": "En estat líquid",
-      "D": "En estat sòlid, líquid o gasós"
-    }
+      "A": "619.438 ha",
+      "B": "11.771.090 ha",
+      "C": "2.042.017 ha",
+      "D": "988.013 ha"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim68_q51",
-    "statement": "La Classe 4.2 de l'ADR:",
-    "correct": "B",
-    "explanation": "S'identifica amb una etiqueta amb la meitat superior blanca i la meitat inferior vermella.",
+    "id": "academia_sim68_q76",
+    "statement": "Sortim del parc amb el camió en direcció a un gran incendi forestal ubicat a 70 km. Quant de temps tardarem a arribar si circulem a una velocitat de 20 m/s?",
+    "correct": "A",
+    "explanation": "Per calcular l'hora d'arribada al lloc del sinistre, primer convertirem la distància de quilòmetres a metres, ja que la\nvelocitat està donada en metres per segon (m/s).\n70 km equivalen a 70,000 metres.\nAra que tenim la distància en metres i la velocitat en m/s, podem utilitzar la fórmula següent:\nv = d/t\n20 = 70.000/t\nt = 3.500 s\nPer convertir a minuts, dividim els segons per 60:\n3.500 s / 60 = 58,33 minuts.\nPer tant, arribarem al lloc del sinistre aproximadament en 58 minuts i 20 segons després de sortir del parc.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 68",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "S'identifica amb una etiqueta amb la meitat superior vermella i la meitat inferior blanca",
-      "B": "Inclou matèries que poden ser líquides o sòlides",
-      "C": "No s'assigna a grups d'embalatge",
-      "D": "Inclou matèries que polimeritzen"
-    }
+      "A": "Una mica menys d'una hora",
+      "B": "Entre 40 i 50 minuts",
+      "C": "Entre 30 i 40 minuts",
+      "D": "Una mica més d'una hora"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim68_q66",
-    "statement": "Segons la classificació de l'ADR per a la identificació de matèries perilloses en el transport per carretera, quin número ONU se li assigna al picrat d'amoni?",
-    "correct": "C",
-    "explanation": "Els números ONU van del 0004 al 3550.",
+    "id": "academia_sim69_q8",
+    "statement": "El nefòmetre és un aparell que en meteorologia s'utilitza per mesurar:",
+    "correct": "A",
+    "explanation": "L’anemòmetre és un aparell utilitzat per mesurar la velocitat o força del vent. També és important saber d’on ve el vent,\nper la qual cosa s’utilitzen els penells.\nL'heliòmetre medeix la insolació o radiació solar.\nUn higròmetre és un instrument de mesura usat per mesurar el contingut d'humitat ambiental.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 68",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El 0003",
-      "B": "El 0001",
-      "C": "El 0004",
-      "D": "El 0002"
-    }
-  },
-  {
-    "id": "academia_sim69_q80",
-    "statement": "Segons l'ADR hi ha 13 classes de mercaderies perilloses (MP). Indica a quina mercaderia perillosa correspon la classe 5.1:",
-    "correct": "C",
-    "explanation": "Peròxids orgànics: classe 5.2.\nMatèries tòxiques: classe 6.1.\nMatèries infeccioses: classe 6.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 69",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Peròxids orgànics",
-      "B": "Matèries tòxiques",
-      "C": "Matèries comburents",
-      "D": "Matèries infeccioses  acadèmia bombers"
-    }
+      "A": "La nuvolositat",
+      "B": "El vent",
+      "C": "El punt de rosada",
+      "D": "La insolació o radiació solar  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim71_q59",
-    "statement": "Quines són les sigles de la normativa internacional que regula el transport de mercaderies perilloses per carretera?",
+    "id": "academia_sim69_q14",
+    "statement": "En referència a les espècies arbòries forestals, quin d'aquests boscos ocupa més extensió (en ha) a Catalunya?",
     "correct": "D",
-    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri",
+    "explanation": "Pi pinyer (Pinus pinea): 107.927 ha.\nBedoll (Betula pendula): 35.019 ha.\nRoure de fulla menuda (Quercus faginea): 3,34 ha.\nPi roig (Pinus sylvestris): 353.777 ha.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Boscos de pi pinyer (Pinus pinea)",
+      "B": "Boscos de roure de fulla menuda (Quercus faginea)",
+      "C": "Boscos de bedoll (Betula pendula)",
+      "D": "Boscos de pi roig (Pinus sylvestris)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q54",
+    "statement": "Quina comunitat vegetal compta amb un major nombre d'estrats?",
+    "correct": "C",
+    "explanation": "Un bosc podrà presentar un o més estrats arboris, un o més estrats arbustius, un estrat herbaci i un estrat muscínic, pel\nque serà la comunitat vegetal més rica en aquest sentit.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els prats",
+      "B": "Les màquies",
+      "C": "El bosc",
+      "D": "Els aiguamolls"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim71_q53",
+    "statement": "Quin és el tipus de bosc més freqüent en el paisatge?",
+    "correct": "B",
+    "explanation": "En canvi, si en realitat el que es vol saber és de quina espècie hi ha un major nombre d'arbres, llavors la resposta és\nl'alzina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 71",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "RID",
-      "B": "IMDG",
-      "C": "IATA",
-      "D": "ADR"
-    }
+      "A": "L'alzinar",
+      "B": "La pineda de pi blanc",
+      "C": "La fageda",
+      "D": "La pineda de pi roig"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim72_q7",
-    "statement": "Una matèria tòxica susceptible de reaccionar violentament, segons l'ADR, quin codi de perill presentarà?",
+    "id": "academia_sim71_q71",
+    "statement": "A quina espècie vegetal li correspon el nom científic \"Quercus ilex\"?",
     "correct": "C",
-    "explanation": "66: matèria molt tòxica.\n606: matèria infecciosa.",
+    "explanation": "Cedre: Cedrus.\nAlzina surera: Quercus suber.\nAvet: Abies alba.\nCarrasca: Quercus rotundifolia.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 72",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 71",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "66",
-      "B": "606",
-      "C": "69",
-      "D": "609  acadèmia bombers"
-    }
+      "A": "Al roure",
+      "B": "A la carrasca",
+      "C": "A l'alzina",
+      "D": "Al cedre"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim72_q61",
-    "statement": "Els grups de compatibilitat ADR classifiquen els materials perillosos segons la seva naturalesa i els riscos associats. En quants grups de compatibilitat es divideixen les matèries o objectes explosius?",
-    "correct": "C",
-    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 72",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Sis",
-      "B": "Nou",
-      "C": "Tretze",
-      "D": "Cinc"
-    }
-  },
-  {
-    "id": "academia_sim73_q20",
-    "statement": "Segons l'ADR, quin significat té el número d'identificació de perill \"28\"?",
-    "correct": "D",
-    "explanation": "Punt 5.3.2.3.2.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 73",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Gas tòxic",
-      "B": "Líquid inflamable",
-      "C": "Gas tòxic, inflamable",
-      "D": "Gas corrosiu"
-    }
-  },
-  {
-    "id": "academia_sim73_q29",
-    "statement": "De quin perill ens alerta una etiqueta ADR completament groga?",
-    "correct": "A",
-    "explanation": "Etiqueta 4.3: matèries que en contacte amb l'aigua desprenen gasos inflamables (tota blava).\nEtiqueta 5.2: peròxids orgànics (vermell a la part superior, groc a la part inferior).\nEtiqueta 7: matèries radioactives (tota blanca o meitat superior groga i meitat inferior blanca, segons la categoria).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 73",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries comburents",
-      "B": "Matèries radioactives",
-      "C": "Peròxids orgànics",
-      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
-    }
-  },
-  {
-    "id": "academia_sim75_q60",
-    "statement": "Segons l'ADR, quines mercaderies perilloses es corresponen amb el número de model d'etiqueta de perill 2.1?",
+    "id": "academia_sim72_q25",
+    "statement": "Quin nom rep el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa?",
     "correct": "B",
-    "explanation": "",
+    "explanation": "El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants d'una muntanya que s'han escalfat fortament a\ncausa de la radiació solar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vent anabàtic",
+      "B": "Vent catabàtic",
+      "C": "Efecte Fohn",
+      "D": "Coriolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q16",
+    "statement": "Quin efecte és característic del vent Fogony?",
+    "correct": "A",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos. És freqüent, però no\nsempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb velocitats de 60 a 100\nkm/h però poden arribar a 150 km/h.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Normalment és bastant fort i constant",
+      "B": "És un vent càlid i humit que bufa a sobrevent d'una serralada",
+      "C": "És un vent irregular",
+      "D": "És freqüent, però no sempre, durant l’hivern  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q92",
+    "statement": "A quina comarca és més probable que hi trobem exemplars de l'espècie \"Pinus uncinata\"?",
+    "correct": "B",
+    "explanation": "Pinus uncinata és el nom científic del pi negre.\nLa pineda de pi negre és el bosc més característic del Pirineu i el segon tipus de bosc més abundant en aquella\nserralada. A Catalunya, el pi negre només és abundant a nou comarques, les sis de l’Alt Pirineu i Aran (en total 43.000\nhectàrees i 48 milions de peus), el Ripollès, el Berguedà i el Solsonès. És l’espècie més abundant a la comarca de la\nCerdanya (10.832 hectàrees i quasi 12,5 milions de peus) però la comarca de Catalunya amb més pi negre és el Pallars\nSobirà (15.825 hectàrees i 16 milions de peus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Baix Ebre",
+      "B": "La Cerdanya",
+      "C": "Osona",
+      "D": "El Maresme"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q1",
+    "statement": "Els planifolis són arbres o plantes que tenen fulles planes, en contraposició a les fulles aciculades o punxegudes. A Catalunya, un exemple de planifoli és:",
+    "correct": "B",
+    "explanation": "La resta d'opcions són coníferes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sabina (Juniperus spp.)",
+      "B": "Alzina (Quercus ilex)",
+      "C": "Cedre (Cedrus spp.)",
+      "D": "Pi negre (Pinus nigra)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q65",
+    "statement": "Quin tipus de bosc és el més habitual en el paisatge?",
+    "correct": "B",
+    "explanation": "En canvi, si en realitat el que es vol saber és de quina espècie hi ha un major nombre d'arbres, llavors la resposta és\nl'alzina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 75",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A les matèries i objectes explosius",
-      "B": "Als gasos inflamables",
-      "C": "Als gasos inflamables, no tòxics",
-      "D": "Als gasos tòxics"
-    }
+      "A": "L'alzinar",
+      "B": "La pineda de pi blanc",
+      "C": "La fageda",
+      "D": "La pineda de pi roig"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim77_q80",
-    "statement": "Quants panells taronges haurà de portar una unitat de transport carregada amb gasos de classe 2, com a mínim?",
+    "id": "academia_sim76_q71",
+    "statement": "Com s'anomena el vent que bufa cap avall en els vessants dels terrenys que s'han refredat fortament a causa de la radiació emesa?",
     "correct": "A",
-    "explanation": "ADR 5.3.2.1.",
+    "explanation": "Els vents anabàtics, en canvi, són ascendents.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 77",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 76",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Dos",
-      "B": "Quatre",
-      "C": "Almenys un",
-      "D": "Tres, i un d'ells sempre a la part de darrere  acadèmia bombers"
-    }
+      "A": "Vent catabàtic",
+      "B": "Vent anabàtic",
+      "C": "Efecte Foehn",
+      "D": "Efecte Coriolis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim77_q93",
-    "statement": "La classe 5.2 de l'ADR fa referència a:",
-    "correct": "C",
+    "id": "academia_sim76_q81",
+    "statement": "Quin dels següents matollars és especialment representatiu dins la regió mediterrània?",
+    "correct": "A",
+    "explanation": "El garric (Quercus coccifera) és una planta semblant a l'alzina però de port arbustiu. El seu fruit és una gla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El llentiscle",
+      "B": "El bàlec",
+      "C": "El groseller blanc",
+      "D": "El boix"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q40",
+    "statement": "Quin dels següents arbres NO és una conífera?",
+    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 77",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Matèries corrosives",
-      "B": "Matèries comburents",
-      "C": "Peròxids orgànics",
-      "D": "Matèries infeccioses"
-    }
+      "A": "Savina",
+      "B": "Avet",
+      "C": "Pi roig",
+      "D": "Totes ho són  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim78_q78",
-    "statement": "Segons l'ADR, quina mesura tindran, per norma general, els panells taronges?",
-    "correct": "C",
-    "explanation": "ADR 5.3.2.2.1",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 78",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "10 × 10 cm",
-      "B": "20 × 30 mm",
-      "C": "40 × 30 cm",
-      "D": "30 × 20 cm"
-    }
-  },
-  {
-    "id": "academia_sim78_q92",
-    "statement": "Quina classe de l'ADR subdivideix les seves matèries i objectes en 11 categories (M1 - M11)?",
-    "correct": "B",
-    "explanation": "La classe 1 de l'ADR, que cobreix explosius, subdivideix les seves matèries i objectes en 11 categories numerades de\nM1 a M11. Aquestes subdivisions corresponen a diferents tipus d'explosius i matèries perilloses que presenten riscos\nassociats a explosions o detonacions.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 78",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La Classe 8",
-      "B": "La Classe 9",
-      "C": "La Classe 1",
-      "D": "La Classe 5"
-    }
-  },
-  {
-    "id": "academia_sim80_q68",
-    "statement": "On està situat el codi de perill en un panell taronja?",
+    "id": "academia_sim78_q64",
+    "statement": "El vent de marinada apareix:",
     "correct": "A",
-    "explanation": "A la part inferior hi trobem el número ONU.",
+    "explanation": "El terral, en canvi, apareix de nit.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De dia",
+      "B": "De nit",
+      "C": "Durant les 24 hores",
+      "D": "A l'estiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim79_q90",
+    "statement": "L'arribada de núvols de tipus cumulonimbus (Cb) normalment indicarà:",
+    "correct": "B",
+    "explanation": "L'arribada de núvols de tipus cirrus normalment indicarà l'aproximació d'un front càlid.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'aproximació d'un front càlid",
+      "B": "L'aproximació d'un front fred",
+      "C": "L'arribada de pluges",
+      "D": "Els cirrus normalment no indiquen res, la seva presència és aleatòria"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q54",
+    "statement": "Del llistat d'espècies vegetals en relació amb el risc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
+    "correct": "C",
+    "explanation": "La resta d'opcions són espècies molt recomanades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A la part superior",
-      "B": "A la part inferior",
-      "C": "A la part central",
-      "D": "A la part superior esquerra"
-    }
+      "A": "L'auró (Acer opalus)",
+      "B": "El boix (Buxus sempervirens)",
+      "C": "La mimosa (Acacia dealbata)",
+      "D": "El bedoll (Betula pendula)"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim81_q70",
-    "statement": "Quina afirmació és CORRECTA sobre la Classe 4.2 de l'ADR?",
-    "correct": "B",
-    "explanation": "S'identifica amb una etiqueta amb la meitat superior blanca i la meitat inferior vermella.",
+    "id": "academia_sim80_q94",
+    "statement": "Quina característica compleixen els vents Foëhn a Catalunya?",
+    "correct": "D",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos.\nÉs freqüent, però no sempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb\nvelocitats de 60 a 100 km/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament\ndels vents Foëhn, i es produirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o\nmestral de la Vall de l’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels\ngrans incendis a Tarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després\nde superar els Pirineus.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 81",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "S'identifica amb una etiqueta amb la meitat superior vermella i la meitat inferior blanca",
-      "B": "Inclou matèries que poden ser líquides o sòlides",
-      "C": "No s'assigna a grups d'embalatge",
-      "D": "Inclou matèries que polimeritzen"
-    }
+      "A": "La seva formació és típica a les faldes del Prepirineu un cop el vent càlid supera la Depressió Central",
+      "B": "Són vents humits",
+      "C": "Normalment són bastant suaus i irregulars (10 - 50 km/h)",
+      "D": "És característic del costat de sotavent dels massissos muntanyosos"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim81_q81",
-    "statement": "Segons l'ADR, a quin tipus de matèria fa referència el codi de perill \"83\"?",
+    "id": "academia_sim81_q9",
+    "statement": "A quina comunitat vegetal hi associem els boscos de rouredes?",
     "correct": "A",
-    "explanation": "Codi de perill 823: matèria corrosiva líquida, que reacciona amb l'aigua desprenent gasos inflamables.",
+    "explanation": "La vegetació dominant de la regió eurosiberiana són els boscos caducifolis de rouredes i fagedes i les coníferes de\nboscos de pi roig.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 81",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A una matèria corrosiva o que presenta un grau menor de corrosivitat i inflamable",
-      "B": "A una matèria molt comburent que pot afavorir l'incendi",
-      "C": "A una matèria comburent susceptible de produir una reacció violenta espontània",
-      "D": "A una matèria corrosiva líquida, que reacciona amb l'aigua desprenent gasos inflamables"
-    }
+      "A": "A la regió eurosiberiana",
+      "B": "A la regió alpina",
+      "C": "A la regió mediterrània",
+      "D": "A la regió boreoalpina"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim82_q28",
-    "statement": "El número d'identificació de perill i el número ONU d'un panell taronja (senyala la INCORRECTA):",
-    "correct": "C",
-    "explanation": "ADR - 5.3.2.2.2.\nEl número d'identificació de perill i el número ONU han d'estar formats per xifres negres de 10 cm d'altura i 15 mm de\ngruix. El número d'identificació de perill ha d'inscriure's a la part superior del panell i el número ONU a la part inferior;\nestaran separats per una línia negra horitzontal de 15 mm de gruix que travessi el panell a mitja alçada (vegeu 5.3.2.2.3).\nEl número d'identificació de perill i el número ONU han de ser indelebles i romandre visibles després d'un incendi d'una\ndurada de 15 minuts. Les xifres i les lletres intercanviables sobre els panells que representen el número d'identificació de\nperill i el número ONU romandran al seu lloc durant el transport i sense tenir en compte l'orientació del vehicle.",
+    "id": "academia_sim81_q16",
+    "statement": "Les màquies són caracteritzades per:",
+    "correct": "A",
+    "explanation": "Les comunitats vegetals pròpies de la regió mediterrània són els alzinars i les màquies. Els alzinars, amb l’alzina i la\ncarrasca com a arbres característics, es troben acompanyats de diversos arbustos alts. Les màquies són formacions de\nvegetació arbustiva alta molt ben adaptada a condicions de sequedat i calor; en zones més seques i àrides dominen les\nbrolles, formades per arbustos baixos i mitjans.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ser formacions de vegetació arbustiva alta",
+      "B": "Ser vulnerables a condicions de sequedat i calor",
+      "C": "Estar formades per arbustos baixos i mitjans",
+      "D": "Ser formacions de boscos de pi roig adaptats a zones humides"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q26",
+    "statement": "Indica quina d’aquestes espècies forestals NO és autòctona de Catalunya:",
+    "correct": "C",
+    "explanation": "L’eucaliptus és una espècie originària d’Austràlia i va ser introduïda a Europa i altres continents amb finalitats comercials i\nornamentals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 82",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Han d'estar formats per xifres negres de 10 cm d'altura i 15 mm de gruix",
-      "B": "Han de romandre visibles després d'un incendi d'una durada de 15 minuts",
-      "C": "Estaran separats per una línia negra horitzontal de 10 mm de gruix que travessi el panell a mitja alçada",
-      "D": "Han de ser indelebles"
-    }
+      "A": "El pi pinyer",
+      "B": "L’alzina",
+      "C": "L’eucaliptus",
+      "D": "El roure de fulla petita"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim82_q39",
-    "statement": "Segons els números d'identificació de perill establerts a l'ADR, quina informació ens proporciona el número \"836\"?",
-    "correct": "C",
-    "explanation": "836: Matèria corrosiva o matèries dèbilment corrosives i inflamables (punt d'inflamació de 23 °C a 60 °C, inclosos els\nvalors límit) i tòxiques.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 82",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "És una matèria líquida molt inflamable",
-      "B": "El seu punt d'inflamació podria ser de 70 °C",
-      "C": "És una matèria amb un punt d'inflamació superior a 23 °C",
-      "D": "És una matèria corrosiva molt inflamable"
-    }
-  },
-  {
-    "id": "academia_sim82_q42",
-    "statement": "Quantes xifres tindrà com a màxim el número d'identificació de perill d'un panell taronja?",
-    "correct": "C",
-    "explanation": "Tindrà 2 o 3 xifres, podent ésser precedides per una \"X\" (X no és una xifra).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 82",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Dues",
-      "B": "Quatre",
-      "C": "Tres",
-      "D": "Una"
-    }
-  },
-  {
-    "id": "academia_sim90_q59",
-    "statement": "Segons l’ADR, si a la part superior de la placa taronja hi ha X323, què significa?",
+    "id": "academia_sim82_q91",
+    "statement": "Quina és la característica principal de les brolles?",
     "correct": "B",
+    "explanation": "Les comunitats vegetals pròpies de la regió mediterrània són els alzinars i les màquies. Els alzinars, amb l’alzina i la\ncarrasca com a arbres característics, es troben acompanyats de diversos arbustos alts. Les màquies són formacions de\nvegetació arbustiva alta molt ben adaptada a condicions de sequedat i calor; en zones més seques i àrides dominen les\nbrolles, formades per arbustos baixos i mitjans.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estan formades per arbres caducifolis com roures i faigs",
+      "B": "Són arbustos baixos i mitjans adaptats a zones seques i àrides",
+      "C": "Són boscos de pi roig adaptats a condicions humides",
+      "D": "Són vegetacions arbustives altes adaptades a la calor i sequedat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim89_q95",
+    "statement": "Quina de les següents NO és una característica dels vents Foëhn?",
+    "correct": "D",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos. És freqüent, però no\nsempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb velocitats de 60 a 100\nkm/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament dels vents Foëhn, i es\nproduirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o mestral de la Vall de\nl’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels grans incendis a\nTarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després de superar els\nPirineus (font: temari BBVV).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 89",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són vents secs",
+      "B": "Normalment són bastant forts i constants",
+      "C": "Són característics del costat de sotavent dels massissos muntanyosos",
+      "D": "Són més freqüents durant les estacions fredes, sobretot a l'hivern"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim100_q44",
+    "statement": "En l'estage alpí:",
+    "correct": "B",
+    "explanation": "Estage subalpí (1.600-2.300 m): Predominen els boscos de coníferes com el pi negre (Pinus uncinata) i l'avet (Abies\nalba), amb sotabosc de neret i nabius.\nEstage alpí (2.300-3.000 m): Desapareixen els arbres i dominen els prats naturals, adaptats al fred i al vent.\nEstage nival (> 3.000 m): La vegetació és pràcticament inexistent, limitada a líquens i petites plantes a les esquerdes de\nles roques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Predominen els boscos de coníferes com el pi negre (Pinus uncinata) i l'avet (Abies alba), amb sotabosc de neret i nabius",
+      "B": "Desapareixen els arbres i dominen els prats naturals, adaptats al fred i al vent",
+      "C": "La vegetació és pràcticament inexistent, limitada a líquens i petites plantes a les esquerdes de les roques",
+      "D": "El clima és plujós i sense una sequera estival marcada, similar al de l'Europa atlàntica i central"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim111_q43",
+    "statement": "Quin és el nom científic de l'alzina?",
+    "correct": "C",
+    "explanation": "Cedre: Cedrus.\nAlzina surera: Quercus suber.\nAvet: Abies alba.\nCarrasca: Quercus rotundifolia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 111",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quercus rotundifolia",
+      "B": "Quercus suber",
+      "C": "Quercus ilex",
+      "D": "Pinus halepensis"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim112_q30",
+    "statement": "Quina espècie és típica de boscos humits de muntanya mitjana a Catalunya?",
+    "correct": "C",
+    "explanation": "El faig és típic dels boscos humits de muntanya mitjana a Catalunya, sobretot:\n· Zones amb precipitació elevada.\n· Temperatures moderades.\n· Orientacions ombrívoles (obagues).\n· Altituds aproximades entre 800 i 1.600 m.\n16",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L’alzina",
+      "B": "El pi blanc",
+      "C": "El faig",
+      "D": "El garric"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim112_q93",
+    "statement": "En un pneumàtic amb denominació 195/55 R15 85V, què indica el \"85\"?",
+    "correct": "B",
+    "explanation": "Desglossem pas a pas la denominació 195/55 R15 85V:\n195 - Amplada del pneumàtic en mil·límetres (195 mm), mesurada d’un flanc a l’altre.\n55 - Perfil o relació d’alçada del flanc respecte l’amplada. És el 55% de 195 mm (flanc relativament baix).\nR - Tipus de construcció radial (la més habitual avui dia).\n15 - Diàmetre de la llanta en polzades (15”).\n85 - Índex de càrrega del pneumàtic. En aquest cas, 85 = 515 kg màxims per pneumàtic.\nV - Codi de velocitat màxima permesa. V = fins a 240 km/h.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Codi de velocitat màxima permesa",
+      "B": "Índex de càrrega del pneumàtic",
+      "C": "Diàmetre de la llanta",
+      "D": "Perfil o relació d’alçada del flanc respecte l’amplada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim113_q90",
+    "statement": "Estàs situat al municipi de Montblanc i es declara un incendi forestal a les Muntanyes de Prades amb vent de llevant. Quin corredor viari d’evacuació hauries d’utilitzar?",
+    "correct": "C",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 90",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 113",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sòlid inflamable que reacciona perillosament amb l’aigua i desprèn gasos inflamables",
-      "B": "Líquid inflamable que reacciona perillosament amb l’aigua, desprenent gasos inflamables",
-      "C": "Líquid espontàniament inflamable que reacciona perillosament amb l’aigua",
-      "D": "Sòlid inflamable que desprèn gasos inflamables"
-    }
+      "A": "C-14 cap a Reus",
+      "B": "C-15 cap a Igualada",
+      "C": "C-14 cap a Tàrrega",
+      "D": "C-15 cap a Vilafranca del Penedès"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim92_q1",
-    "statement": "En quantes seccions es divideix el codi Hazchem?",
+    "id": "academia_sim115_q55",
+    "statement": "Quins són els dos dominis que comprenen l'estatge subalpí a Catalunya?",
     "correct": "A",
-    "explanation": "1. Codi d'acció d'emergència.\n2. Número ONU: els mateixos que en el cas de l'ADR/RID.\n3. Etiqueta del perill principal: etiquetes similars a les utilitzades en l'ADR/RID.\n4. Logotip de l'empresa.\n5. Número de telèfon d'emergència.",
+    "explanation": "Estatge subalpí: Situat immediatament per sota de l'estatge dels prats alpins. Comprèn dos dominis, associacions o\ncomunitats vegetals: Saxifrago-Rhododendretum,és a dir bosc de pi negre amb neret i avetoses de l'associació\nGoodyero-Abietum.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 92",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 115",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cinc",
-      "B": "Quatre",
-      "C": "Sis",
-      "D": "Set"
-    }
+      "A": "Bosc de pi negre amb neret i avetoses",
+      "B": "Bosc de pi roig amb ginebró i avellanoses",
+      "C": "Bosc de pi negre amb estepa blanca i avetoses",
+      "D": "Bosc de pi roig amb ginebró i avetoses"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
-    "id": "academia_sim94_q16",
-    "statement": "Quina numeració portarà el panell taronja d'un vehicle-cisterna que transporti gasoil?",
+    "id": "academia_sim123_q93",
+    "statement": "Quines espècies de ribera predominen als boscos de ribera de Catalunya?",
+    "correct": "D",
+    "explanation": "Els boscos de ribera de Catalunya estan formats principalment per espècies adaptades a sòls humits i a la proximitat dels\ncursos d'aigua, com els pollancres, àlbers, salzes i freixes, que són les espècies més característiques d'aquests\nambients.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eucaliptus, acàcies, palmeres i magnòlies",
+      "B": "Castanyers, roures martinencs, alzines i grèvols",
+      "C": "Alzines, sureres, pins pinyers i arboços",
+      "D": "Pollancres, àlbers, salzes i freixes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim124_q48",
+    "statement": "En relació amb l'agricultura, a Catalunya:",
+    "correct": "D",
+    "explanation": "Catalunya té aproximadament 800.000 hectàrees de superfície agrícola utilitzada.\nTarragona destaca sobretot per la vinya, l'olivera, hortalisses i l'arròs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 124",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Hi ha unes 60.000 ha de superfície agrícola cultivada",
+      "B": "La província de Barcelona destaca en el conreu d'arròs",
+      "C": "La província de Tarragona destaca en el conreu de lleguminoses",
+      "D": "El cultiu de secà és més habitual que el de regadiu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q58",
+    "statement": "A partir de quina extensió afectada un incendi forestal es considera un Gran Incendi Forestal (GIF), sempre que compleixi aquest criteri de superfície?",
     "correct": "A",
-    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nLa gasolina durà 33 i 1203.",
+    "explanation": "Classificació en funció de l’afectació de l’incendi forestal Per últim, també es poden classificar els incendis segons la\nseva extensió:\n−Conat d’incendi: Incendi de vegetació que no supera una hectàrea d’extensió.\n−Incendi forestal: Incendi de desenes o centenars d’hectàrees, però que poden ser controlats amb els recursos locals o\nregionals.\n−Gran incendi forestal (GIF): incendi que manté de forma sostinguda una velocitat, intensitat lineal i longitud de flama\nque supera la capacitat dels sistemes d'extinció, que pot afectar de forma important la població o que afecta més de 500\nha.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 94",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "30 i 1202",
-      "B": "33 i 1203",
-      "C": "33 i 1223",
-      "D": "33 i 1202"
-    }
-  },
-  {
-    "id": "academia_sim107_q42",
-    "statement": "Segons l'ADR, els gasos, en funció de les seves propietats perilloses, es poden classificar en sis grups. El grup F:",
-    "correct": "C",
-    "explanation": "Els 6 grups:\nA: asfixiant\nF: inflamable\nT: tòxic\nC: corrosiu\nFC: inflamable, corrosiu\nTF: tòxic, inflamable\nLa divisió 2.1 inclou gasos inflamables (grup F)\nLa divisió 2.2 inclou gasos asfixiants o comburents (grup O / grup A)\nLa divisió 2.3 inclou gasos tòxics (grups T, TF, TC, TO, TFC i TOC)",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
-    "section": "Simulacre 107",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Es pot incloure dins de la divisió 2.3",
-      "B": "Es pot incloure dins de la divisió 2.2",
-      "C": "Es pot incloure dins de la divisió 2.1",
-      "D": "Es pot incloure dins de la classe 6"
-    }
-  },
-  {
-    "id": "academia_sim125_q90",
-    "statement": "En la zonificació d'un IMV, el segon cercle de seguretat dels Mossos d'Esquadra és funcionalment equivalent a quina zona utilitzada pels Bombers?",
-    "correct": "A",
-    "explanation": "A Catalunya, es considera la següent equivalència funcional entre els dos sistemes:\n−Primer cercle de seguretat (Mossos d’Esquadra): engloba la zona de risc immediat i mitjà. Aquest cercle inclou tant la\nzona calenta com la zona tèbia definida per Bombers. L'accés està fortament restringit, i controlat pels Mossos\nd’Esquadra. En funció del tipus d’incident, només es permet l’entrada a efectius policials, bombers i, si cal, personal del\nSEM amb permís específic del comandament.\n−Segon cercle de seguretat (Mossos d’Esquadra): correspon a l’àmbit ampli de seguretat, considerat com a zona freda\nper Bombers. És aquí on s’instal·len l’Àrea sanitària, el Centre de Comandament Avançat (CCA), els punts logístics, i on\ntreballa la majoria del personal no exposat directament al risc.\n27",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Zona calenta",
-      "B": "Zona tèbia",
-      "C": "Zona freda",
-      "D": "Zona d'intervenció sanitària"
-    }
+      "A": "500 ha",
+      "B": "1.000 ha",
+      "C": "100 ha",
+      "D": "250 ha"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q59",
+    "statement": "Des d'on actua el \"cervell analític\" del GRAF?",
+    "correct": "A",
+    "explanation": "Actualment, el GRAF està estructurat a partir d’una Unitat Tècnica central a Bellaterra, que actua com a cervell analític, i\ndiverses unitats territorials desplegades en les diferents demarcacions del país. El seu model de treball s’ha convertit en\nun referent a nivell internacional, sent replicat o adaptat a altres regions europees.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir d’una Unitat Tècnica central a Bellaterra",
+      "B": "A partir d’un Grup Tècnic central a Sabadell",
+      "C": "A partir d’una Unitat Tècnica central a Sant Miquel de Balenyà",
+      "D": "A partir d’un Grup Tècnic central a Talladell"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q34",
+    "statement": "Dins de les fites en l'evolució del sistema, què són les Agrupacions de Defensa Forestal (ADF)?",
+    "correct": "A",
+    "explanation": "Les ADF neixen arran de l'estiu catastròfic de 1986 com a entitats de voluntariat local dedicades a tasques de\n17\n\nprevenció forestal; l'anàlisi i el foc tècnic són propis del GRAF, creat el 1999.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entitats de voluntariat local amb l'objectiu de fer tasques de prevenció forestal",
+      "B": "Unitats tècniques d'anàlisi i de foc tècnic integrades dins del Cos de Bombers",
+      "C": "Equips de gestió forestal creats pel programa Foc Verd per obrir tallafocs",
+      "D": "Cossos professionals d'extinció dependents de les administracions locals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q42",
+    "statement": "En una xerrada s'exposen les dades que sustenten la paradoxa de l'extinció. Quina combinació de xifres és la CORRECTA?",
+    "correct": "C",
+    "explanation": "L'eficàcia extintiva fa que el 99% dels incendis quedin per sota de les 10 hectàrees, però l'acumulació de combustible\nresultant fa que els pocs grans incendis siguin responsables de més del 90% de la superfície cremada total.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 50% dels incendis afecten menys de 100 ha i els grans incendis cremen més del 70% de la superfície",
+      "B": "El 90% dels incendis afecten menys de 10 ha i els grans incendis cremen més del 80% de la superfície",
+      "C": "El 99% dels incendis afecten menys de 10 ha i els grans incendis cremen més del 90% de la superfície",
+      "D": "El 50% dels incendis afecten menys de 100 ha i els grans incendis cremen més del 99% de la superfície"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]

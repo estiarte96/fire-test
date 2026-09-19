@@ -1,12 +1,1292 @@
 [
   {
+    "id": "academia_sim1_q35",
+    "statement": "Quin tipus de xarxa serveix de suport al trànsit generat entre les capitals comarcals i els principals nuclis de població?",
+    "correct": "B",
+    "explanation": "Segons la classificació del DL 2/2009, de 25 d'Agost, la xarxa municipal no existeix.\nXarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa municipal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim1_q66",
+    "statement": "Un motorista viatja per una carretera recta a una velocitat constant de 90 km/h. Quina distància recorre en 5 minuts?",
+    "correct": "C",
+    "explanation": "M.R.U:\nV = 90 km/h × 1h/3.600s × 1.000 m/1 km = 25 m/s\nt = 5 min × 60s/1min = 300 segons\nd = 25 m/s × 300 s = 7.500 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2.500 metres",
+      "B": "8.500 metres",
+      "C": "7.500 metres",
+      "D": "4.500 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q62",
+    "statement": "El pi roig el trobem dins d'un rang d'alçada aproximat de:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.000 a 1.500 metres",
+      "B": "1.800 a 2.000 metres",
+      "C": "800 a 1.000 metres",
+      "D": "1.300 a 1.800 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim2_q73",
+    "statement": "Quina longitud haurà de tenir un pla inclinat per reduir a la meitat la força (sense fregament) que s'ha d'aplicar per elevar un objecte 5 metres?",
+    "correct": "A",
+    "explanation": "Sense pla inclinat: F = m*g\nAmb pla inclinat: F = m*g*h/s\nPer tal de fer la meitat de força:\nm*g/2 = m*g*h/s\n1/2 = h/s\n1/2 = 5/s\ns = 10 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 metres",
+      "B": "50 metres",
+      "C": "15 metres",
+      "D": "20 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim3_q63",
+    "statement": "Sobre quants eixos ens permetrà treballar un torn (màquina-eina)?",
+    "correct": "B",
+    "explanation": "La fresadora, en canvi, treballa sobre tres eixos (X, Y, Z).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Únicament sobre un sol eix",
+      "B": "Sobre dos eixos (X,Y)",
+      "C": "Sobre tres eixos (X,Y,Z)",
+      "D": "Sobre un, dos o tres eixos, depenent del disseny"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q6",
+    "statement": "Quin gradient tèrmic estandaritzat trobem a la troposfera?",
+    "correct": "D",
+    "explanation": "S'acompleix fins els 12.000 metres d'altitud.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De -5°C per quilòmetre",
+      "B": "De -1,5°C per cada cent metres",
+      "C": "De -3°C per cada cent metres",
+      "D": "De -6,5°C per cada mil metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim5_q73",
+    "statement": "Quin material presenta una major ductilitat?",
+    "correct": "D",
+    "explanation": "Els materials dúctils son aquells capaços de deformar-se sense trencar-se o violentar la seva estructura, de cara a l'acció\nsostinguda de la força.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El vidre",
+      "B": "Les pedres",
+      "C": "La ceràmica",
+      "D": "Els metalls"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q48",
+    "statement": "Concentració que no hauria de ser superada en cap moment de l'exposició laboral:",
+    "correct": "B",
+    "explanation": "La lletra \"C\" és de Ceiling, que es refereix a sostre o \"tope\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "IPVS",
+      "B": "TLV-C",
+      "C": "TLV-STEL",
+      "D": "TLV-TWA  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q65",
+    "statement": "Tenim un sistema de politges que ens ofereix un avantatge mecànic de 5. Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 5 metres?",
+    "correct": "A",
+    "explanation": "Longitud corda = (metres desplaçament de la càrrega × AM).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "25 metres",
+      "B": "10 metres",
+      "C": "20 metres",
+      "D": "5 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim6_q90",
+    "statement": "Quina carretera passa per Tàrrega i Agramunt?",
+    "correct": "D",
+    "explanation": "També coneguda com l'Eix Tarragona-Andorra.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-25",
+      "B": "La C-13",
+      "C": "La C-12",
+      "D": "La C-14"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q21",
+    "statement": "El codi d'una carretera es compon d'una part alfabètica i una part numèrica, del tipus \"XX-1111\". Si la part numèrica està formada per tres xifres, significa que la carretera:",
+    "correct": "B",
+    "explanation": "Dues xifres a la part numèrica: xarxa bàsica.\nTres xifres a la part numèrica: xarxa comarcal.\nQuatre xifres a la part numèrica: xarxa local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a la xarxa bàsica",
+      "B": "Pertany a la xarxa comarcal",
+      "C": "Pertany a la xarxa local",
+      "D": "Pertany a vies intercomunitàries"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim7_q57",
+    "statement": "En quin tipus de motor els pistons es troben disposats horitzontalment i proporciona un bon equilibri perquè cada impuls del pistó és contrarestat pel corresponent moviment del pistó del costat oposat?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor en V",
+      "B": "Motor en línia",
+      "C": "Motor bòxer",
+      "D": "Motor en W"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim8_q86",
+    "statement": "Una pilota es deixa caure des d'una finestra i tarda 5 segons en caure a terra. Des de quina alçada ha caigut?",
+    "correct": "A",
+    "explanation": "t = 5s\nh = ?\nx = x0 + v0*t + 1/2*a*t²\nx = 0 + 0*5 + 1/2*9,8*5²\nx = 1/2*9,8*25 = 122,5 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "122,5 metres",
+      "B": "80,2 metres",
+      "C": "175,1 metres",
+      "D": "12,9 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q47",
+    "statement": "Una pilota arriba fins un pla inclinat a una velocitat de 5 m/s. Fins a quina alçada arribarà? (considera nul·la la força de fregament)",
+    "correct": "C",
+    "explanation": "Ec = Ep --> 1/2*m*v² = m*g*h --> 1/2*(5²) = 9,8*h --> 12,5/9,8 = h --> h = 1,27 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2,50 metres",
+      "B": "0,04 metres",
+      "C": "1,27 metres",
+      "D": "3,52 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim9_q77",
+    "statement": "Sabent que el valor del gradient tèrmic a la troposfera és de -6,5°C per cada quilòmetre, podem afirmar que:",
+    "correct": "A",
+    "explanation": "1.000 metres --> -6,5 graus\n(1.000/6,5) --> -6,5/6,5\n154 metres --> -1 grau",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Per cada 154 metres d'altura aproximadament, la temperatura disminuirà un grau",
+      "B": "La temperatura disminuirà un grau per cada 65 metres d'altura",
+      "C": "La temperatura disminuirà un grau per cada 125,5 metres d'altura",
+      "D": "Per cada 100 metres d'altura aproximadament, la temperatura disminuirà 1,5 graus"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim10_q36",
+    "statement": "La carretera que uneix Alfarràs amb Olot es coneix com:",
+    "correct": "C",
+    "explanation": "C-26 o Eix Prepirinenc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C-26",
+      "B": "Eix Transversal",
+      "C": "Totes dues respostes són incorrectes",
+      "D": "Totes dues respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim14_q20",
+    "statement": "La longitud, en el seu eix major, nord-sud, del Llac de Banyoles és de:",
+    "correct": "C",
+    "explanation": "La seva profunditat màxima és de 40 metres i la mitjana, de 15. Té una capacitat de 17 hm³ i una superfície de 1,18 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.115 metres",
+      "B": "3.451 metres",
+      "C": "2.150 metres",
+      "D": "9.225 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim15_q47",
+    "statement": "Quina carretera es coneix com l'Eix transversal?",
+    "correct": "A",
+    "explanation": "Passa per ciutats com Vic o Manresa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-25",
+      "B": "La C-26",
+      "C": "La C-16",
+      "D": "La C-17"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim16_q8",
+    "statement": "En general, segons el DB-SI, a partir de quina alçada d'un edifici serà obligatòria la incorporació d'una instal·lació automàtica d'extinció?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "150 metres",
+      "B": "80 metres",
+      "C": "50 metres",
+      "D": "24 metres  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q26",
+    "statement": "Quin tipus de xarxa és la que serveix de suport al trànsit intermunicipal?",
+    "correct": "C",
+    "explanation": "Segons la classificació del DL 2/2009, de 25 d'Agost, la xarxa municipal no existeix.\nXarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa municipal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim17_q51",
+    "statement": "És la carretera que uneix Amposta amb Àger:",
+    "correct": "B",
+    "explanation": "Eix Occidental = C-12.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-13",
+      "B": "L'Eix Occidental",
+      "C": "La C-14",
+      "D": "La C-28"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q19",
+    "statement": "Fent una força de 24 N sobre una manovella de 46 cm, quin pas tindrà un cargol d'una premsa que aixafa amb 300 N de força?",
+    "correct": "D",
+    "explanation": "F = 24 N\nR = 300 N\nr = 0,46 m\np = ?\nF = R × p / (2 × π × r)\n24 = 300 × p / (2 × 3,14 × 0,46)\n24 = 300p / 2,88\n69,3 = 300p\np = 69,3 / 300 = 0,23 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "13 metres",
+      "B": "2,6 metres",
+      "C": "1,12 metres",
+      "D": "0,23 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q52",
+    "statement": "Quina d'aquestes unitats de relleu té una major entitat?",
+    "correct": "C",
+    "explanation": "Les tres grans unitats de relleu:\n-Pirineus\n-Serralades Costaneres\n-Depressió Central\nUnitats de relleu de menor entitat:\n-Serralada Transversal\n-Plana de l'Empordà\n-Delta de L'Ebre",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serralada Transversal",
+      "B": "Delta de l'Ebre",
+      "C": "Depressió Central",
+      "D": "Plana de l'Empordà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q89",
+    "statement": "Els extintors d'incendi s'han de col·locar en suports fixats a paraments verticals de forma que la part superior de l'extintor quedi com a màxim a:",
+    "correct": "A",
+    "explanation": "La part superior dels extintors pot quedar situada entre els 80 i els 120 cm.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1,20 metres sobre el sòl",
+      "B": "1,50 metres sobre el sòl",
+      "C": "1,70 metres sobre el sòl",
+      "D": "1,80 metres sobre el sòl"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim18_q95",
+    "statement": "El codi d'una carretera es compon d'una part alfabètica i una part numèrica, del tipus \"XX-1111\". Si la part numèrica està formada per dues xifres, significa que la carretera:",
+    "correct": "A",
+    "explanation": "Dues xifres a la part numèrica: xarxa bàsica.\nTres xifres a la part numèrica: xarxa comarcal.\nQuatre xifres a la part numèrica: xarxa local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pertany a la xarxa bàsica",
+      "B": "Pertany a la xarxa comarcal",
+      "C": "Pertany a la xarxa local",
+      "D": "Pertany a la xarxa europea"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim20_q86",
+    "statement": "Quina de les següents carreteres passa per Tarragona?",
+    "correct": "A",
+    "explanation": "La C-31 o Eix costaner uneix el Vendrell i Figueres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-31",
+      "B": "La C-32",
+      "C": "La C-15",
+      "D": "La C-51"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q52",
+    "statement": "És aquell motor en el què el camp magnètic sempre va uns graus per davant del rotor:",
+    "correct": "C",
+    "explanation": "En el motor síncron el rotor i el camp magnètic giren a la mateixa velocitat, i de forma sincronitzada.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor síncron",
+      "B": "Motor sinusoidal",
+      "C": "Motor asíncron",
+      "D": "Motor de càrrega estratificada"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim23_q87",
+    "statement": "La Punta de Curull, el Puig Cavaller i el Castell de Queralt formen part...",
+    "correct": "C",
+    "explanation": "Punta de Curull s'inclou dins la Serra de la Llena.\nAl Puig Cavaller (Gandesa) hi trobem un vèrtex geodèsic.\nEl castell de Queralt es troba a la Serra de Queralt (a Bellprat, no confondre amb la Serra de Queralt del Berguedà!).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dels Pirineus",
+      "B": "Dels Prepirineus",
+      "C": "De la Serralada Prelitoral",
+      "D": "De la Serralada Litoral"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim24_q83",
+    "statement": "Si una persona camina 800 metres en direcció oest i 600 en direcció nord, quina de les següents distàncies hauria recorregut si des d'un inici hagués caminat seguint una direcció nord-oest?",
+    "correct": "C",
+    "explanation": "h² = c² + c²\nh² = 800² + 600²\nh² = 640.000 + 360.000\nh² = 1.000.000\n√h² = √1.000.000\nh = 1.000 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.200 metres",
+      "B": "900 metres",
+      "C": "1.000 metres",
+      "D": "1.100 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim25_q60",
+    "statement": "Quin radi d'acció oferirà una BIE de 25 mm de diàmetre i de 30 metres de llargada?",
+    "correct": "C",
+    "explanation": "Radi d'acció BIE = longitud mànega + 5 (m).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 metres",
+      "B": "50 metres",
+      "C": "35 metres",
+      "D": "40 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim28_q89",
+    "statement": "Quina carretera es coneix com l'Eix Osona-Berguedà?",
+    "correct": "D",
+    "explanation": "La C-63 es coneix com l'Eix Selva-Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La C-60",
+      "B": "La C-17",
+      "C": "La C-63",
+      "D": "La C-62"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q36",
+    "statement": "Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 4 metres en un sistema de politges que ens aporta avantatge mecànic de 3?",
+    "correct": "A",
+    "explanation": "Longitud corda = (metres desplaçament de la càrrega × AM) = 4 m × 3 AM = 12 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 metres",
+      "B": "81 metres",
+      "C": "64 metres",
+      "D": "5 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim29_q66",
+    "statement": "De quin dels següents elements no disposarà l'electroventilador d'un cotxe?",
+    "correct": "D",
+    "explanation": "El termòstat és la peça que obre i tanca el pas del refrigerant del motor fins el radiador.\nEl termocontacte, que si que forma part del electroventilador, és l'encarregat de, en cas d'escalfar-se, fer contacte i posar\nen funcionament el ventilador.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un termocontacte",
+      "B": "D'un motor elèctric",
+      "C": "D'un relé",
+      "D": "D'un termòstat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim30_q49",
+    "statement": "L’objecte de la Llei 5/2003, de 22 d’abril és establir mesures de prevenció d’incendis forestals pel que fa a les urbanitzacions que no tenen una continuïtat immediata amb la trama urbana i que estan situades a menys de ____ metres de terrenys forestals.",
+    "correct": "A",
+    "explanation": "Article 1.1.\n(...) i a les edificacions i les instal·lacions aïllades situades en terrenys forestals.\nEn són exclosos les edificacions i les instal·lacions destinades a explotacions agrícoles i ramaderes i els habitatges que\nhi són vinculats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "cinc-cents metres",
+      "B": "cent metres",
+      "C": "cinquanta",
+      "D": "vint-i-cinc"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim31_q14",
+    "statement": "Quina de les següents serralades s'inclou dins la Serralada Transversal?",
+    "correct": "D",
+    "explanation": "Mont-roig: Prepirineus.\nMontnegre: S. Litoral.\nSerra del Molló: S. Prelitoral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Serra de Mont-roig",
+      "B": "La Serra del Molló",
+      "C": "El Montnegre",
+      "D": "Les Guilleries"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim32_q81",
+    "statement": "Al capvespre, un arbre projecta una ombra de 2,5 metres de longitud. Si la distància des de la part més alta de l'arbre a l'extrem més allunyat de l'ombra és de 4 metres, quina és l'alçada de l'arbre?",
+    "correct": "D",
+    "explanation": "h² = a² + b²\n4² = a² + 2,5²\n16 = a² + 6,25\na² = 9,75\n√a² = √9,75\na = 3,12 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6,25 metres",
+      "B": "2 metres",
+      "C": "9,76 metres",
+      "D": "3,12 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim33_q57",
+    "statement": "Amb quin nom es coneix també la carretera C-17?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eix del Congost",
+      "B": "Eix Garraf-Anoia",
+      "C": "Corredor mediterrani",
+      "D": "Eix del Llobregat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q28",
+    "statement": "Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?",
+    "correct": "B",
+    "explanation": "ECU = Engine Control Unit.\nRecorda que el sistema de gestió i la unitat de control formen part dels components principals del sistema del vehicle\nhíbrid i el sistema del vehicle elèctric, respectivament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EMS",
+      "B": "ECU",
+      "C": "MSI",
+      "D": "IMU"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q37",
+    "statement": "On trobem la serra del Coscollar?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pla d'Urgell",
+      "B": "Segrià",
+      "C": "Solsonès",
+      "D": "Bages"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim35_q60",
+    "statement": "Quin nom rep també la C-14?",
+    "correct": "D",
+    "explanation": "La C-14 passa per Reus, Montblanc o Oliana.\nLa C-12 també és coneguda com a Eix Occidental o Eix de l'Ebre.\nLa C-17 es coneix com l'Eix del Congost.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eix Occidental",
+      "B": "Eix del Congost",
+      "C": "Eix de l'Ebre",
+      "D": "Eix Tarragona-Andorra"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim37_q42",
+    "statement": "Quin tipus de xarxa serveix de suport al trànsit intermunicipal?",
+    "correct": "C",
+    "explanation": "Xarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa de desplaçament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q10",
+    "statement": "Quin element d'un vehicle pertany al sistema de seguretat activa?",
+    "correct": "C",
+    "explanation": "La resta pertanyen a la seguretat passiva.\nExemples d'elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els seients",
+      "B": "El cinturó de seguretat",
+      "C": "Els pneumàtics",
+      "D": "Els airbags"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim38_q90",
+    "statement": "Quin valor correspon a la concentració que no hauria de ser superada en cap moment de l'exposició laboral?",
+    "correct": "A",
+    "explanation": "La lletra \"C\" és de Ceiling, que es refereix a sostre o \"tope\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TLV-C",
+      "B": "IPVS",
+      "C": "TLV-STEL",
+      "D": "TLV-TWA"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim39_q51",
+    "statement": "A quina alçada se situarà el quadre de comandament en un habitatge?",
+    "correct": "C",
+    "explanation": "Acostuma a situar-se el més a prop possible de l'entrada de l'habitatge. Els seus components són:\n- ICP\n- IGA\n- ID\n- PIA's\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A 1,5 metres del terra",
+      "B": "Entre 1,2 i 2 metres del terra",
+      "C": "Entre 1,4 i 2 metres del terra",
+      "D": "A 2 metres del terra"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim41_q39",
+    "statement": "Volem construir un pla inclinat per tal d'aconseguir elevar un cos esfèric de 20 kg a una altura de 10 metres. Quina llargària haurà de tenir si la força que exercim sobre l'objecte és de 400 N?",
+    "correct": "C",
+    "explanation": "F × L = P × h\n400 × L = 200 × 10\n400L = 2.000\nL = 2.000/400 = 5 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 metres",
+      "B": "20 metres",
+      "C": "5 metres",
+      "D": "25 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q23",
+    "statement": "Com s'anomena el valor de la concentració que no hauria de ser superada en cap moment de l'exposició laboral?",
+    "correct": "A",
+    "explanation": "La lletra \"C\" és de Ceiling, que es refereix a sostre o \"tope\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "TLV-C",
+      "B": "IPVS",
+      "C": "TLV-STEL",
+      "D": "TLV-TWA"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim42_q74",
+    "statement": "Quina serà la longitud màxima de les BIE de mànega plana?",
+    "correct": "A",
+    "explanation": "Longitud màxima BIE semirígida: 30 m.\nLongitud màxima BIE d'alta pressió: 30 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20 metres",
+      "B": "30 metres",
+      "C": "15 metres",
+      "D": "Les BIE tenen longitud mínima, no màxima"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim43_q56",
+    "statement": "On s'adscriu la xarxa arterial, integrada per les vies segregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció compatibilitzar el trànsit local i el trànsit de pas?",
+    "correct": "B",
+    "explanation": "Xarxa bàsica: és la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància, i inclou també les vies\nintercomarcals i intracomarcals d'una especial importància viària. Inclou igualment la xarxa arterial, integrada per les vies\nsegregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció\ncompatibilitzar el trànsit local i el trànsit de pas.\nLa xarxa de suport no s'inclou dins la xarxa de carreteres de la Generalitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la xarxa de suport",
+      "B": "A la xarxa bàsica",
+      "C": "A la xarxa local",
+      "D": "A la xarxa comarcal  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim44_q87",
+    "statement": "La xarxa local de carreteres de la Generalitat:",
+    "correct": "A",
+    "explanation": "Xarxa bàsica: és la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància, i inclou també les vies\nintercomarcals i intracomarcals d'una especial importància viària.\nXarxa comarcal: és la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i\nnuclis de població i activitat de la mateixa comarca o de comarques limítrofes, al trànsit generat entre cadascun d'aquests\ncentres i a la connexió d'aquests nuclis amb itineraris de la xarxa bàsica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la que serveix de suport al trànsit intermunicipal",
+      "B": "És la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància",
+      "C": "És la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i nuclis de població",
+      "D": "Inclou les vies intercomarcals i intracomarcals"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim45_q17",
+    "statement": "Des de quina alçada ha caigut una pilota que tarda 4 segons en caure a terra? (g = 10 m/s², considereu negligible el fregament amb l'aire)",
+    "correct": "D",
+    "explanation": "t = 4s\nh = ?\nx = x0 + v0*t + 1/2*a*t²\nx = 0 + 0*5 + 1/2*10*4²\nx = 1/2*10*16 = 80 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des de 120 metres",
+      "B": "Des de 100 metres",
+      "C": "Des de 45 metres",
+      "D": "Des de 80 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim47_q36",
+    "statement": "Quins són els components dels motors en un sistema híbrid?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bateries, motor d'arrancada, motor elèctric i sistema de gestió",
+      "B": "Motor tèrmic, motor d'arrancada, sistema de gestió, bateries i generador",
+      "C": "Motor tèrmic, motor elèctric, generador, bateries i sistema de gestió",
+      "D": "Motor tèrmic, motor d'arrancada, motor elèctric, sistema de gestió i bateries"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim49_q80",
+    "statement": "Quina longitud haurà de tenir un pla inclinat per reduir a la meitat la força (sense fregament) que s'ha d'aplicar per elevar un objecte 10 metres?",
+    "correct": "D",
+    "explanation": "Sense pla inclinat: F = m*g\nAmb pla inclinat: F = m*g*h/s\nPer tal de fer la meitat de força:\nm*g/2 = m*g*h/s\n1/2 = h/s\n1/2 = 10/s\ns = 20 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 metres",
+      "B": "50 metres",
+      "C": "15 metres",
+      "D": "20 metres  acadèmia bombers"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim51_q30",
+    "statement": "Com s'anomena l’operació consistent en rebaixar el terreny fins a aconseguir la cota necessària?",
+    "correct": "B",
+    "explanation": "Desmunt és l’operació consistent en el rebaix del terreny fins arribar als nivells previstos en els plànols d’obra.\nBuidat és l’excavació delimitada per unes mides definides en els plànols de construcció per l’aprofitament de les parts\nbaixes de l’edifici, com soterrani, garatges, dipòsits o altres utilitzacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Terraplenat",
+      "B": "Desmunt",
+      "C": "Buidat",
+      "D": "Aclarida"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q47",
+    "statement": "Quins dos nuclis de població uneix la carretera C-14?",
+    "correct": "A",
+    "explanation": "Les carreteres o eixos S-N de la xarxa bàsica són:\nC-12 Amposta-Àger (Eix Occidental)\nC-13 Lleida-Esterri d’Àneu (Eix del Pallars)\nC-14 Salou-la Seu d’Urgell (Eix Tarragona-Andorra)\nC-15 Vilanova i la Geltrú-Igualada (Eix Garraf-Anoia)\nC-16 Barcelona-Puigcerdà (Eix del Llobregat)\nC-17 Barcelona-Ripoll (Eix del Congost)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salou i la Seu d’Urgell",
+      "B": "Vilanova i la Geltrú i Igualada",
+      "C": "Vilanova i la Geltrú i Vilafranca del Penedès",
+      "D": "Lleida i Esterri d’Àneu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim52_q75",
+    "statement": "Des de quina alçada ha caigut una pilota que tarda un segon en caure a terra? (g = 10 m/s², considereu negligible el fregament amb l'aire)",
+    "correct": "A",
+    "explanation": "t = 1s\nh = ?\nx = x0 + v0*t + 1/2*a*t²\nx = 0 + 0*1 + 1/2*10*1²\nx = 1/2*10*1 = 5 metres.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des de 5 metres",
+      "B": "Des de 10 metres",
+      "C": "Des de 6 metres",
+      "D": "Des de 3 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim53_q20",
+    "statement": "El motor d'inducció es coneix més popularment com a:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor híbrid",
+      "B": "Motor asíncron",
+      "C": "Motor síncron",
+      "D": "Motor elèctric de corrent contínua"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q12",
+    "statement": "És un sistema estructural amb fort equilibri, degut que presenta major seguretat de la que seria necessària per aconseguir l'equilibri bàsic. Parlem de:",
+    "correct": "A",
+    "explanation": "Estructures hipostátiques o mecanismes: Davant d'estructures isostàtiques i hiperestàtiques que analitzen l'equilibri des\nde dos punts de vista diferenciats, els mecanismes (estructures hipostátiques), són sistemes inestables, pel que el\nfuncionen de manera idèntica a un \"mecano\": davant l'acció d'una força no aconsegueix l'equilibri i es desplaça.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estructures hiperestàtiques",
+      "B": "Estructures isostàtiques",
+      "C": "Mecanismes",
+      "D": "Estructures hipostátiques"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q75",
+    "statement": "Quina longitud de corda haurem d'estirar per tal d'elevar la càrrega 4 metres en un sistema de politges que ens aporta avantatge mecànic de 4?",
+    "correct": "B",
+    "explanation": "Longitud corda = (metres desplaçament de la càrrega × AM) = 4 m × 34AM = 16 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12 metres",
+      "B": "16 metres",
+      "C": "64 metres",
+      "D": "5 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim54_q83",
+    "statement": "El codi numèric d'una carretera, si es compon de dues xifres:",
+    "correct": "A",
+    "explanation": "El nombre de xifres de la part numèrica indica la classificació funcional de la carretera, de manera que:\na) Dues xifres indiquen que pertany a la xarxa bàsica.\nb) Tres xifres indiquen que pertany a la xarxa comarcal.\nc) Quatre xifres indiquen que pertany a la xarxa local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Indicarà que pertany a la xarxa bàsica",
+      "B": "Indicarà que pertany a la xarxa local",
+      "C": "Indicarà que pertany a la xarxa comarcal",
+      "D": "No tindrà rellevància funcional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim55_q26",
+    "statement": "Quin tipus de sostre compta amb una part resistent formada per biguetes que reparteixen les càrregues en la seva direcció cap a les jàsseres o les parets per mitjà d'un encadenat?",
+    "correct": "D",
+    "explanation": "El sostre bidireccional és una llosa que pot ser massissa o alleugerida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 55",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sostre reticular",
+      "B": "El sostre bidireccional",
+      "C": "El sostre solar",
+      "D": "El sostre unidireccional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim56_q11",
+    "statement": "Quin tipus de xarxa serveix per al suport al trànsit intermunicipal?",
+    "correct": "C",
+    "explanation": "Xarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa europea"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q14",
+    "statement": "Com s'anomena la part central d'una serralada?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Eix cardinal",
+      "B": "Eix simètric",
+      "C": "Eix orogràfic",
+      "D": "Eix topogràfic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim57_q19",
+    "statement": "Els lligaments:",
+    "correct": "C",
+    "explanation": "Mentre que els lligaments uneixen ossos a ossos a les articulacions per proporcionar estabilitat, els tendons uneixen\nmúsculs amb ossos per permetre el moviment i la transmissió de força. Ambdós tenen un paper crucial en la funció del\nsistema musculoesquelètic i en el suport estructural del cos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Uneixen músculs amb ossos per permetre el moviment i la transmissió de força",
+      "B": "Uneixen els ossos amb les venes",
+      "C": "Uneixen ossos a ossos a les articulacions per proporcionar estabilitat",
+      "D": "Tenen un paper crucial en la funció del sistema circulatori"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim59_q6",
+    "statement": "De quina forma es coneix també el motor d'inducció?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor híbrid",
+      "B": "Motor asíncron",
+      "C": "Motor síncron",
+      "D": "Motor bivalent"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
     "id": "academia_sim59_q46",
     "statement": "Una bateria consta d'elèctrodes, un electròlit conductor i un separador entre l'ànode i el càtode. A les bateries d'ió liti recarregables, els cations de liti monovalents migren entre els elèctrodes. Quin procés ocórre quan es descarreguen?",
     "correct": "C",
     "explanation": "Una bateria consta d'elèctrodes (càtode (+) i ànode (-)), un electròlit conductor i un separador entre l'ànode i el càtode. A\nles bateries d'ió liti recarregables (LIB), els cations de liti monovalents migren entre els elèctrodes. Quan es\ndescarreguen, l'ànode (-) s'oxida (perd electrons) i el càtode es redueix (guanya electrons). Després de la càrrega,\naquest procés s'inverteix.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Rescat en accidents de trànsit",
+    "theme": "T32 - Accidents de mobilitat viària",
     "section": "Simulacre 59",
     "isSaved": 0,
     "isAnswered": 0,
@@ -15,7 +1295,869 @@
       "B": "El mateix que quan es carreguen",
       "C": "L'ànode s'oxida (perd electrons) i el càtode es redueix (guanya electrons)",
       "D": "Hi ha més d'una resposta correcta"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q11",
+    "statement": "Quins dos nuclis de població uneix la carretera C-15?",
+    "correct": "B",
+    "explanation": "Les carreteres o eixos S-N de la xarxa bàsica són:\nC-12 Amposta-Àger (Eix Occidental)\nC-13 Lleida-Esterri d’Àneu (Eix del Pallars)\nC-14 Salou-la Seu d’Urgell (Eix Tarragona-Andorra)\nC-15 Vilanova i la Geltrú-Igualada (Eix Garraf-Anoia)\nC-16 Barcelona-Puigcerdà (Eix del Llobregat)\nC-17 Barcelona-Ripoll (Eix del Congost)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salou i la Seu d’Urgell",
+      "B": "Vilanova i la Geltrú i Igualada",
+      "C": "Vilanova i la Geltrú i Berga",
+      "D": "Lleida i Esterri d’Àneu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim61_q41",
+    "statement": "De quina forma ens podem referir també al motor d'inducció?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Motor híbrid",
+      "B": "Motor asíncron",
+      "C": "Motor síncron",
+      "D": "Motor continu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q9",
+    "statement": "Quin és el cim més alt de la comarca del Ripollès?",
+    "correct": "C",
+    "explanation": "El Puigmal té una alçada de 2.913 metres sobre el nivell del mar. Es troba a la serralada del Pirineu, a prop de la frontera\namb França, i és una destinació popular per a l'esquí i l'alpinisme. A més del Puigmal, altres cims notables al Ripollès\ninclouen el Bastiments (2.881 metres), el Costabona (2.464 metres) i el Taga (2.037 metres).\nLa Pica d'Estats està situada entre la comarca del Pallars Sobirà i el departament francès d'Arieja.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Taga",
+      "B": "La Pica d’Estats",
+      "C": "El Puigmal",
+      "D": "Bastiments"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q30",
+    "statement": "Quin dels següents encadenaments de serres pertanyents a la Serralada Prelitoral segueix un ordre de Sud a Nord?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ports de Beseit, Muntanyes de Prades, Serra de Cardó, Montserrat",
+      "B": "Montseny, Serra de Tivissa, Montmell, Les Guilleries",
+      "C": "Sant Llorenç del Munt i l’Obac, Montsant, Muntanyes de Prades, Serra de Llaberia",
+      "D": "Serra de Cardó, Serra de la Llena, Montmell, Montseny"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim62_q48",
+    "statement": "Quina afirmació és CERTA sobre la xarxa bàsica de carreteres de Catalunya?",
+    "correct": "C",
+    "explanation": "Les carreteres de Catalunya es classifiquen, segons llur funció, dins les xarxes següents:\n1. Xarxa bàsica: és la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància, i inclou també les vies\nintercomarcals i intracomarcals d'una especial importància viària. Inclou igualment la xarxa arterial, integrada per les vies\nsegregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció\ncompatibilitzar el trànsit local i el trànsit de pas.\n2. Xarxa comarcal: és la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i\nnuclis de població i activitat de la mateixa comarca o de comarques limítrofes, al trànsit generat entre cadascun d'aquests\ncentres i a la connexió d'aquests nuclis amb itineraris de la xarxa bàsica.\n3. Xarxa local: és la que serveix de suport al trànsit intermunicipal, integrada pel conjunt de vies que faciliten l'accés als\nmunicipis i nuclis de població i activitat no situats sobre les xarxes bàsica i comarcal, i comprèn totes les carreteres que\nno figuren en la xarxa bàsica ni en la comarcal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i nuclis de població i activitat de la mateixa comarca o de comarques limítrofes",
+      "B": "És la que serveix de suport al trànsit intermunicipal",
+      "C": "Inclou la xarxa arterial, integrada per les vies segregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció compatibilitzar el trànsit local i el trànsit de pas",
+      "D": "Totes les respostes són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim63_q90",
+    "statement": "Al capvespre, un arbre projecta una ombra de 4 metres de longitud. Si la distància des de la part més alta de l'arbre a l'extrem més allunyat de l'ombra és de 5 metres, quina és l'alçada de l'arbre?",
+    "correct": "D",
+    "explanation": "h² = a² + b²\n5² = a² + 4²\n25 = a² + 16\na² = 9\n√a² = √9\na = 3 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 metres",
+      "B": "2 metres",
+      "C": "5 metres",
+      "D": "3 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim64_q26",
+    "statement": "Quins dos nuclis de població uneix la carretera C-13?",
+    "correct": "D",
+    "explanation": "Les carreteres o eixos S-N de la xarxa bàsica són:\nC-12 Amposta-Àger (Eix Occidental)\nC-13 Lleida-Esterri d’Àneu (Eix del Pallars)\nC-14 Salou-la Seu d’Urgell (Eix Tarragona-Andorra)\nC-15 Vilanova i la Geltrú-Igualada (Eix Garraf-Anoia)\nC-16 Barcelona-Puigcerdà (Eix del Llobregat)\nC-17 Barcelona-Ripoll (Eix del Congost)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Salou i la Seu d’Urgell",
+      "B": "Vilanova i la Geltrú i Igualada",
+      "C": "Vilanova i la Geltrú i Vilafranca del Penedès",
+      "D": "Lleida i Esterri d’Àneu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q4",
+    "statement": "A la part inferior d'un recipient ple d'aigua s'hi troba un forat d'on hi raja aigua a 10 m/s. Fins quina alçada està omplert el dipòsit, aproximadament?",
+    "correct": "B",
+    "explanation": "v = √2 × g × h\n10 = √2 × 10 × h\nh = 5 metres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2,5 metres",
+      "B": "5 metres",
+      "C": "10 metres",
+      "D": "20 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q41",
+    "statement": "On se situaran les Boques d'Incendi Equipades (BIE)?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A un màxim de 5 metres respecte les sortides dels secors d'incendi",
+      "B": "A un màxim de 10 metres respecte les sortides dels secors d'incendi",
+      "C": "A un màxim de 15 metres respecte les sortides dels secors d'incendi",
+      "D": "A un màxim de 20 metres respecte les sortides dels secors d'incendi"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim65_q71",
+    "statement": "Quin tipus de motor compta amb un rotor de gàbia d'esquirol?",
+    "correct": "D",
+    "explanation": "Motor asíncron = motor d'inducció",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El motor d'inducció",
+      "B": "El motor síncron d'imants permanents",
+      "C": "El motor asíncron",
+      "D": "Les respostes a) i c) són correctes"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim68_q63",
+    "statement": "A partir de quins eixos es configura el pla anatòmic sagital?",
+    "correct": "A",
+    "explanation": "Pla anatòmic transversal: anteroposterior + horitzontal.\nPla anatòmic frontal: vertical + horitzontal.\nPla anatòmic sagital: anteroposterior + vertical.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels eixos anteroposterior i vertical",
+      "B": "A partir dels eixos vertical i horitzontal",
+      "C": "A partir dels eixos anteroposterior i horitzontal",
+      "D": "Fan falta un mínim de tres eixos per traçar un pla anatòmic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q10",
+    "statement": "A partir de quins eixos es configura el pla anatòmic frontal?",
+    "correct": "B",
+    "explanation": "Pla anatòmic transversal: anteroposterior + horitzontal.\nPla anatòmic frontal: vertical + horitzontal.\nPla anatòmic sagital: anteroposterior + vertical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels eixos anteroposterior i vertical",
+      "B": "A partir dels eixos vertical i horitzontal",
+      "C": "A partir dels eixos anteroposterior i horitzontal",
+      "D": "Fan falta un mínim de tres eixos per traçar un pla anatòmic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim69_q70",
+    "statement": "Quina longitud haurà de tenir un pla inclinat per reduir a la meitat la força (sense fregament) que s'ha d'aplicar per elevar un objecte 2 metres?",
+    "correct": "A",
+    "explanation": "Sense pla inclinat: F = m*g\nAmb pla inclinat: F = m*g*h/s\nPer tal de fer la meitat de força:\nm*g/2 = m*g*h/s\n1/2 = h/s\n1/2 = 2/s\ns = 4 metres",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "4 metres",
+      "B": "2 metres",
+      "C": "3 metres",
+      "D": "8 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q33",
+    "statement": "A partir de quins eixos es configura el pla anatòmic transversal?",
+    "correct": "C",
+    "explanation": "Pla anatòmic transversal: anteroposterior + horitzontal.\nPla anatòmic frontal: vertical + horitzontal.\nPla anatòmic sagital: anteroposterior + vertical.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels eixos anteroposterior i vertical",
+      "B": "A partir dels eixos vertical i horitzontal",
+      "C": "A partir dels eixos anteroposterior i horitzontal",
+      "D": "Fan falta un mínim de tres eixos per traçar un pla anatòmic"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q39",
+    "statement": "Quina de les següents serres es caracteritza per, a partir de la seva carena, marcar la línia divisòria de l'Alt Empordà al sud, amb les comarques de la Catalunya Nord del Rosselló i el Vallespir?",
+    "correct": "A",
+    "explanation": "Culmina al puig Neulós (1.256 m). Del 1659 ençà, arran del Tractat dels Pirineus, la seva carena constitueix la frontera\nentre els estats francès i espanyol.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serra de l'Albera",
+      "B": "Serra de Cavallera",
+      "C": "Serra del Montsec",
+      "D": "Serra de Finestres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim70_q76",
+    "statement": "El codi numèric d'una carretera, si es compon de quatre xifres:",
+    "correct": "B",
+    "explanation": "El nombre de xifres de la part numèrica indica la classificació funcional de la carretera, de manera que:\na) Dues xifres indiquen que pertany a la xarxa bàsica.\nb) Tres xifres indiquen que pertany a la xarxa comarcal.\nc) Quatre xifres indiquen que pertany a la xarxa local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Indicarà que pertany a la xarxa bàsica",
+      "B": "Indicarà que pertany a la xarxa local",
+      "C": "Indicarà que pertany a la xarxa comarcal",
+      "D": "No tindrà rellevància funcional"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim72_q32",
+    "statement": "La línia de ferrocarril Lleida - La Pobla de Segur travessa amb un túnel de 3,5 km:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La serra de Pàndols",
+      "B": "La serra de Cavalls",
+      "C": "La serra de Mont-roig",
+      "D": "La serra de Prades"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim73_q9",
+    "statement": "Quina és la diferència principal entre un controlador de motor de CA i un de CC?",
+    "correct": "A",
+    "explanation": "Els controladors de motors de CA utilitzen variadors de freqüència per ajustar la velocitat del motor. Aquests variadors\ncanvien la freqüència de l’alimentació elèctrica que rep el motor.\nEls controladors de motors de CC utilitzen reguladors de tensió per modificar la velocitat del motor. Ajustant la tensió\nd'entrada, es controla la velocitat de gir del motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els controladors de CA utilitzen variadors de freqüència mentre que els de CC utilitzen reguladors de tensió",
+      "B": "Els controladors de CA poden regular la velocitat del motor, mentre que els de CC no poden",
+      "C": "Els controladors de CA utilitzen reguladors de tensió mentre que els de CC utilitzen variadors de freqüència",
+      "D": "Els controladors de CA no poden regular la velocitat del motor, mentre que els de CC si que poden"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim74_q45",
+    "statement": "Quin tipus de xarxa viària serveix de suport al trànsit intermunicipal?",
+    "correct": "C",
+    "explanation": "Xarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa de desplaçament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim75_q45",
+    "statement": "On han de situar-se les BIE (Boques d'Incendi Equipades) en relació amb les sortides dels sectors d'incendi?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A un màxim de 5 metres",
+      "B": "A un màxim de 10 metres",
+      "C": "A un màxim de 15 metres",
+      "D": "A un màxim de 20 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim76_q74",
+    "statement": "Quin és l’Espai natural més septentrional de Catalunya?",
+    "correct": "B",
+    "explanation": "Les Montanhes de Les e Bossòst són l’Espai natural més septentrional de Catalunya. És el millor representant pel que fa\na la diversitat i a la singularitat dels baixos nivells del vessant septentrional del Pirineu al Baish Aran. Es tracta d’un dels\nterritoris catalans on millor es manifesta el caràcter \"pirinenc-atlàntic\", amb els components regulars del paisatge atlàntic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Tuc de Sacauva",
+      "B": "Les Montanhes de Les e Bossòst",
+      "C": "La Serra de Godall",
+      "D": "La serra de les Salines"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim77_q76",
+    "statement": "Quines sigles fan referència a un vehicle híbrid endollable?",
+    "correct": "B",
+    "explanation": "HEV: Hybrid Electric Vehicle.\nPHEV: Plug-in Hybrid Electric Vehicle.\nBEV: Battery Electric Vehicle.\nFCEV: Fuel Cell Electric Vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BEV",
+      "B": "PHEV",
+      "C": "FCEV",
+      "D": "HEV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim78_q43",
+    "statement": "Quin dels següents espais naturals de protecció especial té la consideració de parc natural?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Muntanya de Montserrat",
+      "B": "El Cap de Norfeu",
+      "C": "La Serra de Rodes",
+      "D": "La Vall del monestir de Poblet"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim80_q58",
+    "statement": "D'entre les carreteres o eixos W-E de la xarxa bàsica hi trobem, entre d'altres:",
+    "correct": "D",
+    "explanation": "Les carreteres en direcció W-E s’han de numerar en sentit creixent de S a N. Se’ls assigna el 2 com a número bàsic de\ndirecció dominant associada i el 8 com a número de reserva.\nLes carreteres o eixos W-E de la xarxa bàsica són:\nC-25 Cervera-Girona (Eix Transversal)\nC-26 Alfarràs-Olot (Eix Prepirinenc)\nC-28 Vielha-Esterri d’Àneu",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Eix del Congost",
+      "B": "L'Eix del Pallars",
+      "C": "L'Eix Occidental",
+      "D": "L'Eix Transversal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q5",
+    "statement": "Quina serra pertanyent al Prepirineu oriental meridional se situa al sud-oest de Gósol i es caracteritza per la gran extensió dels seus boscos i els seus relleus arrodonits?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Serra del Verd",
+      "B": "La Serra del Cadí",
+      "C": "La Serra del Boumort",
+      "D": "La Serra de Milany"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim81_q88",
+    "statement": "Segons el sistema de codificació de la xarxa de carreteres de Catalunya, quantes xifres indicaran que una carretera pertany a la xarxa comarcal?",
+    "correct": "D",
+    "explanation": "El nombre de xifres de la part numèrica indica la classificació funcional de la carretera, de manera que:\na) Dues xifres indiquen que pertany a la xarxa bàsica.\nb) Tres xifres indiquen que pertany a la xarxa comarcal.\nc) Quatre xifres indiquen que pertany a la xarxa local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc xifres",
+      "B": "Dues xifres",
+      "C": "Quatre xifres",
+      "D": "Tres xifres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q2",
+    "statement": "Quina és la nomenclatura d'un vehicle elèctric que utilitza una cèl·lula de combustible d'hidrogen per generar electricitat?",
+    "correct": "C",
+    "explanation": "Un FCEV o Fuel Cell Electric Vehicle és un vehicle elèctric que utilitza una cèl·lula de combustible d'hidrogen per generar\nelectricitat, en lloc d'emmagatzemar l'energia en una bateria com fan els vehicles elèctrics convencionals (BEV - Battery\nElectric Vehicle).\nHEV: Hybrid Electric Vehicle.\nPHEV: Plug-in Hybrid Electric Vehicle.\nBEV: Battery Electric Vehicle.\nFCEV: Fuel Cell Electric Vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "BEV",
+      "B": "PHEV",
+      "C": "FCEV",
+      "D": "HEV"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim82_q4",
+    "statement": "Quin tipus de xarxa serveix de suport al trànsit de pas i al trànsit intern de llarga distància?",
+    "correct": "A",
+    "explanation": "Xarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa de desplaçament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim84_q33",
+    "statement": "Quina de les següents serralades s'inclou al vèrtex entre la Serralada Prelitoral i la Serralada Transversal i forma part alhora de totes dues serralades?",
+    "correct": "D",
+    "explanation": "Mont-roig: Prepirineus.\nMontnegre: S. Litoral.\nSerra del Molló: S. Prelitoral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 84",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Serra de Mont-roig",
+      "B": "La Serra del Molló",
+      "C": "El Montnegre",
+      "D": "Les Guilleries"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim90_q50",
+    "statement": "Quin element natural del relleu terrestre es troba entre la Serra del Verd i la Serra de Boumort?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 90",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà de la Baells",
+      "B": "La serra del Montsec",
+      "C": "El riu Segre",
+      "D": "La Serra de Castelltallat"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim91_q61",
+    "statement": "En quina comarca catalana està ubicat el Parc Natural de la Serra de Montsant?",
+    "correct": "A",
+    "explanation": "El Parc Natural s’estén en el sector occidental de la serralada Prelitoral catalana, dins de la comarca del Priorat, de la\nqual representa el límit septentrional.\nLa serra de Montsant constitueix una unitat orogràfica emmarcada a l’est per les depressions d’Ulldemolins i Cornudella,\nseparades pel coll d’Albarca que enllaça Montsant amb les muntanyes de Prades. Al nord i oest, el curs del riu Montsant\nsepara el massís de la serra de la Llena. Al sud, els límits són el Cingle Major, el cingle de Montalts i el riuet d’Escaladei.\nEls punts culminants de la serra són la roca Corbatera (1.163 m), el piló dels Senyalets (1.109 m), la punta de Peret\n(1.107 m) i la Cogulla (1.063 m).\nFont: GENCAT.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Priorat",
+      "B": "A l'Alt Camp",
+      "C": "A la Garrotxa",
+      "D": "Al Berguedà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim92_q25",
+    "statement": "Quin tipus de xarxa viària serveix de suport al trànsit generat entre les capitals comarcals i els principals nuclis de població?",
+    "correct": "B",
+    "explanation": "Xarxa bàsica: suport al trànsit de pas i al transit intern de llarga distància.\nXarxa comarcal: suport al trànsit generat entre les capitals comarcals i els principals nuclis de població.\nXarxa local: suport al trànsit intermunicipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 92",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La xarxa bàsica",
+      "B": "La xarxa comarcal",
+      "C": "La xarxa local",
+      "D": "La xarxa de desplaçament"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim93_q73",
+    "statement": "Entre els elements de seguretat passiva dels vehicles hi trobem:",
+    "correct": "C",
+    "explanation": "Són un sistema de seguretat passiva perquè no eviten l'accident, però minimitzen els danys físics als ocupants durant\nl'impacte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 93",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sistema ABS (Antiblockier System)",
+      "B": "Sensors de pluja i llum automàtica",
+      "C": "Cinturons de seguretat",
+      "D": "Càmera de visió del darrere o visió 360º"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim94_q40",
+    "statement": "Quin dels següents NO és un parc natural?",
+    "correct": "D",
+    "explanation": "El Massís de l’Albera és un paratge natural d’interès nacional.\nA Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Collserola",
+      "B": "Delta de l'Ebre",
+      "C": "Serra de Montsant",
+      "D": "Massís de l’Albera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim95_q9",
+    "statement": "Quin riu recull les aigües de les serres del Port del Comte i del Verd, de la Serra de les Comes, del Pedraforca i la Serra d'Ensija i en el seu recorregut es troben els embassaments de la Llosa del Cavall i de Sant Ponç?",
+    "correct": "A",
+    "explanation": "Neix a les Fonts del Cardener, situades al municipi de la Coma i la Pedra, al peu del Port del Comte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cardener",
+      "B": "L'Anoia",
+      "C": "El Congost",
+      "D": "La Tordera"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim95_q87",
+    "statement": "Quin és l'estany no litoral més gran de Catalunya?",
+    "correct": "C",
+    "explanation": "Aquest cos d'aigua presenta les següents característiques mètriques:\nDimensions lineals:\n· Longitud total: aproximadament 2.150 metres.\n· Amplada màxima lòbul nord: 775 metres.\n· Amplada màxima lòbul sud: 725 metres.\nCaracterístiques de volum:\n· Superfície total: 111,7 hectàrees.\n· Profunditat mitjana: 40-44 metres.\n· Profunditat màxima registrada: 120 metres (a zones amb surgències càrstiques).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Llac de Malniu",
+      "B": "Llac de Montcortès",
+      "C": "Estany de Banyoles",
+      "D": "Estany de Certascan"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim96_q79",
+    "statement": "La serra del Boumort es troba situada a:",
+    "correct": "D",
+    "explanation": "La serra de Boumort és una muntanya calcària que emergeix al nord-est de la Conca de Dalt i de la mateixa comarca del\nPallars Jussà.\nCim: Cap de Boumort, de 2.076,2 m. alt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 96",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Ripollès",
+      "B": "La Terra Alta",
+      "C": "L’Alt Urgell",
+      "D": "El Pallars Jussà"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim98_q83",
+    "statement": "Té la consideració de Parc Natural i és l'espai natural protegit més extens de Catalunya, amb una superfície de gairebé 80.000 ha:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Massís de l’Albera",
+      "B": "La Serra de Rodes",
+      "C": "Pinya de Rosa",
+      "D": "L'Alt Pirineu"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim99_q60",
+    "statement": "Quina de les afirmacions següents referents a l'orografia catalana és FALSA?",
+    "correct": "C",
+    "explanation": "El Monteixo és una muntanya que es troba íntegrament a la comarca del Pallars Sobirà.\nÉs un dels cims més emblemàtics de la Vall Ferrera, situat a prop de la Pica d'Estats.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 99",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Des del Balandrau podrem tenir unes àmplies vistes de les Muntanyes de Núria i la Serra Cavallera",
+      "B": "El Besiberri Nord és una muntanya situada en el límit del Parc Nacional d'Aigüestortes i Estany de Sant Maurici i la seva zona perifèrica",
+      "C": "El massís del Monteixo constitueix la divisòria orogràfica entre les demarcacions comarcals de la Cerdanya i el Ripollès",
+      "D": "La Creu de Santos és el cim més alt de la Serra de Cardó"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim100_q56",
+    "statement": "Un bomber a peu de carrer ha de fer arribar una bossa de rescat amb una corda guia a un company situat en un balcó a 18 metres d'alçada. Si la llança verticalment cap amunt amb una velocitat inicial de 20 m/s, aconseguirà l'objectiu? (g = 10 m/s² i menysprea el fregament amb l'aire).",
+    "correct": "B",
+    "explanation": "1/2 × m × v² = m × g × h\n1/2 × 20² = 10 × h\n1/2 × 400 = 10h\n200 = 10h\nh = 20.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "No, li faltaran 3 metres",
+      "B": "Si, arribarà de sobres",
+      "C": "Si, arribarà just",
+      "D": "No, li faltaran 8 metres"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim100_q57",
+    "statement": "En un pneumàtic amb denominació 195/55 R15 85V, què indica el número 85?",
+    "correct": "D",
+    "explanation": "Desglossament de la Nomenclatura:\n195: Amplada del pneumàtic.\n55: Perfil o relació d'aspecte.\nR: Estructura o construcció (La lletra \"R\" indica que l'estructura interna del pneumàtic és de tipus Radial).\n15: Diàmetre de la llanda (en polzades).\n85: Índex de càrrega.\nV: Codi de velocitat (indica la velocitat màxima a la qual el pneumàtic pot circular de manera segura suportant la seva\ncàrrega màxima. Cada lletra té una equivalència en km/h. En aquest cas, la lletra V correspon a una velocitat màxima de\n240 km/h).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La velocitat màxima a la qual el pneumàtic pot circular de manera segura suportant la seva càrrega màxima (en km/h)",
+      "B": "El perfil o relació d'aspecte",
+      "C": "El diàmetre de la llanda (en polzades)",
+      "D": "L'índex de càrrega"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim102_q27",
+    "statement": "Quin riu català, afluent de l'Ebre, és conegut per haver format congostos espectaculars com el de Mont-rebei?",
+    "correct": "C",
+    "explanation": "El congost de Mont-rebei està situat entre la serra del Montsec d’Ares (Catalunya) i la serra del Montsec de l’Estall\n(Aragó).\nÉs l’únic congost de Catalunya sense cap carretera ni infraestructura travessant-lo, només el camí excavat a la roca i\npassarel·les penjades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Segre",
+      "B": "La Noguera Ribagorçana",
+      "C": "La Noguera Pallaresa",
+      "D": "El Francolí"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim114_q22",
+    "statement": "Indica l’ordre correcte, disposat de nord a sud, de les serres següents situades a la Catalunya Central:",
+    "correct": "B",
+    "explanation": "La Serra de Pinós és una carena situada al municipi de Pinós, a la comarca del Solsonès, amb el seu punt més alt a\n928-931 metres.\nLa Serra de Castelltallat està situada entre l'est de l'Anoia i el sud del Solsonès.\nLa serra de Rubió és una serralada calcària situada als municipis de Rubió i d'Òdena, a la comarca de l'Anoia i al\nmunicipi de Castellfollit del Boix, a la comarca catalana del Bages.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 114",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serra de Castelltallat, Serra de Rubió i Serra de Pinós",
+      "B": "Serra de Pinós, Serra de Castelltallat i Serra de Rubió",
+      "C": "Serra de Pinós, Serra de Rubió i Serra de Castelltallat",
+      "D": "Serra de Castelltallat, Serra de Pinós i Serra de Rubió"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim114_q27",
@@ -24,7 +2166,7 @@
     "explanation": "Avanç = nombre d'entrades x pas (3 × 2mm = 6 mm)",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Rescat en accidents de trànsit",
+    "theme": "T32 - Accidents de mobilitat viària",
     "section": "Simulacre 114",
     "isSaved": 0,
     "isAnswered": 0,
@@ -33,7 +2175,89 @@
       "B": "4 mm",
       "C": "2 mm",
       "D": "6 mm"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim116_q69",
+    "statement": "Relatiu a l'orografia catalana, quina de les següents afirmacions és CERTA?",
+    "correct": "B",
+    "explanation": "Les Guilleries es consideren dins la Serralada Transversal.\nLa Serra del Catllaràs es troba a les comarques del Berguedà i el Ripollès.\nLa Serra del Montsec és més meridional que la Serra de Boumort. De fet, la Serra del Montsec és la serralada més\nmeridional del Prepirineu català.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 116",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les Guilleries són un massís muntanyós situat a l’extrem nord-est del sistema Prepirinenc",
+      "B": "La serra d’Ordal és un massís que s’estén per diversos municipis de la comarca de l’Alt Penedès",
+      "C": "La Serra del Catllaràs es troba a les comarques de l'Alt Urgell i la Cerdanya",
+      "D": "La Serra del Montsec és més septentrional que la Serra de Boumort"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim124_q53",
+    "statement": "Tenim un pistó de secció 20 cm² treballant en un accident de trànsit d’un camió, que actua amb una força de 25.000 newtons. Quina pressió exercirà sobre la zona que volem aixecar del camió?",
+    "correct": "B",
+    "explanation": "Sabem que:\nF = 25.000 N\nS = 20 cm²\n1 kgf = 9,81 N\nPrimer convertim la força a kgf:\nF = 25.000 N / 9,81 = 2.548,42 kgf\nAra apliquem la fórmula:\nP = F / S\nP = 2.548,42 / 20\nP = 127,42 kg/cm² (125 kg/cm²).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 124",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "12,5 kg/cm².",
+      "B": "125 kg/cm².",
+      "C": "1.250 kg/cm².",
+      "D": "1,25 kg/cm²."
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim125_q65",
+    "statement": "Arribeu a un accident amb un camió format per un cap tractor amb el motor i la cabina i un semiremolc de càrrega. De quin tipus de camió es tracta?",
+    "correct": "A",
+    "explanation": "Camió articulat (tràiler): Consta de dues parts diferenciades: el cap tractor (on hi ha el motor i la cabina) i el semiremolc,\nque és la unitat de càrrega. Aquesta configuració permet transportar grans volums, però comporta una articulació central\nque pot complicar l’estabilització en cas d'accident.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "D'un camió articulat o tràiler",
+      "B": "D'un camió rígid de gran tonatge",
+      "C": "D'un camió amb remolc de tres elements",
+      "D": "D'un camió portacontenidors de caixa fixa"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim126_q35",
+    "statement": "Un dels moviments possibles d’un vehicle en ordre de marxa és la guinyada. En què consisteix?",
+    "correct": "A",
+    "explanation": "Desplaçament longitudinal: és el moviment horitzontal endavant i endarrere en el sentit de la marxa.\nBalanceig: és un moviment pivotant a dreta i esquerra sense desplaçament longitudinal.\nCapcineig: és un moviment pivotant endavant i endarrere sense desplaçament longitudinal.\nGuinyada: moviment a dreta o esquerra sobre un eix vertical imaginari que passa pel centre del vehicle.\n16",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Moviment a dreta o esquerra sobre un eix vertical imaginari que passa pel centre del vehicle",
+      "B": "Moviment pivotant a dreta i esquerra sense desplaçament longitudinal",
+      "C": "Moviment horitzontal endavant i endarrere en el sentit de la marxa",
+      "D": "Moviment pivotant endavant i endarrere sense desplaçament longitudinal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim127_q10",
@@ -42,7 +2266,7 @@
     "explanation": "A - Alfa\nB - Bravo\nC - Charlie\nD - Delta\nE - Echo\nF - Foxtrot\nG - Golf\nH - Hotel\nI - Índia\nJ - Juliet\nK - Kilo\nL - Lima\nM - Mike\nN - November\nO - Oscar\nP - Papa\nQ - Quebec\nR - Romeo\nS - Sierra\nT - Tango\nU - Uniform\nV - Victor\nW - Whiskey\nX - X-ray\n13\n\nY - Yankee\nZ - Zulu",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Rescat en accidents de trànsit",
+    "theme": "T32 - Accidents de mobilitat viària",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
@@ -51,7 +2275,69 @@
       "B": "Jordania – Kilo – Metro",
       "C": "Juliet – Kappa – Metro",
       "D": "Juliet – Kilo – Mike"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q18",
+    "statement": "En els accidents de mobilitat viària, és important conèixer la tipologia dels vidres dels vehicles i les seves característiques. Quina és la principal aplicació dels vidres temperats?",
+    "correct": "B",
+    "explanation": "Els vidres són elements de recobriment translúcids o transparents que tanquen l’habitacle i permeten la visibilitat.\nActualment, especialment el parabrisa, poden considerar-se part estructural del vehicle, ja que impedeixen la sortida dels\nocupants, la intrusió d’objectes, i resisteixen la pressió dels coixins de seguretat.\nSegons la seva composició i característiques trobem:\n−Vidres laminats: Formats per dues capes de vidre unides per una làmina polimèrica. En trencar-se, els fragments\nqueden adherits, minimitzant el risc de lesions. S’utilitzen habitualment en parabrises.\n−Vidres temperats: Tractats tèrmicament o químicament per augmentar la seva resistència, però en trencar-se es\nfragmenten en múltiples trossos petits. Es fan servir en finestretes i llunes posteriors.\n−Policarbonat: Termoplàstic altament resistent als impactes, amb bones propietats òptiques. S’utilitza cada vegada més\nper la seva seguretat i resistència, són difícils de trencar en cas de rescat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Actualment, es troben pràcticament en desús, tot i que encara es poden trobar en vehicles fabricats durant la dècada dels anys 90 o anteriors",
+      "B": "Es fan servir en finestretes i llunes posteriors",
+      "C": "Són obligatoris en els vehicles fabricats a partir de l’any 2004",
+      "D": "S’utilitzen habitualment en parabrises"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim127_q37",
+    "statement": "El capcineig d’un vehicle en ordre de marxa:",
+    "correct": "C",
+    "explanation": "Desplaçament longitudinal: és el moviment horitzontal endavant i endarrere en el sentit de la marxa.\nBalanceig: és un moviment pivotant a dreta i esquerra sense desplaçament longitudinal.\nCapcineig: és un moviment pivotant endavant i endarrere sense desplaçament longitudinal.\nGuinyada: moviment a dreta o esquerra sobre un eix vertical imaginari que passa pel centre del vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el moviment horitzontal endavant i endarrere en el sentit de la marxa",
+      "B": "És el moviment a dreta o esquerra sobre un eix vertical imaginari que passa pel centre del vehicle",
+      "C": "És el pivotament endavant i endarrere sense desplaçament longitudinal",
+      "D": "És un moviment pivotant a dreta i esquerra sense desplaçament longitudinal"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
+  },
+  {
+    "id": "academia_sim128_q34",
+    "statement": "Dins del Pla d'acció de la intervenció (PAI), què caracteritza el Pla B?",
+    "correct": "D",
+    "explanation": "Pla A: És l’opció prioritària quan l’estat de la víctima és estable i es disposa de temps i condicions per fer una extracció\ntècnicament segura i respectuosa amb la seva situació clínica. Consisteix en una maniobra estructurada i progressiva,\nque implica una gran generació d’espais mitjançant tècniques com ara l’obertura de portes, la retirada de muntants,\nsostres o seients, amb l’objectiu de facilitar l’abordatge sanitari dins del vehicle i minimitzar el risc de lesions secundàries\ndurant l’extracció.\nPla B: És l’opció prevista en paral·lel al Pla A, i es posa en marxa en cas que es produeixi un agreujament sobtat de\nl’estat de la víctima o una situació sobrevinguda que obligui a reduir el temps d’extracció de la persona afectada. Aquest\npla ha d’estar preestablert i consensuat prèviament amb tots els actuants.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Accidents de mobilitat viària",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Consiste en una maniobra d’atenció a la víctima dins del vehicle quan la seva extracció immediata no és possible",
+      "B": "És el pla que decideix el responsable del servei sanitari un cop es produeixi un agreujament sobtat de l’estat de la víctima",
+      "C": "Consisteix en una maniobra estructurada i progressiva, que implica una gran generació d’espais mitjançant tècniques com ara l’obertura de portes, la retirada de muntants, sostres o seients",
+      "D": "És el pla previst en paral·lel al Pla A per si l'estat de la víctima s'agreuja"
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   },
   {
     "id": "academia_sim128_q47",
@@ -60,7 +2346,7 @@
     "explanation": "L'obertura forçada de portes laterals i posteriors sol fer-se per la zona del pany i, si cal, també es pot actuar sobre la zona\nde les frontisses. Si no hi ha espai suficient per introduir les puntes del separador, la primera acció ha de ser obtenir\naquest espai.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Rescat en accidents de trànsit",
+    "theme": "T32 - Accidents de mobilitat viària",
     "section": "Simulacre 128",
     "isSaved": 0,
     "isAnswered": 0,
@@ -69,6 +2355,8 @@
       "B": "Per la zona del pany, i si cal s'actua sobre la zona de les frontisses",
       "C": "Per la talonera inferior, i si cal s'actua sobre el muntant B",
       "D": "Pel muntant B, i si cal s'actua sobre la talonera inferior"
-    }
+    },
+    "academy": "academia",
+    "academyName": "Acadèmia Bombers"
   }
 ]
