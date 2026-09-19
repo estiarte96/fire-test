@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle, Zap, Shield, Camera } from 'lucide-react';
+import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle, Zap, Shield, Camera, Settings, BookmarkCheck, Sliders, CheckSquare } from 'lucide-react';
 import FlashcardScreen from './components/FlashcardScreen';
 import QuestionPhotoModal from './components/QuestionPhotoModal';
 import './index.css';
@@ -19,6 +19,79 @@ export function getAcademyInfo(academyId) {
   return ACADEMIES_CONFIG.find(a => a.id === academyId) || ACADEMIES_CONFIG[0];
 }
 
+// ----------------------------------------------------------------------
+// SPACED REPETITION & SMART QUESTION PRIORITY ALGORITHM
+// ----------------------------------------------------------------------
+export function getQuestionPriorityScore(q, userStats) {
+  const failedIds = userStats._failedIds || [];
+  const questionHistory = userStats._questionHistory || {};
+  const themeProgress = userStats._themeProgress || {};
+  
+  const isFailed = failedIds.includes(q.id);
+  const hist = questionHistory[q.id];
+  const tProg = themeProgress[q.theme]?.[q.id];
+
+  const hasHistory = !!hist || !!tProg;
+  const lastSeen = hist?.lastSeen || tProg?.answeredAt || 0;
+  const wrongCount = (hist?.wrongCount || 0) + (isFailed ? 1 : 0);
+  const correctCount = (hist?.correctCount || 0) + (tProg?.isCorrect ? 1 : 0);
+
+  let baseScore = 0;
+
+  if (isFailed) {
+    // Top priority: failed questions reappear much sooner
+    baseScore = 3000 + (wrongCount * 150);
+    if (lastSeen > 0) {
+      const minutesAgo = (Date.now() - lastSeen) / (1000 * 60);
+      // Higher boost for recently failed questions so they get reinforced right away
+      baseScore += Math.max(0, 600 - minutesAgo * 3);
+    }
+  } else if (!hasHistory) {
+    // High priority: Unseen questions
+    baseScore = 1500;
+  } else {
+    // Low priority: Answered correctly before (take longer to appear)
+    const hoursAgo = lastSeen > 0 ? (Date.now() - lastSeen) / (1000 * 60 * 60) : 100;
+    
+    // Spaced repetition: slowly recovers priority over time
+    const timeRecovery = Math.min(600, hoursAgo * 8);
+    
+    // Mastery penalty: questions answered correctly multiple times take even longer to repeat
+    const masteryPenalty = Math.min(300, correctCount * 50);
+    
+    baseScore = Math.max(10, 30 + timeRecovery - masteryPenalty);
+  }
+
+  // Controlled random variation (+/- 15%) to avoid rigid repetition
+  const jitter = 0.85 + Math.random() * 0.3;
+  return baseScore * jitter;
+}
+
+export function selectPrioritizedQuestions(pool, targetLength, userStats, mode) {
+  if (!pool || pool.length === 0) return [];
+  if (mode === 'review-failed' || mode === 'favorites') {
+    return [...pool].sort(() => Math.random() - 0.5);
+  }
+
+  // Score each question according to history & failure status
+  const scored = pool.map(q => ({
+    question: q,
+    score: getQuestionPriorityScore(q, userStats)
+  }));
+
+  // Sort descending: highest priority (failed -> unseen -> old correct -> recent correct)
+  scored.sort((a, b) => b.score - a.score);
+
+  const selectedCount = (targetLength && targetLength > 0 && targetLength < 9999) 
+    ? Math.min(targetLength, scored.length)
+    : scored.length;
+
+  const chosen = scored.slice(0, selectedCount).map(item => item.question);
+
+  // Shuffle chosen set so they appear in natural mixed order during the quiz
+  return chosen.sort(() => Math.random() - 0.5);
+}
+
 // Anim variants
 const pageVariants = {
   initial: { opacity: 0, x: 20 },
@@ -26,6 +99,7 @@ const pageVariants = {
   out: { opacity: 0, x: -20 }
 };
 const pageTransition = { type: 'tween', ease: 'anticipate', duration: 0.4 };
+
 
 export default function App() {
   const [questions, setQuestions] = useState([]);
@@ -99,8 +173,20 @@ export default function App() {
               if (!data._failedIds) data._failedIds = [];
               if (!data._favoriteIds) data._favoriteIds = [];
               if (!data._themeProgress) data._themeProgress = {};
+              if (!data._questionHistory) data._questionHistory = {};
+              if (!data._studiedThemes) {
+                try {
+                  data._studiedThemes = JSON.parse(localStorage.getItem(`studied_themes_${user}`) || '[]');
+                } catch (e) {
+                  data._studiedThemes = [];
+                }
+              }
+              if (!data._preferences) data._preferences = {};
               setStats(data);
               localStorage.setItem(`stats_${user}`, JSON.stringify(data));
+              if (data._studiedThemes) {
+                localStorage.setItem(`studied_themes_${user}`, JSON.stringify(data._studiedThemes));
+              }
             } else {
               const saved = localStorage.getItem(`stats_${user}`);
               if (saved) {
@@ -109,6 +195,15 @@ export default function App() {
                   if (!parsed._failedIds) parsed._failedIds = [];
                   if (!parsed._favoriteIds) parsed._favoriteIds = [];
                   if (!parsed._themeProgress) parsed._themeProgress = {};
+                  if (!parsed._questionHistory) parsed._questionHistory = {};
+                  if (!parsed._studiedThemes) {
+                    try {
+                      parsed._studiedThemes = JSON.parse(localStorage.getItem(`studied_themes_${user}`) || '[]');
+                    } catch (e) {
+                      parsed._studiedThemes = [];
+                    }
+                  }
+                  if (!parsed._preferences) parsed._preferences = {};
                   setStats(parsed);
                   fetch('/api/saveStats', {
                     method: 'POST',
@@ -132,6 +227,15 @@ export default function App() {
               if (!parsed._failedIds) parsed._failedIds = [];
               if (!parsed._favoriteIds) parsed._favoriteIds = [];
               if (!parsed._themeProgress) parsed._themeProgress = {};
+              if (!parsed._questionHistory) parsed._questionHistory = {};
+              if (!parsed._studiedThemes) {
+                try {
+                  parsed._studiedThemes = JSON.parse(localStorage.getItem(`studied_themes_${user}`) || '[]');
+                } catch (e) {
+                  parsed._studiedThemes = [];
+                }
+              }
+              if (!parsed._preferences) parsed._preferences = {};
               setStats(parsed);
             } catch (e) {}
           }
@@ -144,8 +248,14 @@ export default function App() {
     if (!newStats._failedIds) newStats._failedIds = [];
     if (!newStats._favoriteIds) newStats._favoriteIds = [];
     if (!newStats._themeProgress) newStats._themeProgress = {};
+    if (!newStats._questionHistory) newStats._questionHistory = {};
+    if (!newStats._studiedThemes) newStats._studiedThemes = [];
+    if (!newStats._preferences) newStats._preferences = {};
     setStats(newStats);
     localStorage.setItem(`stats_${user}`, JSON.stringify(newStats));
+    if (user) {
+      localStorage.setItem(`studied_themes_${user}`, JSON.stringify(newStats._studiedThemes));
+    }
     
     setSyncStatus('syncing');
     fetch('/api/saveStats', {
@@ -213,6 +323,21 @@ export default function App() {
             onViewSimulacre={() => setScreen('simulacre')}
             onViewThemeSelector={() => setScreen('theme-selector')}
             onViewFlashcards={() => setScreen('flashcards')}
+            onViewPreferences={() => setScreen('preferences')}
+          />
+        )}
+        {screen === 'preferences' && (
+          <PreferencesScreen 
+            key="preferences"
+            user={user}
+            stats={stats}
+            questions={questions}
+            filteredQuestions={filteredQuestions}
+            selectedAcademies={selectedAcademies}
+            syncStatus={syncStatus}
+            onSaveStats={saveStats}
+            onStartQuiz={(config) => setScreen({ name: 'quiz', config })}
+            onHome={() => setScreen('home')}
           />
         )}
         {screen === 'flashcards' && (
@@ -399,17 +524,50 @@ function HomeScreen({
   onViewFavorites, 
   onViewSimulacre, 
   onViewThemeSelector, 
-  onViewFlashcards 
+  onViewFlashcards,
+  onViewPreferences
 }) {
   const themes = [...new Set(filteredQuestions.map(q => q.theme))].filter(Boolean).sort();
-  const [selectedThemes, setSelectedThemes] = useState([]);
-  const [mode, setMode] = useState('study');
-  const [examLength, setExamLength] = useState('15');
+  
+  // Retrieve studied themes from stats or local storage fallback
+  const studiedThemes = (Array.isArray(stats?._studiedThemes) && stats._studiedThemes.length > 0)
+    ? stats._studiedThemes
+    : (() => {
+        try {
+          const raw = localStorage.getItem(`studied_themes_${user}`);
+          return raw ? JSON.parse(raw) : [];
+        } catch(e) {
+          return [];
+        }
+      })();
+
+  const defaultPreferences = stats?._preferences || {};
+  const [mode, setMode] = useState(() => defaultPreferences.defaultMode || 'study');
+  const [examLength, setExamLength] = useState(() => defaultPreferences.defaultExamLength || '15');
+
+  // selectedThemes initializes to studiedThemes by default if configured
+  const [selectedThemes, setSelectedThemes] = useState(() => {
+    if (studiedThemes && studiedThemes.length > 0) {
+      const validStudied = studiedThemes.filter(t => themes.includes(t));
+      return validStudied.length > 0 ? validStudied : studiedThemes;
+    }
+    return [];
+  });
+
+  const [hasManuallyModifiedThemes, setHasManuallyModifiedThemes] = useState(false);
+
+  // Sync if stats load asynchronously from cloud
+  useEffect(() => {
+    if (!hasManuallyModifiedThemes && Array.isArray(stats?._studiedThemes) && stats._studiedThemes.length > 0) {
+      const validStudied = stats._studiedThemes.filter(t => themes.includes(t));
+      setSelectedThemes(validStudied.length > 0 ? validStudied : stats._studiedThemes);
+    }
+  }, [stats?._studiedThemes, themes.length]);
 
   // Stats calc
   let totalOk = 0, totalKo = 0;
   Object.keys(stats).forEach(k => {
-    if (k !== '_failedIds' && k !== '_favoriteIds' && k !== '_themeProgress' && stats[k]) {
+    if (k !== '_failedIds' && k !== '_favoriteIds' && k !== '_themeProgress' && k !== '_studiedThemes' && k !== '_preferences' && stats[k]) {
       totalOk += stats[k].correct || 0;
       totalKo += stats[k].wrong || 0;
     }
@@ -435,7 +593,9 @@ function HomeScreen({
       const newStats = {
         _failedIds: stats._failedIds || [],
         _favoriteIds: stats._favoriteIds || [],
-        _themeProgress: stats._themeProgress || {}
+        _themeProgress: stats._themeProgress || {},
+        _studiedThemes: stats._studiedThemes || [],
+        _preferences: stats._preferences || {}
       };
       onSaveStats(newStats);
     }
@@ -443,7 +603,7 @@ function HomeScreen({
 
   return (
     <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition}>
-      <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24 }}>
+      <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24, flexWrap: 'wrap', gap: 12 }}>
         <div>
           <p style={{ color: 'var(--text-muted)', fontSize: 14 }}>El meu perfil</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -453,9 +613,38 @@ function HomeScreen({
             {(syncStatus === 'error' || syncStatus === 'offline') && <CloudOff size={18} color="var(--error)" title="Guardat només en local" />}
           </div>
         </div>
-        <button onClick={onLogout} style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', cursor: 'pointer' }}>
-          <LogOut size={24} />
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <button 
+            onClick={onViewPreferences}
+            title="Zona de Preferències i Temes Estudiats"
+            style={{ 
+              background: 'rgba(59, 130, 246, 0.15)', 
+              border: '1px solid rgba(59, 130, 246, 0.35)', 
+              color: 'var(--primary)', 
+              padding: '8px 14px', 
+              borderRadius: 12, 
+              fontSize: 13, 
+              fontWeight: 700, 
+              cursor: 'pointer', 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: 7, 
+              transition: 'all 0.2s' 
+            }}
+            onMouseOver={e => { e.currentTarget.style.background = 'rgba(59, 130, 246, 0.25)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+            onMouseOut={e => { e.currentTarget.style.background = 'rgba(59, 130, 246, 0.15)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+          >
+            <Settings size={16} />
+            <span>Preferències</span>
+          </button>
+          <button 
+            onClick={onLogout} 
+            title="Tancar sessió" 
+            style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', padding: 6, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          >
+            <LogOut size={22} />
+          </button>
+        </div>
       </header>
 
       {/* Stats Widget */}
@@ -647,7 +836,12 @@ function HomeScreen({
       </div>
 
       <div className="glass" style={{ padding: 24 }}>
-        <h3 style={{ marginBottom: 16, fontSize: 18 }}>Configuració de Test Ràpid</h3>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16, flexWrap: 'wrap', gap: 8 }}>
+          <h3 style={{ fontSize: 18, fontWeight: 700 }}>Configuració de Test Ràpid</h3>
+          <span style={{ fontSize: 11, background: 'rgba(59, 130, 246, 0.15)', color: 'var(--primary)', border: '1px solid rgba(59, 130, 246, 0.3)', padding: '3px 8px', borderRadius: 8, fontWeight: 700, display: 'flex', alignItems: 'center', gap: 5 }}>
+            <Zap size={13} color="var(--primary)" /> Repetició intel·ligent activa
+          </span>
+        </div>
         
         {/* Mode Selector */}
         <div style={{ display: 'flex', gap: 12, marginBottom: 24 }}>
@@ -690,28 +884,87 @@ function HomeScreen({
         )}
 
         <div style={{ marginBottom: 24 }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-            <label style={{ color: 'var(--text-muted)', fontSize: 14 }}>Temes (deixa buit per examinar-los tots):</label>
-            <div style={{ display: 'flex', gap: 8 }}>
-              <button onClick={() => setSelectedThemes(themes)} style={{ background: 'transparent', border: 'none', color: 'var(--primary)', cursor: 'pointer', fontSize: 13, fontWeight: 600 }}>Tots</button>
-              <button onClick={() => setSelectedThemes([])} style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: 13 }}>Cap</button>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10, flexWrap: 'wrap', gap: 8 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+              <label style={{ color: 'var(--text-muted)', fontSize: 14 }}>Temes del test:</label>
+              {studiedThemes.length > 0 && selectedThemes.length > 0 && selectedThemes.length === studiedThemes.filter(t => themes.includes(t)).length && selectedThemes.every(st => studiedThemes.includes(st)) ? (
+                <span style={{ fontSize: 11, background: 'rgba(16, 185, 129, 0.18)', color: 'var(--success)', border: '1px solid rgba(16, 185, 129, 0.35)', padding: '2px 8px', borderRadius: 8, fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+                  <Check size={12} /> Temes estudiats per defecte
+                </span>
+              ) : selectedThemes.length === 0 ? (
+                <span style={{ fontSize: 11, background: 'rgba(255, 255, 255, 0.08)', color: 'var(--text-muted)', padding: '2px 8px', borderRadius: 8, fontWeight: 600 }}>
+                  Tots els temes ({themes.length})
+                </span>
+              ) : (
+                <span style={{ fontSize: 11, background: 'rgba(59, 130, 246, 0.18)', color: 'var(--primary)', padding: '2px 8px', borderRadius: 8, fontWeight: 700 }}>
+                  {selectedThemes.length} temes seleccionats
+                </span>
+              )}
+            </div>
+            <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexWrap: 'wrap' }}>
+              <button 
+                type="button" 
+                onClick={() => { setHasManuallyModifiedThemes(true); setSelectedThemes(themes); }} 
+                style={{ background: 'transparent', border: 'none', color: 'var(--primary)', cursor: 'pointer', fontSize: 13, fontWeight: 600 }}
+              >
+                Tots
+              </button>
+              {studiedThemes.length > 0 && (
+                <button 
+                  type="button" 
+                  onClick={() => { 
+                    setHasManuallyModifiedThemes(true); 
+                    const valid = studiedThemes.filter(t => themes.includes(t));
+                    setSelectedThemes(valid.length > 0 ? valid : studiedThemes); 
+                  }} 
+                  style={{ background: 'rgba(16, 185, 129, 0.15)', border: '1px solid rgba(16, 185, 129, 0.3)', color: 'var(--success)', cursor: 'pointer', fontSize: 12, fontWeight: 700, padding: '3px 8px', borderRadius: 6, display: 'flex', alignItems: 'center', gap: 4 }}
+                  title="Carregar els meus temes estudiats"
+                >
+                  <BookmarkCheck size={13} />
+                  Estudiats ({studiedThemes.length})
+                </button>
+              )}
+              <button 
+                type="button" 
+                onClick={() => { setHasManuallyModifiedThemes(true); setSelectedThemes([]); }} 
+                style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: 13 }}
+              >
+                Cap
+              </button>
+              <button 
+                type="button" 
+                onClick={onViewPreferences} 
+                style={{ background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.15)', color: 'white', cursor: 'pointer', fontSize: 12, fontWeight: 600, padding: '3px 9px', borderRadius: 6, display: 'flex', alignItems: 'center', gap: 5 }}
+                title="Configura la teva llista de temes estudiats a Preferències"
+              >
+                <Settings size={13} />
+                Preferències
+              </button>
             </div>
           </div>
           <div style={{ maxHeight: 200, overflowY: 'auto', background: 'rgba(0,0,0,0.2)', borderRadius: 12, padding: 8 }}>
             {themes.map(t => {
               const countInTheme = filteredQuestions.filter(q => q.theme === t).length;
+              const isStudied = studiedThemes.includes(t);
+              const isChecked = selectedThemes.includes(t);
               return (
                 <label key={t} className="checkbox-label" style={{ justifyContent: 'space-between' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                     <input 
                       type="checkbox" 
-                      checked={selectedThemes.includes(t)}
+                      checked={isChecked}
                       onChange={(e) => {
+                        setHasManuallyModifiedThemes(true);
                         if (e.target.checked) setSelectedThemes([...selectedThemes, t]);
                         else setSelectedThemes(selectedThemes.filter(x => x !== t));
                       }}
                     />
-                    <span style={{ fontSize: 14 }}>{t}</span>
+                    <span style={{ fontSize: 14, color: isChecked ? 'white' : 'var(--text-muted)' }}>{t}</span>
+                    {isStudied && (
+                      <span style={{ fontSize: 10, background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', border: '1px solid rgba(16, 185, 129, 0.3)', padding: '1px 5px', borderRadius: 4, fontWeight: 700 }}>
+                        Estudiat
+                      </span>
+                    )}
                   </div>
                   <span style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600 }}>{countInTheme} preg.</span>
                 </label>
@@ -780,17 +1033,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       pool = questions.filter(q => (config.themes || []).includes(q.theme));
     }
 
-    pool = [...pool].sort(() => Math.random() - 0.5); // shuffle
-    
-    if (config.mode === 'exam') {
-      return pool.slice(0, config.length);
-    } else if (config.mode === 'review-failed' || config.mode === 'favorites') {
-      return pool;
-    } else if (config.length && config.length > 0) {
-      return pool.slice(0, config.length);
-    } else {
-      return pool;
-    }
+    return selectPrioritizedQuestions(pool, config.length, userStats, config.mode);
   });
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -845,17 +1088,33 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       if (!statsCopy[theme]) statsCopy[theme] = { correct: 0, wrong: 0 };
       if (!statsCopy._failedIds) statsCopy._failedIds = [];
       if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
+      if (!statsCopy._questionHistory) statsCopy._questionHistory = {};
+
+      const now = Date.now();
+      const prevHist = statsCopy._questionHistory[q.id] || { correctCount: 0, wrongCount: 0 };
 
       if (opt === q.correct) {
         setStudyState('correct');
         statsCopy[theme].correct++;
         statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== q.id);
+        statsCopy._questionHistory[q.id] = {
+          ...prevHist,
+          lastSeen: now,
+          lastResult: 'correct',
+          correctCount: (prevHist.correctCount || 0) + 1
+        };
       } else {
         setStudyState('wrong');
         statsCopy[theme].wrong++;
         if (!statsCopy._failedIds.includes(q.id)) {
           statsCopy._failedIds.push(q.id);
         }
+        statsCopy._questionHistory[q.id] = {
+          ...prevHist,
+          lastSeen: now,
+          lastResult: 'wrong',
+          wrongCount: (prevHist.wrongCount || 0) + 1
+        };
       }
       onSaveStats(statsCopy);
     }
@@ -879,22 +1138,42 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
     const statsCopy = { ...userStats };
     if (!statsCopy._failedIds) statsCopy._failedIds = [];
     if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
+    if (!statsCopy._questionHistory) statsCopy._questionHistory = {};
 
     evaluatedQueue.forEach(item => {
       const t = item.theme || 'Sense_Tema';
       if (!statsCopy[t]) statsCopy[t] = { correct: 0, wrong: 0 };
       
+      const now = Date.now();
+      const prevHist = statsCopy._questionHistory[item.id] || { correctCount: 0, wrongCount: 0 };
+
       const a = answers[item.id];
       if (!a) {
         blank++;
       } else if (a === item.correct) { 
         correct++; 
-        if (isExam) statsCopy[t].correct++;
-        statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== item.id);
+        if (isExam) {
+          statsCopy[t].correct++;
+          statsCopy._failedIds = statsCopy._failedIds.filter(id => id !== item.id);
+          statsCopy._questionHistory[item.id] = {
+            ...prevHist,
+            lastSeen: now,
+            lastResult: 'correct',
+            correctCount: (prevHist.correctCount || 0) + 1
+          };
+        }
       } else { 
         wrong++; 
-        if (isExam) statsCopy[t].wrong++;
-        if (!statsCopy._failedIds.includes(item.id)) statsCopy._failedIds.push(item.id);
+        if (isExam) {
+          statsCopy[t].wrong++;
+          if (!statsCopy._failedIds.includes(item.id)) statsCopy._failedIds.push(item.id);
+          statsCopy._questionHistory[item.id] = {
+            ...prevHist,
+            lastSeen: now,
+            lastResult: 'wrong',
+            wrongCount: (prevHist.wrongCount || 0) + 1
+          };
+        }
       }
     });
 
@@ -2024,18 +2303,29 @@ function ThemeSelectorScreen({
 // ----------------------------------------------------------------------
 function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSaveStats, onToggleFavorite, onExportPhoto, onBackToThemes, onHome }) {
   const [filter, setFilter] = useState('all'); // 'all', 'pending', 'answered', 'wrong', 'favorites'
-  const [academyFilter, setAcademyFilter] = useState('all'); // 'all', 'oficial', 'racord', 'academia'
+  const [academyFilter, setAcademyFilter] = useState('all'); // 'all', 'optima', 'halligan', 'racord', 'academia', 'serebomber'
   const [searchTerm, setSearchTerm] = useState('');
+  const [shuffleKey, setShuffleKey] = useState(0);
 
-  // All questions of this theme
-  const allThemeQuestions = questions.filter(q => q.theme === theme);
+  const isAcademySelected = (qAcad) => {
+    const norm = (qAcad === 'oficial' || !qAcad) ? 'optima' : qAcad;
+    return selectedAcademies.includes(norm) || (norm === 'optima' && selectedAcademies.includes('oficial'));
+  };
+
+  // All questions of this theme across active academies, shuffled randomly together
+  const allThemeQuestions = useMemo(() => {
+    const pool = questions.filter(q => q.theme === theme && isAcademySelected(q.academy));
+    return [...pool].sort(() => Math.random() - 0.5);
+  }, [theme, questions, selectedAcademies, shuffleKey]);
+
   const themeProgress = (userStats._themeProgress && userStats._themeProgress[theme]) || {};
   const favoriteIds = userStats._favoriteIds || [];
 
-  // Theme questions filtered by active academy filter
+  // Theme questions filtered by active academy filter tab
   const themeQuestions = allThemeQuestions.filter(q => {
     if (academyFilter !== 'all') {
-      return (q.academy || 'oficial') === academyFilter;
+      const norm = (q.academy === 'oficial' || !q.academy) ? 'optima' : q.academy;
+      return norm === academyFilter;
     }
     return true;
   });
@@ -2050,17 +2340,28 @@ function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSav
 
   const handleAnswer = (q, opt) => {
     const isCorrect = (opt === q.correct);
+    const now = Date.now();
     const newProgress = {
       ...(userStats._themeProgress || {}),
       [theme]: {
         ...((userStats._themeProgress || {})[theme] || {}),
-        [q.id]: { answer: opt, isCorrect, answeredAt: Date.now() }
+        [q.id]: { answer: opt, isCorrect, answeredAt: now }
       }
     };
 
     const statsCopy = { ...userStats, _themeProgress: newProgress };
     if (!statsCopy._failedIds) statsCopy._failedIds = [];
     if (!statsCopy._favoriteIds) statsCopy._favoriteIds = [];
+    if (!statsCopy._questionHistory) statsCopy._questionHistory = {};
+
+    const prevHist = statsCopy._questionHistory[q.id] || { correctCount: 0, wrongCount: 0 };
+    statsCopy._questionHistory[q.id] = {
+      ...prevHist,
+      lastSeen: now,
+      lastResult: isCorrect ? 'correct' : 'wrong',
+      correctCount: isCorrect ? (prevHist.correctCount || 0) + 1 : (prevHist.correctCount || 0),
+      wrongCount: !isCorrect ? (prevHist.wrongCount || 0) + 1 : (prevHist.wrongCount || 0)
+    };
 
     // Sync failed IDs
     if (!isCorrect) {
@@ -2146,7 +2447,15 @@ function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSav
             </h2>
           </div>
 
-          <div style={{ display: 'flex', gap: 8 }}>
+          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+            <button
+              onClick={() => setShuffleKey(k => k + 1)}
+              title="Barreja de nou l'ordre de les preguntes"
+              style={{ background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'white', padding: '6px 10px', borderRadius: 8, fontSize: 12, fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 5 }}
+            >
+              <RefreshCw size={13} />
+              Barrejar Ordre
+            </button>
             {answeredCount > 0 && (
               <button 
                 onClick={handleResetThisTheme}
@@ -2470,6 +2779,497 @@ function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSav
             );
           })
         )}
+      </div>
+    </motion.div>
+  );
+}
+
+// ----------------------------------------------------------------------
+// PREFERENCES SCREEN (ZONA DE PREFERÈNCIES & TEMES ESTUDIATS)
+// ----------------------------------------------------------------------
+function PreferencesScreen({
+  user,
+  stats,
+  questions,
+  filteredQuestions,
+  selectedAcademies,
+  syncStatus,
+  onSaveStats,
+  onStartQuiz,
+  onHome
+}) {
+  const allThemes = [...new Set(questions.map(q => q.theme))].filter(Boolean).sort();
+  
+  // Read studied themes from stats or local storage fallback
+  const [studiedThemes, setStudiedThemes] = useState(() => {
+    if (Array.isArray(stats?._studiedThemes)) {
+      return stats._studiedThemes;
+    }
+    try {
+      const raw = localStorage.getItem(`studied_themes_${user}`);
+      return raw ? JSON.parse(raw) : [];
+    } catch(e) {
+      return [];
+    }
+  });
+
+  const [preferences, setPreferences] = useState(() => ({
+    defaultMode: stats?._preferences?.defaultMode || 'study',
+    defaultExamLength: stats?._preferences?.defaultExamLength || '15',
+    ...(stats?._preferences || {})
+  }));
+
+  const [searchTerm, setSearchTerm] = useState('');
+  const [toastMessage, setToastMessage] = useState(null);
+
+  const showSaveToast = (msg = 'Preferències desades automàticament') => {
+    setToastMessage(msg);
+    setTimeout(() => setToastMessage(null), 2500);
+  };
+
+  const persistChanges = (newStudiedThemes, newPreferences) => {
+    const statsCopy = {
+      ...stats,
+      _studiedThemes: newStudiedThemes,
+      _preferences: newPreferences
+    };
+    onSaveStats(statsCopy);
+    if (user) {
+      localStorage.setItem(`studied_themes_${user}`, JSON.stringify(newStudiedThemes));
+    }
+    showSaveToast();
+  };
+
+  const toggleTheme = (theme) => {
+    let next;
+    if (studiedThemes.includes(theme)) {
+      next = studiedThemes.filter(t => t !== theme);
+    } else {
+      next = [...studiedThemes, theme];
+    }
+    setStudiedThemes(next);
+    persistChanges(next, preferences);
+  };
+
+  const setAllThemes = (all = true) => {
+    const next = all ? [...allThemes] : [];
+    setStudiedThemes(next);
+    persistChanges(next, preferences);
+  };
+
+  const invertThemes = () => {
+    const next = allThemes.filter(t => !studiedThemes.includes(t));
+    setStudiedThemes(next);
+    persistChanges(next, preferences);
+  };
+
+  const handleUpdatePref = (key, value) => {
+    const next = { ...preferences, [key]: value };
+    setPreferences(next);
+    persistChanges(studiedThemes, next);
+  };
+
+  const filteredThemes = allThemes.filter(t =>
+    t.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  // Stats calculation for studied themes
+  const totalQuestionsStudied = filteredQuestions.filter(q => studiedThemes.includes(q.theme)).length;
+  const themeProgress = stats._themeProgress || {};
+  let answeredInStudied = 0;
+  let correctInStudied = 0;
+  studiedThemes.forEach(t => {
+    const prog = themeProgress[t] || {};
+    const keys = Object.keys(prog);
+    answeredInStudied += keys.length;
+    keys.forEach(k => {
+      if (prog[k]?.isCorrect) correctInStudied++;
+    });
+  });
+
+  const percentStudiedThemes = allThemes.length > 0 ? Math.round((studiedThemes.length / allThemes.length) * 100) : 0;
+
+  return (
+    <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} style={{ paddingTop: 10, paddingBottom: 50 }}>
+      {/* Top Header */}
+      <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
+        <button 
+          onClick={onHome}
+          style={{ 
+            background: 'rgba(255,255,255,0.06)', 
+            border: '1px solid rgba(255,255,255,0.12)', 
+            color: 'white', 
+            padding: '8px 14px', 
+            borderRadius: 12, 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: 8, 
+            cursor: 'pointer',
+            fontSize: 14,
+            fontWeight: 600,
+            transition: 'all 0.2s'
+          }}
+          onMouseOver={e => e.currentTarget.style.background = 'rgba(255,255,255,0.12)'}
+          onMouseOut={e => e.currentTarget.style.background = 'rgba(255,255,255,0.06)'}
+        >
+          <ArrowLeft size={18} />
+          Tornar a l'Inici
+        </button>
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>{user}</span>
+          {syncStatus === 'synced' && <Cloud size={16} color="var(--success)" title="Sincronitzat amb el núvol" />}
+          {syncStatus === 'syncing' && <Cloud size={16} color="var(--primary)" style={{ opacity: 0.5 }} title="Sincronitzant..." />}
+          {(syncStatus === 'error' || syncStatus === 'offline') && <CloudOff size={16} color="var(--error)" title="Guardat en local" />}
+        </div>
+      </header>
+
+      {/* Main Title & Hero Banner */}
+      <div 
+        className="glass" 
+        style={{ 
+          padding: 24, 
+          marginBottom: 20, 
+          background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(16, 185, 129, 0.12) 100%)',
+          border: '1px solid rgba(59, 130, 246, 0.3)'
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ background: 'linear-gradient(135deg, #3b82f6, #10b981)', padding: 14, borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 16px rgba(16, 185, 129, 0.3)' }}>
+            <BookmarkCheck size={28} color="white" />
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+              <h2 style={{ fontSize: 22, fontWeight: 800 }}>Zona de Preferències</h2>
+              <span style={{ fontSize: 11, fontWeight: 800, background: 'rgba(16, 185, 129, 0.2)', color: 'var(--success)', border: '1px solid rgba(16, 185, 129, 0.4)', padding: '2px 8px', borderRadius: 8 }}>
+                TEMES ESTUDIATS
+              </span>
+            </div>
+            <p style={{ fontSize: 14, color: 'var(--text-muted)', marginTop: 6, lineHeight: 1.5 }}>
+              Marca els temes que ja has estudiat. Aquests temes es desaran al teu compte i seran els que sortiran <b>marcats per defecte</b> cada vegada que facis tests en <b>Mode Estudi</b> o <b>Mode Examen</b>.
+            </p>
+          </div>
+        </div>
+
+        {/* Quick Stats bar */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 12, marginTop: 20 }}>
+          <div style={{ background: 'rgba(0,0,0,0.25)', padding: 14, borderRadius: 12, border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600 }}>Temes Estudiats</div>
+            <div style={{ fontSize: 22, fontWeight: 800, color: 'var(--success)', marginTop: 4 }}>
+              {studiedThemes.length} <span style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 500 }}>/ {allThemes.length}</span>
+            </div>
+            <div style={{ height: 4, background: 'rgba(255,255,255,0.1)', borderRadius: 2, marginTop: 8, overflow: 'hidden' }}>
+              <div style={{ height: '100%', width: `${percentStudiedThemes}%`, background: 'var(--success)', transition: 'width 0.3s' }} />
+            </div>
+          </div>
+
+          <div style={{ background: 'rgba(0,0,0,0.25)', padding: 14, borderRadius: 12, border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600 }}>Preguntes Disponibles</div>
+            <div style={{ fontSize: 22, fontWeight: 800, color: 'var(--primary)', marginTop: 4 }}>
+              {totalQuestionsStudied.toLocaleString()} <span style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 500 }}>preg.</span>
+            </div>
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 4 }}>
+              Dels temes marcats actius
+            </div>
+          </div>
+
+          <div style={{ background: 'rgba(0,0,0,0.25)', padding: 14, borderRadius: 12, border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 600 }}>Preguntes Pràctiques</div>
+            <div style={{ fontSize: 22, fontWeight: 800, color: '#f59e0b', marginTop: 4 }}>
+              {answeredInStudied} <span style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 500 }}>({correctInStudied} encerts)</span>
+            </div>
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 4 }}>
+              Progrés en temes estudiats
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Default Test Configurations card */}
+      <div className="glass" style={{ padding: 20, marginBottom: 20 }}>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 14, display: 'flex', alignItems: 'center', gap: 8 }}>
+          <Sliders size={18} color="var(--primary)" />
+          Opcions de Test per Defecte
+        </h3>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 16 }}>
+          <div>
+            <label style={{ display: 'block', fontSize: 13, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 600 }}>
+              Mode de test inicial:
+            </label>
+            <div style={{ display: 'flex', gap: 8 }}>
+              <button
+                type="button"
+                onClick={() => handleUpdatePref('defaultMode', 'study')}
+                style={{
+                  flex: 1,
+                  padding: '10px 12px',
+                  borderRadius: 10,
+                  border: preferences.defaultMode === 'study' ? '1px solid var(--primary)' : '1px solid rgba(255,255,255,0.1)',
+                  background: preferences.defaultMode === 'study' ? 'rgba(59, 130, 246, 0.2)' : 'rgba(255,255,255,0.03)',
+                  color: preferences.defaultMode === 'study' ? 'var(--primary)' : 'white',
+                  cursor: 'pointer',
+                  fontWeight: 600,
+                  fontSize: 13,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: 6
+                }}
+              >
+                <BookOpen size={16} /> Estudi
+              </button>
+              <button
+                type="button"
+                onClick={() => handleUpdatePref('defaultMode', 'exam')}
+                style={{
+                  flex: 1,
+                  padding: '10px 12px',
+                  borderRadius: 10,
+                  border: preferences.defaultMode === 'exam' ? '1px solid var(--primary)' : '1px solid rgba(255,255,255,0.1)',
+                  background: preferences.defaultMode === 'exam' ? 'rgba(59, 130, 246, 0.2)' : 'rgba(255,255,255,0.03)',
+                  color: preferences.defaultMode === 'exam' ? 'var(--primary)' : 'white',
+                  cursor: 'pointer',
+                  fontWeight: 600,
+                  fontSize: 13,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: 6
+                }}
+              >
+                <GraduationCap size={16} /> Examen
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <label style={{ display: 'block', fontSize: 13, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 600 }}>
+              Quantitat de preguntes per defecte:
+            </label>
+            <select
+              value={preferences.defaultExamLength || '15'}
+              onChange={e => handleUpdatePref('defaultExamLength', e.target.value)}
+              style={{ padding: '10px 14px', fontSize: 14, borderRadius: 10 }}
+            >
+              <option value="15">15 Preguntes (Sessió curta)</option>
+              <option value="25">25 Preguntes (Sessió mitjana)</option>
+              <option value="50">50 Preguntes (Sessió llarga)</option>
+              <option value="9999">Totes les preguntes</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Smart Repetition Card */}
+      <div className="glass" style={{ padding: 20, marginBottom: 20, border: '1px solid rgba(16, 185, 129, 0.3)', background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(59, 130, 246, 0.08) 100%)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10, marginBottom: 10 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <Zap size={20} color="var(--success)" />
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: 'white' }}>Algoritme de Repetició Intel·ligent</h3>
+          </div>
+          <span style={{ fontSize: 11, fontWeight: 800, background: 'rgba(16, 185, 129, 0.2)', color: 'var(--success)', padding: '3px 8px', borderRadius: 8, border: '1px solid rgba(16, 185, 129, 0.4)' }}>
+            ACTIU PER DEFECTE
+          </span>
+        </div>
+        <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+          L'aplicació calcula automàticament la prioritat de cada pregunta per als teus tests:
+        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 10, marginTop: 12 }}>
+          <div style={{ background: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.25)', padding: '12px 14px', borderRadius: 12 }}>
+            <div style={{ fontWeight: 700, fontSize: 13, color: 'var(--error)', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <AlertTriangle size={14} /> Preguntes Fallades
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>
+              <b>Màxima prioritat</b>. Tornen a sortir molt més aviat perquè corregeixis els errors.
+            </div>
+          </div>
+          <div style={{ background: 'rgba(59, 130, 246, 0.1)', border: '1px solid rgba(59, 130, 246, 0.25)', padding: '12px 14px', borderRadius: 12 }}>
+            <div style={{ fontWeight: 700, fontSize: 13, color: 'var(--primary)', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <Layers size={14} /> Preguntes Noves / Pendents
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>
+              <b>Alta prioritat</b>. Es prioritza veure matèria que encara no has respost.
+            </div>
+          </div>
+          <div style={{ background: 'rgba(16, 185, 129, 0.1)', border: '1px solid rgba(16, 185, 129, 0.25)', padding: '12px 14px', borderRadius: 12 }}>
+            <div style={{ fontWeight: 700, fontSize: 13, color: 'var(--success)', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <CheckCircle2 size={14} /> Preguntes Encertades
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>
+              <b>Espaiades en el temps</b>. Triguen més a sortir segons el teu domini.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Themes Selection Area */}
+      <div className="glass" style={{ padding: 22 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16, flexWrap: 'wrap', gap: 12 }}>
+          <div>
+            <h3 style={{ fontSize: 18, fontWeight: 700 }}>Catàleg de Temes ({allThemes.length})</h3>
+            <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 2 }}>
+              Fes clic a qualsevol tema per activar-lo o desactivar-lo com a estudiat
+            </p>
+          </div>
+
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            <button type="button" onClick={() => setAllThemes(true)} className="pref-quick-btn">
+              <CheckCircle2 size={15} color="var(--success)" /> Marcar Tots
+            </button>
+            <button type="button" onClick={() => setAllThemes(false)} className="pref-quick-btn">
+              <XCircle size={15} color="var(--error)" /> Desmarcar Tots
+            </button>
+            <button type="button" onClick={invertThemes} className="pref-quick-btn">
+              <RefreshCw size={14} /> Invertir
+            </button>
+          </div>
+        </div>
+
+        {/* Search Bar */}
+        <div style={{ position: 'relative', marginBottom: 18 }}>
+          <Search size={18} style={{ position: 'absolute', left: 14, top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
+          <input
+            type="text"
+            placeholder="Cerca un tema per títol o número..."
+            value={searchTerm}
+            onChange={e => setSearchTerm(e.target.value)}
+            style={{ paddingLeft: 42, paddingRight: 40 }}
+          />
+          {searchTerm && (
+            <button
+              onClick={() => setSearchTerm('')}
+              style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', background: 'transparent', border: 'none', color: 'var(--text-muted)', cursor: 'pointer' }}
+            >
+              <X size={16} />
+            </button>
+          )}
+        </div>
+
+        {/* Themes Grid */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12 }}>
+          {filteredThemes.map(t => {
+            const isStudied = studiedThemes.includes(t);
+            const countInActiveAcademies = filteredQuestions.filter(q => q.theme === t).length;
+            const prog = themeProgress[t] || {};
+            const answeredCount = Object.keys(prog).length;
+            const progPercent = countInActiveAcademies > 0 ? Math.round((answeredCount / countInActiveAcademies) * 100) : 0;
+
+            return (
+              <div
+                key={t}
+                onClick={() => toggleTheme(t)}
+                className={`pref-theme-card ${isStudied ? 'studied' : ''}`}
+              >
+                <div className={`pref-checkbox-custom ${isStudied ? 'checked' : 'unchecked'}`}>
+                  {isStudied && <Check size={16} strokeWidth={3} />}
+                </div>
+
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+                    <span style={{ 
+                      fontWeight: 700, 
+                      fontSize: 14, 
+                      color: isStudied ? 'white' : 'var(--text-muted)',
+                      whiteSpace: 'nowrap',
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis'
+                    }} title={t}>
+                      {t}
+                    </span>
+                    <span style={{ 
+                      fontSize: 11, 
+                      fontWeight: 700, 
+                      color: isStudied ? 'var(--success)' : 'var(--text-muted)',
+                      flexShrink: 0
+                    }}>
+                      {countInActiveAcademies} preg.
+                    </span>
+                  </div>
+
+                  {/* Progress bar / mini indicator */}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                    <div style={{ flex: 1, height: 4, background: 'rgba(255,255,255,0.08)', borderRadius: 2, overflow: 'hidden' }}>
+                      <div style={{ height: '100%', width: `${Math.min(100, progPercent)}%`, background: isStudied ? 'var(--success)' : 'var(--primary)' }} />
+                    </div>
+                    <span style={{ fontSize: 10, color: 'var(--text-muted)', flexShrink: 0 }}>
+                      {answeredCount > 0 ? `${answeredCount} resp.` : 'Pendent'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {filteredThemes.length === 0 && (
+          <div style={{ textAlign: 'center', padding: '30px 20px', color: 'var(--text-muted)' }}>
+            <Search size={32} style={{ opacity: 0.4, marginBottom: 8 }} />
+            <p>No s'ha trobat cap tema amb la cerca "{searchTerm}".</p>
+          </div>
+        )}
+
+        {/* Bottom Actions */}
+        <div style={{ marginTop: 24, paddingTop: 18, borderTop: '1px solid rgba(255,255,255,0.08)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 12 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            {toastMessage ? (
+              <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} style={{ fontSize: 13, color: 'var(--success)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 6 }}>
+                <CheckCircle2 size={16} /> {toastMessage}
+              </motion.div>
+            ) : (
+              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                {studiedThemes.length} temes guardats per defecte
+              </span>
+            )}
+          </div>
+
+          <div style={{ display: 'flex', gap: 10 }}>
+            <button
+              type="button"
+              onClick={onHome}
+              style={{
+                padding: '12px 20px',
+                borderRadius: 12,
+                background: 'rgba(255,255,255,0.08)',
+                border: '1px solid rgba(255,255,255,0.15)',
+                color: 'white',
+                fontWeight: 600,
+                fontSize: 14,
+                cursor: 'pointer'
+              }}
+            >
+              Tornar a l'Inici
+            </button>
+
+            <button
+              type="button"
+              onClick={() => onStartQuiz({
+                themes: studiedThemes.length > 0 ? studiedThemes : allThemes,
+                mode: preferences.defaultMode || 'study',
+                length: parseInt(preferences.defaultExamLength || '15')
+              })}
+              style={{
+                padding: '12px 24px',
+                borderRadius: 12,
+                background: 'var(--primary)',
+                border: 'none',
+                color: 'white',
+                fontWeight: 700,
+                fontSize: 14,
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 8,
+                boxShadow: '0 4px 14px rgba(59, 130, 246, 0.4)'
+              }}
+              onMouseOver={e => e.currentTarget.style.background = 'var(--primary-hover)'}
+              onMouseOut={e => e.currentTarget.style.background = 'var(--primary)'}
+            >
+              <Play size={16} fill="currentColor" />
+              Començar Test Ara ({studiedThemes.length} temes)
+            </button>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
