@@ -1,162 +1,2486 @@
 [
   {
-    "id": "academia_sim9_q73",
-    "simulacre": "Simulacre 9",
-    "num_pregunta": 73,
-    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útilgeneralment?",
-    "correct": "B",
-    "explanation": "L'espessant incrementa la viscositatdel'aigua,fet que facilitaràque aquesta s'adhereixi a les branques ibranquillons de\nlescapçades.",
+    "id": "academia_sim1_q37",
+    "statement": "La \"cisterna desmuntable\", segons l'ADR, és una cisterna amb una capacitat superior a:",
+    "correct": "C",
+    "explanation": "En canvi, la cisterna fixa té una capacitat superior a 1.000 litres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "200 litres",
+      "B": "650 litres",
+      "C": "450 litres",
+      "D": "1.000 litres"
+    }
+  },
+  {
+    "id": "academia_sim1_q57",
+    "statement": "Segons l'ADR, a quin tipus de matèria fa referència el codi de perill \"559\"?",
+    "correct": "D",
+    "explanation": "Codi de perill 59: Matèria comburent susceptible de produir una reacció violenta espontània.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A un peròxid orgànic que reacciona violentament davant l'efecte de l'aigua",
+      "B": "A una matèria molt comburent que, a part d'afavorir l'incendi, presenta altres propietats perilloses",
+      "C": "A una matèria comburent susceptible de produir una reacció violenta espontània",
+      "D": "A una matèria molt comburent susceptible de produir una reacció violenta espontània"
+    }
+  },
+  {
+    "id": "academia_sim1_q59",
+    "statement": "Segons l'ADR, les matèries que no són de les classes 1, 2, 5.2, 6.2 i 7 s’assignen a grups d’embalatge segons el grau de perill que presenten. A part de les esmentades, quina de les següents classes tampoc entrarà dins d'aquesta assignació?",
+    "correct": "C",
+    "explanation": "La Classe 4.1 inclou les matèries sòlides inflamables i les autoreactives.\nGrup d’embalatge I: Matèries molt perilloses.\nGrup d’embalatge II: Matèries mitjanament perilloses.\nGrup d’embalatge III: Matèries que presenten un grau menor de perillositat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La classe 3",
+      "B": "La classe 9A",
+      "C": "Les matèries autorreactives de la classe 4.1",
+      "D": "La classe 4.2"
+    }
+  },
+  {
+    "id": "academia_sim2_q75",
+    "statement": "Quin document haurà de preveure les mesures que s'hagin de prendre per evitar o minimitzar els danys en cas de vessament de les matèries de la classe 2?",
+    "correct": "D",
+    "explanation": "Les instruccions escrites es duran a l'abast de la mà, a la cabina del vehicle (ADR 5.4.3.1).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La carta de port",
+      "B": "El document de control",
+      "C": "El certificat de control",
+      "D": "Les instruccions escrites"
+    }
+  },
+  {
+    "id": "academia_sim2_q92",
+    "statement": "Quin codi de perill trobarem al panell taronja d'un vehicle que transporta peròxid orgànic inflamable?",
+    "correct": "B",
+    "explanation": "Codis de perill:\n50 = matèria comburent.\n59 = matèria comburent susceptible de produir una reacció espontània.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "59",
+      "B": "539",
+      "C": "505",
+      "D": "50"
+    }
+  },
+  {
+    "id": "academia_sim3_q62",
+    "statement": "Són líquids inflamables segons l'ADR aquells que tinguin un punt d'inflamació màxim de, com a norma general:",
+    "correct": "A",
+    "explanation": "Com a norma general.\nADR 2021, 2.2.3.1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "60°C",
+      "B": "23°C",
+      "C": "61°C",
+      "D": "21°C"
+    }
+  },
+  {
+    "id": "academia_sim4_q41",
+    "statement": "Una matèria amb el codi de perill \"33\":",
+    "correct": "C",
+    "explanation": "ADR: 5.3.2.3.2.\n333: matèria líquida pirofòrica.\nX323: matèria líquida inflamable que reacciona perillosament amb l'aigua desprenent gasos inflamables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serà una matèria líquida molt inflamable (PI < 21°C)",
+      "B": "Serà una matèria líquida inflamable que reacciona perillosament amb l'aigua desprenent gasos inflamables",
+      "C": "Serà una matèria líquida molt inflamable (PI < 23°C)",
+      "D": "Serà una matèria líquida inflamable, pirofòrica"
+    }
+  },
+  {
+    "id": "academia_sim4_q57",
+    "statement": "Segons l'ADR, la classe 4.2 fa referència a:",
+    "correct": "C",
+    "explanation": "Classe 4.1: Matèries sòlides inflamables, matèries autorreactives, matèries que polimeritzen i matèries explosives\ndessensibilitzades sòlides.\nClasse 4.2: Matèries que poden experimentar inflamació espontània.\nClasse 4.3: Matèries que en contacte amb l'aigua desprenen gasos inflamables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries sòlides inflamables",
+      "B": "Matèries que polimeritzen i matèries que poden experimentar inflamació espontània",
+      "C": "Matèries que poden experimentar inflamació espontània",
+      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
+    }
+  },
+  {
+    "id": "academia_sim5_q30",
+    "statement": "Quants models d'etiquetes existeixen pels explosius?",
+    "correct": "C",
+    "explanation": "La \"1\" (que inclou dins les divisions 1.1, 1.2 i 1.3), la \"1.4\", la \"1.5\" i la \"1.6\".\nPer tant, la Classe 1 té sis divisions i quatre models d'etiquetes.\n(ADR 5.2.2.2.2)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dos",
+      "B": "Tres",
+      "C": "Quatre",
+      "D": "Sis"
+    }
+  },
+  {
+    "id": "academia_sim5_q47",
+    "statement": "Un vehicle cisterna buit i sense netejar que hagi transportat matèries de la classe 2, quines plaques-etiqueta de perill haurà de portar?",
+    "correct": "B",
+    "explanation": "ADR 5.3.1.6.1: \"Els vehicles cisterna, els vehicles bateria (...) sense netejar o gasificar hauran de continuar portant les\nplaques-etiqueta requerides per la càrrega precedent\".\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cap",
+      "B": "Les mateixes que quan anava ple",
+      "C": "La 3 i la 6.2",
+      "D": "La 2 i la 6.1"
+    }
+  },
+  {
+    "id": "academia_sim6_q56",
+    "statement": "Quin nombre de panells taronges són suficients per un vehicle-cisterna de dos compartiments carregats només amb gasolina?",
+    "correct": "B",
+    "explanation": "ADR 5.3.2.1.6",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Quatre, un a cada costat dels compartiments",
+      "B": "Dos; un davant i un altre darrera el vehicle, amb el número d'identificació de perill i número ONU",
+      "C": "Sis; un davant, un darrera, i els altres quatre als laterals (dos i dos)",
+      "D": "Quatre; un davant, un darrera i els altres dos als laterals  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim7_q6",
+    "statement": "Què és un gas segons l'ADR?",
+    "correct": "D",
+    "explanation": "300 KPa = 3 bar\n(ADR 1.2.1)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una matèria que a 20°C exerceix una tensió de vapor major a 3 bar",
+      "B": "Una matèria que a 50°C exerceix una tensió de vapor menor a 300 KPa",
+      "C": "Una matèria que a 20°C exerceix una tensió de vapor menor a 101,3 KPa",
+      "D": "Una matèria que a 50°C exerceix una tensió de vapor major a 300 KPa"
+    }
+  },
+  {
+    "id": "academia_sim7_q8",
+    "statement": "Una carta de port no durà:",
+    "correct": "B",
+    "explanation": "La informació que haurà de subministrar la carta de port es troba recollida a l'apartat 5.4.1 de l'ADR 2021.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El número ONU de la mercaderia",
+      "B": "Les instruccions escrites de seguretat",
+      "C": "El nom de l'expedidor",
+      "D": "La direcció del destinatari  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim7_q35",
+    "statement": "Quines són les sigles de la normativa internacional de transport marítim de mercaderies perilloses?",
+    "correct": "B",
+    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "RID",
+      "B": "IMDG",
+      "C": "IATA",
+      "D": "IMDB"
+    }
+  },
+  {
+    "id": "academia_sim7_q60",
+    "statement": "De quants tipus poden ser les \"unitats de transport EX\" autoritzades a transportar matèries perilloses de la Classe 1?",
+    "correct": "A",
+    "explanation": "ADR: 9.1.1.2.\nPoden ser EX/II o EX/III.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De dos tipus",
+      "B": "De tres tipus",
+      "C": "De quatre tipus",
+      "D": "De set tipus"
+    }
+  },
+  {
+    "id": "academia_sim8_q44",
+    "statement": "Quina propietat té un gas comburent?",
+    "correct": "A",
+    "explanation": "ADR 2.2.2.1.5.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que afavoreix la combustió",
+      "B": "Que pot liquar-se amb facilitat",
+      "C": "Que és molt compressible",
+      "D": "Que es descompon amb la calor"
+    }
+  },
+  {
+    "id": "academia_sim8_q81",
+    "statement": "Segons l'ADR, a quina classe pertanyen els gasos liquats?",
+    "correct": "A",
+    "explanation": "ADR 2.2.2.1.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la classe 2",
+      "B": "A la classe 3 i 5.1",
+      "C": "A la classe 3",
+      "D": "A la classe 5.2 i 8"
+    }
+  },
+  {
+    "id": "academia_sim9_q5",
+    "statement": "Segons l'ADR, quines classes no s'assignen a cap grup d'embalatge?",
+    "correct": "D",
+    "explanation": "Les demés classes s'embalen en un grup d'embalatge segons el seu grau de perillositat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
     "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un catalitzador",
-      "B": "Un espessant",
-      "C": "Un humectant",
-      "D": "Un anticongelant G11 o G12"
+      "A": "Les classes 1, 7 i les matèries autorreactives de la classe 4.1",
+      "B": "Les classes 1 i 2, les matèries autorreactives de la classe 4.1, la classe 5.1, la 5.2, la 6.1, la 6.2 i la 7",
+      "C": "Les classes 1 i 7",
+      "D": "Les classes 1 i 2, les matèries autorreactives de la classe 4.1, la classe 5.2, la 6.2 i la 7"
     }
   },
   {
-    "id": "academia_sim20_q90",
-    "simulacre": "Simulacre 20",
-    "num_pregunta": 90,
-    "statement": "En un incendi forestal que es desenvolupés en una situació atmosfèrica d'inversió tèrmica, què passaria si aquest fenomen desaparegués?",
-    "correct": "B",
-    "explanation": "",
+    "id": "academia_sim9_q67",
+    "statement": "Segons l'ADR, quantes classes de mercaderies perilloses existeixen?",
+    "correct": "D",
+    "explanation": "ADR 2.1.1.1.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
-    "section": "Simulacre 20",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Que els corrents de convecció creatsper l'incenditindrienmés dificultatsper ascendir",
-      "B": "Que l'incendis'acceleraria",
-      "C": "Que el vent canviariabruscament de direcció,iconseqüentment l'avançde l'incendi",
-      "D": "Que l'incendipassaria a avançar més lentament"
+      "A": "Set",
+      "B": "Vuit",
+      "C": "Nou",
+      "D": "Tretze"
     }
   },
   {
-    "id": "academia_sim21_q22",
-    "simulacre": "Simulacre 21",
-    "num_pregunta": 22,
-    "statement": "Quin d'aquests termes no acadèmiafareferènciaaunapart d'un incendi forestal?",
+    "id": "academia_sim9_q84",
+    "statement": "La \"cisterna fixa\", segons l'ADR, és una cisterna amb una capacitat superior a:",
+    "correct": "D",
+    "explanation": "Cisterna desmuntable: més de 450 L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "450 L",
+      "B": "4.500 L",
+      "C": "2.000 L",
+      "D": "1.000 L"
+    }
+  },
+  {
+    "id": "academia_sim10_q44",
+    "statement": "Segons l'ADR, quina de les següents matèries s'haurà d'assignar a un grup d'embalatge?",
+    "correct": "C",
+    "explanation": "Les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries autorreactives de la classe 4.1, s'assignen a\ngrups d’embalatge segons el grau de perill que presenten (I, II o III).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les matèries de la classe 1",
+      "B": "Les matèries de la classe 5.2",
+      "C": "Les matèries de la classe 4.3",
+      "D": "Les matèries de la classe 7"
+    }
+  },
+  {
+    "id": "academia_sim11_q26",
+    "statement": "Els tipus de vehicles FL per a la classe 3 estan autoritzats per transportar:",
+    "correct": "D",
+    "explanation": "ADR 9.1.1.2, \"definicions\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries líquides comburents",
+      "B": "Matèries líquides amb un punt d'inflamació comprès entre 23°C i 60°C",
+      "C": "Matèries líquides amb un punt d'inflamació menor a 13°C",
+      "D": "Matèries líquides amb un punt d'inflamació menor o igual a 60°C"
+    }
+  },
+  {
+    "id": "academia_sim11_q53",
+    "statement": "Quin dels següents tipus de vehicle no s'inclou dins l'ADR?",
+    "correct": "C",
+    "explanation": "ADR 9.1.1.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vehicle FL",
+      "B": "Vehicle AT",
+      "C": "Vehicle RS",
+      "D": "Vehicle EX/III"
+    }
+  },
+  {
+    "id": "academia_sim11_q83",
+    "statement": "Quines propietats defineixen als gasos del grup TOC?",
+    "correct": "D",
+    "explanation": "ADR 2.2.2.1.3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Comburents, oxidants i corrosius",
+      "B": "Tòxics i oxidants",
+      "C": "Tòxics i corrosius",
+      "D": "Tòxics, comburents i corrosius"
+    }
+  },
+  {
+    "id": "academia_sim11_q85",
+    "statement": "El transport de quina divisió de matèries explosives no serà necessari que porti plaques-etiqueta?",
+    "correct": "A",
+    "explanation": "És una pregunta especialment difícil, però en examens oficials pitjors coses s'han vist.\nADR 5.3.1.1.2: \"Les plaques-etiqueta no s'exigiran per al transport de matèries i objectes explosius de la divisió 1.4, grup\nde compatibilitat S\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Divisió 1.4, grup de compatibilitat S",
+      "B": "Divisió 1.4, grup de compatibilitat C",
+      "C": "Divisió 1.1, grup de compatibilitat K",
+      "D": "Divisió 1.3, grup de compatibilitat B"
+    }
+  },
+  {
+    "id": "academia_sim12_q40",
+    "statement": "De quina classe són les matèries número 1202, 1203 i 1223?",
+    "correct": "D",
+    "explanation": "ADR 3.2.1.\n1202: Gasoil.\n1203: Gasolina.\n1223: Querosè.\nClasse 3 = líquids inflamables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la Classe 4.1",
+      "B": "De la Classe 4.2",
+      "C": "De la Classe 4.3",
+      "D": "De la Classe 3  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim12_q83",
+    "statement": "Quants panells taronges haurà de portar una unitat de transport carregada amb gasos de classe 2 com a mínim?",
+    "correct": "A",
+    "explanation": "ADR 5.3.2.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dos",
+      "B": "Quatre",
+      "C": "Almenys un",
+      "D": "Tres, i un d'ells sempre a la part de darrere"
+    }
+  },
+  {
+    "id": "academia_sim13_q27",
+    "statement": "Quin número d'identificació de perill portarà un panell taronja d'una cisterna carregada únicament amb gasolina?",
+    "correct": "B",
+    "explanation": "33: matèria líquida molt inflamable (punt d'inflamació inferior a 23°C).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30",
+      "B": "33",
+      "C": "333",
+      "D": "23"
+    }
+  },
+  {
+    "id": "academia_sim13_q79",
+    "statement": "On portaran les plaques-etiqueta els vehicles cisterna de mercaderies perilloses?",
+    "correct": "D",
+    "explanation": "En el cas de vehicles a granel, vehicles cisterna, vehicles bateria, MEMU i vehicles amb cisternes desmuntables, les\nplaques-etiqueta hauran de fixar-se als dos laterals i a la part de darrera del vehicle. (ADR 2021, art. 5.3.1.4).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als costats, a la part de davant i a la part de darrera del vehicle",
+      "B": "A davant i a darrera del vehicle",
+      "C": "Als costats del vehicle, únicament",
+      "D": "Als costats i a la part de darrera del vehicle"
+    }
+  },
+  {
+    "id": "academia_sim13_q80",
+    "statement": "Segons l'ADR, la classe 9 es subdivideix en:",
+    "correct": "D",
+    "explanation": "ADR 2.2.9.1.2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "9.1 i 9.2",
+      "B": "9.1, 9.2, 9.3, 9.4, 9.5 i 9.6",
+      "C": "9a, 9b, 9c i 9d",
+      "D": "Les subdivisions de la M1 a la M11  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim15_q60",
+    "statement": "On es col·locaran les plaques-etiqueta en un contenidor carregat amb embalums que contenen gasoil?",
+    "correct": "C",
+    "explanation": "ADR 5.3.1.2: \"Les plaques-etiqueta hauran de fixar-se als dos costats i a cada extrem del contenidor (...) i en dos costats\noposats en casos de contenidors per granel flexibles\".\nNo confondre \"contenidor\" amb \"vehicle\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als laterals i a la part de darrera",
+      "B": "Als dos laterals",
+      "C": "Als quatre costats",
+      "D": "Els contenidors amb embalums no porten plaques-etiqueta"
+    }
+  },
+  {
+    "id": "academia_sim15_q93",
+    "statement": "Quin nou número d'identificació de perill inclou l'ADR de l'any 2021 respecte el de l'any 2019?",
+    "correct": "C",
+    "explanation": "Identifica una matèria corrosiva, tòxica i inflamable (PI de 23°C a 60°C).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 824",
+      "B": "El 669",
+      "C": "El 836",
+      "D": "El 981"
+    }
+  },
+  {
+    "id": "academia_sim16_q5",
+    "statement": "Un vehicle \"MEMU\" és, segons l'ADR:",
+    "correct": "C",
+    "explanation": "ADR: \"...tot i que la definició d'una MEMU conté les paraules \"per a la fabricació i càrrega d'explosius\", les disposicions\nper a les MEMU només s'apliquen al transport i no a la fabricació i càrrega d'explosius\".\nCGEM: contenidor de gas amb elements múltiples.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un contenidor de gas amb elements múltiples",
+      "B": "Una unitat de càrrega de transport",
+      "C": "Una unitat mòbil de fabricació d'explosius",
+      "D": "Un vehicle destinat al transport d'objectes no envasats o a granel"
+    }
+  },
+  {
+    "id": "academia_sim16_q75",
+    "statement": "Segons l'ADR, les matèries o objectes explosius es divideixen, cadascuna amb una lletra, en:",
+    "correct": "B",
+    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "6 grups de compatibilitat",
+      "B": "13 grups de compatibilitat",
+      "C": "5 grups de compatibilitat",
+      "D": "9 grups de compatibilitat"
+    }
+  },
+  {
+    "id": "academia_sim16_q82",
+    "statement": "Segons l'ADR, quin tipus de matèries (segons el grau de perill) inclou el grup d'embalatge III?",
+    "correct": "C",
+    "explanation": "Grup I: Matèries molt perilloses\nGrup II: Matèries mitjanament perilloses\nGrup III: Matèries poc perilloses",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries molt perilloses",
+      "B": "Matèries mitjanament perilloses",
+      "C": "Matèries poc perilloses",
+      "D": "Matèries molt poc perilloses"
+    }
+  },
+  {
+    "id": "academia_sim17_q2",
+    "statement": "On aniran situats els panells taronges en un vehicle tipus EX/II?",
+    "correct": "B",
+    "explanation": "ADR 5.3.2.1.1:\n\"Les unitats de transport que portin mercaderies perilloses portaran, disposats en un pla vertical, dos panells rectangulars\ntaronges (...) es fixarà un a la part davantera de la unitat de transport i l'altre a la part posterior. Hauran de ser ben\nvisibles\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A darrera de la unitat de transport",
+      "B": "Una a davant i l'altre darrera de la unitat de transport",
+      "C": "Als quatre costats de la càrrega",
+      "D": "Darrera i als costats de la càrrega"
+    }
+  },
+  {
+    "id": "academia_sim17_q94",
+    "statement": "Segons l'ADR, quin dels següents objectes o matèries no s'inclouen dins la classe 1?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 17",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les matèries explosives",
+      "B": "Les matèries pirotècniques",
+      "C": "Els objectes fabricats amb la finalitat de produir un efecte pràctic explosiu",
+      "D": "Totes les opcions proposades s'inclouen dins la classe 1"
+    }
+  },
+  {
+    "id": "academia_sim18_q28",
+    "statement": "Què significa un número 255 a la part superior d'un panell taronja?",
+    "correct": "D",
+    "explanation": "ADR 5.3.2.3.2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Que es transporta un gas liquat refrigerat, comburent (afavoreix l'incendi)",
+      "B": "Que es transporta un gas liquat, molt comburent (afavoreix l'incendi)",
+      "C": "Què es transporta un gas comprimit, molt comburent (afavoreix l'incendi)",
+      "D": "Aquest número no existeix"
+    }
+  },
+  {
+    "id": "academia_sim18_q43",
+    "statement": "Segons l'ADR, quina de les següents divisions de la classe 1 és més perillosa?",
+    "correct": "A",
+    "explanation": "Ordre de perillositat (de major a menor):\n1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "1.5",
+      "B": "1.4",
+      "C": "1.2",
+      "D": "1.3"
+    }
+  },
+  {
+    "id": "academia_sim18_q86",
+    "statement": "De les següents reaccions, quina correspon a un fenomen físic?",
+    "correct": "C",
+    "explanation": "Les BLEVE's també en serien un exemple.\nEn les reaccions físiques s'altera l'aspecte de les substàncies però no la seva naturalesa, mentre que en els canvis\nquímics s'hi formen substàncies noves amb propietats diferents.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'oxidació d'un metall a l'aire lliure",
+      "B": "Una combsutió deflagrant",
+      "C": "L'explosió d'una caldera per sobrepressió de vapor",
+      "D": "La reacció del vinagre amb el bicarbonat"
+    }
+  },
+  {
+    "id": "academia_sim19_q95",
+    "statement": "Segons l'ADR, quina mesura tindran, com a norma general, els panells taronges?",
+    "correct": "C",
+    "explanation": "ADR 5.3.2.2.1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "100 × 100 mm",
+      "B": "300 × 200 mm",
+      "C": "400 × 300 mm",
+      "D": "300 × 300 cm"
+    }
+  },
+  {
+    "id": "academia_sim20_q32",
+    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.4, sense perill subsidiari?",
+    "correct": "A",
+    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'etiqueta número 1.4",
+      "B": "L'etiqueta número 1.1",
+      "C": "L'etiqueta número 1.5",
+      "D": "L'etiqueta número 1  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim20_q54",
+    "statement": "Segons l'ADR, quin tipus de matèries inclou el grup d'embalatge I?",
+    "correct": "C",
+    "explanation": "Grup I: Matèries molt perilloses.\nGrup II: Matèries mitjanament perilloses.\nGrup III: Matèries poc perilloses.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries que presenten un grau menor de perillositat",
+      "B": "Matèries mitjanament perilloses",
+      "C": "Matèries molt perilloses",
+      "D": "Matèries extremadament perilloses i matèries nocives"
+    }
+  },
+  {
+    "id": "academia_sim20_q93",
+    "statement": "Segons l'ADR, si en una cisterna s'hi ha transportat una matèria perillosa:",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'haurà de netejar la cisterna per dins abans de tornar a carregar-la, en tot cas",
+      "B": "No farà falta netejar-la per dins si s'ha de tornar a carregar la mateixa càrrega",
+      "C": "No farà falta netejar-la, ni per dins ni per fora",
+      "D": "Abans de tornar-la a carregar s'haurà de netejar per dins, però també per fora"
+    }
+  },
+  {
+    "id": "academia_sim21_q45",
+    "statement": "Què significa el número 286 a la part superior d'un parell taronja?",
+    "correct": "D",
+    "explanation": "Ull! En tot cas ens hauriem de referir al \"268\" (gas tòxic i corrosiu).\nADR 5.3.2.3.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
     "section": "Simulacre 21",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Front",
-      "B": "Bossa",
-      "C": "Llengua o dit",
-      "D": "Totes fan referènciaa parts d'un incendi forestal"
+      "A": "Gas tòxic i corrosiu",
+      "B": "Gas corrosiu i molt tòxic",
+      "C": "Gas tòxic i comburent",
+      "D": "Aquest número no existeix"
     }
   },
   {
-    "id": "academia_sim26_q26",
-    "simulacre": "Simulacre 26",
-    "num_pregunta": 26,
-    "statement": "Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?",
+    "id": "academia_sim21_q61",
+    "statement": "Segons l'ADR, a qui correspon l'obligació d'entregar les instruccions escrites al conductor?",
+    "correct": "C",
+    "explanation": "ADR 5.4.3.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al carregador",
+      "B": "A l'expedidor o el carregador, exclusivament",
+      "C": "Al transportista",
+      "D": "A l'expedidor"
+    }
+  },
+  {
+    "id": "academia_sim21_q82",
+    "statement": "Quines són les classes que no disposen de grup d'embalatge?",
+    "correct": "D",
+    "explanation": "ADR 2.1.1.3.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les classes 1, 2, 5.2 i 6.2",
+      "B": "Les autorreactives de la classe 4.1",
+      "C": "La classe 7",
+      "D": "Totes són certes"
+    }
+  },
+  {
+    "id": "academia_sim22_q41",
+    "statement": "Quins líquids formen part de la classe 3?",
+    "correct": "D",
+    "explanation": "ADR 2.2.3.1.1 i 1.2.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aquells que tinguin una temperatura d'inflamació igual o inferior a 20°C a una pressió de 101,3 kPa",
+      "B": "Aquells que tinguin un punt de fusió o punt de fusió inicial igual o inferior a 30°C a una pressió de 103,1 kPa",
+      "C": "Aquells que tinguin un punt d'inflamació igual o inferior a 21°C a una pressió de 6,3 kPa",
+      "D": "Aquells que tinguin un punt de fusió o punt de fusió inicial igual o inferior a 20°C a una pressió de 101,3 kPa"
+    }
+  },
+  {
+    "id": "academia_sim22_q42",
+    "statement": "Una unitat de transport amb matèries i objectes de les divisions 1.1, 1.3 i 1.5, amb quines plaques-etiqueta s'haurà de senyalitzar?",
+    "correct": "B",
+    "explanation": "ADR 5.3.1.1.2.\n\"...en cas que continguin matèries o objectes pertanyents a diferents divisions només portaran les plaques-etiqueta\nrelatives al model de la divisió més perillosa (1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4 )\".\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb les tres: 1.1, 1.3 i 1.5",
+      "B": "Amb la placa-etiqueta 1",
+      "C": "Amb la placa etiqueta 1.3",
+      "D": "Amb la placa-etiqueta 1.5  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim22_q43",
+    "statement": "Segons l'ADR, quins dipòsits no estaran obligats a tenir una obertura per a la inspecció?",
+    "correct": "B",
+    "explanation": "ADR 6.8.3.2.17.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els que transportin gasos comprimits",
+      "B": "Els que transportin gasos liquats refrigerats",
+      "C": "Cap d'ells",
+      "D": "Tots"
+    }
+  },
+  {
+    "id": "academia_sim22_q44",
+    "statement": "D’acord amb l’ADR, és qualsevol empresa que carrega les mercaderies perilloses en embalums, petits contenidors o cisternes portàtils en o sobre un vehicle o que carreguen un contenidor per al transport a granel, un contenidor cisterna o una cisterna portátil sobre un vehicle:",
+    "correct": "A",
+    "explanation": "Expedidor: persona física o jurídica per ordre de la qual es fa l’enviament de la mercaderia perillosa. En la carta de port\ndel transport hi figura com a tal.\nTransportista: persona física o jurídica que assumeix l’obligació de dur a terme el transport, i amb aquesta finalitat té la\nseva pròpia organització empresarial.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Carregador",
+      "B": "Transportista",
+      "C": "Expedidor",
+      "D": "Empresa de subministrament"
+    }
+  },
+  {
+    "id": "academia_sim22_q45",
+    "statement": "On se situa el número ONU en un panell taronja?",
+    "correct": "A",
+    "explanation": "A la part superior hi trobem el codi de perill.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la part superior",
+      "B": "A la part inferior",
+      "C": "A la part central",
+      "D": "A la part superior esquerra"
+    }
+  },
+  {
+    "id": "academia_sim23_q39",
+    "statement": "En una BLEVE...",
+    "correct": "A",
+    "explanation": "La bola de foc (fireball) es forma per deflagració. Una BLEVE és una explosió física.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El contingut (la substància) haurà de ser exclusivament un líquid o gas liquat en determinades condicions",
+      "B": "La causant serà una reacció química, o bé una reacció de combustió",
+      "C": "La bola de foc (fireball) es genera per detonació",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim23_q41",
+    "statement": "El rang de números ONU:",
+    "correct": "A",
+    "explanation": "Els números ONU són assignats pel Comitè d'Experts en el Transport de Mercaderies Perilloses de la ONU i es\npubliquen al \"llibre taronja\".\n(ADR 2021)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Va des del número UN0004 fins el UN3549",
+      "B": "Va des del número UN0003 fins el UN3013",
+      "C": "Va des del número UN0004 fins el UN3013",
+      "D": "Va des del número UN0003 fins el UN3548"
+    }
+  },
+  {
+    "id": "academia_sim23_q44",
+    "statement": "Segons l'ADR, on portaran les plaques-etiqueta les cisternes portàtils?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Darrera, únicament",
+      "B": "Davant i darrera",
+      "C": "Davant, darrera i als costats",
+      "D": "Darrera i als laterals"
+    }
+  },
+  {
+    "id": "academia_sim24_q1",
+    "statement": "Una matèria infecciosa, segons l'ADR, quin codi de perill presentarà?",
+    "correct": "B",
+    "explanation": "66: matèria molt tòxica.\n69: matèria tòxica susceptible de reaccionar violentament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "66",
+      "B": "606",
+      "C": "69",
+      "D": "666"
+    }
+  },
+  {
+    "id": "academia_sim24_q37",
+    "statement": "Quin aparell podria patir una BLEVE?",
+    "correct": "D",
+    "explanation": "Una caldera és un escalfador d'aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un bidó de benzina mig ple",
+      "B": "Un tanc amb aigua líquida pressuritzada",
+      "C": "Una caldera",
+      "D": "Tots tres exemples poden patir aquest fenomen"
+    }
+  },
+  {
+    "id": "academia_sim24_q43",
+    "statement": "Segons l'ADR, a quina de les següents matèries no se li assignarà un grup d'embalatge?",
+    "correct": "B",
+    "explanation": "Les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries autorreactives de la classe 4.1, s'assignen a\ngrups d’embalatge segons el grau de perill que presenten (I, II o III).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries de la classe 3",
+      "B": "Matèries de la classe 6.2",
+      "C": "Matèries de la classe 2.2",
+      "D": "Matèries de la classe 4.2"
+    }
+  },
+  {
+    "id": "academia_sim25_q41",
+    "statement": "Com a norma general, quin gruix hauran de tenir els números d'identificació de perill dels panells taronges?",
+    "correct": "A",
+    "explanation": "Amb una tolerància de +/- 10%.\nADR 5.3.2.2.2 i 5.3.2.2.4",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "15 mm",
+      "B": "30 mm",
+      "C": "10 mm",
+      "D": "5 mm"
+    }
+  },
+  {
+    "id": "academia_sim27_q6",
+    "statement": "Segons l'ADR, els gasos, en funció de les seves propietats perilloses, es poden classificar en sis grups. Els grups T, TF, TC i TO...",
+    "correct": "A",
+    "explanation": "Els 6 grups:\nA: asfixiant\nF: inflamable\nT: tòxic\nC: corrosiu\nFC: inflamable, corrosiu\nTF: tòxic, inflamable\nLa divisió 2.1 inclou gasos inflamables (grup F)\nLa divisió 2.2 inclou gasos asfixiants o comburents (grup O / grup A)\nLa divisió 2.3 inclou gasos tòxics (grups T, TF, TC, TO, TFC i TOC)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es poden incloure dins de la divisió 2.3",
+      "B": "Es poden incloure dins de la divisió 2.2",
+      "C": "Es poden incloure dins de la divisió 2.1",
+      "D": "Es poden incloure dins de la classe 6"
+    }
+  },
+  {
+    "id": "academia_sim27_q80",
+    "statement": "Què és un CGEM segons l'ADR?",
+    "correct": "D",
+    "explanation": "Són les sigles de Contenidor de Gas amb Elements Múltiples (CGEM).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un contenidor cisterna",
+      "B": "Un tipus de contenidor de gran capacitat",
+      "C": "Un tipus de contenidor dissenyat per transportar matèries a granel",
+      "D": "Un contenidor de gas amb diferents elements  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim27_q95",
+    "statement": "Segons l'ADR, els vehicles portaran la placa de matèries transportades en calent... (assenyala la incorrecta)",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Si transporten matèries líquides a 100°C o més",
+      "B": "Si transporten matèries sòlides a 240°C o més",
+      "C": "De 25 cm de costat",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim28_q41",
+    "statement": "Quina de les següents classes no disposa de grup d'embalatge?",
+    "correct": "B",
+    "explanation": "ADR 2.1.1.3: \"A efectes d'embalatge, les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries\nautorreactives de la classe 4.1, s'assignen a grups d’embalatge segons el grau de perill que presenten (I, II, III)\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La classe 3",
+      "B": "Les matèries autorreactives de la classe 4.1",
+      "C": "La classe 6.1",
+      "D": "La classe 5.1"
+    }
+  },
+  {
+    "id": "academia_sim28_q42",
+    "statement": "Per poder-se produir un Boil-Over s'ha de complir que:",
+    "correct": "B",
+    "explanation": "Això produeix l'ebullició sobtada de l'aigua situada sota el líquid combustible.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La densitat i punt d'ebullició del combustible siguin superiors a les de l'aigua",
+      "B": "La densitat i punt d'ebullició del combustible siguin inferior i superior, respectivament, a les de l'aigua",
+      "C": "La densitat i punt d'ebullició del combustible siguin inferiors a les de l'aigua",
+      "D": "El punt d'ebullició i la densitat del combustible siguin inferior i superior, respectivament, a les de l'aigua  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim28_q43",
+    "statement": "Segons l'ADR, quin dels següents codis de perill correspon a un gas liquat?",
+    "correct": "D",
+    "explanation": "22: gas liquat refrigerat i asfixiant.\n223: gas liquat refrigerat i inflamable.\n225: gas liquat refrigerat i comburent.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 22",
+      "B": "El 223",
+      "C": "El 225",
+      "D": "Totes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim28_q45",
+    "statement": "Matèries com el fòsfor, que s'escalfen en contacte amb l'aire, a l'ADR les trobem...",
+    "correct": "A",
+    "explanation": "Classe 4.2: Matèries que experimenten inflamació espontània.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Incloses a la Classe 4.2",
+      "B": "O bé a la classe 5.1 o a la 5.2",
+      "C": "Dins la classe 4.1, juntament amb els nitrats",
+      "D": "Dins la classe 4.1, amb el Magnesi"
+    }
+  },
+  {
+    "id": "academia_sim29_q17",
+    "statement": "Qui haurà de posar les instruccions escrites previstes a l'ADR a disposició de la tripulació del vehicle?",
+    "correct": "A",
+    "explanation": "ADR 1.4.2.2.6",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El transportista",
+      "B": "L'expedidor",
+      "C": "El carregador",
+      "D": "L'empresari"
+    }
+  },
+  {
+    "id": "academia_sim29_q37",
+    "statement": "Segons l'ADR, un combustible per a motors dièsel amb un punt d'ignició de 115°C:",
+    "correct": "C",
+    "explanation": "Segons l'ADR, els materials combustibles per a motors dièsel amb un punt d'ignició superior als 100°C no es consideren\nmercaderies perilloses.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es considera una mercaderia molt perillosa",
+      "B": "Es considera una mercaderia perillosa",
+      "C": "No es considera una mercaderia perillosa",
+      "D": "Cap de les respostes és correcta"
+    }
+  },
+  {
+    "id": "academia_sim29_q39",
+    "statement": "Com es designarà un vehicle portador d'un contenidor cisterna amb una capacitat superior a 3.000 litres amb matèries d'un punt d'inflamació menor a 23°C?",
+    "correct": "A",
+    "explanation": "ADR 9.1.1.2, \"definicions\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tipus FL",
+      "B": "Tipus AT",
+      "C": "Tipus EX/II",
+      "D": "Tipus EX/III"
+    }
+  },
+  {
+    "id": "academia_sim29_q43",
+    "statement": "Quantes plaques-etiqueta de perill haurà de portar un contenidor cisterna carregat amb mercaderies de la classe 2?",
+    "correct": "C",
+    "explanation": "ADR 5.3.1.2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tantes com el nombre de compartiments que disposi",
+      "B": "Una, la de major perillositat",
+      "C": "Tantes com matèries diferents dugui",
+      "D": "Una, a la part de darrera"
+    }
+  },
+  {
+    "id": "academia_sim30_q92",
+    "statement": "Una matèria amb el codi de perill \"30\", excepte en casos de matèries foses o susceptibles d'autocalentament, per norma general:",
+    "correct": "A",
+    "explanation": "ADR: 5.3.2.3.2.\nCodi de perill \"33\": matèria líquida molt inflamable (PI < 23°C).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Presentarà un punt d'inflamació comprès entre els 23°C i els 60°C, ambdós valors inclosos",
+      "B": "Presentarà un punt d'inflamació comprès entre els 30°C i els 81°C",
+      "C": "Presentarà un punt d'inflamació comprès entre els 13°C i els 21°C, ambdós valors inclosos",
+      "D": "Tindrà un punt d'inflamació inferior al que tindran les matèries amb un \"33\" al codi de perill"
+    }
+  },
+  {
+    "id": "academia_sim31_q32",
+    "statement": "Segons l'ADR, és la persona física o jurídica per ordre de la qual es fa l’enviament de la mercaderia perillosa. A la carta de port del transport hi figura com a tal.",
+    "correct": "B",
+    "explanation": "Transportista: persona física o jurídica que assumeix l’obligació de dur a terme el transport, i amb aquesta finalitat té la\nseva pròpia organització empresarial.\nCarregador: és qualsevol empresa que carrega les mercaderies perilloses en embalums, petits contenidors o cisternes\nportàtils en o sobre un vehicle o que carreguen un contenidor per al transport a granel, un contenidor cisterna o una\ncisterna portátil sobre un vehicle.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Transportista",
+      "B": "Expedidor",
+      "C": "Carregador",
+      "D": "Descarregador  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim31_q75",
+    "statement": "Quin tipus d'embalatge s'assigna a les matèries de la classe 9 classificades com a matèries de perillositat mitjana?",
+    "correct": "B",
+    "explanation": "ADR 2.2.9.1.15:\nGrup d'embalatge II: matèries de perillositat mitja.\nGrup d'embalatge III: matèries que presenten un grau menor de perillositat.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Grup d'embalatge I",
+      "B": "Grup d'embalatge II",
+      "C": "Grup d'embalatge III",
+      "D": "Grup d'embalatge IV"
+    }
+  },
+  {
+    "id": "academia_sim32_q67",
+    "statement": "Quina de les següents informacions no inclourà una carta de port?",
+    "correct": "B",
+    "explanation": "La informació que haurà de subministrar la carta de port es troba recollida a l'apartat 5.4.1 de l'ADR 2021.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El número ONU de la mercaderia",
+      "B": "Les instruccions escrites de seguretat",
+      "C": "El nom de l'expedidor",
+      "D": "La direcció del destinatari"
+    }
+  },
+  {
+    "id": "academia_sim33_q27",
+    "statement": "Què és una cisterna desmuntable, segons l'ADR?",
+    "correct": "C",
+    "explanation": "En canvi, la cisterna fixa té una capacitat superior a 1.000 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una cisterna amb una capacitat inferior a 450 litres",
+      "B": "Una cisterna amb una capacitat superior a 1.000 litres",
+      "C": "Una cisterna amb una capacitat superior a 450 litres",
+      "D": "Una cisterna amb una capacitat inferior a 1.000 litres"
+    }
+  },
+  {
+    "id": "academia_sim34_q27",
+    "statement": "D'acord amb l'ADR, la placa de matèries transportades en calent:",
+    "correct": "D",
+    "explanation": "Portaran la placa...\nSi transporten matèries líquides a 100°C o més, o bé\nSi transporten matèries sòlides a 240°C o més.\nSeran de 25 cm de costat com a mínim.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La portaran els vehicles si transporten matèries líquides a 120°C o més",
+      "B": "La portaran els vehicles si transporten matèries sòlides a 120°C o més",
+      "C": "Serà de 15 cm de costat",
+      "D": "Tindrà una forma de triangle equilàter"
+    }
+  },
+  {
+    "id": "academia_sim34_q64",
+    "statement": "Quina capacitat té una cisterna fixa, d'acord amb l'ADR?",
+    "correct": "D",
+    "explanation": "Cisterna desmuntable: més de 450 L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Més de 450 litres",
+      "B": "4.500 litres",
+      "C": "450 litres",
+      "D": "Més de 1.000 litres  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim35_q35",
+    "statement": "En quants grups de compatibilitat es divideixen les matèries o objectes explosius, d'acord amb l'ADR?",
+    "correct": "C",
+    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sis",
+      "B": "Nou",
+      "C": "Tretze",
+      "D": "Cinc"
+    }
+  },
+  {
+    "id": "academia_sim35_q59",
+    "statement": "De quina forma es representen els grups de compatibilitat a l'ADR?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb números",
+      "B": "Amb lletres majúscules",
+      "C": "Amb números romans",
+      "D": "Amb números i lletres"
+    }
+  },
+  {
+    "id": "academia_sim35_q94",
+    "statement": "On portaran les plaques-etiqueta les cisternes portàtils, d'acord amb l'ADR?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Darrera, únicament",
+      "B": "Davant i darrera",
+      "C": "Darrera i als laterals",
+      "D": "Davant, darrera i als costats"
+    }
+  },
+  {
+    "id": "academia_sim36_q23",
+    "statement": "On se situa el codi de perill en un panell taronja?",
+    "correct": "A",
+    "explanation": "A la part inferior hi trobem el número ONU.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la part superior",
+      "B": "A la part inferior",
+      "C": "A la part central",
+      "D": "El codi de perill no apareix en el panell taronja"
+    }
+  },
+  {
+    "id": "academia_sim37_q71",
+    "statement": "Quin dels següents tipus de cisterna disposa d'una major capacitat, d'acord amb l'ADR?",
+    "correct": "A",
+    "explanation": "Cisterna fixa: superior a 1.000 L.\nCisterna desmuntable: superior a 450 L.\nCisterna ISO (=contenidor cisterna): superior a 450 L.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 37",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La cisterna fixa",
+      "B": "La cisterna ISO",
+      "C": "El contenidor cisterna",
+      "D": "La cisterna desmuntable"
+    }
+  },
+  {
+    "id": "academia_sim39_q39",
+    "statement": "D'acord amb l'ADR, els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les lletres són:",
+    "correct": "A",
+    "explanation": "Sabent que les matèries o objectes explosius es divideixen en tretze grups de compatibilitat podem trobar la resposta\ncorrecta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A, B, C, D, E, F, G, H, J, K, L, N, S",
+      "B": "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, R, S, T",
+      "C": "A, B, C, D, E, F, G, H, I",
+      "D": "A, B, C, D, E, F"
+    }
+  },
+  {
+    "id": "academia_sim39_q50",
+    "statement": "Quines són les sigles de la normativa internacional europea de transport de mercaderies perilloses per carretera?",
+    "correct": "C",
+    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "RID",
+      "B": "IMDG",
+      "C": "ADR",
+      "D": "L'enunciat és incorrecte, l'ADR només aplica a nivell nacional"
+    }
+  },
+  {
+    "id": "academia_sim40_q37",
+    "statement": "On s'hauran de col·locar les plaques-etiqueta de perill en un vehicle cisterna d'un compartiment carregat amb benzina?",
+    "correct": "B",
+    "explanation": "ADR 2023 - Punt 5.3.1.4. Ull! No confondre \"contenidor\" amb \"vehicle\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una a cada lateral",
+      "B": "Una a cada costat de la cisterna i una altra darrera",
+      "C": "Una a la part de darrera, una a la part de davant i dues més, una a cada lateral",
+      "D": "Una a la part de davant i l'altra a la de darrera"
+    }
+  },
+  {
+    "id": "academia_sim41_q1",
+    "statement": "On han de portar les plaques-etiqueta els vehicles cisterna de mercaderies perilloses?",
+    "correct": "D",
+    "explanation": "En el cas de vehicles a granel, vehicles cisterna, vehicles bateria, MEMU i vehicles amb cisternes desmuntables, les\nplaques-etiqueta hauran de fixar-se als dos laterals i a la part de darrera del vehicle. (ADR 2021, art. 5.3.1.4).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als costats, a la part de davant i a la part de darrera del vehicle",
+      "B": "A la part de davant i a la de darrera del vehicle",
+      "C": "Als costats del vehicle",
+      "D": "Als costats i a la part de darrera del vehicle"
+    }
+  },
+  {
+    "id": "academia_sim42_q25",
+    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.5, sense perill subsidiari?",
+    "correct": "C",
+    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'etiqueta número 1.4",
+      "B": "L'etiqueta número 1.1",
+      "C": "L'etiqueta número 1.5",
+      "D": "L'etiqueta número 1"
+    }
+  },
+  {
+    "id": "academia_sim43_q4",
+    "statement": "A quina classe de l'ADR s'hi inclouen les matèries sòlides inflamables?",
+    "correct": "C",
+    "explanation": "4.2: matèries susceptibles d'inflamació espontània.\n4.3: matèries que desprenen gasos inflamables en entrar en contacte amb l'aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la classe 4.2",
+      "B": "A la classe 3",
+      "C": "A la classe 4.1",
+      "D": "A la classe 5.1"
+    }
+  },
+  {
+    "id": "academia_sim44_q17",
+    "statement": "Quines matèries no disposen de grup d'embalatge?",
+    "correct": "A",
+    "explanation": "ADR 2.1.1.3: \"A efectes d'embalatge, les matèries que no són de les classes 1, 2, 5.2, 6.2 ni 7, ni les matèries\nautorreactives de la classe 4.1, s'assignen a grups d’embalatge segons el grau de perill que presenten\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les matèries de la classe 5.2",
+      "B": "Les matèries de la classe 4.2",
+      "C": "Les matèries de la classe 3",
+      "D": "Les matèries de la classe 8"
+    }
+  },
+  {
+    "id": "academia_sim44_q33",
+    "statement": "Quin serà el proper any en el que es torni a revisar l'ADR?",
+    "correct": "A",
+    "explanation": "L'ADR es revisarà cada dos anys, els anys senars.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'any 2025",
+      "B": "L'any 2024",
+      "C": "L'any 2030",
+      "D": "L'any 2027"
+    }
+  },
+  {
+    "id": "academia_sim47_q60",
+    "statement": "Com es designarà un contenidor cisterna de 4.000 litres de capacitat amb matèries amb un punt d'inflamació de 17°C?",
+    "correct": "A",
+    "explanation": "ADR 9.1.1.2, \"definicions\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 47",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tipus FL",
+      "B": "Tipus AT",
+      "C": "Tipus EX/II",
+      "D": "Tipus EX/III"
+    }
+  },
+  {
+    "id": "academia_sim48_q57",
+    "statement": "Quin punt d'inflamació presentarà una matèria amb el codi de perill \"30\", excepte en casos molt concrets?",
+    "correct": "A",
+    "explanation": "ADR: 5.3.2.3.2.\nCodi de perill \"33\": matèria líquida molt inflamable (PI < 23°C).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre els 23°C i els 60°C, ambdós valors inclosos",
+      "B": "Entre els 30°C i els 81°C",
+      "C": "Entre els 13°C i els 21°C, ambdós valors inclosos",
+      "D": "Entre els 10 i els 15ºC"
+    }
+  },
+  {
+    "id": "academia_sim48_q78",
+    "statement": "Quina etiqueta haurà de portar un embalum que contingui una matèria explosiva de la divisió 1.6, sense perill subsidiari?",
+    "correct": "C",
+    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'etiqueta número 1.4",
+      "B": "L'etiqueta número 1.1",
+      "C": "L'etiqueta número 1.6",
+      "D": "L'etiqueta número 1"
+    }
+  },
+  {
+    "id": "academia_sim49_q1",
+    "statement": "On han de portar les etiquetes els grans recipients per a granel amb una capacitat superior a 450 litres i els grans embalatges?",
+    "correct": "A",
+    "explanation": "ADR 5.2.2.1.7",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En dos costats oposats",
+      "B": "A davant",
+      "C": "En dos costats contigus",
+      "D": "Als quatre costats"
+    }
+  },
+  {
+    "id": "academia_sim49_q93",
+    "statement": "El querosè és, d'acord amb l'ADR:",
+    "correct": "B",
+    "explanation": "ADR 3.2.1 Taula A Columna 1, 2, 3a, 3b i 4.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèria número 1203, de Classe 3, grup d'embalatge II",
+      "B": "Matèria número 1223, de Classe 3, grup d'embalatge III",
+      "C": "Matèria número 1202, de Classe 3, grup d'embalatge III",
+      "D": "Matèria número 1223, de Classe 3, grup d'embalatge I"
+    }
+  },
+  {
+    "id": "academia_sim50_q4",
+    "statement": "Quina numeració portaran els panells d'un vehicle-cisterna que transporti gasolina?",
+    "correct": "B",
+    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nEl gasoil durà 30 i 1202.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 i 1203",
+      "B": "33 i 1203",
+      "C": "33 i 1223",
+      "D": "33 i 1202"
+    }
+  },
+  {
+    "id": "academia_sim50_q34",
+    "statement": "La lletra “X” en el codi de perill del panell taronja (ADR), informa que:",
     "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
-    "section": "Simulacre 26",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "45°",
-      "B": "90°",
-      "C": "60°",
-      "D": "0°"
+      "A": "La substància és incompatible amb l’aigua",
+      "B": "La substància presenta risc d’explosió",
+      "C": "Es tracta d’una matèria corrosiva",
+      "D": "Es tracta d’una substància nociva"
     }
   },
   {
-    "id": "academia_sim80_q54",
-    "simulacre": "Simulacre 80",
-    "num_pregunta": 54,
-    "statement": "Del llistat d'espècies vegetals en relació amb elrisc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
+    "id": "academia_sim51_q7",
+    "statement": "D'acord amb l'ADR, què és la matèria número 1203?",
     "correct": "C",
-    "explanation": "La resta d'opcions són espècies molt recomanades.\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 80",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un sòlid combustible",
+      "B": "Un sòlid inflamable",
+      "C": "Una matèria de la classe 3",
+      "D": "Una matèria de la classe 4.1"
+    }
+  },
+  {
+    "id": "academia_sim52_q58",
+    "statement": "D'acord amb l'ADR, on duran les plaques-etiqueta les cisternes portàtils?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Darrera, únicament",
+      "B": "Davant i darrera",
+      "C": "Darrera i als laterals",
+      "D": "Davant, darrera i als costats"
+    }
+  },
+  {
+    "id": "academia_sim54_q24",
+    "statement": "D'acord amb l'ADR, què és un CGEM?",
+    "correct": "D",
+    "explanation": "Són les sigles de Contenidor de Gas amb Elements Múltiples (CGEM).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un contenidor cisterna",
+      "B": "Un tipus de contenidor de gran capacitat",
+      "C": "Un tipus de contenidor dissenyat per transportar matèries a granel",
+      "D": "Un contenidor de gas amb diferents elements  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim56_q36",
+    "statement": "D'acord amb l'ADR, on trobarem les plaques-etiqueta de perill?",
+    "correct": "C",
+    "explanation": "Als paquests o embalums hi trobarem etiquetes de perill (no plaques-etiqueta).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Als paquets o embalums",
+      "B": "A la guantera del vehicle, per si és necessària la seva consulta",
+      "C": "Als vehicles",
+      "D": "Als paquets o embalums i als vehicles"
+    }
+  },
+  {
+    "id": "academia_sim56_q77",
+    "statement": "En quin dels següents escenaris es podrà desenvolupar el fenomen del Boil-over?",
+    "correct": "D",
+    "explanation": "El Boil-over consisteix en un vessament violent d'un líquid combustible incendiat, la densitat i el punt d'ebullició del qual\nsón inferior i superior als de l'aigua, respectivament, produït per ebullició brusca de la capa d'aigua existent al fons del\nrecipient que el conté. La densitat i el punt d'ebullició de l'oli i del gasoil són inferiors i superior, respectivament, als de\nl'aigua.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un foc d'un recipient tancat ple de gasolina",
+      "B": "En un foc d'un dipòsit d'oli obert que conté aigua al fons",
+      "C": "En un foc d'un bidó de gasoil obert que conté aigua al fons",
+      "D": "Les respostes b) i c) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim57_q26",
+    "statement": "Quantes divisions presenten les matèries i objectes explosius a l'ADR?",
+    "correct": "A",
+    "explanation": "Per ordre de perillositat: 1.1 > 1.5 > 1.2 > 1.3 > 1.6 > 1.4\nUll! No confondre les divisions (6) amb els grups de compatibilitat (13).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sis",
+      "B": "Cinc",
+      "C": "Quatre",
+      "D": "Tretze"
+    }
+  },
+  {
+    "id": "academia_sim58_q88",
+    "statement": "Quina classe de l'ADR inclou els pesticides, herbicides i desinfectants?",
+    "correct": "A",
+    "explanation": "La Classe 6 inclou substàncies tòxiques i infeccioses: Pesticides, Herbicides, Plaguicides, Desinfectants i virus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Classe 6",
+      "B": "La Classe 4",
+      "C": "La Classe 8",
+      "D": "La Classe 2  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim59_q53",
+    "statement": "Quines subdivisions incorpora la classe 9, d'acord amb l'ADR?",
+    "correct": "D",
+    "explanation": "ADR 2.2.9.1.2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "De la A1 a la A9",
+      "B": "La 9.1, 9.2, 9.3, 9.4, 9.5 i 9.6",
+      "C": "La 9a, 9b, 9c i 9d",
+      "D": "De la M1 a la M11"
+    }
+  },
+  {
+    "id": "academia_sim62_q66",
+    "statement": "Quina numeració portaran els panells d'un vehicle-cisterna que transporti gasoil?",
+    "correct": "A",
+    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nLa gasolina durà 33 i 1203.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 i 1202",
+      "B": "33 i 1203",
+      "C": "33 i 1223",
+      "D": "33 i 1202"
+    }
+  },
+  {
+    "id": "academia_sim63_q61",
+    "statement": "Segons l'ADR, quin codi de perill fa referència a una matèria tòxica líquida que reacciona amb l’aigua, desprenent gasos infamables?",
+    "correct": "C",
+    "explanation": "362: matèria líquida infamable, tòxica, que reacciona amb l'aigua desprenent gasos infamables.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "632",
+      "B": "X362",
+      "C": "623",
+      "D": "362"
+    }
+  },
+  {
+    "id": "academia_sim63_q82",
+    "statement": "Segons l'ADR, la classe 4.3 fa referència a:",
+    "correct": "D",
+    "explanation": "Classe 4.1: Matèries sòlides inflamables, matèries autorreactives, matèries que polimeritzen i matèries explosives\ndessensibilitzades sòlides.\nClasse 4.2: Matèries que poden experimentar inflamació espontània.\nClasse 4.3: Matèries que en contacte amb l'aigua desprenen gasos inflamables.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries sòlides inflamables",
+      "B": "Matèries que polimeritzen i matèries que poden experimentar inflamació espontània",
+      "C": "Matèries que poden experimentar inflamació espontània",
+      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
+    }
+  },
+  {
+    "id": "academia_sim64_q75",
+    "statement": "Quantes divisions o categories de matèries perilloses radioactives diferencia l'ADR?",
+    "correct": "D",
+    "explanation": "ADR - 5.2.2.2.2 Models d'etiquetes.\nSón la 7A (Categoria I - Blanca), 7B (Categoria II - Groga), 7C (Categoria III - Groga) i 7E (Matèries fisionables).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc",
+      "B": "Dos",
+      "C": "Vuit",
+      "D": "Quatre"
+    }
+  },
+  {
+    "id": "academia_sim64_q86",
+    "statement": "Quina etiqueta portarà un embalum que contingui una matèria explosiva de la divisió 1.5, sense perill subsidiari?",
+    "correct": "C",
+    "explanation": "1.1, 1.2, 1.3: etiqueta 1\n1.4: etiqueta 1.4\n1.5: etiqueta 1.5\n1.6: etiqueta 1.6\nADR 5.2.2.2.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 64",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'etiqueta número 1.4",
+      "B": "L'etiqueta número 1.1",
+      "C": "L'etiqueta número 1.5",
+      "D": "L'etiqueta número 1"
+    }
+  },
+  {
+    "id": "academia_sim65_q19",
+    "statement": "De quin color és l'etiqueta de la classe 2.2 de l'ADR?",
+    "correct": "A",
+    "explanation": "L'etiqueta 2.1 (gasos inflamables) serà tota vermella, mentre que la 2.2 (gasos no inflamables, no tòxics) serà tota verda i\nla 2.3 serà tota blanca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tota verda",
+      "B": "Tota blanca",
+      "C": "Té la meitat inferior de color vermell i la meitat superior de color blanc",
+      "D": "Tota vermella"
+    }
+  },
+  {
+    "id": "academia_sim66_q31",
+    "statement": "A les Recomanacions relatives al transport de mercaderies perilloses, al Codi Marítim Internacional de Mercaderies Perilloses (Codi IMDG) i a les Instruccions Tècniques de l'OACI per a la Seguretat del Transport Aeri de Mercaderies Perilloses que recull l'ADR, en quins grups són assignats els gasos en funció del perill principal que presenten?",
+    "correct": "D",
+    "explanation": "NOTA 1: A les Recomanacions relatives al transport de mercaderies perilloses, al Codi Marítim Internacional de\nMercaderies Perilloses (Codi IMDG) i a les Instruccions Tècniques de l'OACI per a la Seguretat del Transport Aeri de\nMercaderies Perilloses, els gasos són assignats a un de els tres grups següents, classificats en funció del perill principal\nque presentin:\nDivisió 2.1: gasos inflamables (correspon als grups designats per una lletra F majúscula);\nDivisió 2.2: gasos no inflamables, no tòxics (correspon als grups designats per una A o una O majúscules);\nDivisió 2.3: gasos tòxics (correspon als grups designats per una T majúscula, és a dir T, TF, TC, TO, TFC i TOC).\nNOTA 3: Els gasos corrosius es consideraran tòxics i, per tant, s'inclouran als grups TC, TFC o TOC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En gasos inflamables, gasos no inflamables, gasos tòxics i gasos corrosius",
+      "B": "En gasos inflamables i gasos no inflamables",
+      "C": "En gasos inflamables, gasos no inflamables i gasos corrosius",
+      "D": "En gasos inflamables, gasos no inflamables i gasos tòxics"
+    }
+  },
+  {
+    "id": "academia_sim66_q78",
+    "statement": "A efectes de l'embalatge ADR, quants graus de toxicitat reconeix la classe 6.1?",
+    "correct": "C",
+    "explanation": "Grup I: molt tòxic.\nGrup II: tòxic.\nGrup III: tòxic en grau menor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc",
+      "B": "Set",
+      "C": "Tres",
+      "D": "Deu"
+    }
+  },
+  {
+    "id": "academia_sim67_q47",
+    "statement": "En quin estat es trobaran les matèries de la classe 4.1 de l'ADR?",
+    "correct": "B",
+    "explanation": "ADR 2023 - 2.2.41.1.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En estat sòlid",
+      "B": "En estat sòlid o líquid",
+      "C": "En estat líquid",
+      "D": "En estat sòlid, líquid o gasós"
+    }
+  },
+  {
+    "id": "academia_sim68_q51",
+    "statement": "La Classe 4.2 de l'ADR:",
+    "correct": "B",
+    "explanation": "S'identifica amb una etiqueta amb la meitat superior blanca i la meitat inferior vermella.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'identifica amb una etiqueta amb la meitat superior vermella i la meitat inferior blanca",
+      "B": "Inclou matèries que poden ser líquides o sòlides",
+      "C": "No s'assigna a grups d'embalatge",
+      "D": "Inclou matèries que polimeritzen"
+    }
+  },
+  {
+    "id": "academia_sim68_q66",
+    "statement": "Segons la classificació de l'ADR per a la identificació de matèries perilloses en el transport per carretera, quin número ONU se li assigna al picrat d'amoni?",
+    "correct": "C",
+    "explanation": "Els números ONU van del 0004 al 3550.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El 0003",
+      "B": "El 0001",
+      "C": "El 0004",
+      "D": "El 0002"
+    }
+  },
+  {
+    "id": "academia_sim69_q80",
+    "statement": "Segons l'ADR hi ha 13 classes de mercaderies perilloses (MP). Indica a quina mercaderia perillosa correspon la classe 5.1:",
+    "correct": "C",
+    "explanation": "Peròxids orgànics: classe 5.2.\nMatèries tòxiques: classe 6.1.\nMatèries infeccioses: classe 6.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Peròxids orgànics",
+      "B": "Matèries tòxiques",
+      "C": "Matèries comburents",
+      "D": "Matèries infeccioses  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim71_q59",
+    "statement": "Quines són les sigles de la normativa internacional que regula el transport de mercaderies perilloses per carretera?",
+    "correct": "D",
+    "explanation": "ADR--> Carretera\nRID--> Ferrocarril\nIMDG--> Mar\nIATA--> Aeri",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "RID",
+      "B": "IMDG",
+      "C": "IATA",
+      "D": "ADR"
+    }
+  },
+  {
+    "id": "academia_sim72_q7",
+    "statement": "Una matèria tòxica susceptible de reaccionar violentament, segons l'ADR, quin codi de perill presentarà?",
+    "correct": "C",
+    "explanation": "66: matèria molt tòxica.\n606: matèria infecciosa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "66",
+      "B": "606",
+      "C": "69",
+      "D": "609  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim72_q61",
+    "statement": "Els grups de compatibilitat ADR classifiquen els materials perillosos segons la seva naturalesa i els riscos associats. En quants grups de compatibilitat es divideixen les matèries o objectes explosius?",
+    "correct": "C",
+    "explanation": "Els grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletres són: A, B, C, D, E, F, G, H, J, K, L, N, S.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sis",
+      "B": "Nou",
+      "C": "Tretze",
+      "D": "Cinc"
+    }
+  },
+  {
+    "id": "academia_sim73_q20",
+    "statement": "Segons l'ADR, quin significat té el número d'identificació de perill \"28\"?",
+    "correct": "D",
+    "explanation": "Punt 5.3.2.3.2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gas tòxic",
+      "B": "Líquid inflamable",
+      "C": "Gas tòxic, inflamable",
+      "D": "Gas corrosiu"
+    }
+  },
+  {
+    "id": "academia_sim73_q29",
+    "statement": "De quin perill ens alerta una etiqueta ADR completament groga?",
+    "correct": "A",
+    "explanation": "Etiqueta 4.3: matèries que en contacte amb l'aigua desprenen gasos inflamables (tota blava).\nEtiqueta 5.2: peròxids orgànics (vermell a la part superior, groc a la part inferior).\nEtiqueta 7: matèries radioactives (tota blanca o meitat superior groga i meitat inferior blanca, segons la categoria).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries comburents",
+      "B": "Matèries radioactives",
+      "C": "Peròxids orgànics",
+      "D": "Matèries que en contacte amb l'aigua desprenen gasos inflamables"
+    }
+  },
+  {
+    "id": "academia_sim75_q60",
+    "statement": "Segons l'ADR, quines mercaderies perilloses es corresponen amb el número de model d'etiqueta de perill 2.1?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A les matèries i objectes explosius",
+      "B": "Als gasos inflamables",
+      "C": "Als gasos inflamables, no tòxics",
+      "D": "Als gasos tòxics"
+    }
+  },
+  {
+    "id": "academia_sim77_q80",
+    "statement": "Quants panells taronges haurà de portar una unitat de transport carregada amb gasos de classe 2, com a mínim?",
+    "correct": "A",
+    "explanation": "ADR 5.3.2.1.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dos",
+      "B": "Quatre",
+      "C": "Almenys un",
+      "D": "Tres, i un d'ells sempre a la part de darrere  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim77_q93",
+    "statement": "La classe 5.2 de l'ADR fa referència a:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Matèries corrosives",
+      "B": "Matèries comburents",
+      "C": "Peròxids orgànics",
+      "D": "Matèries infeccioses"
+    }
+  },
+  {
+    "id": "academia_sim78_q78",
+    "statement": "Segons l'ADR, quina mesura tindran, per norma general, els panells taronges?",
+    "correct": "C",
+    "explanation": "ADR 5.3.2.2.1",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "10 × 10 cm",
+      "B": "20 × 30 mm",
+      "C": "40 × 30 cm",
+      "D": "30 × 20 cm"
+    }
+  },
+  {
+    "id": "academia_sim78_q92",
+    "statement": "Quina classe de l'ADR subdivideix les seves matèries i objectes en 11 categories (M1 - M11)?",
+    "correct": "B",
+    "explanation": "La classe 1 de l'ADR, que cobreix explosius, subdivideix les seves matèries i objectes en 11 categories numerades de\nM1 a M11. Aquestes subdivisions corresponen a diferents tipus d'explosius i matèries perilloses que presenten riscos\nassociats a explosions o detonacions.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Classe 8",
+      "B": "La Classe 9",
+      "C": "La Classe 1",
+      "D": "La Classe 5"
+    }
+  },
+  {
+    "id": "academia_sim80_q68",
+    "statement": "On està situat el codi de perill en un panell taronja?",
+    "correct": "A",
+    "explanation": "A la part inferior hi trobem el número ONU.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
     "section": "Simulacre 80",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'auró (Acer opalus)",
-      "B": "Elboix (Buxus sempervirens)",
-      "C": "La mimosa (Acacia dealbata)",
-      "D": "Elbedoll (Betula pendula)"
+      "A": "A la part superior",
+      "B": "A la part inferior",
+      "C": "A la part central",
+      "D": "A la part superior esquerra"
     }
   },
   {
-    "id": "academia_sim83_q21",
-    "simulacre": "Simulacre 83",
-    "num_pregunta": 21,
-    "statement": "En l'extinció d'un incendi forestal, quin additiu per l'aigua serà més útil generalment?",
+    "id": "academia_sim81_q70",
+    "statement": "Quina afirmació és CORRECTA sobre la Classe 4.2 de l'ADR?",
     "correct": "B",
-    "explanation": "L'espessant incrementa la viscositat de l'aigua, fetque facilitaràque aquesta s'adhereixi a les branques i branquillons de\nles capçades.",
+    "explanation": "S'identifica amb una etiqueta amb la meitat superior blanca i la meitat inferior vermella.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
-    "section": "Simulacre 83",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 81",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un catalitzador",
-      "B": "Un espessant",
-      "C": "Un humectant",
-      "D": "Un anticongelant G11 o G12"
+      "A": "S'identifica amb una etiqueta amb la meitat superior vermella i la meitat inferior blanca",
+      "B": "Inclou matèries que poden ser líquides o sòlides",
+      "C": "No s'assigna a grups d'embalatge",
+      "D": "Inclou matèries que polimeritzen"
     }
   },
   {
-    "id": "academia_sim111_q81",
-    "simulacre": "Simulacre 111",
-    "num_pregunta": 81,
-    "statement": "Del llistat d'espècies vegetals en relació amb el risc d'incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?",
-    "correct": "C",
-    "explanation": "La resta d'opcions són espècies molt recomanades.",
+    "id": "academia_sim81_q81",
+    "statement": "Segons l'ADR, a quin tipus de matèria fa referència el codi de perill \"83\"?",
+    "correct": "A",
+    "explanation": "Codi de perill 823: matèria corrosiva líquida, que reacciona amb l'aigua desprenent gasos inflamables.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
-    "section": "Simulacre 111",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 81",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'auró (Acer opalus)",
-      "B": "El boix (Buxus sempervirens)",
-      "C": "La mimosa (Acacia dealbata)",
-      "D": "El bedoll (Betula pendula)"
+      "A": "A una matèria corrosiva o que presenta un grau menor de corrosivitat i inflamable",
+      "B": "A una matèria molt comburent que pot afavorir l'incendi",
+      "C": "A una matèria comburent susceptible de produir una reacció violenta espontània",
+      "D": "A una matèria corrosiva líquida, que reacciona amb l'aigua desprenent gasos inflamables"
     }
   },
   {
-    "id": "academia_sim125_q79",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 79,
-    "statement": "Quina afirmació descriu correctament els flancs d'un incendi forestal?",
+    "id": "academia_sim82_q28",
+    "statement": "El número d'identificació de perill i el número ONU d'un panell taronja (senyala la INCORRECTA):",
     "correct": "C",
-    "explanation": "Els flancs són les parts laterals de l'incendi que s'estenen des del punt d'inicifins al cap. Normalment es diferencien en\nflanc dret iflanc esquerre mirant des del darrere de l’incendi cap al cap, tot ique també es poden anomenar segons la\nseva posició (flanc nord, flanc sud).\n\n− Els flancs són zones on el foc avança a velocitats moderades.\n\n− Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades.",
+    "explanation": "ADR - 5.3.2.2.2.\nEl número d'identificació de perill i el número ONU han d'estar formats per xifres negres de 10 cm d'altura i 15 mm de\ngruix. El número d'identificació de perill ha d'inscriure's a la part superior del panell i el número ONU a la part inferior;\nestaran separats per una línia negra horitzontal de 15 mm de gruix que travessi el panell a mitja alçada (vegeu 5.3.2.2.3).\nEl número d'identificació de perill i el número ONU han de ser indelebles i romandre visibles després d'un incendi d'una\ndurada de 15 minuts. Les xifres i les lletres intercanviables sobre els panells que representen el número d'identificació de\nperill i el número ONU romandran al seu lloc durant el transport i sense tenir en compte l'orientació del vehicle.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T25 - Intervenció bàsica en incendis forestals",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Han d'estar formats per xifres negres de 10 cm d'altura i 15 mm de gruix",
+      "B": "Han de romandre visibles després d'un incendi d'una durada de 15 minuts",
+      "C": "Estaran separats per una línia negra horitzontal de 10 mm de gruix que travessi el panell a mitja alçada",
+      "D": "Han de ser indelebles"
+    }
+  },
+  {
+    "id": "academia_sim82_q39",
+    "statement": "Segons els números d'identificació de perill establerts a l'ADR, quina informació ens proporciona el número \"836\"?",
+    "correct": "C",
+    "explanation": "836: Matèria corrosiva o matèries dèbilment corrosives i inflamables (punt d'inflamació de 23 °C a 60 °C, inclosos els\nvalors límit) i tòxiques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una matèria líquida molt inflamable",
+      "B": "El seu punt d'inflamació podria ser de 70 °C",
+      "C": "És una matèria amb un punt d'inflamació superior a 23 °C",
+      "D": "És una matèria corrosiva molt inflamable"
+    }
+  },
+  {
+    "id": "academia_sim82_q42",
+    "statement": "Quantes xifres tindrà com a màxim el número d'identificació de perill d'un panell taronja?",
+    "correct": "C",
+    "explanation": "Tindrà 2 o 3 xifres, podent ésser precedides per una \"X\" (X no és una xifra).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 82",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dues",
+      "B": "Quatre",
+      "C": "Tres",
+      "D": "Una"
+    }
+  },
+  {
+    "id": "academia_sim90_q59",
+    "statement": "Segons l’ADR, si a la part superior de la placa taronja hi ha X323, què significa?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 90",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sòlid inflamable que reacciona perillosament amb l’aigua i desprèn gasos inflamables",
+      "B": "Líquid inflamable que reacciona perillosament amb l’aigua, desprenent gasos inflamables",
+      "C": "Líquid espontàniament inflamable que reacciona perillosament amb l’aigua",
+      "D": "Sòlid inflamable que desprèn gasos inflamables"
+    }
+  },
+  {
+    "id": "academia_sim92_q1",
+    "statement": "En quantes seccions es divideix el codi Hazchem?",
+    "correct": "A",
+    "explanation": "1. Codi d'acció d'emergència.\n2. Número ONU: els mateixos que en el cas de l'ADR/RID.\n3. Etiqueta del perill principal: etiquetes similars a les utilitzades en l'ADR/RID.\n4. Logotip de l'empresa.\n5. Número de telèfon d'emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 92",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinc",
+      "B": "Quatre",
+      "C": "Sis",
+      "D": "Set"
+    }
+  },
+  {
+    "id": "academia_sim94_q16",
+    "statement": "Quina numeració portarà el panell taronja d'un vehicle-cisterna que transporti gasoil?",
+    "correct": "A",
+    "explanation": "ADR 3.2.1 Tabla A Columna 20 i 1.\nLa gasolina durà 33 i 1203.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "30 i 1202",
+      "B": "33 i 1203",
+      "C": "33 i 1223",
+      "D": "33 i 1202"
+    }
+  },
+  {
+    "id": "academia_sim107_q42",
+    "statement": "Segons l'ADR, els gasos, en funció de les seves propietats perilloses, es poden classificar en sis grups. El grup F:",
+    "correct": "C",
+    "explanation": "Els 6 grups:\nA: asfixiant\nF: inflamable\nT: tòxic\nC: corrosiu\nFC: inflamable, corrosiu\nTF: tòxic, inflamable\nLa divisió 2.1 inclou gasos inflamables (grup F)\nLa divisió 2.2 inclou gasos asfixiants o comburents (grup O / grup A)\nLa divisió 2.3 inclou gasos tòxics (grups T, TF, TC, TO, TFC i TOC)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
+    "section": "Simulacre 107",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Es pot incloure dins de la divisió 2.3",
+      "B": "Es pot incloure dins de la divisió 2.2",
+      "C": "Es pot incloure dins de la divisió 2.1",
+      "D": "Es pot incloure dins de la classe 6"
+    }
+  },
+  {
+    "id": "academia_sim125_q90",
+    "statement": "En la zonificació d'un IMV, el segon cercle de seguretat dels Mossos d'Esquadra és funcionalment equivalent a quina zona utilitzada pels Bombers?",
+    "correct": "A",
+    "explanation": "A Catalunya, es considera la següent equivalència funcional entre els dos sistemes:\n−Primer cercle de seguretat (Mossos d’Esquadra): engloba la zona de risc immediat i mitjà. Aquest cercle inclou tant la\nzona calenta com la zona tèbia definida per Bombers. L'accés està fortament restringit, i controlat pels Mossos\nd’Esquadra. En funció del tipus d’incident, només es permet l’entrada a efectius policials, bombers i, si cal, personal del\nSEM amb permís específic del comandament.\n−Segon cercle de seguretat (Mossos d’Esquadra): correspon a l’àmbit ampli de seguretat, considerat com a zona freda\nper Bombers. És aquí on s’instal·len l’Àrea sanitària, el Centre de Comandament Avançat (CCA), els punts logístics, i on\ntreballa la majoria del personal no exposat directament al risc.\n27",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T25 - Risc químic i mercaderies perilloses",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Són les zones menys actives de l'incendi,però on el foc es propaga amb més rapidesa",
-      "B": "Són les zones més actives de l'incendi, on es concentra la màxima radiació",
-      "C": "Són les parts laterals de l'incendi on el foc avança a velocitats moderades",
-      "D": "Són les àrees que apareixen davant del cap com a conseqüència de la formació de focus secundaris continus"
+      "A": "Zona calenta",
+      "B": "Zona tèbia",
+      "C": "Zona freda",
+      "D": "Zona d'intervenció sanitària"
     }
   }
 ]

@@ -1,19 +1,35 @@
 [
   {
-    "id": "academia_sim114_q27",
-    "simulacre": "Simulacre 114",
-    "num_pregunta": 27,
-    "statement": "Durant una intervenció per accident de trànsit, necessites utilitzar un cabrestant manual per desplaçar lateralment un vehicle atrapat. El cabrestant disposa d’un cargol de tres entrades amb un pas de 2 mm. Cada volta completa de la manovella fa avançar el mecanisme segons les característiques del cargol. Quin serà l’avanç lineal del mecanisme per cada volta completa?",
-    "correct": "D",
-    "explanation": "Avanç = nombre d'entrades x pas (3 × 2mm = 6 mm)\n\n28.- www.academiabombers.com\nEls grups de compatibilitat serveixen bàsicament per indicar quins tipus poden viatjar amb seguretat amb altres tipus. Les\nlletressón: A, B, C, D, E, F, G, H, J, K, L, N, S.",
+    "id": "academia_sim59_q46",
+    "statement": "Una bateria consta d'elèctrodes, un electròlit conductor i un separador entre l'ànode i el càtode. A les bateries d'ió liti recarregables, els cations de liti monovalents migren entre els elèctrodes. Quin procés ocórre quan es descarreguen?",
+    "correct": "C",
+    "explanation": "Una bateria consta d'elèctrodes (càtode (+) i ànode (-)), un electròlit conductor i un separador entre l'ànode i el càtode. A\nles bateries d'ió liti recarregables (LIB), els cations de liti monovalents migren entre els elèctrodes. Quan es\ndescarreguen, l'ànode (-) s'oxida (perd electrons) i el càtode es redueix (guanya electrons). Després de la càrrega,\naquest procés s'inverteix.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Accidents de mobilitat viària",
+    "theme": "T32 - Rescat en accidents de trànsit",
+    "section": "Simulacre 59",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El càtode s'oxida (perd electrons) i l'ànode es redueix (guanya electrons)",
+      "B": "El mateix que quan es carreguen",
+      "C": "L'ànode s'oxida (perd electrons) i el càtode es redueix (guanya electrons)",
+      "D": "Hi ha més d'una resposta correcta"
+    }
+  },
+  {
+    "id": "academia_sim114_q27",
+    "statement": "Durant una intervenció per accident de trànsit, necessites utilitzar un cabrestant manual per desplaçar lateralment un vehicle atrapat. El cabrestant disposa d’un cargol de tres entrades amb un pas de 2 mm. Cada volta completa de la manovella fa avançar el mecanisme segons les característiques del cargol. Quin serà l’avanç lineal del mecanisme per cada volta completa?",
+    "correct": "D",
+    "explanation": "Avanç = nombre d'entrades x pas (3 × 2mm = 6 mm)",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T32 - Rescat en accidents de trànsit",
     "section": "Simulacre 114",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "1,5mm",
+      "A": "1,5 mm",
       "B": "4 mm",
       "C": "2 mm",
       "D": "6 mm"
@@ -21,42 +37,38 @@
   },
   {
     "id": "academia_sim127_q10",
-    "simulacre": "Simulacre 127",
-    "num_pregunta": 10,
     "statement": "Durant un servei, una dotació de Bombers ha de comunicar al centre de control la matrícula d’un vehicle implicat en un accident de trànsit. La matrícula conté, entre altres caràcters, les lletres J, K i M. El bomber decideix transmetre-les utilitzant l’alfabet fonètic internacional per evitar errors d’interpretació. Quina seqüència és CORRECTA?",
     "correct": "A",
-    "explanation": "A - Alfa\nB - Bravo\nC - Charlie\nD - Delta\nE - Echo\nF -Foxtrot\nG - Golf\nH - Hotel\nI- Índia\nJ -Juliet\nK - Kilo\nL -Lima\nM - Mike\nN - November\nO - Oscar\nP - Papa\nQ - Quebec www.academiabombers.com\nR - Romeo\nS - Sierra\nT -Tango\nU - Uniform\nV - Victor\nW -Whiskey\nX - X-ray\n\n\n\n\n\n\n\n\n 13\nAcadèmia Bombers Simulacre 127\n\n\n\nY - Yankee\nZ -Zulu",
+    "explanation": "A - Alfa\nB - Bravo\nC - Charlie\nD - Delta\nE - Echo\nF - Foxtrot\nG - Golf\nH - Hotel\nI - Índia\nJ - Juliet\nK - Kilo\nL - Lima\nM - Mike\nN - November\nO - Oscar\nP - Papa\nQ - Quebec\nR - Romeo\nS - Sierra\nT - Tango\nU - Uniform\nV - Victor\nW - Whiskey\nX - X-ray\n13\n\nY - Yankee\nZ - Zulu",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Accidents de mobilitat viària",
+    "theme": "T32 - Rescat en accidents de trànsit",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
       "A": "Jordania – Kappa – Mike",
-      "B": "Jordania – Kilo– Metro",
-      "C": "Juliet– Kappa – Metro",
-      "D": "Juliet– Kilo – Mike"
+      "B": "Jordania – Kilo – Metro",
+      "C": "Juliet – Kappa – Metro",
+      "D": "Juliet – Kilo – Mike"
     }
   },
   {
     "id": "academia_sim128_q47",
-    "simulacre": "Simulacre 128",
-    "num_pregunta": 47,
     "statement": "Una porta lateral d'un turisme accidentat no obre accionant el pany i cal forçar-la amb el separador. Per on s'actua habitualment?",
     "correct": "B",
-    "explanation": "L'obertura forçada de portes laterals iposteriors sol fer-se per la zona del pany i,si cal, també es pot actuar sobre lazona\nde les frontisses. Si no hi ha espai suficient per introduir les puntes del separador, la primera acció ha de ser obtenir\naquest espai.",
+    "explanation": "L'obertura forçada de portes laterals i posteriors sol fer-se per la zona del pany i, si cal, també es pot actuar sobre la zona\nde les frontisses. Si no hi ha espai suficient per introduir les puntes del separador, la primera acció ha de ser obtenir\naquest espai.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T32 - Accidents de mobilitat viària",
+    "theme": "T32 - Rescat en accidents de trànsit",
     "section": "Simulacre 128",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Per la zona de les frontisses, i sical es passa a lazona del pany",
-      "B": "Per la zona del pany, isical s'actua sobre lazona de les frontisses",
-      "C": "Per la talonera inferior,isical s'actua sobre elmuntant B",
-      "D": "Pel muntant B, isi cals'actua sobre latalonera inferior"
+      "A": "Per la zona de les frontisses, i si cal es passa a la zona del pany",
+      "B": "Per la zona del pany, i si cal s'actua sobre la zona de les frontisses",
+      "C": "Per la talonera inferior, i si cal s'actua sobre el muntant B",
+      "D": "Pel muntant B, i si cal s'actua sobre la talonera inferior"
     }
   }
 ]

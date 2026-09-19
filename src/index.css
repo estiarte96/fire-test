@@ -330,6 +330,12 @@ input[type="text"]:focus, select:focus {
   box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
 }
 
+.academy-pill.active-halligan {
+  background: rgba(139, 92, 246, 0.22);
+  color: #c4b5fd;
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.25);
+}
 .academy-pill.active-racord {
   background: rgba(239, 68, 68, 0.22);
   color: #fca5a5;
@@ -342,5 +348,38 @@ input[type="text"]:focus, select:focus {
   border-color: rgba(16, 185, 129, 0.5);
   box-shadow: 0 0 12px rgba(16, 185, 129, 0.25);
 }
+.academy-pill.active-serebomber {
+  background: rgba(245, 158, 11, 0.22);
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+/* Photo Export Button */
+.btn-photo-export {
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+.btn-photo-export:hover {
+  background: rgba(59, 130, 246, 0.25);
+  border-color: #60a5fa;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+.btn-photo-export:active {
+  transform: translateY(0);
+}
+
 
 

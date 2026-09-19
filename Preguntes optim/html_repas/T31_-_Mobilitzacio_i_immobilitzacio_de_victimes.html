@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T31 - Mobilització i immobilització de víctimes - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T31 - Mobilització i immobilització de víctimes</h1>
+      </div>
+      <p>7 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim15_q40" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 1 de 7 • ID: academia_sim15_q40</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim15_q40)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. Quin element utilitzarem en un trasllat en llitera conjuntament amb el collarí cervical per tal d&#039;evitar que el cap trontolli cap als laterals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim15_q40, 'A')">
+            <b>A)</b> <span>La Fèrula de Kendrick</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim15_q40, 'B')">
+            <b>B)</b> <span>La fèrula espinal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim15_q40, 'C')">
+            <b>C)</b> <span>El vuit de guarisme</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim15_q40, 'D')">
+            <b>D)</b> <span>La Dama d&#039;Elx  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim15_q40">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La Dama d&#039;Elx  acadèmia bombers</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els orificis que tenen els coixinets laterals de la Dama d&#039;Elx serveixen per poder observar les orelles, per si hi hagués
+otorràgia o sortida de líquid cefaloraquidi.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q89" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 2 de 7 • ID: academia_sim21_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. En quins casos utilitzarem la taula espinal curta?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q89, 'A')">
+            <b>A)</b> <span>En nadons o nans</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q89, 'B')">
+            <b>B)</b> <span>En el cas que no ens sigui possible utilitzar la llarga</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q89, 'C')">
+            <b>C)</b> <span>En pacients que requereixen una radiografia</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q89, 'D')">
+            <b>D)</b> <span>Cap de les respostes és correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En el cas que no ens sigui possible utilitzar la llarga</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Ens serveix per traslladar el pacient a la taula espinal llarga.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim49_q64" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 3 de 7 • ID: academia_sim49_q64</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim49_q64)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Quin instrument utilitzarem per a la immobilització correcta del coll d&#039;una víctima?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim49_q64, 'A')">
+            <b>A)</b> <span>La fèrula espinal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim49_q64, 'B')">
+            <b>B)</b> <span>La Dama d&#039;Elx</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim49_q64, 'C')">
+            <b>C)</b> <span>La taula espinal</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim49_q64, 'D')">
+            <b>D)</b> <span>El collarí ortopèdic  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim49_q64">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La Dama d&#039;Elx</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Davant la sospita que hi ha una lesió de columna cervical: collar ortopèdic.
+Extracció de víctimes atrapades al lloc de l’accident: fèrula espinal.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim76_q35" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 4 de 7 • ID: academia_sim76_q35</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim76_q35)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. La maniobra d&#039;immobilització manual per a situacions extremes que serveix per a l&#039;extracció ràpida d&#039;una víctima de l&#039;interior d&#039;un vehicle es denomina:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim76_q35, 'A')">
+            <b>A)</b> <span>Maniobra de Kramer</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim76_q35, 'B')">
+            <b>B)</b> <span>Maniobra de Phillips</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim76_q35, 'C')">
+            <b>C)</b> <span>Maniobra de Rautek</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim76_q35, 'D')">
+            <b>D)</b> <span>Maniobra de Panof</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim76_q35">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Maniobra de Rautek</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La Maniobra de Rautek és una tècnica d’extracció manual utilitzada per retirar una persona de forma ràpida i segura en
+situacions d’emergència, com accidents de trànsit o altres incidents en què el temps és crucial. Aquesta maniobra és
+especialment útil quan la víctima està en una situació perillosa i necessita ser alliberada immediatament.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim80_q40" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 5 de 7 • ID: academia_sim80_q40</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim80_q40)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. Quina afirmació és CORRECTA sobre l’immobilitzador cervical?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim80_q40, 'A')">
+            <b>A)</b> <span>La “dama d’Elx” és un nom col·loquial que es fa servir per referir-se a un tipus específic d’immobilitzador cervical</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim80_q40, 'B')">
+            <b>B)</b> <span>Es col·loca sempre amb el collarí cervical</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim80_q40, 'C')">
+            <b>C)</b> <span>S&#039;ajustarà fort pels laterals per contenir possibles otorràgies i evitar que la sang s&#039;exterioritzi</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim80_q40, 'D')">
+            <b>D)</b> <span>Les respostes a) i b) són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim80_q40">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Les respostes a) i b) són correctes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L’immobilitzador cervical o, en alguns casos, “dama d’Elx”, és un dispositiu que assegura completament la immobilització
+correcta del coll, complementant el collaret cervical. Presenta ajustos amb vetes adherent (“velcros”) que faciliten la
+col·locació. S’ajusta fàcilment a una llitera, la qual cosa permet subjectar el cap i el coll de la víctima</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim93_q70" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 7 • ID: academia_sim93_q70</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim93_q70)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Què hem de tenir en compte durant el procés d&#039;immobilització d’una fractura d’una extremitat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim93_q70, 'A')">
+            <b>A)</b> <span>Un cop col·locada la fèrula, realitzarem l&#039;embenat de proximal a distal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim93_q70, 'B')">
+            <b>B)</b> <span>La fèrula de Kramer és un tipus de fèrula flexible que no requereix ser recoberta amb cotó o cel·lulosa per al seu ús correcte</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim93_q70, 'C')">
+            <b>C)</b> <span>Les benes de crepè són benes estèrils de fil de cotó</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim93_q70, 'D')">
+            <b>D)</b> <span>En el cas de traumatismes i fractures obertes, netejarem la ferida i la desinfectarem sense aplicar-hi solucions desinfectants</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim93_q70">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) En el cas de traumatismes i fractures obertes, netejarem la ferida i la desinfectarem sense aplicar-hi solucions desinfectants</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La bena de crepè és una bena de fil de cotó al 100%. Algunes marques poden portar una petita part d’elastòmer. No són
+estèrils. Serveixen per a subjectar l&#039;apòsit de la ferida en el cas que faci falta.
+La fèrula de Kramer és una fèrula flexible formada per dos filferros gruixuts, paral·lels, units per d&#039;altres filferros més
+prims semblantment a una escala de mà. S&#039;empra folrada de cotó o cel·lulosa i és molt útil per a immobilitzar
+provisòriament un membre.
+Un cop col·locada la fèrula, realitzarem l&#039;embenat de distal a proximal.
+Font: GENCAT - Canal Salut.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q52" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 7 de 7 • ID: serebomber_38c54d39_q52</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q52)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. Una dotació ha de traslladar una víctima immobilitzada per un tram curt i molt accidentat on cap mitjà mecànic pot arribar. Segons la classificació d&#039;evacuacions, quina modalitat de transport correspon i què la caracteritza?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q52, 'A')">
+            <b>A)</b> <span>Transport aeri medicalitzat directe amb grua</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q52, 'B')">
+            <b>B)</b> <span>Evacuació rodada amb vehicle tot terreny 4x4</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q52, 'C')">
+            <b>C)</b> <span>Transport fluviodinàmic amb embarcació pneumàtica</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q52, 'D')">
+            <b>D)</b> <span>El transport manual en terreny irregular, per trams curts o difícils on no és possible l&#039;ús de mitjans mecànics, amb tècniques de càrrega o mitjans auxiliars com lliteres o mantes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q52">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) El transport manual en terreny irregular, per trams curts o difícils on no és possible l&#039;ús de mitjans mecànics, amb tècniques de càrrega o mitjans auxiliars com lliteres o mantes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El transport manual s&#039;aplica en trams curts i de difícil orografia impossibles per a vehicles o mitjans mecànics. «Desplaçar la víctima en trams curts o difícils on no és possible l&#039;ús de mitjans mecànics...»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T31 - Mobilització i immobilització de víctimes (7 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>D</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Quin element utilitzarem en un trasllat en llitera conjuntament amb el collarí cervical per tal d&#039;evitar que el cap trontolli cap als laterals?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La Dama d&#039;Elx  acadèmia bombers<br>&bull; <b>Explicació:</b> Els orificis que tenen els coixinets laterals de la Dama d&#039;Elx serveixen per poder observar les orelles, per si hi hagués
+otorràgia o sortida de líquid cefaloraquidi.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. En quins casos utilitzarem la taula espinal curta?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En el cas que no ens sigui possible utilitzar la llarga<br>&bull; <b>Explicació:</b> Ens serveix per traslladar el pacient a la taula espinal llarga.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Quin instrument utilitzarem per a la immobilització correcta del coll d&#039;una víctima?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La Dama d&#039;Elx<br>&bull; <b>Explicació:</b> Davant la sospita que hi ha una lesió de columna cervical: collar ortopèdic.
+Extracció de víctimes atrapades al lloc de l’accident: fèrula espinal.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. La maniobra d&#039;immobilització manual per a situacions extremes que serveix per a l&#039;extracció ràpida d&#039;una víctima de l&#039;interior d&#039;un vehicle es denomina:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Maniobra de Rautek<br>&bull; <b>Explicació:</b> La Maniobra de Rautek és una tècnica d’extracció manual utilitzada per retirar una persona de forma ràpida i segura en
+situacions d’emergència, com accidents de trànsit o altres incidents en què el temps és crucial. Aquesta maniobra és
+especialment útil quan la víctima està en una situació perillosa i necessita ser alliberada immediatament.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Quina afirmació és CORRECTA sobre l’immobilitzador cervical?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Les respostes a) i b) són correctes<br>&bull; <b>Explicació:</b> L’immobilitzador cervical o, en alguns casos, “dama d’Elx”, és un dispositiu que assegura completament la immobilització
+correcta del coll, complementant el collaret cervical. Presenta ajustos amb vetes adherent (“velcros”) que faciliten la
+col·locació. S’ajusta fàcilment a una llitera, la qual cosa permet subjectar el cap i el coll de la víctima</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Què hem de tenir en compte durant el procés d&#039;immobilització d’una fractura d’una extremitat?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> En el cas de traumatismes i fractures obertes, netejarem la ferida i la desinfectarem sense aplicar-hi solucions desinfectants<br>&bull; <b>Explicació:</b> La bena de crepè és una bena de fil de cotó al 100%. Algunes marques poden portar una petita part d’elastòmer. No són
+estèrils. Serveixen per a subjectar l&#039;apòsit de la ferida en el cas que faci falta.
+La fèrula de Kramer és una fèrula flexible formada per dos filferros gruixuts, paral·lels, units per d&#039;altres filferros més
+prims semblantment a una escala de mà. S&#039;empra folrada de cotó o cel·lulosa i és molt útil per a immobilitzar
+provisòriament un membre.
+Un cop col·locada la fèrula, realitzarem l&#039;embenat de distal a proximal.
+Font: GENCAT - Canal Salut.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Una dotació ha de traslladar una víctima immobilitzada per un tram curt i molt accidentat on cap mitjà mecànic pot arribar. Segons la classificació d&#039;evacuacions, quina modalitat de transport correspon i què la caracteritza?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> El transport manual en terreny irregular, per trams curts o difícils on no és possible l&#039;ús de mitjans mecànics, amb tècniques de càrrega o mitjans auxiliars com lliteres o mantes<br>&bull; <b>Explicació:</b> El transport manual s&#039;aplica en trams curts i de difícil orografia impossibles per a vehicles o mitjans mecànics. «Desplaçar la víctima en trams curts o difícils on no és possible l&#039;ús de mitjans mecànics...»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

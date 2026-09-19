@@ -1,522 +1,1244 @@
 [
   {
-    "id": "academia_sim5_q58",
-    "simulacre": "Simulacre 5",
-    "num_pregunta": 58,
-    "statement": "La relació de transmissió és una característica fonamental dels mecanismes de transmissió de moviment circular. Tenint en compte aquesta relació, es classifiquen en: directes, multiplicadors i reductors. En cas dels reductors:",
-    "correct": "B",
-    "explanation": "La relacióde transmissió (i)és elquocient entre lavelocitatde rotacióde laroda conduïda ilavelocitat de rotacióde la\nroda conductora.",
+    "id": "academia_sim1_q2",
+    "statement": "La bugia és un element característic dels motors:",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dièsel",
+      "B": "Híbrids",
+      "C": "Tant Otto com Dièsel",
+      "D": "Otto"
+    }
+  },
+  {
+    "id": "academia_sim1_q89",
+    "statement": "Respecte els sistemes de distribució d'un motor, és cert que:",
+    "correct": "A",
+    "explanation": "En el sistema DOHC l'arbre de lleves es disposa sobre la culata, i en té dos.\nEls sistemes OHC i DOHC són els més usats en l'actualitat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema OHV disposa del cigonyal més proper a l'arbre de lleves",
+      "B": "En el sistema OHV l'arbre de lleves es disposa sobre la culata",
+      "C": "El sistema OHC té dos arbres de lleves",
+      "D": "El sistema OHV és el més utilitzat en l'actualitat"
+    }
+  },
+  {
+    "id": "academia_sim3_q5",
+    "statement": "La transmissió de gir des del cigonyal a l'arbre de lleves és de:",
+    "correct": "A",
+    "explanation": "Això farà que el pinyó de l'arbre de lleves hagi de tenir el doble de dents que el del cigonyal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "2 a 1",
+      "B": "1 a 2",
+      "C": "1 a 1",
+      "D": "2 a 2"
+    }
+  },
+  {
+    "id": "academia_sim3_q36",
+    "statement": "Respecte el motor Wankel, podriem dir que:",
+    "correct": "D",
+    "explanation": "En els motors alternatius (pràcticament tots), un pistó es desplaça per un cilindre amb un moviment lineal alternatiu que\nes transforma en rotatiu a través del mecanisme biela-manovella.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 3",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el nom que prenen els motors rotatius",
+      "B": "S'usen menys que els motors alternatius",
+      "C": "No disposa de vàlvules, per tant l'admissió i l'escapament es fa a través d'espiralls",
+      "D": "Totes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim4_q86",
+    "statement": "En un sistema OHC, a través del taquet s'acciona:",
+    "correct": "C",
+    "explanation": "En un sistema OHV el taquet opera sobre la vareta empenyedora.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La vareta empenyedora",
+      "B": "El balancí",
+      "C": "La vàlvula",
+      "D": "El tensor"
+    }
+  },
+  {
+    "id": "academia_sim4_q94",
+    "statement": "En un motor de gasolina d'injecció indirecta de quatre temps, durant el temps d'admissió:",
+    "correct": "B",
+    "explanation": "El motor dièsel, en el temps d'admissió aspira només aire.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 4",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aspira només aire",
+      "B": "Aspira la mescla d'aire i gasolina",
+      "C": "Aspira la gasolina",
+      "D": "Aspira dièsel"
+    }
+  },
+  {
+    "id": "academia_sim5_q69",
+    "statement": "Com anomenem al conjunt d'òrgans mecànics que regulen l'entrada i la sortida de gasos dels cilindres d'un vehicle?",
+    "correct": "B",
+    "explanation": "El sistema de distribució ha d'estar perfectament sincronitzat amb el moviment del tren alternatiu (pistó, biela i cigonyal).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 5",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El motriu té un diàmetre major que elconduït i,en conseqüència, elconduït gira a major velocitat de rotació",
-      "B": "El motriu té un diàmetre menor que elconduït i,en conseqüència, el conduït gira a menor velocitatde rotació",
-      "C": "Elmotriu i elconduït tenen elmateix diàmetre i,en conseqüència, giren a la mateixa velocitatde rotació",
-      "D": "Elconduït témenor diàmetre que elmotriu i giraa major velocitatde rotació"
+      "A": "El sistema distributiu",
+      "B": "El sistema de distribució",
+      "C": "El sistema col·lector",
+      "D": "El sistema de col·lecció"
     }
   },
   {
-    "id": "academia_sim8_q34",
-    "simulacre": "Simulacre 8",
-    "num_pregunta": 34,
-    "statement": "Porten ____ els vehicles que tenen caixes de canvi manuals i____ els que tenen canvi automàtic.",
+    "id": "academia_sim5_q87",
+    "statement": "La cilindrada unitària és una característica important del motor. Normalment s'expressa en...",
     "correct": "B",
-    "explanation": "Acoblen idesacoblen la transmissió de laforça proporcionada pel motor a la caixa de velocitats.\n acadèmia",
+    "explanation": "La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centímetres",
+      "B": "Centímetres cúbics (cm³)",
+      "C": "Mil·límetres",
+      "D": "Mil·límetres cúbics (mm³)"
+    }
+  },
+  {
+    "id": "academia_sim5_q92",
+    "statement": "Quina de les afirmacions respecte el sistema de distribució és falsa?",
+    "correct": "B",
+    "explanation": "El sistema OHC, igual que el DOHC, porta l'arbre de lleves a la culata.\nEl sistema OHV porta l'arbre de lleves al bloc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el conjunt d'òrgans mecànics que regulen l'entrada i la sortida dels gasos del cilindre",
+      "B": "El sistema OHC porta l'arbre de lleves al bloc",
+      "C": "En un motor de quatre temps, cada dos voltes del cigonyal l'arbre de lleves en farà una",
+      "D": "Totes les respostes són correctes, no n'hi ha cap de falsa"
+    }
+  },
+  {
+    "id": "academia_sim6_q72",
+    "statement": "El ____ és una vàlvula tèrmica i el ____ és un interruptor bimetall.",
+    "correct": "B",
+    "explanation": "L'electroventilador el formen el motor elèctric, un relé i el termocontacte.\nLa funció d'un manocontacte és obrir o tancar un circuit elèctric en funció de si hi ha oli o no n'hi ha, en aquest últim cas\ntancant-lo i avisant-nos mitjançant un indicador lluminós.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Termocontacte/termòstat",
+      "B": "Termòstat/termocontacte",
+      "C": "Manocontacte/termocontacte",
+      "D": "Electroventilador/termòstat  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim6_q93",
+    "statement": "En un motor de quatre cilindres en línia, amb ordre d'encesa 1-3-4-2, en quin estat es trobarà el cilindre 1 en el moment en que el cilindre 4 es trobi en escapament?",
+    "correct": "D",
+    "explanation": "Ordre d'encesa: 1-3-4-2.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Explosió",
+      "B": "Admissió",
+      "C": "Escapament",
+      "D": "Compressió"
+    }
+  },
+  {
+    "id": "academia_sim7_q89",
+    "statement": "En un sistema OHV, el taqué actua sobre:",
+    "correct": "D",
+    "explanation": "Aquesta vareta actuarà sobre el balancí, que actuarà sobre la vàlvula.\nEn un sistema OHC, a través del taquet s'acciona la vàlvula.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 7",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'arbre de transmissió",
+      "B": "La vàlvula",
+      "C": "El balancí",
+      "D": "La vareta empenyedora"
+    }
+  },
+  {
+    "id": "academia_sim8_q35",
+    "statement": "En quin tipus de motors hi trobarem un pistó que es desplaça per un cilindre amb un moviment lineal alternatiu que es transforma en rotatiu a través d'un mecanisme biela-manovella?",
+    "correct": "A",
+    "explanation": "És el sistema més utilitzat en l'automoció.\nEn els motors rotatius o Wankel el moviment rotatiu es genera directament en un pistó de secció triangular, que gira dins\nd'una carcassa on forma 3 cambres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 8",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "embragatge //també",
-      "B": "embragatge //convertidorde parell",
-      "C": "convertidor deparell//embragatge",
-      "D": "convertidor deparell//també"
+      "A": "En els motors alternatius",
+      "B": "En els motors rotatius",
+      "C": "Tant en els motors alternatius com en els motors Wankel",
+      "D": "Totes les respostes són correctes"
     }
   },
   {
-    "id": "academia_sim13_q78",
-    "simulacre": "Simulacre 13",
-    "num_pregunta": 78,
-    "statement": "Quina de les següents formes de transmissió de lacalor en incendis forestals contribueix d'una manera més eficaç al seu desenvolupament?",
-    "correct": "A",
+    "id": "academia_sim8_q54",
+    "statement": "Entre quines peces se situa, generalment, el col·lector d'admissió d'un motor dièsel?",
+    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre el carburador i la vàlvula papallona",
+      "B": "Entre el carburador i la tapa de balancins",
+      "C": "Entre la cisterna i la vàlvula papallona",
+      "D": "Entre el filtre d'aire i la culata"
+    }
+  },
+  {
+    "id": "academia_sim9_q24",
+    "statement": "Són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l’arbre de lleves i, per l’altre, el transmeten a la vàlvula. Parlem de:",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els taquets",
+      "B": "Les varetes",
+      "C": "Els balancins",
+      "D": "Les molles  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim10_q85",
+    "statement": "Quin dels següents elements no es refereix a una part del cigonyal?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El colze",
+      "B": "El contrapes",
+      "C": "El suport",
+      "D": "El canell"
+    }
+  },
+  {
+    "id": "academia_sim10_q86",
+    "statement": "Els elements que constitueixen el motor es podrien dividir en elements fixos i elements mòbils. Quin dels següents no formarà part dels elements mòbils?",
+    "correct": "C",
+    "explanation": "Elements fixos: bloc, culata, càrter.\nElements mòbils: biela, pistons, cigonyal, volant d'inèrcia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La biela",
+      "B": "El volant d'inèrcia i el càrter, ja que els dos són elements fixos",
+      "C": "El càrter",
+      "D": "El volant d'inèrcia"
+    }
+  },
+  {
+    "id": "academia_sim11_q79",
+    "statement": "Quins elements trobarem a un costat i a l'altre del cigonyal?",
+    "correct": "B",
+    "explanation": "Per evitar la sortida de lubricant a l'exterior del motor, en els dos extrems se situen uns retenidors.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En un costat hi trobarem la biela, i a l'altre el volant d'inèrcia",
+      "B": "En un costat hi trobarem el pinyó de la distribució, i a l'altre el volant d'inèrcia",
+      "C": "En un costat hi trobarem la biela, i a l'altre el pinyó de la distribució",
+      "D": "En un costat hi trobarem el buló, i a l'altre els contrapesos"
+    }
+  },
+  {
+    "id": "academia_sim12_q17",
+    "statement": "On es disposen les vàlvules en un motor OHV?",
+    "correct": "D",
+    "explanation": "OHV = Overhead valve. Disposa de les vàlvules a la culata i de l'arbre de lleves al bloc del motor.\nEn els sistemes OHC i DOHC és l'arbre de lleves el que es disposa a la culata.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al bloc del motor",
+      "B": "Als cilindres",
+      "C": "Al càrter",
+      "D": "A la culata"
+    }
+  },
+  {
+    "id": "academia_sim12_q30",
+    "statement": "Quin element de la biela constitueix la unió amb el pistó a través del buló?",
+    "correct": "C",
+    "explanation": "El cap de la biela, en canvi, anirà unit al cigonyal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cap",
+      "B": "El cos",
+      "C": "El peu",
+      "D": "El colze"
+    }
+  },
+  {
+    "id": "academia_sim13_q41",
+    "statement": "En un motor de gasolina d'injecció directa de quatre temps, a l'inici del temps d'admissió:",
+    "correct": "A",
+    "explanation": "Igual que en el motor Dièsel.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Convecció",
-      "B": "Conducció",
-      "C": "Radiació acadèmia",
-      "D": "Inflamació"
+      "A": "Aspira només aire",
+      "B": "Aspira només gasolina",
+      "C": "L'enunciat és incorrecte; tots els motors de gasolina funcionen per injecció indirecta",
+      "D": "Aspira una mescla d'aire i gasolina"
     }
   },
   {
-    "id": "academia_sim20_q10",
-    "simulacre": "Simulacre 20",
-    "num_pregunta": 10,
-    "statement": "Dins de quin component del sistema de transmissió d'un vehicle s'inclou l'eixintermediari?",
+    "id": "academia_sim14_q79",
+    "statement": "L'arbre de lleves és un element del sistema de distribució d'un vehicle que rep el moviment del cigonyal i determina l'angle d'obertura i tancament de les vàlvules. També podem dir que:",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Gira a la meitat de revolucions que el cigonyal",
+      "B": "Estarà sotmès a esforços de torsió i flexió, però no de compressió",
+      "C": "Transforma el moviment de rotació en moviment rectilini",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim16_q74",
+    "statement": "El motor de quatre temps és un tipus de motor d'explosió. Quantes voltes completes del cigonyal requereix per tal de completar el cicle termodinàmic?",
+    "correct": "B",
+    "explanation": "Per cada dues voltes que dóna el cigonyal, l'arbre de lleves en dóna una.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una",
+      "B": "Dues",
+      "C": "Quatre",
+      "D": "Un motor de quatre temps no pot ser d'explosió"
+    }
+  },
+  {
+    "id": "academia_sim18_q17",
+    "statement": "Sobre les vàlvules del sistema de distribució d'un vehicle podem dir que:",
+    "correct": "B",
+    "explanation": "El motor de quatre vàlvules per cilindre (dues d'admissió i dues d'escapament) és el més habitual.\nL'encarregat de governar el sistema de distribució és l'arbre de lleves.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són elements que s'encarreguen de governar el sistema de distribució",
+      "B": "Estan constituïdes per un cap i una tija",
+      "C": "El motor de dos vàlvules per cilindre és el més freqüent",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim19_q16",
+    "statement": "Si seguim la cadena de moviment del sistema de distribució d'un vehicle OHV, quin element trobarem entre l'arbre de lleves i la vàlvula?",
     "correct": "A",
-    "explanation": "Elscanvis de marxa manuals consten de tresarbres: elprimari iel secundari, alineats,il’intermediari,paral·lel alsaltres\ndos. bombers",
+    "explanation": "Els balancins són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l'arbre\nde lleves i, per l'altre, el transmeten a la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 20",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De lacaixa de canvis",
-      "B": "De l'embragatge",
-      "C": "Del grup diferencial",
-      "D": "De l'arbrede transmissió"
+      "A": "El balancí",
+      "B": "El cigonyal",
+      "C": "La biela",
+      "D": "El cilindre  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim23_q25",
-    "simulacre": "Simulacre 23",
-    "num_pregunta": 25,
-    "statement": "Quin dels següents no es refereix a un mecanisme de transmissió de calor?",
+    "id": "academia_sim25_q50",
+    "statement": "En un motor de quatre temps, durant el temps d'admissió l'arbre de lleves dóna:",
+    "correct": "A",
+    "explanation": "El cigonyal dóna 180° (relació 1 a 2).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "90°",
+      "B": "45°",
+      "C": "180°",
+      "D": "360°"
+    }
+  },
+  {
+    "id": "academia_sim25_q51",
+    "statement": "És un tipus de motor on el bloc de cilindres gira al voltant del cigonyal:",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 23",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 25",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Conducció",
-      "B": "Convecció",
-      "C": "Radiació",
-      "D": "Contracció"
+      "A": "Motor Alternatiu",
+      "B": "Motor de reacció",
+      "C": "Motor Otto",
+      "D": "Motor rotatiu"
     }
   },
   {
-    "id": "academia_sim24_q54",
-    "simulacre": "Simulacre 24",
-    "num_pregunta": 54,
-    "statement": "Quin ordre correcte segueix el sistema de transmissió d'un vehicle des del motor fins les rodes?",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim27_q1",
+    "statement": "En el comandament de la distribució en un vehicle, la transmissió de gir des del cigonyal a l'arbre de lleves s'ha de fer sempre amb una relació de transmissió de 2 a 1. Això vol dir que el pinyó de l'arbre de lleves tindrà:",
+    "correct": "B",
+    "explanation": "Ja que per 2 voltes que fa el cigonyal, l'arbre de lleves en fa una.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 24",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 27",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Motor, caixa de canvis, embragatge, arbre de transmissió, diferencial,semieixos irodes",
-      "B": "Motor, embragatge, arbre de transmissió,semieixos, satèl·lits,planetarisirodes",
-      "C": "Motor, arbrede transmissió,embragatge, caixa de canvis, semieixos, satèl·lits,planetarisirodes",
-      "D": "Motor, embragatge, caixa de canvis,arbre de transmissió, diferencial,semieixos irodes"
+      "A": "La meitat de dents que el del cigonyal",
+      "B": "El doble de dents que el del cigonyal",
+      "C": "Les mateixes dents que el del cigonyal",
+      "D": "El triple de dents que el del cigonyal"
+    }
+  },
+  {
+    "id": "academia_sim27_q22",
+    "statement": "Com anomenem a la longitud entre el punt mort inferior (PMI) i el superior (PMS) d'un cilindre?",
+    "correct": "A",
+    "explanation": "El calibre, en canvi, és el diàmetre interior del cilindre.\nLa cilindrada fa referència a volums, no a longitud.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Carrera",
+      "B": "Cilindrada",
+      "C": "Calibre",
+      "D": "Cilindrada unitària"
+    }
+  },
+  {
+    "id": "academia_sim28_q52",
+    "statement": "De forma general, quin serà el nombre de suports del cigonyal?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El mateix que el número de cilindres",
+      "B": "El número de cilindres més un",
+      "C": "El número de cilindres menys un",
+      "D": "Quatre"
+    }
+  },
+  {
+    "id": "academia_sim31_q8",
+    "statement": "Quina de les següents configuracions del motor tindrà un cigonyal més llarg?",
+    "correct": "B",
+    "explanation": "El motor en W tindrà el cigonyal més curt.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 31",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El motor en W",
+      "B": "El motor en línia",
+      "C": "El motor en V",
+      "D": "El motor en bòxer  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim32_q39",
+    "statement": "Quina és la funció de l'intercooler en un motor turboalimentat?",
+    "correct": "C",
+    "explanation": "Aquest element no és més que un radiador aire-aire o aire-aigua que té la funció de reduir la temperatura de l'aire que\nprové del compressor del turbo fins a uns nivells òptims.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 32",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Refrigerar els gasos d'escapament",
+      "B": "Comprimir l'aire d'admissió per facilitar una posterior refrigeració",
+      "C": "Refrigerar l'aire d'admissió per augmentar-ne la seva densitat",
+      "D": "Un motor turboalimentat no necessitarà intercooler"
     }
   },
   {
     "id": "academia_sim33_q10",
-    "simulacre": "Simulacre 33",
-    "num_pregunta": 10,
-    "statement": "Quina peça s'encarrega de realitzar la funció d'unió entre l'arbre de transmissió il'eix secundari?",
+    "statement": "Quina peça s'encarrega de realitzar la funció d'unió entre l'arbre de transmissió i l'eix secundari?",
     "correct": "C",
-    "explanation": "",
+    "explanation": "La junta cardan s'encarrega de transmetre el moviment giratori del cigonyal fins les rodes motrius. També s'anomena\njunta universal.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 33",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La juntahomocinètica",
-      "B": "La juntade la tròcola",
-      "C": "La juntade Cardan",
-      "D": "La juntade laculata"
+      "A": "La junta homocinètica",
+      "B": "La junta de la tròcola",
+      "C": "La junta de Cardan",
+      "D": "La junta de la culata"
     }
   },
   {
-    "id": "academia_sim34_q47",
-    "simulacre": "Simulacre 34",
-    "num_pregunta": 47,
-    "statement": "Circulem amb el nostre vehicle iportem una marxa posada. Quan girarà el disc d'embragatge?",
+    "id": "academia_sim34_q56",
+    "statement": "Quantes voltes farà el cigonyal per cada volta de l'arbre de lleves en un motor de quatre temps?",
     "correct": "B",
-    "explanation": "Pedal d'embragatge trepitjat:fem que el moviment del motor no es transmeti a la caixa de velocitats.\nPedal d'embragatge sense trepitjar:fem que el moviment del motor es transmeti a la caixa de velocitats.",
+    "explanation": "Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 34",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Quan tinguem elpedat trepitjat",
-      "B": "Quan no tinguem elpedatbomberstrepitjat",
-      "C": "Sempre",
-      "D": "En elmoment de canviarde marxa"
+      "A": "Una volta",
+      "B": "Dues voltes",
+      "C": "Mitja volta",
+      "D": "Tres voltes  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim36_q76",
-    "simulacre": "Simulacre 36",
-    "num_pregunta": 76,
-    "statement": "Quina definició correspon a la d'integritat davant el foc?",
-    "correct": "C",
-    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural. \nAïllament: aptitud de l’element constructiu de suportar l’exposició alfoc en un únic costat, sense que es produeixi la\ntransmissió de l’incendidegut a una transferència de calor significativades del costat exposat al no exposat.",
+    "id": "academia_sim35_q28",
+    "statement": "Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?",
+    "correct": "B",
+    "explanation": "ECU = Engine Control Unit.\nRecorda que el sistema de gestió i la unitat de control formen part dels components principals del sistema del vehicle\nhíbrid i el sistema del vehicle elèctric, respectivament.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "EMS",
+      "B": "ECU",
+      "C": "MSI",
+      "D": "IMU"
+    }
+  },
+  {
+    "id": "academia_sim35_q67",
+    "statement": "L'índex d'octà:",
+    "correct": "D",
+    "explanation": "L'índex d'octà és una mesura que indica la resistència a la detonació del carburant quan es comprimeix dins del cilindre\nd'un motor.\nCom més índex d'octà, més capacitat d'antidetonació de la gasolina.\nUna benzina sense plom de 95 tindrà 95 octans, i una de 98, 98 octans.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Com més elevat és, més facilita o afavoreix la detonació de la benzina",
+      "B": "És el mateix entre una benzina sense plom de 95 i una de 98",
+      "C": "És una propietat intrascendent en els carburants",
+      "D": "Pot ser major de 100, en el cas d'alguns combustibles"
+    }
+  },
+  {
+    "id": "academia_sim36_q34",
+    "statement": "Quin tipus de projeccions es basen o s'inspiren en la projecció directa del globus sobre una superfície ja plana?",
+    "correct": "B",
+    "explanation": "ICGC: Les projeccions cilíndriques i còniques es basen o s'inspiren en l'estratègia de projectar la superfície del globus\nsobre un cilindre o un con, respectivament, que posteriorment seran tallats per una generatriu i desenrotllats plans; per\naquest motiu se les anomena, de vegades, projeccions desenrotllables. Les projeccions azimutals, en canvi, es basen o\ns'inspiren en la projecció directa del globus sobre una superfície ja plana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 36",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A l’aptitudde l’element constructiu de suportar l’exposicióal foc en un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calorsignificativades del costat exposat alno exposat",
-      "B": "Altemps que l'element pot mantenir l'estanqueïtat davant del fum, sense que es produeixi latransmissió des del costatexposat al no exposat",
-      "C": "A lacapacitat que té un element constructiu, de suportar l’exposicióal foc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
-      "D": "A lacapacitat d'un element constructiu de suportar elfoc en una o més cares sense perdre l'estabilitatestructural"
-    }
-  },
-  {
-    "id": "academia_sim37_q34",
-    "simulacre": "Simulacre 37",
-    "num_pregunta": 34,
-    "statement": "Si circulem amb elnostre vehicle amb la quarta marxa posada, eldisc de l'embragatge:",
-    "correct": "A",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 37",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Estarà girant",
-      "B": "No giraràfinsque no trepitgemel pedal",
-      "C": "Podrà estar giranto no,en funció de lescaracterístiques delvehicle",
-      "D": "El disc de l'embragatge només el trobarem en cotxes amb caixa de canvis automàtica"
+      "A": "Les projeccions cilíndriques i les còniques",
+      "B": "Les projeccions azimutals",
+      "C": "Les projeccions cilíndriques i azimutals",
+      "D": "Les projeccions cilíndriques"
     }
   },
   {
     "id": "academia_sim38_q10",
-    "simulacre": "Simulacre 38",
-    "num_pregunta": 10,
     "statement": "Quin element d'un vehicle pertany al sistema de seguretat activa?",
     "correct": "C",
     "explanation": "La resta pertanyen a la seguretat passiva.\nExemples d'elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
       "A": "Els seients",
-      "B": "El cinturóde seguretat",
+      "B": "El cinturó de seguretat",
       "C": "Els pneumàtics",
       "D": "Els airbags"
     }
   },
   {
-    "id": "academia_sim40_q4",
-    "simulacre": "Simulacre 40",
-    "num_pregunta": 4,
-    "statement": "Quin o quins dels següents mètodes de transmissió de la calor ve donat per laLlei de Fourier?",
+    "id": "academia_sim40_q40",
+    "statement": "Durant el temps d'explosió d'un motor de quatre temps l'arbre de lleves dóna:",
     "correct": "A",
-    "explanation": "La lleide Fourier descriu laconducció tèrmica mitjançant una equació.\nElflux de calor és proporcional àrea de la secció transversal ial gradient de temperatura.",
+    "explanation": "El cigonyal dóna 180° (relació 1 a 2).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 40",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La conducció",
-      "B": "La convecció",
-      "C": "La radiació",
-      "D": "La conducció ilaconvecció"
+      "A": "90°",
+      "B": "45°",
+      "C": "180°",
+      "D": "360°  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim40_q77",
+    "statement": "Els motors síncrons i asíncrons són tipologies de motor elèctric. Què els diferencia?",
+    "correct": "A",
+    "explanation": "Ull! Motor d'inducció = motor asíncron.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En el motor síncron el rotor i el camp magnètic giren a la mateixa velocitat, mentre que en el motor asíncron el camp magnètic sempre va uns graus per davant del rotor",
+      "B": "Que el motor d'inducció o síncron, a diferència de l'asíncron, girarà a la mateixa velocitat que el cigonyal",
+      "C": "Mentre que el motor síncron és aquell en què el rotor i el camp magnètic rotant giren a la mateixa velocitat, en el motor asíncron el camp magnètic sempre va uns graus per darrere del rotor",
+      "D": "No presenten cap diferència"
     }
   },
   {
     "id": "academia_sim41_q95",
-    "simulacre": "Simulacre 41",
-    "num_pregunta": 95,
-    "statement": "Quin nom rep elsistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
+    "statement": "Quin nom rep el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
     "correct": "C",
-    "explanation": "Control d'estabilitat(ESP):tractade mantenir elcotxe en latrajectòriacorrecta.Actua comparant angles.\nSistema de suspensió activa:s'encarrega de gestionar icontrolarde forma independent l'amortiguació de cadascuna de\nlesrodes.\n acadèmia\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "explanation": "Control d'estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.\nSistema de suspensió activa: s'encarrega de gestionar i controlar de forma independent l'amortiguació de cadascuna de\nles rodes.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
+    "theme": "T19 - Vehicles de bombers",
     "section": "Simulacre 41",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El sistema de direccióassistida",
-      "B": "El controld'estabilitat bombers",
-      "C": "El controlde tracció",
-      "D": "Sistema de suspensió activa www.academiabombers.com 21"
-    }
-  },
-  {
-    "id": "academia_sim51_q43",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 43,
-    "statement": "Com s'anomena latransmissió de calor que es produeix mitjançant ones electromagnètiques, no necessitant cap mitjà de transmissió i essent molt més eficient quan es produeix a través del buit?",
-    "correct": "D",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 51",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Inducció",
-      "B": "Conducció",
-      "C": "Convecció",
-      "D": "Radiació"
-    }
-  },
-  {
-    "id": "academia_sim52_q46",
-    "simulacre": "Simulacre 52",
-    "num_pregunta": 46,
-    "statement": "Sobre el concepte de calor específica, és FALS que:",
-    "correct": "C",
-    "explanation": "Les unitats en què s'expressa poden ser Joules per quilogram per grau centígrad (J/kg ºC) en el SI, però també es fa\nservirla caloriaper gram per grau, cal/gºC.\nCal tenirclar que la temperatura ens marca si hihaurà transmissió d'energia d'un cos a un altre,però no laquantitat\nd'energia que emmagatzema un cos! Un cos amb més temperatura pot tenirmenys energia que un de més fred.Això\ndepèn de la calor específica del material (Temari BBVV).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 52",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Pot variarsegons si elcos es troba en estat líquid,sòlido gasós",
-      "B": "Permet que un cos amb més temperatura pugui tenirmenys energia que un de més fred",
-      "C": "La calor específica de l'aigualíquidaacadèmiaésde4,2cal/gºC",
-      "D": "Les unitats amb elsque s'expressa en el Sistema Internacional son els J/kg ºC"
-    }
-  },
-  {
-    "id": "academia_sim53_q66",
-    "simulacre": "Simulacre 53",
-    "num_pregunta": 66,
-    "statement": "Quina definició correspon a la de capacitat portant davant el foc?",
-    "correct": "D",
-    "explanation": "Capacitat portant: capacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitat\nestructural.\nIntegritat:capacitat que té un element constructiu, de suportar l’exposició al foc únicament en una cara, sense que\nexisteixitransmissió de calor a la cara no exposada aldegut al pas de flames o de gasos calents.\nAïllament: aptitud de l’element constructiu de suportar l’exposició al foc en un únic costat, sense que es produeixi la\ntransmissió de l’incendi degut a una transferència de calor significativa des del costat exposat al no exposat.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 53",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A l’aptitudde l’element constructiu de suportar l’exposicióal focen un únic costat, sense que es produeixi la transmissió de l’incendi degut a una transferència de calor significativades del costat exposat al no exposat",
-      "B": "Altemps que l'element pot mantenir l'estanqueïtatdavant del fum, sense que es produeixi la transmissió des del costatexposat al no exposat",
-      "C": "A lacapacitat que té un element constructiu, de suportar l’exposició alfoc únicament en una cara, sense que existeixi transmissió de calor a la cara no exposada al degut al pas de flames o de gasos calents",
-      "D": "A lacapacitat d'un element constructiu de suportar el foc en una o més cares sense perdre l'estabilitatestructural"
-    }
-  },
-  {
-    "id": "academia_sim55_q15",
-    "simulacre": "Simulacre 55",
-    "num_pregunta": 15,
-    "statement": "Quin dels següents codis de perillcorrespon a una matèria que provoca la irritació de la pell?",
-    "correct": "B",
-    "explanation": "Hem de tenir clarque el primer nombre d'una indicació de perillens indicarà eltipus de perill,essent:\nHXXX:\n2:perillfísic\n3:perillper lasalut\n4:perillpel medi ambient\nEn aquest cas la primera xifraés un 3, il'única opció que presenta un perillper a la salut és la resposta correcta.\n\n16.- \nEstà integrat a l'embragatge, o bé alconvertidor de parell, en funció de sies tracta d'un vehicle amb transmissió manual\no automàtica.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 55",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "H200",
-      "B": "H315 bombers",
-      "C": "H412",
-      "D": "H228 www.academiabombers.com"
-    }
-  },
-  {
-    "id": "academia_sim55_q16",
-    "simulacre": "Simulacre 55",
-    "num_pregunta": 16,
-    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió manual?",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 55",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A la caixa de canvis",
-      "B": "A l'embragatge",
-      "C": "A lesrodes",
-      "D": "Al cigonyal 22 Acadèmia Bombers Simulacre 55"
-    }
-  },
-  {
-    "id": "academia_sim56_q60",
-    "simulacre": "Simulacre 56",
-    "num_pregunta": 60,
-    "statement": "En molles de la suspensió poden ser, bàsicament, ballestes o molles helicoïdals. Quin avantatge ofereixen aquestes darreres molles respecte les ballestes?",
-    "correct": "B",
-    "explanation": "Cada sistema té avantatges iinconvenients:\n-Les ballestes poden, per elles mateixes, sostenir elsponts de transmissió, n’eviten la rotació en frenar i accelerar i,com\nque estan fixades pels dos extrems, reparteixen millor els esforços sobre elxassís. L’inconvenient és que és un sistema\nmolt pesat, més sorollós, ide reaccions més lentes ibrusques.\n-Les molles helicoïdals són més lleugeres, reaccionen amb més suavitat i“adaptabilitat” i,per tant, donen més confort a\nlespersones ocupants. L’inconvenient és que no poden sostenir els ponts, ha d’haver-hi totun conjunt de braços itirants\nper sostenir-los ies complica el sistema.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 56",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Poden sostenir elsponts de transmissió per simateixes",
-      "B": "Són més lleugeres",
-      "C": "Reparteixen millorelsesforços sobre el xassís",
-      "D": "Totes les respostes són correctes"
-    }
-  },
-  {
-    "id": "academia_sim63_q20",
-    "simulacre": "Simulacre 63",
-    "num_pregunta": 20,
-    "statement": "En quin sentit girarà la roda boja d'un engranatge format per tres rodes?",
-    "correct": "A",
-    "explanation": "Aquesta roda intermèdia permet variar la relació de transmissió canviant el nombre de dents del pinyó i de la corona\nsense necessitat de variar ladistància entre l'eixmotriu i l'eixconduït.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 63",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "En un sentitdiferent alde la roda motriu ial de la roda conduïda bombers",
-      "B": "En elmateix sentitque laroda motriu i en un sentitdiferent alde la roda conduïda",
-      "C": "En sentithorari",
-      "D": "En el mateix sentitque laroda conduïdawww.academiabombers.comienunsentitdiferentaldelarodamotriu"
-    }
-  },
-  {
-    "id": "academia_sim76_q7",
-    "simulacre": "Simulacre 76",
-    "num_pregunta": 7,
-    "statement": "Quina és la principal forma de transmissió de lacalor en els fluids?",
-    "correct": "C",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 76",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Conducció",
-      "B": "Reflexió",
-      "C": "Convecció bombers",
-      "D": "Radiació"
-    }
-  },
-  {
-    "id": "academia_sim77_q22",
-    "simulacre": "Simulacre 77",
-    "num_pregunta": 22,
-    "statement": "On està integrat el volant bimassa d'un vehicle de transmissió automàtica?",
-    "correct": "D",
-    "explanation": "Està integrat a l'embragatge, o bé al convertidor de parell, en funció de sies tracta d'un vehicle amb transmissió manual\no automàtica.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 77",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A lacaixa de canvis",
-      "B": "A l'embragatge acadèmia",
-      "C": "A lesrodes",
-      "D": "Alconvertidor de parell"
-    }
-  },
-  {
-    "id": "academia_sim77_q37",
-    "simulacre": "Simulacre 77",
-    "num_pregunta": 37,
-    "statement": "Com s'anomena elsistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sensepatinar?",
-    "correct": "C",
-    "explanation": "Control d'estabilitat(ESP): tractade mantenir elcotxe en la trajectòriacorrecta. Actua comparant angles.\n\nSistema de suspensió activa: s'encarrega de gestionar icontrolar de forma independent l'amortiguació de cadascuna de\nlesrodes.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 77",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "El sistema de direccióassistida",
-      "B": "El controld'estabilitat",
-      "C": "El controlde tracció",
+      "A": "El sistema de direcció assistida",
+      "B": "El control d'estabilitat",
+      "C": "El control de tracció",
       "D": "Sistema de suspensió activa"
     }
   },
   {
-    "id": "academia_sim84_q47",
-    "simulacre": "Simulacre 84",
-    "num_pregunta": 47,
-    "statement": "Dins de quin component del sistema de transmissió d'un vehicle s'inclou l'eix intermediari?",
+    "id": "academia_sim42_q16",
+    "statement": "Com s'anomena la tipologia de bomba que utilitza un pistó en moviment dins d'un cilindre?",
+    "correct": "B",
+    "explanation": "Les bombes d'èmbol també s'anomenen bombes de pistó. Poden ser d'efecte simple o de doble efecte. No necessiten\nser encebades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bomba de diafragma",
+      "B": "Bomba d'èmbol",
+      "C": "Bomba centrífuga",
+      "D": "Bomba alternativa  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim43_q81",
+    "statement": "A quin tipus de motor trobarem el rotor de gàbia d'esquirol?",
+    "correct": "B",
+    "explanation": "Motor asíncron = motor d'inducció.\nUn rotor de gàbia d'esquirol és bàsicament un cilindre muntat en un eix, on el seu anell és conductor, i prenent la forma\nde la roda pels hàmsters.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al motor de gas",
+      "B": "Al motor elèctric asíncron de corrent altern",
+      "C": "Al motor de gasoil",
+      "D": "Al motor elèctric síncron de corrent altern"
+    }
+  },
+  {
+    "id": "academia_sim44_q70",
+    "statement": "En el sistema de distribució OHC:",
+    "correct": "C",
+    "explanation": "És en el sistema OHV que l'arbre de lleves es troba al bloc motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'arbre de lleves es troba al bloc motor",
+      "B": "Trobem a l'arbre de lleves proper al cigonyal",
+      "C": "L'arbre de lleves es troba a sobre de la culata",
+      "D": "L'arbre de lleves es troba per sota del càrter"
+    }
+  },
+  {
+    "id": "academia_sim44_q91",
+    "statement": "Durant el temps d'admissió, al cilindre d'un motor dièsel de quatre temps...",
+    "correct": "B",
+    "explanation": "En el motor de gasolina de 4 temps, en canvi, hi entraria una barreja d'aire i benzina.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "S'hi introduirà, a altes pressions, una barreja de gasoil i metà",
+      "B": "Hi entrarà aire, únicament",
+      "C": "Només hi entrarà gasoil",
+      "D": "Hi entrarà una barreja d'aire i gasoil"
+    }
+  },
+  {
+    "id": "academia_sim45_q12",
+    "statement": "En un motor de quatre temps, quantes voltes farà el cigonyal per cada volta de l'arbre de lleves?",
+    "correct": "B",
+    "explanation": "Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Una volta",
+      "B": "Dues voltes",
+      "C": "Mitja volta",
+      "D": "Tres voltes"
+    }
+  },
+  {
+    "id": "academia_sim45_q65",
+    "statement": "Amb quina unitat s'expressa normalment la cilindrada unitària del motor?",
+    "correct": "B",
+    "explanation": "La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En centímetres",
+      "B": "En centímetres cúbics (cm³)",
+      "C": "En mil·límetres",
+      "D": "En litres"
+    }
+  },
+  {
+    "id": "academia_sim47_q65",
+    "statement": "En un sistema OHV el taquet opera sobre:",
     "correct": "A",
-    "explanation": "Els canvis de marxa manuals consten de tres arbres: elprimari i elsecundari, alineats, il’intermediari, paral·lel als altres\ndos.\n\n\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 84",
+    "explanation": "En un sistema OHC, a través del taquet s'acciona la vàlvula.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 84",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 47",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De la caixa de canvis",
-      "B": "De l'embragatge",
-      "C": "Del grup diferencial",
-      "D": "De l'arbre de transmissió"
+      "A": "La vareta empenyedora",
+      "B": "El balancí",
+      "C": "La vàlvula",
+      "D": "El tensor"
     }
   },
   {
-    "id": "academia_sim91_q28",
-    "simulacre": "Simulacre 91",
-    "num_pregunta": 28,
-    "statement": "Com s’anomena l’element d’una caixa de canvis manual que, situat entre l’eixintermediari i l’eix secundari, inverteix el gir de les rodes motrius per permetre la marxa enrere?",
-    "correct": "C",
-    "explanation": "Engrana un pinyó intermedi entre l’eixintermediari il’eixsecundari, invertint el sentit de rotació sense alterar el gir del\nmotor ipermet que les rodes girin en sentit contrari (marxa enrere).",
+    "id": "academia_sim51_q33",
+    "statement": "En un motor elèctric, el rotor:",
+    "correct": "A",
+    "explanation": "El rotor té un diàmetre menor que l'estator, ja que es troba encabit dins l'estator.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 91",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vàlvula de retrocés",
-      "B": "Corona",
-      "C": "Pinyó inversor",
-      "D": "Dúmper"
+      "A": "És la part mòbil del motor",
+      "B": "Té un diàmetre major que l'estator",
+      "C": "És la part estàtica del motor",
+      "D": "Hi ha més d'una resposta correcta"
     }
   },
   {
-    "id": "academia_sim121_q42",
-    "simulacre": "Simulacre 121",
-    "num_pregunta": 42,
-    "statement": "Com s’anomena l’element d’una caixa de canvis manual que, situat entre l’eix intermediari il’eix secundari, inverteix el gir de les rodes motrius per permetre la marxa enrere?",
-    "correct": "C",
-    "explanation": "Engrana un pinyó intermedi entre l’eix intermediari i l’eixsecundari, invertint el sentit de rotació sense alterar el gir del\nmotor ipermet que les rodes girin en sentit contrari (marxa enrere).",
+    "id": "academia_sim51_q46",
+    "statement": "Quina relació de revolucions tenen el cigonyal i l'arbre de lleves en un motor de quatre temps?",
+    "correct": "A",
+    "explanation": "Per això, la quantitat de dents de la corona de l'arbre de lleves és el doble que la del pinyó del cigonyal. Aquest procés el\nconeixem com a desmultiplicació.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T19 - Conducció i mecànica",
-    "section": "Simulacre 121",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 51",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vàlvula de retrocés",
-      "B": "Corona",
-      "C": "Pinyó inversor",
-      "D": "Dúmper"
+      "A": "De 2 a 1",
+      "B": "De 1 a 1",
+      "C": "De 1 a 2",
+      "D": "De 2 a 3"
+    }
+  },
+  {
+    "id": "academia_sim51_q48",
+    "statement": "Quin dels següents elements d'un motor tèrmic és mòbil?",
+    "correct": "B",
+    "explanation": "El pistó, la biela o el cigonyal també serien exemples d'elements mòbils.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El càrter",
+      "B": "El volant d'inèrcia",
+      "C": "La culata",
+      "D": "El bloc motor  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim52_q85",
+    "statement": "De quants conductes o llumeneres disposa el cilindre d'un motor de dos temps?",
+    "correct": "B",
+    "explanation": "El cilindre té tres conductes o llumeneres:\n- D'escapament\n- De càrrega\n- D'admissió\nLa llumenera d'escapament i la llumenera de càrrega es localitzen, enfrontades, a prop del PMI. Durant el moviment del\npistó entre el PMS i el PMI aquestes llumeneres són descobertes i cobertes per aquest pistó. La llumenera d'escapament\nestà col·locada en una posició més elevada que la llumenera de càrrega, de manera que el pistó descobrirà primer la\nlumbrera d'escapament.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 52",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Dues; una d'admissió i una altra d'escapament",
+      "B": "Tres; una d'escapament, una de càrrega i una d'admissió",
+      "C": "Quatre; una d'escapament, una d'admissió, una de càrrega i una de descàrrega",
+      "D": "Aquests motors no disposen de llumeneres, en tot cas disposaran de vàlvules"
+    }
+  },
+  {
+    "id": "academia_sim53_q9",
+    "statement": "Què aspira durant el temps d'admissió un motor de gasolina d'injecció indirecta de quatre temps?",
+    "correct": "B",
+    "explanation": "El motor dièsel, en el temps d'admissió aspira només aire.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Només aire",
+      "B": "Una mescla d'aire i gasolina",
+      "C": "Gasolina",
+      "D": "Dièsel o gasoil"
+    }
+  },
+  {
+    "id": "academia_sim53_q41",
+    "statement": "Què s'entén per una autobomba?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És una bomba elèctrica que es connecta a un electrogen",
+      "B": "És una bomba per a qualsevol ús, que es pot desplaçar manualment",
+      "C": "És un vehicle automòbil equipat de bomba accionada pel motor",
+      "D": "És una bomba automàtica exclusiva per a líquids"
+    }
+  },
+  {
+    "id": "academia_sim54_q11",
+    "statement": "Sobre quin element opera el taquet en un sistema OHV?",
+    "correct": "A",
+    "explanation": "En un sistema OHC, a través del taquet s'acciona la vàlvula.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre la vareta empenyedora",
+      "B": "Sobre el balancí",
+      "C": "Sobre la vàlvula",
+      "D": "Sobre el tensor"
+    }
+  },
+  {
+    "id": "academia_sim58_q57",
+    "statement": "Quina part del motor controla el temps i la seqüència d'obertura de les vàlvules d'admissió i escapament?",
+    "correct": "D",
+    "explanation": "L'arbre de lleves es mou sincronitzat amb el cigonyal i està accionat per la cadena de distribució o per la corretja de\ndistribució, depenent del disseny del motor.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alternador",
+      "B": "El distribuïdor",
+      "C": "La culata",
+      "D": "L'arbres de lleves"
+    }
+  },
+  {
+    "id": "academia_sim63_q34",
+    "statement": "Què és el calibre d'un cilindre?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El radi interior del cilindre expressat en mil·límetres",
+      "B": "La relació que hi ha entre el volum total que ocupa l'aire al cilindre abans de ser comprimit i el volum que ocupa un cop comprimit",
+      "C": "El diàmetre interior del cilindre expressat en mil·límetres",
+      "D": "El radi interior del cilindre expressat en centímetres"
+    }
+  },
+  {
+    "id": "academia_sim67_q25",
+    "statement": "És una regió al tronc o a les arrels que conté els teixits conductors d'una planta, com ara el xilema i el floema:",
+    "correct": "A",
+    "explanation": "El xilema transporta aigua i nutrients des de les arrels cap a les altres parts de la planta, mentre que el floema transporta\nels nutrients fotosintetitzats des de les fulles cap a les altres parts de la planta. Aquest cilindre vascular és essencial per\nal suport estructural i el transport eficient de substàncies en les plantes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El cilindre vascular",
+      "B": "L'entrenús",
+      "C": "La medul·la",
+      "D": "El còrtex"
+    }
+  },
+  {
+    "id": "academia_sim67_q62",
+    "statement": "En un vehicle de transmissió automàtica, on estarà integrat el volant bimassa?",
+    "correct": "A",
+    "explanation": "El volant bimassa està integrat a l'embragatge, o bé al convertidor de parell, en funció de si es tracta d'un vehicle amb\ntransmissió manual o automàtica.\nEn el seu perímetre s'instal·la la corona dentada on engrana el pinyó del motor d'arrencada, va fixat d'una banda a la\nsortida del cigonyal i per l'altre costat, al disc de embragatge.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 67",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al convertidor de parell",
+      "B": "A la biela",
+      "C": "A l'embragatge",
+      "D": "A l'arbre de lleves"
+    }
+  },
+  {
+    "id": "academia_sim70_q24",
+    "statement": "Durant el temps d'explosió d'un motor de quatre temps el cigonyal dóna:",
+    "correct": "C",
+    "explanation": "L'arbre de lleves dóna 90° (relació 1 a 2 amb el cigonyal).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "90°",
+      "B": "45°",
+      "C": "180°",
+      "D": "360°"
+    }
+  },
+  {
+    "id": "academia_sim70_q52",
+    "statement": "En la realització d'un esgotament amb autobomba i obviant les pèrdues de càrrega, quin valor ens hauria d'indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "-4 bar",
+      "B": "40 bar",
+      "C": "0,4 bar",
+      "D": "-0,4 bar"
+    }
+  },
+  {
+    "id": "academia_sim73_q42",
+    "statement": "Quin dispositiu s'utilitza per protegir un motor elèctric de sobrecàrregues?",
+    "correct": "C",
+    "explanation": "Es tracta d'un dispositiu electromecànic, dissenyat per protegir els motors elèctrics de sobrecàrregues o escalfaments.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un variador de freqüència",
+      "B": "Un SPD",
+      "C": "Un relé tèrmic",
+      "D": "Un díode"
+    }
+  },
+  {
+    "id": "academia_sim74_q51",
+    "statement": "Quin d'aquests elements NO forma part del grup de distribució en un motor?",
+    "correct": "D",
+    "explanation": "L'arbre de lleves també formaria part del grup de distribució.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els taquets",
+      "B": "Les molles",
+      "C": "Les vàlvules",
+      "D": "El termòstat"
+    }
+  },
+  {
+    "id": "academia_sim75_q38",
+    "statement": "Quines són les peces entre les quals es troba, normalment, el col·lector d'admissió d'un motor dièsel?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre el carburador i la vàlvula papallona",
+      "B": "Entre el carburador i la tapa de balancins",
+      "C": "Entre la cisterna i la vàlvula papallona",
+      "D": "Entre el filtre d'aire i la culata"
+    }
+  },
+  {
+    "id": "academia_sim77_q37",
+    "statement": "Com s'anomena el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?",
+    "correct": "C",
+    "explanation": "Control d'estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.\nSistema de suspensió activa: s'encarrega de gestionar i controlar de forma independent l'amortiguació de cadascuna de\nles rodes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El sistema de direcció assistida",
+      "B": "El control d'estabilitat",
+      "C": "El control de tracció",
+      "D": "Sistema de suspensió activa"
+    }
+  },
+  {
+    "id": "academia_sim125_q49",
+    "statement": "Quina capacitat d'aigua té una Bomba Urbana Pesada (BUP)?",
+    "correct": "C",
+    "explanation": "BUL - Bomba urbana lleugera: 1.000 – 1.650 litres.\nBUP - Bomba urbana pesada: 3.000 – 4.000 litres.\nBRP - Bomba rural pesada: 3.000 – 4.000 litres.\nBNP - Bomba nodrissa pesada: 7.000 – 10.000 litres.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "5.000 – 5.650 litres",
+      "B": "4.000 – 5.000 litres",
+      "C": "3.000 – 4.000 litres",
+      "D": "2.000 – 3.000 litres"
+    }
+  },
+  {
+    "id": "academia_sim125_q60",
+    "statement": "Quin angle d'atac presenta aproximadament la BUL?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 125",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "18°",
+      "B": "20°",
+      "C": "12°",
+      "D": "15°"
+    }
+  },
+  {
+    "id": "academia_sim127_q54",
+    "statement": "Quina és l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya?",
+    "correct": "B",
+    "explanation": "Bomba Rural Pesada (BRP).\nDescripció: Vehicle polivalent dissenyat per a actuacions en tot tipus d’entorns, urbans, rurals i forestals, especialment\nadaptat a terrenys difícils. És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 127",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Bomba Rural Pesada (BRP)",
+      "B": "La Bomba Rural Pesada (BRP)",
+      "C": "La Bomba Urbana Pesada (BUP)",
+      "D": "La Bomba Urbana Lleugera (BUL)"
+    }
+  },
+  {
+    "id": "academia_sim128_q8",
+    "statement": "Una dotació crida la sala i rep com a resposta \"Esperi Papa 10.40\". Què ha de fer la dotació?",
+    "correct": "B",
+    "explanation": "L'ambulància de tipus B, de suport vital bàsic, va dotada de 2 tècnics en emergències sanitàries. La combinació de tècnic\ni infermer/a correspon al tipus C (suport vital avançat), i la de tècnic i metge/ssa al vehicle d'intervenció ràpida.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T19 - Vehicles de bombers",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Repetir la crida al cap de 30 segons",
+      "B": "Canviar al mode directe per no ocupar el canal de xarxa",
+      "C": "Tancar amb \"canvi i tallo\" i tornar a demanar-ho més tard",
+      "D": "Mantenir-se a l'escolta fins rebre l'\"endavant\" del receptor"
     }
   }
 ]

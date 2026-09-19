@@ -1,0 +1,2852 @@
+[
+  {
+    "index": 0,
+    "answerList": [
+      {
+        "answer_desc": "Perquè no produeix cap canvi en la disposició de la runa.",
+        "answer_id": 82837
+      },
+      {
+        "answer_desc": "Perquè la resta de l’edificació pot semblar estable malgrat l’afectació local.",
+        "answer_id": 82834
+      },
+      {
+        "answer_desc": "Perquè elimina totes les esquerdes i deformacions de l’estructura; la interpretació no considera l’evolució de l’estabilitat residual.",
+        "answer_id": 82836
+      },
+      {
+        "answer_desc": "Perquè converteix immediatament la zona en un espai segur.",
+        "answer_id": 82839
+      }
+    ],
+    "category_desc": "Intervenció bàsica en estructures col·lapsades",
+    "difficulty": 2,
+    "question_desc": "Per què un col·lapse parcial pot passar desapercebut en la primera valoració?",
+    "question_id": 14141,
+    "topic_desc": "MAN.SVES.000: Valoració del col·lapse estructural",
+    "correct_answer_id": 82834,
+    "question_solution_desc": "L’aparença de normalitat pot ocultar elements debilitats o descarregats de manera anòmala.",
+    "question_solution_source": "MAN.SVES.000: Apartat 2.1.2",
+    "correct_letter": "B"
+  },
+  {
+    "index": 1,
+    "answerList": [
+      {
+        "answer_desc": "La convocatòria de reunions autoritzades.",
+        "answer_id": 40941
+      },
+      {
+        "answer_desc": "La representació sindical.",
+        "answer_id": 40942
+      },
+      {
+        "answer_desc": "La negociació col·lectiva.",
+        "answer_id": 40939
+      },
+      {
+        "answer_desc": "L’obstaculització de llibertats públiques i drets sindicals.",
+        "answer_id": 40938
+      }
+    ],
+    "category_desc": "Legislació: Funció pública",
+    "difficulty": 1,
+    "question_desc": "Segons l’article 95.2.k del Reial decret legislatiu 5/2015, què constitueix falta molt greu en matèria de drets sindicals?",
+    "question_id": 7096,
+    "topic_desc": "Règim disciplinari",
+    "correct_answer_id": 40938,
+    "question_solution_desc": "L’article 95.2.k considera molt greu l’obstaculització de llibertats públiques i drets sindicals.",
+    "question_solution_source": "Reial decret legislatiu 5/2015, de 30 d’octubre, pel qual s’aprova el text refós de la Llei de l’Estatut bàsic de l’empleat públic.",
+    "correct_letter": "D"
+  },
+  {
+    "index": 2,
+    "answerList": [
+      {
+        "answer_desc": "Àrea de Mitjans Aeris.",
+        "answer_id": 108782
+      },
+      {
+        "answer_desc": "Regions d'emergències.",
+        "answer_id": 108783
+      },
+      {
+        "answer_desc": "Parcs de bombers.",
+        "answer_id": 108779
+      },
+      {
+        "answer_desc": "Àrea de Gestió.",
+        "answer_id": 108778
+      }
+    ],
+    "category_desc": "Legislació: Organització Bombers",
+    "difficulty": 2,
+    "question_desc": "A quina estructura correspon la funció de trametre directrius i donar suport als caps de parc en la gestió de l’acció preventiva de riscos laborals?",
+    "question_id": 18465,
+    "topic_desc": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+    "correct_answer_id": 108778,
+    "question_solution_desc": "Els caps de parc reben les directrius i el suport necessaris per gestionar la prevenció de riscos laborals del seu personal.",
+    "question_solution_source": "Decret 12/2023, article 61, redacció vigent des del 6.2.2026; modificació de l’article 36 del Decret 16/2026.",
+    "correct_letter": "D"
+  },
+  {
+    "index": 3,
+    "answerList": [
+      {
+        "answer_desc": "Una referència convencional que s'utilitza per expressar una mesura.",
+        "answer_id": 103601
+      },
+      {
+        "answer_desc": "Un símbol que identifica una unitat dins d'una fórmula.",
+        "answer_id": 103602
+      },
+      {
+        "answer_desc": "Una propietat d'un cos o fenomen que es pot mesurar.",
+        "answer_id": 103600
+      },
+      {
+        "answer_desc": "Una representació gràfica amb mòdul, direcció i sentit.",
+        "answer_id": 103605
+      }
+    ],
+    "category_desc": "Física",
+    "difficulty": 1,
+    "question_desc": "Què és una magnitud física?",
+    "question_id": 17602,
+    "topic_desc": "MAN.GRAL.003: Magnituds i Unitats",
+    "correct_answer_id": 103600,
+    "question_solution_desc": "La massa i la distància són exemples de propietats mesurables.",
+    "question_solution_source": "MAN.GRAL.003: Apartat 2",
+    "correct_letter": "C"
+  },
+  {
+    "index": 4,
+    "answerList": [
+      {
+        "answer_desc": "Verificar l'absència de tensió.",
+        "answer_id": 99249
+      },
+      {
+        "answer_desc": "Prevenir qualsevol possible realimentació.",
+        "answer_id": 99244
+      },
+      {
+        "answer_desc": "Protegir i senyalitzar la zona de treball.",
+        "answer_id": 99248
+      },
+      {
+        "answer_desc": "Mesurar la intensitat nominal de tots els circuits.",
+        "answer_id": 99245
+      }
+    ],
+    "category_desc": "Instal·lacions",
+    "difficulty": 1,
+    "question_desc": "Quina és la segona regla d'or?",
+    "question_id": 16876,
+    "topic_desc": "MAN.GRAL.007: Instal·lacions elèctriques",
+    "correct_answer_id": 99244,
+    "question_solution_desc": "Els dispositius de tall s'han d'assegurar perquè ningú els reconnecti.",
+    "question_solution_source": "MAN.GRAL.007: Apartat 2.5",
+    "correct_letter": "B"
+  },
+  {
+    "index": 5,
+    "answerList": [
+      {
+        "answer_desc": "Menys autonomia i robustesa.",
+        "answer_id": 95782
+      },
+      {
+        "answer_desc": "Dependència obligatòria de coordenades UTM.",
+        "answer_id": 95786
+      },
+      {
+        "answer_desc": "Impossibilitat d'utilitzar mapes descarregats.",
+        "answer_id": 95787
+      },
+      {
+        "answer_desc": "Menys capacitat de càlcul i pantalles més petites.",
+        "answer_id": 95783
+      }
+    ],
+    "category_desc": "Cartografia i orientació",
+    "difficulty": 2,
+    "question_desc": "Quins inconvenients tenen telèfons, tauletes i ordinadors davant dels GPS dedicats?",
+    "question_id": 16299,
+    "topic_desc": "MAN.GRAL.002: El GNSS i els mapes digitals: la navegació moderna",
+    "correct_answer_id": 95782,
+    "question_solution_desc": "Els dispositius generalistes són molt versàtils, però acostumen a estar menys preparats per a condicions ambientals exigents.",
+    "question_solution_source": "MAN.GRAL.002: Apartat 4.4.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 6,
+    "answerList": [
+      {
+        "answer_desc": "Per a la navegació terrestre i la localització cartogràfica dels equips d’intervenció.",
+        "answer_id": 101568
+      },
+      {
+        "answer_desc": "Per a la immobilització sanitària de víctimes i la selecció dels dispositius de trasllat.",
+        "answer_id": 101571
+      },
+      {
+        "answer_desc": "Per a la gestió de les comunicacions operatives i la cobertura de la xarxa de ràdio.",
+        "answer_id": 101570
+      },
+      {
+        "answer_desc": "Per a l'activitat operativa, tècnica i preventiva dels bombers.",
+        "answer_id": 101566
+      }
+    ],
+    "category_desc": "Química",
+    "difficulty": 1,
+    "question_desc": "Per a quina activitat són especialment útils els principis del manual MAN.GRAL.004?",
+    "question_id": 17263,
+    "topic_desc": "MAN.GRAL.004: Introducció",
+    "correct_answer_id": 101566,
+    "question_solution_desc": "La finalitat és interpretar millor el comportament de les substàncies presents en emergències.",
+    "question_solution_source": "MAN.GRAL.004: Apartat 1.1",
+    "correct_letter": "D"
+  },
+  {
+    "index": 7,
+    "answerList": [
+      {
+        "answer_desc": "Durant una setmana sense reposició.",
+        "answer_id": 68055
+      },
+      {
+        "answer_desc": "Durant diverses hores.",
+        "answer_id": 68050
+      },
+      {
+        "answer_desc": "Durant un dia complet obligatòriament.",
+        "answer_id": 68054
+      },
+      {
+        "answer_desc": "Durant quinze minuts.",
+        "answer_id": 68052
+      }
+    ],
+    "category_desc": "Vehicles d'intervenció en emergències",
+    "difficulty": 3,
+    "question_desc": "Durant quant de temps poden treballar independentment els mitjans terrestres gràcies al material disponible?",
+    "question_id": 11677,
+    "topic_desc": "MAN.EQIP.000",
+    "correct_answer_id": 68050,
+    "question_solution_desc": "El manual descriu una autonomia operativa de diverses hores.",
+    "question_solution_source": "MAN.EQIP.000: Apartat 2.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 8,
+    "answerList": [
+      {
+        "answer_desc": "La necessitat és moderada.",
+        "answer_id": 85655
+      },
+      {
+        "answer_desc": "La necessitat és progressiva.",
+        "answer_id": 85659
+      },
+      {
+        "answer_desc": "La necessitat és alta.",
+        "answer_id": 85656
+      },
+      {
+        "answer_desc": "La necessitat és baixa.",
+        "answer_id": 85654
+      }
+    ],
+    "category_desc": "Intervenció bàsica en salvaments al medi natural terrestre",
+    "difficulty": 2,
+    "question_desc": "Quina necessitat de personal té la recerca per punts probables?",
+    "question_id": 14611,
+    "topic_desc": "MAN.SVMN.000: Maniobres en recerques",
+    "correct_answer_id": 85654,
+    "question_solution_desc": "Aquesta modalitat té una baixa necessitat de personal.",
+    "question_solution_source": "MAN.SVMN.000: Apartat 5.3",
+    "correct_letter": "D"
+  },
+  {
+    "index": 9,
+    "answerList": [
+      {
+        "answer_desc": "Inspector, oficial i sergent.",
+        "answer_id": 33712
+      },
+      {
+        "answer_desc": "Suboficial, caporal i bomber.",
+        "answer_id": 33716
+      },
+      {
+        "answer_desc": "Oficial, sergent, caporal i bomber de primera.",
+        "answer_id": 33711
+      },
+      {
+        "answer_desc": "Totes les categories operatives.",
+        "answer_id": 33714
+      }
+    ],
+    "category_desc": "Legislació: Bombers i protecció civil",
+    "difficulty": 1,
+    "question_desc": "Quines categories inclou l’escala tècnica del Cos de Bombers de la Generalitat?",
+    "question_id": 5886,
+    "topic_desc": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya",
+    "correct_answer_id": 33711,
+    "question_solution_desc": "L’escala tècnica comprèn oficial, sergent, caporal i bomber de primera, segons la classificació jeràrquica establerta per la Llei 5/1994.",
+    "question_solution_source": "",
+    "correct_letter": "C"
+  },
+  {
+    "index": 10,
+    "answerList": [
+      {
+        "answer_desc": "Dipòsits d'alta pressió, ruptura amb projeccions, torxa poc visible i atmosfera inflamable en confinament.",
+        "answer_id": 75080
+      },
+      {
+        "answer_desc": "Combustió persistent, fum dens i tòxic i vapors inflamables quan s'escalfa prou.",
+        "answer_id": 75078
+      },
+      {
+        "answer_desc": "Rang d'ignició ampli, alta pressió, flama invisible i risc molt elevat en confinament.",
+        "answer_id": 75076
+      },
+      {
+        "answer_desc": "Fred criogènic, evaporació sobtada amb núvol inflamable i perill en llocs poc ventilats.",
+        "answer_id": 75081
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis diversos",
+    "difficulty": 2,
+    "question_desc": "Quins riscos corresponen a un vehicle amb pila d'hidrogen?",
+    "question_id": 12848,
+    "topic_desc": "MAN.INXX.000: Intervenció en incendis de vehicles",
+    "correct_answer_id": 75076,
+    "question_solution_desc": "L'hidrogen s'inflama en un interval ampli de concentracions i la seva flama pot passar desapercebuda a simple vista.",
+    "question_solution_source": "MAN.INXX.000: Apartat 2.4.2",
+    "correct_letter": "C"
+  },
+  {
+    "index": 11,
+    "answerList": [
+      {
+        "answer_desc": "Al segle XVII.",
+        "answer_id": 94363
+      },
+      {
+        "answer_desc": "Al segle XVI.",
+        "answer_id": 94360
+      },
+      {
+        "answer_desc": "Al segle XX.",
+        "answer_id": 94365
+      },
+      {
+        "answer_desc": "Al segle XV.",
+        "answer_id": 94362
+      }
+    ],
+    "category_desc": "Cartografia i orientació",
+    "difficulty": 3,
+    "question_desc": "En quin segle va proposar Mercator la projecció cilíndrica normal?",
+    "question_id": 16062,
+    "topic_desc": "MAN.GRAL.002: La cartografia",
+    "correct_answer_id": 94360,
+    "question_solution_desc": "La dada històrica situa la proposta de Mercator al segle XVI.",
+    "question_solution_source": "MAN.GRAL.002: Apartat 2.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 12,
+    "answerList": [
+      {
+        "answer_desc": "Poden actuar com a elements portants.",
+        "answer_id": 93334
+      },
+      {
+        "answer_desc": "Poden actuar com a divisions interiors lleugeres.",
+        "answer_id": 93335
+      },
+      {
+        "answer_desc": "Poden actuar com a revestiments ceràmics de façana.",
+        "answer_id": 93337
+      },
+      {
+        "answer_desc": "Poden actuar com a membranes impermeables en rotllos.",
+        "answer_id": 93338
+      }
+    ],
+    "category_desc": "Construcció",
+    "difficulty": 2,
+    "question_desc": "Quina funció addicional poden tenir les pantalles contínues?",
+    "question_id": 15891,
+    "topic_desc": "MAN.GRAL.006: Elements estructurals",
+    "correct_answer_id": 93334,
+    "question_solution_desc": "A més de retenir terres, una pantalla pot formar part de l'esquelet que suporta càrregues de l'edificació.",
+    "question_solution_source": "MAN.GRAL.006: Apartat 4.1.6",
+    "correct_letter": "A"
+  },
+  {
+    "index": 13,
+    "answerList": [
+      {
+        "answer_desc": "La inspecció de lesions ocultes.",
+        "answer_id": 80383
+      },
+      {
+        "answer_desc": "La comunicació tranquil·la.",
+        "answer_id": 80381
+      },
+      {
+        "answer_desc": "La protecció de la temperatura.",
+        "answer_id": 80382
+      },
+      {
+        "answer_desc": "Els moviments innecessaris.",
+        "answer_id": 80380
+      }
+    ],
+    "category_desc": "Intervenció bàsica en assistència sanitària",
+    "difficulty": 2,
+    "question_desc": "Què s’ha d’evitar abans d’haver valorat correctament una víctima?",
+    "question_id": 13732,
+    "topic_desc": "MAN.SANI.000: Seguretat en l’assistència sanitària",
+    "correct_answer_id": 80380,
+    "question_solution_desc": "Un moviment no justificat pot agreujar fractures, hemorràgies o lesions vertebrals.",
+    "question_solution_source": "MAN.SANI.000: Apartat 5.2",
+    "correct_letter": "D"
+  },
+  {
+    "index": 14,
+    "answerList": [
+      {
+        "answer_desc": "Dues figures.",
+        "answer_id": 81593
+      },
+      {
+        "answer_desc": "Tres figures.",
+        "answer_id": 81592
+      },
+      {
+        "answer_desc": "Quatre figures.",
+        "answer_id": 81594
+      },
+      {
+        "answer_desc": "Set figures.",
+        "answer_id": 81597
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incidents de múltiples víctimes",
+    "difficulty": 3,
+    "question_desc": "Quantes figures formen la cèl·lula d’avaluació descrita al manual?",
+    "question_id": 13934,
+    "topic_desc": "MAN.SANI.001: Organització de la intervenció",
+    "correct_answer_id": 81592,
+    "question_solution_desc": "La representació tripartida integra assistència, rescat i seguretat.",
+    "question_solution_source": "MAN.SANI.001: Apartat 3.2",
+    "correct_letter": "B"
+  },
+  {
+    "index": 15,
+    "answerList": [
+      {
+        "answer_desc": "L'Àrea de Planificació de Recursos.",
+        "answer_id": 60213
+      },
+      {
+        "answer_desc": "L'Àrea de Coordinació d'Emergències.",
+        "answer_id": 60212
+      },
+      {
+        "answer_desc": "L'Àrea de Bombers Voluntaris.",
+        "answer_id": 60214
+      },
+      {
+        "answer_desc": "L'Àrea de Logística.",
+        "answer_id": 60215
+      }
+    ],
+    "category_desc": "Legislació: Organització Bombers",
+    "difficulty": 2,
+    "question_desc": "Segons l'article 39.2 del Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública, quina de les opcions següents no depèn de la Divisió de Planificació i Gestió?",
+    "question_id": 10314,
+    "topic_desc": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+    "correct_answer_id": 60212,
+    "question_solution_desc": "L'article 39.2 només inclou tres àrees dependents: Planificació de Recursos, Bombers Voluntaris i Logística. L'Àrea de Coordinació d'Emergències no hi figura.",
+    "question_solution_source": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+    "correct_letter": "B"
+  },
+  {
+    "index": 16,
+    "answerList": [
+      {
+        "answer_desc": "El recorregut vertical de la càrrega.",
+        "answer_id": 105939
+      },
+      {
+        "answer_desc": "La longitud del pla inclinat.",
+        "answer_id": 105934
+      },
+      {
+        "answer_desc": "El pes de l'objecte sobre la rampa.",
+        "answer_id": 105937
+      },
+      {
+        "answer_desc": "El coeficient de fregament de la superfície.",
+        "answer_id": 105938
+      }
+    ],
+    "category_desc": "Física",
+    "difficulty": 2,
+    "question_desc": "Què representa L en la fórmula del pla inclinat?",
+    "question_id": 17991,
+    "topic_desc": "MAN.GRAL.003: Màquines simples",
+    "correct_answer_id": 105934,
+    "question_solution_desc": "L és la hipotenusa del triangle que representa la rampa.",
+    "question_solution_source": "MAN.GRAL.003: Apartat 5.2",
+    "correct_letter": "B"
+  },
+  {
+    "index": 17,
+    "answerList": [
+      {
+        "answer_desc": "Centre de masses a la cistella, reacció R2 nul·la, moments del mateix sentit i terra flexible.",
+        "answer_id": 105205
+      },
+      {
+        "answer_desc": "Centre de masses dins la base, estabilitzador contrari carregat, moment de bolcada no superior i terra resistent.",
+        "answer_id": 105202
+      },
+      {
+        "answer_desc": "Centre de masses fora la base, estabilitzador contrari carregat, moment de bolcada inferior i terra resistent.",
+        "answer_id": 105207
+      },
+      {
+        "answer_desc": "Centre de masses fora la base, estabilitzador contrari descarregat, moment de bolcada superior i terra rígid.",
+        "answer_id": 105203
+      }
+    ],
+    "category_desc": "Física",
+    "difficulty": 2,
+    "question_desc": "Quines quatre condicions resumeix el manual perquè una autoescala no bolqui?",
+    "question_id": 17869,
+    "topic_desc": "MAN.GRAL.003: Mecànica clàssica",
+    "correct_answer_id": 105202,
+    "question_solution_desc": "L'estabilitat exigeix una geometria favorable, reaccions positives, balanç de moments i suport suficient del terreny.",
+    "question_solution_source": "MAN.GRAL.003: Apartat 4.3",
+    "correct_letter": "B"
+  },
+  {
+    "index": 18,
+    "answerList": [
+      {
+        "answer_desc": "Entre 80 i 120 batecs per minut.",
+        "answer_id": 78632
+      },
+      {
+        "answer_desc": "Entre 60 i 100 batecs per minut.",
+        "answer_id": 78628
+      },
+      {
+        "answer_desc": "Entre 40 i 60 batecs per minut.",
+        "answer_id": 78630
+      },
+      {
+        "answer_desc": "Entre 50 i 80 batecs per minut.",
+        "answer_id": 78631
+      }
+    ],
+    "category_desc": "Intervenció bàsica en assistència sanitària",
+    "difficulty": 3,
+    "question_desc": "Quin interval de freqüència cardíaca es considera normal en una persona adulta?",
+    "question_id": 13440,
+    "topic_desc": "MAN.SANI.000: Valoració",
+    "correct_answer_id": 78628,
+    "question_solution_desc": "La freqüència s’ha d’interpretar amb el ritme, la força del pols i l’estat clínic.",
+    "question_solution_source": "MAN.SANI.000: Apartat 3.1.4",
+    "correct_letter": "B"
+  },
+  {
+    "index": 19,
+    "answerList": [
+      {
+        "answer_desc": "Sumant directament totes les intensitats i totes les tensions del circuit.",
+        "answer_id": 100523
+      },
+      {
+        "answer_desc": "Substituint cada receptor per un interruptor connectat en paral·lel.",
+        "answer_id": 100524
+      },
+      {
+        "answer_desc": "Agrupant seccions i calculant successivament les resistències equivalents.",
+        "answer_id": 100522
+      },
+      {
+        "answer_desc": "Calculant la potència aparent sense determinar cap resistència equivalent.",
+        "answer_id": 100527
+      }
+    ],
+    "category_desc": "Electricitat",
+    "difficulty": 2,
+    "question_desc": "Com es pot simplificar un circuit mixt que no sigui excessivament complex?",
+    "question_id": 17089,
+    "topic_desc": "MAN.GRAL.005: Circuits elèctrics simples",
+    "correct_answer_id": 100522,
+    "question_solution_desc": "La reducció per etapes permet arribar a una única resistència equivalent.",
+    "question_solution_source": "MAN.GRAL.005: Apartat 5.2.3",
+    "correct_letter": "C"
+  },
+  {
+    "index": 20,
+    "answerList": [
+      {
+        "answer_desc": "Una falta lleu.",
+        "answer_id": 33753
+      },
+      {
+        "answer_desc": "Una falta greu.",
+        "answer_id": 33752
+      },
+      {
+        "answer_desc": "Una infracció administrativa de nivell 1.",
+        "answer_id": 33754
+      },
+      {
+        "answer_desc": "Una falta molt greu.",
+        "answer_id": 33751
+      }
+    ],
+    "category_desc": "Legislació: Bombers i protecció civil",
+    "difficulty": 2,
+    "question_desc": "La insubordinació individual o col·lectiva cap a autoritats o comandaments dintre el cos de bombers de la Generalitat és considerada:",
+    "question_id": 5893,
+    "topic_desc": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya",
+    "correct_answer_id": 33751,
+    "question_solution_desc": "És una falta molt greu la insubordinació individual o col·lectiva, respecte a les autoritats o comandaments de qui depengui, i la desobediència a les legítimes instruccions donades per aquests.",
+    "question_solution_source": "",
+    "correct_letter": "D"
+  },
+  {
+    "index": 21,
+    "answerList": [
+      {
+        "answer_desc": "Disminueix la piròlisi i redueix el contacte amb el comburent.",
+        "answer_id": 107431
+      },
+      {
+        "answer_desc": "Augmenta l'energia externa necessària per arribar a la temperatura d'ignició.",
+        "answer_id": 107429
+      },
+      {
+        "answer_desc": "Eleva la humitat i impedeix la propagació de la combustió.",
+        "answer_id": 107432
+      },
+      {
+        "answer_desc": "Redueix l'energia externa necessària per arribar a la temperatura d'ignició.",
+        "answer_id": 107428
+      }
+    ],
+    "category_desc": "Teoria del foc i agents extintors",
+    "difficulty": 2,
+    "question_desc": "Com afecta el preescalfament del combustible a la ignició?",
+    "question_id": 18240,
+    "topic_desc": "MAN.GRAL.008: Condicionants que afecten la combustió",
+    "correct_answer_id": 107428,
+    "question_solution_desc": "Un material calent ja ha recorregut part del salt tèrmic necessari per començar a cremar.",
+    "question_solution_source": "MAN.GRAL.008: Apartat 8.5",
+    "correct_letter": "D"
+  },
+  {
+    "index": 22,
+    "answerList": [
+      {
+        "answer_desc": "La probabilitat que es produeixi un fenomen d'una intensitat determinada.",
+        "answer_id": 69826
+      },
+      {
+        "answer_desc": "El nombre i el temps d'elements en contacte amb un fenomen.",
+        "answer_id": 69828
+      },
+      {
+        "answer_desc": "La resposta institucional prevista en un pla de protecció civil.",
+        "answer_id": 69831
+      },
+      {
+        "answer_desc": "El conjunt de recursos mobilitzats per controlar les conseqüències.",
+        "answer_id": 69830
+      }
+    ],
+    "category_desc": "Introducció a la gestió d’emergències i al sistema de protecció civil",
+    "difficulty": 2,
+    "question_desc": "Què és el perill?",
+    "question_id": 11973,
+    "topic_desc": "MAN.GRAL.001",
+    "correct_answer_id": 69826,
+    "question_solution_desc": "El perill combina probabilitat d'ocurrència i intensitat.",
+    "question_solution_source": "MAN.GRAL.001: Apartat 2.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 23,
+    "answerList": [
+      {
+        "answer_desc": "Només si no hi ha prova documental.",
+        "answer_id": 41957
+      },
+      {
+        "answer_desc": "No, un sol fet greu pot ser suficient.",
+        "answer_id": 41952
+      },
+      {
+        "answer_desc": "Només si no hi ha jerarquia.",
+        "answer_id": 41956
+      },
+      {
+        "answer_desc": "Només en assetjament sexual.",
+        "answer_id": 41954
+      }
+    ],
+    "category_desc": "Legislació: Igualtat",
+    "difficulty": 2,
+    "question_desc": "Segons el Protocol per a la prevenció, la detecció, l’actuació i la resolució de situacions d’assetjament sexual, per raó del sexe, de l’orientació sexual i/o de la identitat sexual a l’Administració de la Generalitat de Catalunya, la persistència és sempre necessària perquè hi hagi assetjament?",
+    "question_id": 7265,
+    "topic_desc": "Protocol contra l’assetjament sexual i per raó de sexe a la Generalitat de Catalunya",
+    "correct_answer_id": 41952,
+    "question_solution_desc": "El Protocol estableix que la persistència és habitual però no imprescindible si el fet és prou greu.",
+    "question_solution_source": "",
+    "correct_letter": "B"
+  },
+  {
+    "index": 24,
+    "answerList": [
+      {
+        "answer_desc": "La força ascendent que rep un cos submergit.",
+        "answer_id": 96999
+      },
+      {
+        "answer_desc": "La pressió exercida per les molècules que passen a vapor.",
+        "answer_id": 96996
+      },
+      {
+        "answer_desc": "La massa de líquid continguda per unitat de volum.",
+        "answer_id": 96997
+      },
+      {
+        "answer_desc": "La força que manté unides les molècules de la superfície d'un líquid.",
+        "answer_id": 96994
+      }
+    ],
+    "category_desc": "Hidràulica i bombes",
+    "difficulty": 1,
+    "question_desc": "Què és la tensió superficial?",
+    "question_id": 16501,
+    "topic_desc": "MAN.GRAL.009: Propietats físiques dels líquids",
+    "correct_answer_id": 96994,
+    "question_solution_desc": "La cohesió entre les molècules de la capa superficial explica la formació de gotes i la resistència d'aquesta làmina.",
+    "question_solution_source": "MAN.GRAL.009: Apartat 2.4",
+    "correct_letter": "D"
+  },
+  {
+    "index": 25,
+    "answerList": [
+      {
+        "answer_desc": "La conversió AC/AC.",
+        "answer_id": 101128
+      },
+      {
+        "answer_desc": "La compensació capacitiva.",
+        "answer_id": 101133
+      },
+      {
+        "answer_desc": "La conversió DC/AC.",
+        "answer_id": 101130
+      },
+      {
+        "answer_desc": "La rectificació simple.",
+        "answer_id": 101132
+      }
+    ],
+    "category_desc": "Electricitat",
+    "difficulty": 2,
+    "question_desc": "Quina conversió modifica el voltatge o la freqüència d'un corrent altern?",
+    "question_id": 17190,
+    "topic_desc": "MAN.GRAL.005: Tipus de corrent elèctric",
+    "correct_answer_id": 101128,
+    "question_solution_desc": "Els variadors poden utilitzar una etapa intermèdia AC-DC-AC.",
+    "question_solution_source": "MAN.GRAL.005: Apartat 7.3",
+    "correct_letter": "A"
+  },
+  {
+    "index": 26,
+    "answerList": [
+      {
+        "answer_desc": "D’una resposta immediata del receptor, independentment del contingut rebut.",
+        "answer_id": 66842
+      },
+      {
+        "answer_desc": "D’una informació completa, encara que no segueixi una estructura coneguda.",
+        "answer_id": 66840
+      },
+      {
+        "answer_desc": "D’un missatge transmès pel canal correcte, encara que sigui ambigu.",
+        "answer_id": 66841
+      },
+      {
+        "answer_desc": "D’un missatge ben estructurat i transmès correctament.",
+        "answer_id": 66838
+      }
+    ],
+    "category_desc": "Comunicacions per ràdio",
+    "difficulty": 2,
+    "question_desc": "Segons el MAN.COMU.000, de què pot dependre una bona decisió presa a temps en una emergència?",
+    "question_id": 11475,
+    "topic_desc": "MAN.COMU.000: Introducció",
+    "correct_answer_id": 66838,
+    "question_solution_desc": "La qualitat de l’estructura i de la transmissió condiciona la presa de decisions.",
+    "question_solution_source": "MAN.COMU.000: Apartat 1.1",
+    "correct_letter": "D"
+  },
+  {
+    "index": 27,
+    "answerList": [
+      {
+        "answer_desc": "Carrera horitzontal.",
+        "answer_id": 26727
+      },
+      {
+        "answer_desc": "Carrera vertical.",
+        "answer_id": 26726
+      },
+      {
+        "answer_desc": "Promoció interna vertical.",
+        "answer_id": 26725
+      },
+      {
+        "answer_desc": "Cap de les opcions és correcte.",
+        "answer_id": 26729
+      }
+    ],
+    "category_desc": "Legislació: Funció pública",
+    "difficulty": 3,
+    "question_desc": "En quant a la carrera professional i la promoció interna dels funcionaris de carrera, a què ens estem referint quan parlem de l’ascens des d’un cos o escala d’un subgrup, o grup de classificació professional en el supòsit que aquest no tingui subgrup, a un altre de superior?",
+    "question_id": 4616,
+    "topic_desc": "Drets i deures del personal funcionari",
+    "correct_answer_id": 26725,
+    "question_solution_desc": "La promoció interna vertical consisteix en l’ascens des d’un cos o escala d’un subgrup, o grup de classificació professional en el supòsit que aquest no tingui subgrup, a un altre de superior, d’acord amb el que estableix l’article 18 de l'Estatut Bàsic de l’Empleat Públic.",
+    "question_solution_source": "Article 16 i 18 de l'Estatut Bàsic de l’Empleat Públic.",
+    "correct_letter": "C"
+  },
+  {
+    "index": 28,
+    "answerList": [
+      {
+        "answer_desc": "Es transmet a la xarxa si hi ha algun terminal amb cobertura.",
+        "answer_id": 91039
+      },
+      {
+        "answer_desc": "Arriba a la Sala de Control, però no activa recursos externs.",
+        "answer_id": 91037
+      },
+      {
+        "answer_desc": "Arriba a la SCT com un missatge d’estat sense prioritat.",
+        "answer_id": 91040
+      },
+      {
+        "answer_desc": "No arriba a la Sala de Control ni activa serveis centralitzats.",
+        "answer_id": 91036
+      }
+    ],
+    "category_desc": "Comunicacions per ràdio",
+    "difficulty": 2,
+    "question_desc": "Quina limitació té una trucada d’emergència en mode directe respecte dels serveis centralitzats?",
+    "question_id": 15508,
+    "topic_desc": "MAN.COMU.000: La xarxa Rescat i les emissores",
+    "correct_answer_id": 91036,
+    "question_solution_desc": "La comunicació no entra a la infraestructura RESCAT.",
+    "question_solution_source": "MAN.COMU.000: Apartat 5.3.8",
+    "correct_letter": "D"
+  },
+  {
+    "index": 29,
+    "answerList": [
+      {
+        "answer_desc": "Substituir les mesures de control quan el corrent sigui feble.",
+        "answer_id": 66399
+      },
+      {
+        "answer_desc": "Fer front als riscos de la intervenció.",
+        "answer_id": 66394
+      },
+      {
+        "answer_desc": "Mantenir la flotació independentment de les condicions del medi.",
+        "answer_id": 66398
+      },
+      {
+        "answer_desc": "Eliminar els riscos associats a l’entrada a l’aigua.",
+        "answer_id": 66395
+      }
+    ],
+    "category_desc": "Intervenció bàsica en inundacions",
+    "difficulty": 2,
+    "question_desc": "Quina funció general té l’EPI aquàtic?",
+    "question_id": 11401,
+    "topic_desc": "MAN.SVMN.001: Seguretat en intervencions per inundacions",
+    "correct_answer_id": 66394,
+    "question_solution_desc": "L’equip redueix l’exposició però no elimina la resta de mesures de seguretat.",
+    "question_solution_source": "MAN.SVMN.001: Apartat 5.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 30,
+    "answerList": [
+      {
+        "answer_desc": "S = b·h/2.",
+        "answer_id": 104428
+      },
+      {
+        "answer_desc": "S = b²+h².",
+        "answer_id": 104432
+      },
+      {
+        "answer_desc": "S = b+h/2.",
+        "answer_id": 104431
+      },
+      {
+        "answer_desc": "S = π·b·h.",
+        "answer_id": 104433
+      }
+    ],
+    "category_desc": "Física",
+    "difficulty": 1,
+    "question_desc": "Quina és la fórmula de l'àrea d'un triangle de base b i altura h?",
+    "question_id": 17740,
+    "topic_desc": "MAN.GRAL.003: Geometria i trigonometria",
+    "correct_answer_id": 104428,
+    "question_solution_desc": "Un triangle ocupa la meitat d'un paral·lelogram amb la mateixa base i altura.",
+    "question_solution_source": "MAN.GRAL.003: Apartat 3.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 31,
+    "answerList": [
+      {
+        "answer_desc": "L'argó.",
+        "answer_id": 107852
+      },
+      {
+        "answer_desc": "La pols BC.",
+        "answer_id": 107850
+      },
+      {
+        "answer_desc": "L'aigua.",
+        "answer_id": 107848
+      },
+      {
+        "answer_desc": "El diòxid de carboni.",
+        "answer_id": 107853
+      }
+    ],
+    "category_desc": "Teoria del foc i agents extintors",
+    "difficulty": 1,
+    "question_desc": "Quin agent exemplifica principalment l'extinció per refredament?",
+    "question_id": 18310,
+    "topic_desc": "MAN.GRAL.008: Teoria de l’extinció",
+    "correct_answer_id": 107848,
+    "question_solution_desc": "L'elevada capacitat calorífica i la calor latent de vaporització fan de l'aigua el refrigerant principal.",
+    "question_solution_source": "MAN.GRAL.008: Apartat 13.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 32,
+    "answerList": [
+      {
+        "answer_desc": "És un incendi de vegetació d'abast inferior o igual al llindar d'una hectàrea.",
+        "answer_id": 111760
+      },
+      {
+        "answer_desc": "Manté una dimensió rellevant però encara és assumible pels recursos territorials.",
+        "answer_id": 111761
+      },
+      {
+        "answer_desc": "Afecta necessàriament una zona urbana.",
+        "answer_id": 111765
+      },
+      {
+        "answer_desc": "Es caracteritza per la presència d'una tempesta.",
+        "answer_id": 111764
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis forestals",
+    "difficulty": 2,
+    "question_desc": "Dins la classificació segons l'afectació, quina descripció correspon a un conat d'incendi?",
+    "question_id": 18962,
+    "topic_desc": "MAN.INVE.000: Coneixements bàsics sobre incendis forestals",
+    "correct_answer_id": 111760,
+    "question_solution_desc": "És un incendi de vegetació d'abast inferior o igual al llindar d'una hectàrea resumeix la seva afectació operativa.",
+    "question_solution_source": "MAN.INVE.000: Apartat 2.5",
+    "correct_letter": "A"
+  },
+  {
+    "index": 33,
+    "answerList": [
+      {
+        "answer_desc": "Alimenta el tren elèctric des d’una motor dièsel auxiliar.",
+        "answer_id": 87336
+      },
+      {
+        "answer_desc": "Alimenta el tren elèctric des d’una línia aèria.",
+        "answer_id": 87334
+      },
+      {
+        "answer_desc": "Alimenta el tren elèctric des d’una tercer rail, en la configuració ferroviària descrita.",
+        "answer_id": 87339
+      },
+      {
+        "answer_desc": "Alimenta el tren elèctric des d’una tercer rail.",
+        "answer_id": 87335
+      }
+    ],
+    "category_desc": "Intervenció bàsica en accidents de mobilitat viària",
+    "difficulty": 2,
+    "question_desc": "Què afirma el manual sobre «catenària» en la composició d’un tren?",
+    "question_id": 14891,
+    "topic_desc": "MAN.SVVH.000: Coneixements generals",
+    "correct_answer_id": 87334,
+    "question_solution_desc": "Les parts bàsiques d’un tren són: a. La locomotora o cap de tren És l’element que proporciona la potència de tracció. Pot estar situada en un extrem del tren o integrada dins les unitats motoritzades (en trens moderns).",
+    "question_solution_source": "MAN.SVVH.000: Apartat 2.4.2",
+    "correct_letter": "B"
+  },
+  {
+    "index": 34,
+    "answerList": [
+      {
+        "answer_desc": "Al Canadà.",
+        "answer_id": 70721
+      },
+      {
+        "answer_desc": "Als Estats Units.",
+        "answer_id": 70720
+      },
+      {
+        "answer_desc": "A Austràlia.",
+        "answer_id": 70725
+      },
+      {
+        "answer_desc": "Al Regne Unit.",
+        "answer_id": 70724
+      }
+    ],
+    "category_desc": "Principis i característiques del sistema de comandament del Cos de Bombers",
+    "difficulty": 2,
+    "question_desc": "En quin país es va desenvolupar l'ICS?",
+    "question_id": 12122,
+    "topic_desc": "MAN.COMD.001",
+    "correct_answer_id": 70720,
+    "question_solution_desc": "El sistema es va originar als Estats Units.",
+    "question_solution_source": "MAN.COMD.001: Apartat 1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 35,
+    "answerList": [
+      {
+        "answer_desc": "La conversió d’oficines en habitatges i la limitació de noves edificacions.",
+        "answer_id": 89547
+      },
+      {
+        "answer_desc": "L’expansió horitzontal de les ciutats i la construcció d’habitatges unifamiliars.",
+        "answer_id": 89543
+      },
+      {
+        "answer_desc": "La verticalització de les ciutats i la construcció d'habitatges plurifamiliars.",
+        "answer_id": 89542
+      },
+      {
+        "answer_desc": "La rehabilitació de nuclis antics i la reducció de l’alçada dels edificis.",
+        "answer_id": 89544
+      }
+    ],
+    "category_desc": "Intervenció bàsica en rescat urbà",
+    "difficulty": 2,
+    "question_desc": "Quina combinació de processos urbans va afavorir l'expansió dels ascensors?",
+    "question_id": 15259,
+    "topic_desc": "MAN.SVXX.000: Intervencions en ascensors",
+    "correct_answer_id": 89542,
+    "question_solution_desc": "Els edificis més alts i densos van convertir l'ascensor en una infraestructura quotidiana.",
+    "question_solution_source": "MAN.SVXX.000: Apartat 3",
+    "correct_letter": "C"
+  },
+  {
+    "index": 36,
+    "answerList": [
+      {
+        "answer_desc": "El valor indicat és 360 °C.",
+        "answer_id": 106797
+      },
+      {
+        "answer_desc": "El valor indicat és 350 °C.",
+        "answer_id": 106792
+      },
+      {
+        "answer_desc": "El valor indicat és 300 °C.",
+        "answer_id": 106796
+      },
+      {
+        "answer_desc": "El valor indicat és 220 °C.",
+        "answer_id": 106793
+      }
+    ],
+    "category_desc": "Teoria del foc i agents extintors",
+    "difficulty": 3,
+    "question_desc": "Quina temperatura d'autoignició indica la taula de l'apartat 5.3.1 per a l'acetilè?",
+    "question_id": 18134,
+    "topic_desc": "MAN.GRAL.008: Combustibles: classificació i propietats",
+    "correct_answer_id": 106792,
+    "question_solution_desc": "La taula assigna a l'acetilè una temperatura d'autoignició de 350 °C.",
+    "question_solution_source": "MAN.GRAL.008: Apartat 5.3.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 37,
+    "answerList": [
+      {
+        "answer_desc": "Per arribar ràpidament a víctimes en aigües obertes.",
+        "answer_id": 68266
+      },
+      {
+        "answer_desc": "Per transportar autobombes per carreteres inundades.",
+        "answer_id": 68267
+      },
+      {
+        "answer_desc": "Per transportar equips de respiració entre embarcacions de suport.",
+        "answer_id": 68271
+      },
+      {
+        "answer_desc": "Per alimentar instal·lacions d'extinció en edificis alts.",
+        "answer_id": 68270
+      }
+    ],
+    "category_desc": "Vehicles d'intervenció en emergències",
+    "difficulty": 2,
+    "question_desc": "Per a què s'utilitzen les llanxes ràpides de rescat i les motos d'aigua?",
+    "question_id": 11713,
+    "topic_desc": "MAN.EQIP.000",
+    "correct_answer_id": 68266,
+    "question_solution_desc": "La seva funció destacada és arribar ràpidament a víctimes en aigües obertes.",
+    "question_solution_source": "MAN.EQIP.000: Apartat 2.3",
+    "correct_letter": "A"
+  },
+  {
+    "index": 38,
+    "answerList": [
+      {
+        "answer_desc": "Un motor sense reductor o gearless.",
+        "answer_id": 89650
+      },
+      {
+        "answer_desc": "Un motor lineal integrat a les guies de la cabina.",
+        "answer_id": 89653
+      },
+      {
+        "answer_desc": "Un motor amb reductor o geared.",
+        "answer_id": 89651
+      },
+      {
+        "answer_desc": "Un motor de tambor amb transmissió per cadena.",
+        "answer_id": 89655
+      }
+    ],
+    "category_desc": "Intervenció bàsica en rescat urbà",
+    "difficulty": 3,
+    "question_desc": "Quina transmissió incorporen les instal·lacions electromecàniques modernes d'ascensors?",
+    "question_id": 15277,
+    "topic_desc": "MAN.SVXX.000: Intervencions en ascensors",
+    "correct_answer_id": 89650,
+    "question_solution_desc": "El motor actua de manera més directa i compacta sobre la politja.",
+    "question_solution_source": "MAN.SVXX.000: Apartat 3.1.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 39,
+    "answerList": [
+      {
+        "answer_desc": "Una sortida de fum que no modifica l’aportació d’aire si no s’hi instal·la cap ventilador.",
+        "answer_id": 73967
+      },
+      {
+        "answer_desc": "Una acció de ventilació que modifica els fluxos d’aire i de fum.",
+        "answer_id": 73966
+      },
+      {
+        "answer_desc": "Una acció de ventilació quan l’obertura s’ha definit prèviament com a sortida de fums.",
+        "answer_id": 73970
+      },
+      {
+        "answer_desc": "Una acció de ventilació quan l’obertura comunica directament amb l’exterior.",
+        "answer_id": 73969
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis estructurals",
+    "difficulty": 1,
+    "question_desc": "Quin efecte operatiu té qualsevol obertura practicada en una estructura durant un incendi?",
+    "question_id": 12663,
+    "topic_desc": "MAN.INES.000: Maniobres d’intervenció i Seguretat",
+    "correct_answer_id": 73966,
+    "question_solution_desc": "Crear o ampliar una obertura canvia l’entrada d’oxigen i el recorregut dels gasos, encara que l’objectiu immediat de l’acció sigui un altre.",
+    "question_solution_source": "MAN.INES.000: Apartat 5.8",
+    "correct_letter": "B"
+  },
+  {
+    "index": 40,
+    "answerList": [
+      {
+        "answer_desc": "Emissió de gasos.",
+        "answer_id": 76140
+      },
+      {
+        "answer_desc": "Risc simple.",
+        "answer_id": 76139
+      },
+      {
+        "answer_desc": "Inflamabilitat de líquids.",
+        "answer_id": 76138
+      },
+      {
+        "answer_desc": "Toxicitat.",
+        "answer_id": 76143
+      }
+    ],
+    "category_desc": "Intervenció bàsica en riscos NRBQ",
+    "difficulty": 2,
+    "question_desc": "Quin significat té el caràcter «3» en un codi de perill ADR?",
+    "question_id": 13025,
+    "topic_desc": "MAN.RRTT.000: Coneixements bàsics",
+    "correct_answer_id": 76138,
+    "question_solution_desc": "El 3 correspon al perill d'inflamació de líquids o vapors.",
+    "question_solution_source": "MAN.RRTT.000: Apartat 2.2.2",
+    "correct_letter": "C"
+  },
+  {
+    "index": 41,
+    "answerList": [
+      {
+        "answer_desc": "Unitat de Desenvolupament Operatiu.",
+        "answer_id": 108373
+      },
+      {
+        "answer_desc": "Àrea del Grup d'Actuacions Especials.",
+        "answer_id": 108370
+      },
+      {
+        "answer_desc": "Unitat de Col·lapses Estructurals.",
+        "answer_id": 108375
+      },
+      {
+        "answer_desc": "Àrea del Grup d'Actuació Forestal.",
+        "answer_id": 108374
+      }
+    ],
+    "category_desc": "Legislació: Organització Bombers",
+    "difficulty": 2,
+    "question_desc": "A quina estructura correspon la funció de dirigir i supervisar la planificació i execució de maniobres i entrenaments específics en matèria de rescats i salvaments?",
+    "question_id": 18397,
+    "topic_desc": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+    "correct_answer_id": 108370,
+    "question_solution_desc": "La planificació i la supervisió de maniobres i entrenaments específics de rescat i salvament formen part de la coordinació tècnica de les actuacions especials.",
+    "question_solution_source": "Decret 12/2023, article 44, redacció vigent des del 6.2.2026; modificació de l’article 14 del Decret 16/2026.",
+    "correct_letter": "B"
+  },
+  {
+    "index": 42,
+    "answerList": [
+      {
+        "answer_desc": "El Títol VII.",
+        "answer_id": 62382
+      },
+      {
+        "answer_desc": "El Títol X.",
+        "answer_id": 62384
+      },
+      {
+        "answer_desc": "El Títol VIII.",
+        "answer_id": 62383
+      },
+      {
+        "answer_desc": "El Títol IX.",
+        "answer_id": 62380
+      }
+    ],
+    "category_desc": "Legislació: Constitució i Estatut",
+    "difficulty": 2,
+    "question_desc": "Quin títol de la Constitució Espanyola de 1978 regula el Tribunal Constitucional?",
+    "question_id": 10731,
+    "topic_desc": "La Constitució espanyola: estructura i contingut general",
+    "correct_answer_id": 62380,
+    "question_solution_desc": "El Tribunal Constitucional es regula al Títol IX de la Constitució Espanyola de 1978, entre els articles 159 i 165.",
+    "question_solution_source": "",
+    "correct_letter": "D"
+  },
+  {
+    "index": 43,
+    "answerList": [
+      {
+        "answer_desc": "Fenòmens extrems, tiroteigs, fuites accidentals, col·lapses o atemptats amb risc actiu.",
+        "answer_id": 81686
+      },
+      {
+        "answer_desc": "Incendis, explosions deliberades, ensorraments accidentals, amenaces actives o fuites tòxiques.",
+        "answer_id": 81684
+      },
+      {
+        "answer_desc": "Accidents, incidents tecnològics, escenaris amb artefactes, incendis o agressions intencionades.",
+        "answer_id": 81685
+      },
+      {
+        "answer_desc": "Accidents, incendis, ensorraments, fenòmens extrems o incidents tecnològics sense delicte.",
+        "answer_id": 81682
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incidents de múltiples víctimes",
+    "difficulty": 2,
+    "question_desc": "Quin conjunt d’escenaris exemplifica el comandament operatiu inicial dels Bombers?",
+    "question_id": 13949,
+    "topic_desc": "MAN.SANI.001: Organització de la intervenció",
+    "correct_answer_id": 81682,
+    "question_solution_desc": "Els Bombers lideren inicialment els incidents accidentals amb riscos físics o tecnològics i sense indicis de delicte.",
+    "question_solution_source": "MAN.SANI.001: Apartat 3.3",
+    "correct_letter": "D"
+  },
+  {
+    "index": 44,
+    "answerList": [
+      {
+        "answer_desc": "Minimitzar les interrupcions de les compressions i de l’assistència vital.",
+        "answer_id": 77971
+      },
+      {
+        "answer_desc": "Atendre primer la via aèria, la respiració i la circulació.",
+        "answer_id": 77969
+      },
+      {
+        "answer_desc": "Compartir informació clara amb l’equip, el comandament i el SEM.",
+        "answer_id": 77968
+      },
+      {
+        "answer_desc": "Repetir la valoració i adaptar l’actuació a qualsevol canvi.",
+        "answer_id": 77972
+      }
+    ],
+    "category_desc": "Intervenció bàsica en assistència sanitària",
+    "difficulty": 2,
+    "question_desc": "Quina actuació concreta correspon a la comunicació efectiva?",
+    "question_id": 13330,
+    "topic_desc": "MAN.SANI.000: Introducció",
+    "correct_answer_id": 77968,
+    "question_solution_desc": "La coordinació depèn d’un missatge breu, precís i actualitzat.",
+    "question_solution_source": "MAN.SANI.000: Apartat 1.5",
+    "correct_letter": "C"
+  },
+  {
+    "index": 45,
+    "answerList": [
+      {
+        "answer_desc": "Unitat de Col·lapses Estructurals.",
+        "answer_id": 108543
+      },
+      {
+        "answer_desc": "Unitat de Prevenció Operativa.",
+        "answer_id": 108539
+      },
+      {
+        "answer_desc": "Unitat de Riscos Tecnològics.",
+        "answer_id": 108538
+      },
+      {
+        "answer_desc": "Unitat d'Incendis Estructurals.",
+        "answer_id": 108541
+      }
+    ],
+    "category_desc": "Legislació: Organització Bombers",
+    "difficulty": 2,
+    "question_desc": "A quina estructura correspon la funció de desenvolupar maniobres indicades específicament per a les actuacions amb riscos tecnològics?",
+    "question_id": 18425,
+    "topic_desc": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+    "correct_answer_id": 108538,
+    "question_solution_desc": "El desenvolupament de maniobres específiques adapta la intervenció a les particularitats dels riscos tecnològics.",
+    "question_solution_source": "Decret 12/2023, article 48, redacció vigent des del 6.2.2026; modificació de l’article 23 del Decret 16/2026.",
+    "correct_letter": "C"
+  },
+  {
+    "index": 46,
+    "answerList": [
+      {
+        "answer_desc": "Comprovar el punt de suport, controlar el retrocés de l’equip i comunicar cada canvi de posició al binomi.",
+        "answer_id": 73706
+      },
+      {
+        "answer_desc": "Treballar sota supervisió, utilitzar l’EPI estructural complet i mantenir una distància de seguretat amb el binomi.",
+        "answer_id": 73705
+      },
+      {
+        "answer_desc": "Seleccionar l’eina adequada, protegir la zona de projecció i verificar la pressió de servei durant la maniobra.",
+        "answer_id": 73707
+      },
+      {
+        "answer_desc": "Disposar d’entrenament específic, utilitzar correctament l’EPI i assegurar l’estabilitat de la superfície de treball.",
+        "answer_id": 73702
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis estructurals",
+    "difficulty": 3,
+    "question_desc": "Quin conjunt de mesures recull el manual per al risc de maniobra amb eines o equips a pressió?",
+    "question_id": 12619,
+    "topic_desc": "MAN.INES.000: Maniobres d’intervenció i Seguretat",
+    "correct_answer_id": 73702,
+    "question_solution_desc": "La formació, la protecció adequada i una base estable permeten controlar el retrocés, les projeccions i els moviments imprevistos de les eines.",
+    "question_solution_source": "MAN.INES.000: Apartat 5.1",
+    "correct_letter": "D"
+  },
+  {
+    "index": 47,
+    "answerList": [
+      {
+        "answer_desc": "El símbol G.",
+        "answer_id": 104045
+      },
+      {
+        "answer_desc": "El símbol da.",
+        "answer_id": 104044
+      },
+      {
+        "answer_desc": "El símbol d.",
+        "answer_id": 104049
+      },
+      {
+        "answer_desc": "El símbol h.",
+        "answer_id": 104048
+      }
+    ],
+    "category_desc": "Física",
+    "difficulty": 2,
+    "question_desc": "Quin símbol correspon al prefix «deca»?",
+    "question_id": 17676,
+    "topic_desc": "MAN.GRAL.003: Magnituds i Unitats",
+    "correct_answer_id": 104044,
+    "question_solution_desc": "El prefix deca es representa amb da.",
+    "question_solution_source": "MAN.GRAL.003: Apartat 2.4",
+    "correct_letter": "B"
+  },
+  {
+    "index": 48,
+    "answerList": [
+      {
+        "answer_desc": "Separar l’alumnat segons el seu origen ètnic.",
+        "answer_id": 49899
+      },
+      {
+        "answer_desc": "Prioritzar l’admissió segons la capacitat econòmica familiar.",
+        "answer_id": 49896
+      },
+      {
+        "answer_desc": "Vetllar perquè els procediments d’admissió s’orientin a reduir la segregació escolar.",
+        "answer_id": 49895
+      },
+      {
+        "answer_desc": "Permetre que cada centre fixi lliurement criteris no regulats.",
+        "answer_id": 49898
+      }
+    ],
+    "category_desc": "Legislació: Igualtat",
+    "difficulty": 2,
+    "question_desc": "Quina obligació específica té el departament competent en matèria educativa per evitar la segregació escolar?",
+    "question_id": 8591,
+    "topic_desc": "Llei 19/2020, del 30 de desembre, d'igualtat de tracte i no-discriminació: títols 1r, 2n i 3r",
+    "correct_answer_id": 49895,
+    "question_solution_desc": "La norma vincula l’admissió a l’objectiu de reduir la segregació escolar. No permet sistemes d’admissió que reforcin la separació social, econòmica o cultural de l’alumnat.",
+    "question_solution_source": "Llei 19/2020, article 10.2.a.",
+    "correct_letter": "C"
+  },
+  {
+    "index": 49,
+    "answerList": [
+      {
+        "answer_desc": "L’ús d’un llenguatge informatiu uniforme, limitat a notícies institucionals, per evitar biaixos semàntics.",
+        "answer_id": 50002
+      },
+      {
+        "answer_desc": "L’ús d’un llenguatge tècnic i objectiu, sempre que ometi qualsevol referència a la diversitat.",
+        "answer_id": 49999
+      },
+      {
+        "answer_desc": "L’ús d’un llenguatge formal i neutre, encara que mantingui estereotips socials implícits.",
+        "answer_id": 49998
+      },
+      {
+        "answer_desc": "L’ús d’un llenguatge inclusiu, respectuós i no discriminatori, que eviti expressions sexistes, classistes, racistes, xenòfobes o LGBTI-fòbiques.",
+        "answer_id": 49997
+      }
+    ],
+    "category_desc": "Legislació: Igualtat",
+    "difficulty": 1,
+    "question_desc": "Quin criteri ha de guiar l’ús del llenguatge en els mitjans de comunicació per complir les exigències d’igualtat i no discriminació?",
+    "question_id": 8608,
+    "topic_desc": "Llei 19/2020, del 30 de desembre, d'igualtat de tracte i no-discriminació: títols 1r, 2n i 3r",
+    "correct_answer_id": 49997,
+    "question_solution_desc": "La resposta correcta és la que exigeix un llenguatge inclusiu i no discriminatori, perquè la norma pretén evitar qualsevol expressió que perpetuï discriminacions per sexe, classe social, raça, origen o orientació sexual. La formalitat, la brevetat o el to col·loquial no són suficients si el contingut manté estereotips o expressions ofensives.",
+    "question_solution_source": "Llei 19/2020, article 16.2.a",
+    "correct_letter": "D"
+  },
+  {
+    "index": 50,
+    "answerList": [
+      {
+        "answer_desc": "Protegir els conductors davant sobrecàrregues i curtcircuits.",
+        "answer_id": 99026
+      },
+      {
+        "answer_desc": "Seccionar manualment tots els circuits del quadre interior.",
+        "answer_id": 99027
+      },
+      {
+        "answer_desc": "Protegir les persones davant contactes indirectes i fuites.",
+        "answer_id": 99022
+      },
+      {
+        "answer_desc": "Limitar la potència demandada per la instal·lació de l'abonat.",
+        "answer_id": 99024
+      }
+    ],
+    "category_desc": "Instal·lacions",
+    "difficulty": 1,
+    "question_desc": "Quina és la principal finalitat del diferencial?",
+    "question_id": 16839,
+    "topic_desc": "MAN.GRAL.007: Instal·lacions elèctriques",
+    "correct_answer_id": 99022,
+    "question_solution_desc": "Redueix la intensitat i el temps d'exposició quan el corrent deriva a terra.",
+    "question_solution_source": "MAN.GRAL.007: Apartat 2.3.3",
+    "correct_letter": "C"
+  },
+  {
+    "index": 51,
+    "answerList": [
+      {
+        "answer_desc": "A 120 °C.",
+        "answer_id": 96979
+      },
+      {
+        "answer_desc": "A 100 °C.",
+        "answer_id": 96976
+      },
+      {
+        "answer_desc": "A 200 °C.",
+        "answer_id": 96981
+      },
+      {
+        "answer_desc": "A 150 °C.",
+        "answer_id": 96980
+      }
+    ],
+    "category_desc": "Hidràulica i bombes",
+    "difficulty": 1,
+    "question_desc": "A quina temperatura bull l'aigua a nivell del mar?",
+    "question_id": 16498,
+    "topic_desc": "MAN.GRAL.009: Propietats físiques dels líquids",
+    "correct_answer_id": 96976,
+    "question_solution_desc": "A una pressió ambiental aproximada d'1 bar, la pressió de vapor de l'aigua iguala l'ambient als 100 °C.",
+    "question_solution_source": "MAN.GRAL.009: Apartat 2.3",
+    "correct_letter": "B"
+  },
+  {
+    "index": 52,
+    "answerList": [
+      {
+        "answer_desc": "Serveis de prevenció, extinció d'incendis i salvaments.",
+        "answer_id": 26302
+      },
+      {
+        "answer_desc": "Serveis de seguretat privada.",
+        "answer_id": 26304
+      },
+      {
+        "answer_desc": "Serveis de telecomunicacions.",
+        "answer_id": 26305
+      },
+      {
+        "answer_desc": "Serveis d'atenció mèdica d'emergència.",
+        "answer_id": 26303
+      }
+    ],
+    "category_desc": "Legislació: Bombers i protecció civil",
+    "difficulty": 1,
+    "question_desc": "Quins serveis pretén regular la Llei 5/1994?",
+    "question_id": 4545,
+    "topic_desc": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya",
+    "correct_answer_id": 26302,
+    "question_solution_desc": "Llei té per objecte l'ordenació general de les accions i els serveis de prevenció i extinció d'incendis i de salvaments a Catalunya. (Article 1)",
+    "question_solution_source": "",
+    "correct_letter": "A"
+  },
+  {
+    "index": 53,
+    "answerList": [
+      {
+        "answer_desc": "Perquè en evaporar-se absorbeix una quantitat molt gran de calor.",
+        "answer_id": 103018
+      },
+      {
+        "answer_desc": "Perquè transforma els combustibles en compostos iònics.",
+        "answer_id": 103023
+      },
+      {
+        "answer_desc": "Perquè en evaporar-se allibera calor cap als combustibles.",
+        "answer_id": 103019
+      },
+      {
+        "answer_desc": "Perquè redueix la seva calor específica fins a zero.",
+        "answer_id": 103021
+      }
+    ],
+    "category_desc": "Química",
+    "difficulty": 2,
+    "question_desc": "Per què la calor latent de vaporització fa especialment eficaç l'aigua com a agent extintor?",
+    "question_id": 17505,
+    "topic_desc": "MAN.GRAL.004: Termoquímica",
+    "correct_answer_id": 103018,
+    "question_solution_desc": "La vaporització retira del foc molta més energia que el simple escalfament de l'aigua.",
+    "question_solution_source": "MAN.GRAL.004: Apartat 7.3.2",
+    "correct_letter": "A"
+  },
+  {
+    "index": 54,
+    "answerList": [
+      {
+        "answer_desc": "La font d’alimentació disponible.",
+        "answer_id": 65390
+      },
+      {
+        "answer_desc": "La tolerància als materials en suspensió.",
+        "answer_id": 65389
+      },
+      {
+        "answer_desc": "La capacitat de bombeig.",
+        "answer_id": 65386
+      },
+      {
+        "answer_desc": "La mobilitat de l’equip.",
+        "answer_id": 65387
+      }
+    ],
+    "category_desc": "Intervenció bàsica en inundacions",
+    "difficulty": 2,
+    "question_desc": "Quina característica de l’equip s’ha de valorar en seleccionar una bomba, segons el MAN.SVMN.001?",
+    "question_id": 11233,
+    "topic_desc": "MAN.SVMN.001: Maniobres d’intervenció en inundacions",
+    "correct_answer_id": 65386,
+    "question_solution_desc": "La capacitat de la bomba ha de ser adequada al volum i a les necessitats de l’extracció.",
+    "question_solution_source": "MAN.SVMN.001: Apartat 4.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 55,
+    "answerList": [
+      {
+        "answer_desc": "Mantenir pressa i absència d’informació.",
+        "answer_id": 88538
+      },
+      {
+        "answer_desc": "Mantenir missatges tècnics complexos i canviants.",
+        "answer_id": 88537
+      },
+      {
+        "answer_desc": "Mantenir calma i missatges clars.",
+        "answer_id": 88534
+      },
+      {
+        "answer_desc": "Mantenir pressa i ordres contradictòries.",
+        "answer_id": 88535
+      }
+    ],
+    "category_desc": "Intervenció bàsica en accidents de mobilitat viària",
+    "difficulty": 1,
+    "question_desc": "Com hem de gestionar la comunicació amb la víctima durant una intervenció?",
+    "question_id": 15091,
+    "topic_desc": "MAN.SVVH.000: Seguretat en accidents de mobilitat",
+    "correct_answer_id": 88534,
+    "question_solution_desc": " Mantenir la calma i comunicar-se amb claredat amb la víctima i l’equip.",
+    "question_solution_source": "MAN.SVVH.000: Apartat 5.2",
+    "correct_letter": "C"
+  },
+  {
+    "index": 56,
+    "answerList": [
+      {
+        "answer_desc": "Abans de corregir qualsevol alteració de l’XABCDE.",
+        "answer_id": 79767
+      },
+      {
+        "answer_desc": "Quan la víctima ja està estabilitzada i no es retarden maniobres vitals.",
+        "answer_id": 79762
+      },
+      {
+        "answer_desc": "Abans de controlar una hemorràgia massiva.",
+        "answer_id": 79763
+      },
+      {
+        "answer_desc": "Abans de comprovar la permeabilitat de la via aèria.",
+        "answer_id": 79764
+      }
+    ],
+    "category_desc": "Intervenció bàsica en assistència sanitària",
+    "difficulty": 2,
+    "question_desc": "Quan es completa la presa de constants vitals amb material de mesura?",
+    "question_id": 13629,
+    "topic_desc": "MAN.SANI.000: Maniobres en assistències sanitàries",
+    "correct_answer_id": 79762,
+    "question_solution_desc": "Les mesures complementen la valoració, però mai no han d’endarrerir una actuació salvadora.",
+    "question_solution_source": "MAN.SANI.000: Apartat 4.8",
+    "correct_letter": "B"
+  },
+  {
+    "index": 57,
+    "answerList": [
+      {
+        "answer_desc": "Carrers, camins o accessos a habitatges.",
+        "answer_id": 66166
+      },
+      {
+        "answer_desc": "Voreres, places o entrades a edificis públics.",
+        "answer_id": 66168
+      },
+      {
+        "answer_desc": "Carreteres, ponts o accessos a equipaments crítics.",
+        "answer_id": 66167
+      },
+      {
+        "answer_desc": "Camins rurals, vies ferroviàries o accessos als embassaments.",
+        "answer_id": 66171
+      }
+    ],
+    "category_desc": "Intervenció bàsica en inundacions",
+    "difficulty": 1,
+    "question_desc": "Quina combinació d’espais indica el MAN.SVMN.001 que poden quedar bloquejats per arbres, branques o elements estructurals?",
+    "question_id": 11363,
+    "topic_desc": "MAN.SVMN.001: Maniobres d’intervenció en inundacions",
+    "correct_answer_id": 66166,
+    "question_solution_desc": "Els elements caiguts poden impedir la mobilitat i l’accés a la població.",
+    "question_solution_source": "MAN.SVMN.001: Apartat 4.11",
+    "correct_letter": "A"
+  },
+  {
+    "index": 58,
+    "answerList": [
+      {
+        "answer_desc": "Concentrar recursos i suport sense interferir amb la zona de risc.",
+        "answer_id": 81775
+      },
+      {
+        "answer_desc": "Agrupar, valorar, estabilitzar i preparar l’evacuació de les víctimes.",
+        "answer_id": 81773
+      },
+      {
+        "answer_desc": "Coordinar comandaments i decisions estratègiques.",
+        "answer_id": 81774
+      },
+      {
+        "answer_desc": "Treballar en funcions de suport dins l’àmbit segur.",
+        "answer_id": 81772
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incidents de múltiples víctimes",
+    "difficulty": 2,
+    "question_desc": "Quina funció correspon a la majoria del personal no exposat dins el segon cercle o zona freda?",
+    "question_id": 13964,
+    "topic_desc": "MAN.SANI.001: Organització de la intervenció",
+    "correct_answer_id": 81772,
+    "question_solution_desc": "No totes les tasques requereixen entrar al primer cercle.",
+    "question_solution_source": "MAN.SANI.001: Apartat 3.4",
+    "correct_letter": "D"
+  },
+  {
+    "index": 59,
+    "answerList": [
+      {
+        "answer_desc": "Per trucades telefòniques; Per comunicar amb tota Catalunya.",
+        "answer_id": 90679
+      },
+      {
+        "answer_desc": "Per ordres generals del CCA; per trucades telefòniques; Per comunicar amb tota Catalunya.",
+        "answer_id": 90678
+      },
+      {
+        "answer_desc": "Per coordinar unitats properes i maniobres en interiors o sense cobertura, amb un abast molt limitat.",
+        "answer_id": 90676
+      },
+      {
+        "answer_desc": "Per informes administratius; Per vehicles llunyans en camí.",
+        "answer_id": 90681
+      }
+    ],
+    "category_desc": "Comunicacions per ràdio",
+    "difficulty": 1,
+    "question_desc": "Per a què serveix el canal directe de proximitat i quin abast té?",
+    "question_id": 15448,
+    "topic_desc": "MAN.COMU.000: Organització de les comunicacions per ràdio en les intervencions",
+    "correct_answer_id": 90676,
+    "question_solution_desc": "La connexió directa resol necessitats tàctiques locals.",
+    "question_solution_source": "MAN.COMU.000: Apartat 4.3.4",
+    "correct_letter": "C"
+  },
+  {
+    "index": 60,
+    "answerList": [
+      {
+        "answer_desc": "Obtenir dades d'interès operatiu.",
+        "answer_id": 72364
+      },
+      {
+        "answer_desc": "Incorporar dades i informació gràfica al SIG.",
+        "answer_id": 72366
+      },
+      {
+        "answer_desc": "Fer arribar la FOER en suport digital i paper.",
+        "answer_id": 72368
+      },
+      {
+        "answer_desc": "Recollir dades disponibles i concertar la visita.",
+        "answer_id": 72365
+      }
+    ],
+    "category_desc": "Prevenció bàsica d'incendis",
+    "difficulty": 2,
+    "question_desc": "En què consisteix la fase de visita a l'establiment del cicle FOER?",
+    "question_id": 12396,
+    "topic_desc": "MAN.SP.000",
+    "correct_answer_id": 72364,
+    "question_solution_desc": "Aquesta és la funció de la fase Visita a l'establiment.",
+    "question_solution_source": "MAN.SP.000: Apartat 5.2.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 61,
+    "answerList": [
+      {
+        "answer_desc": "Quan els tancaments assumeixen tota la funció estructural de l'edifici.",
+        "answer_id": 93309
+      },
+      {
+        "answer_desc": "Quan el terreny és poc resistent o cal repartir molt bé les càrregues.",
+        "answer_id": 93304
+      },
+      {
+        "answer_desc": "Quan els pilots arriben directament a una capa profunda sense necessitat d'unir-se.",
+        "answer_id": 93308
+      },
+      {
+        "answer_desc": "Quan el terreny és molt resistent i les càrregues es concentren en un únic pilar.",
+        "answer_id": 93305
+      }
+    ],
+    "category_desc": "Construcció",
+    "difficulty": 2,
+    "question_desc": "Quan s'utilitza una llosa de fonamentació?",
+    "question_id": 15886,
+    "topic_desc": "MAN.GRAL.006: Elements estructurals",
+    "correct_answer_id": 93304,
+    "question_solution_desc": "L'augment de superfície redueix la pressió transmesa al terreny i limita assentaments diferencials.",
+    "question_solution_source": "MAN.GRAL.006: Apartat 4.1.3",
+    "correct_letter": "B"
+  },
+  {
+    "index": 62,
+    "answerList": [
+      {
+        "answer_desc": "Productes de curta durada que envolten el combustible, l’aïllen de l’oxigen i milloren la humectació, la penetració i el refredament.",
+        "answer_id": 74615
+      },
+      {
+        "answer_desc": "Agents tensioactius que afavoreixen la penetració de l’aigua, però no deixen una protecció química persistent.",
+        "answer_id": 74618
+      },
+      {
+        "answer_desc": "Fosfats amònics afegits a l'aigua que protegeixen la vegetació i mantenen part de l'eficàcia després de l'evaporació.",
+        "answer_id": 74614
+      },
+      {
+        "answer_desc": "Additius humectants que redueixen la tensió superficial de l’aigua i perden l’efecte quan el combustible s’asseca.",
+        "answer_id": 74616
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis forestals",
+    "difficulty": 2,
+    "question_desc": "Quina descripció correspon als retardants emprats en incendis forestals?",
+    "question_id": 12771,
+    "topic_desc": "MAN.INVE.000: Maniobres d’extinció en incendis forestals",
+    "correct_answer_id": 74614,
+    "question_solution_desc": "La persistència química sobre la vegetació permet mantenir una part de l'efecte protector quan l'aigua ja s'ha evaporat.",
+    "question_solution_source": "MAN.INVE.000: Apartat 4.2.3",
+    "correct_letter": "C"
+  },
+  {
+    "index": 63,
+    "answerList": [
+      {
+        "answer_desc": "Per convertir directament el corrent altern en corrent continu.",
+        "answer_id": 100322
+      },
+      {
+        "answer_desc": "Per reduir la intensitat, les pèrdues i la secció necessària dels conductors.",
+        "answer_id": 100318
+      },
+      {
+        "answer_desc": "Per reduir la freqüència de la xarxa a mesura que creix la distància.",
+        "answer_id": 100323
+      },
+      {
+        "answer_desc": "Per eliminar la necessitat d'aïllar els conductors de les torres.",
+        "answer_id": 100320
+      }
+    ],
+    "category_desc": "Electricitat",
+    "difficulty": 2,
+    "question_desc": "Per què s'utilitzen tensions altes en el transport de grans potències?",
+    "question_id": 17055,
+    "topic_desc": "MAN.GRAL.005: Lleis i fórmules bàsiques de l’electricitat",
+    "correct_answer_id": 100318,
+    "question_solution_desc": "Transportar la mateixa potència a més tensió permet disminuir el corrent.",
+    "question_solution_source": "MAN.GRAL.005: Apartat 4.4",
+    "correct_letter": "B"
+  },
+  {
+    "index": 64,
+    "answerList": [
+      {
+        "answer_desc": "Global, integrada i present en totes les fases.",
+        "answer_id": 69736
+      },
+      {
+        "answer_desc": "Local, reactiva i centrada en la resposta.",
+        "answer_id": 69737
+      },
+      {
+        "answer_desc": "Municipal, voluntària i orientada principalment a la prevenció.",
+        "answer_id": 69740
+      },
+      {
+        "answer_desc": "Internacional, militar i aplicada principalment a les catàstrofes.",
+        "answer_id": 69741
+      }
+    ],
+    "category_desc": "Introducció a la gestió d’emergències i al sistema de protecció civil",
+    "difficulty": 2,
+    "question_desc": "Quines tres característiques ha de tenir una gestió eficaç d'emergències?",
+    "question_id": 11958,
+    "topic_desc": "MAN.GRAL.001",
+    "correct_answer_id": 69736,
+    "question_solution_desc": "El manual exigeix una visió global, integrada i aplicable abans, durant i després.",
+    "question_solution_source": "MAN.GRAL.001: Apartat 1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 65,
+    "answerList": [
+      {
+        "answer_desc": "Quan l'operador treballa amb una eina de bateria.",
+        "answer_id": 91856
+      },
+      {
+        "answer_desc": "Quan hi ha persones atrapades.",
+        "answer_id": 91852
+      },
+      {
+        "answer_desc": "Quan la retirada posterior correspon a jardineria.",
+        "answer_id": 91857
+      },
+      {
+        "answer_desc": "Quan el tronc té dos punts de recolzament.",
+        "answer_id": 91853
+      }
+    ],
+    "category_desc": "Intervenció en assistències tècniques",
+    "difficulty": 2,
+    "question_desc": "En quin cas es poden retirar branques abans d'acabar tot el tall?",
+    "question_id": 15644,
+    "topic_desc": "MAN.ATXX.000: Intervencions amb motoserra",
+    "correct_answer_id": 91852,
+    "question_solution_desc": "L'alliberament d'una persona pot justificar adaptar l'ordre ordinari del desbrancament.",
+    "question_solution_source": "MAN.ATXX.000: Apartat 3.4.2",
+    "correct_letter": "B"
+  },
+  {
+    "index": 66,
+    "answerList": [
+      {
+        "answer_desc": "Poden viatjar asseguts amb cinturó, en la configuració habitual del vehicle col·lectiu.",
+        "answer_id": 86738
+      },
+      {
+        "answer_desc": "Poden viatjar a les bodegues.",
+        "answer_id": 86736
+      },
+      {
+        "answer_desc": "Poden viatjar asseguts amb cinturó, durant una intervenció sobre l’autobús.",
+        "answer_id": 86739
+      },
+      {
+        "answer_desc": "Poden viatjar dempeus.",
+        "answer_id": 86734
+      }
+    ],
+    "category_desc": "Intervenció bàsica en accidents de mobilitat viària",
+    "difficulty": 2,
+    "question_desc": "Com poden viatjar molts passatgers en un autobús urbà o interurbà de curt recorregut?",
+    "question_id": 14791,
+    "topic_desc": "MAN.SVVH.000: Coneixements generals",
+    "correct_answer_id": 86734,
+    "question_solution_desc": "Autobusos: són habituals en àmbits urbans o interurbans de curt recorregut i estan dissenyats per facilitar l’entrada i sortida ràpida de passatgers, molts dels quals poden viatjar dempeus.",
+    "question_solution_source": "MAN.SVVH.000: Apartat 2.2.2",
+    "correct_letter": "D"
+  },
+  {
+    "index": 67,
+    "answerList": [
+      {
+        "answer_desc": "Als intervinents perquè restitueixin els elements danyats.",
+        "answer_id": 82587
+      },
+      {
+        "answer_desc": "Als equips USAR perquè decideixin la seva categoria.",
+        "answer_id": 82586
+      },
+      {
+        "answer_desc": "Al comandament responsable de prendre decisions.",
+        "answer_id": 82582
+      },
+      {
+        "answer_desc": "A l’equip SOS que roman preparat fora de la zona.",
+        "answer_id": 82584
+      }
+    ],
+    "category_desc": "Intervenció bàsica en estructures col·lapsades",
+    "difficulty": 2,
+    "question_desc": "A qui dona suport principalment el GREC durant una intervenció?",
+    "question_id": 14099,
+    "topic_desc": "MAN.SVES.000: Introducció",
+    "correct_answer_id": 82582,
+    "question_solution_desc": "El grup aporta criteri tècnic per definir una resposta proporcional i segura.",
+    "question_solution_source": "MAN.SVES.000: Apartat 1.3.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 68,
+    "answerList": [
+      {
+        "answer_desc": "Font, flux i diana.",
+        "answer_id": 76540
+      },
+      {
+        "answer_desc": "Diana, font i flux.",
+        "answer_id": 76545
+      },
+      {
+        "answer_desc": "Diana, flux i font.",
+        "answer_id": 76541
+      },
+      {
+        "answer_desc": "Flux, font i diana.",
+        "answer_id": 76542
+      }
+    ],
+    "category_desc": "Intervenció bàsica en riscos NRBQ",
+    "difficulty": 2,
+    "question_desc": "Quin ordre segueix el reconeixement d'un escenari NRBQ?",
+    "question_id": 13092,
+    "topic_desc": "MAN.RRTT.000: Valoració",
+    "correct_answer_id": 76540,
+    "question_solution_desc": "El reconeixement segueix el recorregut natural del risc des de l'origen fins als receptors.",
+    "question_solution_source": "MAN.RRTT.000: Apartat 3.2",
+    "correct_letter": "A"
+  },
+  {
+    "index": 69,
+    "answerList": [
+      {
+        "answer_desc": "Les línies de vida i els arnesos.",
+        "answer_id": 83120
+      },
+      {
+        "answer_desc": "Les tanques i les cintes reflectants.",
+        "answer_id": 83121
+      },
+      {
+        "answer_desc": "Els detectors de gas i les càmeres tèrmiques.",
+        "answer_id": 83119
+      },
+      {
+        "answer_desc": "Els geòfons i les càmeres de visualització.",
+        "answer_id": 83116
+      }
+    ],
+    "category_desc": "Intervenció bàsica en estructures col·lapsades",
+    "difficulty": 2,
+    "question_desc": "Quines dues eines de recerca instrumentalitzada destaca el manual?",
+    "question_id": 14188,
+    "topic_desc": "MAN.SVES.000: Maniobres d’intervenció",
+    "correct_answer_id": 83116,
+    "question_solution_desc": "Els geòfons aporten informació acústica i les càmeres informació visual.",
+    "question_solution_source": "MAN.SVES.000: Apartat 3.2",
+    "correct_letter": "D"
+  },
+  {
+    "index": 70,
+    "answerList": [
+      {
+        "answer_desc": "Pot causar conseqüències greus per als intervinents i la població.",
+        "answer_id": 76024
+      },
+      {
+        "answer_desc": "Pot retardar la comunicació del nom del producte, però mantenir correctes les distàncies de seguretat.",
+        "answer_id": 76027
+      },
+      {
+        "answer_desc": "Pot fer descartar una maniobra eficaç, encara que la protecció i el control del flux continuïn sent adequats.",
+        "answer_id": 76028
+      },
+      {
+        "answer_desc": "Pot obligar a ampliar preventivament el zonatge i endarrerir una maniobra compatible amb el producte.",
+        "answer_id": 76025
+      }
+    ],
+    "category_desc": "Intervenció bàsica en riscos NRBQ",
+    "difficulty": 2,
+    "question_desc": "Quin risc comporta identificar erròniament una substància en una emergència NRBQ?",
+    "question_id": 13006,
+    "topic_desc": "MAN.RRTT.000: Coneixements bàsics",
+    "correct_answer_id": 76024,
+    "question_solution_desc": "Una dada incorrecta pot conduir a distàncies, proteccions o agents d'intervenció incompatibles.",
+    "question_solution_source": "MAN.RRTT.000: Apartat 2.1",
+    "correct_letter": "A"
+  },
+  {
+    "index": 71,
+    "answerList": [
+      {
+        "answer_desc": "Durant pocs segons després de finalitzar l’exposició.",
+        "answer_id": 69677
+      },
+      {
+        "answer_desc": "Durant dies o setmanes.",
+        "answer_id": 69676
+      },
+      {
+        "answer_desc": "Durant un màxim de cinc minuts després del servei.",
+        "answer_id": 69678
+      },
+      {
+        "answer_desc": "Durant el temps que es manté l’EPI dins de la zona calenta.",
+        "answer_id": 69679
+      }
+    ],
+    "category_desc": "Equips de protecció individual d’intervenció en emergències",
+    "difficulty": 2,
+    "question_desc": "Durant quant de temps poden romandre actius alguns contaminants impregnats als EPI?",
+    "question_id": 11948,
+    "topic_desc": "MAN.SEGU.000",
+    "correct_answer_id": 69676,
+    "question_solution_desc": "El manual indica dies o setmanes.",
+    "question_solution_source": "MAN.SEGU.000: Apartat 4.2.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 72,
+    "answerList": [
+      {
+        "answer_desc": "El consell municipal.",
+        "answer_id": 31817
+      },
+      {
+        "answer_desc": "El delegat del Govern.",
+        "answer_id": 31814
+      },
+      {
+        "answer_desc": "El ple comarcal.",
+        "answer_id": 31818
+      },
+      {
+        "answer_desc": "L’alcalde o alcaldessa i els regidors.",
+        "answer_id": 31813
+      }
+    ],
+    "category_desc": "Legislació: Constitució i Estatut",
+    "difficulty": 1,
+    "question_desc": "Qui forma part del govern i administració municipal segons l’Estatut?",
+    "question_id": 5557,
+    "topic_desc": "L'Estatut d'autonomia de Catalunya: estructura i contingut general",
+    "correct_answer_id": 31813,
+    "question_solution_desc": "Segons l’Estatut, el govern municipal correspon a l’ajuntament, format per l’alcalde o alcaldessa i els regidors.",
+    "question_solution_source": "Estatut d’Autonomia de Catalunya, art. 86",
+    "correct_letter": "D"
+  },
+  {
+    "index": 73,
+    "answerList": [
+      {
+        "answer_desc": "La química física.",
+        "answer_id": 101551
+      },
+      {
+        "answer_desc": "La química analítica.",
+        "answer_id": 101550
+      },
+      {
+        "answer_desc": "La química orgànica.",
+        "answer_id": 101548
+      },
+      {
+        "answer_desc": "La química general.",
+        "answer_id": 101552
+      }
+    ],
+    "category_desc": "Química",
+    "difficulty": 2,
+    "question_desc": "Quina branca estudia principalment els compostos del carboni i les seves reaccions?",
+    "question_id": 17260,
+    "topic_desc": "MAN.GRAL.004: Introducció",
+    "correct_answer_id": 101548,
+    "question_solution_desc": "La química orgànica se centra en els compostos basats en carboni.",
+    "question_solution_source": "MAN.GRAL.004: Apartat 1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 74,
+    "answerList": [
+      {
+        "answer_desc": "A partir de la intensitat del senyal rebut.",
+        "answer_id": 95879
+      },
+      {
+        "answer_desc": "A partir de l'altitud indicada pel mapa.",
+        "answer_id": 95880
+      },
+      {
+        "answer_desc": "A partir del nombre de waypoints guardats.",
+        "answer_id": 95882
+      },
+      {
+        "answer_desc": "A partir de la diferència entre posicions al llarg del temps.",
+        "answer_id": 95878
+      }
+    ],
+    "category_desc": "Cartografia i orientació",
+    "difficulty": 2,
+    "question_desc": "Com calcula el receptor GNSS la velocitat?",
+    "question_id": 16315,
+    "topic_desc": "MAN.GRAL.002: El GNSS i els mapes digitals: la navegació moderna",
+    "correct_answer_id": 95878,
+    "question_solution_desc": "El canvi espacial dividit pel temps transcorregut proporciona la velocitat de desplaçament.",
+    "question_solution_source": "MAN.GRAL.002: Apartat 4.5",
+    "correct_letter": "D"
+  },
+  {
+    "index": 75,
+    "answerList": [
+      {
+        "answer_desc": "Gasos comprimits en un recipient el·líptic amb centre de gravetat elevat.",
+        "answer_id": 76251
+      },
+      {
+        "answer_desc": "Líquids a pressió interior mínima i centre de gravetat baix.",
+        "answer_id": 76247
+      },
+      {
+        "answer_desc": "Productes a pressió com GLP, amoníac o clor.",
+        "answer_id": 76246
+      },
+      {
+        "answer_desc": "Productes corrosius o tòxics en quantitats moderades.",
+        "answer_id": 76249
+      }
+    ],
+    "category_desc": "Intervenció bàsica en riscos NRBQ",
+    "difficulty": 2,
+    "question_desc": "Quina descripció correspon a la tipologia «cisterna circular»?",
+    "question_id": 13043,
+    "topic_desc": "MAN.RRTT.000: Coneixements bàsics",
+    "correct_answer_id": 76246,
+    "question_solution_desc": "La geometria circular distribueix millor els esforços provocats per la pressió interna.",
+    "question_solution_source": "MAN.RRTT.000: Apartat 2.2.3",
+    "correct_letter": "C"
+  },
+  {
+    "index": 76,
+    "answerList": [
+      {
+        "answer_desc": "Determina la intensitat de flama de cada sector.",
+        "answer_id": 111516
+      },
+      {
+        "answer_desc": "Elimina la necessitat d'establir un comandament.",
+        "answer_id": 111519
+      },
+      {
+        "answer_desc": "Facilita la radiocomunicació i redueix els errors de localització.",
+        "answer_id": 111514
+      },
+      {
+        "answer_desc": "Permet calcular automàticament la superfície cremada.",
+        "answer_id": 111515
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis forestals",
+    "difficulty": 2,
+    "question_desc": "Quin avantatge aporta el sistema de sectors parells i imparells en un incendi forestal?",
+    "question_id": 18921,
+    "topic_desc": "MAN.INVE.000: Coneixements bàsics sobre incendis forestals",
+    "correct_answer_id": 111514,
+    "question_solution_desc": "La codificació compartida identifica les zones amb rapidesa i precisió.",
+    "question_solution_source": "MAN.INVE.000: Apartat 2.2.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 77,
+    "answerList": [
+      {
+        "answer_desc": "Fixar la simbologia operativa perquè totes les capes mantinguin la mateixa representació gràfica.",
+        "answer_id": 96673
+      },
+      {
+        "answer_desc": "Calcular la posició GNSS i situar-la directament sobre una quadrícula sense cap capa temàtica.",
+        "answer_id": 96672
+      },
+      {
+        "answer_desc": "Proporcionar el suport cartogràfic sobre el qual es carreguen les capes d'informació.",
+        "answer_id": 96670
+      },
+      {
+        "answer_desc": "Convertir els elements puntuals i els seus atributs en una base cartogràfica independent.",
+        "answer_id": 96674
+      }
+    ],
+    "category_desc": "Cartografia i orientació",
+    "difficulty": 1,
+    "question_desc": "Quina funció tenen els mapes base en un SIG?",
+    "question_id": 16447,
+    "topic_desc": "MAN.GRAL.002: SIG – Sistemes d’informació Geogràfica",
+    "correct_answer_id": 96670,
+    "question_solution_desc": "El mapa base aporta el context territorial general i les capes hi afegeixen la informació temàtica necessària.",
+    "question_solution_source": "MAN.GRAL.002: Apartat 6.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 78,
+    "answerList": [
+      {
+        "answer_desc": "Pot incorporar també dos muntants A.",
+        "answer_id": 86394
+      },
+      {
+        "answer_desc": "Pot incorporar també un muntant E, en el context dels accidents de mobilitat.",
+        "answer_id": 86396
+      },
+      {
+        "answer_desc": "Pot incorporar també un muntant D.",
+        "answer_id": 86392
+      },
+      {
+        "answer_desc": "Pot incorporar també un muntant E, durant la intervenció sobre el vehicle.",
+        "answer_id": 86397
+      }
+    ],
+    "category_desc": "Intervenció bàsica en accidents de mobilitat viària",
+    "difficulty": 2,
+    "question_desc": "Quina descripció de «vehicle familiar» és correcta en relació amb els muntants?",
+    "question_id": 14734,
+    "topic_desc": "MAN.SVVH.000: Coneixements generals",
+    "correct_answer_id": 86392,
+    "question_solution_desc": "La majoria de turismes tenen muntants A, B i C, tot i que molts, especialment els models familiars, tenen també muntant D. En el cas de vehicles especials o autocars podem trobar-ne més.",
+    "question_solution_source": "MAN.SVVH.000: Apartat 2.1.1.a",
+    "correct_letter": "C"
+  },
+  {
+    "index": 79,
+    "answerList": [
+      {
+        "answer_desc": "En muntatges redundants o línies secundàries sense progressió.",
+        "answer_id": 88868
+      },
+      {
+        "answer_desc": "En escalada o quan pot haver-hi una caiguda.",
+        "answer_id": 88864
+      },
+      {
+        "answer_desc": "En línies de posicionament o retenció sobre una coberta.",
+        "answer_id": 88867
+      },
+      {
+        "answer_desc": "En evacuacions amb llitera o moviments verticals amb polispast.",
+        "answer_id": 88869
+      }
+    ],
+    "category_desc": "Intervenció bàsica en rescat urbà",
+    "difficulty": 2,
+    "question_desc": "En quines situacions s'utilitzen principalment les cordes dinàmiques?",
+    "question_id": 15146,
+    "topic_desc": "MAN.SVXX.000: Intervencions en alçada",
+    "correct_answer_id": 88864,
+    "question_solution_desc": "El seu comportament elàstic està orientat a limitar l'impacte sobre la persona i el sistema.",
+    "question_solution_source": "MAN.SVXX.000: Apartat 2.2.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 80,
+    "answerList": [
+      {
+        "answer_desc": "Per a la valoració, immobilització i evacuació sanitàries.",
+        "answer_id": 96003
+      },
+      {
+        "answer_desc": "Per a l'aproximació, l'anàlisi i el treball durant l'emergència.",
+        "answer_id": 95998
+      },
+      {
+        "answer_desc": "Per a la redacció de projectes, llicències i certificacions d'obra.",
+        "answer_id": 95999
+      },
+      {
+        "answer_desc": "Per a la classificació, etiquetatge i transport de mercaderies.",
+        "answer_id": 96002
+      }
+    ],
+    "category_desc": "Cartografia i orientació",
+    "difficulty": 2,
+    "question_desc": "Per a quines fases de l'emergència és útil la COE?",
+    "question_id": 16335,
+    "topic_desc": "MAN.GRAL.002: Cartografia Operativa d’Emergències (COE)",
+    "correct_answer_id": 95998,
+    "question_solution_desc": "La mateixa base permet arribar a la zona, comprendre l'escenari i donar suport a les decisions sobre el terreny.",
+    "question_solution_source": "MAN.GRAL.002: Apartat 5",
+    "correct_letter": "B"
+  },
+  {
+    "index": 81,
+    "answerList": [
+      {
+        "answer_desc": "S’ha de valorar especialment amb inestabilitat geològica o bona visibilitat.",
+        "answer_id": 84597
+      },
+      {
+        "answer_desc": "S’ha de valorar especialment amb absència de relleus o meteorologia adversa.",
+        "answer_id": 84595
+      },
+      {
+        "answer_desc": "S’ha de valorar especialment amb inestabilitat geològica o meteorologia adversa.",
+        "answer_id": 84592
+      },
+      {
+        "answer_desc": "S’ha de valorar especialment amb baixa cobertura de ràdio o meteorologia adversa.",
+        "answer_id": 84594
+      }
+    ],
+    "category_desc": "Intervenció bàsica en salvaments al medi natural terrestre",
+    "difficulty": 2,
+    "question_desc": "Quan s’ha de valorar especialment el risc objectiu associat a l’orografia?",
+    "question_id": 14434,
+    "topic_desc": "MAN.SVMN.000: Coneixements generals",
+    "correct_answer_id": 84592,
+    "question_solution_desc": "El risc objectiu mereix una atenció especial quan hi ha inestabilitat geològica o meteorologia adversa.",
+    "question_solution_source": "MAN.SVMN.000: Apartat 2.1.1",
+    "correct_letter": "C"
+  },
+  {
+    "index": 82,
+    "answerList": [
+      {
+        "answer_desc": "Lookouts, Anchor points, Communications, Escape routes i Safety zones.",
+        "answer_id": 66604
+      },
+      {
+        "answer_desc": "Look, Alert, Command, Entry i Search.",
+        "answer_id": 66606
+      },
+      {
+        "answer_desc": "Lines, Areas, Crews, Exposure i Signals.",
+        "answer_id": 66607
+      },
+      {
+        "answer_desc": "Logistics, Anchors, Casualties, Evacuation i Services.",
+        "answer_id": 66608
+      }
+    ],
+    "category_desc": "Intervenció bàsica en inundacions",
+    "difficulty": 2,
+    "question_desc": "Què significa l’acrònim LACES?",
+    "question_id": 11436,
+    "topic_desc": "MAN.SVMN.001: Seguretat en intervencions per inundacions",
+    "correct_answer_id": 66604,
+    "question_solution_desc": "Cada lletra identifica una barrera de seguretat prèvia o durant la maniobra.",
+    "question_solution_source": "MAN.SVMN.001: Apartat 5.3",
+    "correct_letter": "A"
+  },
+  {
+    "index": 83,
+    "answerList": [
+      {
+        "answer_desc": "El magnetotèrmic és reutilitzable i es pot rearmar.",
+        "answer_id": 98968
+      },
+      {
+        "answer_desc": "El magnetotèrmic queda inutilitzat quan actua per sobrecàrrega, però no per curtcircuit.",
+        "answer_id": 98971
+      },
+      {
+        "answer_desc": "El magnetotèrmic només es pot rearmar després de substituir-ne l’element conductor.",
+        "answer_id": 98970
+      },
+      {
+        "answer_desc": "El magnetotèrmic es rearma automàticament sense comprovar la causa de la desconnexió.",
+        "answer_id": 98972
+      }
+    ],
+    "category_desc": "Instal·lacions",
+    "difficulty": 1,
+    "question_desc": "Què diferencia funcionalment un magnetotèrmic d'un fusible després d'actuar?",
+    "question_id": 16830,
+    "topic_desc": "MAN.GRAL.007: Instal·lacions elèctriques",
+    "correct_answer_id": 98968,
+    "question_solution_desc": "No cal substituir-lo si l'aparell no ha patit cap dany i la causa s'ha eliminat.",
+    "question_solution_source": "MAN.GRAL.007: Apartat 2.3.2",
+    "correct_letter": "A"
+  },
+  {
+    "index": 84,
+    "answerList": [
+      {
+        "answer_desc": "El nitrogen i l'argó.",
+        "answer_id": 107863
+      },
+      {
+        "answer_desc": "Les pols químiques i determinats substituts dels halons.",
+        "answer_id": 107860
+      },
+      {
+        "answer_desc": "L'aigua i la boira d'aigua.",
+        "answer_id": 107861
+      },
+      {
+        "answer_desc": "La sorra i les mantes ignífugues.",
+        "answer_id": 107862
+      }
+    ],
+    "category_desc": "Teoria del foc i agents extintors",
+    "difficulty": 2,
+    "question_desc": "Quins agents actuen de manera destacada per inhibició química?",
+    "question_id": 18312,
+    "topic_desc": "MAN.GRAL.008: Teoria de l’extinció",
+    "correct_answer_id": 107860,
+    "question_solution_desc": "Aquests agents interfereixen en els radicals que propaguen la flama.",
+    "question_solution_source": "MAN.GRAL.008: Apartat 13.1",
+    "correct_letter": "B"
+  },
+  {
+    "index": 85,
+    "answerList": [
+      {
+        "answer_desc": "De manera flexible, començant per l’antecedent que explica el succés.",
+        "answer_id": 78366
+      },
+      {
+        "answer_desc": "De manera selectiva, aplicant la lletra que correspon al mecanisme.",
+        "answer_id": 78369
+      },
+      {
+        "answer_desc": "De manera seqüencial, ajornant les maniobres fins al final de l’exploració.",
+        "answer_id": 78367
+      },
+      {
+        "answer_desc": "De manera ràpida, ordenada i sistemàtica.",
+        "answer_id": 78364
+      }
+    ],
+    "category_desc": "Intervenció bàsica en assistència sanitària",
+    "difficulty": 2,
+    "question_desc": "Com s’ha d’executar la valoració XABCDE?",
+    "question_id": 13396,
+    "topic_desc": "MAN.SANI.000: Valoració",
+    "correct_answer_id": 78364,
+    "question_solution_desc": "Un ordre estable permet identificar i corregir cada amenaça abans de continuar.",
+    "question_solution_source": "MAN.SANI.000: Apartat 3.1",
+    "correct_letter": "D"
+  },
+  {
+    "index": 86,
+    "answerList": [
+      {
+        "answer_desc": "Obliga sovint a formular hipòtesis de treball.",
+        "answer_id": 85498
+      },
+      {
+        "answer_desc": "Obliga sovint a suspendre el reconeixement inicial.",
+        "answer_id": 85503
+      },
+      {
+        "answer_desc": "Obliga sovint a concentrar els recursos mobilitzats a l’UPA.",
+        "answer_id": 85502
+      },
+      {
+        "answer_desc": "Obliga sovint a activar una unitat canina de rastreig.",
+        "answer_id": 85500
+      }
+    ],
+    "category_desc": "Intervenció bàsica en salvaments al medi natural terrestre",
+    "difficulty": 2,
+    "question_desc": "Quina conseqüència té la manca d’informació inicial en la planificació d’una recerca?",
+    "question_id": 14585,
+    "topic_desc": "MAN.SVMN.000: Maniobres en recerques",
+    "correct_answer_id": 85498,
+    "question_solution_desc": "Sovint, la manca d’informació inicial porta a haver de fer hipòtesis de treball.",
+    "question_solution_source": "MAN.SVMN.000: Apartat 5",
+    "correct_letter": "A"
+  },
+  {
+    "index": 87,
+    "answerList": [
+      {
+        "answer_desc": "La unió entre aïllaments i membranes.",
+        "answer_id": 94189
+      },
+      {
+        "answer_desc": "La unió entre portes i bastiments.",
+        "answer_id": 94191
+      },
+      {
+        "answer_desc": "La unió entre paviments i mobiliari.",
+        "answer_id": 94190
+      },
+      {
+        "answer_desc": "La unió entre pilars i forjats.",
+        "answer_id": 94186
+      }
+    ],
+    "category_desc": "Construcció",
+    "difficulty": 2,
+    "question_desc": "Quin és el punt crític per a l'estabilitat global del sistema porticat?",
+    "question_id": 16033,
+    "topic_desc": "MAN.GRAL.006: Sistemes constructius",
+    "correct_answer_id": 94186,
+    "question_solution_desc": "La unió transmet càrregues verticals i esforços horitzontals i manté la continuïtat del pòrtic.",
+    "question_solution_source": "MAN.GRAL.006: Apartat 5.5.2",
+    "correct_letter": "D"
+  },
+  {
+    "index": 88,
+    "answerList": [
+      {
+        "answer_desc": "El Reial decret 230/1998.",
+        "answer_id": 71481
+      },
+      {
+        "answer_desc": "El Reial decret 314/2006.",
+        "answer_id": 71476
+      },
+      {
+        "answer_desc": "El Reial decret 164/2025.",
+        "answer_id": 71478
+      },
+      {
+        "answer_desc": "El Reial decret 513/2017.",
+        "answer_id": 71477
+      }
+    ],
+    "category_desc": "Prevenció bàsica d'incendis",
+    "difficulty": 3,
+    "question_desc": "Quin reial decret aprova el Codi tècnic de l'edificació?",
+    "question_id": 12248,
+    "topic_desc": "MAN.SP.000",
+    "correct_answer_id": 71476,
+    "question_solution_desc": "El CTE va ser aprovat pel RD 314/2006.",
+    "question_solution_source": "MAN.SP.000: Apartat 1.4",
+    "correct_letter": "B"
+  },
+  {
+    "index": 89,
+    "answerList": [
+      {
+        "answer_desc": "H3.",
+        "answer_id": 101769
+      },
+      {
+        "answer_desc": "H.",
+        "answer_id": 101766
+      },
+      {
+        "answer_desc": "D.",
+        "answer_id": 101764
+      },
+      {
+        "answer_desc": "Dt.",
+        "answer_id": 101768
+      }
+    ],
+    "category_desc": "Química",
+    "difficulty": 2,
+    "question_desc": "Amb quin símbol es representa el deuteri?",
+    "question_id": 17296,
+    "topic_desc": "MAN.GRAL.004: Estructura de la matèria",
+    "correct_answer_id": 101764,
+    "question_solution_desc": "El deuteri és H-2, també anomenat hidrogen pesant, i s'abreuja D.",
+    "question_solution_source": "MAN.GRAL.004: Apartat 2.4",
+    "correct_letter": "C"
+  },
+  {
+    "index": 90,
+    "answerList": [
+      {
+        "answer_desc": "Amb una estructura lineal i categories.",
+        "answer_id": 28855
+      },
+      {
+        "answer_desc": "Per assemblea mensual entre els seus membres.",
+        "answer_id": 28851
+      },
+      {
+        "answer_desc": "Mitjançant una estructura jerarquitzada.",
+        "answer_id": 28850
+      },
+      {
+        "answer_desc": "Depenent dels reglaments municipals de cada ajuntament.",
+        "answer_id": 28852
+      }
+    ],
+    "category_desc": "Legislació: Bombers i protecció civil",
+    "difficulty": 1,
+    "question_desc": "Segons la Llei 5/1994, de 4 de maig, com s'organitza internament el Cos de Bombers de la Generalitat?",
+    "question_id": 4980,
+    "topic_desc": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya",
+    "correct_answer_id": 28850,
+    "question_solution_desc": "L’article 11 estableix que el Cos de Bombers s’organitza de forma jerarquitzada, per mitjà dels òrgans del Departament de Governació que siguin determinats per reglament.",
+    "question_solution_source": "Llei 5/1994, de 4 de maig, de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya",
+    "correct_letter": "C"
+  },
+  {
+    "index": 91,
+    "answerList": [
+      {
+        "answer_desc": "El foc de superfície baixa.",
+        "answer_id": 111722
+      },
+      {
+        "answer_desc": "El foc de capçades passiu.",
+        "answer_id": 111719
+      },
+      {
+        "answer_desc": "El foc de capçades actiu.",
+        "answer_id": 111720
+      },
+      {
+        "answer_desc": "L'antorxeig.",
+        "answer_id": 111718
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis forestals",
+    "difficulty": 2,
+    "question_desc": "Quina categoria de foc de capçades es produeix quan el foc arriba esporàdicament a les capçades sense propagar-s'hi de manera contínua?",
+    "question_id": 18955,
+    "topic_desc": "MAN.INVE.000: Coneixements bàsics sobre incendis forestals",
+    "correct_answer_id": 111718,
+    "question_solution_desc": "L'antorxeig presenta aquesta relació entre el foc superficial i l'estrat arbori.",
+    "question_solution_source": "MAN.INVE.000: Apartat 2.4.3",
+    "correct_letter": "D"
+  },
+  {
+    "index": 92,
+    "answerList": [
+      {
+        "answer_desc": "El punt de funcionament indicat és de 31 bar i 390 l/min.",
+        "answer_id": 97975
+      },
+      {
+        "answer_desc": "El punt de funcionament indicat és de 39 bar i 488 l/min.",
+        "answer_id": 97976
+      },
+      {
+        "answer_desc": "El punt de funcionament indicat és de 26 bar i 325 l/min.",
+        "answer_id": 97972
+      },
+      {
+        "answer_desc": "El punt de funcionament indicat és de 52 bar i 650 l/min.",
+        "answer_id": 97977
+      }
+    ],
+    "category_desc": "Hidràulica i bombes",
+    "difficulty": 4,
+    "question_desc": "Quin punt de funcionament obté l'exemple en augmentar la bomba de 2400 a 2800 rpm sense canviar la instal·lació?",
+    "question_id": 16664,
+    "topic_desc": "MAN.GRAL.009: Bombes",
+    "correct_answer_id": 97972,
+    "question_solution_desc": "La nova corba de bomba talla la mateixa corba resistent en valors superiors de pressió i cabal.",
+    "question_solution_source": "MAN.GRAL.009: Apartat 5.3.4",
+    "correct_letter": "C"
+  },
+  {
+    "index": 93,
+    "answerList": [
+      {
+        "answer_desc": "Per les potes amb les ales completament esteses per evitar que es mogui.",
+        "answer_id": 90347
+      },
+      {
+        "answer_desc": "Contra el cos amb un braç mentre l'altre controla el coll.",
+        "answer_id": 90346
+      },
+      {
+        "answer_desc": "Pel coll amb una mà i per les potes amb l'altra, mantenint el cos separat del bomber.",
+        "answer_id": 90349
+      },
+      {
+        "answer_desc": "Per les ales recollides contra el cos sense controlar la posició del coll.",
+        "answer_id": 90350
+      }
+    ],
+    "category_desc": "Intervenció en assistències tècniques",
+    "difficulty": 2,
+    "question_desc": "Com s'ha de subjectar una au gran durant una intervenció?",
+    "question_id": 15393,
+    "topic_desc": "MAN.ATXX.000: Intervenció amb animals",
+    "correct_answer_id": 90346,
+    "question_solution_desc": "Les aus grans s'han de subjectar contra el cos amb un braç mentre l'altre controla el coll, reduint així el risc de lesions tant per a l'animal com per al bomber.",
+    "question_solution_source": "MAN.ATXX.000: Apartat 2.4.6",
+    "correct_letter": "B"
+  },
+  {
+    "index": 94,
+    "answerList": [
+      {
+        "answer_desc": "Caiguda d'arbres o branques.",
+        "answer_id": 112708
+      },
+      {
+        "answer_desc": "Operacions amb mitjans aeris.",
+        "answer_id": 112712
+      },
+      {
+        "answer_desc": "Canvis bruscos en el comportament del foc.",
+        "answer_id": 112709
+      },
+      {
+        "answer_desc": "Condicions del terreny i riscos naturals.",
+        "answer_id": 112713
+      }
+    ],
+    "category_desc": "Intervenció bàsica en incendis forestals",
+    "difficulty": 2,
+    "question_desc": "Quin risc requereix especialment evitar arbres danyats, identificar peus morts i utilitzar casc?",
+    "question_id": 19120,
+    "topic_desc": "MAN.INVE.000: Seguretat en incendis forestals",
+    "correct_answer_id": 112708,
+    "question_solution_desc": "Caiguda d'arbres o branques s'associa a aquest conjunt de mesures preventives.",
+    "question_solution_source": "MAN.INVE.000: Apartat 5.2",
+    "correct_letter": "A"
+  }
+]

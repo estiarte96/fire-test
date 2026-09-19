@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle, Zap, Shield } from 'lucide-react';
+import { LogOut, Play, BookOpen, GraduationCap, ArrowRight, ArrowLeft, Check, X, Menu, Cloud, CloudOff, CloudLightning, Trash2, Printer, AlertTriangle, Star, RotateCcw, FileText, RefreshCw, ListOrdered, Search, CheckCircle2, XCircle, ArrowDown, Layers, HelpCircle, Zap, Shield, Camera } from 'lucide-react';
 import FlashcardScreen from './components/FlashcardScreen';
+import QuestionPhotoModal from './components/QuestionPhotoModal';
 import './index.css';
 
-// Academies metadata
+// Academies metadata (5 Acadèmies Oficials)
 export const ACADEMIES_CONFIG = [
   { id: 'optima', label: 'Òptim Bombers', shortLabel: 'Òptim', icon: '🎯', color: '#3b82f6', badgeClass: 'badge-academy-optima' },
+  { id: 'halligan', label: 'Halligan', shortLabel: 'Halligan', icon: '🪓', color: '#8b5cf6', badgeClass: 'badge-academy-halligan' },
   { id: 'racord', label: 'Ràcord Girona', shortLabel: 'Ràcord', icon: '🚒', color: '#ef4444', badgeClass: 'badge-academy-racord' },
-  { id: 'academia', label: 'Acadèmia Bombers', shortLabel: 'Acadèmia', icon: '📚', color: '#10b981', badgeClass: 'badge-academy-academia' }
+  { id: 'academia', label: 'Acadèmia Bombers', shortLabel: 'Acadèmia', icon: '📚', color: '#10b981', badgeClass: 'badge-academy-academia' },
+  { id: 'serebomber', label: 'Serebomber', shortLabel: 'Serebomber', icon: '⚡', color: '#f59e0b', badgeClass: 'badge-academy-serebomber' }
 ];
-
 
 export function getAcademyInfo(academyId) {
   if (academyId === 'oficial') academyId = 'optima';
@@ -31,6 +33,7 @@ export default function App() {
   const [stats, setStats] = useState({});
   const [syncStatus, setSyncStatus] = useState('offline'); // 'synced', 'syncing', 'error', 'offline'
   const [screen, setScreen] = useState(user ? 'home' : 'login');
+  const [photoQuestionModal, setPhotoQuestionModal] = useState(null); // { question, index }
 
   // Active academies state
   const [selectedAcademies, setSelectedAcademies] = useState(() => {
@@ -243,6 +246,7 @@ export default function App() {
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onBackToThemes={() => setScreen('theme-selector')}
             onHome={() => setScreen('home')}
           />
@@ -255,6 +259,7 @@ export default function App() {
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onFinish={(results) => setScreen({ name: 'results', results })}
             onExit={() => setScreen('home')}
           />
@@ -265,6 +270,7 @@ export default function App() {
             results={screen.results}
             userStats={stats}
             onToggleFavorite={toggleFavorite}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onStartQuiz={(config) => setScreen({ name: 'quiz', config })}
             onHome={() => setScreen('home')}
           />
@@ -276,6 +282,7 @@ export default function App() {
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onHome={() => setScreen('home')}
           />
         )}
@@ -286,6 +293,7 @@ export default function App() {
             userStats={stats}
             onSaveStats={saveStats}
             onToggleFavorite={toggleFavorite}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onStartFavoritesQuiz={(config) => setScreen({ name: 'quiz', config })}
             onHome={() => setScreen('home')}
           />
@@ -297,10 +305,20 @@ export default function App() {
             allQuestions={questions}
             selectedAcademies={selectedAcademies}
             onToggleAcademy={toggleAcademy}
+            onExportPhoto={(q, idx) => setPhotoQuestionModal({ question: q, index: idx })}
             onHome={() => setScreen('home')}
           />
         )}
       </AnimatePresence>
+
+      {/* White background photo export modal */}
+      {photoQuestionModal && (
+        <QuestionPhotoModal 
+          question={photoQuestionModal.question}
+          questionIndex={photoQuestionModal.index}
+          onClose={() => setPhotoQuestionModal(null)}
+        />
+      )}
     </div>
   );
 }
@@ -749,7 +767,7 @@ function HomeScreen({
 // ----------------------------------------------------------------------
 // QUIZ SCREEN
 // ----------------------------------------------------------------------
-function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorite, onFinish, onExit }) {
+function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorite, onExportPhoto, onFinish, onExit }) {
   const [queue, setQueue] = useState(() => {
     let pool = [];
     if (config.mode === 'review-failed') {
@@ -946,13 +964,23 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
               <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)' }}>• {q.section}</span>
             )}
           </div>
-          <button 
-            onClick={() => onToggleFavorite(q.id)}
-            style={{ background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', transition: 'all 0.2s' }}
-            title={isFav ? "Treure de preferits" : "Afegir a preferits"}
-          >
-            <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <button 
+              onClick={() => onExportPhoto && onExportPhoto(q, currentIndex)}
+              className="btn-photo-export"
+              title="Descarregar o copiar com a foto per als apunts"
+            >
+              <Camera size={14} />
+              <span>Foto Apunts</span>
+            </button>
+            <button 
+              onClick={() => onToggleFavorite(q.id)}
+              style={{ background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', transition: 'all 0.2s' }}
+              title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+            >
+              <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+            </button>
+          </div>
         </div>
 
         <h3 style={{ fontSize: 18, lineHeight: 1.5, marginBottom: 24, fontWeight: 500 }}>
@@ -984,9 +1012,19 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
       {/* Explanation for Study Mode */}
       {!isExam && studyState && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass" style={{ padding: 20, borderLeft: `4px solid ${studyState === 'correct' ? 'var(--success)' : 'var(--error)'}` }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, color: studyState === 'correct' ? 'var(--success)' : 'var(--error)' }}>
-            {studyState === 'correct' ? <Check size={20} /> : <X size={20} />}
-            <span style={{ fontWeight: 600 }}>{studyState === 'correct' ? 'Correcte!' : 'Incorrecte'}</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, flexWrap: 'wrap', gap: 6 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: studyState === 'correct' ? 'var(--success)' : 'var(--error)' }}>
+              {studyState === 'correct' ? <Check size={20} /> : <X size={20} />}
+              <span style={{ fontWeight: 600 }}>{studyState === 'correct' ? 'Correcte!' : 'Incorrecte'}</span>
+            </div>
+            <button 
+              onClick={() => onExportPhoto && onExportPhoto(q, currentIndex)}
+              className="btn-photo-export"
+              title="Descarregar o copiar com a foto per als apunts"
+            >
+              <Camera size={14} />
+              <span>Foto per Apunts</span>
+            </button>
           </div>
           <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.5, whiteSpace: 'pre-line' }}>{q.explanation || 'Sense explicació addicional.'}</p>
           <div style={{ display: 'flex', gap: 12 }}>
@@ -1030,7 +1068,7 @@ function QuizScreen({ config, questions, userStats, onSaveStats, onToggleFavorit
 // ----------------------------------------------------------------------
 // RESULTS SCREEN
 // ----------------------------------------------------------------------
-function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHome }) {
+function ResultsScreen({ results, userStats, onToggleFavorite, onExportPhoto, onStartQuiz, onHome }) {
   const handlePrint = () => window.print();
 
   const wrongQuestions = [];
@@ -1066,14 +1104,23 @@ function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHo
               {acadInfo.icon} {acadInfo.shortLabel}
             </span>
           </div>
-          <button 
-            onClick={() => onToggleFavorite(q.id)}
-            style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
-            className="print-hide"
-            title={isFav ? "Treure de preferits" : "Afegir a preferits"}
-          >
-            <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }} className="print-hide">
+            <button 
+              onClick={() => onExportPhoto && onExportPhoto(q, idx)}
+              className="btn-photo-export"
+              title="Descarregar o copiar la pregunta en format foto per als apunts"
+            >
+              <Camera size={14} />
+              <span>Foto Apunts</span>
+            </button>
+            <button 
+              onClick={() => onToggleFavorite(q.id)}
+              style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+              title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+            >
+              <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+            </button>
+          </div>
         </div>
 
         <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>❓ {q.statement}</p>
@@ -1199,7 +1246,7 @@ function ResultsScreen({ results, userStats, onToggleFavorite, onStartQuiz, onHo
 // ----------------------------------------------------------------------
 // FAILED SCREEN
 // ----------------------------------------------------------------------
-function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onHome }) {
+function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onExportPhoto, onHome }) {
   const [filterTheme, setFilterTheme] = useState('ALL');
   const handlePrint = () => window.print();
   
@@ -1277,14 +1324,23 @@ function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onH
                       {acadInfo.icon} {acadInfo.shortLabel}
                     </span>
                   </div>
-                  <button 
-                    onClick={() => onToggleFavorite(q.id)}
-                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
-                    className="print-hide"
-                    title={isFav ? "Treure de preferits" : "Afegir a preferits"}
-                  >
-                    <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
-                  </button>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }} className="print-hide">
+                    <button 
+                      onClick={() => onExportPhoto && onExportPhoto(q, idx)}
+                      className="btn-photo-export"
+                      title="Descarregar o copiar la pregunta en format foto per als apunts"
+                    >
+                      <Camera size={14} />
+                      <span>Foto Apunts</span>
+                    </button>
+                    <button 
+                      onClick={() => onToggleFavorite(q.id)}
+                      style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+                      title={isFav ? "Treure de preferits" : "Afegir a preferits"}
+                    >
+                      <Star size={18} color={isFav ? "#f59e0b" : "var(--text-muted)"} fill={isFav ? "#f59e0b" : "transparent"} />
+                    </button>
+                  </div>
                 </div>
 
                 <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
@@ -1330,7 +1386,7 @@ function FailedScreen({ questions, userStats, onSaveStats, onToggleFavorite, onH
 // ----------------------------------------------------------------------
 // FAVORITES SCREEN
 // ----------------------------------------------------------------------
-function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, onStartFavoritesQuiz, onHome }) {
+function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, onExportPhoto, onStartFavoritesQuiz, onHome }) {
   const [filterTheme, setFilterTheme] = useState('ALL');
   const handlePrint = () => window.print();
 
@@ -1342,26 +1398,12 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
     ? allFavQuestions
     : allFavQuestions.filter(q => q.theme === filterTheme);
 
-  const startFavTest = () => {
-    const selectedThemes = filterTheme === 'ALL' ? favThemes : [filterTheme];
-    onStartFavoritesQuiz({
-      themes: selectedThemes,
-      mode: 'favorites',
-      length: favQuestions.length
-    });
-  };
-
   return (
     <motion.div variants={pageVariants} initial="initial" animate="in" exit="out" transition={pageTransition} className="flex-center" style={{ minHeight: '80vh', flexDirection: 'column', paddingTop: 40, paddingBottom: 40 }}>
       <div className="glass text-center print-hide" style={{ padding: 40, width: '100%', marginBottom: 24 }}>
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
-          <div style={{ background: 'rgba(245, 158, 11, 0.2)', padding: 12, borderRadius: '50%' }}>
-            <Star size={32} color="#f59e0b" fill="#f59e0b" />
-          </div>
-        </div>
-        <h2 style={{ fontSize: 24, marginBottom: 8 }}>Preguntes Preferides</h2>
+        <h2 style={{ fontSize: 24, marginBottom: 16 }}>Preguntes Preferides</h2>
         <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
-          Tens <b>{favQuestions.length}</b> preguntes marcades com a preferides {filterTheme !== 'ALL' ? `del tema ${filterTheme}` : 'en total'}.
+          Tens <b>{favQuestions.length}</b> preguntes guardades {filterTheme !== 'ALL' ? `del tema ${filterTheme}` : 'en total'}.
         </p>
 
         {favThemes.length > 1 && (
@@ -1382,17 +1424,19 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
             <ArrowLeft size={18} />
             Tornar
           </button>
-
-          {favQuestions.length > 0 && (
-            <button onClick={startFavTest} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'rgba(245, 158, 11, 0.25)', color: '#f59e0b', border: '1px solid rgba(245, 158, 11, 0.3)', fontWeight: 600, cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
-              <Play size={18} fill="#f59e0b" />
-              Fer Test ({favQuestions.length})
-            </button>
-          )}
-
-          <button onClick={handlePrint} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
+          
+          <button onClick={handlePrint} style={{ flex: 1, minWidth: 120, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
             <Printer size={18} />
-            Imprimir PDF
+            Imprimir
+          </button>
+
+          <button 
+            disabled={favQuestions.length === 0}
+            onClick={() => onStartFavoritesQuiz({ mode: 'favorites', themes: filterTheme === 'ALL' ? favThemes : [filterTheme] })}
+            style={{ flex: 2, minWidth: 180, padding: 18, borderRadius: 12, background: 'var(--primary)', color: 'white', fontWeight: 600, border: 'none', cursor: favQuestions.length === 0 ? 'not-allowed' : 'pointer', opacity: favQuestions.length === 0 ? 0.5 : 1, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}
+          >
+            <Play size={18} />
+            Practicar Guardades
           </button>
         </div>
       </div>
@@ -1400,9 +1444,9 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
       <div className="review-container" style={{ width: '100%' }}>
         {favQuestions.length === 0 ? (
           <div className="glass" style={{ padding: 40, textAlign: 'center' }}>
-            <Star size={48} color="var(--text-muted)" style={{ margin: '0 auto 16px', opacity: 0.5 }} />
-            <h3 style={{ fontSize: 20, marginBottom: 8 }}>Sense Preferits</h3>
-            <p style={{ color: 'var(--text-muted)' }}>Pots prémer la icona de l'estrella ⭐ en qualsevol pregunta per guardar-la aquí.</p>
+            <Star size={48} color="#f59e0b" style={{ margin: '0 auto 16px' }} />
+            <h3 style={{ fontSize: 20, marginBottom: 8 }}>Sense Preferides</h3>
+            <p style={{ color: 'var(--text-muted)' }}>Pots marcar preguntes amb l'estrella per tenir-les sempre a mà aquí.</p>
           </div>
         ) : (
           favQuestions.map((q, idx) => {
@@ -1416,14 +1460,23 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
                       {acadInfo.icon} {acadInfo.shortLabel}
                     </span>
                   </div>
-                  <button 
-                    onClick={() => onToggleFavorite(q.id)}
-                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
-                    className="print-hide"
-                    title="Treure de preferits"
-                  >
-                    <Star size={18} color="#f59e0b" fill="#f59e0b" />
-                  </button>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }} className="print-hide">
+                    <button 
+                      onClick={() => onExportPhoto && onExportPhoto(q, idx)}
+                      className="btn-photo-export"
+                      title="Descarregar o copiar la pregunta en format foto per als apunts"
+                    >
+                      <Camera size={14} />
+                      <span>Foto Apunts</span>
+                    </button>
+                    <button 
+                      onClick={() => onToggleFavorite(q.id)}
+                      style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}
+                      title="Treure de preferits"
+                    >
+                      <Star size={18} color="#f59e0b" fill="#f59e0b" />
+                    </button>
+                  </div>
                 </div>
 
                 <p style={{ fontWeight: 600, marginBottom: 16, lineHeight: 1.5 }}>{idx + 1}. {q.statement}</p>
@@ -1469,7 +1522,7 @@ function FavoritesScreen({ questions, userStats, onSaveStats, onToggleFavorite, 
 // ----------------------------------------------------------------------
 // SIMULACRE SCREEN (GENERADOR DE TEST EN PAPER I PDF)
 // ----------------------------------------------------------------------
-function SimulacreScreen({ questions, allQuestions, selectedAcademies, onToggleAcademy, onHome }) {
+function SimulacreScreen({ questions, allQuestions, selectedAcademies, onToggleAcademy, onExportPhoto, onHome }) {
   const [count, setCount] = useState(40);
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [themeStats, setThemeStats] = useState({});
@@ -1719,6 +1772,15 @@ function SimulacreScreen({ questions, allQuestions, selectedAcademies, onToggleA
                       <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
                         <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Tema: {q.theme}</span>
                         <span className={`badge-academy ${acadInfo.badgeClass}`}>{acadInfo.shortLabel}</span>
+                        <button 
+                          onClick={() => onExportPhoto && onExportPhoto(q, idx)}
+                          className="btn-photo-export print-hide"
+                          style={{ padding: '3px 8px', fontSize: 11 }}
+                          title="Descarregar o copiar com a foto per als apunts"
+                        >
+                          <Camera size={13} />
+                          <span>Foto Apunts</span>
+                        </button>
                       </div>
                     </div>
                     <p style={{ fontSize: 13, marginBottom: 10, fontWeight: 500 }}>{q.statement}</p>
@@ -1960,7 +2022,7 @@ function ThemeSelectorScreen({
 // ----------------------------------------------------------------------
 // THEME LIST SCREEN (CONTESTAR EN LLISTA CONTÍNUA AMB PROGRÉS DESAT)
 // ----------------------------------------------------------------------
-function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSaveStats, onToggleFavorite, onBackToThemes, onHome }) {
+function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSaveStats, onToggleFavorite, onExportPhoto, onBackToThemes, onHome }) {
   const [filter, setFilter] = useState('all'); // 'all', 'pending', 'answered', 'wrong', 'favorites'
   const [academyFilter, setAcademyFilter] = useState('all'); // 'all', 'oficial', 'racord', 'academia'
   const [searchTerm, setSearchTerm] = useState('');
@@ -2277,6 +2339,15 @@ function ThemeListScreen({ theme, questions, selectedAcademies, userStats, onSav
                         Reintentar
                       </button>
                     )}
+                    <button 
+                      onClick={() => onExportPhoto && onExportPhoto(q, idx)}
+                      className="btn-photo-export"
+                      style={{ padding: '4px 8px', fontSize: 11 }}
+                      title="Descarregar o copiar la pregunta en format foto per als apunts"
+                    >
+                      <Camera size={13} />
+                      <span>Foto Apunts</span>
+                    </button>
                     <button 
                       onClick={() => onToggleFavorite(q.id)}
                       style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 4 }}

@@ -1,0 +1,3043 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T16 - Protecció contra incendis en l&#039;edificació - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T16 - Protecció contra incendis en l&#039;edificació</h1>
+      </div>
+      <p>66 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim3_q80" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 1 de 66 • ID: academia_sim3_q80</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim3_q80)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. Segons el RIPCI, cada sis mesos s&#039;ha de comprovar que les vàlvules de seccionament de les columnes seques estan:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim3_q80, 'A')">
+            <b>A)</b> <span>Obertes</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim3_q80, 'B')">
+            <b>B)</b> <span>Ben senyalitzades</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim3_q80, 'C')">
+            <b>C)</b> <span>Tancades</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim3_q80, 'D')">
+            <b>D)</b> <span>Greixades  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim3_q80">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Obertes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Altres comprovacions:
+- Maniobrar les claus per comprovar-ne el correcte funcionament.
+- Comprovar la senyalització.
+- Comprovar que les claus de les connexions siameses estan tancades.
+(...)</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim5_q22" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 2 de 66 • ID: academia_sim5_q22</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim5_q22)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Segons el RIPCI, la prova de la instal·lació en les condicions de la seva recepció en columnes seques s&#039;efectuarà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim5_q22, 'A')">
+            <b>A)</b> <span>Cada sis mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim5_q22, 'B')">
+            <b>B)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim5_q22, 'C')">
+            <b>C)</b> <span>Cada cinc anys</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim5_q22, 'D')">
+            <b>D)</b> <span>Cada deu anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim5_q22">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Cada cinc anys</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim6_q25" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 3 de 66 • ID: academia_sim6_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim6_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. En el cas que el fabricant no estableixi una vida útil per les BIE, es considerarà de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim6_q25, 'A')">
+            <b>A)</b> <span>Deu anys</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim6_q25, 'B')">
+            <b>B)</b> <span>Cinc anys</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim6_q25, 'C')">
+            <b>C)</b> <span>Vint-i-cinc anys</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim6_q25, 'D')">
+            <b>D)</b> <span>Vint anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim6_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Vint anys</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI, Secció 1ª, taula II.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim6_q27" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 4 de 66 • ID: academia_sim6_q27</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim6_q27)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. On s&#039;instal·laran les BIE, segons el RIPCI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim6_q27, 'A')">
+            <b>A)</b> <span>A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim6_q27, 'B')">
+            <b>B)</b> <span>El més aprop possible de les sortides de cada sector d&#039;incendi, independentment de la distància o situació que acabi suposant</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim6_q27, 'C')">
+            <b>C)</b> <span>A 2 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim6_q27, 'D')">
+            <b>D)</b> <span>A 10 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim6_q27">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tampoc podran constituir cap obstacle per a la seva utilització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim6_q64" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 5 de 66 • ID: academia_sim6_q64</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim6_q64)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. Quantes classes de foc reconeix el Reglament d&#039;instal·lacions de protecció contra incendis (RIPCI)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim6_q64, 'A')">
+            <b>A)</b> <span>Quatre classes</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim6_q64, 'B')">
+            <b>B)</b> <span>Cinc classes</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim6_q64, 'C')">
+            <b>C)</b> <span>Sis classes</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim6_q64, 'D')">
+            <b>D)</b> <span>Set classes  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim6_q64">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Cinc classes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Classe A, classe B, classe C, classe D, classe F.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim7_q11" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 6 de 66 • ID: academia_sim7_q11</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim7_q11)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Segons el RIPCI, quin diàmetre s&#039;admet per una BIE de mànega plana?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim7_q11, 'A')">
+            <b>A)</b> <span>45 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim7_q11, 'B')">
+            <b>B)</b> <span>25 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim7_q11, 'C')">
+            <b>C)</b> <span>12 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim7_q11, 'D')">
+            <b>D)</b> <span>65 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim7_q11">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 45 mm</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En el cas de BIE de mànega semirígida el diàmetre admès és 25 mm.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim7_q64" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 7 de 66 • ID: academia_sim7_q64</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim7_q64)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. La presa de la façana d&#039;una columna seca i les sortides de planta tindran el centre de les seves boques a ____ sobre el nivell del terra.</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim7_q64, 'A')">
+            <b>A)</b> <span>0,9 m</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim7_q64, 'B')">
+            <b>B)</b> <span>1,5 m</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim7_q64, 'C')">
+            <b>C)</b> <span>1,2 m</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim7_q64, 'D')">
+            <b>D)</b> <span>0,7 m  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim7_q64">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 0,9 m</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q88" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 8 de 66 • ID: academia_sim8_q88</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q88)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. Segons el RIPCI 2017, la prova de funcionament de tots els polsadors dels dispositius d&#039;activació manual d&#039;alarma es realitzarà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q88, 'A')">
+            <b>A)</b> <span>Cada 3 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q88, 'B')">
+            <b>B)</b> <span>Cada 6 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q88, 'C')">
+            <b>C)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q88, 'D')">
+            <b>D)</b> <span>Cada 5 anys  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q88">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Cada any</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Cada 3 mesos s&#039;haurà de comprovar la senyalització dels polsadors manuals d&#039;alarma.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q2" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 9 de 66 • ID: academia_sim9_q2</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q2)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Quan es prevegin riscos de gelades només s&#039;admetran hidrants de columna de tipus:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q2, 'A')">
+            <b>A)</b> <span>A</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q2, 'B')">
+            <b>B)</b> <span>B</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q2, 'C')">
+            <b>C)</b> <span>C</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q2, 'D')">
+            <b>D)</b> <span>D</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q2">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) C</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI - Sistemes d&#039;hidrants contra incendis - punt 2.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q42" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 10 de 66 • ID: academia_sim9_q42</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q42)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari en cas de que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q42, 'A')">
+            <b>A)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q42, 'B')">
+            <b>B)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 18 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q42, 'C')">
+            <b>C)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q42, 'D')">
+            <b>D)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 28 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q42">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) L&#039;alçada d&#039;evacuació excedeixi els 15 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per norma general seran 24 m.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim11_q19" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 11 de 66 • ID: academia_sim11_q19</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim11_q19)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 11. El RIPCI contempla hidrants de sota terra de tres sortides?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim11_q19, 'A')">
+            <b>A)</b> <span>No</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim11_q19, 'B')">
+            <b>B)</b> <span>Si, però únicament els de 100 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim11_q19, 'C')">
+            <b>C)</b> <span>Si, però únicament els de 80 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim11_q19, 'D')">
+            <b>D)</b> <span>Si, tot i que ja no se&#039;n fabriquen</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim11_q19">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) No</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En tindran o una o dues.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim11_q20" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 12 de 66 • ID: academia_sim11_q20</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim11_q20)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 12. Segons el DB-SI, en quin cas s&#039;haurà d&#039;instal·lar un sistema de Boques d&#039;Incendi Equipades (BIE) en edificis d&#039;ús hospitalari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim11_q20, 'A')">
+            <b>A)</b> <span>Si l&#039;alçada d&#039;evacuació supera els 24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim11_q20, 'B')">
+            <b>B)</b> <span>Si l&#039;alçada d&#039;evacuació supera els 15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim11_q20, 'C')">
+            <b>C)</b> <span>Si l&#039;edifici supera els 50 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim11_q20, 'D')">
+            <b>D)</b> <span>En tot cas</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim11_q20">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) En tot cas</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La columna seca, en canvi, a partir dels 15 metres d&#039;alçada d&#039;evacuació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q9" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 13 de 66 • ID: academia_sim12_q9</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q9)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 13. Segons el RIPCI, on trobarem les sortides d&#039;una columna seca ascendent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q9, 'A')">
+            <b>A)</b> <span>A les plantes parells</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q9, 'B')">
+            <b>B)</b> <span>A les plantes imparells</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q9, 'C')">
+            <b>C)</b> <span>A les plantes parells fins la vuitena, i a partir d&#039;aquesta a cada planta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q9, 'D')">
+            <b>D)</b> <span>A les plantes parells fins la quarta, i a partir d&#039;aquesta a cada planta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q9">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) A les plantes parells fins la vuitena, i a partir d&#039;aquesta a cada planta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les vàlvules de seccionament s&#039;instal·laran cada quatre plantes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q50" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 14 de 66 • ID: academia_sim12_q50</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q50)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 14. Segons el RIPCI, la comprovació de l&#039;accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats s&#039;efectuarà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q50, 'A')">
+            <b>A)</b> <span>Cada tres mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q50, 'B')">
+            <b>B)</b> <span>Cada sis mesos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q50, 'C')">
+            <b>C)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q50, 'D')">
+            <b>D)</b> <span>Cada cinc anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q50">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Cada tres mesos</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q81" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 15 de 66 • ID: academia_sim12_q81</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q81)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 15. Quina de les següents afirmacions sobre la columna seca és falsa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q81, 'A')">
+            <b>A)</b> <span>La presa d&#039;entrada d&#039;una columna seca serà una bifurcació siamesa (2 × 70 mm)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q81, 'B')">
+            <b>B)</b> <span>Les sortides d&#039;una columna seca seran una bifurcació siamesa (2 × 45 mm)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q81, 'C')">
+            <b>C)</b> <span>Seguint els recorreguts d&#039;evacuació, la distància màxima entre dues columnes seques serà de 100 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q81, 'D')">
+            <b>D)</b> <span>Totes les afirmacions són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q81">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Seguint els recorreguts d&#039;evacuació, la distància màxima entre dues columnes seques serà de 100 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Seguint els recorreguts d&#039;evacuació, la distància màxima entre dues columnes seques serà de 60 metres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q15" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 16 de 66 • ID: academia_sim13_q15</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q15)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 16. La connexió a la façana de la columna seca portarà...</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q15, 'A')">
+            <b>A)</b> <span>Dos ràcords de 45 mm sense clau de purga</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q15, 'B')">
+            <b>B)</b> <span>Dos ràcords de 70 mm sense clau de purga, ja que aquesta se situarà a la planta més profunda</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q15, 'C')">
+            <b>C)</b> <span>Dos ràcords de 70 mm i una clau de purga de 25 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q15, 'D')">
+            <b>D)</b> <span>Dos ràcords de 45 mm i una clau de purga de 25 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q15">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Dos ràcords de 70 mm i una clau de purga de 25 mm</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> I estarà situada a 90 cm del terra.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q22" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 17 de 66 • ID: academia_sim13_q22</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q22)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 17. Quina de les següents afirmacions sobre les boques d&#039;incendi equipades (BIE) és falsa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q22, 'A')">
+            <b>A)</b> <span>Seran fàcilment accessibles pel personal de servei contra incendis, amb la indicació &lt;&lt;ÚS EXCLUSIU BOMBERS&gt;&gt;</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q22, 'B')">
+            <b>B)</b> <span>El &quot;factor K&quot; mínim per a les BIE de mànega semirígida serà de 42</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q22, 'C')">
+            <b>C)</b> <span>Les mànegues de les BIE d&#039;alta pressió seran d&#039;un diàmetre nominal no superior a 12 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q22, 'D')">
+            <b>D)</b> <span>Les BIE se situaran sempre a una distància màxima de 5 metres de les sortides del sector d&#039;incendi</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q22">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Seran fàcilment accessibles pel personal de servei contra incendis, amb la indicació &lt;&lt;ÚS EXCLUSIU BOMBERS&gt;&gt;</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La indicació de &lt;&lt;ÚS EXCLUSIU BOMBERS&gt;&gt; es trobarà en el sistema de columna seca.
+El &quot;factor K&quot; mínim per a les BIE de mànega semirígida serà de 42, i el de la BIE plana, 85.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim14_q63" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 18 de 66 • ID: academia_sim14_q63</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim14_q63)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 18. Segons el DB-SI, un edifici o establiment haurà de disposar, per norma general:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim14_q63, 'A')">
+            <b>A)</b> <span>D&#039;almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 10.000 m² addicionals o fracció</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim14_q63, 'B')">
+            <b>B)</b> <span>D&#039;almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 5.000 m² addicionals o fracció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim14_q63, 'C')">
+            <b>C)</b> <span>D&#039;almenys un hidrant fins a 5.000 m² de superfície construïda i un més per cada 2.000 m² addicionals o fracció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim14_q63, 'D')">
+            <b>D)</b> <span>D&#039;almenys un hidrant, independentment de la seva superfície construïda</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim14_q63">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) D&#039;almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 10.000 m² addicionals o fracció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Taula 1.1 CTE DB-SI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim14_q67" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 19 de 66 • ID: academia_sim14_q67</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim14_q67)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 19. La connexió d&#039;una columna seca a la façana:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim14_q67, 'A')">
+            <b>A)</b> <span>Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 70 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim14_q67, 'B')">
+            <b>B)</b> <span>S&#039;ubicarà a 1,50 metres del terra, a un lloc accessible pels bombers de la façana de l&#039;edifici</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim14_q67, 'C')">
+            <b>C)</b> <span>Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 45 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim14_q67, 'D')">
+            <b>D)</b> <span>Es farà mitjançant el sistema IPF 40 i constarà de dos ràcords de 45 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim14_q67">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 70 mm</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La distribució de les boques de sortida en pis IPF 39 s’efectua en plantes parells, i a partir de la vuitena planta, en totes
+les plantes subsegüents. Cada quatre plantes es munta la boca de sortida en pis amb clau de secció IPF 40.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim16_q9" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 20 de 66 • ID: academia_sim16_q9</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim16_q9)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 20. Segons el DB-SI, quina condició obliga a un edifici d&#039;ús hospitalari a disposar de comunicació directa amb el servei de bombers?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim16_q9, 'A')">
+            <b>A)</b> <span>Disposar d&#039;una superfície construïda superior als 5.000 m²</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim16_q9, 'B')">
+            <b>B)</b> <span>Disposar de més de cent llits</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim16_q9, 'C')">
+            <b>C)</b> <span>Disposar d&#039;una superfície construïda superior als 10.000 m²</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim16_q9, 'D')">
+            <b>D)</b> <span>Estar situat a més de 5 km del parc de bombers més proper</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim16_q9">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Disposar de més de cent llits</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Taula 1.1 CTE DB-SI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim17_q13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 21 de 66 • ID: academia_sim17_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim17_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 21. En una columna seca, la presa d&#039;aigua de la façana serà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim17_q13, 'A')">
+            <b>A)</b> <span>IPF-39</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim17_q13, 'B')">
+            <b>B)</b> <span>IPF-40</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim17_q13, 'C')">
+            <b>C)</b> <span>IPF-41</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim17_q13, 'D')">
+            <b>D)</b> <span>Cap de les anteriors respostes és correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim17_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) IPF-41</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim17_q17" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 22 de 66 • ID: academia_sim17_q17</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim17_q17)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 22. Cada quant de temps s&#039;hauran de maniobrar les claus en una columna seca?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim17_q17, 'A')">
+            <b>A)</b> <span>3 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim17_q17, 'B')">
+            <b>B)</b> <span>1 any</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim17_q17, 'C')">
+            <b>C)</b> <span>6 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim17_q17, 'D')">
+            <b>D)</b> <span>5 anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim17_q17">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 6 mesos</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En la columna seca no s&#039;ha de realitzar cap tipus de manteniment ni als 3 mesos i a l&#039;any.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim17_q50" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 23 de 66 • ID: academia_sim17_q50</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim17_q50)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 23. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús administratiu en cas de que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim17_q50, 'A')">
+            <b>A)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 18 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim17_q50, 'B')">
+            <b>B)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 28 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim17_q50, 'C')">
+            <b>C)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim17_q50, 'D')">
+            <b>D)</b> <span>L&#039;alçada d&#039;evacuació excedeixi els 24 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim17_q50">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) L&#039;alçada d&#039;evacuació excedeixi els 24 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per ús hospitalari seran 15 metres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim18_q6" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 24 de 66 • ID: academia_sim18_q6</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim18_q6)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 24. Segons el RIPCI 2017, per assegurar els nivells de protecció, el &quot;factor K&quot; mínim per a les BIE de mànega semirígida serà de ___, i per les BIE de mànega plana, de ___.</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim18_q6, 'A')">
+            <b>A)</b> <span>45 / 25</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim18_q6, 'B')">
+            <b>B)</b> <span>42 / 80</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim18_q6, 'C')">
+            <b>C)</b> <span>42 / 85</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim18_q6, 'D')">
+            <b>D)</b> <span>40 / 50</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim18_q6">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 42 / 85</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim19_q31" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 25 de 66 • ID: academia_sim19_q31</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim19_q31)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 25. Segons el RIPCI, els polsadors manuals d&#039;alarma d&#039;incendis se situaran de manera que la distància màxima a recórrer des de qualsevol punt considerat com a origen d&#039;evacuació fins el polsador sigui de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim19_q31, 'A')">
+            <b>A)</b> <span>15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim19_q31, 'B')">
+            <b>B)</b> <span>10 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim19_q31, 'C')">
+            <b>C)</b> <span>30 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim19_q31, 'D')">
+            <b>D)</b> <span>25 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim19_q31">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) 25 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els polsadors se situaran de manera que la part superior del dispositiu quedi a una alçada d&#039;entre 80 i 120 cm.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim20_q84" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 26 de 66 • ID: academia_sim20_q84</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim20_q84)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 26. Segons el RIPCI 2017, les BIE hauran de portar obligatòriament un manòmetre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim20_q84, 'A')">
+            <b>A)</b> <span>Si</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim20_q84, 'B')">
+            <b>B)</b> <span>No</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim20_q84, 'C')">
+            <b>C)</b> <span>Només les BIE-45</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim20_q84, 'D')">
+            <b>D)</b> <span>Només les BIE-25</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim20_q84">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Només les BIE-45</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q5" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 27 de 66 • ID: academia_sim21_q5</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q5)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 27. Segons el RIPCI, per a les BIE amb mànega semirígida o plana, la separació màxima entre cada BIE i la més propera serà de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q5, 'A')">
+            <b>A)</b> <span>50 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q5, 'B')">
+            <b>B)</b> <span>El radi d&#039;acció de la BIE</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q5, 'C')">
+            <b>C)</b> <span>60 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q5, 'D')">
+            <b>D)</b> <span>15 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q5">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 50 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La distància des de qualsevol punt de l&#039;àrea protegida fins la BIE més propera no haurà d&#039;excedir el seu radi d&#039;acció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q70" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 28 de 66 • ID: academia_sim21_q70</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q70)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 28. La connexió a la façana d&#039;una columna seca es trobarà a:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q70, 'A')">
+            <b>A)</b> <span>50 cm del terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q70, 'B')">
+            <b>B)</b> <span>120 cm del terra</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q70, 'C')">
+            <b>C)</b> <span>80 cm del terra</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q70, 'D')">
+            <b>D)</b> <span>90 cm del terra</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q70">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) 90 cm del terra</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Serà una connexió IPF-41 i se situarà en un lloc fàcilment accessible pels bombers. Portarà dos ràcords de 70 mm i clau
+de purga de 25 mm.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q77" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 29 de 66 • ID: academia_sim21_q77</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q77)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 29. En un edifici d&#039;ús docent, s&#039;instal·larà una columna seca si l&#039;altura d&#039;evacuació excedeix els:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q77, 'A')">
+            <b>A)</b> <span>15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q77, 'B')">
+            <b>B)</b> <span>24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q77, 'C')">
+            <b>C)</b> <span>28 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q77, 'D')">
+            <b>D)</b> <span>30 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q77">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) 24 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En un edifici d&#039;ús hospitalari s&#039;instal·larà una columna seca si l&#039;altura d&#039;evacuació excedeix els 15 metres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q90" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 30 de 66 • ID: academia_sim21_q90</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q90)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 30. Segons el RIPCI, quina de les següents accions es durà a terme cada tres mesos en el manteniment d&#039;una columna seca?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q90, 'A')">
+            <b>A)</b> <span>La comprovació de l&#039;accessibilitat de l&#039;entrada del carrer i preses de terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q90, 'B')">
+            <b>B)</b> <span>La comprovació de la senyalització</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q90, 'C')">
+            <b>C)</b> <span>La maniobra de les claus de la instal·lació per tal de verificar-ne el correcte funcionament</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q90, 'D')">
+            <b>D)</b> <span>Cap de les respostes és correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q90">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Cap de les respostes és correcta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les accions de manteniment de les columnes seques en tot cas s&#039;efectuaran, o bé cada sis mesos, o bé cada cinc anys
+(en el cas de la prova de la instal·lació).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim22_q58" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 31 de 66 • ID: academia_sim22_q58</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim22_q58)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 31. Segons el RIPCI, la comprovació de la senyalització de les BIE es realitzarà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim22_q58, 'A')">
+            <b>A)</b> <span>Cada tres mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim22_q58, 'B')">
+            <b>B)</b> <span>Cada sis mesos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim22_q58, 'C')">
+            <b>C)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim22_q58, 'D')">
+            <b>D)</b> <span>Cada cinc anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim22_q58">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Cada tres mesos</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim23_q60" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 32 de 66 • ID: academia_sim23_q60</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim23_q60)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 32. Els ràcords de la columna seca a partir de la vuitena planta seran de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim23_q60, 'A')">
+            <b>A)</b> <span>45 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim23_q60, 'B')">
+            <b>B)</b> <span>70 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim23_q60, 'C')">
+            <b>C)</b> <span>25 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim23_q60, 'D')">
+            <b>D)</b> <span>80 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim23_q60">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 45 mm</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Seran de 2 × 45 mm. La presa d&#039;entrada serà de 2 × 70 mm.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim24_q56" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 33 de 66 • ID: academia_sim24_q56</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim24_q56)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 33. Segons el RIPCI, quina distància màxima existirà entre qualsevol origen d&#039;evacuació fins al polsador d&#039;alarma d&#039;incendi més proper?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim24_q56, 'A')">
+            <b>A)</b> <span>5 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim24_q56, 'B')">
+            <b>B)</b> <span>15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim24_q56, 'C')">
+            <b>C)</b> <span>25 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim24_q56, 'D')">
+            <b>D)</b> <span>50 metres  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim24_q56">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 5 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> A part, hauran d&#039;estar col·locats entre 80 i 120 cm del terra.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q55" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 34 de 66 • ID: academia_sim28_q55</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q55)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 34. On se situaran les preses de la columna seca situades a l&#039;exterior i en les sortides de planta?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q55, 'A')">
+            <b>A)</b> <span>A 1,8 metres del nivell del terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q55, 'B')">
+            <b>B)</b> <span>Amb el centre de les seves boques a 0,9 metres del nivell del terra</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q55, 'C')">
+            <b>C)</b> <span>A 1,2 metres del nivell del terra</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q55, 'D')">
+            <b>D)</b> <span>Amb el centre de les seves boques a 1,5 metres del nivell del terra</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q55">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Amb el centre de les seves boques a 0,9 metres del nivell del terra</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q59" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 35 de 66 • ID: academia_sim28_q59</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q59)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 35. Segons el CTE DB-SI, quan serà preceptiva la instal·lació, de forma general, de ruixadors?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q59, 'A')">
+            <b>A)</b> <span>En tot edifici amb una alçada d&#039;evacuació superior a 80 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q59, 'B')">
+            <b>B)</b> <span>Si la superfície construïda supera els 2.500 m²</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q59, 'C')">
+            <b>C)</b> <span>En tot edifici amb una alçada d&#039;evacuació superior a 24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q59, 'D')">
+            <b>D)</b> <span>En tot edifici amb una alçada d&#039;evacuació superior a 50 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q59">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) En tot edifici amb una alçada d&#039;evacuació superior a 80 metres</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q60" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 36 de 66 • ID: academia_sim28_q60</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q60)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 36. Quina freqüència requerirà la prova de la instal·lació d&#039;una columna seca?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q60, 'A')">
+            <b>A)</b> <span>Un any</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q60, 'B')">
+            <b>B)</b> <span>Cinc anys</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q60, 'C')">
+            <b>C)</b> <span>Deu anys</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q60, 'D')">
+            <b>D)</b> <span>Quinze anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q60">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Cinc anys</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim33_q77" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 37 de 66 • ID: academia_sim33_q77</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim33_q77)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 37. A quina alçada es troben les sortides d&#039;una columna seca?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim33_q77, 'A')">
+            <b>A)</b> <span>A 0,5 metres del terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim33_q77, 'B')">
+            <b>B)</b> <span>A 1,5 metres del terra</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim33_q77, 'C')">
+            <b>C)</b> <span>A 1,9 metres del terra</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim33_q77, 'D')">
+            <b>D)</b> <span>Cap resposta és correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim33_q77">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Cap resposta és correcta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Es troben a 0,9 metres del terra.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim34_q89" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 38 de 66 • ID: academia_sim34_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim34_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 38. Amb quina freqüència s&#039;efectuarà la comprovació de l&#039;accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats, d&#039;acord amb el RIPCI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim34_q89, 'A')">
+            <b>A)</b> <span>Cada nou mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim34_q89, 'B')">
+            <b>B)</b> <span>Cada sis mesos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim34_q89, 'C')">
+            <b>C)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim34_q89, 'D')">
+            <b>D)</b> <span>Cada tres mesos</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim34_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Cada tres mesos</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim36_q5" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 39 de 66 • ID: academia_sim36_q5</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim36_q5)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 39. D&#039;acord amb el RIPCI, quin diàmetre nominal tindrà cadascuna de les sortides de planta d&#039;una columna seca?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim36_q5, 'A')">
+            <b>A)</b> <span>45 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim36_q5, 'B')">
+            <b>B)</b> <span>80 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim36_q5, 'C')">
+            <b>C)</b> <span>70 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim36_q5, 'D')">
+            <b>D)</b> <span>25 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim36_q5">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 45 mm</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim36_q41" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 40 de 66 • ID: academia_sim36_q41</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim36_q41)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 40. Segons el DB-SI, en quin cas s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim36_q41, 'A')">
+            <b>A)</b> <span>Si l&#039;alçada d&#039;evacuació supera els 24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim36_q41, 'B')">
+            <b>B)</b> <span>Si l&#039;alçada d&#039;evacuació supera els 15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim36_q41, 'C')">
+            <b>C)</b> <span>Si l&#039;edifici supera els 50 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim36_q41, 'D')">
+            <b>D)</b> <span>En tot cas</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim36_q41">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Si l&#039;alçada d&#039;evacuació supera els 15 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El sistema de Boques d&#039;Incendi Equipades (BIE), en canvi, en tot cas.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim44_q40" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 41 de 66 • ID: academia_sim44_q40</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim44_q40)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 41. Quin dels següents elements no formarà part d&#039;un sistema fix d&#039;extinció per ruixadors automàtics per aigua?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim44_q40, 'A')">
+            <b>A)</b> <span>La xarxa de canonades per a l&#039;alimentació d&#039;aigua</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim44_q40, 'B')">
+            <b>B)</b> <span>El punt de control</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim44_q40, 'C')">
+            <b>C)</b> <span>Les vàlvules selectores</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim44_q40, 'D')">
+            <b>D)</b> <span>Els broquets de descàrrega  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim44_q40">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Les vàlvules selectores</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les vàlvules selectores formaran part dels sistemes fixes d&#039;extinció per pols.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim50_q85" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 42 de 66 • ID: academia_sim50_q85</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim50_q85)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 42. On han de constar de sortides els sistemes de columna seca ascendents?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim50_q85, 'A')">
+            <b>A)</b> <span>Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim50_q85, 'B')">
+            <b>B)</b> <span>A cada planta</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim50_q85, 'C')">
+            <b>C)</b> <span>A les plantes parells fins a la vuitena i a totes a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim50_q85, 'D')">
+            <b>D)</b> <span>A les plantes parells</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim50_q85">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) A les plantes parells fins a la vuitena i a totes a partir d’aquesta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim54_q46" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 43 de 66 • ID: academia_sim54_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim54_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 43. Quins components principals conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim54_q46, 'A')">
+            <b>A)</b> <span>Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim54_q46, 'B')">
+            <b>B)</b> <span>La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim54_q46, 'C')">
+            <b>C)</b> <span>El recipient o dipòsit d&#039;aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim54_q46, 'D')">
+            <b>D)</b> <span>La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim54_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI - pàgina 21.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim54_q71" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 44 de 66 • ID: academia_sim54_q71</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim54_q71)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 44. Seguint els recorreguts d&#039;evacuació, quina distància màxima existirà entre dues columnes seques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim54_q71, 'A')">
+            <b>A)</b> <span>60 m</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim54_q71, 'B')">
+            <b>B)</b> <span>120 m</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim54_q71, 'C')">
+            <b>C)</b> <span>La distància la marcarà el CTE segons la tipologia de l&#039;edifici</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim54_q71, 'D')">
+            <b>D)</b> <span>30 m</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim54_q71">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) 120 m</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> 60 metres des de qualsevol punt a la columna seca més propera.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim56_q52" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 45 de 66 • ID: academia_sim56_q52</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim56_q52)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 45. Quin és el diàmetre nominal d&#039;una columna seca d&#039;acer galvanitzat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim56_q52, 'A')">
+            <b>A)</b> <span>70 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim56_q52, 'B')">
+            <b>B)</b> <span>80 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim56_q52, 'C')">
+            <b>C)</b> <span>60 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim56_q52, 'D')">
+            <b>D)</b> <span>45 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim56_q52">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) 80 mm</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim57_q7" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 46 de 66 • ID: academia_sim57_q7</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim57_q7)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 46. D&#039;acord amb el RIPCI, quina serà la separació màxima entre una BIE i la més propera serà per a les BIE amb mànega semirígida o plana?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim57_q7, 'A')">
+            <b>A)</b> <span>50 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim57_q7, 'B')">
+            <b>B)</b> <span>El radi d&#039;acció de la BIE</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim57_q7, 'C')">
+            <b>C)</b> <span>100 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim57_q7, 'D')">
+            <b>D)</b> <span>25 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim57_q7">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 50 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La distància des de qualsevol punt de l&#039;àrea protegida fins la BIE més propera no haurà d&#039;excedir el seu radi d&#039;acció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim57_q67" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 47 de 66 • ID: academia_sim57_q67</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim57_q67)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 47. Segons el RIPCI 2017, cada quant de temps es realitzarà la prova de funcionament de tots els polsadors dels dispositius d&#039;activació manual d&#039;alarma?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim57_q67, 'A')">
+            <b>A)</b> <span>Cada 3 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim57_q67, 'B')">
+            <b>B)</b> <span>Cada 6 mesos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim57_q67, 'C')">
+            <b>C)</b> <span>Cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim57_q67, 'D')">
+            <b>D)</b> <span>Cada 5 anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim57_q67">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Cada any</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Cada 3 mesos s&#039;haurà de comprovar la senyalització dels polsadors manuals d&#039;alarma.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim59_q45" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 48 de 66 • ID: academia_sim59_q45</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim59_q45)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 48. Quins són els components principals que conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim59_q45, 'A')">
+            <b>A)</b> <span>Els dispositius d’accionament, els equips de control de funcionament, les canonades de distribució i els difusors de descàrrega</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim59_q45, 'B')">
+            <b>B)</b> <span>La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim59_q45, 'C')">
+            <b>C)</b> <span>El recipient o dipòsit d&#039;aigua, les canonades de distribució, les vàlvules selectores, els dispositius d’accionament i control i els broquets de descàrrega</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim59_q45, 'D')">
+            <b>D)</b> <span>La xarxa de canonades per a l’alimentació d’aigua, les vàlvules selectores i els difusors de descàrrega</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim59_q45">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI - pàgina 21.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim60_q48" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 49 de 66 • ID: academia_sim60_q48</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim60_q48)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 49. Quantes columnes seques haurà de tenir un edifici?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim60_q48, 'A')">
+            <b>A)</b> <span>Una per cada 100 m² de superfície construïda</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim60_q48, 'B')">
+            <b>B)</b> <span>Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 120 m</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim60_q48, 'C')">
+            <b>C)</b> <span>Una per cada 100 m² de superfície útil</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim60_q48, 'D')">
+            <b>D)</b> <span>Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60 m</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim60_q48">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60 m</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI 6.3. Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes,
+seguint recorreguts d’evacuació, sigui inferior a 60 m. Cada columna, ascendent o descendent, ha de disposar de la seva
+presa independent en façana.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim60_q84" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 50 de 66 • ID: academia_sim60_q84</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim60_q84)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 50. Per assegurar els nivells de protecció dels diferents hidrants contra incendis, quin dels següents hidrants de columna NO estarà admès?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim60_q84, 'A')">
+            <b>A)</b> <span>Un hidrant de tipus «B»</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim60_q84, 'B')">
+            <b>B)</b> <span>Un hidrant de tipus «A»</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim60_q84, 'C')">
+            <b>C)</b> <span>Un hidrant de tipus «C»</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim60_q84, 'D')">
+            <b>D)</b> <span>Tots tres exemples estaran admesos  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim60_q84">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Un hidrant de tipus «A»</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI, pàgina 17 - 3.2 Sistemes d’hidrants contra incendis.
+Per assegurar els nivells de protecció dels diferents hidrants contra incendis, només s’admeten hidrants de columna de
+rang de parell «2» i de tipus «B» o «C». Quan es prevegin riscos de gelades, només s’admeten els de tipus «C».</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim61_q32" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 51 de 66 • ID: academia_sim61_q32</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim61_q32)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 51. Segons el Reglament d&#039;Instal·lacions de Protecció Contra Incendis (RIPCI), el sistema de comunicació de l&#039;alarma permetrà transmetre un senyal diferenciat, generat voluntàriament des d&#039;un lloc de control. El senyal serà, en tot cas, audible, havent de ser, a més, visible quan el nivell de soroll on hagi de ser percebuda superi els:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim61_q32, 'A')">
+            <b>A)</b> <span>80 dB (A)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim61_q32, 'B')">
+            <b>B)</b> <span>50 dB (A)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim61_q32, 'C')">
+            <b>C)</b> <span>60 dB (A)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim61_q32, 'D')">
+            <b>D)</b> <span>75 dB (A)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim61_q32">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 60 dB (A)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> RIPCI - pàg 16.
+Tant el nivell sonor com l’òptic dels dispositius acústics d’alarma d’incendi i dels dispositius visuals (incorporats quan ho
+exigeixi una altra legislació aplicable o quan el nivell de soroll on s’hagi de percebre superi els 60 dB (A), o quan els
+ocupants habituals de l’edifici/establiment siguin persones sordes o sigui probable que portin protecció auditiva) han de
+permetre que siguin percebuts en l’àmbit de cada sector de detecció d’incendi on estiguin instal·lats.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim62_q38" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 52 de 66 • ID: academia_sim62_q38</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim62_q38)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 52. D&#039;acord amb el RIPCI, de quin tipus han de ser els hidrants contra incendis?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim62_q38, 'A')">
+            <b>A)</b> <span>De rang de parell o imparell</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim62_q38, 'B')">
+            <b>B)</b> <span>De columna</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim62_q38, 'C')">
+            <b>C)</b> <span>De columna, híbrids o subterranis</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim62_q38, 'D')">
+            <b>D)</b> <span>De columna o subterranis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim62_q38">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) De columna o subterranis</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Annex I - Secció 1ª Protecció activa contra incendis:
+3. Els hidrants contra incendis han de ser del tipus de columna o subterranis.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim65_q46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 53 de 66 • ID: academia_sim65_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim65_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 53. En els sistemes de columna seca ascendents, on trobarem les sortides?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim65_q46, 'A')">
+            <b>A)</b> <span>Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim65_q46, 'B')">
+            <b>B)</b> <span>A cada planta</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim65_q46, 'C')">
+            <b>C)</b> <span>A les plantes parells fins a la vuitena i a totes a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim65_q46, 'D')">
+            <b>D)</b> <span>A les plantes parells</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim65_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) A les plantes parells fins a la vuitena i a totes a partir d’aquesta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim67_q13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 54 de 66 • ID: academia_sim67_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim67_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 54. Segons el RIPCI, quina afirmació és CERTA en relació als sistemes de detecció i alarma d&#039;incendis?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim67_q13, 'A')">
+            <b>A)</b> <span>Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura de 90 cm del terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim67_q13, 'B')">
+            <b>B)</b> <span>Els dispositius automàtics d&#039;activació de l&#039;alarma han d&#039;incorporar en tot cas un dispositiu visual</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim67_q13, 'C')">
+            <b>C)</b> <span>La prova de funcionament de tots els polsadors es farà cada any</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim67_q13, 'D')">
+            <b>D)</b> <span>Els polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi de considerar com a origen d’evacuació fins a un polsador, no superi els 15 m</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim67_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) La prova de funcionament de tots els polsadors es farà cada any</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura entre 80 cm i 120 cm.
+Els polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi
+de considerar com a origen d’evacuació fins a un polsador, no superi els 25 m.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim69_q66" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 55 de 66 • ID: academia_sim69_q66</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim69_q66)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 55. Segons el RIPCI, quin haurà de ser el factor K mínim per a les BIE?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim69_q66, 'A')">
+            <b>A)</b> <span>Si són de mànega semirígida 82, si són de mànega plana 45</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim69_q66, 'B')">
+            <b>B)</b> <span>22, en qualsevol cas</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim69_q66, 'C')">
+            <b>C)</b> <span>Si són de mànega semirígida 43, si són de mànega plana 65</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim69_q66, 'D')">
+            <b>D)</b> <span>Si són de mànega semirígida 42, si són de mànega plana 85</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim69_q66">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Si són de mànega semirígida 42, si són de mànega plana 85</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> 5. Sistemes de boques d’incendi equipades. Punt 2.
+Per assegurar els nivells de protecció, el factor K mínim, segons defineix la norma aplicable, per a les BIE amb mànega
+semirígida ha de ser de 42 i per a les BIE amb mànega plana de 85</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q74" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 56 de 66 • ID: academia_sim70_q74</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q74)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 56. On s&#039;instal·laran les BIE, d&#039;acord amb el RIPCI?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q74, 'A')">
+            <b>A)</b> <span>A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q74, 'B')">
+            <b>B)</b> <span>El més allunyades possible de les sortides de cada sector d&#039;incendi</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q74, 'C')">
+            <b>C)</b> <span>A 15 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q74, 'D')">
+            <b>D)</b> <span>A 10 metres de les sortides de cada sector d&#039;incendi, com a màxim</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q74">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tampoc podran constituir cap obstacle per a la seva utilització.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q79" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 57 de 66 • ID: academia_sim70_q79</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q79)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 57. D&#039;acord amb el CTE DB-SI, quina resistència mínima al foc hauran d&#039;oferir els elements que separen habitatges entre si?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q79, 'A')">
+            <b>A)</b> <span>EI 30</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q79, 'B')">
+            <b>B)</b> <span>EI 60</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q79, 'C')">
+            <b>C)</b> <span>R 30</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q79, 'D')">
+            <b>D)</b> <span>REI 60</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q79">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) REI 60</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> D&#039;acord amb el Codi Tècnic de l&#039;Edificació (CTE) en el Document Bàsic de Seguretat en cas d&#039;Incendi (DB-SI), els
+elements que separen habitatges entre si han d&#039;oferir una resistència mínima al foc de EI 60. Això significa que aquests
+elements han de garantir una integritat (E) i un aïllament tèrmic (I) durant almenys 60 minuts en cas d&#039;incendi.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim71_q1" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 58 de 66 • ID: academia_sim71_q1</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim71_q1)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 58. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari en cas de que l&#039;alçada d&#039;evacuació excedeixi els:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim71_q1, 'A')">
+            <b>A)</b> <span>24 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim71_q1, 'B')">
+            <b>B)</b> <span>18 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim71_q1, 'C')">
+            <b>C)</b> <span>15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim71_q1, 'D')">
+            <b>D)</b> <span>28 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim71_q1">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 15 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per norma general seran 24 m.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim72_q37" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 59 de 66 • ID: academia_sim72_q37</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim72_q37)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 59. On estaran situades les preses de la columna seca situades a l&#039;exterior i en les sortides de planta?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim72_q37, 'A')">
+            <b>A)</b> <span>A 1,5 metres del nivell del terra</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim72_q37, 'B')">
+            <b>B)</b> <span>A 1,5 metres del nivell del terra les que estiguin situades a l&#039;exterior, i a 1,2 metres del nivell del terra per les que estiguin situades en les sortides de planta</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim72_q37, 'C')">
+            <b>C)</b> <span>A 1,2 metres del nivell del terra</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim72_q37, 'D')">
+            <b>D)</b> <span>Amb el centre de les seves boques a 0,9 metres del nivell del terra</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim72_q37">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Amb el centre de les seves boques a 0,9 metres del nivell del terra</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim74_q87" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 60 de 66 • ID: academia_sim74_q87</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim74_q87)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 60. On han d&#039;estar ubicades les sortides en els sistemes de columna seca ascendent?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim74_q87, 'A')">
+            <b>A)</b> <span>Cada quatre plantes fins a la vuitena i a les plantes parells a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim74_q87, 'B')">
+            <b>B)</b> <span>A cada planta</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim74_q87, 'C')">
+            <b>C)</b> <span>A les plantes parells fins a la vuitena i a totes a partir d’aquesta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim74_q87, 'D')">
+            <b>D)</b> <span>A les plantes parells</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim74_q87">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) A les plantes parells fins a la vuitena i a totes a partir d’aquesta</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim76_q89" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 61 de 66 • ID: academia_sim76_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim76_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 61. Segons el Reglament d’Instal·lacions de Protecció contra incendis (RIPCI) una Boca d’Incendi Equipada (BIE) instal·lada s’ha de revisar cada:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim76_q89, 'A')">
+            <b>A)</b> <span>3 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim76_q89, 'B')">
+            <b>B)</b> <span>6 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim76_q89, 'C')">
+            <b>C)</b> <span>12 mesos, per una empresa mantenidora autoritzada</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim76_q89, 'D')">
+            <b>D)</b> <span>5 anys, per personal especialitzat del fabricant o per una empresa mantenidora</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim76_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 3 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim79_q48" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 62 de 66 • ID: academia_sim79_q48</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim79_q48)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 62. Segons el Document Bàsic SI del Codi Tècnic de l&#039;Edificació, quan s&#039;haurà de disposar de boques d&#039;incendi equipades en ús residencial públic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim79_q48, 'A')">
+            <b>A)</b> <span>Si l&#039;alçada d&#039;evacuació excedeix de 15 m</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim79_q48, 'B')">
+            <b>B)</b> <span>Si la superfície construïda excedeix de 1.000 m² o l&#039;establiment està previst per allotjar més de 50 persones</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim79_q48, 'C')">
+            <b>C)</b> <span>Si la superfície construïda excedeix de 500 m²</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim79_q48, 'D')">
+            <b>D)</b> <span>En tot cas</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim79_q48">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Si la superfície construïda excedeix de 1.000 m² o l&#039;establiment està previst per allotjar més de 50 persones</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Secció SI 4 Instal·lacions de protecció contra incendis - Taula 1.1.
+Residencial Públic:
+- Boques d&#039;incendi equipades: Si la superfície construïda excedeix de 1.000 m² o l&#039;establiment està previst per allotjar
+més de 50 persones.
+- Columna seca: Si l&#039;altura d&#039;evacuació excedeix de 24 m.
+- Sistema de detecció i alarma d&#039;incendi: Si la superfície construïda excedeix de 500 m².
+- Instal·lació automàtica d&#039;extinció: Si l&#039;altura d&#039;evacuació excedeix de 28 m o la superfície construïda de l&#039;establiment
+excedeix de 5.000 m².
+- Hidrants exteriors: Un si la superfície total construïda està compresa entre 2.000 i 10.000 m². Un més per cada 10.000
+m² addicionals o fracció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim97_q50" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 63 de 66 • ID: academia_sim97_q50</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim97_q50)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 63. Segons el Reglament d’instal·lacions de protecció contra incendis, quina afirmació sobre el sistema de columna seca és FALSA?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim97_q50, 'A')">
+            <b>A)</b> <span>En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida cada dues plantes</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim97_q50, 'B')">
+            <b>B)</b> <span>Ha d&#039;estar composta per una presa d’aigua en façana o en zona fàcilment accessible al servei contra incendis, proveïda de vàlvula antiretorn, connexió siamesa, amb claus incorporades i ràcords de 70mm, amb tapa i clau de purga de 25mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim97_q50, 'C')">
+            <b>C)</b> <span>La presa situada a l’exterior i les sortides a les plantes han de tenir el centre de les seves boques a 0,90m sobre el nivell del sòl</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim97_q50, 'D')">
+            <b>D)</b> <span>Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60m</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim97_q50">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida cada dues plantes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida a cada planta.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim108_q91" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 64 de 66 • ID: academia_sim108_q91</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim108_q91)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 64. Segons el RIPCI, quina d’aquestes afirmacions és INCORRECTA en relació amb les boques d’incendi equipades (BIE)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim108_q91, 'A')">
+            <b>A)</b> <span>Les BIE de 25 mm han de disposar de mànega semirígida i llança selectora</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim108_q91, 'B')">
+            <b>B)</b> <span>Les BIE han d’estar instal·lades de manera que el recorregut fins a qualsevol punt protegit no superi els 50 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim108_q91, 'C')">
+            <b>C)</b> <span>Totes les BIE han d’estar connectades a una xarxa d’aigua amb pressió i cabal suficients per garantir el seu funcionament</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim108_q91, 'D')">
+            <b>D)</b> <span>Les BIE poden quedar ocultes darrere de mobiliari fix si aquest és fàcilment desplaçable pel personal d’emergència</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim108_q91">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Les BIE poden quedar ocultes darrere de mobiliari fix si aquest és fàcilment desplaçable pel personal d’emergència</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim127_q57" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 65 de 66 • ID: academia_sim127_q57</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim127_q57)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 65. En un establiment industrial, durant la revisió de les mesures de protecció contra incendis, es comprova l’alçada d’evacuació per determinar si és obligat disposar de columna seca. A partir de quina alçada d’evacuació és exigible?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim127_q57, 'A')">
+            <b>A)</b> <span>10 metres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim127_q57, 'B')">
+            <b>B)</b> <span>12 metres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim127_q57, 'C')">
+            <b>C)</b> <span>15 metres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim127_q57, 'D')">
+            <b>D)</b> <span>24 metres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim127_q57">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 15 metres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Cal que disposin de columna seca els edificis i establiments següents:
+−Establiments industrials amb alçada d’evacuació de 15 metres o superior.
+−En edificis d’ús residencial habitatge, administratiu, residencial públic, docent, comercial i de pública concurrència, si
+l’alçada d’evacuació és superior a 24 metres.
+−En edificis d’ús hospitalari, si l’alçada d’evacuació supera els 15 metres.
+−En edificis i zones d’ús d’aparcament, si existeixen més de 3 plantes sota rasant o bé més de 4 plantes sobre rasant,
+amb sortides a totes les plantes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q63" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 66 de 66 • ID: serebomber_38c54d39_q63</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q63)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 66. A un forjat portant que separa dos sectors d&#039;incendi, quina designació de resistència al foc li correspon?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q63, 'A')">
+            <b>A)</b> <span>R-t (només capacitat portant)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q63, 'B')">
+            <b>B)</b> <span>EI-t (integritat i aïllament sense suport)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q63, 'C')">
+            <b>C)</b> <span>E-t (únicament estanquitat a fums)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q63, 'D')">
+            <b>D)</b> <span>REI-t, perquè ha de garantir capacitat portant, integritat i aïllament tèrmic</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q63">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) REI-t, perquè ha de garantir capacitat portant, integritat i aïllament tèrmic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els elements portants delimitadors de sector requereixen R (capacitat portant), E (integritat) i I (aïllament tèrmic) durant el temps t. «Forjats i parets portants entre sectors d’incendi: han de garantir capacitat portant, integritat i aïllament tèrmic (REI-t).»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T16 - Protecció contra incendis en l&#039;edificació (66 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 15</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 16</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 17</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 18</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 19</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 20</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 21</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 22</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 23</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 24</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 25</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 26</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 27</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 28</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 29</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 30</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 31</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 32</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 33</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 34</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 35</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 36</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 37</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 38</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 39</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 40</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 41</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 42</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 43</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 44</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 45</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 46</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 47</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 48</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 49</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 50</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 51</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 52</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 53</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 54</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 55</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 56</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 57</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 58</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 59</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 60</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 61</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 62</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 63</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 64</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 65</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 66</span>
+        <b>D</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Segons el RIPCI, cada sis mesos s&#039;ha de comprovar que les vàlvules de seccionament de les columnes seques estan:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Obertes<br>&bull; <b>Explicació:</b> Altres comprovacions:
+- Maniobrar les claus per comprovar-ne el correcte funcionament.
+- Comprovar la senyalització.
+- Comprovar que les claus de les connexions siameses estan tancades.
+(...)</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Segons el RIPCI, la prova de la instal·lació en les condicions de la seva recepció en columnes seques s&#039;efectuarà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Cada cinc anys</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. En el cas que el fabricant no estableixi una vida útil per les BIE, es considerarà de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Vint anys<br>&bull; <b>Explicació:</b> RIPCI, Secció 1ª, taula II.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. On s&#039;instal·laran les BIE, segons el RIPCI?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim<br>&bull; <b>Explicació:</b> Tampoc podran constituir cap obstacle per a la seva utilització.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Quantes classes de foc reconeix el Reglament d&#039;instal·lacions de protecció contra incendis (RIPCI)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Cinc classes<br>&bull; <b>Explicació:</b> Classe A, classe B, classe C, classe D, classe F.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Segons el RIPCI, quin diàmetre s&#039;admet per una BIE de mànega plana?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 45 mm<br>&bull; <b>Explicació:</b> En el cas de BIE de mànega semirígida el diàmetre admès és 25 mm.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. La presa de la façana d&#039;una columna seca i les sortides de planta tindran el centre de les seves boques a ____ sobre el nivell del terra.</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 0,9 m</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. Segons el RIPCI 2017, la prova de funcionament de tots els polsadors dels dispositius d&#039;activació manual d&#039;alarma es realitzarà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Cada any<br>&bull; <b>Explicació:</b> Cada 3 mesos s&#039;haurà de comprovar la senyalització dels polsadors manuals d&#039;alarma.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Quan es prevegin riscos de gelades només s&#039;admetran hidrants de columna de tipus:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> C<br>&bull; <b>Explicació:</b> RIPCI - Sistemes d&#039;hidrants contra incendis - punt 2.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari en cas de que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> L&#039;alçada d&#039;evacuació excedeixi els 15 metres<br>&bull; <b>Explicació:</b> Per norma general seran 24 m.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. El RIPCI contempla hidrants de sota terra de tres sortides?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> No<br>&bull; <b>Explicació:</b> En tindran o una o dues.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. Segons el DB-SI, en quin cas s&#039;haurà d&#039;instal·lar un sistema de Boques d&#039;Incendi Equipades (BIE) en edificis d&#039;ús hospitalari?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> En tot cas<br>&bull; <b>Explicació:</b> La columna seca, en canvi, a partir dels 15 metres d&#039;alçada d&#039;evacuació.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. Segons el RIPCI, on trobarem les sortides d&#039;una columna seca ascendent?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> A les plantes parells fins la vuitena, i a partir d&#039;aquesta a cada planta<br>&bull; <b>Explicació:</b> Les vàlvules de seccionament s&#039;instal·laran cada quatre plantes.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Segons el RIPCI, la comprovació de l&#039;accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats s&#039;efectuarà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Cada tres mesos</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 15. Quina de les següents afirmacions sobre la columna seca és falsa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Seguint els recorreguts d&#039;evacuació, la distància màxima entre dues columnes seques serà de 100 metres<br>&bull; <b>Explicació:</b> Seguint els recorreguts d&#039;evacuació, la distància màxima entre dues columnes seques serà de 60 metres.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 16. La connexió a la façana de la columna seca portarà...</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Dos ràcords de 70 mm i una clau de purga de 25 mm<br>&bull; <b>Explicació:</b> I estarà situada a 90 cm del terra.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 17. Quina de les següents afirmacions sobre les boques d&#039;incendi equipades (BIE) és falsa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Seran fàcilment accessibles pel personal de servei contra incendis, amb la indicació &lt;&lt;ÚS EXCLUSIU BOMBERS&gt;&gt;<br>&bull; <b>Explicació:</b> La indicació de &lt;&lt;ÚS EXCLUSIU BOMBERS&gt;&gt; es trobarà en el sistema de columna seca.
+El &quot;factor K&quot; mínim per a les BIE de mànega semirígida serà de 42, i el de la BIE plana, 85.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 18. Segons el DB-SI, un edifici o establiment haurà de disposar, per norma general:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> D&#039;almenys un hidrant fins a 10.000 m² de superfície construïda i un més per cada 10.000 m² addicionals o fracció<br>&bull; <b>Explicació:</b> Taula 1.1 CTE DB-SI.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 19. La connexió d&#039;una columna seca a la façana:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Es farà mitjançant el sistema IPF 41 i constarà de dos ràcords de 70 mm<br>&bull; <b>Explicació:</b> La distribució de les boques de sortida en pis IPF 39 s’efectua en plantes parells, i a partir de la vuitena planta, en totes
+les plantes subsegüents. Cada quatre plantes es munta la boca de sortida en pis amb clau de secció IPF 40.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 20. Segons el DB-SI, quina condició obliga a un edifici d&#039;ús hospitalari a disposar de comunicació directa amb el servei de bombers?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Disposar de més de cent llits<br>&bull; <b>Explicació:</b> Taula 1.1 CTE DB-SI.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 21. En una columna seca, la presa d&#039;aigua de la façana serà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> IPF-41</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 22. Cada quant de temps s&#039;hauran de maniobrar les claus en una columna seca?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 6 mesos<br>&bull; <b>Explicació:</b> En la columna seca no s&#039;ha de realitzar cap tipus de manteniment ni als 3 mesos i a l&#039;any.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 23. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús administratiu en cas de que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> L&#039;alçada d&#039;evacuació excedeixi els 24 metres<br>&bull; <b>Explicació:</b> Per ús hospitalari seran 15 metres.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 24. Segons el RIPCI 2017, per assegurar els nivells de protecció, el &quot;factor K&quot; mínim per a les BIE de mànega semirígida serà de ___, i per les BIE de mànega plana, de ___.</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 42 / 85</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 25. Segons el RIPCI, els polsadors manuals d&#039;alarma d&#039;incendis se situaran de manera que la distància màxima a recórrer des de qualsevol punt considerat com a origen d&#039;evacuació fins el polsador sigui de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> 25 metres<br>&bull; <b>Explicació:</b> Els polsadors se situaran de manera que la part superior del dispositiu quedi a una alçada d&#039;entre 80 i 120 cm.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 26. Segons el RIPCI 2017, les BIE hauran de portar obligatòriament un manòmetre?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Només les BIE-45</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 27. Segons el RIPCI, per a les BIE amb mànega semirígida o plana, la separació màxima entre cada BIE i la més propera serà de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 50 metres<br>&bull; <b>Explicació:</b> La distància des de qualsevol punt de l&#039;àrea protegida fins la BIE més propera no haurà d&#039;excedir el seu radi d&#039;acció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 28. La connexió a la façana d&#039;una columna seca es trobarà a:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> 90 cm del terra<br>&bull; <b>Explicació:</b> Serà una connexió IPF-41 i se situarà en un lloc fàcilment accessible pels bombers. Portarà dos ràcords de 70 mm i clau
+de purga de 25 mm.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 29. En un edifici d&#039;ús docent, s&#039;instal·larà una columna seca si l&#039;altura d&#039;evacuació excedeix els:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> 24 metres<br>&bull; <b>Explicació:</b> En un edifici d&#039;ús hospitalari s&#039;instal·larà una columna seca si l&#039;altura d&#039;evacuació excedeix els 15 metres.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 30. Segons el RIPCI, quina de les següents accions es durà a terme cada tres mesos en el manteniment d&#039;una columna seca?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Cap de les respostes és correcta<br>&bull; <b>Explicació:</b> Les accions de manteniment de les columnes seques en tot cas s&#039;efectuaran, o bé cada sis mesos, o bé cada cinc anys
+(en el cas de la prova de la instal·lació).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 31. Segons el RIPCI, la comprovació de la senyalització de les BIE es realitzarà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Cada tres mesos</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 32. Els ràcords de la columna seca a partir de la vuitena planta seran de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 45 mm<br>&bull; <b>Explicació:</b> Seran de 2 × 45 mm. La presa d&#039;entrada serà de 2 × 70 mm.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 33. Segons el RIPCI, quina distància màxima existirà entre qualsevol origen d&#039;evacuació fins al polsador d&#039;alarma d&#039;incendi més proper?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 5 metres<br>&bull; <b>Explicació:</b> A part, hauran d&#039;estar col·locats entre 80 i 120 cm del terra.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 34. On se situaran les preses de la columna seca situades a l&#039;exterior i en les sortides de planta?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Amb el centre de les seves boques a 0,9 metres del nivell del terra<br>&bull; <b>Explicació:</b> Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 35. Segons el CTE DB-SI, quan serà preceptiva la instal·lació, de forma general, de ruixadors?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> En tot edifici amb una alçada d&#039;evacuació superior a 80 metres</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 36. Quina freqüència requerirà la prova de la instal·lació d&#039;una columna seca?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Cinc anys</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 37. A quina alçada es troben les sortides d&#039;una columna seca?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Cap resposta és correcta<br>&bull; <b>Explicació:</b> Es troben a 0,9 metres del terra.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 38. Amb quina freqüència s&#039;efectuarà la comprovació de l&#039;accessibilitat dels hidrants al seu entorn i la senyalització en els hidrants enterrats, d&#039;acord amb el RIPCI?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Cada tres mesos</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 39. D&#039;acord amb el RIPCI, quin diàmetre nominal tindrà cadascuna de les sortides de planta d&#039;una columna seca?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 45 mm</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 40. Segons el DB-SI, en quin cas s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Si l&#039;alçada d&#039;evacuació supera els 15 metres<br>&bull; <b>Explicació:</b> El sistema de Boques d&#039;Incendi Equipades (BIE), en canvi, en tot cas.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 41. Quin dels següents elements no formarà part d&#039;un sistema fix d&#039;extinció per ruixadors automàtics per aigua?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Les vàlvules selectores<br>&bull; <b>Explicació:</b> Les vàlvules selectores formaran part dels sistemes fixes d&#039;extinció per pols.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 42. On han de constar de sortides els sistemes de columna seca ascendents?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> A les plantes parells fins a la vuitena i a totes a partir d’aquesta<br>&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 43. Quins components principals conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris<br>&bull; <b>Explicació:</b> RIPCI - pàgina 21.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 44. Seguint els recorreguts d&#039;evacuació, quina distància màxima existirà entre dues columnes seques?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> 120 m<br>&bull; <b>Explicació:</b> 60 metres des de qualsevol punt a la columna seca més propera.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 45. Quin és el diàmetre nominal d&#039;una columna seca d&#039;acer galvanitzat?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> 80 mm</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 46. D&#039;acord amb el RIPCI, quina serà la separació màxima entre una BIE i la més propera serà per a les BIE amb mànega semirígida o plana?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 50 metres<br>&bull; <b>Explicació:</b> La distància des de qualsevol punt de l&#039;àrea protegida fins la BIE més propera no haurà d&#039;excedir el seu radi d&#039;acció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 47. Segons el RIPCI 2017, cada quant de temps es realitzarà la prova de funcionament de tots els polsadors dels dispositius d&#039;activació manual d&#039;alarma?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Cada any<br>&bull; <b>Explicació:</b> Cada 3 mesos s&#039;haurà de comprovar la senyalització dels polsadors manuals d&#039;alarma.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 48. Quins són els components principals que conformen els sistemes d’extinció per ruixadors automàtics i aigua polvoritzada?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La xarxa de canonades per a l’alimentació d’aigua, el punt de control i els broquets de descàrrega necessaris<br>&bull; <b>Explicació:</b> RIPCI - pàgina 21.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 49. Quantes columnes seques haurà de tenir un edifici?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Les suficients perquè la distància entre aquestes, seguint recorreguts d’evacuació, sigui inferior a 60 m<br>&bull; <b>Explicació:</b> RIPCI 6.3. Cada edifici ha de disposar del nombre de columnes seques suficients perquè la distància entre aquestes,
+seguint recorreguts d’evacuació, sigui inferior a 60 m. Cada columna, ascendent o descendent, ha de disposar de la seva
+presa independent en façana.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 50. Per assegurar els nivells de protecció dels diferents hidrants contra incendis, quin dels següents hidrants de columna NO estarà admès?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Un hidrant de tipus «A»<br>&bull; <b>Explicació:</b> RIPCI, pàgina 17 - 3.2 Sistemes d’hidrants contra incendis.
+Per assegurar els nivells de protecció dels diferents hidrants contra incendis, només s’admeten hidrants de columna de
+rang de parell «2» i de tipus «B» o «C». Quan es prevegin riscos de gelades, només s’admeten els de tipus «C».</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 51. Segons el Reglament d&#039;Instal·lacions de Protecció Contra Incendis (RIPCI), el sistema de comunicació de l&#039;alarma permetrà transmetre un senyal diferenciat, generat voluntàriament des d&#039;un lloc de control. El senyal serà, en tot cas, audible, havent de ser, a més, visible quan el nivell de soroll on hagi de ser percebuda superi els:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 60 dB (A)<br>&bull; <b>Explicació:</b> RIPCI - pàg 16.
+Tant el nivell sonor com l’òptic dels dispositius acústics d’alarma d’incendi i dels dispositius visuals (incorporats quan ho
+exigeixi una altra legislació aplicable o quan el nivell de soroll on s’hagi de percebre superi els 60 dB (A), o quan els
+ocupants habituals de l’edifici/establiment siguin persones sordes o sigui probable que portin protecció auditiva) han de
+permetre que siguin percebuts en l’àmbit de cada sector de detecció d’incendi on estiguin instal·lats.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 52. D&#039;acord amb el RIPCI, de quin tipus han de ser els hidrants contra incendis?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> De columna o subterranis<br>&bull; <b>Explicació:</b> Annex I - Secció 1ª Protecció activa contra incendis:
+3. Els hidrants contra incendis han de ser del tipus de columna o subterranis.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 53. En els sistemes de columna seca ascendents, on trobarem les sortides?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> A les plantes parells fins a la vuitena i a totes a partir d’aquesta<br>&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 54. Segons el RIPCI, quina afirmació és CERTA en relació als sistemes de detecció i alarma d&#039;incendis?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> La prova de funcionament de tots els polsadors es farà cada any<br>&bull; <b>Explicació:</b> Els polsadors s’han de situar de manera que la part superior del dispositiu quedi a una altura entre 80 cm i 120 cm.
+Els polsadors d’alarma s’han de situar de manera que la distància màxima a recórrer, des de qualsevol punt que s’hagi
+de considerar com a origen d’evacuació fins a un polsador, no superi els 25 m.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 55. Segons el RIPCI, quin haurà de ser el factor K mínim per a les BIE?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Si són de mànega semirígida 42, si són de mànega plana 85<br>&bull; <b>Explicació:</b> 5. Sistemes de boques d’incendi equipades. Punt 2.
+Per assegurar els nivells de protecció, el factor K mínim, segons defineix la norma aplicable, per a les BIE amb mànega
+semirígida ha de ser de 42 i per a les BIE amb mànega plana de 85</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 56. On s&#039;instal·laran les BIE, d&#039;acord amb el RIPCI?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> A 5 metres de les sortides de cada sector d&#039;incendi, com a màxim<br>&bull; <b>Explicació:</b> Tampoc podran constituir cap obstacle per a la seva utilització.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 57. D&#039;acord amb el CTE DB-SI, quina resistència mínima al foc hauran d&#039;oferir els elements que separen habitatges entre si?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> REI 60<br>&bull; <b>Explicació:</b> D&#039;acord amb el Codi Tècnic de l&#039;Edificació (CTE) en el Document Bàsic de Seguretat en cas d&#039;Incendi (DB-SI), els
+elements que separen habitatges entre si han d&#039;oferir una resistència mínima al foc de EI 60. Això significa que aquests
+elements han de garantir una integritat (E) i un aïllament tèrmic (I) durant almenys 60 minuts en cas d&#039;incendi.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 58. Segons el DB-SI, s&#039;haurà d&#039;instal·lar un sistema de columna seca en edificis d&#039;ús hospitalari en cas de que l&#039;alçada d&#039;evacuació excedeixi els:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 15 metres<br>&bull; <b>Explicació:</b> Per norma general seran 24 m.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 59. On estaran situades les preses de la columna seca situades a l&#039;exterior i en les sortides de planta?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Amb el centre de les seves boques a 0,9 metres del nivell del terra<br>&bull; <b>Explicació:</b> Les BIEs, en canvi, estaran situades, com a màxim, a 1,5 metres del nivell del terra.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 60. On han d&#039;estar ubicades les sortides en els sistemes de columna seca ascendent?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> A les plantes parells fins a la vuitena i a totes a partir d’aquesta<br>&bull; <b>Explicació:</b> Els sistemes de columna seca ascendents han de constar de sortides a les plantes parells fins a la vuitena i a totes a
+partir d’aquesta, proveïdes de connexió siamesa, amb claus incorporades i ràcords de 45 mm amb tapa; cada quatre
+plantes s’ha d’instal·lar una vàlvula de seccionament, per damunt de la sortida de planta corresponent.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 61. Segons el Reglament d’Instal·lacions de Protecció contra incendis (RIPCI) una Boca d’Incendi Equipada (BIE) instal·lada s’ha de revisar cada:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 3 mesos, comprovant la senyalització, i anualment, fent inspecció i manteniment per personal especialitzat</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 62. Segons el Document Bàsic SI del Codi Tècnic de l&#039;Edificació, quan s&#039;haurà de disposar de boques d&#039;incendi equipades en ús residencial públic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Si la superfície construïda excedeix de 1.000 m² o l&#039;establiment està previst per allotjar més de 50 persones<br>&bull; <b>Explicació:</b> Secció SI 4 Instal·lacions de protecció contra incendis - Taula 1.1.
+Residencial Públic:
+- Boques d&#039;incendi equipades: Si la superfície construïda excedeix de 1.000 m² o l&#039;establiment està previst per allotjar
+més de 50 persones.
+- Columna seca: Si l&#039;altura d&#039;evacuació excedeix de 24 m.
+- Sistema de detecció i alarma d&#039;incendi: Si la superfície construïda excedeix de 500 m².
+- Instal·lació automàtica d&#039;extinció: Si l&#039;altura d&#039;evacuació excedeix de 28 m o la superfície construïda de l&#039;establiment
+excedeix de 5.000 m².
+- Hidrants exteriors: Un si la superfície total construïda està compresa entre 2.000 i 10.000 m². Un més per cada 10.000
+m² addicionals o fracció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 63. Segons el Reglament d’instal·lacions de protecció contra incendis, quina afirmació sobre el sistema de columna seca és FALSA?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida cada dues plantes<br>&bull; <b>Explicació:</b> En els sistemes de columna seca descendents s’ha d’instal·lar una vàlvula de seccionament i sortida a cada planta.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 64. Segons el RIPCI, quina d’aquestes afirmacions és INCORRECTA en relació amb les boques d’incendi equipades (BIE)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Les BIE poden quedar ocultes darrere de mobiliari fix si aquest és fàcilment desplaçable pel personal d’emergència</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 65. En un establiment industrial, durant la revisió de les mesures de protecció contra incendis, es comprova l’alçada d’evacuació per determinar si és obligat disposar de columna seca. A partir de quina alçada d’evacuació és exigible?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 15 metres<br>&bull; <b>Explicació:</b> Cal que disposin de columna seca els edificis i establiments següents:
+−Establiments industrials amb alçada d’evacuació de 15 metres o superior.
+−En edificis d’ús residencial habitatge, administratiu, residencial públic, docent, comercial i de pública concurrència, si
+l’alçada d’evacuació és superior a 24 metres.
+−En edificis d’ús hospitalari, si l’alçada d’evacuació supera els 15 metres.
+−En edificis i zones d’ús d’aparcament, si existeixen més de 3 plantes sota rasant o bé més de 4 plantes sobre rasant,
+amb sortides a totes les plantes.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 66. A un forjat portant que separa dos sectors d&#039;incendi, quina designació de resistència al foc li correspon?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> REI-t, perquè ha de garantir capacitat portant, integritat i aïllament tèrmic<br>&bull; <b>Explicació:</b> Els elements portants delimitadors de sector requereixen R (capacitat portant), E (integritat) i I (aïllament tèrmic) durant el temps t. «Forjats i parets portants entre sectors d’incendi: han de garantir capacitat portant, integritat i aïllament tèrmic (REI-t).»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

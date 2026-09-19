@@ -1,0 +1,3352 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T19 - Vehicles de bombers - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T19 - Vehicles de bombers</h1>
+      </div>
+      <p>73 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim1_q2" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 1 de 73 • ID: academia_sim1_q2</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim1_q2)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. La bugia és un element característic dels motors:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim1_q2, 'A')">
+            <b>A)</b> <span>Dièsel</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim1_q2, 'B')">
+            <b>B)</b> <span>Híbrids</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim1_q2, 'C')">
+            <b>C)</b> <span>Tant Otto com Dièsel</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim1_q2, 'D')">
+            <b>D)</b> <span>Otto</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim1_q2">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Otto</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim1_q89" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 2 de 73 • ID: academia_sim1_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim1_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Respecte els sistemes de distribució d&#039;un motor, és cert que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim1_q89, 'A')">
+            <b>A)</b> <span>El sistema OHV disposa del cigonyal més proper a l&#039;arbre de lleves</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim1_q89, 'B')">
+            <b>B)</b> <span>En el sistema OHV l&#039;arbre de lleves es disposa sobre la culata</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim1_q89, 'C')">
+            <b>C)</b> <span>El sistema OHC té dos arbres de lleves</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim1_q89, 'D')">
+            <b>D)</b> <span>El sistema OHV és el més utilitzat en l&#039;actualitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim1_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El sistema OHV disposa del cigonyal més proper a l&#039;arbre de lleves</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En el sistema DOHC l&#039;arbre de lleves es disposa sobre la culata, i en té dos.
+Els sistemes OHC i DOHC són els més usats en l&#039;actualitat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim3_q5" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 73 • ID: academia_sim3_q5</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim3_q5)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. La transmissió de gir des del cigonyal a l&#039;arbre de lleves és de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim3_q5, 'A')">
+            <b>A)</b> <span>2 a 1</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim3_q5, 'B')">
+            <b>B)</b> <span>1 a 2</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim3_q5, 'C')">
+            <b>C)</b> <span>1 a 1</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim3_q5, 'D')">
+            <b>D)</b> <span>2 a 2</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim3_q5">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 2 a 1</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Això farà que el pinyó de l&#039;arbre de lleves hagi de tenir el doble de dents que el del cigonyal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim3_q36" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 4 de 73 • ID: academia_sim3_q36</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim3_q36)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Respecte el motor Wankel, podriem dir que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim3_q36, 'A')">
+            <b>A)</b> <span>És el nom que prenen els motors rotatius</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim3_q36, 'B')">
+            <b>B)</b> <span>S&#039;usen menys que els motors alternatius</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim3_q36, 'C')">
+            <b>C)</b> <span>No disposa de vàlvules, per tant l&#039;admissió i l&#039;escapament es fa a través d&#039;espiralls</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim3_q36, 'D')">
+            <b>D)</b> <span>Totes són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim3_q36">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Totes són correctes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En els motors alternatius (pràcticament tots), un pistó es desplaça per un cilindre amb un moviment lineal alternatiu que
+es transforma en rotatiu a través del mecanisme biela-manovella.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim4_q86" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 5 de 73 • ID: academia_sim4_q86</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim4_q86)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. En un sistema OHC, a través del taquet s&#039;acciona:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim4_q86, 'A')">
+            <b>A)</b> <span>La vareta empenyedora</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim4_q86, 'B')">
+            <b>B)</b> <span>El balancí</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim4_q86, 'C')">
+            <b>C)</b> <span>La vàlvula</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim4_q86, 'D')">
+            <b>D)</b> <span>El tensor</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim4_q86">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) La vàlvula</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En un sistema OHV el taquet opera sobre la vareta empenyedora.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim4_q94" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 6 de 73 • ID: academia_sim4_q94</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim4_q94)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. En un motor de gasolina d&#039;injecció indirecta de quatre temps, durant el temps d&#039;admissió:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim4_q94, 'A')">
+            <b>A)</b> <span>Aspira només aire</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim4_q94, 'B')">
+            <b>B)</b> <span>Aspira la mescla d&#039;aire i gasolina</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim4_q94, 'C')">
+            <b>C)</b> <span>Aspira la gasolina</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim4_q94, 'D')">
+            <b>D)</b> <span>Aspira dièsel</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim4_q94">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Aspira la mescla d&#039;aire i gasolina</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El motor dièsel, en el temps d&#039;admissió aspira només aire.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim5_q69" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 7 de 73 • ID: academia_sim5_q69</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim5_q69)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. Com anomenem al conjunt d&#039;òrgans mecànics que regulen l&#039;entrada i la sortida de gasos dels cilindres d&#039;un vehicle?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim5_q69, 'A')">
+            <b>A)</b> <span>El sistema distributiu</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim5_q69, 'B')">
+            <b>B)</b> <span>El sistema de distribució</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim5_q69, 'C')">
+            <b>C)</b> <span>El sistema col·lector</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim5_q69, 'D')">
+            <b>D)</b> <span>El sistema de col·lecció</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim5_q69">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El sistema de distribució</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El sistema de distribució ha d&#039;estar perfectament sincronitzat amb el moviment del tren alternatiu (pistó, biela i cigonyal).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim5_q87" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 8 de 73 • ID: academia_sim5_q87</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim5_q87)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. La cilindrada unitària és una característica important del motor. Normalment s&#039;expressa en...</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim5_q87, 'A')">
+            <b>A)</b> <span>Centímetres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim5_q87, 'B')">
+            <b>B)</b> <span>Centímetres cúbics (cm³)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim5_q87, 'C')">
+            <b>C)</b> <span>Mil·límetres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim5_q87, 'D')">
+            <b>D)</b> <span>Mil·límetres cúbics (mm³)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim5_q87">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Centímetres cúbics (cm³)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim5_q92" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 9 de 73 • ID: academia_sim5_q92</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim5_q92)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Quina de les afirmacions respecte el sistema de distribució és falsa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim5_q92, 'A')">
+            <b>A)</b> <span>És el conjunt d&#039;òrgans mecànics que regulen l&#039;entrada i la sortida dels gasos del cilindre</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim5_q92, 'B')">
+            <b>B)</b> <span>El sistema OHC porta l&#039;arbre de lleves al bloc</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim5_q92, 'C')">
+            <b>C)</b> <span>En un motor de quatre temps, cada dos voltes del cigonyal l&#039;arbre de lleves en farà una</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim5_q92, 'D')">
+            <b>D)</b> <span>Totes les respostes són correctes, no n&#039;hi ha cap de falsa</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim5_q92">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El sistema OHC porta l&#039;arbre de lleves al bloc</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El sistema OHC, igual que el DOHC, porta l&#039;arbre de lleves a la culata.
+El sistema OHV porta l&#039;arbre de lleves al bloc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim6_q72" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 10 de 73 • ID: academia_sim6_q72</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim6_q72)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. El ____ és una vàlvula tèrmica i el ____ és un interruptor bimetall.</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim6_q72, 'A')">
+            <b>A)</b> <span>Termocontacte/termòstat</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim6_q72, 'B')">
+            <b>B)</b> <span>Termòstat/termocontacte</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim6_q72, 'C')">
+            <b>C)</b> <span>Manocontacte/termocontacte</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim6_q72, 'D')">
+            <b>D)</b> <span>Electroventilador/termòstat  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim6_q72">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Termòstat/termocontacte</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;electroventilador el formen el motor elèctric, un relé i el termocontacte.
+La funció d&#039;un manocontacte és obrir o tancar un circuit elèctric en funció de si hi ha oli o no n&#039;hi ha, en aquest últim cas
+tancant-lo i avisant-nos mitjançant un indicador lluminós.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim6_q93" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 11 de 73 • ID: academia_sim6_q93</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim6_q93)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 11. En un motor de quatre cilindres en línia, amb ordre d&#039;encesa 1-3-4-2, en quin estat es trobarà el cilindre 1 en el moment en que el cilindre 4 es trobi en escapament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim6_q93, 'A')">
+            <b>A)</b> <span>Explosió</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim6_q93, 'B')">
+            <b>B)</b> <span>Admissió</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim6_q93, 'C')">
+            <b>C)</b> <span>Escapament</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim6_q93, 'D')">
+            <b>D)</b> <span>Compressió</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim6_q93">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Compressió</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Ordre d&#039;encesa: 1-3-4-2.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim7_q89" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 12 de 73 • ID: academia_sim7_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim7_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 12. En un sistema OHV, el taqué actua sobre:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim7_q89, 'A')">
+            <b>A)</b> <span>L&#039;arbre de transmissió</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim7_q89, 'B')">
+            <b>B)</b> <span>La vàlvula</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim7_q89, 'C')">
+            <b>C)</b> <span>El balancí</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim7_q89, 'D')">
+            <b>D)</b> <span>La vareta empenyedora</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim7_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La vareta empenyedora</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Aquesta vareta actuarà sobre el balancí, que actuarà sobre la vàlvula.
+En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q35" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 13 de 73 • ID: academia_sim8_q35</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q35)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 13. En quin tipus de motors hi trobarem un pistó que es desplaça per un cilindre amb un moviment lineal alternatiu que es transforma en rotatiu a través d&#039;un mecanisme biela-manovella?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q35, 'A')">
+            <b>A)</b> <span>En els motors alternatius</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q35, 'B')">
+            <b>B)</b> <span>En els motors rotatius</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q35, 'C')">
+            <b>C)</b> <span>Tant en els motors alternatius com en els motors Wankel</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q35, 'D')">
+            <b>D)</b> <span>Totes les respostes són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q35">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) En els motors alternatius</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> És el sistema més utilitzat en l&#039;automoció.
+En els motors rotatius o Wankel el moviment rotatiu es genera directament en un pistó de secció triangular, que gira dins
+d&#039;una carcassa on forma 3 cambres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q54" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 14 de 73 • ID: academia_sim8_q54</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q54)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 14. Entre quines peces se situa, generalment, el col·lector d&#039;admissió d&#039;un motor dièsel?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q54, 'A')">
+            <b>A)</b> <span>Entre el carburador i la vàlvula papallona</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q54, 'B')">
+            <b>B)</b> <span>Entre el carburador i la tapa de balancins</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q54, 'C')">
+            <b>C)</b> <span>Entre la cisterna i la vàlvula papallona</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q54, 'D')">
+            <b>D)</b> <span>Entre el filtre d&#039;aire i la culata</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q54">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Entre el filtre d&#039;aire i la culata</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q24" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 15 de 73 • ID: academia_sim9_q24</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q24)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 15. Són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l’arbre de lleves i, per l’altre, el transmeten a la vàlvula. Parlem de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q24, 'A')">
+            <b>A)</b> <span>Els taquets</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q24, 'B')">
+            <b>B)</b> <span>Les varetes</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q24, 'C')">
+            <b>C)</b> <span>Els balancins</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q24, 'D')">
+            <b>D)</b> <span>Les molles  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q24">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Els balancins</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim10_q85" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 16 de 73 • ID: academia_sim10_q85</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim10_q85)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 16. Quin dels següents elements no es refereix a una part del cigonyal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim10_q85, 'A')">
+            <b>A)</b> <span>El colze</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim10_q85, 'B')">
+            <b>B)</b> <span>El contrapes</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim10_q85, 'C')">
+            <b>C)</b> <span>El suport</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim10_q85, 'D')">
+            <b>D)</b> <span>El canell</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim10_q85">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) El canell</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim10_q86" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 17 de 73 • ID: academia_sim10_q86</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim10_q86)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 17. Els elements que constitueixen el motor es podrien dividir en elements fixos i elements mòbils. Quin dels següents no formarà part dels elements mòbils?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim10_q86, 'A')">
+            <b>A)</b> <span>La biela</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim10_q86, 'B')">
+            <b>B)</b> <span>El volant d&#039;inèrcia i el càrter, ja que els dos són elements fixos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim10_q86, 'C')">
+            <b>C)</b> <span>El càrter</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim10_q86, 'D')">
+            <b>D)</b> <span>El volant d&#039;inèrcia</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim10_q86">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El càrter</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Elements fixos: bloc, culata, càrter.
+Elements mòbils: biela, pistons, cigonyal, volant d&#039;inèrcia.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim11_q79" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 18 de 73 • ID: academia_sim11_q79</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim11_q79)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 18. Quins elements trobarem a un costat i a l&#039;altre del cigonyal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim11_q79, 'A')">
+            <b>A)</b> <span>En un costat hi trobarem la biela, i a l&#039;altre el volant d&#039;inèrcia</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim11_q79, 'B')">
+            <b>B)</b> <span>En un costat hi trobarem el pinyó de la distribució, i a l&#039;altre el volant d&#039;inèrcia</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim11_q79, 'C')">
+            <b>C)</b> <span>En un costat hi trobarem la biela, i a l&#039;altre el pinyó de la distribució</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim11_q79, 'D')">
+            <b>D)</b> <span>En un costat hi trobarem el buló, i a l&#039;altre els contrapesos</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim11_q79">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En un costat hi trobarem el pinyó de la distribució, i a l&#039;altre el volant d&#039;inèrcia</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per evitar la sortida de lubricant a l&#039;exterior del motor, en els dos extrems se situen uns retenidors.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q17" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 19 de 73 • ID: academia_sim12_q17</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q17)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 19. On es disposen les vàlvules en un motor OHV?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q17, 'A')">
+            <b>A)</b> <span>Al bloc del motor</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q17, 'B')">
+            <b>B)</b> <span>Als cilindres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q17, 'C')">
+            <b>C)</b> <span>Al càrter</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q17, 'D')">
+            <b>D)</b> <span>A la culata</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q17">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) A la culata</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> OHV = Overhead valve. Disposa de les vàlvules a la culata i de l&#039;arbre de lleves al bloc del motor.
+En els sistemes OHC i DOHC és l&#039;arbre de lleves el que es disposa a la culata.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q30" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 20 de 73 • ID: academia_sim12_q30</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q30)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 20. Quin element de la biela constitueix la unió amb el pistó a través del buló?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q30, 'A')">
+            <b>A)</b> <span>El cap</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q30, 'B')">
+            <b>B)</b> <span>El cos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q30, 'C')">
+            <b>C)</b> <span>El peu</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q30, 'D')">
+            <b>D)</b> <span>El colze</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q30">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El peu</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El cap de la biela, en canvi, anirà unit al cigonyal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q41" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 21 de 73 • ID: academia_sim13_q41</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q41)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 21. En un motor de gasolina d&#039;injecció directa de quatre temps, a l&#039;inici del temps d&#039;admissió:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q41, 'A')">
+            <b>A)</b> <span>Aspira només aire</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q41, 'B')">
+            <b>B)</b> <span>Aspira només gasolina</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q41, 'C')">
+            <b>C)</b> <span>L&#039;enunciat és incorrecte; tots els motors de gasolina funcionen per injecció indirecta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q41, 'D')">
+            <b>D)</b> <span>Aspira una mescla d&#039;aire i gasolina</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q41">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Aspira només aire</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Igual que en el motor Dièsel.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim14_q79" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 22 de 73 • ID: academia_sim14_q79</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim14_q79)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 22. L&#039;arbre de lleves és un element del sistema de distribució d&#039;un vehicle que rep el moviment del cigonyal i determina l&#039;angle d&#039;obertura i tancament de les vàlvules. També podem dir que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim14_q79, 'A')">
+            <b>A)</b> <span>Gira a la meitat de revolucions que el cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim14_q79, 'B')">
+            <b>B)</b> <span>Estarà sotmès a esforços de torsió i flexió, però no de compressió</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim14_q79, 'C')">
+            <b>C)</b> <span>Transforma el moviment de rotació en moviment rectilini</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim14_q79, 'D')">
+            <b>D)</b> <span>Totes les respostes són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim14_q79">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Totes les respostes són correctes</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim16_q74" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 23 de 73 • ID: academia_sim16_q74</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim16_q74)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 23. El motor de quatre temps és un tipus de motor d&#039;explosió. Quantes voltes completes del cigonyal requereix per tal de completar el cicle termodinàmic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim16_q74, 'A')">
+            <b>A)</b> <span>Una</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim16_q74, 'B')">
+            <b>B)</b> <span>Dues</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim16_q74, 'C')">
+            <b>C)</b> <span>Quatre</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim16_q74, 'D')">
+            <b>D)</b> <span>Un motor de quatre temps no pot ser d&#039;explosió</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim16_q74">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Dues</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per cada dues voltes que dóna el cigonyal, l&#039;arbre de lleves en dóna una.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim18_q17" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 24 de 73 • ID: academia_sim18_q17</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim18_q17)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 24. Sobre les vàlvules del sistema de distribució d&#039;un vehicle podem dir que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim18_q17, 'A')">
+            <b>A)</b> <span>Són elements que s&#039;encarreguen de governar el sistema de distribució</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim18_q17, 'B')">
+            <b>B)</b> <span>Estan constituïdes per un cap i una tija</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim18_q17, 'C')">
+            <b>C)</b> <span>El motor de dos vàlvules per cilindre és el més freqüent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim18_q17, 'D')">
+            <b>D)</b> <span>Totes les respostes són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim18_q17">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Estan constituïdes per un cap i una tija</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El motor de quatre vàlvules per cilindre (dues d&#039;admissió i dues d&#039;escapament) és el més habitual.
+L&#039;encarregat de governar el sistema de distribució és l&#039;arbre de lleves.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim19_q16" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 25 de 73 • ID: academia_sim19_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim19_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 25. Si seguim la cadena de moviment del sistema de distribució d&#039;un vehicle OHV, quin element trobarem entre l&#039;arbre de lleves i la vàlvula?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim19_q16, 'A')">
+            <b>A)</b> <span>El balancí</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim19_q16, 'B')">
+            <b>B)</b> <span>El cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim19_q16, 'C')">
+            <b>C)</b> <span>La biela</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim19_q16, 'D')">
+            <b>D)</b> <span>El cilindre  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim19_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El balancí</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els balancins són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l&#039;arbre
+de lleves i, per l&#039;altre, el transmeten a la vàlvula.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim25_q50" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 26 de 73 • ID: academia_sim25_q50</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim25_q50)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 26. En un motor de quatre temps, durant el temps d&#039;admissió l&#039;arbre de lleves dóna:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim25_q50, 'A')">
+            <b>A)</b> <span>90°</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim25_q50, 'B')">
+            <b>B)</b> <span>45°</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim25_q50, 'C')">
+            <b>C)</b> <span>180°</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim25_q50, 'D')">
+            <b>D)</b> <span>360°</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim25_q50">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 90°</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El cigonyal dóna 180° (relació 1 a 2).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim25_q51" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 27 de 73 • ID: academia_sim25_q51</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim25_q51)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 27. És un tipus de motor on el bloc de cilindres gira al voltant del cigonyal:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim25_q51, 'A')">
+            <b>A)</b> <span>Motor Alternatiu</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim25_q51, 'B')">
+            <b>B)</b> <span>Motor de reacció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim25_q51, 'C')">
+            <b>C)</b> <span>Motor Otto</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim25_q51, 'D')">
+            <b>D)</b> <span>Motor rotatiu</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim25_q51">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Motor rotatiu</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim27_q1" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 28 de 73 • ID: academia_sim27_q1</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim27_q1)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 28. En el comandament de la distribució en un vehicle, la transmissió de gir des del cigonyal a l&#039;arbre de lleves s&#039;ha de fer sempre amb una relació de transmissió de 2 a 1. Això vol dir que el pinyó de l&#039;arbre de lleves tindrà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim27_q1, 'A')">
+            <b>A)</b> <span>La meitat de dents que el del cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim27_q1, 'B')">
+            <b>B)</b> <span>El doble de dents que el del cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim27_q1, 'C')">
+            <b>C)</b> <span>Les mateixes dents que el del cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim27_q1, 'D')">
+            <b>D)</b> <span>El triple de dents que el del cigonyal</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim27_q1">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El doble de dents que el del cigonyal</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Ja que per 2 voltes que fa el cigonyal, l&#039;arbre de lleves en fa una.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim27_q22" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 29 de 73 • ID: academia_sim27_q22</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim27_q22)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 29. Com anomenem a la longitud entre el punt mort inferior (PMI) i el superior (PMS) d&#039;un cilindre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim27_q22, 'A')">
+            <b>A)</b> <span>Carrera</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim27_q22, 'B')">
+            <b>B)</b> <span>Cilindrada</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim27_q22, 'C')">
+            <b>C)</b> <span>Calibre</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim27_q22, 'D')">
+            <b>D)</b> <span>Cilindrada unitària</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim27_q22">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Carrera</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El calibre, en canvi, és el diàmetre interior del cilindre.
+La cilindrada fa referència a volums, no a longitud.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q52" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 30 de 73 • ID: academia_sim28_q52</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q52)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 30. De forma general, quin serà el nombre de suports del cigonyal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q52, 'A')">
+            <b>A)</b> <span>El mateix que el número de cilindres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q52, 'B')">
+            <b>B)</b> <span>El número de cilindres més un</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q52, 'C')">
+            <b>C)</b> <span>El número de cilindres menys un</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q52, 'D')">
+            <b>D)</b> <span>Quatre</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q52">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El número de cilindres més un</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim31_q8" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 31 de 73 • ID: academia_sim31_q8</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim31_q8)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 31. Quina de les següents configuracions del motor tindrà un cigonyal més llarg?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim31_q8, 'A')">
+            <b>A)</b> <span>El motor en W</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim31_q8, 'B')">
+            <b>B)</b> <span>El motor en línia</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim31_q8, 'C')">
+            <b>C)</b> <span>El motor en V</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim31_q8, 'D')">
+            <b>D)</b> <span>El motor en bòxer  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim31_q8">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El motor en línia</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El motor en W tindrà el cigonyal més curt.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim32_q39" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 32 de 73 • ID: academia_sim32_q39</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim32_q39)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 32. Quina és la funció de l&#039;intercooler en un motor turboalimentat?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim32_q39, 'A')">
+            <b>A)</b> <span>Refrigerar els gasos d&#039;escapament</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim32_q39, 'B')">
+            <b>B)</b> <span>Comprimir l&#039;aire d&#039;admissió per facilitar una posterior refrigeració</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim32_q39, 'C')">
+            <b>C)</b> <span>Refrigerar l&#039;aire d&#039;admissió per augmentar-ne la seva densitat</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim32_q39, 'D')">
+            <b>D)</b> <span>Un motor turboalimentat no necessitarà intercooler</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim32_q39">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Refrigerar l&#039;aire d&#039;admissió per augmentar-ne la seva densitat</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Aquest element no és més que un radiador aire-aire o aire-aigua que té la funció de reduir la temperatura de l&#039;aire que
+prové del compressor del turbo fins a uns nivells òptims.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim33_q10" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 33 de 73 • ID: academia_sim33_q10</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim33_q10)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 33. Quina peça s&#039;encarrega de realitzar la funció d&#039;unió entre l&#039;arbre de transmissió i l&#039;eix secundari?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim33_q10, 'A')">
+            <b>A)</b> <span>La junta homocinètica</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim33_q10, 'B')">
+            <b>B)</b> <span>La junta de la tròcola</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim33_q10, 'C')">
+            <b>C)</b> <span>La junta de Cardan</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim33_q10, 'D')">
+            <b>D)</b> <span>La junta de la culata</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim33_q10">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) La junta de Cardan</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La junta cardan s&#039;encarrega de transmetre el moviment giratori del cigonyal fins les rodes motrius. També s&#039;anomena
+junta universal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim34_q56" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 34 de 73 • ID: academia_sim34_q56</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim34_q56)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 34. Quantes voltes farà el cigonyal per cada volta de l&#039;arbre de lleves en un motor de quatre temps?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim34_q56, 'A')">
+            <b>A)</b> <span>Una volta</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim34_q56, 'B')">
+            <b>B)</b> <span>Dues voltes</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim34_q56, 'C')">
+            <b>C)</b> <span>Mitja volta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim34_q56, 'D')">
+            <b>D)</b> <span>Tres voltes  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim34_q56">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Dues voltes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim35_q28" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 35 de 73 • ID: academia_sim35_q28</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim35_q28)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 35. Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim35_q28, 'A')">
+            <b>A)</b> <span>EMS</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim35_q28, 'B')">
+            <b>B)</b> <span>ECU</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim35_q28, 'C')">
+            <b>C)</b> <span>MSI</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim35_q28, 'D')">
+            <b>D)</b> <span>IMU</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim35_q28">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) ECU</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> ECU = Engine Control Unit.
+Recorda que el sistema de gestió i la unitat de control formen part dels components principals del sistema del vehicle
+híbrid i el sistema del vehicle elèctric, respectivament.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim35_q67" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 36 de 73 • ID: academia_sim35_q67</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim35_q67)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 36. L&#039;índex d&#039;octà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim35_q67, 'A')">
+            <b>A)</b> <span>Com més elevat és, més facilita o afavoreix la detonació de la benzina</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim35_q67, 'B')">
+            <b>B)</b> <span>És el mateix entre una benzina sense plom de 95 i una de 98</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim35_q67, 'C')">
+            <b>C)</b> <span>És una propietat intrascendent en els carburants</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim35_q67, 'D')">
+            <b>D)</b> <span>Pot ser major de 100, en el cas d&#039;alguns combustibles</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim35_q67">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Pot ser major de 100, en el cas d&#039;alguns combustibles</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;índex d&#039;octà és una mesura que indica la resistència a la detonació del carburant quan es comprimeix dins del cilindre
+d&#039;un motor.
+Com més índex d&#039;octà, més capacitat d&#039;antidetonació de la gasolina.
+Una benzina sense plom de 95 tindrà 95 octans, i una de 98, 98 octans.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim36_q34" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 37 de 73 • ID: academia_sim36_q34</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim36_q34)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 37. Quin tipus de projeccions es basen o s&#039;inspiren en la projecció directa del globus sobre una superfície ja plana?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim36_q34, 'A')">
+            <b>A)</b> <span>Les projeccions cilíndriques i les còniques</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim36_q34, 'B')">
+            <b>B)</b> <span>Les projeccions azimutals</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim36_q34, 'C')">
+            <b>C)</b> <span>Les projeccions cilíndriques i azimutals</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim36_q34, 'D')">
+            <b>D)</b> <span>Les projeccions cilíndriques</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim36_q34">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Les projeccions azimutals</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> ICGC: Les projeccions cilíndriques i còniques es basen o s&#039;inspiren en l&#039;estratègia de projectar la superfície del globus
+sobre un cilindre o un con, respectivament, que posteriorment seran tallats per una generatriu i desenrotllats plans; per
+aquest motiu se les anomena, de vegades, projeccions desenrotllables. Les projeccions azimutals, en canvi, es basen o
+s&#039;inspiren en la projecció directa del globus sobre una superfície ja plana.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim38_q10" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 38 de 73 • ID: academia_sim38_q10</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim38_q10)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 38. Quin element d&#039;un vehicle pertany al sistema de seguretat activa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim38_q10, 'A')">
+            <b>A)</b> <span>Els seients</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim38_q10, 'B')">
+            <b>B)</b> <span>El cinturó de seguretat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim38_q10, 'C')">
+            <b>C)</b> <span>Els pneumàtics</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim38_q10, 'D')">
+            <b>D)</b> <span>Els airbags</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim38_q10">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Els pneumàtics</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La resta pertanyen a la seguretat passiva.
+Exemples d&#039;elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim40_q40" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 39 de 73 • ID: academia_sim40_q40</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim40_q40)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 39. Durant el temps d&#039;explosió d&#039;un motor de quatre temps l&#039;arbre de lleves dóna:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim40_q40, 'A')">
+            <b>A)</b> <span>90°</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim40_q40, 'B')">
+            <b>B)</b> <span>45°</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim40_q40, 'C')">
+            <b>C)</b> <span>180°</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim40_q40, 'D')">
+            <b>D)</b> <span>360°  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim40_q40">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 90°</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El cigonyal dóna 180° (relació 1 a 2).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim40_q77" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 40 de 73 • ID: academia_sim40_q77</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim40_q77)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 40. Els motors síncrons i asíncrons són tipologies de motor elèctric. Què els diferencia?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim40_q77, 'A')">
+            <b>A)</b> <span>En el motor síncron el rotor i el camp magnètic giren a la mateixa velocitat, mentre que en el motor asíncron el camp magnètic sempre va uns graus per davant del rotor</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim40_q77, 'B')">
+            <b>B)</b> <span>Que el motor d&#039;inducció o síncron, a diferència de l&#039;asíncron, girarà a la mateixa velocitat que el cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim40_q77, 'C')">
+            <b>C)</b> <span>Mentre que el motor síncron és aquell en què el rotor i el camp magnètic rotant giren a la mateixa velocitat, en el motor asíncron el camp magnètic sempre va uns graus per darrere del rotor</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim40_q77, 'D')">
+            <b>D)</b> <span>No presenten cap diferència</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim40_q77">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) En el motor síncron el rotor i el camp magnètic giren a la mateixa velocitat, mentre que en el motor asíncron el camp magnètic sempre va uns graus per davant del rotor</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Ull! Motor d&#039;inducció = motor asíncron.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim41_q95" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 41 de 73 • ID: academia_sim41_q95</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim41_q95)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 41. Quin nom rep el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim41_q95, 'A')">
+            <b>A)</b> <span>El sistema de direcció assistida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim41_q95, 'B')">
+            <b>B)</b> <span>El control d&#039;estabilitat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim41_q95, 'C')">
+            <b>C)</b> <span>El control de tracció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim41_q95, 'D')">
+            <b>D)</b> <span>Sistema de suspensió activa</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim41_q95">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El control de tracció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Control d&#039;estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.
+Sistema de suspensió activa: s&#039;encarrega de gestionar i controlar de forma independent l&#039;amortiguació de cadascuna de
+les rodes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim42_q16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 42 de 73 • ID: academia_sim42_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim42_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 42. Com s&#039;anomena la tipologia de bomba que utilitza un pistó en moviment dins d&#039;un cilindre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim42_q16, 'A')">
+            <b>A)</b> <span>Bomba de diafragma</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim42_q16, 'B')">
+            <b>B)</b> <span>Bomba d&#039;èmbol</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim42_q16, 'C')">
+            <b>C)</b> <span>Bomba centrífuga</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim42_q16, 'D')">
+            <b>D)</b> <span>Bomba alternativa  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim42_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Bomba d&#039;èmbol</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les bombes d&#039;èmbol també s&#039;anomenen bombes de pistó. Poden ser d&#039;efecte simple o de doble efecte. No necessiten
+ser encebades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim43_q81" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 43 de 73 • ID: academia_sim43_q81</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim43_q81)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 43. A quin tipus de motor trobarem el rotor de gàbia d&#039;esquirol?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim43_q81, 'A')">
+            <b>A)</b> <span>Al motor de gas</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim43_q81, 'B')">
+            <b>B)</b> <span>Al motor elèctric asíncron de corrent altern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim43_q81, 'C')">
+            <b>C)</b> <span>Al motor de gasoil</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim43_q81, 'D')">
+            <b>D)</b> <span>Al motor elèctric síncron de corrent altern</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim43_q81">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Al motor elèctric asíncron de corrent altern</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Motor asíncron = motor d&#039;inducció.
+Un rotor de gàbia d&#039;esquirol és bàsicament un cilindre muntat en un eix, on el seu anell és conductor, i prenent la forma
+de la roda pels hàmsters.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim44_q70" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 44 de 73 • ID: academia_sim44_q70</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim44_q70)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 44. En el sistema de distribució OHC:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim44_q70, 'A')">
+            <b>A)</b> <span>L&#039;arbre de lleves es troba al bloc motor</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim44_q70, 'B')">
+            <b>B)</b> <span>Trobem a l&#039;arbre de lleves proper al cigonyal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim44_q70, 'C')">
+            <b>C)</b> <span>L&#039;arbre de lleves es troba a sobre de la culata</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim44_q70, 'D')">
+            <b>D)</b> <span>L&#039;arbre de lleves es troba per sota del càrter</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim44_q70">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) L&#039;arbre de lleves es troba a sobre de la culata</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> És en el sistema OHV que l&#039;arbre de lleves es troba al bloc motor.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim44_q91" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 45 de 73 • ID: academia_sim44_q91</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim44_q91)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 45. Durant el temps d&#039;admissió, al cilindre d&#039;un motor dièsel de quatre temps...</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim44_q91, 'A')">
+            <b>A)</b> <span>S&#039;hi introduirà, a altes pressions, una barreja de gasoil i metà</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim44_q91, 'B')">
+            <b>B)</b> <span>Hi entrarà aire, únicament</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim44_q91, 'C')">
+            <b>C)</b> <span>Només hi entrarà gasoil</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim44_q91, 'D')">
+            <b>D)</b> <span>Hi entrarà una barreja d&#039;aire i gasoil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim44_q91">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Hi entrarà aire, únicament</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En el motor de gasolina de 4 temps, en canvi, hi entraria una barreja d&#039;aire i benzina.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim45_q12" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 46 de 73 • ID: academia_sim45_q12</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim45_q12)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 46. En un motor de quatre temps, quantes voltes farà el cigonyal per cada volta de l&#039;arbre de lleves?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim45_q12, 'A')">
+            <b>A)</b> <span>Una volta</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim45_q12, 'B')">
+            <b>B)</b> <span>Dues voltes</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim45_q12, 'C')">
+            <b>C)</b> <span>Mitja volta</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim45_q12, 'D')">
+            <b>D)</b> <span>Tres voltes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim45_q12">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Dues voltes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim45_q65" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 47 de 73 • ID: academia_sim45_q65</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim45_q65)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 47. Amb quina unitat s&#039;expressa normalment la cilindrada unitària del motor?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim45_q65, 'A')">
+            <b>A)</b> <span>En centímetres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim45_q65, 'B')">
+            <b>B)</b> <span>En centímetres cúbics (cm³)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim45_q65, 'C')">
+            <b>C)</b> <span>En mil·límetres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim45_q65, 'D')">
+            <b>D)</b> <span>En litres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim45_q65">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En centímetres cúbics (cm³)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim47_q65" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 48 de 73 • ID: academia_sim47_q65</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim47_q65)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 48. En un sistema OHV el taquet opera sobre:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim47_q65, 'A')">
+            <b>A)</b> <span>La vareta empenyedora</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim47_q65, 'B')">
+            <b>B)</b> <span>El balancí</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim47_q65, 'C')">
+            <b>C)</b> <span>La vàlvula</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim47_q65, 'D')">
+            <b>D)</b> <span>El tensor</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim47_q65">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) La vareta empenyedora</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim51_q33" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 49 de 73 • ID: academia_sim51_q33</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim51_q33)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 49. En un motor elèctric, el rotor:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim51_q33, 'A')">
+            <b>A)</b> <span>És la part mòbil del motor</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim51_q33, 'B')">
+            <b>B)</b> <span>Té un diàmetre major que l&#039;estator</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim51_q33, 'C')">
+            <b>C)</b> <span>És la part estàtica del motor</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim51_q33, 'D')">
+            <b>D)</b> <span>Hi ha més d&#039;una resposta correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim51_q33">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) És la part mòbil del motor</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El rotor té un diàmetre menor que l&#039;estator, ja que es troba encabit dins l&#039;estator.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim51_q46" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 50 de 73 • ID: academia_sim51_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim51_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 50. Quina relació de revolucions tenen el cigonyal i l&#039;arbre de lleves en un motor de quatre temps?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim51_q46, 'A')">
+            <b>A)</b> <span>De 2 a 1</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim51_q46, 'B')">
+            <b>B)</b> <span>De 1 a 1</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim51_q46, 'C')">
+            <b>C)</b> <span>De 1 a 2</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim51_q46, 'D')">
+            <b>D)</b> <span>De 2 a 3</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim51_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) De 2 a 1</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Per això, la quantitat de dents de la corona de l&#039;arbre de lleves és el doble que la del pinyó del cigonyal. Aquest procés el
+coneixem com a desmultiplicació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim51_q48" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 51 de 73 • ID: academia_sim51_q48</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim51_q48)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 51. Quin dels següents elements d&#039;un motor tèrmic és mòbil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim51_q48, 'A')">
+            <b>A)</b> <span>El càrter</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim51_q48, 'B')">
+            <b>B)</b> <span>El volant d&#039;inèrcia</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim51_q48, 'C')">
+            <b>C)</b> <span>La culata</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim51_q48, 'D')">
+            <b>D)</b> <span>El bloc motor  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim51_q48">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El volant d&#039;inèrcia</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El pistó, la biela o el cigonyal també serien exemples d&#039;elements mòbils.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim52_q85" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 52 de 73 • ID: academia_sim52_q85</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim52_q85)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 52. De quants conductes o llumeneres disposa el cilindre d&#039;un motor de dos temps?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim52_q85, 'A')">
+            <b>A)</b> <span>Dues; una d&#039;admissió i una altra d&#039;escapament</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim52_q85, 'B')">
+            <b>B)</b> <span>Tres; una d&#039;escapament, una de càrrega i una d&#039;admissió</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim52_q85, 'C')">
+            <b>C)</b> <span>Quatre; una d&#039;escapament, una d&#039;admissió, una de càrrega i una de descàrrega</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim52_q85, 'D')">
+            <b>D)</b> <span>Aquests motors no disposen de llumeneres, en tot cas disposaran de vàlvules</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim52_q85">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Tres; una d&#039;escapament, una de càrrega i una d&#039;admissió</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El cilindre té tres conductes o llumeneres:
+- D&#039;escapament
+- De càrrega
+- D&#039;admissió
+La llumenera d&#039;escapament i la llumenera de càrrega es localitzen, enfrontades, a prop del PMI. Durant el moviment del
+pistó entre el PMS i el PMI aquestes llumeneres són descobertes i cobertes per aquest pistó. La llumenera d&#039;escapament
+està col·locada en una posició més elevada que la llumenera de càrrega, de manera que el pistó descobrirà primer la
+lumbrera d&#039;escapament.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim53_q9" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 53 de 73 • ID: academia_sim53_q9</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim53_q9)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 53. Què aspira durant el temps d&#039;admissió un motor de gasolina d&#039;injecció indirecta de quatre temps?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim53_q9, 'A')">
+            <b>A)</b> <span>Només aire</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim53_q9, 'B')">
+            <b>B)</b> <span>Una mescla d&#039;aire i gasolina</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim53_q9, 'C')">
+            <b>C)</b> <span>Gasolina</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim53_q9, 'D')">
+            <b>D)</b> <span>Dièsel o gasoil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim53_q9">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Una mescla d&#039;aire i gasolina</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El motor dièsel, en el temps d&#039;admissió aspira només aire.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim53_q41" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 54 de 73 • ID: academia_sim53_q41</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim53_q41)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 54. Què s&#039;entén per una autobomba?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim53_q41, 'A')">
+            <b>A)</b> <span>És una bomba elèctrica que es connecta a un electrogen</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim53_q41, 'B')">
+            <b>B)</b> <span>És una bomba per a qualsevol ús, que es pot desplaçar manualment</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim53_q41, 'C')">
+            <b>C)</b> <span>És un vehicle automòbil equipat de bomba accionada pel motor</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim53_q41, 'D')">
+            <b>D)</b> <span>És una bomba automàtica exclusiva per a líquids</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim53_q41">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) És un vehicle automòbil equipat de bomba accionada pel motor</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim54_q11" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 55 de 73 • ID: academia_sim54_q11</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim54_q11)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 55. Sobre quin element opera el taquet en un sistema OHV?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim54_q11, 'A')">
+            <b>A)</b> <span>Sobre la vareta empenyedora</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim54_q11, 'B')">
+            <b>B)</b> <span>Sobre el balancí</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim54_q11, 'C')">
+            <b>C)</b> <span>Sobre la vàlvula</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim54_q11, 'D')">
+            <b>D)</b> <span>Sobre el tensor</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim54_q11">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Sobre la vareta empenyedora</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim58_q57" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 56 de 73 • ID: academia_sim58_q57</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim58_q57)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 56. Quina part del motor controla el temps i la seqüència d&#039;obertura de les vàlvules d&#039;admissió i escapament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim58_q57, 'A')">
+            <b>A)</b> <span>L&#039;alternador</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim58_q57, 'B')">
+            <b>B)</b> <span>El distribuïdor</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim58_q57, 'C')">
+            <b>C)</b> <span>La culata</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim58_q57, 'D')">
+            <b>D)</b> <span>L&#039;arbres de lleves</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim58_q57">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) L&#039;arbres de lleves</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;arbre de lleves es mou sincronitzat amb el cigonyal i està accionat per la cadena de distribució o per la corretja de
+distribució, depenent del disseny del motor.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim63_q34" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 57 de 73 • ID: academia_sim63_q34</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim63_q34)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 57. Què és el calibre d&#039;un cilindre?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim63_q34, 'A')">
+            <b>A)</b> <span>El radi interior del cilindre expressat en mil·límetres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim63_q34, 'B')">
+            <b>B)</b> <span>La relació que hi ha entre el volum total que ocupa l&#039;aire al cilindre abans de ser comprimit i el volum que ocupa un cop comprimit</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim63_q34, 'C')">
+            <b>C)</b> <span>El diàmetre interior del cilindre expressat en mil·límetres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim63_q34, 'D')">
+            <b>D)</b> <span>El radi interior del cilindre expressat en centímetres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim63_q34">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El diàmetre interior del cilindre expressat en mil·límetres</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim67_q25" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 58 de 73 • ID: academia_sim67_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim67_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 58. És una regió al tronc o a les arrels que conté els teixits conductors d&#039;una planta, com ara el xilema i el floema:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim67_q25, 'A')">
+            <b>A)</b> <span>El cilindre vascular</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim67_q25, 'B')">
+            <b>B)</b> <span>L&#039;entrenús</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim67_q25, 'C')">
+            <b>C)</b> <span>La medul·la</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim67_q25, 'D')">
+            <b>D)</b> <span>El còrtex</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim67_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El cilindre vascular</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El xilema transporta aigua i nutrients des de les arrels cap a les altres parts de la planta, mentre que el floema transporta
+els nutrients fotosintetitzats des de les fulles cap a les altres parts de la planta. Aquest cilindre vascular és essencial per
+al suport estructural i el transport eficient de substàncies en les plantes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim67_q62" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 59 de 73 • ID: academia_sim67_q62</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim67_q62)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 59. En un vehicle de transmissió automàtica, on estarà integrat el volant bimassa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim67_q62, 'A')">
+            <b>A)</b> <span>Al convertidor de parell</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim67_q62, 'B')">
+            <b>B)</b> <span>A la biela</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim67_q62, 'C')">
+            <b>C)</b> <span>A l&#039;embragatge</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim67_q62, 'D')">
+            <b>D)</b> <span>A l&#039;arbre de lleves</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim67_q62">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Al convertidor de parell</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El volant bimassa està integrat a l&#039;embragatge, o bé al convertidor de parell, en funció de si es tracta d&#039;un vehicle amb
+transmissió manual o automàtica.
+En el seu perímetre s&#039;instal·la la corona dentada on engrana el pinyó del motor d&#039;arrencada, va fixat d&#039;una banda a la
+sortida del cigonyal i per l&#039;altre costat, al disc de embragatge.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q24" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 60 de 73 • ID: academia_sim70_q24</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q24)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 60. Durant el temps d&#039;explosió d&#039;un motor de quatre temps el cigonyal dóna:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q24, 'A')">
+            <b>A)</b> <span>90°</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q24, 'B')">
+            <b>B)</b> <span>45°</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q24, 'C')">
+            <b>C)</b> <span>180°</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q24, 'D')">
+            <b>D)</b> <span>360°</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q24">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 180°</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;arbre de lleves dóna 90° (relació 1 a 2 amb el cigonyal).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q52" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 61 de 73 • ID: academia_sim70_q52</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q52)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 61. En la realització d&#039;un esgotament amb autobomba i obviant les pèrdues de càrrega, quin valor ens hauria d&#039;indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q52, 'A')">
+            <b>A)</b> <span>-4 bar</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q52, 'B')">
+            <b>B)</b> <span>40 bar</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q52, 'C')">
+            <b>C)</b> <span>0,4 bar</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q52, 'D')">
+            <b>D)</b> <span>-0,4 bar</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q52">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) -0,4 bar</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim73_q42" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 62 de 73 • ID: academia_sim73_q42</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim73_q42)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 62. Quin dispositiu s&#039;utilitza per protegir un motor elèctric de sobrecàrregues?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim73_q42, 'A')">
+            <b>A)</b> <span>Un variador de freqüència</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim73_q42, 'B')">
+            <b>B)</b> <span>Un SPD</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim73_q42, 'C')">
+            <b>C)</b> <span>Un relé tèrmic</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim73_q42, 'D')">
+            <b>D)</b> <span>Un díode</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim73_q42">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Un relé tèrmic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Es tracta d&#039;un dispositiu electromecànic, dissenyat per protegir els motors elèctrics de sobrecàrregues o escalfaments.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim74_q51" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 63 de 73 • ID: academia_sim74_q51</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim74_q51)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 63. Quin d&#039;aquests elements NO forma part del grup de distribució en un motor?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim74_q51, 'A')">
+            <b>A)</b> <span>Els taquets</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim74_q51, 'B')">
+            <b>B)</b> <span>Les molles</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim74_q51, 'C')">
+            <b>C)</b> <span>Les vàlvules</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim74_q51, 'D')">
+            <b>D)</b> <span>El termòstat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim74_q51">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) El termòstat</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;arbre de lleves també formaria part del grup de distribució.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim75_q38" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 64 de 73 • ID: academia_sim75_q38</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim75_q38)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 64. Quines són les peces entre les quals es troba, normalment, el col·lector d&#039;admissió d&#039;un motor dièsel?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim75_q38, 'A')">
+            <b>A)</b> <span>Entre el carburador i la vàlvula papallona</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim75_q38, 'B')">
+            <b>B)</b> <span>Entre el carburador i la tapa de balancins</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim75_q38, 'C')">
+            <b>C)</b> <span>Entre la cisterna i la vàlvula papallona</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim75_q38, 'D')">
+            <b>D)</b> <span>Entre el filtre d&#039;aire i la culata</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim75_q38">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Entre el filtre d&#039;aire i la culata</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim77_q37" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 65 de 73 • ID: academia_sim77_q37</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim77_q37)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 65. Com s&#039;anomena el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim77_q37, 'A')">
+            <b>A)</b> <span>El sistema de direcció assistida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim77_q37, 'B')">
+            <b>B)</b> <span>El control d&#039;estabilitat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim77_q37, 'C')">
+            <b>C)</b> <span>El control de tracció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim77_q37, 'D')">
+            <b>D)</b> <span>Sistema de suspensió activa</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim77_q37">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El control de tracció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Control d&#039;estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.
+Sistema de suspensió activa: s&#039;encarrega de gestionar i controlar de forma independent l&#039;amortiguació de cadascuna de
+les rodes.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q49" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 66 de 73 • ID: academia_sim125_q49</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q49)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 66. Quina capacitat d&#039;aigua té una Bomba Urbana Pesada (BUP)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q49, 'A')">
+            <b>A)</b> <span>5.000 – 5.650 litres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q49, 'B')">
+            <b>B)</b> <span>4.000 – 5.000 litres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q49, 'C')">
+            <b>C)</b> <span>3.000 – 4.000 litres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q49, 'D')">
+            <b>D)</b> <span>2.000 – 3.000 litres</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q49">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 3.000 – 4.000 litres</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> BUL - Bomba urbana lleugera: 1.000 – 1.650 litres.
+BUP - Bomba urbana pesada: 3.000 – 4.000 litres.
+BRP - Bomba rural pesada: 3.000 – 4.000 litres.
+BNP - Bomba nodrissa pesada: 7.000 – 10.000 litres.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q60" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 67 de 73 • ID: academia_sim125_q60</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q60)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 67. Quin angle d&#039;atac presenta aproximadament la BUL?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q60, 'A')">
+            <b>A)</b> <span>18°</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q60, 'B')">
+            <b>B)</b> <span>20°</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q60, 'C')">
+            <b>C)</b> <span>12°</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q60, 'D')">
+            <b>D)</b> <span>15°</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q60">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) 15°</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim127_q54" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 68 de 73 • ID: academia_sim127_q54</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim127_q54)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 68. Quina és l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim127_q54, 'A')">
+            <b>A)</b> <span>La Bomba Rural Pesada (BRP)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim127_q54, 'B')">
+            <b>B)</b> <span>La Bomba Rural Pesada (BRP)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim127_q54, 'C')">
+            <b>C)</b> <span>La Bomba Urbana Pesada (BUP)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim127_q54, 'D')">
+            <b>D)</b> <span>La Bomba Urbana Lleugera (BUL)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim127_q54">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La Bomba Rural Pesada (BRP)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Bomba Rural Pesada (BRP).
+Descripció: Vehicle polivalent dissenyat per a actuacions en tot tipus d’entorns, urbans, rurals i forestals, especialment
+adaptat a terrenys difícils. És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim128_q8" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 69 de 73 • ID: academia_sim128_q8</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim128_q8)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 69. Una dotació crida la sala i rep com a resposta &quot;Esperi Papa 10.40&quot;. Què ha de fer la dotació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim128_q8, 'A')">
+            <b>A)</b> <span>Repetir la crida al cap de 30 segons</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim128_q8, 'B')">
+            <b>B)</b> <span>Canviar al mode directe per no ocupar el canal de xarxa</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim128_q8, 'C')">
+            <b>C)</b> <span>Tancar amb &quot;canvi i tallo&quot; i tornar a demanar-ho més tard</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim128_q8, 'D')">
+            <b>D)</b> <span>Mantenir-se a l&#039;escolta fins rebre l&#039;&quot;endavant&quot; del receptor</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim128_q8">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Canviar al mode directe per no ocupar el canal de xarxa</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;ambulància de tipus B, de suport vital bàsic, va dotada de 2 tècnics en emergències sanitàries. La combinació de tècnic
+i infermer/a correspon al tipus C (suport vital avançat), i la de tècnic i metge/ssa al vehicle d&#039;intervenció ràpida.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q19" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 70 de 73 • ID: serebomber_38c54d39_q19</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q19)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 70. Quin dispositiu o mecanisme d&#039;un vehicle serveix per evitar el bloqueig de les rodes durant una frenada d&#039;emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q19, 'A')">
+            <b>A)</b> <span>ESP (Control electrònic d&#039;estabilitat)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q19, 'B')">
+            <b>B)</b> <span>TCS (Control de tracció)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q19, 'C')">
+            <b>C)</b> <span>ABS (Anti-lock Braking System)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q19, 'D')">
+            <b>D)</b> <span>EBD (Distribució electrònica de frenada)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q19">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) ABS (Anti-lock Braking System)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;ABS evita el bloqueig dels pneumàtics permetent mantenir la capacitat de direcció del vehicle durant la frenada.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q33" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 71 de 73 • ID: serebomber_38c54d39_q33</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q33)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 71. Quin mecanisme utilitza un motor dièsel per ignitionar la barreges d&#039;aire i combustible?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q33, 'A')">
+            <b>A)</b> <span>Una guspira elèctrica generada per la bugia</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q33, 'B')">
+            <b>B)</b> <span>L&#039;alta pressió i temperatura aconseguides per la compressió de l&#039;aire en el cilindre (autoencesa)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q33, 'C')">
+            <b>C)</b> <span>Un filament incandescent de funcionament permanent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q33, 'D')">
+            <b>D)</b> <span>La barreja directa amb oli a la cambra d&#039;expansió</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q33">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) L&#039;alta pressió i temperatura aconseguides per la compressió de l&#039;aire en el cilindre (autoencesa)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els motors de cicle Dièsel provoquen l&#039;autoencesa del gasoil al ser injectat en l&#039;aire escalfat per alta compressió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q42" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 72 de 73 • ID: serebomber_38c54d39_q42</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q42)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 72. Quina és la velocitat màxima permesa per a un vehicle d&#039;emergència quan circula en servei d&#039;urgència amb senyals lluminoses i acústiques activades?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q42, 'A')">
+            <b>A)</b> <span>Exactament 20 km/h per sobre del límit genèric de la via</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q42, 'B')">
+            <b>B)</b> <span>Sense cap límit sota qualsevol circumstància</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q42, 'C')">
+            <b>C)</b> <span>Pot superar els límits de velocitat establerts sempre que prioritzi la seguretat i no posi en perill la resta d&#039;usuaris</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q42, 'D')">
+            <b>D)</b> <span>Fins a 140 km/h en autopistes i 80 km/h en ciutat com a màxim estricte</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q42">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Pot superar els límits de velocitat establerts sempre que prioritzi la seguretat i no posi en perill la resta d&#039;usuaris</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els vehicles prioritaris en servei d&#039;urgència estan exempts de complir els límits de velocitat sota la responsabilitat del conductor.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q59" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 73 de 73 • ID: serebomber_38c54d39_q59</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q59)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 73. Com distingeix el manual la seguretat activa de la passiva d&#039;un vehicle?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q59, 'A')">
+            <b>A)</b> <span>La seguretat activa funciona només quan el vehicle està estacionat</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q59, 'B')">
+            <b>B)</b> <span>La passiva evita el xoc i l&#039;activa atén les víctimes ferides</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q59, 'C')">
+            <b>C)</b> <span>L&#039;activa ajuda a prevenir i evitar l&#039;accident; la passiva protegeix els ocupants quan ja s&#039;ha produït</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q59, 'D')">
+            <b>D)</b> <span>L&#039;activa correspon al xassís i la passiva al sistema de frens</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q59">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) L&#039;activa ajuda a prevenir i evitar l&#039;accident; la passiva protegeix els ocupants quan ja s&#039;ha produït</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La seguretat activa inclou elements per a prevenir accidents (fres, ABS, direcció), i la passiva minimitza les lesions un cop ocorre l&#039;impacte (airbag, cinturons, xassís). «seguretat activa, que engloba tots els elements que ajuden a prevenir i evitar l’accident i en seguretat passiva...»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T19 - Vehicles de bombers (73 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 15</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 16</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 17</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 18</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 19</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 20</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 21</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 22</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 23</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 24</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 25</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 26</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 27</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 28</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 29</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 30</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 31</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 32</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 33</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 34</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 35</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 36</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 37</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 38</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 39</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 40</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 41</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 42</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 43</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 44</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 45</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 46</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 47</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 48</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 49</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 50</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 51</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 52</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 53</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 54</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 55</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 56</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 57</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 58</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 59</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 60</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 61</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 62</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 63</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 64</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 65</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 66</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 67</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 68</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 69</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 70</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 71</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 72</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 73</span>
+        <b>C</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. La bugia és un element característic dels motors:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Otto</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Respecte els sistemes de distribució d&#039;un motor, és cert que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El sistema OHV disposa del cigonyal més proper a l&#039;arbre de lleves<br>&bull; <b>Explicació:</b> En el sistema DOHC l&#039;arbre de lleves es disposa sobre la culata, i en té dos.
+Els sistemes OHC i DOHC són els més usats en l&#039;actualitat.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. La transmissió de gir des del cigonyal a l&#039;arbre de lleves és de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 2 a 1<br>&bull; <b>Explicació:</b> Això farà que el pinyó de l&#039;arbre de lleves hagi de tenir el doble de dents que el del cigonyal.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Respecte el motor Wankel, podriem dir que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Totes són correctes<br>&bull; <b>Explicació:</b> En els motors alternatius (pràcticament tots), un pistó es desplaça per un cilindre amb un moviment lineal alternatiu que
+es transforma en rotatiu a través del mecanisme biela-manovella.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. En un sistema OHC, a través del taquet s&#039;acciona:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> La vàlvula<br>&bull; <b>Explicació:</b> En un sistema OHV el taquet opera sobre la vareta empenyedora.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. En un motor de gasolina d&#039;injecció indirecta de quatre temps, durant el temps d&#039;admissió:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Aspira la mescla d&#039;aire i gasolina<br>&bull; <b>Explicació:</b> El motor dièsel, en el temps d&#039;admissió aspira només aire.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Com anomenem al conjunt d&#039;òrgans mecànics que regulen l&#039;entrada i la sortida de gasos dels cilindres d&#039;un vehicle?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El sistema de distribució<br>&bull; <b>Explicació:</b> El sistema de distribució ha d&#039;estar perfectament sincronitzat amb el moviment del tren alternatiu (pistó, biela i cigonyal).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. La cilindrada unitària és una característica important del motor. Normalment s&#039;expressa en...</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Centímetres cúbics (cm³)<br>&bull; <b>Explicació:</b> La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Quina de les afirmacions respecte el sistema de distribució és falsa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El sistema OHC porta l&#039;arbre de lleves al bloc<br>&bull; <b>Explicació:</b> El sistema OHC, igual que el DOHC, porta l&#039;arbre de lleves a la culata.
+El sistema OHV porta l&#039;arbre de lleves al bloc.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. El ____ és una vàlvula tèrmica i el ____ és un interruptor bimetall.</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Termòstat/termocontacte<br>&bull; <b>Explicació:</b> L&#039;electroventilador el formen el motor elèctric, un relé i el termocontacte.
+La funció d&#039;un manocontacte és obrir o tancar un circuit elèctric en funció de si hi ha oli o no n&#039;hi ha, en aquest últim cas
+tancant-lo i avisant-nos mitjançant un indicador lluminós.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. En un motor de quatre cilindres en línia, amb ordre d&#039;encesa 1-3-4-2, en quin estat es trobarà el cilindre 1 en el moment en que el cilindre 4 es trobi en escapament?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Compressió<br>&bull; <b>Explicació:</b> Ordre d&#039;encesa: 1-3-4-2.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. En un sistema OHV, el taqué actua sobre:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La vareta empenyedora<br>&bull; <b>Explicació:</b> Aquesta vareta actuarà sobre el balancí, que actuarà sobre la vàlvula.
+En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. En quin tipus de motors hi trobarem un pistó que es desplaça per un cilindre amb un moviment lineal alternatiu que es transforma en rotatiu a través d&#039;un mecanisme biela-manovella?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> En els motors alternatius<br>&bull; <b>Explicació:</b> És el sistema més utilitzat en l&#039;automoció.
+En els motors rotatius o Wankel el moviment rotatiu es genera directament en un pistó de secció triangular, que gira dins
+d&#039;una carcassa on forma 3 cambres.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Entre quines peces se situa, generalment, el col·lector d&#039;admissió d&#039;un motor dièsel?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Entre el filtre d&#039;aire i la culata</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 15. Són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l’arbre de lleves i, per l’altre, el transmeten a la vàlvula. Parlem de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Els balancins</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 16. Quin dels següents elements no es refereix a una part del cigonyal?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> El canell</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 17. Els elements que constitueixen el motor es podrien dividir en elements fixos i elements mòbils. Quin dels següents no formarà part dels elements mòbils?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El càrter<br>&bull; <b>Explicació:</b> Elements fixos: bloc, culata, càrter.
+Elements mòbils: biela, pistons, cigonyal, volant d&#039;inèrcia.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 18. Quins elements trobarem a un costat i a l&#039;altre del cigonyal?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En un costat hi trobarem el pinyó de la distribució, i a l&#039;altre el volant d&#039;inèrcia<br>&bull; <b>Explicació:</b> Per evitar la sortida de lubricant a l&#039;exterior del motor, en els dos extrems se situen uns retenidors.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 19. On es disposen les vàlvules en un motor OHV?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> A la culata<br>&bull; <b>Explicació:</b> OHV = Overhead valve. Disposa de les vàlvules a la culata i de l&#039;arbre de lleves al bloc del motor.
+En els sistemes OHC i DOHC és l&#039;arbre de lleves el que es disposa a la culata.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 20. Quin element de la biela constitueix la unió amb el pistó a través del buló?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El peu<br>&bull; <b>Explicació:</b> El cap de la biela, en canvi, anirà unit al cigonyal.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 21. En un motor de gasolina d&#039;injecció directa de quatre temps, a l&#039;inici del temps d&#039;admissió:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Aspira només aire<br>&bull; <b>Explicació:</b> Igual que en el motor Dièsel.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 22. L&#039;arbre de lleves és un element del sistema de distribució d&#039;un vehicle que rep el moviment del cigonyal i determina l&#039;angle d&#039;obertura i tancament de les vàlvules. També podem dir que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Totes les respostes són correctes</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 23. El motor de quatre temps és un tipus de motor d&#039;explosió. Quantes voltes completes del cigonyal requereix per tal de completar el cicle termodinàmic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Dues<br>&bull; <b>Explicació:</b> Per cada dues voltes que dóna el cigonyal, l&#039;arbre de lleves en dóna una.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 24. Sobre les vàlvules del sistema de distribució d&#039;un vehicle podem dir que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Estan constituïdes per un cap i una tija<br>&bull; <b>Explicació:</b> El motor de quatre vàlvules per cilindre (dues d&#039;admissió i dues d&#039;escapament) és el més habitual.
+L&#039;encarregat de governar el sistema de distribució és l&#039;arbre de lleves.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 25. Si seguim la cadena de moviment del sistema de distribució d&#039;un vehicle OHV, quin element trobarem entre l&#039;arbre de lleves i la vàlvula?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El balancí<br>&bull; <b>Explicació:</b> Els balancins són palanques muntades en un eix sobre el qual pivoten i que, per un extrem, reben el moviment de l&#039;arbre
+de lleves i, per l&#039;altre, el transmeten a la vàlvula.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 26. En un motor de quatre temps, durant el temps d&#039;admissió l&#039;arbre de lleves dóna:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 90°<br>&bull; <b>Explicació:</b> El cigonyal dóna 180° (relació 1 a 2).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 27. És un tipus de motor on el bloc de cilindres gira al voltant del cigonyal:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Motor rotatiu</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 28. En el comandament de la distribució en un vehicle, la transmissió de gir des del cigonyal a l&#039;arbre de lleves s&#039;ha de fer sempre amb una relació de transmissió de 2 a 1. Això vol dir que el pinyó de l&#039;arbre de lleves tindrà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El doble de dents que el del cigonyal<br>&bull; <b>Explicació:</b> Ja que per 2 voltes que fa el cigonyal, l&#039;arbre de lleves en fa una.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 29. Com anomenem a la longitud entre el punt mort inferior (PMI) i el superior (PMS) d&#039;un cilindre?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Carrera<br>&bull; <b>Explicació:</b> El calibre, en canvi, és el diàmetre interior del cilindre.
+La cilindrada fa referència a volums, no a longitud.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 30. De forma general, quin serà el nombre de suports del cigonyal?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El número de cilindres més un</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 31. Quina de les següents configuracions del motor tindrà un cigonyal més llarg?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El motor en línia<br>&bull; <b>Explicació:</b> El motor en W tindrà el cigonyal més curt.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 32. Quina és la funció de l&#039;intercooler en un motor turboalimentat?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Refrigerar l&#039;aire d&#039;admissió per augmentar-ne la seva densitat<br>&bull; <b>Explicació:</b> Aquest element no és més que un radiador aire-aire o aire-aigua que té la funció de reduir la temperatura de l&#039;aire que
+prové del compressor del turbo fins a uns nivells òptims.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 33. Quina peça s&#039;encarrega de realitzar la funció d&#039;unió entre l&#039;arbre de transmissió i l&#039;eix secundari?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> La junta de Cardan<br>&bull; <b>Explicació:</b> La junta cardan s&#039;encarrega de transmetre el moviment giratori del cigonyal fins les rodes motrius. També s&#039;anomena
+junta universal.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 34. Quantes voltes farà el cigonyal per cada volta de l&#039;arbre de lleves en un motor de quatre temps?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Dues voltes<br>&bull; <b>Explicació:</b> Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 35. Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> ECU<br>&bull; <b>Explicació:</b> ECU = Engine Control Unit.
+Recorda que el sistema de gestió i la unitat de control formen part dels components principals del sistema del vehicle
+híbrid i el sistema del vehicle elèctric, respectivament.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 36. L&#039;índex d&#039;octà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Pot ser major de 100, en el cas d&#039;alguns combustibles<br>&bull; <b>Explicació:</b> L&#039;índex d&#039;octà és una mesura que indica la resistència a la detonació del carburant quan es comprimeix dins del cilindre
+d&#039;un motor.
+Com més índex d&#039;octà, més capacitat d&#039;antidetonació de la gasolina.
+Una benzina sense plom de 95 tindrà 95 octans, i una de 98, 98 octans.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 37. Quin tipus de projeccions es basen o s&#039;inspiren en la projecció directa del globus sobre una superfície ja plana?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Les projeccions azimutals<br>&bull; <b>Explicació:</b> ICGC: Les projeccions cilíndriques i còniques es basen o s&#039;inspiren en l&#039;estratègia de projectar la superfície del globus
+sobre un cilindre o un con, respectivament, que posteriorment seran tallats per una generatriu i desenrotllats plans; per
+aquest motiu se les anomena, de vegades, projeccions desenrotllables. Les projeccions azimutals, en canvi, es basen o
+s&#039;inspiren en la projecció directa del globus sobre una superfície ja plana.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 38. Quin element d&#039;un vehicle pertany al sistema de seguretat activa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Els pneumàtics<br>&bull; <b>Explicació:</b> La resta pertanyen a la seguretat passiva.
+Exemples d&#039;elements del sistema de seguretat activa: frens, direcció, suspensió, il·luminació, ESP.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 39. Durant el temps d&#039;explosió d&#039;un motor de quatre temps l&#039;arbre de lleves dóna:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 90°<br>&bull; <b>Explicació:</b> El cigonyal dóna 180° (relació 1 a 2).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 40. Els motors síncrons i asíncrons són tipologies de motor elèctric. Què els diferencia?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> En el motor síncron el rotor i el camp magnètic giren a la mateixa velocitat, mentre que en el motor asíncron el camp magnètic sempre va uns graus per davant del rotor<br>&bull; <b>Explicació:</b> Ull! Motor d&#039;inducció = motor asíncron.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 41. Quin nom rep el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El control de tracció<br>&bull; <b>Explicació:</b> Control d&#039;estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.
+Sistema de suspensió activa: s&#039;encarrega de gestionar i controlar de forma independent l&#039;amortiguació de cadascuna de
+les rodes.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 42. Com s&#039;anomena la tipologia de bomba que utilitza un pistó en moviment dins d&#039;un cilindre?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Bomba d&#039;èmbol<br>&bull; <b>Explicació:</b> Les bombes d&#039;èmbol també s&#039;anomenen bombes de pistó. Poden ser d&#039;efecte simple o de doble efecte. No necessiten
+ser encebades.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 43. A quin tipus de motor trobarem el rotor de gàbia d&#039;esquirol?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Al motor elèctric asíncron de corrent altern<br>&bull; <b>Explicació:</b> Motor asíncron = motor d&#039;inducció.
+Un rotor de gàbia d&#039;esquirol és bàsicament un cilindre muntat en un eix, on el seu anell és conductor, i prenent la forma
+de la roda pels hàmsters.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 44. En el sistema de distribució OHC:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> L&#039;arbre de lleves es troba a sobre de la culata<br>&bull; <b>Explicació:</b> És en el sistema OHV que l&#039;arbre de lleves es troba al bloc motor.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 45. Durant el temps d&#039;admissió, al cilindre d&#039;un motor dièsel de quatre temps...</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Hi entrarà aire, únicament<br>&bull; <b>Explicació:</b> En el motor de gasolina de 4 temps, en canvi, hi entraria una barreja d&#039;aire i benzina.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 46. En un motor de quatre temps, quantes voltes farà el cigonyal per cada volta de l&#039;arbre de lleves?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Dues voltes<br>&bull; <b>Explicació:</b> Això és degut a què el pistó, per a realitzar un cicle complet, puja i baixa dues vegades.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 47. Amb quina unitat s&#039;expressa normalment la cilindrada unitària del motor?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En centímetres cúbics (cm³)<br>&bull; <b>Explicació:</b> La cilindrada unitària és el volum que ocupa un cilindre entre el PMS i el PMI.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 48. En un sistema OHV el taquet opera sobre:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> La vareta empenyedora<br>&bull; <b>Explicació:</b> En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 49. En un motor elèctric, el rotor:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> És la part mòbil del motor<br>&bull; <b>Explicació:</b> El rotor té un diàmetre menor que l&#039;estator, ja que es troba encabit dins l&#039;estator.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 50. Quina relació de revolucions tenen el cigonyal i l&#039;arbre de lleves en un motor de quatre temps?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> De 2 a 1<br>&bull; <b>Explicació:</b> Per això, la quantitat de dents de la corona de l&#039;arbre de lleves és el doble que la del pinyó del cigonyal. Aquest procés el
+coneixem com a desmultiplicació.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 51. Quin dels següents elements d&#039;un motor tèrmic és mòbil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El volant d&#039;inèrcia<br>&bull; <b>Explicació:</b> El pistó, la biela o el cigonyal també serien exemples d&#039;elements mòbils.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 52. De quants conductes o llumeneres disposa el cilindre d&#039;un motor de dos temps?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Tres; una d&#039;escapament, una de càrrega i una d&#039;admissió<br>&bull; <b>Explicació:</b> El cilindre té tres conductes o llumeneres:
+- D&#039;escapament
+- De càrrega
+- D&#039;admissió
+La llumenera d&#039;escapament i la llumenera de càrrega es localitzen, enfrontades, a prop del PMI. Durant el moviment del
+pistó entre el PMS i el PMI aquestes llumeneres són descobertes i cobertes per aquest pistó. La llumenera d&#039;escapament
+està col·locada en una posició més elevada que la llumenera de càrrega, de manera que el pistó descobrirà primer la
+lumbrera d&#039;escapament.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 53. Què aspira durant el temps d&#039;admissió un motor de gasolina d&#039;injecció indirecta de quatre temps?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Una mescla d&#039;aire i gasolina<br>&bull; <b>Explicació:</b> El motor dièsel, en el temps d&#039;admissió aspira només aire.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 54. Què s&#039;entén per una autobomba?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> És un vehicle automòbil equipat de bomba accionada pel motor</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 55. Sobre quin element opera el taquet en un sistema OHV?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Sobre la vareta empenyedora<br>&bull; <b>Explicació:</b> En un sistema OHC, a través del taquet s&#039;acciona la vàlvula.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 56. Quina part del motor controla el temps i la seqüència d&#039;obertura de les vàlvules d&#039;admissió i escapament?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> L&#039;arbres de lleves<br>&bull; <b>Explicació:</b> L&#039;arbre de lleves es mou sincronitzat amb el cigonyal i està accionat per la cadena de distribució o per la corretja de
+distribució, depenent del disseny del motor.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 57. Què és el calibre d&#039;un cilindre?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El diàmetre interior del cilindre expressat en mil·límetres</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 58. És una regió al tronc o a les arrels que conté els teixits conductors d&#039;una planta, com ara el xilema i el floema:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El cilindre vascular<br>&bull; <b>Explicació:</b> El xilema transporta aigua i nutrients des de les arrels cap a les altres parts de la planta, mentre que el floema transporta
+els nutrients fotosintetitzats des de les fulles cap a les altres parts de la planta. Aquest cilindre vascular és essencial per
+al suport estructural i el transport eficient de substàncies en les plantes.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 59. En un vehicle de transmissió automàtica, on estarà integrat el volant bimassa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Al convertidor de parell<br>&bull; <b>Explicació:</b> El volant bimassa està integrat a l&#039;embragatge, o bé al convertidor de parell, en funció de si es tracta d&#039;un vehicle amb
+transmissió manual o automàtica.
+En el seu perímetre s&#039;instal·la la corona dentada on engrana el pinyó del motor d&#039;arrencada, va fixat d&#039;una banda a la
+sortida del cigonyal i per l&#039;altre costat, al disc de embragatge.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 60. Durant el temps d&#039;explosió d&#039;un motor de quatre temps el cigonyal dóna:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 180°<br>&bull; <b>Explicació:</b> L&#039;arbre de lleves dóna 90° (relació 1 a 2 amb el cigonyal).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 61. En la realització d&#039;un esgotament amb autobomba i obviant les pèrdues de càrrega, quin valor ens hauria d&#039;indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> -0,4 bar</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 62. Quin dispositiu s&#039;utilitza per protegir un motor elèctric de sobrecàrregues?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Un relé tèrmic<br>&bull; <b>Explicació:</b> Es tracta d&#039;un dispositiu electromecànic, dissenyat per protegir els motors elèctrics de sobrecàrregues o escalfaments.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 63. Quin d&#039;aquests elements NO forma part del grup de distribució en un motor?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> El termòstat<br>&bull; <b>Explicació:</b> L&#039;arbre de lleves també formaria part del grup de distribució.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 64. Quines són les peces entre les quals es troba, normalment, el col·lector d&#039;admissió d&#039;un motor dièsel?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Entre el filtre d&#039;aire i la culata</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 65. Com s&#039;anomena el sistema que treballa perquè els pneumàtics de les rodes motrius es mantinguin en contacte amb la calçada sense patinar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El control de tracció<br>&bull; <b>Explicació:</b> Control d&#039;estabilitat (ESP): tracta de mantenir el cotxe en la trajectòria correcta. Actua comparant angles.
+Sistema de suspensió activa: s&#039;encarrega de gestionar i controlar de forma independent l&#039;amortiguació de cadascuna de
+les rodes.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 66. Quina capacitat d&#039;aigua té una Bomba Urbana Pesada (BUP)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 3.000 – 4.000 litres<br>&bull; <b>Explicació:</b> BUL - Bomba urbana lleugera: 1.000 – 1.650 litres.
+BUP - Bomba urbana pesada: 3.000 – 4.000 litres.
+BRP - Bomba rural pesada: 3.000 – 4.000 litres.
+BNP - Bomba nodrissa pesada: 7.000 – 10.000 litres.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 67. Quin angle d&#039;atac presenta aproximadament la BUL?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> 15°</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 68. Quina és l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La Bomba Rural Pesada (BRP)<br>&bull; <b>Explicació:</b> Bomba Rural Pesada (BRP).
+Descripció: Vehicle polivalent dissenyat per a actuacions en tot tipus d’entorns, urbans, rurals i forestals, especialment
+adaptat a terrenys difícils. És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 69. Una dotació crida la sala i rep com a resposta &quot;Esperi Papa 10.40&quot;. Què ha de fer la dotació?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Canviar al mode directe per no ocupar el canal de xarxa<br>&bull; <b>Explicació:</b> L&#039;ambulància de tipus B, de suport vital bàsic, va dotada de 2 tècnics en emergències sanitàries. La combinació de tècnic
+i infermer/a correspon al tipus C (suport vital avançat), i la de tècnic i metge/ssa al vehicle d&#039;intervenció ràpida.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 70. Quin dispositiu o mecanisme d&#039;un vehicle serveix per evitar el bloqueig de les rodes durant una frenada d&#039;emergència?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> ABS (Anti-lock Braking System)<br>&bull; <b>Explicació:</b> L&#039;ABS evita el bloqueig dels pneumàtics permetent mantenir la capacitat de direcció del vehicle durant la frenada.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 71. Quin mecanisme utilitza un motor dièsel per ignitionar la barreges d&#039;aire i combustible?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> L&#039;alta pressió i temperatura aconseguides per la compressió de l&#039;aire en el cilindre (autoencesa)<br>&bull; <b>Explicació:</b> Els motors de cicle Dièsel provoquen l&#039;autoencesa del gasoil al ser injectat en l&#039;aire escalfat per alta compressió.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 72. Quina és la velocitat màxima permesa per a un vehicle d&#039;emergència quan circula en servei d&#039;urgència amb senyals lluminoses i acústiques activades?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Pot superar els límits de velocitat establerts sempre que prioritzi la seguretat i no posi en perill la resta d&#039;usuaris<br>&bull; <b>Explicació:</b> Els vehicles prioritaris en servei d&#039;urgència estan exempts de complir els límits de velocitat sota la responsabilitat del conductor.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 73. Com distingeix el manual la seguretat activa de la passiva d&#039;un vehicle?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> L&#039;activa ajuda a prevenir i evitar l&#039;accident; la passiva protegeix els ocupants quan ja s&#039;ha produït<br>&bull; <b>Explicació:</b> La seguretat activa inclou elements per a prevenir accidents (fres, ABS, direcció), i la passiva minimitza les lesions un cop ocorre l&#039;impacte (airbag, cinturons, xassís). «seguretat activa, que engloba tots els elements que ajuden a prevenir i evitar l’accident i en seguretat passiva...»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

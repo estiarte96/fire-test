@@ -1,51 +1,27 @@
 [
   {
-    "id": "academia_sim8_q93",
-    "simulacre": "Simulacre 8",
-    "num_pregunta": 93,
-    "statement": "És el quadre que recull tota la simbologia utilitzada per a representar els elements del territori en elmapa: ",
-    "correct": "C",
-    "explanation": "La toponímia és la informació que fareferència alnom delsllocs ies retolaamb tipografiadiferent segons es tracti\nd'accidents delrelleu ihidrografiao de noms vinculatsal poblament o a l'activitathumana.\n acadèmia",
+    "id": "academia_sim48_q38",
+    "statement": "A més de la llengua oficial de l’Estat espanyol, són oficials també les altres llengües espanyoles?",
+    "correct": "D",
+    "explanation": "Article 3 - CE:\n1. El castellà és la llengua espanyola oficial de l’Estat. Tots els espanyols tenen el deure de conèixer-la i el dret d’usar-la.\n2. Les altres llengües espanyoles seran també oficials en les respectives Comunitats Autònomes d’acord amb els seus\nEstatuts.\n3. La riquesa de les diferents modalitats lingüístiques d’Espanya és un patrimoni cultural que serà objecte d’especial\nrespecte i protecció.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
-    "section": "Simulacre 8",
+    "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El caixetí",
-      "B": "La toponímia",
-      "C": "La llegenda",
-      "D": "L'escala"
-    }
-  },
-  {
-    "id": "academia_sim54_q34",
-    "simulacre": "Simulacre 54",
-    "num_pregunta": 34,
-    "statement": "La toponímia:",
-    "correct": "A",
-    "explanation": "La toponímia és lainformació que fa referència alnom dels llocs ies retola amb tipografiadiferent segons es tracti\nd'accidents del relleu ihidrografia o de noms vinculats al poblament o a l'activitathumana. En aquesta darrera situació la\ngrandària del cos tipogràfic dónabombersunainformacióaddicional jaque com més habitants téun nucli urbà, més gran és el cos\nde lletraemprat.\n\n35.- www.academiabombers.com\nPer exemple un oliSAE 10W 50 ens diu que a -18º es comporta com un SAE 10, ique a 99º ho fa com un SAE 50.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T07 - Política lingüística",
-    "section": "Simulacre 54",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Juga amb lagrandària del cos tipogràfic",
-      "B": "És la informació que fareferència exclusivament alnom dels noms vinculats alpoblament o a l'activitathumana",
-      "C": "És la informació que fa referència exclusivament a lahidrografia",
-      "D": "És la informació que fa referència exclusivament alnom dels accidents del relleu"
+      "A": "No, tenen la consideració de dialectes",
+      "B": "Sí, a tot el territori espanyol",
+      "C": "Sí, als respectius territoris històrics i d’acord amb els seus Estatuts",
+      "D": "Sí, a les respectives Comunitats Autònomes"
     }
   },
   {
     "id": "academia_sim95_q56",
-    "simulacre": "Simulacre 95",
-    "num_pregunta": 56,
     "statement": "Quants departaments té el Govern de la Generalitat de Catalunya (2025-act)?",
     "correct": "C",
-    "explanation": "Decret 133/2024, d'11 d'agost, de creació, denominació ideterminació de l'àmbit de competència dels departaments en\nquè s'organitza el Govern il'Administració de la Generalitat de Catalunya.\n\nArticle2. Organització de l'Administració de la Generalitat.\n\n2.1 L'Administració de la Generalitat queda organitzada en els departaments següents:\n\nDepartament de la Presidència.\nDepartament d'Economia iFinances.\nDepartament d'Interior iSeguretat Pública.\nDepartament de Justícia i Qualitat Democràtica.\nDepartament de Territori,Habitatge i Transició Ecològica.\nDepartament de Salut.\nDepartament d'Educació iFormació Professional.\nDepartament de Drets Socials iInclusió.\nDepartament d'Empresa i Treball.\nDepartament d'Igualtat iFeminisme.\nDepartament d'Unió Europea iAcció Exterior.\nDepartament de Recerca i Universitats.\nDepartament d'Agricultura, Ramaderia, Pesca i Alimentació.\nDepartament d'Esports.\nDepartament de Cultura.\nDepartament de Política Lingüística.",
+    "explanation": "Decret 133/2024, d'11 d'agost, de creació, denominació i determinació de l'àmbit de competència dels departaments en\nquè s'organitza el Govern i l'Administració de la Generalitat de Catalunya.\nArticle 2. Organització de l'Administració de la Generalitat.\n2.1 L'Administració de la Generalitat queda organitzada en els departaments següents:\nDepartament de la Presidència.\nDepartament d'Economia i Finances.\nDepartament d'Interior i Seguretat Pública.\nDepartament de Justícia i Qualitat Democràtica.\nDepartament de Territori, Habitatge i Transició Ecològica.\nDepartament de Salut.\nDepartament d'Educació i Formació Professional.\nDepartament de Drets Socials i Inclusió.\nDepartament d'Empresa i Treball.\nDepartament d'Igualtat i Feminisme.\nDepartament d'Unió Europea i Acció Exterior.\nDepartament de Recerca i Universitats.\nDepartament d'Agricultura, Ramaderia, Pesca i Alimentació.\nDepartament d'Esports.\nDepartament de Cultura.\nDepartament de Política Lingüística.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
@@ -61,11 +37,9 @@
   },
   {
     "id": "academia_sim112_q57",
-    "simulacre": "Simulacre 112",
-    "num_pregunta": 57,
-    "statement": "Quants departaments integrenwww.academiabombers.coml'AdministraciódelaGeneralitat?",
+    "statement": "Quants departaments integren l'Administració de la Generalitat?",
     "correct": "A",
-    "explanation": "Decret 133/2024, d'11 d'agost, de creació, denominació i determinació de l'àmbit de competència dels departaments en\nquè s'organitza el Govern i l'Administració de la Generalitat de Catalunya.\n\nNous Departaments:\n\n-Departament de Política Lingüística.\n-Departament d'Esports.",
+    "explanation": "Decret 133/2024, d'11 d'agost, de creació, denominació i determinació de l'àmbit de competència dels departaments en\nquè s'organitza el Govern i l'Administració de la Generalitat de Catalunya.\nNous Departaments:\n- Departament de Política Lingüística.\n- Departament d'Esports.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
@@ -81,11 +55,9 @@
   },
   {
     "id": "academia_sim125_q66",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 66,
     "statement": "Segons l'article 10.2 de la Llei 1/1998, què ha de lliurar l'Administració a les persones interessades que ho sol·licitin?",
     "correct": "C",
-    "explanation": "Article 10. Els procediments administratius.\n\n2.L'Administració ha de lliurara les persones interessades que ho sol·licitin,en la llengua oficial demanada, una\ntestimoniança traduïda d'allò que els afecta. La sol·licitud de traducció no pot comportar cap perjudici o despesa al\nsol·licitantni retards en elprocediment ni suspendre'n la tramitació iels terminis establerts.",
+    "explanation": "Article 10. Els procediments administratius.\n2. L'Administració ha de lliurar a les persones interessades que ho sol·licitin, en la llengua oficial demanada, una\ntestimoniança traduïda d'allò que els afecta. La sol·licitud de traducció no pot comportar cap perjudici o despesa al\nsol·licitant ni retards en el procediment ni suspendre'n la tramitació i els terminis establerts.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
@@ -93,19 +65,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una traducció oficialde ladocumentació administrativa que els siguid'interès",
-      "B": "Una certificaciótraduïda de l'expedient administratiu en la llengua oficialsol·licitada",
-      "C": "Una testimoniança traduïda d'allò que elsafecta, en lallengua oficialdemanada",
-      "D": "Una còpia traduïda de totel procediment administratiu en lallengua oficialdemanada"
+      "A": "Una traducció oficial de la documentació administrativa que els sigui d'interès",
+      "B": "Una certificació traduïda de l'expedient administratiu en la llengua oficial sol·licitada",
+      "C": "Una testimoniança traduïda d'allò que els afecta, en la llengua oficial demanada",
+      "D": "Una còpia traduïda de tot el procediment administratiu en la llengua oficial demanada"
     }
   },
   {
     "id": "academia_sim125_q74",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 74,
     "statement": "Segons l'article 15 de la Llei 1/1998, la llengua és un requisit de forma dels documents privats?",
     "correct": "D",
-    "explanation": "Article 15. Els documents civils imercantils\n\n1.La llengua no és requisit de forma dels documents privats. Per tant, són vàlids els redactats en qualsevol idioma, sens\nperjudici de les traduccions que les lleiscivils, mercantils o processals exigeixin per a executar-los, en el cas que l'idioma\nno sigui oficial a Catalunya.",
+    "explanation": "Article 15. Els documents civils i mercantils\n1. La llengua no és requisit de forma dels documents privats. Per tant, són vàlids els redactats en qualsevol idioma, sens\nperjudici de les traduccions que les lleis civils, mercantils o processals exigeixin per a executar-los, en el cas que l'idioma\nno sigui oficial a Catalunya.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
@@ -113,19 +83,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sí,sempre que tinguin efectes davant l'Administració",
-      "B": "Sí,quan es redactin en una llengua oficialde Catalunya",
+      "A": "Sí, sempre que tinguin efectes davant l'Administració",
+      "B": "Sí, quan es redactin en una llengua oficial de Catalunya",
       "C": "Només en els documents de caràcter mercantil",
       "D": "No"
     }
   },
   {
     "id": "academia_sim128_q14",
-    "simulacre": "Simulacre 128",
-    "num_pregunta": 14,
     "statement": "D'acord amb l'article 6 de la Llei 1/1998, de 7 de gener, quina és l'autoritat lingüística?",
     "correct": "A",
-    "explanation": "Article 6. La unitat de la llengua catalana.\n\n1.La llengua catalana és un patrimoni que Catalunya comparteix amb altres territorisamb els quals constitueix una\nmateixa comunitat lingüística. La Generalitat ha de vetllarper la protecció de la unitat del català iha de fomentar l'ús ila\nprojecció exterior del català i la comunicació entre els diferents territorisde parla catalana.\n\n2.D'acord amb la legislació vigent, correspon a l'Institutd'Estudis Catalans l'autoritatlingüística.",
+    "explanation": "Article 6. La unitat de la llengua catalana.\n1. La llengua catalana és un patrimoni que Catalunya comparteix amb altres territoris amb els quals constitueix una\nmateixa comunitat lingüística. La Generalitat ha de vetllar per la protecció de la unitat del català i ha de fomentar l'ús i la\nprojecció exterior del català i la comunicació entre els diferents territoris de parla catalana.\n2. D'acord amb la legislació vigent, correspon a l'Institut d'Estudis Catalans l'autoritat lingüística.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T07 - Política lingüística",
@@ -133,10 +101,10 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'Institutd'Estudis Catalans",
+      "A": "L'Institut d'Estudis Catalans",
       "B": "El Consorci per a la Normalització Lingüística",
       "C": "La Generalitat",
-      "D": "El professorat dels centres docents dewww.academiabombers.comCatalunya"
+      "D": "El professorat dels centres docents de Catalunya"
     }
   }
 ]

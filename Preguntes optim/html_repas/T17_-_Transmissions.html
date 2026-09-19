@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T17 - Transmissions - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T17 - Transmissions</h1>
+      </div>
+      <p>32 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim3_q56" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 1 de 32 • ID: academia_sim3_q56</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim3_q56)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. Quina freqüència nominal obligatòria s&#039;estableix per a les xarxes elèctriques?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim3_q56, 'A')">
+            <b>A)</b> <span>60 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim3_q56, 'B')">
+            <b>B)</b> <span>50 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim3_q56, 'C')">
+            <b>C)</b> <span>100 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim3_q56, 'D')">
+            <b>D)</b> <span>400 Hz  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim3_q56">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) 50 Hz</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim7_q81" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 2 de 32 • ID: academia_sim7_q81</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim7_q81)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Parlarem de bradicàrdia quan la freqüència cardíaca:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim7_q81, 'A')">
+            <b>A)</b> <span>Es trobi aproximadament per sota de 50 pulsacions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim7_q81, 'B')">
+            <b>B)</b> <span>Es trobi aproximadament per sota de 30 pulsacions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim7_q81, 'C')">
+            <b>C)</b> <span>Oscil·li entre les 30 i les 70 pulsacions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim7_q81, 'D')">
+            <b>D)</b> <span>Es trobi per sota les 15-20 pulsacions per minut</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim7_q81">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Es trobi aproximadament per sota de 50 pulsacions per minut</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Taquicàrdia: més de 100 ppm.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q10" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 3 de 32 • ID: academia_sim9_q10</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q10)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Si la freqüència respiratòria d&#039;una víctima és de 13 respiracions per minut, es troba en:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q10, 'A')">
+            <b>A)</b> <span>Bradipnea</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q10, 'B')">
+            <b>B)</b> <span>Eupnea</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q10, 'C')">
+            <b>C)</b> <span>Apnea</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q10, 'D')">
+            <b>D)</b> <span>Taquipnea</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q10">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Eupnea</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm
+Eupnea (respiració normal): 12-20 rpm
+Taquipnea: &gt; 20 rpm
+Apnea: no respira</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim10_q92" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 4 de 32 • ID: academia_sim10_q92</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim10_q92)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. En electricitat, respecte el &quot;període&quot; podem dir que:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim10_q92, 'A')">
+            <b>A)</b> <span>És el temps que s&#039;inverteix en fer un cicle complert (una volta del generador)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim10_q92, 'B')">
+            <b>B)</b> <span>La seva unitat de mesura és el segon</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim10_q92, 'C')">
+            <b>C)</b> <span>Multiplicat per la freqüència, ens dóna un valor resultant de &quot;1&quot;</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim10_q92, 'D')">
+            <b>D)</b> <span>Totes les respostes són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim10_q92">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Totes les respostes són correctes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La unitat de mesura internacional de la freqüència, en canvi, és el Hertz (Hz).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 5 de 32 • ID: academia_sim12_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. Durant la realització del suport vital bàsic pediàtric, haurem d&#039;anar valorant l&#039;existència de signes de vida, on no hi haurem de dedicar...</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q13, 'A')">
+            <b>A)</b> <span>Més de 15 segons</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q13, 'B')">
+            <b>B)</b> <span>Més de 20 segons</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q13, 'C')">
+            <b>C)</b> <span>Més de 10 segons</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q13, 'D')">
+            <b>D)</b> <span>Més de 5 segons</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Més de 10 segons</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En presència de signes de vida seguirem ventilant, i si recupera la respiració tornarem a considerar la PLS i revaloració
+constant. En cas contrari iniciarem compressions toràciques a una freqüència de 100-120 CT/min, alternes amb
+ventilacions en una relació de 15/2.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim18_q12" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 32 • ID: academia_sim18_q12</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim18_q12)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Amb quina freqüència s&#039;efectuaran les compressions toràciques en les maniobres de reanimació cardiopulmonar (RCP)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim18_q12, 'A')">
+            <b>A)</b> <span>Amb una freqüència d&#039;unes 30 compressions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim18_q12, 'B')">
+            <b>B)</b> <span>Amb una freqüència d&#039;unes 60 compressions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim18_q12, 'C')">
+            <b>C)</b> <span>Amb una freqüència d&#039;unes 60-90 compressions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim18_q12, 'D')">
+            <b>D)</b> <span>Amb una freqüència d&#039;unes 100 compressions per minut</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim18_q12">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Amb una freqüència d&#039;unes 100 compressions per minut</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Cada 30 compressions, dues insuflacions.
+Segons l&#039;ERC la freqüència serà de 100-120 compressions per minut.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim19_q15" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 7 de 32 • ID: academia_sim19_q15</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim19_q15)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. Si volem mesurar la freqüència cardíaca perifèrica, acostumarem a realitzar la mesura sobre:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim19_q15, 'A')">
+            <b>A)</b> <span>L&#039;artèria radial</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim19_q15, 'B')">
+            <b>B)</b> <span>L&#039;artèria caròtida</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim19_q15, 'C')">
+            <b>C)</b> <span>L&#039;artèria femoral</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim19_q15, 'D')">
+            <b>D)</b> <span>L&#039;artèria humeral</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim19_q15">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) L&#039;artèria radial</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Pols central: carotidi o femoral.
+Pols perifèric: radial.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim23_q64" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 8 de 32 • ID: academia_sim23_q64</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim23_q64)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. Un pacient que presenti una freqüència respiratòria de 25 respiracions per minut:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim23_q64, 'A')">
+            <b>A)</b> <span>Es troba en una situació de normalitat o eupnea</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim23_q64, 'B')">
+            <b>B)</b> <span>Presenta una bradipnea</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim23_q64, 'C')">
+            <b>C)</b> <span>Es troba en una situació de normalitat o apnea</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim23_q64, 'D')">
+            <b>D)</b> <span>Presenta una taquipnea</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim23_q64">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Presenta una taquipnea</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm.
+Eupnea (respiració normal): 12-20 rpm.
+Taquipnea: &gt; 20 rpm.
+Apnea: no respira.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim25_q63" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 9 de 32 • ID: academia_sim25_q63</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim25_q63)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Davant d&#039;una víctima que pateix hipotèrmia accidental, les guies ERC recomanen:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim25_q63, 'A')">
+            <b>A)</b> <span>Adequar la freqüència de les compressions toràciques i ventilacions al succés, essent de 15:2 en pacients que pateixin un descens notable de la temperatura corporal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim25_q63, 'B')">
+            <b>B)</b> <span>Administrar adrenalina en cas de que la temperatura corporal de la víctima minvi per sota els 30ºC</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim25_q63, 'C')">
+            <b>C)</b> <span>Comprovar la presència de signes vitals durant un minut</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim25_q63, 'D')">
+            <b>D)</b> <span>Totes les respostes fan referència a recomanacions de les guies ERC  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim25_q63">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Comprovar la presència de signes vitals durant un minut</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La freqüència de les compressions toràciques i ventilacions no ha de ser diferent a l’RCP en pacients normotèrmics.
+No administrarem adrenalina si la temperatura corporal és &lt;30 ºC.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim30_q29" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 10 de 32 • ID: academia_sim30_q29</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim30_q29)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. Quina de les següents intensitats és més probable que provoqui la tetanització del múscul humà?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim30_q29, 'A')">
+            <b>A)</b> <span>10 mA</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim30_q29, 'B')">
+            <b>B)</b> <span>1 A</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim30_q29, 'C')">
+            <b>C)</b> <span>30 mA</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim30_q29, 'D')">
+            <b>D)</b> <span>5 A</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim30_q29">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 30 mA</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim32_q78" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 11 de 32 • ID: academia_sim32_q78</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim32_q78)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 11. D&#039;acord amb la classificació de les zones en funció de la freqüència d&#039;inundacions (període de retorn), les zones d&#039;inundació freqüent:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim32_q78, 'A')">
+            <b>A)</b> <span>Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim32_q78, 'B')">
+            <b>B)</b> <span>Són zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim32_q78, 'C')">
+            <b>C)</b> <span>Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim32_q78, 'D')">
+            <b>D)</b> <span>Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim32_q78">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Classificació de la zona en funció de la freqüència (període de retorn):
+- Zones d&#039;inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de
+cinquanta anys.
+- Zones d&#039;inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de
+cinquanta i superiorment per la línia de període de cent anys.
+- Zones d&#039;inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn
+de cent i superiorment per la línia de període de cinc-cents anys.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim35_q74" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 12 de 32 • ID: academia_sim35_q74</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim35_q74)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 12. La respiració agònica:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim35_q74, 'A')">
+            <b>A)</b> <span>No es pot considerar un signe d’aturada cardíaca</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim35_q74, 'B')">
+            <b>B)</b> <span>Sol ser el preludi d&#039;un quadre d&#039;eupnea, seguit d&#039;una aturada cardiorespiratòria</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim35_q74, 'C')">
+            <b>C)</b> <span>És una respiració lenta i feixuga</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim35_q74, 'D')">
+            <b>D)</b> <span>Totes les respostes són incorrectes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim35_q74">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) És una respiració lenta i feixuga</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La respiració agònica s’ha de considerar un signe d’aturada cardíaca.
+L&#039;eupnea fa referència a la freqüència respiratòria normal, en tot cas l&#039;apnea seria el preludi.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim36_q7" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 13 de 32 • ID: academia_sim36_q7</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim36_q7)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 13. En un moviment circular, quin nom rep el temps que tarda un element en fer una volta completa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim36_q7, 'A')">
+            <b>A)</b> <span>Període</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim36_q7, 'B')">
+            <b>B)</b> <span>Rotació</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim36_q7, 'C')">
+            <b>C)</b> <span>Cicle</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim36_q7, 'D')">
+            <b>D)</b> <span>Freqüència</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim36_q7">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Període</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Freqüència: nombre de cops que un element mòbil fa una volta per cada unitat de temps.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim38_q59" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 14 de 32 • ID: academia_sim38_q59</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim38_q59)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 14. Quin ritme de compressions toràciques haurem de seguir en les maniobres de reanimació cardiopulmonar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim38_q59, 'A')">
+            <b>A)</b> <span>Unes 30-50 compressions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim38_q59, 'B')">
+            <b>B)</b> <span>Una compressió per segon</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim38_q59, 'C')">
+            <b>C)</b> <span>Unes 100-120 compressions per minut</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim38_q59, 'D')">
+            <b>D)</b> <span>Unes 60-90 compressions per minut</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim38_q59">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Unes 100-120 compressions per minut</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Cada 30 compressions, dues insuflacions.
+Segons l&#039;ERC la freqüència serà de 100-120 compressions per minut.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim57_q16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 15 de 32 • ID: academia_sim57_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim57_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 15. Si la freqüència respiratòria d&#039;una víctima és de 15 respiracions per minut, es troba en:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim57_q16, 'A')">
+            <b>A)</b> <span>Bradipnea</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim57_q16, 'B')">
+            <b>B)</b> <span>Eupnea o respiració normal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim57_q16, 'C')">
+            <b>C)</b> <span>Apnea</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim57_q16, 'D')">
+            <b>D)</b> <span>Taquipnea  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim57_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Eupnea o respiració normal</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm
+Eupnea (respiració normal): 12-20 rpm
+Taquipnea: &gt; 20 rpm
+Apnea: no respira</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim62_q25" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 16 de 32 • ID: academia_sim62_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim62_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 16. Quin signe ens farà sospitar que la víctima te un xoc hipovolèmic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim62_q25, 'A')">
+            <b>A)</b> <span>Un reompliment capil·lar alentit</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim62_q25, 'B')">
+            <b>B)</b> <span>El pols radial cada vegada és més lent i més fort</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim62_q25, 'C')">
+            <b>C)</b> <span>En observar-li el tòrax veiem que aquest cada vegada es mou més lentament (taquipnea)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim62_q25, 'D')">
+            <b>D)</b> <span>El nivell de consciència roman estable</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim62_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Un reompliment capil·lar alentit</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Abans d&#039;un xoc hipovolèmic, la freqüència cardíaca (pols) de la víctima pot augmentar com a resposta del cos per
+intentar mantenir el flux sanguini.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim63_q17" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 17 de 32 • ID: academia_sim63_q17</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim63_q17)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 17. Es consideren zones d&#039;inundació ocasional, d&#039;acord amb la classificació de les zones en funció de la freqüència d&#039;inundacions:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim63_q17, 'A')">
+            <b>A)</b> <span>Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cent i superiorment per la línia de període de cinc-cents anys</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim63_q17, 'B')">
+            <b>B)</b> <span>Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim63_q17, 'C')">
+            <b>C)</b> <span>Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de quinze anys</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim63_q17, 'D')">
+            <b>D)</b> <span>Les zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim63_q17">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Classificació de la zona en funció de la freqüència (període de retorn):
+- Zones d&#039;inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de
+cinquanta anys.
+- Zones d&#039;inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de
+cinquanta i superiorment per la línia de període de cent anys.
+- Zones d&#039;inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn
+de cent i superiorment per la línia de període de cinc-cents anys.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim68_q91" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 18 de 32 • ID: academia_sim68_q91</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim68_q91)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 18. Quin es considera el llindar de tetanització del múscul humà?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim68_q91, 'A')">
+            <b>A)</b> <span>10 mA</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim68_q91, 'B')">
+            <b>B)</b> <span>1 A</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim68_q91, 'C')">
+            <b>C)</b> <span>30 mA</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim68_q91, 'D')">
+            <b>D)</b> <span>5 A</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim68_q91">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 30 mA</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q78" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 19 de 32 • ID: academia_sim70_q78</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q78)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 19. En referència al pols, de les següents opcions, quina és CORRECTA?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q78, 'A')">
+            <b>A)</b> <span>És la dilatació permanent de l’artèria aorta que es produeix en cada cicle cardíac</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q78, 'B')">
+            <b>B)</b> <span>Per valorar-lo de la manera més adient possible el millor és utilitzar el 1r dit (el dit polze)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q78, 'C')">
+            <b>C)</b> <span>En lactants es recomana palpar-lo al coll, a l&#039;artèria caròtida</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q78, 'D')">
+            <b>D)</b> <span>En els nounats la freqüència del pols normalment és major que en la gent gran</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q78">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) En els nounats la freqüència del pols normalment és major que en la gent gran</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els nounats tenen una freqüència del pols significativament més alta que la gent gran. La freqüència cardíaca normal en
+nounats sol estar entre 120 i 160 batecs per minut, mentre que en adults grans, la freqüència normal sol estar entre 60 i
+100 batecs per minut. Això es deu al fet que els cors dels nounats han de treballar més per proporcionar suficient sang
+oxigenada al seu ràpid creixement i desenvolupament.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim72_q20" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 20 de 32 • ID: academia_sim72_q20</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim72_q20)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 20. Quin NO és un avantatge de la injecció directa Common Rail respecte la injecció directa convencional?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim72_q20, 'A')">
+            <b>A)</b> <span>El menor soroll de funcionament del motor</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim72_q20, 'B')">
+            <b>B)</b> <span>L&#039;augment del rendiment</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim72_q20, 'C')">
+            <b>C)</b> <span>El menor consum i la baixa contaminació ambiental</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim72_q20, 'D')">
+            <b>D)</b> <span>Els filtres de combustible requereixen ser canviats amb menys freqüència</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim72_q20">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Els filtres de combustible requereixen ser canviats amb menys freqüència</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els filtres de combustible requereixen ser canviats amb més freqüència. El sistema Common Rail és molt més sensible a
+la qualitat del combustible que el convencional.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim76_q3" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 21 de 32 • ID: academia_sim76_q3</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim76_q3)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 21. Una freqüència respiratòria superior a 30 respiracions per minut s’anomena:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim76_q3, 'A')">
+            <b>A)</b> <span>Eupnea</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim76_q3, 'B')">
+            <b>B)</b> <span>Taquipnea</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim76_q3, 'C')">
+            <b>C)</b> <span>Bradipnea</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim76_q3, 'D')">
+            <b>D)</b> <span>Bradicàrdia</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim76_q3">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Taquipnea</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa
+normal és de 30 a 60 respiracions per minut.
+La taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència
+respiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta
+condició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,
+ansietat, o altres problemes respiratoris.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim90_q2" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 22 de 32 • ID: academia_sim90_q2</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim90_q2)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 22. Si una xarxa elèctrica té un període de 20 ms, quina és la seva freqüència en Hz?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim90_q2, 'A')">
+            <b>A)</b> <span>50 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim90_q2, 'B')">
+            <b>B)</b> <span>60 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim90_q2, 'C')">
+            <b>C)</b> <span>120 Hz</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim90_q2, 'D')">
+            <b>D)</b> <span>100 Hz</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim90_q2">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 50 Hz</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> 20 ms = 0,02 segons.
+f = 1/T = 1/0,02 = 50 Hz.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim105_q28" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 23 de 32 • ID: academia_sim105_q28</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim105_q28)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 23. Quina es considera la màxima sensibilitat a partir de la qual podem sofrir Fibril·lació Ventricular?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim105_q28, 'A')">
+            <b>A)</b> <span>10 mA</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim105_q28, 'B')">
+            <b>B)</b> <span>1 A</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim105_q28, 'C')">
+            <b>C)</b> <span>30 mA</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim105_q28, 'D')">
+            <b>D)</b> <span>5 A</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim105_q28">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 30 mA</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim114_q61" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 24 de 32 • ID: academia_sim114_q61</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim114_q61)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 24. La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són signes que ens permeten valorar el correcte funcionament de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim114_q61, 'A')">
+            <b>A)</b> <span>El sistema cardiovascular</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim114_q61, 'B')">
+            <b>B)</b> <span>El sistema nerviós</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim114_q61, 'C')">
+            <b>C)</b> <span>L&#039;aparell digestiu</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim114_q61, 'D')">
+            <b>D)</b> <span>L&#039;aparell respiratori</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim114_q61">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El sistema cardiovascular</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són indicadors clau del
+funcionament del sistema cardiovascular. Aquests paràmetres reflecteixen l&#039;eficiència amb què el cor i els vasos
+sanguinis transporten la sang i l&#039;oxigen als teixits del cos.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim123_q74" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 25 de 32 • ID: academia_sim123_q74</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim123_q74)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 25. Una freqüència respiratòria de 24 respiracions per minut mesurada en un adult en repòs es considera:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim123_q74, 'A')">
+            <b>A)</b> <span>Eupnea</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim123_q74, 'B')">
+            <b>B)</b> <span>Taquipnea</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim123_q74, 'C')">
+            <b>C)</b> <span>Bradipnea</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim123_q74, 'D')">
+            <b>D)</b> <span>Bradicàrdia</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim123_q74">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Taquipnea</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa
+normal és de 30 a 60 respiracions per minut.
+La taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència
+respiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta
+condició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,
+ansietat, o altres problemes respiratoris.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q29" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 26 de 32 • ID: academia_sim125_q29</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q29)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 26. Ens trobem amb una noia de 19 anys estirada a terra després d’una caiguda des d’alçada moderada. Respira espontàniament però sembla desorientada. La seva freqüència respiratòria és de 22 rpm. Presenta pols radial i respon de manera incoherent, sense obeir correctament les nostres ordres. Quina classificació START tindrà?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q29, 'A')">
+            <b>A)</b> <span>Groc</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q29, 'B')">
+            <b>B)</b> <span>Verd</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q29, 'C')">
+            <b>C)</b> <span>Blau</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q29, 'D')">
+            <b>D)</b> <span>Vermell</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q29">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Vermell</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Respira i pols: OK.
+No obeeix ordres →criteri directe de VERMELL.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q78" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 27 de 32 • ID: academia_sim125_q78</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q78)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 27. Quina és l&#039;estructura recomanada per iniciar una comunicació per ràdio?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q78, 'A')">
+            <b>A)</b> <span>Primer s&#039;indica el tipus d&#039;incident i després s&#039;identifiquen les dues unitats</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q78, 'B')">
+            <b>B)</b> <span>Primer s&#039;identifica la unitat receptora i, tot seguit, la unitat emissora</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q78, 'C')">
+            <b>C)</b> <span>Primer s&#039;emet el missatge i, al final, s&#039;identifica tant l&#039;emissor com el receptor.</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q78, 'D')">
+            <b>D)</b> <span>Primer s&#039;identifica la unitat emissora i, a continuació, la unitat receptora</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q78">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Primer s&#039;identifica la unitat receptora i, tot seguit, la unitat emissora</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Abans de començar a parlar pel transceptor portàtil, l’usuari ha de comprovar que el canal està lliure, és a dir, que cap
+altra unitat està transmetent en aquell moment. Una vegada verificat, s’ha d’iniciar la comunicació utilitzant un
+encapçalament clar que indiqui a qui va dirigit el missatge. L’estructura recomanada per iniciar la comunicació és que
+primer s’anomena la unitat receptora del missatge, i després s’identifica l’emissor.
+Per exemple: “Control, per 10.40...” o alternativament “Control, 10.40 demanant...”</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q89" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 28 de 32 • ID: academia_sim125_q89</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q89)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 28. Si un emissor no obté resposta després d&#039;intentar establir contacte per ràdio, quant ha d&#039;esperar abans de repetir el missatge?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q89, 'A')">
+            <b>A)</b> <span>10 segons</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q89, 'B')">
+            <b>B)</b> <span>15 segons</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q89, 'C')">
+            <b>C)</b> <span>30 segons</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q89, 'D')">
+            <b>D)</b> <span>5 segons</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q89">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) 30 segons</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Quan un emissor intenta establir contacte i no rep resposta immediata, ha d’esperar 30 segons abans de tornar a repetir
+el missatge:
+Exemple: “Control, aquí Echo 0.” Esperar uns 30 segons. Si no hi ha resposta, repetir.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim126_q39" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 29 de 32 • ID: academia_sim126_q39</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim126_q39)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 29. La xarxa RESCAT:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim126_q39, 'A')">
+            <b>A)</b> <span>Permet que les emissores operin en tres modes principals</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim126_q39, 'B')">
+            <b>B)</b> <span>Utilitza grups de comunicació diferenciats entre els diferents serveis d&#039;emergència</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim126_q39, 'C')">
+            <b>C)</b> <span>Es basa en la tecnologia TETRA</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim126_q39, 'D')">
+            <b>D)</b> <span>Es pot veure afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb molta població</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim126_q39">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Es basa en la tecnologia TETRA</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La xarxa RESCAT no es veu afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb
+molta població.
+La xarxa RESCAT es basa en la tecnologia TETRA, un estàndard específicament dissenyat per a serveis d’emergència.
+Un dels grans avantatges de la xarxa RESCAT és que permet la coordinació entre serveis d’emergència, ja que utilitza
+grups de comunicació compartits. Això és especialment útil en intervencions interterritorials com per exemple un foc
+forestal on participen unitats de diversos cossos (Bombers Generalitat, Bombers Barcelona, Mossos d’Esquadra, SEM...).
+Les emissores poden operar en dos modes principals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim127_q68" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 30 de 32 • ID: academia_sim127_q68</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim127_q68)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 30. Quina afirmació relativa al tipus de comunicacions dels transceptors portàtils de la xarxa Rescat és FALSA?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim127_q68, 'A')">
+            <b>A)</b> <span>El mode xarxa activa funcionalitats com l’enviament de missatges i la localització</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim127_q68, 'B')">
+            <b>B)</b> <span>El mode directe permet enviar missatges SDS</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim127_q68, 'C')">
+            <b>C)</b> <span>Si no tenim connexió a cap repetidor, no podrem treballar en mode xarxa</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim127_q68, 'D')">
+            <b>D)</b> <span>En el mode directe l’emissora no està connectada a la xarxa</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim127_q68">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) El mode directe permet enviar missatges SDS</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Mode Directe.
+Mode de comunicacions només per proximitat. L’emissora no està connectada a la xarxa, sinó que comunica directament
+amb altres terminals dins del seu abast de ràdio (normalment entre 500 metres i 1 km).
+Característiques:
+−No depèn de la xarxa ni de repetidors
+−Ideal per a comunicacions curtes o en interiors
+−No permet enviar posició GPS ni missatges SDS</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q29" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 31 de 32 • ID: serebomber_38c54d39_q29</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q29)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 31. Quin tipus de cobertura de comunicacions permet el mode Directe (DMO) en els terminals de la xarxa RESCAT?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q29, 'A')">
+            <b>A)</b> <span>Cobertura satel·litària global</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q29, 'B')">
+            <b>B)</b> <span>Comunicació directa terminal a terminal sense passar per la infraestructura de repetidors</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q29, 'C')">
+            <b>C)</b> <span>Connexió a la xarxa de dades d&#039;alta velocitat 5G</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q29, 'D')">
+            <b>D)</b> <span>Comunicació exclusiva amb la sala de control central</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q29">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Comunicació directa terminal a terminal sense passar per la infraestructura de repetidors</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El mode DMO (Direct Mode Operation) permet la ràdio-comunicació local directa entre terminals quan falla o no s&#039;arriba a la xarxa de repetidors (TMO).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 32 de 32 • ID: serebomber_38c54d39_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 32. Un equip treballa en una zona rural on la telefonia mòbil no dona servei i pregunta si podrà operar en mode xarxa. Quina afirmació sobre el funcionament i la cobertura de la xarxa RESCAT és correcta?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q46, 'A')">
+            <b>A)</b> <span>La xarxa RESCAT depèn exclusivament de les antenes de telefonia mòbil comercial</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q46, 'B')">
+            <b>B)</b> <span>En zona rural només funciona el mode satel·litari automàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q46, 'C')">
+            <b>C)</b> <span>La cobertura arriba pràcticament a tot el territori i supera la de la telefonia convencional, però si el terminal no té connexió amb cap repetidor no es pot treballar en mode xarxa</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q46, 'D')">
+            <b>D)</b> <span>Els terminals RESCAT tenen abast il·limitat sense necessitat d&#039;estacions base</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) La cobertura arriba pràcticament a tot el territori i supera la de la telefonia convencional, però si el terminal no té connexió amb cap repetidor no es pot treballar en mode xarxa</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La xarxa RESCAT ofereix molta més cobertura en zones rurals que la telefonia convencional, però requereix enllaç amb un repetidor per al mode xarxa (TMO).</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T17 - Transmissions (32 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 15</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 16</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 17</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 18</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 19</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 20</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 21</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 22</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 23</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 24</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 25</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 26</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 27</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 28</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 29</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 30</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 31</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 32</span>
+        <b>C</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Quina freqüència nominal obligatòria s&#039;estableix per a les xarxes elèctriques?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> 50 Hz</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Parlarem de bradicàrdia quan la freqüència cardíaca:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Es trobi aproximadament per sota de 50 pulsacions per minut<br>&bull; <b>Explicació:</b> Taquicàrdia: més de 100 ppm.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Si la freqüència respiratòria d&#039;una víctima és de 13 respiracions per minut, es troba en:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Eupnea<br>&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm
+Eupnea (respiració normal): 12-20 rpm
+Taquipnea: &gt; 20 rpm
+Apnea: no respira</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. En electricitat, respecte el &quot;període&quot; podem dir que:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Totes les respostes són correctes<br>&bull; <b>Explicació:</b> La unitat de mesura internacional de la freqüència, en canvi, és el Hertz (Hz).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Durant la realització del suport vital bàsic pediàtric, haurem d&#039;anar valorant l&#039;existència de signes de vida, on no hi haurem de dedicar...</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Més de 10 segons<br>&bull; <b>Explicació:</b> En presència de signes de vida seguirem ventilant, i si recupera la respiració tornarem a considerar la PLS i revaloració
+constant. En cas contrari iniciarem compressions toràciques a una freqüència de 100-120 CT/min, alternes amb
+ventilacions en una relació de 15/2.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Amb quina freqüència s&#039;efectuaran les compressions toràciques en les maniobres de reanimació cardiopulmonar (RCP)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Amb una freqüència d&#039;unes 100 compressions per minut<br>&bull; <b>Explicació:</b> Cada 30 compressions, dues insuflacions.
+Segons l&#039;ERC la freqüència serà de 100-120 compressions per minut.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Si volem mesurar la freqüència cardíaca perifèrica, acostumarem a realitzar la mesura sobre:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> L&#039;artèria radial<br>&bull; <b>Explicació:</b> Pols central: carotidi o femoral.
+Pols perifèric: radial.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. Un pacient que presenti una freqüència respiratòria de 25 respiracions per minut:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Presenta una taquipnea<br>&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm.
+Eupnea (respiració normal): 12-20 rpm.
+Taquipnea: &gt; 20 rpm.
+Apnea: no respira.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Davant d&#039;una víctima que pateix hipotèrmia accidental, les guies ERC recomanen:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Comprovar la presència de signes vitals durant un minut<br>&bull; <b>Explicació:</b> La freqüència de les compressions toràciques i ventilacions no ha de ser diferent a l’RCP en pacients normotèrmics.
+No administrarem adrenalina si la temperatura corporal és &lt;30 ºC.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Quina de les següents intensitats és més probable que provoqui la tetanització del múscul humà?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 30 mA<br>&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. D&#039;acord amb la classificació de les zones en funció de la freqüència d&#039;inundacions (període de retorn), les zones d&#039;inundació freqüent:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Són zones inundables delimitades superiorment per la línia d’inundació de període de retorn de cinquanta anys<br>&bull; <b>Explicació:</b> Classificació de la zona en funció de la freqüència (període de retorn):
+- Zones d&#039;inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de
+cinquanta anys.
+- Zones d&#039;inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de
+cinquanta i superiorment per la línia de període de cent anys.
+- Zones d&#039;inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn
+de cent i superiorment per la línia de període de cinc-cents anys.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. La respiració agònica:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> És una respiració lenta i feixuga<br>&bull; <b>Explicació:</b> La respiració agònica s’ha de considerar un signe d’aturada cardíaca.
+L&#039;eupnea fa referència a la freqüència respiratòria normal, en tot cas l&#039;apnea seria el preludi.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. En un moviment circular, quin nom rep el temps que tarda un element en fer una volta completa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Període<br>&bull; <b>Explicació:</b> Freqüència: nombre de cops que un element mòbil fa una volta per cada unitat de temps.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Quin ritme de compressions toràciques haurem de seguir en les maniobres de reanimació cardiopulmonar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Unes 100-120 compressions per minut<br>&bull; <b>Explicació:</b> Cada 30 compressions, dues insuflacions.
+Segons l&#039;ERC la freqüència serà de 100-120 compressions per minut.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 15. Si la freqüència respiratòria d&#039;una víctima és de 15 respiracions per minut, es troba en:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Eupnea o respiració normal<br>&bull; <b>Explicació:</b> Bradipnea: &lt; 12 rpm
+Eupnea (respiració normal): 12-20 rpm
+Taquipnea: &gt; 20 rpm
+Apnea: no respira</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 16. Quin signe ens farà sospitar que la víctima te un xoc hipovolèmic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Un reompliment capil·lar alentit<br>&bull; <b>Explicació:</b> Abans d&#039;un xoc hipovolèmic, la freqüència cardíaca (pols) de la víctima pot augmentar com a resposta del cos per
+intentar mantenir el flux sanguini.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 17. Es consideren zones d&#039;inundació ocasional, d&#039;acord amb la classificació de les zones en funció de la freqüència d&#039;inundacions:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Les zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de cinquanta i superiorment per la línia de període de cent anys<br>&bull; <b>Explicació:</b> Classificació de la zona en funció de la freqüència (període de retorn):
+- Zones d&#039;inundació freqüent: Zones inundables delimitades superiorment per la línia d’inundació de període de retorn de
+cinquanta anys.
+- Zones d&#039;inundació ocasional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn de
+cinquanta i superiorment per la línia de període de cent anys.
+- Zones d&#039;inundació exepcional: Zones inundables delimitades inferiorment per la línia d’inundació de període de retorn
+de cent i superiorment per la línia de període de cinc-cents anys.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 18. Quin es considera el llindar de tetanització del múscul humà?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 30 mA<br>&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 19. En referència al pols, de les següents opcions, quina és CORRECTA?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> En els nounats la freqüència del pols normalment és major que en la gent gran<br>&bull; <b>Explicació:</b> Els nounats tenen una freqüència del pols significativament més alta que la gent gran. La freqüència cardíaca normal en
+nounats sol estar entre 120 i 160 batecs per minut, mentre que en adults grans, la freqüència normal sol estar entre 60 i
+100 batecs per minut. Això es deu al fet que els cors dels nounats han de treballar més per proporcionar suficient sang
+oxigenada al seu ràpid creixement i desenvolupament.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 20. Quin NO és un avantatge de la injecció directa Common Rail respecte la injecció directa convencional?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Els filtres de combustible requereixen ser canviats amb menys freqüència<br>&bull; <b>Explicació:</b> Els filtres de combustible requereixen ser canviats amb més freqüència. El sistema Common Rail és molt més sensible a
+la qualitat del combustible que el convencional.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 21. Una freqüència respiratòria superior a 30 respiracions per minut s’anomena:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Taquipnea<br>&bull; <b>Explicació:</b> Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa
+normal és de 30 a 60 respiracions per minut.
+La taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència
+respiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta
+condició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,
+ansietat, o altres problemes respiratoris.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 22. Si una xarxa elèctrica té un període de 20 ms, quina és la seva freqüència en Hz?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 50 Hz<br>&bull; <b>Explicació:</b> 20 ms = 0,02 segons.
+f = 1/T = 1/0,02 = 50 Hz.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 23. Quina es considera la màxima sensibilitat a partir de la qual podem sofrir Fibril·lació Ventricular?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 30 mA<br>&bull; <b>Explicació:</b> Tetanització: sumació temporal de les contraccions successives d&#039;un múscul evocades per un tren d&#039;estímuls d&#039;alta
+freqüència que no deixa temps a la fibra muscular per relaxar-se.
+Entre 1 i 5 A és molt probable que comporti una parada cardiorespiratòria.
+En 10 mA el més probable serà una rampa-contracció muscular.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 24. La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són signes que ens permeten valorar el correcte funcionament de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El sistema cardiovascular<br>&bull; <b>Explicació:</b> La freqüència cardíaca, la tensió arterial, la coloració de la pell i el reompliment capil·lar són indicadors clau del
+funcionament del sistema cardiovascular. Aquests paràmetres reflecteixen l&#039;eficiència amb què el cor i els vasos
+sanguinis transporten la sang i l&#039;oxigen als teixits del cos.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 25. Una freqüència respiratòria de 24 respiracions per minut mesurada en un adult en repòs es considera:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Taquipnea<br>&bull; <b>Explicació:</b> Una freqüència respiratòria normal per a un adult en repòs és de 12 a 20 respiracions per minut. Per a un nadó, la taxa
+normal és de 30 a 60 respiracions per minut.
+La taquipnea és un terme mèdic que es refereix a una respiració anormalment ràpida. Es defineix com una freqüència
+respiratòria superior a la normal, que generalment se situa per sobre de 20 respiracions per minut en un adult. Aquesta
+condició pot ser un símptoma de diverses malalties o afeccions, com infeccions pulmonars, insuficiència cardíaca,
+ansietat, o altres problemes respiratoris.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 26. Ens trobem amb una noia de 19 anys estirada a terra després d’una caiguda des d’alçada moderada. Respira espontàniament però sembla desorientada. La seva freqüència respiratòria és de 22 rpm. Presenta pols radial i respon de manera incoherent, sense obeir correctament les nostres ordres. Quina classificació START tindrà?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Vermell<br>&bull; <b>Explicació:</b> Respira i pols: OK.
+No obeeix ordres →criteri directe de VERMELL.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 27. Quina és l&#039;estructura recomanada per iniciar una comunicació per ràdio?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Primer s&#039;identifica la unitat receptora i, tot seguit, la unitat emissora<br>&bull; <b>Explicació:</b> Abans de començar a parlar pel transceptor portàtil, l’usuari ha de comprovar que el canal està lliure, és a dir, que cap
+altra unitat està transmetent en aquell moment. Una vegada verificat, s’ha d’iniciar la comunicació utilitzant un
+encapçalament clar que indiqui a qui va dirigit el missatge. L’estructura recomanada per iniciar la comunicació és que
+primer s’anomena la unitat receptora del missatge, i després s’identifica l’emissor.
+Per exemple: “Control, per 10.40...” o alternativament “Control, 10.40 demanant...”</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 28. Si un emissor no obté resposta després d&#039;intentar establir contacte per ràdio, quant ha d&#039;esperar abans de repetir el missatge?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> 30 segons<br>&bull; <b>Explicació:</b> Quan un emissor intenta establir contacte i no rep resposta immediata, ha d’esperar 30 segons abans de tornar a repetir
+el missatge:
+Exemple: “Control, aquí Echo 0.” Esperar uns 30 segons. Si no hi ha resposta, repetir.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 29. La xarxa RESCAT:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Es basa en la tecnologia TETRA<br>&bull; <b>Explicació:</b> La xarxa RESCAT no es veu afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb
+molta població.
+La xarxa RESCAT es basa en la tecnologia TETRA, un estàndard específicament dissenyat per a serveis d’emergència.
+Un dels grans avantatges de la xarxa RESCAT és que permet la coordinació entre serveis d’emergència, ja que utilitza
+grups de comunicació compartits. Això és especialment útil en intervencions interterritorials com per exemple un foc
+forestal on participen unitats de diversos cossos (Bombers Generalitat, Bombers Barcelona, Mossos d’Esquadra, SEM...).
+Les emissores poden operar en dos modes principals.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 30. Quina afirmació relativa al tipus de comunicacions dels transceptors portàtils de la xarxa Rescat és FALSA?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> El mode directe permet enviar missatges SDS<br>&bull; <b>Explicació:</b> Mode Directe.
+Mode de comunicacions només per proximitat. L’emissora no està connectada a la xarxa, sinó que comunica directament
+amb altres terminals dins del seu abast de ràdio (normalment entre 500 metres i 1 km).
+Característiques:
+−No depèn de la xarxa ni de repetidors
+−Ideal per a comunicacions curtes o en interiors
+−No permet enviar posició GPS ni missatges SDS</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 31. Quin tipus de cobertura de comunicacions permet el mode Directe (DMO) en els terminals de la xarxa RESCAT?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Comunicació directa terminal a terminal sense passar per la infraestructura de repetidors<br>&bull; <b>Explicació:</b> El mode DMO (Direct Mode Operation) permet la ràdio-comunicació local directa entre terminals quan falla o no s&#039;arriba a la xarxa de repetidors (TMO).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 32. Un equip treballa en una zona rural on la telefonia mòbil no dona servei i pregunta si podrà operar en mode xarxa. Quina afirmació sobre el funcionament i la cobertura de la xarxa RESCAT és correcta?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> La cobertura arriba pràcticament a tot el territori i supera la de la telefonia convencional, però si el terminal no té connexió amb cap repetidor no es pot treballar en mode xarxa<br>&bull; <b>Explicació:</b> La xarxa RESCAT ofereix molta més cobertura en zones rurals que la telefonia convencional, però requereix enllaç amb un repetidor per al mode xarxa (TMO).</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

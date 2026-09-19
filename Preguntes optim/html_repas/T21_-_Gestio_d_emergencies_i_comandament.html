@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T21 - Gestió d&#039;emergències i comandament - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T21 - Gestió d&#039;emergències i comandament</h1>
+      </div>
+      <p>10 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim4_q13" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 1 de 10 • ID: academia_sim4_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim4_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 1?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim4_q13, 'A')">
+            <b>A)</b> <span>Al cap de sortida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim4_q13, 'B')">
+            <b>B)</b> <span>Al sotscap territorial</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim4_q13, 'C')">
+            <b>C)</b> <span>Al cap territorial</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim4_q13, 'D')">
+            <b>D)</b> <span>Al cap operatiu</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim4_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Al cap de sortida</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general competent en l&#039;àmbit operatiu
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q86" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 2 de 10 • ID: academia_sim13_q86</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q86)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 5?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q86, 'A')">
+            <b>A)</b> <span>Al cap de sortida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q86, 'B')">
+            <b>B)</b> <span>Al subdirector general operatiu</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q86, 'C')">
+            <b>C)</b> <span>Al cap operatiu</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q86, 'D')">
+            <b>D)</b> <span>Aquest nivell de comandament no existeix</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q86">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Al subdirector general operatiu</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general operatiu</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q16" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 10 • ID: academia_sim28_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 3?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q16, 'A')">
+            <b>A)</b> <span>Al cap territorial</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q16, 'B')">
+            <b>B)</b> <span>Al subdirector general operatiu</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q16, 'C')">
+            <b>C)</b> <span>Al cap operatiu</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q16, 'D')">
+            <b>D)</b> <span>Aquest nivell de comandament no existeix</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Al cap territorial</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general operatiu</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim29_q70" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 4 de 10 • ID: academia_sim29_q70</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim29_q70)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Tots els serveis en situacions d&#039;emergència han de ser comandats?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim29_q70, 'A')">
+            <b>A)</b> <span>Si, per un cap de sortida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim29_q70, 'B')">
+            <b>B)</b> <span>Si, per un cap d&#039;intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim29_q70, 'C')">
+            <b>C)</b> <span>No, excepte en casos concrets</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim29_q70, 'D')">
+            <b>D)</b> <span>No, en cap cas. L&#039;estructura interna del Cos de Bombers és horitzontal.</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim29_q70">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Si, per un cap d&#039;intervenció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El cap d&#039;intervenció serà el màxim comandament de la guàrdia present al lloc del sinistre.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim48_q11" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 5 de 10 • ID: academia_sim48_q11</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim48_q11)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. A qui correspon l&#039;activació de les posicions de l&#039;àmbit de suport?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim48_q11, 'A')">
+            <b>A)</b> <span>A les pertinents Sales de Control Territorial (SCT)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim48_q11, 'B')">
+            <b>B)</b> <span>Al cap de coordinació de la SCT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim48_q11, 'C')">
+            <b>C)</b> <span>Al cap d&#039;intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim48_q11, 'D')">
+            <b>D)</b> <span>A la Sala Central de Bombers (SCB)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim48_q11">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) A la Sala Central de Bombers (SCB)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;activació de les posicions de l&#039;àmbit de suport correspon a la Sala Central de Bombers (SCB), a petició de:
+- Cap d&#039;intervenció
+- Cap de coordinació de la SCT
+- Cap de coordinació de la SCB</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim50_q28" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 6 de 10 • ID: academia_sim50_q28</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim50_q28)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Tots els serveis en situacions d&#039;emergència han d&#039;estar comandats per:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim50_q28, 'A')">
+            <b>A)</b> <span>Un cap de torn</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim50_q28, 'B')">
+            <b>B)</b> <span>Un cap d&#039;intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim50_q28, 'C')">
+            <b>C)</b> <span>El/La Subdirector/a General Operatiu/va</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim50_q28, 'D')">
+            <b>D)</b> <span>Un cap operatiu</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim50_q28">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Un cap d&#039;intervenció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La funció de cap d&#039;intervenció ha de ser assumida per les següents posicions de comandament de l&#039;àmbit operatiu de la
+guàrdia segons els nivells que de més baix a més alt s&#039;indiquen a continuació:
+a) Nivell de comandament 1: cap de sortida.
+b) Nivell de comandament 2: sotscap territorial.
+c) Nivell de comandament 3: cap territorial.
+d) Nivell de comandament 4: cap operatiu.
+e) Nivell de comandament 5: subdirector general competent en l&#039;àmbit operatiu.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim62_q8" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 7 de 10 • ID: academia_sim62_q8</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim62_q8)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. Quina d&#039;aquestes respostes és INCORRECTA en relació amb la modificació del nivell de comandament?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim62_q8, 'A')">
+            <b>A)</b> <span>Es pot modificar a petició del cap d&#039;intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim62_q8, 'B')">
+            <b>B)</b> <span>Es pot modificar a petició del cap de coordinació territorial</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim62_q8, 'C')">
+            <b>C)</b> <span>Es pot modificar per decisió del subdirector general operatiu, a través del cap de coordinació de la sala central de Bombers</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim62_q8, 'D')">
+            <b>D)</b> <span>Es pot modificar a petició del cap de la guàrdia de suport</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim62_q8">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Es pot modificar a petició del cap de la guàrdia de suport</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 22: Determinació del nivell de comandament.
+El nivell de comandament d&#039;un servei davant d&#039;una situació d&#039;emergència el determina el cap de coordinació territorial
+corresponent, en funció de la informació rebuda i de l&#039;escenari de la situació d&#039;emergència i, si escau, d&#039;acord amb les
+instruccions establertes. El nivell de comandament pot variar a petició del cap d&#039;intervenció, del cap de coordinació
+territorial, o per decisió del subdirector general competent en l&#039;àmbit operatiu, a través del cap de coordinació de la Sala
+Central de Bombers.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim125_q75" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 8 de 10 • ID: academia_sim125_q75</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim125_q75)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. En arribar a un descarrilament d&#039;un tren, el cap d&#039;intervenció valora com poden haver quedat els cotxes segons el sistema de rodament. Què és el més previsible?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim125_q75, 'A')">
+            <b>A)</b> <span>Que cada cotxe hagi perdut els bogis, i que aquests quedin dispersos per la via</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim125_q75, 'B')">
+            <b>B)</b> <span>Que les rodes de cada eix hagin girat de manera independent i s&#039;hagin desunit</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim125_q75, 'C')">
+            <b>C)</b> <span>Que els cotxes quedin verticals gràcies al sistema de rodament rígid</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim125_q75, 'D')">
+            <b>D)</b> <span>Que el comboi quedi tombat o desplaçat però amb els bogis encara adherits</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim125_q75">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Que el comboi quedi tombat o desplaçat però amb els bogis encara adherits</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els bogis són estructures metàl·liques que suporten el cotxe i, en un descarrilament, el vehicle pot quedar tombat o
+desplaçat mantenint-los adherits; no és habitual que se separin ni que les rodes solidàries d&#039;un eix es desuneixin.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim127_q20" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 9 de 10 • ID: academia_sim127_q20</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim127_q20)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Quina de les següents és una funció principal del grup d&#039;intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim127_q20, 'A')">
+            <b>A)</b> <span>Transport sanitari de les persones ferides</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim127_q20, 'B')">
+            <b>B)</b> <span>Instal·lació de refugis i punts d&#039;acollida</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim127_q20, 'C')">
+            <b>C)</b> <span>Control dels accessos i del trànsit a la zona</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim127_q20, 'D')">
+            <b>D)</b> <span>Inspecció tècnica i control de danys estructurals</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim127_q20">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Inspecció tècnica i control de danys estructurals</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Entre les funcions del grup d&#039;intervenció hi ha l&#039;extinció d&#039;incendis, el salvament i rescat, la contenció del risc i la inspecció
+tècnica amb control de danys estructurals; el transport sanitari correspon al grup sanitari, els punts d&#039;acollida al logístic i
+els accessos al grup d&#039;ordre.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q53" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 10 de 10 • ID: serebomber_38c54d39_q53</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q53)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. Quina d&#039;aquestes funcions NO és una funció principal del Grup d&#039;intervenció?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q53, 'A')">
+            <b>A)</b> <span>El transport sanitari de les persones ferides o intoxicades a la zona</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q53, 'B')">
+            <b>B)</b> <span>Extinció d&#039;incendis</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q53, 'C')">
+            <b>C)</b> <span>Salvament i rescat</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q53, 'D')">
+            <b>D)</b> <span>Contenció o neutralització del risc</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q53">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El transport sanitari de les persones ferides o intoxicades a la zona</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El transport sanitari és responsabilitat del Grup Sanitari (SEM). El Grup d&#039;Intervenció s&#039;encarrega d&#039;extinció, salvament, rescat, contenció de riscos i control estructural. «Funcions principals: − Extinció d’incendis − Salvament i rescat − Contenció o neutralització del risc − Inspecció tècnica...»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T21 - Gestió d&#039;emergències i comandament (10 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>A</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 1?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Al cap de sortida<br>&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general competent en l&#039;àmbit operatiu
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 5?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Al subdirector general operatiu<br>&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general operatiu</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. A quina posició de comandament de l&#039;àmbit operatiu de la guàrdia li correspon assumir la funció de cap d&#039;intervenció per a un nivell de comandament 3?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Al cap territorial<br>&bull; <b>Explicació:</b> Nivell de comandament 1: cap de sortida
+Nivell de comandament 2: sotscap territorial
+Nivell de comandament 3: cap territorial
+Nivell de comandament 4: cap operatiu
+Nivell de comandament 5: subdirector general operatiu</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Tots els serveis en situacions d&#039;emergència han de ser comandats?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Si, per un cap d&#039;intervenció<br>&bull; <b>Explicació:</b> El cap d&#039;intervenció serà el màxim comandament de la guàrdia present al lloc del sinistre.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. A qui correspon l&#039;activació de les posicions de l&#039;àmbit de suport?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> A la Sala Central de Bombers (SCB)<br>&bull; <b>Explicació:</b> L&#039;activació de les posicions de l&#039;àmbit de suport correspon a la Sala Central de Bombers (SCB), a petició de:
+- Cap d&#039;intervenció
+- Cap de coordinació de la SCT
+- Cap de coordinació de la SCB</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Tots els serveis en situacions d&#039;emergència han d&#039;estar comandats per:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Un cap d&#039;intervenció<br>&bull; <b>Explicació:</b> La funció de cap d&#039;intervenció ha de ser assumida per les següents posicions de comandament de l&#039;àmbit operatiu de la
+guàrdia segons els nivells que de més baix a més alt s&#039;indiquen a continuació:
+a) Nivell de comandament 1: cap de sortida.
+b) Nivell de comandament 2: sotscap territorial.
+c) Nivell de comandament 3: cap territorial.
+d) Nivell de comandament 4: cap operatiu.
+e) Nivell de comandament 5: subdirector general competent en l&#039;àmbit operatiu.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Quina d&#039;aquestes respostes és INCORRECTA en relació amb la modificació del nivell de comandament?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Es pot modificar a petició del cap de la guàrdia de suport<br>&bull; <b>Explicació:</b> Article 22: Determinació del nivell de comandament.
+El nivell de comandament d&#039;un servei davant d&#039;una situació d&#039;emergència el determina el cap de coordinació territorial
+corresponent, en funció de la informació rebuda i de l&#039;escenari de la situació d&#039;emergència i, si escau, d&#039;acord amb les
+instruccions establertes. El nivell de comandament pot variar a petició del cap d&#039;intervenció, del cap de coordinació
+territorial, o per decisió del subdirector general competent en l&#039;àmbit operatiu, a través del cap de coordinació de la Sala
+Central de Bombers.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. En arribar a un descarrilament d&#039;un tren, el cap d&#039;intervenció valora com poden haver quedat els cotxes segons el sistema de rodament. Què és el més previsible?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Que el comboi quedi tombat o desplaçat però amb els bogis encara adherits<br>&bull; <b>Explicació:</b> Els bogis són estructures metàl·liques que suporten el cotxe i, en un descarrilament, el vehicle pot quedar tombat o
+desplaçat mantenint-los adherits; no és habitual que se separin ni que les rodes solidàries d&#039;un eix es desuneixin.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Quina de les següents és una funció principal del grup d&#039;intervenció?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Inspecció tècnica i control de danys estructurals<br>&bull; <b>Explicació:</b> Entre les funcions del grup d&#039;intervenció hi ha l&#039;extinció d&#039;incendis, el salvament i rescat, la contenció del risc i la inspecció
+tècnica amb control de danys estructurals; el transport sanitari correspon al grup sanitari, els punts d&#039;acollida al logístic i
+els accessos al grup d&#039;ordre.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Quina d&#039;aquestes funcions NO és una funció principal del Grup d&#039;intervenció?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El transport sanitari de les persones ferides o intoxicades a la zona<br>&bull; <b>Explicació:</b> El transport sanitari és responsabilitat del Grup Sanitari (SEM). El Grup d&#039;Intervenció s&#039;encarrega d&#039;extinció, salvament, rescat, contenció de riscos i control estructural. «Funcions principals: − Extinció d’incendis − Salvament i rescat − Contenció o neutralització del risc − Inspecció tècnica...»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

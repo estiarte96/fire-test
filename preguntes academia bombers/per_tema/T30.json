@@ -1,54 +1,12 @@
 [
   {
-    "id": "academia_sim27_q87",
-    "simulacre": "Simulacre 27",
-    "num_pregunta": 87,
-    "statement": "Per permeabilitzar lavia aèria d'un pacient inconscient podem usar la maniobra de front-mentó, que consisteix en: bombers",
-    "correct": "B",
-    "explanation": "Font: ISPC.\nEn la tracciómandibular:\n1.Posarem una mà al front.\n2.Amb l'altramà agafarem elmentó.\n3.Traccionarem amunt lamandíbula intentant no moure elcoll.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T30 - Estructures col·lapsades",
-    "section": "Simulacre 27",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Posar una mà alfronti l'altramà en elmentó. Seguidament obrirem lavia aèria tibantamb dos ditsde la barbeta ide lageniva inferior. www.academiabombers.com",
-      "B": "Primer de tot,posar una mà alfront il'altramà en el mentó. Després tirarelcap de la víctima enrere.",
-      "C": "Tirarem suaument el cap de la víctima cap enrere des del colli,seguidament, posarem una mà al frontil'altramà en elmentó",
-      "D": "Posarem una mà alfront de lavíctima, iamb l'altramà agafarem elmentó. Finalment traccionarem amunt la mandíbula intentant no moure el coll."
-    }
-  },
-  {
-    "id": "academia_sim31_q40",
-    "simulacre": "Simulacre 31",
-    "num_pregunta": 40,
-    "statement": "En un apuntalament, amb quin dels següents elements estarà en contacte un \"sotapont\"?",
-    "correct": "A",
-    "explanation": "Fusta que, disposada horitzontalment irecolzada en un peu dreto en dues tornapuntes, suporta lacara inferiord’una\nbigaper talde reforçar-la.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T30 - Estructures col·lapsades",
-    "section": "Simulacre 31",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Amb lapart inferiord'una biga",
-      "B": "Amb una paret de càrrega o un altreelement verticalanàleg",
-      "C": "Amb el terra",
-      "D": "Qualsevol de les tresopcions pot ser vàlida 21 Acadèmia Bombers Simulacre 31"
-    }
-  },
-  {
     "id": "academia_sim125_q53",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 53,
     "statement": "Quina és la distància màxima recomanada entre dos puntals en un apuntalament?",
     "correct": "A",
-    "explanation": "Criteris bàsics a tenir en compte en un apuntalament.\n\nA nivell del Bombers de la Generalitat es tenen en compte aquestes consideracions:\n\n− La distància entre puntals no pot superar el metre.\n\n− Es considera que un puntal té una resistència màxima de 1.000 kg.\n\n− L’apuntalament ha de quedar ben alineat ifermament fixat al sotapont ijaç de taulons, utilitzantfalques si cal.\n\n− Cal evitar les vibracions i els puntals s’han d’entrar en càrrega de manera uniforme.\n\n− No intentar restituir la posició de l’element danyat.\n\n− Mantenir una via d’escapament neta d’obstacles.\n\n− Dins la zona afectada s’hi estarà el temps i personal imprescindible.\n\n− El conjunt ha de generar un pla de descàrrega estable, repartint la càrrega cap avall de forma segura.\n\nDistingim 3 grans grups d’apuntalaments segons la direcció de la càrrega que suporten: Verticals, Horitzontals i Inclinats.",
+    "explanation": "Criteris bàsics a tenir en compte en un apuntalament.\nA nivell del Bombers de la Generalitat es tenen en compte aquestes consideracions:\n−La distància entre puntals no pot superar el metre.\n−Es considera que un puntal té una resistència màxima de 1.000 kg.\n−L’apuntalament ha de quedar ben alineat i fermament fixat al sotapont i jaç de taulons, utilitzant falques si cal.\n−Cal evitar les vibracions i els puntals s’han d’entrar en càrrega de manera uniforme.\n−No intentar restituir la posició de l’element danyat.\n−Mantenir una via d’escapament neta d’obstacles.\n−Dins la zona afectada s’hi estarà el temps i personal imprescindible.\n−El conjunt ha de generar un pla de descàrrega estable, repartint la càrrega cap avall de forma segura.\nDistingim 3 grans grups d’apuntalaments segons la direcció de la càrrega que suporten: Verticals, Horitzontals i Inclinats.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T30 - Estructures col·lapsades",
+    "theme": "T30 - Construcció i apuntalaments d'emergència",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
@@ -56,26 +14,24 @@
       "A": "1 metre",
       "B": "2 metres",
       "C": "3 metres",
-      "D": "2,5 metres www.academiabombers.com"
+      "D": "2,5 metres"
     }
   },
   {
     "id": "academia_sim128_q40",
-    "simulacre": "Simulacre 128",
-    "num_pregunta": 40,
     "statement": "Un cap de dotació vol comprovar amb el teorema de Pitàgores l'aplom d'un apuntalament. Quina de les següents afirmacions és FALSA?",
     "correct": "A",
-    "explanation": "El teorema de Pitàgores només és vàlid per a triangles rectangles, és a dir, els que tenen un angle de 90°. La resta\nd'afirmacions són correctes: la hipotenusa és el costat més llarg,es compleix c²=a²+b² ila regla 3-4-5 i els seus múltiples\n(6-8-10) garanteixen l'angle recte.",
+    "explanation": "El teorema de Pitàgores només és vàlid per a triangles rectangles, és a dir, els que tenen un angle de 90°. La resta\nd'afirmacions són correctes: la hipotenusa és el costat més llarg, es compleix c²=a²+b² i la regla 3-4-5 i els seus múltiples\n(6-8-10) garanteixen l'angle recte.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T30 - Estructures col·lapsades",
+    "theme": "T30 - Construcció i apuntalaments d'emergència",
     "section": "Simulacre 128",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Elteorema s'aplica a qualsevol triangle,sigui rectangle o no",
-      "B": "La hipotenusa és el costat més llargdel triangle rectangle",
-      "C": "Un trianglede costats en proporció 6-8-10 té un angle de 90°",
+      "A": "El teorema s'aplica a qualsevol triangle, sigui rectangle o no",
+      "B": "La hipotenusa és el costat més llarg del triangle rectangle",
+      "C": "Un triangle de costats en proporció 6-8-10 té un angle de 90°",
       "D": "El quadrat de la hipotenusa iguala la suma dels quadrats dels catets"
     }
   }

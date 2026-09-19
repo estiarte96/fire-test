@@ -1,162 +1,1028 @@
 [
   {
-    "id": "academia_sim4_q13",
-    "simulacre": "Simulacre 4",
-    "num_pregunta": 13,
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir la funció de cap d'intervenció per a un nivell de comandament 1?",
-    "correct": "A",
-    "explanation": "Nivellde comandament 1: cap de sortida\nNivellde comandament 2: sotscap territorial\nNivellde comandament 3: capbombersterritorial\nNivellde comandament 4: cap operatiu\nNivellde comandament 5: subdirector general competent en l'àmbitoperatiu\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23\nAcadèmia Bombers Simulacre 4",
+    "id": "academia_sim1_q30",
+    "statement": "A què es refereixen les sigles del CECAT?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
-    "section": "Simulacre 4",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 1",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap de sortida",
-      "B": "Al sotscap territorial",
-      "C": "Al cap territorial acadèmia",
-      "D": "Al cap operatiu"
+      "A": "Al Centre de Coordinació d'Àmbit Territorial",
+      "B": "Al Consell Executiu de Catalunya",
+      "C": "Al Centre de Coordinació Operativa de Catalunya",
+      "D": "A la Comissió de Protecció Civil de Catalunya"
     }
   },
   {
-    "id": "academia_sim13_q86",
-    "simulacre": "Simulacre 13",
-    "num_pregunta": 86,
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir la funció de cap d'intervenció per a un nivell de comandament 5?",
-    "correct": "B",
-    "explanation": "Nivellde comandament 1: cap de sortida\nNivellde comandament 2: sotscap territorial\nNivellde comandament 3: cap territorial\nNivellde comandament 4: cap operatiu\nNivellde comandament 5: subdirector general operatiu",
+    "id": "academia_sim1_q46",
+    "statement": "Segons el decret 243/2007, de 6 de novembre, quina Subdirecció General no s'adscriu a la Direcció General de Prevenció, Extinció d'Incendis i Salvaments?",
+    "correct": "D",
+    "explanation": "La SG de Protecció Civil no existeix, s'anomena Direcció General de Protecció Civil, i no s'adscriu a la DGPEIS.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La SG Operativa",
+      "B": "La SG Tècnica",
+      "C": "La SG d'Administració i Recursos Humans",
+      "D": "La SG de Protecció Civil"
+    }
+  },
+  {
+    "id": "academia_sim8_q22",
+    "statement": "Quin dels següents articles no forma part dels principis generals de la Protecció Civil?",
+    "correct": "D",
+    "explanation": "Definició de demora: \"acció de tardar a fer una cosa\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Solidaritat en l'assumpció de riscs i danys",
+      "B": "Responsabilitat pública i autoprotecció",
+      "C": "Proximitat i immediatesa de l'acció pública",
+      "D": "Responsabilitat i demora en en la resposta al sinistre"
+    }
+  },
+  {
+    "id": "academia_sim8_q55",
+    "statement": "Aprovar el Pla de Protecció Civil de Catalunya correspon:",
+    "correct": "B",
+    "explanation": "És competència del Govern aprovar el Pla de protecció civil de Catalunya, els plans territorials d'àmbit supramunicipal i\nels plans especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'Institut de Seguretat Pública de Catalunya (ISPC)",
+      "B": "Al Govern",
+      "C": "Al President del Govern",
+      "D": "Al Conseller d'Interior"
+    }
+  },
+  {
+    "id": "academia_sim8_q75",
+    "statement": "Exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT) correspondrà:",
+    "correct": "C",
+    "explanation": "El Conseller d'Interior és l'autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Govern",
+      "B": "Al president de la Generalitat",
+      "C": "Al Conseller d'Interior",
+      "D": "Al Subdirector General Operatiu del cos de bombers de la Generalitat"
+    }
+  },
+  {
+    "id": "academia_sim9_q16",
+    "statement": "Quin d'aquests plans de protecció civil no correspon a un pla especial?",
+    "correct": "D",
+    "explanation": "El PROCICAT no és un pla especial, és un pla TERRITORIAL.\nCAMCAT: contaminació d'aigües marines\nINFOCAT: incendis forestals\nTRANSCAT: transport de mercaderies perilloses",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CAMCAT",
+      "B": "INFOCAT",
+      "C": "TRANSCAT",
+      "D": "PROCICAT  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim9_q49",
+    "statement": "En emergències i protecció civil li correspon a la Generalitat:",
+    "correct": "A",
+    "explanation": "Respectant, això si, el que estableixi l'Estat en l'exercici de les seves competències en matèria de seguretat pública.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La competència exclusiva",
+      "B": "La competència compartida",
+      "C": "La competència executiva",
+      "D": "La competència legislativa"
+    }
+  },
+  {
+    "id": "academia_sim9_q58",
+    "statement": "Els ciutadans i ciutadanes tenen __ ____ a/de participar en els plans de protecció civil.",
+    "correct": "B",
+    "explanation": "*Art. 5* (Dret de participació).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 9",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "la obligació",
+      "B": "el dret",
+      "C": "el deure",
+      "D": "la predisposició"
+    }
+  },
+  {
+    "id": "academia_sim10_q71",
+    "statement": "Qui s'encarrega de presidir la Comissió de Protecció Civil de Catalunya?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Conseller d'Interior",
+      "B": "El Director General de Protecció Civil",
+      "C": "El delegat de la Generalitat corresponent",
+      "D": "El president de l'associació de municipis"
+    }
+  },
+  {
+    "id": "academia_sim12_q63",
+    "statement": "Declarar l'activació dels plans de protecció civil d'àmbit de Catalunya és una competència:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Conseller d'Interior",
+      "B": "Del Govern",
+      "C": "Del CECAT",
+      "D": "Del President de la Generalitat"
+    }
+  },
+  {
+    "id": "academia_sim13_q10",
+    "statement": "L'òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya és:",
+    "correct": "B",
+    "explanation": "La Comissió de Protecció Civil de Catalunya es compon de representants de l'Administració de la Generalitat, de\nl'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
     "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap de sortida acadèmia",
-      "B": "Al subdirectorgeneral operatiu",
-      "C": "Al cap operatiu",
-      "D": "Aquest nivellde comandament no existeix"
+      "A": "El Centre de Coordinació Operativa de Catalunya",
+      "B": "La Comissió de Protecció Civil de Catalunya",
+      "C": "Els serveis d'autoprotecció",
+      "D": "Les comissions locals de protecció civil"
     }
   },
   {
-    "id": "academia_sim28_q16",
-    "simulacre": "Simulacre 28",
-    "num_pregunta": 16,
-    "statement": "A quina posició de comandament de l'àmbit operatiu de la guàrdia licorrespon assumir lafunció de cap d'intervenció per a un nivell de comandament 3?",
+    "id": "academia_sim13_q47",
+    "statement": "Qui aprova el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya?",
     "correct": "A",
-    "explanation": "Nivellde comandament 1:cap de sortida\nNivellde comandament 2:sotscap territorial\nNivellde comandament 3:cap territorial\nNivellde comandament 4:cap operatiu\nNivellde comandament 5:subdirector general operatiu",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Govern, per decret",
+      "B": "El Conseller d'Interior, amb informe previ de les comissions municipals",
+      "C": "El Conseller d'Interior, amb homologació prèvia del CECAT",
+      "D": "El president del govern, per decret llei"
+    }
+  },
+  {
+    "id": "academia_sim14_q60",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, té la funció d'informar directament al Centre de Coordinació Operativa de Catalunya (CECAT) de tots els serveis que puguin afectar a la protecció civil:",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Sala Central de Bombers (SCB)",
+      "B": "Les Sales de Control Territorial (SCT)",
+      "C": "El Subdirector general operatiu (SGO)",
+      "D": "El Cap de coordinació de la SCB"
+    }
+  },
+  {
+    "id": "academia_sim14_q65",
+    "statement": "Quin nombre màxim d'associacions de voluntaris i voluntàries de protecció civil poden reconèixer els plans de protecció civil per cada municipi?",
+    "correct": "A",
+    "explanation": "Article 55: Els plans de protecció civil només poden reconèixer una associació de voluntaris i voluntàries de protecció civil\nper municipi. A aquests efectes, correspon a l'ajuntament determinar l'associació que ha de quedar vinculada\nfuncionalment a l'autoritat municipal de protecció civil.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 14",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un",
+      "B": "Dos",
+      "C": "Tres",
+      "D": "Cinc"
+    }
+  },
+  {
+    "id": "academia_sim15_q37",
+    "statement": "D'acord amb el Decret 155/2014, de 25 de novembre, com s'anomena el document que estableix el marc orgànic i funcional previst per a un municipi, amb l’objecte de prevenir i controlar els riscos sobre les persones i els béns?",
+    "correct": "C",
+    "explanation": "DUPROCIM = Document Únic de Protecció Civil Municipal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "PROCICAT",
+      "B": "DUPROCICAT",
+      "C": "DUPROCIM",
+      "D": "DUPBEM"
+    }
+  },
+  {
+    "id": "academia_sim16_q93",
+    "statement": "La creació d'una comissió municipal de protecció civil (CMPC) és obligatòria en municipis amb més de:",
+    "correct": "B",
+    "explanation": "També estaran obligats aquells municipis considerats turístics o que presentin riscos especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 16",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20.000 habitants",
+      "B": "50.000 habitants",
+      "C": "200.000 habitants",
+      "D": "500.000 habitants"
+    }
+  },
+  {
+    "id": "academia_sim19_q52",
+    "statement": "El pla territorial d'àmbit superior de protecció civil de Catalunya rep el nom de:",
+    "correct": "C",
+    "explanation": "PROCICAT = PROtecció CIvil de CATalunya.\nEl CECAT és el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 19",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "CECAT",
+      "B": "CECOPAL",
+      "C": "PROCICAT",
+      "D": "INFOCAT"
+    }
+  },
+  {
+    "id": "academia_sim22_q12",
+    "statement": "Sobre qui recau la competència d'aprovar el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya?",
+    "correct": "B",
+    "explanation": "\nacadèmia\nbombers\n\nCorrespon al Govern:\na) Aprovar el Pla de protecció civil de Catalunya, els plans territorials d'àmbit supramunicipal i els plans especials.\nb) Aprovar el Reglament d'organització i funcionament de la Comissió de Protecció Civil de Catalunya.\nc) Aprovar els reglaments generals de desenvolupament i execució d'aquesta Llei, amb l'informe previ de la Comissió de\nProtecció Civil de Catalunya.\nd) Exercir la potestat sancionadora, en els termes establerts per aquesta Llei.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sobre el President o Presidenta de la Generalitat",
+      "B": "Sobre el Govern",
+      "C": "Sobre el Conseller d'Interior",
+      "D": "Sobre el conseller o consellera de Governació"
+    }
+  },
+  {
+    "id": "academia_sim22_q13",
+    "statement": "Si es produeixen les eventualitats contingudes en un pla de protecció civil, quina figura, en primera instància, tindrà la responsabilitat de declarar-ne formalment l'activació?",
+    "correct": "C",
+    "explanation": "Activació dels plans de protecció civil (art. 24):\n1. Si es produeixen les eventualitats contingudes en un pla de protecció civil, el director o directora d'aquest ha de\ndeclarar-ne formalment l'activació, pel procediment establert pel mateix pla.\n2. En el cas d'impediment del director o directora del pla o en el cas d'una urgència extrema, en correspon la declaració\nd'activació a les persones assenyalades subsidiàriament pel pla, en l'ordre indicat. Si hi manquen, l'autoritat de protecció\ncivil del pla d'àmbit superior pot declarar-ne l'activació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'alcalde o alcaldessa",
+      "B": "L'autoritat de protecció civil del pla d'àmbit superior",
+      "C": "El director o directora d'aquest",
+      "D": "A la primera persona assenyalada subsidiàriament pel mateix pla"
+    }
+  },
+  {
+    "id": "academia_sim24_q26",
+    "statement": "De quin tipus poden ser els plans de protecció civil?",
+    "correct": "B",
+    "explanation": "Tots els plans de protecció civil han d'estar coordinats i integrats de manera eficaç per a donar resposta a les situacions\nde risc col·lectiu greu, a les catàstrofes o a les calamitats públiques que es produeixin.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 24",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Concurrents o especials",
+      "B": "Territorials, especials i d'autoprotecció",
+      "C": "Regionals, estatals i d'autoprotecció",
+      "D": "Regionals, especials i d'autoprotecció"
+    }
+  },
+  {
+    "id": "academia_sim25_q12",
+    "statement": "Quins representants componen la Comissió de Protecció Civil de Catalunya?",
+    "correct": "D",
+    "explanation": "*Art. 46*\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els representants de l'Administració de l'Estat, els representants de la Generalitat i els representants de l'Administració local de Catalunya",
+      "B": "Els representants de l'Administració de l'Estat, els representants de l'Administració de la Generalitat, els dels consells comarcals i els dels municipis de Catalunya",
+      "C": "Els representants de l'Administració de la Generalitat i els de l'Administració de l'Estat a Catalunya",
+      "D": "Els representants de l'Administració de la Generalitat, de l'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya"
+    }
+  },
+  {
+    "id": "academia_sim27_q83",
+    "statement": "Quina competència ostenta la Generalitat en matèria de protecció civil?",
+    "correct": "B",
+    "explanation": "Correspon a la Generalitat la competència exclusiva en matèria de protecció civil, que inclou, en tot cas, la regulació, la\nplanificació i l’execució de mesures relatives a les emergències i la seguretat civil, i també la direcció i la coordinació dels\nserveis de protecció civil, que inclouen els serveis de prevenció i extinció d’incendis\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 27",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Competència executiva",
+      "B": "Competència exclusiva",
+      "C": "Competència compartida",
+      "D": "Competència reglamentària"
+    }
+  },
+  {
+    "id": "academia_sim28_q13",
+    "statement": "A qui correspon la funció de declarar l'activació dels plans de protecció civil d'àmbit autonòmic?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al cap territorial",
-      "B": "Al subdirector general operatiu",
-      "C": "Alcap operatiu",
-      "D": "Aquest nivellde comandament no existeix"
+      "A": "Al CECAT",
+      "B": "Al Govern",
+      "C": "Al Conseller d'Interior",
+      "D": "Al President de la Generalitat"
     }
   },
   {
-    "id": "academia_sim48_q11",
-    "simulacre": "Simulacre 48",
-    "num_pregunta": 11,
-    "statement": "A qui correspon l'activació de les posicions de l'àmbit de suport?",
-    "correct": "D",
-    "explanation": "L'activació de les posicions de l'àmbit de suport correspon a laSala Central de Bombers (SCB), a petició de:\n-Cap d'intervenció\n-Cap de coordinació de la SCT\n-Cap de coordinació de la SCB",
+    "id": "academia_sim29_q25",
+    "statement": "Quin tipus de Pla de Protecció Civil preveu, per a empreses, centres i instal·lacions determinades, les actuacions en cas d'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de situacions de risc, catàstrofes i calamitats públiques que els puguin afectar?",
+    "correct": "B",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
-    "section": "Simulacre 48",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 29",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A lespertinents Sales de Control Territorial(SCT)",
-      "B": "Al cap de coordinació de la SCT",
-      "C": "Alcap d'intervenció",
-      "D": "A laSala Central de Bombers (SCB)"
+      "A": "Els plans especials",
+      "B": "Els plans d'autoprotecció",
+      "C": "Els plans característics",
+      "D": "Els plans territorials"
     }
   },
   {
-    "id": "academia_sim50_q28",
-    "simulacre": "Simulacre 50",
-    "num_pregunta": 28,
-    "statement": "Tots els serveis en situacions d'emergència han d'estar comandats per:",
-    "correct": "B",
-    "explanation": "La funció de cap d'intervenció ha de ser assumida per les següents posicions de comandament de l'àmbit operatiu de la\nguàrdia segons els nivellsque de més baix a més alt s'indiquen a continuació:\n a) Nivell de comandament 1: cap de sortida.\nb)Nivell de comandament 2: sotscap territorial.\nc)Nivell de comandament 3:cap territorial.\nd)Nivell de comandament 4: cap operatiu.\ne)Nivell de comandament 5: subdirector general competent en l'àmbit operatiu.",
+    "id": "academia_sim29_q47",
+    "statement": "Quin tipus de plans de protecció civil existeixen?",
+    "correct": "A",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Territorials, especials i d'autoprotecció",
+      "B": "Autonòmics, territorials i sectorials",
+      "C": "Territorials, forestals i metropolitans",
+      "D": "Autonòmics, territorials i especials"
+    }
+  },
+  {
+    "id": "academia_sim30_q8",
+    "statement": "Com s'anomena l'òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya?",
+    "correct": "C",
+    "explanation": "La Comissió de Protecció Civil de Catalunya es compon de representants de l'Administració de la Generalitat, de\nl'Administració de l'Estat a Catalunya i de l'Administració local de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 30",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Centre de Coordinació Operativa de Catalunya",
+      "B": "CECOPAL",
+      "C": "Comissió de Protecció Civil de Catalunya",
+      "D": "Comissions autonòmiques de protecció civil  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim34_q1",
+    "statement": "En matèria de Protecció Civil, quina de les següents funcions correspon al Govern?",
+    "correct": "D",
+    "explanation": "La resta de respostes són competència del Conseller/a d'Interior.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La d'elaborar i mantenir el Catàleg de recursos i serveis mobilitzables per a la protecció civil a Catalunya",
+      "B": "La d'exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (Cecat)",
+      "C": "La de presidir la Comissió de Protecció Civil de Catalunya",
+      "D": "La d'elaborar i aprovar el Mapa de protecció civil de Catalunya"
+    }
+  },
+  {
+    "id": "academia_sim35_q14",
+    "statement": "Quin nombre d'habitants mínim obligarà a un municipi a elaborar i aprovar plans bàsics d'emergència municipal?",
+    "correct": "D",
+    "explanation": "Art. 17.2 - 4/1997, de Protecció Civil.\nEls municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població, tenen la\nconsideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat industrial,\nsegons la Comissió de Protecció Civil de Catalunya, han d'elaborar i aprovar plans bàsics d'emergència municipal que\ngaranteixin la coordinació i l'aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els plans bàsics\nd'emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la informació pública i\nl'informe previs de la comissió municipal de protecció civil, si n'hi ha, i són homologats per la Comissió de Protecció Civil\nde Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cinquanta mil",
+      "B": "Cent mil",
+      "C": "Deu mil",
+      "D": "Vint mil"
+    }
+  },
+  {
+    "id": "academia_sim35_q25",
+    "statement": "Qui té competències en matèria de seguretat pública i, per tant, en la vessant de protecció civil?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 35",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Tribunal Constitucional",
+      "B": "L'Estat",
+      "C": "L'Estat i la Generalitat, de forma compartida",
+      "D": "La Generalitat"
+    }
+  },
+  {
+    "id": "academia_sim36_q94",
+    "statement": "Quin tipus de Plans de Protecció Civil s'associen a alguna activitat, centre o instal·lació concrets?",
+    "correct": "D",
+    "explanation": "Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells\nbàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d'àmbit territorial\nsupramunicipal.\nEls plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per\navaluar-los i tractar-los. Aquests plans s'han d'elaborar d'acord amb les directrius bàsiques previstes a la norma.\nEls plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 36",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els plans especials",
+      "B": "Els plans territorials",
+      "C": "Els plans característics",
+      "D": "Els plans d'autoprotecció"
+    }
+  },
+  {
+    "id": "academia_sim38_q8",
+    "statement": "Quina de les següents és una finalitat bàsica de l'acció pública en matèria de protecció civil?",
+    "correct": "A",
+    "explanation": "La resta de les opcions fan referència a principis generals.\nL'acció pública en matèria de protecció civil té com a finalitats bàsiques:\na) La previsió dels riscs greus, entesa com a anàlisi objectiva d'aquests i llur localització en el territori.\nb) La prevenció, entesa com el conjunt d'actuacions encaminades tant a la disminució dels riscs com a llur detecció\nimmediata, mitjançant la vigilància.\nc) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l'estructura de\ncoordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes\nrespostes.\nd) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats\npúbliques.\ne) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts\nper aquesta Llei.\nf) La preparació adequada de les persones que pertanyen als grups d'intervenció.\ng) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats\npúbliques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 38",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències",
+      "B": "La proximitat i immediatesa de l'acció pública",
+      "C": "La responsabilitat pública i autoprotecció",
+      "D": "La solidaritat en l'assumpció de riscs i danys  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim39_q48",
+    "statement": "La protecció civil s'inspira en quatre principis. Indica el principi incorrecte:",
+    "correct": "D",
+    "explanation": "Article 2\n1. La protecció civil s'inspira en els principis de:\na) Solidaritat en l'assumpció de riscs i danys.\nb) Responsabilitat pública i autoprotecció.\nc) Proximitat i immediatesa de l'acció pública.\nd) Integració de plans i recursos.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Principi de solidaritat en l'assumpció de riscs i danys",
+      "B": "Principi de proximitat i immediatesa de l'acció pública",
+      "C": "Principi de responsabilitat pública i autoprotecció",
+      "D": "Principi d'apatia i d'individualitat  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim40_q69",
+    "statement": "El Mapa de protecció civil de Catalunya:",
+    "correct": "D",
+    "explanation": "El Govern ha d'elaborar i aprovar el Mapa de protecció civil de Catalunya, en un termini de dos anys des de l'entrada en\nvigor d'aquesta Llei. El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials\nen les quals és present cada risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 40",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'elabora el Govern",
+      "B": "L'aprova el Govern",
+      "C": "L'elabora la Comissió de Protecció Civil de Catalunya",
+      "D": "Les respostes a) i b) són correctes"
+    }
+  },
+  {
+    "id": "academia_sim41_q58",
+    "statement": "De quin tipus són el conjunt de mapes que configuren el Mapa de protecció civil de Catalunya?",
+    "correct": "A",
+    "explanation": "El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials en les quals és\npresent cada risc.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Temàtics",
+      "B": "Topogràfics",
+      "C": "Pluviomètrics",
+      "D": "Coroplètics"
+    }
+  },
+  {
+    "id": "academia_sim42_q56",
+    "statement": "De quins tipus poden ser els plans de protecció civil?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 42",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Territorials i sectorials",
+      "B": "Territorials, especials i d'autoprotecció",
+      "C": "Territorials, forestals i metropolitans",
+      "D": "Preventius i de recuperació  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim44_q14",
+    "statement": "Què és el CECAT?",
+    "correct": "A",
+    "explanation": "El Centre de Coordinació Operativa de Catalunya (CECAT) és el centre superior de coordinació i informació de\nl'estructura de protecció civil de Catalunya. Vetlla per la bona gestió de les emergències a través de la coordinació dels\ndiferents cossos operatius, organismes i institucions involucrades en la resolució de situacions en què calgui l’activació\nd’un pla d’emergències. Té com a última finalitat la seguretat de les persones, dels seus béns i drets, i també la previsió i\nla minimització dels efectes que poden patir en cas d’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya",
+      "B": "Un pla que s’aplica per gestionar riscos o emergències no inclosos en els plans especials",
+      "C": "El pla de Coordinació Executiva de Catalunya",
+      "D": "Totes les respostes són incorrectes"
+    }
+  },
+  {
+    "id": "academia_sim46_q6",
+    "statement": "A partir de quin número d'habitants un municipi estarà obligat a elaborar un Pla Bàsic d'Emergències Municipal (PBEM), si no està considerat com a turístic ni presenta cap risc especial?",
+    "correct": "D",
+    "explanation": "Article 17.2: Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població,\ntenen la consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat\nindustrial, segons la Comissió de Protecció Civil de Catalunya, han d'elaborar i aprovar plans bàsics d'emergència\nmunicipal que garanteixin la coordinació i l'aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els\nplans bàsics d'emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la\ninformació pública i l'informe previs de la comissió municipal de protecció civil, si n'hi ha, i són homologats per la\nComissió de Protecció Civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A partir dels 50.000 habitants",
+      "B": "A partir dels 10.000 habitants",
+      "C": "A partir dels 5.000 habitants",
+      "D": "A partir dels 20.000 habitants"
+    }
+  },
+  {
+    "id": "academia_sim50_q16",
+    "statement": "El pla especial d’emergències per nevades a Catalunya (NEUCAT) és un pla de tipus:",
+    "correct": "B",
+    "explanation": "El Pla especial d'emergències per nevades a Catalunya (NEUCAT) constitueix un pla especial amb la finalitat de disposar\nd’una planificació d’emergències que permeti afrontar i gestionar eficaçment les incidències i emergències per nevades\nque es donin dins l’àmbit territorial de Catalunya.\nPlans especials de Catalunya:\nAEROCAT\nALLAUCAT\nCAMCAT\nINFOCAT\nINUNCAT\nNEUCAT\nPla especial d’emergències per pandèmies\nPLASEQCAT i PLASEQTA\nRADCAT\nSISMICAT\nTRANSCAT\nVENTCAT",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
     "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un cap de torn",
-      "B": "Un cap d'intervenció",
-      "C": "El/LaSubdirector/a General Operatiu/va",
-      "D": "Un cap operatiu"
+      "A": "Pla territorial",
+      "B": "Pla especial",
+      "C": "Pla d’Autoprotecció",
+      "D": "Pla de protecció civil municipal  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim62_q8",
-    "simulacre": "Simulacre 62",
-    "num_pregunta": 8,
-    "statement": "Quina d'aquestes respostes és INCORRECTA en relació amb la modificació del nivell de comandament?",
-    "correct": "D",
-    "explanation": "Article22: Determinació del nivellde comandament.\nElnivell de comandament d'un servei davant d'una situació d'emergència el determina el cap de coordinació territorial\ncorresponent, en funció de lainformació rebuda i de l'escenari de la situació d'emergència i,si escau, d'acord amb les\ninstruccions establertes. El nivellde comandament pot variar a petició del cap d'intervenció, del cap de coordinació\nterritorial,oper decisió del subdirector general competent en l'àmbit operatiu, a través del cap de coordinació de laSala\nCentral de Bombers.\n\n\n\n\n\n\n\n 16\nAcadèmia Bombers Simulacre 62",
+    "id": "academia_sim50_q59",
+    "statement": "La principal autoritat de Protecció Civil en un municipi és:",
+    "correct": "C",
+    "explanation": "Article 40 - Autoritats de protecció civil\n1. Són autoritats de protecció civil:\na) L'alcalde, en l'àmbit municipal.\nb) El conseller o consellera de Governació, en l'àmbit de Catalunya, sens perjudici de les funcions que corresponguin al\npresident o presidenta de la Generalitat en el cas de delegació en emergències declarades \"de interés nacional\", segons\nla legislació de l'Estat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
-    "section": "Simulacre 62",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 50",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Es potmodificar a peticiódel cap d'intervenció",
-      "B": "Es potmodificar a peticiódel cap de coordinació territorial",
-      "C": "Es pot modificarper decisió del subdirectorgeneral operatiu,a través delcap de coordinació de la salacentral de Bombers",
-      "D": "Es pot modificara peticiódel cap de laguàrdia de suport"
+      "A": "El/la Conseller/a d’Interior",
+      "B": "El/la Cap del Servei Territorial de Protecció Civil",
+      "C": "L’alcalde/essa",
+      "D": "El/la Delegat/da del Govern"
     }
   },
   {
-    "id": "academia_sim72_q4",
-    "simulacre": "Simulacre 72",
-    "num_pregunta": 4,
-    "statement": "El sistema de comandament s'estructura en cinc nivells de comandament en funció de les necessitats d'organització. Si el cap d’intervenció és un cap territorial,aquin nivell de comandament correspon aquesta actuació?",
-    "correct": "C",
-    "explanation": "Nivellde comandament 1:cap de sortida.\nNivellde comandament 2:sotscap territorial.\nNivellde comandament 3:cap territorial.\nNivellde comandament 4:cap operatiu.\nNivellde comandament 5:subdirector general competent en l'àmbit operatiu.",
+    "id": "academia_sim50_q88",
+    "statement": "Quin és el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?",
+    "correct": "A",
+    "explanation": "El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en\nels plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una\nrepercussió important.\nÉs un pla d’emergències multirisc i complementari dels plans especials.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pla territorial de Protecció civil de Catalunya (PROCICAT)",
+      "B": "Pla Director del SPEIS",
+      "C": "Pla de Protecció Civil Municipal",
+      "D": "Pla especial d'emergència exterior del sector químic de Catalunya (PLASEQCAT)  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim51_q95",
+    "statement": "A qui correspon exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?",
+    "correct": "C",
+    "explanation": "El Conseller d'Interior és l'autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Govern",
+      "B": "Al president de la Generalitat",
+      "C": "Al Conseller d'Interior",
+      "D": "Al Subdirector General Operatiu del cos de bombers de la Generalitat"
+    }
+  },
+  {
+    "id": "academia_sim53_q23",
+    "statement": "A qui correspondrà evacuar o allunyar les persones dels llocs de perill davant d'una emergència?",
+    "correct": "A",
+    "explanation": "Entre les mesures d'emergència, correspon a l'autoritat de protecció civil d'acordar les següents:\na) Evacuar o allunyar les persones dels llocs de perill.\nb) Recomanar el confinament de persones en llurs domicilis o en llocs segurs, d'acord amb les previsions dels plans\ncorresponents.\nc) Restringir l'accés a zones de perill o a zones d'operació.\nd) Limitar i condicionar l'ús de serveis públics i privats i el consum de béns.\ne) Les altres que es considerin necessàries d'acord amb el que estableix el pla que en cada moment s'apliqui.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'autoritat de protecció civil",
+      "B": "A l'alcalde",
+      "C": "Al delegat del Govern corresponent",
+      "D": "Als serveis de prevenció i extinció d’incendis"
+    }
+  },
+  {
+    "id": "academia_sim53_q65",
+    "statement": "Quina de les següents NO és una finalitat de l'acció pública en matèria de protecció civil?",
+    "correct": "D",
+    "explanation": "L'acció pública en matèria de protecció civil té com a finalitats bàsiques:\na) La previsió dels riscs greus, entesa com a anàlisi objectiva d'aquests i llur localització en el territori.\nb) La prevenció, entesa com el conjunt d'actuacions encaminades tant a la disminució dels riscs com a llur detecció\nimmediata, mitjançant la vigilància.\nc) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l'estructura de\ncoordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes\nrespostes.\nd) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats\npúbliques.\ne) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts\nper aquesta Llei.\nf) La preparació adequada de les persones que pertanyen als grups d'intervenció.\ng) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats\npúbliques.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 53",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La preparació adequada de les persones que pertanyen als grups d'intervenció",
+      "B": "La previsió dels riscs greus",
+      "C": "La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats públiques",
+      "D": "La priorització en el reestabliment del teixit productiu davant dels efectes de les catàstrofes"
+    }
+  },
+  {
+    "id": "academia_sim54_q67",
+    "statement": "El Pla de protecció civil de Catalunya:",
+    "correct": "B",
+    "explanation": "El Pla de protecció civil de Catalunya ha d'ésser aprovat pel Govern a proposta del conseller consellera d'Interior, amb\nl'informe previ de la Comissió de Protecció Civil de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ha d'ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del Govern",
+      "B": "Ha de contenir, entre d'altres, el catàleg de recursos humans i materials disponibles",
+      "C": "Ha d'ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del conseller o consellera d'Interior",
+      "D": "Ha de ser revisat cada dos anys"
+    }
+  },
+  {
+    "id": "academia_sim54_q78",
+    "statement": "Com s'anomena el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?",
+    "correct": "A",
+    "explanation": "El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en\nels plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una\nrepercussió important.\nÉs un pla d’emergències multirisc i complementari dels plans especials.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 54",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Pla territorial de Protecció civil de Catalunya (PROCICAT)",
+      "B": "Pla Director del SPEIS",
+      "C": "Pla de Protecció Civil Municipal",
+      "D": "CAMCAT"
+    }
+  },
+  {
+    "id": "academia_sim58_q20",
+    "statement": "Quina de les següents funcions NO correspon als plens dels ajuntaments:",
+    "correct": "D",
+    "explanation": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l'alcalde o alcaldessa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aprovar els plans d'actuació municipal",
+      "B": "Crear la Comissió Municipal de Protecció Civil",
+      "C": "Aprovar els plans específics municipals",
+      "D": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil"
+    }
+  },
+  {
+    "id": "academia_sim61_q20",
+    "statement": "D'acord amb l'article 132 de l'Estatut, quina competència té la Generalitat de Catalunya en matèria de Protecció Civil?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Compartida",
+      "B": "Exclusiva",
+      "C": "Executiva",
+      "D": "Selectiva"
+    }
+  },
+  {
+    "id": "academia_sim63_q6",
+    "statement": "A qui correspon la funció d'exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?",
+    "correct": "C",
+    "explanation": "El Conseller d'Interior és l'autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Govern",
+      "B": "Al president de la Generalitat",
+      "C": "Al Conseller d'Interior",
+      "D": "Al Subdirector General Operatiu del cos de bombers de la Generalitat"
+    }
+  },
+  {
+    "id": "academia_sim66_q72",
+    "statement": "D'acord amb el que estableix l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els municipis que no disposin de pla de protecció civil:",
+    "correct": "C",
+    "explanation": "Article 10.3. D'acord amb el que estableix l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els\nmunicipis que no disposin de pla de protecció civil correspon a l'alcalde de declarar la situació d'emergència i adoptar, si\ns'escau, les mesures establertes pels articles 8, 9, 10 i 11.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Correspon a les associacions del voluntariat de protecció civil de declarar la situació d'emergència i a l'alcalde/ssa adoptar, si s'escau, les mesures corresponents",
+      "B": "La pregunta és incorrecta. D'acord amb l'article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, els municipis hauran de disposar de pla de protecció civil, en tot cas.",
+      "C": "Correspon a l'alcalde/ssa de declarar la situació d'emergència i adoptar, si s'escau, les mesures corresponents",
+      "D": "Correspon a a l'alcalde/ssa de declarar la situació d'emergència i a les associacions del voluntariat de protecció civil d'adoptar, si s'escau, les mesures corresponents"
+    }
+  },
+  {
+    "id": "academia_sim70_q2",
+    "statement": "Els plans de protecció civil han d'ésser elaborats segons una estructura de contingut homogènia, als efectes de llur integració, la qual ha d'incloure, com a mínim, informació i previsions sobre: (senyala la resposta INCORRECTA)",
+    "correct": "C",
+    "explanation": "Article 20 - Contingut dels plans.\nHauran d'incloure, en tot cas, el procediment d'activació del pla.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El programa d'implantació i de simulacres",
+      "B": "Els nivells d'aplicació del pla",
+      "C": "El procediment de desactivació del pla",
+      "D": "L'anàlisi dels riscs presents"
+    }
+  },
+  {
+    "id": "academia_sim72_q76",
+    "statement": "Quina de les següents afirmacions és FALSA respecte els plans de protecció civil?",
+    "correct": "D",
+    "explanation": "Els plans d'autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas\nd'emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de\nsituacions de risc, catàstrofes i calamitats públiques que els puguin afectar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
     "section": "Simulacre 72",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Nivellde comandament 1",
-      "B": "Nivellde comandament 2",
-      "C": "Nivellde comandament 3",
-      "D": "Nivellde comandament 4"
+      "A": "Poden ser territorials, especials i d'autoprotecció",
+      "B": "Han de ser revisats cada 4 anys",
+      "C": "El pla d'emergències municipal és aprovat pel Ple municipal",
+      "D": "Els plans d'autoprotecció preveuen riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per avaluar-los i tractar-los"
     }
   },
   {
-    "id": "academia_sim127_q28",
-    "simulacre": "Simulacre 127",
-    "num_pregunta": 28,
-    "statement": "Què és l'Incident Command System o sistema de comandament d’incidents (ICS)?",
+    "id": "academia_sim77_q49",
+    "statement": "Quin és el nom del pla territorial d'àmbit superior de protecció civil de Catalunya?",
     "correct": "C",
-    "explanation": "L'incident Command System o sistema de comandament d’incidents (ICS) va ser desenvolupat a la dècada del 1970 als\nEstats Units després d'un seguit d'incendis catastròfics a la interfícieurbana de Califòrnia. Els danys materials van ser\nmolt elevats, imoltes persones van morir o van resultar ferides. El personal assignat per determinar les causes d'aquests\nfets va concloure que no es podia atribuir aquests danys a la manca de recursos o al fracàs de la tàctica.\n www.academiabombers.com\nSorprenentment, els estudis van trobar que els fets es devien a una gestió i una coordinació inadequada. Per millorar\naquesta coordinació igestió de l’emergència, es va crear l'ICS.",
+    "explanation": "PROCICAT = PROtecció CIvil de CATalunya.\nEl CECAT és el centre superior de coordinació i informació de l'estructura de protecció civil de Catalunya.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T22 - Sistema de comandament",
-    "section": "Simulacre 127",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 77",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És un model de coordinació orientat a centralitzar lesdecisions tàctiques dels diferents serveis d’emergències per garantir una actuació uniforme davant de situacions d’especial gravetat o complexitat",
-      "B": "És un sistema d’actuació creat per reforçar la capacitat dels cossos d’emergències mitjançant l’increment de personal, equipaments imitjans disponibles durant elsincidents",
-      "C": "És un sistema de gestió d’emergències creat per millorar lacoordinació ila gestió dels recursos iles actuacions durant un incident",
-      "D": "És un sistema de comandament destinat principalment a establirles funcions dels serveis d’emergències i determinar lescauses dels incidents produïts durant lesintervencions"
+      "A": "CECAT",
+      "B": "TRANSCAT",
+      "C": "PROCICAT",
+      "D": "INFOCAT"
+    }
+  },
+  {
+    "id": "academia_sim89_q34",
+    "statement": "Quina de les següents funcions relacionades amb la protecció civil NO correspon als plens dels ajuntaments?",
+    "correct": "D",
+    "explanation": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l'alcalde o alcaldessa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 89",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aprovar els plans d'actuació municipal",
+      "B": "Crear la Comissió Municipal de Protecció Civil",
+      "C": "Aprovar els plans específics municipals",
+      "D": "Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil"
+    }
+  },
+  {
+    "id": "academia_sim95_q93",
+    "statement": "Indiqueu quins dels plans següents tenen la consideració de plans especials d’emergències de Catalunya:",
+    "correct": "C",
+    "explanation": "Actualment, són objecte de plans especials a Catalunya:\n— Incendis forestals (INFOCAT).\n— Inundacions (INUNCAT).\n— Nevades (NEUCAT).\n— Allaus (ALLAUCAT).\n— Contaminació d’aigües marines (CAMCAT).\n— Ventades (VENTCAT).\n— Sismes (SISMICAT).\n— Accidents aeris (AEROCAT).\n— Accidents químics (PLASEQCAT).\n— Accidents radiològics no nuclears (RADCAT).\n— Transport de mercaderies perilloses per carretera (TRANSCAT).\n— Pandèmies.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "INUNCAT, FERROCAT i VENTCAT",
+      "B": "PLASEQCAT, AMBIENTCAT i ALLAUCAT",
+      "C": "AEROCAT, CAMCAT i RADCAT",
+      "D": "SISMICAT, PROCICAT i NEUCAT"
+    }
+  },
+  {
+    "id": "academia_sim101_q93",
+    "statement": "El pla de protecció civil que s’activa per emergències de riscos NO contemplats en altres plans de protecció civil específics se’n diu:",
+    "correct": "C",
+    "explanation": "El PROCICAT és una eina bàsica en la gestió d’emergències de la protecció civil a Catalunya. Com a Pla territorial recull\nla previsió de resposta a les emergències produïdes per a tots els riscs no previstos als plans d’emergència especials\nelaborats per la Generalitat de Catalunya. Aquesta resposta inclou tant els possibles nivells d’activació com l’estructura\nde resposta i l’operativa aplicables en la gestió de l’emergència.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 101",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "INUNCAT",
+      "B": "INFOCAT",
+      "C": "PROCICAT",
+      "D": "TRANSCAT"
+    }
+  },
+  {
+    "id": "academia_sim126_q2",
+    "statement": "Un municipi sense cap risc especial assignat ha d'ordenar la seva planificació en matèria de protecció civil. Quin pla general han de tenir tots els municipis, integrat en el DUPROCIM?",
+    "correct": "C",
+    "explanation": "Quan s’estableix un comandament unificat, s’enviarà un alt comandament al Centre de Comandament Unificat per\ngarantir la coordinació general i la petició unificada de mitjans estatals.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El PAM",
+      "B": "El pla d'autoprotecció (PAU) del terme municipal",
+      "C": "El PROCICAT",
+      "D": "El PBEM"
+    }
+  },
+  {
+    "id": "academia_sim128_q27",
+    "statement": "L'estructura operativa definida en els plans de protecció civil de Catalunya es resumeix en:",
+    "correct": "C",
+    "explanation": "L'estructura operativa dels plans catalans consta de direcció del pla, comitè d'emergències, grups actuants i centres de\ncoordinació; el consell assessor i el gabinet d'informació són parts del comitè d'emergències, no elements de primer\nnivell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T22 - Riscos naturals i protecció civil",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Direcció del Pla, consell assessor, gabinet d'informació i voluntariat de protecció civil",
+      "B": "Comitè d'emergències, grups actuants, plans d'actuació de grup i CECAT",
+      "C": "Direcció del Pla, comitè d'emergències, grups actuants i centres de coordinació",
+      "D": "Direcció del Pla, comitè d'emergències, sales operatives i punts d'acollida"
     }
   }
 ]

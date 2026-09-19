@@ -1,0 +1,2906 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T22 - Riscos naturals i protecció civil - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T22 - Riscos naturals i protecció civil</h1>
+      </div>
+      <p>57 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim1_q30" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 1 de 57 • ID: academia_sim1_q30</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim1_q30)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. A què es refereixen les sigles del CECAT?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim1_q30, 'A')">
+            <b>A)</b> <span>Al Centre de Coordinació d&#039;Àmbit Territorial</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim1_q30, 'B')">
+            <b>B)</b> <span>Al Consell Executiu de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim1_q30, 'C')">
+            <b>C)</b> <span>Al Centre de Coordinació Operativa de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim1_q30, 'D')">
+            <b>D)</b> <span>A la Comissió de Protecció Civil de Catalunya</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim1_q30">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Al Centre de Coordinació Operativa de Catalunya</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim1_q46" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 2 de 57 • ID: academia_sim1_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim1_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Segons el decret 243/2007, de 6 de novembre, quina Subdirecció General no s&#039;adscriu a la Direcció General de Prevenció, Extinció d&#039;Incendis i Salvaments?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim1_q46, 'A')">
+            <b>A)</b> <span>La SG Operativa</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim1_q46, 'B')">
+            <b>B)</b> <span>La SG Tècnica</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim1_q46, 'C')">
+            <b>C)</b> <span>La SG d&#039;Administració i Recursos Humans</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim1_q46, 'D')">
+            <b>D)</b> <span>La SG de Protecció Civil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim1_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La SG de Protecció Civil</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La SG de Protecció Civil no existeix, s&#039;anomena Direcció General de Protecció Civil, i no s&#039;adscriu a la DGPEIS.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q22" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 3 de 57 • ID: academia_sim8_q22</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q22)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Quin dels següents articles no forma part dels principis generals de la Protecció Civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q22, 'A')">
+            <b>A)</b> <span>Solidaritat en l&#039;assumpció de riscs i danys</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q22, 'B')">
+            <b>B)</b> <span>Responsabilitat pública i autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q22, 'C')">
+            <b>C)</b> <span>Proximitat i immediatesa de l&#039;acció pública</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q22, 'D')">
+            <b>D)</b> <span>Responsabilitat i demora en en la resposta al sinistre</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q22">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Responsabilitat i demora en en la resposta al sinistre</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Definició de demora: &quot;acció de tardar a fer una cosa&quot;.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q55" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 4 de 57 • ID: academia_sim8_q55</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q55)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Aprovar el Pla de Protecció Civil de Catalunya correspon:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q55, 'A')">
+            <b>A)</b> <span>A l&#039;Institut de Seguretat Pública de Catalunya (ISPC)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q55, 'B')">
+            <b>B)</b> <span>Al Govern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q55, 'C')">
+            <b>C)</b> <span>Al President del Govern</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q55, 'D')">
+            <b>D)</b> <span>Al Conseller d&#039;Interior</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q55">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Al Govern</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> És competència del Govern aprovar el Pla de protecció civil de Catalunya, els plans territorials d&#039;àmbit supramunicipal i
+els plans especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim8_q75" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 5 de 57 • ID: academia_sim8_q75</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim8_q75)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. Exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT) correspondrà:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim8_q75, 'A')">
+            <b>A)</b> <span>Al Govern</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim8_q75, 'B')">
+            <b>B)</b> <span>Al president de la Generalitat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim8_q75, 'C')">
+            <b>C)</b> <span>Al Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim8_q75, 'D')">
+            <b>D)</b> <span>Al Subdirector General Operatiu del cos de bombers de la Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim8_q75">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Al Conseller d&#039;Interior</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q16" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 57 • ID: academia_sim9_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Quin d&#039;aquests plans de protecció civil no correspon a un pla especial?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q16, 'A')">
+            <b>A)</b> <span>CAMCAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q16, 'B')">
+            <b>B)</b> <span>INFOCAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q16, 'C')">
+            <b>C)</b> <span>TRANSCAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q16, 'D')">
+            <b>D)</b> <span>PROCICAT  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) PROCICAT  acadèmia bombers</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El PROCICAT no és un pla especial, és un pla TERRITORIAL.
+CAMCAT: contaminació d&#039;aigües marines
+INFOCAT: incendis forestals
+TRANSCAT: transport de mercaderies perilloses</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q49" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 7 de 57 • ID: academia_sim9_q49</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q49)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. En emergències i protecció civil li correspon a la Generalitat:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q49, 'A')">
+            <b>A)</b> <span>La competència exclusiva</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q49, 'B')">
+            <b>B)</b> <span>La competència compartida</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q49, 'C')">
+            <b>C)</b> <span>La competència executiva</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q49, 'D')">
+            <b>D)</b> <span>La competència legislativa</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q49">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) La competència exclusiva</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Respectant, això si, el que estableixi l&#039;Estat en l&#039;exercici de les seves competències en matèria de seguretat pública.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim9_q58" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 8 de 57 • ID: academia_sim9_q58</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q58)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. Els ciutadans i ciutadanes tenen __ ____ a/de participar en els plans de protecció civil.</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q58, 'A')">
+            <b>A)</b> <span>la obligació</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q58, 'B')">
+            <b>B)</b> <span>el dret</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q58, 'C')">
+            <b>C)</b> <span>el deure</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q58, 'D')">
+            <b>D)</b> <span>la predisposició</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q58">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) el dret</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> *Art. 5* (Dret de participació).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim10_q71" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 9 de 57 • ID: academia_sim10_q71</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim10_q71)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Qui s&#039;encarrega de presidir la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim10_q71, 'A')">
+            <b>A)</b> <span>El Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim10_q71, 'B')">
+            <b>B)</b> <span>El Director General de Protecció Civil</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim10_q71, 'C')">
+            <b>C)</b> <span>El delegat de la Generalitat corresponent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim10_q71, 'D')">
+            <b>D)</b> <span>El president de l&#039;associació de municipis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim10_q71">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El Conseller d&#039;Interior</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q63" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 10 de 57 • ID: academia_sim12_q63</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q63)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. Declarar l&#039;activació dels plans de protecció civil d&#039;àmbit de Catalunya és una competència:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q63, 'A')">
+            <b>A)</b> <span>Del Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q63, 'B')">
+            <b>B)</b> <span>Del Govern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q63, 'C')">
+            <b>C)</b> <span>Del CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q63, 'D')">
+            <b>D)</b> <span>Del President de la Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q63">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Del Conseller d&#039;Interior</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q10" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 11 de 57 • ID: academia_sim13_q10</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q10)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 11. L&#039;òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya és:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q10, 'A')">
+            <b>A)</b> <span>El Centre de Coordinació Operativa de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q10, 'B')">
+            <b>B)</b> <span>La Comissió de Protecció Civil de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q10, 'C')">
+            <b>C)</b> <span>Els serveis d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q10, 'D')">
+            <b>D)</b> <span>Les comissions locals de protecció civil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q10">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La Comissió de Protecció Civil de Catalunya</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La Comissió de Protecció Civil de Catalunya es compon de representants de l&#039;Administració de la Generalitat, de
+l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim13_q47" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 12 de 57 • ID: academia_sim13_q47</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim13_q47)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 12. Qui aprova el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim13_q47, 'A')">
+            <b>A)</b> <span>El Govern, per decret</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim13_q47, 'B')">
+            <b>B)</b> <span>El Conseller d&#039;Interior, amb informe previ de les comissions municipals</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim13_q47, 'C')">
+            <b>C)</b> <span>El Conseller d&#039;Interior, amb homologació prèvia del CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim13_q47, 'D')">
+            <b>D)</b> <span>El president del govern, per decret llei</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim13_q47">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El Govern, per decret</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim14_q60" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 13 de 57 • ID: academia_sim14_q60</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim14_q60)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 13. Segons la Llei 276/2016, de 19 de juliol, té la funció d&#039;informar directament al Centre de Coordinació Operativa de Catalunya (CECAT) de tots els serveis que puguin afectar a la protecció civil:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim14_q60, 'A')">
+            <b>A)</b> <span>La Sala Central de Bombers (SCB)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim14_q60, 'B')">
+            <b>B)</b> <span>Les Sales de Control Territorial (SCT)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim14_q60, 'C')">
+            <b>C)</b> <span>El Subdirector general operatiu (SGO)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim14_q60, 'D')">
+            <b>D)</b> <span>El Cap de coordinació de la SCB</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim14_q60">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) La Sala Central de Bombers (SCB)</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim14_q65" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 14 de 57 • ID: academia_sim14_q65</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim14_q65)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 14. Quin nombre màxim d&#039;associacions de voluntaris i voluntàries de protecció civil poden reconèixer els plans de protecció civil per cada municipi?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim14_q65, 'A')">
+            <b>A)</b> <span>Un</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim14_q65, 'B')">
+            <b>B)</b> <span>Dos</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim14_q65, 'C')">
+            <b>C)</b> <span>Tres</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim14_q65, 'D')">
+            <b>D)</b> <span>Cinc</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim14_q65">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Un</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 55: Els plans de protecció civil només poden reconèixer una associació de voluntaris i voluntàries de protecció civil
+per municipi. A aquests efectes, correspon a l&#039;ajuntament determinar l&#039;associació que ha de quedar vinculada
+funcionalment a l&#039;autoritat municipal de protecció civil.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim15_q37" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 15 de 57 • ID: academia_sim15_q37</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim15_q37)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 15. D&#039;acord amb el Decret 155/2014, de 25 de novembre, com s&#039;anomena el document que estableix el marc orgànic i funcional previst per a un municipi, amb l’objecte de prevenir i controlar els riscos sobre les persones i els béns?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim15_q37, 'A')">
+            <b>A)</b> <span>PROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim15_q37, 'B')">
+            <b>B)</b> <span>DUPROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim15_q37, 'C')">
+            <b>C)</b> <span>DUPROCIM</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim15_q37, 'D')">
+            <b>D)</b> <span>DUPBEM</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim15_q37">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) DUPROCIM</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> DUPROCIM = Document Únic de Protecció Civil Municipal.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim16_q93" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 16 de 57 • ID: academia_sim16_q93</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim16_q93)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 16. La creació d&#039;una comissió municipal de protecció civil (CMPC) és obligatòria en municipis amb més de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim16_q93, 'A')">
+            <b>A)</b> <span>20.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim16_q93, 'B')">
+            <b>B)</b> <span>50.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim16_q93, 'C')">
+            <b>C)</b> <span>200.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim16_q93, 'D')">
+            <b>D)</b> <span>500.000 habitants</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim16_q93">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) 50.000 habitants</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> També estaran obligats aquells municipis considerats turístics o que presentin riscos especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim19_q52" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 17 de 57 • ID: academia_sim19_q52</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim19_q52)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 17. El pla territorial d&#039;àmbit superior de protecció civil de Catalunya rep el nom de:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim19_q52, 'A')">
+            <b>A)</b> <span>CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim19_q52, 'B')">
+            <b>B)</b> <span>CECOPAL</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim19_q52, 'C')">
+            <b>C)</b> <span>PROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim19_q52, 'D')">
+            <b>D)</b> <span>INFOCAT</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim19_q52">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) PROCICAT</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> PROCICAT = PROtecció CIvil de CATalunya.
+El CECAT és el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim22_q12" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 18 de 57 • ID: academia_sim22_q12</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim22_q12)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 18. Sobre qui recau la competència d&#039;aprovar el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim22_q12, 'A')">
+            <b>A)</b> <span>Sobre el President o Presidenta de la Generalitat</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim22_q12, 'B')">
+            <b>B)</b> <span>Sobre el Govern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim22_q12, 'C')">
+            <b>C)</b> <span>Sobre el Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim22_q12, 'D')">
+            <b>D)</b> <span>Sobre el conseller o consellera de Governació</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim22_q12">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Sobre el Govern</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> 
+acadèmia
+bombers
+
+Correspon al Govern:
+a) Aprovar el Pla de protecció civil de Catalunya, els plans territorials d&#039;àmbit supramunicipal i els plans especials.
+b) Aprovar el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya.
+c) Aprovar els reglaments generals de desenvolupament i execució d&#039;aquesta Llei, amb l&#039;informe previ de la Comissió de
+Protecció Civil de Catalunya.
+d) Exercir la potestat sancionadora, en els termes establerts per aquesta Llei.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim22_q13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 19 de 57 • ID: academia_sim22_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim22_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 19. Si es produeixen les eventualitats contingudes en un pla de protecció civil, quina figura, en primera instància, tindrà la responsabilitat de declarar-ne formalment l&#039;activació?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim22_q13, 'A')">
+            <b>A)</b> <span>L&#039;alcalde o alcaldessa</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim22_q13, 'B')">
+            <b>B)</b> <span>L&#039;autoritat de protecció civil del pla d&#039;àmbit superior</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim22_q13, 'C')">
+            <b>C)</b> <span>El director o directora d&#039;aquest</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim22_q13, 'D')">
+            <b>D)</b> <span>A la primera persona assenyalada subsidiàriament pel mateix pla</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim22_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El director o directora d&#039;aquest</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Activació dels plans de protecció civil (art. 24):
+1. Si es produeixen les eventualitats contingudes en un pla de protecció civil, el director o directora d&#039;aquest ha de
+declarar-ne formalment l&#039;activació, pel procediment establert pel mateix pla.
+2. En el cas d&#039;impediment del director o directora del pla o en el cas d&#039;una urgència extrema, en correspon la declaració
+d&#039;activació a les persones assenyalades subsidiàriament pel pla, en l&#039;ordre indicat. Si hi manquen, l&#039;autoritat de protecció
+civil del pla d&#039;àmbit superior pot declarar-ne l&#039;activació.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim24_q26" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 20 de 57 • ID: academia_sim24_q26</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim24_q26)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 20. De quin tipus poden ser els plans de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim24_q26, 'A')">
+            <b>A)</b> <span>Concurrents o especials</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim24_q26, 'B')">
+            <b>B)</b> <span>Territorials, especials i d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim24_q26, 'C')">
+            <b>C)</b> <span>Regionals, estatals i d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim24_q26, 'D')">
+            <b>D)</b> <span>Regionals, especials i d&#039;autoprotecció</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim24_q26">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Territorials, especials i d&#039;autoprotecció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Tots els plans de protecció civil han d&#039;estar coordinats i integrats de manera eficaç per a donar resposta a les situacions
+de risc col·lectiu greu, a les catàstrofes o a les calamitats públiques que es produeixin.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim25_q12" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 21 de 57 • ID: academia_sim25_q12</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim25_q12)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 21. Quins representants componen la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim25_q12, 'A')">
+            <b>A)</b> <span>Els representants de l&#039;Administració de l&#039;Estat, els representants de la Generalitat i els representants de l&#039;Administració local de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim25_q12, 'B')">
+            <b>B)</b> <span>Els representants de l&#039;Administració de l&#039;Estat, els representants de l&#039;Administració de la Generalitat, els dels consells comarcals i els dels municipis de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim25_q12, 'C')">
+            <b>C)</b> <span>Els representants de l&#039;Administració de la Generalitat i els de l&#039;Administració de l&#039;Estat a Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim25_q12, 'D')">
+            <b>D)</b> <span>Els representants de l&#039;Administració de la Generalitat, de l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim25_q12">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Els representants de l&#039;Administració de la Generalitat, de l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> *Art. 46*
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim27_q83" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 22 de 57 • ID: academia_sim27_q83</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim27_q83)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 22. Quina competència ostenta la Generalitat en matèria de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim27_q83, 'A')">
+            <b>A)</b> <span>Competència executiva</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim27_q83, 'B')">
+            <b>B)</b> <span>Competència exclusiva</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim27_q83, 'C')">
+            <b>C)</b> <span>Competència compartida</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim27_q83, 'D')">
+            <b>D)</b> <span>Competència reglamentària</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim27_q83">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Competència exclusiva</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Correspon a la Generalitat la competència exclusiva en matèria de protecció civil, que inclou, en tot cas, la regulació, la
+planificació i l’execució de mesures relatives a les emergències i la seguretat civil, i també la direcció i la coordinació dels
+serveis de protecció civil, que inclouen els serveis de prevenció i extinció d’incendis
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim28_q13" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 23 de 57 • ID: academia_sim28_q13</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim28_q13)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 23. A qui correspon la funció de declarar l&#039;activació dels plans de protecció civil d&#039;àmbit autonòmic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim28_q13, 'A')">
+            <b>A)</b> <span>Al CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim28_q13, 'B')">
+            <b>B)</b> <span>Al Govern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim28_q13, 'C')">
+            <b>C)</b> <span>Al Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim28_q13, 'D')">
+            <b>D)</b> <span>Al President de la Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim28_q13">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Al Conseller d&#039;Interior</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim29_q25" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 24 de 57 • ID: academia_sim29_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim29_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 24. Quin tipus de Pla de Protecció Civil preveu, per a empreses, centres i instal·lacions determinades, les actuacions en cas d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de situacions de risc, catàstrofes i calamitats públiques que els puguin afectar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim29_q25, 'A')">
+            <b>A)</b> <span>Els plans especials</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim29_q25, 'B')">
+            <b>B)</b> <span>Els plans d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim29_q25, 'C')">
+            <b>C)</b> <span>Els plans característics</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim29_q25, 'D')">
+            <b>D)</b> <span>Els plans territorials</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim29_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Els plans d&#039;autoprotecció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim29_q47" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 25 de 57 • ID: academia_sim29_q47</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim29_q47)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 25. Quin tipus de plans de protecció civil existeixen?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim29_q47, 'A')">
+            <b>A)</b> <span>Territorials, especials i d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim29_q47, 'B')">
+            <b>B)</b> <span>Autonòmics, territorials i sectorials</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim29_q47, 'C')">
+            <b>C)</b> <span>Territorials, forestals i metropolitans</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim29_q47, 'D')">
+            <b>D)</b> <span>Autonòmics, territorials i especials</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim29_q47">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Territorials, especials i d&#039;autoprotecció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim30_q8" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 26 de 57 • ID: academia_sim30_q8</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim30_q8)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 26. Com s&#039;anomena l&#039;òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim30_q8, 'A')">
+            <b>A)</b> <span>Centre de Coordinació Operativa de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim30_q8, 'B')">
+            <b>B)</b> <span>CECOPAL</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim30_q8, 'C')">
+            <b>C)</b> <span>Comissió de Protecció Civil de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim30_q8, 'D')">
+            <b>D)</b> <span>Comissions autonòmiques de protecció civil  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim30_q8">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Comissió de Protecció Civil de Catalunya</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La Comissió de Protecció Civil de Catalunya es compon de representants de l&#039;Administració de la Generalitat, de
+l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim34_q1" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 27 de 57 • ID: academia_sim34_q1</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim34_q1)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 27. En matèria de Protecció Civil, quina de les següents funcions correspon al Govern?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim34_q1, 'A')">
+            <b>A)</b> <span>La d&#039;elaborar i mantenir el Catàleg de recursos i serveis mobilitzables per a la protecció civil a Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim34_q1, 'B')">
+            <b>B)</b> <span>La d&#039;exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (Cecat)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim34_q1, 'C')">
+            <b>C)</b> <span>La de presidir la Comissió de Protecció Civil de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim34_q1, 'D')">
+            <b>D)</b> <span>La d&#039;elaborar i aprovar el Mapa de protecció civil de Catalunya</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim34_q1">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La d&#039;elaborar i aprovar el Mapa de protecció civil de Catalunya</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La resta de respostes són competència del Conseller/a d&#039;Interior.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim35_q14" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 28 de 57 • ID: academia_sim35_q14</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim35_q14)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 28. Quin nombre d&#039;habitants mínim obligarà a un municipi a elaborar i aprovar plans bàsics d&#039;emergència municipal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim35_q14, 'A')">
+            <b>A)</b> <span>Cinquanta mil</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim35_q14, 'B')">
+            <b>B)</b> <span>Cent mil</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim35_q14, 'C')">
+            <b>C)</b> <span>Deu mil</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim35_q14, 'D')">
+            <b>D)</b> <span>Vint mil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim35_q14">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Vint mil</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Art. 17.2 - 4/1997, de Protecció Civil.
+Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població, tenen la
+consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat industrial,
+segons la Comissió de Protecció Civil de Catalunya, han d&#039;elaborar i aprovar plans bàsics d&#039;emergència municipal que
+garanteixin la coordinació i l&#039;aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els plans bàsics
+d&#039;emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la informació pública i
+l&#039;informe previs de la comissió municipal de protecció civil, si n&#039;hi ha, i són homologats per la Comissió de Protecció Civil
+de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim35_q25" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 29 de 57 • ID: academia_sim35_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim35_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 29. Qui té competències en matèria de seguretat pública i, per tant, en la vessant de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim35_q25, 'A')">
+            <b>A)</b> <span>El Tribunal Constitucional</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim35_q25, 'B')">
+            <b>B)</b> <span>L&#039;Estat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim35_q25, 'C')">
+            <b>C)</b> <span>L&#039;Estat i la Generalitat, de forma compartida</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim35_q25, 'D')">
+            <b>D)</b> <span>La Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim35_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La Generalitat</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim36_q94" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 30 de 57 • ID: academia_sim36_q94</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim36_q94)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 30. Quin tipus de Plans de Protecció Civil s&#039;associen a alguna activitat, centre o instal·lació concrets?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim36_q94, 'A')">
+            <b>A)</b> <span>Els plans especials</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim36_q94, 'B')">
+            <b>B)</b> <span>Els plans territorials</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim36_q94, 'C')">
+            <b>C)</b> <span>Els plans característics</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim36_q94, 'D')">
+            <b>D)</b> <span>Els plans d&#039;autoprotecció</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim36_q94">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Els plans d&#039;autoprotecció</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim38_q8" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 31 de 57 • ID: academia_sim38_q8</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim38_q8)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 31. Quina de les següents és una finalitat bàsica de l&#039;acció pública en matèria de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim38_q8, 'A')">
+            <b>A)</b> <span>La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim38_q8, 'B')">
+            <b>B)</b> <span>La proximitat i immediatesa de l&#039;acció pública</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim38_q8, 'C')">
+            <b>C)</b> <span>La responsabilitat pública i autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim38_q8, 'D')">
+            <b>D)</b> <span>La solidaritat en l&#039;assumpció de riscs i danys  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim38_q8">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La resta de les opcions fan referència a principis generals.
+L&#039;acció pública en matèria de protecció civil té com a finalitats bàsiques:
+a) La previsió dels riscs greus, entesa com a anàlisi objectiva d&#039;aquests i llur localització en el territori.
+b) La prevenció, entesa com el conjunt d&#039;actuacions encaminades tant a la disminució dels riscs com a llur detecció
+immediata, mitjançant la vigilància.
+c) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l&#039;estructura de
+coordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes
+respostes.
+d) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats
+públiques.
+e) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts
+per aquesta Llei.
+f) La preparació adequada de les persones que pertanyen als grups d&#039;intervenció.
+g) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats
+públiques.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim39_q48" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 32 de 57 • ID: academia_sim39_q48</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim39_q48)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 32. La protecció civil s&#039;inspira en quatre principis. Indica el principi incorrecte:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim39_q48, 'A')">
+            <b>A)</b> <span>Principi de solidaritat en l&#039;assumpció de riscs i danys</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim39_q48, 'B')">
+            <b>B)</b> <span>Principi de proximitat i immediatesa de l&#039;acció pública</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim39_q48, 'C')">
+            <b>C)</b> <span>Principi de responsabilitat pública i autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim39_q48, 'D')">
+            <b>D)</b> <span>Principi d&#039;apatia i d&#039;individualitat  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim39_q48">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Principi d&#039;apatia i d&#039;individualitat  acadèmia bombers</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 2
+1. La protecció civil s&#039;inspira en els principis de:
+a) Solidaritat en l&#039;assumpció de riscs i danys.
+b) Responsabilitat pública i autoprotecció.
+c) Proximitat i immediatesa de l&#039;acció pública.
+d) Integració de plans i recursos.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim40_q69" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 33 de 57 • ID: academia_sim40_q69</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim40_q69)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 33. El Mapa de protecció civil de Catalunya:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim40_q69, 'A')">
+            <b>A)</b> <span>L&#039;elabora el Govern</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim40_q69, 'B')">
+            <b>B)</b> <span>L&#039;aprova el Govern</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim40_q69, 'C')">
+            <b>C)</b> <span>L&#039;elabora la Comissió de Protecció Civil de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim40_q69, 'D')">
+            <b>D)</b> <span>Les respostes a) i b) són correctes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim40_q69">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Les respostes a) i b) són correctes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Govern ha d&#039;elaborar i aprovar el Mapa de protecció civil de Catalunya, en un termini de dos anys des de l&#039;entrada en
+vigor d&#039;aquesta Llei. El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials
+en les quals és present cada risc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim41_q58" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 34 de 57 • ID: academia_sim41_q58</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim41_q58)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 34. De quin tipus són el conjunt de mapes que configuren el Mapa de protecció civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim41_q58, 'A')">
+            <b>A)</b> <span>Temàtics</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim41_q58, 'B')">
+            <b>B)</b> <span>Topogràfics</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim41_q58, 'C')">
+            <b>C)</b> <span>Pluviomètrics</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim41_q58, 'D')">
+            <b>D)</b> <span>Coroplètics</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim41_q58">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Temàtics</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials en les quals és
+present cada risc.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim42_q56" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 35 de 57 • ID: academia_sim42_q56</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim42_q56)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 35. De quins tipus poden ser els plans de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim42_q56, 'A')">
+            <b>A)</b> <span>Territorials i sectorials</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim42_q56, 'B')">
+            <b>B)</b> <span>Territorials, especials i d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim42_q56, 'C')">
+            <b>C)</b> <span>Territorials, forestals i metropolitans</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim42_q56, 'D')">
+            <b>D)</b> <span>Preventius i de recuperació  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim42_q56">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Territorials, especials i d&#039;autoprotecció</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim44_q14" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 36 de 57 • ID: academia_sim44_q14</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim44_q14)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 36. Què és el CECAT?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim44_q14, 'A')">
+            <b>A)</b> <span>És el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim44_q14, 'B')">
+            <b>B)</b> <span>Un pla que s’aplica per gestionar riscos o emergències no inclosos en els plans especials</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim44_q14, 'C')">
+            <b>C)</b> <span>El pla de Coordinació Executiva de Catalunya</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim44_q14, 'D')">
+            <b>D)</b> <span>Totes les respostes són incorrectes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim44_q14">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) És el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Centre de Coordinació Operativa de Catalunya (CECAT) és el centre superior de coordinació i informació de
+l&#039;estructura de protecció civil de Catalunya. Vetlla per la bona gestió de les emergències a través de la coordinació dels
+diferents cossos operatius, organismes i institucions involucrades en la resolució de situacions en què calgui l’activació
+d’un pla d’emergències. Té com a última finalitat la seguretat de les persones, dels seus béns i drets, i també la previsió i
+la minimització dels efectes que poden patir en cas d’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim46_q6" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 37 de 57 • ID: academia_sim46_q6</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim46_q6)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 37. A partir de quin número d&#039;habitants un municipi estarà obligat a elaborar un Pla Bàsic d&#039;Emergències Municipal (PBEM), si no està considerat com a turístic ni presenta cap risc especial?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim46_q6, 'A')">
+            <b>A)</b> <span>A partir dels 50.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim46_q6, 'B')">
+            <b>B)</b> <span>A partir dels 10.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim46_q6, 'C')">
+            <b>C)</b> <span>A partir dels 5.000 habitants</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim46_q6, 'D')">
+            <b>D)</b> <span>A partir dels 20.000 habitants</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim46_q6">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) A partir dels 20.000 habitants</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 17.2: Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població,
+tenen la consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat
+industrial, segons la Comissió de Protecció Civil de Catalunya, han d&#039;elaborar i aprovar plans bàsics d&#039;emergència
+municipal que garanteixin la coordinació i l&#039;aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els
+plans bàsics d&#039;emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la
+informació pública i l&#039;informe previs de la comissió municipal de protecció civil, si n&#039;hi ha, i són homologats per la
+Comissió de Protecció Civil de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim50_q16" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 38 de 57 • ID: academia_sim50_q16</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim50_q16)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 38. El pla especial d’emergències per nevades a Catalunya (NEUCAT) és un pla de tipus:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim50_q16, 'A')">
+            <b>A)</b> <span>Pla territorial</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim50_q16, 'B')">
+            <b>B)</b> <span>Pla especial</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim50_q16, 'C')">
+            <b>C)</b> <span>Pla d’Autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim50_q16, 'D')">
+            <b>D)</b> <span>Pla de protecció civil municipal  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim50_q16">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Pla especial</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Pla especial d&#039;emergències per nevades a Catalunya (NEUCAT) constitueix un pla especial amb la finalitat de disposar
+d’una planificació d’emergències que permeti afrontar i gestionar eficaçment les incidències i emergències per nevades
+que es donin dins l’àmbit territorial de Catalunya.
+Plans especials de Catalunya:
+AEROCAT
+ALLAUCAT
+CAMCAT
+INFOCAT
+INUNCAT
+NEUCAT
+Pla especial d’emergències per pandèmies
+PLASEQCAT i PLASEQTA
+RADCAT
+SISMICAT
+TRANSCAT
+VENTCAT</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim50_q59" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 39 de 57 • ID: academia_sim50_q59</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim50_q59)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 39. La principal autoritat de Protecció Civil en un municipi és:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim50_q59, 'A')">
+            <b>A)</b> <span>El/la Conseller/a d’Interior</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim50_q59, 'B')">
+            <b>B)</b> <span>El/la Cap del Servei Territorial de Protecció Civil</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim50_q59, 'C')">
+            <b>C)</b> <span>L’alcalde/essa</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim50_q59, 'D')">
+            <b>D)</b> <span>El/la Delegat/da del Govern</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim50_q59">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) L’alcalde/essa</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 40 - Autoritats de protecció civil
+1. Són autoritats de protecció civil:
+a) L&#039;alcalde, en l&#039;àmbit municipal.
+b) El conseller o consellera de Governació, en l&#039;àmbit de Catalunya, sens perjudici de les funcions que corresponguin al
+president o presidenta de la Generalitat en el cas de delegació en emergències declarades &quot;de interés nacional&quot;, segons
+la legislació de l&#039;Estat.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim50_q88" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 40 de 57 • ID: academia_sim50_q88</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim50_q88)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 40. Quin és el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim50_q88, 'A')">
+            <b>A)</b> <span>Pla territorial de Protecció civil de Catalunya (PROCICAT)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim50_q88, 'B')">
+            <b>B)</b> <span>Pla Director del SPEIS</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim50_q88, 'C')">
+            <b>C)</b> <span>Pla de Protecció Civil Municipal</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim50_q88, 'D')">
+            <b>D)</b> <span>Pla especial d&#039;emergència exterior del sector químic de Catalunya (PLASEQCAT)  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim50_q88">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Pla territorial de Protecció civil de Catalunya (PROCICAT)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en
+els plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una
+repercussió important.
+És un pla d’emergències multirisc i complementari dels plans especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim51_q95" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 41 de 57 • ID: academia_sim51_q95</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim51_q95)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 41. A qui correspon exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim51_q95, 'A')">
+            <b>A)</b> <span>Al Govern</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim51_q95, 'B')">
+            <b>B)</b> <span>Al president de la Generalitat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim51_q95, 'C')">
+            <b>C)</b> <span>Al Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim51_q95, 'D')">
+            <b>D)</b> <span>Al Subdirector General Operatiu del cos de bombers de la Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim51_q95">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Al Conseller d&#039;Interior</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim53_q23" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 42 de 57 • ID: academia_sim53_q23</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim53_q23)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 42. A qui correspondrà evacuar o allunyar les persones dels llocs de perill davant d&#039;una emergència?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim53_q23, 'A')">
+            <b>A)</b> <span>A l&#039;autoritat de protecció civil</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim53_q23, 'B')">
+            <b>B)</b> <span>A l&#039;alcalde</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim53_q23, 'C')">
+            <b>C)</b> <span>Al delegat del Govern corresponent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim53_q23, 'D')">
+            <b>D)</b> <span>Als serveis de prevenció i extinció d’incendis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim53_q23">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) A l&#039;autoritat de protecció civil</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Entre les mesures d&#039;emergència, correspon a l&#039;autoritat de protecció civil d&#039;acordar les següents:
+a) Evacuar o allunyar les persones dels llocs de perill.
+b) Recomanar el confinament de persones en llurs domicilis o en llocs segurs, d&#039;acord amb les previsions dels plans
+corresponents.
+c) Restringir l&#039;accés a zones de perill o a zones d&#039;operació.
+d) Limitar i condicionar l&#039;ús de serveis públics i privats i el consum de béns.
+e) Les altres que es considerin necessàries d&#039;acord amb el que estableix el pla que en cada moment s&#039;apliqui.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim53_q65" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 43 de 57 • ID: academia_sim53_q65</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim53_q65)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 43. Quina de les següents NO és una finalitat de l&#039;acció pública en matèria de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim53_q65, 'A')">
+            <b>A)</b> <span>La preparació adequada de les persones que pertanyen als grups d&#039;intervenció</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim53_q65, 'B')">
+            <b>B)</b> <span>La previsió dels riscs greus</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim53_q65, 'C')">
+            <b>C)</b> <span>La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats públiques</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim53_q65, 'D')">
+            <b>D)</b> <span>La priorització en el reestabliment del teixit productiu davant dels efectes de les catàstrofes</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim53_q65">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) La priorització en el reestabliment del teixit productiu davant dels efectes de les catàstrofes</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;acció pública en matèria de protecció civil té com a finalitats bàsiques:
+a) La previsió dels riscs greus, entesa com a anàlisi objectiva d&#039;aquests i llur localització en el territori.
+b) La prevenció, entesa com el conjunt d&#039;actuacions encaminades tant a la disminució dels riscs com a llur detecció
+immediata, mitjançant la vigilància.
+c) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l&#039;estructura de
+coordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes
+respostes.
+d) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats
+públiques.
+e) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts
+per aquesta Llei.
+f) La preparació adequada de les persones que pertanyen als grups d&#039;intervenció.
+g) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats
+públiques.
+
+
+acadèmia
+bombers</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim54_q67" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 44 de 57 • ID: academia_sim54_q67</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim54_q67)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 44. El Pla de protecció civil de Catalunya:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim54_q67, 'A')">
+            <b>A)</b> <span>Ha d&#039;ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del Govern</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim54_q67, 'B')">
+            <b>B)</b> <span>Ha de contenir, entre d&#039;altres, el catàleg de recursos humans i materials disponibles</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim54_q67, 'C')">
+            <b>C)</b> <span>Ha d&#039;ésser aprovat per la Comissió de Protecció Civil de Catalunya a proposta del conseller o consellera d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim54_q67, 'D')">
+            <b>D)</b> <span>Ha de ser revisat cada dos anys</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim54_q67">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Ha de contenir, entre d&#039;altres, el catàleg de recursos humans i materials disponibles</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Pla de protecció civil de Catalunya ha d&#039;ésser aprovat pel Govern a proposta del conseller consellera d&#039;Interior, amb
+l&#039;informe previ de la Comissió de Protecció Civil de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim54_q78" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 45 de 57 • ID: academia_sim54_q78</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim54_q78)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 45. Com s&#039;anomena el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim54_q78, 'A')">
+            <b>A)</b> <span>Pla territorial de Protecció civil de Catalunya (PROCICAT)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim54_q78, 'B')">
+            <b>B)</b> <span>Pla Director del SPEIS</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim54_q78, 'C')">
+            <b>C)</b> <span>Pla de Protecció Civil Municipal</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim54_q78, 'D')">
+            <b>D)</b> <span>CAMCAT</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim54_q78">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Pla territorial de Protecció civil de Catalunya (PROCICAT)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en
+els plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una
+repercussió important.
+És un pla d’emergències multirisc i complementari dels plans especials.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim58_q20" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 46 de 57 • ID: academia_sim58_q20</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim58_q20)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 46. Quina de les següents funcions NO correspon als plens dels ajuntaments:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim58_q20, 'A')">
+            <b>A)</b> <span>Aprovar els plans d&#039;actuació municipal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim58_q20, 'B')">
+            <b>B)</b> <span>Crear la Comissió Municipal de Protecció Civil</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim58_q20, 'C')">
+            <b>C)</b> <span>Aprovar els plans específics municipals</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim58_q20, 'D')">
+            <b>D)</b> <span>Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim58_q20">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l&#039;alcalde o alcaldessa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim61_q20" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 47 de 57 • ID: academia_sim61_q20</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim61_q20)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 47. D&#039;acord amb l&#039;article 132 de l&#039;Estatut, quina competència té la Generalitat de Catalunya en matèria de Protecció Civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim61_q20, 'A')">
+            <b>A)</b> <span>Compartida</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim61_q20, 'B')">
+            <b>B)</b> <span>Exclusiva</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim61_q20, 'C')">
+            <b>C)</b> <span>Executiva</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim61_q20, 'D')">
+            <b>D)</b> <span>Selectiva</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim61_q20">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Exclusiva</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim63_q6" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 48 de 57 • ID: academia_sim63_q6</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim63_q6)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 48. A qui correspon la funció d&#039;exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim63_q6, 'A')">
+            <b>A)</b> <span>Al Govern</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim63_q6, 'B')">
+            <b>B)</b> <span>Al president de la Generalitat</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim63_q6, 'C')">
+            <b>C)</b> <span>Al Conseller d&#039;Interior</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim63_q6, 'D')">
+            <b>D)</b> <span>Al Subdirector General Operatiu del cos de bombers de la Generalitat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim63_q6">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Al Conseller d&#039;Interior</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim66_q72" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 49 de 57 • ID: academia_sim66_q72</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim66_q72)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 49. D&#039;acord amb el que estableix l&#039;article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els municipis que no disposin de pla de protecció civil:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim66_q72, 'A')">
+            <b>A)</b> <span>Correspon a les associacions del voluntariat de protecció civil de declarar la situació d&#039;emergència i a l&#039;alcalde/ssa adoptar, si s&#039;escau, les mesures corresponents</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim66_q72, 'B')">
+            <b>B)</b> <span>La pregunta és incorrecta. D&#039;acord amb l&#039;article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, els municipis hauran de disposar de pla de protecció civil, en tot cas.</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim66_q72, 'C')">
+            <b>C)</b> <span>Correspon a l&#039;alcalde/ssa de declarar la situació d&#039;emergència i adoptar, si s&#039;escau, les mesures corresponents</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim66_q72, 'D')">
+            <b>D)</b> <span>Correspon a a l&#039;alcalde/ssa de declarar la situació d&#039;emergència i a les associacions del voluntariat de protecció civil d&#039;adoptar, si s&#039;escau, les mesures corresponents</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim66_q72">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Correspon a l&#039;alcalde/ssa de declarar la situació d&#039;emergència i adoptar, si s&#039;escau, les mesures corresponents</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 10.3. D&#039;acord amb el que estableix l&#039;article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els
+municipis que no disposin de pla de protecció civil correspon a l&#039;alcalde de declarar la situació d&#039;emergència i adoptar, si
+s&#039;escau, les mesures establertes pels articles 8, 9, 10 i 11.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim70_q2" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 50 de 57 • ID: academia_sim70_q2</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim70_q2)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 50. Els plans de protecció civil han d&#039;ésser elaborats segons una estructura de contingut homogènia, als efectes de llur integració, la qual ha d&#039;incloure, com a mínim, informació i previsions sobre: (senyala la resposta INCORRECTA)</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim70_q2, 'A')">
+            <b>A)</b> <span>El programa d&#039;implantació i de simulacres</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim70_q2, 'B')">
+            <b>B)</b> <span>Els nivells d&#039;aplicació del pla</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim70_q2, 'C')">
+            <b>C)</b> <span>El procediment de desactivació del pla</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim70_q2, 'D')">
+            <b>D)</b> <span>L&#039;anàlisi dels riscs presents</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim70_q2">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El procediment de desactivació del pla</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Article 20 - Contingut dels plans.
+Hauran d&#039;incloure, en tot cas, el procediment d&#039;activació del pla.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim72_q76" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 51 de 57 • ID: academia_sim72_q76</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim72_q76)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 51. Quina de les següents afirmacions és FALSA respecte els plans de protecció civil?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim72_q76, 'A')">
+            <b>A)</b> <span>Poden ser territorials, especials i d&#039;autoprotecció</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim72_q76, 'B')">
+            <b>B)</b> <span>Han de ser revisats cada 4 anys</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim72_q76, 'C')">
+            <b>C)</b> <span>El pla d&#039;emergències municipal és aprovat pel Ple municipal</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim72_q76, 'D')">
+            <b>D)</b> <span>Els plans d&#039;autoprotecció preveuen riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per avaluar-los i tractar-los</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim72_q76">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Els plans d&#039;autoprotecció preveuen riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per avaluar-los i tractar-los</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim77_q49" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 52 de 57 • ID: academia_sim77_q49</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim77_q49)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 52. Quin és el nom del pla territorial d&#039;àmbit superior de protecció civil de Catalunya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim77_q49, 'A')">
+            <b>A)</b> <span>CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim77_q49, 'B')">
+            <b>B)</b> <span>TRANSCAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim77_q49, 'C')">
+            <b>C)</b> <span>PROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim77_q49, 'D')">
+            <b>D)</b> <span>INFOCAT</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim77_q49">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) PROCICAT</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> PROCICAT = PROtecció CIvil de CATalunya.
+El CECAT és el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim89_q34" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 53 de 57 • ID: academia_sim89_q34</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim89_q34)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 53. Quina de les següents funcions relacionades amb la protecció civil NO correspon als plens dels ajuntaments?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim89_q34, 'A')">
+            <b>A)</b> <span>Aprovar els plans d&#039;actuació municipal</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim89_q34, 'B')">
+            <b>B)</b> <span>Crear la Comissió Municipal de Protecció Civil</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim89_q34, 'C')">
+            <b>C)</b> <span>Aprovar els plans específics municipals</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim89_q34, 'D')">
+            <b>D)</b> <span>Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim89_q34">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l&#039;alcalde o alcaldessa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim95_q93" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 54 de 57 • ID: academia_sim95_q93</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim95_q93)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 54. Indiqueu quins dels plans següents tenen la consideració de plans especials d’emergències de Catalunya:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim95_q93, 'A')">
+            <b>A)</b> <span>INUNCAT, FERROCAT i VENTCAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim95_q93, 'B')">
+            <b>B)</b> <span>PLASEQCAT, AMBIENTCAT i ALLAUCAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim95_q93, 'C')">
+            <b>C)</b> <span>AEROCAT, CAMCAT i RADCAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim95_q93, 'D')">
+            <b>D)</b> <span>SISMICAT, PROCICAT i NEUCAT</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim95_q93">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) AEROCAT, CAMCAT i RADCAT</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Actualment, són objecte de plans especials a Catalunya:
+— Incendis forestals (INFOCAT).
+— Inundacions (INUNCAT).
+— Nevades (NEUCAT).
+— Allaus (ALLAUCAT).
+— Contaminació d’aigües marines (CAMCAT).
+— Ventades (VENTCAT).
+— Sismes (SISMICAT).
+— Accidents aeris (AEROCAT).
+— Accidents químics (PLASEQCAT).
+— Accidents radiològics no nuclears (RADCAT).
+— Transport de mercaderies perilloses per carretera (TRANSCAT).
+— Pandèmies.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim101_q93" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 55 de 57 • ID: academia_sim101_q93</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim101_q93)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 55. El pla de protecció civil que s’activa per emergències de riscos NO contemplats en altres plans de protecció civil específics se’n diu:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim101_q93, 'A')">
+            <b>A)</b> <span>INUNCAT</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim101_q93, 'B')">
+            <b>B)</b> <span>INFOCAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim101_q93, 'C')">
+            <b>C)</b> <span>PROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim101_q93, 'D')">
+            <b>D)</b> <span>TRANSCAT</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim101_q93">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) PROCICAT</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El PROCICAT és una eina bàsica en la gestió d’emergències de la protecció civil a Catalunya. Com a Pla territorial recull
+la previsió de resposta a les emergències produïdes per a tots els riscs no previstos als plans d’emergència especials
+elaborats per la Generalitat de Catalunya. Aquesta resposta inclou tant els possibles nivells d’activació com l’estructura
+de resposta i l’operativa aplicables en la gestió de l’emergència.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim126_q2" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 56 de 57 • ID: academia_sim126_q2</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim126_q2)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 56. Un municipi sense cap risc especial assignat ha d&#039;ordenar la seva planificació en matèria de protecció civil. Quin pla general han de tenir tots els municipis, integrat en el DUPROCIM?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim126_q2, 'A')">
+            <b>A)</b> <span>El PAM</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim126_q2, 'B')">
+            <b>B)</b> <span>El pla d&#039;autoprotecció (PAU) del terme municipal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim126_q2, 'C')">
+            <b>C)</b> <span>El PROCICAT</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim126_q2, 'D')">
+            <b>D)</b> <span>El PBEM</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim126_q2">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) El PROCICAT</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Quan s’estableix un comandament unificat, s’enviarà un alt comandament al Centre de Comandament Unificat per
+garantir la coordinació general i la petició unificada de mitjans estatals.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim128_q27" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 57 de 57 • ID: academia_sim128_q27</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim128_q27)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 57. L&#039;estructura operativa definida en els plans de protecció civil de Catalunya es resumeix en:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim128_q27, 'A')">
+            <b>A)</b> <span>Direcció del Pla, consell assessor, gabinet d&#039;informació i voluntariat de protecció civil</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim128_q27, 'B')">
+            <b>B)</b> <span>Comitè d&#039;emergències, grups actuants, plans d&#039;actuació de grup i CECAT</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim128_q27, 'C')">
+            <b>C)</b> <span>Direcció del Pla, comitè d&#039;emergències, grups actuants i centres de coordinació</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim128_q27, 'D')">
+            <b>D)</b> <span>Direcció del Pla, comitè d&#039;emergències, sales operatives i punts d&#039;acollida</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim128_q27">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Direcció del Pla, comitè d&#039;emergències, grups actuants i centres de coordinació</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;estructura operativa dels plans catalans consta de direcció del pla, comitè d&#039;emergències, grups actuants i centres de
+coordinació; el consell assessor i el gabinet d&#039;informació són parts del comitè d&#039;emergències, no elements de primer
+nivell.</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T22 - Riscos naturals i protecció civil (57 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 15</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 16</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 17</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 18</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 19</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 20</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 21</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 22</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 23</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 24</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 25</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 26</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 27</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 28</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 29</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 30</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 31</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 32</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 33</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 34</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 35</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 36</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 37</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 38</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 39</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 40</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 41</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 42</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 43</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 44</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 45</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 46</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 47</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 48</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 49</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 50</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 51</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 52</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 53</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 54</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 55</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 56</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 57</span>
+        <b>C</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. A què es refereixen les sigles del CECAT?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Al Centre de Coordinació Operativa de Catalunya</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Segons el decret 243/2007, de 6 de novembre, quina Subdirecció General no s&#039;adscriu a la Direcció General de Prevenció, Extinció d&#039;Incendis i Salvaments?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La SG de Protecció Civil<br>&bull; <b>Explicació:</b> La SG de Protecció Civil no existeix, s&#039;anomena Direcció General de Protecció Civil, i no s&#039;adscriu a la DGPEIS.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Quin dels següents articles no forma part dels principis generals de la Protecció Civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Responsabilitat i demora en en la resposta al sinistre<br>&bull; <b>Explicació:</b> Definició de demora: &quot;acció de tardar a fer una cosa&quot;.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Aprovar el Pla de Protecció Civil de Catalunya correspon:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Al Govern<br>&bull; <b>Explicació:</b> És competència del Govern aprovar el Pla de protecció civil de Catalunya, els plans territorials d&#039;àmbit supramunicipal i
+els plans especials.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT) correspondrà:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Al Conseller d&#039;Interior<br>&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Quin d&#039;aquests plans de protecció civil no correspon a un pla especial?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> PROCICAT  acadèmia bombers<br>&bull; <b>Explicació:</b> El PROCICAT no és un pla especial, és un pla TERRITORIAL.
+CAMCAT: contaminació d&#039;aigües marines
+INFOCAT: incendis forestals
+TRANSCAT: transport de mercaderies perilloses</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. En emergències i protecció civil li correspon a la Generalitat:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> La competència exclusiva<br>&bull; <b>Explicació:</b> Respectant, això si, el que estableixi l&#039;Estat en l&#039;exercici de les seves competències en matèria de seguretat pública.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. Els ciutadans i ciutadanes tenen __ ____ a/de participar en els plans de protecció civil.</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> el dret<br>&bull; <b>Explicació:</b> *Art. 5* (Dret de participació).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Qui s&#039;encarrega de presidir la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El Conseller d&#039;Interior</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Declarar l&#039;activació dels plans de protecció civil d&#039;àmbit de Catalunya és una competència:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Del Conseller d&#039;Interior</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. L&#039;òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya és:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La Comissió de Protecció Civil de Catalunya<br>&bull; <b>Explicació:</b> La Comissió de Protecció Civil de Catalunya es compon de representants de l&#039;Administració de la Generalitat, de
+l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. Qui aprova el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El Govern, per decret</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. Segons la Llei 276/2016, de 19 de juliol, té la funció d&#039;informar directament al Centre de Coordinació Operativa de Catalunya (CECAT) de tots els serveis que puguin afectar a la protecció civil:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> La Sala Central de Bombers (SCB)</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Quin nombre màxim d&#039;associacions de voluntaris i voluntàries de protecció civil poden reconèixer els plans de protecció civil per cada municipi?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Un<br>&bull; <b>Explicació:</b> Article 55: Els plans de protecció civil només poden reconèixer una associació de voluntaris i voluntàries de protecció civil
+per municipi. A aquests efectes, correspon a l&#039;ajuntament determinar l&#039;associació que ha de quedar vinculada
+funcionalment a l&#039;autoritat municipal de protecció civil.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 15. D&#039;acord amb el Decret 155/2014, de 25 de novembre, com s&#039;anomena el document que estableix el marc orgànic i funcional previst per a un municipi, amb l’objecte de prevenir i controlar els riscos sobre les persones i els béns?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> DUPROCIM<br>&bull; <b>Explicació:</b> DUPROCIM = Document Únic de Protecció Civil Municipal.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 16. La creació d&#039;una comissió municipal de protecció civil (CMPC) és obligatòria en municipis amb més de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> 50.000 habitants<br>&bull; <b>Explicació:</b> També estaran obligats aquells municipis considerats turístics o que presentin riscos especials.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 17. El pla territorial d&#039;àmbit superior de protecció civil de Catalunya rep el nom de:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> PROCICAT<br>&bull; <b>Explicació:</b> PROCICAT = PROtecció CIvil de CATalunya.
+El CECAT és el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 18. Sobre qui recau la competència d&#039;aprovar el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Sobre el Govern<br>&bull; <b>Explicació:</b> 
+acadèmia
+bombers
+
+Correspon al Govern:
+a) Aprovar el Pla de protecció civil de Catalunya, els plans territorials d&#039;àmbit supramunicipal i els plans especials.
+b) Aprovar el Reglament d&#039;organització i funcionament de la Comissió de Protecció Civil de Catalunya.
+c) Aprovar els reglaments generals de desenvolupament i execució d&#039;aquesta Llei, amb l&#039;informe previ de la Comissió de
+Protecció Civil de Catalunya.
+d) Exercir la potestat sancionadora, en els termes establerts per aquesta Llei.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 19. Si es produeixen les eventualitats contingudes en un pla de protecció civil, quina figura, en primera instància, tindrà la responsabilitat de declarar-ne formalment l&#039;activació?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El director o directora d&#039;aquest<br>&bull; <b>Explicació:</b> Activació dels plans de protecció civil (art. 24):
+1. Si es produeixen les eventualitats contingudes en un pla de protecció civil, el director o directora d&#039;aquest ha de
+declarar-ne formalment l&#039;activació, pel procediment establert pel mateix pla.
+2. En el cas d&#039;impediment del director o directora del pla o en el cas d&#039;una urgència extrema, en correspon la declaració
+d&#039;activació a les persones assenyalades subsidiàriament pel pla, en l&#039;ordre indicat. Si hi manquen, l&#039;autoritat de protecció
+civil del pla d&#039;àmbit superior pot declarar-ne l&#039;activació.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 20. De quin tipus poden ser els plans de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Territorials, especials i d&#039;autoprotecció<br>&bull; <b>Explicació:</b> Tots els plans de protecció civil han d&#039;estar coordinats i integrats de manera eficaç per a donar resposta a les situacions
+de risc col·lectiu greu, a les catàstrofes o a les calamitats públiques que es produeixin.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 21. Quins representants componen la Comissió de Protecció Civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Els representants de l&#039;Administració de la Generalitat, de l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya<br>&bull; <b>Explicació:</b> *Art. 46*
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 22. Quina competència ostenta la Generalitat en matèria de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Competència exclusiva<br>&bull; <b>Explicació:</b> Correspon a la Generalitat la competència exclusiva en matèria de protecció civil, que inclou, en tot cas, la regulació, la
+planificació i l’execució de mesures relatives a les emergències i la seguretat civil, i també la direcció i la coordinació dels
+serveis de protecció civil, que inclouen els serveis de prevenció i extinció d’incendis
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 23. A qui correspon la funció de declarar l&#039;activació dels plans de protecció civil d&#039;àmbit autonòmic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Al Conseller d&#039;Interior</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 24. Quin tipus de Pla de Protecció Civil preveu, per a empreses, centres i instal·lacions determinades, les actuacions en cas d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de situacions de risc, catàstrofes i calamitats públiques que els puguin afectar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Els plans d&#039;autoprotecció<br>&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 25. Quin tipus de plans de protecció civil existeixen?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Territorials, especials i d&#039;autoprotecció<br>&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 26. Com s&#039;anomena l&#039;òrgan col·legiat de caràcter consultiu, deliberant, coordinador i homologador superior en matèria de protecció civil a Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Comissió de Protecció Civil de Catalunya<br>&bull; <b>Explicació:</b> La Comissió de Protecció Civil de Catalunya es compon de representants de l&#039;Administració de la Generalitat, de
+l&#039;Administració de l&#039;Estat a Catalunya i de l&#039;Administració local de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 27. En matèria de Protecció Civil, quina de les següents funcions correspon al Govern?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La d&#039;elaborar i aprovar el Mapa de protecció civil de Catalunya<br>&bull; <b>Explicació:</b> La resta de respostes són competència del Conseller/a d&#039;Interior.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 28. Quin nombre d&#039;habitants mínim obligarà a un municipi a elaborar i aprovar plans bàsics d&#039;emergència municipal?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Vint mil<br>&bull; <b>Explicació:</b> Art. 17.2 - 4/1997, de Protecció Civil.
+Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població, tenen la
+consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat industrial,
+segons la Comissió de Protecció Civil de Catalunya, han d&#039;elaborar i aprovar plans bàsics d&#039;emergència municipal que
+garanteixin la coordinació i l&#039;aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els plans bàsics
+d&#039;emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la informació pública i
+l&#039;informe previs de la comissió municipal de protecció civil, si n&#039;hi ha, i són homologats per la Comissió de Protecció Civil
+de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 29. Qui té competències en matèria de seguretat pública i, per tant, en la vessant de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La Generalitat</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 30. Quin tipus de Plans de Protecció Civil s&#039;associen a alguna activitat, centre o instal·lació concrets?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Els plans d&#039;autoprotecció<br>&bull; <b>Explicació:</b> Els plans territorials preveuen, amb caràcter general, les emergències que es poden produir en el seu àmbit. Els nivells
+bàsics de planificació són el conjunt de Catalunya i els municipis, tot i que poden haver-hi plans d&#039;àmbit territorial
+supramunicipal.
+Els plans especials es refereixen a riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per
+avaluar-los i tractar-los. Aquests plans s&#039;han d&#039;elaborar d&#039;acord amb les directrius bàsiques previstes a la norma.
+Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 31. Quina de les següents és una finalitat bàsica de l&#039;acció pública en matèria de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències<br>&bull; <b>Explicació:</b> La resta de les opcions fan referència a principis generals.
+L&#039;acció pública en matèria de protecció civil té com a finalitats bàsiques:
+a) La previsió dels riscs greus, entesa com a anàlisi objectiva d&#039;aquests i llur localització en el territori.
+b) La prevenció, entesa com el conjunt d&#039;actuacions encaminades tant a la disminució dels riscs com a llur detecció
+immediata, mitjançant la vigilància.
+c) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l&#039;estructura de
+coordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes
+respostes.
+d) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats
+públiques.
+e) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts
+per aquesta Llei.
+f) La preparació adequada de les persones que pertanyen als grups d&#039;intervenció.
+g) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats
+públiques.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 32. La protecció civil s&#039;inspira en quatre principis. Indica el principi incorrecte:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Principi d&#039;apatia i d&#039;individualitat  acadèmia bombers<br>&bull; <b>Explicació:</b> Article 2
+1. La protecció civil s&#039;inspira en els principis de:
+a) Solidaritat en l&#039;assumpció de riscs i danys.
+b) Responsabilitat pública i autoprotecció.
+c) Proximitat i immediatesa de l&#039;acció pública.
+d) Integració de plans i recursos.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 33. El Mapa de protecció civil de Catalunya:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Les respostes a) i b) són correctes<br>&bull; <b>Explicació:</b> El Govern ha d&#039;elaborar i aprovar el Mapa de protecció civil de Catalunya, en un termini de dos anys des de l&#039;entrada en
+vigor d&#039;aquesta Llei. El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials
+en les quals és present cada risc.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 34. De quin tipus són el conjunt de mapes que configuren el Mapa de protecció civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Temàtics<br>&bull; <b>Explicació:</b> El Mapa és el conjunt de mapes temàtics en què es posen de manifest les diferents zones territorials en les quals és
+present cada risc.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 35. De quins tipus poden ser els plans de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Territorials, especials i d&#039;autoprotecció</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 36. Què és el CECAT?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> És el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya<br>&bull; <b>Explicació:</b> El Centre de Coordinació Operativa de Catalunya (CECAT) és el centre superior de coordinació i informació de
+l&#039;estructura de protecció civil de Catalunya. Vetlla per la bona gestió de les emergències a través de la coordinació dels
+diferents cossos operatius, organismes i institucions involucrades en la resolució de situacions en què calgui l’activació
+d’un pla d’emergències. Té com a última finalitat la seguretat de les persones, dels seus béns i drets, i també la previsió i
+la minimització dels efectes que poden patir en cas d’emergència.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 37. A partir de quin número d&#039;habitants un municipi estarà obligat a elaborar un Pla Bàsic d&#039;Emergències Municipal (PBEM), si no està considerat com a turístic ni presenta cap risc especial?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> A partir dels 20.000 habitants<br>&bull; <b>Explicació:</b> Article 17.2: Els municipis amb una població superior als vint mil habitants i els que, sense arribar a aquesta població,
+tenen la consideració de turístics o els que són considerats de risc especial per llur situació geogràfica o llur activitat
+industrial, segons la Comissió de Protecció Civil de Catalunya, han d&#039;elaborar i aprovar plans bàsics d&#039;emergència
+municipal que garanteixin la coordinació i l&#039;aplicació correctes en llur territori del Pla de protecció civil de Catalunya. Els
+plans bàsics d&#039;emergència municipal són aprovats pels plens de les corporacions municipals respectives, amb la
+informació pública i l&#039;informe previs de la comissió municipal de protecció civil, si n&#039;hi ha, i són homologats per la
+Comissió de Protecció Civil de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 38. El pla especial d’emergències per nevades a Catalunya (NEUCAT) és un pla de tipus:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Pla especial<br>&bull; <b>Explicació:</b> El Pla especial d&#039;emergències per nevades a Catalunya (NEUCAT) constitueix un pla especial amb la finalitat de disposar
+d’una planificació d’emergències que permeti afrontar i gestionar eficaçment les incidències i emergències per nevades
+que es donin dins l’àmbit territorial de Catalunya.
+Plans especials de Catalunya:
+AEROCAT
+ALLAUCAT
+CAMCAT
+INFOCAT
+INUNCAT
+NEUCAT
+Pla especial d’emergències per pandèmies
+PLASEQCAT i PLASEQTA
+RADCAT
+SISMICAT
+TRANSCAT
+VENTCAT</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 39. La principal autoritat de Protecció Civil en un municipi és:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> L’alcalde/essa<br>&bull; <b>Explicació:</b> Article 40 - Autoritats de protecció civil
+1. Són autoritats de protecció civil:
+a) L&#039;alcalde, en l&#039;àmbit municipal.
+b) El conseller o consellera de Governació, en l&#039;àmbit de Catalunya, sens perjudici de les funcions que corresponguin al
+president o presidenta de la Generalitat en el cas de delegació en emergències declarades &quot;de interés nacional&quot;, segons
+la legislació de l&#039;Estat.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 40. Quin és el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Pla territorial de Protecció civil de Catalunya (PROCICAT)<br>&bull; <b>Explicació:</b> El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en
+els plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una
+repercussió important.
+És un pla d’emergències multirisc i complementari dels plans especials.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 41. A qui correspon exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Al Conseller d&#039;Interior<br>&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 42. A qui correspondrà evacuar o allunyar les persones dels llocs de perill davant d&#039;una emergència?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> A l&#039;autoritat de protecció civil<br>&bull; <b>Explicació:</b> Entre les mesures d&#039;emergència, correspon a l&#039;autoritat de protecció civil d&#039;acordar les següents:
+a) Evacuar o allunyar les persones dels llocs de perill.
+b) Recomanar el confinament de persones en llurs domicilis o en llocs segurs, d&#039;acord amb les previsions dels plans
+corresponents.
+c) Restringir l&#039;accés a zones de perill o a zones d&#039;operació.
+d) Limitar i condicionar l&#039;ús de serveis públics i privats i el consum de béns.
+e) Les altres que es considerin necessàries d&#039;acord amb el que estableix el pla que en cada moment s&#039;apliqui.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 43. Quina de les següents NO és una finalitat de l&#039;acció pública en matèria de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> La priorització en el reestabliment del teixit productiu davant dels efectes de les catàstrofes<br>&bull; <b>Explicació:</b> L&#039;acció pública en matèria de protecció civil té com a finalitats bàsiques:
+a) La previsió dels riscs greus, entesa com a anàlisi objectiva d&#039;aquests i llur localització en el territori.
+b) La prevenció, entesa com el conjunt d&#039;actuacions encaminades tant a la disminució dels riscs com a llur detecció
+immediata, mitjançant la vigilància.
+c) La planificació de les respostes davant les situacions de greu risc col·lectiu i les emergències, i també l&#039;estructura de
+coordinació, les comunicacions, el comandament i el control dels diferents organismes i entitats que actuen en aquestes
+respostes.
+d) La intervenció per a anul·lar les causes i pal·liar, corregir i minimitzar els efectes de les catàstrofes i les calamitats
+públiques.
+e) El restabliment dels serveis essencials i la confecció de plans de recuperació de la normalitat, en els termes establerts
+per aquesta Llei.
+f) La preparació adequada de les persones que pertanyen als grups d&#039;intervenció.
+g) La informació i la formació de les persones i els col·lectius que puguin ésser afectats per riscs, catàstrofes i calamitats
+públiques.
+
+
+acadèmia
+bombers</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 44. El Pla de protecció civil de Catalunya:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Ha de contenir, entre d&#039;altres, el catàleg de recursos humans i materials disponibles<br>&bull; <b>Explicació:</b> El Pla de protecció civil de Catalunya ha d&#039;ésser aprovat pel Govern a proposta del conseller consellera d&#039;Interior, amb
+l&#039;informe previ de la Comissió de Protecció Civil de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 45. Com s&#039;anomena el pla de protecció civil autonòmic que contempla la resposta davant les emergències de qualsevol tipus de risc amb caràcter general?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Pla territorial de Protecció civil de Catalunya (PROCICAT)<br>&bull; <b>Explicació:</b> El Pla territorial de protecció civil de Catalunya, PROCICAT, s’aplica per gestionar riscos o emergències no inclosos en
+els plans especials i que poden afectar a la vegada un volum considerable de persones o que poden tenir una
+repercussió important.
+És un pla d’emergències multirisc i complementari dels plans especials.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 46. Quina de les següents funcions NO correspon als plens dels ajuntaments:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil<br>&bull; <b>Explicació:</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l&#039;alcalde o alcaldessa.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 47. D&#039;acord amb l&#039;article 132 de l&#039;Estatut, quina competència té la Generalitat de Catalunya en matèria de Protecció Civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Exclusiva</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 48. A qui correspon la funció d&#039;exercir la direcció superior del Centre de Coordinació Operativa de Catalunya (CECAT)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Al Conseller d&#039;Interior<br>&bull; <b>Explicació:</b> El Conseller d&#039;Interior és l&#039;autoritat superior de protecció civil de Catalunya. També presidirà la CPCC.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 49. D&#039;acord amb el que estableix l&#039;article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els municipis que no disposin de pla de protecció civil:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Correspon a l&#039;alcalde/ssa de declarar la situació d&#039;emergència i adoptar, si s&#039;escau, les mesures corresponents<br>&bull; <b>Explicació:</b> Article 10.3. D&#039;acord amb el que estableix l&#039;article 51.1.k de la Llei 8/1987, municipal i de règim local de Catalunya, en els
+municipis que no disposin de pla de protecció civil correspon a l&#039;alcalde de declarar la situació d&#039;emergència i adoptar, si
+s&#039;escau, les mesures establertes pels articles 8, 9, 10 i 11.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 50. Els plans de protecció civil han d&#039;ésser elaborats segons una estructura de contingut homogènia, als efectes de llur integració, la qual ha d&#039;incloure, com a mínim, informació i previsions sobre: (senyala la resposta INCORRECTA)</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El procediment de desactivació del pla<br>&bull; <b>Explicació:</b> Article 20 - Contingut dels plans.
+Hauran d&#039;incloure, en tot cas, el procediment d&#039;activació del pla.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 51. Quina de les següents afirmacions és FALSA respecte els plans de protecció civil?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Els plans d&#039;autoprotecció preveuen riscos concrets, la naturalesa dels quals requereix uns mètodes tècnics i científics per avaluar-los i tractar-los<br>&bull; <b>Explicació:</b> Els plans d&#039;autoprotecció preveuen, per a empreses, centres i instal·lacions determinades, les actuacions en cas
+d&#039;emergència que es puguin produir com a resultat de la seva pròpia activitat i les mesures de resposta en cas de
+situacions de risc, catàstrofes i calamitats públiques que els puguin afectar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 52. Quin és el nom del pla territorial d&#039;àmbit superior de protecció civil de Catalunya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> PROCICAT<br>&bull; <b>Explicació:</b> PROCICAT = PROtecció CIvil de CATalunya.
+El CECAT és el centre superior de coordinació i informació de l&#039;estructura de protecció civil de Catalunya.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 53. Quina de les següents funcions relacionades amb la protecció civil NO correspon als plens dels ajuntaments?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil<br>&bull; <b>Explicació:</b> Elaborar el catàleg de recursos i serveis mobilitzables per a la protecció civil correspon a l&#039;alcalde o alcaldessa.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 54. Indiqueu quins dels plans següents tenen la consideració de plans especials d’emergències de Catalunya:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> AEROCAT, CAMCAT i RADCAT<br>&bull; <b>Explicació:</b> Actualment, són objecte de plans especials a Catalunya:
+— Incendis forestals (INFOCAT).
+— Inundacions (INUNCAT).
+— Nevades (NEUCAT).
+— Allaus (ALLAUCAT).
+— Contaminació d’aigües marines (CAMCAT).
+— Ventades (VENTCAT).
+— Sismes (SISMICAT).
+— Accidents aeris (AEROCAT).
+— Accidents químics (PLASEQCAT).
+— Accidents radiològics no nuclears (RADCAT).
+— Transport de mercaderies perilloses per carretera (TRANSCAT).
+— Pandèmies.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 55. El pla de protecció civil que s’activa per emergències de riscos NO contemplats en altres plans de protecció civil específics se’n diu:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> PROCICAT<br>&bull; <b>Explicació:</b> El PROCICAT és una eina bàsica en la gestió d’emergències de la protecció civil a Catalunya. Com a Pla territorial recull
+la previsió de resposta a les emergències produïdes per a tots els riscs no previstos als plans d’emergència especials
+elaborats per la Generalitat de Catalunya. Aquesta resposta inclou tant els possibles nivells d’activació com l’estructura
+de resposta i l’operativa aplicables en la gestió de l’emergència.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 56. Un municipi sense cap risc especial assignat ha d&#039;ordenar la seva planificació en matèria de protecció civil. Quin pla general han de tenir tots els municipis, integrat en el DUPROCIM?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> El PROCICAT<br>&bull; <b>Explicació:</b> Quan s’estableix un comandament unificat, s’enviarà un alt comandament al Centre de Comandament Unificat per
+garantir la coordinació general i la petició unificada de mitjans estatals.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 57. L&#039;estructura operativa definida en els plans de protecció civil de Catalunya es resumeix en:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Direcció del Pla, comitè d&#039;emergències, grups actuants i centres de coordinació<br>&bull; <b>Explicació:</b> L&#039;estructura operativa dels plans catalans consta de direcció del pla, comitè d&#039;emergències, grups actuants i centres de
+coordinació; el consell assessor i el gabinet d&#039;informació són parts del comitè d&#039;emergències, no elements de primer
+nivell.</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

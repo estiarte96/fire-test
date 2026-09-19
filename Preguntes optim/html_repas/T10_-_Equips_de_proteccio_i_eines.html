@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T10 - Equips de protecció i eines - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T10 - Equips de protecció i eines</h1>
+      </div>
+      <p>5 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q7" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 1 de 5 • ID: serebomber_38c54d39_q7</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q7)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. Quina diferència principal hi ha entre un extintor portàtil i un extintor mòbil (o sobre rodes)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q7, 'A')">
+            <b>A)</b> <span>L&#039;agent extintor: el portàtil només és d&#039;aigua i el mòbil de pols</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q7, 'B')">
+            <b>B)</b> <span>La massa total del conjunt: el portàtil és de fins a 20 kg i el mòbil supera els 20 kg (habitualment fins a 50 kg o més)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q7, 'C')">
+            <b>C)</b> <span>La pressió de càrrega: el mòbil no disposa de gas propulsor</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q7, 'D')">
+            <b>D)</b> <span>La capacitat d&#039;extingir focs de classe B</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q7">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) La massa total del conjunt: el portàtil és de fins a 20 kg i el mòbil supera els 20 kg (habitualment fins a 50 kg o més)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La norma UNE-EN 3 defineix extintor portàtil com aquell dissenyat per ser transportat manualment amb una massa &lt;= 20 kg.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q12" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 2 de 5 • ID: serebomber_38c54d39_q12</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q12)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Quina pressió d&#039;ajustament sol tenir la vàlvula de seguretat d&#039;una ampolla d&#039;aire comprimit d&#039;ERA (Equip de Respiració Autònoma) a 300 bar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q12, 'A')">
+            <b>A)</b> <span>300 bar</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q12, 'B')">
+            <b>B)</b> <span>350 bar</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q12, 'C')">
+            <b>C)</b> <span>Entre 450 i 500 bar (aproximadament 1,5 vegades la pressió de treball)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q12, 'D')">
+            <b>D)</b> <span>600 bar</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q12">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Entre 450 i 500 bar (aproximadament 1,5 vegades la pressió de treball)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Les ampolles d&#039;ERA tenen una pressió de prova hidrostàtica i disc de ruptura d&#039;aproximadament 1,5 vegades la seva pressió nominal de càrrega (450 bar).</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q35" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 5 • ID: serebomber_38c54d39_q35</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q35)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Quina és la funció de la vàlvula d&#039;alçada o reductora de pressió de segon escaló (pulmo-automàtic) en un equip de respiració autònoma (ERA)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q35, 'A')">
+            <b>A)</b> <span>Reduir la pressió mitjana (uns 6-9 bar) a una pressió respirable lleugerament superior a l&#039;atmosfèrica (sobrepressió)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q35, 'B')">
+            <b>B)</b> <span>Reduir la pressió d&#039;ampolla (300 bar) directament a 1 bar</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q35, 'C')">
+            <b>C)</b> <span>Activar la xiuletada d&#039;avís de baixa pressió</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q35, 'D')">
+            <b>D)</b> <span>Filtrar les partícules de carboni de l&#039;aire</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q35">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Reduir la pressió mitjana (uns 6-9 bar) a una pressió respirable lleugerament superior a l&#039;atmosfèrica (sobrepressió)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El manorreductor redueix la pressió d&#039;alta (300 bar) a mitjana (6–9 bar), i el pulmo-automàtic la redueix a pressió respirable a demanda/sobrepressió.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q43" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 4 de 5 • ID: serebomber_38c54d39_q43</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q43)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Quin gas noble o inerte s&#039;utilitza habitualment en sistemes fixos d&#039;extinció automàtica per a CPDs (centres de dades) sense deixar residus?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q43, 'A')">
+            <b>A)</b> <span>Inergen o Argó / Nitrogen (N2, Ar)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q43, 'B')">
+            <b>B)</b> <span>Clorur d&#039;hidrogen líquid</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q43, 'C')">
+            <b>C)</b> <span>Freó R-12</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q43, 'D')">
+            <b>D)</b> <span>Monòxid de carboni comprimit</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q43">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Inergen o Argó / Nitrogen (N2, Ar)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els gasos inerts extingeixen per reducció de la concentració d&#039;oxigen sense ferir el material electrònic ni deixar residus químics.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q70" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 5 de 5 • ID: serebomber_38c54d39_q70</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q70)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. Què és un cabestrant (winch)?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q70, 'A')">
+            <b>A)</b> <span>Un torn motoritzat, on el parell el fa un motor elèctric</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q70, 'B')">
+            <b>B)</b> <span>Una politja manual sense fre automàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q70, 'C')">
+            <b>C)</b> <span>Un gat hidràulic d&#039;elevació vertical</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q70, 'D')">
+            <b>D)</b> <span>Una corda estàtica d&#039;ancoratge ràpid</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q70">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Un torn motoritzat, on el parell el fa un motor elèctric</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El manual defineix el cabestrant com un torn motoritzat el parell de força del qual és generat per un motor elèctric. «Un cabestrant (winch) és un torn motoritzat, en què el parell de força el fa un motor elèctric.»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T10 - Equips de protecció i eines (5 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>A</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Quina diferència principal hi ha entre un extintor portàtil i un extintor mòbil (o sobre rodes)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> La massa total del conjunt: el portàtil és de fins a 20 kg i el mòbil supera els 20 kg (habitualment fins a 50 kg o més)<br>&bull; <b>Explicació:</b> La norma UNE-EN 3 defineix extintor portàtil com aquell dissenyat per ser transportat manualment amb una massa &lt;= 20 kg.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Quina pressió d&#039;ajustament sol tenir la vàlvula de seguretat d&#039;una ampolla d&#039;aire comprimit d&#039;ERA (Equip de Respiració Autònoma) a 300 bar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Entre 450 i 500 bar (aproximadament 1,5 vegades la pressió de treball)<br>&bull; <b>Explicació:</b> Les ampolles d&#039;ERA tenen una pressió de prova hidrostàtica i disc de ruptura d&#039;aproximadament 1,5 vegades la seva pressió nominal de càrrega (450 bar).</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Quina és la funció de la vàlvula d&#039;alçada o reductora de pressió de segon escaló (pulmo-automàtic) en un equip de respiració autònoma (ERA)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Reduir la pressió mitjana (uns 6-9 bar) a una pressió respirable lleugerament superior a l&#039;atmosfèrica (sobrepressió)<br>&bull; <b>Explicació:</b> El manorreductor redueix la pressió d&#039;alta (300 bar) a mitjana (6–9 bar), i el pulmo-automàtic la redueix a pressió respirable a demanda/sobrepressió.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Quin gas noble o inerte s&#039;utilitza habitualment en sistemes fixos d&#039;extinció automàtica per a CPDs (centres de dades) sense deixar residus?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Inergen o Argó / Nitrogen (N2, Ar)<br>&bull; <b>Explicació:</b> Els gasos inerts extingeixen per reducció de la concentració d&#039;oxigen sense ferir el material electrònic ni deixar residus químics.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. Què és un cabestrant (winch)?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Un torn motoritzat, on el parell el fa un motor elèctric<br>&bull; <b>Explicació:</b> El manual defineix el cabestrant com un torn motoritzat el parell de força del qual és generat per un motor elèctric. «Un cabestrant (winch) és un torn motoritzat, en què el parell de força el fa un motor elèctric.»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

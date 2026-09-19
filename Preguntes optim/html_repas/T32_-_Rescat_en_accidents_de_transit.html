@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T32 - Rescat en accidents de trànsit - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T32 - Rescat en accidents de trànsit</h1>
+      </div>
+      <p>6 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim59_q46" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 1 de 6 • ID: academia_sim59_q46</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim59_q46)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. Una bateria consta d&#039;elèctrodes, un electròlit conductor i un separador entre l&#039;ànode i el càtode. A les bateries d&#039;ió liti recarregables, els cations de liti monovalents migren entre els elèctrodes. Quin procés ocórre quan es descarreguen?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim59_q46, 'A')">
+            <b>A)</b> <span>El càtode s&#039;oxida (perd electrons) i l&#039;ànode es redueix (guanya electrons)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim59_q46, 'B')">
+            <b>B)</b> <span>El mateix que quan es carreguen</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim59_q46, 'C')">
+            <b>C)</b> <span>L&#039;ànode s&#039;oxida (perd electrons) i el càtode es redueix (guanya electrons)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim59_q46, 'D')">
+            <b>D)</b> <span>Hi ha més d&#039;una resposta correcta</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim59_q46">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) L&#039;ànode s&#039;oxida (perd electrons) i el càtode es redueix (guanya electrons)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Una bateria consta d&#039;elèctrodes (càtode (+) i ànode (-)), un electròlit conductor i un separador entre l&#039;ànode i el càtode. A
+les bateries d&#039;ió liti recarregables (LIB), els cations de liti monovalents migren entre els elèctrodes. Quan es
+descarreguen, l&#039;ànode (-) s&#039;oxida (perd electrons) i el càtode es redueix (guanya electrons). Després de la càrrega,
+aquest procés s&#039;inverteix.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim114_q27" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 2 de 6 • ID: academia_sim114_q27</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim114_q27)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. Durant una intervenció per accident de trànsit, necessites utilitzar un cabrestant manual per desplaçar lateralment un vehicle atrapat. El cabrestant disposa d’un cargol de tres entrades amb un pas de 2 mm. Cada volta completa de la manovella fa avançar el mecanisme segons les característiques del cargol. Quin serà l’avanç lineal del mecanisme per cada volta completa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim114_q27, 'A')">
+            <b>A)</b> <span>1,5 mm</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim114_q27, 'B')">
+            <b>B)</b> <span>4 mm</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim114_q27, 'C')">
+            <b>C)</b> <span>2 mm</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim114_q27, 'D')">
+            <b>D)</b> <span>6 mm</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim114_q27">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) 6 mm</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Avanç = nombre d&#039;entrades x pas (3 × 2mm = 6 mm)</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim127_q10" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 6 • ID: academia_sim127_q10</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim127_q10)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Durant un servei, una dotació de Bombers ha de comunicar al centre de control la matrícula d’un vehicle implicat en un accident de trànsit. La matrícula conté, entre altres caràcters, les lletres J, K i M. El bomber decideix transmetre-les utilitzant l’alfabet fonètic internacional per evitar errors d’interpretació. Quina seqüència és CORRECTA?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim127_q10, 'A')">
+            <b>A)</b> <span>Jordania – Kappa – Mike</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim127_q10, 'B')">
+            <b>B)</b> <span>Jordania – Kilo – Metro</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim127_q10, 'C')">
+            <b>C)</b> <span>Juliet – Kappa – Metro</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim127_q10, 'D')">
+            <b>D)</b> <span>Juliet – Kilo – Mike</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim127_q10">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Jordania – Kappa – Mike</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> A - Alfa
+B - Bravo
+C - Charlie
+D - Delta
+E - Echo
+F - Foxtrot
+G - Golf
+H - Hotel
+I - Índia
+J - Juliet
+K - Kilo
+L - Lima
+M - Mike
+N - November
+O - Oscar
+P - Papa
+Q - Quebec
+R - Romeo
+S - Sierra
+T - Tango
+U - Uniform
+V - Victor
+W - Whiskey
+X - X-ray
+13
+
+Y - Yankee
+Z - Zulu</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim128_q47" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 4 de 6 • ID: academia_sim128_q47</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim128_q47)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Una porta lateral d&#039;un turisme accidentat no obre accionant el pany i cal forçar-la amb el separador. Per on s&#039;actua habitualment?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim128_q47, 'A')">
+            <b>A)</b> <span>Per la zona de les frontisses, i si cal es passa a la zona del pany</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim128_q47, 'B')">
+            <b>B)</b> <span>Per la zona del pany, i si cal s&#039;actua sobre la zona de les frontisses</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim128_q47, 'C')">
+            <b>C)</b> <span>Per la talonera inferior, i si cal s&#039;actua sobre el muntant B</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim128_q47, 'D')">
+            <b>D)</b> <span>Pel muntant B, i si cal s&#039;actua sobre la talonera inferior</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim128_q47">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Per la zona del pany, i si cal s&#039;actua sobre la zona de les frontisses</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;obertura forçada de portes laterals i posteriors sol fer-se per la zona del pany i, si cal, també es pot actuar sobre la zona
+de les frontisses. Si no hi ha espai suficient per introduir les puntes del separador, la primera acció ha de ser obtenir
+aquest espai.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q37" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 5 de 6 • ID: serebomber_38c54d39_q37</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q37)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. En un accident de trànsit amb un vehicle elèctric, quina precaució principal cal prendre abans de realitzar tasques d&#039;excarceració?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q37, 'A')">
+            <b>A)</b> <span>Buidar el dipòsit de combustible</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q37, 'B')">
+            <b>B)</b> <span>Desconnectar el sistema d&#039;alta tensió (cable de desconnexió o desconector de seguretat) i la bateria de 12 V</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q37, 'C')">
+            <b>C)</b> <span>Punxar els pneumàtics per descarregar l&#039;electricitat estàtica</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q37, 'D')">
+            <b>D)</b> <span>Tallar directament qualsevol cablejat de color taronja per seguretat</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q37">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Desconnectar el sistema d&#039;alta tensió (cable de desconnexió o desconector de seguretat) i la bateria de 12 V</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> És fonamental desactivar el circuit d&#039;alta tensió (codificat en color taronja) i la bateria auxiliar de 12 V abans d&#039;utilitzar eines de tall hidràulic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q57" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 6 de 6 • ID: serebomber_38c54d39_q57</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q57)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Un turisme ha quedat tombat sobre un costat i cal accedir-hi pel sostre. Com es fa el desmunt lateral de sostre en bolcada lateral?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q57, 'A')">
+            <b>A)</b> <span>Tallant el terra del vehicle des del xassís inferior</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q57, 'B')">
+            <b>B)</b> <span>Abatent el sostre cap al terra, amb eines hidràuliques sobre els muntants o amb serra tallant sota el travesser longitudinal</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q57, 'C')">
+            <b>C)</b> <span>Empenyent el sostre cap a l&#039;interior de l&#039;habitacle amb el cilindre d&#039;expansió</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q57, 'D')">
+            <b>D)</b> <span>Retirant únicament el parabrisa davanter sense tocar els muntants</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q57">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Abatent el sostre cap al terra, amb eines hidràuliques sobre els muntants o amb serra tallant sota el travesser longitudinal</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> En vehicle en bolcada lateral, la maniobra consisteix a abatre el sostre vers el terra desprès del tall dels muntants. «Aquesta maniobra consisteix a abatre el sostre en direcció al terra.»</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T32 - Rescat en accidents de trànsit (6 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>B</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. Una bateria consta d&#039;elèctrodes, un electròlit conductor i un separador entre l&#039;ànode i el càtode. A les bateries d&#039;ió liti recarregables, els cations de liti monovalents migren entre els elèctrodes. Quin procés ocórre quan es descarreguen?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> L&#039;ànode s&#039;oxida (perd electrons) i el càtode es redueix (guanya electrons)<br>&bull; <b>Explicació:</b> Una bateria consta d&#039;elèctrodes (càtode (+) i ànode (-)), un electròlit conductor i un separador entre l&#039;ànode i el càtode. A
+les bateries d&#039;ió liti recarregables (LIB), els cations de liti monovalents migren entre els elèctrodes. Quan es
+descarreguen, l&#039;ànode (-) s&#039;oxida (perd electrons) i el càtode es redueix (guanya electrons). Després de la càrrega,
+aquest procés s&#039;inverteix.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. Durant una intervenció per accident de trànsit, necessites utilitzar un cabrestant manual per desplaçar lateralment un vehicle atrapat. El cabrestant disposa d’un cargol de tres entrades amb un pas de 2 mm. Cada volta completa de la manovella fa avançar el mecanisme segons les característiques del cargol. Quin serà l’avanç lineal del mecanisme per cada volta completa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> 6 mm<br>&bull; <b>Explicació:</b> Avanç = nombre d&#039;entrades x pas (3 × 2mm = 6 mm)</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Durant un servei, una dotació de Bombers ha de comunicar al centre de control la matrícula d’un vehicle implicat en un accident de trànsit. La matrícula conté, entre altres caràcters, les lletres J, K i M. El bomber decideix transmetre-les utilitzant l’alfabet fonètic internacional per evitar errors d’interpretació. Quina seqüència és CORRECTA?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Jordania – Kappa – Mike<br>&bull; <b>Explicació:</b> A - Alfa
+B - Bravo
+C - Charlie
+D - Delta
+E - Echo
+F - Foxtrot
+G - Golf
+H - Hotel
+I - Índia
+J - Juliet
+K - Kilo
+L - Lima
+M - Mike
+N - November
+O - Oscar
+P - Papa
+Q - Quebec
+R - Romeo
+S - Sierra
+T - Tango
+U - Uniform
+V - Victor
+W - Whiskey
+X - X-ray
+13
+
+Y - Yankee
+Z - Zulu</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Una porta lateral d&#039;un turisme accidentat no obre accionant el pany i cal forçar-la amb el separador. Per on s&#039;actua habitualment?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Per la zona del pany, i si cal s&#039;actua sobre la zona de les frontisses<br>&bull; <b>Explicació:</b> L&#039;obertura forçada de portes laterals i posteriors sol fer-se per la zona del pany i, si cal, també es pot actuar sobre la zona
+de les frontisses. Si no hi ha espai suficient per introduir les puntes del separador, la primera acció ha de ser obtenir
+aquest espai.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. En un accident de trànsit amb un vehicle elèctric, quina precaució principal cal prendre abans de realitzar tasques d&#039;excarceració?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Desconnectar el sistema d&#039;alta tensió (cable de desconnexió o desconector de seguretat) i la bateria de 12 V<br>&bull; <b>Explicació:</b> És fonamental desactivar el circuit d&#039;alta tensió (codificat en color taronja) i la bateria auxiliar de 12 V abans d&#039;utilitzar eines de tall hidràulic.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Un turisme ha quedat tombat sobre un costat i cal accedir-hi pel sostre. Com es fa el desmunt lateral de sostre en bolcada lateral?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Abatent el sostre cap al terra, amb eines hidràuliques sobre els muntants o amb serra tallant sota el travesser longitudinal<br>&bull; <b>Explicació:</b> En vehicle en bolcada lateral, la maniobra consisteix a abatre el sostre vers el terra desprès del tall dels muntants. «Aquesta maniobra consisteix a abatre el sostre en direcció al terra.»</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

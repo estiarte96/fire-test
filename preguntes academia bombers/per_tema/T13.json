@@ -1,11 +1,9 @@
 [
   {
     "id": "academia_sim1_q5",
-    "simulacre": "Simulacre 1",
-    "num_pregunta": 5,
     "statement": "En una instal·lació de mànegues, si amb 200 l/min es perden 2 bars. Quants bars perdrem amb 600 l/min?",
     "correct": "D",
-    "explanation": "Les pèrdues de càrrega són directament proporcionals AL QUADRAT de la relació de cabals. Per tant,si passem de 200\nl/mina 600 l/min, larelació de cabals serà de 3.Com que són proporcionals al quadrat de la relació, elevem el 3 al\nquadrat:\n\n3²= 9\n\nElquadrat de larelació és 9,per tant 2 bars × 9 = 18 bars.",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals AL QUADRAT de la relació de cabals. Per tant, si passem de 200\nl/min a 600 l/min, la relació de cabals serà de 3. Com que són proporcionals al quadrat de la relació, elevem el 3 al\nquadrat:\n3² = 9\nEl quadrat de la relació és 9, per tant 2 bars × 9 = 18 bars.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -16,14 +14,12 @@
       "A": "12 bars",
       "B": "4 bars",
       "C": "6 bars",
-      "D": "18 bars www.academiabombers.com 1 Acadèmia Bombers Simulacre 1"
+      "D": "18 bars"
     }
   },
   {
     "id": "academia_sim1_q47",
-    "simulacre": "Simulacre 1",
-    "num_pregunta": 47,
-    "statement": "Segons elRIPCI, la verificació de l'estanquitat dels taps d'un hidrant s'efectuarà:",
+    "statement": "Segons el RIPCI, la verificació de l'estanquitat dels taps d'un hidrant s'efectuarà:",
     "correct": "C",
     "explanation": "La inspecció VISUAL de l'estanquitat, en canvi, s'efectuarà cada tres mesos.",
     "difficulty": "Mitjà",
@@ -33,19 +29,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cada tresmesos",
-      "B": "Cada sisanys",
+      "A": "Cada tres mesos",
+      "B": "Cada sis anys",
       "C": "Cada any",
       "D": "Cada cinc anys"
     }
   },
   {
     "id": "academia_sim1_q91",
-    "simulacre": "Simulacre 1",
-    "num_pregunta": 91,
     "statement": "En instal·lacions \"Residencial habitatge\" de risc especial alt s'instal·laran:",
     "correct": "B",
-    "explanation": "En zones de risc especial altdegut a combustibles sòlids generalment s'instal·laràBIE-45. En cas de risc especial alten\nzones \"Residencial habitatge\" s'hiinstal·larà BIE-25 com a excepció.",
+    "explanation": "En zones de risc especial alt degut a combustibles sòlids generalment s'instal·larà BIE-45. En cas de risc especial alt en\nzones \"Residencial habitatge\" s'hi instal·larà BIE-25 com a excepció.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -60,12 +54,28 @@
     }
   },
   {
+    "id": "academia_sim2_q21",
+    "statement": "Cada quan de temps s'haurà d'obrir i tancar l'hidrant i comprovar que la vàlvula principal i el sistema de drenatge funcionin correctament?",
+    "correct": "B",
+    "explanation": "Ho durà a terme el personal titular de la instal·lació.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cada 3 mesos",
+      "B": "Cada 6 mesos",
+      "C": "Cada any",
+      "D": "Cada 5 anys"
+    }
+  },
+  {
     "id": "academia_sim2_q76",
-    "simulacre": "Simulacre 2",
-    "num_pregunta": 76,
-    "statement": "Tenim una instal·lació de cinc mànegues per on hi passen 1.000 l/min de cabal, amb unes pèrdues de càrrega d'un bar per mànega. Quines pèrdues totals tindriem si hi fessim passar 3.000 litresen comptes de 1.000?",
+    "statement": "Tenim una instal·lació de cinc mànegues per on hi passen 1.000 l/min de cabal, amb unes pèrdues de càrrega d'un bar per mànega. Quines pèrdues totals tindriem si hi fessim passar 3.000 litres en comptes de 1.000?",
     "correct": "D",
-    "explanation": "Amb 1.000 litresde cabal, per cada mànega hi passen 200. Amb 3.000 litres,per cada mànega hipassaran 600.\nLes pèrdues de càrrega per fregament són directament proporcionals alquadrat de larelació de cabals, ila relació de\ncabals és 3 (200×3 = 600).\nLlavors:\n3²= 9\nSiamb 1.000 litresperdiem 1 bar per mànega, amb 3.000...\n1 × 9 = 9 bar\nMultipliquem pel totalde mànegues:\n9 × 5 = 45 bar en total.\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 2",
+    "explanation": "Amb 1.000 litres de cabal, per cada mànega hi passen 200. Amb 3.000 litres, per cada mànega hi passaran 600.\nLes pèrdues de càrrega per fregament són directament proporcionals al quadrat de la relació de cabals, i la relació de\ncabals és 3 (200×3 = 600).\nLlavors:\n3² = 9\nSi amb 1.000 litres perdiem 1 bar per mànega, amb 3.000...\n1 × 9 = 9 bar\nMultipliquem pel total de mànegues:\n9 × 5 = 45 bar en total.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -81,9 +91,7 @@
   },
   {
     "id": "academia_sim2_q83",
-    "simulacre": "Simulacre 2",
-    "num_pregunta": 83,
-    "statement": "Per a considerar una zona protegida per hidrants contra incendis, en el cas d'hidrants que no estiguin situats a la via pública, la distància entre l'emplaçament de cada hidrant iel límitexterior de l'edificio zona protegida, mesurada perpendicularment a lafaçana, haurà de ser:",
+    "statement": "Per a considerar una zona protegida per hidrants contra incendis, en el cas d'hidrants que no estiguin situats a la via pública, la distància entre l'emplaçament de cada hidrant i el límit exterior de l'edifici o zona protegida, mesurada perpendicularment a la façana, haurà de ser:",
     "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
@@ -93,19 +101,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "D'entre 5 i15 metres",
+      "A": "D'entre 5 i 15 metres",
       "B": "5 metres",
       "C": "15 metres",
-      "D": "D'entre 10 i15 metres"
+      "D": "D'entre 10 i 15 metres"
     }
   },
   {
     "id": "academia_sim3_q60",
-    "simulacre": "Simulacre 3",
-    "num_pregunta": 60,
     "statement": "Per a considerar una zona protegida per hidrants contra incendis, la distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant en zones no urbanes serà inferior a:",
     "correct": "C",
-    "explanation": "",
+    "explanation": "En zones urbanes serà inferior a 100 metres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -121,11 +127,9 @@
   },
   {
     "id": "academia_sim3_q91",
-    "simulacre": "Simulacre 3",
-    "num_pregunta": 91,
-    "statement": "Quina lletra o caràcter precedeix al número que indica eldiàmetre nominal d'un hidrant en una placa de senyalització?",
+    "statement": "Quina lletra o caràcter precedeix al número que indica el diàmetre nominal d'un hidrant en una placa de senyalització?",
     "correct": "B",
-    "explanation": "Un \"H100\", per exemple, es referirà a un hidrant de 100 mm. A més a més, la placa de senyalització ens indicarà la\nubicació de l'hidranten questió.",
+    "explanation": "Un \"H100\", per exemple, es referirà a un hidrant de 100 mm. A més a més, la placa de senyalització ens indicarà la\nubicació de l'hidrant en questió.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -141,11 +145,9 @@
   },
   {
     "id": "academia_sim4_q40",
-    "simulacre": "Simulacre 4",
-    "num_pregunta": 40,
     "statement": "Les Boques d'Incendi Equipades (BIE's) es componen d'un mínim de tres elements. Quina de les següents opcions no correspon a un d'aquests tres elements?",
     "correct": "B",
-    "explanation": "Elrodet (\"carrete\")formaria partd'un hidrant de columna.",
+    "explanation": "El rodet (\"carrete\") formaria part d'un hidrant de columna.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -153,7 +155,7 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La vàlvula ",
+      "A": "La vàlvula",
       "B": "El rodet",
       "C": "La mànega",
       "D": "La llança"
@@ -161,11 +163,9 @@
   },
   {
     "id": "academia_sim5_q2",
-    "simulacre": "Simulacre 5",
-    "num_pregunta": 2,
     "statement": "Segons el RIPCI, cada quant de temps caldrà canviar les juntes dels ràcords d'un hidrant?",
     "correct": "D",
-    "explanation": "Ho durà a terme elpersonal especialitzatdel fabricanto elpersonal de l'empresa mantenidora.",
+    "explanation": "Ho durà a terme el personal especialitzat del fabricant o el personal de l'empresa mantenidora.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -173,19 +173,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Cada tresmesos",
-      "B": "Cada sismesos",
+      "A": "Cada tres mesos",
+      "B": "Cada sis mesos",
       "C": "Cada any",
-      "D": "Cada cincanys"
+      "D": "Cada cinc anys"
     }
   },
   {
     "id": "academia_sim5_q71",
-    "simulacre": "Simulacre 5",
-    "num_pregunta": 71,
     "statement": "Un hidrant subterrani de 100 mm disposarà de:",
     "correct": "D",
-    "explanation": "",
+    "explanation": "Un hidrant subterrani de 80 mm tindrà, o bé una sortida de 70 mm o bé dues de 45 mm.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -193,36 +191,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una sortida de 100 mm iduesbombersde70mm",
-      "B": "Una sortida de 70 mm idues de 45 mm",
-      "C": "Dues sortides de 45 mm www.academiabombers.com",
+      "A": "Una sortida de 100 mm i dues de 70 mm",
+      "B": "Una sortida de 70 mm i dues de 45 mm",
+      "C": "Dues sortides de 45 mm",
       "D": "Una sortida de 100 mm o bé dues de 70 mm"
     }
   },
   {
-    "id": "academia_sim5_q90",
-    "simulacre": "Simulacre 5",
-    "num_pregunta": 90,
-    "statement": "Quin treballfarà una bomba hidràulica per elevar 1 m³ d'aigua a 6 metres d'alçada?",
-    "correct": "A",
-    "explanation": "1m³ = 1.000 litres=1.000kg\nT= F × e,on \"e\"correspon alcamí recorregut.Pertant:\n1.000kg = 10.000N\nT= 10.000*6 = 60.000Joules.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 5",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "60.000 Joules",
-      "B": "6.000 Joules",
-      "C": "3.000 Joules",
-      "D": "30.000 Newtons"
-    }
-  },
-  {
     "id": "academia_sim6_q39",
-    "simulacre": "Simulacre 6",
-    "num_pregunta": 39,
     "statement": "Com podem evitar el fenomen de la cavitació?",
     "correct": "B",
     "explanation": "",
@@ -233,19 +209,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Reduïnt el diàmetre de lamànegabombers",
-      "B": "Disminuïnt l'alturad'aspiració",
-      "C": "Escalfant elfluidper tal de reduir-ne www.academiabombers.comlaviscositat",
+      "A": "Reduïnt el diàmetre de la mànega",
+      "B": "Disminuïnt l'altura d'aspiració",
+      "C": "Escalfant el fluid per tal de reduir-ne la viscositat",
       "D": "Totes tres opcions serien correctes"
     }
   },
   {
     "id": "academia_sim7_q45",
-    "simulacre": "Simulacre 7",
-    "num_pregunta": 45,
     "statement": "Quin és l'element que regula el pas de l'aigua cap a la part superior del cos d'un hidrant?",
     "correct": "A",
-    "explanation": "Elrodet uneix elcap o elcos, que és la part superior de l'hidrantque emergeix de terra,amb lavàlvula.\nEls hidrants poden ser de columna humida ide columna seca.\n\n\n 20\nAcadèmia Bombers Simulacre 7",
+    "explanation": "El rodet uneix el cap o el cos, que és la part superior de l'hidrant que emergeix de terra, amb la vàlvula.\nEls hidrants poden ser de columna humida i de columna seca.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -253,16 +227,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La vàlvula principal ",
+      "A": "La vàlvula principal",
       "B": "El rodet",
-      "C": "Elcap",
-      "D": "Elfanal"
+      "C": "El cap",
+      "D": "El fanal"
     }
   },
   {
     "id": "academia_sim7_q46",
-    "simulacre": "Simulacre 7",
-    "num_pregunta": 46,
     "statement": "Tenim una mànega de 45 mm i una altra de 70 mm de diàmetre. Si ofereixen el mateix cabal, podem concloure que:",
     "correct": "A",
     "explanation": "S1 × V1 = S2 × V2",
@@ -273,19 +245,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Segons l'equació de la continuïtat,lavelocitatdel fluidque circulaper la de 45 mm serà major",
-      "B": "Segons l'equació de Bernoulli, laacadèmiavelocitatdelfluidquecirculaperlade45mm serà major",
-      "C": "Segons l'equació de la continuïtat,lavelocitat delfluidque circulaper la de 45 mm serà lamateixa que en lade 70 mm",
-      "D": "Segons l'equació de Bernoulli, lavelocitatdel fluidque circulaper la de 45 mm serà lamateixa que en lade 70 mm"
+      "A": "Segons l'equació de la continuïtat, la velocitat del fluid que circula per la de 45 mm serà major",
+      "B": "Segons l'equació de Bernoulli, la velocitat del fluid que circula per la de 45 mm serà major",
+      "C": "Segons l'equació de la continuïtat, la velocitat del fluid que circula per la de 45 mm serà la mateixa que en la de 70 mm",
+      "D": "Segons l'equació de Bernoulli, la velocitat del fluid que circula per la de 45 mm serà la mateixa que en la de 70 mm"
     }
   },
   {
     "id": "academia_sim8_q40",
-    "simulacre": "Simulacre 8",
-    "num_pregunta": 40,
-    "statement": "De forma general, les Boqueswww.academiabombers.comd'IncendiEquipadesques'instal·lenenedificisquepresentenun riscespecial alt seran:",
+    "statement": "De forma general, les Boques d'Incendi Equipades que s'instal·len en edificis que presenten un risc especial alt seran:",
     "correct": "B",
-    "explanation": "Excepte en riscespecial altper ús \"residencial habitatge\",que en aquest cas seran BIE-25.",
+    "explanation": "Excepte en risc especial alt per ús \"residencial habitatge\", que en aquest cas seran BIE-25.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -296,16 +266,14 @@
       "A": "BIE-25",
       "B": "BIE-45",
       "C": "BIE-12,5",
-      "D": "BIE-70 21 Acadèmia Bombers Simulacre 8"
+      "D": "BIE-70  acadèmia bombers"
     }
   },
   {
     "id": "academia_sim8_q41",
-    "simulacre": "Simulacre 8",
-    "num_pregunta": 41,
     "statement": "Un hidrant d'arqueta de 100 mm tindrà:",
     "correct": "D",
-    "explanation": "Elshidrants d'arqueta de 80 mm tindran, o bé una sortida de 70 mm o bé dues sortides de 45 mm.",
+    "explanation": "Els hidrants d'arqueta de 80 mm tindran, o bé una sortida de 70 mm o bé dues sortides de 45 mm.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -313,19 +281,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una sortidade 100 mm iuna altrade 70 mm",
-      "B": "Una sortidade 100 mm idues de 70 mm",
-      "C": "Una sortidade 70 mm idues de 45 mm",
-      "D": "Una sortidade 100 mm o dues de 70 mm"
+      "A": "Una sortida de 100 mm i una altra de 70 mm",
+      "B": "Una sortida de 100 mm i dues de 70 mm",
+      "C": "Una sortida de 70 mm i dues de 45 mm",
+      "D": "Una sortida de 100 mm o dues de 70 mm"
     }
   },
   {
     "id": "academia_sim10_q15",
-    "simulacre": "Simulacre 10",
-    "num_pregunta": 15,
     "statement": "La calç provinent de la roca calcària s'identifica amb la següent:",
     "correct": "B",
-    "explanation": "CL: calç calcària(aèria)\nDL: calç dolomítica (aèria)\nFL: calçformulada\nHL: calç hidràulica",
+    "explanation": "CL: calç calcària (aèria)\nDL: calç dolomítica (aèria)\nFL: calç formulada\nHL: calç hidràulica",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -341,11 +307,9 @@
   },
   {
     "id": "academia_sim12_q24",
-    "simulacre": "Simulacre 12",
-    "num_pregunta": 24,
-    "statement": "Per una mànega hi passen 100 litres per minut i téunes pèrdues de càrrega de 4 bar. Sien comptes de 100 hi passessin 300 litresper minut, quines pèrdues de càrrega tindrà?",
+    "statement": "Per una mànega hi passen 100 litres per minut i té unes pèrdues de càrrega de 4 bar. Si en comptes de 100 hi passessin 300 litres per minut, quines pèrdues de càrrega tindrà?",
     "correct": "C",
-    "explanation": "Les pèrdues de càrrega són directament proporcionals alquadrat de la relació de cabals.\nSipassem de 100 a 300, la relació és de 3. 3² = 9.\n4bar × 9 = 36 bar.",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de la relació de cabals.\nSi passem de 100 a 300, la relació és de 3. 3² = 9.\n4 bar × 9 = 36 bar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -356,16 +320,14 @@
       "A": "16 bar",
       "B": "8 bar",
       "C": "36 bar",
-      "D": "32 bar 19 Acadèmia Bombers Simulacre 12"
+      "D": "32 bar  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim12_q60",
-    "simulacre": "Simulacre 12",
-    "num_pregunta": 60,
-    "statement": "Quin codi de perill rep una matèria sòlida inflamable i tòxica que, a una temperatura elevada, es troba en estat fos?",
+    "id": "academia_sim12_q37",
+    "statement": "En quin escenari es podria arribar a produir el fenomen conegut com a ''cop d'ariet\"?",
     "correct": "C",
-    "explanation": "És una de les combinacions de xifres amb significatespecial.\n\n61.- \nEstacionals: es troben a zones amb clima mediterrani, iel cabal varia bastant en funció de l'estació.\nPerennes: rius propis de regions de pluja abundant amb escasses fluctuacions alllarg de l'any.\nTransitoris:són rius que es troben a zones desèrtiques o seques. El seu cabal és esporàdic ipoden estar anys sense\nprecipitacions.\nAl·lòctons: riusque es troben en zones àrides iles seves aigües proven d'altres regions més plujoses.",
+    "explanation": "Cop d'ariet: fenomen que es produeix a les conduccions on circula un fluid quan es fa variar l'estat d'obertura d'una\nvàlvula que hi està intercalada.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -373,19 +335,35 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "44",
-      "B": "46",
-      "C": "446",
-      "D": "436"
+      "A": "Davant d'un augment sobtat del cabal que ofereix una bomba",
+      "B": "Davant del tancament brusc de l'obertura d'una vàlvula intercalada",
+      "C": "Qualsevol de les dues hipòtesis descrites podrà acabar provocant un cop d'ariet",
+      "D": "Totes les respostes són incorrectes"
+    }
+  },
+  {
+    "id": "academia_sim12_q61",
+    "statement": "Quin tipus de riu és més freqüent trobar en el clima mediterrani?",
+    "correct": "A",
+    "explanation": "Estacionals: es troben a zones amb clima mediterrani, i el cabal varia bastant en funció de l'estació.\nPerennes: rius propis de regions de pluja abundant amb escasses fluctuacions al llarg de l'any.\nTransitoris: són rius que es troben a zones desèrtiques o seques. El seu cabal és esporàdic i poden estar anys sense\nprecipitacions.\nAl·lòctons: rius que es troben en zones àrides i les seves aigües proven d'altres regions més plujoses.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Estacional",
+      "B": "Perenne",
+      "C": "Al·lòcton",
+      "D": "Transitori"
     }
   },
   {
     "id": "academia_sim13_q65",
-    "simulacre": "Simulacre 13",
-    "num_pregunta": 65,
     "statement": "Quina de les següents afirmacions sobre hidràulica és certa?",
     "correct": "C",
-    "explanation": "Un augment de la temperatura provoca una disminució de laviscositaten elslíquids.\nLa tensió superficialdisminueix amb l'augment de latemperatura.",
+    "explanation": "Un augment de la temperatura provoca una disminució de la viscositat en els líquids.\nLa tensió superficial disminueix amb l'augment de la temperatura.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -393,16 +371,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La tensió superficialaugmenta proporcionalment amb latemperatura",
-      "B": "Un augment de la temperatura provoca un augment de la viscositaten els líquids",
-      "C": "Un augment de la temperatura provoca un augment de la viscositaten els gasos",
+      "A": "La tensió superficial augmenta proporcionalment amb la temperatura",
+      "B": "Un augment de la temperatura provoca un augment de la viscositat en els líquids",
+      "C": "Un augment de la temperatura provoca un augment de la viscositat en els gasos",
       "D": "Totes les afirmacions són falses"
     }
   },
   {
     "id": "academia_sim14_q36",
-    "simulacre": "Simulacre 14",
-    "num_pregunta": 36,
     "statement": "El cabal ininterromput mínim a subministrar per cada boca d'hidrant contra incendis serà de:",
     "correct": "A",
     "explanation": "",
@@ -421,8 +397,6 @@
   },
   {
     "id": "academia_sim15_q32",
-    "simulacre": "Simulacre 15",
-    "num_pregunta": 32,
     "statement": "Com seran les sortides d'un hidrant de columna seca de 100 mm?",
     "correct": "B",
     "explanation": "La mida de les sortides d'un hidrant de columna seca de 100 mm correspondran amb les de 150 mm (1 de 100 mm i\ndues de 70 mm en ambdós casos).",
@@ -435,37 +409,15 @@
     "options": {
       "A": "Una de 100 mm i dues de 45 mm",
       "B": "Una de 100 mm i dues de 70 mm",
-      "C": "Una de 70 mm idues de 45 mm",
-      "D": "Una de 80 mm idues de 70 mm 20 Acadèmia Bombers Simulacre 15"
+      "C": "Una de 70 mm i dues de 45 mm",
+      "D": "Una de 80 mm i dues de 70 mm  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim15_q77",
-    "simulacre": "Simulacre 15",
-    "num_pregunta": 77,
-    "statement": "Amb quina unitat es mesura el cabal en el Sistema Internacional (SI)?",
+    "id": "academia_sim17_q1",
+    "statement": "Existeix un fenomen no desitjat anomenat cavitació, que pot arribar a dificultar la tasca dels bombers. En què consisteix?",
     "correct": "A",
-    "explanation": "En unitats del SI tenim que lavelocitat s'had'expressar en m/s, mentre que lasecció ho farà en m². Per tant, elcabal (Q)\nquedaria expressat en m³/s.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 15",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "m³ / segon",
-      "B": "Litres/minut ",
-      "C": "Litres/ segon",
-      "D": "Totes les respostes són correctes"
-    }
-  },
-  {
-    "id": "academia_sim17_q82",
-    "simulacre": "Simulacre 17",
-    "num_pregunta": 82,
-    "statement": "Les pèrdues de càrrega per fregament, si s'expressen en funció del cabal:",
-    "correct": "B",
-    "explanation": "Les pèrdues de càrrega per fregament, si s'expressen en funció de lavelocitatdel fluid,són inversament proporcionals al\ndiàmetre.",
+    "explanation": "Els efectes de la cavitació són: alteració del corrent (limitació del cabal i caiguda del rendiment), soroll i vibracions, atac\ndel material de les parets, que pot restar com corcat per desagregació a causa de la violència de les ones de xoc, per\nl’abrasió que fa el contacte metàl·lic directe quan les bombolles trenquen la pel·lícula lubrificant.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -473,19 +425,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Són inversament proporcionals aldiàmetre",
-      "B": "Són inversament proporcionals a lacinquena potència deldiàmetre",
-      "C": "Són proporcionals alquadrat deldiàmetre",
-      "D": "Són inversament proporcionals alquadrat del diàmetre"
+      "A": "És la vaporització d'un líquid durant l'aspiració d'una bomba i el despreniment de gasos dissolts",
+      "B": "És el fenomen que es produeix a les conduccions on circula un fluid quan es fa variar l'estat d'obertura d'una vàlvula que hi està intercalada",
+      "C": "És el desgast superficial de la superfície d'una mànega degut a consecutius canvis de pressió dins la mateixa",
+      "D": "És una deformitat respecte la continuitat de la mànega conseqüència d'un excessiu augment de la pressió en el circuit"
     }
   },
   {
     "id": "academia_sim17_q84",
-    "simulacre": "Simulacre 17",
-    "num_pregunta": 84,
-    "statement": "Per una mànega hi passen 500 litresper minut i té unes pèrdues de càrrega de 5 bar. Si en comptes de 500 hipassessin 1.000 litresper minut, quines pèrdues de càrrega tindrà?",
+    "statement": "Per una mànega hi passen 500 litres per minut i té unes pèrdues de càrrega de 5 bar. Si en comptes de 500 hi passessin 1.000 litres per minut, quines pèrdues de càrrega tindrà?",
     "correct": "D",
-    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de la relacióde cabal.\nAlpassar de 500 a1.000, larelacióés de 2 (2²= 4).\n5bar × 4 = 20 bar.",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de la relació de cabal.\nAl passar de 500 a 1.000, la relació és de 2 (2² = 4).\n5 bar × 4 = 20 bar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -501,8 +451,6 @@
   },
   {
     "id": "academia_sim18_q55",
-    "simulacre": "Simulacre 18",
-    "num_pregunta": 55,
     "statement": "Cada quant de temps haurem de verificar l'estanquitat d'un hidrant?",
     "correct": "C",
     "explanation": "",
@@ -515,17 +463,15 @@
     "options": {
       "A": "Cada 3 mesos",
       "B": "Cada 6 mesos",
-      "C": "Cada any bombers",
+      "C": "Cada any",
       "D": "Cada 5 anys"
     }
   },
   {
     "id": "academia_sim18_q90",
-    "simulacre": "Simulacre 18",
-    "num_pregunta": 90,
     "statement": "Per considerar que una zona està protegida per hidrants contra incendis s'han de fer complir certes condicions. Senyala la incorrecta:",
     "correct": "A",
-    "explanation": "En el cas d'hidrants que no estiguin situats a lavia pública, ladistància entre l'emplaçament de cada hidrant iellímit\nexteriorde l'edificiozona protegits,mesurada perpendicularment a la façana, ha d'estar compresa entre 5 i15 metres.",
+    "explanation": "En el cas d'hidrants que no estiguin situats a la via pública, la distància entre l'emplaçament de cada hidrant i el límit\nexterior de l'edifici o zona protegits, mesurada perpendicularment a la façana, ha d'estar compresa entre 5 i 15 metres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -533,19 +479,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En elcas d'hidrants que no estiguin situatsa lavia pública,la distànciaentre l'emplaçament de cada hidrant iellímit exteriorde l'edificiozona protegits,mesurada perpendicularment a lafaçana, ha d'estarcompresa entre10 i20 metres",
-      "B": "Almenys un dels hidrantsha de teniruna sortida de 100 mm, orientada en perpendicular a lafaçana id'esquena a aquesta",
-      "C": "La distànciade recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferiora40 metres en zones no urbanes",
-      "D": "La distànciade recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferiora100 metres en zones urbanes"
+      "A": "En el cas d'hidrants que no estiguin situats a la via pública, la distància entre l'emplaçament de cada hidrant i el límit exterior de l'edifici o zona protegits, mesurada perpendicularment a la façana, ha d'estar compresa entre 10 i 20 metres",
+      "B": "Almenys un dels hidrants ha de tenir una sortida de 100 mm, orientada en perpendicular a la façana i d'esquena a aquesta",
+      "C": "La distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferior a 40 metres en zones no urbanes",
+      "D": "La distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferior a 100 metres en zones urbanes"
     }
   },
   {
     "id": "academia_sim18_q91",
-    "simulacre": "Simulacre 18",
-    "num_pregunta": 91,
-    "statement": "Xoc que consisteix en una pèrdua del volum intravascular per motius com podria ser una hemorràgia. En produir-se una disminució del volum de sang, el cor no bomba tanta quantitat de sang ies produeix una disminució del cabal cardíac:",
+    "statement": "Xoc que consisteix en una pèrdua del volum intravascular per motius com podria ser una hemorràgia. En produir-se una disminució del volum de sang, el cor no bomba tanta quantitat de sang i es produeix una disminució del cabal cardíac:",
     "correct": "A",
-    "explanation": "Xoc anafilàctic:és una reacció al·lèrgicagreu que afecta a totl’organisme. La víctima necessita una injecció d'adrenalina\nurgentment.\nXoc sèptic: és una patologia severa causada per una infeccióque s'estén sense controlper totelcos a través deltorrent\ncirculatori.\nXoc cardiogènic: és elcausat per un problema que impideixi elfuncionament correcte del cor com a bomba propulsora de\nsang. La causa principal es l’infartagutde miocardi, però poden haver altres factors causals.",
+    "explanation": "Xoc anafilàctic: és una reacció al·lèrgica greu que afecta a tot l’organisme. La víctima necessita una injecció d'adrenalina\nurgentment.\nXoc sèptic: és una patologia severa causada per una infecció que s'estén sense control per tot el cos a través del torrent\ncirculatori.\nXoc cardiogènic: és el causat per un problema que impideixi el funcionament correcte del cor com a bomba propulsora de\nsang. La causa principal es l’infart agut de miocardi, però poden haver altres factors causals.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -561,11 +505,9 @@
   },
   {
     "id": "academia_sim19_q4",
-    "simulacre": "Simulacre 19",
-    "num_pregunta": 4,
     "statement": "Les lleis de la hidràulica s'apliquen a:",
     "correct": "A",
-    "explanation": "Elsfluids inclouen els líquidsiels gasos.",
+    "explanation": "Els fluids inclouen els líquids i els gasos.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -576,36 +518,14 @@
       "A": "Fluids",
       "B": "Líquids",
       "C": "Gasos",
-      "D": "Líquids,gasos isòlids"
-    }
-  },
-  {
-    "id": "academia_sim24_q43",
-    "simulacre": "Simulacre 24",
-    "num_pregunta": 43,
-    "statement": "Segons l'ADR, a quina de les següents matèries no se liassignarà un grup d'embalatge?",
-    "correct": "B",
-    "explanation": "Les matèries que no són de lesclasses 1, 2,5.2, 6.2 ni7, ni lesmatèries autorreactives de laclasse 4.1, s'assignen a\ngrups d’embalatge segons el grau de perillque presenten (I,IIo III).\n\n44.- bombers\nLes dimensions mínimes d'una ETIQUETA seran de 10 × 10 cm.\n\n46.- www.academiabombers.com\nEn situacions que involucrin combinacions de baixa viscositat,altavelocitat o grans cabals, elfluxlaminar no és estable,\nelque faque es transformi en fluxturbulent.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 24",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Matèries de la classe 3",
-      "B": "Matèries de la classe 6.2",
-      "C": "Matèries de laclasse 2.2",
-      "D": "Matèries de laclasse 4.2"
+      "D": "Líquids, gasos i sòlids"
     }
   },
   {
     "id": "academia_sim25_q48",
-    "simulacre": "Simulacre 25",
-    "num_pregunta": 48,
-    "statement": "A quina o quines substànciesacadèmiase'lsapliquenles lleisde la hidràulica?",
+    "statement": "A quina o quines substàncies se'ls apliquen les lleis de la hidràulica?",
     "correct": "C",
-    "explanation": "Els fluidsinclouen els líquids iels gasos.",
+    "explanation": "Els fluids inclouen els líquids i els gasos.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -616,13 +536,11 @@
       "A": "Als gasos",
       "B": "Als líquids",
       "C": "Als fluids",
-      "D": "Als líquids,alssòlidsials gasos"
+      "D": "Als líquids, als sòlids i als gasos"
     }
   },
   {
     "id": "academia_sim25_q59",
-    "simulacre": "Simulacre 25",
-    "num_pregunta": 59,
     "statement": "Quin és el cabal ininterromput mínim a subministrar per cada boca d'hidrant contra incendis?",
     "correct": "D",
     "explanation": "",
@@ -633,37 +551,15 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "2.000 litresperminut",
-      "B": "100 litresperminut",
-      "C": "1.000 litresperminut",
-      "D": "500 litresperminut"
-    }
-  },
-  {
-    "id": "academia_sim26_q48",
-    "simulacre": "Simulacre 26",
-    "num_pregunta": 48,
-    "statement": "A partir de quin principi s'explica l'efecte Venturi?",
-    "correct": "D",
-    "explanation": "També pelprincipi de continuïtat de lamassa.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 26",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "A partirdelprincipid'Arquímedes",
-      "B": "A partirdelprincipide Pascal",
-      "C": "A partirdelprincipide Pareto",
-      "D": "A partirdelprincipide Bernoulli 20 Acadèmia Bombers Simulacre 26"
+      "A": "2.000 litres per minut",
+      "B": "100 litres per minut",
+      "C": "1.000 litres per minut",
+      "D": "500 litres per minut"
     }
   },
   {
     "id": "academia_sim27_q49",
-    "simulacre": "Simulacre 27",
-    "num_pregunta": 49,
-    "statement": "Com serà la mànega d'una BIE-25, d'acord amb la norma UNE-EN 671-1, d'instal·lacions fixes de lluitacontra incendis?",
+    "statement": "Com serà la mànega d'una BIE-25, d'acord amb la norma UNE-EN 671-1, d'instal·lacions fixes de lluita contra incendis?",
     "correct": "B",
     "explanation": "Les mànegues semi-planes no existeixen.\nLes BIE-45 seran mànegues planes.",
     "difficulty": "Mitjà",
@@ -681,11 +577,9 @@
   },
   {
     "id": "academia_sim27_q94",
-    "simulacre": "Simulacre 27",
-    "num_pregunta": 94,
     "statement": "Per a considerar una zona protegida per hidrants contra incendis, la distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant en zones urbanes serà inferior a:",
     "correct": "D",
-    "explanation": "En zones no urbanes serà inferiora 40 metres.\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21",
+    "explanation": "En zones no urbanes serà inferior a 40 metres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -693,7 +587,7 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "10 metres acadèmia",
+      "A": "10 metres",
       "B": "15 metres",
       "C": "40 metres",
       "D": "100 metres"
@@ -701,11 +595,9 @@
   },
   {
     "id": "academia_sim28_q57",
-    "simulacre": "Simulacre 28",
-    "num_pregunta": 57,
-    "statement": "Quin és l'element que uneix el cap o elcos, que és lapart superior de l'hidrant que emergeix de terra,amb lavàlvula?",
+    "statement": "Quin és l'element que uneix el cap o el cos, que és la part superior de l'hidrant que emergeix de terra, amb la vàlvula?",
     "correct": "B",
-    "explanation": "La vàlvula principal regula el pas de l'aiguacap a lapart superior del cos d'un hidrant.\nEls hidrants poden ser de columna humida ide columna seca.",
+    "explanation": "La vàlvula principal regula el pas de l'aigua cap a la part superior del cos d'un hidrant.\nEls hidrants poden ser de columna humida i de columna seca.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -720,12 +612,28 @@
     }
   },
   {
+    "id": "academia_sim29_q44",
+    "statement": "En quin dels següents casos considerarem que una zona està protegida per hidrants, en el cas que l'hidrant no estigui situat a la via pública?",
+    "correct": "A",
+    "explanation": "En cas d'hidrants que no estiguin situats a la via pública, la distància entre l'hidrant i la zona a protegir, mesurada\nperpendicularment a la façana, ha d'estar compresa entre 5 m i 15 m.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "En cas d'un hidrant situat a set metres, mesurats perpendicularment a la façana, de la zona a protegir",
+      "B": "En cas d'un hidrant situat a vint metres, mesurats perpendicularment a la façana, de la zona a protegir",
+      "C": "En cas d'un hidrant situat a tres metres, mesurats perpendicularment a la façana, de la zona a protegir",
+      "D": "En cas d'un hidrant situat a vint metres, mesurats paral·lelament a la façana, de l'hidrant més proper"
+    }
+  },
+  {
     "id": "academia_sim29_q59",
-    "simulacre": "Simulacre 29",
-    "num_pregunta": 59,
     "statement": "Quin quocient de flux (Kv) mínim haurà d'oferir un hidrant contra incendis de columna que disposi de dues sortides de 45 mm?",
     "correct": "B",
-    "explanation": "Reial Decret 513/2017, de 22 de maig, pel que s'aprova el Reglament d'instal·lacions de protecció contra incendis - 3.\nSistemes d'hidrants contra incendis -3.2.\nKv mínim en hidrants de columna:\n1 de 45: 33\n2 de 45: 66\n1 de 70: 80\n2 de 70: 150\n1 de 90/100: 180\nKv mínim en hidrants enterrats:\n1 de 45: 33\n2 de 45: 66\n1 de 70: 80\n2 de 70: 150\n1 de 90/100: 150",
+    "explanation": "Reial Decret 513/2017, de 22 de maig, pel que s'aprova el Reglament d'instal·lacions de protecció contra incendis - 3.\nSistemes d'hidrants contra incendis - 3.2.\nKv mínim en hidrants de columna:\n1 de 45: 33\n2 de 45: 66\n1 de 70: 80\n2 de 70: 150\n1 de 90/100: 180\nKv mínim en hidrants enterrats:\n1 de 45: 33\n2 de 45: 66\n1 de 70: 80\n2 de 70: 150\n1 de 90/100: 150",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -741,11 +649,9 @@
   },
   {
     "id": "academia_sim29_q63",
-    "simulacre": "Simulacre 29",
-    "num_pregunta": 63,
     "statement": "Quin tipus de manteniment s'haurà d'efectuar sobre un hidrant cada cinc anys?",
     "correct": "B",
-    "explanation": "Treure les tapes de les sortides, greixar les rosques icomprovar l'estatde lesjuntes: cada 3 mesos.\nVerificarl'estanquitat dels taps: cada any.\nGreixar la femella o omplir lacambra d'oli:cada sis mesos.\n\n64.- acadèmia\nA: viaaèria\nB: respiració\nC: circulació\nD: neurològic\nE: exposició bombers\nDins d'aquesta valoració es valorarà elnivell de consciència de la víctima, a partirdel protocol AVDN.\n\n66.- www.academiabombers.com\nEltermòstat és lapeça que obre itanca elpas del refrigerant del motor finsel radiador.\nEltermocontacte, que si que forma part del electroventilador, és l'encarregat de, en cas d'escalfar-se, fercontacte iposar\nen funcionament el ventilador.",
+    "explanation": "Treure les tapes de les sortides, greixar les rosques i comprovar l'estat de les juntes: cada 3 mesos.\nVerificar l'estanquitat dels taps: cada any.\nGreixar la femella o omplir la cambra d'oli: cada sis mesos.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -753,19 +659,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Greixar la femella o omplirbomberslacambrad'oli",
-      "B": "Canviar lesjuntes dels ràcords",
-      "C": "Verificarl'estanquitatdelstaps",
-      "D": "Treure lestapes de lessortides,greixarwww.academiabombers.comlesrosquesicomprovarl'estatdelesjuntes"
+      "A": "Greixar la femella o omplir la cambra d'oli",
+      "B": "Canviar les juntes dels ràcords",
+      "C": "Verificar l'estanquitat dels taps",
+      "D": "Treure les tapes de les sortides, greixar les rosques i comprovar l'estat de les juntes"
     }
   },
   {
     "id": "academia_sim30_q67",
-    "simulacre": "Simulacre 30",
-    "num_pregunta": 67,
     "statement": "Un bloc destinat exclusivament a l'habitatge compta amb una zona de risc especial alt a causa de matèries sòlides. Haurà de disposar, per norma general, de sistema de BIE?",
     "correct": "B",
-    "explanation": "Davant de riscderivat del perillper matèries sòlides:\nResidencial habitatge: BIE-25\nAltres:BIE-45",
+    "explanation": "Davant de risc derivat del perill per matèries sòlides:\nResidencial habitatge: BIE-25\nAltres: BIE-45",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -773,19 +677,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Només sila seva superfície totalsupera els2.500 m²",
+      "A": "Només si la seva superfície total supera els 2.500 m²",
       "B": "Si, BIE-25",
-      "C": "Si,BIE-45",
-      "D": "No, laseva instal·lacióserà facultativa"
+      "C": "Si, BIE-45",
+      "D": "No, la seva instal·lació serà facultativa"
     }
   },
   {
     "id": "academia_sim31_q43",
-    "simulacre": "Simulacre 31",
-    "num_pregunta": 43,
     "statement": "Quines sortides haurà de tenir un hidrant exterior de columna humida de 80 mm?",
     "correct": "D",
-    "explanation": "En hidrantsexteriors:\nColumna de 150 mm: una sortida de 100 mm idues de 70 mm\nColumna de 100 mm: una sortida de 100mm idues de 70 mm\nColumna de 80 mm: una sortidade 70 mm idues de 45 mm",
+    "explanation": "En hidrants exteriors:\nColumna de 150 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 100 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 80 mm: una sortida de 70 mm i dues de 45 mm",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -793,16 +695,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una sortidade70 mm iuna de45 mm",
-      "B": "Una sortidade80 mm idues de 45mm",
-      "C": "Una sortidade 100 mm idues de 70 mm",
-      "D": "Una sortidade 70mm idues de 45 mm"
+      "A": "Una sortida de 70 mm i una de 45 mm",
+      "B": "Una sortida de 80 mm i dues de 45 mm",
+      "C": "Una sortida de 100 mm i dues de 70 mm",
+      "D": "Una sortida de 70 mm i dues de 45 mm"
     }
   },
   {
     "id": "academia_sim31_q68",
-    "simulacre": "Simulacre 31",
-    "num_pregunta": 68,
     "statement": "El cabal és:",
     "correct": "D",
     "explanation": "Cabal = Volum / Temps.",
@@ -813,39 +713,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La velocitat que brolla l'aigua d'un orificienfunció deldiàmetre del mateix",
-      "B": "La força que fal'aigua per unitat de superfície",
-      "C": "L'energia que aprofita elmoviment de l'aigua",
-      "D": "La quantitat d'aigua que passa per lasecció d'un conducte en un temps determinat "
-    }
-  },
-  {
-    "id": "academia_sim32_q85",
-    "simulacre": "Simulacre 32",
-    "num_pregunta": 85,
-    "statement": "Quin concepte elèctric correspondria en termes hidràulics al cabal?",
-    "correct": "A",
-    "explanation": "Elvoltatgecorrespondriaa lapressió hidràulica.\n ",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 32",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La intensitatde corrent",
-      "B": "La tensió elèctrica ",
-      "C": "La resistència elèctrica",
-      "D": "El voltatge"
+      "A": "La velocitat que brolla l'aigua d'un orifici en funció del diàmetre del mateix",
+      "B": "La força que fa l'aigua per unitat de superfície",
+      "C": "L'energia que aprofita el moviment de l'aigua",
+      "D": "La quantitat d'aigua que passa per la secció d'un conducte en un temps determinat"
     }
   },
   {
     "id": "academia_sim35_q73",
-    "simulacre": "Simulacre 35",
-    "num_pregunta": 73,
     "statement": "En zones urbanes, quina distància de recorregut real a qualsevol hidrant hi haurà d'haver per a considerar que una zona està protegida per hidrants contra incendis?",
     "correct": "D",
-    "explanation": "En zones NO urbanes, inferiora 40 acadèmiametres.",
+    "explanation": "En zones NO urbanes, inferior a 40 metres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -853,19 +731,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Inferiora 40 metres, mesurats horitzontalment",
-      "B": "Inferiora 60 metres, mesurats en líniarecta",
-      "C": "Inferiora80 metres, mesurats verticalment",
-      "D": "Inferiora100 metres, mesurats horitzontalment"
+      "A": "Inferior a 40 metres, mesurats horitzontalment",
+      "B": "Inferior a 60 metres, mesurats en línia recta",
+      "C": "Inferior a 80 metres, mesurats verticalment",
+      "D": "Inferior a 100 metres, mesurats horitzontalment"
     }
   },
   {
     "id": "academia_sim35_q88",
-    "simulacre": "Simulacre 35",
-    "num_pregunta": 88,
     "statement": "La calç aèria:",
     "correct": "C",
-    "explanation": "La calç hidràulicaté un enduriment méswww.academiabombers.comràpidquelacalçaèriaiofereixunaresistènciamésalta.\nCL: calç aèria.\nHL: calç hidràulica.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 35",
+    "explanation": "La calç hidràulica té un enduriment més ràpid que la calç aèria i ofereix una resistència més alta.\nCL: calç aèria.\nHL: calç hidràulica.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -873,16 +749,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Ofereix un enduriment més ràpid que la calçhidràulica",
+      "A": "Ofereix un enduriment més ràpid que la calç hidràulica",
       "B": "Rep la nomenclatura \"HL\"",
-      "C": "Ofereixuna resistènciamenor que lacalç hidràulica",
-      "D": "Les respostes a) ic)són correctes 21 Acadèmia Bombers Simulacre 35"
+      "C": "Ofereix una resistència menor que la calç hidràulica",
+      "D": "Les respostes a) i c) són correctes  acadèmia bombers"
     }
   },
   {
     "id": "academia_sim37_q60",
-    "simulacre": "Simulacre 37",
-    "num_pregunta": 60,
     "statement": "Segons el RIPCI, la inspecció visual de l'estanquitat s'efectuarà:",
     "correct": "A",
     "explanation": "La verificació de l'estanquitat dels taps d'un hidrant s'efectuarà cada any.",
@@ -900,30 +774,8 @@
     }
   },
   {
-    "id": "academia_sim37_q88",
-    "simulacre": "Simulacre 37",
-    "num_pregunta": 88,
-    "statement": "L'efecte Venturi:",
-    "correct": "C",
-    "explanation": "L'efecte Venturi és degut a l'augment de velocitaten la part estreta ila consegüent disminució de lapressió, tal com es\ndedueix del teorema de Bernoulli.Ésacadèmiaelresponsabledel'efectexuclador utilitzaten elspolvoritzadors, l'entrada d'airea\ncremadors o lesbombes de buit d'aigua, entre altres (TERMCAT).\nL'efecte Venturi es dóna en fluids(líquids igasos).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 37",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "És degut a la disminució de la velocitaten la partestreta d'un conducte o canonada",
-      "B": "Conclou en un augment de lapressió dins un conducte o canonada",
-      "C": "Es dedueix delteorema de Bernoulli",
-      "D": "És un fenomen físicque es dóna en líquids,però no en gasos 22 Acadèmia Bombers Simulacre 37"
-    }
-  },
-  {
     "id": "academia_sim39_q67",
-    "simulacre": "Simulacre 39",
-    "num_pregunta": 67,
-    "statement": "Com s'anomenen cadascuna de les paletes corbades a turbines hidràuliques que disposa una bomba centrífuga ique formen part del rodet?",
+    "statement": "Com s'anomenen cadascuna de les paletes corbades a turbines hidràuliques que disposa una bomba centrífuga i que formen part del rodet?",
     "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
@@ -940,32 +792,10 @@
     }
   },
   {
-    "id": "academia_sim43_q9",
-    "simulacre": "Simulacre 43",
-    "num_pregunta": 9,
-    "statement": "En un conducte destinat a la circulació de fluids, quin tipus de pèrdua de càrrega suposaria el fregament amb lasuperfície d'una vàlvula?",
-    "correct": "D",
-    "explanation": "Primàries: per contacte amb el conducte.\nSecundàries: per estrenyiments de lacanonada o accesoris.\n10.- bombers\nLa projecció transversa de Mercator distorsiona molt l'àrea també.\n11.- www.academiabombers.com\n\nDe menor a major llargada: jou, biga enjovada, biga ibiga mestra.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 43",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Un tipusde pèrdua de càrrega lineal",
-      "B": "Un tipusde pèrdua de càrrega primària",
-      "C": "Un tipusde pèrdua de càrrega contínua",
-      "D": "Un tipusde pèrdua de càrrega secundària"
-    }
-  },
-  {
     "id": "academia_sim43_q74",
-    "simulacre": "Simulacre 43",
-    "num_pregunta": 74,
     "statement": "D'acord amb el programa de manteniment dels hidrants contra incendis, cada sis mesos:",
     "correct": "C",
-    "explanation": "Manteniment cada sis mesos:\n-Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n-Obrir i tancar l’hidrant icomprovar el funcionament correcte de la vàlvula principal idel sistema de drenatge.",
+    "explanation": "Manteniment cada sis mesos:\n- Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n- Obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -973,19 +803,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Se lihauran de treure les tapes de lessortides, greixarles rosques icomprovar l’estatde lesseves juntes",
+      "A": "Se li hauran de treure les tapes de les sortides, greixar les rosques i comprovar l’estat de les seves juntes",
       "B": "S'haurar de comprovar la seva senyalització",
-      "C": "S'haurà d'obriritancar l’hidranticomprovar el funcionament correcte de lavàlvula principalidel sistema de drenatge",
-      "D": "Se lihauran de canviarles juntes dels ràcords"
+      "C": "S'haurà d'obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge",
+      "D": "Se li hauran de canviar les juntes dels ràcords"
     }
   },
   {
     "id": "academia_sim44_q57",
-    "simulacre": "Simulacre 44",
-    "num_pregunta": 57,
-    "statement": "Quin tipus de ciment s'aplica en formigons per obra hidràulica i compta amb un percentatge de clínker d'entre el 45 i el89%?",
+    "statement": "Quin tipus de ciment s'aplica en formigons per obra hidràulica i compta amb un percentatge de clínker d'entre el 45 i el 89%?",
     "correct": "C",
-    "explanation": "CEM I:més del 95% de clínker.\nCEM II:65 a 94% de clínker.\nCEM III:20 a 64% de clínker.\nCEM IV: 45 a 89% de clínker.\nCEM V: 20 a 64% de clínker.\n\n\n 24\nAcadèmia Bombers Simulacre 44",
+    "explanation": "CEM I: més del 95% de clínker.\nCEM II: 65 a 94% de clínker.\nCEM III: 20 a 64% de clínker.\nCEM IV: 45 a 89% de clínker.\nCEM V: 20 a 64% de clínker.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -993,19 +821,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El CEM III(d'altforn)",
+      "A": "El CEM III (d'alt forn)",
       "B": "El CEM V (compost)",
-      "C": "El CEM IV(putzolànic)",
-      "D": "El CEM I(pòrtland)"
+      "C": "El CEM IV (putzolànic)",
+      "D": "El CEM I (pòrtland)"
     }
   },
   {
     "id": "academia_sim45_q93",
-    "simulacre": "Simulacre 45",
-    "num_pregunta": 93,
     "statement": "A quin ràcord d'una turbobomba connectarem la mànega de retorn?",
     "correct": "C",
-    "explanation": "Alràcord exteriorhiconnectarem lamànega impulsora ia l'inferior,lasortidad'impulsió a laperifèria.",
+    "explanation": "Al ràcord exterior hi connectarem la mànega impulsora i a l'inferior, la sortida d'impulsió a la perifèria.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1015,17 +841,15 @@
     "options": {
       "A": "Al ràcord exterior",
       "B": "Al ràcord inferior",
-      "C": "Alràcord central",
-      "D": "És indiferent acadèmia"
+      "C": "Al ràcord central",
+      "D": "És indiferent"
     }
   },
   {
-    "id": "academia_sim46_q85",
-    "simulacre": "Simulacre 46",
-    "num_pregunta": 85,
-    "statement": "La premsa hidràulica:",
+    "id": "academia_sim46_q77",
+    "statement": "Quina condició d'instal·lació hauran de complir les Boques d'Incendi Equipades (BIE)?",
     "correct": "C",
-    "explanation": "",
+    "explanation": "Els equips que cal instal·lar per defecte són BIE-25, excepte en els casos de risc especial alt que seran BIE-45, excepte\nen casos de risc especial alt per ús Residencial Habitatge, que seran BIE-25.\nEl broquet i la vàlvula d'obertura d'una BIE hauran d'estar situades a un màxim de 1,5 metres del terra.\nHauran de dur la senyalització al costat i no a sobre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1033,19 +857,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Està basada en elprincipide Torricelli",
-      "B": "S'inspira en elprincipide Bernoulli",
-      "C": "Està basada en elprincipide Pascal",
-      "D": "S'inspiraen elprincipid'Arquímedes"
+      "A": "El seu broquet i la seva vàlvula d'obertura hauran d'estar situades a un màxim de 0,9 metres del terra",
+      "B": "Els equips que cal instal·lar per defecte són BIE-45, excepte en els casos de risc especial alt que seran BIE-25",
+      "C": "Hauran d'estar situades a un màxim de cinc metres de les sortides de cada sector d'incendi",
+      "D": "Hauran de dur la senyalització a sobre i no al costat"
     }
   },
   {
     "id": "academia_sim47_q71",
-    "simulacre": "Simulacre 47",
-    "num_pregunta": 71,
-    "statement": "Quina distància de recorregutbombersrealaqualsevol hidrant hi haurà d'haver, en zones urbanes, per a considerar que una zona està protegida per hidrants contra incendis?",
+    "statement": "Quina distància de recorregut real a qualsevol hidrant hi haurà d'haver, en zones urbanes, per a considerar que una zona està protegida per hidrants contra incendis?",
     "correct": "D",
-    "explanation": "En zones NO urbanes, inferiora 40 metres.",
+    "explanation": "En zones NO urbanes, inferior a 40 metres.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1053,16 +875,32 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Inferiora 40 metres, mesurats horitzontalmentwww.academiabombers.com",
-      "B": "Inferiora 60 metres, mesurats en líniarecta",
-      "C": "Inferiora 80 metres, mesurats verticalment",
-      "D": "Inferiora 100 metres, mesurats horitzontalment"
+      "A": "Inferior a 40 metres, mesurats horitzontalment",
+      "B": "Inferior a 60 metres, mesurats en línia recta",
+      "C": "Inferior a 80 metres, mesurats verticalment",
+      "D": "Inferior a 100 metres, mesurats horitzontalment"
+    }
+  },
+  {
+    "id": "academia_sim48_q4",
+    "statement": "Quin dels següents factors no influirà en el fenomen del cop d'ariet?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 48",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El punt d'ebullició del fluid",
+      "B": "La longitud de la mànega",
+      "C": "La velocitat del fluid",
+      "D": "La densitat del fluid"
     }
   },
   {
     "id": "academia_sim48_q46",
-    "simulacre": "Simulacre 48",
-    "num_pregunta": 46,
     "statement": "En una bomba centrífuga, és el responsable de l'increment de l'energia a través de la màquina:",
     "correct": "A",
     "explanation": "",
@@ -1075,34 +913,12 @@
     "options": {
       "A": "El rodet",
       "B": "La voluta",
-      "C": "La vàlvula acadèmia",
-      "D": "Eltub d'aspiració"
-    }
-  },
-  {
-    "id": "academia_sim48_q95",
-    "simulacre": "Simulacre 48",
-    "num_pregunta": 95,
-    "statement": "Quin és l'element que regula el pas de l'aigua cap a lapart superior del cos d'un hidrant?",
-    "correct": "A",
-    "explanation": "Elshidrants poden ser de columna humidaacadèmiaidecolumnaseca.\nElrodet uneix elcap o elcos, que és la part superior de l'hidrantque emergeix de terra,amb la vàlvula.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 22",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 48",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La vàlvula principal bombers",
-      "B": "El rodet",
-      "C": "El cap",
-      "D": "La vàlvula d'assentament www.academiabombers.com 22"
+      "C": "La vàlvula",
+      "D": "El tub d'aspiració"
     }
   },
   {
     "id": "academia_sim49_q79",
-    "simulacre": "Simulacre 49",
-    "num_pregunta": 79,
     "statement": "Quin principi explica l'efecte Venturi?",
     "correct": "D",
     "explanation": "",
@@ -1113,19 +929,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El principide Bernoulli bombers",
-      "B": "El principide Pascal",
-      "C": "El principide continuïtatde massa www.academiabombers.com",
-      "D": "Les respostes a)i c)són correctes"
+      "A": "El principi de Bernoulli",
+      "B": "El principi de Pascal",
+      "C": "El principi de continuïtat de massa",
+      "D": "Les respostes a) i c) són correctes"
     }
   },
   {
     "id": "academia_sim50_q38",
-    "simulacre": "Simulacre 50",
-    "num_pregunta": 38,
-    "statement": "Quina és la distància mínima entre l'emplaçament d'un hidrant i ellímit exterior de l'edificio zona protegits, mesurada perpendicularmentacadèmiaalafaçana, en elcas d'hidrants que no estiguin situats a lavia pública, per considerar que una zona està protegida per hidrants contra incendis?",
+    "statement": "Quina és la distància mínima entre l'emplaçament d'un hidrant i el límit exterior de l'edifici o zona protegits, mesurada perpendicularment a la façana, en el cas d'hidrants que no estiguin situats a la via pública, per considerar que una zona està protegida per hidrants contra incendis?",
     "correct": "D",
-    "explanation": "La distància entre l'emplaçament de cada hidrant iellímit exteriorde l'edificiozona protegits, mesurada\nperpendicularment a la façana, ha d'estar compresa entre 5 m i15 m.",
+    "explanation": "La distància entre l'emplaçament de cada hidrant i el límit exterior de l'edifici o zona protegits, mesurada\nperpendicularment a la façana, ha d'estar compresa entre 5 m i 15 m.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1136,16 +950,14 @@
       "A": "10 m",
       "B": "15 m",
       "C": "2 m",
-      "D": "5 m bombers"
+      "D": "5 m"
     }
   },
   {
     "id": "academia_sim51_q4",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 4,
-    "statement": "Quina és la distància màxima entre l'emplaçament d'un hidrant iel límit exterior de l'edificio zona protegits, mesurada perpendicularment a la façana, en el cas d'hidrants que no estiguin situats a la via pública, per considerar que una zona està protegida per hidrants contra incendis?",
+    "statement": "Quina és la distància màxima entre l'emplaçament d'un hidrant i el límit exterior de l'edifici o zona protegits, mesurada perpendicularment a la façana, en el cas d'hidrants que no estiguin situats a la via pública, per considerar que una zona està protegida per hidrants contra incendis?",
     "correct": "B",
-    "explanation": "La distància entre l'emplaçament de cada hidrant iel límitexterior de l'edificiozona protegits, mesurada\nperpendicularment a lafaçana, ha d'estar compresa entre 5 m i15 m.",
+    "explanation": "La distància entre l'emplaçament de cada hidrant i el límit exterior de l'edifici o zona protegits, mesurada\nperpendicularment a la façana, ha d'estar compresa entre 5 m i 15 m.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1161,11 +973,9 @@
   },
   {
     "id": "academia_sim51_q27",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 27,
     "statement": "Quina és la distància màxima de recorregut real a un hidrant en zones urbanes per considerar que una zona està protegida per hidrants contra incendis?",
-    "correct": "A",
-    "explanation": "La distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferiora 100 m en zones\nurbanes i40 m a la resta.",
+    "correct": "D",
+    "explanation": "La distància de recorregut real, mesurada horitzontalment, a qualsevol hidrant ha de ser inferior a 100 m en zones\nurbanes i 40 m a la resta.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1181,11 +991,9 @@
   },
   {
     "id": "academia_sim51_q79",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 79,
-    "statement": "Com s'anomena elràcordbombersperextinciód'incendis normalitzat a l'estat espanyol?",
+    "statement": "Com s'anomena el ràcord per extinció d'incendis normalitzat a l'estat espanyol?",
     "correct": "A",
-    "explanation": "Ràcord Barcelona, a Espanya normalitzat segons laUNE 23400.\nRàcord Guillemin, d'origen francès, amb normativa NF.\nRàcord Storz, d'origen alemany, amb normativa DIN.\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 51",
+    "explanation": "Ràcord Barcelona, a Espanya normalitzat segons la UNE 23400.\nRàcord Guillemin, d'origen francès, amb normativa NF.\nRàcord Storz, d'origen alemany, amb normativa DIN.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1194,18 +1002,16 @@
     "isAnswered": 0,
     "options": {
       "A": "Ràcord Barcelona",
-      "B": "Ràcord Guillemin www.academiabombers.com",
+      "B": "Ràcord Guillemin",
       "C": "Ràcors Sabadell",
       "D": "Ràcord Storz"
     }
   },
   {
     "id": "academia_sim52_q92",
-    "simulacre": "Simulacre 52",
-    "num_pregunta": 92,
-    "statement": "Tenim una mànega de 5 cm² de diàmetre que ofereix un cabal de 100 L/min. Quin cabal oferiria si eldiàmetre fos de 15 cm²?",
+    "statement": "Tenim una mànega de 5 cm² de diàmetre que ofereix un cabal de 100 L/min. Quin cabal oferiria si el diàmetre fos de 15 cm²?",
     "correct": "B",
-    "explanation": "Per una mànega que téel doble de diàmetre que un altre,hipassa quatre vegades més de cabal isiel diàmetre és tres\nvegades més gran, hipassa nou vegades més de cabal,etc.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 26\nAcadèmia Bombers Simulacre 52",
+    "explanation": "Per una mànega que té el doble de diàmetre que un altre, hi passa quatre vegades més de cabal i si el diàmetre és tres\nvegades més gran, hi passa nou vegades més de cabal, etc.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1216,13 +1022,11 @@
       "A": "600 L/min",
       "B": "900 L/min",
       "C": "300 L/min",
-      "D": "Elmateix"
+      "D": "El mateix"
     }
   },
   {
     "id": "academia_sim53_q3",
-    "simulacre": "Simulacre 53",
-    "num_pregunta": 3,
     "statement": "Fent ús d'una premsa hidràulica, per poder elevar 24 metres una càrrega hem hagut d'enfonsar 3 metres l'altre èmbol, de 4 m². Podem saber la superfície que presenta l'èmbol que suporta la càrrega?",
     "correct": "D",
     "explanation": "S1 × D1 = S2 × D2\nS1 × 24 = 4 × 3\nS1 = 6/12 = 0,5 m².",
@@ -1235,17 +1039,15 @@
     "options": {
       "A": "Si, és de 8 m²",
       "B": "Si, és de 1 m²",
-      "C": "No, depèn delpes de lescàrregues i/ola forçaque exercim",
-      "D": "Si,és de 0,5 m²"
+      "C": "No, depèn del pes de les càrregues i/o la força que exercim",
+      "D": "Si, és de 0,5 m²"
     }
   },
   {
     "id": "academia_sim53_q13",
-    "simulacre": "Simulacre 53",
-    "num_pregunta": 13,
     "statement": "Quins principis recull l'hidrostàtica?",
     "correct": "C",
-    "explanation": "Elprincipi de Bernoulli il'equació de continuitat s'inclouen a l'hidrodinàmica.",
+    "explanation": "El principi de Bernoulli i l'equació de continuitat s'inclouen a l'hidrodinàmica.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1253,19 +1055,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El principid'Arquímedes, el principide Bernoulliil'equació de continuitat",
-      "B": "El principide Bernoulli,el principid'Arquímedesi el principide Pascal",
-      "C": "Elprincipid'Arquímedes, l'experiment de Torricelliielprincipide Pascal",
-      "D": "Elprincipide Pascal ielprincipide Reynolds"
+      "A": "El principi d'Arquímedes, el principi de Bernoulli i l'equació de continuitat",
+      "B": "El principi de Bernoulli, el principi d'Arquímedes i el principi de Pascal",
+      "C": "El principi d'Arquímedes, l'experiment de Torricelli i el principi de Pascal",
+      "D": "El principi de Pascal i el principi de Reynolds"
     }
   },
   {
     "id": "academia_sim55_q53",
-    "simulacre": "Simulacre 55",
-    "num_pregunta": 53,
-    "statement": "Davant d'una caiguda d'aigua de 300 metres però de poc cabal, quin dels següents tipus de turbina ens serà més útilsi volem generar el màxim d'energia elèctrica?",
+    "statement": "Davant d'una caiguda d'aigua de 300 metres però de poc cabal, quin dels següents tipus de turbina ens serà més útil si volem generar el màxim d'energia elèctrica?",
     "correct": "C",
-    "explanation": "",
+    "explanation": "Turbines Pelton: grans salts (més de 200m) però poc cabal.\nTurbines Francis: salts de mitjana alçada (10-200 m).\nTurbines Kaplan: grans quantitats d'aigua amb poca alçada (fins a 50m).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1273,19 +1073,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La turbinaKaplan ",
-      "B": "La turbinaFrancis",
+      "A": "La turbina Kaplan",
+      "B": "La turbina Francis",
       "C": "La turbina Pelton",
-      "D": "La tipologiade la turbinano influeixen lapotencial producció elèctrica"
+      "D": "La tipologia de la turbina no influeix en la potencial producció elèctrica"
     }
   },
   {
     "id": "academia_sim58_q10",
-    "simulacre": "Simulacre 58",
-    "num_pregunta": 10,
     "statement": "Què estudia la hidràulica?",
     "correct": "B",
-    "explanation": "La hidràulica, és la part de la físicaque www.academiabombers.comestudiaelsfluids.Elslíquidsielsgasosrebenelnomdefluids.Elsfluidssón\nmatèria que pren laforma del recipient que els conté.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 14\nAcadèmia Bombers Simulacre 58",
+    "explanation": "La hidràulica, és la part de la física que estudia els fluids. Els líquids i els gasos reben el nom de fluids. Els fluids són\nmatèria que pren la forma del recipient que els conté.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1301,11 +1099,9 @@
   },
   {
     "id": "academia_sim58_q11",
-    "simulacre": "Simulacre 58",
-    "num_pregunta": 11,
-    "statement": "Obrir itancar l'hidrant icomprovar que la vàlvula principal iel sistema de drenatge funcionin correctament s'haurà d'efectuar:",
+    "statement": "Obrir i tancar l'hidrant i comprovar que la vàlvula principal i el sistema de drenatge funcionin correctament s'haurà d'efectuar:",
     "correct": "B",
-    "explanation": "Ho durà a terme elpersonal titularde lainstal·lació.",
+    "explanation": "Ho durà a terme el personal titular de la instal·lació.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1321,11 +1117,9 @@
   },
   {
     "id": "academia_sim60_q63",
-    "simulacre": "Simulacre 60",
-    "num_pregunta": 63,
-    "statement": "Per una mànega hi passen 50 litres per minut i té unes pèrdues de càrrega de 2 bar. Si en comptes de 50 hi passessin 200 litresper minut, quines pèrdues de càrrega tindrà?",
+    "statement": "Per una mànega hi passen 50 litres per minut i té unes pèrdues de càrrega de 2 bar. Si en comptes de 50 hi passessin 200 litres per minut, quines pèrdues de càrrega tindrà?",
     "correct": "B",
-    "explanation": "Les pèrdues de càrrega són directament proporcionals alquadrat de la relació de cabal.\nAlpassar de 50 a 200, la relació és de 4 (4² = 16).\n2 bar × 16 = 32 bar.",
+    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de la relació de cabal.\nAl passar de 50 a 200, la relació és de 4 (4² = 16).\n2 bar × 16 = 32 bar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1333,19 +1127,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "64 bar bombers",
+      "A": "64 bar",
       "B": "32 bar",
       "C": "16 bar",
-      "D": "8 bar www.academiabombers.com 9 Acadèmia Bombers Simulacre 60"
+      "D": "8 bar  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim61_q7",
-    "simulacre": "Simulacre 61",
-    "num_pregunta": 7,
-    "statement": "De quin tipus de mapa parlem si ens referim a un tipus de mapa on hi ha poc nivell de detall?",
+    "id": "academia_sim61_q9",
+    "statement": "Si tenim previst treballar a pressions elevades, quin tipus de bomba ens serà més útil?",
     "correct": "A",
-    "explanation": "Elsmapes a gran escala representen zones petitesde terreny imolt de detall.\n\n9.- acadèmia\nBombes rotodinàmiques = centrífugues. Aquestes ens seran més útilsa l'horade treballaramb cabals més grans.",
+    "explanation": "Bombes rotodinàmiques = centrífugues. Aquestes ens seran més útils a l'hora de treballar amb cabals més grans.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1353,16 +1145,14 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un mapa de petitaescala bombers",
-      "B": "Un mapa de gran escala",
-      "C": "Un mapa d'escalamitjana www.academiabombers.com",
-      "D": "Un mapa temàtic 1 Acadèmia Bombers Simulacre 61"
+      "A": "Les bombes volumètriques",
+      "B": "Les bombes centrífugues",
+      "C": "Les bombes jockey",
+      "D": "Les dues, en menor o major mesura, ens seran igual d'útils"
     }
   },
   {
     "id": "academia_sim61_q57",
-    "simulacre": "Simulacre 61",
-    "num_pregunta": 57,
     "statement": "Quina serà la pèrdua de càrrega d'una mànega de 25 mm de diàmetre, 20 m de longitud a 230 litres per minut (lpm)?",
     "correct": "A",
     "explanation": "Coeficients de pèrdua de càrrega (PC):\nØ 25 mm: 380\nØ 45 mm: 38\nØ 70 mm: 2.1\nPC = C/100 × L/100 × (Q/100)² = 380/100 × 20/100 × 230²/10.000 = 4 bar.",
@@ -1375,17 +1165,15 @@
     "options": {
       "A": "4 bar",
       "B": "8,5 bar",
-      "C": "3,5bar",
-      "D": "1,5bar"
+      "C": "3,5 bar",
+      "D": "1,5 bar"
     }
   },
   {
     "id": "academia_sim61_q75",
-    "simulacre": "Simulacre 61",
-    "num_pregunta": 75,
-    "statement": "Quines sortides haurà de tenirun hidrant exterior de columna humida de 150 mm?",
+    "statement": "Quines sortides haurà de tenir un hidrant exterior de columna humida de 150 mm?",
     "correct": "C",
-    "explanation": "En hidrants exteriors:\nColumna de 150 mm: una sortida de 100 mm idues de 70 mm\nColumna de 100 mm: una sortida de 100 mm idues de 70 mm\nColumna de 80 mm: una sortida de 70 mm idues de 45 mm",
+    "explanation": "En hidrants exteriors:\nColumna de 150 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 100 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 80 mm: una sortida de 70 mm i dues de 45 mm",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1393,19 +1181,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una sortidade 70 mm iuna de 45 mm",
-      "B": "Una sortidade 80 mm idues de 45 mm",
-      "C": "Una sortidade 100 mm idues de 70 mm",
-      "D": "Una sortidade 70 mm idues de 45 mm"
+      "A": "Una sortida de 70 mm i una de 45 mm",
+      "B": "Una sortida de 80 mm i dues de 45 mm",
+      "C": "Una sortida de 100 mm i dues de 70 mm",
+      "D": "Una sortida de 70 mm i dues de 45 mm"
     }
   },
   {
     "id": "academia_sim62_q10",
-    "simulacre": "Simulacre 62",
-    "num_pregunta": 10,
-    "statement": "Volem expressar en un sistema de coordenades cartesianes les pèrdues de càrrega de les mànegues més usuals en funció del cabal. L'eix d'ordenades representa elcabal (l/m) i l'eix d'abscisses representa les pèrdues de càrrega (kg/cm²). Partint del punt en el qual s'intersequen els eixos de coordenades, quina mànega presentarà una corba més vertical (amb major pendent)?",
+    "statement": "Volem expressar en un sistema de coordenades cartesianes les pèrdues de càrrega de les mànegues més usuals en funció del cabal. L'eix d'ordenades representa el cabal (l/m) i l'eix d'abscisses representa les pèrdues de càrrega (kg/cm²). Partint del punt en el qual s'intersequen els eixos de coordenades, quina mànega presentarà una corba més vertical (amb major pendent)?",
     "correct": "A",
-    "explanation": "Eix\"x\" = eix d'abscisses.\nEix\"y\" = eix d'ordenades.\nLa corba serà més verticalperquè assoleix menors valors de pèrdues de càrrega (amés horitzontalitat,majors valors de\npèrdues de càrrega).",
+    "explanation": "Eix \"x\" = eix d'abscisses.\nEix \"y\" = eix d'ordenades.\nLa corba serà més vertical perquè assoleix menors valors de pèrdues de càrrega (a més horitzontalitat, majors valors de\npèrdues de càrrega).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1416,16 +1202,14 @@
       "A": "La mànega de 70 mm de diàmetre",
       "B": "La mànega de 45 mm de diàmetre",
       "C": "La mànega de 25 mm de diàmetre",
-      "D": "Totes trespresentaran una corba idèntica"
+      "D": "Totes tres presentaran una corba idèntica"
     }
   },
   {
     "id": "academia_sim62_q90",
-    "simulacre": "Simulacre 62",
-    "num_pregunta": 90,
     "statement": "Quina propietat caracteritza les bombes rotodinàmiques?",
     "correct": "D",
-    "explanation": "Per norma general, lesbombes rotodinàmiques són de capacitat d'aspiració limitada, molt inferiora lade lesbombes de\ndesplaçament positiu.El cabal s'impulsa de forma discontínua i funcionen d'una forma diferent a lesbombes\nvolumètriques.",
+    "explanation": "Per norma general, les bombes rotodinàmiques són de capacitat d'aspiració limitada, molt inferior a la de les bombes de\ndesplaçament positiu. El cabal s'impulsa de forma discontínua i funcionen d'una forma diferent a les bombes\nvolumètriques.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1434,15 +1218,13 @@
     "isAnswered": 0,
     "options": {
       "A": "El cabal s'impulsa de forma discontínua",
-      "B": "Per norma general, tenen una capacitat d'aspiraciósuperior a lade les bombes de desplaçament positiu",
+      "B": "Per norma general, tenen una capacitat d'aspiració superior a la de les bombes de desplaçament positiu",
       "C": "Funcionen d'una forma molt semblant a les bombes volumètriques",
-      "D": "La seva pressió màxima està limitadapel seu principide funcionament"
+      "D": "La seva pressió màxima està limitada pel seu principi de funcionament"
     }
   },
   {
     "id": "academia_sim63_q31",
-    "simulacre": "Simulacre 63",
-    "num_pregunta": 31,
     "statement": "Què és el cabal?",
     "correct": "D",
     "explanation": "Cabal = Volum / Temps.",
@@ -1453,19 +1235,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La velocitatque brolla l'aiguad'un orificienfunció del diàmetre del mateix",
-      "B": "La forçaque fa l'aiguaper unitatde superfície",
-      "C": "L'energia que aprofita elmoviment de l'aigua",
-      "D": "La quantitatd'aigua que passa per lasecció d'un conducte en un temps determinat"
+      "A": "La velocitat que brolla l'aigua d'un orifici en funció del diàmetre del mateix",
+      "B": "La força que fa l'aigua per unitat de superfície",
+      "C": "L'energia que aprofita el moviment de l'aigua",
+      "D": "La quantitat d'aigua que passa per la secció d'un conducte en un temps determinat"
     }
   },
   {
     "id": "academia_sim65_q25",
-    "simulacre": "Simulacre 65",
-    "num_pregunta": 25,
-    "statement": "D'acord amb el programa de manteniment dels sistemes de protecció activa contra incendis que incorpora elRIPCI, quina acció de manteniment es durà a terme cada cinc anys pels hidrants?",
+    "statement": "D'acord amb el programa de manteniment dels sistemes de protecció activa contra incendis que incorpora el RIPCI, quina acció de manteniment es durà a terme cada cinc anys pels hidrants?",
     "correct": "B",
-    "explanation": "3 mesos:\n-Comprovar l’accessibilitat alseu entorn ila senyalització en els hidrants enterrats.\n-Inspecció visual,amb comprovació de l’estanquitat del conjunt.\n-Treure les tapes de les sortides, greixar les rosques icomprovar l’estat de les juntes dels ràcords.\n-Comprovació de la senyalització dels hidrants.\nSis mesos:\n-Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n-Obrir i tancar l’hidrant icomprovar el funcionament correcte de la vàlvula principal idel sistema de drenatge.\n1 any: \n-Verificar l’estanquitat dels taps.\n5 anys:\n-Canvi de les juntes dels ràcords.",
+    "explanation": "3 mesos:\n- Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats.\n- Inspecció visual, amb comprovació de l’estanquitat del conjunt.\n- Treure les tapes de les sortides, greixar les rosques i comprovar l’estat de les juntes dels ràcords.\n- Comprovació de la senyalització dels hidrants.\nSis mesos:\n- Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n- Obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge.\n1 any:\n- Verificar l’estanquitat dels taps.\n5 anys:\n- Canvi de les juntes dels ràcords.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1473,19 +1253,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Greixar la femella d’accionament o omplir-nela cambra d’oli",
-      "B": "Canvi de lesjuntes dels ràcords",
-      "C": "Comprovar l’accessibilitatalseuentorn ila senyalitzacióen els hidrantsenterrats",
-      "D": "Verificarl’estanquitatdels taps"
+      "A": "Greixar la femella d’accionament o omplir-ne la cambra d’oli",
+      "B": "Canvi de les juntes dels ràcords",
+      "C": "Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats",
+      "D": "Verificar l’estanquitat dels taps"
     }
   },
   {
-    "id": "academia_sim65_q26",
-    "simulacre": "Simulacre 65",
-    "num_pregunta": 26,
-    "statement": "És un altcàrrec de l'Administració de la Generalitat:",
+    "id": "academia_sim65_q27",
+    "statement": "Quin tipus de bomba ens serà més útil si tenim previst treballar a pressions elevades?",
     "correct": "A",
-    "explanation": "Els Secretaris/àries Generals iels/les Directors/es Generals són alts càrrecs.\n\n27.- acadèmia\nBombes rotodinàmiques = centrífugues. Aquestes ens seran més útilsa l'hora de treballar amb cabals més grans, més\nque els hidroejectors.",
+    "explanation": "Bombes rotodinàmiques = centrífugues. Aquestes ens seran més útils a l'hora de treballar amb cabals més grans, més\nque els hidroejectors.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1493,19 +1271,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Director/a General",
-      "B": "Conseller/a Primer/a",
-      "C": "Vicepresident/a",
-      "D": "Conseller/a"
+      "A": "Les bombes volumètriques",
+      "B": "Les bombes rotodinàmiques",
+      "C": "Els hidroejectors",
+      "D": "Qualsevol de les tres"
     }
   },
   {
     "id": "academia_sim66_q17",
-    "simulacre": "Simulacre 66",
-    "num_pregunta": 17,
-    "statement": "D'acord amb el programa de manteniment dels sistemes de protecció activa contra incendis que incorpora elRIPCI, quina acció de manteniment es durà a terme cada any pels hidrants?",
+    "statement": "D'acord amb el programa de manteniment dels sistemes de protecció activa contra incendis que incorpora el RIPCI, quina acció de manteniment es durà a terme cada any pels hidrants?",
     "correct": "D",
-    "explanation": "3 mesos:\n-Comprovar l’accessibilitatal seu entorn ila senyalització en els hidrants enterrats.\n-Inspecció visual, amb comprovacióacadèmiadel’estanquitatdelconjunt.\n-Treure les tapes de les sortides, greixar les rosques icomprovar l’estatde les juntes dels ràcords.\n-Comprovació de lasenyalització dels hidrants.\nSis mesos:\n-Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n-Obrir itancar l’hidrant icomprovar el funcionament correcte de lavàlvula principal idel sistema de drenatge.\n1 any: bombers\n-Verificar l’estanquitat dels taps.\n5 anys:\n-Canvi de lesjuntes dels ràcords. www.academiabombers.com",
+    "explanation": "3 mesos:\n- Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats.\n- Inspecció visual, amb comprovació de l’estanquitat del conjunt.\n- Treure les tapes de les sortides, greixar les rosques i comprovar l’estat de les juntes dels ràcords.\n- Comprovació de la senyalització dels hidrants.\nSis mesos:\n- Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n- Obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge.\n1 any:\n- Verificar l’estanquitat dels taps.\n5 anys:\n- Canvi de les juntes dels ràcords.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1513,39 +1289,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Greixar la femella d’accionament o omplir-ne lacambra d’oli",
-      "B": "Canvi de lesjuntes dels ràcords",
-      "C": "Comprovar l’accessibilitatalseuentorn ila senyalitzacióen els hidrantsenterrats",
-      "D": "Verificarl’estanquitatdels taps"
-    }
-  },
-  {
-    "id": "academia_sim66_q41",
-    "simulacre": "Simulacre 66",
-    "num_pregunta": 41,
-    "statement": "Són bombes cinètiques (rotodinàmiques):",
-    "correct": "A",
-    "explanation": "Les bombes cinètiques (rotodinàmiques) es divideix en tres subgrups: centrífugues, perifèriques (axials) iespecials.\nReciprocants = alternatives.\n42.- \n\nRIPCI -3. Sistemes d’hidrants contra incendis.\n3 c)En el cas d’hidrants que no estiguin situats a lavia pública, ladistància entre l’emplaçament de cada hidrant iel límit\nexterior de l’edificiozona protegits, mesurada perpendicularment a la façana, ha d’estar compresa entre 5m i15m.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 66",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Les bombes centrífugues acadèmia",
-      "B": "Les bombes alternativesd'èmbol",
-      "C": "Les bombes rotatives",
-      "D": "Les bombes reciprocants de diafragma"
+      "A": "Greixar la femella d’accionament o omplir-ne la cambra d’oli",
+      "B": "Canvi de les juntes dels ràcords",
+      "C": "Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats",
+      "D": "Verificar l’estanquitat dels taps"
     }
   },
   {
     "id": "academia_sim66_q42",
-    "simulacre": "Simulacre 66",
-    "num_pregunta": 42,
-    "statement": "Si parlem d'hidrants que no estan situats a lavia pública, quina de les següents distàncies compreses entre l’emplaçamentbombersdecada hidrant iel límit exterior de l’edificio zona protegits serà CORRECTA?",
+    "statement": "Si parlem d'hidrants que no estan situats a la via pública, quina de les següents distàncies compreses entre l’emplaçament de cada hidrant i el límit exterior de l’edifici o zona protegits serà CORRECTA?",
     "correct": "D",
-    "explanation": "",
+    "explanation": "RIPCI - 3. Sistemes d’hidrants contra incendis.\n3 c) En el cas d’hidrants que no estiguin situats a la via pública, la distància entre l’emplaçament de cada hidrant i el límit\nexterior de l’edifici o zona protegits, mesurada perpendicularment a la façana, ha d’estar compresa entre 5m i 15m.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1553,19 +1307,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "1 metre www.academiabombers.com",
+      "A": "1 metre",
       "B": "3 metres",
       "C": "17 metres",
-      "D": "8 metres 6 Acadèmia Bombers Simulacre 66"
+      "D": "8 metres  acadèmia bombers"
     }
   },
   {
     "id": "academia_sim66_q54",
-    "simulacre": "Simulacre 66",
-    "num_pregunta": 54,
     "statement": "Quina de les afirmacions següents sobre el morter en construcció és CERTA?",
     "correct": "C",
-    "explanation": "Elmorter mixt està compost de calç ide ciment.\nElmorter gras és el que téuna dosi elevada d'aglomerat iel morter magre és el que en téuna dosi petita.\nElmorter de calç hidràulica s'empra en obres de fàbricasotmeses a humitat, per lapropietat que té d'endurir-se en\ncontacte amb l'aigua.\nElmorter de calç de llenya, fetamb calç viva bullidaiben apagada, és d'una gran plasticitat,però de revinguda molt\nlenta,defecte que es corregeix amb una dosi petita de ciment pòrtland.",
+    "explanation": "El morter mixt està compost de calç i de ciment.\nEl morter gras és el que té una dosi elevada d'aglomerat i el morter magre és el que en té una dosi petita.\nEl morter de calç hidràulica s'empra en obres de fàbrica sotmeses a humitat, per la propietat que té d'endurir-se en\ncontacte amb l'aigua.\nEl morter de calç de llenya, fet amb calç viva bullida i ben apagada, és d'una gran plasticitat, però de revinguda molt\nlenta, defecte que es corregeix amb una dosi petita de ciment pòrtland.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1573,19 +1325,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El morter mixt està compost de guix ide ciment",
-      "B": "El morter de calçhidràulica no pot estar sotmès a lahumitat",
-      "C": "Elmorter de calç de llenyapresenta una important plasticitat",
-      "D": "Elmorter magre téuna dosi més elevada d'aglomerat que elmorter gras"
+      "A": "El morter mixt està compost de guix i de ciment",
+      "B": "El morter de calç hidràulica no pot estar sotmès a la humitat",
+      "C": "El morter de calç de llenya presenta una important plasticitat",
+      "D": "El morter magre té una dosi més elevada d'aglomerat que el morter gras"
     }
   },
   {
     "id": "academia_sim66_q95",
-    "simulacre": "Simulacre 66",
-    "num_pregunta": 95,
-    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 20 litresde capacitat en 20 segons. Quin és el cabal subministrat?",
+    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 20 litres de capacitat en 20 segons. Quin és el cabal subministrat?",
     "correct": "D",
-    "explanation": "",
+    "explanation": "V = 20 litres [20 L × (1 m³/1.000 L) = 20/1.000 = 0,02 m³\nt = 20 segons\nQ = V/t = 0,02 m³/20 s = 0,001 m³/s.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1596,16 +1346,14 @@
       "A": "0,1 m³/s",
       "B": "4,5 L/s",
       "C": "1 m³/s",
-      "D": "0,001 m³/s  acadèmia bombers www.academiabombers.com 14"
+      "D": "0,001 m³/s"
     }
   },
   {
     "id": "academia_sim67_q74",
-    "simulacre": "Simulacre 67",
-    "num_pregunta": 74,
     "statement": "D'acord amb el programa de manteniment dels sistemes de protecció activa contra incendis que incorpora el RIPCI, quina acció de manteniment es durà a terme cada sis mesos pels hidrants?",
     "correct": "A",
-    "explanation": "3 mesos:\n-Comprovar l’accessibilitatal seu entorn ila senyalització en els hidrants enterrats.\n-Inspecció visual, amb comprovació de l’estanquitat del conjunt.\n-Treure les tapes de les sortides, greixar lesrosques icomprovar l’estatde les juntes dels ràcords.\n-Comprovació de la senyalització dels hidrants.\nSis mesos:\n-Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n-Obrir i tancar l’hidrant icomprovar el funcionament correcte de lavàlvula principal idel sistema de drenatge.\n1 any:\n-Verificar l’estanquitat dels taps.\n5 anys:\n-Canvi de lesjuntes dels ràcords.\n\n75.- \nElfosgen és un gas tòxic molt perillós. Encara que no és inflamable, pot ser extremadament perillós sies respira o entra\nen contacte amb lapell en quantitats significatives.\nDurà un \"4\" en el requadre blau (salut) iun \"0\" en elvermell (inflamabilitat).",
+    "explanation": "3 mesos:\n- Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats.\n- Inspecció visual, amb comprovació de l’estanquitat del conjunt.\n- Treure les tapes de les sortides, greixar les rosques i comprovar l’estat de les juntes dels ràcords.\n- Comprovació de la senyalització dels hidrants.\nSis mesos:\n- Greixar la femella d’accionament o omplir-ne la cambra d’oli.\n- Obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge.\n1 any:\n- Verificar l’estanquitat dels taps.\n5 anys:\n- Canvi de les juntes dels ràcords.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1613,99 +1361,35 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Obrir itancarl’hidranticomprovar elfuncionament correctede la vàlvulaprincipalidelsistema de drenatge",
-      "B": "Canvi de lesjuntesdels ràcords",
-      "C": "Comprovar l’accessibilitatalseuentornilasenyalitzacióen els hidrantsenterrats",
-      "D": "Verificarl’estanquitatdelstaps"
+      "A": "Obrir i tancar l’hidrant i comprovar el funcionament correcte de la vàlvula principal i del sistema de drenatge",
+      "B": "Canvi de les juntes dels ràcords",
+      "C": "Comprovar l’accessibilitat al seu entorn i la senyalització en els hidrants enterrats",
+      "D": "Verificar l’estanquitat dels taps"
     }
   },
   {
-    "id": "academia_sim69_q12",
-    "simulacre": "Simulacre 69",
-    "num_pregunta": 12,
-    "statement": "Existeixen dos tipus principals d'aquestes vàlvules; les estranguladores iles reguladores. Parlem de:",
-    "correct": "A",
-    "explanation": "Les estranguladores, que depenen de lapressió per funcionar itenen influència directaal cabal d'un fluid;iles\nreguladores, que depenen del cabal d'un fluidino de laseva viscositat.",
+    "id": "academia_sim68_q28",
+    "statement": "Quin dels següents factors NO provocarà un cop d'ariet?",
+    "correct": "D",
+    "explanation": "L'obertura i tancament de les instal·lacions s'ha de fer de forma suau per tal d'evitar l'aparició d'aquest fenomen.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
-    "section": "Simulacre 69",
+    "section": "Simulacre 68",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Vàlvules de controlde flux",
-      "B": "Vàlvules direccionals",
-      "C": "Vàlvules de controlde lapressió",
-      "D": "Vàlvules de tancament"
-    }
-  },
-  {
-    "id": "academia_sim69_q86",
-    "simulacre": "Simulacre 69",
-    "num_pregunta": 86,
-    "statement": "Quina tipologia de bomba hidràulica utilitza un pistó intern per incrementar lapressió del sistema? acadèmia",
-    "correct": "C",
-    "explanation": "Una bomba hidràulica alternativa ésacadèmiauntipusdebombaque utilitzaun moviment alternatiu,normalment mitjançant un\npistóo un èmbol, per desplaçar el fluid.Aquest tipus de bomba és conegut per la seva capacitat de generar altes\npressions iés utilitzaten aplicacions que requereixen una precisió icontrol rigorós del fluxde fluid.Dins les bombes\nhidràuliques alternatives hi trobem les de pistó,les de diafragma iles d'èmbol.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23\nAcadèmia Bombers Simulacre 69",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 69",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La bomba rotativa",
-      "B": "La bomba centrífuga",
-      "C": "La bomba alternativa",
-      "D": "La bomba mixta de diafragma"
-    }
-  },
-  {
-    "id": "academia_sim69_q92",
-    "simulacre": "Simulacre 69",
-    "num_pregunta": 92,
-    "statement": "És una mesura que indica laproporció de lapressió total del fluid que s'aconsegueix convertir en treballmecànic per una turbina hidràulica:",
-    "correct": "C",
-    "explanation": "Es calcula dividintla diferència entre lapressió totala l'entradai a lasortida de la turbina entre lapressió totala l'entrada.\n\n93.- \nGregal: NE\nLlevant: E\nGarbí: SW",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 69",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Rebliment",
-      "B": "Rendiment de Grout",
-      "C": "Grau de reacció",
-      "D": "Amortització mecànica"
-    }
-  },
-  {
-    "id": "academia_sim70_q70",
-    "simulacre": "Simulacre 70",
-    "num_pregunta": 70,
-    "statement": "Quin és el principi segons elqual l'energia d'una partícula de fluidideal es manté constant al llarg de lalínia de corrent per on circula?",
-    "correct": "B",
-    "explanation": "L'efecte Venturi és la disminució de acadèmialapressióqueesprodueixa les zones relativament més estretes d'un conducte\nhoritzontal pelqual circula un fluid.Deriva del teorema de Bernoulli.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 23\nAcadèmia Bombers Simulacre 70",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 70",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Venturi bombers",
-      "B": "Bernoulli",
-      "C": "Arquímedes",
-      "D": "Reynolds www.academiabombers.com 10 Acadèmia Bombers Simulacre 70"
+      "A": "El tancament sobtat d'una instal·lació hidràulica per mitjà d'una vàlvula",
+      "B": "L'augment sobtat del cabal de la instal·lació provocat per l'acceleració brusca de la bomba",
+      "C": "El seccionament brusc mitjançant el tancament d'una clau",
+      "D": "Totes tres opcions poden provocar cop d'ariet"
     }
   },
   {
     "id": "academia_sim71_q7",
-    "simulacre": "Simulacre 71",
-    "num_pregunta": 7,
-    "statement": "El manovacuòmetre d'unabombersautobomba,durant la realització d'una maniobra d'esgotament, a part de l'alçada ens marcarà les pèrdues de càrrega dels manegots. El cabal tindrà res a veure amb aquestes pèrdues de càrrega? www.academiabombers.com",
+    "statement": "El manovacuòmetre d'una autobomba, durant la realització d'una maniobra d'esgotament, a part de l'alçada ens marcarà les pèrdues de càrrega dels manegots. El cabal tindrà res a veure amb aquestes pèrdues de càrrega?",
     "correct": "C",
-    "explanation": "La màxima eficiència de l'aspiraciól'assolirem quan elmanovacuòmetre marqui -0,8 bar.\n\n8.- bombers\nElvent dominant a Catalunya, com en general a la resta d’Europa, és el de ponent (de l’oest).Tanmateix, tant alnord\ncom alsud del país hi dominen vents de component nord: latramuntana (que bufa del nord), especialment a l’Alt\nEmpordà, iel mestral (delnord-oest), alwww.academiabombers.comsuddeCatalunya",
+    "explanation": "La màxima eficiència de l'aspiració l'assolirem quan el manovacuòmetre marqui -0,8 bar.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1713,19 +1397,35 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "No, elcabal no hauria de tenir cap influènciaen les pèrdues de càrrega dels manegots",
-      "B": "Si, larelacióentre cabal i pèrdues de càrrega és inversament proporcional",
-      "C": "Si,larelació entrecabal ipèrdues de càrrega és proporcional",
-      "D": "Depèn de siels manegots són rígidso flexibles 1 Acadèmia Bombers Simulacre 71"
+      "A": "No, el cabal no hauria de tenir cap influència en les pèrdues de càrrega dels manegots",
+      "B": "Si, la relació entre cabal i pèrdues de càrrega és inversament proporcional",
+      "C": "Si, la relació entre cabal i pèrdues de càrrega és proporcional",
+      "D": "Depèn de si els manegots són rígids o flexibles  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim72_q56",
+    "statement": "Com es defineix l’efecte venturi d’un fluid en moviment?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la sobrepressió que es produeix en les instal·lacions hidràuliques com a conseqüència de reduccions brusques de cabal",
+      "B": "És un fenomen mitjançant el qual es produeixen unes bombolles de gas o vapor en un fluid com a conseqüència de canvis de pressió o de temperatura",
+      "C": "És un fenomen que es produeix quan s’incrementa el cabal del fluid per un increment de pressió",
+      "D": "Es produeix dins d’un conducte tancat on el fluid disminueix la seva pressió estàtica i augmenta la seva velocitat com a conseqüència d’una disminució de la secció  acadèmia bombers"
     }
   },
   {
     "id": "academia_sim73_q68",
-    "simulacre": "Simulacre 73",
-    "num_pregunta": 68,
-    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 10 litresde capacitat en 5 segons. Quin és elcabal subministrat?",
+    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 10 litres de capacitat en 5 segons. Quin és el cabal subministrat?",
     "correct": "D",
-    "explanation": "Equival a 2 litresper segon.\n\nV = 10 litres[10 L × (1 m³/1.000 L) = 10/1.000 = 0,01 m³\nt= 5 segons\nQ = V/t = 0,01 m³/ 5 s= 0,002 m³/s. acadèmia",
+    "explanation": "Equival a 2 litres per segon.\nV = 10 litres [10 L × (1 m³/1.000 L) = 10/1.000 = 0,01 m³\nt = 5 segons\nQ = V/t = 0,01 m³/ 5 s = 0,002 m³/s.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1741,11 +1441,9 @@
   },
   {
     "id": "academia_sim74_q5",
-    "simulacre": "Simulacre 74",
-    "num_pregunta": 5,
     "statement": "Quins rius acostumaran a tenir un cabal més regular?",
     "correct": "B",
-    "explanation": "Les capçaleres dels rius que neixen al Pirineu occidental tenen aportacions importants en forma de neu durant l’hivern,la\nqual cosa garanteix el cabal fins ben avançat l’estiu(règim pluvionival). Aquests rius tenen una major regularitat dels\nseus cabals. En canvi, els rius que neixen alPirineu oriental ial sistema Mediterrani depenen exclusivament de les\npluges per mantenir regular el seu cabal (règim pluvial);en conseqüència, aquests rius,a més de tenir un menor cabal, el\ntenen molt més irregular.",
+    "explanation": "Les capçaleres dels rius que neixen al Pirineu occidental tenen aportacions importants en forma de neu durant l’hivern, la\nqual cosa garanteix el cabal fins ben avançat l’estiu (règim pluvionival). Aquests rius tenen una major regularitat dels\nseus cabals. En canvi, els rius que neixen al Pirineu oriental i al sistema Mediterrani depenen exclusivament de les\npluges per mantenir regular el seu cabal (règim pluvial); en conseqüència, aquests rius, a més de tenir un menor cabal, el\ntenen molt més irregular.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1753,19 +1451,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els riusque neixen al Prepirineu ",
-      "B": "Els riusque neixen al Pirineuoccidental",
-      "C": "Elsrius que neixen al sistema Mediterrani",
-      "D": "Elsrius que neixen al Pirineuoriental"
+      "A": "Els rius que neixen al Prepirineu",
+      "B": "Els rius que neixen al Pirineu occidental",
+      "C": "Els rius que neixen al sistema Mediterrani",
+      "D": "Els rius que neixen al Pirineu oriental"
     }
   },
   {
     "id": "academia_sim74_q52",
-    "simulacre": "Simulacre 74",
-    "num_pregunta": 52,
     "statement": "Quina vàlvula es col·loca quan cal enviar un senyal des de dos punts diferents?",
     "correct": "C",
-    "explanation": "També coneguda amb el nom de vàlvula OR, la vàlvula selectora és una vàlvula de lògica pneumàtica o hidràulica que\nes fa servirper permetre que el senyal de control provingui de qualsevol de les dues entrades. En altres paraules, actua\ncom un selector, permetent que el fluxpassi sialmenys una de les entrades està pressuritzada.",
+    "explanation": "També coneguda amb el nom de vàlvula OR, la vàlvula selectora és una vàlvula de lògica pneumàtica o hidràulica que\nes fa servir per permetre que el senyal de control provingui de qualsevol de les dues entrades. En altres paraules, actua\ncom un selector, permetent que el flux passi si almenys una de les entrades està pressuritzada.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1780,9 +1476,25 @@
     }
   },
   {
+    "id": "academia_sim74_q77",
+    "statement": "Quin dels cabals següents és major?",
+    "correct": "A",
+    "explanation": "Comparació de cabals en m³/min:\n20 m³/hora = 0.3333 m³/min\n20 cm³/s = 0.0012 m³/min\n20 dm³/min = 0.02 m³/min\n0.2 m³/min = 0.2 m³/min",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "20 m³/hora",
+      "B": "20 cm³/s",
+      "C": "20 dm³/min",
+      "D": "0,2 m³/min"
+    }
+  },
+  {
     "id": "academia_sim75_q4",
-    "simulacre": "Simulacre 75",
-    "num_pregunta": 4,
     "statement": "Quina de les següents causes NO genera cavitació?",
     "correct": "C",
     "explanation": "",
@@ -1794,18 +1506,34 @@
     "isAnswered": 0,
     "options": {
       "A": "Excés de velocitat",
-      "B": "Baix nivelld'oli",
-      "C": "Viscositatde l'olimassa baixa",
-      "D": "Canonada d'olirestringida"
+      "B": "Baix nivell d'oli",
+      "C": "Viscositat de l'oli massa baixa",
+      "D": "Canonada d'oli restringida"
+    }
+  },
+  {
+    "id": "academia_sim77_q20",
+    "statement": "Què s'aconsegueix realitzant un acoblament de dues bombes en paral·lel?",
+    "correct": "A",
+    "explanation": "Si les bombes estan funcionant en sèrie, això augmentarà l'alçada (H), però no el cabal (Q).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La mateixa altura manomètrica però major cabal",
+      "B": "El mateix cabal però a major pressió",
+      "C": "Major altura manomètrica i major cabal",
+      "D": "Major altura manomètrica però menor cabal"
     }
   },
   {
     "id": "academia_sim78_q77",
-    "simulacre": "Simulacre 78",
-    "num_pregunta": 77,
     "statement": "Ens trobem un valor seguit per les següents unitats: \"m³/s\". A quin concepte deduïm que fa referència?",
     "correct": "A",
-    "explanation": "Si ens trobem amb un valor seguit per les unitats \"m³/s\", deduïm que fa referència al cabal hidràulic o cabal volumètric.\nAquestes unitats signifiquen metres cúbics per segon, i mesuren la quantitat de volum de líquid (normalment aigua) que\nflueixa través d'una secció transversal determinada en un segon.\n\nPer exemple, un cabal de 1 m³/s significa que un metre cúbic de líquid passa per una determinada àrea en un segon.",
+    "explanation": "Si ens trobem amb un valor seguit per les unitats \"m³/s\", deduïm que fa referència al cabal hidràulic o cabal volumètric.\nAquestes unitats signifiquen metres cúbics per segon, i mesuren la quantitat de volum de líquid (normalment aigua) que\nflueix a través d'una secció transversal determinada en un segon.\nPer exemple, un cabal de 1 m³/s significa que un metre cúbic de líquid passa per una determinada àrea en un segon.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1813,19 +1541,35 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Alcabal",
-      "B": "A lavelocitat www.academiabombers.com",
-      "C": "Alvolum",
-      "D": "A l'àrea 11 Acadèmia Bombers Simulacre 78"
+      "A": "Al cabal",
+      "B": "A la velocitat",
+      "C": "Al volum",
+      "D": "A l'àrea"
+    }
+  },
+  {
+    "id": "academia_sim80_q48",
+    "statement": "Considerant les pèrdues de càrrega lineals i singulars d'una conducció, la pèrdua de càrrega total augmentarà en:",
+    "correct": "C",
+    "explanation": "Considerant les pèrdues de càrrega lineal i singular, la pèrdua de càrrega total augmentarà en:\n- Augmentar la longitud del traçat.\n- Augmentar el cabal.\n- Augmentar el nombre d'elements singulars (reduccions, estretaments, colzes, etc).\n- Disminuir la secció.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Disminuir el cabal",
+      "B": "Disminuir la longitud del traçat",
+      "C": "Disminuir la secció",
+      "D": "Disminuir el nombre d'elements singulars"
     }
   },
   {
     "id": "academia_sim81_q84",
-    "simulacre": "Simulacre 81",
-    "num_pregunta": 84,
     "statement": "Quins rius tenen una major regularitat dels seus cabals al llarg de l'any?",
     "correct": "C",
-    "explanation": "Les capçaleres dels rius que neixen al Pirineuwww.academiabombers.comoccidentaltenenaportacionsimportantsenformadeneudurant l’hivern, la\nqual cosa garanteix el cabal fins ben avançat l’estiu (règim pluvionival). Aquests rius tenen una major regularitat dels\nseus cabals. En canvi, els rius que neixen al Pirineu oriental ial sistema Mediterrani depenen exclusivament de les\npluges per mantenir regular elseu cabal (règim pluvial); en conseqüència, aquests rius, a més de tenir un menor cabal, el\ntenen molt més irregular.",
+    "explanation": "Les capçaleres dels rius que neixen al Pirineu occidental tenen aportacions importants en forma de neu durant l’hivern, la\nqual cosa garanteix el cabal fins ben avançat l’estiu (règim pluvionival). Aquests rius tenen una major regularitat dels\nseus cabals. En canvi, els rius que neixen al Pirineu oriental i al sistema Mediterrani depenen exclusivament de les\npluges per mantenir regular el seu cabal (règim pluvial); en conseqüència, aquests rius, a més de tenir un menor cabal, el\ntenen molt més irregular.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1835,37 +1579,33 @@
     "options": {
       "A": "Els que neixen al Pirineu oriental",
       "B": "Els que neixen al sistema Mediterrani",
-      "C": "Els que neixen alPirineu occidental",
-      "D": "Els que neixen alPrepirineu"
+      "C": "Els que neixen al Pirineu occidental",
+      "D": "Els que neixen al Prepirineu"
     }
   },
   {
-    "id": "academia_sim88_q39",
-    "simulacre": "Simulacre 88",
-    "num_pregunta": 39,
-    "statement": "Per a considerar una zona protegida per hidrants contra incendis, en el cas d'hidrants que no estiguin situats a la via pública, la distància entre l'emplaçament de cada hidrant iel límit exterior de l'edificio zona protegida, mesurada perpendicularment a la façana, haurà de ser:",
-    "correct": "A",
-    "explanation": "",
+    "id": "academia_sim86_q21",
+    "statement": "Què passa quan es produeix una obertura sobtada en un òrgan de comandament en una conducció de líquid?",
+    "correct": "C",
+    "explanation": "El cop d'ariet és un fenomen que es produeix en les conduccions on circula un fluid (especialment un líquid), quan hom\nfa variar l’estat d’obertura d’un òrgan que hi és intercalat (una vàlvula, el distribuïdor d’una turbina, etc).\nSi aquesta variació és un tancament, es produeix, vora l’òrgan de comandament, una sobrepressió; si és una obertura,\ns’hi produeix una depressió (enciclopèdia.cat).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
-    "section": "Simulacre 88",
+    "section": "Simulacre 86",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "D'entre 5 i15 metres",
-      "B": "5 metres",
-      "C": "15 metres",
-      "D": "D'entre 10 i15 metres"
+      "A": "Es produeix una sobrepressió",
+      "B": "El líquid augmenta la seva velocitat",
+      "C": "Es produeix una depressió",
+      "D": "El líquid es torna més viscós"
     }
   },
   {
-    "id": "academia_sim90_q92",
-    "simulacre": "Simulacre 90",
-    "num_pregunta": 92,
-    "statement": "Per una mànega hi passen 50 litres per minut ité unes pèrdues de càrrega de 2 bar. Si en comptes de 50 hi passessin 200 litres per minut, quines pèrdues de càrrega tindrà?",
-    "correct": "B",
-    "explanation": "Les pèrdues de càrrega són directament proporcionals al quadrat de larelació de cabal.\n\nAl passar de 50 a 200, la relació és de 4 (4² = 16).\n\n2 bar × 16 = 32 bar.",
+    "id": "academia_sim90_q19",
+    "statement": "Respecte al cop d’ariet, assenyala la resposta CORRECTA:",
+    "correct": "A",
+    "explanation": "El cop d'ariet és un fenomen que es produeix en les conduccions on circula un fluid (especialment un líquid), quan hom\nfa variar l’estat d’obertura d’un òrgan que hi és intercalat (una vàlvula, el distribuïdor d’una turbina, etc).\nSi aquesta variació és un tancament, es produeix, vora l’òrgan de comandament, una sobrepressió; si és una obertura,\ns’hi produeix una depressió (enciclopèdia.cat).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -1873,239 +1613,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "64 bar",
-      "B": "32 bar",
-      "C": "16 bar",
-      "D": "8 bar"
-    }
-  },
-  {
-    "id": "academia_sim91_q8",
-    "simulacre": "Simulacre 91",
-    "num_pregunta": 8,
-    "statement": "En zones urbanes, on la utilització prevista de l'hidrant contra incendis sigui únicament l'ompliment de camions, quina serà lapressió mínima requerida en la boca de sortida?",
-    "correct": "B",
-    "explanation": "1 kg/cm² = 100 kPa.\n\nEn la resta de zones, lapressió mínima requerida serà de 5 kg/cm² (500 kPa).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 91",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "De 10 kg/cm²",
-      "B": "D'1 kg/cm²",
-      "C": "De 100 kg/cm²",
-      "D": "De 15 kg/cm² 1 Acadèmia Bombers Simulacre 91"
-    }
-  },
-  {
-    "id": "academia_sim94_q10",
-    "simulacre": "Simulacre 94",
-    "num_pregunta": 10,
-    "statement": "Volem expressar en un sistema de coordenades cartesianes les pèrdues de càrrega de les mànegues més usuals en funció del cabal. L'eix d'ordenades representa el cabal (l/m) il'eix d'abscisses representa les pèrdues de càrrega (kg/cm²). Partint del punt en el qual s'intersequen els eixos de coordenades, quina mànega presentarà una corba més vertical (amb major pendent)?",
-    "correct": "A",
-    "explanation": "Eix \"x\" = eix d'abscisses.\n\nEix \"y\" = eix d'ordenades.\n\nLa corba serà més vertical perquè assoleix menors valors de pèrdues de càrrega (a més horitzontalitat, majors valors de\npèrdues de càrrega).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 94",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La mànega de 70 mm de diàmetre",
-      "B": "La mànega de 45 mm de diàmetre",
-      "C": "La mànega de 25 mm de diàmetre",
-      "D": "Totes tres presentaran una corba idèntica"
-    }
-  },
-  {
-    "id": "academia_sim96_q5",
-    "simulacre": "Simulacre 96",
-    "num_pregunta": 5,
-    "statement": "Quines sortides haurà de tenir un hidrant exterior de columna humida de 150 mm?",
-    "correct": "C",
-    "explanation": "En hidrants exteriors:\n\nColumna de 150 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 100 mm: una sortida de 100 mm i dues de 70 mm\nColumna de 80 mm: una sortida de 70 mm idues de 45 mm",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 96",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una sortida de 70 mm iuna de 45 mm",
-      "B": "Una sortida de 80 mm idues de 45 mm",
-      "C": "Una sortidade 100 mm idues de 70 mm",
-      "D": "Una sortidade 70 mm i dues de 45 mm"
-    }
-  },
-  {
-    "id": "academia_sim97_q84",
-    "simulacre": "Simulacre 97",
-    "num_pregunta": 84,
-    "statement": "Si parlem d'hidrants que no estan situats a la via pública, quina de les següents distàncies compreses entre l’emplaçament de cada hidrant i el límit exterior de l’edifici o zona protegits serà CORRECTA?",
-    "correct": "D",
-    "explanation": "RIPCI - 3. Sistemes d’hidrants contra incendis.\n\n3 c) En elcas d’hidrants que no estiguin situats a lavia pública, la distància entre l’emplaçament de cada hidrant iel límit\nexterior de l’edificio zona protegits, mesurada perpendicularment a la façana, ha d’estar compresa entre 5m i15m.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 97",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "1 metre",
-      "B": "3 metres",
-      "C": "17 metres",
-      "D": "8 metres"
-    }
-  },
-  {
-    "id": "academia_sim99_q21",
-    "simulacre": "Simulacre 99",
-    "num_pregunta": 21,
-    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 20 litres de capacitat en 20 segons. Quin és el cabal subministrat?",
-    "correct": "D",
-    "explanation": "V = 20 litres[20 L × (1 m³/1.000 L) = 20/1.000 = 0,02 m³\nt= 20 segons\n\nQ = V/t = 0,02 m³/20 s = 0,001 m³/s.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 99",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "0,1 m³/s",
-      "B": "4,5 L/s",
-      "C": "1 m³/s",
-      "D": "0,001 m³/s"
-    }
-  },
-  {
-    "id": "academia_sim102_q51",
-    "simulacre": "Simulacre 102",
-    "num_pregunta": 51,
-    "statement": "Quin és el principi segons el qual l'energia d'una partícula de fluid ideal es manté constant al llarg de la línia de corrent per on circula?",
-    "correct": "B",
-    "explanation": "L'efecte Venturi és la disminució de la pressiówww.academiabombers.comqueesprodueixaleszonesrelativamentmésestretesd'unconducte\nhoritzontal pel qual circula un fluid.Deriva del teorema de Bernoulli.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 102",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Venturi",
-      "B": "Bernoulli",
-      "C": "Arquímedes",
-      "D": "Reynolds"
-    }
-  },
-  {
-    "id": "academia_sim102_q54",
-    "simulacre": "Simulacre 102",
-    "num_pregunta": 54,
-    "statement": "El manovacuòmetre d'una autobomba, durant la realització d'una maniobra d'esgotament, a part de l'alçada ens marcarà les pèrdues de càrrega dels manegots. El cabal tindrà res a veure amb aquestes pèrdues de càrrega?",
-    "correct": "C",
-    "explanation": "La màxima eficiència de l'aspiració l'assolirem quan el manovacuòmetre marqui -0,8 bar.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 102",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "No, elcabal no hauria de tenircap influència en les pèrdues de càrrega dels manegots",
-      "B": "Si,la relacióentre cabal ipèrdues de càrrega és inversament proporcional",
-      "C": "Si,la relacióentre cabal ipèrdues de càrrega és proporcional",
-      "D": "Depèn de siels manegots són rígidso flexibles"
-    }
-  },
-  {
-    "id": "academia_sim105_q18",
-    "simulacre": "Simulacre 105",
-    "num_pregunta": 18,
-    "statement": "Quin és l'element que uneix el cap o el cos, que és la part superior de l'hidrant que emergeix de terra, amb la vàlvula?",
-    "correct": "B",
-    "explanation": "La vàlvula principal regula elpas de l'aigua cap a la part superior del cos d'un hidrant.\n\nEls hidrants poden ser de columna humida ide columna seca.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 105",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La vàlvula principal",
-      "B": "Elrodet",
-      "C": "El cap",
-      "D": "El fanal 2 Acadèmia Bombers Simulacre 105"
-    }
-  },
-  {
-    "id": "academia_sim105_q24",
-    "simulacre": "Simulacre 105",
-    "num_pregunta": 24,
-    "statement": "Per tal de conèixer el cabal d'aigua que arriba des del subministrament públic a un habitatge omplim una cubeta de 10 litres de capacitat en 5 segons. Quin és el cabal subministrat?",
-    "correct": "D",
-    "explanation": "Equival a 2 litresper segon.\n\nV = 10 litres[10 L × (1 m³/1.000 L) = 10/1.000 = 0,01 m³\n\n\n\n 15\nAcadèmia Bombers Simulacre 105\n\n\n\nt= 5 segons\n\nQ = V/t = 0,01 m³/ 5 s = 0,002 m³/s.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 105",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "2 m³/s",
-      "B": "0,01 m³/s",
-      "C": "0,0002 m³/s",
-      "D": "0,002 m³/s"
-    }
-  },
-  {
-    "id": "academia_sim112_q38",
-    "simulacre": "Simulacre 112",
-    "num_pregunta": 38,
-    "statement": "Quina de les següents turbines ens serà més útil per grans salts d'aigua?",
-    "correct": "A",
-    "explanation": "Turbina Pelton → grans salts d’aigua i cabals baixos.\n\nTurbina Francis → salts mitjans.\n\nTurbina Kaplan → petits salts igrans cabals.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 112",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La turbina Pelton",
-      "B": "La turbina Kaplan",
-      "C": "La turbina de Francis o lade Kaplan, de la mateixa manera",
-      "D": "La turbina Francis"
-    }
-  },
-  {
-    "id": "academia_sim120_q58",
-    "simulacre": "Simulacre 120",
-    "num_pregunta": 58,
-    "statement": "En la disposició dels ventiladors en \"V\":",
-    "correct": "B",
-    "explanation": "Ventiladors en V: dos ventiladors col·locats en paral·lel amb tots dos fluxos dirigitscap al centre de l’obertura (a\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 120\n\n\n\ndiferència dels ventiladors en paral·lel, els fluxos dels quals segueixen trajectòries paral·leles). Les dades\nexperimentals apunten a un augment del cabal efectiu de fins a un 35% amb una distància entre ventiladors igual a la\nmida d’obertura òptima (2 m per a ventiladors de divuit a vint polzades).",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T13 - Hidràulica",
-    "section": "Simulacre 120",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Faran faltatres ventiladors, un per cada vèrtex",
-      "B": "Els dos ventiladors aniran col·locats en paral·lel amb tots dos fluxos dirigitscap al centre de l’obertura",
-      "C": "Els dos ventiladors aniran col·locats en sèrie, dirigintcadascun dels fluxos cap a un dels lateralsde l’obertura",
-      "D": "Els dos ventiladors se situaran un al costat de l’altre,enparal·lel, dirigintcadascun dels fluxos cap a un dels laterals de l’obertura"
+      "A": "És un fenomen de sobrepressió que es produeix en les instal·lacions hidràuliques a causa de les reduccions brusques de cabal",
+      "B": "Es produeix quan es tanca una vàlvula lentament, una llança, etc",
+      "C": "Una obertura ràpida d'una vàlvula per alimentar una instal·lació no causa cop d’ariet",
+      "D": "Aquest fenomen no es dona a les mànegues de bombers"
     }
   },
   {
     "id": "academia_sim123_q43",
-    "simulacre": "Simulacre 123",
-    "num_pregunta": 43,
     "statement": "Quina afirmació relativa a les bombes rotodinàmiques és CORRECTA?",
     "correct": "A",
-    "explanation": "Poden funcionar amb la vàlvula de sortida completament tancada, ara bé, això no significa que pugui quedar-s'hi\nindefinidament:\n\n·L'aigua de l'interiors'escalfa.\n·Pot aparèixer cavitació o vaporització.\n·Es poden deteriorar juntes icoixinets.",
+    "explanation": "Poden funcionar amb la vàlvula de sortida completament tancada, ara bé, això no significa que pugui quedar-s'hi\nindefinidament:\n· L'aigua de l'interior s'escalfa.\n· Pot aparèixer cavitació o vaporització.\n· Es poden deteriorar juntes i coixinets.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2115,17 +1633,33 @@
     "options": {
       "A": "Poden funcionar amb la vàlvula de sortida completament tancada",
       "B": "El cabal és independent de la pressió",
-      "C": "Es classifiquen en alternatives irotatives. Aquestes segones treballen a baixes revolucions.",
-      "D": "Es classifiquen en alternatives irotatives. Aquestes segones es caracteritzen per oferirun cabal polsant."
+      "C": "Es classifiquen en alternatives i rotatives. Aquestes segones treballen a baixes revolucions.",
+      "D": "Es classifiquen en alternatives i rotatives. Aquestes segones es caracteritzen per oferir un cabal polsant."
     }
   },
   {
-    "id": "academia_sim125_q87",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 87,
+    "id": "academia_sim123_q45",
+    "statement": "En una xarxa de conducció d'aigua contra incendis, quina de les següents vàlvules ens permetrà controlar de manera més precisa el cabal circulant?",
+    "correct": "B",
+    "explanation": "La vàlvula de globus està especialment dissenyada per regular el cabal de forma progressiva i precisa. En canvi, les\nvàlvules de comporta, bola i papallona s'utilitzen principalment per obrir o tancar el pas del fluid, tot i que algunes poden\nadmetre una regulació limitada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 123",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vàlvula de comporta",
+      "B": "Vàlvula de globus",
+      "C": "Vàlvula de bola",
+      "D": "Vàlvula de papallona"
+    }
+  },
+  {
+    "id": "academia_sim125_q11",
     "statement": "Quin punt crític d'un riu es caracteritza perquè el cabal es pot multiplicar?",
-    "correct": "D",
-    "explanation": "Parts d’un riu:\n\n− Llera: El canal per on circula normalment l’aigua.\n\n− Marge: Zones contigües a la llera.Poden quedar inundades fàcilment.\n\n− Terrasses fluvials: Elevacions al costat del riu.Poden servir de refugi o barrera natural.\n\n− Meandre: Corba del riu.A lapart exterior s’hi erosiona el marge, i pot col·lapsar.\n\n− Aiguabarreig: Confluència de dos rius o rieres. Punt críticon el cabal es pot multiplicar.",
+    "correct": "A",
+    "explanation": "Els cavalls i el bestiar boví són animals de gran mida que poden provocar lesions greus. Els èquids poden mossegar,\nperò el risc més important en tots dos grups són les coces: en el cas dels cavalls, principalment cap enrere, i en el cas\ndels bovins, també de forma lateral.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2134,18 +1668,16 @@
     "isAnswered": 0,
     "options": {
       "A": "La desembocadura",
-      "B": "Elmeandre",
+      "B": "El meandre",
       "C": "La terrassa fluvial",
       "D": "L'aiguabarreig"
     }
   },
   {
     "id": "academia_sim126_q15",
-    "simulacre": "Simulacre 126",
-    "num_pregunta": 15,
     "statement": "En què consisteix el concepte de cabal operatiu en incendis estructurals?",
     "correct": "D",
-    "explanation": "El concepte de cabal operatiu en incendis estructurals fa referència a la quantitat mínima d’aigua per minut que cal\naplicar per controlar o extingir un incendi, garantint alhora la seguretat dels intervinents (de manera que puguin donar\nresposta a un comportament extrem sobtat, com el que es pot produir en un incendi infraventilat en trencar-se una\nfinestra de forma inesperada). No es tracta només de disposar d’aigua, sinó d’aplicar-la amb laquantitat adequada iamb\nlametodologia correcta (distància al motor, patró d’aplicació itipus de raig) per combatre els efectes del foc i refredar els\ngasos calents acumulats.",
+    "explanation": "El concepte de cabal operatiu en incendis estructurals fa referència a la quantitat mínima d’aigua per minut que cal\naplicar per controlar o extingir un incendi, garantint alhora la seguretat dels intervinents (de manera que puguin donar\nresposta a un comportament extrem sobtat, com el que es pot produir en un incendi infraventilat en trencar-se una\nfinestra de forma inesperada). No es tracta només de disposar d’aigua, sinó d’aplicar-la amb la quantitat adequada i amb\nla metodologia correcta (distància al motor, patró d’aplicació i tipus de raig) per combatre els efectes del foc i refredar els\ngasos calents acumulats.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2153,19 +1685,35 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És la quantitat màxima d’aigua que es pot aplicar per minut sobre l’incendi sense provocar una dispersió excessiva del fum ni dificultarles tasques d’extinció",
-      "B": "És la quantitat d’aigua per minut necessària per reduir latemperatura de l’incendi ilimitar-ne lapropagació",
-      "C": "És el volum total d’aigua disponible en un incendi per mantenir un cabal suficient durant tota laintervenció ievitar l’esgotament del subministrament",
-      "D": "És la quantitat mínima d’aigua per minut que calaplicar per controlar o extingir un incendi, garantint la seguretat dels intervinents 2 Acadèmia Bombers Simulacre 126"
+      "A": "És la quantitat màxima d’aigua que es pot aplicar per minut sobre l’incendi sense provocar una dispersió excessiva del fum ni dificultar les tasques d’extinció",
+      "B": "És la quantitat d’aigua per minut necessària per reduir la temperatura de l’incendi i limitar-ne la propagació",
+      "C": "És el volum total d’aigua disponible en un incendi per mantenir un cabal suficient durant tota la intervenció i evitar l’esgotament del subministrament",
+      "D": "És la quantitat mínima d’aigua per minut que cal aplicar per controlar o extingir un incendi, garantint la seguretat dels intervinents"
     }
   },
   {
-    "id": "academia_sim127_q5",
-    "simulacre": "Simulacre 127",
-    "num_pregunta": 5,
-    "statement": "Quina forquilla de puntuacions admet l'ítem de la resposta verbal de l'escala del coma de Glasgow?",
-    "correct": "A",
-    "explanation": "La puntuació total pot anar d'un mínim de 3 a un màxim de 15.\n\nObertura Ocular:\n\n4 punts: Obre els ulls espontàniament.\n3 punts: Obre els ulls en resposta a una ordre verbal.\n2 punts: Obre els ulls en resposta a un estímul dolorós.\n1 punt: No obre els ulls.\n\n\nResposta Verbal:\n\n5 punts: Orientat i respon adequadament.\n4 punts: Confús, però respon coherentment.\n3 punts: Paraules incomprensibles.\n2 punts: Sons incomprensibles.\n1 punt: No té cap resposta verbal.\n\n\nResposta Motora:\n\n6 punts: Executa comandes.\n5 punts: Respon localitzant el dolor.\n4 punts: Respon retirant-se del dolor.\n3 punts: Respon amb flexió (decorticació) al dolor.\n2 punts: Respon amb extensió (descerebració) al dolor.\n1 punt: No té cap resposta motora.\n6.- www.academiabombers.com\n\nEl visor de Protecció Civil de Catalunya inclou capes de risc que permeten detectar cons de dejecció, veure les zones\ninundables segons període de retorn isituar punts d'actuació prioritària. Els mapes d'aforadors de l'ACA iel SAIH Ebro\ndonen dades hidrològiques en temps real (cabals, embassaments), no cartografia de risc.",
+    "id": "academia_sim126_q66",
+    "statement": "Quina de les actuacions següents constitueix, segons les mesures no estructurals de prevenció d’inundacions, l’acció més important per reduir el risc?",
+    "correct": "C",
+    "explanation": "Les mesures no estructurals inclouen:\n−Cartografia de zones inundables i regulació urbanística, que impedeix construir en zones de risc o estableix condicions\nespecífiques per fer-ho. És l’acció més important a nivell de reducció del risc.\n−Gestió integral de conques hidrogràfiques, mitjançant pràctiques com la reforestació, la conservació del sòl i la reducció\nde l’escorrentia superficial, amb l’objectiu de minimitzar el cabal acumulat durant els episodis de pluja intensa.\n−Sistemes d’alerta primerenca, monitoratge de cabals i meteorologia, que permeten anticipar-se als episodis i activar\nmesures preventives.\n−Plans d’emergència, simulacres i protocols d’actuació, que preparen tant les autoritats com la població per respondre\nadequadament.\n−Educació i cultura de la prevenció, que fomenten actituds responsables i coneixement del risc entre la ciutadania.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T13 - Hidràulica",
+    "section": "Simulacre 126",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Plans d’emergència, simulacres i protocols d’actuació",
+      "B": "Sistemes d’alerta primerenca, monitoratge de cabals i meteorologia",
+      "C": "Cartografia de zones inundables i regulació urbanística",
+      "D": "Gestió integral de conques hidrogràfiques"
+    }
+  },
+  {
+    "id": "academia_sim127_q6",
+    "statement": "Quina eina digital és especialment útil per detectar cons de dejecció i localitzar passos inundables o trams de carretera crítics?",
+    "correct": "D",
+    "explanation": "El visor de Protecció Civil de Catalunya inclou capes de risc que permeten detectar cons de dejecció, veure les zones\ninundables segons període de retorn i situar punts d'actuació prioritària. Els mapes d'aforadors de l'ACA i el SAIH Ebro\ndonen dades hidrològiques en temps real (cabals, embassaments), no cartografia de risc.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2173,19 +1721,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De l'1 al5",
-      "B": "Del 2 al 4",
-      "C": "De l'1al6",
-      "D": "Del 2 al 6"
+      "A": "El mapa d'aforadors de l'Agència Catalana de l'Aigua",
+      "B": "El mapa SAIH Ebro de les conques de l'Ebre",
+      "C": "El radar meteorològic de l'Agència Catalana de l'Aigua",
+      "D": "El mapa interactiu de Protecció Civil de Catalunya"
     }
   },
   {
     "id": "academia_sim127_q63",
-    "simulacre": "Simulacre 127",
-    "num_pregunta": 63,
     "statement": "Durant el funcionament d’una turbobomba, l’aigua fa actuar la turbina motora, que al seu torn transmet el moviment al rodet d’impulsió. Quin és el recorregut correcte de l’aigua en cadascun dels dos elements?",
     "correct": "C",
-    "explanation": "La bomba centrífuga funciona rebent l'aigua pel seu centre (a sota) iexpulsant-la, per centrifugació, cap a la perifèria.\n\nLa turbina motora (motor hidràulic) treballa a l'inrevés que el rodet d'impulsió, és a dir,l'aigua entra per laperifèria isurt\npel centre.",
+    "explanation": "La bomba centrífuga funciona rebent l'aigua pel seu centre (a sota) i expulsant-la, per centrifugació, cap a la perifèria.\nLa turbina motora (motor hidràulic) treballa a l'inrevés que el rodet d'impulsió, és a dir, l'aigua entra per la perifèria i surt\npel centre.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2193,19 +1739,17 @@
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "A la turbina motora entra pel centre i surtper laperifèria; alrodet d’impulsió entra per la perifèriaisurt pel centre",
-      "B": "Tant a la turbina motora com al rodet d’impulsió entra pel centre isurt per la perifèria",
-      "C": "A la turbina motora entra per la perifèriai surtpel centre; alrodet d’impulsió entra pel centre i surtcap a la perifèria",
-      "D": "Tant a laturbina motora com al rodet d’impulsió entra per laperifèria isurt pel centre"
+      "A": "A la turbina motora entra pel centre i surt per la perifèria; al rodet d’impulsió entra per la perifèria i surt pel centre",
+      "B": "Tant a la turbina motora com al rodet d’impulsió entra pel centre i surt per la perifèria",
+      "C": "A la turbina motora entra per la perifèria i surt pel centre; al rodet d’impulsió entra pel centre i surt cap a la perifèria",
+      "D": "Tant a la turbina motora com al rodet d’impulsió entra per la perifèria i surt pel centre"
     }
   },
   {
     "id": "academia_sim128_q39",
-    "simulacre": "Simulacre 128",
-    "num_pregunta": 39,
     "statement": "En un incendi urbà s'omplen dos camions des de dos hidrants de via pública alhora. Quin cabal i durada mínims ha de garantir la xarxa en aquestes condicions?",
     "correct": "B",
-    "explanation": "Per als hidrants d'omplerta de camions, la xarxa ha de poder donar un cabal mínim de 1000 l/min amb dos hidrants\nfuncionant simultàniament durant 2 hores; els valors de 1.500-3.000 l/min i60-90 minuts corresponen als hidrants propis\nd'establiments industrials.",
+    "explanation": "Per als hidrants d'omplerta de camions, la xarxa ha de poder donar un cabal mínim de 1000 l/min amb dos hidrants\nfuncionant simultàniament durant 2 hores; els valors de 1.500-3.000 l/min i 60-90 minuts corresponen als hidrants propis\nd'establiments industrials.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",
@@ -2221,11 +1765,9 @@
   },
   {
     "id": "academia_sim128_q49",
-    "simulacre": "Simulacre 128",
-    "num_pregunta": 49,
     "statement": "En una bomba centrífuga, quin disseny de rodet es considera adequat per impulsar líquids amb sediments?",
     "correct": "A",
-    "explanation": "El disseny dels rodets influeix directament en elrendiment de la bomba:\n\n− Rodet obert: més senzill ieconòmic, adequat per líquids amb sediments.\n\n− Rodet tancat: més eficient, amb millor rendiment, però més car.",
+    "explanation": "El disseny dels rodets influeix directament en el rendiment de la bomba:\n−Rodet obert: més senzill i econòmic, adequat per líquids amb sediments.\n−Rodet tancat: més eficient, amb millor rendiment, però més car.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
     "theme": "T13 - Hidràulica",

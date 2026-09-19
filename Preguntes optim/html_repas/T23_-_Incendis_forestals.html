@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T23 - Incendis forestals - Repàs</title>
+  <style>
+    
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --primary: #2c3e50;
+    --primary-hover: #1a252f;
+    --accent: #e74c3c;
+    --success: #10b981;
+    --error: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 30px 20px; line-height: 1.5; font-size: 14px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; padding: 26px; background: var(--card); border-radius: 14px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  .header h1 { font-size: 22px; margin-bottom: 8px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+  .header p { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 9px 16px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c0392b; }
+  
+  .q-card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 6px rgba(0,0,0,0.02); page-break-inside: avoid; break-inside: avoid; transition: all 0.2s; }
+  .q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+  .q-statement { font-size: 15px; font-weight: bold; color: #000; margin-bottom: 14px; line-height: 1.4; }
+  .options-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+  .option { padding: 10px 14px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 14px; color: #333; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .option:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  .option.correct { background: rgba(16, 185, 129, 0.12) !important; border-color: var(--success) !important; color: #047857 !important; font-weight: 600; }
+  .option.wrong { background: rgba(239, 68, 68, 0.12) !important; border-color: var(--error) !important; color: #b91c1c !important; }
+  
+  .solution-box { margin-top: 12px; padding: 14px; border-radius: 8px; background: #f8fafc; border-left: 4px solid var(--primary); font-size: 13px; display: none; }
+  .solution-box.visible { display: block; }
+  .explanation-text { color: #475569; margin-top: 6px; line-height: 1.4; }
+  .toggle-sol-btn { padding: 5px 12px; border-radius: 6px; background: #f1f5f9; color: var(--primary); border: 1px solid #cbd5e1; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .toggle-sol-btn:hover { background: #e2e8f0; }
+
+  /* Secció de Solucions al Final */
+  .solutions-section {
+    margin-top: 40px;
+    padding: 30px 24px;
+    background: var(--card);
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    page-break-before: always;
+    break-before: page;
+  }
+  .solutions-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .solutions-header h2 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .sol-grid-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sol-grid-item b {
+    color: #10b981;
+    font-size: 14px;
+  }
+  .detailed-sol-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .detailed-sol-item:last-child {
+    border-bottom: none;
+  }
+  .detailed-sol-q {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .detailed-sol-ans {
+    color: #333;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  @media print {
+    body { background: white !important; color: #222 !important; padding: 0 !important; font-size: 13px !important; margin: 15mm 10mm !important; }
+    .header .controls, .toggle-sol-btn, .no-print, .solution-box { display: none !important; }
+    .header { border: none !important; box-shadow: none !important; padding: 0 0 15px 0 !important; margin-bottom: 20px !important; }
+    .header h1 { font-size: 20px !important; color: #2c3e50 !important; border-bottom: 1px solid #e74c3c !important; }
+    .q-card { border: none !important; box-shadow: none !important; margin-bottom: 15px !important; padding: 0 !important; page-break-inside: avoid !important; break-inside: avoid !important; }
+    .q-statement { color: #000 !important; font-size: 15px !important; font-weight: bold !important; margin-bottom: 4px !important; }
+    .option { border: none !important; background: transparent !important; padding: 2px 0 !important; margin-left: 15px !important; color: #333 !important; }
+    .solutions-section { page-break-before: always !important; break-before: page !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin-top: 0 !important; }
+    .sol-grid-item { border: 1px solid #cbd5e1 !important; background: #f8fafc !important; color: #000 !important; }
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="no-print" style="color: var(--primary); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 12px;">← Tornar a l'Índex</a>
+      <div>
+        <h1>T23 - Incendis forestals</h1>
+      </div>
+      <p>14 preguntes per estudiar i practicar.</p>
+      
+      <div class="controls no-print">
+        <a href="#solucions-final" class="btn btn-primary">🏁 Anar a les Solucions al Final</a>
+        <button class="btn btn-secondary" onclick="toggleAllSolutions()">💡 Mostrar/Ocultar Solucions a Cada Targeta</button>
+        <button class="btn btn-secondary" onclick="resetAll()">🔄 Reiniciar Respostes</button>
+        <button class="btn btn-accent" onclick="window.print()">🖨️ Imprimir / Guardar en PDF</button>
+      </div>
+    </div>
+
+    <!-- Preguntes -->
+    
+      <div class="q-card" id="q-academia_sim9_q73" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 1 de 14 • ID: academia_sim9_q73</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim9_q73)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 1. En l&#039;extinció d&#039;un incendi forestal, quin additiu per l&#039;aigua serà més útil generalment?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim9_q73, 'A')">
+            <b>A)</b> <span>Un catalitzador</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim9_q73, 'B')">
+            <b>B)</b> <span>Un espessant</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim9_q73, 'C')">
+            <b>C)</b> <span>Un humectant</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim9_q73, 'D')">
+            <b>D)</b> <span>Un anticongelant G11 o G12</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim9_q73">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Un espessant</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> L&#039;espessant incrementa la viscositat de l&#039;aigua, fet que facilitarà que aquesta s&#039;adhereixi a les branques i branquillons de
+les capçades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim12_q88" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 2 de 14 • ID: academia_sim12_q88</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim12_q88)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 2. És el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim12_q88, 'A')">
+            <b>A)</b> <span>Vent catabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim12_q88, 'B')">
+            <b>B)</b> <span>Vent anabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim12_q88, 'C')">
+            <b>C)</b> <span>Marinada</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim12_q88, 'D')">
+            <b>D)</b> <span>Terral  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim12_q88">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Vent catabàtic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a
+causa de la radiació solar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim15_q82" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 3 de 14 • ID: academia_sim15_q82</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim15_q82)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 3. Quin nom rep el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim15_q82, 'A')">
+            <b>A)</b> <span>Vent anabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim15_q82, 'B')">
+            <b>B)</b> <span>Vent catabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim15_q82, 'C')">
+            <b>C)</b> <span>Efecte Fohn</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim15_q82, 'D')">
+            <b>D)</b> <span>Coriolis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim15_q82">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Vent anabàtic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent catabàtic, en canvi, és descendent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim18_q32" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 4 de 14 • ID: academia_sim18_q32</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim18_q32)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 4. Vent que bufa cap amunt en les vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar:</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim18_q32, 'A')">
+            <b>A)</b> <span>Terral</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim18_q32, 'B')">
+            <b>B)</b> <span>Marinada</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim18_q32, 'C')">
+            <b>C)</b> <span>Vent catabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim18_q32, 'D')">
+            <b>D)</b> <span>Vent anabàtic  acadèmia bombers</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim18_q32">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Vent anabàtic  acadèmia bombers</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent catabàtic, en canvi, és el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a
+causa de la radiació emesa.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim20_q90" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 5 de 14 • ID: academia_sim20_q90</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim20_q90)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 5. En un incendi forestal que es desenvolupés en una situació atmosfèrica d&#039;inversió tèrmica, què passaria si aquest fenomen desaparegués?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim20_q90, 'A')">
+            <b>A)</b> <span>Que els corrents de convecció creats per l&#039;incendi tindrien més dificultats per ascendir</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim20_q90, 'B')">
+            <b>B)</b> <span>Que l&#039;incendi s&#039;acceleraria</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim20_q90, 'C')">
+            <b>C)</b> <span>Que el vent canviaria bruscament de direcció, i conseqüentment l&#039;avanç de l&#039;incendi</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim20_q90, 'D')">
+            <b>D)</b> <span>Que l&#039;incendi passaria a avançar més lentament</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim20_q90">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Que l&#039;incendi s&#039;acceleraria</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim21_q22" data-correct="D">
+        <div class="q-meta">
+          <span>Pregunta 6 de 14 • ID: academia_sim21_q22</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim21_q22)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 6. Quin d&#039;aquests termes no fa referència a una part d&#039;un incendi forestal?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim21_q22, 'A')">
+            <b>A)</b> <span>Front</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim21_q22, 'B')">
+            <b>B)</b> <span>Bossa</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim21_q22, 'C')">
+            <b>C)</b> <span>Llengua o dit</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim21_q22, 'D')">
+            <b>D)</b> <span>Totes fan referència a parts d&#039;un incendi forestal</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim21_q22">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: D) Totes fan referència a parts d&#039;un incendi forestal</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim26_q26" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 7 de 14 • ID: academia_sim26_q26</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim26_q26)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 7. Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim26_q26, 'A')">
+            <b>A)</b> <span>45°</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim26_q26, 'B')">
+            <b>B)</b> <span>90°</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim26_q26, 'C')">
+            <b>C)</b> <span>60°</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim26_q26, 'D')">
+            <b>D)</b> <span>0°</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim26_q26">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) 45°</div>
+          
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim34_q73" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 8 de 14 • ID: academia_sim34_q73</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim34_q73)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 8. Com s&#039;anomena el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim34_q73, 'A')">
+            <b>A)</b> <span>Vent catabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim34_q73, 'B')">
+            <b>B)</b> <span>Vent anabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim34_q73, 'C')">
+            <b>C)</b> <span>Vent de Foehn</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim34_q73, 'D')">
+            <b>D)</b> <span>Vent de Coriolis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim34_q73">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Vent anabàtic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa rep el
+nom de vent catabàtic.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim62_q86" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 9 de 14 • ID: academia_sim62_q86</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim62_q86)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 9. Quin dels següents és un vent topogràfic?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim62_q86, 'A')">
+            <b>A)</b> <span>El vent anabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim62_q86, 'B')">
+            <b>B)</b> <span>El vent de Llebeig</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim62_q86, 'C')">
+            <b>C)</b> <span>El vent de Mestral</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim62_q86, 'D')">
+            <b>D)</b> <span>El vent de Garbí</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim62_q86">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) El vent anabàtic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent anabàtic és un vent diürn de recorregut ascendent.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim72_q25" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 10 de 14 • ID: academia_sim72_q25</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim72_q25)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 10. Quin nom rep el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim72_q25, 'A')">
+            <b>A)</b> <span>Vent anabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim72_q25, 'B')">
+            <b>B)</b> <span>Vent catabàtic</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim72_q25, 'C')">
+            <b>C)</b> <span>Efecte Fohn</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim72_q25, 'D')">
+            <b>D)</b> <span>Coriolis</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim72_q25">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) Vent catabàtic</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants d&#039;una muntanya que s&#039;han escalfat fortament a
+causa de la radiació solar.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-academia_sim80_q54" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 11 de 14 • ID: academia_sim80_q54</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(academia_sim80_q54)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 11. Del llistat d&#039;espècies vegetals en relació amb el risc d&#039;incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(academia_sim80_q54, 'A')">
+            <b>A)</b> <span>L&#039;auró (Acer opalus)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(academia_sim80_q54, 'B')">
+            <b>B)</b> <span>El boix (Buxus sempervirens)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(academia_sim80_q54, 'C')">
+            <b>C)</b> <span>La mimosa (Acacia dealbata)</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(academia_sim80_q54, 'D')">
+            <b>D)</b> <span>El bedoll (Betula pendula)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-academia_sim80_q54">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) La mimosa (Acacia dealbata)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> La resta d&#039;opcions són espècies molt recomanades.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q11" data-correct="B">
+        <div class="q-meta">
+          <span>Pregunta 12 de 14 • ID: serebomber_38c54d39_q11</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q11)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 12. En quin tipus de terreny o vegetació es produeix habitualment un incendi de subsòl o de turbera?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q11, 'A')">
+            <b>A)</b> <span>En masses de pi blanc sobre terreny calcari</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q11, 'B')">
+            <b>B)</b> <span>En matèria orgànica en descomposició, torba o arrels sota la superfície, amb combustió lenta i sense flama</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q11, 'C')">
+            <b>C)</b> <span>En zones de matollar sec amb gran pendent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q11, 'D')">
+            <b>D)</b> <span>En camps de conreu de cereals acabats de segar</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q11">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: B) En matèria orgànica en descomposició, torba o arrels sota la superfície, amb combustió lenta i sense flama</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els incendis de subsòl cremen la matèria orgànica profunda sense presència de flama visible i amb gran dificultat d&#039;extinció.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q18" data-correct="A">
+        <div class="q-meta">
+          <span>Pregunta 13 de 14 • ID: serebomber_38c54d39_q18</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q18)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 13. En un incendi forestal, quin tipus de vent local es genera durant el dia per l&#039;escalfament del pendent de la muntanya?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q18, 'A')">
+            <b>A)</b> <span>Vent anabàtic (brisa de pendent ascendent)</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q18, 'B')">
+            <b>B)</b> <span>Vent catabàtic (brisa de pendent descendent)</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q18, 'C')">
+            <b>C)</b> <span>Vent de vall descendent</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q18, 'D')">
+            <b>D)</b> <span>Brisa de terra a mar (terral)</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q18">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: A) Vent anabàtic (brisa de pendent ascendent)</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Els vents anabàtics es produeixen de dia en escalfar-se les lladores de la muntanya pel sol, ascendint l&#039;aire càlid.</div>
+        </div>
+      </div>
+    
+      <div class="q-card" id="q-serebomber_38c54d39_q44" data-correct="C">
+        <div class="q-meta">
+          <span>Pregunta 14 de 14 • ID: serebomber_38c54d39_q44</span>
+          <button class="toggle-sol-btn" onclick="toggleSolution(serebomber_38c54d39_q44)">💡 Veure Solució</button>
+        </div>
+        <div class="q-statement">❓ 14. Quina és la funció d&#039;un tallafocs (o línia de defensa) en la lluita contra els incendis forestals?</div>
+        <div class="options-list">
+          
+          <div class="option" data-opt="A" onclick="selectOption(serebomber_38c54d39_q44, 'A')">
+            <b>A)</b> <span>Canviar la direcció del vent dominant</span>
+          </div>
+        
+          <div class="option" data-opt="B" onclick="selectOption(serebomber_38c54d39_q44, 'B')">
+            <b>B)</b> <span>Humitejar exclusivament les copes dels arbres</span>
+          </div>
+        
+          <div class="option" data-opt="C" onclick="selectOption(serebomber_38c54d39_q44, 'C')">
+            <b>C)</b> <span>Eliminar el combustible vegetal d&#039;una franja de terreny per aturar la propagació del foc per contacte directe</span>
+          </div>
+        
+          <div class="option" data-opt="D" onclick="selectOption(serebomber_38c54d39_q44, 'D')">
+            <b>D)</b> <span>Refredar la temperatura de l&#039;aire circumdant</span>
+          </div>
+        
+        </div>
+        <div class="solution-box" id="sol-serebomber_38c54d39_q44">
+          <div style="font-weight: 700; color: #10b981;">✓ Resposta Correcta: C) Eliminar el combustible vegetal d&#039;una franja de terreny per aturar la propagació del foc per contacte directe</div>
+          <div class="explanation-text">&bull; <b>Explicació:</b> Crea una discontinuitat en la matèria vegetal per evitar que el front d&#039;avanç es propague directament.</div>
+        </div>
+      </div>
+    
+
+    <!-- SECCIÓ DE SOLUCIONS AL FINAL DE LA PÀGINA -->
+    <div class="solutions-section" id="solucions-final">
+      <div class="solutions-header">
+        <h2>🏁 Plantilla de Respostes Correctes i Solucions</h2>
+        <p style="color: var(--text-muted); font-size: 13px;">T23 - Incendis forestals (14 preguntes)</p>
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--primary);">📋 Taula ràpida de respostes:</h3>
+      <div class="solutions-grid">
+        
+      <div class="sol-grid-item">
+        <span>Pregunta 1</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 2</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 3</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 4</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 5</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 6</span>
+        <b>D</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 7</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 8</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 9</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 10</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 11</span>
+        <b>C</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 12</span>
+        <b>B</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 13</span>
+        <b>A</b>
+      </div>
+    
+      <div class="sol-grid-item">
+        <span>Pregunta 14</span>
+        <b>C</b>
+      </div>
+    
+      </div>
+
+      <h3 style="font-size: 16px; margin-bottom: 14px; margin-top: 24px; color: var(--primary); border-top: 1px solid var(--card-border); padding-top: 20px;">📖 Solucions detallades i explicacions:</h3>
+      <div class="detailed-solutions-list">
+        
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 1. En l&#039;extinció d&#039;un incendi forestal, quin additiu per l&#039;aigua serà més útil generalment?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Un espessant<br>&bull; <b>Explicació:</b> L&#039;espessant incrementa la viscositat de l&#039;aigua, fet que facilitarà que aquesta s&#039;adhereixi a les branques i branquillons de
+les capçades.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 2. És el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Vent catabàtic<br>&bull; <b>Explicació:</b> El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a
+causa de la radiació solar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 3. Quin nom rep el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Vent anabàtic<br>&bull; <b>Explicació:</b> El vent catabàtic, en canvi, és descendent.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 4. Vent que bufa cap amunt en les vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar:</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Vent anabàtic  acadèmia bombers<br>&bull; <b>Explicació:</b> El vent catabàtic, en canvi, és el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a
+causa de la radiació emesa.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 5. En un incendi forestal que es desenvolupés en una situació atmosfèrica d&#039;inversió tèrmica, què passaria si aquest fenomen desaparegués?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Que l&#039;incendi s&#039;acceleraria</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 6. Quin d&#039;aquests termes no fa referència a una part d&#039;un incendi forestal?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (D):</b> Totes fan referència a parts d&#039;un incendi forestal</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 7. Un incendi forestal presenta un pendent del 100%. A quin valor equival en graus?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> 45°</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 8. Com s&#039;anomena el vent que bufa cap amunt en els vessants dels terrenys que s&#039;han escalfat fortament a causa de la radiació solar?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Vent anabàtic<br>&bull; <b>Explicació:</b> El vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa rep el
+nom de vent catabàtic.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 9. Quin dels següents és un vent topogràfic?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> El vent anabàtic<br>&bull; <b>Explicació:</b> El vent anabàtic és un vent diürn de recorregut ascendent.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 10. Quin nom rep el vent que bufa cap avall en els vessants dels terrenys que s&#039;han refredat fortament a causa de la radiació emesa?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> Vent catabàtic<br>&bull; <b>Explicació:</b> El vent anabàtic, en canvi, és el vent que bufa cap amunt en els vessants d&#039;una muntanya que s&#039;han escalfat fortament a
+causa de la radiació solar.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 11. Del llistat d&#039;espècies vegetals en relació amb el risc d&#039;incendi forestal que contempla la Guia pràctica de pirojardineria, quina de les següents espècies estarà prohibida?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> La mimosa (Acacia dealbata)<br>&bull; <b>Explicació:</b> La resta d&#039;opcions són espècies molt recomanades.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 12. En quin tipus de terreny o vegetació es produeix habitualment un incendi de subsòl o de turbera?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (B):</b> En matèria orgànica en descomposició, torba o arrels sota la superfície, amb combustió lenta i sense flama<br>&bull; <b>Explicació:</b> Els incendis de subsòl cremen la matèria orgànica profunda sense presència de flama visible i amb gran dificultat d&#039;extinció.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 13. En un incendi forestal, quin tipus de vent local es genera durant el dia per l&#039;escalfament del pendent de la muntanya?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (A):</b> Vent anabàtic (brisa de pendent ascendent)<br>&bull; <b>Explicació:</b> Els vents anabàtics es produeixen de dia en escalfar-se les lladores de la muntanya pel sol, ascendint l&#039;aire càlid.</div>
+      </div>
+    
+      <div class="detailed-sol-item">
+        <div class="detailed-sol-q">❓ 14. Quina és la funció d&#039;un tallafocs (o línia de defensa) en la lluita contra els incendis forestals?</div>
+        <div class="detailed-sol-ans">&bull; <b>Resposta (C):</b> Eliminar el combustible vegetal d&#039;una franja de terreny per aturar la propagació del foc per contacte directe<br>&bull; <b>Explicació:</b> Crea una discontinuitat en la matèria vegetal per evitar que el front d&#039;avanç es propague directament.</div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allVisible = false;
+
+    function selectOption(id, opt) {
+      const card = document.getElementById('q-' + id);
+      const correct = card.getAttribute('data-correct');
+      const box = document.getElementById('sol-' + id);
+      
+      card.querySelectorAll('.option').forEach(o => {
+        o.classList.remove('correct', 'wrong');
+      });
+
+      const selected = card.querySelector('.option[data-opt="' + opt + '"]');
+      if (opt === correct) {
+        if (selected) selected.classList.add('correct');
+      } else {
+        if (selected) selected.classList.add('wrong');
+        const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+        if (correctOpt) correctOpt.classList.add('correct');
+      }
+      box.classList.add('visible');
+    }
+
+    function toggleSolution(id) {
+      const card = document.getElementById('q-' + id);
+      const box = document.getElementById('sol-' + id);
+      const isVis = box.classList.toggle('visible');
+      const correct = card.getAttribute('data-correct');
+      const correctOpt = card.querySelector('.option[data-opt="' + correct + '"]');
+      if (correctOpt) {
+        if (isVis) correctOpt.classList.add('correct');
+        else if (!allVisible) correctOpt.classList.remove('correct');
+      }
+    }
+
+    function toggleAllSolutions() {
+      allVisible = !allVisible;
+      document.querySelectorAll('.solution-box').forEach(b => {
+        if (allVisible) b.classList.add('visible');
+        else b.classList.remove('visible');
+      });
+      document.querySelectorAll('.q-card').forEach(c => {
+        const correct = c.getAttribute('data-correct');
+        const opt = c.querySelector('.option[data-opt="' + correct + '"]');
+        if (opt) {
+          if (allVisible) opt.classList.add('correct');
+          else opt.classList.remove('correct');
+        }
+      });
+    }
+
+    function resetAll() {
+      allVisible = false;
+      document.querySelectorAll('.solution-box').forEach(b => b.classList.remove('visible'));
+      document.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+    }
+  </script>
+</body>
+</html>

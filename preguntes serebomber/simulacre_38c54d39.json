@@ -1,0 +1,912 @@
+[
+  {
+    "id": "serebomber_38c54d39_q1",
+    "statement": "Quines de les següents propietats s'associen directament a l'aigua com a agent extintor?",
+    "options": {
+      "A": "Baixa calor específica i baixa calor latent de vaporització",
+      "B": "Elevada calor específica i elevat calor latent de vaporització",
+      "C": "Alta viscositat i baixa capacitat d'absorció de calor",
+      "D": "Incapacitat per actuar per sufocació quan es vaporitza"
+    },
+    "correct": "B",
+    "explanation": "L'aigua té una de les calors específiques més altes (4.184 J/kg·K) i una elevadíssima calor latent de vaporització (2.257 kJ/kg), la qual cosa li atorga una gran capacitat de refredament.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q2",
+    "statement": "Quin tipus de fusta presenta generalment una estructura més homogènia, amb anells d'alburn i duramen menys diferenciats i conductes resinífers?",
+    "options": {
+      "A": "Fusta de frondoses (dures)",
+      "B": "Fusta de coníferes (toves)",
+      "C": "Fusta tropical densa",
+      "D": "Fusta contraxapada estructural"
+    },
+    "correct": "B",
+    "explanation": "Les coníferes tenen una estructura anatòmica més simple i homogènia amb canals resinífers característics.",
+    "theme": "T15 - Construcció"
+  },
+  {
+    "id": "serebomber_38c54d39_q3",
+    "statement": "En un circuit elèctric monofàsic domèstic, quin és el color normatiu del conductor neutre segons el REBT?",
+    "options": {
+      "A": "Marró o negre",
+      "B": "Verd-groc",
+      "C": "Blau clar",
+      "D": "Gris"
+    },
+    "correct": "C",
+    "explanation": "Segons el Reglament Electrotècnic per a Baixa Tensió (ITC-BT-19), el conductor neutre ha d'ésser de color blau clar.",
+    "theme": "T11 - Electricitat"
+  },
+  {
+    "id": "serebomber_38c54d39_q4",
+    "statement": "Com es defineix la densitat de vapor d'un gas o vapor?",
+    "options": {
+      "A": "La relació entre la massa d'un volum de gas i la de la mateixa quantitat d'aire en les mateixes condicions de pressió i temperatura",
+      "B": "La relació entre la massa d'un gas i el volum d'aigua equivalent a 4 ºC",
+      "C": "La pressió exercida pel vapor en equilibri amb el seu líquid",
+      "D": "El percentatge de gas necessari en aire per produir una deflagració"
+    },
+    "correct": "A",
+    "explanation": "Si la densitat de vapor és > 1, el gas és més pesant que l'aire i tendirà a acumular-se en zones baixes.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q5",
+    "statement": "Segons la Llei 5/1994 de regulació dels serveis de prevenció i extinció d'incendis i de salvaments de Catalunya, quina és una funció pròpia del Cos de Bombers de la Generalitat?",
+    "options": {
+      "A": "La investigació judicial dels delictes d'incendi provocat",
+      "B": "La gestió i cobrament de les taxes municipals d'aigua",
+      "C": "Extingir incendis i coordinar les operacions de salvament en casos de catàstrofe o calamitat pública",
+      "D": "L'emissió de llicències d'obres majors municipals"
+    },
+    "correct": "C",
+    "explanation": "L'article 2 de la Llei 5/1994 estableix les funcions operatives del Cos de Bombers de la Generalitat.",
+    "theme": "T03 - Llei bombers i protecció civil"
+  },
+  {
+    "id": "serebomber_38c54d39_q6",
+    "statement": "En la valoració primària d'un ferit (ABCDE), quina és la prioritat absoluta inicial?",
+    "options": {
+      "A": "A: Control de la via aèria amb control cervical",
+      "B": "B: Ventilació i oxigenoteràpia",
+      "C": "C: Circulació i control de grans hemorràgies",
+      "D": "D: Valoració de l'estat neurològic (Glasgow)"
+    },
+    "correct": "A",
+    "explanation": "La seqüència de suport vital prioritza l'obertura i permeabilitat de la via aèria amb estabilització en eix de la columna cervical.",
+    "theme": "T28 - Atenció sanitària bàsica"
+  },
+  {
+    "id": "serebomber_38c54d39_q7",
+    "statement": "Quina diferència principal hi ha entre un extintor portàtil i un extintor mòbil (o sobre rodes)?",
+    "options": {
+      "A": "L'agent extintor: el portàtil només és d'aigua i el mòbil de pols",
+      "B": "La massa total del conjunt: el portàtil és de fins a 20 kg i el mòbil supera els 20 kg (habitualment fins a 50 kg o més)",
+      "C": "La pressió de càrrega: el mòbil no disposa de gas propulsor",
+      "D": "La capacitat d'extingir focs de classe B"
+    },
+    "correct": "B",
+    "explanation": "La norma UNE-EN 3 defineix extintor portàtil com aquell dissenyat per ser transportat manualment amb una massa <= 20 kg.",
+    "theme": "T10 - Equips de protecció i eines"
+  },
+  {
+    "id": "serebomber_38c54d39_q8",
+    "statement": "Quin és l'índex que mesura la capacitat d'un material d'aïllament tèrmic per conduir el calor?",
+    "options": {
+      "A": "Calor latent de fusió",
+      "B": "Capacitat calorífica específica",
+      "C": "Coeficient de dilatació lineal",
+      "D": "Conductivitat tèrmica (λ o k)"
+    },
+    "correct": "D",
+    "explanation": "Com menor sigui el valor de la conductivitat tèrmica (W/m·K), millor aïllant tèrmic serà el material.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q9",
+    "statement": "En el marc del sistema de gestió d'emergències PROCICAT, quin òrgan assumeix la direcció del pla quan s'activa en fase d'emergència?",
+    "options": {
+      "A": "El Cap de Guàrdia de la Regió d'Emergències",
+      "B": "L'Alcalde del municipi de major població",
+      "C": "El Conseller/a d'Interior de la Generalitat de Catalunya",
+      "D": "El Director General dels Mossos d'Esquadra"
+    },
+    "correct": "C",
+    "explanation": "La direcció del pla PROCICAT en fase d'emergència s'atribueix al titular del departament competent en matèria de protecció civil.",
+    "theme": "T03 - Llei bombers i protecció civil"
+  },
+  {
+    "id": "serebomber_38c54d39_q10",
+    "statement": "Quina és la fórmula de la Llei d'Ohm per calcular la intensitat de corrent (I)?",
+    "options": {
+      "A": "I = V / R",
+      "B": "I = V · R",
+      "C": "I = R / V",
+      "D": "I = V · P"
+    },
+    "correct": "A",
+    "explanation": "La intensitat de corrent expressada en amperes és igual al voltatge dividit per la resistència elèctrica.",
+    "theme": "T11 - Electricitat"
+  },
+  {
+    "id": "serebomber_38c54d39_q11",
+    "statement": "En quin tipus de terreny o vegetació es produeix habitualment un incendi de subsòl o de turbera?",
+    "options": {
+      "A": "En masses de pi blanc sobre terreny calcari",
+      "B": "En matèria orgànica en descomposició, torba o arrels sota la superfície, amb combustió lenta i sense flama",
+      "C": "En zones de matollar sec amb gran pendent",
+      "D": "En camps de conreu de cereals acabats de segar"
+    },
+    "correct": "B",
+    "explanation": "Els incendis de subsòl cremen la matèria orgànica profunda sense presència de flama visible i amb gran dificultat d'extinció.",
+    "theme": "T23 - Incendis forestals"
+  },
+  {
+    "id": "serebomber_38c54d39_q12",
+    "statement": "Quina pressió d'ajustament sol tenir la vàlvula de seguretat d'una ampolla d'aire comprimit d'ERA (Equip de Respiració Autònoma) a 300 bar?",
+    "options": {
+      "A": "300 bar",
+      "B": "350 bar",
+      "C": "Entre 450 i 500 bar (aproximadament 1,5 vegades la pressió de treball)",
+      "D": "600 bar"
+    },
+    "correct": "C",
+    "explanation": "Les ampolles d'ERA tenen una pressió de prova hidrostàtica i disc de ruptura d'aproximadament 1,5 vegades la seva pressió nominal de càrrega (450 bar).",
+    "theme": "T10 - Equips de protecció i eines"
+  },
+  {
+    "id": "serebomber_38c54d39_q13",
+    "statement": "En les estructures metàl·liques d'edificació, a quina temperatura crítica aproximada l'acer perd el 50% de la seva resistència mecànica?",
+    "options": {
+      "A": "Entorn dels 200 ºC",
+      "B": "Entorn dels 500 ºC - 550 ºC",
+      "C": "Entorn dels 850 ºC",
+      "D": "Entorn dels 1.200 ºC"
+    },
+    "correct": "B",
+    "explanation": "A partir de 500–550 ºC, l'acer estructural pateix una reducció del 50% del seu límit elàstic i un col·lapse imminent si no està protegit.",
+    "theme": "T15 - Construcció"
+  },
+  {
+    "id": "serebomber_38c54d39_q14",
+    "statement": "Quin gas tòxic, incolor i inodor, amb gran afinitat per l'hemoglobina, és el principal responsable de la majoria de morts per inhalació en incendis?",
+    "options": {
+      "A": "Monòxid de carboni (CO)",
+      "B": "Dioxid de carboni (CO2)",
+      "C": "Cianur d'hidrogen (HCN)",
+      "D": "Dioxid de sofre (SO2)"
+    },
+    "correct": "A",
+    "explanation": "El CO s'uneix a l'hemoglobina formant carboxihemoglobina amb una afinitat 200 vegades superior a la de l'oxigen.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q15",
+    "statement": "Quin fenomen d'incendi d'interiors es caracteritza per una inflamació addicional i molt ràpida dels gasos d'incompletament cremats acumulats al sostre quan entra oxigen fresc?",
+    "options": {
+      "A": "Flashover induït per radiació",
+      "B": "Boilover",
+      "C": "BLEVE",
+      "D": "Backdraft (o explosió de gasos d'incendi)"
+    },
+    "correct": "D",
+    "explanation": "El backdraft és una deflagració violenta produïda per l'aportació repentina d'oxigen en un espai subventilat i superescalfat.",
+    "theme": "T20 - Incendis d'interior"
+  },
+  {
+    "id": "serebomber_38c54d39_q16",
+    "statement": "Segons la Llei 31/1995 de Prevenció de Riscos Laborals, quina és la definició de \"risc laboral greu i imminent\"?",
+    "options": {
+      "A": "Qualsevol malaltia professional diagnosticada durant la jornada laboral",
+      "B": "Un dany menor causat per un accident lleu",
+      "C": "Aquell que sigui racionalment probable que es materialitzi en un futur immediat i pugui suposar un dany greu per a la salut dels treballadors",
+      "D": "La manca d'equips de protecció individual al magatzem del centre de treball"
+    },
+    "correct": "C",
+    "explanation": "Definició recollida a l'article 4.4 de la Llei 31/1995 de PRL.",
+    "theme": "T05 - Prevenció de riscos laborals"
+  },
+  {
+    "id": "serebomber_38c54d39_q17",
+    "statement": "Com es calcula la pressió hidrostàtica exercida per una columna d'aigua de 30 metres d'alçada?",
+    "options": {
+      "A": "0,3 bar",
+      "B": "3 bar (o aprox. 300 kPa / 0,3 MPa)",
+      "C": "30 bar",
+      "D": "300 bar"
+    },
+    "correct": "B",
+    "explanation": "Cada 10 metres de columna d'aigua (m.c.a.) equivalen a 1 bar de pressió hidrostàtica. Per tant, 30 m = 3 bar.",
+    "theme": "T13 - Hidràulica"
+  },
+  {
+    "id": "serebomber_38c54d39_q18",
+    "statement": "En un incendi forestal, quin tipus de vent local es genera durant el dia per l'escalfament del pendent de la muntanya?",
+    "options": {
+      "A": "Vent anabàtic (brisa de pendent ascendent)",
+      "B": "Vent catabàtic (brisa de pendent descendent)",
+      "C": "Vent de vall descendent",
+      "D": "Brisa de terra a mar (terral)"
+    },
+    "correct": "A",
+    "explanation": "Els vents anabàtics es produeixen de dia en escalfar-se les lladores de la muntanya pel sol, ascendint l'aire càlid.",
+    "theme": "T23 - Incendis forestals"
+  },
+  {
+    "id": "serebomber_38c54d39_q19",
+    "statement": "Quin dispositiu o mecanisme d'un vehicle serveix per evitar el bloqueig de les rodes durant una frenada d'emergència?",
+    "options": {
+      "A": "ESP (Control electrònic d'estabilitat)",
+      "B": "TCS (Control de tracció)",
+      "C": "ABS (Anti-lock Braking System)",
+      "D": "EBD (Distribució electrònica de frenada)"
+    },
+    "correct": "C",
+    "explanation": "L'ABS evita el bloqueig dels pneumàtics permetent mantenir la capacitat de direcció del vehicle durant la frenada.",
+    "theme": "T19 - Vehicles de bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q20",
+    "statement": "Quin tipus de bomba hidràulica s'utilitza habitualment en els vehicles de bombers per obtenir altes pressions d'aigua?",
+    "options": {
+      "A": "Bomba volumètrica d'engranatges",
+      "B": "Bomba centrífuga de diverses etapes (o multifàsica)",
+      "C": "Bomba de buit d'anell líquid",
+      "D": "Bomba de membrana manual"
+    },
+    "correct": "B",
+    "explanation": "Les bombes centrífuges utilitzen diversos rodets en sèrie per elevar la pressió fins a nivells d'alta pressió (20-40 bar).",
+    "theme": "T13 - Hidràulica"
+  },
+  {
+    "id": "serebomber_38c54d39_q21",
+    "statement": "Segons la directiva ADR de mercaderies perilloses, quin número d'identificació de perill (codi Kemler) indica una substància líquida molt inflamable (punt d'inflamació inferior a 23 ºC)?",
+    "options": {
+      "A": "23",
+      "B": "30",
+      "C": "333",
+      "D": "33"
+    },
+    "correct": "D",
+    "explanation": "La repetició del número 3 (33) indica una intensificació del perill de líquid inflamable (classe 3).",
+    "theme": "T25 - Risc químic i mercaderies perilloses"
+  },
+  {
+    "id": "serebomber_38c54d39_q22",
+    "statement": "Quina és la funció principal de la maniobra de valsalva o d'insuflació quan s'utilitza un vestit de protecció química estanc?",
+    "options": {
+      "A": "Augmentar la temperatura corporal de l'operador",
+      "B": "Comprovar l'estanquitat del vestit o equilibrar pressions en determinats equips",
+      "C": "Expulsar partícules tòxiques de la màscara",
+      "D": "Reduir el consum d'aire de l'ampolla"
+    },
+    "correct": "B",
+    "explanation": "S'utilitza per a verificar la pressurització interior i l'estanquitat del vestit d'aïllament químic.",
+    "theme": "T25 - Risc químic i mercaderies perilloses"
+  },
+  {
+    "id": "serebomber_38c54d39_q23",
+    "statement": "Quin tipus de nus s'utilitza habitualment com a nus d'ancoratge principal o per lligar una corda a un punt fix per la seva gran resistència i seguretat?",
+    "options": {
+      "A": "Nus de vuit (o vuit per duplicat)",
+      "B": "Nus pla (o d'agafada)",
+      "C": "Nus de pescador simple",
+      "D": "Nus de papallona"
+    },
+    "correct": "A",
+    "explanation": "El nus de vuit per duplicat és el nus estàndard en salvament a causa de la seva estabilitat i baixa pèrdua de resistència de la corda.",
+    "theme": "T29 - Salvament en alçada i rescat urbà"
+  },
+  {
+    "id": "serebomber_38c54d39_q24",
+    "statement": "Quin òrgan constitucional espanyol té la funció de vetllar pel compliment dels drets fonamentals i les llibertats públiques davant les administracions?",
+    "options": {
+      "A": "El Tribunal de Comptes",
+      "B": "El Consell d'Estat",
+      "C": "El Defensor del Poble (Defensor del Pueblo)",
+      "D": "El Consell General del Poder Judicial"
+    },
+    "correct": "C",
+    "explanation": "Art. 54 de la Constitució Espanyola de 1978.",
+    "theme": "T01 - CE i EAC"
+  },
+  {
+    "id": "serebomber_38c54d39_q25",
+    "statement": "Quin efecte produeix l'addició d'escumogen (espumogen) a l'aigua en la lluita contra incendis?",
+    "options": {
+      "A": "Incrementa la densitat de l'aigua per forçar el seu fons",
+      "B": "Augmenta la tensió superficial evitant que l'aigua s'evapori",
+      "C": "Redueix la tensió superficial de l'aigua i permet formar una manta aïllant sobre el combustible",
+      "D": "Transforma l'aigua en un gas no combustible"
+    },
+    "correct": "C",
+    "explanation": "L'espumogen actua com a agent tensioactiu facilitant la penetració i formant una capa d'escuma aïllant que sella els vapors inflamables.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q26",
+    "statement": "En un accident de trànsit, quin és el concepte de la \"hora d'or\" (Golden Hour)?",
+    "options": {
+      "A": "El temps que triguen els equips d'emergència en arribar al lloc de l'accident",
+      "B": "El temps màxim recomanat des que es produeix el trauma fins que el pacient rep tractament quirúrgic definitiu a l'hospital",
+      "C": "La primera hora de llum solar per realitzar excarceracions segures",
+      "D": "El període de temps per restablir el trànsit sense col·lapse vial"
+    },
+    "correct": "B",
+    "explanation": "Reduir l'interval des de l'impacte fins a l'atenció mèdica/quirúrgica definitiva a menys de 60 minuts maximitza la taxa de supervivència.",
+    "theme": "T28 - Atenció sanitària bàsica"
+  },
+  {
+    "id": "serebomber_38c54d39_q27",
+    "statement": "Quina és la funció de la vàlvula de retenció en una instal·lació hidràulica?",
+    "options": {
+      "A": "Permetre el flux de fluid en una sola direcció i evitar el retorn o retrocés",
+      "B": "Regular la pressió d'eixida a un valor constant",
+      "C": "Tallar automàticament el flux en cas de sobreescalfament",
+      "D": "Barrejar dos fluids en proporcions definides"
+    },
+    "correct": "A",
+    "explanation": "Impedeix el retorn del líquid en sentit contrari quan s'atura la bomba o disminueix la pressió d'impulsió.",
+    "theme": "T13 - Hidràulica"
+  },
+  {
+    "id": "serebomber_38c54d39_q28",
+    "statement": "Quina és la temperatura d'inflamació espontània (autoinflamació)?",
+    "options": {
+      "A": "La temperatura a la qual un combustible comença a emetre vapors inflamables",
+      "B": "La temperatura a la qual els vapors s'inflamen momentàniament amb una flama pilot",
+      "C": "La temperatura mínima a la qual una substància entra en combustió espontània sense necessitat de font externa d'ignició",
+      "D": "La temperatura màxima que pot assolir la flama d'un combustible"
+    },
+    "correct": "C",
+    "explanation": "La temperatura d'autoignició és el punt on la calor del medi desencadena l'oxidació ràpida autosostinguda sense cap guspira o flama.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q29",
+    "statement": "Quin tipus de cobertura de comunicacions permet el mode Directe (DMO) en els terminals de la xarxa RESCAT?",
+    "options": {
+      "A": "Cobertura satel·litària global",
+      "B": "Comunicació directa terminal a terminal sense passar per la infraestructura de repetidors",
+      "C": "Connexió a la xarxa de dades d'alta velocitat 5G",
+      "D": "Comunicació exclusiva amb la sala de control central"
+    },
+    "correct": "B",
+    "explanation": "El mode DMO (Direct Mode Operation) permet la ràdio-comunicació local directa entre terminals quan falla o no s'arriba a la xarxa de repetidors (TMO).",
+    "theme": "T17 - Transmissions"
+  },
+  {
+    "id": "serebomber_38c54d39_q30",
+    "statement": "Quin és el document d'avaluació de riscos que ha de tenir tot centre de treball segons la normativa de prevenció?",
+    "options": {
+      "A": "El Pla de Prevenció de Riscos Laborals i l'Avaluació de Riscos",
+      "B": "El Reglament de Règim Interior",
+      "C": "El Manual d'Instruccions dels Equips",
+      "D": "El Llibre d'Actes del Comitè d'Empresa"
+    },
+    "correct": "A",
+    "explanation": "La Llei 31/1995 obliga l'empresa o Administració a formalitzar l'avaluació de riscos i l'establiment del pla de prevenció corresponent.",
+    "theme": "T05 - Prevenció de riscos laborals"
+  },
+  {
+    "id": "serebomber_38c54d39_q31",
+    "statement": "En una escala sobre mapa 1:25.000, a quina distància real en el terreny corresponen 4 cm mesurats sobre el mapa?",
+    "options": {
+      "A": "100 metres",
+      "B": "500 metres",
+      "C": "1 km (1.000 metres)",
+      "D": "2,5 km"
+    },
+    "correct": "C",
+    "explanation": "4 cm * 25.000 = 100.000 cm = 1.000 m = 1 km.",
+    "theme": "T14 - Cartografia i orientació"
+  },
+  {
+    "id": "serebomber_38c54d39_q32",
+    "statement": "Quina és la diferència principal entre un foc de Classe A i un de Classe B?",
+    "options": {
+      "A": "El foc de Classe A és de sòlids orgànics que formen brases; el de Classe B és de líquids o sòlids liquidables",
+      "B": "El foc de Classe A és de gasos inflamables i el de Classe B de metalls combustibles",
+      "C": "El foc de Classe A té presència elèctrica i el de Classe B no",
+      "D": "El foc de Classe A només es pot extingir amb gas CO2"
+    },
+    "correct": "A",
+    "explanation": "Segons la norma UNE-EN 2: Classe A (sòlids que generen brases), Classe B (líquids inflamables o sòlids liquables).",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q33",
+    "statement": "Quin mecanisme utilitza un motor dièsel per ignitionar la barreges d'aire i combustible?",
+    "options": {
+      "A": "Una guspira elèctrica generada per la bugia",
+      "B": "L'alta pressió i temperatura aconseguides per la compressió de l'aire en el cilindre (autoencesa)",
+      "C": "Un filament incandescent de funcionament permanent",
+      "D": "La barreja directa amb oli a la cambra d'expansió"
+    },
+    "correct": "B",
+    "explanation": "Els motors de cicle Dièsel provoquen l'autoencesa del gasoil al ser injectat en l'aire escalfat per alta compressió.",
+    "theme": "T19 - Vehicles de bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q34",
+    "statement": "Segons la Llei 4/1997 de protecció civil de Catalunya, quin tipus de pla s'ha d'elaborar per fer front a riscos especials com incendis forestals (INFOCAT) o químics (PLASEQCAT)?",
+    "options": {
+      "A": "Plans d'autoprotecció particulars",
+      "B": "Plans bàsics d'emergència",
+      "C": "Plans especials",
+      "D": "Plans territorials ordinaris"
+    },
+    "correct": "C",
+    "explanation": "Els plans especials d'àmbit autonòmic s'elaboren per a riscos específics determinats en el catàleg de la Llei de Protecció Civil de Catalunya.",
+    "theme": "T03 - Llei bombers i protecció civil"
+  },
+  {
+    "id": "serebomber_38c54d39_q35",
+    "statement": "Quina és la funció de la vàlvula d'alçada o reductora de pressió de segon escaló (pulmo-automàtic) en un equip de respiració autònoma (ERA)?",
+    "options": {
+      "A": "Reduir la pressió mitjana (uns 6-9 bar) a una pressió respirable lleugerament superior a l'atmosfèrica (sobrepressió)",
+      "B": "Reduir la pressió d'ampolla (300 bar) directament a 1 bar",
+      "C": "Activar la xiuletada d'avís de baixa pressió",
+      "D": "Filtrar les partícules de carboni de l'aire"
+    },
+    "correct": "A",
+    "explanation": "El manorreductor redueix la pressió d'alta (300 bar) a mitjana (6–9 bar), i el pulmo-automàtic la redueix a pressió respirable a demanda/sobrepressió.",
+    "theme": "T10 - Equips de protecció i eines"
+  },
+  {
+    "id": "serebomber_38c54d39_q36",
+    "statement": "Què és el cop d'ariet (golpe de ariete) en una conducció d'aigua i com es pot prevenir?",
+    "options": {
+      "A": "Una caiguda de pressió sobtada que atura la bomba; es prevé accelerant el motor",
+      "B": "Una cavitació produïda a l'aspiració de la bomba; es prevé reduint el cabal",
+      "C": "Una fallada de l'escumogen; es prevé netejant el dosificador",
+      "D": "Un augment brusc de pressió causat pel tancament ràpid d'una vàlvula; es prevé tancant lentament les vàlvules"
+    },
+    "correct": "D",
+    "explanation": "L'aturada instantània del fluid genera un pic d'ona de pressió que pot danyar seriosament mànegues, bombes i canonades.",
+    "theme": "T13 - Hidràulica"
+  },
+  {
+    "id": "serebomber_38c54d39_q37",
+    "statement": "En un accident de trànsit amb un vehicle elèctric, quina precaució principal cal prendre abans de realitzar tasques d'excarceració?",
+    "options": {
+      "A": "Buidar el dipòsit de combustible",
+      "B": "Desconnectar el sistema d'alta tensió (cable de desconnexió o desconector de seguretat) i la bateria de 12 V",
+      "C": "Punxar els pneumàtics per descarregar l'electricitat estàtica",
+      "D": "Tallar directament qualsevol cablejat de color taronja per seguretat"
+    },
+    "correct": "B",
+    "explanation": "És fonamental desactivar el circuit d'alta tensió (codificat en color taronja) i la bateria auxiliar de 12 V abans d'utilitzar eines de tall hidràulic.",
+    "theme": "T32 - Rescat en accidents de trànsit"
+  },
+  {
+    "id": "serebomber_38c54d39_q38",
+    "statement": "Quina és la principal diferència entre un pilar i una columna en edificació?",
+    "options": {
+      "A": "El pilar només suporta tracció i la columna compressió",
+      "B": "El pilar és de fusta i la columna sempre d'acer",
+      "C": "El pilar sol tenir secció poligonal (quadrada, rectangular) i la columna té secció circular",
+      "D": "La columna és horitzontal i el pilar vertical"
+    },
+    "correct": "C",
+    "explanation": "Ambdós són elements verticals sotmesos a compressió, però tradicionalment la columna té secció cilíndrica i el pilar rectangular o quadrada.",
+    "theme": "T15 - Construcció"
+  },
+  {
+    "id": "serebomber_38c54d39_q39",
+    "statement": "Quin és l'efecte principal de l'efecte Coanda en la ventilació d'incendis?",
+    "options": {
+      "A": "La tendència d'un fluid en moviment a adherir-se a una superfície pròxima adjacent",
+      "B": "L'expansió sobtada dels gasos d'incendi en contacte amb l'aigua",
+      "C": "L'augment de temperatura dels gasos confinats al sostre",
+      "D": "La formació d'un pla neutre perfectament horitzontal"
+    },
+    "correct": "A",
+    "explanation": "En ventilació o extinció, el corrent d'aire o fluid tendeix a seguir la trajectòria d'una paret o sostre pròxim.",
+    "theme": "T20 - Incendis d'interior"
+  },
+  {
+    "id": "serebomber_38c54d39_q40",
+    "statement": "Quin dels següents símptomes és indicatiu d'un xoc hipovolèmic greu en una víctima de trauma?",
+    "options": {
+      "A": "Bradicàrdia, hipertensió i pell calenta i vermellosa",
+      "B": "Pupil·les miòtiques i respiració profunda i lenta",
+      "C": "Febre alta i tremolors incontrolats",
+      "D": "Taquicàrdia, taquipnea, pell freda/pàl·lida/humida i hipotensió"
+    },
+    "correct": "D",
+    "explanation": "La disminució severa del volum sanguini provoca una resposta simpàtica de vasoconstricció i augment de la freqüència cardíaca/respiratòria seguit d'hipotensió.",
+    "theme": "T28 - Atenció sanitària bàsica"
+  },
+  {
+    "id": "serebomber_38c54d39_q41",
+    "statement": "Quina és la funció de la línia de vida en treballs en alçada i ressecaments verticals?",
+    "options": {
+      "A": "Subministrar aire respirable a l'operador",
+      "B": "Un sistema d'ancoratge continu al qual el treballador es connecta mitjançant un equip anticaigudes",
+      "C": "Mesurar la profunditat del pou o barranc",
+      "D": "Servir exclusivament per hissar materials pesats"
+    },
+    "correct": "B",
+    "explanation": "Proporciona seguretat contínua i prevenció de caigudes durant el desplaçament en zones elevades o verticals.",
+    "theme": "T29 - Salvament en alçada i rescat urbà"
+  },
+  {
+    "id": "serebomber_38c54d39_q42",
+    "statement": "Quina és la velocitat màxima permesa per a un vehicle d'emergència quan circula en servei d'urgència amb senyals lluminoses i acústiques activades?",
+    "options": {
+      "A": "Exactament 20 km/h per sobre del límit genèric de la via",
+      "B": "Sense cap límit sota qualsevol circumstància",
+      "C": "Pot superar els límits de velocitat establerts sempre que prioritzi la seguretat i no posi en perill la resta d'usuaris",
+      "D": "Fins a 140 km/h en autopistes i 80 km/h en ciutat com a màxim estricte"
+    },
+    "correct": "C",
+    "explanation": "Els vehicles prioritaris en servei d'urgència estan exempts de complir els límits de velocitat sota la responsabilitat del conductor.",
+    "theme": "T19 - Vehicles de bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q43",
+    "statement": "Quin gas noble o inerte s'utilitza habitualment en sistemes fixos d'extinció automàtica per a CPDs (centres de dades) sense deixar residus?",
+    "options": {
+      "A": "Inergen o Argó / Nitrogen (N2, Ar)",
+      "B": "Clorur d'hidrogen líquid",
+      "C": "Freó R-12",
+      "D": "Monòxid de carboni comprimit"
+    },
+    "correct": "A",
+    "explanation": "Els gasos inerts extingeixen per reducció de la concentració d'oxigen sense ferir el material electrònic ni deixar residus químics.",
+    "theme": "T10 - Equips de protecció i eines"
+  },
+  {
+    "id": "serebomber_38c54d39_q44",
+    "statement": "Quina és la funció d'un tallafocs (o línia de defensa) en la lluita contra els incendis forestals?",
+    "options": {
+      "A": "Canviar la direcció del vent dominant",
+      "B": "Humitejar exclusivament les copes dels arbres",
+      "C": "Eliminar el combustible vegetal d'una franja de terreny per aturar la propagació del foc per contacte directe",
+      "D": "Refredar la temperatura de l'aire circumdant"
+    },
+    "correct": "C",
+    "explanation": "Crea una discontinuitat en la matèria vegetal per evitar que el front d'avanç es propague directament.",
+    "theme": "T23 - Incendis forestals"
+  },
+  {
+    "id": "serebomber_38c54d39_q45",
+    "statement": "El rovell del ferro i els processos metabòlics cel·lulars són exemples de:",
+    "options": {
+      "A": "Combustió viva amb flama incandescent",
+      "B": "Oxidació lenta: transcorre a velocitats molt baixes i a temperatures properes a l'ambient, sense flama",
+      "C": "Deflagració de baixa energia",
+      "D": "Detonació confinada"
+    },
+    "correct": "B",
+    "explanation": "El manual cita la rovellada del ferro i el metabolisme com a exemples típics d'oxidació lenta. «El rovell del ferro (quan el ferro reacciona amb l'oxigen de l'aire)...»",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q46",
+    "statement": "Un equip treballa en una zona rural on la telefonia mòbil no dona servei i pregunta si podrà operar en mode xarxa. Quina afirmació sobre el funcionament i la cobertura de la xarxa RESCAT és correcta?",
+    "options": {
+      "A": "La xarxa RESCAT depèn exclusivament de les antenes de telefonia mòbil comercial",
+      "B": "En zona rural només funciona el mode satel·litari automàtic",
+      "C": "La cobertura arriba pràcticament a tot el territori i supera la de la telefonia convencional, però si el terminal no té connexió amb cap repetidor no es pot treballar en mode xarxa",
+      "D": "Els terminals RESCAT tenen abast il·limitat sense necessitat d'estacions base"
+    },
+    "correct": "C",
+    "explanation": "La xarxa RESCAT ofereix molta més cobertura en zones rurals que la telefonia convencional, però requereix enllaç amb un repetidor per al mode xarxa (TMO).",
+    "theme": "T17 - Transmissions"
+  },
+  {
+    "id": "serebomber_38c54d39_q47",
+    "statement": "Quin és el material més comú dels pilars?",
+    "options": {
+      "A": "El formigó armat, present en la majoria d'edificis porticats",
+      "B": "La fusta massissa laminada",
+      "C": "L'acer inoxidable estructural",
+      "D": "La maçoneria de pedra tosca"
+    },
+    "correct": "A",
+    "explanation": "El manual descriu el formigó armat com el material més emprat en pilars estructurals, seguit per l'acer i la fusta. «Materials habituals: − Formigó armat (el més comú)»",
+    "theme": "T15 - Construcció"
+  },
+  {
+    "id": "serebomber_38c54d39_q48",
+    "statement": "Què és el reactiu limitant?",
+    "options": {
+      "A": "El reactiu que té la massa molecular més gran a la reacció",
+      "B": "El catalitzador que limita la velocitat de la flama",
+      "C": "El producte resultant amb menor solubilitat en aigua",
+      "D": "El reactiu que s'esgota primer; s'identifica pel valor més petit en dividir els mols pel seu coeficient"
+    },
+    "correct": "D",
+    "explanation": "El reactiu limitant s'esgota completament en primer lloc i determina la quantitat màxima de producte que es pot formar en la reacció química.",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q49",
+    "statement": "Durant una intervenció, la lectura de la brúixola d'un bomber és inestable i sospita d'una alteració. Quines dues causes recull el manual i quin efecte concret tenen?",
+    "options": {
+      "A": "Inclinar massa la brúixola, cosa que impedeix que l'agulla imantada giri lliurement i la pot deixar travada, i la proximitat de camps magnètics i objectes metàl·lics com torres elèctriques o estructures d'acer.",
+      "B": "L'altitud sobre el nivell del mar i la humitat relativa elevada de l'aire.",
+      "C": "La pressió atmosfèrica baixa i el vent moderat de component sud.",
+      "D": "La temperatura sota zero i l'exposició a la radiació solar directa."
+    },
+    "correct": "A",
+    "explanation": "Mantenir l'horitzontalitat és imprescindible perquè l'agulla no es travi, i cal allunyar-la de grans estructures metàl·liques o camps elèctrics. «Si la inclinem massa, l'agulla imantada no gira lliurement i pot quedar travada, no apuntant al nord.»",
+    "theme": "T14 - Cartografia i orientació"
+  },
+  {
+    "id": "serebomber_38c54d39_q50",
+    "statement": "L'Agència Tributària de Catalunya ha de determinar la base imposable de la contribució especial de la Llei 5/1994 per a un exercici en què s'han construït dos parcs. Quins conceptes integren el cost que serveix de base, i què passa si el cost efectiu no coincideix amb el previst?",
+    "options": {
+      "A": "Només el cost dels materials adquirits; si el cost real difereix s'anul·la la taxa",
+      "B": "Integren el cost la redacció dels projectes i els treballs pericials, les obres, les indemnitzacions, el valor dels terrenys d'ocupació permanent i el material; el cost es calcula sobre les quantitats consignades al pressupost i té caràcter de mera previsió, de manera que el dèficit o l'excés es trasllada a la base dels exercicis següents.",
+      "C": "Exclusivament el salari del personal operatiu del parc; la diferència s'assumeix amb fons europeus",
+      "D": "Només les indemnitzacions per expropiació forçosa amb liquidació trimestral tancada"
+    },
+    "correct": "B",
+    "explanation": "L'article 65 de la Llei 5/1994 estableix la previsió pressupostària del cost i el trasllat del dèficit o excés als exercicis següents. «El cost total a què es refereix l'apartat 1 es calcula sobre la base de les quantitats consignades anualment en el pressupost de la Generalitat...»",
+    "theme": "T03 - Llei bombers i protecció civil"
+  },
+  {
+    "id": "serebomber_38c54d39_q51",
+    "statement": "Quina llei recull les situacions administratives vinculades a la conciliació de la vida familiar?",
+    "options": {
+      "A": "Llei 8/2006, de 5 de juliol",
+      "B": "Llei 1/1998, de 7 de gener",
+      "C": "Llei 19/2020, de 30 de desembre",
+      "D": "Llei 5/1994, de 4 de maig"
+    },
+    "correct": "A",
+    "explanation": "La Llei 8/2006, de 5 de juliol, regula les mesures de conciliació de la vida personal, familiar i laboral del personal de les administracions públiques de Catalunya.",
+    "theme": "T02 - Funció pública"
+  },
+  {
+    "id": "serebomber_38c54d39_q52",
+    "statement": "Una dotació ha de traslladar una víctima immobilitzada per un tram curt i molt accidentat on cap mitjà mecànic pot arribar. Segons la classificació d'evacuacions, quina modalitat de transport correspon i què la caracteritza?",
+    "options": {
+      "A": "Transport aeri medicalitzat directe amb grua",
+      "B": "Evacuació rodada amb vehicle tot terreny 4x4",
+      "C": "Transport fluviodinàmic amb embarcació pneumàtica",
+      "D": "El transport manual en terreny irregular, per trams curts o difícils on no és possible l'ús de mitjans mecànics, amb tècniques de càrrega o mitjans auxiliars com lliteres o mantes"
+    },
+    "correct": "D",
+    "explanation": "El transport manual s'aplica en trams curts i de difícil orografia impossibles per a vehicles o mitjans mecànics. «Desplaçar la víctima en trams curts o difícils on no és possible l'ús de mitjans mecànics...»",
+    "theme": "T31 - Mobilització i immobilització de víctimes"
+  },
+  {
+    "id": "serebomber_38c54d39_q53",
+    "statement": "Quina d'aquestes funcions NO és una funció principal del Grup d'intervenció?",
+    "options": {
+      "A": "El transport sanitari de les persones ferides o intoxicades a la zona",
+      "B": "Extinció d'incendis",
+      "C": "Salvament i rescat",
+      "D": "Contenció o neutralització del risc"
+    },
+    "correct": "A",
+    "explanation": "El transport sanitari és responsabilitat del Grup Sanitari (SEM). El Grup d'Intervenció s'encarrega d'extinció, salvament, rescat, contenció de riscos i control estructural. «Funcions principals: − Extinció d’incendis − Salvament i rescat − Contenció o neutralització del risc − Inspecció tècnica...»",
+    "theme": "T21 - Gestió d'emergències i comandament"
+  },
+  {
+    "id": "serebomber_38c54d39_q54",
+    "statement": "Quina classificació de les instal·lacions que requereix el SISCOM és correcta?",
+    "options": {
+      "A": "Totes les instal·lacions del SISCOM són estrictament mòbils",
+      "B": "Les sales de control són mòbils i les unitats de comandament fixes",
+      "C": "Les sales de control i els parcs de bombers són fixes; les unitats de comandament i les àrees de treball, mòbils",
+      "D": "El SISCOM només requereix instal·lacions virtuals per videoconferència"
+    },
+    "correct": "C",
+    "explanation": "El manual distingeix entre instal·lacions fixes (sales de control, parcs) i mòbils (unitats de comandament avançat, àrees de treball a l'emergència). «instal·lacions fixes (sales de control, parcs de bombers...) i instal·lacions mòbils (unitats de comandament, àrees de treball...)»",
+    "theme": "T04 - Organització del cos de Bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q55",
+    "statement": "Com es produeix un arc elèctric?",
+    "options": {
+      "A": "Per l'escalfament progressiu d'un conductor sense pèrdua d'aïllant",
+      "B": "Per la caiguda de tensió continuada en un circuit tancat",
+      "C": "Quan el corrent salta per l'aire entre dos punts amb diferent tensió, l'aire s'ionitza i esdevé conductor",
+      "D": "Exclusivament en instal·lacions de corrent continu per sobre de 1.000 V"
+    },
+    "correct": "C",
+    "explanation": "L'arc elèctric té lloc quan l'aire entre conductors a diferent potencial s'ionitza i es converteix en un medi conductor (plasma). «Arc elèctric: Es produeix quan el corrent \"salta\" per l'aire entre dos punts amb diferent tensió, l’aire es ionitza i es converteix en conductor (plasma).»",
+    "theme": "T11 - Electricitat"
+  },
+  {
+    "id": "serebomber_38c54d39_q56",
+    "statement": "Davant de quina situació és una maniobra vital la RCP?",
+    "options": {
+      "A": "Davant de qualsevol ferida oberta amb hemorràgia arterial",
+      "B": "Davant d'una víctima amb fractura de pelvis sense pèrdua de coneixement",
+      "C": "Davant d'una lipotímia transitòria amb respiració regular",
+      "D": "Davant d'una persona que no respon i que no respira o no respira amb normalitat"
+    },
+    "correct": "D",
+    "explanation": "La Reanimació Cardiopulmonar (RCP) s'ha d'iniciar immediatament davant una persona inconscient que no respira o fa bocades no efectives (gasping). «La RCP és una maniobra vital davant d’una persona que no respon i que no respira o no respira amb normalitat.»",
+    "theme": "T28 - Atenció sanitària bàsica"
+  },
+  {
+    "id": "serebomber_38c54d39_q57",
+    "statement": "Un turisme ha quedat tombat sobre un costat i cal accedir-hi pel sostre. Com es fa el desmunt lateral de sostre en bolcada lateral?",
+    "options": {
+      "A": "Tallant el terra del vehicle des del xassís inferior",
+      "B": "Abatent el sostre cap al terra, amb eines hidràuliques sobre els muntants o amb serra tallant sota el travesser longitudinal",
+      "C": "Empenyent el sostre cap a l'interior de l'habitacle amb el cilindre d'expansió",
+      "D": "Retirant únicament el parabrisa davanter sense tocar els muntants"
+    },
+    "correct": "B",
+    "explanation": "En vehicle en bolcada lateral, la maniobra consisteix a abatre el sostre vers el terra desprès del tall dels muntants. «Aquesta maniobra consisteix a abatre el sostre en direcció al terra.»",
+    "theme": "T32 - Rescat en accidents de trànsit"
+  },
+  {
+    "id": "serebomber_38c54d39_q58",
+    "statement": "En una detonació, com entra en combustió la massa de combustible respecte a una deflagració?",
+    "options": {
+      "A": "Gairebé instantàniament tota la massa alhora",
+      "B": "Capa per capa a velocitat inferior a la del so",
+      "C": "Només la part en contacte directe amb l'aire circumdant",
+      "D": "En fases successives separades per diversos segons"
+    },
+    "correct": "A",
+    "explanation": "A diferència de la deflagració (propagació subsònica), en la detonació la combustió és gairebé instantània a velocitats supersòniques. «Tota la massa del combustible entra gairebé instantàniament en combustió.»",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q59",
+    "statement": "Com distingeix el manual la seguretat activa de la passiva d'un vehicle?",
+    "options": {
+      "A": "La seguretat activa funciona només quan el vehicle està estacionat",
+      "B": "La passiva evita el xoc i l'activa atén les víctimes ferides",
+      "C": "L'activa ajuda a prevenir i evitar l'accident; la passiva protegeix els ocupants quan ja s'ha produït",
+      "D": "L'activa correspon al xassís i la passiva al sistema de frens"
+    },
+    "correct": "C",
+    "explanation": "La seguretat activa inclou elements per a prevenir accidents (fres, ABS, direcció), i la passiva minimitza les lesions un cop ocorre l'impacte (airbag, cinturons, xassís). «seguretat activa, que engloba tots els elements que ajuden a prevenir i evitar l’accident i en seguretat passiva...»",
+    "theme": "T19 - Vehicles de bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q60",
+    "statement": "Quan va entrar en vigor el Decret 276/2016?",
+    "options": {
+      "A": "L'1 d'octubre de 2016",
+      "B": "L'1 de gener de 2017",
+      "C": "El 15 de desembre de 2015",
+      "D": "El 24 de juliol de 2016"
+    },
+    "correct": "A",
+    "explanation": "La Disposició final cinquena fixa l'entrada en vigor el dia 1 d'octubre de 2016. «Disposició final cinquena Entrada en vigor Aquest Decret entra en vigor el dia 1 d'octubre de 2016.»",
+    "theme": "T04 - Organització del cos de Bombers"
+  },
+  {
+    "id": "serebomber_38c54d39_q61",
+    "statement": "Un municipi ha aprovat un pla específic municipal per a un risc concret i, més endavant, el Govern aprova un pla especial de la Generalitat sobre la mateixa matèria. A banda d'aquest efecte, quin abast tenen els plans especials segons l'article 18 de la Llei 4/1997?",
+    "options": {
+      "A": "Es declaren d'interès de Catalunya i les corporacions municipals afectades han d'incorporar-ne les previsions als seus plans d'actuació municipal.",
+      "B": "Només tenen valor orientatiu no vinculant per als ajuntaments",
+      "C": "Anul·len immediatament tots els serveis municipals d'extinció d'incendis",
+      "D": "Substitueixen exclusivament el reglament orgànic municipal"
+    },
+    "correct": "A",
+    "explanation": "L'article 18.2 declara els plans especials d'interès de Catalunya i l'apartat 18.4 obliga els municipis a integrar-ne el contingut. «4. Les corporacions municipals en el territori de les quals s'apliquen els plans especials són obligades a...»",
+    "theme": "T03 - Llei bombers i protecció civil"
+  },
+  {
+    "id": "serebomber_38c54d39_q62",
+    "statement": "Amb una concentració del 24% d'oxigen, què passa amb la velocitat de combustió respecte a l'aire normal?",
+    "options": {
+      "A": "Es redueix a la meitat",
+      "B": "Es manté exactament igual",
+      "C": "Augmenta un 10%",
+      "D": "Es duplica"
+    },
+    "correct": "D",
+    "explanation": "Un petit increment de la concentració d'oxigen (de 21% a 24%) duplica la velocitat de combustió dels materials. «amb una concentració del 24% d’oxigen, la velocitat de la combustió es duplica respecte a l’aire normal»",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q63",
+    "statement": "A un forjat portant que separa dos sectors d'incendi, quina designació de resistència al foc li correspon?",
+    "options": {
+      "A": "R-t (només capacitat portant)",
+      "B": "EI-t (integritat i aïllament sense suport)",
+      "C": "E-t (únicament estanquitat a fums)",
+      "D": "REI-t, perquè ha de garantir capacitat portant, integritat i aïllament tèrmic"
+    },
+    "correct": "D",
+    "explanation": "Els elements portants delimitadors de sector requereixen R (capacitat portant), E (integritat) i I (aïllament tèrmic) durant el temps t. «Forjats i parets portants entre sectors d’incendi: han de garantir capacitat portant, integritat i aïllament tèrmic (REI-t).»",
+    "theme": "T16 - Protecció contra incendis en l'edificació"
+  },
+  {
+    "id": "serebomber_38c54d39_q64",
+    "statement": "Quina magnitud té la desviació entre el Nord magnètic i el Nord geogràfic?",
+    "options": {
+      "A": "És molt petita, no arriba als 2º",
+      "B": "És fixa i constant a exactament 15º",
+      "C": "Varia entre 45º i 90º a Catalunya",
+      "D": "És nul·la perquè coincideixen de manera permanent"
+    },
+    "correct": "A",
+    "explanation": "En la cartografia catalana actual, la declinació magnètica és inferior als 2º, per la qual cosa a efectes pràctics es pot fer coincidir el nord de l'agulla amb el del mapa. «No obstant és molt petita (no arriba als 2º), i a efectes pràctics...»",
+    "theme": "T14 - Cartografia i orientació"
+  },
+  {
+    "id": "serebomber_38c54d39_q65",
+    "statement": "En quina substància sol estar basada la pols química seca de tipus BC (convencional)?",
+    "options": {
+      "A": "Fosfat monoamònic",
+      "B": "Bicarbonat de sodi o de potassi",
+      "C": "Grafit pur micronitzat",
+      "D": "Clorur sòdic amb additius polimèrics"
+    },
+    "correct": "B",
+    "explanation": "La pols química BC està formada bàsicament per bicarbonat sòdic o potàssic, mentre que la pols ABC conté fosfat monoamònic. «Sol estar basada en bicarbonat de sodi o potassi»",
+    "theme": "T08 - Teoria del foc i agents extintors"
+  },
+  {
+    "id": "serebomber_38c54d39_q66",
+    "statement": "Una bateria d'eina portàtil és de 22 V i 5,2 Ah. Quina energia emmagatzemada aproximada li correspon i en quina unitat s'expressa la seva capacitat?",
+    "options": {
+      "A": "Uns 50 Wh i capacitat en Watts",
+      "B": "Uns 115 Wh d'energia emmagatzemada, i la capacitat s'expressa en Ah",
+      "C": "Uns 450 Wh i capacitat en Volts",
+      "D": "Uns 1.200 Wh i capacitat en Ohms"
+    },
+    "correct": "B",
+    "explanation": "L'energia emmagatzemada es troba multiplicant tensió per capacitat (22 V * 5,2 Ah ≈ 115 Wh), mentre la capacitat s'expressa en Ah. «Bateria Hilti (de 22V i 5,2 Ah) aproximadament 115 Wh.»",
+    "theme": "T11 - Electricitat"
+  },
+  {
+    "id": "serebomber_38c54d39_q67",
+    "statement": "Quina data va entrar en vigor l'Estatut d'autonomia de Catalunya de 2006?",
+    "options": {
+      "A": "18 de juny de 2006",
+      "B": "1 de gener de 2007",
+      "C": "9/8/06",
+      "D": "11 de setembre de 2006"
+    },
+    "correct": "C",
+    "explanation": "L'Estatut d'Autonomia de Catalunya de 2006 (Llei Orgànica 6/2006) va entrar en vigor el 9 d'agost de 2006. «DECRET 306/2006, de 20 de juliol, pel qual es dóna publicitat a la Llei orgànica 6/2006, de 19 de juliol, de reforma de l'Estatut d'autonomia de Catalunya.»",
+    "theme": "T01 - CE i EAC"
+  },
+  {
+    "id": "serebomber_38c54d39_q68",
+    "statement": "L'article 15 de la Llei 17/2015 fixa els requisits dels plans d'igualtat del sector públic. Amb quina periodicitat n'ha de ser l'avaluació pròpia i on s'han d'integrar aquests plans?",
+    "options": {
+      "A": "L'avaluació és anual i s'ha de publicar al DOGC",
+      "B": "L'avaluació és bianual i s'integra al reglament d'accés",
+      "C": "L'avaluació és cada sis anys i s'integra a la memòria d'activitats",
+      "D": "L'avaluació pròpia ha d'ésser quadriennal i el pla ha de formar part com a annex del conveni col·lectiu o pacte de condicions de l'Administració corresponent"
+    },
+    "correct": "D",
+    "explanation": "L'art. 15.4.e de la Llei 17/2015 especifica una avaluació quadriennal i l'art. 15.4.f exigeix la seva incorporació com a annex al conveni col·lectiu. «Regular en l'articulat l'avaluació pròpia, que ha d'ésser quadriennal.»",
+    "theme": "T06 - Igualtat de tracte i de gènere"
+  },
+  {
+    "id": "serebomber_38c54d39_q69",
+    "statement": "En un apuntalament vertical bàsic, quin dels tres elements recull i reparteix la càrrega de l'element danyat, i quin la distribueix al terra o a l'estructura inferior?",
+    "options": {
+      "A": "La tornapunta recull la càrrega i el peu dret la dissipa a l'aire",
+      "B": "Les falques recullen la càrrega i el tauló intermedi la fixa",
+      "C": "El sotapont recull i reparteix la càrrega de l'element danyat, i el jaç de taulons la distribueix al terra o a l'estructura inferior",
+      "D": "El peu dret recull directament la càrrega sense cap element horitzontal"
+    },
+    "correct": "C",
+    "explanation": "El sotapont és la biga/tauló superior que rep el pes de l'estructura danyada, i el jaç de taulons és la base inferior que reparteix el pes al terra. «Sotapont: tauló de fusta que recull i reparteix la càrrega de l’element danyat.»",
+    "theme": "T30 - Construcció i apuntalaments d'emergència"
+  },
+  {
+    "id": "serebomber_38c54d39_q70",
+    "statement": "Què és un cabestrant (winch)?",
+    "options": {
+      "A": "Un torn motoritzat, on el parell el fa un motor elèctric",
+      "B": "Una politja manual sense fre automàtic",
+      "C": "Un gat hidràulic d'elevació vertical",
+      "D": "Una corda estàtica d'ancoratge ràpid"
+    },
+    "correct": "A",
+    "explanation": "El manual defineix el cabestrant com un torn motoritzat el parell de força del qual és generat per un motor elèctric. «Un cabestrant (winch) és un torn motoritzat, en què el parell de força el fa un motor elèctric.»",
+    "theme": "T10 - Equips de protecció i eines"
+  }
+]

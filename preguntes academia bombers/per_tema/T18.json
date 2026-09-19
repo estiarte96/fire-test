@@ -1,1342 +1,3152 @@
 [
   {
-    "id": "academia_sim1_q2",
-    "simulacre": "Simulacre 1",
-    "num_pregunta": 2,
-    "statement": "La bugia és un element característic dels motors:",
-    "correct": "D",
+    "id": "academia_sim1_q29",
+    "statement": "Quina de les següents comarques formaria part en la seva totalitat de la Depressió Central?",
+    "correct": "C",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 1",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Dièsel",
-      "B": "Híbrids",
-      "C": "Tant Otto com Dièsel",
-      "D": "Otto"
+      "A": "Baix Camp",
+      "B": "Vallès Oriental",
+      "C": "Pla d'Urgell",
+      "D": "Solsonès"
     }
   },
   {
-    "id": "academia_sim1_q89",
-    "simulacre": "Simulacre 1",
-    "num_pregunta": 89,
-    "statement": "Respecte els sistemes de distribució d'un motor, és cert que:",
-    "correct": "A",
-    "explanation": "En el sistema DOHC l'arbrede lleves es disposa sobre laculata, ien té dos.\n\nEls sistemes OHC iDOHC són els més usats en l'actualitat.",
+    "id": "academia_sim1_q64",
+    "statement": "Amb quines comarques de Catalunya limita el Pallars Sobirà?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 1",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Elsistema OHV disposa del cigonyal més proper a l'arbrede lleves",
-      "B": "En el sistema OHV l'arbrede lleveses disposa sobre la culata",
-      "C": "Elsistema OHC té dos arbres de lleves",
-      "D": "Elsistema OHV és el més utilitzatenl'actualitat"
+      "A": "Vall d'Aran, Alta Ribagorça, Pallars Jussà, Alt Urgell i Cerdanya",
+      "B": "Vall d'Aran, Alta Ribagorça, Pallars Jussà, Cerdanya i Noguera",
+      "C": "Vall d'Aran, Alta Ribagorça, Pallars Jussà i Alt Urgell",
+      "D": "Vall d'Aran, Pallars Jussà i Alt Urgell"
     }
   },
   {
-    "id": "academia_sim3_q5",
-    "simulacre": "Simulacre 3",
-    "num_pregunta": 5,
-    "statement": "La transmissió de gir des del cigonyal a l'arbre de lleves és de:",
-    "correct": "A",
-    "explanation": "Això faràque el pinyó de l'arbrede lleveshagi de tenirel doble de dents que el delcigonyal.",
+    "id": "academia_sim1_q86",
+    "statement": "És un riu que, durant bona part del seu recorregut, discorre el límit territorial entre Catalunya i Aragó:",
+    "correct": "B",
+    "explanation": "El riu Sènia discorre entre Catalunya i el País Valencià.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 1",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Segre",
+      "B": "La Noguera Ribagorçana",
+      "C": "La Noguera Pallaresa",
+      "D": "El Sènia"
+    }
+  },
+  {
+    "id": "academia_sim2_q11",
+    "statement": "Quin riu neix al Montseny entre les Agudes i el Matagalls?",
+    "correct": "B",
+    "explanation": "Desemboca entre Blanes i Malgrat de Mar.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Daró",
+      "B": "Tordera",
+      "C": "Besòs",
+      "D": "Llobregat"
+    }
+  },
+  {
+    "id": "academia_sim2_q49",
+    "statement": "Com s'anomena una depressió allargada i relativament ampla, definida per la convergència de dos vessants i ha estat recorreguda per un corrent d'aigua o una glacera?",
+    "correct": "A",
+    "explanation": "Tàlveg: línia que uneix els punts més profunds d'una vall, que correspon a la línia natural de drenatge d'un corrent\nd'aigua.\nCarena: línia divisòria dels dos vessants d'una muntanya o d'una serralada.\nCongost: vall estreta i profunda entre muntanyes, de vores abruptes, excavada per l'aigua d'un riu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 2",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vall",
+      "B": "Carena",
+      "C": "Tàlveg",
+      "D": "Congost"
+    }
+  },
+  {
+    "id": "academia_sim3_q50",
+    "statement": "Quin tipus de mapes solen utilitzar els bombers?",
+    "correct": "A",
+    "explanation": "Els mapes topogràfics representen de forma detallada el terreny i les seves formes de relleu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "2 a 1 ",
-      "B": "1 a 2",
-      "C": "1 a 1",
-      "D": "2 a 2"
+      "A": "Mapes topogràfics",
+      "B": "Mapes temàtics",
+      "C": "Ortofotomapes",
+      "D": "Mapes polítics"
     }
   },
   {
-    "id": "academia_sim4_q86",
-    "simulacre": "Simulacre 4",
-    "num_pregunta": 86,
-    "statement": "En un sistema OHC, a través del taquet s'acciona:",
-    "correct": "C",
-    "explanation": "En un sistema OHV eltaquet opera sobre la varetaempenyedora.",
+    "id": "academia_sim3_q51",
+    "statement": "El pantà de Boadella pertany al riu:",
+    "correct": "D",
+    "explanation": "S'origina com a conseqüència d'una presa situada al municipi de Darnius.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 4",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 3",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La vareta empenyedora",
-      "B": "El balancí",
-      "C": "La vàlvula",
-      "D": "Eltensor"
+      "A": "Ter",
+      "B": "Llobregat",
+      "C": "Tordera",
+      "D": "Muga"
     }
   },
   {
-    "id": "academia_sim6_q72",
-    "simulacre": "Simulacre 6",
-    "num_pregunta": 72,
-    "statement": "El ____ és una vàlvula tèrmica i el ____ és un interruptor bimetall.",
-    "correct": "B",
-    "explanation": "L'electroventilador el formen el motor elèctric,un relé iel termocontacte.\nLa funció d'un manocontacte és obrir o tancar un circuitelèctric en funció de si hiha olio no n'hi ha, en aquest últim cas\ntancant-lo iavisant-nos mitjançant un indicador lluminós.",
+    "id": "academia_sim5_q14",
+    "statement": "El pont de Besalú és un pont romànic emblemàtic a Catalunya. Quin riu el travessa?",
+    "correct": "D",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Ter",
+      "B": "El Llobregat",
+      "C": "El Segre",
+      "D": "El Fluvià"
+    }
+  },
+  {
+    "id": "academia_sim5_q95",
+    "statement": "Quina d'aquestes serres no forma part dels Pirineus?",
+    "correct": "C",
+    "explanation": "La serra de Picancel forma part del Prepirineu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 5",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Monteixo",
+      "B": "Catllar",
+      "C": "Picancel",
+      "D": "Puigpedrós"
+    }
+  },
+  {
+    "id": "academia_sim6_q9",
+    "statement": "Amb quines comarques de Catalunya limita el Montsià?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 6",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Termocontacte/termòstat",
-      "B": "Termòstat/termocontacte",
-      "C": "Manocontacte/termocontacte",
-      "D": "Electroventilador/termòstat 19 Acadèmia Bombers Simulacre 6"
+      "A": "Amb el Baix Ebre, amb la Ribera d'Ebre, amb el Baix Camp i amb la Terra Alta",
+      "B": "Amb el Baix Ebre, amb la Ribera d'Ebre i amb la Terra Alta",
+      "C": "Amb el Baix Ebre i amb la Terra Alta",
+      "D": "Amb el Baix Ebre, únicament"
     }
   },
   {
-    "id": "academia_sim7_q89",
-    "simulacre": "Simulacre 7",
-    "num_pregunta": 89,
-    "statement": "En un sistema OHV, eltaqué actua sobre:",
+    "id": "academia_sim6_q75",
+    "statement": "Com s'anomena una vall estreta i profunda entre muntanyes, de vores abruptes, excavada per l'aigua d'un riu?",
     "correct": "D",
-    "explanation": "Aquesta vareta actuarà sobre elbalancí, que actuarà sobre lavàlvula.\nEn un sistema OHC, a través del taquet s'acciona la vàlvula.\n91.- bombers\n\nL'àmbit operatiu, l'àmbitde coordinació il'àmbit de suport són els àmbits de laguàrdia.\n www.academiabombers.com",
+    "explanation": "Vessant: pendent que en una vall uneix el tàlveg i la carena.\nTàlveg: línia que uneix els punts més profunds d'una vall, que correspon a la línia natural de drenatge d'un corrent\nd'aigua.\nVall: depressió allargada i relativament ampla, definida per la convergència de dos vessants i que és recorreguda, o ha\nestat recorreguda, per un corrent d'aigua o una glacera.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 6",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Vessant",
+      "B": "Vall",
+      "C": "Tàlveg",
+      "D": "Congost"
+    }
+  },
+  {
+    "id": "academia_sim7_q37",
+    "statement": "Quin és l'únic embassament del riu Anoia?",
+    "correct": "C",
+    "explanation": "El pantà de Sant Martí de Tous, igual que el de la Llosa del Cavall, forma part de la conca del riu Llobregat.\nEl pantà de Santa Anna pertany a la Noguera Ribagorçana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 7",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'arbre de transmissió",
-      "B": "La vàlvula",
-      "C": "El balancí",
-      "D": "La vareta empenyedora"
+      "A": "L'embassament de Santa Anna",
+      "B": "L'embassament de la Llosa del Cavall",
+      "C": "El pantà de Sant Martí de Tous",
+      "D": "El pantà de Margalef"
     }
   },
   {
-    "id": "academia_sim8_q54",
-    "simulacre": "Simulacre 8",
-    "num_pregunta": 54,
-    "statement": "Entre quines peces se situa, generalment, elcol·lector d'admissió d'un motor dièsel?",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim8_q13",
+    "statement": "Quin dels següents rius neix a l'Altiplà de la Segarra, prop de Calaf?",
+    "correct": "C",
+    "explanation": "El riu Anoia desemboca al Llobregat, a l'alçada de Martorell.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 8",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Entre elcarburador ila vàlvula papallona",
-      "B": "Entre elcarburador ila tapa de balancins",
-      "C": "Entre lacisterna ila vàlvula papallonaacadèmia",
-      "D": "Entre elfiltred'aireilaculata"
+      "A": "El Foix",
+      "B": "El Cardener",
+      "C": "L'Anoia",
+      "D": "La Tordera"
     }
   },
   {
-    "id": "academia_sim9_q24",
-    "simulacre": "Simulacre 9",
-    "num_pregunta": 24,
-    "statement": "Són palanques muntades en unwww.academiabombers.comeixsobreelqualpivotenique,perunextrem,rebenelmoviment de l’arbre de lleves i,per l’altre,el transmeten a lavàlvula. Parlem de:",
+    "id": "academia_sim8_q93",
+    "statement": "És el quadre que recull tota la simbologia utilitzada per a representar els elements del territori en el mapa:",
     "correct": "C",
-    "explanation": "",
+    "explanation": "La toponímia és la informació que fa referència al nom dels llocs i es retola amb tipografia diferent segons es tracti\nd'accidents del relleu i hidrografia o de noms vinculats al poblament o a l'activitat humana.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 8",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El caixetí",
+      "B": "La toponímia",
+      "C": "La llegenda",
+      "D": "L'escala"
+    }
+  },
+  {
+    "id": "academia_sim9_q59",
+    "statement": "A Catalunya, la pluviometria és molt contrastada d'una zona a una altra. Quina de les següents comarques presenta un índex de precipitació mitjana anual més pobre?",
+    "correct": "C",
+    "explanation": "El menor índex de precipitació mitjana anual de Catalunya es troba comprès verticalment entre la Móra d'Ebre i Balaguer.\nHoritzontalment entre Lleida i Cervera (aproximadament).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 9",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els taquets",
-      "B": "Les varetes",
-      "C": "Els balancins",
-      "D": "Les molles 21 Acadèmia Bombers Simulacre 9"
+      "A": "El Tarragonès",
+      "B": "El Montsià",
+      "C": "El Segrià",
+      "D": "La Vall d'Aran"
     }
   },
   {
-    "id": "academia_sim10_q35",
-    "simulacre": "Simulacre 10",
-    "num_pregunta": 35,
-    "statement": "En un torn (màquina simple), a mesura que anem enrotllant lacorda al cilindre...",
-    "correct": "A",
-    "explanation": "Això es deu aque el radiefectiu (r1)augmenta, per tant per talque s'igualila equació caldrà augmentar lapotència (P):\nP*r2 = R*r1",
+    "id": "academia_sim10_q60",
+    "statement": "El riu Flamisell és un afluent de:",
+    "correct": "C",
+    "explanation": "Altres afluents de la Noguera Pallaresa: Noguera de Cardós, Noguera de Vallferrera, riu de Santa Magdalena i riu de la\nBonaigua.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 10",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La forçaque haurem d'exercir serà major",
-      "B": "La forçaque haurem d'exercir serà menor",
-      "C": "La força que haurem d'exercir romandrà constant",
-      "D": "Totes les respostes són incorrectes"
+      "A": "La Noguera Ribagorçana",
+      "B": "El Segre",
+      "C": "La Noguera Pallaresa",
+      "D": "La Muga"
     }
   },
   {
-    "id": "academia_sim10_q85",
-    "simulacre": "Simulacre 10",
-    "num_pregunta": 85,
-    "statement": "Quin dels següents elements no es refereix a una part del cigonyal?",
+    "id": "academia_sim10_q93",
+    "statement": "On trobem l'embassament dels Guiamets?",
+    "correct": "A",
+    "explanation": "L'embassament dels Guiamets forma part de la conca del riu Ebre.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 10",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la comarca del Priorat",
+      "B": "A la comarca de la Terra Alta",
+      "C": "A la comarca del Baix Camp",
+      "D": "A la comarca del Baix Penedès"
+    }
+  },
+  {
+    "id": "academia_sim10_q94",
+    "statement": "Amb quines comarques limita el Ripollès?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 10",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El colze",
-      "B": "El contrapes",
-      "C": "Elsuport ",
-      "D": "Elcanell"
+      "A": "La Cerdanya, Osona, Garrotxa i Solsonès",
+      "B": "Alt Urgell, Solsonès, Osona i Garrotxa",
+      "C": "Alt Urgell, Osona, Garrotxa i Berguedà",
+      "D": "La Cerdanya, Osona, Garrotxa i Berguedà"
     }
   },
   {
-    "id": "academia_sim10_q86",
-    "simulacre": "Simulacre 10",
-    "num_pregunta": 86,
-    "statement": "Els elements que constitueixen elmotor es podrien dividir en elements fixos ielements mòbils. Quin dels següents no formarà part dels elements mòbils?",
-    "correct": "C",
-    "explanation": "Elements fixos:bloc,culata, càrter.\nElements mòbils: biela,pistons,cigonyal, volant d'inèrcia.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 10",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La biela",
-      "B": "El volant d'inèrciaielcàrter, jaque els dos són elements fixos",
-      "C": "Elcàrter",
-      "D": "Elvolant d'inèrcia acadèmia"
-    }
-  },
-  {
-    "id": "academia_sim11_q79",
-    "simulacre": "Simulacre 11",
-    "num_pregunta": 79,
-    "statement": "Quins elements trobarem a un costat ia l'altredel cigonyal?",
+    "id": "academia_sim11_q38",
+    "statement": "Actualment Catalunya està dividida en ___ entitats: ___ comarques, cadascuna administrada pel seu consell comarcal.",
     "correct": "B",
-    "explanation": "Per evitarla sortidade lubricanta l'exteriordelmotor, en els dos extrems se situen uns retenidors.",
+    "explanation": "41 comarques + l'Aran.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 11",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En un costat hitrobarem labiela,ia l'altreelvolantd'inèrcia",
-      "B": "En un costat hitrobarem elbomberspinyódeladistribució,ial'altreelvolantd'inèrcia",
-      "C": "En un costat hitrobarem labiela,ia l'altreelpinyóde ladistribució",
-      "D": "En un costat hitrobarem elbuló, ia l'altrewww.academiabombers.comelscontrapesos"
+      "A": "43 / 42",
+      "B": "42 / 41",
+      "C": "41 / 40",
+      "D": "42 / 42"
     }
   },
   {
-    "id": "academia_sim13_q24",
-    "simulacre": "Simulacre 13",
-    "num_pregunta": 24,
-    "statement": "En un motor de quatre cilindres en línia (1-3-4-2), quina acció estarà portant a terme el cilindre 1 si elcilindre 4 està en admissió?",
+    "id": "academia_sim11_q54",
+    "statement": "És un riu que ha estat domesticat per l'home a partir de la construcció d'embassaments com el de Canelles o el de Santa Anna:",
     "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 11",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Noguera Pallaresa",
+      "B": "El Noguera Ribagorçana",
+      "C": "El Segre",
+      "D": "El Llobregat"
+    }
+  },
+  {
+    "id": "academia_sim12_q56",
+    "statement": "A quina de les següents zones de Catalunya hi trobarem valors de vent menys elevats?",
+    "correct": "C",
+    "explanation": "Els valors més alts de vent es troben generalment a l'extrem sud de Catalunya, a l'extrem nord-est i a les cotes més\naltes.\nLes comarques del Penedès, el Vallès Occidental i el Vallès Oriental formen part de la depressió prelitoral, pel que resten\nmés \"protegides\".\nL'EMA de Portbou (extrem nord de l'Alt Empordà) és la que enregistra un nombre anual mitjà més elevat de dies amb\nuna ratxa màxima de vent superior a diversos llindars).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A l'extrem sud, en comarques com el Montsià o el Baix Ebre",
+      "B": "A l'extrem nord de l'Alt Empordà",
+      "C": "En comarques com el Penedès, el Vallès Occidental o el Vallès Oriental",
+      "D": "A Portbou  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim12_q91",
+    "statement": "El modelat del Pirineu és d'origen:",
+    "correct": "B",
+    "explanation": "Relleu càrstic: relleu propi de les regions de massissos o altiplans calcaris, on s'ha desenvolupat un carst (congostos,\ndolines, avencs, coves, cavernes...).\nRelleu modelat glacial: són aquelles formacions que deriven del desplaçament de grans masses de gel.\nEls deserts són zones on abunda el modelat eólic.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 12",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Càrstic",
+      "B": "Glacial",
+      "C": "Erosiu eòlic",
+      "D": "Sedimentari"
+    }
+  },
+  {
+    "id": "academia_sim13_q26",
+    "statement": "Quin dels següents embassaments forma part de la conca de la Tordera?",
+    "correct": "C",
+    "explanation": "És l'embassament més significatiu de la Tordera.\nEmbassament de Vallforners: Besòs.\nEmbassament de Guiamets: riera de Capçanes (conca del riu Ebre).\nEmbassament de Sant Martí de Tous: riera de Tous, que desemboca al riu Anoia (conca del riu Llobregat).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 13",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Admissió",
-      "B": "Explosió",
-      "C": "Escapament",
-      "D": "Compressió 20 Acadèmia Bombers Simulacre 13"
+      "A": "L'embassament de Guiamets",
+      "B": "L'embassament de Vallforners",
+      "C": "L'embassament de Santa Fe",
+      "D": "L'embassament de Sant Martí de Tous"
     }
   },
   {
-    "id": "academia_sim14_q79",
-    "simulacre": "Simulacre 14",
-    "num_pregunta": 79,
-    "statement": "L'arbre de lleves és un element del sistema de distribució d'un vehicle que rep el moviment del cigonyal idetermina l'angle d'oberturawww.academiabombers.comitancamentdelesvàlvules.Tambépodemdirque:",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim13_q63",
+    "statement": "Com anomenem a la línia divisòria entre dos vessants en una serralada?",
+    "correct": "A",
+    "explanation": "Un tàlveg, en canvi, és la línia teòrica que uneix els punts més profunds d'una vall, coma o obaga on conflueixen les\naigües que formen un riu o corrent intermitent.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 13",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Carena",
+      "B": "Tàlveg",
+      "C": "Vall",
+      "D": "Cap resposta és correcta"
+    }
+  },
+  {
+    "id": "academia_sim14_q82",
+    "statement": "Quin riu passa per Camprodon, on rep les aigües del Ritort?",
+    "correct": "A",
+    "explanation": "El Ter neix a Ulldeter, en el municipi de Setcases.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 14",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Gira a la meitat de revolucions que elcigonyal",
-      "B": "Estarà sotmès a esforços de torsió iflexió,però no de compressió",
-      "C": "Transforma elmoviment de rotació en moviment rectilini",
-      "D": "Totes les respostes són correctes"
+      "A": "El Ter",
+      "B": "El Fluvià",
+      "C": "El Segre",
+      "D": "El Tordera"
     }
   },
   {
-    "id": "academia_sim16_q74",
-    "simulacre": "Simulacre 16",
-    "num_pregunta": 74,
-    "statement": "El motor de quatre temps és un tipus de motor d'explosió. Quantes voltes completes del cigonyal requereix per tal de completar el cicle termodinàmic?",
-    "correct": "B",
-    "explanation": "Per cada dues voltesque dóna el cigonyal,l'arbrede llevesen dóna una.\n bombers\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 16",
+    "id": "academia_sim15_q79",
+    "statement": "Entre quines comarques s'estén el Parc Natural de Sant Llorenç del Munt i l'Obac?",
+    "correct": "C",
+    "explanation": "Cims principals: Montcau i la Mola.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Bages, Vallès Oriental i Osona",
+      "B": "Vallès Oriental i Vallès Occidental",
+      "C": "Bages, Vallès Occidental i Moianès",
+      "D": "Bages, Solsonès i Anoia"
+    }
+  },
+  {
+    "id": "academia_sim15_q80",
+    "statement": "La comarca de la Noguera forma part de la vegueria de:",
+    "correct": "B",
+    "explanation": "Hi ha un total de vuit vegueries.\nLa vegueria de Lleida es composa de les següents comarques: Garrigues, Noguera, Pla d'Urgell, Segarra, Segrià i Urgell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 15",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Catalunya Central",
+      "B": "Lleida",
+      "C": "Les Terres de l'Ebre",
+      "D": "L'Alt Pirineu i l'Aran  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim16_q44",
+    "statement": "La vegueria de les Terres de l'Ebre està formada per les comarques de:",
+    "correct": "C",
+    "explanation": "La vegueria del Camp de Tarragona està formada per: Alt Camp, Baix Camp, Conca de Barberà, Priorat i Tarragonès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 16",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Una",
-      "B": "Dues",
-      "C": "Quatre",
-      "D": "Un motor de quatre temps no pot serd'explosió"
+      "A": "Ribera d'Ebre, Montsià i Terra Alta i Tarragonès",
+      "B": "Ribera d'Ebre, Montsià i Terra Alta, Baix Ebre i Baix Camp",
+      "C": "Baix Ebre, Ribera d'Ebre, Montsià i Terra Alta",
+      "D": "Ribera d'Ebre, Montsià, Baix Ebre i Baix Camp i Alt Camp"
     }
   },
   {
-    "id": "academia_sim18_q17",
-    "simulacre": "Simulacre 18",
-    "num_pregunta": 17,
-    "statement": "Sobre les vàlvules del sistema de distribució d'un vehicle podem dir que:",
-    "correct": "B",
-    "explanation": "Elmotor de quatre vàlvules per cilindre(dues d'admissió idues d'escapament) és elmés habitual.\nL'encarregat de governar elsistema de distribució és l'arbrede lleves.",
+    "id": "academia_sim18_q15",
+    "statement": "Quina isohieta s'acostuma a prendre per a distingir la Catalunya seca de la humida?",
+    "correct": "A",
+    "explanation": "Catalunya seca: menys de 700 mm.\nCatalunya humida: més de 700 mm.\nEls sectors per sobre dels 700 litres estan concentrats principalment als Pirineus, Prepirineus, comarques de l'interior de\nla província de Girona i les comarques del nord de les províncies de Lleida i de Barcelona. Els sectors aïllats de les\nserralades de Prades i els Ports de Beseit constitueixen els únics enclavaments humits a la part sud de Catalunya.\n\n\nacadèmia\nbombers",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 18",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Són elements que s'encarreguen de governar elsistema de distribució",
-      "B": "Estan constituïdesper un cap iuna tija",
-      "C": "El motor de dos vàlvulesper cilindreésel més freqüent",
-      "D": "Totes lesrespostes són correctes"
+      "A": "700 mm anuals",
+      "B": "300 mm anuals",
+      "C": "350 mm anuals",
+      "D": "950 mm anuals"
     }
   },
   {
-    "id": "academia_sim19_q16",
-    "simulacre": "Simulacre 19",
-    "num_pregunta": 16,
-    "statement": "Si seguim la cadena de moviment del sistema de distribució d'un vehicle OHV, quin element trobarem entre l'arbre de lleves i lawww.academiabombers.comvàlvula?",
-    "correct": "A",
-    "explanation": "Elsbalancins són palanques bombersmuntadesenuneixsobreel qual pivoten ique, per un extrem, reben elmoviment de l'arbre\nde llevesi,per l'altre,eltransmeten a lavàlvula.\n\n17.- www.academiabombers.com\nOrella:otorràgia\nGeniva: gingivorràgia\nPulmons: hemoptisi\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 19",
+    "id": "academia_sim18_q52",
+    "statement": "Quina d'aquestes unitats de relleu té una major entitat?",
+    "correct": "C",
+    "explanation": "Les tres grans unitats de relleu:\n-Pirineus\n-Serralades Costaneres\n-Depressió Central\nUnitats de relleu de menor entitat:\n-Serralada Transversal\n-Plana de l'Empordà\n-Delta de L'Ebre",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serralada Transversal",
+      "B": "Delta de l'Ebre",
+      "C": "Depressió Central",
+      "D": "Plana de l'Empordà"
+    }
+  },
+  {
+    "id": "academia_sim18_q80",
+    "statement": "Com s'anomena la línia teòrica que uneix els punts més profunds d'una vall, coma o obaga on conflueixen les aigües que formen un riu o corrent intermitent?",
+    "correct": "B",
+    "explanation": "També pot rebre el nom d'aiguafons o fons de vall. Una carena és una línia divisòria entre dos vessants en una\nserralada.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 18",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Carena",
+      "B": "Tàlveg",
+      "C": "Vessant",
+      "D": "Vall  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim19_q41",
+    "statement": "Quin riu neix al voltant de Santa Coloma de Queralt, té una longitud de 65 km i una conca allargada de nord a sud de 424 km² de superfície?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 19",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El balancí",
-      "B": "El cigonyal",
-      "C": "La biela",
-      "D": "Elcilindre 19 Acadèmia Bombers Simulacre 19"
+      "A": "El Gaià",
+      "B": "El Francolí",
+      "C": "El Foix",
+      "D": "El Segre"
     }
   },
   {
-    "id": "academia_sim25_q50",
-    "simulacre": "Simulacre 25",
-    "num_pregunta": 50,
-    "statement": "En un motor de quatre temps, durant el temps d'admissió l'arbre de lleves dóna:",
+    "id": "academia_sim20_q49",
+    "statement": "En referència a l'organització del govern local de Catalunya, l'àmbit supramunicipal, en tot cas, és constituït per:",
     "correct": "A",
-    "explanation": "Elcigonyal dóna 180° (relació 1 a 2).",
+    "explanation": "Art. 83: Catalunya estructura la seva organització territorial bàsica en municipis i vegueries. L'àmbit supramunicipal és\nconstituït, en tot cas, per les comarques, que ha de regular una llei del Parlament.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 20",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les comarques",
+      "B": "Les províncies",
+      "C": "Les vegueries",
+      "D": "Els municipis"
+    }
+  },
+  {
+    "id": "academia_sim21_q10",
+    "statement": "El riu Anoia és un afluent:",
+    "correct": "A",
+    "explanation": "Neix prop del municipi de Calaf.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Llobregat",
+      "B": "Del Besòs",
+      "C": "Del Tordera",
+      "D": "Del Foix"
+    }
+  },
+  {
+    "id": "academia_sim21_q46",
+    "statement": "Sobre les 42 entitats de Catalunya (41 comarques i l'Aran) és cert que:",
+    "correct": "C",
+    "explanation": "La creació del Moianès data del 2015. És la més recent.\nLa província de Lleida en té 13 entitats, mentre que la de Barcelona 12.\nDe les 42 entitats, 12 són costaneres i 30 són interiors.\nSuperfície de la Noguera: 1.784,1 km².",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 21",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La majoria són costaneres",
+      "B": "La del Ripollès n'és la més recent",
+      "C": "Per extensió, la Noguera és la més gran",
+      "D": "La província de Barcelona és la que en té més"
+    }
+  },
+  {
+    "id": "academia_sim22_q17",
+    "statement": "Segons la Llei 276/2016, de 19 de juliol, com s'establiran els criteris i els sistemes que permeten assegurar la continuïtat de les dotacions previstes per a la prestació correcta de les funcions de guàrdia?",
+    "correct": "C",
+    "explanation": "Art 5.2: \"El relleu entre els torns de guàrdia s'ha d'efectuar de manera que no s'interrompi el funcionament normal del\nservei de guàrdia\".",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant una instrucció del Conseller d'Interior",
+      "B": "Mitjançant una resolució del Subdirector General Operatiu (SGO)",
+      "C": "Mitjançant una instrucció del Director General dels SPEIS (DGPEIS)",
+      "D": "Mitjançant una resolució del cap de coordinació de la Sala Central de Bombers (SCB)"
+    }
+  },
+  {
+    "id": "academia_sim22_q88",
+    "statement": "Què és el carst?",
+    "correct": "C",
+    "explanation": "També es coneix com relleu càrstic.\nCrioclàstia: esberlament degut als processos de congelació i desgel en les fissures de les roques.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 22",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'esberlament degut als processos de congelació i desgel en les fissures de les roques",
+      "B": "Formació geològica de superfície que es pot produir en les roques calcàries i en les dolomítiques",
+      "C": "Forma de modelat terrestre causat per l'aigua mitjançant processos d'erosió per meteorització química",
+      "D": "Cavitat natural on predomina la component vertical"
+    }
+  },
+  {
+    "id": "academia_sim23_q88",
+    "statement": "Què és un tossal?",
+    "correct": "B",
+    "explanation": "En depèn de quin context, súsa com a sinònim de \"turó\".\nSerralada: vast conjunt de muntanyes que forma generalment un sistema més llarg que ample.\nCongost: vall estreta entre muntanyes, de vores abruptes, excavada per les aigües d’un riu.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 23",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Un vast conjunt de muntanyes que forma generalment un sistema més llarg que ample",
+      "B": "Una elevació del terreny no gaire alta i amb una forma allargassada",
+      "C": "La part més elevada d'un fragment de relleu muntanyós, històricament coronada per un castell amb fortalesa",
+      "D": "Una vall estreta entre muntanyes, de vores abruptes, excavada per les aigües d’un riu"
+    }
+  },
+  {
+    "id": "academia_sim25_q86",
+    "statement": "Com en diem de la distància horitzontal que es medeix sobre un mapa i que no té en compte les pujades i baixades del relleu?",
+    "correct": "B",
+    "explanation": "Distància topogràfica o real: distància vertadera del terreny que separa dos punts.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 25",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "90°",
-      "B": "45°",
-      "C": "180°",
-      "D": "360°"
+      "A": "Distància de tall",
+      "B": "Distància planimètrica",
+      "C": "Distància real",
+      "D": "Distància topogràfica"
     }
   },
   {
-    "id": "academia_sim25_q51",
-    "simulacre": "Simulacre 25",
-    "num_pregunta": 51,
-    "statement": "És un tipus de motor on el bloc de cilindres gira alvoltant del cigonyal:",
+    "id": "academia_sim25_q91",
+    "statement": "De quina de les següents comarques Tremp n'és la capital?",
     "correct": "D",
+    "explanation": "Alt Urgell: Seu d'Urgell\nPallars Sobirà: Sort\nAlta Ribagorça: Pont de Suert",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 25",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Del Pallars Sobirà",
+      "B": "De l'Alta Ribagorça",
+      "C": "De l'Alt Urgell",
+      "D": "Del Pallars Jussà  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim26_q92",
+    "statement": "A quina vegueria s'adscriuen els municipis de la comarca de l'Anoia?",
+    "correct": "D",
+    "explanation": "Catalunya Central, que comprèn els municipis de les comarques del Bages, el Berguedà, el Moianès, Osona, el Solsonès\ni vuit municipis de l’Anoia.\nPenedès, que comprèn els municipis de les comarques de l’Alt Penedès, el Baix Penedès, el Garraf i bona part de l’Anoia\n(excepte els vuit municipis que restaran a la vegueria central).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 26",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la vegueria del Penedès",
+      "B": "A la vegueria del Camp de Tarragona",
+      "C": "A la vegueria del Penedès, excepte vuit municipis que s'adscriuen al Camp de Tarragona",
+      "D": "A la vegueria del Penedès, excepte vuit municipis que s'adscriuen a la Catalunya Central"
+    }
+  },
+  {
+    "id": "academia_sim27_q77",
+    "statement": "Amb quines comarques limita el Maresme?",
+    "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 25",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Motor Alternatiu",
-      "B": "Motor de reacció",
-      "C": "Motor Otto",
-      "D": "Motor rotatiu"
-    }
-  },
-  {
-    "id": "academia_sim27_q22",
-    "simulacre": "Simulacre 27",
-    "num_pregunta": 22,
-    "statement": "Com anomenem a la longitudacadèmiaentreelpuntmort inferior (PMI) iel superior (PMS) d'un cilindre?",
-    "correct": "A",
-    "explanation": "Elcalibre, en canvi, és el diàmetre interiordel cilindre.\nLa cilindrada fa referència a volums,bombersnoalongitud.\n\n23.- www.academiabombers.com\nElsistema d'engegada està dotat d'un motor elèctricque fa girarel motor tèrmic finsque es posa en marxa.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 27",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 27",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Carrera",
-      "B": "Cilindrada",
-      "C": "Calibre",
-      "D": "Cilindrada unitària bombers"
+      "A": "Amb la Selva, el Vallès Oriental i el Barcelonès",
+      "B": "Amb el Barcelonès, la Selva, el Vallès Oriental, el Pla de l'Estany i el Gironès",
+      "C": "Amb el Barcelonès, la Selva, el Vallès Oriental i el Gironès",
+      "D": "Amb el Vallès Oriental, Osona, la Garrotxa, Gironès i el Baix Empordà"
     }
   },
   {
-    "id": "academia_sim28_q52",
-    "simulacre": "Simulacre 28",
-    "num_pregunta": 52,
-    "statement": "De forma general, quin serà el nombre de suports del cigonyal?",
-    "correct": "B",
+    "id": "academia_sim28_q87",
+    "statement": "És un riu que discorre entre els límits de Catalunya i el País Valencià:",
+    "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 28",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El mateix que el número de cilindres",
-      "B": "El número de cilindresmés un",
-      "C": "Elnúmero de cilindresmenys un",
-      "D": "Quatre"
+      "A": "El Sènia",
+      "B": "La Garona",
+      "C": "El Xúquer",
+      "D": "La Muga"
     }
   },
   {
-    "id": "academia_sim31_q8",
-    "simulacre": "Simulacre 31",
-    "num_pregunta": 8,
-    "statement": "Quina de les següents configuracions del motor tindrà un cigonyal més llarg?",
-    "correct": "B",
-    "explanation": "Elmotor en W tindrà el cigonyalbombersméscurt.",
+    "id": "academia_sim28_q92",
+    "statement": "Amb quines comarques limita el Pla d'Urgell?",
+    "correct": "A",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 28",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Noguera, Segrià, Urgell i Garrigues",
+      "B": "Conca de Barberà, Segrià, Urgell i Segarra",
+      "C": "Noguera, Segrià, Urgell i Segarra",
+      "D": "Ribera d'Ebre, Segrià, Urgell, Segarra i Garrigues"
+    }
+  },
+  {
+    "id": "academia_sim29_q28",
+    "statement": "Quin d'aquests rius és un afluent del Ter?",
+    "correct": "A",
+    "explanation": "Existeix un altre riu Brugent que és un afluent del Francolí.\nEl Mogent, el Ripoll i el Congost són agluents del Besòs.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 29",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Brugent",
+      "B": "El Congost",
+      "C": "El Mogent",
+      "D": "El Ripoll"
+    }
+  },
+  {
+    "id": "academia_sim31_q22",
+    "statement": "Quina conca hidrogràfica acull l'embassament de major capacitat de Catalunya?",
+    "correct": "A",
+    "explanation": "A la serra del Montsec, ben a prop dels Pirineus i seguint el curs del riu Noguera Ribagorçana, hi trobarem\nl'embassament de Canelles.\nFa de frontera natural entre Lleida i Osca. El seu volum és de 688 hm³.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 31",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El motor en W",
-      "B": "El motor en línia",
-      "C": "El motor en V",
-      "D": "El motor en bòxer 21 Acadèmia Bombers Simulacre 31"
+      "A": "La conca del Francolí",
+      "B": "La conca de la Noguera Pallaresa",
+      "C": "La conca del Ter",
+      "D": "La conca de la Noguera Ribagorçana"
     }
   },
   {
-    "id": "academia_sim32_q39",
-    "simulacre": "Simulacre 32",
-    "num_pregunta": 39,
-    "statement": "Quina és la funció de l'intercooler en un motor turboalimentat?",
-    "correct": "C",
-    "explanation": "Aquest element no és més que un radiador aire-aireo aire-aigua que té lafunció de reduir latemperatura de l'aireque\nprové del compressor del turbo finsa uns nivellsòptims.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 32",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Refrigerar elsgasos d'escapament",
-      "B": "Comprimir l'aired'admissióbombersperfacilitarunaposteriorrefrigeració",
-      "C": "Refrigerar l'aired'admissióper augmentar-ne laseva densitat",
-      "D": "Un motor turboalimentat no necessitarà intercooler"
-    }
-  },
-  {
-    "id": "academia_sim34_q22",
-    "simulacre": "Simulacre 34",
-    "num_pregunta": 22,
-    "statement": "Quina relació de compressióacadèmiaofereix,aproximadament, un motor dièsel?",
-    "correct": "C",
-    "explanation": "Elmotor de gasolina, en canvi, acostuma a oscil·larentorn l'11:1.\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 34",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 34",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "32:1",
-      "B": "8:1",
-      "C": "18:1",
-      "D": "11:1"
-    }
-  },
-  {
-    "id": "academia_sim34_q56",
-    "simulacre": "Simulacre 34",
-    "num_pregunta": 56,
-    "statement": "Quantes voltes farà el cigonyal per cada volta de l'arbre de lleves en un motor de quatre temps?",
-    "correct": "B",
-    "explanation": "Això és degut a què el pistó,per a realitzarun ciclecomplet, puja ibaixa dues vegades.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 34",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una volta",
-      "B": "Dues voltes",
-      "C": "Mitjavolta",
-      "D": "Tres voltes 22 Acadèmia Bombers Simulacre 34"
-    }
-  },
-  {
-    "id": "academia_sim35_q28",
-    "simulacre": "Simulacre 35",
-    "num_pregunta": 28,
-    "statement": "Quines sigles fan referència a la unitat de control electrònic que regula un motor elèctric?",
-    "correct": "B",
-    "explanation": "ECU = Engine Control Unit.\nRecorda que el sistema de gestió i launitat de control formen part dels components principals del sistema del vehicle\nhíbridi elsistema del vehicle elèctric,respectivament.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 35",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "EMS",
-      "B": "ECU",
-      "C": "MSI",
-      "D": "IMU"
-    }
-  },
-  {
-    "id": "academia_sim35_q67",
-    "simulacre": "Simulacre 35",
-    "num_pregunta": 67,
-    "statement": "L'índex d'octà:",
+    "id": "academia_sim33_q37",
+    "statement": "Quina d'aquestes afirmacions no és correcta?",
     "correct": "D",
-    "explanation": "L'índex d'octà és una mesura que indica la resistència a la detonació del carburant quan es comprimeix dins del cilindre\nd'un motor.\nCom més índex d'octà, més capacitat d'antidetonació de lagasolina.\nUna benzina sense plom de 95 tindrà 95 octans, iuna de 98, 98 octans.",
+    "explanation": "Montserrat es troba entre les comarques del Baix Llobregat, Anoia i Bages. El Montsec es troba entre la Noguera i el\nPallars Jussà.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 33",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Montserrat es troba a la comarca del Baix Llobregat",
+      "B": "Rasos de Peguera formen part del Berguedà",
+      "C": "La Serra de Gisbert es troba a l'Alt Empordà",
+      "D": "El Montsec forma part de la comarca de l'Alt Empordà"
+    }
+  },
+  {
+    "id": "academia_sim34_q88",
+    "statement": "Quin és el riu més cabalós de la conca interna de Catalunya?",
+    "correct": "C",
+    "explanation": "Ull! Parlem de la conca interna!",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 34",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Segre",
+      "B": "Ebre",
+      "C": "Ter",
+      "D": "Fluvià  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim35_q13",
+    "statement": "Quina de les següents comarques disposa d'una major superfície?",
+    "correct": "A",
+    "explanation": "La Noguera és la comarca de Catalunya amb major superfície total (1.784,1 km²).\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 35",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Com més elevat és, més facilitaoafavoreix ladetonació de la benzina",
-      "B": "És elmateix entre una benzina sense plom de 95 iuna de 98",
-      "C": "És una propietat intrascendent en elscarburants",
-      "D": "Pot ser major de 100, en elcas d'alguns combustibles"
+      "A": "La Noguera",
+      "B": "L'Alt Empordà",
+      "C": "El Moianès",
+      "D": "El Segrià"
     }
   },
   {
-    "id": "academia_sim40_q40",
-    "simulacre": "Simulacre 40",
-    "num_pregunta": 40,
-    "statement": "Durant el temps d'explosió d'un motor de quatre temps l'arbre de lleves dóna:",
-    "correct": "A",
-    "explanation": "Elcigonyal dóna 180° (relació 1 a 2).",
+    "id": "academia_sim38_q43",
+    "statement": "A quina comarca s'hi troba la Vall d'en Bas?",
+    "correct": "D",
+    "explanation": "És a la capçalera del riu Fluvià, voltat per les serres del Corb, de Sant Miquel, de Llancers i pel Puigsacalm.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 40",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "90°",
-      "B": "45°",
-      "C": "180°",
-      "D": "360° 21 Acadèmia Bombers Simulacre 40"
+      "A": "Entre les comarques del Berguedà i el Ripollès",
+      "B": "A la Cerdanya",
+      "C": "Al Solsonès",
+      "D": "A la Garrotxa"
     }
   },
   {
-    "id": "academia_sim40_q77",
-    "simulacre": "Simulacre 40",
-    "num_pregunta": 77,
-    "statement": "Els motors síncrons iasíncrons són tipologies de motor elèctric. Què els diferencia?",
-    "correct": "A",
-    "explanation": "Ull!Motor d'inducció = motor asíncron.",
+    "id": "academia_sim38_q80",
+    "statement": "Quins són els afluents principals del riu Llobregat?",
+    "correct": "C",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 40",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 38",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En el motor síncron elrotor iel campmagnètic giren a lamateixa velocitat,mentre que en el motor asíncron el camp magnètic sempre va uns graus per davant del rotor",
-      "B": "Que elmotor d'inducció o síncron, a diferència de l'asíncron,girarà a lamateixa velocitat que elcigonyal",
-      "C": "Mentre que el motor síncron és aquell en què el rotori elcamp magnètic rotant giren a lamateixa velocitat,en el motor asíncron el camp magnètic sempre va uns graus per darrere del rotor",
-      "D": "No presenten cap diferència"
+      "A": "L'Arija i la riera de Ribes",
+      "B": "El Brugent i l'Anguera",
+      "C": "El Cardener i l'Anoia",
+      "D": "El Llobregós i el Riu Sió  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim42_q79",
-    "simulacre": "Simulacre 42",
-    "num_pregunta": 79,
-    "statement": "En quants departaments s'organitza administrativament la Generalitat de Catalunya?",
-    "correct": "A",
-    "explanation": "Departament de la Presidència\nDepartament d'Empresa iTreball\nDepartament d'Economia i Hisenda\nDepartament d'Igualtat iFeminismes\nDepartament d'Acció Exterior iUnió Europea\nDepartament d'Educació\nDepartament de Recerca iUniversitats\nDepartament d'Acció Climàtica, Alimentació iAgenda Rural\nDepartament d'Interior\nDepartament de Territori\nDepartament de Salut\nDepartament de Drets Socials\nDepartament de Cultura\nDepartament de Justícia, Drets i Memòria\n\n80.- \nL'estator,el rotoriel bobinat són components del motor elèctric.",
+    "id": "academia_sim39_q46",
+    "statement": "La gestió de quin dels següents aeroports està a càrrec d'Aeroports de Catalunya?",
+    "correct": "D",
+    "explanation": "Els aeroports de Barcelona-el Prat, Girona-Costa Brava, Reus i Sabadell són responsabilitat d’Aena Aeropuertos, mentre\nque Aeroports de Catalunya gestiona els aeroport de Lleida-Alguaire i Pirineus-la Seu d’Urgell, i els aeròdroms d’Alfés,\nCalaf-Sant Pere Sallavinera, Empuriabrava, Igualada-Òdena, la Cerdanya i Manresa, a més de 34 heliports.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 39",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Barcelona-el Prat",
+      "B": "Girona-Costa Brava",
+      "C": "Sabadell",
+      "D": "Lleida-Alguaire"
+    }
+  },
+  {
+    "id": "academia_sim41_q33",
+    "statement": "Per quants municipis està formada Catalunya?",
+    "correct": "B",
+    "explanation": "Agrupats en 42 comarques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 41",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "479",
+      "B": "947",
+      "C": "794",
+      "D": "974"
+    }
+  },
+  {
+    "id": "academia_sim42_q1",
+    "statement": "Quins són els dos pics més alts de Catalunya?",
+    "correct": "B",
+    "explanation": "El Pic Verdaguer (3.129,4 m), igual que la Pica d'Estats (3.143,5 m), forma part del Massís del Montcalm (Pirineus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 42",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "En catorze Departaments",
-      "B": "En setDepartaments bombers",
-      "C": "En tretzeDepartaments",
-      "D": "En nou Departaments"
+      "A": "El Besiberri Nord i el Besiberri del Mig",
+      "B": "La Pica d'Estats i el Pic Verdaguer",
+      "C": "El Pic de Sotllo i la Comaloforno",
+      "D": "La Pica d'Estats i el Gran Tuc de Colomèrs"
     }
   },
   {
-    "id": "academia_sim43_q81",
-    "simulacre": "Simulacre 43",
-    "num_pregunta": 81,
-    "statement": "A quin tipus de motor trobarem el rotor de gàbia d'esquirol?",
-    "correct": "B",
-    "explanation": "Motor asíncron = motor d'inducció.\nUn rotor de gàbia d'esquirol és bàsicament un cilindre muntat en un eix, on el seu anell és conductor, i prenent laforma\nde la roda pels hàmsters.\n bombers",
+    "id": "academia_sim43_q31",
+    "statement": "A quina comarca hi trobem la vall d’Àneu?",
+    "correct": "C",
+    "explanation": "Comprèn els termes municipals d'Alt Àneu, Esterri d'Àneu, la Guingueta d'Àneu i Espot i està formada per la conca del riu\nNoguera Pallaresa.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 43",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Al motor de gas",
-      "B": "Al motor elèctricasíncron de corrent altern",
-      "C": "Almotor de gasoil",
-      "D": "Almotor elèctricsíncron de corrent altern"
+      "A": "Al Baix Empordà",
+      "B": "Al Ripollès",
+      "C": "Al Pallars Sobirà",
+      "D": "A l'Alta Ribagorça"
     }
   },
   {
-    "id": "academia_sim44_q70",
-    "simulacre": "Simulacre 44",
-    "num_pregunta": 70,
-    "statement": "En el sistema de distribució OHC:",
+    "id": "academia_sim43_q59",
+    "statement": "Quin riu no s'inclou dins les conques internes de Catalunya?",
+    "correct": "B",
+    "explanation": "Tampoc en formen part l'Ebre, la Sènia o la Noguera Pallaresa (intercomunitàries).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Francolí",
+      "B": "La Noguera Ribagorçana",
+      "C": "El Ter",
+      "D": "La Muga"
+    }
+  },
+  {
+    "id": "academia_sim43_q79",
+    "statement": "Com s'anomenen els espais o els elements naturals d'àmbit mitjà o reduït que presenten característiques singulars pel seu interès científic, paisatgístic i educatiu, amb l'objectiu de garantir-ne la protecció i la de l'entorn?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 43",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Reserves naturals",
+      "B": "Parcs naturals",
+      "C": "Parcs nacionals",
+      "D": "Paratges naturals d'interès nacional"
+    }
+  },
+  {
+    "id": "academia_sim44_q87",
+    "statement": "La xarxa local de carreteres de la Generalitat:",
+    "correct": "A",
+    "explanation": "Xarxa bàsica: és la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància, i inclou també les vies\nintercomarcals i intracomarcals d'una especial importància viària.\nXarxa comarcal: és la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i\nnuclis de població i activitat de la mateixa comarca o de comarques limítrofes, al trànsit generat entre cadascun d'aquests\ncentres i a la connexió d'aquests nuclis amb itineraris de la xarxa bàsica.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 44",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "És la que serveix de suport al trànsit intermunicipal",
+      "B": "És la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància",
+      "C": "És la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i nuclis de població",
+      "D": "Inclou les vies intercomarcals i intracomarcals"
+    }
+  },
+  {
+    "id": "academia_sim45_q71",
+    "statement": "Quin embassament forma part de la conca del riu Ter?",
+    "correct": "D",
+    "explanation": "Embassaments conca de riu Ter: Núria, Sau, Susqueda, Seva, Colomers i Pasteral.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 45",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Sant Antoni",
+      "B": "El pantà de La baells",
+      "C": "El pantà de Dosrius",
+      "D": "El pantà de Susqueda"
+    }
+  },
+  {
+    "id": "academia_sim46_q21",
+    "statement": "Quina de les següents unitats de relleu té una entitat menor?",
+    "correct": "A",
+    "explanation": "Les tres grans unitats de relleu:\n-Pirineus\n-Serralades Costaneres\n-Depressió Central\nUnitats de relleu de menor entitat:\n-Serralada Transversal\n-Plana de l'Empordà\n-Delta de L'Ebre",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Serralada Transversal",
+      "B": "Els Pirineus",
+      "C": "La Depressió Central",
+      "D": "Les Serralades Costaneres"
+    }
+  },
+  {
+    "id": "academia_sim46_q42",
+    "statement": "Quina divisió de territori constitueix l'àmbit supramunicipal a Catalunya?",
+    "correct": "A",
+    "explanation": "Article 83 de l'EAC: Organització del govern local de Catalunya.\n1. Catalunya estructura la seva organització territorial bàsica en municipis i vegueries.\n2. L’àmbit supramunicipal és constituït, en tot cas, per les comarques, que ha de regular una llei del Parlament.\n3. Els altres ens supramunicipals que creï la Generalitat es fonamenten en la voluntat de col·laboració i associació dels\nmunicipis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 46",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La comarca",
+      "B": "La província",
+      "C": "El municipi",
+      "D": "La vegueria"
+    }
+  },
+  {
+    "id": "academia_sim47_q32",
+    "statement": "Si sabem que l'Aran és una entitat territorial singular i no una comarca, en quantes comarques es divideix Catalunya?",
     "correct": "C",
-    "explanation": "És en el sistema OHV que l'arbrede lleves es troba al bloc motor.",
+    "explanation": "S'ha d'afegir la nova comarca del Lluçanès.\nSovint es fa servir la simplificació de «43 comarques» (malgrat que l'Aran no és pas una comarca).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 44",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 47",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'arbre de lleves es troba albloc motor",
-      "B": "Trobem a l'arbrede lleves proper alcigonyal",
-      "C": "L'arbrede lleves es troba a sobre de la culata",
-      "D": "L'arbrede lleves es troba per sotaacadèmiadelcàrter"
+      "A": "En un total de 41",
+      "B": "En 447 comarques",
+      "C": "En un total de 42",
+      "D": "En 62 comarques  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim44_q91",
-    "simulacre": "Simulacre 44",
-    "num_pregunta": 91,
-    "statement": "Durant el temps d'admissió, al cilindre d'un motor dièsel de quatre temps...",
-    "correct": "B",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 44",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "S'hiintroduirà, a altespressions, una barreja de gasoil imetà",
-      "B": "Hi entrarà aire,únicament",
-      "C": "Només hi entrarà gasoil",
-      "D": "Hi entrarà una barreja d'airei gasoil"
-    }
-  },
-  {
-    "id": "academia_sim45_q12",
-    "simulacre": "Simulacre 45",
-    "num_pregunta": 12,
-    "statement": "En un motor de quatre temps, quantes voltes farà el cigonyal per cada volta de l'arbre de lleves?",
-    "correct": "B",
-    "explanation": "bombers\nAixò és degut a què elpistó, per a realitzarun ciclecomplet, puja ibaixa dues vegades.\n\n www.academiabombers.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 45",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 45",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "Una volta",
-      "B": "Dues voltes",
-      "C": "Mitja volta",
-      "D": "Tres voltes"
-    }
-  },
-  {
-    "id": "academia_sim45_q65",
-    "simulacre": "Simulacre 45",
-    "num_pregunta": 65,
-    "statement": "Amb quina unitat s'expressa normalment la cilindrada unitària del motor?",
-    "correct": "B",
-    "explanation": "La cilindrada unitària és el volum que ocupa un cilindre entre elPMS i elPMI.\n\n\n\n\n 22\nAcadèmia Bombers Simulacre 45",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 45",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "En centímetres",
-      "B": "En centímetres cúbics (cm³)",
-      "C": "En mil·límetres",
-      "D": "En litres"
-    }
-  },
-  {
-    "id": "academia_sim47_q22",
-    "simulacre": "Simulacre 47",
-    "num_pregunta": 22,
-    "statement": "Entre quines peces se situa, generalment, el col·lector d'admissió d'un motor dièsel?",
+    "id": "academia_sim47_q42",
+    "statement": "On neix el riu Llobregat?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 47",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Entre elcarburador ilavàlvulapapallona",
-      "B": "Entre elcarburador ilatapa de balancins",
-      "C": "Entre la cisternailavàlvula papallonaacadèmia",
-      "D": "Entre el filtred'aireilaculata"
+      "A": "A la comarca de la Cerdanya",
+      "B": "Al Ripollès",
+      "C": "A la comarca del Solsonès",
+      "D": "Al Berguedà"
     }
   },
   {
-    "id": "academia_sim47_q65",
-    "simulacre": "Simulacre 47",
-    "num_pregunta": 65,
-    "statement": "En un sistema OHV el taquet opera sobre:",
-    "correct": "A",
-    "explanation": "En un sistema OHC, a través del taquet s'acciona la vàlvula.",
+    "id": "academia_sim48_q12",
+    "statement": "D’acord amb l’article 83 de l’Estatut d’autonomia de Catalunya, Catalunya estructura la seva organització territorial bàsica en:",
+    "correct": "B",
+    "explanation": "L’article 2 de l’Estatut estableix que Catalunya s’organitza territorialment a través dels municipis, les vegueries, les\ncomarques i els altres ens locals que les lleis determinin, els quals integren també el sistema institucional de la\nGeneralitat, sens perjudici de la seva autonomia.\nL’article 83 de l’EAC estableix que Catalunya estructura la seva organització territorial bàsica en municipis i vegueries, i\nque l’ambit supramunicipal es constituït per les comarques, regulades per llei del Parlament.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 47",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La vareta empenyedora",
-      "B": "El balancí",
-      "C": "La vàlvula",
-      "D": "El tensor"
+      "A": "Municipis i províncies, i l’àmbit supramunicipal és constituït per consells comarcals, regulats per llei del Parlament",
+      "B": "Municipis i vegueries, i l’àmbit supramunicipal és constituït per les comarques, regulades per llei del Parlament",
+      "C": "Vuit vegueries, quatre províncies i 947 municipis, com a entitats locals dotades d’autonomia",
+      "D": "Diputacions provincials, consells comarcals i municipis"
     }
   },
   {
-    "id": "academia_sim51_q33",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 33,
-    "statement": "En un motor elèctric, elrotor:",
-    "correct": "A",
-    "explanation": "Elrotor té un diàmetre menor que l'estator,jaque es troba encabit dins l'estator.",
+    "id": "academia_sim48_q15",
+    "statement": "Quin és el vent dominant a Catalunya, com en general a la resta d'Europa?",
+    "correct": "B",
+    "explanation": "El vent dominant a Catalunya, com en general a la resta d'Europa, és el de ponent (de l'oest). Tanmateix tant al nord com\nal sud del país hi dominen vents de component nord: la tramuntana (que bufa del nord) especialment a l'Alt Empordà i el\nmestral (del nordoest) al sud de Catalunya. Les velocitats mitjanes anuals del vent (mesurades a 10 m del terra) es\ntroben entre 1 m/s a Viella (protegida per les muntanyes que l'envolten) i 10 m/s de Portbou (observatori dalt d'una\nmuntanya).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 51",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 48",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És lapartmòbil del motor",
-      "B": "Té un diàmetre major que l'estator",
-      "C": "És lapart estàticadel motor",
-      "D": "Hi ha més d'una resposta correcta"
+      "A": "El de tramuntana (nord)",
+      "B": "El de ponent (de l'oest)",
+      "C": "El de mestral (nord-oest)",
+      "D": "El de llevant (de l'est)"
     }
   },
   {
-    "id": "academia_sim51_q46",
-    "simulacre": "Simulacre 51",
-    "num_pregunta": 46,
-    "statement": "Quina relació de revolucionsacadèmiatenenelcigonyali l'arbre de lleves en un motor de quatre temps?",
-    "correct": "A",
-    "explanation": "Per això, laquantitat de dents de lacorona de l'arbrede llevesés eldoble que ladel pinyó delcigonyal. Aquest procés el\nconeixem com a desmultiplicació.\n\n47.- \nElpenell mesura la direcció del vent.\nElpsicòmetre mesura lahumitat.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 51",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "De 2 a1",
-      "B": "De 1 a1",
-      "C": "De 1 a 2",
-      "D": "De 2 a 3"
-    }
-  },
-  {
-    "id": "academia_sim53_q41",
-    "simulacre": "Simulacre 53",
-    "num_pregunta": 41,
-    "statement": "Què s'entén per una autobomba?",
-    "correct": "C",
+    "id": "academia_sim49_q60",
+    "statement": "A quina localitat desemboca el riu Tordera?",
+    "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Entre Roses i Cadaqués",
+      "B": "A Arenys de Mar",
+      "C": "Entre Mataró i Argentona",
+      "D": "Entre Blanes i Malgrat de Mar"
+    }
+  },
+  {
+    "id": "academia_sim49_q73",
+    "statement": "Quina de les següents comarques compta amb una major superfície total?",
+    "correct": "A",
+    "explanation": "Unitats: Quilòmetres quadrats:\nCerdanya: 546,7\nGarrotxa: 734,6\nRibera d'Ebre: 827,3\nOsona: 1.245,2",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Osona",
+      "B": "Ribera d'Ebre",
+      "C": "Garrotxa",
+      "D": "Cerdanya"
+    }
+  },
+  {
+    "id": "academia_sim49_q87",
+    "statement": "Quina de les següents comarques presenta una major densitat (habitants/km²)?",
+    "correct": "A",
+    "explanation": "Alt Urgell: 14,2\nTarragonès: 824,8\nMaresme: 1.159,8\nBaix Llobregat: 1.715,1\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 49",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Baix Llobregat",
+      "B": "El Maresme",
+      "C": "El Tarragonès",
+      "D": "L'Alt Urgell"
+    }
+  },
+  {
+    "id": "academia_sim50_q19",
+    "statement": "Quin dels següents cims forma part de la Serralada Prelitoral?",
+    "correct": "B",
+    "explanation": "La Punta Gabarró forma part del Massís del Montcalm (Pirineus).\nEl Montnegre i el Puig d'Agulles s'inclouen dins la Serralada Litoral Catalana.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Puig d'Agulles",
+      "B": "La Mola",
+      "C": "La Punta Gabarró",
+      "D": "El Montnegre"
+    }
+  },
+  {
+    "id": "academia_sim50_q86",
+    "statement": "A quina província neix el riu Llobregat?",
+    "correct": "D",
+    "explanation": "El riu Llobregat neix al Berguedà (Castellar de n'Hug), per tant s'adscriu a la província de Barcelona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 50",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A la província de Girona",
+      "B": "A la província de Lleida",
+      "C": "A la província de Tarragona",
+      "D": "A la província de Barcelona"
+    }
+  },
+  {
+    "id": "academia_sim51_q49",
+    "statement": "Quin dels àmbits següents compta amb un major nombre de PAES (Nombre total de polígons d’activitat econòmica)?",
+    "correct": "B",
+    "explanation": "Metropolità: 450\nComarques gironines: 274\nComarques centrals: 263\nPenedès: 151\nCamp de Tarragona: 110",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Terres de l'Ebre",
+      "B": "Metropolità",
+      "C": "Camp de Tarragona",
+      "D": "Comarques Centrals"
+    }
+  },
+  {
+    "id": "academia_sim51_q88",
+    "statement": "Quina extensió té Catalunya?",
+    "correct": "C",
+    "explanation": "Catalunya té una extensió de 32.108 km² (3.210.108 Ha). Es troba a l’extrem nord-est de la península Ibèrica, en la\nconeguda com a regió mediterrània. Físicament està delimitada al nord per la serralada dels Pirineus, al sud i a l’est per\nla mar Mediterrània i a l’oest per la depressió de l’Ebre. Políticament limita al nord amb Andorra i l’estat Francès, a l’oest\namb Aragó, i al sud amb el País Valencià.\n1 km² = 100 Ha",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 51",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "64.927 Ha",
+      "B": "1.845.918 Ha",
+      "C": "3.210.108 Ha",
+      "D": "741.243 Ha  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim53_q34",
+    "statement": "On neix el riu Segre?",
+    "correct": "B",
+    "explanation": "És la Noguera Pallaresa el riu que neix al Pla de Beret, a la Vall d'Aran.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 53",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "És una bomba elèctrica que es connecta a un electrogen",
-      "B": "És una bomba per a qualsevol ús, que es pot desplaçar manualment",
-      "C": "És un vehicle automòbil equipat de bomba accionada pel motor",
-      "D": "És una bomba automàtica exclusiva per a líquids"
+      "A": "A Androrra, a Encamp",
+      "B": "A l'Alta Cerdanya, a França",
+      "C": "A Androrra, a La Massana",
+      "D": "Al Pla de Beret, a la Vall d'Aran"
     }
   },
   {
-    "id": "academia_sim54_q11",
-    "simulacre": "Simulacre 54",
-    "num_pregunta": 11,
-    "statement": "Sobre quin element opera el taquet en un sistema OHV?",
+    "id": "academia_sim54_q34",
+    "statement": "La toponímia:",
     "correct": "A",
-    "explanation": "En un sistema OHC, a través del taquet s'acciona lavàlvula.",
+    "explanation": "La toponímia és la informació que fa referència al nom dels llocs i es retola amb tipografia diferent segons es tracti\nd'accidents del relleu i hidrografia o de noms vinculats al poblament o a l'activitat humana. En aquesta darrera situació la\ngrandària del cos tipogràfic dóna una informació addicional ja que com més habitants té un nucli urbà, més gran és el cos\nde lletra emprat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Sobre la vareta empenyedora",
-      "B": "Sobre el balancí",
-      "C": "Sobre la vàlvula",
-      "D": "Sobre el tensor"
+      "A": "Juga amb la grandària del cos tipogràfic",
+      "B": "És la informació que fa referència exclusivament al nom dels noms vinculats al poblament o a l'activitat humana",
+      "C": "És la informació que fa referència exclusivament a la hidrografia",
+      "D": "És la informació que fa referència exclusivament al nom dels accidents del relleu"
     }
   },
   {
-    "id": "academia_sim58_q21",
-    "simulacre": "Simulacre 58",
-    "num_pregunta": 21,
-    "statement": "Quina part del motor elèctric converteix l'energia elèctrica en energia mecànica?",
+    "id": "academia_sim54_q86",
+    "statement": "NO és una característica dels vents Foëhn:",
     "correct": "D",
-    "explanation": "La part del motor elèctricque converteix l'energia elèctrica en energia mecànica és el rotor. En un motor elèctric, el rotor\nés la part mòbil que gira quan se liaplica un corrent elèctric.La rotació del rotor és la que finalment es converteix en\ntreballmecànic.\nDins d'un motor elèctric, elrotor està ubicat dins de l'estator, que és la part fixa.L'estator conté les bobines d'enrotllati\ncrea un camp magnètic quan se liaplica corrent elèctric.Aquest camp magnètic és el que interactua amb elrotor,\ninduint-hi un moviment rotatori.A mesura que el rotor gira,aquest moviment es transmet a altres parts mecàniques\nconnectades almotor.\n\n\n\n\n\n\n\n 15\nAcadèmia Bombers Simulacre 58",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos. És freqüent, però no\nsempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb velocitats de 60 a 100\nkm/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament dels vents Foëhn, i es\nproduirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o mestral de la Vall de\nl’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels grans incendis a\nTarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després de superar els\nPirineus (font: temari BBVV).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 58",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 54",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'alternador",
-      "B": "El generador ",
-      "C": "L'estator",
-      "D": "Elrotor"
+      "A": "Són vents secs",
+      "B": "Normalment són bastant forts i constants",
+      "C": "Són característics del costat de sotavent dels massissos muntanyosos",
+      "D": "Són més freqüents durant les estacions fredes, sobretot a l'hivern"
     }
   },
   {
-    "id": "academia_sim58_q57",
-    "simulacre": "Simulacre 58",
-    "num_pregunta": 57,
-    "statement": "Quina part del motor controla el temps ila seqüència d'obertura de les vàlvules d'admissió i escapament?",
-    "correct": "D",
-    "explanation": "L'arbre de lleves es mou sincronitzat amb elcigonyal iestà accionat per lacadena de distribució o per lacorretja de\ndistribució,depenent del disseny del motor.",
+    "id": "academia_sim56_q30",
+    "statement": "En quina d’aquestes comarques podem trobar una major quantitat de boscos de pi blanc (Pinnus halepensis)?",
+    "correct": "A",
+    "explanation": "La pineda de pi blanc és el tipus de bosc amb un major nombre d'hectàrees a Catalunya. Les comarques amb més bosc\nde pi blanc són el Bages (prop de 26.000 hectàrees), la Terra Alta (més de 20.000 hectàrees) i l’Anoia (més de 18.000\nhectàrees).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 58",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 56",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'alternador",
-      "B": "El distribuïdor",
-      "C": "La culata",
-      "D": "L'arbres de lleves"
+      "A": "El Bages",
+      "B": "L'Aran",
+      "C": "El Ripollès",
+      "D": "L'Alt Empordà"
     }
   },
   {
-    "id": "academia_sim63_q34",
-    "simulacre": "Simulacre 63",
-    "num_pregunta": 34,
-    "statement": "Què és el calibre d'un cilindre?",
-    "correct": "C",
+    "id": "academia_sim56_q54",
+    "statement": "Com s'anomena l'embassament situat al riu Cardener, a la comarca del Solsonès?",
+    "correct": "B",
+    "explanation": "Situat als termes municipals de Navès, Guixers i una petita part de Sant Llorenç de Morunys, l'embassament de la Llosa\ndel Cavall es va inaugurar l'any 1998 i té una capacitat de 79,40 hm³. Els seus usos són la regulació d’avingudes,\nl'abastament, el reg i les activitats recreatives.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'embassament de Rialb",
+      "B": "Embassament de la Llosa del Cavall",
+      "C": "L'embassament de Siurana",
+      "D": "El pantà de Sau"
+    }
+  },
+  {
+    "id": "academia_sim56_q85",
+    "statement": "Sobre les volanderes de tipus Grower, és FALS que:",
+    "correct": "B",
+    "explanation": "Generalment el relleu és llis.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 56",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són volanderes de pressió",
+      "B": "Generalment el seu relleu és dentat per les dues cares",
+      "C": "Tenen forma d'anell obert, en espiral",
+      "D": "La seva funció principal és prevenir que les parts amb les que fa contacte deixin d'exercir pressió"
+    }
+  },
+  {
+    "id": "academia_sim57_q59",
+    "statement": "De quina vegueria forma part la comarca de la Segarra?",
+    "correct": "B",
+    "explanation": "Hi ha un total de vuit vegueries.\nLa vegueria de Lleida es composa de les següents comarques: Garrigues, Noguera, Pla d'Urgell, Segarra, Segrià i Urgell.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 57",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Catalunya Central",
+      "B": "Lleida",
+      "C": "Les Terres de l'Ebre",
+      "D": "L'Alt Pirineu i l'Aran"
+    }
+  },
+  {
+    "id": "academia_sim58_q12",
+    "statement": "En quina d’aquestes comarques podem trobar el bedoll (Betula pendula) amb més quantitat d’exemplars?",
+    "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Segrià",
+      "B": "Al Pallars Sobirà",
+      "C": "Al Montsià",
+      "D": "A l'Anoia"
+    }
+  },
+  {
+    "id": "academia_sim58_q54",
+    "statement": "Quin és el sistema ortogonal bàsic del sistema de codificació de les carreteres de Catalunya?",
+    "correct": "D",
+    "explanation": "El sistema ortogonal bàsic el formen les direccions sud/nord (S-N) i oest/est (W-E). Aquest sistema és el que regeix, en\ngeneral, a la part del territori català formada pels Pirineus i la Depressió Central.\nEl sistema ortogonal complementari el formen les direccions paral·lela a la costa o sudoest/nord-est (SW-NE) i\nperpendicular a la costa o sud-est/nord-oest (SE NW). Aquest sistema és el que regeix, en general, a la franja costanera\non s’estén el Sistema Mediterrani Català.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Nord/Sud i Est/Oest",
+      "B": "Sud/Nord i Est/Oest",
+      "C": "Nordest/Sudoest i Nordoest/Sudest",
+      "D": "Sud/Nord i Oest/Est"
+    }
+  },
+  {
+    "id": "academia_sim58_q56",
+    "statement": "A quina comarca neix el riu Llobregat?",
+    "correct": "D",
+    "explanation": "El riu Llobregat neix al Berguedà (Castellar de n'Hug), província de Barcelona.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Pallars Sobirà",
+      "B": "Al Ripollès",
+      "C": "A la Cerdanya",
+      "D": "Al Berguedà  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim58_q64",
+    "statement": "Amb quines comarques limita el Lluçanès?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 58",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cerdanya, Osona, Garrotxa, Bages i Ripollès",
+      "B": "Bages, Moianès, Solsonès, Berguedà, Osona i Ripollès",
+      "C": "Solsonès, Ripollès, Moianès, Solsonès, Berguedà i Garrotxa",
+      "D": "Pla de l'Estany, Solsonès, Alt Urgell, Moianès, Anoia i Garrotxa  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim60_q5",
+    "statement": "Quina és la comarca catalana de creació més recent?",
+    "correct": "C",
+    "explanation": "El Lluçanès és un àmbit geogràfic natural de transició entre la plana de Vic, el Ripollès i el Berguedà. Comprèn territoris\nde les comarques del Bages, del Berguedà i d'Osona. El formen tretze municipis: Alpens, Lluçà, Olost, Oristà, Perafita,\nPrats de Lluçanès, Sant Agustí de Lluçanès, Sant Bartomeu del Grau, Sant Boi de Lluçanès, Sant Feliu Sasserra, Sant\nMartí d'Albars, Sobremunt i Santa Maria de Merlès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Moianès",
+      "B": "El Ripollès",
+      "C": "El Lluçanès",
+      "D": "La Vall d'Aran"
+    }
+  },
+  {
+    "id": "academia_sim60_q58",
+    "statement": "A quina unitat de relleu hi trobem el Cap de Creus?",
+    "correct": "B",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 60",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Preirineu",
+      "B": "Pirineu",
+      "C": "Serralada Litoral",
+      "D": "Serralada Prelitoral"
+    }
+  },
+  {
+    "id": "academia_sim61_q5",
+    "statement": "Identifica quin és el riu que neix al Montseny, entre les Agudes i el Matagalls.",
+    "correct": "B",
+    "explanation": "Desemboca entre Blanes i Malgrat de Mar.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Daró",
+      "B": "Tordera",
+      "C": "Besòs",
+      "D": "Llobregat"
+    }
+  },
+  {
+    "id": "academia_sim61_q29",
+    "statement": "Quina província catalana compta amb un nombre menor de comarques?",
+    "correct": "B",
+    "explanation": "La província de Girona té un total de 8 comarques.\nLa província de Tarragona té un total de 10 comarques.\nLa província de Barcelona té un total de 13 comarques.\nLa província de Lleida té un total de 12 comarques.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 61",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tarragona",
+      "B": "Girona",
+      "C": "Barcelona",
+      "D": "Lleida"
+    }
+  },
+  {
+    "id": "academia_sim62_q48",
+    "statement": "Quina afirmació és CERTA sobre la xarxa bàsica de carreteres de Catalunya?",
+    "correct": "C",
+    "explanation": "Les carreteres de Catalunya es classifiquen, segons llur funció, dins les xarxes següents:\n1. Xarxa bàsica: és la que serveix de suport al trànsit de pas i al trànsit intern de llarga distància, i inclou també les vies\nintercomarcals i intracomarcals d'una especial importància viària. Inclou igualment la xarxa arterial, integrada per les vies\nsegregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció\ncompatibilitzar el trànsit local i el trànsit de pas.\n2. Xarxa comarcal: és la que serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i\nnuclis de població i activitat de la mateixa comarca o de comarques limítrofes, al trànsit generat entre cadascun d'aquests\ncentres i a la connexió d'aquests nuclis amb itineraris de la xarxa bàsica.\n3. Xarxa local: és la que serveix de suport al trànsit intermunicipal, integrada pel conjunt de vies que faciliten l'accés als\nmunicipis i nuclis de població i activitat no situats sobre les xarxes bàsica i comarcal, i comprèn totes les carreteres que\nno figuren en la xarxa bàsica ni en la comarcal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serveix de suport al trànsit generat entre les capitals comarcals i els principals municipis i nuclis de població i activitat de la mateixa comarca o de comarques limítrofes",
+      "B": "És la que serveix de suport al trànsit intermunicipal",
+      "C": "Inclou la xarxa arterial, integrada per les vies segregades d'accés als nuclis de població que, passant totalment o parcialment per zones urbanes, tenen com a funció compatibilitzar el trànsit local i el trànsit de pas",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim62_q68",
+    "statement": "És l'àmbit territorial específic per a l'exercici del govern intermunicipal de cooperació local:",
+    "correct": "A",
+    "explanation": "EAC - Àmbit supramunicipal: comarques.\nCAPÍTOL VI - El govern local.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 62",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La vegueria",
+      "B": "La comarca",
+      "C": "El municipi",
+      "D": "La província"
+    }
+  },
+  {
+    "id": "academia_sim63_q4",
+    "statement": "Indica l'afirmació CORRECTA respecte a la Depressió Central:",
+    "correct": "C",
+    "explanation": "Les seves altituds més importants es troben en el sector nord-est.\nEl sector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 63",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El radi interiordelcilindreexpressat en mil·límetres",
-      "B": "La relacióque hiha entre el volumacadèmiatotalqueocupal'airealcilindreabansdeser comprimit ielvolum que ocupa un cop comprimit",
-      "C": "Eldiàmetre interiordelcilindreexpressat en mil·límetres",
-      "D": "Elradi interiordelcilindreexpressat en centímetres"
+      "A": "És una plana situada entre el Pirineu i el Prepirineu",
+      "B": "Les seves altituds més importants es troben en el sector nord-oest",
+      "C": "És oberta cap a ponent",
+      "D": "El sector oriental de la depressió Central el formen extenses planes sedimentàries"
     }
   },
   {
-    "id": "academia_sim64_q79",
-    "simulacre": "Simulacre 64",
-    "num_pregunta": 79,
-    "statement": "D'acord amb el elDBSI, quina resistència alfoc han d'oferir les parets d'un vestíbul d'independència? bombers",
-    "correct": "C",
-    "explanation": "Annex SIA Terminologia - Condicions que han de complir els vestíbulsd'independència.\n81.- acadèmia\n\nEn un sistema OHC, a través del taquet s'acciona lavàlvula.",
+    "id": "academia_sim63_q63",
+    "statement": "Quin dels següents és un embassament del riu Gaià?",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 63",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà de Riudecanyes",
+      "B": "El pantà del Catllar",
+      "C": "El pantà de Sant Antoni",
+      "D": "El pantà de la Baells  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim64_q60",
+    "statement": "Si sabem que 12 comarques catalanes són marítimes, quantes no ho són?",
+    "correct": "D",
+    "explanation": "El Lluçanès és la 43ª comarca.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 64",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "REI 120",
-      "B": "EI 90 www.academiabombers.com",
-      "C": "EI 120",
-      "D": "REI 90"
+      "A": "29",
+      "B": "30",
+      "C": "32",
+      "D": "31"
     }
   },
   {
-    "id": "academia_sim67_q28",
-    "simulacre": "Simulacre 67",
-    "num_pregunta": 28,
-    "statement": "Quina rotació haurà fetel cigonyal després d'haver realitzat els quatre temps d'un motor de benzina de cicle Otto?",
-    "correct": "D",
-    "explanation": "",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 67",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "90º www.academiabombers.com",
-      "B": "360º",
-      "C": "180º",
-      "D": "720º 4 Acadèmia Bombers Simulacre 67"
-    }
-  },
-  {
-    "id": "academia_sim67_q62",
-    "simulacre": "Simulacre 67",
-    "num_pregunta": 62,
-    "statement": "En un vehicle de transmissió automàtica, on estarà integrat el volant bimassa?",
+    "id": "academia_sim65_q37",
+    "statement": "A quina comarca es troben la majoria dels paratges naturals d'interès nacional?",
     "correct": "A",
-    "explanation": "El volant bimassa està integrat a l'embragatge, o bé al convertidor de parell, en funció de si es tracta d'un vehicle amb\ntransmissió manual o automàtica.\nEn el seu perímetre s'instal·lala corona dentada on engrana elpinyó del motor d'arrencada, va fixat d'una banda a la\nsortida del cigonyal i per l'altrecostat, al disc de embragatge.",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera (Alt\nEmpordà), massís del Pedraforca, Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus i Punta Falconera-cap de\nNorfeu (els tres últims al Parc Natural del Cap de Creus, a l'Alt Empordà).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 65",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Pallars Jussà",
+      "B": "A la Cerdanya",
+      "C": "A l'Alt Empordà",
+      "D": "A la Noguera"
+    }
+  },
+  {
+    "id": "academia_sim66_q39",
+    "statement": "Els paratges naturals d’interès nacional:",
+    "correct": "C",
+    "explanation": "Els paratges naturals d’interès nacional són els espais o els elements naturals d'àmbit mitjà o reduït que presenten\ncaracterístiques singulars pel seu interès científic, paisatgístic i educatiu, amb l'objectiu de garantir-ne la protecció i la de\nl'entorn. La declaració de paratge natural d'interès nacional es fa per llei.\nA Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són espais o els elements naturals d'extensió relativament gran",
+      "B": "A Catalunya en són quinze",
+      "C": "Es declaren per llei",
+      "D": "Totes les respostes són correctes"
+    }
+  },
+  {
+    "id": "academia_sim66_q76",
+    "statement": "Com s'anomena el riu que discorre entre els límits de Catalunya i el País Valencià?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 66",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Sènia",
+      "B": "Garona",
+      "C": "Foix",
+      "D": "Muga"
+    }
+  },
+  {
+    "id": "academia_sim67_q46",
+    "statement": "D'acord amb el Decret 261/1999, de 28 de setembre, el sistema de codificació de la xarxa viària consta d’un sistema ortogonal bàsic i un de complementari. El sistema ortogonal bàsic:",
+    "correct": "A",
+    "explanation": "Article 4 - Ortogonalitat bàsica i ortogonalitat complementària.\n4.1 El sistema de codificació consta d’un sistema ortogonal bàsic i un de complementari.\n4.2 El sistema ortogonal bàsic el formen les direccions sud/nord (S-N) i oest/est (W-E). L’origen d’aquest sistema d’eixos\nestà situat a l’extrem SW de Catalunya, fora dels límits territorials. El sistema ortogonal bàsic és el que regeix, en\ngeneral, a la part del territori català formada pels Pirineus i la Depressió Central.\n4.3 El sistema ortogonal complementari el formen les direccions paral·lela a la costa o sud-oest/nord-est (SW-NE) i\nperpendicular a la costa o sud-est/nord-oest (SE-NW). L’origen d’aquest segon sistema també està situat a l’extrem SW\nde Catalunya, fora dels seus límits territorials. El sistema ortogonal complementari és el que regeix, en general, a la\nfranja costanera on s’estén el Sistema Mediterrani Català.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Alconvertidor de parell",
-      "B": "A labiela",
-      "C": "A l'embragatge acadèmia",
-      "D": "A l'arbrede lleves"
+      "A": "El formen les direccions sud/nord (S-N) i oest/est (W-E)",
+      "B": "El formen les direccions sud/nord (S-N), oest/est (W-E), sud-oest/nord-est (SW-NE) i sud-est/nord-oest (SE-NW)",
+      "C": "El formen les direccions sud-oest/nord-est (SW-NE) i sud-est/nord-oest (SE-NW)",
+      "D": "El formen les direccions sud/nord (S-N)"
     }
   },
   {
-    "id": "academia_sim70_q24",
-    "simulacre": "Simulacre 70",
-    "num_pregunta": 24,
-    "statement": "Durant eltemps d'explosió d'un motor de quatre temps el cigonyal dóna:",
+    "id": "academia_sim67_q91",
+    "statement": "Quin és el parc natural més meridional de Catalunya?",
     "correct": "C",
-    "explanation": "L'arbrede llevesdóna 90° (relació 1 a2 amb elcigonyal).",
+    "explanation": "L'Alt Pirineu és el més septentrional.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 70",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 67",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "90°",
-      "B": "45°",
-      "C": "180°",
-      "D": "360°"
+      "A": "L'Alt Pirineu",
+      "B": "La Serra del Montsant",
+      "C": "El Delta de l'Ebre",
+      "D": "El Mas de Melons i Secans  acadèmia bombers"
     }
   },
   {
-    "id": "academia_sim70_q52",
-    "simulacre": "Simulacre 70",
-    "num_pregunta": 52,
-    "statement": "En larealització d'un esgotament amb autobomba iobviant les pèrdues de càrrega, quin valor ens hauria d'indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?",
+    "id": "academia_sim68_q60",
+    "statement": "Quina comarca lleidatana compta amb una major superfície?",
+    "correct": "B",
+    "explanation": "IDESCAT 2023 - Densitat de població. Comarques i Aran, àmbits i províncies.\nGarrigues: 798 km²\nNoguera: 1.784 km²\nSegrià: 1.397 km²\nUrgell: 580 km²",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les Garrigues",
+      "B": "La Noguera",
+      "C": "L'Urgell",
+      "D": "El Segrià"
+    }
+  },
+  {
+    "id": "academia_sim68_q78",
+    "statement": "A Catalunya hi ha declarats set paratges naturals d’interès nacional, d'entre els quals hi destaca un jardí situat en una finca a les afores de Blanes. Parlem de:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El massís de l’Albera",
+      "B": "El Jardí Botànic Santa Clotilde",
+      "C": "La vall del monestir de Poblet",
+      "D": "El Pinya de Rosa"
+    }
+  },
+  {
+    "id": "academia_sim68_q81",
+    "statement": "Quin riu NO és afluent del Llobregat?",
+    "correct": "C",
+    "explanation": "El Ritort és afluent del Ter.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 68",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Bastareny",
+      "B": "L'Anoia",
+      "C": "El Ritort",
+      "D": "El Cardener"
+    }
+  },
+  {
+    "id": "academia_sim69_q19",
+    "statement": "Quin dels següents està declarat un paratge natural d’interès nacional?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarats set paratges naturals d’interès nacional: vall del monestir de Poblet, massís de l’Albera,\nmassís del Pedraforca (inclòs al Parc Natural del Cadí-Moixeró), Pinya de Rosa, serra de Rodes, cap Gros-cap de Creus\ni Punta Falconera-cap de Norfeu (els tres últims al Parc Natural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Cadí-Moixeró",
+      "B": "La Serra de Montsant",
+      "C": "El massís de l’Albera",
+      "D": "Les capçaleres del Ter i del Freser"
+    }
+  },
+  {
+    "id": "academia_sim69_q69",
+    "statement": "On neix el Segre?",
+    "correct": "D",
+    "explanation": "Desemboca al riu Ebre, a l'alçada de Mequinensa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Pic de Bastiments o Pic del Gegant",
+      "B": "Al Pla de Beret, a la Vall d'Aran",
+      "C": "A la Serra del Montsec",
+      "D": "A la Catalunya del Nord, a l'Alta Cerdanya"
+    }
+  },
+  {
+    "id": "academia_sim69_q95",
+    "statement": "La comarca de la Cerdanya, de quines comarques està envoltada (toquen administrativament)?",
     "correct": "D",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 69",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alt Urgell, Berguedà, Ripollès i Pallars Sobirà",
+      "B": "Berguedà, Ripollès i Garrotxa",
+      "C": "Berguedà, Ripollès i Solsonès",
+      "D": "Alt Urgell, Berguedà i Ripollès"
+    }
+  },
+  {
+    "id": "academia_sim70_q32",
+    "statement": "Quin riu transcorre pels municipis de Moltblanc, la Pobla de Mafumet i Tarragona?",
+    "correct": "B",
+    "explanation": "Hom considera que neix a la font Major de l’Espluga de Francolí (Conca de Barberà), a la confluència del riu de Milans\namb el barranc del Tillar, travessa la Serralada Prelitoral per l’estret de la Riba i, després de passar pel Camp de\nTarragona, desemboca a ponent del port tarragoní. Té 85 km de llargària.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 70",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "-4 bar",
-      "B": "40 bar",
-      "C": "0,4bar",
-      "D": "-0,4bar"
+      "A": "El Fluvià",
+      "B": "El Francolí",
+      "C": "El Foix",
+      "D": "El Segre"
     }
   },
   {
-    "id": "academia_sim73_q42",
-    "simulacre": "Simulacre 73",
-    "num_pregunta": 42,
-    "statement": "Quin dispositiu s'utilitzaper protegir un motor elèctric de sobrecàrregues?",
-    "correct": "C",
+    "id": "academia_sim70_q39",
+    "statement": "Quina de les següents serres es caracteritza per, a partir de la seva carena, marcar la línia divisòria de l'Alt Empordà al sud, amb les comarques de la Catalunya Nord del Rosselló i el Vallespir?",
+    "correct": "A",
+    "explanation": "Culmina al puig Neulós (1.256 m). Del 1659 ençà, arran del Tractat dels Pirineus, la seva carena constitueix la frontera\nentre els estats francès i espanyol.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Serra de l'Albera",
+      "B": "Serra de Cavallera",
+      "C": "Serra del Montsec",
+      "D": "Serra de Finestres"
+    }
+  },
+  {
+    "id": "academia_sim70_q43",
+    "statement": "Quina de les següents comarques compta amb un major nombre de població?",
+    "correct": "D",
+    "explanation": "Solsonès: 13.725 hab.\nVallès Occidental: 949.026 hab.\nTarragonès: 270.237 hab.\nBages: 183.265 hab.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Bages",
+      "B": "El Tarragonès",
+      "C": "El Solsonès",
+      "D": "El Vallès Occidental"
+    }
+  },
+  {
+    "id": "academia_sim70_q55",
+    "statement": "A Catalunya hi ha declarades 52 reserves naturals parcials, gairebé la meitat de les quals s'inclouen a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 52 reserves naturals parcials: 25 incloses al Parc Natural de la Zona Volcànica de la\nGarrotxa, dues al Parc Natural del Cap de Creus, dues al Parc Natural del Delta de l’Ebre, dues al Parc Natural de l’Alt\nPirineu, una al Parc Natural dels Ports, una al Parc Natural dels Aiguamolls de l’Empordà, una al Parc Natural de la\nMuntanya de Montserrat i 18 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 70",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Parc Natural del Delta de l’Ebre",
+      "B": "El Parc Natural de l’Alt Pirineu",
+      "C": "El Parc Natural de la Muntanya de Montserrat",
+      "D": "El Parc Natural de la Zona Volcànica de la Garrotxa"
+    }
+  },
+  {
+    "id": "academia_sim71_q10",
+    "statement": "En quina de les següents parelles de comarques hi trobem el Parc Natural de l’Alt Pirineu?",
+    "correct": "A",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Alt Urgell, Pallars Sobirà",
+      "B": "Alta Ribagorça, Pallars Jussà",
+      "C": "Pallars Sobirà, Vall d'Aran",
+      "D": "Alta Ribagorça, Pallars Sobirà"
+    }
+  },
+  {
+    "id": "academia_sim71_q11",
+    "statement": "La conca d’Òdena és una conca d’erosió que ha estat excavada per:",
+    "correct": "A",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    }
+  },
+  {
+    "id": "academia_sim71_q18",
+    "statement": "Quina afirmació és FALSA sobre la Depressió Central?",
+    "correct": "A",
+    "explanation": "La Depressió Central ocupa bona part del territori català entre el Pirineu i el Sistema Mediterrani. Està oberta cap a\nponent, cap a la depressió de l’Ebre, de la qual forma part. La Depressió Central està lleugerament inclinada cap a\nponent i les seves altituds més importants, al voltant dels 1.000 m, es troben en el sector nord est, en contacte amb la\nSerralada Transversal.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les seves altituds més importants es troben en el sector sud oest",
+      "B": "Està en contacte amb la Serralada Transversal",
+      "C": "Està lleugerament inclinada cap a ponent",
+      "D": "Ocupa bona part del territori català entre el Pirineu i el Sistema Mediterrani"
+    }
+  },
+  {
+    "id": "academia_sim71_q55",
+    "statement": "Quina afirmació és CERTA respecte el Parc Nacional d’Aigüestortes i Estany de Sant Maurici?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha un parc nacional: el Parc Nacional d’Aigüestortes i Estany de Sant Maurici, declarat el 21 d’octubre de\n1955. Actualment té una superfície de 40.852 hectàrees, dividides en 14.119 ha de Parc Nacional estricte i 26.733 de\nzona perifèrica de protecció. La seva superfície cau dins de 4 comarques: l’Alta Ribagorça, el Pallars Sobirà, el Pallars\nJussà i la Vall d’Aran.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 71",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva superfície cau dins de quatre comarques: l’Alta Ribagorça, el Pallars Sobirà, el Pallars Jussà i la Vall d’Aran",
+      "B": "Va ser declarat Parc Nacional el 12 de juny de 1983",
+      "C": "Té una superfície total de 8.483 hectàrees, resultant de la suma entre l'espai corresponent al Parc Nacional estricte i el de zona perifèrica de protecció",
+      "D": "És un dels dos parcs nacionals que té Catalunya"
+    }
+  },
+  {
+    "id": "academia_sim72_q16",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca del Priorat?",
+    "correct": "A",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports"
+    }
+  },
+  {
+    "id": "academia_sim72_q27",
+    "statement": "L'embassament de la Baells conté les aigües de:",
+    "correct": "A",
+    "explanation": "El pantà de la Baells és un embassament que pertany al riu Llobregat, creat per una presa situada al municipi de Cercs,\nque s'estén pels termes de Cercs, La Quar i Vilada, a la comarca del Berguedà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 72",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Llobregat",
+      "B": "El Cardener",
+      "C": "El Freser",
+      "D": "El Ter"
+    }
+  },
+  {
+    "id": "academia_sim73_q17",
+    "statement": "Com s'anomena el port de muntanya que provoca l'efecte Foehn en vents que bufen des de Vielha cap a Sort?",
+    "correct": "D",
+    "explanation": "El vent del nord arriba fred i molt humit al vessant atlàntic dels Pirineus, de manera que deixa una temperatura molt baixa\na Vielha. Aquest vent, en ser perpendicular a la serralada pirinenca, es troba amb aquesta barrera de muntanyes que ha\nde travessar d’alguna manera. Així doncs, ascendeix pel port de la Bonaigua i es refreda a raó de 0,6 ºC cada 100\nmetres (ja que les lleis de l’atmosfera sense inversió tèrmica ens diuen que l’aire saturat es refreda a mesura que guanya\naltitud a aquest ritme). En refredar-se, el vapor d’aigua es condensa i es formen núvols al vessant nord del Pirineu.\nA partir d’aquí, el vent del nord ja ha travessat l’obstacle muntanyós i ara li toca baixar, però canvia totalment les\ncaracterístiques d’origen i provoca un canvi meteorològic microlocal molt important. A mesura que va baixant, va perdent\nhumitat i es va escalfant, de tal manera que arriba a Sort ressec i reescalfat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 73",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un variadorde freqüència",
-      "B": "Un SPD",
-      "C": "Un relétèrmic",
-      "D": "Un díode"
+      "A": "Port de Cabús",
+      "B": "Coll de Conflent",
+      "C": "Port del Cantó",
+      "D": "Port de la Bonaigua"
     }
   },
   {
-    "id": "academia_sim74_q51",
-    "simulacre": "Simulacre 74",
-    "num_pregunta": 51,
-    "statement": "Quin d'aquests elements NO forma part del grup de distribució en un motor?",
-    "correct": "D",
-    "explanation": "L'arbre de lleves també formaria part delwww.academiabombers.comgrupdedistribució.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 19\nAcadèmia Bombers Simulacre 74",
+    "id": "academia_sim73_q47",
+    "statement": "Quan parlem del refugi de Rebost, del refugi de Sant Jordi i del refugi de Gresolet, en quin parc natural els podem trobar?",
+    "correct": "B",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Els Ports",
+      "B": "Cadí-Moixeró",
+      "C": "L'Albera",
+      "D": "Sant Llorenç del Munt i l'Obac"
+    }
+  },
+  {
+    "id": "academia_sim73_q82",
+    "statement": "Quina de les següents comarques presenta una menor superfície?",
+    "correct": "C",
+    "explanation": "La comarca de Catalunya que presenta una menor superfície és el Barcelonès, amb 144,7 km², seguida pel Garraf.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Moianès",
+      "B": "L'Urgell",
+      "C": "El Garraf",
+      "D": "El Maresme"
+    }
+  },
+  {
+    "id": "academia_sim73_q87",
+    "statement": "El pla del Bages és una conca d’erosió que ha estat excavada per:",
+    "correct": "B",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    }
+  },
+  {
+    "id": "academia_sim73_q92",
+    "statement": "A quina comarca és més probable que hi trobem exemplars de l'espècie \"Pinus uncinata\"?",
+    "correct": "B",
+    "explanation": "Pinus uncinata és el nom científic del pi negre.\nLa pineda de pi negre és el bosc més característic del Pirineu i el segon tipus de bosc més abundant en aquella\nserralada. A Catalunya, el pi negre només és abundant a nou comarques, les sis de l’Alt Pirineu i Aran (en total 43.000\nhectàrees i 48 milions de peus), el Ripollès, el Berguedà i el Solsonès. És l’espècie més abundant a la comarca de la\nCerdanya (10.832 hectàrees i quasi 12,5 milions de peus) però la comarca de Catalunya amb més pi negre és el Pallars\nSobirà (15.825 hectàrees i 16 milions de peus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 73",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Baix Ebre",
+      "B": "La Cerdanya",
+      "C": "Osona",
+      "D": "El Maresme"
+    }
+  },
+  {
+    "id": "academia_sim74_q14",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca de la Selva?",
+    "correct": "C",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 74",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Els taquets",
-      "B": "Les molles",
-      "C": "Les vàlvules",
-      "D": "El termòstat"
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports"
     }
   },
   {
-    "id": "academia_sim75_q38",
-    "simulacre": "Simulacre 75",
-    "num_pregunta": 38,
-    "statement": "Quines són les peces entre les quals es troba, normalment, el col·lector d'admissió d'un motor dièsel?",
+    "id": "academia_sim74_q21",
+    "statement": "D'acord amb l'EAC, de quina forma es regula la creació, la modificació i la supressió de les comarques, i també l’establiment del règim jurídic d’aquests ens?",
     "correct": "D",
-    "explanation": "",
+    "explanation": "EAC - Article 92. La comarca.\n2. La creació, la modificació i la supressió de les comarques, i també l’establiment del règim jurídic d’aquests ens, són\nregulats per una llei del Parlament.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mitjançant un decret llei",
+      "B": "Mitjançant un decret",
+      "C": "Mitjançant una llei orgànica",
+      "D": "Mitjançant una llei del Parlament"
+    }
+  },
+  {
+    "id": "academia_sim74_q44",
+    "statement": "La conca de Barberà és una conca d’erosió que ha estat excavada per:",
+    "correct": "C",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 74",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    }
+  },
+  {
+    "id": "academia_sim75_q5",
+    "statement": "Si un excursionista es fa mal a la vall del Riu Glorieta, a quina comarca es troba?",
+    "correct": "D",
+    "explanation": "El riu Glorieta, que dona nom a la vall, neix als Motllats, a la serra de Prades, i aflora a les anomenades Fonts del\nGlorieta.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 75",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Entre el carburador ila vàlvulapapallona",
-      "B": "Entre el carburador ila tapa de balancinsacadèmia",
-      "C": "Entre la cisternaila vàlvulapapallona",
-      "D": "Entre el filtred'aireilaculata"
+      "A": "Priorat",
+      "B": "Montsià",
+      "C": "Baix Penedès",
+      "D": "Alt Camp"
     }
   },
   {
-    "id": "academia_sim77_q33",
-    "simulacre": "Simulacre 77",
-    "num_pregunta": 33,
-    "statement": "La transmissió de girdes del cigonyal a l'arbre de lleves és de:",
-    "correct": "A",
+    "id": "academia_sim75_q28",
+    "statement": "El riu Besòs neix de l'aiguabarreig de quins dos rius?",
+    "correct": "B",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Congost i el Tenes",
+      "B": "El Mogent i el Congost",
+      "C": "La riera de Caldes i el Ripoll",
+      "D": "El Mogent i el Tenes"
+    }
+  },
+  {
+    "id": "academia_sim75_q55",
+    "statement": "Quin àmbit funcional territorial disposa d'un major nombre de polígons d’activitat econòmica (PAEs) per habitant?",
+    "correct": "D",
+    "explanation": "Nombre de polígons d’activitat econòmica per cada 10.000 habitants:\nComarques Centrals: 6,16.\nMetropolità: 0,89.\nCamp de Tarragona: 2,21.\nAlt Pirineu i Aran: 2,11.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Camp de Tarragona",
+      "B": "Alt Pirineu i Aran",
+      "C": "Metropolità",
+      "D": "Comarques Centrals"
+    }
+  },
+  {
+    "id": "academia_sim75_q80",
+    "statement": "Quines comarques acullen el Parc Natural dels Ports?",
+    "correct": "A",
+    "explanation": "El massís dels Ports, situat entre Catalunya, València i Aragó, és un massís calcari, de relleu escarpat i abrupte que ha\nestat humanitzat des de temps prehistòrics. El Parc Natural dels Ports, declarat el 2001, comprèn 35.050 hectàrees de la\npart catalana d'aquestes muntanyes.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 75",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Baix Ebre, Montsià i Terra Alta",
+      "B": "Baix Ebre, Ribera d'Ebre i Baix Camp",
+      "C": "Ribera d'Ebre, Priorat i Baix Camp",
+      "D": "Alt Camp, Baix Camp i Tarragonès  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim76_q40",
+    "statement": "Quin dels següents espais naturals de protecció especial s'ubica a la comarca de la Conca de Barberà?",
+    "correct": "B",
+    "explanation": "Paratge Natural d’Interès Nacional de Pinya Rosa: Selva.\nParc Natural dels Ports: Baix Ebre, Montsià, Terra Alta.\nParatge Natural d’Interès Nacional de la Vall del Monestir de Poblet: Conca de Barberà.\nParc Natural de la Serra del Montsant: Priorat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural de la Serra del Montsant",
+      "B": "Paratge Natural d’Interès Nacional de la Vall del Monestir de Poblet",
+      "C": "Paratge Natural d’Interès Nacional de Pinya Rosa",
+      "D": "Parc Natural dels Ports  acadèmia bombers"
+    }
+  },
+  {
+    "id": "academia_sim76_q57",
+    "statement": "Quin àmbit funcional territorial de Catalunya compta amb un major nombre de PAES?",
+    "correct": "A",
+    "explanation": "PAES: Nombre total de polígons d’activitat econòmica.\nCamp de Tarragona: 121 PAES.\nComarques Centrals: 260 PAES.\nMetropolità: 447 PAES.\nPenedès: 148 PAES.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Metropolità",
+      "B": "Penedès",
+      "C": "Camp de Tarragona",
+      "D": "Comarques Centrals"
+    }
+  },
+  {
+    "id": "academia_sim76_q90",
+    "statement": "La plana de Vic és una conca d’erosió que ha estat excavada per:",
+    "correct": "D",
+    "explanation": "En els sectors central i oriental, la disposició de les roques i la xarxa fluvial han condicionat la formació d’altiplans, relleus\nen costa, conques d’erosió i planes al·luvials. Destaquen els altiplans del Lluçanès, del Moianès i el de la Segarra. Entre\naquests relleus, hi trobem la plana de Vic, el pla del Bages, la conca d’Òdena i la conca de Barberà, que són conques\nd’erosió que han estat excavades, respectivament, pels rius Ter i Congost, Cardener i Llobregat, i Anoia i Francolí. El\nsector occidental de la depressió Central el formen extenses planes sedimentàries, com ara les planes d’Urgell i de\nLleida, on només destaquen petits turons.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 76",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El riu Anoia",
+      "B": "Els rius Cardener i Llobregat",
+      "C": "El riu Francolí",
+      "D": "Els rius Ter i Congost"
+    }
+  },
+  {
+    "id": "academia_sim77_q1",
+    "statement": "Quin dels següents parcs naturals disposa de superfície en l'àmbit marí?",
+    "correct": "D",
+    "explanation": "Disposen de superfície en l'àmbit marí:\n- Parc Natural del Montgrí, les Illes Medes i Baix Ter.\n- Parc Natural del Delta de l’Ebre.\n- Parc Natural del Cap de Creus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 77",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "2 a 1",
-      "B": "1 a 2",
-      "C": "1 a 1",
-      "D": "2 a 2"
+      "A": "Parc Natural dels Ports",
+      "B": "Parc Natural de les Capçaleres del Ter i del Freser",
+      "C": "Parc Natural dels Aiguamolls de l’Empordà",
+      "D": "Parc Natural del Cap de Creus"
     }
   },
   {
-    "id": "academia_sim82_q18",
-    "simulacre": "Simulacre 82",
-    "num_pregunta": 18,
-    "statement": "En un torn, quin factor augmenta l’avantatge mecànic?",
-    "correct": "D",
-    "explanation": "Com més gran sigui elradi de la manovella imés petitel del cilindre del torn, menor serà laforça necessària per aixecar\nelpes.",
+    "id": "academia_sim77_q11",
+    "statement": "Quin riu és un dels afluents del Segre?",
+    "correct": "C",
+    "explanation": "Aquells rius que pertanyen a la vessant mediterrània es poden agrupar en tres grups: els afluents catalans de l’Ebre, amb\nel Segre i els seus afluents (la Noguera Ribagorçana, la Noguera Pallaresa i la Valira); els rius que tenen la seva\ncapçalera al Pirineu, com la Muga, el Fluvià, el Ter (amb el Freser i l’Onyar) i el Llobregat (amb el Cardener i l’Anoia), i\naboquen les seves aigües directament a la mar, i els rius que neixen al sistema Mediterrani (la Tordera, el Besòs, el Foix,\nel Gaià, el Francolí i la Sénia).",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Llobregat",
+      "B": "La Muga",
+      "C": "La Noguera Pallaresa",
+      "D": "La Tordera"
+    }
+  },
+  {
+    "id": "academia_sim77_q57",
+    "statement": "Com en diem de la distància horitzontal que es medeix sobre un mapa i que té en compte les pujades i baixades del relleu?",
+    "correct": "D",
+    "explanation": "Distància topogràfica o real: distància vertadera del terreny que separa dos punts.\n\n\nacadèmia\nbombers",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 77",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Distància de tall",
+      "B": "Distància planimètrica",
+      "C": "Distància real",
+      "D": "Distància topogràfica"
+    }
+  },
+  {
+    "id": "academia_sim78_q1",
+    "statement": "Quines comarques pertanyen a la vegueria de Lleida?",
+    "correct": "A",
+    "explanation": "Vegueria de l'Alt Pirineu: Alta Ribagorça, Alt Urgell, Cerdanya, Pallars Jussà i Pallars Sobirà.\nVegueria de Barcelona: Baix Llobregat, Barcelonès, Maresme, Vallès Oriental i Vallès Occidental.\nVegueria del Camp de Tarragona: Tarragonès, Alt Camp, Baix Camp, Conca de Barberà i Priorat.\nVegueria de Girona: Alt Empordà, Baix Empordà, Garrotxa, Gironès, Pla de l'Estany, Selva i Ripollès.\nVegueria Central: Bages, Berguedà, Moianès, Osona, Solsonès i Lluçanès.\nVegueria de Lleida: Garrigues, Noguera, Segarra, Segrià, Pla d'Urgell i Urgell.\nVegueria de les Terres de l'Ebre: Baix Ebre, Montsià, Ribera d'Ebre i Terra Alta.\nVegueria del Penedès: Alt Penedès, Anoia (excepte vuit municipis, que resten a la vegueria central), Baix Penedès i\nGarraf.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garrigues, Noguera, Segarra, Segrià, Pla d'Urgell i Urgell",
+      "B": "Urgell, Segarra, Osona, Pla d'Urgell i Alt Urgell",
+      "C": "Garrigues, Solsonès, Terra Alta, Pla d'Urgell i Urgell",
+      "D": "Terra Alta, Segarra, Urgell, Pla d'Urgell i Alt Urgell"
+    }
+  },
+  {
+    "id": "academia_sim78_q43",
+    "statement": "Quin dels següents espais naturals de protecció especial té la consideració de parc natural?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Muntanya de Montserrat",
+      "B": "El Cap de Norfeu",
+      "C": "La Serra de Rodes",
+      "D": "La Vall del monestir de Poblet"
+    }
+  },
+  {
+    "id": "academia_sim78_q47",
+    "statement": "Quins són dos afluents del riu Segre?",
+    "correct": "B",
+    "explanation": "Aquells rius que pertanyen a la vessant mediterrània es poden agrupar en tres grups: els afluents catalans de l'Ebre, amb\nel Segre i els seus afluents (la Noguera Ribagorçana, la Noguera Pallaresa i la Valira); els rius que tenen la seva\ncapçalera al Pirineu, com la Muga, el Fluvià, el Ter (amb el Freser i l'Onyar) i el Llobregat (amb el Cardener i l'Anoia), i\naboquen les seves aigües directament a la mar, i els rius que neixen al sistema Mediterrani (la Tordera, el Besòs, el Foix,\nel Gaià, el Francolí i la Sénia).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 78",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Ter i Freser",
+      "B": "Noguera Ribagorçana i Valira",
+      "C": "Llobregat i Cardener",
+      "D": "Noguera Pallaresa i Freser"
+    }
+  },
+  {
+    "id": "academia_sim79_q23",
+    "statement": "Quantes comarques configuraran la totalitat del territori de Catalunya després de la incorporació del Lluçanès?",
+    "correct": "D",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "44 comarques",
+      "B": "45 comarques",
+      "C": "42 comarques",
+      "D": "43 comarques"
+    }
+  },
+  {
+    "id": "academia_sim79_q53",
+    "statement": "Quins aeroports estan sota la titularitat de la Generalitat de Catalunya?",
+    "correct": "A",
+    "explanation": "Aquests aeroports són gestionats per la Generalitat de Catalunya, a diferència dels altres grans aeroports de Catalunya,\ncom els de Barcelona-El Prat, Girona-Costa Brava, o Reus, que són gestionats per AENA (titularitat estatal).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 79",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'aeroport de Lleida-Alguaire i l'aeroport Andorra-La Seu",
+      "B": "L'aeroport de Reus i l'aeroport de Lleida-Alguaire",
+      "C": "L'aeroport de Lleida-Alguaire i l'aeroport de Sabadell",
+      "D": "L'aeroport de Barcelona-El Prat i l'aeroport Andorra-La Seu"
+    }
+  },
+  {
+    "id": "academia_sim80_q94",
+    "statement": "Quina característica compleixen els vents Foëhn a Catalunya?",
+    "correct": "D",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos.\nÉs freqüent, però no sempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb\nvelocitats de 60 a 100 km/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament\ndels vents Foëhn, i es produirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o\nmestral de la Vall de l’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels\ngrans incendis a Tarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després\nde superar els Pirineus.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 80",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La seva formació és típica a les faldes del Prepirineu un cop el vent càlid supera la Depressió Central",
+      "B": "Són vents humits",
+      "C": "Normalment són bastant suaus i irregulars (10 - 50 km/h)",
+      "D": "És característic del costat de sotavent dels massissos muntanyosos"
+    }
+  },
+  {
+    "id": "academia_sim81_q64",
+    "statement": "Amb quina figura de protecció compta el Cap Gros - cap de Creus dins del Sistema d’espais naturals protegits de Catalunya?",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 7 paratges naturals d’interès nacional:\n- Vall del monestir de Poblet.\n- Massís de l’Albera.\n- Massís del Pedraforca (no és inclòs al Parc Natural del Cadí-Moixeró).\n- Pinya de Rosa.\n- Serra de Rodes.\n- Cap Gros - cap de Creus.\n- Punta Falconera - cap de Norfeu (aquest, junt amb la serra de Rodes i el cap Gros - cap de Creus, inclosos al Parc\nNatural del Cap de Creus).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc natural",
+      "B": "Reserva natural parcial",
+      "C": "Parc nacional",
+      "D": "Paratge natural d'interès nacional"
+    }
+  },
+  {
+    "id": "academia_sim81_q67",
+    "statement": "De quines comarques està envoltada la comarca de l'Alt Empordà (toquen administrativament)?",
+    "correct": "A",
+    "explanation": "Limita amb el Vallespir i el Rosselló pel nord; amb la Mediterrània per l'est; amb el Baix Empordà, el Gironès i el Pla de\nl'Estany pel sud, i amb la Garrotxa per l'oest.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 81",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Garrotxa, Pla de l'Estany, Gironès i Baix Empordà",
+      "B": "Ripollès, Pla de l'Estany, Gironès i Baix Empordà",
+      "C": "Garrotxa, Osona, Gironès i Baix Empordà",
+      "D": "Ripollès, Pla de l'Estany i Baix Empordà"
+    }
+  },
+  {
+    "id": "academia_sim82_q11",
+    "statement": "Quina carretera també és coneguda com a Eix Pirinenc?",
+    "correct": "D",
+    "explanation": "La carretera N-260, també coneguda com a Eix Pirinenc, passa per molts municipis de les comarques gironines i\npirinenques, connectant poblacions des de Portbou (Alt Empordà) fins a Sabiñánigo (Osca).\nLa N-340 connecta Tarragona i el sud de Catalunya amb la Comunitat Valenciana i Andalusia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 82",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un augment de la velocitat de rotació",
-      "B": "Un menor diàmetre de lamanovella",
-      "C": "Canviar la manovella de fusta per una de fosa de ferro",
-      "D": "Un menor diàmetre del cilindredel torn"
+      "A": "C-25",
+      "B": "N-340",
+      "C": "C-26",
+      "D": "N-260"
     }
   },
   {
-    "id": "academia_sim84_q43",
-    "simulacre": "Simulacre 84",
-    "num_pregunta": 43,
-    "statement": "Els elements que constitueixen el motor es podrien dividir en elements fixos i elements mòbils. Quin dels següents NO formarà part dels elements mòbils?",
-    "correct": "C",
-    "explanation": "Elements fixos: bloc, culata, càrter.\n\nElements mòbils: biela, pistons, cigonyal, volant d'inèrcia.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 84",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "La biela",
-      "B": "El volant d'inèrcia iel càrter, jaque els dos són elements fixos",
-      "C": "El càrter",
-      "D": "El volant d'inèrcia 5 Acadèmia Bombers Simulacre 84"
-    }
-  },
-  {
-    "id": "academia_sim90_q46",
-    "simulacre": "Simulacre 90",
-    "num_pregunta": 46,
-    "statement": "En el comandament de la distribució en un vehicle, la transmissió de gir des del cigonyal a l'arbre de lleves s'ha de fer sempre amb una relació de transmissió de 2 a 1. Això vol dir que el pinyó de l'arbre de lleves tindrà:",
+    "id": "academia_sim88_q17",
+    "statement": "El Parc del Montnegre-Corredor està situat a les comarques de:",
     "correct": "B",
-    "explanation": "Ja que per 2 voltes que fa el cigonyal, l'arbre de lleves en fa una.",
+    "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 90",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 88",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La meitat de dents que el del cigonyal",
-      "B": "Eldoble de dents que el del cigonyal",
-      "C": "Les mateixes dents que el del cigonyal",
-      "D": "Eltriplede dents que eldel cigonyal"
+      "A": "Vallès Oriental, Selva",
+      "B": "Maresme, Vallès Oriental",
+      "C": "Maresme, Selva",
+      "D": "Vallès Occidental, Vallès Oriental"
     }
   },
   {
-    "id": "academia_sim90_q66",
-    "simulacre": "Simulacre 90",
-    "num_pregunta": 66,
-    "statement": "Quina part del motor controla el temps i la seqüència d'obertura de les vàlvules d'admissió i escapament?",
+    "id": "academia_sim88_q48",
+    "statement": "Quin és l’únic riu que neix a Catalunya i desemboca a l’Atlàntic?",
     "correct": "D",
-    "explanation": "L'arbre de lleves es mou sincronitzat amb el cigonyal i està accionat per lacadena de distribució o per la corretja de\ndistribució, depenent del disseny del motor.",
+    "explanation": "Tots els rius que neixen a Catalunya o la travessen pertanyen al vessant mediterrani. Aquesta afirmació, però, té una\nexcepció: la Garona, que neix a la Vall d’Aran, i que acaba desguassant al vessant atlàntic.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 88",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Valira",
+      "B": "El Flamisell",
+      "C": "El Cinca",
+      "D": "El Garona"
+    }
+  },
+  {
+    "id": "academia_sim89_q95",
+    "statement": "Quina de les següents NO és una característica dels vents Foëhn?",
+    "correct": "D",
+    "explanation": "L’efecte Fogony és un vent sec, característic del costat de sotavent dels massissos muntanyosos. És freqüent, però no\nsempre, durant l’estació càlida. Els vents Foëhn normalment són bastant forts i constants, amb velocitats de 60 a 100\nkm/h però poden arribar a 150 km/h. Usualment, la humitat relativa caurà amb el començament dels vents Foëhn, i es\nproduirà una disminució en la humitat del combustible. Un vent típic Foëhn a Espanya és el cerç o mestral de la Vall de\nl’Ebre després de superar la serralada Cantàbrica. Aquest vent és el principal responsable dels grans incendis a\nTarragona i Castelló. Un altre exemple seria el Fogony al Pallars provocat per un vent del nord després de superar els\nPirineus (font: temari BBVV).",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 89",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Són vents secs",
+      "B": "Normalment són bastant forts i constants",
+      "C": "Són característics del costat de sotavent dels massissos muntanyosos",
+      "D": "Són més freqüents durant les estacions fredes, sobretot a l'hivern"
+    }
+  },
+  {
+    "id": "academia_sim90_q50",
+    "statement": "Quin element natural del relleu terrestre es troba entre la Serra del Verd i la Serra de Boumort?",
+    "correct": "C",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 90",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "L'alternador",
-      "B": "Eldistribuïdor",
-      "C": "La culata",
-      "D": "L'arbres de lleves 8 Acadèmia Bombers Simulacre 90"
+      "A": "El pantà de la Baells",
+      "B": "La serra del Montsec",
+      "C": "El riu Segre",
+      "D": "La Serra de Castelltallat"
     }
   },
   {
-    "id": "academia_sim96_q78",
-    "simulacre": "Simulacre 96",
-    "num_pregunta": 78,
-    "statement": "Quina relació de revolucions tenen el cigonyal i l'arbre de lleves en un motor de quatre temps?",
+    "id": "academia_sim91_q61",
+    "statement": "En quina comarca catalana està ubicat el Parc Natural de la Serra de Montsant?",
     "correct": "A",
-    "explanation": "Per això, laquantitat de dents de lacorona de l'arbre de lleves és el doble que la del pinyó del cigonyal. Aquest procés el\nconeixem com a desmultiplicació.",
+    "explanation": "El Parc Natural s’estén en el sector occidental de la serralada Prelitoral catalana, dins de la comarca del Priorat, de la\nqual representa el límit septentrional.\nLa serra de Montsant constitueix una unitat orogràfica emmarcada a l’est per les depressions d’Ulldemolins i Cornudella,\nseparades pel coll d’Albarca que enllaça Montsant amb les muntanyes de Prades. Al nord i oest, el curs del riu Montsant\nsepara el massís de la serra de la Llena. Al sud, els límits són el Cingle Major, el cingle de Montalts i el riuet d’Escaladei.\nEls punts culminants de la serra són la roca Corbatera (1.163 m), el piló dels Senyalets (1.109 m), la punta de Peret\n(1.107 m) i la Cogulla (1.063 m).\nFont: GENCAT.cat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Al Priorat",
+      "B": "A l'Alt Camp",
+      "C": "A la Garrotxa",
+      "D": "Al Berguedà"
+    }
+  },
+  {
+    "id": "academia_sim91_q62",
+    "statement": "El riu Ripoll és afluent del riu:",
+    "correct": "D",
+    "explanation": "El Ripoll és un riu de la Depressió Prelitoral, al Vallès Occidental, afluent del Besòs pel marge dret. Neix al sot del Galí, a\nla serra de Granera, al municipi de Sant Llorenç Savall, a 640 metres d'altitud, dins el Parc Natural de Sant Llorenç del\nMunt i l'Obac.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 91",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Tordera",
+      "B": "Llobregat",
+      "C": "Foix",
+      "D": "Besòs"
+    }
+  },
+  {
+    "id": "academia_sim93_q62",
+    "statement": "Els túnels del Garraf de l'autopista C-32 són en el terme municipal de:",
+    "correct": "D",
+    "explanation": "Els túnels del Garraf de l'autopista C-32 es troben en el terme municipal de Sitges, a la comarca del Garraf. Aquests\ntúnels són una part important de la infraestructura viària que connecta Barcelona amb comarques del sud com el Garraf i\nel Baix Penedès.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 93",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Castelldefels",
+      "B": "El Garraf",
+      "C": "Vilanova i la Geltrú",
+      "D": "Sitges"
+    }
+  },
+  {
+    "id": "academia_sim94_q40",
+    "statement": "Quin dels següents NO és un parc natural?",
+    "correct": "D",
+    "explanation": "El Massís de l’Albera és un paratge natural d’interès nacional.\nA Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Collserola",
+      "B": "Delta de l'Ebre",
+      "C": "Serra de Montsant",
+      "D": "Massís de l’Albera"
+    }
+  },
+  {
+    "id": "academia_sim94_q92",
+    "statement": "Quin dels següents pics es troba en el terme municipal de la Vall de Boí?",
+    "correct": "D",
+    "explanation": "La pica d’Estats és, amb 3.143 m, el cim més alt de Catalunya i, juntament amb el pic Verdaguer (3.129 m), la punta\nGabarró (3.114 m) i el pic de Sotllo (3.072 m), configura la part més elevada del país, que es troba al nord de la comarca\ndel Pallars Sobirà. Tot seguit trobem el Comaloformo (3.033 m) i el Besiberri Sud (3.023 m), que són en el terme\nmunicipal de la Vall de Boí. A les comarques gironines trobem cims que queden per sota dels 3.000 metres, com, per\nexemple, el Puigpedrós (2.915 m) i el Puigmal (2.910 m), tots dos a la frontera amb França.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 94",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pic Verdaguer",
+      "B": "La punta Gabarró",
+      "C": "El pic de Sotllo",
+      "D": "El Comaloformo"
+    }
+  },
+  {
+    "id": "academia_sim95_q9",
+    "statement": "Quin riu recull les aigües de les serres del Port del Comte i del Verd, de la Serra de les Comes, del Pedraforca i la Serra d'Ensija i en el seu recorregut es troben els embassaments de la Llosa del Cavall i de Sant Ponç?",
+    "correct": "A",
+    "explanation": "Neix a les Fonts del Cardener, situades al municipi de la Coma i la Pedra, al peu del Port del Comte.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Cardener",
+      "B": "L'Anoia",
+      "C": "El Congost",
+      "D": "La Tordera"
+    }
+  },
+  {
+    "id": "academia_sim95_q51",
+    "statement": "A Catalunya hi ha declarades 59 reserves naturals parcials, la majoria de les quals es troben a:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha declarades 59 reserves naturals parcials:\n· 27 al Parc Natural de la Zona Volcànica de la Garrotxa.\n· 2 al Parc Natural del Cap de Creus.\n· 2 al Parc Natural del Delta de l’Ebre.\n· 2 al Parc Natural de l’Alt Pirineu.\n· 2 al Parc Natural del Montgrí, les Illes Medes i el Baix Ter\n· 2 al Parc Natural de Collserola.\n· 2 al Paratge Natural d'Interès Nacional de l'Albera.\n· 1 al Parc Natural dels Ports.\n· 1 al Parc Natural dels Aiguamolls de l’Empordà.\n· 1 al Parc Natural de la Muntanya de Montserrat.\n· 17 isolades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 95",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "L'Albera",
+      "B": "La Zona Volcànica de la Garrotxa",
+      "C": "L’Alt Pirineu",
+      "D": "El Delta de l’Ebre"
+    }
+  },
+  {
+    "id": "academia_sim96_q35",
+    "statement": "A Catalunya, el domini eurosiberià es troba principalment:",
+    "correct": "C",
+    "explanation": "Els Països Catalans septentrionals, a redós dels Pirineus i contraforts principalment, es veuen afectats per la regió\neurosiberiana, que hi troba alguns dels seus més meridionals reductes, en part al límit de la seva zonació latitudinal, en\npart aprofitant-se de les condicions generades per les muntanyes. En efecte, les nostres muntanyes plujoses i en llurs\naltituds mitjanes, des dels Pirineus fins al Maestrat, estan florísticament dominades per espècies eurosiberianes, sobretot\nper grups corològics submediterranis al S del paral·lel 42° N (Montseny, Muntanyes de Prades, Ports de Beseit, etc.).\nFont: enciclopèdia.cat.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 96",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "De 2 a 1",
-      "B": "De 1 a 1",
-      "C": "De 1 a 2",
-      "D": "De 2 a 3"
+      "A": "A les planes de la Catalunya Central",
+      "B": "A les serres litorals",
+      "C": "A les comarques pirinenques humides",
+      "D": "A les zones àrides del Segrià"
     }
   },
   {
-    "id": "academia_sim105_q46",
-    "simulacre": "Simulacre 105",
-    "num_pregunta": 46,
-    "statement": "Durant el temps d'explosió d'un motor de quatre temps el cigonyal dóna:",
+    "id": "academia_sim97_q65",
+    "statement": "Amb quines serres limiten les muntanyes de Prades a l'oest?",
     "correct": "C",
-    "explanation": "L'arbre de lleves dóna 90° (relació 1 a 2 amb el cigonyal).",
+    "explanation": "Les muntanyes de Prades són situades al sector nord-occidental de la Serralada Costanera Catalana i formen un bloc\nenlairat sobre les planes del Camp de Tarragona i de la Conca de Barberà. Ocupen una superfície d’uns 260 km2 i estan\nenvoltades al nord i a l’est pel riu Francolí, alhora que limiten a l’oest amb les serres de la Llena i del Montsant i amb\nl’enfonsada conca del Priorat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 97",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Amb les serres del Tallat i de les Gavarres",
+      "B": "Amb els massissos del Garraf i de Cardó",
+      "C": "Amb les serres de la Llena i del Montsant",
+      "D": "Amb les serres del Montsec i del Tallat"
+    }
+  },
+  {
+    "id": "academia_sim98_q83",
+    "statement": "Té la consideració de Parc Natural i és l'espai natural protegit més extens de Catalunya, amb una superfície de gairebé 80.000 ha:",
+    "correct": "A",
+    "explanation": "A Catalunya hi ha 14 parcs naturals:\n- Aiguamolls de l’Empordà.\n- Alt Pirineu.\n- Cadí-Moixeró.\n- Cap de Creus.\n- Capçaleres del Ter i del Freser.\n- Delta de l’Ebre.\n- Els Ports.\n- Massís del Montseny.\n- Montgrí, les Illes Medes i el Baix Ter.\n- Muntanya de Montserrat.\n- Sant Llorenç del Munt i l’Obac.\n- Serra de Collserola.\n- Serra de Montsant.\n- Zona Volcànica de la Garrotxa.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 98",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Massís de l’Albera",
+      "B": "La Serra de Rodes",
+      "C": "Pinya de Rosa",
+      "D": "L'Alt Pirineu"
+    }
+  },
+  {
+    "id": "academia_sim100_q19",
+    "statement": "Dins de quin Parc Natural s'inclou el Paratge Natural d’Interès Nacional de la Serra de Rodes?",
+    "correct": "A",
+    "explanation": "Compta amb un total de 1.133,81 ha.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 100",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Parc Natural del Cap de Creus",
+      "B": "Parc Natural dels Aiguamolls de l’Empordà",
+      "C": "Parc Natural de l’Alt Pirineu",
+      "D": "Parc Natural del Montgrí, les Illes Medes i Baix Ter"
+    }
+  },
+  {
+    "id": "academia_sim102_q27",
+    "statement": "Quin riu català, afluent de l'Ebre, és conegut per haver format congostos espectaculars com el de Mont-rebei?",
+    "correct": "C",
+    "explanation": "El congost de Mont-rebei està situat entre la serra del Montsec d’Ares (Catalunya) i la serra del Montsec de l’Estall\n(Aragó).\nÉs l’únic congost de Catalunya sense cap carretera ni infraestructura travessant-lo, només el camí excavat a la roca i\npassarel·les penjades.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Segre",
+      "B": "La Noguera Ribagorçana",
+      "C": "La Noguera Pallaresa",
+      "D": "El Francolí"
+    }
+  },
+  {
+    "id": "academia_sim102_q83",
+    "statement": "En quina de les següents comarques podem trobar roure pènol?",
+    "correct": "A",
+    "explanation": "",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 102",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "La Garrotxa",
+      "B": "L'Alt Urgell",
+      "C": "El Maresme",
+      "D": "La Terra Alta"
+    }
+  },
+  {
+    "id": "academia_sim103_q16",
+    "statement": "Quin dels següents embassaments pertany al riu Noguera Pallaresa?",
+    "correct": "C",
+    "explanation": "El forma una presa situada a l'estret de Susterris, al municipi de Talarn, i s'estén pels termes de la Pobla de Segur, Salàs\nde Pallars, Conca de Dalt, Talarn i Isona i Conca Dellà, a la comarca del Pallars Jussà.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 103",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El pantà dels Guiamets",
+      "B": "El pantà d'Escales",
+      "C": "L'embassament de Sant Antoni",
+      "D": "El pantà de Cavallers"
+    }
+  },
+  {
+    "id": "academia_sim105_q63",
+    "statement": "En el context cartogràfic, quines són els tres tipus d'implementació que poden ser identificats en l'espai bidimensional?",
+    "correct": "C",
+    "explanation": "Com és lògic, en el context cartogràfic, on és representat el territori, les característiques espacials i de localització són\nbàsiques i en conseqüència, la simbologia s'ha d'adaptar a aquesta funció. En aquest sentit, segons la manera i la\nintenció amb la que el símbol és emplaçat en el mapa o, millor dit, forma part del mapa, resulta important parlar\nd'implantació, i constatar que en l'espai bidimensional del mapa poden ser identificats únicament tres tipus d'implantació:\nla puntual, la lineal i la superficial (o zonal).\nLa primera fa referència a simples emplaçaments referits idealment a la localització en un punt. La segona es refereix a\ntraçats, límits o trajectòries de longituds determinades, mentre que la tercera expressa formes i magnituds de superfície.\nEvidentment, depenent de l'escala emprada, un fet pot ser representat amb una intencionalitat d'implantació o d'una altra:\nuna ciutat sencera o un riu, per exemple, a escales grans ocupen una àrea i s'implanten superficialment en el mapa,\nmentre que a una escala molt més petita, poden requerir implantacions puntuals i lineals, respectivament.\nFont: Institut Cartogràfic i Geològic de Catalunya.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 105",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "90°",
-      "B": "45°",
-      "C": "180°",
-      "D": "360°"
+      "A": "La fixa, la mòbil i la discontínua",
+      "B": "La temporal, la espacial i la descriptiva",
+      "C": "La puntual, la lineal i la superficial",
+      "D": "La plana, la tridimensional i la contextual"
     }
   },
   {
-    "id": "academia_sim106_q86",
-    "simulacre": "Simulacre 106",
-    "num_pregunta": 86,
-    "statement": "És una regió al tronc o a les arrels que conté els teixits conductors d'una planta, com ara el xilema iel floema:",
-    "correct": "A",
-    "explanation": "El xilema transporta aigua inutrients des de les arrels cap a les altres parts de la planta, mentre que elfloema transporta\nels nutrients fotosintetitzats des de les fullescap a les altres parts de la planta. Aquest cilindre vascular és essencial per\nalsuport estructural i eltransport eficient de substàncies en les plantes.",
+    "id": "academia_sim106_q18",
+    "statement": "Quina de les següents comarques NO forma part de la vegueria de Lleida?",
+    "correct": "D",
+    "explanation": "El Bages forma part de la vegueria de la Catalunya Central.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 106",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "El cilindrevascular",
-      "B": "L'entrenús",
-      "C": "La medul·la",
-      "D": "El còrtex"
+      "A": "La Noguera",
+      "B": "Les Garrigues",
+      "C": "La Segarra",
+      "D": "El Bages"
     }
   },
   {
-    "id": "academia_sim107_q79",
-    "simulacre": "Simulacre 107",
-    "num_pregunta": 79,
-    "statement": "Quin dispositiu s'utilitza per protegir un motor elèctric de sobrecàrregues?",
-    "correct": "C",
-    "explanation": "Es tracta d'un dispositiu electromecànic, dissenyat per protegir els motors elèctrics de sobrecàrregues o escalfaments.",
+    "id": "academia_sim106_q54",
+    "statement": "Quina de les següents afirmacions relatives al relleu de Catalunya és FALSA?",
+    "correct": "A",
+    "explanation": "El massís de l'Ardenya o serra de l'Ardenya és un conjunt de muntanyes situades a la zona litoral de les comarques de la\nSelva,el Gironès i el Baix Empordà.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 107",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 106",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Un variador de freqüència www.academiabombers.com",
-      "B": "Un SPD",
-      "C": "Un relé tèrmic",
-      "D": "Un díode"
+      "A": "El massís de l'Ardenya o serra de l'Ardenya és un conjunt de muntanyes situades a l'Alt Empordà",
+      "B": "El massís del Montgrí és un massís muntanyós a la vora del mar Mediterrani, situat a la comarca del Baix Empordà",
+      "C": "El cim més alt de Catalunya és la Pica d'Estats i forma part del massís del Montcalm",
+      "D": "La serra de Llaberia-Colldejou uneix estructuralment les muntanyes de Prades i de Cardó"
     }
   },
   {
-    "id": "academia_sim109_q36",
-    "simulacre": "Simulacre 109",
-    "num_pregunta": 36,
-    "statement": "En la realització d'un esgotament amb autobomba iobviant les pèrdues de càrrega, quin valor ens hauria d'indicar el manovacuòmetre si aspirem aigua 4 metres per sota de la bomba?",
-    "correct": "D",
-    "explanation": "",
+    "id": "academia_sim106_q82",
+    "statement": "La Depressió Central de Catalunya:",
+    "correct": "B",
+    "explanation": "S’estén entre el Prepirineu i les Serralades Costaneres, obrint-se cap a ponent i connectant amb la Depressió de l’Ebre,\nde la qual constitueix la seva prolongació oriental. Des del punt de vista físic, es configura com una sèrie d’altiplans\nsituats entre els 800 i 1.000 metres d’altitud que disminueixen progressivament fins als 100 metres a mesura que\ns’avança cap a l’oest, on comença la Depressió de l’Ebre. Entre aquests relleus s’hi troben conques d’erosió formades\npels rius en incidir sobre materials tous com les argiles i les margues, donant lloc a zones com el Pla de Bages o la\nConca de Barberà.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 106",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Està situada entre el Montseny i el Massís del Garraf, tancant-se cap a l’interior",
+      "B": "S'estén entre el Prepirineu i les Serralades Costaneres, obrint-se cap a ponent",
+      "C": "Forma part de la Serralada Prelitoral i separa el Pirineu del mar Mediterrani",
+      "D": "S'estén entre el Pirineu i el Prepirineu, obrint-se cap a llevant"
+    }
+  },
+  {
+    "id": "academia_sim108_q89",
+    "statement": "On es troba el Cap de Sant Sebastià?",
+    "correct": "B",
+    "explanation": "El Cap de Sant Sebastià es troba a Llafranc, dins del municipi de Palafrugell (Baix Empordà), a la Costa Brava.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 108",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "A Salou",
+      "B": "A Llafranc",
+      "C": "A Roses",
+      "D": "A l’Ametlla de Ma"
+    }
+  },
+  {
+    "id": "academia_sim109_q7",
+    "statement": "La Serra de Boumort actua com a divisòria d’aigües entre:",
+    "correct": "D",
+    "explanation": "Més concretament, actua com a divisòria d’aigües entre:\n· El riu Segre, a la banda sud,\n· El riu Noguera Pallaresa, a la banda nord.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 109",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "-4bar",
-      "B": "40 bar",
-      "C": "0,4 bar",
-      "D": "-0,4 bar"
+      "A": "El riu Llobregat i el riu Ter",
+      "B": "El riu Noguera Pallaresa i el riu Noguera Ribagorçana",
+      "C": "El riu Segre i el riu Llobregat",
+      "D": "El riu Segre i el riu Noguera Pallaresa"
     }
   },
   {
-    "id": "academia_sim118_q53",
-    "simulacre": "Simulacre 118",
-    "num_pregunta": 53,
-    "statement": "Els elements que constitueixen el motor es podrien dividir en elements fixos ielements mòbils. Quin dels següents NO formarà part dels elements mòbils?",
-    "correct": "C",
-    "explanation": "Elements fixos: bloc, culata, càrter.\n\nElements mòbils: biela, pistons, cigonyal, volant d'inèrcia.",
+    "id": "academia_sim111_q13",
+    "statement": "Quin riu que discorre entre els termes de Gombrèn (Ripollès) i la Pobla de Lillet (Berguedà), situat al límit d'ambdues comarques?",
+    "correct": "A",
+    "explanation": "Rep per l'esquerra el torrent d'Avinyonet, i és afluent del Llobregat.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 118",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 111",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La biela",
-      "B": "Elvolant d'inèrciai elcàrter, jaque els dos són elements fixos",
-      "C": "El càrter",
-      "D": "El volant d'inèrcia"
+      "A": "L'Arija",
+      "B": "El riu d'Anguera",
+      "C": "El Cinca",
+      "D": "El Llobregós"
     }
   },
   {
-    "id": "academia_sim122_q25",
-    "simulacre": "Simulacre 122",
-    "num_pregunta": 25,
-    "statement": "En un motor de gasolina d'injecció indirecta de quatre temps, durant el temps d'admissió:",
-    "correct": "B",
-    "explanation": "El motor dièsel, en el temps d'admissió aspira només aire.\n\n26.- www.academiabombers.com\nL’InstitutCatalà de les Dones, amb la col·laboració dels departaments corresponents iamb la participació dels agents\nsocials i econòmics implicats i de les entitats, associacions i col·lectius de defensa dels drets de les dones d’arreu de\nCatalunya, és l’òrgan encarregat de dissenyar, coordinar iimpulsar l’elaboració dels plans estratègics de polítiques\nd'igualtat de gènere de l’Administració de la Generalitat, itambé de fer-ne el seguiment il’avaluació.",
+    "id": "academia_sim112_q12",
+    "statement": "Quin àmbit funcional territorial de Catalunya compta amb un major nombre de polígons d'activitat econòmica (PAES)?",
+    "correct": "A",
+    "explanation": "PAES: Nombre total de polígons d’activitat econòmica.\nCamp de Tarragona: 121 PAES.\nComarques Centrals: 260 PAES.\nMetropolità: 447 PAES.\nPenedès: 148 PAES.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 122",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 112",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "Aspira només aire",
-      "B": "Aspira lamescla d'aireigasolina",
-      "C": "Aspira la gasolina",
-      "D": "Aspira dièsel"
+      "A": "Metropolità",
+      "B": "Penedès",
+      "C": "Camp de Tarragona",
+      "D": "Comarques Centrals"
     }
   },
   {
-    "id": "academia_sim125_q49",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 49,
-    "statement": "Quina capacitat d'aigua té una Bomba Urbana Pesada (BUP)?",
-    "correct": "C",
-    "explanation": "BUL - Bomba urbana lleugera: 1.000 – 1.650 litres.\nBUP -Bomba urbana pesada: 3.000 – 4.000 litres.\nBRP -Bomba rural pesada: 3.000 – 4.000 litres.\nBNP -Bomba nodrissa pesada: 7.000 – 10.000 litres.\n50.- www.academiabombers.com\nAvui, els equips certificats sota l’INSARAG:\n\n− Actuen de forma autònoma, sense dependre de recursos locals.\n\n− Tenen protocols compartits de comandament, comunicació iactuació.\n\n− Es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) liderat per Nacions Unides.\n\n\n\n\n\n\n\n 21\nAcadèmia Bombers Simulacre 125\n\n\n\n− Estan classificats en tres categories (lleugers, mitjans i pesats) segons la seva capacitat operativa.",
-    "difficulty": "Mitjà",
-    "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
-    "section": "Simulacre 125",
-    "isSaved": 0,
-    "isAnswered": 0,
-    "options": {
-      "A": "5.000 – 5.650 litres",
-      "B": "4.000 – 5.000 litres",
-      "C": "3.000 – 4.000 litres",
-      "D": "2.000 – 3.000 litres"
-    }
-  },
-  {
-    "id": "academia_sim125_q60",
-    "simulacre": "Simulacre 125",
-    "num_pregunta": 60,
-    "statement": "Quin angle d'atac presenta aproximadament la BUL?",
+    "id": "academia_sim112_q73",
+    "statement": "Quin riu neix a la Serra del Port del Compte?",
     "correct": "D",
+    "explanation": "El riu Cardener neix a la Serra del Port del Comte, concretament a les Fonts del Cardener, al municipi de la Coma i la\nPedra (Solsonès).\n20",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 112",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Daró",
+      "B": "La Tordera",
+      "C": "El riu Gaià",
+      "D": "El riu Cardener"
+    }
+  },
+  {
+    "id": "academia_sim113_q90",
+    "statement": "Estàs situat al municipi de Montblanc i es declara un incendi forestal a les Muntanyes de Prades amb vent de llevant. Quin corredor viari d’evacuació hauries d’utilitzar?",
+    "correct": "C",
     "explanation": "",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 113",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "C-14 cap a Reus",
+      "B": "C-15 cap a Igualada",
+      "C": "C-14 cap a Tàrrega",
+      "D": "C-15 cap a Vilafranca del Penedès"
+    }
+  },
+  {
+    "id": "academia_sim115_q3",
+    "statement": "Quin dels següents conjunts està format exclusivament per afluents del riu Ter?",
+    "correct": "A",
+    "explanation": "Recorda que només la realitzarem si el pacient té incapacitat per tossir.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 115",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Mogent, Onyar, Ges",
+      "B": "Tenes, Brugent, Escrita",
+      "C": "Ritort, Ges, Gurri",
+      "D": "Santa Magdalena, Flamisell, Ritort"
+    }
+  },
+  {
+    "id": "academia_sim116_q69",
+    "statement": "Relatiu a l'orografia catalana, quina de les següents afirmacions és CERTA?",
+    "correct": "B",
+    "explanation": "Les Guilleries es consideren dins la Serralada Transversal.\nLa Serra del Catllaràs es troba a les comarques del Berguedà i el Ripollès.\nLa Serra del Montsec és més meridional que la Serra de Boumort. De fet, la Serra del Montsec és la serralada més\nmeridional del Prepirineu català.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 116",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les Guilleries són un massís muntanyós situat a l’extrem nord-est del sistema Prepirinenc",
+      "B": "La serra d’Ordal és un massís que s’estén per diversos municipis de la comarca de l’Alt Penedès",
+      "C": "La Serra del Catllaràs es troba a les comarques de l'Alt Urgell i la Cerdanya",
+      "D": "La Serra del Montsec és més septentrional que la Serra de Boumort"
+    }
+  },
+  {
+    "id": "academia_sim117_q2",
+    "statement": "Quina afirmació relativa als rius de Catalunya és INCORRECTA?",
+    "correct": "A",
+    "explanation": "El Fluvià és un riu del Pirineu Oriental que té el seu origen a la Garrotxa, concretament al Grau d’Olot, a uns 920 metres\nd’altitud. Travessa la plana d’en Bas i passa per Olot; a Sant Joan les Fonts canvia la seva direcció cap a llevant.\nFinalment, desemboca al golf de Roses, al terme de Sant Pere Pescador, després de recórrer localitats com Castellfollit\nde la Roca, Besalú, Esponellà i Torroella de Fluvià. La seva longitud total és de 97,2 km.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 117",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "El Fluvià travessa el Massís de Cadiretes",
+      "B": "El pantà de la Llosa del Cavall pertany al riu Cardener",
+      "C": "El Bastareny és un afluent del Llobregat",
+      "D": "L'Arija és un riu situat al límit de les comarques del Ripollès i el Berguedà"
+    }
+  },
+  {
+    "id": "academia_sim119_q95",
+    "statement": "Quina afirmació relativa a les reserves naturals a Catalunya és CORRECTA?",
+    "correct": "C",
+    "explanation": "Són els espais naturals d'extensió reduïda i de considerable interès científic que són objecte d'aquesta declaració per\naconseguir preservar íntegrament el conjunt d'ecosistemes naturals que contenen o alguna de les seves parts. La\ndeclaració de reserves naturals es fa per llei quan és reserva integral i per decret del Consell Executiu quan és reserva\nparcial.\nA Catalunya hi ha declarades 59 reserves naturals parcials:\n22\n\n· 27 al Parc Natural de la Zona Volcànica de la Garrotxa.\n· 2 al Parc Natural del Cap de Creus.\n· 2 al Parc Natural del Delta de l’Ebre.\n· 2 al Parc Natural de l’Alt Pirineu.\n· 2 al Parc Natural del Montgrí, les Illes Medes i el Baix Ter\n· 2 al Parc Natural de Collserola.\n· 2 al Paratge Natural d'Interès Nacional de l'Albera.\n· 1 al Parc Natural dels Ports.\n· 1 al Parc Natural dels Aiguamolls de l’Empordà.\n· 1 al Parc Natural de la Muntanya de Montserrat.\n· 17 isolades.\n23",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 119",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Les reserves naturals són espais naturals d’extensió considerable i gran interès científic, declarats amb l’objectiu de limitar l’activitat humana i preservar els ecosistemes.",
+      "B": "A Catalunya hi ha declarades 67 reserves naturals parcials",
+      "C": "El Parc Natural de la Zona Volcànica de la Garrotxa és l’espai natural amb més reserves naturals parcials del territori català",
+      "D": "La declaració de reserves naturals es fa per decret quan és reserva integral i per llei quan és reserva parcial 12"
+    }
+  },
+  {
+    "id": "academia_sim125_q46",
+    "statement": "La zonificació és una de les accions més eficients a nivell de seguretat és la de crear un zonatge que delimiti la zona de risc. A la zona tèbia:",
+    "correct": "D",
+    "explanation": "Zona Tèbia.\nActua com a franja de zona segura i transició entre la contaminació i la zona freda. S’hi estableixen:\n−Punts de descontaminació de persones i equips (ABD).\n−Àrees de preparació logística (muntatge d’equips, recanvi d’EPI, comandaments intermedis, equips de relleu, etc.)\n−Només accedeix personal autoritzat, habitualment amb EPI de nivell inferior (protecció lleugera) o roba de suport.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 125",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "18°",
-      "B": "20°",
-      "C": "12°",
-      "D": "15°"
+      "A": "S'hi ubica el Centre de Comandament Avançat (CCA)",
+      "B": "Hi pot haver personal no operatiu o en reserva",
+      "C": "Només hi accedeixen equips especialitzats amb EPI complet i tasca assignada",
+      "D": "S'hi estableixen els punts de descontaminació de persones i equips (ABD)"
     }
   },
   {
-    "id": "academia_sim127_q54",
-    "simulacre": "Simulacre 127",
-    "num_pregunta": 54,
-    "statement": "Quina és l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya?",
+    "id": "academia_sim127_q46",
+    "statement": "Davant d'un perill amb presència de risc NRBQ, a quina zona s'hi establiran els punts de descontaminació de persones i equips (ABD)?",
     "correct": "B",
-    "explanation": "Bomba Rural Pesada (BRP).\n\nDescripció: Vehicle polivalent dissenyat per a actuacions en tottipus d’entorns, urbans, rurals iforestals, especialment\nadaptat a terrenys difícils.És l’autobomba estàndard de la majoria de parcs de Bombers de la Generalitat de Catalunya",
+    "explanation": "Zona Tèbia.\nActua com a franja de zona segura i transició entre la contaminació i la zona freda. S’hi estableixen:\n−Punts de descontaminació de persones i equips (ABD).\n−Àrees de preparació logística (muntatge d’equips, recanvi d’EPI, comandaments intermedis, equips de relleu, etc.)\n−Només accedeix personal autoritzat, habitualment amb EPI de nivell inferior (protecció lleugera) o roba de suport.",
     "difficulty": "Mitjà",
     "block": "Bloc A",
-    "theme": "T18 - Vehicles d'intervenció mecànica",
+    "theme": "T18 - Geografia i territori",
     "section": "Simulacre 127",
     "isSaved": 0,
     "isAnswered": 0,
     "options": {
-      "A": "La Bomba Rural Pesada (BRP)",
-      "B": "La Bomba Rural Pesada (BRP)",
-      "C": "La Bomba Urbana Pesada (BUP)",
-      "D": "La Bomba Urbana Lleugera (BUL)"
+      "A": "Zona Calenta",
+      "B": "Zona Tèbia",
+      "C": "Zona Freda",
+      "D": "Dependrà dels criteris que es facin servir per definir el zonatge"
+    }
+  },
+  {
+    "id": "academia_sim128_q58",
+    "statement": "Davant d'un animal amb un cop de calor, quina és l'actuació indicada fins al relleu veterinari?",
+    "correct": "D",
+    "explanation": "En els cops de calor la prioritat és baixar la temperatura corporal amb ruixats d'aigua, alcohol en zones irrigades, ombra i\nhidratació progressiva. Les mantes i el control de constants corresponen als rescats aquàtics, on el risc és la hipotèrmia.",
+    "difficulty": "Mitjà",
+    "block": "Bloc A",
+    "theme": "T18 - Geografia i territori",
+    "section": "Simulacre 128",
+    "isSaved": 0,
+    "isAnswered": 0,
+    "options": {
+      "A": "Aplicar-li aigua amb cura, aplicar compreses fredes a les zones irrigades i restringir la ingesta d’aigua fins a l’arribada del veterinari",
+      "B": "Traslladar-lo a l’ombra, cobrir-lo amb mantes humides i administrar-li aigua de manera progressiva",
+      "C": "Ruixar-lo amb aigua fresca, aplicar compreses fredes a les zones irrigades, oferir-li aigua abundant i, si cal, administrar oxigen amb màscares adaptades",
+      "D": "Ruixar-lo amb aigua, aplicar alcohol en zones irrigades, ombra i administrar-li aigua progressivament"
     }
   }
 ]
